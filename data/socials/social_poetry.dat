@@ -1,0 +1,34 @@
+FunName:    social_poetry
+Intention:  INTENTION.FRIENDLY
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Declami alcuni versi di un antico poema.
+  OthersNoArg: $n mormora alcuni versi di straordinaria bellezza.
+  EntityFound: Dedichi a $N una poesia in omaggio alla sua persona.
+  OthersFound: $n recita una poesia per $N.
+  TargetFound: $n mormora per te alcuni versi di una bellissima poesia.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Mormori antichi versi pixie il cui significato ti è ignoto.
+  OthersNoArg: $n produce lievi suoni incomprensibili ma piacevoli da ascoltare.
+  EntityFound: Ti avvicini a $N e gli sussurri all'orecchio alcuni versi antichi.
+  OthersFound: $n si avvicina all'orecchio di $N e mormora arcane parole.
+  TargetFound: $n si accosta al tuo orecchio e mormora una dolce ma oscura poesia.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Declami versi di antichi poemi felar.
+  OthersNoArg: $n miagola versi di qualche antico poema.
+  EntityFound: $N ti fornisce l'ispirazione adatta per improvvisare alcuni versi in rima.
+  OthersFound: $n si lascia ispirare dalla presenza di $N e s'improvvisa poeta.
+  TargetFound: Fai uno strano effetto su $n.. Ti guarda e declama versi di poesie sconosciute.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Declami versi di antichi poemi felini.
+  OthersNoArg: $n miagola versi di qualche antico poema.
+  EntityFound: $N ti fornisce l'ispirazione adatta per improvvisare alcuni versi in rima.
+  OthersFound: $n si lascia ispirare dalla presenza di $N e s'improvvisa poeta.
+  TargetFound: Fai uno strano effetto su $n.. Ti guarda e declama versi di poesie sconosciute.
+End

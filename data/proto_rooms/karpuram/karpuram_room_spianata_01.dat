@@ -1,0 +1,21 @@
+Code: karpuram_room_spianata_01
+Sector: SECTOR.PLAIN
+Name: La Spianata
+Short: uno spiazzo pianeggiante
+Descr:
+Sei su di uno spiazzo che separa l'ultimo declivio della cima della collina.
+La discesa è da quella parte ma per salire si passa per il bosco. 
+DescrSixth:
+Un bosco è sempre un buon posto per qualcuno o qualcosa
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Il bosco
+End
+Exits:
+  Direction: DIR.NORTHWEST
+  Descr: La discesa
+End

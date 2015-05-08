@@ -1,0 +1,40 @@
+FunName:    social_love
+Intention:  INTENTION.FRIENDLY
+Expression: sognante
+Smiles:     *_*
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Sogni ad occhi aperti il grande amore della tua vita..
+  OthersNoArg: $n sospira pensando al suo amore lontano.
+  EntityFound: Guardi $N con infinito amore..
+  OthersFound: $n guarda $N teneramente innamorat$o.
+  TargetFound: $n ti comunica il suo amore con lo sguardo.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Pianifichi ad occhi ben aperti un matrimonio redditizio.
+  OthersNoArg: $n pianifica lucidamente un matrimonio redditizio.
+  EntityFound: Guardi $N pensando alle proficue conseguenze di un matrimonio.
+  OthersFound: $n guarda $N con sospettosissimo desiderio.
+  TargetFound: $n emula magnificamente ardore e passione nei tuoi confronti.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Senti crescere in te la grande fiamma dell'amore!
+  OthersNoArg: $n ha una vaga espressione di khajit innamorat$o..
+  EntityFound: Osservi $N con speranzoso ardimento ed amore appassionato.
+  OthersFound: Si vede lontano un miglio che $n è innamorat$o di $N.
+  TargetFound: Ti fissa negli occhi con sguardo innamorato.. Perché muove la coda allora?
+  EntityAuto:  Nutri per te amore sconfinato.
+  OthersAuto:  $n si stringe in un tenero ed innamorato abbraccio, miagolando di gioia. Content$o $lui..
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Senti crescere in te la grande fiamma dell'amore!
+  OthersNoArg: $n ha una vaga espressione di khajit innamorat$o..
+  EntityFound: Osservi $N con speranzoso ardimento ed amore appassionato.
+  OthersFound: Si vede lontano un miglio che $n è innamorat$o di $N.
+  TargetFound: Ti fissa negli occhi con sguardo innamorato.. Perché muove la coda allora?
+  EntityAuto:  Nutri per te amore sconfinato.
+  OthersAuto:  $n si stringe in un tenero ed innamorato abbraccio, miagolando di gioia. Content$o $lui..
+End

@@ -1,0 +1,31 @@
+Comment: È la sala del trono di gatto, la mia cuccia, mra'! mra'!
+Code: limbo_room_gatto_1
+Sector: SECTOR.VOID
+Name: La Sala del Trono di Gatto
+Short: Una strana stanza con una cuccia
+Descr:
+Questa stanza ha un pavimento di marmo e un soffitto a cassettoni di legno
+dorato, ma le pareti non ci sono e si perdono in un infinito vuoto stellato.
+Width:	12m
+Depth:	12m
+Height: 14m
+Owner: Onirik
+ModTemperature: 1
+ModLight:	2
+ModNoise:	-1
+Exits:
+  Direction:	DIR.SOUTH
+  DescrSmell: Puzza! Puzza!
+End
+
+Exits:
+  Direction:	DIR.NORTH
+  Descr: Vedi la prima stanza esterna al limbo.
+  Destination: 0 0 0 mfdonald
+End
+
+Extras:
+    Keywords: gatto
+    Descr: Matto!
+    DescrTouch: Non carezzarlo troppo sennò si arruffa tutto!
+End

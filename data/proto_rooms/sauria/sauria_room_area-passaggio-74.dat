@@ -1,0 +1,35 @@
+Comment: 0 8|8388608 0
+Code: sauria_room_area-passaggio-74
+Sector: SECTOR.UNDERGROUND
+Flags:	ROOM.INSIDE
+Name: L'Area Di Passaggio
+Short: l'area di passaggio
+
+Descr:
+Il corridoio segna il passaggio dal nero lucido della parte ad ovest, alla roccia brunastra ed est. La giunzione fra le due sembra sia stata fatta con grande precisione. 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 0 21873
+  Descr:	Grotta naturale
+  Direction:	DIR.EAST
+End
+Exits:
+  Comment:	0 0 21894
+  Descr:	La mente riposa
+  Direction:	DIR.WEST
+End

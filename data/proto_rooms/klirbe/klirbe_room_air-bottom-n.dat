@@ -1,0 +1,42 @@
+Code: klirbe_room_air-bottom-n
+Sector: SECTOR.AIR
+Name: In Volo
+Short: nell'aria
+
+Descr:
+Nell'aria umida e fradicia senza alcun appiglio possibile. Tutto attorno solo lo spazio
+sconfinato sopra l'oceano; Lontano a sud una parete rocciosa.
+DescrSmell: 
+Odore di salsedine ed aria madida.
+DescrHearing:
+Dal basso giunge il rumore disturbato dell'oceano che s'infrange.
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.UP
+	Descr: Sempre più su
+End
+Exits:
+	Direction: DIR.DOWN
+	Descr: L'atterraggio
+End
+Exits:
+	Direction: DIR.NORTH
+	Descr: Ancora spazi sconfinati
+End
+Exits:
+	Direction: DIR.EAST
+	Descr: Ancora spazi sconfinati
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: Ancora spazi sconfinati
+End
+Exits:
+	Direction: DIR.SOUTH
+	Descr: Ancora spazi sconfinati
+End

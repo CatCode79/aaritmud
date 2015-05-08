@@ -1,0 +1,51 @@
+Code: novizi2_room_02-get-drop
+Icon: icons/room/triskele-yellow.png
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Far Pratica con gli oggetti
+Short: far pratica con gli oggetti
+
+Descr:
+In questo piccolo disbrigo puoi fare le prime prove di base raccogliendo monete
+per metterle e toglierle dal salvadanaio; tutto quello che serve è:<br>
+<br>
+- $tGET<br>
+- $tPUT<br>
+- $tGIVE<br>
+- $tDROP<br>
+<br>
+#novizi_item_moneta_01#
+In verità la moneta non serve che rimanga, un nostro tecnico passa ogni mattina di
+buon ora a metterne qualcuna ogni volta che ve ne sarà necessità.
+#Ci sarebbe dovuta essere almeno una moneta qui a terra ma pare proprio che qualcuno
+sia passato prima di te. Considera che all'alba un nostro tecnico passerà a rimetterne.#
+Peraltro la moneta si rivela molto utile in caso di scelte optative...
+
+DescrSixth:
+Ti sovviene che un modo potrebbe essere:<br>
+$tGET [red]moneta[close]<br>
+<br>
+per poi metterla nel salvadanaio,<br>
+$tPUT [red]moneta salvadanaio[close]<br>
+<br>
+poi riprenderla di nuovo,<br>
+$tGET [red]moneta salvadanaio[close]<br>
+<br>
+per darla ad una domestica,<br>
+$tGIVE [red]moneta domestica[close]<br>
+<br>
+oppure ributtarla qui...<br>
+$tDROP [red]moneta[close]<br>
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.EAST
+	Descr: [lemonchiffon]I sei sensi[close]
+End
+Exits:
+	Direction: DIR.SOUTHWEST
+	Descr: [lemonchiffon]Un corridoio[close]
+End

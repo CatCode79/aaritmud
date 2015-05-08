@@ -1,0 +1,26 @@
+Code: miniere-kezaf_room_p1-01
+Sector: SECTOR.UNDERGROUND
+Name: L'Ingresso della Miniera
+Short: l'accesso alla miniera
+
+Descr:
+Una voragine orizzontale procede dritta nel fianco della collina rocciosa. Poca la terra e molta la roccia dura che tempra le virtù di chi è sopravvissuto agli scavi.
+DescrTouch: 
+Una cornice rocciosa per un'accesso orizzontale alle profondità della collina.
+DescrSmell: 
+Un misto di vegetazione ed umidità antica si mescolano in un sentore innaturale.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: La nuda roccia
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: La nuda roccia
+  Destination: 3 3 0 villaggio-zingaro
+End
+

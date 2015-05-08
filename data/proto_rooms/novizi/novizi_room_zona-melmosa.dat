@@ -1,0 +1,24 @@
+Code: novizi_room_zona-melmosa
+Sector: SECTOR.SWAMP
+Name: La Zona Melmosa
+Short: la zona melmosa
+
+Descr:
+Un'ampia zona pianeggiante in cui la vegetazione è ridotta unicamente ad arbusti nani e sparute erbacce.
+DescrTouch: 
+Od ogni passo si affonda sempre più in una terraccia molle e appiccicosa.
+DescrSmell: 
+Qualcosa si deve essere decomposto con tutta calma qui da almeno diversi anni
+DescrSixth:
+Una gran bella palude. 
+DescrHearing:
+Un gocciolio diseguale è coperto saltuariamente da ronzii che si fanno vicinissimi per poi sparire di nuovo.
+
+Width:	100m
+Depth:	100m
+Height: 200m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: Laggiù in fondo una casupola
+End

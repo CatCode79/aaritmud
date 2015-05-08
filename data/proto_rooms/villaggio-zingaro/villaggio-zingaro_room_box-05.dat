@@ -1,0 +1,32 @@
+Code: villaggio-zingaro_room_box-05
+Sector: SECTOR.VILLA
+Flags:	ROOM.INSIDE
+Name: Il Box di Inorog
+Short: un box
+
+Descr:
+Il box in cui ti trovi è a pianta rettangolare e termina sul lato sud con una nicchia semicircolare, anche sul soffitto il lucernario sfocia morbidamente in una volta trasparente. La copertura in legno delle pareti è scalfita nella parte inferiore e lascia scoperta la pietra del muro sottostante.
+DescrSmell: 
+Un forte odore equino penetra le narici.
+DescrHearing:
+Odi numerosi sbuffi e nitriti.
+DescrSixth:
+Hai l'impressione che questa parte della struttura sia precedente alla costruzione della stalla e che sia stata rimaneggiata in tempi più recenti.
+
+Extras:
+	Keywords: scalfita legno pietra copertura
+	Descr:
+	Sul legno sono rimaste abbondati impronte di zoccoli.
+	DescrSixth:
+	I calci di un animale non troppo tranquillo devono aver strappato dal muro il legno mancante.
+End
+
+Width:	3m
+Depth:	2m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Al centro della stalla
+  Door: villaggio-zingaro_item_door-box-05
+End

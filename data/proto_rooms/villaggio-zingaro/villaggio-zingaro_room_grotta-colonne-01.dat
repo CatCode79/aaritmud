@@ -1,0 +1,33 @@
+Comment: Abbozzo
+Code: villaggio-zingaro_room_grotta-colonne-01
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: Aggirando le Colonne
+Short: aggirando le colonne
+
+Descr:
+Un accidentato sentiero in lieve pendenza si accosta alle imponenti colonne; viste da vicino sono rugose e bitorzolute, lunghe vene calcaree sembrano colare senza sosta. Sulla parete vi sono dei segni lasciati da un piccone o uno strumento simile.
+DescrSmell: 
+Aria calda e madida di umido.
+DescrSixth:
+I sentieri tracciati e molti altri piccoli elementi ti fanno pensare che questa grotta non dev'esser stata sempre deserta e silenziosa. 
+DescrHearing:
+La convinta brezza che t'investe, si muta in fischio passando fra interstizi di stalagmiti.
+
+Extras:
+	Keywords: segni
+	DescrSixth:
+	Intuisci che qualcuno in tempi più o meno recenti deve aver estratto dei minerali da qui.
+End
+
+Width:	4m
+Depth:	2m
+Height: 10m
+Exits:
+	Direction: DIR.NORTHWEST
+	Descr: Attorno al lago
+End
+Exits:
+	Direction: DIR.SOUTH
+	Descr: Aggirando le colonne
+End

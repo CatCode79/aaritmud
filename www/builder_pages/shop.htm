@@ -1,0 +1,316 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<h2>Indice delle Etichette per i Negozi</h2>
+<div>
+<a href='#Comment'><span class='label'>Comment</span>:</a><br>
+<a href='#Types'><span class='label'>Types</span>:</a><br>
+<a href='#ProtoStorages'><span class='label'>ProtoStorages</span>:</a><br>
+<a href='#ProtoLocations'><span class='label'>ProtoLocations</span>:</a><br>
+<a href='#Buyables'><span class='label'>Buyables</span>:</a><br>
+<a href='#Sellables'><span class='label'>Sellables</span>:</a><br>
+<a href='#EntityBuyMessage'><span class='label'>EntityBuyMessage</span>:</a><br>
+<a href='#TargetBuyMessage'><span class='label'>TargetBuyMessage</span>:</a><br>
+<a href='#OthersBuyMessage'><span class='label'>OthersBuyMessage</span>:</a><br>
+<a href='#DealersBuyMessage'><span class='label'>DealersBuyMessage</span>:</a><br>
+<a href='#EntityCannotAffordMessage'><span class='label'>EntityCannotAffordMessage</span>:</a><br>
+<a href='#TargetCannotAffordMessage'><span class='label'>TargetCannotAffordMessage</span>:</a><br>
+<a href='#OthersCannotAffordMessage'><span class='label'>OthersCannotAffordMessage</span>:</a><br>
+<a href='#DealersCannotAffordMessage'><span class='label'>DealersCannotAffordMessage</span>:</a><br>
+<a href='#EntityOfferMessage'><span class='label'>EntityOfferMessage</span>:</a><br>
+<a href='#TargetOfferMessage'><span class='label'>TargetOfferMessage</span>:</a><br>
+<a href='#OthersOfferMessage'><span class='label'>OthersOfferMessage</span>:</a><br>
+<a href='#DealersOfferMessage'><span class='label'>DealersOfferMessage</span>:</a><br>
+<a href='#EntitySellMessage'><span class='label'>EntitySellMessage</span>:</a><br>
+<a href='#TargetSellMessage'><span class='label'>TargetSellMessage</span>:</a><br>
+<a href='#OthersSellMessage'><span class='label'>OthersSellMessage</span>:</a><br>
+<a href='#DealersSellMessage'><span class='label'>DealersSellMessage</span>:</a><br>
+<a href='#EntityUninterestedMessage'><span class='label'>EntityUninterestedMessage</span>:</a><br>
+<a href='#TargetUninterestedMessage'><span class='label'>TargetUninterestedMessage</span>:</a><br>
+<a href='#OthersUninterestedMessage'><span class='label'>OthersUninterestedMessage</span>:</a><br>
+<a href='#DealersUninterestedMessage'><span class='label'>DealersUninterestedMessage</span>:</a><br>
+</div>
+<br>
+
+<hr>
+<h2>Note Riguardo ai Negozi.</h2>
+<div>
+Si tratta di una struttura peculiare per mob o per oggetti che consentedi realizzare dai venditori, commercianti, riparatori; fino ai distribuutori automatici di palline con dolciumi o tutto quello che la fantasia pu&ograve; realizzare.<br>
+<span class="label">Shop</span> &egrave; un'etichetta che rappresenta una struttura di pi&ugrave; sottoetichette, e quindi abbisogna dell'etichetta <span class="label">End</span> per terminarne la definizione.<br>
+</div>
+<br>
+
+<hr>
+<h2>Tabella di Riferimento Veloce.</h2>
+<div>
+<table border="1">
+<tr class="thref"><td>Etichetta</td><td>Tipologia</td><td>Utilizzo</td></tr>
+<tr><td class="label">Comment</td><td>Stringa, relativa ad un commento</td><td>Facoltativo, consigliato se c'&egrave; qualcosa di particolare</td></tr>
+<tr><td class="label">Types</td><td>Flags, relative alla tipologia SHOP</td><td>Facoltativa</td></tr>
+<tr><td class="label">ProtoStorages</td><td>Codice Entit&agrave;</td><td>Facoltativa</td></tr>
+<tr><td class="label">ProtoLocations</td><td>Codice Entit&agrave;</td><td>Facoltativa</td></tr>
+<tr><td class="label">Buyables</td><td>Codice Entit&agrave;</td><td>Obbligatoria</td></tr>
+<tr><td class="label">Sellables</td><td>Flags, relative alla tipologia ENTITYPE</td><td>Facoltativa</td></tr>
+<tr><td class="label">EntityBuyMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">TargetBuyMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">OthersBuyMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">DealersBuyMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">EntityCannotAffordMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">TargetCannotAffordMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">OthersCannotAffordMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">DealersCannotAffordMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">EntityOfferMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">TargetOfferMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">OthersOfferMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">DealersOfferMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">EntitySellMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">TargetSellMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">OthersSellMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">DealersSellMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">EntityUninterestedMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">TargetUninterestedMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">OthersUninterestedMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">DealersUninterestedMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+
+</table>
+</div>
+<br>
+
+<hr>
+<h2>Struttura Tipica (per copia e incolla).</h2>
+<div>
+<pre>
+
+Shop:
+ 	Comment:
+	Types:
+	ProtoLocations:
+	Buyables:	ikea_item_zaino 150% 200
+	Sellables:	ENTITYPE.FOOD 60% 150%
+End
+</pre>
+</div>
+<br>
+
+<hr>
+<h2>Spiegazione delle Etichette.</h2>
+<div>
+<a name='Comment'><h3 class='label'>Comment:</h3></a>
+Eventuale commento relativo al negozio, per maggior informazioni leggere <a href="comment.htm">questa pagina</a>.<br>
+Non &egrave; obbligatoria, ma &egrave; comunque consigliato utilizzarla se la tipologia d'entit&agrave; &egrave; una cosa particolare o bisogna segnarsi qualcosa da ricordare.<br>
+<br>
+
+<a name='Types'><h3 class='label'>Types:</h3></a>
+Indica la tipologia del negozio, &egrave; una <a href="flags.htm">Flags</a> e si rif&agrave; alla <a href="elements_list.htm#SHOP">lista delle flag di SHOP</a>.<br>
+Nel caso si utilizzi SHOP.DISPENSER si ottiene un distributore automatico (mob o item che sia); tale tipologia di shop non accetta i comandi sell e offer mentre il buy e il list funzionano normalmente ma con messaggistica pi&ugrave; o meno modificata. Di contro il comando list funziona se il distributore non si trova in una proto_location atta alla vendita.<br>
+L'etichetta &egrave; facoltativa, se non viene inserita &egrave; usato SHOP.NORMAL come default.<br>
+<br>
+
+<a name='ProtoStorages'><h3 class='label'>ProtoStorages:</h3></a>
+Lista di codici identificativi delle locazioni o dei mob o degli item dove il commerciante tiene il magazzino. Nel caso siano state resettate pi&ugrave; entit&agrave; nel gioco con il prototipo indicato in ProtoStorages tutte tali entit&agrave; sono validi magazzini.<br>
+&Egrave; possibile impostare una o pi&ugrave; codici di prototipo indicante l'entit&agrave; da utilizzare come magazzino, dev'essere un'entit&agrave; direttamente accessibile dal negoziante stesso.<br>
+&Egrave; facoltativa e se non viene impostata allora ritiene che il magazzino sia il negoziante stesso.<br>
+<br>
+
+<a name='ProtoLocations'><h3 class='label'>ProtoLocations:</h3></a>
+Lista di codici identificativi delle locazioni dove il commerciante effettuer&agrave; la vendita. Nel caso siano state resettate pi&ugrave; stanze nel gioco con il prototipo indicato in ProtoLocations tutte tali stanze sono valide locazioni.<br>
+L'etichetta &egrave; facoltativa.<br>
+<br>
+
+<a name='Buyables'><h3 class='label'>Buyables:</h3></a>
+Lista di codici identificativi delle entit&agrave; messe in vendit&agrave; dal negozionate.<br>
+Il primo valore indica il codice dell'entit&agrave; vendibile.
+Il secondo valore indica la percentuale alla quale sar&agrave; vendut&agrave; l'entit&agrave; rispetto al suo Value<br>
+<!--
+riga rimossa per nascita dello store
+Il terzo valore indica la quantit&agrave; dell'entit&agrave; disponibile (valore maggiore di zero).<br>
+-->
+Il terzo valore indica quanti minuti reali necessita il rifornimento del prodotto una volta esaurito. Impostato a zero si ottiene una disponibiklit&agrave; infinita. Impostato a -1 equivale a RepopTime dell'area in cui si trova il negoziante al momento dell'esaurimento scorte.<br> 
+L'etichetta &egrave; obbligatoria.<br>
+<br>
+
+<a name='Sellables'><h3 class='label'>Sellables:</h3></a>
+Indica le tipologie di entit&agrave; comprabili dal negoziante.<br>
+Il primo valore indica la tipologia di entit&agrave; &egrave; una <a href="flags.htm">Flags</a> e si rif&agrave; alla <a href="elements_list.htm#ENTITYPE">lista delle flag di ENTITYPE</a>.<br>
+Il secondo valore indica il fatto re di guadagno, in percentuale, calcolato sul Value dell'entit&agrave; venduta.<br>
+Il terzo valore indica la percentuale dalla quale sar&agrave; venduta l'entit&agrave;, rispetto al suo Value, nel caso sia rimessa in vendita dal negoziante.<br>
+Utilizzando la Flag ENTITYPE.NONE il negoziante comprer&agrave; qualsiasi tipo di entit&agrave;.<br>
+L'etichetta &egrave; facoltativa, se non viene inserita il negoziante non comprer&agrave; nulla.<br>
+Se gli oggetti venduti sono dello stesso tipo, anche se non identici, di quelli gi&agrave; in vendita dal negoziante andranno ad aumentare i pezzi in magazino e non a creare una nuova voce nella lista.<br>
+<br>
+
+<a name='EntityBuyMessage'><h3 class='label'>EntityBuyMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto dall'entit&agrave; che compera qualcosa.<br>
+I tag di act utilizzabili, oltre quelli di default, per questo messaggio sono:<br>
+$n = il soggetto che effettua la vendita<br>
+$N = la mercanzia comprata<br>
+$a = il negoziante<br>
+%verb = verbo di default dell'azione<br>
+%quantity = la quantit&agrave; venduta<br>
+%price = il prezzo della vendita<br>
+L'utilizzo di quest'etichetta &egrave; facoltativo e non richiede la presenza di una delle altre tre.<br>
+<br>
+
+<a name='TargetBuyMessage'><h3 class='label'>TargetBuyMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto dall'entit&agrave; che viene comperata.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityBuyMessage</span>.
+L'utilizzo di quest'etichetta &egrave; facoltativo e non richiede la presenza di una delle altre tre.<br>
+<br>
+
+<a name='OthersBuyMessage'><h3 class='label'>OthersBuyMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto da tutti coloro che vedono comperare qualcosa.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityBuyMessage</span>.
+L'utilizzo di quest'etichetta &egrave; facoltativo e non richiede la presenza di una delle altre tre.<br>
+<br>
+
+<a name='DealersBuyMessage'><h3 class='label'>DealersBuyMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto dal venditore.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityBuyMessage</span>.
+Tranne:<br>
+$N = il negoziante<br> 
+$a = la mercanzia comprata<br>
+L'utilizzo di quest'etichetta &egrave; facoltativo e non richiede la presenza di una delle altre tre.<br>
+<br>
+
+<a name='EntityCannotAffordMessage'><h3 class='label'>EntityCannotAffordMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto dall'entit&agrave; che non pu&ograve; permettersi di comperare qualcosa.<br>
+I tag di act utilizzabili, oltre quelli di default, per questo messaggio sono:<br>
+$n = il soggetto che effettua la vendita<br>
+$N = la mercanzia comprata<br>
+$a = il negoziante<br>
+%verb = verbo di default dell'azione<br>
+%quantity = la quantit&agrave; venduta<br>
+%price = il prezzo della vendita<br>
+L'utilizzo di quest'etichetta &egrave; facoltativo e non richiede la presenza di una delle altre tre.<br>
+<br>
+
+<a name='TargetCannotAffordMessage'><h3 class='label'>TargetCannotAffordMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto dall'entit&agrave; che si tenta di comperare.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityCannotAffordMessage</span>.
+L'utilizzo di quest'etichetta &egrave; facoltativo e non richiede la presenza di una delle altre tre.<br>
+<br>
+
+<a name='OthersCannotAffordMessage'><h3 class='label'>OthersCannotAffordMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto da tutti coloro che vedono il tentativo di acquisto.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityCannotAffordMessage</span>.
+L'utilizzo di quest'etichetta &egrave; facoltativo e non richiede la presenza di una delle altre tre.<br>
+<br>
+
+<a name='DealersCannotAffordMessage'><h3 class='label'>DealersCannotAffordMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto dal venditore.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityCannotAffordMessage</span>.
+Tranne:<br>
+$N = il negoziante<br> 
+$a = la mercanzia comprata<br>
+L'utilizzo di quest'etichetta &egrave; facoltativo e non richiede la presenza di una delle altre tre.<br>
+<br>
+
+<a name='EntityOfferMessage'><h3 class='label'>EntityOfferMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto dall'entit&agrave; che fa un'offerta.<br>
+I tag di act utilizzabili, oltre quelli di default, per questo messaggio sono:<br>
+$n = il soggetto che effettua la vendita<br>
+$N = la mercanzia comprata<br>
+$a = il negoziante<br>
+%verb = verbo di default dell'azione<br>
+%quantity = la quantit&agrave; venduta<br>
+%price = il prezzo della vendita<br>
+L'utilizzo di quest'etichetta &egrave; facoltativo e non richiede la presenza di una delle altre tre.<br>
+<br>
+
+<a name='TargetOfferMessage'><h3 class='label'>TargetOfferMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto dall'entit&agrave; offerta.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityOfferMessage</span>.
+L'utilizzo di quest'etichetta &egrave; facoltativo e non richiede la presenza di una delle altre tre.<br>
+<br>
+
+<a name='OthersOfferMessage'><h3 class='label'>OthersOfferMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto da tutti coloro che vedono l'offerta.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityOfferMessage</span>.
+L'utilizzo di quest'etichetta &egrave; facoltativo e non richiede la presenza di una delle altre tre.<br>
+<br>
+
+<a name='DealersOfferMessage'><h3 class='label'>DealersOfferMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto dal venditore.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityOfferMessage</span>.
+Tranne:<br>
+$N = il negoziante<br> 
+$a = la mercanzia comprata<br>
+L'utilizzo di quest'etichetta &egrave; facoltativo e non richiede la presenza di una delle altre tre.<br>
+<br>
+
+<a name='EntitySellMessage'><h3 class='label'>EntitySellMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto dall'entit&agrave; che vende.<br>
+I tag di act utilizzabili, oltre quelli di default, per questo messaggio sono:<br>
+$n = il soggetto che effettua la vendita<br>
+$N = la mercanzia comprata<br>
+$a = il negoziante<br>
+%verb = verbo di default dell'azione<br>
+%quantity = la quantit&agrave; venduta<br>
+%price = il prezzo della vendita<br>
+L'utilizzo di quest'etichetta &egrave; facoltativo e non richiede la presenza di una delle altre tre.<br>
+<br>
+
+<a name='TargetSellMessage'><h3 class='label'>TargetSellMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto dall'entit&agrave; venduta.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntitySellMessage</span>.
+L'utilizzo di quest'etichetta &egrave; facoltativo e non richiede la presenza di una delle altre tre.<br>
+<br>
+
+<a name='OthersSellMessage'><h3 class='label'>OthersSellMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto da tutti coloro che vedono la vendita.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntitySellMessage</span>.
+L'utilizzo di quest'etichetta &egrave; facoltativo e non richiede la presenza di una delle altre tre.<br>
+<br>
+
+<a name='DealersSellMessage'><h3 class='label'>DealersSellMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto dal venditore.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntitySellMessage</span>.
+Tranne:<br>
+$N = il negoziante<br> 
+$a = la mercanzia comprata<br>
+L'utilizzo di quest'etichetta &egrave; facoltativo e non richiede la presenza di una delle altre tre.<br>
+
+<a name='EntityUninterestedMessage'><h3 class='label'>EntityUninterestedMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto dall'entit&agrave; alla quale viene manifestato il disinteresse.<br>
+I tag di act utilizzabili, oltre quelli di default, per questo messaggio sono:<br>
+$n = il soggetto che effettua la vendita<br>
+$N = la mercanzia comprata<br>
+$a = il negoziante<br>
+%verb = verbo di default dell'azione<br>
+%quantity = la quantit&agrave; venduta<br>
+%price = il prezzo della vendita<br>
+L'utilizzo di quest'etichetta &egrave; facoltativo e non richiede la presenza di una delle altre tre.<br>
+<br>
+
+<a name='TargetUninterestedMessage'><h3 class='label'>TargetUninterestedMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto dall'entit&agrave; poco interessante.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityUninterestedMessage</span>.
+L'utilizzo di quest'etichetta &egrave; facoltativo e non richiede la presenza di una delle altre tre.<br>
+<br>
+
+<a name='OthersUninterestedMessage'><h3 class='label'>OthersUninterestedMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto da tutti coloro che vedono la manifestazine di disinteresse.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityUninterestedMessage</span>.
+L'utilizzo di quest'etichetta &egrave; facoltativo e non richiede la presenza di una delle altre tre.<br>
+<br>
+
+<a name='DealersUninterestedMessage'><h3 class='label'>DealersUninterestedMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto dal venditore.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityUninterestedMessage</span>.
+Tranne:<br>
+$N = il negoziante<br> 
+$a = la mercanzia comprata<br>
+L'utilizzo di quest'etichetta &egrave; facoltativo e non richiede la presenza di una delle altre tre.<br>
+
+<br>
+</div>
+<hr>
+</body>
+</html>

@@ -1,0 +1,26 @@
+FunName:    social_muhaha
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Ridi diabolicamente! MUHAHAHAHAHAHA!
+  OthersNoArg: $n ride diabolicamente! MUHAHAHAHAHAHA!
+  EntityFound: Ridi diabolicamente in faccia a $N! MUHAHAHAHAHAHA!
+  OthersFound: $n ride diabolicamente in faccia a $N! MUHAHAHAHAHAHA!
+  TargetFound: $n ti ride in faccia diabolicamente!!! MUHAHAHAHAHAHA!
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Prorompi in una risata che nulla ha di khajit.
+  OthersNoArg: $n ride improvvisamente quasi ruggendo.
+  EntityFound: Ridi bellamente in faccia a $N.
+  OthersFound: $n ride con fragore davanti a $N, quasi ruggendo.
+  TargetFound: $n ti ruggisce in faccia una risata fragorosa!
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Prorompi in una risata che nulla ha di khajit.
+  OthersNoArg: $n ride improvvisamente quasi ruggendo.
+  EntityFound: Ridi bellamente in faccia a $N.
+  OthersFound: $n ride con fragore davanti a $N, quasi ruggendo.
+  TargetFound: $n ti ruggisce in faccia una risata fragorosa!
+End

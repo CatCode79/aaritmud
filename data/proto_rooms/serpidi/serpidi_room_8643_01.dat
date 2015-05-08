@@ -1,0 +1,20 @@
+Code: serpidi_room_8643_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: I campi coltivati 
+Short: I campi coltivati 
+Descr: 
+Qui crescono parecchie varietà di ortaggi. Riconosci molti di quelli che vengono consumati a Myst, comprese alcune specie che sono importate dall'oriente. Ti lasciano interdetto alcuni ortaggi rossi con piccoli fiori gialli. In un angolo ci sono alcuni vasi con dei fiori. C'è una colonna con una sfera luminosissima in cima. 
+Exits:
+	Direction: DIR.NORTH
+	Destination: 3 0 0 serpidi
+End
+Exits:
+	Direction: DIR.WEST
+	Destination: 2 -1 0 serpidi
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

@@ -1,0 +1,42 @@
+FunName:    social_hummm
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Incroci le $hands sotto il mento pensieros$o.
+  OthersNoArg: $n incrocia le $hands sotto il mento pensieros$o.
+  EntityFound: Guardi $N piuttosto pensieros$o.. hummm.
+  OthersFound: $n guarda $N piuttosto pensieros$o..
+  TargetFound: $n ti guarda piuttosto pensieros$o.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: sei del tutto assort$o nei tuoi pensieri.
+  OthersNoArg: $n si carezza sovrappensiero le antenne mentre pensa.
+  EntityFound: Ti sorreggi a $N nello sforzo di pensare.
+  OthersFound: $n appoggia la fronte a $N sfiancat$o dal troppo pensare.
+  TargetFound: $n si appoggia a te sforzandosi di pensare.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Ti perdi in pensieri troppo alti e scollegati.
+  OthersNoArg: $n si perde in pensieri troppo alti e scollegati.
+  EntityFound: Ti perdi in pensieri troppo alti e scollegati senza più vedere $N.
+  OthersFound: $n si perde in pensieri troppo alti e scollegati senza più vedere $N.
+  TargetFound: $n si perde in pensieri troppo alti e scollegati senza più vederti.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Mhhhrrr qualcosa non ti convince del tutto.
+  OthersNoArg: $n si liscia le vibrisse mentre è assort$o nei suoi pensieri.
+  EntityFound: Osservi $N lisciandoti il manto sotto al mento.. Uhmrrr, medito.
+  OthersFound: $n osserva $N attentamente, anche se pare profondamente assort$o nei suoi pensieri.
+  TargetFound: $n ti osserva stringendo le pupille e pensando a chissà cosa.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Mhhhrrr qualcosa non ti convince del tutto.
+  OthersNoArg: $n si liscia le vibrisse mentre è assort$o nei suoi pensieri.
+  EntityFound: Osservi $N lisciandoti il manto sotto al mento.. Uhmrrr, medito.
+  OthersFound: $n osserva $N attentamente, anche se pare profondamente assort$o nei suoi pensieri.
+  TargetFound: $n ti osserva stringendo le pupille e pensando a chissà cosa.
+End

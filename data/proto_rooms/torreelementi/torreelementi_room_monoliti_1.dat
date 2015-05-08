@@ -1,0 +1,33 @@
+Code: torreelementi_room_monoliti_1
+Sector: SECTOR.PLAIN
+Name: Un prato setoso
+Short: un prato
+Descr:
+Un piccolo corso d'acqua procede verso ovest costeggiato da un prato fitto e che pare
+tagliato di fresco. Verso est troneggia un'imponente torre mentre verso ovest il sentiero
+prosegue zigzagando pur di costeggiare il rigagnolo.
+
+Extras:
+  Keywords: rigagnolo corso
+  Descr: 
+  È piuttosto veloce per essere così piatto, probabilmente ha il fondale liscio. 
+End
+Extras:
+  Keywords: fondale _get_pietra_gemma
+  Descr: Infili la $hand1 sul fondale e scopri che in effetti, a parte qualche sassolino,
+              il letto del rigagnolo non è opera naturale.
+  DescrSixth: Il letto del corso d'acqua in quel tratto lì è certo più fondo.
+End
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Un giardino
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Il rigagnolo prosegue
+End

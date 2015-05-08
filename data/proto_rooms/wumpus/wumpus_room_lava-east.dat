@@ -1,0 +1,30 @@
+Code: wumpus_room_lava-east
+Sector: SECTOR.UNDERGROUND
+Flags: ROOM.INSIDE
+Name: Ad Est della [orangered]Colata Lavica[close]
+Short: ad est della [orangered]colata lavica[close]
+
+Descr:
+L'ambiente si fa cupo e le pareti paiono vetrificate in geometrie plastiche impossibili, come animali immobilizzati a metà di scatti repentini.
+Colate di [orangered]magma[close] denso e lento provengono da una spaccatura ad ovest ed in breve s'insinuano in profonde spaccature del terreno.
+DescrTouch: 
+L'ambiente si fa piuttosto caldo e le pareti bollenti  paiono vetrificate in geometrie plastiche impossibili, come animali immobilizzati a metà di scatti repentini.
+Colate di [orangered]magma[close] denso e lento provengono da una spaccatura ad ovest emanando un tale calore da poterle visualizzare avvicinandovi le $hands.
+
+Width:	7m
+Depth:	7m
+Height:	7m
+
+Exits:
+  Direction: DIR.EAST
+  Destination:	 1 5 0 wumpus
+  Descr: east
+End
+Exits:
+  Direction: DIR.NORTHWEST
+  Descr: northwest
+End
+Exits:
+  Direction: DIR.SOUTHWEST
+  Descr: southwest
+End

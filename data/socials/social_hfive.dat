@@ -1,0 +1,30 @@
+FunName:    social_hfive
+Intention:  INTENTION.FRIENDLY
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Con chi quest'intesa favolosa?
+  OthersNoArg: $n salta cercando d'acchiappare qualche mosca.
+  EntityFound: Salti in aria e dai un CINQUE a $N!!! Avanti così!!!
+  OthersFound: $n salta in aria e dà un cinque a $N!
+  TargetFound: $n salta in aria e ti dà un CINQUE!!! Avanti così!!!
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Dai il cinque al tuo amico immaginario.
+  OthersNoArg: $n sta dando la caccia a qualche mosca forse.. Sta agitando le zampe in aria.
+  EntityFound: Dai una zampata al palmo della $hand di $N. Evviva!
+  OthersFound: $n dà una zampata alla $hand di $N, in segno di intesa.
+  TargetFound: $n ti dà una zampata sulla $hand, in segno di accordo e intesa.
+  EntityAuto:  Ti dai una zampata in fronte, io furb$o.
+  OthersAuto:  $n salta e si dà una zampata in fronte.. Notevole.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Dai il cinque al tuo amico immaginario.
+  OthersNoArg: $n sta dando la caccia a qualche mosca forse.. Sta agitando le zampe in aria.
+  EntityFound: Dai una zampata al palmo della $hand di $N. Evviva!
+  OthersFound: $n dà una zampata alla $hand di $N, in segno di intesa.
+  TargetFound: $n ti dà una zampata sulla $hand, in segno di accordo e intesa.
+  EntityAuto:  Ti dai una zampata in fronte, io furb$o.
+  OthersAuto:  $n salta e si dà una zampata in fronte.. Notevole.
+End

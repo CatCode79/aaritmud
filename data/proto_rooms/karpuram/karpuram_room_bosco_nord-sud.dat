@@ -1,0 +1,29 @@
+Code: karpuram_room_bosco_nord-sud
+Sector: SECTOR.PLAIN
+Name: Dentro al Ventre di [lime]Karpuram[close]
+Short: lungo i mille [lime]sentieri[close] del [lime]bosco[close]
+Descr:
+Anche in $season la vegetazione densa e colorata cerca d'incentivarti a godere
+del suo fulgore cangiante. Con malcelata apprensione ti fa intendere che per quel
+che hai potuto guardare non hai saputo notare che pochi dettagli.
+
+DescrNight:
+Anche nelle notti di $season, la vegetazione appare densa e lussureggiante. Il suo
+fulgore soffuso non risulta appannato dall'ora tarda e con malcelata apprensione ti fa
+intendere che per quel che hai potuto guardare non hai saputo notare che pochi dettagli.
+
+DescrSixth:
+Un bosco è sempre un buon posto per qualcuno o qualcosa
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Nel folto del bosco
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Nel folto del bosco
+End

@@ -1,0 +1,39 @@
+Code: torreelementi_room_pozzo_04
+Sector: SECTOR.CAVERN
+Flags: ROOM.UNDERWATER
+Name: La [yellow]Polla[close] di [yellow]Luce[close]
+Short: una sfera di luce
+
+Descr:
+Sei giunt$o in un ambiente immerso d'acqua e dalla forma vagamente sferoidale, le pareti
+irradiano una forte [lightgreen]luce verde[close]. L'unico accesso è la crepa dalla quale sei arrivat$o.
+Profonde striature schiumose e verticali suddividono la stanza in numerosi spicchi.
+DescrTouch: 
+Le pareti sono molto calde ed è sconsigliabile poggiarvisi per più di un minuto, le
+profonde striature spugnose producono una schiumetta quasi untuosa.
+DescrSmell: 
+Da qualche parte l'acqua viene ossigenata continuamente.
+DescrHearing:
+Dei tonfi sordi ed al limite dell'udibile paion provenire dalla parete nord.
+DescrTaste:
+Acqua dolce e... boh.
+
+Extras:
+	Keywords: striature schiuma schiumose 
+	Descr:
+	Sembrano spugne porose dotate di respirazione propria
+	DescrHearing:
+	Poggiandovi l'orecchio par di sentire una sorta di sfrigolio
+	DescrTouch:
+	La consistenza è più dura di quanto sembrava al solo guardarle
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Oltre la crepa
+End
+

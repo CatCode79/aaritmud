@@ -1,0 +1,25 @@
+Comment:
+Qui idealmente i funghi dovrebbero essere tutti mob invece che obj oppure un fungone unico
+24/11/09 messi i funghetti mob. Da pensare un mobbone grosso.
+Code: torreelementi_room_fungheria_11
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il cunicolo Cieco
+Short: un brutto postaccio
+Descr:
+La parte di cunicolo che guarda verso sud è completamente ostruita da detriti e
+materiale organico come se fossi una discarica. Il livello del materiale è così
+alto che avanza poco spazio per muoversi.
+
+DescrSmell:
+L'odore qui si fa un po' ostile forse per il ristagno della robaccia che chissà da
+quanto tempo aspetta qui.
+
+Width:	3m
+Depth:	3m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: L'unica via
+End

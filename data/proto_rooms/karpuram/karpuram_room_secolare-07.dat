@@ -1,0 +1,45 @@
+Code: karpuram_room_secolare-07
+Sector: SECTOR.PLAIN
+Name: Il Secondo Ballatoio
+Short: un secondo ballatoio
+
+Descr:
+La geometria di questo ballatoio risulta quadrangolare e su ogni angolo vi sono
+delle piccole rientranze sopra le quali spiccano altrettante lampade al
+momento spente. Questa postazione risulta controllata da ben quattro elfi, che
+percepisci si trovino ben mimetizzati sulle pareti delle piccole rientranze
+presenti su questo quadrato. Seppur questo ballatoio sia di notevoli
+dimensioni, risulta armoniosamente in linea con le altre strutture che ruotano
+attorno all'enorme albero secolare che si trova perfettamente al centro. 
+Volgendo lo sguardo intorno a te, verso il basso noti una serie di scale mentre
+verso sud e verso ovest intravedi due stanze di diversa forma.
+
+DescrNight:
+La geometria di questo ballatoio risulta quadrangolare e su ogni angolo vi sono
+delle piccole rientranze sopra le quali spiccano altrettante lampade che
+irradiano una debole luce. Questa postazione risulta controllata da ben quattro
+elfi, che percepisci si trovino ben mimetizzati sulle pareti delle piccole 
+rientranze presenti su questo quadrato. Seppur questo ballatoio sia di notevoli
+dimensioni, risulta armoniosamente in linea con le altre strutture che ruotano
+attorno all'enorme albero secolare che si trova perfettamente al centro.
+Volgendo lo sguardo intorno a te, verso il basso noti una serie di scale mentre
+verso sud e verso ovest intravedi due stanze di diversa forma.
+
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Una stanza ben difesa
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Una guardiola
+End
+Exits:
+  Direction: DIR.DOWN
+  Descr: Le scale per il secondo livello
+End

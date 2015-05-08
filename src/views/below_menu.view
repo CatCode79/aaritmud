@@ -1,0 +1,24 @@
+<center>
+	<div class="fb-like-box" data-href="http://www.facebook.com/AaritMud" data-width="183" data-colorscheme="dark" data-show-faces="false" data-stream="false" data-header="false"></div><br>
+	<br><hr>
+	<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+	<input type="hidden" name="cmd" value="_donations">
+	<input type="hidden" name="business" value="L5T5XUZ8DQX78">
+	<input type="hidden" name="lc" value="IT">
+	<input type="hidden" name="item_name" value="Aarit">
+	<input type="hidden" name="item_number" value="aarit_mud">
+	<input type="hidden" name="currency_code" value="EUR">
+	<input type="hidden" name="bn" value="PP-DonationsBF:btn_donate_SM.gif:NonHosted">
+	<input type="hidden" name="item_quantity_1" value="1" />
+	<input type="hidden" name="item_is_modifiable_1" value="true" />
+	<input type="hidden" name="item_min_price_1" value="5.0" />
+	<input type="hidden" name="item_max_price_1" value="100.0" />
+	<span style="position:relative; top:-17px">
+		<input id="item_price_1" name="item_price_1" value="5" type="text" size="1" /> &#8364;
+	</span>
+	<input type="image" src="graphics/paypal_donate-it.gif" style="border:0px solid black" name="submit" alt="Le donazioni verranno utilizzate per pagare i cost di hosting, eventuali grafici e costi di organizzazione di eventuali raduni" onmouseover="this.src='graphics/paypal_donate-it-hover.gif';" onmouseout="this.src='graphics/paypal_donate-it.gif';">
+	<img alt="" border="0" src="pixel.gif" width="1" height="1">
+	</form>
+	<hr><br>
+	<a class="addthis_button" style="border-bottom-width:0px" href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4b5c93c67416394e"><img src="graphics/lg-share-it.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"  onmouseover="this.src='graphics/lg-share-it-hover.gif';" onmouseout="this.src='graphics/lg-share-it.gif';" /></a>
+</center>

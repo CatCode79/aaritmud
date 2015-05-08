@@ -1,0 +1,33 @@
+Code: wumpus_room_ragnatela-northeast
+Sector: SECTOR.UNDERGROUND
+Flags: ROOM.INSIDE
+Name: Le [darkseagreen]Tele[close] di Ragno
+Short: le [darkseagreen]tele[close] di ragno
+
+Descr:
+Una [darkseagreen]chiazza[close] d'ombra ingombra parzialmente la via di cose che paiono fibre lunghe e robuste.
+S'intersecano e si sovrappongono in ogni dove come lacci ondeggianti.
+
+DescrTouch: 
+Qualcosa ti sta toccando, qualcosa che pare una fibra lunga e robusta ed appiccicosa.
+[darkseagreen]Ragnatele[close] che si sovrappongono e s'intersecano in ogni dove appiccicando fastidiosamente.
+
+Width:	3m
+Depth:	3m
+Height:	3m
+
+Exits:
+  Direction: DIR.NORTHEAST
+  Destination:	 2 2 0 wumpus
+  Descr: Le [darkseagreen]ragnatele[close]
+End
+Exits:
+  Direction: DIR.SOUTH
+  Destination:	 8 6 0 wumpus
+  Descr: La [orangered]colata lavica[close]
+End
+Exits:
+  Direction: DIR.WEST
+  Destination:	 6 8 0 wumpus
+  Descr: La zona [lawngreen]muscosa[close]
+End

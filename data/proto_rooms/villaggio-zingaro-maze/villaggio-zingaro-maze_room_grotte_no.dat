@@ -1,0 +1,22 @@
+Code: villaggio-zingaro-maze_room_grotte_no
+Sector: SECTOR.UNDERGROUND
+Flags: ROOM.INSIDE
+Name:	Nelle Viscere della Terra
+Short: ai bordi del [lime]bosco[close]
+
+Descr:
+La vegetazione, come mossa ad una decisione repentina, fa in modo che tu non abbia più
+distintamente una via sgombra; non è il caso di procedere oltre. Il bosco è un tripudio
+di bellezza tale che sei cert$o di non averne goduto appieno. Ti appresti ad attendere.
+
+DescrNight:
+La vegetazione, come mossa ad una decisione repentina, fa in modo da oscurare la via più
+della notte che già circonda. Non puoi fare altro che prender atto e constatare che la
+via qui termina. Ti appresti ad attendere.
+
+DescrSixth:
+Di certo un nugolo di cunicoli è un posto tranquillo, ma forse preferiresti trovare l'uscita.
+
+Width:	2m
+Depth:	2m
+Height: 2m

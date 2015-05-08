@@ -1,0 +1,32 @@
+Comment: il qualcosa dovrebbe poter essere una delle key dell'oggetto messo dentro al conteiner "letto"
+a meno che il gatto non abbia già reso estremamente facile anche questa cosa
+fatta in modo + umano
+Qui un tempo s'accedeva alla zona siepi ma ora ci metto la novizi2
+Code: torreelementi_room_monoliti_2
+Sector: SECTOR.PLAIN
+Name: Il Prato dei Monoliti 
+Short: un prato 
+Descr:
+Il sentiero s'imbarazza e tentenna sinuoso attorno ad un prato con alcune pietre oblunghe piantate
+verticalmente nel terreno. Il corso d'acqua s'inabissa di botto poco prima di raggiungere
+la prima di queste. Laggiù dalla parte opposta del prato il sentiero riprende la sua rigida idea fissa.
+
+Extras:
+  Keywords: corso acqua
+  Descr: L'acqua fluisce lenta e flemmatica senza increspature.
+  DescrSixth: Nel letto del timido fiumiciattolo sembra d'intravvedere qualcosa.
+End
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Un sentiero
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Un sentiero
+  Destination:    3 -2 0 novizi2
+End

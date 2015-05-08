@@ -1,0 +1,73 @@
+<center><h3>STATISTICHE DI ${game_name_upper}:</h3></center>
+<span${show_empty_message}>La tua trust di ${trust} non ti permette di eseguire nessuna azione in questa pagina.</span>
+
+<div class="block" id="stats_connection" style="width:49%; float:left;${hide_stats_connection}">
+	<div class="block_title">Statistiche delle Connessioni:</div>
+	<div class="block_text">
+		<img class="tag" src="tags/stats_connection.png">
+		Visualizza tutte le informazioni relative alle connessioni al sito e al gioco.<br>
+		Serve a comprendere quale sia il giorno e l'ora migliore per organizzare una quest, e quale sia l'ora migliore per eseguire shutdown del server senza arrecar disagio ai giocatori.
+	</div>
+	<div class="block_submit">
+		<input type="submit" value="Statistiche Connessioni" onclick="location.href='stats_connection.html'" />
+	</div>
+</div>
+<div class="block" id="stats_cpu" style="width:49%; float:right;${hide_stats_cpu}">
+	<div class="block_title">Statistiche del consumo della CPU:</div>
+	<div class="block_text">
+		<img class="tag" src="tags/stats_cpu.png">
+		Visualizza tutte le informazioni d'utilizzo delle risoluzioni dagli account connessi al sito.<br>
+		Serve a comprendere quando l'interfaccia di gioco attuale è usabile dalla maggior parte degli utilizzatori delle risoluzioni più utilizzate.
+	</div>
+	<div class="block_submit">
+		<input type="submit" value="Statistiche CPU" onclick="location.href='stats_cpu.html'" />
+	</div>
+</div>
+<div style="clear:both"></div>
+<br>
+
+<div class="block" id="stats_browser" style="width:49%; float:left;${hide_stats_browser}">
+	<div class="block_title">Statistiche d'utilizzo dei browser:</div>
+	<div class="block_text">
+		<img class="tag" src="tags/stats_browser.png">
+		Visualizza tutte le informazioni d'utilizzo dei browser dagli account connessi al sito.<br>
+		Serve a comprendere quale sia il browser maggiormente utilizzato in gioco e per la navigazione, sicché da dare precedenza di implementazione delle features quando alcuni browser rivelano delle incompatibilità funzionali.
+	</div>
+	<div class="block_submit">
+		<input type="submit" value="Statistiche Browser" onclick="location.href='stats_browser.html'" />
+	</div>
+</div>
+<div class="block" id="stats_resolution" style="width:49%; float:right;${hide_stats_resolution}">
+	<div class="block_title">Statistiche d'utilizzo delle risoluzioni:</div>
+	<div class="block_text">
+		<img class="tag" src="tags/stats_resolution.png">
+		Visualizza tutte le informazioni d'utilizzo delle risoluzioni dagli account connessi al sito.<br>
+		Serve a comprendere quando l'interfaccia di gioco attuale è usabile dalla maggior parte degli utilizzatori delle risoluzioni più utilizzate.
+	</div>
+	<div class="block_submit">
+		<input type="submit" value="Statistiche Risoluzioni" onclick="location.href='stats_resolution.html'" />
+	</div>
+</div>
+<div style="clear:both"></div>
+<br>
+
+<div class="block" id="stats_so" style="width:49%; float:left;${hide_stats_so}">
+	<div class="block_title">Statistiche d'utilizzo degli OS:</div>
+	<div class="block_text">
+		<img class="tag" src="tags/stats_so.png">
+		Visualizza tutte le informazioni d'utilizzo dei sistemi operativi dagli account connessi al sito.<br>
+		Non ha un reale interesse tencico, visto che il più delle volte il sito e il gioco è creato con tecnologia portabile, giusto curiosità!
+	</div>
+	<div class="block_submit">
+		<input type="submit" value="Statistiche OS" onclick="location.href='stats_so.html'" />
+	</div>
+</div>
+
+<script>
+$(document).ready(resizeBlocksInPairs("stats_connection", "stats_cpu"));
+$(document).resize(resizeBlocksInPairs("stats_connection", "stats_cpu"));
+$(document).ready(resizeBlocksInPairs("stats_browser", "stats_resolution"));
+$(document).resize(resizeBlocksInPairs("stats_browser", "stats_resolution"));
+$(document).ready(resizeBlocksInPairs("stats_so", "__dummy__"));
+$(document).resize(resizeBlocksInPairs("stats_so", "__dummy__"));
+</script>

@@ -1,0 +1,37 @@
+Code: citta-raminghe_room_strada-d01
+Sector: SECTOR.CITY
+Name: Un Piazzale Fuori le Mura
+Short: [coral]un piazzale fuori le mura[close]
+
+Descr:
+Uno spiazzo abbastanza esteso da cui è possibile proseguire verso varie direzioni. Vi sostano forestieri in attesa e
+ mercanti che espongono le loro [lime]mercanzie[close] provenienti da [salmon]terre lontane[close]. 
+Luogo di intense attività e frenetiche contrattazioni.
+DescrSmell: 
+Avverti un miscuglio di odori a volte piacevoli, provenienti da mercanzie profumate e speziate, a volte talmente sgradevoli 
+da turbare il tuo apparato olfattivo.
+DescrSixth:
+Uno slargo in cui si incontrano e si incrociano vari destini speranze, ambizioni e desideri. 
+DescrHearing:
+Il suono continuo di voci dalle tonalità differenti ti avvolge in un frastuono che non si placa mai in nessun momento della 
+giornata.
+DescrHearingNight:
+La notte attenua i frastuoni diurni e crea un'atmosfera sonora più adeguata.
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.EAST
+	Descr: Una strada antica
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: Una porta verso le mura
+End
+Exits:
+	Direction: DIR.SOUTHEAST
+	Descr: Un sentiero
+End

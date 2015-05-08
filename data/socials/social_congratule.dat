@@ -1,0 +1,50 @@
+FunName:    social_congratule
+Intention:  INTENTION.FRIENDLY
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Ti congratuli con.. ?
+  OthersNoArg: $n si congratula vivamente con l'aria.
+  EntityFound: Ti congratuli vivamente con $N!
+  OthersFound: $n si congratula vivamente con $N!
+  TargetFound: $n si congratula vivamente con te! Complimenti!
+  EntityAuto:  Ti compiaci di te stess$o.. oh sì!
+  OthersAuto:  $n si compiace di sé..
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Per chi dovresti rallegrarti?
+  OthersNoArg: $n presenta le proprie congratulazioni a nessuno in particolare.
+  EntityFound: Porgi pacate felicitazioni a $N.
+  OthersFound: $n si agita freneticamente per porgere le sue felicitazioni a $N.
+  TargetFound: $n si agita spasmodicamente per congratularsi con te.
+  EntityAuto:  Adoro i piani ben riusciti!
+  OthersAuto:  $n se la canta e se la suona.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Ti congratuli con..
+  OthersNoArg: $n prova a congratularsi.
+  EntityFound: Ti congratuli distrattamente con $N.
+  OthersFound: $n solleva un sopracciglio con aria di vaga approvazione per $N.
+  TargetFound: $n solleva un sopracciglio con aria di vaga approvazione nei tuoi riguardi.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Inganni il tempo congratulandomi con l'aria.
+  OthersNoArg: $n esprime vive congratulazioni ai presenti.
+  EntityFound: Ti congratuli con $N, brav$O!
+  OthersFound: $n stringe le $HANDS di $N fra le sue zampe, congratulandosi con $LUI.
+  TargetFound: $n ti stringe le $HANDS fra le zampe congratulandosi con te.
+  EntityAuto:  Ti lisci le vibrisse sorridendo felice, sei proprio brav$o!
+  OthersAuto:  Sorride beat$o, esprimendosi eloquenti congratulazioni.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Inganni il tempo congratulandomi con l'aria.
+  OthersNoArg: $n esprime vive congratulazioni ai presenti.
+  EntityFound: Ti congratuli con $N, brav$O!
+  OthersFound: $n stringe le $HANDS di $N fra le sue zampe, congratulandosi con $LUI.
+  TargetFound: $n ti stringe le $HANDS fra le zampe congratulandosi con te.
+  EntityAuto:  Ti lisci le vibrisse sorridendo felice, sei proprio brav$o!
+  OthersAuto:  Sorride beat$o, esprimendosi eloquenti congratulazioni.
+End

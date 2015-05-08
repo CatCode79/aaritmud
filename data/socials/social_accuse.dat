@@ -1,0 +1,114 @@
+FunName:    social_accuse
+Intention:  INTENTION.NEUTRAL
+Expression: accusando
+Smiles:     :^ :-^
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Chi potresti accusare?
+  OthersNoArg: $n accusa un nemico invisibile.
+  EntityFound: Guardi $N in maniera accusatoria.
+  OthersFound: $n guarda $N in modo accusatorio.
+  TargetFound: $n ti guarda in maniera accusatoria.
+  EntityAuto:  Ammetti la tua colpevolezza puntandoti il dito contro.
+  OthersAuto:  $n ammette la propria colpevolezza puntandosi il dito contro.
+End
+RacialMessages:
+  Race:        RACE.HIGHELF
+  EntityNoArg: Posi il tuo sguardo sul colpevole di turno.
+  OthersNoArg: $n sta osservando qualcuno con fare accusatorio.
+  EntityFound: Sollevi un sopracciglio mentre guardi $N in maniera accusatoria.
+  OthersFound: $n scruta $N in modo accusatorio.
+  TargetFound: $n ti guarda sollevando un sopracciglio con moto accusatorio.
+  EntityAuto:  Lealmente ammetti la tua colpevolezza puntandoti il dito contro.
+  OthersAuto:  $n ammette la propria colpevolezza sollevando l'indice contro il suo petto.
+End
+RacialMessages:
+  Race:        RACE.DWARF
+  EntityNoArg: Squadri i presenti in cerca di un colpevole.
+  OthersNoArg: $n sta accusando un nemico invisibile.
+  EntityFound: Scruti $N con intento accusatorio.
+  OthersFound: $n fissa $N in modo accusatorio.
+  TargetFound: $n borbotta fissandoti in maniera accusatoria.
+  EntityAuto:  Ti lisci la barba mentre ammetti la tua colpevolezza..
+  OthersAuto:  $n ammette la propria colpevolezza portandosi la $hand al petto.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Chi ha fatto qualcosa di male?
+  OthersNoArg: $n resta con l'indice a mezz'aria e l'espressione perplessa.
+  EntityFound: Punti l'indice contro $N.
+  OthersFound: $n punta l'indice contro $N. Vorrà giocare.
+  TargetFound: $n ti punta contro il dito ed una forte sensazione cerca di farsi strada.
+  EntityAuto:  Ti batti il pugno in petto ed ammetti le tue colpe.
+  OthersAuto:  $n si percuote il petto come fosse colpevole di qualcosa.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Chi dovrei accusare?
+  OthersNoArg: $n punta a vuoto l'indice accusatore.
+  EntityFound: Il tuo sguardo trafigge $N in modo ineluttabile.
+  OthersFound: Lo sguardo di $n trafigge $N ineluttabilmente.
+  TargetFound: Il gelo nello sguardo di $n ti accusa.
+  EntityAuto:  Riveli altezzosamente la tua colpevolezza.
+  OthersAuto:  $n rivela altezzosamente le sue colpe.
+End
+RacialMessages:
+  Race:        RACE.THEPA
+  EntityNoArg: Sibili nervosamente in cerca di un colpevole.
+  OthersNoArg: $n sibila nervosamente cercando un colpevole.
+  EntityFound: Fissi $N e $GLI sibili le tue accuse.
+  OthersFound: $n sibila verso $N accusandol$O di qualcosa.
+  TargetFound: $n ti sibila nelle orecchie con tono accusatorio.
+  EntityAuto:  Storco un po' la bocca e sibili la tua colpevolezza.
+  OthersAuto:  $n storce un po' la bocca e sibila la sua colpevolezza.
+End
+RacialMessages:
+  Race:        RACE.MINOTAUR
+  EntityNoArg: Ondeggi le corna accusando un colpevole invisibile.
+  OthersNoArg: $n ondeggia le corna accusando un colpevole invisibile.
+  EntityFound: Scruti $N muggendo$GLI contro le tue accuse.
+  OthersFound: $n scruta $N muggendo$GLI contro le sue accuse.
+  TargetFound: $n ti scruta mugghiando con fare minaccioso.
+  EntityAuto:  Muggisci qualcosa comunicando svogliatamente la tua colpevolezza.
+  OthersAuto:  $n muggisce distrattamente sminuendo la propria colpevolezza.
+End
+RacialMessages:
+  Race:        RACE.ORC
+  EntityNoArg: Grugnisci all'indirizzo dei presenti accusando tutti.
+  OthersNoArg: $n grugnisce una saracca d'accuse contro tutti.
+  EntityFound: Sbraiti contro $N accusandol$o.
+  OthersFound: $n urla contro $N sputando$GLI contro innumerevoli accuse.
+  TargetFound: $n ti urla contro sputandoti addosso le sue accuse.
+  EntityAuto:  Grugnisci parole incomprensibili a proposito di tue eventuali colpe.
+  OthersAuto:  $n sta farfugliando qualcosa a proposito di un misfatto.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Allarghi le pupille e ti guardi intorno cercando un colpevole.
+  OthersNoArg: $n sta fissando i dintorni con fare guardingo, cerca un colpevole.
+  EntityFound: Sollevi un lato del labbro mostrando parte delle zanne a $N con fare accusatorio.
+  OthersFound: $n mostra le zanne a $N accusandol$O di qualcosa.
+  TargetFound: $n ti mostra le zanne poco amichevolmente, ti sta accusando di qualcosa.
+  EntityAuto:  Non sei stat$o io!
+  OthersAuto:  $n tergiversa, cercando qualcuno su cui scaricare la colpa.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Allarghi le pupille e ti guardi intorno cercando un colpevole.
+  OthersNoArg: $n sta fissando i dintorni con fare guardingo, cerca un colpevole.
+  EntityFound: Sollevi un lato del labbro mostrando parte delle zanne a $N con fare accusatorio.
+  OthersFound: $n mostra le zanne a $N accusandol$O di qualcosa.
+  TargetFound: $n ti mostra le zanne poco amichevolmente, ti sta accusando di qualcosa.
+  EntityAuto:  Non sei stat$o io!
+  OthersAuto:  $n tergiversa, cercando qualcuno su cui scaricare la colpa.
+End
+RacialMessages:
+  Race:        RACE.ARIAL
+  EntityNoArg: Sondi i presenti con sguardo accusatorio..
+  OthersNoArg: $n osserva i presenti cercando un colpevole.
+  EntityFound: Guardi $N manifestando$GLI il tuo intento accusatorio..
+  OthersFound: $n guarda $N manifestando$GLI il suo intento accusatorio.
+  TargetFound: $n ti guarda con intenti accusatori.
+  EntityAuto:  Ti fai avanti, sei il colpevole.
+  OthersAuto:  $n si fa avanti ed ammette la propria colpevolezza.
+End

@@ -1,0 +1,29 @@
+Code: karpuram_room_city-gate-s
+Sector: SECTOR.PLAIN
+Name: [lime]Karpuram[close]
+Short: [lime]l'albero d'accesso[close]
+Descr:
+Ti trovi nel cuore del più sacro tempio degli elfi di [lime]Karpuram[close]. L'albero più antico
+degli elfi; è così antico e possente che le sue radici sono l'arcata d'accesso alla
+città stessa. Tu ora ti trovi avvolto fra le radici di [lime]Karpuram[close].
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Il bosco prosegue
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Il bosco prosegue
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Il bosco prosegue
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Il bosco prosegue
+End

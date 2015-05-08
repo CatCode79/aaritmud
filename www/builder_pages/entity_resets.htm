@@ -1,0 +1,99 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<h2>Indice delle Etichette per un EntityReset</h2>
+<a href='#Comment'>Comment:</a><br>
+<a href='#ProtoEntity'>ProtoEntity:</a><br>
+<a href='#Type'>Type:</a><br>
+<a href='#Quantity'>Quantity:</a><br>
+<a href='#WearMode'>WearMode:</a><br>
+<a href='#Messages'>Messages:</a><br>
+<a href='#Inputs'>Inputs:</a><br>
+<a href='#Probability'>Probability:</a><br>
+<a href='#EntityResets'>EntityResets:</a><br><br>
+
+<hr>
+<h2>Note Riguardo gli EntityResets</h2>
+Gli <span class="label">EntityResets</span> li dovrei aver spiegati con l'esempio <a href="room_resets.htm">nella pagina relativa i <span class="label">RoomResets</span></a>, ricordo comunque che ogni <span class="label">EntityResets</span> &egrave; quella struttura, interna ad una di <span class="label">RoomResets</span>, che permette di inserire entit&agrave; (oggetti o mob) in una stanza.<br>
+Per esigenze particolari inoltre la struttura &egrave; inseribile anche dentro ai prototipi di mob oppure item.<br>
+L'intento primo &egrave; consentire ai venditori di vendere contenitori che vengono riempite dall'<span class="label">EntityResets</span> posto sulla scatola<br>.
+L'inserimento di entit&agrave; di reset avviene durante la inject (nel caso si volesse interagire con i trigger before_/after_inject).
+
+<hr>
+<h2 border="1">Tabella di Riferimento Veloce</h2>
+<table>
+<tr class="thref"><td>Etichetta</td><td>Tipologia</td><td>Utilizzo</td></tr>
+<tr><td class="label">Comment</td><td>Stringa, relativa ad un commento</td><td>Facoltativo, consigliato se c'&egrave; qualcosa di particolare</td></tr>
+<tr><td class="label">ProtoEntity</td><td>Stringa, codice di mob o oggetto</td><td>Obbligatorio</td></tr>
+<tr><td class="label">Type</td><td>Element, tipologia di un entity-reset</td><td>Facoltativo</td></tr>
+<tr><td class="label">Quantity</td><td>Valore numerico superiore a 0</td><td>Facoltativo</td></tr>
+<tr><td class="label">WearMode</td><td>Flags di enumerazione PART</td><td>Facoltativo</td></tr>
+<tr><td class="label">Messages</td><td>Lista di stringhe</td><td>Facoltativo</td></tr>
+<tr><td class="label">Inputs</td><td>Lista di stringhe</td><td>Facoltativo</td></tr>
+<tr><td class="label">Probability</td><td>Percentuale</td><td>Facoltativo</td></tr>
+<tr><td class="label">EntityResets</td><td>Struttura EntityResets ricorsiva</td><td>Facoltativo</td></tr>
+</table><br>
+
+<hr>
+<h2>Struttura Tipica con le Etichette Obbligatorie (per copia e incolla)</h2>
+<pre>
+  EntityResets:
+    ProtoEntity:
+  End
+</pre><br>
+
+<hr>
+<a name="Comment"><h3>Comment:</h3></a>
+Eventuale commento relativo al reset dell'entit&agrave;, per maggior informazioni leggere <a href="comment.htm">questa pagina</a>.<br>
+Non &egrave; obbligatorio, ma &egrave; cmq consigliato se il reset &egrave; una cosa particolare, un'eccezione oppure se c'&egrave; qualcosa da far notare ai futuri Builder.<br><br>
+
+<a name="ProtoEntity"><h3>ProtoEntity:</h3></a>
+&Egrave; il codice dell'entit&agrave; (mob o oggetto) che state inserendo o rimuovendo dalla stanza.<br>
+&Egrave; un'etichetta obbligatoria, l'unica veramente obbligatoria di questa sottostruttura.<br><br>
+
+<a name="Type"><h3>Type:</h3></a>
+&Egrave; un <a href="element.htm">Element</a>, la cui lista si riferisce alle <a href="elements_list.htm#RESET">tipologie di reset.</a><br>
+Indica per l'appunto la tipologia di reset, di solito si vuole inserire un'entit&agrave; in quella stanza e non rimuoverla, quindi bisogna usare RESET.PUT, altrimenti se si vuole rimuoverla bisogna utilizzare RESET.REMOVE.<br>
+RESET.PUT aggiunger&agrave; la <span class="label">Quantity</span> volta di entit&agrave; solo se queste non esistono ancora in gioco, altrimenti eviter&agrave; di aggiungerle.<br>
+Differentemente RESET.ADD aggiunger&agrave; la <span class="label">Quantity</span> voluta di entity sia che esistano istanze di entit&agrave; gi&agrave; resettate in gioco o meno.<br>
+Sia RESET.PUT che RESET.ADD non supereranno mai la quantit&agrave; massima definita con l'etichetta <span class="label">MaxGlobalQuantity</span> nel prototipo dell'entit&agrave;, che serve appunto a definire il numero massimo di istanze di quel prototipo in tutto il gioco.<br>
+L'etichetta &egrave; facoltativa, se non la definite il Mud considerer&agrave; l'<span class="label">EntityReset</span> come un RESET.PUT.<br><br>
+
+<a name="Quantity"><h3>Quantity:</h3></a>
+Indica la quantit&agrave; di copie identiche (o quasi, ogni reset pu&ograve; creare oggetti o mob con caratteristiche leggermente casuali rispetto all'originale) vengono inserite (o tolte).<br>
+Se state resettando una sola copia di quell'entit&agrave; allora quest'etichetta non &egrave; obbligatoria, altrimenti s&igrave;.<br><br>
+
+<a name="WearMode"><h3>WearMode:</h3></a>
+E' una <a href="flags.htm">Flags</a> di elementi <a href="elements_list.htm#PART">PART</a>, che indicano quali parti l'entit&agrave; che viene resettata va a coprire l'entit&agrave; che contiene questo reset.<br>
+Sostanzialmente funziona come l'etichetta <span class="label">WearMode</span> dell'ENTITYPE.WEAR e dovrebbe avere gli stessi valori l'entit&agrave; di questo reset ha appunto la struttura <a href="wear_type.htm"><span class="label">WearType</span></a>. Tuttavia &egrave; possibile inserire parti differenti facendo per esempio indossare un cappello al piede destro di un Mob<br>
+E' inoltre possibile far indossare entit&agrave; senza che queste siano delle strutture <span class="label">WearType</span>.<br>
+Non &egrave; altres&igrave; errato vestire le stanze, anche se non vi &egrave;, attualmente, alcune effetto a livello di gioco; ma potrebbe essere utile per sviluppi di Gamescript particolari.<br>
+L'etichetta &egrave; facoltativa.<br><br>
+
+<a name="Messages"><h3>Messages:</h3></a>
+E' una lista di stringhe, se dichiarata una sola volta nella struttura <span class="label">EntityResets</span> l'etichetta invier&agrave; quel messaggio durante il reset, se viene dichiarata pi&ugrave; volte il contenuto da inviare verr&agrave; preso casualmente.<br>
+Se viene inserita una <span class="label">Quantity</span> maggiore di 1 il messaggio verr&agrave; inviato per ogni entit&agrave; resettata. Se ci&ograve; non &egrave; voluto bisogna inserire come prefisso al messaggio un asterisco, cosicch&eacute; tutti i reset di una stessa struttura <span class="label">EntityResets</span> lanceranno un solo messaggio.<br>
+L'etichetta &egrave; facoltativa.<br><br>
+
+<a name="Inputs"><h3>Inputs:</h3></a>
+E' una lista di stringhe, qui puoi dichiarare uno o pi&ugrave; comandi, uno per etichetta <span class="label">Inputs</span>.<br>
+I comandi verranno inviati dall'entit&agrave; dopo che questa &egrave; stata resettata assieme al suo contenuto.<br>
+Se sono stati dichiarati pi&ugrave; comandi quello da inviare verr&agrave; scelto casualmente.<br>
+L'etichetta &egrave; facoltativa.<br><br>
+
+<a name="Probability"><h3>Probability:</h3></a>
+Serve ad indicare con quale probabilit&agrave; da 1 a 100 un entity reset inserir&agrave; concretamente un'entit&agrave; in gioco.<br>
+Una volta inserita l'entit&agrave; il repop successivo ha una probabilit&agrave; sempre del 100% (la cosa non vale ovviamente per gli entity resets caricati direttamente nei prototipi). <br>
+Se non viene inserita l'etichetta viene considerata una Probability al 100%<br>
+L'etichetta &egrave; facoltativa.<br><br>
+
+<hr>
+</body>
+</html>

@@ -1,0 +1,66 @@
+Comment:	Sentiero attorno al laghetto, costeggia l'aiuola del bamboo, su un lato si collega alla scalinata che porta lla casa dell'impollinatrice.. Descrizione dell'anello laghetto con piante acquatiche, si vede l'isolina (my mother) con struttura. Si è praticmanete sulla riva. La descr qui sotto èra solo uan prova di miml.
+Code: krablath_room_blath-16
+Sector: SECTOR.UNDERGROUND
+Name: krablath-16
+Short: krablath-16
+
+Descr:
+#contained_by[north] is Exit#C'è un'uscita a nord.#Non c'è un'uscita a nord.#
+#contained_by[south] is Exit#C'è un'uscita a sud.#Non c'è un'uscita a sud.#
+#contained_by[northwest] is Door#C'è una porta a nord-ovest.#Non c'è una porta a nord-ovest.#
+#contained_by[southeast] is Door#C'è una porta a sud-est.#Non c'è una porta a sud-est.#
+#contained_by[west] is EXIT.DIGGABLE#L'uscita a ovest è diggabile.#L'uscita a ovest non è diggabile.#
+#contained_by[east] is EXIT.DIGGABLE#L'uscita a est è diggabile.#L'uscita est non è diggabile.#
+#contained_by[north] is DOOR.CLOSED#C'è una porta chiusa a nord.#C'e una porta aperta a nord.# 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Extras:
+	Keywords: chiave
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: In strada
+  Door: ikea_item_porta-fasulla
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Altrove
+  Flags: EXIT.DIGGABLE
+End
+Exits:
+  Direction: DIR.SOUTHEAST
+  Descr: In strada
+End
+Exits:
+  Direction: DIR.NORTHWEST
+  Descr: In strada
+End
+Exits:
+  Direction: DIR.EAST
+End

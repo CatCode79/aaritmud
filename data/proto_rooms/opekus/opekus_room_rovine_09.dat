@@ -1,0 +1,17 @@
+Code: opekus_room_rovine_09
+Sector: SECTOR.PATH
+Name: Un Panorama Erboso
+Short: un prato
+Descr: 
+Vasti spazi all'apparenza sconfinati di prati vagamente pianeggianti privi di sentieri
+e di segni d'anima viva. Qualunque oggetto o essere più alto di due spanne si nota per
+chilometri.
+
+Width:	10m
+Depth:	10m
+Height: 10m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: La via
+End

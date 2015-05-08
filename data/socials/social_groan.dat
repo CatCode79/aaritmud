@@ -1,0 +1,34 @@
+FunName:    social_groan
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Mormori qualcosa rumorosamente.
+  OthersNoArg: $n mormora rumorosamente.
+  EntityFound: Mormori qualcosa guardando $N.
+  OthersFound: $n mormora qualcosa guardando $N.
+  TargetFound: $n mormora qualcosa guardandoti.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Gemi dolorosamente.
+  OthersNoArg: $n geme dolorante.
+  EntityFound: Ti sfugge un gemito di bocca mentre vedi $N.
+  OthersFound: $n si lascia sfuggire un gemito guardando $N.
+  TargetFound: $n si lascia sfuggire un gemito mentre ti guarda.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Digrigni le zanne gemendo il tuo dolore.
+  OthersNoArg: $n digrigna un poco le zanne, fra un gemito e l'altro.
+  EntityFound: Un gemito ti sorge dal cuore non appena guardo $N.
+  OthersFound: $n guarda $N ed inizia a gemere ferinamente.
+  TargetFound: $n ti guarda e geme mentre digrigna un poco le zanne.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Digrigni le zanne gemendo il tuo dolore.
+  OthersNoArg: $n digrigna un poco le zanne, fra un gemito e l'altro.
+  EntityFound: Un gemito ti sorge dal cuore non appena guardo $N.
+  OthersFound: $n guarda $N ed inizia a gemere ferinamente.
+  TargetFound: $n ti guarda e geme mentre digrigna un poco le zanne.
+End

@@ -1,0 +1,35 @@
+Comment: 85 1 3
+Code: sauria_room_amena-foresta-21
+Sector: SECTOR.FOREST
+Name: Un'Amena Foresta
+Short: un'amena foresta
+
+Descr:
+Verso ovest torreggiano le pendici di una ripida montagna. Qualcosa che somiglia vagamente all'idea di sentiero qui si divide conducendo a nord, est e sud. 
+DescrTouch: 
+Il terreno a tratti è indurito e meno infestato da vegetazione consentendo di proseguire a nord, est oppure sud. Dall'altra parte invece il terreno sale pietrificato in modo troppo repentino per poterlo affrontare.
+DescrSmell: 
+Gli odori qui si diradano un po' e si riesce a cogliere finalmente qualche odore solitario e marcato di origine sconosciuta.
+DescrHearing:
+Saltuariamente un rombo lontano turba i tuoi pensieri.
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21827
+  Descr:	Un'amena foresta
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 -1 21820
+  Descr:	Un'amena foresta
+  Direction:	DIR.EAST
+End
+Exits:
+  Comment:	0 -1 21818
+  Descr:	Un'amena foresta
+  Direction:	DIR.SOUTH
+End

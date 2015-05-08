@@ -1,0 +1,36 @@
+Comment: 85 1 3
+Code: sauria_room_amena-foresta-28
+Sector: SECTOR.FOREST
+Name: Un'Amena Foresta
+Short: un'amena foresta
+
+Descr:
+La foresta verso est si fa impenetrabile, non è il caso di procedere oltre. È decisamente troppo scuro qui anche per una foresta così fitta. 
+DescrTouch: 
+A tratti la tua $hand incontra banchi di vegetazione così fitti che neppure una mano riesce a passarci senza rischiare di ridurre a brandelli l'equipaggiamento. Qui ad est pare proprio non vi sia modo di procedere
+DescrSmell: 
+Sinestesia, così si chiama... non è un odore ma qualcosa che ti ricorda un cibo o era una bevanda di tanti anni fa..
+DescrSixth:
+Il ricordo di un cibo o di una bevanda di tanti anni fa ti torna alla mente senza motivo apparente.
+DescrHearing:
+Un timido ronzio si leva poco sopra al continuo brusio di insetti e dal rumore delle fronde... solo non si capisce da che direzione provenga.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 0 21886
+  Descr:	Un'amena foresta
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 -1 21823
+  Descr:	Un'amena foresta
+  Direction:	DIR.SOUTH
+End
+Exits:
+  Comment:	0 -1 21829
+  Descr:	Un'amena foresta
+  Direction:	DIR.WEST
+End

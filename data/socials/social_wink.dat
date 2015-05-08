@@ -1,0 +1,52 @@
+FunName:    social_wink
+Intention:  INTENTION.FRIENDLY
+Expression: ammiccando
+Smiles:     ;) ;-) .) .-)
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Fai l'occhiolino.
+  OthersNoArg: $n fa l'occhiolino.
+  EntityFound: Ammicchi a $N.
+  OthersFound: $n ammicca fugacemente a $N.
+  TargetFound: $n ti ammicca.
+End
+RacialMessages:
+  Race:        RACE.HIGHELF
+  EntityNoArg: Socchiudi e riapro gli occhi, con silenzioso moto di intesa.
+  OthersNoArg: $n lancia un'occhiatina d'intesa.
+  EntityFound: Volgi lo sguardo su $N esprimendo$GLI il tuo dolore.
+  OthersFound: $n fissa $N con sguardo colmo di dolore ed afflizione.
+  TargetFound: Gli occhi di $n si fissano nei tuoi, $n sta soffrendo molto.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Fai l'occhiolino.
+  OthersNoArg: $n strizza un occhio con aria complice e divertita.
+  EntityFound: Ammicchi a $N.
+  OthersFound: $n ammicca teatralmente a $N, ridacchiando.
+  TargetFound: $n strizza un occhio verso di te. Pare si stia divertendo...
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Accenni con gli occhi.
+  OthersNoArg: $n accenna con gli occhi.
+  EntityFound: Accenni di nascosto con gli occhi a $N.
+  OthersFound: $n accenna nascostamente con gli occhi a $N.
+  TargetFound: $n ti accenna nascostamente con gli occhi.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Dev'esserti finito qualcosa nell'occhio!
+  OthersNoArg: $n forse ha un tic o un moscerino nell'occhio.
+  EntityFound: Un'ammiccatina fugace a $N stipula la vostra sorniona intesa
+  OthersFound: $n fa l'occhiolino a $N con tanto di sorrisetto furbetto.
+  TargetFound: $n ti ammicca con aria sorniona.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Dev'esserti finito qualcosa nell'occhio!
+  OthersNoArg: $n forse ha un tic o un moscerino nell'occhio.
+  EntityFound: Un'ammiccatina fugace a $N stipula la vostra sorniona intesa
+  OthersFound: $n fa l'occhiolino a $N con tanto di sorrisetto furbetto.
+  TargetFound: $n ti ammicca con aria sorniona.
+End

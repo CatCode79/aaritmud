@@ -1,0 +1,52 @@
+Code: siepi_room_intrico_nw
+Sector: SECTOR.WOOD
+Name: Il Labirinto di Akh-Dara
+Short: un garbuglio intricato
+Descr: 
+Ti trovi in una zona angusta dell'intrico, le siepi si fanno particolarmente rigogliose
+e ravvicinate. È necessario che il cammino si faccia più cauto, chissà cosa potrebbe
+essere nascosto qui attorno.
+
+DescrSmell:
+Qui l'odore ristagna più che in altre parti, forse il vento fa più fatica ad inserirsi
+in questa parte d'intrico.
+
+Extras:
+  Keywords: siepe siepi
+  Descr:
+	Fin troppe foglie, già bastavano i rami qui a rallentare il passo
+End
+Extras:
+  Flags: EXTRA.DAY_ONLY
+  Keywords: luce 
+  Descr:
+	La luce filtra poco in questa zona, tutto appare in penombra.
+End
+Extras:
+  Flags: EXTRA.NIGHT_ONLY
+  Keywords: ombre ombra 
+  Descr: Il movimento delle piantine dà l'impressione di un viavai continuo di piccoli animali
+End
+
+Width:	7m
+Depth:	7m
+Height: 15m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Sentieri imbrigliati da siepi
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Sentieri imbrigliati da siepi 
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Qualcosa ha sfondato un pezzo di siepe qui 
+  Destination: -1 -1 0 siepi
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Un tratto morto di siepe rivela un passaggio
+  Destination: 1 1 0 siepi
+End

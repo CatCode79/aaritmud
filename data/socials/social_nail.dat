@@ -1,0 +1,30 @@
+FunName:    social_nail
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Cominci a mangiarti nervosamente le unghie.
+  OthersNoArg: $n comincia a mangiarsi nervosamente le unghie.
+  EntityFound: Ti mangi nervosamente le unghie fissando $N.
+  OthersFound: $n si mangia nervosamente le unghie fissando $N.
+  TargetFound: $n si mangia nervosamente le unghie fissandoti.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Ti guardi gli artigli con un vago appetito in corpo.
+  OthersNoArg: $n si sta fissando gli artigli con vaga espressione affamata.
+  EntityFound: Ti mordicchi un artiglio e nel frattempo osservi $N che si comporta in modo strano.
+  OthersFound: $n fissa incuriosit$o $N mentre si mordicchia un artiglio.
+  TargetFound: $n si mordicchia un artiglio poi prende a guardare te aria incuriosita.
+  EntityAuto:  Ti mordicchi un artiglio cercando di ripulirlo.
+  OthersAuto:  $n si sta mordicchiando un artiglio.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Ti guardi gli artigli con un vago appetito in corpo.
+  OthersNoArg: $n si sta fissando gli artigli con vaga espressione affamata.
+  EntityFound: Ti mordicchi un artiglio e nel frattempo osservi $N che si comporta in modo strano.
+  OthersFound: $n fissa incuriosit$o $N mentre si mordicchia un artiglio.
+  TargetFound: $n si mordicchia un artiglio poi prende a guardare te aria incuriosita.
+  EntityAuto:  Ti mordicchi un artiglio cercando di ripulirlo.
+  OthersAuto:  $n si sta mordicchiando un artiglio.
+End

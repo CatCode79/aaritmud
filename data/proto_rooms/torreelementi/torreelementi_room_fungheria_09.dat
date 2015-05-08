@@ -1,0 +1,31 @@
+Comment:
+ Clathrus ruber (fungo lanterna) http://it.wikipedia.org/wiki/Clathrus_ruber
+Nota sul fungo : Se gli è concesso di avere più stadi sennò lo si può resettare nella sua forma di ovulo/gabbia in alternanza
+
+Code: torreelementi_room_fungheria_09
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Fra i Cuori di Strega
+Short: funghi improbabili
+Descr:
+Questa parte di cunicolo è ricavata scavando nella roccia tanto che risulta difficile
+vedere della terra qui intorno. Stavolta i fagottoni sono disposti lungo il camminamento
+imponendoti di camminare a ridosso delle pareti. Le improbabili amenità che maturano qui
+sono piccole gabbie rubescenti ed ovoidi biancastri. Il sentiero svolta bruscamente a
+sinistra e termina brutalmente in una parete che dà tutta l'impressione di essere stata
+abbandonata in fretta e furia. L'unica via possibile sembra verso sud.
+
+DescrSmell:
+Hai la forte certezza di trovarti nell'unico posto su [red]N[yellow]akilen[close] in cui agognare
+d'esser sprovvisto dell'olfatto. Tanto qui è il fetore di cadavere da indurti a
+ retrocedere quanto prima.
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: L'ala sud
+End

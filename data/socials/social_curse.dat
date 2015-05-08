@@ -1,0 +1,38 @@
+FunName:    social_curse
+Intention:  INTENTION.AGGRESSIVE
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Imprechi ad alta voce agitandoti ed urlando.
+  OthersNoArg: $n impreca urlando: @*&^%@*&!
+  EntityFound: Imprechi urlando in faccia a $N: @*&^%@*&!
+  OthersFound: $n impreca urlando in faccia a $N: @*&^%@*&!
+  TargetFound: $n impreca urlandoti in faccia: @*&^%@*&!
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Invochi in tuo aiuto e come testimone la Natura intera.
+  OthersNoArg: $n elenca piante, alberi ed arbusti. Sembra leggermente alterat$o.
+  EntityFound: Invochi le potenze naturali contro $N.
+  OthersFound: $n tiene a $N una lezione sulle condizioni metereologiche ostili.
+  TargetFound: $n ti parla con enfasi del maltempo.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Imprechi come uno scaricatore di letame.
+  OthersNoArg: $n impreca come un rastrellatore di fogne.
+  EntityFound: Ti eserciti nella sacra arte dell'imprecazione, usando $N come bersaglio.
+  OthersFound: $n dà fondo a tutte le imprecazioni khajittiane, rivolgendole a $N.
+  TargetFound: $n ti scarica addosso tutta una sorta di imprecazioni davvero fantasiose..
+  EntityAuto:  Esalti il lato migliore della tua persona, attraverso neologismi adatti all'occasione.
+  OthersAuto:  $n si insulta in modo osceno ed irripetibile.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Imprechi come uno scaricatore di letame.
+  OthersNoArg: $n impreca come un rastrellatore di fogne.
+  EntityFound: Ti eserciti nella sacra arte dell'imprecazione, usando $N come bersaglio.
+  OthersFound: $n dà fondo a tutte le imprecazioni khajittiane, rivolgendole a $N.
+  TargetFound: $n ti scarica addosso tutta una sorta di imprecazioni davvero fantasiose..
+  EntityAuto:  Esalti il lato migliore della tua persona, attraverso neologismi adatti all'occasione.
+  OthersAuto:  $n si insulta in modo osceno ed irripetibile.
+End

@@ -1,0 +1,28 @@
+Comment: Abbozzo
+Code: villaggio-zingaro_room_grotta-colonne-07
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: La Parete Verticale
+Short: una parte verticale
+
+Descr:
+Una parete quasi verticale è percorsa da scalini calcarei che sembrano fatti apposta per facilitare la salita e la discesa. Lo spazio di manovra è limitato dagli strapiombi che si aprono a sinistra e a destra cosparsi di stalagmiti appuntite e babelici torrioni.
+DescrSmell: 
+Aria calda e madida di umido.
+DescrSixth:
+I sentieri tracciati e molti altri piccoli elementi ti fanno pensare che questa grotta non dev'esser stata sempre deserta e silenziosa. 
+DescrTouch:
+Una lieve brezza proveniente dall'alto ti accarezza la $skin. 
+
+Width:	1m
+Depth:	1m
+Height: 6m
+
+Exits:
+	Direction: DIR.UP
+	Descr: Oltre la parete verticale
+End
+Exits:
+	Direction: DIR.NORTHWEST
+	Descr: Al loggiato 
+End

@@ -1,0 +1,34 @@
+FunName:    social_grim
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: ti guardi attorno in maniera torva.
+  OthersNoArg: $n si guarda attorno in maniera torva..
+  EntityFound: Guardi $N torv$o in volto.
+  OthersFound: $n guarda $N torv$o in volto.
+  TargetFound: $n ti guarda, torv$o in volto.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Oggi non è un giorno felice, meglio che ti stiano alla larga.
+  OthersNoArg: $n ha le orecchie appiattite all'indietro e fissa i presenti con aria torva.
+  EntityFound: Allarghi le pupille fissando $N con aria torva.
+  OthersFound: $n allarga le pupille fissando $N con aria torva.
+  TargetFound: $n allarga le pupille fissandoti con aria torva.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Oggi non è un giorno felice, meglio che ti stiano alla larga.
+  OthersNoArg: $n ha le orecchie appiattite all'indietro e fissa i presenti con aria torva.
+  EntityFound: Allarghi le pupille fissando $N con aria torva.
+  OthersFound: $n allarga le pupille fissando $N con aria torva.
+  TargetFound: $n allarga le pupille fissandoti con aria torva.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Anche oggi è una giornata infame.
+  OthersNoArg: Lo sguardo torvo di $n non lascia presagire nulla di buono.
+  EntityFound: Tutto, tutto.. ma non $N.
+  OthersFound: Lo sguardo bieco e minaccioso di $n si posa su $N.
+  TargetFound: Lo sguardo bieco e minaccioso di $n ti squadra da capo a $FEET.
+End

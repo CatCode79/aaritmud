@@ -1,0 +1,36 @@
+Code: villaggio-zingaro_room_cupola-01-inverno
+Sector: SECTOR.WOOD
+Name: La Barriera Verdeggiante
+Short: una barriera arborea
+
+Descr:
+Il sentiero termina qui su una piccola altura con uno slargo in terra battuta in alcuni punti ghiacciato; degli alberi, sostituendo i [darkseagreen]faggi[close], formano un'alta [olivedrab]parete[close] spinosa che ti impedisce di continuare oltre.
+DescrSmell: 
+In questa zona si respira un insolito aroma di [orange]agrume[close] e resina che sembra provenire dalla [olivedrab]barriera[close].
+DescrHearing:
+Gli usuali rumori del bosco qui sono del tutto assenti, è comparso invece un suono simile allo sfregamento di parti legnose in assestamento.
+DescrSixth:
+Ti chiedi come sia cresciuto questo strano insieme di vegetali nel bel mezzo di un faggeto..o forse è il faggeto che vi è cresciuto intorno? E come avrà fatto a prendere questa strana forma?
+
+Extras:
+	Keywords: parete barriera
+	Descr:
+	Un alto sbarramento ricurvo sulla cima; è composto da una miriade di rami spinosi avvinghiati l'uno all'altro rendendolo impenetrabile.
+	DescrTouch:
+	Appena poggi la $hand questa viene punta da lunghe spine affusolate.
+	DescrSixth:
+	Sembra impenetrabile e cercare di infilarti tra le spine ti pare un tantino rischioso, dovrai ingegnarti per trovare il modo di passare oltre.
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+Exits:
+	Direction: DIR.NORTHEAST
+	Descr: Nella cupola
+	Door:	villaggio-zingaro_item_door-esterna-cupola
+End
+Exits:
+	Direction: DIR.EAST
+	Descr: Faggi a non finire
+End

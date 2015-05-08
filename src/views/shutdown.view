@@ -1,0 +1,80 @@
+﻿<script>
+function confirmShutdown() {
+	var avoid_backup_checkbox = document.getElementById("avoid_backup");
+	var avoid_save_checkbox = document.getElementById("avoid_save");
+	var avoid_backup_and_save_checkbox = document.getElementById("avoid_backup_and_save")
+	var only_player_persistence = document.getElementById("only_player_persistence");
+	var minutes_input_text = document.getElementById("minutes");
+
+	var minutes_error_span = document.getElementById("minutes_error");
+	if (isNaN(minutes_input_text.value)) {
+		$(minutes_error_span).text("I minuti devono essere un valore numerico tra 0 e 999.");
+		return;
+	} else if (minutes_input_text.value < 0) {
+		$(minutes_error_span).text("I minuti devono essere un numero positivo tra 0 e 999.");
+		return;
+	} else {
+		$(minutes_error_span).text("");
+	}
+
+	var avoid_message = "";
+	if (avoid_backup_checkbox.checked) {
+		avoid_message = ", evitando di eseguire il backup,";
+	} else if (avoid_save_checkbox.checked) {
+		avoid_message = ", evitando il salvataggio della persistenza,";
+	} else if (avoid_backup_and_save_checkbox.checked) {
+		avoid_message = ", evitando di eseguire il backup e il salvataggio della persistenza,";
+	} else if (only_player_persistence.checked) {
+		avoid_message = ", salvando solamente le persistenze relative i giocatori,";
+	}
+
+	var minutes_message = "adesso";
+	if (minutes_input_text.value == 1) {
+		minutes_message = "tra " + minutes_input_text.value + " minuto";
+	}
+	else if (minutes_input_text.value == 0) {
+		minutes_message = "ora";
+	}
+	else {
+		minutes_message = "tra " + minutes_input_text.value + " minuti";
+	}
+
+	if (!window.confirm("Sei sicuro di voler chiudere il Mud" + avoid_message + " " + minutes_message + "?")) {
+		return;
+	}
+
+	var query = "";
+	if (avoid_backup_checkbox.checked || avoid_backup_and_save_checkbox.checked) {
+		query += "avoid_backup=1&";
+	}
+	if (avoid_save_checkbox.checked || avoid_backup_and_save_checkbox.checked) {
+		query += "avoid_save=1&";
+	}
+	if (only_player_persistence.checked) {
+		query += "only_player_persistence=1&";
+	}
+	query += "minutes=" + minutes_input_text.value;
+	sendPostRequest("shutdown.html", query, afterConfirmShutdown);
+}
+function afterConfirmShutdown(response) {
+	if (response.startsWith("<?xml version=")) {
+		document.innerHTML = response;
+	} else {
+		document.getElementById("message_of_shutdown").innerHTML = response;
+	}
+}
+</script>
+<h3>Shutdown:</h3>
+<fieldset>
+<legend>&nbsp;Scegli le opzioni con cui chiudere ${game_name}:&nbsp;</legend>
+	<input type="radio" name="shutdown_option" id="avoid_backup"> Durante lo Shutdown non eseguire il Backup</input><br>
+	<input type="radio" name="shutdown_option" id="avoid_save"> Durante lo Shutdown non salvare la Persistenza</input><br>
+	<input type="radio" name="shutdown_option" id="avoid_backup_and_save"> Durante lo Shutdown non eseguire il Backup e non salvare la Persistenza</input><br>
+	<input type="radio" name="shutdown_option" id="only_player_persistence"> Salva le sole persistenze relative i giocatori</input><br>
+	Esegui lo shutdown tra <input type="text" id="minutes" size="1" value="0" maxlength="3" style="text-align:center;" /> minuti (lo zero significa subito)<br>
+	<span id="minutes_error" style="color:red;" />
+</fieldset>
+<br>
+<input type="submit" id="shutdown_button" onclick="confirmShutdown();" value="Esegui lo Shutdown" /><br>
+<br>
+<span id="message_of_shutdown"></span><br>

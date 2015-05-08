@@ -1,0 +1,49 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="style.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<div class="main">
+L'idea di far giocare un Mud tramite protocollo TCP/HTTP, e quindi renderlo giocabile tramite un qualsiasi browser, mi era entrata in testa da molto tempo, da quando Okram sul forum di Mud.it</a> <a href="http://forum.mud.it/mudforum/showthread.php?t=837&highlight=gateway" target="_blank">ne descrisse la tecnica</a>.<br>
+A quei tempi stavo creando il Mud Terra Secunda basandomi su Bard, che era scritto in codice C, l'idea mi piacque molto, purtroppo ce ne vuole di tempo e coraggio a fare una cosa del genere in un tipico Mud scritto in C e non provai mai ad addentrarmi oltre ai casini che già avevo nel codice di allora.<br><br>
+
+Con Aarit le cose furono da subito più rosee, un po' perché utilizzando il Python lo sviluppo era più agile, un po' perché sin dalla sua nascita ho utilizzato il framework Twisted per gestire il protocollo Telnet e le relative connessioni (e Twisted è dannatamente potente una volta capito come funziona).<br>
+All'inizio avevo in mente di fare un gateway proprio come l'idea di Okram, poi però una volta fatto funzionare ho iniziato a trovare d'impaccio i limiti di Telnet: "Perchè utilizzare 16 colori quando il browser ne supporta di più?".<br>
+Cercai quindi di aggirare il problema creando un sistema di colorazione estesa e cose di questo genere, alla fin fine risolsi ottimamente il problema in questa maniera: dando un calcio nel sedere al protocollo Telnet e rendere giocabile il Mud solo tramite HTTP, modificando il codice relativo al gateway in un web server che invia pagine html.<br><br><br>
+
+Pro di tutto questo:<br>
+<ul>
+<li> Accessibilità da qualsiasi punto con connessione internet e browser.<br>
+È una bella comodità, lo sanno tutti quelli che sono costretti ad utilizzare cose come <a href="http://www.mosha.net/01-telnet-gateway/telnet.shtml" target="_blank">questa</a>.<br><br>
+
+<li> Integrazione tra Mud e sito.<br>
+Poiché le pagine relative al Mud sono in html viene naturale crearci attorno il sito il tutto sopra un web server che gestisca l'insieme in maniera omogenea. Un esempio tipico è quando esegui il log al sito sei già pronto a giocare: il nome e password del sito coincidono con quelle del Mud.<br><br>
+
+<li> Formattazione estesa, colori e stili.<br>
+Mai sentito parlare del CSS? Ecco Aarit ha un sistema di codici di colorazione e formattazione interno molto simile al CSS, supporta poco meno di 150 colori e vari codici di formattazione (ovviamente grassetto, italico e sottolineato, ma anche bordi e altro).<br>
+Ci sono due motivi per cui Aarit utilizza questi codici internamente e non html+css direttamente: il primo è perchè questi codici possono essere inseriti dai giocatori.. e quindi potrebbero sballare la visualizzazione della pagina alla grande se li si lascia troppo fare, l'altro motivo è perché sono più facili da scrivere e da inserire che utilizzando un span + style inline o cose del genere.<br><br>
+
+<li> Avete mai sentito parlare del protocollo <a href="http://www.zuggsoft.com/zmud/mxp.htm" target="_blank">MXP</a> per Telnet? Un browser qualsiasi fa praticamente le medesime cose e anche di più!<br>
+Il protocollo MXP, per chi non ne fosse a conoscenza, è quello che permette di rendere cliccabili dei link che eseguono varie azioni, visualizzare immagini, sentire suoni e cose di questo genere.<br>
+Un browser è esattamente tutto questo!<br>
+Quindi utilizzando un browser come se fosse un client per il Mud voi siete a posto, senza aver scritto una riga di codice :)<br>
+</ul>
+
+Contro di tutto questo:<br>
+<ul>
+<li> Ogni browser è differente.<br>
+Magari anche solo di poco, ma è sempre una rogna; il lavoro per rendere navigabili sia sito che la pagina di gioco del Mud sui browser più diffusi non è da sottovalutare, soprattutto perché il meccanismo di connessione persistente utilizzato da Aarit è una cosa ancora poco diffusa e mal digerita in genere dai browser.<br>
+Per ora Aarit supporta e viene testato su Firefox 3.5. Ogni tanto provo anche altri browser per vedere come si comporta, sicuramente in futuro supporterò almeno l'ultima versione di Internet Explorer.<br>
+</ul><br>
+
+Se siete arrivati a leggere fino a qui pensando che Aarit sia uno di quei giochi che si fanno chiamare Mud (o WebMud) le cui meccaniche però sono totalmente differenti dai Mud classici (ed assomigliano più a delle avventure grafiche online, a volte di dubbia qualità) vi state sbagliando. Il fatto che Aarit funzioni tramite browser è relativo all'interfaccia, alla usabilità e all'accessibilità e non alla meccanica del gioco.<br>
+Aarit cerca di far convivere il vecchio col nuovo, di rendere facile giocare ad un Mud senza però dare precedenza alla grafica rispetto al testo, cioè alla fantasia.<br><br>
+</div>
+
+<hr>
+</body>
+</html>

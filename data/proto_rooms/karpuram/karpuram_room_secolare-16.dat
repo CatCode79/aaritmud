@@ -1,0 +1,55 @@
+Code: karpuram_room_secolare-16
+Sector: SECTOR.PLAIN
+Name: Il Quarto Ballatoio
+Short: il quarto ballatoio
+
+Descr:
+La geometria di questo ballatoio risulta perfettamente ottagonale e su ogni 
+angolo vi sono delle piccole rientranze sopra le quali spiccano altrettante 
+lampade al momento spente. Questa postazione risulta controllata da otto elfi, 
+che seppur ben mimetizzati sulle pareti delle piccole rientranze, ogni tanto
+fanno capolino per osservarti. Anche se questo ballatoio è di notevoli
+dimensioni, risulta armoniosamente in linea con le altre strutture che ruotano
+attorno all'enorme albero secolare che si trova perfettamente al centro. 
+Volgendo lo sguardo intorno a te, verso nord noti una torretta con alcuni
+stemmi e vessilli mentre sia ad est che a sud vi sono due piattaforme di
+transito.
+
+DescrNight:
+La geometria di questo ballatoio risulta perfettamente ottagonale e su ogni 
+angolo vi sono delle piccole rientranze sopra le quali spiccano altrettante 
+lampade che emanano una tenue [orange]luce[close] color arancio. Questa 
+postazione risulta controllata da otto elfi, che seppur ben mimetizzati sulle 
+pareti delle piccole rientranze, ogni tanto fanno capolino per osservarti. 
+Anche se questo ballatoio è di notevoli dimensioni, risulta armoniosamente in 
+linea con le altre strutture che ruotano attorno all'enorme albero secolare 
+che si trova perfettamente al centro. Volgendo lo sguardo intorno a te, verso 
+nord noti una torretta con alcuni stemmi e vessilli mentre sia ad est che a 
+sud vi sono due piattaforme di transito.
+
+DescrSixth:
+Avverti una considerevole tensione impregnare l'aria e i tuoi sensi ne sono
+colpiti fortemente. Gli elfi di guardia appaiono tesi e preoccupati dalla tua
+presenza.
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: La prima torretta reale
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Camminando sulla piattaforma
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Una piattaforma di transito
+  Destination:	11 -2 4 karpuram
+End
+Exits:
+	Direction: DIR.DOWN
+	Descr: La piattaforma inferiore
+End

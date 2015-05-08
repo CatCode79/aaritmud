@@ -1,0 +1,46 @@
+Code: mfdonald_room_prima-stanza
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: [green]La Prima Stanza[close]
+Short: [green]la prima stanza[close]
+Descr:
+Ora ti sei appena spostat$o nella Prima Stanza.
+Ogni stanza ha una sua descrizione che ti darà degli indizi e delle informazioni per
+capire come muoverti o cosa fare etc etc... 
+
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Extras:
+	Keywords: chiave
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: In strada
+End
+

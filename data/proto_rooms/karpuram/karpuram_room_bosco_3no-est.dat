@@ -1,0 +1,35 @@
+Code: karpuram_room_bosco_3no-est
+Sector: SECTOR.PLAIN
+Name: Una Radura nelle Vie di [lime]Karpuram[close]
+Short: una [lime]radura[close]
+Descr:
+Scendendo lungo un sentiero più largo di altri, gli alberi si fanno sempre più radi fino
+a sparire del tutto in corrispondenza di una piccola radura. Ad ogni passo intervalli
+spuntano nell'erba d'erba cespugli isolati. Guardandoti attorno vedi vie e sentieri che
+s'insinuano ancora nel folto del bosco.
+DescrNight:
+Scendendo lungo un sentiero poco più sgombro e visibile, gli alberi si fanno sempre più
+radi fino a sparire del tutto in corrispondenza di una radura che non sai vedere quanto
+sia ampia a causa dell'ora tarda. L'innaturale illuminazione ingigantisce le ombre degli
+sparuti cespugli. Proseguendo ci si inoltra nuovamente nel fitto del bosco
+
+DescrSixth:
+Un bosco è sempre un buon posto per qualcuno o qualcosa
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Nel folto del bosco
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Nel folto del bosco
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Nel folto del bosco
+End
+

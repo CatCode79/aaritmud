@@ -1,0 +1,46 @@
+Code: torreelementi_room_torre_0
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Le Coltivazioni Nascoste
+Short: Un trivio in penombra
+Descr:
+Una stanza circolare molto ampia con un basso soffitto. L'una opposta all'altra, vi sono
+due serie di scale che conducono in alto verso quella che sembra essere la luce del giorno.
+Lungo il perimetro della zona vi sono tre arcate che guardano tutte verso una soffusa
+luminosità.
+Extras:
+  Keywords: scale
+  Descr: Tristi rami biancastri di rampicanti scendono dalle scale a conferma dell'uscita
+        ormai prossima 
+End
+Extras:
+  Keywords: arcate
+  Descr: Osservando con attenzione si scopre che un tempo dovevano esserci delle porte a chiudere
+              ciascuna arcata. Ora rimangono solo dei cardini consunti e arrugginiti
+End 
+Extras:
+  Keywords: luminosità
+  Descr: Non pare si tratti di luce di torce
+End 
+
+
+Width:	7m
+Depth:	7m
+Height: 2m
+
+Exits:
+  Direction: DIR.UP
+  Descr: Verso l'alto
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Un corridoio
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Un corridoio
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Un corridoio
+End

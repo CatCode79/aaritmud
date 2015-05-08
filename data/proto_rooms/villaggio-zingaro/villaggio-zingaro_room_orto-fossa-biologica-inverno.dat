@@ -1,0 +1,27 @@
+Code: villaggio-zingaro_room_orto-fossa-biologica-inverno
+Sector: SECTOR.FARMLAND
+Name: La Fossa Biologica
+Short: una fossa
+
+Descr:
+Una buca quadrangolare piuttosto profonda con le pareti ricoperte di lamiera è colma di vegetali marcescenti e terriccio.
+DescrTouch: 
+Ti impiastricci le $hands con foglie di verza in decomposizione e cachi spiaccicati.
+DescrSmell: 
+Qualunque cosa vi sia qui dentro emana un fetore insopportabile.
+DescrSixth:
+Probabilmente viene usato come pattumiera per gli scarti organici dell'orto e di tutto il villaggio e qualcosa ti dice vi sia anche dello sterco animale.  
+DescrTaste:
+Vorresti assaggiare questo putridume?!
+
+
+Width:	6m
+Depth:	6m
+Height: 3m
+Exits:
+	Direction: DIR.UP
+	Descr: Un orto
+	Door: villaggio-zingaro_item_door-lamiera
+End
+
+

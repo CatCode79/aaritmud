@@ -1,0 +1,31 @@
+Code: elizor_room_strada-ovest-03
+Sector:	SECTOR.ROAD
+Name: La Direttrice Ovest
+Short: la direttrice ovest
+
+Descr:
+La via s'incunea cruda in una spaccatura della roccia che lentamente comincia a sovrastarla fornendo al contempo protezione e scarsa visibilità laterale.
+in direzione est, in lontananza si comincia a delineare il volto della città commerciale.
+DescrTouch: 
+no_send
+DescrSmell: 
+no_send
+DescrSixth:
+no_send
+DescrHearing:
+Il vento fatica ad inserirsi nella spaccatura e ti risparmi per tutto un lungo tratto di strada.
+DescrTaste:
+no_send
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.WEST
+	Descr:	La direttrice ovest
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	La direttrice ovest
+End

@@ -1,0 +1,36 @@
+Comment: 85 0 3
+Code: sauria_room_palude-07
+Sector: SECTOR.SWAMP
+Name: La palude
+Short: la palude
+
+Descr:
+Cammini su quello che a tutta prima parrebbe un prato, se non che...
+DescrTouch: 
+Sono i tuoi $feet a dirti che sei finito in una palude grazie alla profondità delle orme.
+DescrSmell: 
+Curioso come ogni palude che si rispetti porti con se un odoraccio di zolfo.
+DescrSixth:
+Un buon modo per porre fine alle tribolazioni è certo il reperimento di sabbie mobili.
+DescrHearing:
+Sono i tuoi $feet a dirti che sei finito in una palude grazie allo [white]squish[close] che fanno mentre avanzi.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21814
+  Descr:	La palude
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 -1 21808
+  Descr:	La palude
+  Direction:	DIR.EAST
+End
+Exits:
+  Comment:	0 -1 21806
+  Descr:	Ingresso della caverna
+  Direction:	DIR.WEST
+End

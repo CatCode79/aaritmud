@@ -1,0 +1,17 @@
+Code: opekus_room_rovine_04
+Sector: SECTOR.PATH
+Name: Resti Un Palazzo
+Short: ruderi
+Descr:
+La zona ove ti trovi è leggermente sopraelevata rispetto alla via seguita ed ha forma
+innaturalmente regolare. Verso la parte più lontana dalla strada rimane un pietrone
+consunto che un tempo doveva essere il sostegno per un colonnato. Su di un lato, quel
+che resta di uno scalino.
+Width:	10m
+Depth:	10m
+Height: 10m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: La via
+End

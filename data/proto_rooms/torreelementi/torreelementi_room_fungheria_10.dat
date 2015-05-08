@@ -1,0 +1,89 @@
+Comment: 
+si può arrivare in questa stanza dalla fungheria ma non deve essere possibile dal negozio arrivare alla fungheria.
+In questo senso la fungheria e' il laboratorio ove sono preparate le varie cose in vendita.
+
+Code: torreelementi_room_fungheria_10
+Sector: SECTOR.SHOP
+Name: Il Baracchino dei Prodotti Locali
+Short: un baracchino
+Descr:
+Sei giunt$o ad una stanza arredata a guisa di baracchino o rivendita di ammennicoli.
+Sembra a metà fra un negozio di un alchimista ed un coltivatore di funghi. Sul fondo
+c'è un bancone stipato di contenitori, borse, borsine, sacchetti, involucri, fiale,
+bottiglie ed altro materiale che ha l'urgenza di trovare un nome. Al centro del locale
+sono disposti diversi mobiletti dai ripiani colmi di oggetti. Anche le pareti non fanno
+eccezione con le scaffalature ovunque ed a ogni altezza. Solo due gli spazi in cui
+non ci sono scaffali ed oggetti: la porta e una coltre grezza e pesante a coprire un
+piccolo angolo della stanza.
+
+DescrSmell:
+L'odore che si respira qui dentro ha un che di mistico e rituale come di spezie, odori
+aromatici e resine bruciate. 
+
+Extras:
+  Keywords: tenda coltre coperta
+  DescrTouch: Al tatto dà l'impressione di un panno grezzo, molto pesante e di una certa età
+  DescrSmell: Fra tutti gli odori che sono ovunque è arduo riuscire a capire che odore possa avere
+  DescrSixth: Qualcosa di arcano ti impedisce di passare attraverso la coltre; almeno qualcosa di
+              magico c'è davvero in negozio quindi.
+  Descr: 
+	Una coltre bruna appesa ad invisibili appigli è posta a efficiente separazione fra qui e
+	ciò che oltre non vedi. Un lembo centrale probabilmente consente di aprirE un varco e
+	passare oltre.
+End
+
+Extras:
+  Keywords: scaffali scaffale
+  DescrTouch: Ogni volta che poggi la $hand su uno scaffale hai la nettissima sensazione di essere osservato
+  Descr: Innumerevoli ripiani spessi e pesanti sono infissi nelle pareti del negozio dando l'impressione di
+         poter sostenere anche la conversazione più pesante. 
+End
+
+Extras:
+  Keywords: contenitori 
+  Descr: Vi sono diverse scatoline, di tutte le fogge e probabilmente di tutti i prezzi;
+         dalle scatoline in legno senza coperchio fino a quelle apribili con cerniere
+         metalliche ed inserti in pietre dure decorate a lamine di metallo.
+End
+
+Extras:
+  Keywords: borse borsine 
+  Descr: Borse borsine a tracolla o con spallacci realizzate in tessuto delicato fino alle più pesanti in cuoio
+End
+Extras:
+  Keywords: sacchetti involucri 
+  Descr: Ci sono persino quei sacchettini sfiziosi in velluto con chiusura a cordicella e rivestite internamente
+         di pelle d'animale a renderle impermeabili ed ermetiche
+End
+Extras:
+  Keywords: fiale bottiglie
+  Descr: Non un'etichetta o un indicazione o nulla che possa far supporre cosa contengano. Se il venditore non ha
+         più che buonissima memoria non sembra il caso di prendere nulla
+  DescrSixth: Ma son tutte vuote!
+End
+Extras:
+  Keywords: etichetta indicazione etichette indicazioni
+  Descr: In effetti una bottiglia con delle scritte c'è...
+  DescrSixth: Detersivo!
+  DescrSmell: Detersivo?
+End
+Extras: 
+  Keywords: materiale urgenza nome
+  Descr: Davvero... è più facile chiedere al mercante
+  DescrSixth: Quella cosina [purple]viola[close] laggiù è sfiziosa; ora sei certo di volerne una!
+End
+Extras:
+  Keywords: libri libro guida 
+  Descr: Ebbene sì! Una copia della [red]Guida Galattica per Autostoppisti[close] in lingua originale a [red]2[close] Euro.
+  DescrTouch: La Scritta [gold]Don't Panic[close] è in rilievo!
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: In strada
+  Destination: 2 0 0 deadcity
+End

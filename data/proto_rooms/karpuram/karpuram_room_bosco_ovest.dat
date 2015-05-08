@@ -1,0 +1,26 @@
+Code: karpuram_room_bosco_ovest
+Sector: SECTOR.PLAIN
+Name: L'intrico vegetale di [lime]Karpuram[close]
+Short: il [lime]bosco[close] s'infittisce
+Descr:
+Il bosco ad ogni passo riserva mille sorprese in termini di forme e colori;
+il tripudio di sentieri che poco appresso sbucavano in ogni dove e per ogni possibile
+direzione, ora pare abbiano perso tutta la loro intricata verve. In poco tempo tutto
+si fa più stretto e meno agevole. Oltre, pare proprio sia impossibile proseguire.
+
+DescrNight:
+Rallenti il cammino quanto basta a causa della limitata visibilità notturna. Procedi
+lungamente lungo sentieri diversi che però conducono tutti verso est in un intrico
+inverosimile. In poco tempo tutto si fa più stretto e meno agevole. Oltre, pare proprio
+sia impossibile proseguire.
+
+DescrSixth:
+Un bosco è sempre un buon posto per qualcuno o qualcosa
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: Nel folto del bosco
+End

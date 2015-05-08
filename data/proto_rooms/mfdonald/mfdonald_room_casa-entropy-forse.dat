@@ -1,0 +1,34 @@
+Code: mfdonald_room_casa-entropy-forse
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Stanza Forse
+Short: la stanza forse
+
+Descr:
+Lo zio ha qui la sua cucina colma di suppellettili. #mfdonald_item_tecia_01#C'è persino una tecia che è finita in terra.#In terra c'è finito proprio di tutto.# Maronna che disastro...
+
+DescrTouch: 
+Guardare e non Toccare!
+DescrSmell: 
+Sconsigliabile come propensione qui dentro!
+DescrSixth:
+Il tuo intuito ti prega gentilmente di uscire.
+DescrHearing:
+Non si sente nulla nulla...
+
+Extras:
+	Keywords: zio
+	Descr:
+	Lo chiamano Zio ma non ha nipoti
+	DescrSixth:
+	Non si sa bene per quale motivo...
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.EAST
+	Descr: La stanza puccesstosa
+End

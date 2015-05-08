@@ -1,0 +1,29 @@
+Code: krablath_room_settori-09
+Sector: SECTOR.PLAIN
+Name: [forestgreen]L'Aiuola del Bamboo[close]
+Short: [forestgreen]dritti fusti a perdita d'occhio[close]
+
+Descr:
+Salta subito all'occhio la netta divisione tra l'ordinato sentiero di ciottoli chiari e quest'aiuola all'apparenza impenetrabile; alti fusti delle più svariate dimensioni si slanciano verso l'alto ramificandosi di tanto in tanto ma senza perdere la loro ostentata verticalità.
+DescrTouch:
+I giunchi più sottili si piegano sotto il tuo peso ma senza spezzarsi.
+DescrSmell:
+no_send
+DescrSixth:
+Resistenti, flessibili e ambiziosamente diritte..queste canne paiono prestarsi ai più svariati utilizzi.
+DescrHearing:
+Qualcuno o qualcosa di veramente piccolo fa frusciare le foglie al suo passaggio.
+
+Width:	6m
+Depth:	6m
+Height: 200m
+
+Exits:
+	Direction:	DIR.NORTHEAST
+	Descr:	Dritti fusti a perdita d'occhio.
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr: 	Verso il centro del giardino
+End
+

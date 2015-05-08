@@ -1,0 +1,41 @@
+Comment: 0 8|8388608 0
+Code: sauria_room_sprazzi-memoria-90
+Sector: SECTOR.UNDERGROUND
+Flags:	ROOM.INSIDE
+Name: Sprazzi Di Memoria
+Short: sprazzi di memoria
+
+Descr:
+Ti muovi lungo un passaggio impossibile; le pareti, come fossero rovi, trattengono a brani pezzi dei tuoi ricordi e delle tue memorie... ma senza violenza. Mentre passi ti poni in muta contemplazione dei tuoi ricordi. 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 0 21894
+  Descr:	La mente riposa
+  Direction:	DIR.EAST
+End
+Exits:
+  Comment:	0 0 21889
+  Descr:	Cupola d'ingresso
+  Direction:	DIR.SOUTH
+End
+Extras:
+  Comment:	EXTRA_COMMENT
+  Keywords:	ricordi ricordo memoria memorie
+  Descr: 
+	...la via per la ricchezza ...te ne vai di già ...niente è come vorrei ...maledetto goblin ...il ciottolo NOOO! ...crepa bestia schifosa... fame, sete, stanco, spossato... gli Dei ci deridono ...non è un animale? ...sto morendo ... puzza di elfo ...i miei soldi! ...Saruman ...ma non lo dovevi tenere giù tu? ...brulichio di vermi? ...Niobe vampira altro che elfa! ...suscettibile a cosa? chi? ...ma non ha gradito ...per nulla ... come si apre? ...non stringo la mano a chi non sa stringere una spada ...stupidi orchetti ...secondo me da morto perde ogni ascontrosità ...un portale magico ...cosa fa quel medaglione?
+End

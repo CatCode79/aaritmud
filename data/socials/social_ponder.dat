@@ -1,0 +1,42 @@
+FunName:    social_ponder
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Ti siedi e pondero intensamente la questione.
+  OthersNoArg: $n si siede e pondera intensamente la questione.
+  EntityFound: Ponderi la situazione guardando $N.
+  OthersFound: $n pondera la situazione guardando $N.
+  TargetFound: $n pondera la situazione guardandoti attentamente.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Cerchi di valutare tutti gli aspetti dell'argomento.
+  OthersNoArg: $n gesticola e borbotta tra se ponderando la questione.
+  EntityFound: Consideri attentamente la questione cercando la collaborazione di $N.
+  OthersFound: $n borbotta tra se chiedendo alla fine a $N se sia o no nel giusto.
+  TargetFound: Dopo aver borbottato tra se $n ti chiede se ha ragione.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Ponderi attentamente la situazione, lisciandoti le vibrisse.
+  OthersNoArg: $n si liscia le vibrisse mentre pondera la situazione.
+  EntityFound: Rotei le orecchie verso $n mentre pondero la questione.
+  OthersFound: $n rotea le orecchie verso $n mentre pondera la questione.
+  TargetFound: $n rotea le orecchie verso di te mentre pondera la questione.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Ponderi attentamente la situazione, lisciandoti le vibrisse.
+  OthersNoArg: $n si liscia le vibrisse mentre pondera la situazione.
+  EntityFound: Rotei le orecchie verso $n mentre pondero la questione.
+  OthersFound: $n rotea le orecchie verso $n mentre pondera la questione.
+  TargetFound: $n rotea le orecchie verso di te mentre pondera la questione.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Ti fermi a riflettere intensamente.
+  OthersNoArg: $n si ferma a riflettere intensamente.
+  EntityFound: Ti fermi a riflettere intensamente nonostante $N.
+  OthersFound: $n si ferma a riflettere intensamente con gli occhi su $n.
+  TargetFound: $n si ferma a riflettere intensamente con gli occhi su di te.
+End

@@ -1,0 +1,24 @@
+Code:	opekus_room_ofidian_oratorio_cella-02
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Una Cella
+Short:	una cella
+
+Descr:
+Una povera celletta scavata nella roccia con l'unico intento di non farla sembrare una caverna.
+Verso il fondo però la stanza spezza e piega a destra in un angolo brusco.
+
+DescrTouch:
+Una povera cella di forma ad elle; dall'unico ingresso si procede verso una piccola svolta a sinistra
+
+DescrSixth:
+Una cella monastica del tipo più morigerato e povero.
+
+Width:	3m
+Depth:	6m
+Height: 3m
+
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	Il corridoio
+End

@@ -1,0 +1,30 @@
+Code: deadcity_room_piazza-centrale
+Sector: SECTOR.CITY
+Name: La [blue]P[lightblue]iazza[close] [blue]C[lightblue]entrale[close] della città morta
+Short: una [blue]piazza[close]
+
+Descr:
+Quattro le vie che qui si incontrano inconsolabili per scoprire se abbia ancora senso.
+Guardandosi attorno pare che senso non ne abbia più da parecchi anni. L'unico segno di
+vita è la rada vegetazione.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Una strada desolata
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Una strada desolata
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Una strada desolata
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Una strada desolata
+End

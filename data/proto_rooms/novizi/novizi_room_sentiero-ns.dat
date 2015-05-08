@@ -1,0 +1,26 @@
+Code: novizi_room_sentiero-ns
+Sector: SECTOR.PATH
+Name: Un Sentiero Bucolico
+Short: un sentiero
+Descr:
+	Una piccola propaggine di sentiero proveniente da nord si disperde in un'indistinta moltitudine di solchi che vanno verso sud.
+Width:	200m
+Depth:	5m
+Height: 100m
+
+Exits:
+	Direction: DIR.NORTH
+	Descr: Un sentiero
+End
+Exits:
+	Direction: DIR.SOUTHEAST
+	Descr: Un enorme slargo
+End
+Exits:
+	Direction: DIR.SOUTH
+	Descr: Un enorme slargo
+End
+Exits:
+	Direction: DIR.SOUTHWEST
+	Descr: Un enorme slargo
+End

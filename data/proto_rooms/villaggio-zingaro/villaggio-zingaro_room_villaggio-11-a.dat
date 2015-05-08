@@ -1,0 +1,27 @@
+Code: villaggio-zingaro_room_villaggio-11-a
+Sector: SECTOR.ROAD
+Name: Verso la Stalla
+Short: la strada
+
+Descr:
+La strada conduce ad un edificio che da questa distanza puoi ammirare in tutta la sua interezza. Alcune parti in legno di recente fattura si appoggiando a degli stanchi ruderi in pietra sparsi un po' ovuque senza una logica apparente a fianco si apre un vasto prato costeggiato dalla boscaglia. Ipertrofiche sterpagli tentano di inglobare il lato opposto della struttura.  
+DescrTouch: 
+Sfiori con la $hand dei lunghi fili d'erba a bordo strada che si piegano sotto il peso delle dita.
+DescrSmell: 
+Olezzo animale.
+DescrHearing:
+Dei nitriti in lontananza.
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.WEST
+	Descr:	Un piazzale
+End
+
+Exits:
+	Direction:	DIR.EAST
+	Descr:	La strada
+End

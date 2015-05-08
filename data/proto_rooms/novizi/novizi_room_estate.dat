@@ -1,0 +1,35 @@
+Code: novizi_room_estate
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: [gold]L'Estate Afosa[close]
+Short: [gold]l'estate afosa[close]
+
+Descr:
+Quest'ala dell'edificio è dedicata all'estate. Ovunque sono disposti [gold]covoni[close] e [gold]spighe
+di grano[close]. Il colore che prevale qui è il l'[gold]oro[close] del [gold]grano[close]. Banchetti e tavolini sono
+addobbati anch'essi con [gold]spighe[close] e [red]nastri rossi[close].
+DescrSmell: 
+L'odore di sudaticcio non consente di entrare appieno nell'atmosfera gaia e gioiosa dell'estate
+DescrHearing:
+Non c'è un filo di vento, ed è ancora troppo caldo
+
+Extras:
+	Keywords: covoni covone spiga spighe grano oro
+	Descr:
+	Il colore visto così da vicino somiglia meno al vero colore dell'oro, però da
+	sufficientemente lontano ci può anche stare
+	DescrTouch:
+	Un covone intero ci vorrebbe da usare come cuscino per fare una dormita
+	DescrSixth:
+	Trovando dei semi forse si riesce a seminare qualcosa
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: La stanza dei pilastri
+End
+

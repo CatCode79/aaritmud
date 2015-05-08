@@ -1,0 +1,33 @@
+Comment: 85 0 5
+Code: sauria_room_cengia-35
+Sector: SECTOR.ROCKY
+Name: Una Cengia
+Short: una cengia
+
+Descr:
+Tracce indiscutibili di un grosso predatore abbondano sulla sponda rocciosa. Ci sono resti di dozzine di scheletri ammucchiati sulle rocce. C'è una vaga idea di sentiero che si incunea verso il fondo di un burrone. 
+DescrTouch: 
+Decine di scheletri ammucchiati qua e là conferiscono all'accesso inferiore un'idea tutta diversa da quanto si otterrebbe mettendo uno zerbino con la scritta "Benvenuti".
+DescrSmell: 
+Forte l'impressione di macellato che sale lenta dal basso nel vano intento di rivestire della vecchia agilità le ossa ammonticchiate.
+DescrSixth:
+Tutti i corollari che puoi notare nei dintorni suggeriscono l'est come via verso l'incolumità personale.
+DescrHearing:
+Il vento mugghia straziante, anche lui tutto teso a restituir favella a chi più non ne ha o forse è solo il canto funebre per tutte le carcasse che ti circondano;
+o semplicemente hai troppa fantasia.
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21834
+  Descr:	Una cengia
+  Direction:	DIR.EAST
+End
+Exits:
+  Comment:	0 -1 21836
+  Descr:	Un burrone
+  Direction:	DIR.DOWN
+End

@@ -1,0 +1,16 @@
+Code: serpidi_room_8661_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: Una Grande Cucina 
+Short: Una grande cucina 
+Descr: 
+Qui c'è una cucina spaziosa e ben attrezzata. Grossi fornelli sono perennemente accesi, mentre piccoli forni sono disposti come un alveare sulla parete nord. Tavoli e tavolacci sono sommersi da stoviglie da lavare e pentole mentre in altri ci sono cibi in varie fasi di lavorazione. 
+Exits:
+	Direction: DIR.SOUTH
+	Destination: 6 7 -2 serpidi
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

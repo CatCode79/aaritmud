@@ -1,0 +1,26 @@
+FunName:    social_blblbl
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Dispettosamente fai una linguaccia.
+  OthersNoArg: $n fa una linguaccia.
+  EntityFound: Fai una linguaccia a $N.
+  OthersFound: $n fa una linguaccia a $N.
+  TargetFound: $n ti fa una linguaccia!
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Mostri un pezzo di $tongue ai presenti con fare dispettoso.
+  OthersNoArg: $n mostra ai presenti un frammento di $tongue con aria birbona.
+  EntityFound: Dai una leccata dispettosa al viso di $N.. Meglio prepararsi alla fuga!
+  OthersFound: $n dà una leccata dispettosa al viso di $N.. Meglio che si preparari alla fuga!
+  TargetFound: $n ti dà una leccata dispettosa sul viso.. Meglio che si preparari alla fuga!
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Mostri un pezzo di $tongue ai presenti con fare dispettoso.
+  OthersNoArg: $n mostra ai presenti un frammento di $tongue con aria birbona.
+  EntityFound: Dai una leccata dispettosa al viso di $N.. Meglio prepararsi alla fuga!
+  OthersFound: $n dà una leccata dispettosa al viso di $N.. Meglio che si preparari alla fuga!
+  TargetFound: $n ti dà una leccata dispettosa sul viso.. Meglio che si preparari alla fuga!
+End

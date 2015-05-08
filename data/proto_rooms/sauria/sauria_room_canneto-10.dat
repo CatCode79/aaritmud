@@ -1,0 +1,34 @@
+Comment: 85 4 6
+Code: sauria_room_canneto-10
+Sector: SECTOR.LAKE
+Name: Canneto
+Short: canneto
+
+Descr:
+Ok, per qualche oscuro motivo hai deciso di saltare nel canneto. Stranamente non sembra una pessima idea, provi anzi una certo senso di ristoro. Il lago si estende placido verso nord. 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21811
+  Descr:	In mezzo al lago
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 -1 21809
+  Descr:	Sponda del lago
+  Direction:	DIR.SOUTH
+End

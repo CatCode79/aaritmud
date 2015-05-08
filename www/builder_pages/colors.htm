@@ -1,0 +1,195 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<h2>Riguardo alla Formattazione Testuale in Aarit:</h2>
+Le regole di formattazione del testo si basano sul css, quindi per chi gi&agrave; conosce le regole di stile css &egrave; gi&agrave; a met&agrave; dell'opera.<br>
+Ma vediamole in dettaglio una per una partendo dalla colorazione testuale.<br><br>
+
+<hr>
+<h3>Colore del testo:</h3>
+Per colorare il testo dovete inserire, nella posizione in cui volete che il colore cominci, il tag [<span style="font-style:italic">nome_colore</span>]<br>
+mentre quando vorrete terminare la colorazione dovete utilizzare il tag [close]<br><br>
+
+Ecco cosa potete utilizzare al posto di <span style="font-style:italic">nome_colore</span>:<br>
+<table width=50%>
+  <tr><td align="center" style="background-color:#2F2F2F;color:white">black</td></tr>
+  <tr><td align="center" style="background-color:#006400;color:white">darkgreen</td></tr>
+  <tr><td align="center" style="background-color:#008000;color:white">green</td></tr>
+  <tr><td align="center" style="background-color:#800000;color:white">maroon</td></tr>
+  <tr><td align="center" style="background-color:#000080;color:white">navy</td></tr>
+  <tr><td align="center" style="background-color:#00008B;color:white">darkblue</td></tr>
+  <tr><td align="center" style="background-color:#8B0000;color:white">darkred</td></tr>
+  <tr><td align="center" style="background-color:#191970;color:white">midnightblue</td></tr>
+  <tr><td align="center" style="background-color:#2F4F4F;color:white">darkslategray</td></tr>
+  <tr><td align="center" style="background-color:#4B0082;color:white">indigo</td></tr>
+  <tr><td align="center" style="background-color:#0000CD;color:white">mediumblue</td></tr>
+  <tr><td align="center" style="background-color:#228B22;color:white">forestgreen</td></tr>
+  <tr><td align="center" style="background-color:#8B4513;color:white">saddlebrown</td></tr>
+  <tr><td align="center" style="background-color:#556B2F;color:white">darkolivegreen</td></tr>
+  <tr><td align="center" style="background-color:#B22222;color:white">firebrick</td></tr>
+  <tr><td align="center" style="background-color:#A52A2A;color:white">brown</td></tr>
+  <tr><td align="center" style="background-color:#00F;color:white">blue</td></tr>
+  <tr><td align="center" style="background-color:#0F0;color:white">lime</td></tr>
+  <tr><td align="center" style="background-color:#FF0000;color:white">red</td></tr>
+  <tr><td align="center" style="background-color:#808000;color:white">olive</td></tr>
+  <tr><td align="center" style="background-color:#800080;color:white">purple</td></tr>
+  <tr><td align="center" style="background-color:#008080;color:white">teal</td></tr>
+  <tr><td align="center" style="background-color:#483D8B;color:white">darkslateblue</td></tr>
+  <tr><td align="center" style="background-color:#2E8B57;color:white">seagreen</td></tr>
+  <tr><td align="center" style="background-color:#008B8B;color:white">darkcyan</td></tr>
+  <tr><td align="center" style="background-color:#8B008B;color:white">darkmagenta</td></tr>
+  <tr><td align="center" style="background-color:#6B8E23;color:white">olivedrab</td></tr>
+  <tr><td align="center" style="background-color:#A0522D;color:white">sienna</td></tr>
+  <tr><td align="center" style="background-color:#DC143C;color:white">crimson</td></tr>
+  <tr><td align="center" style="background-color:#32CD32;color:white">limegreen</td></tr>
+  <tr><td align="center" style="background-color:#696969;color:white">dimgray</td></tr>
+  <tr><td align="center" style="background-color:#FF4500;color:black">orangered</td></tr>
+  <tr><td align="center" style="background-color:#B8860B;color:black">darkgoldenrod</td></tr>
+  <tr><td align="center" style="background-color:#D2691E;color:black">chocolate</td></tr>
+  <tr><td align="center" style="background-color:#3CB371;color:black">mediumseagreen</td></tr>
+  <tr><td align="center" style="background-color:#C71585;color:black">mediumvioletred</td></tr>
+  <tr><td align="center" style="background-color:#9400D3;color:black">darkviolet</td></tr>
+  <tr><td align="center" style="background-color:#7CFC00;color:black">lawngreen</td></tr>
+  <tr><td align="center" style="background-color:#20B2AA;color:black">lightseagreen</td></tr>
+  <tr><td align="center" style="background-color:#4682B4;color:black">steelblue</td></tr>
+  <tr><td align="center" style="background-color:#7FFF00;color:black">chartreuse</td></tr>
+  <tr><td align="center" style="background-color:#00FF7F;color:black">springgreen</td></tr>
+  <tr><td align="center" style="background-color:#808080;color:black">gray</td></tr>
+  <tr><td align="center" style="background-color:#708090;color:black">slategray</td></tr>
+  <tr><td align="center" style="background-color:#CD5C5C;color:black">indianred</td></tr>
+  <tr><td align="center" style="background-color:#FF8C00;color:black">darkorange</td></tr>
+  <tr><td align="center" style="background-color:#4169E1;color:black">royalblue</td></tr>
+  <tr><td align="center" style="background-color:#CD853F;color:black">peru</td></tr>
+  <tr><td align="center" style="background-color:#6A5ACD;color:black">slateblue</td></tr>
+  <tr><td align="center" style="background-color:#00FA9A;color:black">mediumspringgreen</td></tr>
+  <tr><td align="center" style="background-color:#8A2BE2;color:black">blueviolet</td></tr>
+  <tr><td align="center" style="background-color:#9932CC;color:black">darkorchid</td></tr>
+  <tr><td align="center" style="background-color:#778899;color:black">lightslategray</td></tr>
+  <tr><td align="center" style="background-color:#9ACD32;color:black">yellowgreen</td></tr>
+  <tr><td align="center" style="background-color:#5F9EA0;color:black">cadetblue</td></tr>
+  <tr><td align="center" style="background-color:#00CED1;color:black">darkturquoise</td></tr>
+  <tr><td align="center" style="background-color:#DAA520;color:black">goldenrod</td></tr>
+  <tr><td align="center" style="background-color:#FFA500;color:black">orange</td></tr>
+  <tr><td align="center" style="background-color:#FF1493;color:black">deeppink</td></tr>
+  <tr><td align="center" style="background-color:#FF6347;color:black">tomato</td></tr>
+  <tr><td align="center" style="background-color:#1E90FF;color:black">dodgerblue</td></tr>
+  <tr><td align="center" style="background-color:#00BFFF;color:black">deepskyblue</td></tr>
+  <tr><td align="center" style="background-color:#FF7F50;color:black">coral</td></tr>
+  <tr><td align="center" style="background-color:#7B68EE;color:black">mediumslateblue</td></tr>
+  <tr><td align="center" style="background-color:#FFD700;color:black">gold</td></tr>
+  <tr><td align="center" style="background-color:#8FBC8F;color:black">darkseagreen</td></tr>
+  <tr><td align="center" style="background-color:#BC8F8F;color:black">rosybrown</td></tr>
+  <tr><td align="center" style="background-color:#ADFF2F;color:black">greenyellow</td></tr>
+  <tr><td align="center" style="background-color:#66CDAA;color:black">mediumaquamarine</td></tr>
+  <tr><td align="center" style="background-color:#9370DB;color:black">mediumpurple</td></tr>
+  <tr><td align="center" style="background-color:#DB7093;color:black">palevioletred</td></tr>
+  <tr><td align="center" style="background-color:#BDB76B;color:black">darkkhaki</td></tr>
+  <tr><td align="center" style="background-color:#BA55D3;color:black">mediumorchid</td></tr>
+  <tr><td align="center" style="background-color:#48D1CC;color:black">mediumturquoise</td></tr>
+  <tr><td align="center" style="background-color:#6495ED;color:black">cornflowerblue</td></tr>
+  <tr><td align="center" style="background-color:#FA8072;color:black">salmon</td></tr>
+  <tr><td align="center" style="background-color:#F08080;color:black">lightcoral</td></tr>
+  <tr><td align="center" style="background-color:#40E0D0;color:black">turquoise</td></tr>
+  <tr><td align="center" style="background-color:#F4A460;color:black">sandybrown</td></tr>
+  <tr><td align="center" style="background-color:#E9967A;color:black">darksalmon</td></tr>
+  <tr><td align="center" style="background-color:#A9A9A9;color:black">darkgray</td></tr>
+  <tr><td align="center" style="background-color:#0FF;color:black">aqua</td></tr>
+  <tr><td align="center" style="background-color:#0FF;color:black">cyan</td></tr>
+  <tr><td align="center" style="background-color:#F0F;color:black">fuchsia</td></tr>
+  <tr><td align="center" style="background-color:#F0F;color:black">magenta</td></tr>
+  <tr><td align="center" style="background-color:#FF0;color:black">yellow</td></tr>
+  <tr><td align="center" style="background-color:#90EE90;color:black">lightgreen</td></tr>
+  <tr><td align="center" style="background-color:#D2B48C;color:black">tan</td></tr>
+  <tr><td align="center" style="background-color:#FFA07A;color:black">lightsalmon</td></tr>
+  <tr><td align="center" style="background-color:#FF69B4;color:black">hotpink</td></tr>
+  <tr><td align="center" style="background-color:#DEB887;color:black">burlywood</td></tr>
+  <tr><td align="center" style="background-color:#DA70D6;color:black">orchid</td></tr>
+  <tr><td align="center" style="background-color:#98FB98;color:black">palegreen</td></tr>
+  <tr><td align="center" style="background-color:#C0C0C0;color:black">silver</td></tr>
+  <tr><td align="center" style="background-color:#87CEEB;color:black">skyblue</td></tr>
+  <tr><td align="center" style="background-color:#87CEFA;color:black">lightskyblue</td></tr>
+  <tr><td align="center" style="background-color:#7FFFD4;color:black">aquamarine</td></tr>
+  <tr><td align="center" style="background-color:#B0C4DE;color:black">lightsteelblue</td></tr>
+  <tr><td align="center" style="background-color:#DDA0DD;color:black">plum</td></tr>
+  <tr><td align="center" style="background-color:#EE82EE;color:black">violet</td></tr>
+  <tr><td align="center" style="background-color:#F0E68C;color:black">khaki</td></tr>
+  <tr><td align="center" style="background-color:#ADD8E6;color:black">lightblue</td></tr>
+  <tr><td align="center" style="background-color:#D8BFD8;color:black">thistle</td></tr>
+  <tr><td align="center" style="background-color:#FFB6C1;color:black">lightpink</td></tr>
+  <tr><td align="center" style="background-color:#B0E0E6;color:black">powderblue</td></tr>
+  <tr><td align="center" style="background-color:#D3D3D3;color:black">lightgray</td></tr>
+  <tr><td align="center" style="background-color:#EEE8AA;color:black">palegoldenrod</td></tr>
+  <tr><td align="center" style="background-color:#F5DEB3;color:black">wheat</td></tr>
+  <tr><td align="center" style="background-color:#FFDEAD;color:black">navajowhite</td></tr>
+  <tr><td align="center" style="background-color:#FFC0CB;color:black">pink</td></tr>
+  <tr><td align="center" style="background-color:#AFEEEE;color:black">paleturquoise</td></tr>
+  <tr><td align="center" style="background-color:#FFDAB9;color:black">peachpuff</td></tr>
+  <tr><td align="center" style="background-color:#DCDCDC;color:black">gainsboro</td></tr>
+  <tr><td align="center" style="background-color:#FFE4B5;color:black">mocassin</td></tr>
+  <tr><td align="center" style="background-color:#FFE4C4;color:black">bisque</td></tr>
+  <tr><td align="center" style="background-color:#FFEBCD;color:black">blanchedalmond</td></tr>
+  <tr><td align="center" style="background-color:#FAEBD7;color:black">antiquewhite</td></tr>
+  <tr><td align="center" style="background-color:#FFEFD5;color:black">papayawhip</td></tr>
+  <tr><td align="center" style="background-color:#FFE4E1;color:black">mistyrose</td></tr>
+  <tr><td align="center" style="background-color:#F5F5DC;color:black">beige</td></tr>
+  <tr><td align="center" style="background-color:#E6E6FA;color:black">lavender</td></tr>
+  <tr><td align="center" style="background-color:#FFFACD;color:black">lemonchiffon</td></tr>
+  <tr><td align="center" style="background-color:#FAFAD2;color:black">lightgoldenrodyellow</td></tr>
+  <tr><td align="center" style="background-color:#FAF0E6;color:black">linen</td></tr>
+  <tr><td align="center" style="background-color:#FFF8DC;color:black">cornsilk</td></tr>
+  <tr><td align="center" style="background-color:#FDF5E6;color:black">oldlace</td></tr>
+  <tr><td align="center" style="background-color:#E0FFFF;color:black">lightcyan</td></tr>
+  <tr><td align="center" style="background-color:#FFFFE0;color:black">lightyellow</td></tr>
+  <tr><td align="center" style="background-color:#F0FFF0;color:black">honeydew</td></tr>
+  <tr><td align="center" style="background-color:#F5F5F5;color:black">whitesmoke</td></tr>
+  <tr><td align="center" style="background-color:#FFF5EE;color:black">seashell</td></tr>
+  <tr><td align="center" style="background-color:#FFF0F5;color:black">lavenderblush</td></tr>
+  <tr><td align="center" style="background-color:#F0F8FF;color:black">aliceblue</td></tr>
+  <tr><td align="center" style="background-color:#FFFAF0;color:black">floralwhite</td></tr>
+  <tr><td align="center" style="background-color:#F0FFFF;color:black">azure</td></tr>
+  <tr><td align="center" style="background-color:#FFFFF0;color:black">ivory</td></tr>
+  <tr><td align="center" style="background-color:#F5FFFA;color:black">mintcream</td></tr>
+  <tr><td align="center" style="background-color:#F8F8FF;color:black">ghostwhite</td></tr>
+  <tr><td align="center" style="background-color:#FFFAFA;color:black">snow</td></tr>
+  <tr><td align="center" style="background-color:#FFF;color:black">white</td></tr>
+</table>
+
+Ora torniamo a noi con un esempio:<br>
+Una [red]mela rossa[close] si trova per terra.<br>
+Risulter&agrave;:<br>
+Una <span style="color:red">mela rossa</span> si trova per terra.<br><br>
+
+C'&egrave; una particolarit&agrave; da ricordare, poich&eacute; lo sfondo di Aarit &egrave; gi&agrave; nero non potete scrivere testo in nero altrimenti non si leggerebbe nulla, in questo caso Aarit converte automaticamente il nero in grigio scuro.<br><br>
+
+Potete inserire anche pi&ugrave; tag di [<span style="font-style:italic">nome_colore</span>] uno dietro l'altro, ovviamente intervallati da del testo che apparir&agrave; del colore voluto; quando dichiarate un nuovo colore quello precedente verr&agrave; considerato chiuso automaticamente senza dover inserire [close].<br>
+Esempio: Vedi una [yellow]s[cyan]pada[close] nella roccia<br>
+Verr&agrave; visualizzato: Vedi una <span style="color:yellow">s</span><span style="color:cyan">pada</span> nella roccia<br><br>
+
+Evitate di colorare una lettera con un colore e quella successiva con un altro e cos&igrave; via a ripetizione, appesantisce di molto l'invio dell'output.<br>
+In alternativa potete colorare la prima lettera di una parola in un modo, mentre il resto in un altro modo, come nell'ultimo esempio.<br><br>
+
+<a href="elements_list.htm#COLOR">Qui</a> troverete inoltre la lista dei codici dei colori, utile nel building delle aree.<br><br>
+
+<hr>
+<h3>Colore del testo in background:</h3>
+Oltre al tag [<span style="font-style:italic">nome_colore</span>] c'&egrave; un altro tag riguardante i colori che funziona in maniera simile:<br>
+[background-color:<span style="font-style:italic">nome_colore</span>]<br>
+Ci&ograve; serve a colorare lo sfondo di una parola o frase.<br>
+Quindi se inserirete:<br>
+Una [background-color:white; black]pietra nera[close] risplende di luce cupa.<br>
+Visualizzer&agrave;:<br>
+Una <span style="background-color:white; color:black">pietra nera</span> risplende di luce cupa.<br><br>
+
+E con questo esempio oltre che ad imparare ad utilizzare i colori di background avete anche imparato come inserire pi&ugrave; tag di formattazione allo stesso tempo, difatti basta separarli con il punto e virgola.<br>
+C'&egrave; anche da ricordare che background-color supporta anche un altro attributo oltre ai nomi dei colori: trasparent. Non mi viene in mente nessun esempio concreto in cui lo possiate utilizzare, comunque c'&egrave;!<br><br>
+
+<hr>
+</body>
+</html>

@@ -1,0 +1,41 @@
+Code: krablath_room_blath-17
+Sector: SECTOR.PLAIN
+Name: Aggirando la Casa
+Short: attorno alla casa
+
+Descr:
+Il vialetto acciottolato ove ti trovi aggira la casupola dirigendosi sul retro e si collega alla terrazza tramite una massiccia scalinata.
+Una scala a pioli conduce al tetto ed è affiancata da numerose liane che discendono in ogni direzione.
+DescrTouch: 
+Saggi la robustezza della scala, pare reggere.
+DescrSmell: 
+Qui, come nel resto del giardino, fragranze di terra e di fiori si mescolano come passati tra le mani di un esperto profumiere.
+DescrHearing:
+Avverti il suono dell'acqua che scorre.
+
+Extras:
+	Keywords: liane
+	Descr:
+	Segui le liane con lo sguardo e ti accorgi che alcune di queste si conficcano nel terreno.
+End
+
+Width:	6m
+Depth:	2m
+Height: 200m
+
+Exits:
+	Direction: DIR.NORTH
+	Descr: Il retro della casa.
+	Destination: 4 5 0 krablath
+End
+Exits:
+ 	Direction: DIR.WEST
+ 	Descr: Il terrazzo.
+End
+Exits:
+	Direction:	DIR.UP
+	Descr:	Il tetto.
+	Destination: 3 3 1 krablath
+ 	EntityMessage: Sali lentamente la scaletta a pioli.
+	OthersInMessage:	$n sale lentamente la scaletta a pioli.
+End

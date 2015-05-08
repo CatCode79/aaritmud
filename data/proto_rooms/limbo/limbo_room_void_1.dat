@@ -1,0 +1,24 @@
+Code: limbo_room_void_1
+Sector: SECTOR.HOUSE
+Name: Il Imbo
+Short: il limbo 
+Descr:
+Ti trovi non tanto in un luogo ma il un tempo:
+Più precisamente ti trovi alla $hour e $minute minuti;
+il giorno $day  del mese di $month nell'anno del Gatto: $year.
+Il giorno dela settimana è quello di  $day_week.
+La stagione: $season
+<br>
+E più non dimandare!
+
+
+Width:	7m
+Depth:	7m
+Height: 5m
+
+Exits:
+  Direction: DIR.NORTH 
+  Descr: FUOCO 
+End
+
+Music: creation.mid

@@ -1,0 +1,30 @@
+Code: villaggio-zingaro_room_cupola-06-inverno
+Sector: SECTOR.WOOD
+Name: L'accesso al Faggeto
+Short: il principio del bosco
+
+Descr:
+Sei all'imboccatura del [darkseagreen]bosco[close], uno stretto sentiero si intrufola tra slanciati [darkseagreen]faggi[close], ormai spogli, che si estendono in ogni direzione.
+DescrNight:
+Sei all'imboccatura del bosco; due [gold]fi[close][darkorange]acco[close][gold]le[close] accese ti mostrano la via per pochi metri, prima che il sentiero venga inghiottito dalla notte.
+DescrSmell: 
+Gli odori del villaggio si spingono fin qui tentando di intrufolarsi nel profondo del faggeto.
+DescrHearing:
+Una zona di confine dove i cinguetti di qualche intrepido uccellino si fondono con il chiacchiericcio villano.
+DescrSixth:
+Pochi passi ed hai già l'impressione di esserti pers$O, maledetti alberi sembrano tutti uguali!
+DescrSixthNight:
+Addentrarsi in un bosco di notte potrebbe non essere la migliore delle idee.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+Exits:
+	Direction: DIR.NORTHEAST
+	Descr: Faggi a non finire
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: Un crocevia
+	Destination:	-3 1 0 villaggio-zingaro
+End

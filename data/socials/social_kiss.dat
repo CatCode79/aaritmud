@@ -1,0 +1,54 @@
+FunName:    social_kiss
+Intention:  INTENTION.FRIENDLY
+Expression: baciando
+Smiles:     :* :-*
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Baciamo l'aria?
+  OthersNoArg: $n manda baci a tutti i presenti.
+  EntityFound: Baci $N.
+  OthersFound: $n bacia $N.
+  TargetFound: $n ti bacia.
+  EntityAuto:  Ti baci da sol$o, almeno tu ti vuoi bene!
+  OthersAuto:  $n si bacia, lasciamol$o sol$o con se stess$o.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: E` bello baciare qualcuno. Chi?
+  OthersNoArg: $n mima di dare un bacio a qualcuno.
+  EntityFound: Baci $N con allegria.
+  OthersFound: $n bacia $N poi si ritrae e ridacchia.
+  TargetFound: $n ti bacia per poi ritrarsi ridacchiando.
+  EntityAuto:  Baci le tue belle membra.
+  OthersAuto:  $n arriva a baciarsi da sol$o? Questo va oltre l'essere vanitosi!
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Mandi un bacio.
+  OthersNoArg: $n manda un bacio.
+  EntityFound: Baci $N.
+  OthersFound: $n bacia la fronte di $N.
+  TargetFound: $n poggia le labbra sulla tua fronte.
+  EntityAuto:  Mandi un gelido bacio.
+  OthersAuto:  $n manda un gelido bacio.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Cerchi qualcuno da baciare.
+  OthersNoArg: $n scruta i presenti in cerca di qualcuno da baciare.
+  EntityFound: Baci con delicatezza le labbra di $N.
+  OthersFound: $n si avvicina a $N e bacia delicatamente le sue labbra.
+  TargetFound: $n ti si avvicina e ti bacia delicatamente.
+  EntityAuto:  Ti baci le zampette.
+  OthersAuto:  $n si bacia le zampette..
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Cerchi qualcuno da baciare.
+  OthersNoArg: $n scruta i presenti in cerca di qualcuno da baciare.
+  EntityFound: Baci con delicatezza le labbra di $N.
+  OthersFound: $n si avvicina a $N e bacia delicatamente le sue labbra.
+  TargetFound: $n ti si avvicina e ti bacia delicatamente.
+  EntityAuto:  Ti baci le zampette.
+  OthersAuto:  $n si bacia le zampette..
+End

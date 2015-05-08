@@ -1,0 +1,25 @@
+Code: novizi_room_piazzale-esterno-01
+Sector: SECTOR.PATH
+Name: Il Cortile dei Grozzy
+Short: un piazzale
+Descr:
+Sei nel piazzale antistante ad una piccola casupola disposta su tre piani. Dinanzi a te
+la porta d'ingresso e sul lato destro un campanello. Il piazzale prosegue verso sud.
+ 
+Width:	2m
+Depth:	10m
+Height: 10m
+
+
+Exits:
+  	Direction: DIR.NORTH
+  	Descr: La strada
+End
+Exits:
+  	Direction: DIR.EAST
+  	Descr: La zona melmosa
+End
+Exits:
+  	Direction: DIR.SOUTH
+  	Descr: Il piazzale
+End

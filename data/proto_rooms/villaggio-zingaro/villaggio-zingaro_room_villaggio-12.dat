@@ -1,0 +1,33 @@
+Code: villaggio-zingaro_room_villaggio-12
+Sector: SECTOR.ROAD
+Name: Attorno alla Stalla
+Short: il termine della strada
+
+Descr:
+Segui la strada fino allo sbocco in un piazzale in terra battuta sul quale si affaccia un alto edificio a due piani isolato da resto del villaggio. La facciata e i muri laterali in legno sono immersi nella vegetazione spontanea composta ad est da un fitto bosco di faggi e ad ovest da alte sterpaglie e ruderi.
+DescrNight:
+Segui la strada fino allo sbocco in un piccolo piazzale sul quale si affaccia un alto edificio a due piani. L'assenza di illuminazione non ti permette di distinguerne i contorni immersi in una fitta vegetazione che lo isolano dal resto del villaggi
+DescrSmell:
+Sottobosco frammisto a letame e paglia.
+DescrHearing:
+Il fruscio del bosco è coperto di tanto in tanto da dei nitriti.
+
+Extras:
+	Keywords: ruderi edificio facciata muri 
+	Descr:
+	Guardando oltre ti accorgi che la struttura è composta da due parti, una l'alto edificio in legno, l'altra una bassa e lunga costruzione in pietra.
+	DescrSixth:
+	Hai l'impressione che la parte in pietra facesse parte di qualcosa di più grande e che sia stata inglobata solo in un secondo momento.
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+Exits:
+	Direction: DIR.EAST
+	Descr: La strada
+End
+Exits:
+	Direction: DIR.SOUTH
+	Descr: La stalla
+End

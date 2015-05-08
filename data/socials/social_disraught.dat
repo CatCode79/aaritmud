@@ -1,0 +1,36 @@
+FunName:    social_disraught
+Intention:  INTENTION.NEUTRAL
+Expression: sconvolto
+Smiles:     :O :-O :0 :-0
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Spalanchi gli occhi rimanendo a bocca aperta, completamente sconvolt$o.
+  OthersNoArg: $n spalanca gli occhi rimanendo a bocca aperta, completamente sconvolt$o..
+  EntityFound: Spalanchi gli occhi guardando $N completamente sconvolt$o.
+  OthersFound: $n spalanca gli occhi guardando $N completamente sconvolt$o..
+  TargetFound: $n spalanca gli occhi guardandoti, completamente sconvolt$o.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Hai lo stomaco completamente sconvolto.
+  OthersNoArg: $n si tiene lo stomaco con una $hand, appare sconvolt$o.
+  EntityFound: La vista di $N ti sconvolge lo stomaco.
+  OthersFound: $n si tiene lo stomaco con una $hand guardando $N.
+  TargetFound: $n si tiene lo stomaco con una $hand mentre ti osserva.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Drizzi le orecchie guardandoti intorno sconvolt$o.
+  OthersNoArg: $n drizza le orecchie guardandosi attorno sconvolt$o.
+  EntityFound: Drizzi le orecchie fissando $N con aria sconvolta.
+  OthersFound: $n drizza le orecchie sconvolt$o mentre si volge verso $N.
+  TargetFound: Devi aver sconvolto $n.. ti sta fissando con occhi allucinati.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Drizzi le orecchie guardandoti intorno sconvolt$o.
+  OthersNoArg: $n drizza le orecchie guardandosi attorno sconvolt$o.
+  EntityFound: Drizzi le orecchie fissando $N con aria sconvolta.
+  OthersFound: $n drizza le orecchie sconvolt$o mentre si volge verso $N.
+  TargetFound: Devi aver sconvolto $n.. ti sta fissando con occhi allucinati.
+End

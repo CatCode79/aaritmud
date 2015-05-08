@@ -1,0 +1,34 @@
+FunName:    social_meditate
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Ti metti comod$o meditando sulla situazione..
+  OthersNoArg: $n si mette comod$o e medita silenziosamente.
+  EntityFound: Guardi $N meditando silenziosamente sulla situazione.
+  OthersFound: $n guarda $N meditando silenziosamente sulla situazione.
+  TargetFound: $n ti guarda meditando silenziosamente sulla situazione.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Chiudi gli occhi e concentri i tuoi pensieri sulla situazione.
+  OthersNoArg: $n chiude gli occhi e fluttua in aria priv$o di controllo.
+  EntityFound: I tuoi occhi vagano sulla figura di $N mentre mediti sul da farsi.
+  OthersFound: $n esamina lungamente $N mentre finge di meditare sul da farsi.
+  TargetFound: $n non ti stacca gli occhi di dosso meditando sul da farsi.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Appoggi il mento su una zampa meditando una soluzione.
+  OthersNoArg: $n sembra assort$o in meditazione, meglio non disturbare.
+  EntityFound: Osservi $N e mediti sul da farsi, già che ci sei ti lecchi una zampa.
+  OthersFound: $n guarda $N e medita mentre si rassetta una zampa.
+  TargetFound: $n ti osserva meditabond$o.. Ma non perde occasione per pulirsi il manto!
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Appoggi il mento su una zampa meditando una soluzione.
+  OthersNoArg: $n sembra assort$o in meditazione, meglio non disturbare.
+  EntityFound: Osservi $N e mediti sul da farsi, già che ci sei ti lecchi una zampa.
+  OthersFound: $n guarda $N e medita mentre si rassetta una zampa.
+  TargetFound: $n ti osserva meditabond$o.. Ma non perde occasione per pulirsi il manto!
+End

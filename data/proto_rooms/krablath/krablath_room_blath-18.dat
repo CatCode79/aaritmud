@@ -1,0 +1,28 @@
+Code: krablath_room_blath-18
+Sector: SECTOR.PLAIN
+Name: Sul Retro
+Short: sul retro della casa
+
+Descr:
+Pochi scalini in cotto conducono all'accesso posteriore della casupola; la muraglia rocciosa, che circonda inesorabile questa piccola e rigogliosa conca, è in questo punto squarciata come se una forza dirompente avesse voluto creare una via di d'uscita. 
+DescrTouch: 
+Scorri con le $hands l'irregolare profilo della breccia contatando inaudita consistenza della roccia.
+DescrSmell: 
+Cominci a percepire gli odori del bosco.
+DescrSixth:
+Qualcosa di gigantesco o di incredibilmente potente dev'essere passato di qui.
+
+Width:	6m
+Depth:	4m
+Height: 200m
+
+Exits:
+	Direction: DIR.SOUTH
+	Descr:	Attorno alla casa.
+	Destination: 4 2 0 krablath
+End
+Exits:
+	Direction: DIR.SOUTHWEST
+	Descr: La casa.
+	Door: krablath_item_door-porta-posteriore
+End

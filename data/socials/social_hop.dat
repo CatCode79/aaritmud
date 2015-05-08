@@ -1,0 +1,36 @@
+FunName:    social_hop
+Intention:  INTENTION.FRIENDLY
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Salti tutt'intorno come una rana.
+  OthersNoArg: $n salta tutt'intorno come una rana.
+  EntityFound: Salti tutt'intorno a $N felicissim$o!
+  OthersFound: $n salta felicissim$o tutt'intorno a $N!
+  TargetFound: $n ti salta tutt'intorno felicissim$o!
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Sgambetti qua e là soddisfatt$o.
+  OthersNoArg: $n saltella qua e là soddisfatt$o.
+  EntityFound: Sgambetti soddisfatt$o qua e là investendo $N.
+  OthersFound: $n saltella soddisfatt$o investendo $N.
+  TargetFound: $n saltellando soddisfatt$o ti sbatte contro.
+  EntityAuto:  Esegui un doppio salto mortale partendo da ferm$o.
+  OthersAuto:  $n esegue un doppio salto mortale partendo da ferm$o.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Saltelli allegramente, stiracchiandoti le zampe.
+  OthersNoArg: $n balzella per ogni dove, stiracchiando le zampe.
+  EntityFound: $n balzelli tutt'intorno a $N, usando la coda come timone.
+  OthersFound: $n usa la coda come timone mentre balzella attorno a $N.
+  TargetFound: $n ti balzella tutt'intorno allegramente.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Saltelli allegramente, stiracchiandoti le zampe.
+  OthersNoArg: $n balzella per ogni dove, stiracchiando le zampe.
+  EntityFound: $n balzelli tutt'intorno a $N, usando la coda come timone.
+  OthersFound: $n usa la coda come timone mentre balzella attorno a $N.
+  TargetFound: $n ti balzella tutt'intorno allegramente.
+End

@@ -1,0 +1,35 @@
+Code: villaggio-zingaro_room_tagliapietre
+Sector: SECTOR.SHOP
+Flags: ROOM.INSIDE
+Name: La Bottega del Tagliapietre
+Short: la bottega del tagliapietre
+
+Descr:
+Un ambiente unico scavato nella collina come un piccolo antro; la volta è puntellata da poche travi disposte con cura. L'illuminazione è garantita da aperture circolari sul soffitto che permettono alla luce solare di filtrare all'interno. Per il resto solo pochi oggetti occupano lo spazio tra cui, una branda, [white]lastre di pietra[close] ben levigata, blocchi di pietra non ancora lavorata e detriti.
+DescrNight:
+Un ambiente unico scavato nella collina come un piccolo antro; attraverso delle aperture circolari sul soffitto si intravede il cielo stellato. Nell'oscurità scordi delle travi che puntellano la volta, blocchi di pietra e cumuli di detriti. 
+DescrSmell: 
+L'aria è intrisa di polvere e ti rende difficoltosa la respirazione.
+DescrSixth:
+Un luogo curioso che certamente cela qualcosa di misterioso.
+DescrHearing:
+Colpi di martelletto e sega si alternano regolari.	
+
+Extras:
+	Keywords: aperture circolari lastre
+	Descr:
+	Delle aperture circolari poste sul soffitto.
+	DescrSixth:
+	Sembra un ingegnoso metodo per aumentare la luminosità dell'ambiente. La luce viene diffusa riflettendosi sulle lastre lucidate.
+End
+
+Width:	4m
+Depth:	5m
+Height: 2m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: In strada
+  Door: villaggio-zingaro_item_door-porta-tagliapietre
+End
+

@@ -1,0 +1,18 @@
+Code: karpuram_room_city-torre-guardia-top-se
+Sector: SECTOR.PLAIN
+Name: L'[lime]Osservatorio[close]
+Short: la cabina d'osservazione
+Descr:
+Ti accoglie un ambiente ridotto a forma vagamente ovoidale è tappezzato di ramaglie
+tutto attorno; fortunamtamente il pavimento è solido e più sicuro. Guardando qua e là
+non trovi molto spazio libero poiché innumerevoli rotoli di pergamena e libri son
+stati scagliati in disordine come a realizzare una fantasia sul pavimento disadorno.
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.DOWN
+  Descr: La scala per il ritorno
+End

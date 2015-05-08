@@ -1,0 +1,23 @@
+Code: villaggio-zingaro-maze_room_grotte_nord-est
+Sector: SECTOR.UNDERGROUND
+Flags: ROOM.INSIDE
+Name:	Nelle Viscere della Terra
+Short:	l'angusta via
+
+Descr:
+Tutti i sentierini che s'intrecciavano senza sosta sono spariti e l'unica via si piega repentinamente; non ti è dato vedere cosa vi sia oltre.
+DescrSixth:
+Di certo un nugolo di cunicoli è un posto tranquillo, ma forse preferiresti trovare l'uscita.
+
+Width:	10m
+Depth:	2m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Nei meandri rocciosi
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Nei meandri rocciosi
+End

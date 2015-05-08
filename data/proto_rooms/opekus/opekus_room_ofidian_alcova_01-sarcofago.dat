@@ -1,0 +1,34 @@
+Code:	opekus_room_ofidian_alcova_01-sarcofago
+Sector:	SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name:	Il Sarcofago del Primo Sacerdote
+Short:	l'interno del sarcofago
+
+Descr:
+L'angusto ed esiguo spazio unlteriormente interrato ha geometria rettangolare;
+intermanete scavato nella roccia lascia scorgere il tagio degli strati rocciosi che ne fanno cornice.
+Spoglio e disadorno eccetto che per un piccolo [red]brando colorato[close] su di uno dei lati lunghi.
+
+Descr:
+Percorri con il piede il pavimento disegnando il perimetro rettangolare dell'angusto spazio.
+
+DescrSixth:
+Per essere un sarcofago in una cattedrale, non è propriamente fastoso...
+
+Extras:
+	Keywords: brano colorato
+	Descr:
+		Sembra trattarsi del principio di una raffigurazione mai portata a termine.
+		Si distingue un vago tratteggio ove l'artista avrebbe dovuto completare.
+        DescrSixth:
+		Rappresenta una figura di rettile agghindata probabilmente di paramenti sacri.
+End
+
+Width:	2m
+Depth:	3m
+Height: 2m
+
+Exits:
+  Direction: DIR.UP
+  Descr: l'uscita
+End

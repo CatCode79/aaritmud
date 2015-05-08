@@ -1,0 +1,34 @@
+FunName:    social_little
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Diventi piccol$o piccol$o per la paura e l'imbarazzo..
+  OthersNoArg: $n diventa piccol$o piccol$o per la paura e l'imbarazzo..
+  EntityFound: Diventi piccol$o piccol$o guardando $N.
+  OthersFound: $n diventa piccol$o piccol$o guardando $N.
+  TargetFound: $n diventa piccol$o piccol$o guardandoti.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Imbarazzo? Esattamente cosa sarebbe?
+  OthersNoArg: $n appare imperturbabile.
+  EntityFound: Imbarazzo? Esattamente cosa vorrebbe essere?
+  OthersFound: $n appare imperturbabile.
+  TargetFound: $n appare imperturbabile.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Ti guardi intorno malcelando un felino imbarazzo.
+  OthersNoArg: $n si guarda intorno malcelando un simpatico imbarazzo kahjit.
+  EntityFound: Nascondi il muso sotto un braccio sbirciando imbarazzat$o $N.
+  OthersFound: $n guarda $N di sottecchi, nascondendo il muso con imbarazzo.
+  TargetFound: $n ti guarda nascondendo il muso con imbarazzo.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Ti guardi intorno malcelando un felino imbarazzo.
+  OthersNoArg: $n si guarda intorno malcelando un simpatico imbarazzo kahjit.
+  EntityFound: Nascondi il muso sotto un braccio sbirciando imbarazzat$o $N.
+  OthersFound: $n guarda $N di sottecchi, nascondendo il muso con imbarazzo.
+  TargetFound: $n ti guarda nascondendo il muso con imbarazzo.
+End

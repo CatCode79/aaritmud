@@ -1,0 +1,7 @@
+Riguardo al treview dall'originale ho modificato le seguenti cose:
+- treview.css il background color da black a white
+- le immagini file, folder, folder-closed e treeview-famfamfam aggiungendo
+  la trasparenza e modificandole un poco per renderele migliori su sfondo nero
+- Inserita la clessidra al posto delle frecce di wait
+- Riga aggiuntiva in treeview.async.js
+-

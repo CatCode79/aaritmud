@@ -1,0 +1,28 @@
+Code: citta-raminghe_room_ii-12
+Sector: SECTOR.CITY
+Name: ii-12
+Short: ii-12
+
+Descr:
+Vedi che
+DescrSmell: 
+Vaniglia
+DescrSixth:
+Senti che è opera di sophie
+DescrHearing:
+Qualcuno sta sbattendo un materasso
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.SOUTH
+	Descr: In città
+	Destination: 10 2 0 citta-raminghe
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: In città
+End

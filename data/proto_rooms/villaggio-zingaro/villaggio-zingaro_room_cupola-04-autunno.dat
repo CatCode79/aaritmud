@@ -1,0 +1,36 @@
+Comment:
+se vuoi sbizzarrirti con la DecrSixth al momento non mi viene.
+
+Code: villaggio-zingaro_room_cupola-04-autunno
+Sector: SECTOR.WOOD
+Name: La Radura di Dilara 
+Short: una radura
+ShortNight: una piccola radura
+
+Descr:
+Uno slargo nella [darkorange]vegetazione[close] cinto da un anello [peru]foglie secche[close] lasciate cadere dagli alberi circostanti; su di un lato vi sono delle braci spente circondate da rocce piatte, all'apparenza un tranquillo luogo di ristoro. 
+DescrNight: 
+Lasciando l'oscura boscaglia alle tue spalle ti ritrovi in una radura rischiarata soltanto da un modesto 
+falò il cui vivace [yellow]fu[close][orange]oc[close][orangered]her[close][orange]el[close][yellow]lo[close] non ti permette però di distinguerne i margini.
+DescrHearing: 
+Una dolce cantilena in una lingua sconosciuta giunge alle tue orecchie facendoti perdere per un attimo la cognizione del tempo e dello spazio.
+DescrHearingNight:
+Il fruscio delle foglie accompagna ogni tuo passo.
+DescrSmell:
+Una consueta fragranza di fanghiglia e muschio.
+DescrSmellNight: 
+Il vento trasporta un piacevole aroma di caldarroste bruciacchiate.
+
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+Exits:
+	Direction: DIR.SOUTH
+	Descr: Faggi a non finire
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: Faggi a non finire
+End

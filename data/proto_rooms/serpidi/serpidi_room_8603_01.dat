@@ -1,0 +1,35 @@
+Code: serpidi_room_8603_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: L'Entrata del Tempio Nascosto 
+Short: L'entrata del tempio nascosto 
+Descr: 
+La caverna in cui ti trovi è in realtà l'ingresso di un antico tempio. Nonostante tutti i tuoi sforzi non riesci a capire a quale divinità o culto possa appartenere il tempio. Le pareti sono piene di [white]figure[close] scolpite nella pura roccia, il pavimento è coperto da un [white]mosaico[close] che raffigura scene complesse e insolite, il soffitto è di legno, a cassettoni,con [white]intarsi[close] osceni. Il tutto tende a non farti sentire affatto sicuro di te, e non sai se spingerti oltre all'interno del tempio, anche se appare abbandonato da tempo. Il vento incuneandosi nell'apertura produce un lugubre ululato. 
+Exits:
+	Direction: DIR.NORTH
+	Destination: 0 4 0 serpidi
+End
+Exits:
+	Direction: DIR.SOUTH
+	Destination: 0 2 0 serpidi
+End
+Extras:
+	Keywords: figure 
+Descr:
+Sei troppo lontano per esaminarle bene, ma ti sembra che raffigurino scene mitologiche e guerresche. 
+End
+Extras:
+	Keywords: mosaico 
+Descr:
+Sei troppo lontano per vederlo bene, da qui distingui solo forme aggrovigliate in maniera insensata. 
+End
+Extras:
+	Keywords: intarsi 
+Descr:
+Sei troppo lontano dal centro del tempio e vedi molto poco, ma gli intarsi potrebbero rappresentare una qualche divinità intenta a cibarsi. 
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

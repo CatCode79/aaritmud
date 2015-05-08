@@ -1,0 +1,26 @@
+FunName:    social_sorry
+Intention:  INTENTION.FRIENDLY
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Chiedi perdono per l'accaduto.
+  OthersNoArg: $n chiede perdono per l'avvenuto.
+  EntityFound: Chiedi perdono a $N per l'accaduto.
+  OthersFound: $n chiede il perdono a $N.
+  TargetFound: $n ti chiede perdono per il suo comportamento.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Imiti l'aria contrita di chi chiede scusa.
+  OthersNoArg: $n si scusa con i presenti ma il suo sguardo è rivolto altrove.
+  EntityFound: Ti scusi con $N miagolando sommessamente.
+  OthersFound: $n miagola sommessamente delle scuse a $N.
+  TargetFound: $n miagola sommessamente delle scuse a te.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Imiti l'aria contrita di chi chiede scusa.
+  OthersNoArg: $n si scusa con i presenti ma il suo sguardo è rivolto altrove.
+  EntityFound: Ti scusi con $N miagolando sommessamente.
+  OthersFound: $n miagola sommessamente delle scuse a $N.
+  TargetFound: $n miagola sommessamente delle scuse a te.
+End

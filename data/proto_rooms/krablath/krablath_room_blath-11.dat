@@ -1,0 +1,48 @@
+Comment:	Sentiero attorno al laghetto, costeggia l'aiuola dell'amaranto. Descrizione dell'anello laghetto con piante acquatiche, si vede l'isolina (my mother) con struttura. Si è praticmanete sulla riva.
+Code: krablath_room_blath-11
+Sector: SECTOR.UNDERGROUND
+Name: krablath-11
+Short: krablath-11
+
+Descr:
+Sei 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Extras:
+	Keywords: chiave
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: In strada
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: In strada
+End
+

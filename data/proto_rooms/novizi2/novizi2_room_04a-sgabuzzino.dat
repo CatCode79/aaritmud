@@ -1,0 +1,34 @@
+Code: novizi2_room_04a-sgabuzzino
+Sector: SECTOR.HOUSE
+Flags: ROOM.INSIDE
+Name: [gold]Lo Sgabuzzino[close]
+Short: [gold]uno sgabuzzino[close]
+
+Descr:
+Un angusto spazio limitato in cui persino girarsi ha un che di difficoltoso. 
+In terra in un angolo c'è un contenitore chiuso con un collarino metallico che serve per sbloccarlo.
+Per sbloccarlo e ribloccarlo si usano i comandi:<br>
+- $tUnbolt barattolo<br>
+- $tBolt barattolo<br>
+<br>
+Solo quando il barattolo è sbloccato si potrà aprire e chiudere con:<br>
+- $tOpen barattolo<br>
+- $tClose barattolo<br>
+
+Dentro al barattolo c'è forse qualcosa che si può prelevare dal barattolo...
+
+DescrTouch: 
+Fili di ragnatele ti si appiccicano in faccia dando un fastidio indicibile.
+DescrSmell: 
+Certo questa non è una dispensa... e per fortuna... si direbbe odore di solvente.
+DescrSixth:
+Quella specie di barattolo lì in terra potrebbe forse svelare il mistero dell'odore di solvente.
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.EAST
+	Descr: [lemonchiffon]Un salottino[close]
+End

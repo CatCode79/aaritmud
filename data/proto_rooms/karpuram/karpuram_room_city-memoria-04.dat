@@ -1,0 +1,21 @@
+Code: karpuram_room_city-memoria-04
+Sector: SECTOR.PLAIN
+Name: Il Tempio di [violet]Kirys[close]
+Short: il tempio [violet]infranto[close]
+Descr:
+Un piccolo avvallamento sul cui fondo è adagiato uno specchio d'acqua a forma di mezzaluna. Poco sotto il pelo dell'acqua c'è un camminamento di [violet]ciottoli[close] monocromatici. La vegetazione disposta in modo disordinato e confuso si dirada via via che ci si approssima al centro.
+
+DescrNight:
+Un piccolo avvallamento sul cui fondo è adagiato uno scuro specchio d'acqua a forma di mezzaluna. Poco sotto il pelo dell'acqua c'è un camminamento di [darkviolet]ciottoli[close] monocromatici. La vegetazione disposta in modo disordinato e confuso si dirada via via che ci si approssima al centro.
+
+DescrSixth:
+Regna una calma innaturale dopo le percezioni negative precedenti.
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Il vestibolo
+End

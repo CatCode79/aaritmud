@@ -1,0 +1,29 @@
+Code: elizor_room_shop-pelletteria
+Sector: SECTOR.HOUSE
+Flags: ROOM.INSIDE
+Name: Sefrah Vende Cara la Pelle
+Short: la pelletteria
+
+Descr:
+Una modesta attività artigiana in una modesta bottega collocata al centro nevralgico di una potente città.
+Un'unica grande stanza separa con pali di legno l'ambiente in tre sezioni: il magazzino, il laboratorio e il ridotto spazio per la clientela.
+Nell'angolo a sinistra un tavolaccio con i materiali e gli strumenti di lavoro ed appesi ai pali i lavori in via di conclusione.
+DescrTouch: 
+Poggi la $hand su un palo per sostenerti ed in attesa di decidere il da farsi.
+DescrSmell: 
+L'odore astringente della pelle lavorata riduce le tue capacità olfattive. Ti senti immediatamente più grato all'artigiano per la nuova meno spiacevole situazione.
+DescrSixth:
+Un posto mal sfruttato così potrebbe essere reso molto più remunerativo con un'attività meno lenta e minuziosa.
+DescrHearing:
+Nonostante la costruzione non sia delle migliori, comunque rappresenta un carto fattore d'insonorizzazione dal fastidioso trambusto esterno.
+DescrTaste:
+no_send
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	L'uscita
+End

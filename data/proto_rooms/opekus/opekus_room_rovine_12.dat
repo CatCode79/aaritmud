@@ -1,0 +1,22 @@
+Code: opekus_room_rovine_12
+Sector: SECTOR.PATH
+Name: Sterpi e Rovi
+Short: una zona cespugliosa
+Descr:
+Si riesce a procedere nell'intrico di sterpi per quanto consente l'istinto di
+conservazione e il timore di precludersi la via del ritorno. Inaspettatamente si
+apre un avvallamento privo di vegetazione ma solo a fior di terra. Strisciando
+abbastanza di piatto forse si arriva da qualche parte.
+
+Width:	10m
+Depth:	10m
+Height: 10m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: La via
+End
+Exits:
+  Direction: DIR.DOWN
+  Descr: Uno stretto pertugio
+End

@@ -1,0 +1,17 @@
+Code: karpuram_room_city-torre-guardia-top-ne
+Sector: SECTOR.PLAIN
+Name: L'[lime]Albero[close] di Guardia NordEst
+Short: in cima all'albero
+Descr:
+Alla sommità dell'albero c'è spazio più che sufficiente per tre o quattro persone ed il
+loro equipaggiamento completo. La via d'uscita ed i numerosi varchi per controllare
+l'esterno sono lasciati liberi per essere velocemente ispezionabili.
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.DOWN
+  Descr: Ai piedi del'albero
+End

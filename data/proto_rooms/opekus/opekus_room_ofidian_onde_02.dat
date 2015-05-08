@@ -1,0 +1,20 @@
+Code: opekus_room_ofidian_onde_02
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Frana
+Short: un'onda scolpita
+
+Descr:
+Un cunicolo scavato dal tempo nella roccia che l'ingegno innaturale di qualcuno ha
+cercato di allargare e scavare. Non è andato tutto a buon fine: un crollo ha ostruito
+completamente la direzione est e numerose rocce son sparse in ogni dove lungo l'unica
+parte percorribile.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: Il cammino
+End

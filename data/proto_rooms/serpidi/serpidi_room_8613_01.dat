@@ -1,0 +1,25 @@
+Code: serpidi_room_8613_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: La piccola cripta 
+Short: La piccola cripta 
+Descr: 
+Ora sei in una cripta segreta, oscura e maleodorante. Sulle pareti sono appesi i resti di antichi paramenti sacri, tuniche, cappucci. Il pavimento è pieno di sporcizia ed animali ripugnanti. 
+Exits:
+	Direction: DIR.WEST
+	Destination: 1 5 0 serpidi
+End
+Exits:
+	Direction: DIR.DOWN
+	Destination: 2 5 -1 serpidi
+End
+Extras:
+	Keywords: pavimento 
+Descr:
+È coperto da uno spesso strato di sporcizia, resti di oggetti e disgustosi immondi insetti e animali. 
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

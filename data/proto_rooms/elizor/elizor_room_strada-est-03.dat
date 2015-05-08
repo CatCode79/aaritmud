@@ -1,0 +1,31 @@
+Code: elizor_room_strada-est-03
+Sector: SECTOR.PATH
+Name: La Via Verso Est
+Short: la via verso est
+
+Descr:
+Una languida ansa muta di poco il corso rettilineo della strada e del canale che imperterrito l'accompagna.
+In lontananza gli edifici del centro abitato adagiati nella parte più alta di questa pietra fluttuante, dalla parte opposta verdeggianti prati si stendono a perdita d'occhio.
+DescrTouch: 
+no_send
+DescrSmell: 
+Fragranze campagnole trasportate dalla brezza.
+DescrSixth:
+Una strada apparentemente poco trafficata e forse addirittura in disuso.
+DescrHearing:
+Il tuo incedere è accompagnato dallo scroscio dell'acqua e dal canto di qualche uccello.
+DescrTaste:
+no_send
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.SOUTHWEST
+	Descr:	La via
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	La via verso est
+End

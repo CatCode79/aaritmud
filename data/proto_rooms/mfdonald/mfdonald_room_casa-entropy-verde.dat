@@ -1,0 +1,41 @@
+Code: mfdonald_room_casa-entropy-verde
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Casa di Zio Entropy è Verde!
+Short: la Casa dello zio è Verde!
+
+Descr:
+La bella casa dello Zio ent ora è anche [green]verde[close]; un brutto [green]verde[close]!
+La porta verde fa parte di questa stanza.
+Si resetta e si chiude alle 16 lanciando un messaggio.
+Se non lo fa è colpa del Coder Maximus (coder.maximus@gmail.com ; cell:EGT.BEIOTOO).
+DescrTouch: 
+Guardare e non Toccare!
+DescrSmell: 
+Sconsigliabile come propensione qui dentro!
+DescrSixth:
+Il tuo intuito ti prega gentilmente di uscire.
+DescrHearing:
+Non si sente nulla nulla...
+
+Extras:
+	Keywords: zio
+	Descr:
+	Lo chiamano Zio ma non ha nipoti
+	DescrSixth:
+	Non si sa bene per quale motivo...
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.EAST
+	Descr: La stanza di Entropy
+	Door:	mfdonald_item_door-ent-verde
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: La stanza [blue]blu[close]
+End

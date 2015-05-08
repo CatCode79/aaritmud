@@ -1,0 +1,45 @@
+Code: opekus_room_ofidian_temple_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Il Corridoio d'Ardesia
+Short: un corridoio nero
+
+Descr:
+Un tratto di corridoio sotterraneo con pietra nera ai lati, sopra e sotto. In questo
+punto una profonda spaccatura pare abbia spezzato in due la strada come a volerla
+interrompere. La fessura è ampia poco meno di un piede tranne che sul lato sudovest
+un tratto di muro ha ceduto sbriciolandosi formando un angusto passaggio.
+
+Extras:
+	Keywords: chiave
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: In strada
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: In strada
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: In strada
+End
+

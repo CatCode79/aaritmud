@@ -1,0 +1,26 @@
+FunName:    social_abase
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Ti umilii strisciando per terra!
+  OthersNoArg: $n si umilia strisciando per terra!
+  EntityFound: Ti umilii strisciando ai $FEET di $N!
+  OthersFound: $n si umilia strisciando ai $FEET di $N.
+  TargetFound: $n si umilia strisciando ai tuoi $FEET.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Imiti l'espressione del questuante con dovizia di particolari.
+  OthersNoArg: $n sembra sinceramente umiliat$o dalla situazione.
+  EntityFound: Ti avvicini a $N simulando un'aria umile e contrita.
+  OthersFound: $n s'avvicina a $N con aria umile e le orecchie basse.
+  TargetFound: $n capisce con chi ha a che fare, s'avvicina a te con aria umile e sottomessa.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Imiti l'espressione del questuante con dovizia di particolari.
+  OthersNoArg: $n sembra sinceramente umiliat$o dalla situazione.
+  EntityFound: Ti avvicini a $N simulando un'aria umile e contrita.
+  OthersFound: $n s'avvicina a $N con aria umile e le orecchie basse.
+  TargetFound: $n capisce con chi ha a che fare, s'avvicina a te con aria umile e sottomessa.
+End

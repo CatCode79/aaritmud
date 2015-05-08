@@ -1,0 +1,51 @@
+Comment:	
+OSSERVATORIO ASTRONOMICO
+Costituito da tre stanze. La prima è la descrizione della parte esterna dell'osservatorio (ricordarsi di mettere una civetta-simbolo della conoscenza- vicino all'astronoma), la seconda è il luogo in cui si accede dopo essere entrati attraverso una
+ porta. Penso che sia la stanza delle strumentazioni e oggetti vari:	sestante, mappe celesti, sfera armillare, teodolite,
+ quadrante astrolabio etc.
+La terza stanza, al piano superiore, è quella del telescopio. Il telescopio è un portale attraverso cui si parte in volo verso un'area -Stellarium- nella quale è possibile osservare ed interagire con le costellazioni. Cioè ci si ritrova a muoversi tra le stelle e i pianeti.
+
+Code:	citta-raminghe_room_osservatorio-03
+Sector:	SECTOR.CITY
+Name:	[red]L'Osservatorio Astronomico[close].
+Short:	[red]un osservatorio astronomico in una torre di pietra[close]
+
+Descr:
+Una [teal]torre[close] alta circa 20 metri si erge davanti ai tuoi occhi.
+Sorge su un terreno pianeggiante circondato da [green]vegetazione boschiva[close].
+La costruzione di forma circolare, ha il diametro della base maggiore di quello che si
+nota all'estremità superiore.
+Costruita interamente da [lightslategray]pietre di origine lavica[close] di colore grigio molto scuro disposte
+una sopra l'altra in modo estremamente ordinato e simmetrico.
+Spiccano delle parti più brillanti e lucide che sembrano essere inserti di ossidiana.
+All'altezza della 19ª e 20ª e della 25ª e 26ª sezione circolare vi sono due gruppi di travi di supporto in pietra che si intersecano.
+L'entrata è sulla parte anteriore della costruzione ed è chiusa da un portone di legno
+scuro sul quale si possono osservare dei bassorilievi raffiguranti [yellow]stelle[close] e [lightcoral]pianeti[close].
+ 
+DescrTouch:
+Le pietre con le quali la [teal]torre[close] è costruita, sono ruvide, ma quando incontri al tatto l'ossidiana la sensazione è quella di una superficie liscia come quella del vetro.
+
+DescrSmell:
+Percepisci il profumo di un luogo che contiene in sé il mistero delle [yellow]stelle[close].
+
+DescrSixth:
+Una [teal]torre[close] dalla quale osservare le [yellow]stelle[close] rimanda ai misteri dello spazio sconosciuto e al desiderio di sapere cosa ci sia oltre il [mediumblue]cielo[close] visibile. Un invisibile che intuisci, ma che, al momento, ti è precluso.
+
+DescrTaste: Non c'è nulla da assaggiare qui.
+
+DescrHearing:
+Non ti sembra di percepire alcun suono al momento, ma poi chissà... magari è necessario possedere abilità per potere percepire il suono delle [yellow]stelle[close].
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Exits:	
+	Direction:	DIR.WEST
+	Descr:	L'interno della torre
+End
+Exits:	
+	Direction:	DIR.SOUTH
+	Descr:	Il sentiero selciato
+	Destination:	3 5 0 citta-raminghe
+End

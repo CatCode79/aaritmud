@@ -1,0 +1,26 @@
+FunName:    social_turtle
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Rannicchi la testa schiacciando il collo nelle spalle.
+  OthersNoArg: $n rannicchia la testa schiacciando il collo nelle spalle.
+  EntityFound: Rannicchi la testa schiacciando il collo nelle spalle guardando di sottecchi $N.
+  OthersFound: $n rannicchia la testa schiacciando il collo nelle spalle guardando di sottecchi $N.
+  TargetFound: $n rannicchia la testa schiacciando il collo nelle spalle guardandomi di sottecchi.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Imiti le tartarughe rannicchiando la testa fra le spalle.
+  OthersNoArg: Felar che imitano tartarughe..? $n dimostra ai presenti che ciò è possibile.
+  EntityFound: Imiti la tartaruga guardando $N e sorridendo$GLI con fare birbone.
+  OthersFound: $n imita la tartaruga guardando $N e sorridendo$GLI con fare birbone.
+  TargetFound: $n imita la tartaruga guardandoti e sorridendomi con fare birbone.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Imiti le tartarughe rannicchiando la testa fra le spalle.
+  OthersNoArg: Gatti che imitano tartarughe..? $n dimostra ai presenti che ciò è possibile.
+  EntityFound: Imiti la tartaruga guardando $N e sorridendo$GLI con fare birbone.
+  OthersFound: $n imita la tartaruga guardando $N e sorridendo$GLI con fare birbone.
+  TargetFound: $n imita la tartaruga guardandoti e sorridendomi con fare birbone.
+End

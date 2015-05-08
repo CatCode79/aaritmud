@@ -1,0 +1,18 @@
+Code: torreelementi_room_frutteto-vuoto-s1
+Sector: SECTOR.FARMLAND
+Name: Il Frutteto sotto la Torre
+Short: un frutteto
+
+Descr:
+Una discreto numero di file d'alberi disposte ordinatamente si estendono a ricoprire
+questo vasto spazio; ad iniziare dalla torre che si vede ad ovest e per altrettanto spazio ad est.
+Pare che però non sia ancora stagione per la frutta... bisognerà ripassare più avanti.
+
+Width:	50m
+Depth:	50m
+Height: 200m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: In strada
+End

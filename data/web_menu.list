@@ -1,0 +1,37 @@
+Gioca!             | game.png             | login.html   | !account
+Gioca!             | game.png             | players.html | account
+Novità             | home.png             | index.html
+Screenshots        | screenshots.png      | screenshots.html
+Aiuto              | help.png             | help.html
+Races              | races.png            | races.html
+Biblioteca         | library.png          | library.html
+#Classifiche        | ranking.png          | results.html
+Forum              | forum.png            | http://www.mudinitaly.it/forum/viewforum.php?f=19 | | | blank
+Download           | download.png         | downloads.html
+Supportaci         | support_us.png       | support_us.html
+Contattaci         | contact_us.png       | contact_us.html
+Links              | links.png            | links.html
+Credits            | credits.png          | credits.html
+Building           | building.png         | builder_pages/index.htm | | | blank
+
+SEPARATOR          |                      |                                       | account | TRUST.MASTER
+Admin Account      | admin_account.png    | admin_account.html                    | account | TRUST.MASTER
+Area Editor        | area_editor.png      | area_editor.html                      | account | TRUST.BUILDER | blank
+Backup DB          | backup_db.png        | backup_db.html                        | account | TRUST.BUILDER
+Config Options     | config_options.png   | config_options.html                   | account | TRUST.MASTER
+Connections        | connections.png      | connections.html                      | account | TRUST.BUILDER
+Database           | database.png         | database.html                         | account | TRUST.BUILDER
+DataTree           | datatree.png         | datatree.html                         | account | TRUST.BUILDER
+Global Quantity    | global_quantity.png  | global_quantity.html                  | account | TRUST.BUILDER
+Manage Players     | manage_players.png   | manage_players.html                   | account | TRUST.MASTER
+Rm Persistence     | rm_persistence.png   | rm_persistence.html                   | account | TRUST.IMPLEMENTOR
+Save The World     | save_the_world.png   | save_the_world.html                   | account | TRUST.BUILDER
+Show Logs          | show_logs.png        | show_logs.html                        | account | TRUST.BUILDER
+Show Socials       | show_socials.png     | show_socials.html                     | account | TRUST.BUILDER
+Shutdown           | shutdown.png         | shutdown.html                         | account | TRUST.IMPLEMENTOR
+Source Docs        | source_docs.png      | doc_pages/index.htm                   | account | TRUST.MASTER | blank
+Stats              | stats.png            | stats.html                            | account | TRUST.MASTER
+Test Inputs        | test_inputs.png      | test_inputs.html                      | account | TRUST.BUILDER
+Trusts             | trusts.png           | trusts.html                           | account | TRUST.BUILDER
+Who${who_counter}  | who.png              | who.html                              | account | TRUST.MASTER
+Forum (alfa)       | forum.png            | forum.html                            | account | TRUST.MASTER

@@ -1,0 +1,30 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="style.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<div class="main"><br>
+Nelle versioni precedenti di Aarit veniva utilizzato il database <a href="http://en.wikipedia.org/wiki/Zope_Object_Database" target="_blank">ZODB</a> per la persistenza dei dati, la trasparenza donatami da ZODB era estremamente succosa, purtroppo però la continua modifica degli attributi delle varie classi mi obbligavano in continuazione ad aggiornare la struttura dei dati del database, inoltre il non poter leggere e modificare direttamente i dati (che erano serializzati con <a href="http://docs.python.org/lib/module-pickle.html" target="_blank">pickle</a>) non riusciva a donarmi la giusta produttività che avrei avuto in un sistema maggiormente esplicito.<br><br>
+
+Dopo molte prove scartai <a href="http://www.sqlalchemy.org/" target="_blank">SqlAlchemy</a> che non mi soddisfò del tutto, volevo qualcosa di più immediato (in una maniera o nell'altra alla fin fine sarei stato obbligato a creare lo schema ad ogni classe) e soprattutto semplice da usare e modificare da utenti, difatti Aarit vuole crescere grazie allo sviluppo collaborativo (creare aree, aggiungere social etc etc) e i buoni vecchi file testuali erano perfetti per questo, dando la possibilità di produrre anche offline e senza dover creare dei toolkit appositi.<br><br>
+
+Alla fin fine creai il sistema di lettura da file testuali (basandomi idealmente su <a href="http://www.yaml.org/" target="_blank">YAML</a>), in pratica tutti i dati che vengono inseriti nel database sono formati da classi che hanno 4 attributi speciali:<br>
+_primary_key<br>
+_volatiles<br>
+_schema<br>
+_references<br>
+Grazie a questi 4 attributi è possibile aggiungere nuove classi-dato o nuovi attributi a dati già esistenti senza dover scrivere null'altro! (a meno che non vogliate personalizzare l'output su file della struttura del dato, in questo caso è possibile aggiungere i metodi fread_the_line e fwrite_the_line nella classe dato)<br><br>
+
+Il tutto viene gestito dalla funzione fread nel file src/database.py<br><br>
+
+Il risultato è quello di aver ottenuto un sistema di persistenza estremamente semplice da utilizzare e trasparente ma con la pecca della sua poca scalabilità: accedere all'hard disk è lento e questa cosa non è bella, specie quando in futuro implementerò la persistenza totale del mondo).<br>
+Sto comunque pensando a soluzioni per lenire questo problema.<br><br>
+</div>
+
+<hr>
+</body>
+</html>

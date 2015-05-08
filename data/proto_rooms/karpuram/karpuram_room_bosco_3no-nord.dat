@@ -1,0 +1,33 @@
+Code: karpuram_room_bosco_3no-nord
+Sector: SECTOR.PLAIN
+Name: Sperduti Dentro [lime]Karpuram[close]
+Short: le vie del [lime]bosco[close]
+Descr:
+I nugoli di sentieri da dove arrivi ti conducono in questa zona più rada delle altre ove
+la visuale si allarga più che in altre zone consentendoti di verificare la continuità
+del bosco e la quasi impossibilità di trovare un riferimento.
+
+DescrNight:
+I nugoli di sentieri da dove arrivi ti conducono in una zona più rada delle altre in cui
+la scarsa visibilità rende impossibile capire l'estensione boschiva nonostante il
+diradarsi delle fronde.
+
+DescrSixth:
+Un bosco è sempre un buon posto per qualcuno o qualcosa
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Nel folto del bosco
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Nel folto del bosco
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Nel folto del bosco
+End

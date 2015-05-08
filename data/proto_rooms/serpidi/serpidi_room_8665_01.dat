@@ -1,0 +1,16 @@
+Code: serpidi_room_8665_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: Una biblioteca 
+Short: Una biblioteca 
+Descr: 
+Nel vedere questa stanza la tua idea dei serpidi come razza degenere e da sterminare si incrina leggermente. Tutte le pareti sono coperte da librerie, letteralmente straripanti di libri di tutte le forme e grandezze. Molti sembrano antichi, ma altri sono evidentemente recenti. 
+Exits:
+	Direction: DIR.NORTH
+	Destination: 6 7 -2 serpidi
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

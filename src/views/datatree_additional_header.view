@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="jquery/treeview.css" />
+<script src="jquery.js" type="text/javascript"></script>
+<script src="jquery/treeview.js" type="text/javascript"></script>
+<script src="jquery/treeview.async.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#datatree").treeview({
+		url: "datatree.html",
+		ajax: {
+			type: "POST"
+		},
+		animated: "fast"
+	})
+});
+</script>

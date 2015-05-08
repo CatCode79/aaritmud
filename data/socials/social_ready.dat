@@ -1,0 +1,34 @@
+FunName:    social_ready
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Annuisci, sei pront$o!
+  OthersNoArg: $n annuisce, è pront$o!
+  EntityFound: Annuisci a $N, sei pront$o!
+  OthersFound: $n annuisce a $N, è pront$o!
+  TargetFound: $n ti annuisce, è pront$o!
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Segnali agli altri che sei pront$o.
+  OthersNoArg: $n fa una capriola in aria e vola sul posto in attesa: è pront$o.
+  EntityFound: Segnali a $N che sei pront$o.
+  OthersFound: $n vola intorno a $N segnaland$GLI insistentemente che è pront$o.
+  TargetFound: $n ti ronza intorno insistendo fastidiosamente che è pront$o.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Scatti sulle zampe, pront$o all'azione!
+  OthersNoArg: $n scatta sulle zampe pront$o all'azione!
+  EntityFound: Fai cenno a $N con un artiglio, sei pront$o!
+  OthersFound: $n fa cenno a $N con un artiglio, è pront$o!
+  TargetFound: $n ti fa cenno con un artiglio, è pront$o!
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Scatti sulle zampe, pront$o all'azione!
+  OthersNoArg: $n scatta sulle zampe pront$o all'azione!
+  EntityFound: Fai cenno a $N con un artiglio, sei pront$o!
+  OthersFound: $n fa cenno a $N con un artiglio, è pront$o!
+  TargetFound: $n ti fa cenno con un artiglio, è pront$o!
+End

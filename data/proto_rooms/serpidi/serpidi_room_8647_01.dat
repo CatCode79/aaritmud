@@ -1,0 +1,24 @@
+Code: serpidi_room_8647_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: Gli allevamenti 
+Short: Gli allevamenti 
+Descr: 
+Sei impressionato ! In questa caverna sotterranea ci sono dei veri e propri allevamenti di animali, probabilmente dedicati alla produzione di latte, carne e pelle. Ci sono vari recinti ed in ognuno c'è una specie diversa. In genere si tratta di creature piccole e nessuna ti è nota. In questo angolo della caverna ci sono ammucchiate balle di fieno, vasche per l'acqua, sacchi di mangimi ed altre attrezzi. 
+Exits:
+	Direction: DIR.NORTH
+	Destination: -1 1 0 serpidi
+End
+Exits:
+	Direction: DIR.SOUTH
+	Destination: -1 -1 0 serpidi
+End
+Exits:
+	Direction: DIR.WEST
+	Destination: -2 0 0 serpidi
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

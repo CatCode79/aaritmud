@@ -1,0 +1,17 @@
+Code: opekus_room_rovine_05
+Sector: SECTOR.PATH
+Name: Miseri Resti
+Short: ruderi
+Descr:
+Il terreno piano con la vegetazione stentata lascia intuire che sotto vi sian più
+rocce e pietre che terra. Diverse basse collinette inomogenee ed irregolari disegnano
+un vago percorso ad ellisse. Dal terreno spunta un'unica acacia bitorzoluta e stanca.
+
+Width:	10m
+Depth:	10m
+Height: 10m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: La via
+End

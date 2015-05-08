@@ -1,0 +1,30 @@
+Code: opekus_room_rovine_14
+Sector: SECTOR.PATH
+Name: L'antica Strada
+Short: il cammino erboso
+Descr:
+Quello che resta dell'antica arteria principale provenente da est, qui si perde in un
+affossamento senza lasciare segno. Tutt'intorno il terreno sale alto e scomodo con un
+accesso meno penoso verso sud.
+
+DescrSixth:
+A ben vedere i resti dello steccato pare fossero disposti solo intorno all'affossamento.
+
+Width:	10m
+Depth:	10m
+Height: 10m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: La via
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: La via
+  Destination: 3 4 0 citta-raminghe
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: D'improvviso una costruzione
+  Destination: 0 0 0 cimitero
+End

@@ -1,0 +1,148 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<h2>Indice delle Etichette per verbi e messaggi di movimento di un'entit&agrave;.</h2>
+<div>
+<a href='#Comment'><span class='label'>Comment</span>:</a><br>
+<a href='#GoVerbYou'><span class='label'>GoVerbYou</span>:</a><br>
+<a href='#GoVerbIt'><span class='label'>GoVerbIt</span>:</a><br>
+<a href='#ComeVerbIt'><span class='label'>ComeVerbIt</span>:</a><br>
+<a href='#RunVerbYou'><span class='label'>RunVerbYou</span>:</a><br>
+<a href='#RunVerbIt'><span class='label'>RunVerbIt</span>:</a><br>
+<a href='#FollowEntityGoMessage'><span class='label'>FollowEntityGoMessage:</a><br>
+<a href='#FollowOthersGoMessage'><span class='label'>FollowOthersGoMessage:</a><br>
+<a href='#FollowOthersComeMessage'><span class='label'>FollowOthersComeMessage:</a><br>
+</div>
+<br>
+
+<hr>
+<h2>Note Riguardo al movimento.</h2>
+<div>
+<span class="label">Walker</span> &egrave; un'etichetta che rappresenta una struttura di pi&ugrave; sottoetichette, e quindi abbisogna dell'etichetta <span class="label">End</span> per terminarne la definizione.<br>
+La struttura consente di specificare un verbo di movimento diverso da quello di default per un mob o o un item. &Egrave; possibile rendere peculiare un mob oppure un item differenziandolo dal default della sua razza o dagli oggetti ingenerale per dargli una parvenza tutta sua; gli zoppi potranno zoppicare, i servi di partito potranno strisciare, uccelli senza ali potranno zampettare, orsetti di peluche potranno incedere spavaldamente...<br>
+</div>
+<br>
+
+<hr>
+<h2>Tabella di Riferimento Veloce.</h2>
+<div>
+<table border="1">
+<tr class="thref"><td>Etichetta</td><td>Tipologia</td><td>Utilizzo</td></tr>
+<tr><td class="label">Comment</td><td>Stringa, relativa ad un commento</td><td>Facoltativo, consigliato se c'&egrave; qualcosa di particolare</td></tr>
+<tr><td class="label">GoVerbYou</td><td>Stringa</td><td>Facoltativa</td></tr>
+<tr><td class="label">GoVerbIt</td><td>Stringa</td><td>Facoltativa</td></tr>
+<tr><td class="label">ComeVerbIt</td><td>Stringa</td><td>Facoltativa</td></tr>
+<tr><td class="label">RunVerbYou</td><td>Stringa</td><td>Facoltativa</td></tr>
+<tr><td class="label">RunVerbIt</td><td>Stringa</td><td>Facoltativa</td></tr>
+<tr><td class="label">RunnedVerbIt</td><td>Stringa</td><td>Facoltativa</td></tr>
+<tr><td class="label">FollowEntityGoMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">FollowOthersGoMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">FollowOthersComeMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+</table>
+</div>
+<br>
+
+<hr>
+<h2>Struttura Tipica con le Etichette di Maggior Utilizzo (per copia e incolla).</h2>
+<div>
+<pre>
+
+Walker:
+	GoVerbYou:
+	GoVerbIt:
+	ComeVerbIt:
+	RunVerbYou:
+	RunVerbIt:
+        RunnedVerbIt:
+	FollowEntityGoMessage:
+	FollowOthersGoMessage:
+	FollowOthersComeMessage:
+End
+
+</pre>
+</div>
+<br>
+
+<hr>
+<h2>Spiegazione delle Etichette.</h2>
+<div>
+<a name='Comment'><h3 class='label'>Comment:</h3></a>
+Eventuale commento relativo all'entit&agrave;, per maggior informazioni leggere <a href="comment.htm">questa pagina</a>.<br>
+Non &egrave; obbligatoria, ma &egrave; comunque consigliato utilizzarla se la tipologia d'entit&agrave; &egrave; una cosa particolare o bisogna segnarsi qualcosa da ricordare.<br>
+L'etichetta &egrave; facoltativa per quanto sia comunque cosa buona inserirle tutte una volta che si &egrave; deciso di fare uso della struttura.<br>
+<br>
+
+<a name='GoVerbYou'><h3 class='label'>GoVerbYou:</h3></a>
+Indica il verbo che compare all'entit&agrave; quando esce dalla room. Ad esempio il Default Human &egrave; Vai (con la maiuscola) <br> 
+L'etichetta &egrave; facoltativa per quanto sia comunque cosa buona inserirle tutte una volta che si &egrave; deciso di fare uso della struttura.<br>
+<br>
+
+<a name='GoVerbIt'><h3 class='label'>GoVerbIt:</h3></a>
+Indica il verbo che compare a tutti gli altri presenti in room quando l'entit&agrave; esce dalla room. Ad esempio il Default Human &egrave; va (con la minuscola) <br> 
+L'etichetta &egrave; facoltativa per quanto sia comunque cosa buona inserirle tutte una volta che si &egrave; deciso di fare uso della struttura.<br>
+<br>
+
+<a name='ComeVerbIt'><h3 class='label'>ComeVerbIt:</h3></a>
+Indica il verbo che compare a tutti i  presenti in room all'arrivo dell'entit&agrave;. Ad esempio il Default Human &egrave; viene (con la minuscola) <br> 
+L'etichetta &egrave; facoltativa per quanto sia comunque cosa buona inserirle tutte una volta che si &egrave; deciso di fare uso della struttura.<br>
+<br>
+
+<a name='RunVerbYou'><h3 class='label'>RunVerbYou:</h3></a>
+Indica il verbo che compare all'entit&agrave; quando esce in corsa dalla room. Ad esempio il Default Human &egrave; Corri (con la maiuscola) <br> 
+L'etichetta &egrave; facoltativa per quanto sia comunque cosa buona inserirle tutte una volta che si &egrave; deciso di fare uso della struttura.<br>
+<br>
+
+<a name='RunVerbIt'><h3 class='label'>RunVerbIt:</h3></a>
+Indica il verbo che compare a tutti gli altri presenti in room quando l'entit&agrave; esce in corsa dalla room. Ad esempio il Default Human &egrave; corre (con la minuscola) <br> 
+L'etichetta &egrave; facoltativa per quanto sia comunque cosa buona inserirle tutte una volta che si &egrave; deciso di fare uso della struttura.<br>
+<br>
+
+<a name='RunnedVerbIt'><h3 class='label'>RunnedVerbIt:</h3></a>
+Indica il verbo che compare a tutti i presenti in room all'arrivo in corsa dell'entit&agrave;. Ad esempio il Default Human &egrave; corre (con la minuscola) <br> 
+L'etichetta &egrave; facoltativa per quanto sia comunque cosa buona inserirle tutte una volta che si &egrave; deciso di fare uso della struttura.<br>
+<br>
+
+<a name='FollowOthersGoMessage'><h3>FollowOthersGoMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> visto dai presenti per un mob nel momento in cui segue un'entit&agrave;.<br>
+Oltre ai tag $n e $N ed i soliti, accetta anche i due tag di sostituzione stringa %verb e %direction:<br>
+A %verb viene sostituito il verbo di movimento, mentre a %direction viene sostituita la direzione verso cui si muove seguendo l'entit&agrave;.<br>
+<br>
+<fieldset>
+<legend>Esempio:</legend>
+Nel caso la Bestia Buglatta di Traal segua un autostoppista, alla bestia si mette la label
+<span class="label">FollowOthersGoMessage</span>:$n %verb ad inseguire $N mordendolo ai calcagni. I due si dirigono %direction.</pre><br>
+<br>
+Quando lo stoppista andr&agrave; ad est, la bestia lo seguir&agrave; ed il giocatore legger&agrave;:<br>
+<br>
+La Bestia Buglatta di Traal va ad inseguire uno stoppista mordendolo ai calcagni. I due si dirigono verso est.<br>
+</fieldset><br>
+<br>
+Se si inserisce il valore no_send all'etichetta il messaggio non verr&agrave; inviato.
+L'etichetta &egrave; facoltativa.
+
+<a name='FollowEntityGoMessage'><h3>FollowEntityGoMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> come la FollowOthersGoMessage ma si riferisce all'act letta dall'entit&agrave; che viene seguita dall'entit&agrave;.<br>
+Se si inserisce il valore no_send all'etichetta il messaggio non verr&agrave; inviato.<br>
+L'etichetta &egrave; facoltativa.<br>
+<br>
+
+<a name='FollowOthersComeMessage'><h3>FollowOthersComeMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> come la FollowOthersGoMessage ma si riferisce all'act letta da tutti quelli che vedono arrivare l'entit&agrave; che segue nella stanza di destinazione.<br>
+Altre differenze sono relative ai tag:
+il tag %verb fa riferimento all'etichetta ComeVerbIt se definita, altrimenti al verbo di default di arrivo in un'altra stanza.
+il tag %direction fa riferimento alla direzione inversa di quella originale di movimento, visto che ormai la stanza di partenza &egrave; stata lasciata indietro.
+Se si inserisce il valore no_send all'etichetta il messaggio non verr&agrave; inviato.<br>
+L'etichetta &egrave; facoltativa.<br>
+<br>
+
+</div>
+<hr>
+</body>
+</html>

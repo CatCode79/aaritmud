@@ -1,0 +1,32 @@
+Code: conflitti_room_stanza-scirocco
+
+Sector: SECTOR.HOUSE
+Flags: ROOM.INSIDE
+Name: La Stanza dello Scirocco
+Short: la stanza dello scirocco
+
+Descr:
+Una parete di marmo rosso piegata sinuosamente come un'onda preclude la vista su di un lato lasciando libero l'occhio di spaziare per la lussureggiante vegetazione che fa da cornice a questo splendido ambiente. Alberi dalla chioma di un colore verde brillante alcuni colmi di frutta che attende di essere raccolta, fiori di infinite varietà, un prato erboso che invita a distendersi per un meritato riposo, rendono il luogo accogliente e adatto a ritemprarsi dalle fatiche. Disposte in modo apparentemente casuale vi si possono scorgere delle poltrone molto ampie e comode ed un divano dai cuscini soffici. Accostato alla parete di marmo un lungo tavolo sul quale sono disposti su ampi vassoi cibi di ogni genere. Qualsiasi cosa tu possa desiderare la trovi qui cucinata in modo eccellente. Accostato alla parete un tavolo più piccolo sul quale sono poggiati libri di vario genere.
+
+DescrTouch: 
+La sensazione di morbidezza prevale su tutto.
+DescrSmell: 
+La stanza è ricca di profumi. Avverti una gradevole miscela olfattiva che proviene dalle innumerevoli varietà di fiori e dai cibi che son disposti sul tavolo.
+DescrSixth:
+Così come la stanza dello scirocco è il luogo dove ci si ripara e ci si rinfranca quando il vento dissecca con il suo calore intenso, allo stesso modo questo luogo è adatto per ritemprarsi dalle fatiche mentali sostenute sin qui.
+L'ambiente è profondamente rilassante e distensivo.Dopo la tensione indicibile provata in precedenza , la sensazione che si avverte qui è particolarmente piacevole e non ha uguali. Sai che il riposo e questo spazio accogliente sono un premio meritato, ma al contempo ritieni di non voler protrarre la tua permanenza troppo a lungo.
+DescrHearing:
+Ascolti una melodia che proviene da chissà dove.
+DescrTaste:
+Assaggi molti dei cibi che ti vengono offerti scegliendo i sapori che più si avvicinano ai tuoi desideri.
+
+
+Width: 10m
+Depth: 10m
+Height: 4m
+
+
+Exits:
+	Direction: DIR.DOWN
+	Descr: Refoli di fumo salgono dal basso
+End

@@ -1,0 +1,39 @@
+Comment:
+Lastra per la cripta porta invece alle impalcature
+uscita a nord porta alla room trave
+
+Code: elizor_room_chiesetta-02
+Sector: SECTOR.HOUSE
+Flags: ROOM.INSIDE
+Name: chiesetta-02
+Short: chiesetta-02
+
+Descr:
+Sei 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.WEST
+	Descr:	Nella navata
+End
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	L'esterno
+End
+Exits:
+	Direction:	DIR.DOWN
+	Descr:	Sotto la chiesa
+End

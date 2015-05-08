@@ -1,0 +1,104 @@
+<script>
+function contactStaff() {
+	var subject = document.getElementById("subject");
+	var message = document.getElementById("message");
+	var email = document.getElementById("email");
+	subject.value = trim(subject.value);
+	message.value = trim(message.value);
+	email.value = trim(email.value);
+
+	var subject_error = document.getElementById("subject_error");
+	var message_error = document.getElementById("message_error");
+	var email_error = document.getElementById("email_error");
+	$(subject_error).text("");
+	$(message_error).text("");
+	$(email_error).text("");
+
+	correct = true;
+	if (!subject.value) {
+		$(subject_error).text("${EMPTY_SUBJECT_ERROR}");
+		correct = false;
+	} else if (subject.value.length > ${MAX_SUBJECT_LENGTH}) {
+		$(subject_error).text("${TOO_LONG_SUBJECT_ERROR}");
+		correct = false;
+	}
+	if (!message.value) {
+		$(message_error).text("${EMPTY_MESSAGE_ERROR}");
+		correct = false;
+	} else if (message.value.length > ${MAX_MESSAGE_LENGTH}) {
+		$(subject_error).text("${TOO_LONG_EMAIL_ERROR}");
+		correct = false;
+	}
+	// email facoltativa
+	if (email.value.length > ${MAX_EMAIL_LENGTH}) {
+		$(email_error).text("${TOO_LONG_EMAIL_ERROR}");
+		correct = false;
+	}
+
+	if (correct) {
+		query = "subject=" + encodeURIComponent(subject.value) + "&message=" + encodeURIComponent(message.value) + "&email=" + encodeURIComponent(email.value);
+		sendPostRequest("contact_us.html", query, afterContactStaff);
+	} else {
+		disableSend();
+	}
+}
+function afterContactStaff(response) {
+	var sended_message = document.getElementById("sended_message");
+	if (response == "OK") {
+		to_send_div = document.getElementById("to_send");
+		sended_div = document.getElementById("sended");
+		to_send_div.className = "invisible";
+		sended_div.className = "";
+	} else {
+		refreshErrors(response);
+		sended_message.style.color = "red";
+		$(sended_message).text("Messaggio non inviato.");
+		disableSend();
+		resetSpan(sended_message);
+	}
+}
+
+
+function refreshErrors(errors) {
+	for (error_id in errors) {
+		var error_element = document.getElementById(error_id);
+		$(error_element).text(errors[error_id]);
+	}
+}
+
+
+function checkLength(event, element, length) {
+	var error_element = document.getElementById(element.id + "_error");
+	if (element.value.length > length) {
+		$(error_element).text(element.value.length + "/" + length);
+	} else {
+		$(error_element).text("");
+	}
+}
+
+
+function enableSend() {
+	document.getElementById('send').disabled = false;
+}
+function disableSend() {
+	document.getElementById('send').disabled = true;
+}
+</script>
+<h3 align="center">CONTATTACI</h3>
+<div id="to_send">
+    <table style="width:100%">
+        <tr><td>Soggetto: </td><td style="width:100%"><input type="text" id="subject" style="width:65%" onkeypress="enableSend(); checkLength(event, this, ${MAX_SUBJECT_LENGTH});" /> <span id="subject_error" style="color:red; width:25%"></span></td></tr>
+        <tr><td>Messaggio: </td><td style="width:100%"><textarea id="message" rows="6" style="width:65%" onkeypress="enableSend(); checkLength(event, this, ${MAX_MESSAGE_LENGTH});"></textarea> <span id="message_error" style="color:red; width:25%"></span></td></tr>
+        <tr><td class="nowrap">Tua eMail <span style="white-space:normal;">${email_tooltip}</span>: </td><td style="width:100%"><input type="text" id="email" style="width:65%" onkeypress="enableSend(); checkLength(event, this, ${MAX_EMAIL_LENGTH});"></textarea> <span id="email_error" style="color:red; width:25%"></span></td></tr>
+    </table>
+    <input type="submit" id="send" onclick="contactStaff();" disabled="disabled" value="Invia" /> <span id="sended_message"></span>
+</div>
+<div id="sended" class="invisible">
+    Ti ringraziamo per il manifesto interesse ed il tempo dedicatoci; sarai contattato quanto prima per una risposta nel caso tu abbia inserito un indirizzo mail.<br>
+</div>
+<br>
+<br>
+Se invece vuoi contattarci inviandoci direttamente una mail ecco i nostri indirizzi:<br>
+Per qualsiasi cosa riguardante Aarit: <a href="mailto:${email}">${email}</a><br>
+Per contattare il capo-coder di Aarit, Onirik: <a href="mailto:&#097;&#110;&#100;&#114;&#101;&#097;&#046;&#112;&#111;&#115;&#116;&#097;&#108;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#097;&#110;&#100;&#114;&#101;&#097;&#046;&#112;&#111;&#115;&#116;&#097;&#108;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a><br>
+Per contattare il capo-builder di Aarit, Entropy: <a href="mailto:&#115;&#117;&#108;&#046;&#102;&#114;&#117;&#046;&#109;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#115;&#117;&#108;&#046;&#102;&#114;&#117;&#046;&#109;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a><br>

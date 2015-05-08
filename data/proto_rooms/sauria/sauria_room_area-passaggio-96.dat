@@ -1,0 +1,41 @@
+Comment: 0 8|8388608 0
+Code: sauria_room_area-passaggio-96
+Sector: SECTOR.UNDERGROUND
+Flags:	ROOM.INSIDE
+Name: L'Area Di Passaggio
+Short: l'area di passaggio
+
+Descr:
+Il corridoio segna il passaggio del nero lucido verso ovest, alla roccia rosso-brunastra ed est. La giunzione fra le due sembra sia stata fatta con il taglio preciso di un'arma magica. 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 0 21897
+  Descr:	Grotta naturale
+  Direction:	DIR.EAST
+End
+Exits:
+  Comment:	0 0 21895
+  Descr:	La mente riposa
+  Direction:	DIR.WEST
+End
+Extras:
+  Comment:	EXTRA_COMMENT
+  Keywords:	taglio preciso arma magica magia
+  Descr: 
+	In effetti a ben guardare sembra un po' meno che magico. Certo certo.. sempre un lavoro di gran pregio...
+End

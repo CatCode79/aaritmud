@@ -1,0 +1,51 @@
+Code: klirbe_room_sea-n
+Sector: SECTOR.SEA
+Name: Quasi a Riva
+Short: quasi a riva
+
+Descr:
+	L'oceano s'infrange con inopportuna violenza contro le rocce a sud in un instancabile
+	tentativo d'annettere alfine la terra ed estendere il suo dominio.
+DescrTouch: 
+	Fin anche troppo facile immergere la $hand nell'acqua dell'oceano che t'infradicia da
+	ogni dove in schizzi schiaffi e sbuffi.
+DescrSmell: 
+	Odore salmastro così forte da impregnare qualunque cosa.
+DescrHearing:
+	I sonori schizzi e i colpi di maglio dell'acqua sulla vicina roccia ti ottundono i
+	timpani in un unico basso fischio che è solo nelle tue orecchie.
+DescrTaste:
+	Salmastro, spiacevole, bruciante.
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+
+
+Exits:
+	Direction: DIR.UP
+	Descr: Il cielo distante più di sempre
+End
+Exits:
+	Direction: DIR.EAST
+	Descr: L'oceano per tutto l'orizzonte
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: L'oceano per tutto l'orizzonte
+End
+Exits:
+	Direction: DIR.NORTH
+	Descr: L'oceano per tutto l'orizzonte
+End
+Exits:
+	Direction: DIR.SOUTH
+	Descr: La roccia sicura
+End
+Exits:
+	Direction:	DIR.DOWN
+	Flags:	EXIT.NO_LOOK_LIST
+	Descr:	Il fondale basso
+End

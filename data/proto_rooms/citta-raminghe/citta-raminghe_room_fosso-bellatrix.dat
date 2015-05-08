@@ -1,0 +1,30 @@
+Code: citta-raminghe_room_fosso-bellatrix
+Sector: SECTOR.CITY
+Name:	[red]Fosso di Bellatrix[close]
+Short:	[red]un'antica necropoli[close] 
+
+Descr:
+Ecco che, davanti a te, improvvise, le tombe antiche di una necropoli, costruite a ridosso di rupi di pietra tufacea. 
+Continui a percorrere il sentiero e vedi delle tombe ipogee raggiungibili con delle brevi scalinate ricoperte di muschio. 
+Guardi il cielo. È scuro. Si alternano ampi spazi di luce rossastra a cupe nubi di colore grigio intenso. Un ruscello scorre lungo il fondo della vallata.
+
+DescrSmell:
+L'odore dell'erba che hai calpestato è molto forte e ti avvolge di essenze aspre e muschiate. 
+
+DescrHearing:
+Avverti una vaga sensazione, illusoria forse , di calpestio alle tue spalle. Senti il rumore dello scorrere dell'acqua e 
+quello del vento che si incanala lungo la valle e attraversa i rami. L'insieme dei suoni crea una sequenza inquietante che a tratti sembra raggiungere tonalità acute e sinistre.
+
+DescrSixth:
+Non c'è nessuno intorno a te, Sei solo. Pensi che lì non sei per nulla al sicuro. Forse qualcuno non desidera che tu sia qui. È un luogo sacro e lo devi esplorare con rispetto. La sensazione che avverti è quella di una presenza inquieta, di un'anima che vaga alla ricerca di qualcosa. Intuisci che non sono luoghi che puoi esplorare senza immergerti in una dimensione mistica e impregnata di sacralità. L'anima che qui si aggira è benevola con chi si accosta a questi luoghi con discrezione e
+ rispetto. 
+Altrimenti la sua furia esplode improvvisa e distruttiva.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.NORTH
+	Descr: In città
+End

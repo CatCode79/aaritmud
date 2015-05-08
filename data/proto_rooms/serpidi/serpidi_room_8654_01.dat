@@ -1,0 +1,20 @@
+Code: serpidi_room_8654_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: Ingresso al quartiere orientale 
+Short: Ingresso al quartiere orientale 
+Descr: 
+È un corridoio decorato, e sulla parete est si apre una porta ad arco con false colonne e capitelli scolpiti nella roccia pura. Le figure ti ricordano le scene orgiastiche del tempio superiore, ma stranamente mancano di quel tono angosciante ivi presente. 
+Exits:
+	Direction: DIR.EAST
+	Destination: 4 7 -2 serpidi
+End
+Exits:
+	Direction: DIR.WEST
+	Destination: 2 7 -2 serpidi
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

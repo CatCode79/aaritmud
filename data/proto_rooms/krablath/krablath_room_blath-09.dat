@@ -1,0 +1,52 @@
+Code: krablath_room_blath-09
+Sector: SECTOR.SHORE	
+Name: [aquamarine]Lo Stagno[close]
+Short: [aquamarine]un suggestivo stagno[close]
+
+Descr:
+Scorgi a malapena il guizzo purpureo di qualche pescetto tra le ampie foglie che ricoprono la superficie dello stagno.
+Guardandoti attorno puoi notare il preciso delinearsi delle aiuole che ti circondano separate tra loro da sentieri di immacolati sassetti.
+DescrTouch: 
+no_send
+DescrSmell: 
+L'odore di acqua stagnante che ci si potrebbe aspettare è del tutto assente e sostituito da inebrianti aromi floreali.
+DescrSixth:
+Un senso di mistero e magia permea tutto il giardino bloccato in una perenne stasi primaverile.
+DescrHearing:
+Odi di tanto in tanto il guizzo di qualche pesce fuori dall'acqua.
+DescrTaste:
+no_send
+
+Extras:
+	Keywords: chiave
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: In strada
+End
+Exits:
+  Direction: DIR.SOUTHEAST
+  Descr: In strada
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: In strada
+End
+

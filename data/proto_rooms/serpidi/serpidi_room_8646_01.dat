@@ -1,0 +1,20 @@
+Code: serpidi_room_8646_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: L'ingresso a una caverna. 
+Short: L'ingresso a una caverna. 
+Descr: 
+Sei in un angolo della radura, da qui puoi vedere che a sud si apre un grande ambiente illuminato. La luce è forte e riesce ad illuminare anche il punto in cui ti trovi. Senti rumori di attività provenienti probabilmente dal grande ambiente a sud. La temperatura è un po' più alta in questo punto. Senti anche un forte odore, niente affatto gradevole. Diciamo pure una puzza. 
+Exits:
+	Direction: DIR.EAST
+	Destination: 0 1 0 serpidi
+End
+Exits:
+	Direction: DIR.SOUTH
+	Destination: -1 0 0 serpidi
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

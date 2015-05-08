@@ -1,0 +1,45 @@
+Code: villaggio-zingaro_room_villaggio-04
+Sector: SECTOR.ROAD
+Name: La Via
+Short: la locanda è ancora in costruzione
+
+Descr:
+Sei nella locanda
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Extras:
+	Keywords: chiave
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+Exits:
+	Direction: DIR.NORTH
+	Descr: La strada
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: La strada
+End

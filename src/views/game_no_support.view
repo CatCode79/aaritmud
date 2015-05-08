@@ -1,0 +1,5 @@
+﻿${browser_name} non è supportato dalla pagina di gioco di ${game_name}.<br>
+Per poter giocare puoi aggiornare il tuo browser oppure ti consigliamo di utilizzare tra questi due:<br>
+<a href="http://www.mozillaitalia.it/archive/index.html#p1" target="_blank" style="border-bottom-width:0"><img src="graphics/ico_firefox.png" width="76" height="11" alt="Firefox" border="0"></a> Mozilla Firefox<br>
+oppure<br>
+<a href="http://www.google.it/chrome" target="_blank" style="border-bottom-width:0"><img src="graphics/ico_chrome.png" width="76" height="11" alt="Chrome" border="0"></a> Google Chrome<br>

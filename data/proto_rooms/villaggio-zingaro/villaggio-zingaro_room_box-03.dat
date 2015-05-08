@@ -1,0 +1,81 @@
+Comment: i box dal 2 al 4 sono ancora abbozzati, verranno caratterizzati mano a mano che verranno scritti gli animali corrispondenti.
+
+Code: villaggio-zingaro_room_box-03
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Il Box di NOME
+Short: un box
+
+Descr:
+Un modesto spazio quadrangolare con un letto di paglia sul pavimento. Tulle le pareti come il soffitto sono in legno, in molti punti rosicchiato dai tarli.
+DescrSmell:
+Un forte odore equino penetra le narici.
+DescrHearing:
+Odi numerosi sbuffi e nitriti.
+
+Width:	3m
+Depth:	2m
+Height: 2m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Al centro della stalla
+  Door: villaggio-zingaro_item_door-box-03
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

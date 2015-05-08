@@ -1,0 +1,43 @@
+Code: novizi_room_preparativi
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: [green]preparativi[close]
+Short: [green]fervono i preparativi[close]
+
+Descr:
+Ti trovi nella stanza che dovrebbe ospitare una rappresentativa legata al fatto che siamo
+in $season ed invece sei giunt$o qui giusto per vedere i preparativi per la prossima
+stagione. La stanza è tutta un cantiere di oggetti disposti in rigoroso disordine e
+rendono impraticabile anche solo girarsi per tornare sui propri passi. Cesti, assi,
+tavoli, sgabelli attrezzi, corde, casse chiuse... terribile.
+
+Extras:
+	Keywords: tavolo cesti cesto asse assi attrezzi attrezzo corda corde
+	Descr:
+	Già... ovunque... speriamo si sbrighino a mettere a posto
+	DescrHearing:
+	I tarli però son già al lavoro, senti senti come scricchiola
+	DescrTouch:
+	Nessuno se ne accorgerà mai se vien spostato qualcosa
+	DescrSixth:
+	A rimanere qui si rischia che prima o poi qualcuno chieda una $hand
+End
+Extras:
+	Keywords: cassa casse
+	Descr:
+	Casse chiuse con la misteriosa scritta [lightgreen]Magnamound[close]
+	DescrHearing:
+	Ci deve essere qualcosa di vivo qui dentro
+	DescrTouch:
+	Qualcosa di vivo da dentro una cassa la sta facendo vibrare
+End
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: Alla stanza dei pilastri
+End

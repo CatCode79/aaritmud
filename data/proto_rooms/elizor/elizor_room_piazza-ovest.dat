@@ -1,0 +1,43 @@
+Code: elizor_room_piazza-ovest
+Sector: SECTOR.CITY
+Name: La Piazza Centrale
+Short: la piazza centrale
+
+Descr:
+In tutto il guazzabuglio di negozi e mercanti ed ambulanti che ingombrano la piazza, resta libera l'ampia via verso occidente.
+Non un particolare sembra degno di attenzione.. se non... un'insegna sul fondo affissa ad un caseggiato meno anonimo di altri.
+DescrTouch: 
+no_send
+DescrSmell: 
+Arduo il mestiere di chi lavora con l'olfatto in questa piazza calderone e campionario disordinato di tutte le essenze, gli effluvi e le impronte pestilenziali della città.
+Di certo in questo snodo confluisce di tutto.
+DescrHearing:
+Fitto fitto sale per tutta l'estensione della piazza il rumore ed il vocio e le grida con la netta volontà d'impedire uno spicchio di silenzio.
+DescrTaste:
+La lingua che sporge per poco tempo qui e niente sarà più come prima.
+Un acre sublimato del sudore di ogni creatura arriva ai tuoi gangli più privati convincendoti ancor di più di non voler reiterare l'esperienza.
+
+DescrSixth:
+L'ansia che t'investe mentre cerchi di guadagnare spazio t'impedisce di fare attenzione ai tuoi averi e potrebbe succedere di dover tornare a casa più... leggeri.
+
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	L'angolo nord-ovest della piazza
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	La piazza maggiore
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	L'angolo sud-ovest della piazza
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	La direttrice ovest
+End

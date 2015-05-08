@@ -1,0 +1,42 @@
+FunName:    social_chill
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Per chi è questo sguardo glaciale?
+  OthersNoArg: $n lancia occhiate glaciali ai presenti.
+  EntityFound: Ghiacci $N con un'occhiataccia.
+  OthersFound: $n gela $N con un'occhiataccia.
+  TargetFound: $n ti gela con un'occhiataccia..
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Chiedi all'aria di raffreddarsi.
+  OthersNoArg: $n borbotta qualcosa ed inizia a fare oggettivamente un po' più freddo.
+  EntityFound: Fissi $N con l'intento di gelarl$O fin nelle ossa.
+  OthersFound: $n vorrebbe atterrire $N ma è solo ridicol$o.
+  TargetFound: $n cerca inutilmente di gelarti con lo sguardo. Però l'aria è più fredda!
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Osservi le altre creature con uno sguardo privo d'interesse.
+  OthersNoArg: $n osserva i presenti con sommo disprezzo.
+  EntityFound: Osservi priv$o di interesse l'inutile figura di $N.
+  OthersFound: Lo sguardo di $n trafigge $N con sommo disprezzo.
+  TargetFound: Lo sguardo freddo e sprezzante di $n ti gela all'istante.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Lanci gelide occhiate nei paraggi.
+  OthersNoArg: $n fissa i presenti con sguardo glaciale e distaccato.
+  EntityFound: Squadri $N da capo a $FEET, algidamente.
+  OthersFound: $n squadra $N con una gelida occhiata.
+  TargetFound: $n ti squadra da capo a $FEET con gelide occhiate.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Lanci gelide occhiate nei paraggi.
+  OthersNoArg: $n fissa i presenti con sguardo glaciale e distaccato.
+  EntityFound: Squadri $N da capo a $FEET, algidamente.
+  OthersFound: $n squadra $N con una gelida occhiata.
+  TargetFound: $n ti squadra da capo a $FEET con gelide occhiate.
+End

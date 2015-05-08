@@ -1,0 +1,42 @@
+Comment: 85 1 3
+Code: sauria_room_amena-foresta-19
+Sector: SECTOR.FOREST
+Name: Un'Amena Foresta
+Short: un'amena foresta
+
+Descr:
+Sei immers$o in una foresta di piante e alberi mai visti altrove. [white]ENORMI[close] farfalle stanno appollaiate sui rami sopra te. Ci sono sentieri ovunque ed in ogni direzione. 
+DescrTouch: 
+Il rigoglio della foresta si fa sentire con l'ipertrofica vegetazione che ti avvolge ad ogni passo. Alcuni tratti ne sono impercettibilmente più sgombri.
+DescrSmell: 
+L'umido che s'accompagna al vago fetore di decomposizione pare provenire da tutte le direzioni.
+DescrSixth:
+La vegetazione in questo luogo non ha nulla a che fare con quella alla quale sei abituat$o, forse vale la pena fare incetta di sementi prima di andarsene.
+DescrHearing:
+Il ronzio degli insetti è sì forte che devon essere bestie grosse almeno una spanna.
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21825
+  Descr:	Un'amena foresta
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 -1 21815
+  Descr:	Un'amena foresta
+  Direction:	DIR.EAST
+End
+Exits:
+  Comment:	0 -1 21816
+  Descr:	Un'amena foresta
+  Direction:	DIR.SOUTH
+End
+Exits:
+  Comment:	0 -1 21820
+  Descr:	Un'amena foresta
+  Direction:	DIR.WEST
+End

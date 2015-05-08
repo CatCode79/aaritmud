@@ -1,0 +1,55 @@
+Comment:
+Stanza deputata per lo più a test relativi ad implementazioni nuove senza la necessità dell'rpg e di tutte quelle cose che...
+
+Code: mfdonald_room_01
+Sector: SECTOR.AIR
+Name: Il Pavimento Panoramico
+Short: la via trasparente
+Descr: 
+Il sentiero procede tranquillo nella direzione più naturale che però non sapresti
+dire quale sia. Il terreno sul quale cammini ha consistenza piuttosto molle ed ha
+la sorprendente caratteristica di essere trasparente consentendoti di vedere che
+oltre non c'è nulla... 
+
+DescrSixth:
+Percepisci distintamente di poter salire pur non capendo bene per dove e come,
+sai di poterlo fare e sai che non vi è pericolo.
+DescrSmell:
+Ti arrivano alle narici effulvi appetitosi provenienti da laggiù, sempre dritto.
+DescrHearing:
+A ritmo cadenzato ti giungono all'orecchio i tipici rumori di leggero sfrigolio
+
+ShortNight: la via tranquilla
+DescrNight:
+Il sentiero procede tranquillo nella direzione più naturale che però non sapresti
+dire quale sia. Il terreno sul quale cammini ha consistenza piuttosto molle ed ha
+la sorprendente caratteristica di essere nerissimo ma riflettente.
+
+
+DescrSmellNight:
+Senti il grasso odoraccio tipico di untume tiepido e stantio provenire da laggiù
+
+Width:	7m
+Depth:	7m
+Height: 5m
+
+Exits:
+	Direction: DIR.EAST
+	Descr: Miml zone
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Una piacevole sorpresa
+End
+Exits:
+  Direction: DIR.UP
+  Descr: La via spugnosa
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Una proposta newbie
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Una proposta newbie
+End

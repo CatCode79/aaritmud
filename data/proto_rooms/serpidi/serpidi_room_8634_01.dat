@@ -1,0 +1,22 @@
+Code: serpidi_room_8634_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: La Tomba Circolare 
+Short: La tomba circolare 
+Descr: 
+Questa stanza ha il soffitto basso e la pianta rotonda. L'intera parete è riempita da un'unica scena raffigurante un'orgia selvaggia tra umanidi zannuti simili a quello raffigurato nella statua del tempio superiore e donne umane. La cosa più preoccupante sono alcuni cadaveri di maschi che compaiono qua e la nella scena alcuni sono rivolti verso quello che potrebbe sembrare una porta nell'atto di come se volessero uscire. Al centro della stanza c'è un sarcofago circolare. 
+Exits:
+	Direction: DIR.EAST
+	Destination: 2 3 -2 serpidi
+	Descr: Vedi qualche segno come se la parete non fosse così compatta.
+	Door: serpidi_item_secret_portone_01
+End
+Exits:
+	Direction: DIR.UP
+	Destination: 1 3 -1 serpidi
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

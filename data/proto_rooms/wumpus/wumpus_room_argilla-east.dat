@@ -1,0 +1,29 @@
+Code: wumpus_room_argilla-east
+Sector: SECTOR.UNDERGROUND
+Flags: ROOM.INSIDE
+Name: Il Cunicolo [firebrick]Argilloso[close] Est
+Short: il cunicolo [firebrick]argilloso[close] est
+
+Descr:
+Il colore delle pareti si fa più marcatamente rossastro via via che il cunicolo s'abbassa arzigogolando morbidamente fino ad una biforcazione improvvisa.
+
+DescrTouch: 
+il cunicolo s'abbassa arzigogolando morbidamente in un materiale friabile ed umidiccio che lascia residui sulle pareti. D'un tratto la mano manca l'appoggio ed ecco una biforcazione che s'improvvisa novità repentina..
+
+Width:	3m
+Depth:	3m
+Height:	3m
+
+Exits:
+  Direction: DIR.EAST
+  Destination:	 8 2 0 wumpus
+  Descr: Le [darkseagreen]ragnatele[close]
+End
+Exits:
+  Direction: DIR.NORTHWEST
+  Descr: Il cunicolo [firebrick]argilloso[close]
+End
+Exits:
+  Direction: DIR.SOUTHWEST
+  Descr: Il cunicolo [firebrick]argilloso[close]
+End

@@ -1,0 +1,30 @@
+Code: serpidi_room_8637_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: Un corridoio scuro 
+Short: Un corridoio scuro 
+Descr: 
+Avanzi in un corridoio completamente scavato nella pietra, come tutti gli ambienti in cui sei passato fino ad ora del resto. Uno strato di polvere copre il pavimento, ci sono ragnatele dovunque. La pietra dei muri è asciutta e solida, senza irregolarità. Ci sono piccole ossa in certi punti, e in altri spazzatura. 
+Exits:
+	Direction: DIR.NORTH
+	Destination: 2 6 -2 serpidi
+End
+Exits:
+	Direction: DIR.SOUTH
+	Destination: 2 4 -2 serpidi
+End
+Extras:
+	Keywords: ossa 
+Descr:
+Sono piuttosto piccole e sembrano appartenere ad esseri di vari tipi, molto diversi tra loro. 
+End
+Extras:
+	Keywords: spazzatura 
+Descr:
+Che schifo, rovistare nella spazzatura !! Ci trovi alcuni torsoli di frutta non meglio identificata, foglie di insalata, insetti, briciole di pane, muco, filamenti appiccicosi, funghi, licheni, qualche frammento di pergamena strappato, sassolini, una pezzo di una qualche lama, un bottone di marmo. Ora avresti bisogno di una bella lavata ! 
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

@@ -1,0 +1,54 @@
+Code: novizi_room_privato_cucina
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Cucina
+Short: una cucina
+
+Descr:
+La cucina è una sala ampia e spaziosa con un grande focolare [gold]acceso[close] nella parete ovest.
+Il pavimento è costituito da formelle in cotto parzialmente coperte da bucce di patata
+e piume di pollo. Sulla parete opposta a quella del focolare ci sono diversi mobili
+chiusi ad occupare tutto lo spazio disponibile. In fondo alla cucina c'è un enorme
+lavello in pietra rossastra sopraffatto da piatti, stoviglie e pentolame vario; tutto
+sozzo ed incrostato di cibo.
+
+Extras:
+	Keywords: focolare
+	Descr:
+	Una morbida fiamma si rianima e si cheta in rapida alternanza tutta dedita a consumare
+	due pesanti ciocchi di legno
+	DescrSmell:
+	Si spande l'odore di legna resinosa che brucia
+	DescrTouch:
+	Porti le $hands avanti per scaldartele all'indirizzo della fiamma
+End
+Extras:
+	Keywords: mobili
+	Descr:
+	Ante, antine, sportelli e vetri scorrevoli
+	DescrTouch:
+	Vorresti avvicinarti ad aprire e sbirciare ma il timore d'esser colto in fallo ti
+	trattiene
+End
+Extras:
+	Keywords: lavello
+	Descr:
+	Un mastodontico blocco di pietra è stato scavato lungamente per renderlo atto a ricevere
+	tutto il ciarpame che ora lo riempie e lo umilia
+	DescrSmell:
+	Tutto l'effulvio che si leva dal lavello lascia presupporre l'intento d'evocare un
+	golem di verdura oppure una malsana propensione per i marciumi
+	DescrTouch:
+	Lo spirito protettivo dalla febbre tifoide ferma in tempo la tua $hand
+	DescrTaste:
+	Error 404: Brain not Found!
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: L'uscita
+End

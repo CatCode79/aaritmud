@@ -1,0 +1,132 @@
+FunName:    social_hug
+Intention:  INTENTION.FRIENDLY
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Va bene, ma chi?
+  OthersNoArg: $n allarga le braccia, cercando qualcuno intorno cui stringerle.
+  EntityFound: Abbracci teneramente $N.
+  OthersFound: $n stringe $N in un tenero abbraccio.
+  TargetFound: $n ti stringe in un tenero abbraccio.
+  EntityAuto:  Fai degli utili esercizi ginnici.
+  OthersAuto:  $n apre e chiude le braccia intorno a sé.. E' folle.
+End
+RacialMessages:
+  Race:        RACE.HIGHELF
+  EntityNoArg: Va bene, ma chi?
+  OthersNoArg: $n allarga le braccia, cercando qualcuno intorno cui stringerle.
+  EntityFound: Abbracci $N.
+  OthersFound: $n stringe $N in un lieve abbraccio.
+  TargetFound: $n ti stringe in un lieve abbraccio.
+  EntityAuto:  Fai degli utili esercizi ginnici.
+  OthersAuto:  $n apre e chiude le braccia intorno a sé.. E' folle.
+End
+RacialMessages:
+  Race:        RACE.DWARF
+  EntityNoArg: Va bene, ma chi?
+  OthersNoArg: $n allarga le braccia, cercando qualcuno intorno cui stringerle.
+  EntityFound: Abbracci $N.
+  OthersFound: $n stringe $N in un barbuto abbraccio.
+  TargetFound: $n ti stringe in un barbuto abbraccio.
+  EntityAuto:  Fai degli utili esercizi ginnici.
+  OthersAuto:  $n apre e chiude le braccia intorno a sé.. E' folle.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Va bene, ma chi?
+  OthersNoArg: $n allarga le braccia, cercando qualcuno intorno cui stringerle.
+  EntityFound: Abbracci $N.
+  OthersFound: $n si getta al collo di $N con entusiasmo.
+  TargetFound: $n si getta al tuo collo con entusiasmo.
+  EntityAuto:  Abbraccio te stess$o... che tristezza nessuno ti vuole.
+  OthersAuto:  $n stringe le braccia intorno al corpo: freddo o solitudine?
+End
+RacialMessages:
+  Race:        RACE.HALFELF
+  EntityNoArg: Va bene, ma chi?
+  OthersNoArg: $n allarga le braccia, cercando qualcuno intorno cui stringerle.
+  EntityFound: Abbraccio $N.
+  OthersFound: $n stringe $N in un abbraccio.
+  TargetFound: $n ti stringe in un abbraccio.
+  EntityAuto:  Fai degli utili esercizi ginnici.
+  OthersAuto:  $n apre e chiude le braccia intorno a sé.. E' folle.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Allarghi le braccia pront$o a donare saggezza con le parole.
+  OthersNoArg: $n allarga le braccia come fosse un predicatore.
+  EntityFound: Abbracci $N.
+  OthersFound: $n stringe $N in un poco convinto abbraccio.
+  TargetFound: $n ti stringe in un abbraccio poco convinto .
+  EntityAuto:  Stai per abbracciare qualcuno ma all'ultimo ti rendi conto che non ne vale la pena.
+  OthersAuto:  $n improvvisa una danza verso di te arrestandosi di botto.
+End
+RacialMessages:
+  Race:        RACE.THEPA
+  EntityNoArg: Va bene, ma chi?
+  OthersNoArg: $n allarga le braccia, cercando qualcuno intorno cui stringerle.
+  EntityFound: Abbracci $N.
+  OthersFound: $n stringe $N in un viscido abbraccio.
+  TargetFound: $n ti stringe in un viscido abbraccio.
+  EntityAuto:  Fai degli utili esercizi ginnici.
+  OthersAuto:  $n apre e chiude le braccia intorno a sé.. E' folle.
+End
+RacialMessages:
+  Race:        RACE.GNOME
+  EntityNoArg: Va bene, ma chi?
+  OthersNoArg: $n invita i presenti ad abbracciarl$o.
+  EntityFound: Abbracci $N.
+  OthersFound: $n stringe $N in un paffuto abbraccio.
+  TargetFound: $n ti stringe in un paffuto abbraccio.
+  EntityAuto:  Fai degli utili esercizi ginnici.
+  OthersAuto:  $n apre e chiude le braccia intorno a sé.. E' folle.
+End
+RacialMessages:
+  Race:        RACE.MINOTAUR
+  EntityNoArg: Va bene, ma chi?
+  OthersNoArg: $n allarga le braccia, cercando qualcuno intorno cui stringerle.
+  EntityFound: Abbraccio $N.
+  OthersFound: $n stringe $N in un possente abbraccio.
+  TargetFound: $n ti stringe in un possente abbraccio.
+  EntityAuto:  Faccio degli utili esercizi ginnici.
+  OthersAuto:  $n apre e chiude le braccia intorno a sé.. E' folle.
+End
+RacialMessages:
+  Race:        RACE.ORC
+  EntityNoArg: Va bene, ma chi?
+  OthersNoArg: $n allarga le braccia, cercando qualcuno intorno cui stringerle.
+  EntityFound: Abbracci $N.
+  OthersFound: $n stringe $N in un sudaticcio abbraccio.
+  TargetFound: $n ti stringe in un sudaticcio abbraccio.
+  EntityAuto:  Fai degli utili esercizi ginnici.
+  OthersAuto:  $n apre e chiude le braccia intorno a sé.. E' folle.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Va bene, ma chi?
+  OthersNoArg: $n allarga le braccia, cercando qualcuno intorno cui stringerle.
+  EntityFound: Abbracci $N.
+  OthersFound: $n stringe $N in un arruffato abbraccio.
+  TargetFound: $n ti stringe in un arruffato abbraccio.
+  EntityAuto:  Fai degli utili esercizi ginnici.
+  OthersAuto:  $n apre e chiude le braccia intorno a sé.. E' folle.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Va bene, ma chi?
+  OthersNoArg: $n allarga le braccia, cercando qualcuno intorno cui stringerle.
+  EntityFound: Abbracci $N.
+  OthersFound: $n stringe $N in un arruffato abbraccio.
+  TargetFound: $n ti stringe in un arruffato abbraccio.
+  EntityAuto:  Fai degli utili esercizi ginnici.
+  OthersAuto:  $n apre e chiude le braccia intorno a sé.. E' folle.
+End
+RacialMessages:
+  Race:        RACE.ARIAL
+  EntityNoArg: Va bene, ma chi?
+  OthersNoArg: $n allarga le braccia, cercando qualcuno intorno cui stringerle.
+  EntityFound: Abbracci $N.
+  OthersFound: $n stringe $N in un delicato abbraccio.
+  TargetFound: $n ti stringe in un delicato abbraccio.
+  EntityAuto:  Fai degli utili esercizi ginnici.
+  OthersAuto:  $n apre e chiude le braccia intorno a sé.. E' folle.
+End

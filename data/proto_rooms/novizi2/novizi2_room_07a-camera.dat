@@ -1,0 +1,45 @@
+Code: novizi2_room_07a-camera
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: [gold]La Camera da Letto[close]
+Short: [gold]la camera da letto[close]
+
+Descr:
+La stanza da [yellow]letto[close] è una piccola stanzina con un letto matrimoniale ad occupare gran
+parte dello spazio; quello che rimane è occupato da un [yellow]armadio[close] egocentrico a coprire
+tutta una parete. Ai lati del letto vi sono un paio di comodini molto semplici a
+singolo cassetto. 
+
+Extras:
+	Keywords: letto
+	Descr:
+	Un semplice letto rifatto ed un copriletto a nascondere anche i due cuscini
+	DescrSmell:
+	Odora di colla da falegname
+	DescrTouch:
+	Uhm, anche il materasso sembra di legno
+End
+Extras:
+	Keywords: armadio
+	Descr:
+	Un armadio a tre paia di ante con pomelli in porcellana bianca ed azzurra
+	DescrTouch:
+	Non si riesce ad aprire.
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.NORTH
+	Descr: [lemonchiffon]Il guardaroba[close]
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	Il bagno
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	Il camerino 
+End

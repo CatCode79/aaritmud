@@ -1,0 +1,52 @@
+FunName:    social_horn
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Scuoti il capo bovinamente.
+  OthersNoArg: $n ciondola il capo a destra e sinistra, come le mucche.
+  EntityFound: Ondeggi il capo davanti $N.
+  OthersFound: $n fa ondeggiare il capo davanti a $N, che intenzioni avrà?
+  TargetFound: $n dondola il capo davanti a te, con moto bovino..
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Agiti la testa per far risaltare le tue antennine.
+  OthersNoArg: $n scosta i capelli per mettere in risalto le sue delicate antennine.
+  EntityFound: Scosti i capelli per mostrare a $N le tue antenne.
+  OthersFound: $n scosta i capelli per far vedere a $N due delicate antennine.
+  TargetFound: $n ha scrollato il capo per mostrarti due delicate antennine.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Non sei sposat$o.
+  OthersNoArg: no_send
+  EntityFound: Non sei sposat$o.
+  OthersFound: no_send
+  TargetFound: no_send
+  EntityAuto:  Non sei sposat$o.
+  OthersAuto:  no_send
+End
+RacialMessages:
+  Race:        RACE.MINOTAUR
+  EntityNoArg: Scuoti il capo facendo dondolare le grandi corna.
+  OthersNoArg: $n fa oscillare le grandi corna con un movimento del capo.
+  EntityFound: Ondeggi le grandi corna davanti a $N.
+  OthersFound: $n ondeggia le grandi corna davanti a $N, che intenzioni avrà?
+  TargetFound: $n dondola il capo davanti a te con moto ipnotico delle corna..
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Pieghi le orecchie a mo' di corna ed ondeggio un poco il capo.
+  OthersNoArg: $n piega le orecchie a mo' di corna cercando d'imitare una mucca.
+  EntityFound: Miagoli un muggito verso $N.
+  OthersFound: $n si sforza di muggire ma emette solo sordi miagolii.
+  TargetFound: $n è uno spasso, sta cercando d'imitare una mucca.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Pieghi le orecchie a mo' di corna ed ondeggio un poco il capo.
+  OthersNoArg: $n piega le orecchie a mo' di corna cercando d'imitare una mucca.
+  EntityFound: Miagoli un muggito verso $N.
+  OthersFound: $n si sforza di muggire ma emette solo sordi miagolii.
+  TargetFound: $n è uno spasso, sta cercando d'imitare una mucca.
+End

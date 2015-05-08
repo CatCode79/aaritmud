@@ -1,0 +1,32 @@
+Comment: 85 8 0
+Code: sauria_room_cantina-fetida-70
+Sector: SECTOR.UNDERGROUND
+Flags:	ROOM.INSIDE
+Name: La Cantina Fetida
+Short: la cantina fetida
+
+Descr:
+Ti trovi in una stanza brutta stanza sporca, con cumuli di detriti e rifiuti puzzolenti. La prima cosa che noti è lo strano materiale di cui sono rivestite le pareti: sembra finto, è liscio lucido e plastico. Ad una più attenta ispezione noti diverse scritte tutte identiche, dicono che si tratta di material rubato a qualche cantiere. Il pavimento è di pietra e sozzo; più sozzo che di pietra. Diverse piccole ragnatele si sono formate negli angoli e un buco che sembra della misura giusta per un ratto è stato praticato nella parete nord. Il tanfo qui è aberrante e cerchi di riguadagnare l'uscita prima di subito. 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	1 -1 21869
+botola
+Sopra di te, la botola.
+  Descr:	Il covo
+  Direction:	DIR.UP
+End

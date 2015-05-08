@@ -1,0 +1,48 @@
+FunName:    social_approve
+Intention:  INTENTION.FRIENDLY
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Approvi con decisione.
+  OthersNoArg: $n approva con decisione.
+  EntityFound: Approvi la proposta di $N.
+  OthersFound: $n approva la proposta di $N.
+  TargetFound: $n approva la tua proposta.
+  EntityAuto:  Ti approvi pienamente.
+  OthersAuto:  $n approva le sue proposte.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Manifesti con discrezione la tua approvazione.
+  OthersNoArg: $n manda acuti urletti di giubilio in segno d'approvazione.
+  EntityFound: Manifesti la tua approvazione alle proposte di $N.
+  OthersFound: $n manda acuti urletti di giubilio alle proposte di $N.
+  TargetFound: $n mostra di approvare le tue proposte con acuti urletti.
+  EntityAuto:  Sei perfettamente d'accordo con te stess$o.
+  OthersAuto:  $n sorride furbett$o, soddisfatt$o delle sue proposte.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Approvi.
+  OthersNoArg: $n approva.
+  EntityFound: Approvi la proposta di $N.
+  OthersFound: $n oppone solo poche obiezioni alla proposta di $N.
+  TargetFound: $n oppone solo poche obiezioni alla tua proposta.
+  EntityAuto:  Ti approvi con decisione.
+  OthersAuto:  $n si approva incondizionatamente.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Dai un segno d'approvazione con il capo.
+  OthersNoArg: $n approva con un cenno del capo.
+  EntityFound: $n miagoli la tua approvazione a $N.
+  OthersFound: $n approva $N con riserva.
+  TargetFound: $n ti approva con un cenno del capo.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Dai un segno d'approvazione con il capo.
+  OthersNoArg: $n approva con un cenno del capo.
+  EntityFound: $n miagoli la tua approvazione a $N.
+  OthersFound: $n approva $N con riserva.
+  TargetFound: $n ti approva con un cenno del capo.
+End

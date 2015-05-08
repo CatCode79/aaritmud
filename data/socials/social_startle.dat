@@ -1,0 +1,34 @@
+FunName:    social_startle
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Ti scuoti un po', tanto per darti coraggio.
+  OthersNoArg: $n sembra in preda alle convulsioni.
+  EntityFound: Scuoti $N tenendol$o per le spalle, coraggio!
+  OthersFound: $n scuote $N cercando di incoraggiarl$o.
+  TargetFound: $n ti scuote tenendosi per le spalle, forse cerca solo di incoraggiarmi.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Ti scrolli la polvere di dosso.
+  OthersNoArg: $n si scuote la polvere di dosso.
+  EntityFound: Scuoti $N con una certa indolenza.
+  OthersFound: $n scuote $N con una nota di noia negli occhi.
+  TargetFound: $n ti scuote annoiat$o.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Ti scuoti da capo a $feet ravvivando il manto.
+  OthersNoArg: $n si scuote da capo a $feet gonfiando il manto.
+  EntityFound: Afferri $N con le zampe scuotendol$O con veemenza.
+  OthersFound: $n afferra $N con le zampe scuotendol$O ripetutamente.
+  TargetFound: $n ti afferra con le zampe scuotendoti ripetutamente.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Ti scuoti da capo a $feet ravvivando il manto.
+  OthersNoArg: $n si scuote da capo a $feet gonfiando il manto.
+  EntityFound: Afferri $N con le zampe scuotendol$O con veemenza.
+  OthersFound: $n afferra $N con le zampe scuotendol$O ripetutamente.
+  TargetFound: $n ti afferra con le zampe scuotendoti ripetutamente.
+End

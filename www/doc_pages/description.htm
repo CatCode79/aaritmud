@@ -1,0 +1,47 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="style.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<table style="width:100%">
+<tr>
+	<td><a href="index.htm"><img src="../graphics/arrow_left.gif" width="16px" height="16px"> Indice</a></td>
+	<td style="text-align:right"><a href="installation.htm">Installazione di Aarit <img src="../graphics/arrow_right.gif" width="16px" height="16px"></a></td>
+</tr>
+</table>
+
+<hr>
+<h3>Descrizione di Aarit</h3>
+<div class="main">
+Allo stato attuale Aarit è ancora immaturo per iniziare a costruirvi un Mud sopra, mancano alcune parti importanti come la struttura definitiva dei mob e degli oggetti, il combattimento, la maggior parte dei comandi di iterazione comune con gli oggetti e tanto altro ancora.<br>
+D'altra parte questo può essere un pregio per chi voglia utilizzare Aarit come motore principale del proprio Mud e costruirvi sopra le proprie meccaniche di gioco.<br>
+Nonostante vi sia ancora relativamente poco se vi addentrerete nei sorgenti di Aarit vi imbatterete in alcune chicche che dovrebbero darvi un'idea indicativa delle potenzialità del progetto.<br>
+Provo a redarre una lista di alcune delle caratteristiche salienti:<br>
+<ul>
+<li> Il Mud è <a href="playable_by_browser.htm">giocabile via Browser</a>
+<li> Aarit è scritto in Python, questo significa che può girare su tutti i Sistemi Operativi supportati da tale linguaggio. Dovrebbe quindi poter funzionare senza problemi sotto Linux e i vari Unix, sotto Mac, sotto Windows, Windows NT e OS/2 (anche sotto DOS teoricamente, solo che quest'ultimo non supporta la connessione tramite socket, sarebbe quindi un'esperienza 'single-player')
+<li> È quasi impossibile che <a href="crash.htm">crashi</a>.
+<li> Gestione di più personaggi tramite account. Quindi si ha un solo login e password da ricordare (sia per sito che per il Mud)
+<li> Le aree sono formate da una griglia di coordinate (come per le wild), ciò rende possibile alcune cose come creazione di uscite 'al volo' (far saltare un muro ad una determinata direzione farà sbucare alla relativa coordinata creando così un'uscita) oppure permette il calcolo della distanza tra due coordinate, il path finding ed altro ancora..
+<li> Reset avanzati che permettono di inserire differenti stanze o entità a seconda dell'ora o della stagione
+<li> <a href="rpg_channels.htm">Canali rpg avanzati</a>: gli smile vengono convertiti in espressioni descrittive e c'è anche la libertà di inserire delle espressioni-emote per descrivere come si sta parlando.<br>
+<li> Supporto per i comandi sia in italiano che in inglese
+<li> Mud facilmente configurabile (vedi file config.ini)
+<li> Formattazione avanzata del testo tramiti dei codici di colore e di stile con sintassi <a href="builder_manual/colors.htm">simile al CSS</a>
+<li> <a href="database_and_persistence.htm">Database formato da file testuali</a> simili a quelli dello SMAUG (quelli con le etichette che precedono i valori se avete in mente, se non li avete in mente immaginatevi dei semplici file di configurazione *.ini), molto elastici nell'aggiunta o rimozione delle sue parti e semplici da modificare. Inoltre dimenticatevi della tilde, Aarit riesce ad intuire la fine di una stringa anche senza un terminatore
+<li> Enumerazioni estendibili di <a href="builder_manual/element.htm">elementi e sinonimi</a>
+<li> Gestione grammaticale avanzata, la funzione get_article è molto utile in alcune situazioni di costruzione di stringhe composte da varie parti dinamiche
+<li> Di facile impatto e modifica (tuttavia, nonostante sia meno complicato, Aarit è più complesso rispetto ad altri MUD, alcune strutture e astrazioni dovrete capirle fino in fondo prima di mettervi le mani produttivamente)
+<li> Social razziali, ovvero i messaggi di social sono suddivisi e differenziabili a seconda della razza (vedere la cartella data/socials)
+<li> Confronto avanzato dell'input inserito dal giocatore.<br>
+Per esempio se il giocatore inserisce l'input <i>ABILITA'</i> e il comando nel database in realtà si chiama <i>abilità</i> tale comando verrà comunque trovato. Ciò avviene non solo per la ricerca dei comandi ma anche per quasi tutti gli argomenti inseriti ai comandi stessi.
+<li> E tante altre cose, purtroppo per ora solo implementate a metà.. (vedi la riguardante <a href="future.htm">il futuro di Aarit</a> per saperne di più)
+</ul><br>
+</div>
+
+<hr>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Introduzione</title>
+</head>
+<body>
+
+<hr>
+<h2>Introduzione alla Creazione delle Aree:</h2>
+<div>
+Ogni area in Aarit &egrave; formata da dei file testuali, di estensione <i>*.dat</i>, chiamati <span style="color:white">dati</span>, ognuno di questi file contiene delle informazioni di base: dell'area, di una stanza, di un mob oppure di un oggetto).<br>
+Il nome di ognuno dei file &egrave; uguale al codice del dato, quest'ultimo permette di identificare quel dato in modo da renderlo unico in tutto il Mud. Vedremo in seguito, per ogni differente tipologia di dato, le regole per creare un codice adatto.<br>
+Il contenuto di un dato &egrave; una serie, pi&ugrave; o meno estesa, di righe che seguono questo formato: <span class="label">Etichetta</span>: <span style="color:white">Valore</span>.<br><br>
+
+Ecco di seguito un esempio di dato di tipo stanza, il cui file avr&agrave; come nome limbo_room_01.dat:
+<pre>
+<span class="label">Code</span>: limbo_room_01
+<span class="label">Name</span>: Il Vuoto Assoluto
+<span class="label">Short</span>: un vuoto angosciante
+<span class="label">Descr</span>:
+Galleggi in un vuoto senza forma, staccato da ogni sensazione fisica.
+Tutt'attorno i confini del reale si affievoliscono, spariscono i contorni
+lentamente, prima diventando ombre sottili e poi... pi&ugrave; nulla!
+<span class="label">Extras</span>:
+    <span class="label">Keywords</span>: vuoto nulla
+    <span class="label">Descr</span>:
+    Cerchi di osservare a fondo tutto questo vuoto, in cerca di qualcosa..
+    Improvvisamente senti come se la tua mente fosse afferrata da una mano artigliata
+    e gettata in quel buio assoluto!
+    Ti scuoti di soprassalto, come svegliato da un incubo.
+<span class="label">End</span>
+<span class="label">Sector</span>: SECTOR.VOID vuoto assoluto
+<span class="label">Width</span>:  7m
+<span class="label">Depth</span>:  5m
+<span class="label">Height</span>: 4m
+<span class="label">Exits</span>:
+    <span class="label">Direction</span>:   DIR.NORTH
+    <span class="label">Descr</span>: Vedi laggi&ugrave; qualcosa che assomiglia ad una grande cesta.
+<span class="label">End</span>
+<span class="label">Exits</span>:
+    <span class="label">Direction</span>:   DIR.DOWN
+    <span class="label">Descr</span>: Verso il basso, attraverso una botola aperta, si vedono un mucchio di nuvole che coprono il mondo di Nakilen.
+<span class="label">End</span></pre><br>
+Da questa struttura si possono gi&agrave; capire un po' di cose:<br><br>
+
+Prima di tutto i valori delle variabili di un dato sono identificate e precedute da un'etichetta formata da una parola in inglese e seguita dai due punti e da almeno uno spazio.<br><br>
+
+Non vi &egrave; un ordine prefissato per le etichette, ma cercate di mantenere l'ordine che trovate nell'indice di ogni pagina relativa ad un dato di questo manuale che andrete a vedere, in questa maniera il dato sar&agrave; maggiormente leggibile anche a futuri Builder. In quelle stesse pagine troverete una lista delle etichette obbligatorie che potrete utilizzare come base copiandole e incollandole sul file del dato che state iniziando a creare.<br>
+Difatti non tutte le etichette di un dato sono obbligatorie, verr&agrave; specificato nella spiegazione delle stesse quali s&igrave; e quali no, quelle consigliate o quelle da inserire solo in rari casi o ancora assieme ad altre.<br><br>
+
+Avrete forse notato che dopo l'etichetta <span class="label">Descr</span>: c'&egrave; un a capo, difatti nel qual caso l'etichetta abbia un valore testuale non siete obbligati a iniziare a scrivere nella stessa riga dell'etichetta ma potete iniziarla dopo essere andati a capo, ci&ograve; &egrave; utile quando il testo &egrave; lungo o su pi&ugrave; linee come appunto le descrizioni delle stanze.<br>
+Ricordo che questa caratteristica &egrave; utilizzabile solo con le etichette che contengono come valore del testo, tutti gli altri valori devono essere scritti subito dopo l'etichetta, escluse ovviamente le etichette relative ad una sottostruttura come abbiamo visto prima.<br><br>
+
+Altra cosa che si pu&ograve; notare &egrave; tutte le etichette che finiscono con la lettera 's', cio&egrave; un plurare in inglese, aprono una sottostruttura con altre etichette; per far balzare subito all'occhio le etichette delle sottostrutture queste vengono spostate di 4 spazi (o 2 se preferite) verso destra.<br>
+Una volta scritte tutte le etichette della sottostruttura questa deve essere chiusa con l'etichetta <span class="label">End</span> proprio come nell'esempio sopra.<br>
+A differenza di come ci si potrebbe aspettare bisogna inserire l'<i>etichetta che finisce con la s</i> + le etichette della sottostruttura + l'etichetta <span class="label">End</span> per ogni singola sottostruttura che si vuole aggiungere al dato stesso; difatti non si possono scrivere tutti in un unico blocco di terminato da un'unica etichetta <span class="label">End</span>. Nell'esempio sopra vi sono due sottostrutture <span class="label">Exits</span>, una per ogni uscita della stanza.<br><br>
+
+La prima cosa che dovrete fare &egrave; quella di prendere matita e carta quadrettata e cominciare a disegnare l'area dentro uno schema di coordinate modello battaglia navale ma con le righe in ordine decrescente partendo da un valore che ritenete adeguato (di solito da 5 o 10 pu&ograve; andar bene); come coordinate sono anche validi lo zero e i numeri negativi.<br>
+Le coordinate lungo il bordo sinistro o destro del foglio saranno le X, mentre quelle lungo il bordo superiore o inferiore saranno le y, come in un piano cartesiano.<br>
+Non fate aree troppo grandi poich&eacute; sono difficili da gestire, meglio un'area pi&ugrave; piccola e meglio fatta nei particolari, per non parlare della qualit&agrave; dei dialoghi e dei gamescript sui quali ci si pu&ograve; sbizzarrire aumentando di molto la giocabilit&agrave; dell'area.<br>
+Un giorno, se vorrete riprendere in mano l'area e ingrandirla, potrete sempre incollarvi un altro foglio ed aggiungervi le altre stanze.<br><br>
+
+Ora decidete dove inserire la vostra prima stanza (di solito alle coordinate x 0 e y 0) e disegnateci un quadratino, segnatevi le coordinate a lato (o su un altro foglio) e scrivetevi accanto il nome della stanza e qualche piccolo appunto per ricordarvi cosa serva e cosa volete inserirvi.<br>
+Poi create una stanza adiacente unita da una linea (ad indicare che &egrave; collegata con un'uscita) e segnatevi le coordinate della seconda stanza, il suo nome e i vostri appuntini a riguardo.<br>
+Continuate cos&igrave; fino a che la vostra area su foglio non verr&agrave; terminata.<br><br>
+
+<img src="torre_elementi.jpg" width="100%" height="100%" /><br>
+<br>
+
+Nel corso della stesura prima o poi vi capiter&agrave; di voler aggiungere una stanza sopra o sotto un'altra gi&agrave; esistente. In questo caso prendete un altro foglio, copiatevi lo stesso schema di coordinate del precedente e intitolatelo in maniera tale che identifichi a che numero di piano superiore o inferiore vi trovate, queste saranno le vostre coordinate z.<br>
+Aarit difatti ha un sistema di coordinate a tre dimensioni: il piano terra (solitamente) &egrave; rappresentato dalla coordinata z uguale a 0, andando in crescendo di solito &egrave; come salire delle scale e passare di piano in piano (e quindi le coordinate zeta aumentano: 1, 2, 3...); mentre numerando in maniera descrente &egrave; come entrare nelle profondit&agrave; del sottosuolo o scendere delle scale (e quindi le coordinate zeta diminuiscono: -1, -2, -3...).<br>
+L'importante &egrave; mantenere lo stesso schema di coordinate, quindi se una stanza si trova sopra o sotto ad un'altra devono avere le stesse coordinate x e y ma differenti coordinate z.<br><br>
+
+Una volta terminato il lavoro su foglio di carta se avete uno scanner (o potete anche utilizzare una macchina foto digitale) convertite la vostra area in immagine cos&igrave; da poterla mostrare all'addetto delle aree del Mud chiedendo pareri e benedizione :)<br><br>
+
+Una volta che la vostra idea &egrave; stata approvata potete iniziare a creare i vari file di *.dat e inserirvi le vostre etichette per plasmare quello che &egrave; immaginazione in qualcosa di pi&ugrave; concreto.<br>
+Se non sapete come o cosa utilizzare per creare i file testuali di *.dat e state utilizzando Windows seguite questi step:<br>
+- Creare una cartella che conterr&agrave; tutti i file di dato relativo all'area<br>
+- Aprite la cartella con Esplora Risorse e cliccate con il tasto destro del mouse scegliete Nuovo -> Documento di Testo<br>
+- Rinominate il file appena creato con qualcosa tipo: codice_del_dato.dat, cambierete poi il nome del file con il codice del dato quando l'avrete deciso e seguendo le regole su come crearlo<br>
+- Aprire il file con il vostro editor testuale preferito; evitate d'utilizzare Notepad, Wordpad, Word, Open Office e simili. Personalmente vi consiglio <a href="http://notepad-plus-plus.org/it/download" target="_blank">Notepad++</a> oppure <a href="http://www.pspad.com/it/download.php" target="_blank">PSPad</a>.<br><br>
+
+Vi consiglio d'imparare prima di tutto la struttura generale dell'<a href="area.htm">area</a> poi quella delle <a href="room.htm">stanze</a>, poi ancora quella dei <a href="mob.htm">mob</a> ed infine quella degli <a href="item.htm">oggetti</a>; &egrave; la cosa migliore sia tecnicamente che logicamente: difatti prima si mettono le stanze in un'area, poi le si riempiono di mob e poi si mettono gli oggetti in giro per le stanze e addosso ai mob.<br><br>
+</div>
+
+<hr>
+</body>
+</html>

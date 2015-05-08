@@ -1,0 +1,40 @@
+Comment: 
+si può arrivare in questa stanza da karpuram ma non deve essere possibile dal negozio
+arrivare al labirinto di karpurm. In questo senso il negozio è messo a disposizione
+dell'utenza dagli abitanti di Karpuram che non vogliono però mettere così facilmente
+a disposizione il loro reame
+
+Code: karpuram_room_negozio_02
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Il negozio di Karpuram
+Short: un negozietto di generi alimentari
+Descr:
+Il negozio è una grande ed ampio trilocale  tutto stipato di ripiani e scaffalature, per
+quanto giri ed esplori pare non ci sia un bancone ma solo un'unica ininterrotta
+esposizione di frutta, verdura ed altro materiale. Il tuo occhio è attirato maggiormente
+dall'oggettistica che non sembra fatta a mano ma di origine totalmente naturale. L'unico
+accesso pare sia un [lime]varco[close] privo di porta in un angolo della stanza.
+
+DescrSmell:
+Indiscutibilmente qui si respira odore di spezie e cibo vegetale freschissimo.
+
+
+Extras:
+	Keywords: varco
+	Descr:
+	Un varco semitrasparente oltre il quale si vedono delle scale.
+	DescrTouch:
+	La superficie è impalpabile ma un'oscura forza non ti consente di passare.
+	DescrSixth:
+	Difficile che si riesca a passare senza il consenso del proprietario.
+End
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.SOUTHEAST
+  Descr: In strada
+  Destination: 0 2 0 deadcity
+End

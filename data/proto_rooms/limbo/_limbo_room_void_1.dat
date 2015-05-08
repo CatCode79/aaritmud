@@ -1,0 +1,23 @@
+Code: limbo_room_void_1
+Name: Il Vuoto Assoluto
+Short: Un luogo in cui il vuoto è come una presenza
+Descr:
+Galleggi in un vuoto senza forma, staccato da ogni sensazione fisica.
+Tutt'attorno i confini del reale si affievoliscono, spariscono i contorni
+lentamente, prima diventando ombre sottili e poi.. più nulla!
+Extras:
+  Keywords: vuoto nulla
+  Descr:
+  Cerchi di osservare a fondo tutto questo vuoto, in cerca di qualcosa..
+  Improvvisamente senti come se la tua mente fosse afferrata da una mano e
+  gettata in quel buio assoluto!
+  Ti scuoti di soprassalto, come svegliato da un incubo.
+End
+Sector: SECTOR.VOID, il vuoto assoluto
+Height: 10m
+Width:	10m
+Depth:	10m
+Exits:
+  Direction:	DIR.NORTH
+  Descr: Vedi laggiù qualcosa che assomiglia ad una grossa cuccia per gatti
+End

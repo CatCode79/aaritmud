@@ -1,0 +1,22 @@
+Comment:
+Da alcune fonti scritte ho trovato che in alcune lingua gitane luvvo si riferisce in modo non gergale al denaro e dinnilos dovrebbe essere l'equivalente di matto (inteso più come crazy che come mad). 
+Code: villaggio-zingaro_room_oreficeria-02
+Sector: SECTOR.SHOP
+Flags:	ROOM.INSIDE
+Name: Il Laboratorio di Dinnilos Luvvo
+Short: il laboratorio
+
+Descr:
+Il laboratorio è costruito in una stanza a pianta tondeggiante; è tutto realizzato in pietra e sopra un [slategray]bancone[close] da [slategray]lavoro[close] è costruita una volta a cupola con un foro centrale. La parte superiore della cupola ha una canna fumaria che sale fino al soffitto collegandosi ad un comignolo.
+
+DescrSmell: 
+Raschia in gola, qualunque cosa sia... raschia dannatamente in gola.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.EAST
+	Descr: Agli espositori
+End

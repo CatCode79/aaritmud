@@ -1,0 +1,60 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<h2>Note per i Trigger di Social</h2>
+Diversamente dagli altri trigger, quelli sui socials, si attivano su tutte le entit&agrave; della stanza anche senza target valido.
+Ci si potrebbe attendere che solo il social:
+<xmp>smile <nome_mob></xmp><br>
+attivi il trigger before_smile o after_smile sul mob, invece si &egrave; scelto di attivarlo anche tramite il semplice social:
+<xmp>smile</xmp><br>
+Se eseguito nella stanza del mob attiver&agrave; un qualsiasi trigger before_smile o after_smile presente su uno delle entit&agrave; nella stanza (bisogna ricordarsi che in questo caso il parametro dei trigger target &egrave; None).
+<br>
+
+<br>
+<h2>EntityScripts:</h2>
+def <span style='color:royalblue;'>before_social</span>(entity, target, argument):<br>
+def <span style='color:royalblue;'>after_social</span>(entity, target, argument):<br>
+Trigger che si attivano rispettivamente prima e dopo l'invio di uno specifico social.<br>
+entity &egrave; colui che esegue il social.<br>
+target &egrave; l'eventuale destinatario del social.<br>
+argument &egrave; il test digitato come argomento dell social.<br>
+<br>
+<h2>Tabella di tutti i social passibili di trigger</h2>
+<table border=1>
+<tbody>
+<tr><td>abase</td><td>accuse</td><td>adore</td><td>afflict</td><td>amazed</td><td>approve</td><td>arghhh</td></tr>
+<tr><td>arm</td><td>bawl</td><td>bigsmile</td><td>blblbl</td><td>blood</td><td>blush</td><td>bonk</td></tr>
+<tr><td>bow</td><td>brrr</td><td>burp</td><td>cackle</td><td>call</td><td>caress</td><td>chill</td></tr>
+<tr><td>clap</td><td>confort</td><td>confused</td><td>congratule</td><td>cough</td><td>cruel</td><td>cry</td></tr>
+<tr><td>cuddle</td><td>cure</td><td>curse</td><td>curtsey</td><td>dance</td><td>disraught</td><td>dreary</td></tr>
+<tr><td>drool</td><td>drowsy</td><td>dull</td><td>eyebrow</td><td>fart</td><td>fear</td><td>fondle</td></tr>
+<tr><td>french</td><td>fsss</td><td>ghghgh</td><td>giggle</td><td>grim</td><td>grimace</td><td>grin</td></tr>
+<tr><td>groan</td><td>growl</td><td>grumble</td><td>grunt</td><td>hand</td><td>happy</td><td>hfive</td></tr>
+<tr><td>hic</td><td>hilt</td><td>hkiss</td><td>hop</td><td>horn</td><td>hug</td><td>hummm</td></tr>
+<tr><td>hihihi</td><td>implore</td><td>imprecate</td><td>innocent</td><td>irony</td><td>joke</td><td>jump</td></tr>
+<tr><td>kiss</td><td>kneel</td><td>laugh</td><td>lean</td><td>lick</td><td>little</td><td>love</td></tr>
+<tr><td>mad</td><td>meditate</td><td>mmm</td><td>muhaha</td><td>munch</td><td>murmur</td><td>nail</td></tr>
+<tr><td>nibble</td><td>nod</td><td>nose</td><td>nudge</td><td>ogle</td><td>ops</td><td>pant</td></tr>
+<tr><td>pat</td><td>paw</td><td>pinch</td><td>pleased</td><td>poetry</td><td>point</td><td>point2</td></tr>
+<tr><td>poke</td><td>ponder</td><td>punch2</td><td>preach</td><td>puke</td><td>purr</td><td>puzzled</td></tr>
+<tr><td>rage</td><td>ready</td><td>rolleyes</td><td>rub</td><td>ruffle</td><td>rumble</td><td>sadly</td></tr>
+<tr><td>sarcasm</td><td>scream</td><td>shake</td><td>shhh</td><td>shiver</td><td>shrug</td><td>sick</td></tr>
+<tr><td>sigh</td><td>sing</td><td>slap</td><td>slow</td><td>sly</td><td>smile</td><td>snap</td></tr>
+<tr><td>sneeze</td><td>sniff</td><td>snob</td><td>snort</td><td>snuggle</td><td>sorry</td><td>spit</td></tr>
+<tr><td>stag</td><td>stare</td><td>startle</td><td>stink</td><td>stomp</td><td>stretch</td><td>strut</td></tr>
+<tr><td>stud</td><td>stunned</td><td>sulk</td><td>superb</td><td>gulp</td><td>sweep</td><td>swoon</td></tr>
+<tr><td>tail</td><td>taptap</td><td>temple</td><td>thank</td><td>throttle</td><td>tickle</td><td>tired</td></tr>
+<tr><td>toast</td><td>tsk</td><td>turtle</td><td>ugh</td><td>undecided</td><td>wave</td><td>weak</td></tr>
+<tr><td>whistle</td><td>wings</td><td>wink</td><td>yawn</td><td>zzz</td></tr>
+</tbody>
+</table>
+<hr>
+</body>
+</html>

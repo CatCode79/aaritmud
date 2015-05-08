@@ -1,0 +1,50 @@
+FunName:    social_confort
+Intention:  INTENTION.FRIENDLY
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Chi dovresti confortare?
+  OthersNoArg: $n cerca qualcuno da confortare.
+  EntityFound: ti avvicini a $N e provi a confortarl$O.
+  OthersFound: $n si avvicina a $N e prova a confortarl$O.
+  TargetFound: $n ti si avvicina e cerca di confortarti.
+  EntityAuto:  Ti conforti da sol$o
+  OthersAuto:  $n si conforta da sol$o.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: C'è sempre qualcuno che ha bisogno di affetto.
+  OthersNoArg: $n è convint$o di dover trovare qualcuno da rincorare.
+  EntityFound: Cerchi di rassicurare $N.
+  OthersFound: $n si agita goffamente nel tentativo di rassicurare $N. Che disastro!
+  TargetFound: Non capisci cosa voglia $n ma ti sento meglio.
+  EntityAuto:  Cerchi di rincorarti da sol$o.
+  OthersAuto:  $n si appallottola su se stess$o pigolando.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Simuli al meglio sentimenti di vicinanza e conforto.
+  OthersNoArg: $n simula al meglio sentimenti di vicinanza e conforto.
+  EntityFound: Simuli sentimenti di vicinanza e conforto nei confronti di $N.
+  OthersFound: $n simula sentimenti di vicinanza e conforto nei confronti di $N.
+  TargetFound: $n cerca di darti conforto simulando affetto e vicinanza.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Conforti il tuo amico invisibile.
+  OthersNoArg: $n presta conforto ad un essere immaginario.
+  EntityFound: Carezzi piano la $HAND di $N con la tua zampa, offrendo$GLI conforto.
+  OthersFound: $n conforta $N carezzando$GLI delicatamente la $HAND con la sua zampa.
+  TargetFound: $n ti offre il suo conforto attraverso una delicata carezza della sua zampa.
+  EntityAuto:  Su coraggio! Dopo tutto hai sette vite, se ricordo bene.
+  OthersAuto:  $n si dedica a sé, offrendosi conforto.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Conforti il tuo amico invisibile.
+  OthersNoArg: $n presta conforto ad un essere immaginario.
+  EntityFound: Carezzi piano la $HAND di $N con la tua zampa, offrendo$GLI conforto.
+  OthersFound: $n conforta $N carezzando$GLI delicatamente la $HAND con la sua zampa.
+  TargetFound: $n ti offre il suo conforto attraverso una delicata carezza della sua zampa.
+  EntityAuto:  Su coraggio! Dopo tutto hai sette vite, se ricordo bene.
+  OthersAuto:  $n si dedica a sé, offrendosi conforto.
+End

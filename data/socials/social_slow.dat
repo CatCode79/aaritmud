@@ -1,0 +1,26 @@
+FunName:    social_slow
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: ti muovi svelt$o come un bradipo.
+  OthersNoArg: $n si muove alla velocità di una lumaca morta.
+  EntityFound: Ti aggrappi a $N chiedendogli di aspettarti..
+  OthersFound: $n chiede a $N di rallentare il passo.
+  TargetFound: $n ti chiede di rallentare il passo.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Imiti il magnifico scatto del bradipo assonnato.
+  OthersNoArg: $n si muove con lentezza esasperante.
+  EntityFound: Ti muovi lentamente e silenziosamente verso $N.
+  OthersFound: $n sta camminando in punta d'artiglio verso $N.. Molto, molto lentamente.
+  TargetFound: $n si muove lentamente verso di te, agitando la coda.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Imiti il magnifico scatto del bradipo assonnato.
+  OthersNoArg: $n si muove con lentezza esasperante.
+  EntityFound: Ti muovi lentamente e silenziosamente verso $N.
+  OthersFound: $n sta camminando in punta d'artiglio verso $N.. Molto, molto lentamente.
+  TargetFound: $n si muove lentamente verso di te, agitando la coda.
+End

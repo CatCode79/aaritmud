@@ -1,0 +1,42 @@
+Comment: 85 1 3
+Code: sauria_room_amena-foresta-24
+Sector: SECTOR.FOREST
+Name: Un'Amena Foresta
+Short: un'amena foresta
+
+Descr:
+Ci sono moltissimi fiori dai colori più impensabili e variopinti. Diviene impossibile non calpestarne poiché non si vede alcun sentiero in nessuna direzione.
+DescrTouch: 
+Passi distrattamente la $hand sui fiori inzaccherandoti di pollini ed altre sostanze appiccicose.
+DescrSmell: 
+S'affievolisce l'odore di marcescenza per farsi dare il cambio ad un intenso profumo floreale.
+DescrSixth:
+Cominci ad avere la sensazione di essere osservato da dietro gli alberi...
+DescrHearing:
+Nugoli d'insetti planano verso le tue orecchie solo per il gusto d'infastidirti.
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21829
+  Descr:	Un'amena foresta
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 -1 21823
+  Descr:	Un'amena foresta
+  Direction:	DIR.EAST
+End
+Exits:
+  Comment:	0 -1 21815
+  Descr:	Un'amena foresta
+  Direction:	DIR.SOUTH
+End
+Exits:
+  Comment:	0 -1 21825
+  Descr:	Un'amena foresta
+  Direction:	DIR.WEST
+End

@@ -1,0 +1,29 @@
+Code: krablath_room_casa-02
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: [forestgreen]Il Semenzaio[close]
+Short: [forestgreen]nel semenzaio[close]
+
+Descr:
+Vasi, vasini vasetti ed un mare di altre chincaglierie rendono difficoltoso l'accesso a questo stanzino; due lunghi [green]scaffali[close] corrono lungo le pareti fino al fondo dove un'apertura ad arco dà sull'esterno.	
+DescrTouch: 
+Camminando inevitabilmente sposti ciò che si trova sul tuo cammino contribuendo al disordine generale.
+DescrSmell: 
+Un forte odore di terra impregna ogni singolo oggetto si trovi qui dentro.
+DescrSixth:
+Un locale che pare adibito a semenzaio, qui probabilmente le piantine vengono cresciute nei primi stadi di vita per poi essere interrate nel giardino.
+DescrHearing:
+Ti pare di sentir i germogli che si fanno largo nella terra.
+
+Width:	6m
+Depth:	2m
+Height: 2m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Nell'ingresso.
+End
+Exits:
+	Direction:	DIR.NORTHEAST
+	Descr:	All'esterno.
+End

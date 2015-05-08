@@ -1,0 +1,24 @@
+Code: serpidi_room_8658_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: Quartiere Orientale 
+Short: Quartiere orientale 
+Descr: 
+Sei all'interno del quartiere residenziale dei serpidi. Le decorazioni, il lastricato, i soffitti, sono ovunque decorati finemente e con un certo gusto che se pur alieno non ferisce la tua sensibilità. 
+Exits:
+	Direction: DIR.NORTH
+	Destination: 7 8 -2 serpidi
+End
+Exits:
+	Direction: DIR.SOUTH
+	Destination: 7 6 -2 serpidi
+End
+Exits:
+	Direction: DIR.WEST
+	Destination: 6 7 -2 serpidi
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

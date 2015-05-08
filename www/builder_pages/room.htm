@@ -1,0 +1,383 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<h2>Indice delle Etichette per una Stanza Prototipo</h2>
+<a href='#Comment'>Comment:</a><br>
+<a href='#Code'>Code:</a><br>
+<a href='#Icon'>Icon:</a><br>
+<a href='#Sector'>Sector:</a><br>
+<a href='#Name'>Name:</a><br>
+<a href='#Short'>Short:</a><br>
+<a href='#ShortNight'>ShortNight:</a><br>
+<a href='#Descr'>Descr:</a><br>
+<a href='#DescrNight'>DescrNight:</a><br>
+<a href='#DescrHearing'>DescrHearing:</a><br>
+<a href='#DescrHearingNight'>DescrHearingNight:</a><br>
+<a href='#DescrSmell'>DescrSmell:</a><br>
+<a href='#DescrSmellNight'>DescrSmellNight:</a><br>
+<a href='#Descr'>DescrTouch:</a><br>
+<a href='#DescrNight'>DescrTouchNight:</a><br>
+<a href='#Descr'>DescrTaste:</a><br>
+<a href='#DescrNight'>DescrTasteNight:</a><br>
+<a href='#Descr'>DescrSixth:</a><br>
+<a href='#DescrNight'>DescrSixthNight:</a><br>
+<a href='#Extras'>Extras:</a><br>
+<a href='#Width'>Width:</a><br>
+<a href='#Depth'>Depth:</a><br>
+<a href='#Height'>Height:</a><br>
+<a href='#Flags'>Flags:</a><br>
+<a href='#Owner'>Owner:</a><br>
+<a href='#ModTemperature'>ModTemperature:</a><br>
+<a href='#ModLight'>ModLight:</a><br>
+<a href='#ModNoise'>ModNoise:</a><br>
+<a href='#FillingType'>FillingType:</a><br>
+<a href='#FillingDepth'>FillingDepth:</a><br>
+<a href='#Exits'>Exits:</a><br>
+<a href='#Materials'>Materials:</a><br>
+<a href='#Walls'>Walls:</a><br>
+<a href='#Affects'>Affects:</a><br>
+<a href='#EchoesDawn'>EchoesDawn:</a><br>
+<a href='#EchoesDawnNoSun'>EchoesDawnNoSun:</a><br>
+<a href='#EchoesSunrise'>EchoesSunrise:</a><br>
+<a href='#EchoesSunriseNoSun'>EchoesSunriseNoSun:</a><br>
+<a href='#EchoesNoon'>EchoesNoon:</a><br>
+<a href='#EchoesNoonNoSun'>EchoesNoonNoSun:</a><br>
+<a href='#EchoesSunset'>EchoesSunset:</a><br>
+<a href='#EchoesSunsetNoSun'>EchoesSunsetNoSun:</a><br>
+<a href='#EchoesDusk'>EchoesDusk:</a><br>
+<a href='#EchoesDuskNoMoon'>EchoesDuskNoMoon:</a><br>
+<a href='#EchoesDuskFullMoon'>EchoesDuskFullMoon:</a><br>
+<a href='#EchoesMidnight'>EchoesMidnight:</a><br>
+<a href='#EchoesMidnightNoMoon'>EchoesMidnightNoMoon:</a><br>
+<a href='#EchoesMidnightFullMoon'>EchoesMidnightFullMoon:</a><br>
+<a href='#ItemBehaviour'>ItemBehaviour:</a><br>
+<a href='#MobBehaviour'>MobBehaviour:</a><br>
+<a href='#Music'>Music:</a><br>
+
+<hr>
+<h2>Note Riguardo le Stanze</h2>
+Una stanza pu&ograve; essere vista come un contenitore di entit&agrave;: oggetti, creature e personaggi.<br>
+Ogni stanza pu&ograve; essere inserita una o pi&ugrave; volte in differenti coordinate nell'area grazie ai reset dell'area.<br>
+Sempre tramite i reset dell'area si possono inserire al proprio interno gli oggetti e i mob.<br>
+La stanza &egrave; un dato, e come tale deve essere inserito in un file a parte, leggere l'etichetta <span class="label">Code</span> per saperne di pi&ugrave;.<br><br>
+
+<hr>
+<h2>Tabella di Riferimento Veloce</h2>
+<table border="1">
+<tr class="thref"><td>Etichetta</td><td>Tipologia</td><td>Utilizzo</td></tr>
+<tr><td class="label">Comment</td><td>Stringa, singola o multi-linea</td><td>Facoltativo anche se consigliato</td></tr>
+<tr><td class="label">Code</td><td>Parola</td><td>Obbligatorio</td></tr>
+<tr><td class="label">Sector</td><td>Element, relativo ai sector</td><td>Obbligatorio</td></tr>
+<tr><td class="label">Name</td><td>Stringa, in <a href="titoletto.htm">titoletto</a></td><td>Obbligatorio</td></tr>
+<tr><td class="label">Short</td><td>Stringa, in una linea</td><td>Obbligatorio</td></tr>
+<tr><td class="label">ShortNight</td><td>Stringa, in una linea</td><td>Facoltativo</td></tr>
+<tr><td class="label">Descr</td><td>Stringa, multilinea il pi&ugrave; delle volte</td><td>Obbligatorio</td></tr>
+<tr><td class="label">DescrNight</td><td>Stringa, multilnea il pi&ugrave; delle volte</td><td>Facoltativo anche se consigliato</td></tr>
+<tr><td class="label">DescrHearing</td><td>Stringa, singola o multi-linea</td><td>Facoltativo</td></tr>
+<tr><td class="label">DescrHearingNight</td><td>Stringa, singola o multi-linea</td><td>Facoltativo</td></tr>
+<tr><td class="label">DescrSmell</td><td>Stringa, singola o multi-linea</td><td>Facoltativo</td></tr>
+<tr><td class="label">DescrSmellNight</td><td>Stringa, singola o multi-linea</td><td>Facoltativo</td></tr>
+<tr><td class="label">DescrTouch</td><td>Stringa, multilinea il pi&ugrave; delle volte</td><td>Obbligatorio</td></tr>
+<tr><td class="label">DescrTouchNight</td><td>Stringa, multilnea il pi&ugrave; delle volte</td><td>Facoltativo</td></tr>
+<tr><td class="label">DescrTaste</td><td>Stringa, multilinea il pi&ugrave; delle volte</td><td>Obbligatorio</td></tr>
+<tr><td class="label">DescrTasteNight</td><td>Stringa, multilnea il pi&ugrave; delle volte</td><td>Facoltativo</td></tr>
+<tr><td class="label">DescrSixth</td><td>Stringa, multilinea il pi&ugrave; delle volte</td><td>Obbligatorio</td></tr>
+<tr><td class="label">DescrSixthNight</td><td>Stringa, multilnea il pi&ugrave; delle volte</td><td>Facoltativo</td></tr>
+<tr><td class="label">Extras</td><td>Extras</td><td>Facoltativo ma &egrave; sempre bello avere almeno una extra per stanza</td></tr>
+<tr><td class="label">Width</td><td>Misura, di default in metri</td><td>Obbligatorio</td></tr>
+<tr><td class="label">Depth</td><td>Misura, di default in metri</td><td>Obbligatorio</td></tr>
+<tr><td class="label">Height</td><td>Misura, di default in metri</td><td>Obbligatorio</td></tr>
+<tr><td class="label">Flags</td><td>Flags, riguardanti le room</td><td>Facoltativo</td></tr>
+<tr><td class="label">Owner</td><td>Stringa, codice dell'entit&agrave;</td><td>Facoltativo</td></tr>
+<tr><td class="label">ModTemperature</td><td>Percentuale</td><td>Facoltativo</td></tr>
+<tr><td class="label">ModLight</td><td>Percentuale</td><td>Facoltativo</td></tr>
+<tr><td class="label">ModNoise</td><td>Percentuale</td><td>Facoltativo</td></tr>
+<tr><td class="label">FillingType</td><td>Element, relativo ai materiali</td><td>Facoltativo, legata a FillingDepth</td></tr>
+<tr><td class="label">FillingDepth</td><td>Misura, di default in centimetri</td><td>Facoltativo, legata a FillingType</td></tr>
+<tr><td class="label">Exits</td><td>Uscite</td><td>Facoltativo, anche se la maggior parte delle volte bisogna inserirne almeno una</td></tr>
+<tr><td class="label">Walls</td><td>Mura</td><td>Facoltativo</td></tr>
+<tr><td class="label">Affects</td><td>Affect</td><td>Facoltativo</td></tr>
+<tr><td class="label">EchoesDawn</td><td>Lista di stringhe</td><td>Facoltativo</td></tr>
+<tr><td class="label">EchoesDawnNoSun</td><td>Lista di stringhe</td><td>Facoltativo</td></tr>
+<tr><td class="label">EchoesSunrise</td><td>Lista di stringhe</td><td>Facoltativo</td></tr>
+<tr><td class="label">EchoesSunriseNoSun</td><td>Lista di stringhe</td><td>Facoltativo</td></tr>
+<tr><td class="label">EchoesNoon</td><td>Lista di stringhe</td><td>Facoltativo</td></tr>
+<tr><td class="label">EchoesNoonNoSun</td><td>Lista di stringhe</td><td>Facoltativo</td></tr>
+<tr><td class="label">EchoesSunset</td><td>Lista di stringhe</td><td>Facoltativo</td></tr>
+<tr><td class="label">EchoesSunsetNoSun</td><td>Lista di stringhe</td><td>Facoltativo</td></tr>
+<tr><td class="label">EchoesDusk</td><td>Lista di stringhe</td><td>Facoltativo</td></tr>
+<tr><td class="label">EchoesDuskNoMoon</td><td>Lista di stringhe</td><td>Facoltativo</td></tr>
+<tr><td class="label">EchoesDuskFullMoon</td><td>Lista di stringhe</td><td>Facoltativo</td></tr>
+<tr><td class="label">EchoesMidnight</td><td>Lista di stringhe</td><td>Facoltativo</td></tr>
+<tr><td class="label">EchoesMidnightNoMoon</td><td>Lista di stringhe</td><td>Facoltativo</td></tr>
+<tr><td class="label">EchoesMidnightFullMoon</td><td>Lista di stringhe</td><td>Facoltativo</td></tr>
+<tr><td class="label">Music</td><td>Nome di file midi</td><td>Facoltativo</td></tr>
+</table><br>
+
+<hr>
+<h2>Struttura Tipica con le Etichette pi&ugrave; Comuni (per copia e incolla)</h2>
+<pre>
+Code:
+Sector:
+Name:
+Short:
+Descr:
+Width:
+Depth:
+Height:
+Exits:
+End
+</pre>
+
+<hr>
+<a name='Comment'><h3>Comment:</h3></a>
+Di quest'etichetta potete sapere di pi&ugrave; <a href="comment.htm">qui</a>.<br>
+In particolare qui potete inserire gli utilizzi relativi alla stanza.<br>
+L'etichetta non &egrave; obbligatoria anche se fortemente consigliata.<br><br>
+
+<a name='Code'><h3>Code:</h3></a>
+Il codice di una stanza &egrave; la sua chiave identificativa (se siete avvezzi al building di aree mud vi ricordate i vnum delle aree diku-like? Praticamente la stessa cosa, solo che qui non &egrave; un numero ma una parola identificativa).<br>
+Il codice di una stanza &egrave; spesso formato da questa struttura:<br>
+'codice area' + _room_ + 'numero progressivo'<br>
+Quindi per esempio se state creando un'area dal nome "Torre del Necromante" e dal codice di area "tower" il codice della prima stanza potrebbe essere:<br>
+tower_room_1<br>
+Potreste inoltre aggiungere una parola che identifichi una certa zona dell'area prima del numero, per esempio:
+tower_room_labyrinth_1, tower_room_labyrinth_2, tower_room_labyrinth_3 sono codici di stanza che appartengono tutte ad una mini-zona dell'area: un labirinto.<br>
+Un'altro modo per per enumerare i codici potrebbe essere il seguente:<br>
+tower_room_1<br>
+tower_room_2<br>
+tower_room_labyrinth_3<br>
+tower_room_labyrinth_4<br>
+tower_room_labyrinth_5<br>
+...<br>
+Tra 'tower_room_' e il numero finale potete inserire una o due parole (meglio non di pi&ugrave; e meglio senza separarli da underscore) in inglese o in italiano, come volete, per esempio:<br>
+forest_room_radura_1<br>
+forest_room_radura_2<br>
+forest_room_radurainvernale_1<br>
+forest_room_radurainvernale_2<br>
+Se una delle stanze &egrave; particolarmente importante rispetto alle altre potete evitare di inserire il numero alla fine, per esempio una piazza molto importante e frequentata di una citt&agrave; potete chiamarla:<br>
+city_room_square<br>
+Come vedete non ci sono grossissime limitazioni nella scelta del codice, per&ograve; devono tutti iniziare con 'codice area' + _room_ e finire con qualcosa che le identifichi in quell'area.<br>
+Sia il codice di una stanza, ed in generale quello di qualsiasi dato, &egrave; una cosa molto importante e va' pensato bene; meglio ancora deve essere deciso nella fase di design su carta dell'area. Difatti se nel corso della stesura dei vostri file-dato dell'area decidete all'improvviso di cambiare il codice di una stanza dovete fare attenzione e cambiare anche tutti i riferimenti che avete inserito in tutti i vostri file e, a volte, anche in quelli scritti dall'implementor del Mud nei gamescript, altrimenti Aarit non riuscir&agrave; a riconoscere a quale stanza vi state riferendo.<br>
+Ricordo che il codice della stanza &egrave; quello che deve dare il nome al file che contiene tutte queste etichette relative alla stanza stessa. Quindi se il codice &egrave;, come nell'esempio sopra, tower_room_1 il nome del file sar&agrave; tower_room_1.dat<br>
+L'etichetta &egrave; obbligatoria.<br><br>
+
+<a name='Icon'><h3>Icon:</h3></a>
+Alla stanza pu&ograve; essere assegnata un'icona che sar&agrave; visibile a sinistra del nome della room stessa durante la navigazione.<br>
+L'icona dovr&agrave; essere di dimensioni 16x16 con estensione png.<br>
+Pu&ograve; essere piuttosto utile nel caso si vogliano evindenziare room particolarmente importanti o differenziare fra loro pi&ugrave; room gi&agrave; al primo colpo d'occhio.<br>
+Allo stato attuale l'etichetta avr&agrave; questa sintassi:<br>
+Icon: icon/room/nome_file.png<br>
+Il file specifico sar&agrave; collocato dall'implementor di turno fino a che non verr&agrave; automatizzata la procedura d'inserimento aree.<br>
+Etichetta Facoltativa.<br><br>
+
+<a name='Sector'><h3>Sector:</h3></a>
+Il settore di una stanza &egrave; un <a href="element.htm">Element</a> che indica il tipo di terreno per conformazione, altitudine, vegetazione oppure indicano il tipo d'acqua oppure ancora indicano una tipologia generica di costruzioni artificiali.<br>
+Leggete attentamente la <a href="elements_list.htm#SECTOR">lista dei settori</a> e scegliete quello che vi &egrave; pi&ugrave; congeniale per la stanza, in casi particolari posso aggiungerne uno per coprire un'altra categoria di stanze attualmente non disponibile.<br>
+L'etichetta &egrave; obbligatoria.<br><br>
+
+<a name='Name'><h3>Name:</h3></a>
+Il nome di una stanza &egrave; una breve stringa scritta in formato <a href="titoletto.htm">titoletto</a>, ovvero tutte le lettere inziali di parole che non siano articoli o simili devono essere maiuscole.<br>
+Vi illuminer&ograve; meglio su quest'etichetta spiegando la <span class="label">Short</span>, per ora vedetela come una specie di nome proprio della stanza.<br>
+L'etichetta &egrave; obbligatoria.<br><br>
+
+<a name='Short'><h3>Short:</h3></a>
+La descrizione corta di una stanza &egrave;, appunto, una breve descrizione della stanza; un po' come se uno entrasse per la prima volta e la guardasse 5 secondi e la dovesse descrivere con una breve frase, cos&igrave;, di primo pelo.<br>
+&Egrave; legata al nome della stanza poich&eacute; quest'ultimo &egrave; quella frase con cui comunemente le persone conoscono quella stanza.<br>
+Per esempio stanze che a prima vista possono essere:<br>
+Una cantina ammuffita.<br>
+Una altissima vetta.<br>
+Una via piena di ciottoli.<br>
+Potrebbero avere rispettivamente i seguenti nomi:<br>
+La Cantina dello Zio Tom.<br>
+La Vetta di Nonno Messner.<br>
+La Via della Seta.<br>
+Questa differenza viene utilizzata in una specie di "sistema di presentazione" simile a quello presente in alcuni Mud ed utilizzato tra personaggi per far conoscere il proprio nome, qui &egrave; la stessa cosa ma il rapporto &egrave; tra la stanza e il personaggio.<br>
+Praticamente le prime volte in cui un giocatore entrer&agrave; in un luogo legger&agrave; la descrizione corta della stanza, pi&ugrave; star&agrave; nel luogo o pi&ugrave; volte ci passer&agrave; e pi&ugrave; probabilit&agrave; avr&agrave; di conoscere il nome reale del luogo, quest'ultimo pu&ograve; essere appreso anche da altre persone tramite appositi comandi o in un dialogo in cui una creatura da delle indicazioni.<br>
+L'etichetta &egrave; obbligatoria.<br><br>
+
+<a name='ShortNight'><h3>ShortNight:</h3></a>
+La <i>descrizione corta notturna</i> &egrave; quella che si visualizza al posto della <i>descrizione corta</i> solo nel caso che sia notte e se la stanza &egrave; all'aperto o casi simili. Altrimenti se la stanza si trova sottoterra, in una caverna o al chiuso &egrave; quella che si leggerebbe quando venisse a spegnersi la torcia o l'illuminazione della stanza e ci si trovasse improvvisamente al buio.<br>
+L'etichetta non &egrave; obbligatoria neppure se avete intenzione di inserire l'etichetta <span class="label">DescrNight</span>, comunque &egrave; consigliato inserirla per una migliore atmosfera giorno-notte.<br><br>
+
+<a name='Descr'><h3>Descr:</h3></a>
+La descrizione di una stanza &egrave; quel corpo di testo che si pu&ograve; leggere tramite il comando look. Non voglio dettare regole di stile qui perch&eacute; &egrave; una cosa un po' personale e varia da autore ad autore e da area in area. Non bisognerebbe farla n&eacute; corta n&eacute; lunga; se vi sta venendo prolissa cercate di isolare alcuni pezzi di descrizione e tramutateli in descrizioni extra oppure in oggetti interagibili (e magari non listati nel comando look tramite l'apposita flag di oggetto FLAG.NOLOOK).<br>
+Come lunghezza media della riga mantenetevi nella media di 80 caratteri, come nelle aree mud classiche, potete variare questa media tra 70 e 90 ma una volta fatta la vostra scelta mantenetela per tutte le descrizioni multiriga dell'area.<br>
+L'etichetta &egrave; obbligatoria.<br><br>
+
+<a name='DescrNight'><h3>DescrNight:</h3></a>
+La descrizione notturna sta alla descrizione della stanza come la descrizione corta notturna con la descrizione corta normale. Insomma andatevi a leggervi l'etichetta ShortNight per capire il funzionamento di questa.<br>
+Pensavate di dover fare solo le descrizioni diurne eh? No! Ve tocca anche quelle notturne ammo'! E vi &egrave; andata bene ho lasciato perdere quelle stagionali.. Che per&ograve; &egrave; possibile effettuare inserirendo di volta in volta delle stanze differenti tramite l'utilizzo dei <a href="reset.htm">reset</a>!<br>
+Comunque le descrizioni notturne possono cambiare veramente l'atmosfera del gioco, per esempio si possono mettere descrizioni diurne di prati fioriti, mentre di notte hanno i fiori chiusi e pieno di lucciole; oppure potete descrivere una zona che appare tranquilla di giorno ma che invece di notte contiene apparizioni di fantasmi e zombie.<br>
+Un utilizzo delle descrizioni al buio in luoghi chiusi &egrave; quello di far notare alcune cose che a luce accesa non si noterebbero come.. una luce! Per esempio inserendo una descrizione di una luce che filtra dagli assi di legno del pavimento si potr&agrave; arrivare ad una botola che altrimenti sarebbe stata molto ben nascosta..<br>
+L'etichetta non &egrave; obbligatoria anche se &egrave; consigliato inserirla, al tempo stesso capisco che sia oneroso fare anche tutte le descrizioni notturne quindi se non ne avete tempo e forze lasciate stare e cercate di inserirle solo per le stanze pi&ugrave; importanti e belle.<br><br>
+
+<a name='DescrHearing'><h3>DescrHearing:</h3></a><br>
+Dentro quest'etichetta dovete inserirvi la descrizione che un personaggio visualizzer&agrave; quando digiter&agrave; il comando 'ascolta'.<br>
+Il contenuto dovr&agrave; descrivere dei rumori, suoni, musiche ambientali e statiche nel luogo (ovvero non dovete descrivere di rumori di Gnoll che parlano quando ormai il personaggio ha ucciso gli Gnoll da un po' :P)
+Gli utilizzi di questa descrizione, oltre che d'atmosfera, possono essere utili tanto quanto &egrave; stato detto per la descrizione notturna, per esempio ascoltando si potrebbe giungere a delle extra descrizioni altrimenti irriperibili dalla descrizione principale (e queste extra potrebbero contenere indicazioni per arrivare a qualcosa di nascosto).<br>
+L'etichetta non &egrave; obbligatoria.<br><br>
+
+<a name='DescrHearingNight'><h3>DescrHearingNight:</h3></a><br>
+Corrispettivo della <span class="label">DescrHearing</span> ma questa funziona di notte.<br>
+L'etichetta non &egrave; obbligatoria.<br><br>
+
+<a name='DescrSmell'><h3>DescrSmell:</h3></a><br>
+Quest'etichetta ha lo stesso utilizzo di <span class="label">DescrHearing</span> ma relativamente ad una descrizione visualizzata quando un personaggio utilizza il comando 'annusa'.<br>
+Qui per&ograve; si potrebbero comunque descrivere odori non statici e dell'ambiente, ovvero si pu&ograve; dire che un luogo puzza di Gnoll se nella stanza vengono resettati abitualmente degli Gnoll: morti, vivi o assenti la stanza puzzer&agrave; comunque un po' di loro.<br>
+L'etichetta non &egrave; obbligatoria.<br><br>
+
+<a name='DescrSmellNight'><h3>DescrSmellNight:</h3></a><br>
+Corrispettivo della <span class="label">DescrSmell</span> ma questa funziona di notte.<br>
+L'etichetta non &egrave; obbligatoria.<br><br>
+
+<a name='DescrTouch'><h3>DescrTouch:</h3></a>
+Quest'etichetta ha lo stesso utilizzo di <span class="label">DescrHearing</span> ma relativamente ad una descrizione visualizzata quando un personaggio utilizza il comando 'tocca'.<br>
+C'&egrave; da far notare che in genere non &egrave; detto che il senso del tocco si attivi solo con mano, il senso del tocco serve anche a percepire il termico, e quindi folate di caldo o di freddo, tenetelo a mente.<br>
+L'etichetta non &egrave; obbligatoria.<br><br>
+
+<a name='DescrTouchNight'><h3>DescrTouchNight:</h3></a>
+Corrispettivo della <span class="label">DescrTouch</span> ma questa funziona di notte.<br>
+L'etichetta non &egrave; obbligatoria.<br><br>
+
+<a name='DescrTaste'><h3>DescrTaste:</h3></a>
+Quest'etichetta ha lo stesso utilizzo di <span class="label">DescrHearing</span> ma relativamente ad una descrizione visualizzata quando un personaggio utilizza il comando 'gusta'.<br>
+Non mi chiedete cosa possa servire in una stanza.. non lo so.. forse in una stanzetta di marzapane? cmq utilizzate la fantasia ors&ugrave; :D<br>
+L'etichetta non &egrave; obbligatoria.<br><br>
+
+<a name='DescrTasteNight'><h3>DescrTasteNight:</h3></a>
+Corrispettivo della <span class="label">DescrTaste</span> ma questa funziona di notte.<br>
+L'etichetta non &egrave; obbligatoria.<br><br>
+
+<a name='DescrSixth'><h3>DescrSixth:</h3></a>
+Quest'etichetta ha lo stesso utilizzo di <span class="label">DescrHearing</span> ma relativamente ad una descrizione visualizzata quando un personaggio utilizza il comando 'intuisci'.<br>
+Di solito queste descrizioni sono quelle pi&ugrave; rare e pi&ugrave; atte a inserire qualcosa di segreto.. Ma anche no!<br>
+L'etichetta non &egrave; obbligatoria.<br><br>
+
+<a name='DescrSixthNight'><h3>DescrSixthNight:</h3></a>
+Corrispettivo della <span class="label">DescrSixth</span> ma questa funziona di notte.<br>
+L'etichetta non &egrave; obbligatoria.<br><br>
+
+<a name='Extras'><h3>Extras:</h3></a>
+Quest'etichetta, relativa alle descrizioni extra, viene spiegata appieno nella <a href="extras.htm">seguente pagina</a>.<br>
+L'etichetta non &egrave; obbligatoria.<br><br>
+
+<a name='Width'><h3>Width:</h3></a>
+L'etichetta &egrave; una <a href="measure.htm">misura</a>.
+Indica la larghezza di una stanza, cio&egrave; il valore medio tra la distanza della parete ovest con quello della parete est.<br>
+Larghezza e profondit&agrave; servono anche per calcolare quante persone pu&ograve; contenere al massimo una stanza, oppure se un mezzo mobile (dragone o cose come carri armati gnomici) pu&ograve; passare per la stanza.<br>
+In generale tutte le tre dimensioni di una stanza servono per sapere se una cosa che vi transita ci pu&ograve; passare o meno, per esempio una stanza di 40 cm di altezza ne preclude l'accesso a minotauri e agli orchi, ma pixie vi riusciranno a passare danzando, gnomi abbassandovi un poco, nani con un po' di impaccio, umani strisciandovi etc etc..<br>
+L'etichetta &egrave; obbligatoria.<br><br>
+
+<a name='Depth'><h3>Depth:</h3></a>
+L'etichetta &egrave; una <a href="measure.htm">misura</a>.
+Profondit&agrave; di una stanza, cio&egrave; valore medio tra la distanza della parete sud con quello della parete nord.<br>
+L'etichetta &egrave; obbligatoria.<br><br>
+
+<a name='Height'><h3>Height:</h3></a>
+L'etichetta &egrave; una <a href="measure.htm">misura</a>.
+Altezza, media, in metri tra il pavimento e il soffitto della stanza.<br>
+Quando vi trovate in imbarazzo riguardo all'altezza da dare ad una stanza, per esempio quando questa &egrave; a cielo aperto oppure se questa si apre in un baratro e non ha pavimento, mettete il valore medio dell'altezza delle altre stanze dell'area, tra 5 e 10 metri di solito possono andare bene.<br>
+&Egrave; un valore che &egrave; importante per dare volume e realismo all'area, ma al tempo stesso non c'&egrave; bisogno di spaccare il centimetro, un certo margine di errore &egrave; permesso, dipende comunque dalla stanza e dalla sua funzione.<br>
+L'etichetta &egrave; obbligatoria.<br><br>
+
+<a name='Flags'><h3>Flags:</h3></a>
+&Egrave; una <a href="flags.htm">Flags</a> relativa alla <a href="elements_list.htm#ROOM">lista delle flag di room</a>.<br>
+L'etichetta non &egrave; obbligatoria.<br><br>
+
+<a name='Owner'><h3>Owner:</h3></a>
+Indica qual'&egrave; il proprietario della stanza, pu&ograve; essere il nome di giocatore o il codice di un mob ad indicare che quella &egrave; la sua casa o propriet&agrave; in generale.<br>
+C'&egrave; un'osservazione da fare, se nella stanza caricate pi&ugrave; mob di quel codice nella stessa stanza tutte quante considereranno quella stanza come di loro propriet&agrave; comportandosi di conseguenza, pu&ograve; essere una cosa utile per far attaccare in gruppo nel caso di azioni deleterie del personaggio nei confronti della stanza, altrimenti se non si vuole questa cosa bisogna per forza evitare di caricare lo stesso mob pi&ugrave; volte in quella stanza e se caricata altre volte nell'area bisogna essere sicuri che le altre istanze di mob non vengano a contatto della stanza.<br>
+Volendo, come valore dell'etichetta, potete inserirvi un codice di un oggetto, ovviamente &egrave; un caso particolare che deve essere supportato dai mud-script.<br>
+Se la stanza non ha un proprietario non utilizzate questa etichetta, quindi il suo utilizzo &egrave; opzionale.<br><br>
+
+<a name='ModTemperature'><h3>ModTemperature:</h3></a>
+Modificatore in <a href="percent.htm">percentuale</a> della temperatura nella stanza partendo da quella media dell'area, se per esempio inserite un valore tipo:<br>
+<span class="label">ModTemperature:</span> 333%<br>
+La temperatura della stanza verr&agrave; aumentata di tre volte e pi&ugrave; rispetto alla temperatura media dell'area.<br>
+Utilizzo opzionale, se la temperatura sta nella media dell'area non utilizzatela.<br><br>
+
+<a name='ModLight'><h3>ModLight:</h3></a>
+Modificatore in <a href="percent.htm">percentuale</a> della luce nella stanza partendo da quella media dell'area (che cambia anche a seconda dell'ora del giorno e del settore in cui ci si trova)<br>
+Per esempio:<br>
+<span class="label">ModLight:</span> 50%<br>
+Praticamente dimezzerete la luce, rendendo la stanza una potenziale pacchia per ladri e assassini.<br>
+Esempi in cui questa etichetta debba essere utilizzata: una stanza potrebbe avere le tende spesse alle finestre, un'altra potrebbe avere una luce d'ambiente magica impalpabile, un'altra ancora invece una specie di piccolo buco nero che assorbe la luce attorno a s&eacute;.. etc etc<br>
+Il modificatore si calcola sul valore di luminosit&agrave; totale della stanza, anche quella donata dai mob e dagli oggetti contenute in essa.<br>
+Utilizzo opzionale, se la luce sta nella media non utilizzatela.<br><br>
+
+<a name='ModNoise'><h3>ModNoise:</h3></a>
+Modificatore in <a href="percent.htm">percentuale</a> della rumorosit&agrave; d'ambiente della stanza (quest'ultima viene calcolata partendo dal valore medio di rumorosit&agrave; dell'area e dal numero di persone che la stanza possiede).<br>
+In un luogo con molto rumoroso due persone potrebbero non riuscire a sentirsi o capirsi mentre parlano, mentre in un luogo con poco rumore &egrave; pi&ugrave; facile carpire rumori minimi che smascherebbero la presenza di una persona nell'ombra o invisibile.<br>
+Utilizzo opzionale, se il rumore sta nella media non utilizzatela.<br><br>
+
+<a name='FillingType'><h3>FillingType:</h3></a>
+&Egrave; un <a href="element.htm">Element</a> che indica il <a href="elements_list.htm#MATERIAL">tipo di materiale</a> che sta coprendo il pavimento della stanza.<br>
+Tale etichetta &egrave; nata con l'intenzione di  gestire delle inondazioni, quindi il materiale da utilizzare il pi&ugrave; delle volte sarebbe in realt&agrave; un liquido, ma volendo si possono utilizzare anche materiali sabbiosi (tempeste di sabbia), terrosi (frane) o altro materiale metallico che reso fuso inondi la stanza (e poi si solidifichi, meglio se con al proprio interno dei personaggi).<br>
+La parte divertente, relativamente ai materiali pi&ugrave; simili allo stato liquido, &egrave; quella che se si apre una botola nel pavimento riempito dal materiale questo tender&agrave; a cadere nella stanza sottostante creando 'effetti cascata o clessidra' a seconda del tipo di materiale..<br>
+Questa etichetta indica che il materiale sta riempiendo pi&ugrave; o meno uniformemente tutta la stanza, se si vogliono creare delle pozze di liquidi in un solo luogo nella stanza bisogna creare un oggetto contenitore con flag FLAG.NOGET e FLAG.NOLOOK con nome tipo: 'pozza d'acqua' che contenga il liquido, questo contenitore deve essere poi resettato nella stanza, funger&agrave; da pozza d'acqua pi&ugrave; o meno profonda a seconda della grandezza del contenitore.<br>
+&Egrave; un'etichetta opzionale ed &egrave; legata alla etichetta <span class="label">FillingDepth</span>, se una esiste anche l'altra deve esistere.<br><br>
+
+<a name='FillingDepth'><h3>FillingDepth:</h3></a>
+&Egrave; una <a href="measure.htm">misura</a>.<br>
+Indica di quanti centimentri &egrave; stato coperto il pavimento con il materiale indicato nell'etichetta <span class="label">FillingType</span>.<br>
+&Egrave; una etichetta opzionale ed &egrave; legata alla etichetta <span class="label">FillingType</span>, se ne esiste una anche l'altra deve esistere.<br><br>
+
+<a name='Exits'><h3>Exits:</h3></a>
+La sotto-struttura delle uscite delle stanze, essendo abbastanza complessa, viene spiegata in una <a href="exits.htm">pagina a parte</a>.<br><br>
+
+<a name='Materials'><h3>Materials:</h3></a>
+Indica di che materiale &egrave; costituita la room.<br>
+La sintassi &egrave; la seguente:<br>
+Materials: MATERIAL.WATER 100%<br>
+Per scegliere un materiale basta andare alla lista dei <a href="builder_pages/elements_list.htm#MATERIAL" target="_blank" title="pagina delle enumerazioni, sezione materiali">lista dei materiali</a>.<br>
+Il totale della percentuale di tutti i materiale deve essere 100%, se il materiale &egrave; uno solo deve essere impostato a 100%.<br>
+C'&egrave; inoltre da tenere conto che se si volessero personalizzare i materiali di una delle qualsiasi 10 virtuali pareti direzionali lo si pu&ograve; farle nella strutture Walls.<br>
+Etichetta facoltativa.<br><br>
+
+<a name='Walls'><h3>Walls:</h3></a>
+La sotto-struttura delle mura viene descritta <a href="walls.htm">qui</a>.<br><br>
+
+<a name='Affects'><h3>Affects:</h3></a>
+Elenco degli effetti della stanza (nei mud Diku-like probabilmente li conoscete come affect).<br>
+Tutte i mob, giocatori e oggetti, nella stanza, che potranno essere influenzati dai relativi effetti ne verranno 'colpiti' fintanto che staranno nella stanza.<br>
+Affects &egrave; una sotto-struttura per saperne di pi&ugrave; sulle sotto-etichette vedere <a href="affects.htm">questa pagina</a>.<br><br>
+
+<a name='EchoesDawn'><h3>EchoesDawn:</h3></a>
+<a name='EchoesDawnNoSun'><h3>EchoesDawnNoSun:</h3></a>
+<a name='EchoesSunrise'><h3>EchoesSunrise:</h3></a>
+<a name='EchoesSunriseNoSun'><h3>EchoesSunriseNoSun:</h3></a>
+<a name='EchoesNoon'><h3>EchoesNoon:</h3></a>
+<a name='EchoesNoonNoSun'><h3>EchoesNoonNoSun:</h3></a>
+<a name='EchoesSunset'><h3>EchoesSunset:</h3></a>
+<a name='EchoesSunsetNoSun'><h3>EchoesSunsetNoSun:</h3></a>
+<a name='EchoesDusk'><h3>EchoesDusk:</h3></a>
+<a name='EchoesDuskNoMoon'><h3>EchoesDuskNoMoon:</h3></a>
+<a name='EchoesDuskFullMoon'><h3>EchoesDuskFullMoon:</h3></a>
+<a name='EchoesMidnight'><h3>EchoesMidnight:</h3></a>
+<a name='EchoesMidnightNoMoon'><h3>EchoesMidnightNoMoon:</h3></a>
+<a name='EchoesMidnightFullMoon'><h3>EchoesMidnightFullMoon:</h3></a>
+Per l'utilizzo di queste etichette basta guardarsi quelle con lo stesso nome <a href="area.htm#EchoesDawn">nella pagina dell'area</a>.<br>
+Se utilizzate nella stanza verranno utilizzate al posto delle eventuali corrispondenti a livello di area, oppure quelle di default a livello di Mud.<br>
+Le etichette sono facoltative.<br><br>
+
+<a name='MobBehaviour'><h3>MobBehaviour:</h3></a>
+La sotto-struttura comportamentale dei mob all'interno della room, essendo piuttosto estesa e comune a quella per le altre entit&agrave;, viene spiegata in una <a href="behaviour.htm">pagina a parte</a>.<br><br>
+
+<a name='ItemBehaviour'><h3>ItemBehaviour:</h3></a>
+La sotto-struttura comportamentale dei mob all'interno della room, essendo piuttosto estesa e comune a quella per le altre entit&agrave;, viene spiegata in una <a href="behaviour.htm">pagina a parte</a>.<br><br>
+
+<a name='Music'><h3>Music:</h3></a>
+Quest'etichetta contiene una stringa con il nome di un file midi (comprensivo di estensione *.mid) che si attiver&agrave; ogni volta che un giocatore entrer&agrave; nella stanza.<br>
+L'etichetta non &egrave; obbligatoria.<br><br>
+
+<hr>
+</body>
+</html>

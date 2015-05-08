@@ -1,0 +1,32 @@
+Code: novizi2_room_11-corridoio
+Icon: icons/room/triskele-yellow.png
+Sector: SECTOR.PLAIN
+Name: Un Corridoio
+Short: un corridoio
+
+Descr:
+Un anonimo corridoio procede in direzione sud-nord per terminare bruscamente davanti ad una parete di [maroon]mattoni rossi[close].  
+Sul lato ovest, attraverso una porta a vetri si accede al giardino interno dell'edificio mentre un'altra porta consente di uscire dalla casa.
+DescrSmell: 
+Un vago non so che di umido arriva dal basso.
+DescrHearing:
+Il vento fa tremare i vetri della portafinestra.
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.SOUTH
+	Descr: [lemonchiffon]Le vittime sacrificali[close]
+End
+
+Exits:
+	Direction:	DIR.WEST
+	Descr:	Il giardino
+End
+
+Exits:
+	Direction:	DIR.NORTHEAST
+	Descr:	[lemonchiffon]Il piazzale[close]
+End

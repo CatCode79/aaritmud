@@ -1,0 +1,36 @@
+Code: klirbe_room_precipizio-00
+Sector: SECTOR.PLATEAU
+Name: Il Promontorio Spezzato 
+Short: precipizio
+
+Descr:
+Un largo spiazzo pianeggiante cerca di lasciarsi conquistare dalla vegetazione che
+però arranca stancamente in sparuti ciuffetti di erica selvatica. Lo spiazzo è congiunto
+ad un sentierucolo a sud mentre nelle altre direzioni sembra sia stato mangiato di
+netto lasciando spazio ad un profondo precipizio.
+DescrSmell: 
+Zaffate d'umido e salsedine giungono come pugni sparuti ma decisi. 
+DescrHearing:
+Il rumore del mare infuriato giunge da sotto, molto lontano.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.NORTH
+	Descr: Oltre il bordo
+End
+Exits:
+	Direction: DIR.EAST
+	Descr: Oltre il bordo
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: Oltre il bordo
+End
+Exits:
+	Direction: DIR.SOUTHEAST
+	Descr: Il sentierino
+End
+

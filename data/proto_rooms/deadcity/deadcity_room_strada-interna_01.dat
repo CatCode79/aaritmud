@@ -1,0 +1,28 @@
+Code: deadcity_room_strada-interna_01
+Sector: SECTOR.CITY
+Name: Sotto la Cisterna
+Short: una strada riparata
+
+Descr:
+Una via interna della città morta, morta anch'essa e con l'unico pregio che qui la
+polvere è poca. Probabilmente per via dell'enorme cisterna che ti sovrasta ed alla
+quale si accede dalla scaletta a pioli sulla destra. La via continua a nord e termina
+davanti ad un caseggiato ad un solo piano.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Una caseggiato meno anonimo
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Il ramo principale della città
+End
+Exits:
+  Direction: DIR.UP
+  Descr: La scala a pioli
+End
+

@@ -1,0 +1,28 @@
+Code: opekus_room_ofidian_temple_14
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Navata Laterale
+Short: nella cattedrale
+
+Descr:
+La parte estremale della navata inferiore è stretta fra il colonnato ed una mezza
+dozzina di rientranze ed alcove collocate lungo tutto il lato destro della cattedrale.
+La posizione non è l'ideale per avere uno scorcio dell'ambiente in quanto le colonne
+coprono gran parte della visuale.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Lungo la navata laterale
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Verso la navata centrale
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Un'alcova nella pietra
+End

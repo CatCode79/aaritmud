@@ -1,0 +1,29 @@
+Code: karpuram_room_city-memoria-03
+Sector: SECTOR.PLAIN
+Name: Il [violet]V[close]estibolo del [violet]T[close]empio
+Short: il vestibolo di pietre [violet]viola[close]
+Descr:
+Un'apertura prende corpo dal folto boschivo attorniata di [violet]cerchi[close] di [violet]pietre[close].
+In ossequi anche tozzi rampicanti del perimetro paion tutti arditamente protesi al cielo. 
+
+DescrNight:
+Uno squarcio ovaleggiante del folto boschivo rinserra una serie di [violet]cerchi[close] di [darkviolet]pietre[close].
+Il mesto muro di rami avvinghiati si apre in due soli punti a consentire l'uscita.
+
+DescrSixth:
+Un vago senso di smarrimento irretisce tutti i viventi all'interno di questo luogo.
+DescrSixthNight:
+Un senso cupo di cordoglio e smarrimento irrompe in tutti i viventi che affrontano questo luogo.
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: L'apertura
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Verso il bosco
+End

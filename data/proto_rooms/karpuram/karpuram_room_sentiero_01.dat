@@ -1,0 +1,17 @@
+Code: karpuram_room_sentiero_01
+Sector: SECTOR.PLAIN
+Name: Il Sentiero 
+Short: un sentiero
+Descr:
+Il sentiro serpeggia sul versante nord della collinetta.
+Tutto intorno erbetta fresca e tenera, verso la cima le prime chiome degli alberi.
+DescrSixth:
+Salire la collina senza un seme in tasca è un'occasione in meno
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.SOUTHEAST
+  Descr: La spianata
+End

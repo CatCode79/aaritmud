@@ -1,0 +1,28 @@
+Code: torreelementi_room_fungheria_05
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Zona dei Funghi Fosforescenti
+Short: un estremo della fungheria
+Descr:
+La parte di fungheria ove sei finit$o ora è illuminata uniformemente da una soffusa
+luce verdognola. Tutto quel che vedi assume sfumature irreali; i fagottoni stessi
+sembrano costituiti da muffa verdastra. L'origine della luminosità sono i funghi stessi
+piccoli e numerosissimi che sbucano da ogni anfratto e pertugio del micelio.
+DescrSmell:
+Sei oramai assuefatto all'uniforme odore di funghi stantio e sempre uguale che pervade l'area.
+
+Extras:
+  Keywords: funghi
+  DescrTouch: Lasciano sulle $hands tracce luminose che però si riescono a pulire agevolmente.
+  DescrSmell: Pare che l'odore non sia la loro caratteristica più marcata
+  Descr: Sproporzionatamente allungati rispetto a quanto son sottili, con capocchie quasi assenti. Ce ne sono a centinaia!
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTHWEST
+  Descr: La zona centrale
+End

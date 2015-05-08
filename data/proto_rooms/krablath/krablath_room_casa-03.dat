@@ -1,0 +1,42 @@
+Comment:	Parte delle DescrNight tratta da "Il Maestro e Margherita" (quarto capitolo) 
+
+Code: krablath_room_casa-03
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: [forestgreen]La Cucina dell'Impollinatrice[close]
+Short: [forestgreen]la cucina[close]
+
+Descr:
+Un modesto stanzino adibito a cucina;#krablath_item_tavolino# gran parte dello spazio è occupato da una [slateblue]stufa[close] a [slateblue]legna[close] e un [saddlebrown]tavolinetto[close].# una solitaria [slateblue]stufa[close] a [slateblue]legna[close] giace a fianco di quelli che paiono i segni delle gambe di un tavolo, evidentemente spostato da non troppo tempo.#
+Caldi raggi di sole filtrano dall'unica [ghostwhite]finestra[close] presente davanti alla quale corrono dei lunghi [mediumseagreen]tubicini.[close]
+DescrNight:
+Un modesto stanzino adibito a cucina;#krablath_item_tavolino# gran parte dello spazio è occupato da una [slateblue]stufa[close] a [slateblue]legna[close] e un [saddlebrown]tavolinetto[close].# l'unico mobile della stanza è una [slateblue]stufa[close] a [slateblue]legna[close], anche se intravedi dei segni sul pavimento di quello che poteva essere stato un tavolo.#
+Un [lemonchiffon]raggio di luna[close] attraversa l'unica e irregolare finestra ed illumina avaramente un angolo dove,#krablath_item_quest-chiavetta# dietro fitte ragnatele è appesa una [goldenrod]chiavetta.[close]# lunghi fili di ragnatele penzolano come strappati di fresco.# 
+DescrTouch: 
+Gesticoli nell'aria senza alcun motivo.
+DescrSmell: 
+Sei circondato ad un fragrante profumo di pane.
+DescrHearing:
+Solo il crepitio del fuoco.
+
+Extras:
+	Keywords: finestra tubicini tubi
+	Descr:
+	Osservando meglio ciò che sta fuori dalla finestra ti accorgi che nei tubicini scorre del liquido, probabilmente acqua.
+	DescrSixth:
+	Questa serie di tubicini discendenti appaiono come un rudimentale apparato d'irrigazione.
+End
+
+Width:	3m
+Depth:	2m
+Height: 2m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: All'ingresso.
+End
+
+
+
+
+

@@ -1,0 +1,156 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<h2>Indice delle Etichette per Semi e Piante.</h2>
+<div>
+<a href='#Comment'><span class='label'>Comment</span>:</a><br>
+<a href='#Sectors'><span class='label'>Sectors</span>:</a><br>
+<a href='#Temperature'><span class='label'>Temperature</span>:</a><br>
+<a href='#Humidity'><span class='label'>Humidity</span>:</a><br>
+<a href='#RpgHours'><span class='label'>RpgHours</span>:</a><br>
+<a href='#BetterEntity'><span class='label'>BetterEntity</span>:</a><br>
+<a href='#NormalEntity'><span class='label'>NormalEntity</span>:</a><br>
+<a href='#WorseEntity'><span class='label'>WorseEntity</span>:</a><br>
+<a href='#DeadEntity'><span class='label'>DeadEntity</span>:</a><br>
+<a href='#Contents'><span class='label e Numero intero positivo'>Contents</span>:</a><br>
+<a href='#RemainingLife'><span class='label'>RemainingLife</span>:</a><br>
+<a href='#DecompositionRpgHours'><span class='label'>DecompositionRpgHours</span>:</a><br>
+</div>
+<br>
+
+<hr>
+<h2>Note Riguardo le Piante.</h2>
+<div>
+<span class="label">PlantType</span> e <span class="label">SeedType</span> sono etichette gemelle che rappresentano strutture di pi&ugrave; sottoetichette, e quindi abbisognano dell'etichetta <span class="label">End</span> per terminarne la definizione.<br>
+Tramite i semi &egrave; possibile dare al giocatore la possibilit&agrave; di vedere crescere la propria piantina e di ottenerne frutti e/semi per proseguire la coltivazione.<br>
+&Egrave; necessario creare l'entit&agrave; seme ed almeno un'entit&agrave; pianta; ma &egrave; possibile creare anche un'entit&agrave; per ogni stadio della pianta (seme, germoglio, pianticella, pianta, in fiore, in frutto, morente, frutti buoni, frutti sterili o brutti, e tutto quel che viene in mente).<br>
+Inoltre c'&egrave; la possibilit&agrave; di far evolvere l'entit&agrave; lungo binari che dipenderanno dai pi&ugrave; disparati parametri: dal clima fino al tipo di irrigazione.<br>
+La differenziazione fra semi e piante &egrave; essenzialmente rappresentata dal nome della struttura: <span class="label">SeedType</span> per tutto ci&ograve; che va interrato e <span class="label">PlantType</span> per le piante gi&agrave; sviluppate ed i loro stadi.<br>
+Anche la manipolazione da parte del player &egrave; diversificata con l'ausilo dei due distinti comandi: <span class="label">seed</span> e <span class="label">plant</span>.<br> 
+</div>
+<br>
+
+<hr>
+<h2>Tabella di Riferimento Veloce.</h2>
+<div>
+<table border="1">
+<tr class="thref"><td>Etichetta</td><td>Tipologia</td><td>Utilizzo</td></tr>
+<tr><td class="label">Comment</td><td>Stringa, relativa ad un commento</td><td>Facoltativo, consigliato se c'&egrave; qualcosa di particolare</td></tr>
+<tr><td class="label">Sectors</td><td>Element, relativo ai sectors</td><td>Facoltativa</td></tr>
+<tr><td class="label">Temperature</td><td>Numero intero</td><td>Facoltativa</td></tr>
+<tr><td class="label">Humidity</td><td>Numero intero</td><td>Facoltativa</td></tr>
+<tr><td class="label">RpgHours</td><td>Misura di tempo in ore rpg</td><td>Obbligatoria</td></tr>
+<tr><td class="label">BetterEntity</td><td>Stringa, codice di stanza</td><td>Obbligatoria</td></tr>
+<tr><td class="label">NormalEntity</td><td>Stringa, codice di stanza</td><td>Obbligatoria</td></tr>
+<tr><td class="label">WorseEntity</td><td>Stringa, codice di stanza</td><td>Obbligatoria</td></tr>
+<tr><td class="label">DeadEntity</td><td>Stringa, codice di stanza</td><td>Facoltativa</td></tr>
+<tr><td class="label">Contents</td><td>Stringa, codice di stanza e Numero intero positivo</td><td>Facoltativa</td></tr>
+<tr><td class="label">RemainingLife</td><td>Numero intero</td><td>Facoltativa</td></tr>
+<tr><td class="label">DecompositionRpgHours</td><td>Misura di tempo in ore rpg</td><td>Facoltativa</td></tr>
+</table>
+</div>
+<br>
+
+<hr>
+<h2>Strutture Tipiche con le Etichette di Maggior Utilizzo (per copia e incolla).</h2>
+Per una pianta:<br>
+<div>
+<pre>
+PlantType:
+	RpgHours:
+	NormalEntity:
+	WorseEntity:
+	BetterEntity:
+End
+</pre>
+Per un seme:<br>
+<pre>
+SeedType:
+	RpgHours:
+	NormalEntity:
+	WorseEntity:
+	BetterEntity:
+End
+</pre>
+</div>
+<br>
+
+<hr>
+<h2>Spiegazione delle Etichette.</h2>
+<div>
+<a name='Comment'><h3 class='label'>Comment:</h3></a>
+Eventuale commento relativo all'entit&agrave;, per maggior informazioni leggere <a href="comment.htm">questa pagina</a>.<br>
+Non &egrave; obbligatoria, ma &egrave; comunque consigliato utilizzarla se la tipologia d'entit&agrave; &egrave; una cosa particolare o bisogna segnarsi qualcosa da ricordare.<br>
+<br>
+
+<a name='Sectors'><h3 class='label'>Sectors:</h3></a>
+Indica quali sono i soli settori in cui la pianta potr&agrave; germinare o crescere; &egrave; un <a href="element.htm">Element</a> che indica il tipo di terreno/vegetazione/acqua/aria.<br>
+Leggete la <a href="elements_list.htm#SECTOR">lista dei settori</a> e scegliete quello che vi &egrave; pi&ugrave; congeniale.
+L'etichetta &egrave; facoltativa e nel caso non venga indicata, la pianta potr&agrave; germinare in tutti i settori fertili, ma se utilizzata si potr&agrave; avere crescita UNICAMENTE nei settori specificati nell'etichetta.<br><br>
+
+<a name='Temperature'><h3 class='label'>Temperature:</h3></a>
+Temperature media ideale per la germinazione e crescita della pianta.<br>
+L'etichetta &egrave; facoltativa.<br>
+<br>
+
+<a name='Humidity'><h3 class='label'>Humidity:</h3></a>
+Percentuale di umidit&agrave; media ideale per la germinazione crescita della pianta.<br>
+L'etichetta &egrave; facoltativa.<br>
+<br>
+
+<a name='RpgHours'><h3 class='label'>RpgHours:</h3></a>
+Durata in ore rpg dello stadio attuale; trascorso tale tempo verr&agrave; caricata l'entit&agrave; successiva.<br>
+L'etichetta &egrave; obbligatoria.<br>
+<br>
+
+<a name='NormalEntity'><h3 class='label'>NormalEntity:</h3></a>
+Entit&agrave; che verr&agrave; caricata allo stadio successivo in caso il tiro salvezza non sia n&eacute; particolamrmente fortunato n&eacute; sfortunato.<br>
+Allo stadio attuale il tiro salvezza non &egrave; personalizzabile, futuro dipender&agrave; da irrigazione, terreno, scelte del builder, etc.<br>
+L'etichetta &egrave; obbligatoria.<br>
+<br>
+
+<a name='WorseEntity'><h3 class='label'>WorseEntity:</h3></a>
+Entit&agrave; che verr&agrave; caricata allo stadio successivo nel caso in cui il tiro salvezza sia particolamrmente sfortunato.<br>
+Allo stadio attuale il tiro salvezza non &egrave; personalizzabile, futuro dipender&agrave; da irrigazione, terreno, scelte del builder, etc.<br>
+L'etichetta &egrave; obbligatoria.<br>
+<br>
+
+<a name='BetterEntity'><h3 class='label'>BetterEntity:</h3></a>
+Entit&agrave; che verr&agrave; caricata allo stadio successivo nel caso in cui il tiro salvezza sia particolamrmente fortunato.<br>
+Allo stadio attuale il tiro salvezza non &egrave; personalizzabile, futuro dipender&agrave; da irrigazione, terreno, scelte del builder, etc.<br>
+L'etichetta &egrave; obbligatoria.<br>
+<br>
+
+<a name='DeadEntity'><h3 class='label'>DeadEntity:</h3></a>
+Serve ad indicare che il prossimo stage &egrave; la fine di un ciclo. In pratica quando il mud si accorge che la pianta &egrave; arriva alla fine di un ciclo controlla i worse_counter rispetto al totale dei contatori e lancia un tiro salvezza alla pianta, se non lo supera carica quest'entit&agrave;.<br>
+NON BISOGNA utilizzare questa label se lo stadio di crescita non &egrave; quello della fine di un ciclo vitale (che nella nostra RL sarebbe l'anno); praticamente non &egrave; possibile che la pianta muoia prima della fine di un ciclo vitale, a meno di non utilizzare un gamescript.<br>
+Oltre a questa label si possono usare le solite NormalEntity, WorseEntity e BetterEntity per far reiniziare o continuare un nuovo ciclo vitale; Oppure si pu&ograve; creare un ciclo one shot time in cui l'ultima entit&agrave; non possiede nessun PlantType e rimanga immutata in eterna.<br>
+L'etichetta &egrave; facoltativa.<br>
+<br>
+
+<a name='Contents'><h3 class='label'>Contents:</h3></a>
+Indica quali entit&agrave; si troveranno nella pianta (fiori, frutti, bacherozzi) ed &egrave; seguita da un numero che indica quanti esemplari ne son presenti nella pianta.<br>
+Se la pianta &egrave; stata caricata come worse oppure better, allora il numero sar&agrave; dimezzato o raddoppiato.
+L'etichetta &egrave; facoltativa.<br>
+
+<a name='RemainingLife'><h3 class='label'>RemainingLife:</h3></a>
+Indica quanti cicli vitali massimi la pianta resister&agrave; prima di caricare la DeadEntity.<br>
+Impostando la RemainingLife a -1, come di default, i cicli vitali sono infiniti.<br>
+L'etichetta &egrave; facoltativa.<br>
+
+<a name='DecompositionRpgHours'><h3 class='label'>DecompositionRpgHours:</h3></a>
+Numero di ore Rpg prima che il contenuto venga decomposto dopo essere caduto dalla pianta.<br>
+L'etichetta &egrave; facoltativa.<br>
+<br>
+
+</div>
+<hr>
+</body>
+</html>

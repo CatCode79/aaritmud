@@ -1,0 +1,31 @@
+Code: wumpus_room_ruderi-south
+Sector: SECTOR.UNDERGROUND
+Flags: ROOM.INSIDE
+Name: I [white]Ruderi[close] del Salone di un Nascondiglio
+Short: i [white]ruderi[close] del salone di un nascondiglio
+
+Descr:
+Questo era un vecchio nascondiglio scavato nel sottosuolo, pareti e pavimenti sono lastricate di pietra [white]bianca[close] ed il soffitto a cupola incornicia un ampio ambiente disadorno.
+Strano accostamento fra questi ambienti così lavorati e i rozzi cunicoli là fuori.
+ 
+DescrTouch: 
+Questo era un vecchio nascondiglio scavato nel sottosuolo, pareti e pavimenti sono lastricate di pietre levigate ed il soffitto a cupola incornicia un ampio ambiente disadorno.
+Strano accostamento fra questi ambienti così lavorati e i rozzi cunicoli là fuori.
+
+Width:	7m
+Depth:	7m
+Height:	7m
+
+Exits:
+  Direction: DIR.SOUTH
+  Destination:	 2 2 0 wumpus
+  Descr: Le [darkseagreen]ragnatele[close]
+End
+Exits:
+  Direction: DIR.NORTHWEST
+  Descr: I [white]ruderi[close]
+End
+Exits:
+  Direction: DIR.NORTHEAST
+  Descr: I [white]ruderi[close]
+End

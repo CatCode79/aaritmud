@@ -1,0 +1,36 @@
+Comment: 85 1 3
+Code: sauria_room_amena-foresta-41
+Sector: SECTOR.FOREST
+Name: Un'Amena Foresta
+Short: un'amena foresta
+
+Descr:
+È sorprendente quanto sia aliena e ricca la foresta: Alberi, arbusti, cespugli, felci... tutti di dimensioni ragguardevoli e nessuno che ti sembra d'aver mai visto altrove. 
+DescrTouch: 
+Un gigante fra i giganti è quest'albero che si staglia ad est impedendo la via. Anche il resto della vegetazione è degno di nota in quanto a dimensioni tanto da darti l'impressione d'essere sempre più piccin$o.
+DescrSmell:
+Una foresta confusa ed indecisa, non fosse altro che per le zaffate che s'alternano tra vegetali marcescenti e profumi di fiori e resina.
+DescrSixth:
+La foresta prosegue senza sosta.
+DescrHearing:
+Ci deve essere una gara a momenti alterni fra gli insetti che ronzano e le fronde mosse dal vento. Ora vince uno, ora l'altro.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21845
+  Descr:	Un'amena foresta
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 -1 21837
+  Descr:	Un'amena foresta
+  Direction:	DIR.SOUTH
+End
+Exits:
+  Comment:	0 -1 21842
+  Descr:	Un'amena foresta
+  Direction:	DIR.WEST
+End

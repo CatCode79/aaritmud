@@ -1,0 +1,24 @@
+Code: klirbe_room_rampicante-04
+Sector: SECTOR.WOOD
+Name: L'apice della Camelia
+Short: in cima al rampicante
+
+Descr:
+Percorrendo a spirale in senso orario le volute del rampicante si sale verso l'alto
+arrivado al massimo fin qui poiché più sopra la pianta è ancora troppo tenera e fragile.
+Bisognerà aspettare che cresca ancora un po' per salire più in alto.
+DescrTouch: 
+Il fusto della pianta ha consistenza solida ed elastica tanto che saltellare potrebbe
+avere effetti buffi ed ameni. 
+DescrTaste:
+C'è ben poco da assaggiare qui, e le foglie più tenere sono troppo all'esterno per
+essere raggiunte agevolmente.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.DOWN
+	Descr: Verso la base del rampicante
+End

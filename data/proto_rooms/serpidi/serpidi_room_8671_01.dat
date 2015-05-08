@@ -1,0 +1,34 @@
+Code: serpidi_room_8671_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: Quartiere occidentale 
+Short: Quartiere occidentale 
+Descr: 
+Sei all'interno del quartiere residenziale dei serpidi. Le decorazioni, il lastricato, i soffitti, sono ovunque decorati finemente, e con un gusto che pur alieno non ferisce la tua sensibilità. Uno spiffero d'aria ti smuove i capelli. 
+Exits:
+	Direction: DIR.NORTH
+	Destination: -3 8 -2 serpidi
+End
+Exits:
+	Direction: DIR.EAST
+	Destination: -2 7 -2 serpidi
+End
+Exits:
+	Direction: DIR.SOUTH
+	Destination: -3 6 -2 serpidi
+End
+Extras:
+	Keywords: spiffero 
+Descr:
+È una corrente d'aria freddissima che percorre la stanza da sud verso nord. 
+End
+Extras:
+	Keywords: corrente 
+Descr:
+È molto fredda, sembra che arrivi direttamente dalla cima più alta di Artica in pieno inverno ! 
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

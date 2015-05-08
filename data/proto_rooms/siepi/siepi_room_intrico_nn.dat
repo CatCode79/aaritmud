@@ -1,0 +1,67 @@
+Code: siepi_room_intrico_nn
+Sector: SECTOR.WOOD
+Name: Il Labirinto di Akh-Dara
+Short: un garbuglio intricato
+Descr: 
+Dopo tanto verde non dispiace vedere qualcosa di diverso. Dove innumerevoli sentieri
+s'incontrano prende forma uno spiazzo di terreno compatto; al centro un bacile di pietra
+sorretto da una colonna nera. Il bacile un tempo doveva essere lucido e nero come il
+piedistallo, ora è ricoperto da leggere incrostazioni bianco brunastre.
+
+DescrSmell:
+L'aroma che ti accoglie è quello del fogliame secco che fa da letto al tuo camminare.
+C'è anche dell'acqua da qualche parte
+
+DescrHearing:
+Il rumore di un nitido e continuo gocciolio viene di quando in quando coperto dal
+rumore del vento.
+
+Extras:
+  Keywords: siepe siepi
+  Descr:
+	Tutta irta di foglioline oblunghe, molto strette e carnose.
+End
+Extras:
+  Flags: EXTRA.DAY_ONLY
+  Keywords: luce 
+  Descr:
+	La luce filtra dalle fronde lontane colorandosi di verde e conferendo al panorama un aspetto
+	piuttosto monotono. 
+End
+Extras:
+  Keywords: bacile
+  Descr:
+	Una vasca tonda e piccina con una cannula su di un lato a riempirla,
+	l'acqua tracima lenta da un lato
+End
+Extras:
+  Keywords: piedistallo
+  Descr: Ricoperto fittamente di licheni solo nelle parti estremali. Per il resto stupisce come è ancora lucido. 
+End
+Extras:
+  Flags: EXTRA.NIGHT_ONLY
+  Keywords: ombre ombra 
+  Descr: Il movimento delle piantine dà l'impressione di un viavai continuo di piccoli animali
+End
+
+Width:	7m
+Depth:	7m
+Height: 15m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Sentieri imbrigliati da siepi
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Sentieri imbrigliati da siepi 
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Ancora squarci nelle siepi 
+  Destination: 0 -1 0 siepi
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Sentieri imbrigliati da siepi 
+End

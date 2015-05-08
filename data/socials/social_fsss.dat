@@ -1,0 +1,34 @@
+FunName:    social_fsss
+Intention:  INTENTION.AGGRESSIVE
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Mostri i denti sibilando aspramente qualcosa.
+  OthersNoArg: $n mostra i denti sibilando aspramente qualcosa.
+  EntityFound: Mostri i denti a $N sbilando aspramente qualcosa.
+  OthersFound: $n mostra i denti a $N sibilando aspramente qualcosa.
+  TargetFound: $n ti mostra i denti sibilando aspramente qualcosa.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Cerchi di confondere con voce suadente.
+  OthersNoArg: $n sibila parole poco rassicuranti.
+  EntityFound: Cerchi di confondere $N con voce suadente.
+  OthersFound: $n sibila parole poco rassicuranti verso $N.
+  TargetFound: $n ti sibila all'orecchio parole poco rassicuranti.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Stringi la $tongue fra i denti sibilando.
+  OthersNoArg: $n sta imitando un serpente, sibila con notevole presenza scenica.
+  EntityFound: Sibili nervosamente verso $N mostrando$GLI le zanne.
+  OthersFound: $n sibila nervosamente verso $N mostrando$GLI le zanne.
+  TargetFound: $n ti sibila contro nervosamente mostrandomi le zanne.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Stringi la $tongue fra i denti sibilando.
+  OthersNoArg: $n sta imitando un serpente, sibila con notevole presenza scenica.
+  EntityFound: Sibili nervosamente verso $N mostrando$GLI le zanne.
+  OthersFound: $n sibila nervosamente verso $N mostrando$GLI le zanne.
+  TargetFound: $n ti sibila contro nervosamente mostrandomi le zanne.
+End

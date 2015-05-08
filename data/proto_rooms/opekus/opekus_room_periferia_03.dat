@@ -1,0 +1,26 @@
+Code: opekus_room_periferia_03
+Sector: SECTOR.PATH
+Name: Il Contrafforte di Pietra
+Short: Un muro di pietra
+Descr:
+Il tratto di strada ove ti trovi pare un'antica via di cui resta il selciato in buone
+condizioni con pochi sparuti sterpi che sbucano qua e là.
+La via piega bruscamente sul lato est a causa di un'alta muraglia che ne sbarra il
+passo. L'alta fila di pietre è posta a sostegno di un'arcata pericolante laggiù ad est.
+L'altro estremo del muraglione termina in direzione di uno spiazzo.
+Width:	10m
+Depth:	10m
+Height: 10m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: La strada
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Un arco di pietra
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Uno spiazzo verso la vegetazione
+End

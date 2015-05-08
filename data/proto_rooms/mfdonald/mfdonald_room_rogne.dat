@@ -1,0 +1,44 @@
+Code: mfdonald_room_rogne
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: rogne
+Short: rogne
+
+Descr:
+Eri nella cacca sono stata caricata correttamente alle 7 (credo)
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Extras:
+	Keywords: chiave
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: In strada
+End
+

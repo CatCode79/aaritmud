@@ -1,0 +1,19 @@
+Code: krablath_room_bocca-leone-03-ne
+Sector: SECTOR.AIR
+Name: [darkmagenta]In un Fiore[close]
+Short: [darkmagenta]all'interno di un fiore[close]
+
+Descr:
+Sei all'interno di un fiore dalle dimensioni spropositate, le pareti traslucide permettono alla luce di filtrere debolmente.
+DescrNight:
+Sei all'interno di un fiore dalle dimensioni spropositate, il bagliore lunare filtra debolmente attraverso le pareti traslucide.
+DescrTouch: 
+Le pareti sono viscide e impregnate di polline.
+DescrSmell: 
+Meglio non inspirare troppo forte se non si vuole starnutire per ore.
+DescrSixth:
+Le dimensioni di tutto ciò ti inquietano, non può venirne nulladi buono.
+
+Width:  4m
+Depth:  4m
+Height: 3m

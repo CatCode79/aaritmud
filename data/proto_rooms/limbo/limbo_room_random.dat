@@ -1,0 +1,12 @@
+Comment: È la stanza prototipo per tutte le stanze create casualmente
+Code: limbo_room_random
+Sector: SECTOR.VOID
+
+Name: Una Stanza Casuale
+Short: una stanza casuale
+Descr:
+Una stanza casuale
+
+Width:	10m
+Depth:	10m
+Height: 10m

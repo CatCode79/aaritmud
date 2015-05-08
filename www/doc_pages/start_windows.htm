@@ -1,0 +1,46 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="style.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<table style="width:100%">
+<tr>
+	<td><a href="installation.htm"><img src="../graphics/arrow_left.gif" width="16px" height="16px"> Installazione di Aarit</a></td>
+	<td style="text-align:right"><a href="start_linux.htm">Far partire il Mud sotto Linux <img src="../graphics/arrow_right.gif" width="16px" height="16px"></a></td>
+</tr>
+</table>
+
+<hr>
+<h3>Far partire Aarit sotto Window$.</h3>
+<div class="main">
+Scompattate il pacchetto che include il codice Aarit e andate nella cartella aarit in cui vi sarà il file start.py.<br>
+Se siete sotto Windows potete fare doppio click sul file e questo aprirà una finestra di prompt dei comandi con l'output del caricamento del Mud fino a che arriverà a qualcosa tipo:<br>
+22:24 [Boot] Il Mud Aarit Þ pronto alla porta http 80<br><br>
+
+A quel punto potete connettervi tramite un browser (dovrebbe funzionare senza problemi su tutti le ultime versione dei maggiori browser) all'indirizzo localhost<br><br>
+
+Se per caso dopo il doppio click al file start.py dovesse apparire per pochissimo tempo la finestra di prompt dei comandi e poi sparire allora significa che qualcosa è andato storto nel caricamento del Mud.<br>
+In tal caso potete imprecare contro di me per aver rilasciato un'alfa release con il sedere e provare, sotto Windows, con il tasto destro sul file start.py, andare alla voce edith with IDLE, una volta caricato il file con IDLE schiacciare F5 e stavolta l'output viene inviato ad una finestra dell'IDLE che non si chiuderà, così potete vedere di quale problema di tratta e, se ne siete capaci o siete scaltri, risolverlo da soli oppure inviarmi la descrizione dell'errore all'e-mail che trovate in cima alla pagina principale di questo manuale (dicendomi su che sistema operativo state cercando di far girare Aarit).<br><br>
+
+Per creare un account con privilegi da Implementor e poter così avere tutti gli strumenti disponibili per il controllo del Mud e la modifica di suoi dati bisogna procedere in questa maniera:
+<li>Se non esiste nessun file *.dat nella cartella data/accounts/ allora la cosa è semplicissima, basta creare un nuovo account e questo prende automaticamente i massimi privilegi di Implementor (Aarit dà per scontato che il primo che crea un account sia il suo 'boss' ;)
+<li>Se esistono già dei file di account nella cartella suddetta allora bisogna aprire quello a cui volete cambiare i privilegi e cercare l'etichetta Trust modificando TRUST.PLAYER con un'altra tra le <a href="builder_manual/elements_list.htm#TRUST">fiducie valide</a>.
+Come avrete notato il livello non è legato ai privilegi che si hanno su di un Mud, questo serve a separare concettualmente l'amministrazione del Mud dalle meccaniche del gioco.<br><br>
+</div>
+
+Se doveste avere il seguente errore:<br>
+<br>
+twisted.internet.error.CannotListenError: Couldn't listen on any:80:<br>
+[Errno 98] Address already in use.<br>
+<br>
+Allora probabilmente la porta 80 è già utilizzata per qualche servizio (solitamente apache o servizi simili).<br>
+O si chiude il servizio sulla 80, oppure si modifica il file di config.ini di aarit in cui c'è un'opzione chiamata http_port cambiandola da 80 a 8080 per esempio<br>
+Fatto ciò però per potersi connettere ad Aarit bisogna andare all'indirizzo<br>
+http://localhost:8080/<br>
+o comunque apponendovi il numero di porta inserito nel file di config.ini<br>
+<hr>
+</body>
+</html>

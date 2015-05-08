@@ -1,0 +1,30 @@
+Code: karpuram_room_bosco_sud-est
+Sector: SECTOR.PLAIN
+Name: I Sentieri di [lime]Karpuram[close]
+Short: un [lime]garbuglio di [lime]passaggi[close]
+Descr:
+Il tracciato perde pian piano tutta la libertà delle quattro direzioni e s'inoltra nel
+fitto del bosco tramite pochi sentierini paralleli. Poco più avanti resta un unico
+sentiero che piega tortuosamente su di un lato.
+
+DescrNight:
+L'oscurità della notte si è portata via assieme al giorno anche tutte le strade e i
+mille sentieri del bosco. Ora resta visibile solo il tratto di sentiero curvo che stai
+seguendo assieme ad un sentierino parallelo che sembra accompagnarti lungo la stessa
+destinazione.
+
+DescrSixth:
+Un bosco è sempre un buon posto per qualcuno o qualcosa
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Nel folto del bosco
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Nel folto del bosco
+End

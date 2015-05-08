@@ -1,0 +1,40 @@
+Comment: 0 1|8 0
+Code: sauria_room_falda-acquifera-72
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: Falda Acquifera
+Short: falda acquifera
+
+Descr:
+La parte calpestabile termina qui; tutto il resto s'immerge in un placido corso d'acqua che scorre orizzontale dalla tua sinistra, verso destra. Anche il soffitto piega e vi si getta a perpendicolo come fosse impaziente... 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 0 21879
+  Descr:	Grotta naturale
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 0 21893
+  Descr:	Grotta naturale
+  Direction:	DIR.SOUTH
+End
+Exits:
+  Comment:	0 0 21877
+  Descr:	Grotta naturale
+  Direction:	DIR.WEST
+End

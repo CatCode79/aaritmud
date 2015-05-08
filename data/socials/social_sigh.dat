@@ -1,0 +1,26 @@
+FunName:    social_sigh
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Sospiri: 'Ahimé..'
+  OthersNoArg: $n sospira: 'Ahimé..'
+  EntityFound: Sospiri guardando $N..
+  OthersFound: $n sospira guardando $N.
+  TargetFound: $n sospira guardandoti..
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Miagoli un sospirino: 'sigh'.
+  OthersNoArg: $n miagola sommessamente un sospirino, sembra un poco abbattut$o.
+  EntityFound: Sospiri verso $N spalancando i tuoi occhioni da felar.
+  OthersFound: $n sospira guardando $N con grandi occhioni da cucciol$o.
+  TargetFound: $n sospira mentre ti guarda con grandi occhioni da cucciol$o.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Miagoli un sospirino: 'sigh'.
+  OthersNoArg: $n miagola sommessamente un sospirino, sembra un poco abbattut$o.
+  EntityFound: Sospiri verso $N spalancando i tuoi occhioni da micione.
+  OthersFound: $n sospira guardando $N con grandi occhioni da cucciol$o.
+  TargetFound: $n sospira mentre ti guarda con grandi occhioni da cucciol$o.
+End

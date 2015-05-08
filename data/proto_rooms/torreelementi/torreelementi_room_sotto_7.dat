@@ -1,0 +1,46 @@
+Code: torreelementi_room_sotto_7
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Sala degli inoculi
+Short: la stanza pulita 
+
+Descr:
+Anche questa stanza è una stretta via d'ingresso ad una altra zona. Come nella
+precedente, una paratia trasparente ti consente di vedere all'interno. Oltre
+la paratia vedi dei fagottoni grossolani ben separati e disposti su tavolacci
+singoli. Ciascuno fagotto ha sotto di se una foglia enorme aperta e tutta rovinata.
+
+ShortNight: la camera pulita
+
+DescrNight:
+Anche questa stanza è una stretta via d'ingresso ad una altra zona. Come nella
+precedente, una paratia trasparente ti consente di vedere all'interno. Oltre
+la paratia vedi dei tavolacci ampi vuoti e ben puliti; sul fondo, seminascosto
+vedi uno stretto condotto che guarda verso est.
+All'interno, tutto è illuminato da luce bianca e soffusa.
+
+Extras:
+  Flags: EXTRA.DAY_ONLY
+  Keywords: fagottoni fagottone
+  Descr: Sembrano fatti di paglia e altra robaccia
+End
+Extras:
+  Flags: EXTRA.DAY_ONLY
+  Keywords: foglia foglie 
+  Descr: In origine devono essere state delle foglie gigantesche
+End 
+Extras:
+  Keywords: condotto 
+  Descr:
+La misura del condotto consentirebbe ad un umano di attraversarlo ma c'è
+il problema di attraversare la paratia
+End 
+
+Width:	3m
+Depth:	4m
+Height: 4m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: Una sala 
+End

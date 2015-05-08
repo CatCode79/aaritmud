@@ -1,0 +1,28 @@
+Code: villaggio-zingaro_room_cunicolo-sub-03
+Sector: SECTOR.CAVERN
+Name: La Via di Fuga
+Short: uno stretto cunicolo
+
+
+Descr:
+Un cunicolo irregolare scavato nel terreno che permette il passaggio di una sola persona alla volta; è sorretto da numerose travi in legno poste sulle pareti e sul soffitto. In questo punto una grossa radice passa proprio al centro senza però ostruire completamente il passaggio. Lungo le pareti sono state scavate alcune nicchie dove sono collocate delle candele su un piccolo supporto metallico.
+DescrTouch: 
+Ti appoggi ad una delle travi provocando un abbondate pioggia di terriccio.
+DescrSixth:
+Intuisci che questo curioso cunicolo che collega due diverse parti del villaggio potrebbe essere stato scavato come via di fuga in caso di pericoli improvvisi.
+DescrHearing:
+Avverti uno strano rumore provenire dall'alto, come di un qualcosa che scava in procinto di sbucare sopra la tua testa.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+Exits:
+	Direction: DIR.NORTHWEST
+	Descr: Il cunicolo prosegue
+	EntityMessage: [palegoldenrod]Non appena ti allontani di qualche passo una candela si spegne e si accende la successiva come ad indicarti la via.[close]
+End
+Exits:
+	Direction: DIR.EAST
+	Descr: Il cunicolo prosegue
+	EntityMessage: [palegoldenrod]Non appena ti allontani di qualche passo una candela si spegne e si accende la successiva come ad indicarti la via.[close]
+End

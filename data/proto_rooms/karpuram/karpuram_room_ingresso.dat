@@ -1,0 +1,20 @@
+Code: karpuram_room_ingresso
+Sector: SECTOR.PLAIN
+Name: L'ingresso del Ventre di Karpuram
+Short: la periferia boscosa
+Descr:
+Il fitto bosco ti accoglie con tutti i colori. 
+DescrSixth:
+Un bosco è sempre un buon posto per qualcuno o qualcosa
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Il bosco prosegue
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Al termine del bosco
+End

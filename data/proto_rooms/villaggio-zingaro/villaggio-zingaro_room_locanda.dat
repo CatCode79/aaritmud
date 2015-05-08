@@ -1,0 +1,83 @@
+Code: villaggio-zingaro_room_locanda
+Sector: SECTOR.TAVERN
+Name: La Locanda Laubja 
+Short: una locanda
+
+Descr:
+Entri in una lurida bettola con un imponente [burlywood]candelabro[close] che pende dal soffitto; uno dei lati della stanza è occupato da un invadente [sienna]bancone[close] mentre un'ipertrofica [saddlebrown]p[close][firebrick]anc[close][saddlebrown]a[close] emerge dalle pareti rimaste libere. Lo spazio centrale è ingombro di gracili [chocolate]tavolini[close] circondati da un numero variabile di [chocolate]sedie[close] altrettanto esili. Sulla parete ovest si apre un ampia vetrata quadrangolare che dà sulla piazza incorniciata da [firebrick]tende[close] drappeggiati.   
+DescrTouch:
+Ad ogni passo stacchi a fatica il piede dal pavimento lercio.
+DescrSmell: 
+Odore di fumo frammisto a gulasch speziato.
+DescrSixth:
+Il luogo di ritrovo del villaggio e rifugio per forestieri, forse non rassicurante  ma certamente sufficiente per brevi soste di ristoro.
+DescrHearing:
+Un gorgoglio di acqua è alternato a rumori di stoviglie e mormorii di fondo.
+DescrHearingNight: 
+Un sonoro russare copre qualsiasi altro rumore.
+
+Extras:
+	Keywords: menù
+	Descr:
+<pre class:"asciiart">
+[darkred]      _
+|\/| |_ |\ | | |`
+|  | |_ | \| |_|[close]
+</pre>
+- POLPETTE DI CARNE IN UMIDO
+- FILETTO ALLA GRIGLIA
+- ZUPPA BIANCA
+- SFORMATO DI PATATE E VERZE
+- BUDINO ALL'UVETTA 
+
+I prodotti sono stati gentilmente offerti dalla cooperativa "L'orto" e "La Stalla Vecchia"
+
+End
+Extras:
+	Keywords: candelabro
+	Descr:
+	Un voluminoso candelabro con otto sinuosi bracci che si dipartono dal centro appeso al soffitto tramite una robusta catena. Al termine di ogni braccio vi è posto per una candela ma qui quasi la metà sono del tutto consumate ed inutilizzabili.
+End
+
+Extras:
+	Keywords: parete pareti soffitto
+	Descr:
+	Le pareti come il soffitto sono macchiate sugli spigoli da un'audace muffa e dei ragni hanno realizzato le loro opere in ogni cantuccio libero.
+End
+
+Extras:
+	Keywords: vetrata finestra
+	Descr:
+	Un'ampissima finestra rettangolare fa filtrare la luce dall'esterno illuminando la locanda; guardando attraverso il vetro, che non vede uno straccio da troppo tempo, osservi la piazza antistante la locanda con la sua gorgogliante fontanina. 
+	DescrNight:
+	Un'ampissima finestra rettangolare ti permette di osservare la pizzetta antistante la locanda con la sua fontanina gorgogliante e il cielo stellato che si intravede tra i tetti delle case.
+End
+
+Extras:
+	Keywords: panca
+	Descr:
+	Una lunghissima panca fuoriesce dalle pareti come un'informe estroflessione; è ricoperta da un altrettanto lungo cuscino in [firebrick]velluto[close] che il tempo e l'usura han liso e bucato, in qualche punto si scorge anche qualche bruciatura.
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: In strada
+  Door: villaggio-zingaro_item_door-porta-laterale-locanda
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: La piazza
+  Door: villaggio-zingaro_item_door-porta-locanda
+End
+
+RoomBehaviour:
+	RandomEcho:	5
+	RandomEchoTexts:	Dal brusio di fondo senti qualcosa a proposito di una missione assegnata dalla tessitrice.
+	RandomEchoTexts:	Qualcuno canticchia sommessamente.
+	RandomEchoTexts:	Un sciaquio proviene costantemente dalla cucina.
+	RandomEchoTexts:	Qualcuno dal fondo parla di una tessitirice e della sua strana missione...
+End

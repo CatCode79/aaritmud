@@ -1,0 +1,34 @@
+FunName:    social_kneel
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Ti chini sulle ginocchia.
+  OthersNoArg: $n s'inginocchia.
+  EntityFound: Ti chini su di un ginocchio dinanzi a $N.
+  OthersFound: $n si china su di un ginocchio dinanzi a $N.
+  TargetFound: $n si china in ginocchio dinanzi a te.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Ti inginocchi.
+  OthersNoArg: $n si inginocchia.
+  EntityFound: Ti inginocchi con sguardo fiero verso $N.
+  OthersFound: $n si inginocchia con sguardo fiero verso $N.
+  TargetFound: $n si inginocchia con sguardo fiero verso di te.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Ti inginocchi per ingannare il tempo.
+  OthersNoArg: $n s'inginocchia sulle zampe scrutando il terreno.
+  EntityFound: T'inginocchi sulle zampe davanti a $N.
+  OthersFound: $n s'inginocchia davanti a $N, con grazia felina.
+  TargetFound: $n s'inginocchia davanti a te con eleganti movimenti felini.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Ti inginocchi per ingannare il tempo.
+  OthersNoArg: $n s'inginocchia sulle zampe scrutando il terreno.
+  EntityFound: T'inginocchi sulle zampe davanti a $N.
+  OthersFound: $n s'inginocchia davanti a $N, con grazia felina.
+  TargetFound: $n s'inginocchia davanti a te con eleganti movimenti felini.
+End

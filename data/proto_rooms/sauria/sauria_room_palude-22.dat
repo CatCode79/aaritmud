@@ -1,0 +1,37 @@
+Comment: 85 0 3
+Code: sauria_room_palude-22
+Sector: SECTOR.SWAMP
+Name: Palude
+Short: palude
+
+Descr:
+La palude qui è al limite del praticabile; Il terreno è decisamente troppo viscido e molle per andare troppo a est. È bene guardare con attenzione dove si mettono i piedi anche in direzione nord.
+DescrTouch: 
+La consistenza del terreno si far sempre più insidiosa man mano che si procede verso nord.
+DescrSmell: 
+Gli odori e gli effluvi si fanno sempre più monotematici procedendo verso nord; si tratta di un monotematico odiabile ed al limite del tossico.
+DescrSixth:
+Non è consigliabile procedere ulteriormente a nord. Proprio no!
+DescrHearing:
+L'unico modo per sentire qualcosa è stare fermi ed attendere qualche minuto fino a smettere di gocciolare.
+Così si riesce a cogliere appieno il sordo brusio delle zanzare.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21849
+  Descr:	Palude
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 -1 21813
+  Descr:	Palude
+  Direction:	DIR.SOUTH
+End
+Exits:
+  Comment:	0 -1 21823
+  Descr:	Un'amena foresta
+  Direction:	DIR.WEST
+End

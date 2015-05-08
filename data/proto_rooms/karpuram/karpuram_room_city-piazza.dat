@@ -1,0 +1,31 @@
+Code: karpuram_room_city-piazza
+Sector: SECTOR.PLAIN
+Name: Il [peru]Centro[close] di [springgreen]Karpuram[close]
+Short: Il [peru]centro erboso[close]
+Descr:
+Un'immensa radura circondata da alti alberi come a proteggerla e nasconderla. Saltuari
+gruppi di pietre concorrono a segnalare decine di [maroon]sentieri ed a recintare [green]aiuole floreali[close]
+e timide piantine. Spiccano sulla frontiera della piazza alcune abitazioni plasmate in
+simbiosi con [green]alberi[close] e [green]rampicanti[close].
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Il bosco prosegue
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Il bosco prosegue
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Il bosco prosegue
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Il bosco prosegue
+End

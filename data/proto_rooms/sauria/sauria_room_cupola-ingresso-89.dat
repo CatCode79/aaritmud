@@ -1,0 +1,45 @@
+Comment: 0 4|8|8388608 0
+Code: sauria_room_cupola-ingresso-89
+Sector: SECTOR.UNDERGROUND
+Flags:	ROOM.INSIDE
+Name: Cupola D'Ingresso
+Short: cupola d'ingresso
+
+Descr:
+Sei in un ampio spazio coperto da una volta semisferica. Al punto più in alto della volta è appesa una pallotta di cristallo scuro. Tutto intorno vedi corridoi luminosi e silenti. Da est proviene una sensazione come di antica spossatezza. 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 0 21890
+  Descr:	Sprazzi di memoria
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 0 21892
+  Descr:	Lo studio ottagonale
+  Direction:	DIR.EAST
+End
+Exits:
+  Comment:	0 0 21891
+  Descr:	Sprazzi di memoria
+  Direction:	DIR.SOUTH
+End
+Exits:
+  Comment:	0 0 21888
+  Descr:	Il buio della mente
+  Direction:	DIR.WEST
+End

@@ -1,0 +1,31 @@
+Code: karpuram_room_bosco_est-ovest
+Sector: SECTOR.PLAIN
+Name: Dentro al Ventre di [lime]Karpuram[close]
+Short: lungo i [lime]sentieri[close] del [lime]bosco[close]
+Descr:
+Innumerevoli percorsi fra la boscaglia sembra che appaiano ogni volta che giri l'occhio
+osservando qui e là. Gli alberi con tutta la vegetazione cercano in modo lampante di
+accoglierti nel migliore dei modi inducendoti a procedere più languidamente e
+tranquillamente del solito.
+
+DescrNight:
+Innumerevoli percorsi fra la boscaglia sembra che appaiano nell'oscurità ogni volta che
+giri l'occhio osservando qui e là. L'impressione è che centinaia d'occhi ti osservino di
+rimando. Gli alberi dal canto loro cercano in modo lampante di accoglierti nel migliore
+dei modi inducendoti a procedere più languidamente e tranquillamente del solito.
+
+DescrSixth:
+Un bosco è sempre un buon posto per qualcuno o qualcosa
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Nel folto del bosco
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Nel folto del bosco
+End

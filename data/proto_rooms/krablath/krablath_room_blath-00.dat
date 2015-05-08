@@ -1,0 +1,28 @@
+Code: krablath_room_blath-00
+Sector: SECTOR.PLAIN
+Flags:	ROOM.INSIDE
+Name: [white]Il Gazebo[close]
+Short: [white]sotto il gazebo[close]
+
+Descr:
+I raggi del sole attraversando pizzi e merletti integliati nella cupoletta del [white]gazebo[close] si prodigano in spettacolari giochi di luce; al centro, un foro circolare nelle travi del pavimento, accolglie una semplice pianticella. Tutt'intorno un circolo di panchine si estroflettono dalla parete del [white]gazebo[close].
+DescrTouch: 
+Il legno è ben levigato e verniciato, ti avvicini poi alla pianta che si piega sotto il tocco delle tue dita. 
+DescrSmell: 
+Un leggero sentore [...]
+DescrSixth:
+Intuisci dalla posizione centrale e isolata che questo vegetale debba avere una qualche importanza.
+DescrHearing:
+no_send
+DescrTaste:
+no_send
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: L'isoletta
+End
+

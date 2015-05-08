@@ -1,0 +1,112 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<h2>Indice delle Etichette per una Sezione di Climate</h2>
+<a href='#Humidity'>Humidity:</a><br>
+<a href='#Fog'>Fog:</a><br>
+<a href='#Rain'>Rain:</a><br>
+<a href='#Hail'>Hail:</a><br>
+<a href='#Snow'>Snow:</a><br>
+<a href='#Lightning'>Lightning:</a><br>
+<a href='#Temperature'>Temperature:</a><br>
+<a href='#WindDirection'>WindDirection:</a><br>
+<a href='#Cloud'>Cloud:</a><br>
+<a href='#CloudColor'>CloudColor:</a><br>
+
+<hr>
+<h2>Note Riguardo il Clima di un'Area</h2>
+Il clima di un'area contiene la media dei valori stagionali durante il d&igrave; (per la notte i valori vengono diminuiti in proporzione).<br>
+I valori in percentuale sono indicativi, potrebbe nevicare se la temperatura &egrave; bassa e sta piovendo anche se il valore in <span class="label">Snow</span> &egrave; molto alto, oppure potrebbe esserci della nebbia con umidit&agrave; bassa e temperatura fredda anche se il valore in <span class="label">Fog</span> &egrave; alto.<br>
+In sistema del clima controlla la temperatura ed adegua le percentuali di probabilit&agrave; alla propria situazione meteo, per esempio non c'&egrave; bisogno di inserire quale tipologia di nubi si vedranno perch&eacute; ci penser&agrave; il sistema a seconda delle condizioni del cielo.<br>
+Il controllo sul clima di un'area viene effettuato attorno alla mezza di ogni ora.<br><br>
+
+<hr>
+<h2>Tabella di Riferimento Veloce</h2>
+<table border="1">
+<tr class="thref"><td>Etichetta</td><td>Tipologia</td><td>Utilizzo</td></tr>
+<tr><td class="label">Humidity</td><td>Percentuale</td><td>Obbligatorio</td></tr>
+<tr><td class="label">Fog</td><td>Percentuale</td><td>Obbligatorio</td></tr>
+<tr><td class="label">Rain</td><td>Percentuale</td><td>Obbligatorio</td></tr>
+<tr><td class="label">Hail</td><td>Percentuale</td><td>Obbligatorio</td></tr>
+<tr><td class="label">Snow</td><td>Percentuale</td><td>Obbligatorio</td></tr>
+<tr><td class="label">Lightning</td><td>Percentuale</td><td>Obbligatorio</td></tr>
+<tr><td class="label">Temperature</td><td>Temperatura (in gradi centigradi)</td><td>Obbligatorio</td></tr>
+<tr><td class="label">WindDirection</td><td>Element, relativo alla direzioni</td><td>Facoltativo</td></tr>
+<tr><td class="label">Cloud</td><td>Percentuale</td><td>Obbligatorio</td></tr>
+<tr><td class="label">CloudColor</td><td>Element, relativo ai colori</td><td>Facoltativo</td></tr>
+</table><br>
+
+<hr>
+<h2>Struttura Tipica con le Etichette Obbligatorie (per copia e incolla)</h2>
+<pre>
+Climate:
+  Humidity:
+  Fog:
+  Rain:
+  Hail:
+  Snow:
+  Lightning:
+  Temperature:
+  Cloud:
+End
+</pre><br>
+
+<hr>
+<a name='Humidity'><h3>Humidity:</h3></a>
+&Egrave; una <a href="percent.htm">percentuale</a>.<br>
+Indica la densit&agrave; d'umidit&agrave; nell'aria: 0% secco pi&ugrave; del Sahara, 100% umido come una foresta pluviale.<br><br>
+
+<a name='Fog'><h3>Fog:</h3></a>
+&Egrave; una <a href="percent.htm">percentuale</a>.<br>
+Indica la presenza e la densit&agrave; della nebbia: 0% inesistente, 100% non si vede oltra il proprio naso.<br>
+A volte ci sar&agrave; la nebbia se l'umidit&agrave; nell'aria &egrave; alta e c'&egrave; abbastanza freddo, questo anche se il valore nell'etichetta &egrave; basso.<br><br>
+
+<a name='Rain'><h3>Rain:</h3></a>
+&Egrave; una <a href="percent.htm">percentuale</a>.<br>
+&Egrave; la probabilit&agrave; che si metta a piovere.<br>
+A volte si metter&agrave; a piovere perch&egrave; l'umidit&agrave; nell'aria si &egrave; fatta troppo pesante anche se il valore in questa etichetta &egrave; basso.<br><br>
+
+<a name='Hail'><h3>Hail:</h3></a>
+&Egrave; una <a href="percent.htm">percentuale</a>.<br>
+&Egrave; la probabilit&agrave; che si metta a grandinare al posto di piovere.<br>
+Se la temperatura &egrave; molto rigida la pioggia verr&agrave; trasformata in grandine anche se la probabilit&agrave; di questa etichetta &egrave; bassa.<br><br>
+
+<a name='Snow'><h3>Snow:</h3></a>
+&Egrave; una <a href="percent.htm">percentuale</a>.<br>
+&Egrave; la probabilit&agrave; che si metta a nevicare al posto di piovere.<br>
+Se la temperatura &egrave; molto bassa la pioggia verr&agrave; trasformata in neve anche se la probabilit&agrave; di questa etichetta &egrave; bassa.<br><br>
+
+<a name='Lightning'><h3>Lightning:</h3></a>
+&Egrave; una <a href="percent.htm">percentuale</a>.<br>
+&Egrave; la probabilit&agrave; che si metta tuonare e fulminare quando c'&egrave; pioggia e grandine (a volte anche a ciel sereno).<br><br>
+
+<a name='Temperature'><h3>Temperature:</h3></a>
+Il valore di questa etichetta &egrave; una <a href="temperature.htm">temperatura</a>.<br>
+&Egrave; la temperatura media nell'area durante il d&igrave;, &egrave; espressa in gradi centigradi.<br><br>
+
+<a name='WindDirection'><h3>WindDirection:</h3></a>
+&Egrave; un <a href="element.htm">Element</a> relativo alla <a href="elements_list.htm#DIR">lista delle direzioni</a>.<br>
+Indica in qualche direzione va' il vento.<br>
+Questo valore &egrave; facoltativo<br><br>
+
+<a name='Cloud'><h3>Cloud:</h3></a>
+&Egrave; una <a href="percent.htm">percentuale</a>.<br>
+Indica la probabilit&agrave; che nell'area vi siano delle nubi (qualsiasi tipo esso siano).<br>
+0% indica che non ci sono delle nuvole.<br>
+100% indica che l'area &egrave; completamente coperta dalle nuvole.<br><br>
+
+<a name='CloudColor'><h3>CloudColor:</h3></a>
+&Egrave; un <a href="element.htm">Element</a> relativo alla <a href="colors.htm#dir">lista dei colori</a>.<br>
+Indica, quando vi sono, di che colore sono le nuvole nell'area (potrebbero essere magiche, o una forte luce da terra come quella delle acque di un lago magico potrebbero illuminarle, oppure ancora le nuvole rosso sangue malignamente create da un necromante della zona.)<br>
+Questo valore &egrave; facoltativo<br><br>
+
+<hr>
+</body>
+</html>

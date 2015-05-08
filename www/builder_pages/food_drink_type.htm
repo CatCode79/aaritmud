@@ -1,0 +1,156 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<h2>Indice delle Etichette per i Cibi e le Bevande.</h2>
+<div>
+<a href='#Comment'><span class='label'>Comment</span>:</a><br>
+<a href='#Animal'><span class='label'>Animal</span>:</a><br>
+<a href='#Vegetable'><span class='label'>Vegetable</span>:</a><br>
+<a href='#CookingDamage'><span class='label'>CookingDamage</span>:</a><br>
+<a href='#Hours'><span class='label'>Hours</span>:</a><br>
+<a href='#Affects'><span class='label'>Affects</span>:</a><br>
+<a href='#EntityMessage'><span class='label'>EntityMessage</span>:</a><br>
+<a href='#TargetMessage'><span class='label'>TargetMessage</span>:</a><br>
+<a href='#OthersMessage'><span class='label'>OthersMessage</span>:</a><br>
+</div>
+<br>
+
+<hr>
+<h2>Note Riguardo i Cibi e le Bevande.</h2>
+<div>
+<span class="label">FoodType</span> e <span class="label">DrinkType</span> sono delle etichette che rappresentano una struttura di pi&ugrave; sottoetichette, e quindi abbisognano dell'etichetta <span class="label">End</span> per terminarne la definizione.<br>
+Tutte e due le etichette hanno la stessa serie di sottoetichette e, se non viene indicato diversamente, funzionano alla stessa maniera con la semplice differenza che una struttura viene utilizzata con il comando eat, mentre l'altra con il comando drink. Volendo si pu&ograve; inserire sia l'etichetta <span class="label">FoodType</span> che <span class="label">DrinkType</span> su una stessa entit&agrave;, cos&igrave; da ottenere comportamente differenti con comandi differenti (cos&igrave; come accade aggiungendo eventuali altre etichette rappresentanti delle tipologie di entit&agrave;).<br>
+Sotto verr&agrave; spiegato meglio, ma se la somma della percentuale di <span class="label">Animal</span> e <span class="label">Vegetable</span> non &egrave; uguale a 100 la rimanenza si sottintende come formata d'acqua.<br>
+C'&egrave; un'altra considerazione da fare riguardo ai comand eat e drink, questi funzionano sia direttamente su oggetti con label <span class="label">FoodType</span> e <span class="label">DrinkType</span>, sia su oggetti contenenti degli oggetti con tali label. Per esempio mettiamo caso che nel primo caso un oggetto 'piatto di pasta' abbia l'etichetta <span class="label">FoodType</span>, il comando eat in quel caso far&agrave; sparire anche il piatto oltre che la pasta (proprio come accade nei normali Mud); se invece abbiamo il caso in cui venga creato un oggetto di tipo piatto, che ha l'etichetta <span class="label">ContainerType</span>, e un altro oggetto di tipo pasta, che ha l'etichetta <span class="label">FoodType</span>, in questo caso il comando eat far&agrave; sparire solo la pasta e non il piatto. Medesime considerazioni si possono fare con l'etichetta <span class="label">DrinkType</span> con il comando drink.<br>
+</div>
+<br>
+
+<hr>
+<h2>Tabella di Riferimento Veloce.</h2>
+<div>
+<table border="1">
+<tr class="thref"><td>Etichetta</td><td>Tipologia</td><td>Utilizzo</td></tr>
+<tr><td class="label">Comment</td><td>Stringa, relativa ad un commento</td><td>Facoltativo, consigliato se c'&egrave; qualcosa di particolare</td></tr>
+<tr><td class="label">Animal</td><td>Percentuale</td><td>Facoltativa</td></tr>
+<tr><td class="label">Vegetable</td><td>Percentuale</td><td>Facoltativa</td></tr>
+<tr><td class="label">CookingDamage</td><td>Percentuale</td><td>Facoltativa</td></tr>
+<tr><td class="label">Hours</td><td>Numero</td><td>Facoltativa</td></tr>
+<tr><td class="label">Affects</td><td>Effetti</td><td>Facoltativa</td></tr>
+<tr><td class="label">EntityMessage</td><td>Stringa</td><td>Facoltativa</td></tr>
+<tr><td class="label">TargetMessage</td><td>Stringa</td><td>Facoltativa</td></tr>
+<tr><td class="label">OthersMessage</td><td>Stringa</td><td>Facoltativa</td></tr>
+</table>
+</div>
+<br>
+
+<hr>
+<h2>Strutture Tipiche con le Etichette di Maggior Utilizzo (per copia e incolla).</h2>
+<div>
+<pre>
+FoodType:
+	Animal: 
+	Vegetal: 
+	Affects
+	End
+End
+
+DrinkType:
+	Affects
+	End
+End
+</pre>
+Da notare che un semplice bicchiere d'acqua che non dona nessun effetto si pu&ograve;
+dichiarare cos&igrave;:
+<pre>
+DrinkType:
+End
+</pre>
+Anche se &egrave; preferibile la forma pi&ugrave; esplicita:
+<pre>
+DrinkType:
+	Animal: 0
+	Vegetable: 0
+End
+</pre>
+</div>
+<br>
+
+<hr>
+<h2>Spiegazione delle Etichette.</h2>
+<div>
+<a name='Comment'><h3 class='label'>Comment:</h3></a>
+Eventuale commento relativo il cibo o la bevanda, per maggior informazioni leggere <a href="comment.htm">questa pagina</a>.<br>
+Non &egrave; obbligatorio, ma &egrave; comunque consigliato utilizzarla se la tipologia di entit&agrave; &egrave; una cosa particolare o bisogna segnarsi qualcosa da ricordare.<br>
+<br>
+
+<a name='Animal'><h3 class='label'>Animal:</h3></a>
+&Egrave; una percentuale che indica la quantit&agrave; di fibra animale presente nel cibo o nel liquido.<br>
+Entit&agrave; che seguono una dieta vegetale non mangeranno cibi o non berranno bevande con molte fibre animali.<br>
+La somma del valore di quest'etichetta con quello definito in <span class="label">Vegetable</span> non deve superare il 100, se la loro somma invece &egrave; minore la rimanenza &egrave; intesa come formata da un generico liquido dissetante (che pu&ograve; essere acqua o sangue o altro).<br>
+La presenza di una determinata percentuale liquida definisce anche il periodo di deterioramento del cibo (meno per la bevanda se adeguatamente pura) e anche un aumento dei proprio punti di movimento se questi non erano gi&agrave; al massimo.<br>
+Se l'etichetta <span class="label">Animal</span> e l'etichetta <span class="label">Vegetable</span> sono definite allo 0% rappresenteranno in tal modo della semplice acqua.<br>
+L'etichetta &egrave; facoltativa, se non viene inserita il valore di <span class="label">Animal</span> sar&agrave; uguale allo 0%.<br>
+<br>
+
+<a name='Vegetable'><h3 class='label'>Vegetable:</h3></a>
+&Egrave; una percentuale che indica la quantit&agrave; di fibra vegetale presente nel cibo o nel liquido.<br>
+Entit&agrave; che seguono una dieta carnivora non mangeranno cibi o non berranno bevande con molte fibre vegetali.<br>
+Come viene spiegato nell'etichetta <span class="label">Animal</span> ci sono delle regole da seguire con quest'ultima.<br>
+L'etichetta &egrave; facoltativa, se non viene inserita il valore di <span class="label">Vegetable</span> sar&agrave; uguale allo 0%.<br>
+<br>
+
+<a name='CookingDamage'><h3 class='label'>CookingDamage:</h3></a>
+&Egrave; una percentuale che indica quanto il cibo, o la bevanda, ha ricevuto un danno nella sua preparazione (cibi bruciati, sale al posto dello zucchero, etc etc..).<br>
+Se il valore &egrave; inserito al 100% non si ricever&agrave; alcun benificio di pienezza di stomaco o dissetamento. Se invece &egrave; impostato al 50% si ricaverranno benifici solo per il 50%, etc etc...<br>
+L'etichetta &egrave; facoltativa, se viene omessa si sottintende che il cibo &egrave; stato creato in maniera perfetta, e quindi ha un danno dello 0%.<br>
+<br>
+
+<a name='Hours'><h3 class='label'>Hours:</h3></a>
+&Egrave; un numero che rappresenta le ore RPG passate da quando il cibo, o la bevanda, &egrave; stato creato.<br>
+L'etichetta &egrave; facoltativa, se viene omessa il conteggio inizier&agrave; da 0.<br>
+<br>
+
+<a name='Affects'><h3 class='label'>Affects:</h3></a>
+Gli effetti sono utili per dare un qualsiasi propriet&agrave; al cibo, o alla bevanda, da ingerire.<br>
+Guarire i punti di vita, avvelenare piano piano, aumentare la difesa, uccidere all'istante sono tutte possibili azioni attribuibili tramite gli effetti.<br>
+(TD) per ora gli effetti non sono ancora stati fatti lato codice quindi questa parte &egrave; da saltare.<br>
+<br>
+
+<a name='EntityMessage'><h3 class='label'>EntityMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> che viene letto da chi mangia (o beve) l'entit&agrave; <span class="label">FoodType</span> (o <span class="label">DrinkType</span>) al posto di quello di default.<br>
+Segue le regole normali dei tag di act relativi all'entit&agrave; che fa l'azione e al suo obiettivo, quindi per esempio:<br>
+$n &egrave; il nome dell'entit&agrave; che esegue l'azione<br>
+$o restituisce 'o' se l'entit&agrave; che esegue l'azione &egrave; maschile oppure 'a' se femminile<br>
+$N &egrave; il nome dell'entit&agrave; che subisce l'azione, cio&egrave; viene mangiata (o bevuta)<br>
+$O restituisce 'o' se l'entit&agrave; che subisce l'azione &egrave; maschile oppure 'a' se femminile<br>
+%verb &egrave; il verbo di default per descrivere l'atto del mangiare o bere<br>
+A questi bisogna aggiungere tutti i tag razziali, $hand, $foot, etc etc...<br>
+Anche qui se non si vuole inviare n&eacute; questo messaggio n&eacute; quello di default quest'etichetta deve contenere il valore <i>no_send</i>.<br>
+L'etichetta &egrave; facoltativa, la sua omissione far&agrave; inviare il messaggio di default.<br>
+<br>
+
+<a name='TargetMessage'><h3 class='label'>TargetMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> che viene letto da chi &egrave; mangiato (o bevuto) al posto di quello di default.<br>
+All'etichetta <span class="label">EntityMessage</span> vengono elencati alcuni dei tag di act che si possono utilizzare all'interno del messaggio.<br>
+Se non si vuole inviare n&eacute; questo messaggio n&eacute; quello di default quest'etichetta deve contenere il valore <i>no_send</i>.<br>
+L'etichetta &egrave; facoltativa, la sua omissione far&agrave; inviare il messaggio di default.<br>
+<br>
+
+<a name='OthersMessage'><h3 class='label'>OthersMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> che viene letta da tutti quelli che possono vedere chi sta mangiando (o bevendo) l'entit&agrave; <span class="label">FoodType</span> (o <span class="label">DrinkType</span>) al posto di quello di default.<br>
+All'etichetta <span class="label">EntityMessage</span> vengono elencati alcuni dei tag di act che si possono utilizzare all'interno del messaggio.<br>
+Anche qui se non si vuole inviare n&eacute; questo messaggio n&eacute; quello di default quest'etichetta deve contenere il valore <i>no_send</i>.<br>
+L'etichetta &egrave; facoltativa, la sua omissione far&agrave; inviare il messaggio di default.<br>
+<br>
+
+</div>
+<hr>
+</body>
+</html>

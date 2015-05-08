@@ -1,0 +1,42 @@
+Code: novizi2_room_08-palestra
+Icon: icons/room/triskele-yellow.png
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	La Palestra
+Short:	la palestra
+
+Descr:
+Uno spazio ampio con soffitto a volta e geometria circolare. Al centro è disegnato un quadrato, all'interno ci sono alcuni simboli disegnati a gesso o qualcosa di simile.
+Pochi spigoli vivi e molto spazio di manovra.
+Questa è la zona dove prendere e provare armi e oggetti da tenere in mano.
+I comandi sono:<br>
+<br>
+- $tWIELD<br>
+- $tHOLD<br>
+<br>
+Verso sudest son collocate le rastrelliere con un piccolo campionario di armi.
+
+DescrTouch: 
+Poggi la $hand sul pavimento e ti accorgi che è butterato di squarci, buchi e graffi.
+DescrSmell: 
+Acre odore di sangue rappreso frammisto al dolciastro delle pomate e dei medicamenti.
+DescrSixth:
+Si nota come gli spigoli sian stati rimossi per evitare che ci si possa far male provando le armi o altri oggetti ingombranti.
+Ma più plausibilmente si è cercato di proteggere le armi.
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.WEST
+	Descr: [lemonchiffon]Il guardaroba[close]
+End
+Exits:
+	Direction:	DIR.NORTHEAST
+	Descr: [lemonchiffon]Un corridoio[close]
+End
+Exits:
+	Direction:	DIR.SOUTHEAST
+	Descr:	L'armeria
+End

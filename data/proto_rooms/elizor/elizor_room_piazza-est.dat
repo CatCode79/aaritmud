@@ -1,0 +1,42 @@
+Code: elizor_room_piazza-est
+Sector: SECTOR.CITY
+Name: La Piazza Centrale
+Short: la piazza centrale
+
+Descr:
+Tutta la geometria della piazza viene meno in questo suo tratto più caratteristico e vetusto.
+Niente pare sia riuscito a sovrapporsi a quella che era la vecchia disposizione delle case ed anche la via che si apre verso est è rimasta stretta e poco frequentata.
+Lungo la direzione est alcuni pietroni sono collocati sopra la strada come a copertura di qualcosa che si diparte dalla fontana e forse sbuca più avanti.
+DescrTouch: 
+no_send
+DescrSmell: 
+Arduo il mestiere di chi lavora con l'olfatto in questa piazza calderone e campionario disordinato di tutte le essenze, gli effluvi e le impronte pestilenziali della città.
+Di certo in questo snodo confluisce di tutto.
+DescrHearing:
+Fra tutti gli spicchi di piazza visitati questo è certo il meno fastidioso, oppure forse solo meno frequentato.
+DescrTaste:
+La lingua che sporge per poco tempo qui e niente sarà più come prima.
+Un acre sublimato del sudore di ogni creatura arriva ai tuoi gangli più privati convincendoti ancor di più di non voler reiterare l'esperienza.
+DescrSixth:
+Un vago senso d'umida inquietudine ti carezza fuggevole quasi come un invito.
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	L'angolo nord-est della piazza
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	La via verso est
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	L'angolo sud-est della piazza
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	La piazza maggiore
+End

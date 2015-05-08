@@ -1,0 +1,20 @@
+Code: opekus_room_rovine_01
+Sector: SECTOR.PATH
+Name: Porta Tinia
+Short: l'antica porta d'accesso
+Descr:
+L'arcata sotto la quale passi, ai tempi d'oro doveva essere di rara magnificenza.
+Dei possenti cardini rimane traccia nella ruggine a macchiare la pietra.
+
+Width:	10m
+Depth:	5m
+Height: 10m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: Fuori dalla città in rovina
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Uno spiazzo verso la vegetazione
+End

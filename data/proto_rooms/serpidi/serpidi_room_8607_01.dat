@@ -1,0 +1,43 @@
+Code: serpidi_room_8607_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: Il centro del tempio 
+Short: Il centro del tempio 
+Descr: 
+Il tempio ha una pianta quadrata ed è completamente immerso nel buio, da qui non riesci a vedere chiaramente le pareti, ma puoi osservare gli intarsi del soffitto ed il mosaico sul pavimento. Da quando sei entrato qui dentro ti senti pervaso da una certa oppressione come se qualche oscura ed antica potenza interferisse con i tuoi stessi principi vitali. 
+Exits:
+	Direction: DIR.NORTH
+	Destination: 0 6 0 serpidi
+End
+Exits:
+	Direction: DIR.EAST
+	Destination: 1 5 0 serpidi
+End
+Exits:
+	Direction: DIR.SOUTH
+	Destination: 0 4 0 serpidi
+End
+Exits:
+	Direction: DIR.WEST
+	Destination: -1 5 0 serpidi
+End
+Extras:
+	Keywords: figure 
+Descr:
+Su questa parete sono raffigurati dei guerrieri completamente bardati di nero, non sembrano umani, anche se indossano armi e armature che ti ricordano vagamente quelle di alcuni mercenari. Sei troppo lontano per esaminare le altre pareti. 
+End
+Extras:
+	Keywords: mosaico 
+Descr:
+Qui dal centro puoi finalmente vedere il mosaico nella sua interezza. Non sai esattamente cosa rappresenti, quel che puoi vedere è un enorme serpente, o qualcosa di simile, che si aggroviglia in spire ipnotiche attorno ad altri esseri, una decina, ognuno diverso dall'altro. 
+End
+Extras:
+	Keywords: intarsi 
+Descr:
+Sei troppo lontano dal centro del tempio e vedi molto poco, ma gli intarsi potrebbero rappresentare una qualche divinità intenta a cibarsi. 
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

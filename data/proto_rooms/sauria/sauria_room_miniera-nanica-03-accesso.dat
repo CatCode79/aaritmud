@@ -1,0 +1,26 @@
+Code: sauria_room_miniera-nanica-03-accesso
+Sector: SECTOR.UNDERGROUND
+Flags:	ROOM.INSIDE
+Name:	La Miniera Abbandonata
+Short:	uno scavo verticale
+
+Descr:
+Il fondo roccioso di un ampio scavo pulito e rifinito con dei comodi inviti verticali per l'uscita.
+DescrSmell: 
+Percepisci una vaga fragranza di vaniglia... 
+DescrHearing:
+Il vento porta con se il rumore di pietre smosse.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Descr:	Una miniera abbandonata
+  Direction:	DIR.NORTH
+End
+Exits:
+  Descr:	Prosegue la miniera
+  Destination   -3 -3 -2 novizi
+  Direction:	DIR.UP
+End

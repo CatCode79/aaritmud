@@ -1,0 +1,36 @@
+FunName:    social_joke
+Intention:  INTENTION.NEUTRAL
+Expression: scherzando
+Smiles:     :P :-P :p :-p
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Cerchi una vittima per i tuoi scherzetti..
+  OthersNoArg: $n guarda i presenti con fare poco raccomandabile..
+  EntityFound: Cominci a prenderti gioco di $N scherzosamente.
+  OthersFound: $n comincia a prendersi gioco di $N.
+  TargetFound: $n si prende scherzosamente gioco di te.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Su chi vuoi infierire oggi?
+  OthersNoArg: Lo sguardo di $n si ancor meno raccomandabile.
+  EntityFound: Infierisci senza pensiero su $N.
+  OthersFound: $n infierisce senza pensiero su $N.
+  TargetFound: $n infierisce su di te senza troppo pensiero.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Ti guardi intorno con aria birbona.
+  OthersNoArg: $n deve averne combinata una delle sue, ha un'espressione decisamente birbona.
+  EntityFound: Guardi $N di sottecchi meditando qualche simpatico scherzino.
+  OthersFound: $n sbircia $N di sottecchi meditando qualche simpatico scherzino.
+  TargetFound: $n ti sbircia agitando le vibrisse e sorridendo con aria birbona.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Ti guardi intorno con aria birbona.
+  OthersNoArg: $n deve averne combinata una delle sue, ha un'espressione decisamente birbona.
+  EntityFound: Guardi $N di sottecchi meditando qualche simpatico scherzino.
+  OthersFound: $n sbircia $N di sottecchi meditando qualche simpatico scherzino.
+  TargetFound: $n ti sbircia agitando le vibrisse e sorridendo con aria birbona.
+End

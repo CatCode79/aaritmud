@@ -1,0 +1,24 @@
+Code: siepi_room_intrico_under_01
+Sector: SECTOR.UNDERGROUND
+Name: Sottoterra
+Short: Sottoterra
+Descr:
+Ti trovi a qualche metro di profondità nel terreno. Una lenta ma percettibile corrente
+d'aria che sale verso l'alto proviene da sud portando con se l'odore e l'umidità
+della terra. 
+
+DescrSmell:
+L'odore forte di terreno fresco e l'altissima umidità t'impediscono di sentire altro.
+
+Width:	7m
+Depth:	7m
+Height: 15m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: La via sotterranea 
+End
+Exits:
+  Direction: DIR.UP
+  Descr: Attraverso il tronco
+End

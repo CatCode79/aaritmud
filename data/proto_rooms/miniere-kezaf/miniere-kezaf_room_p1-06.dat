@@ -1,0 +1,25 @@
+Code: miniere-kezaf_room_p1-06
+Sector: SECTOR.UNDERGROUND
+Flags: ROOM.INSIDE
+Icon:	icons/item/rotaie-01.png
+Name: Lo Scavo Abbandonato
+Short: lo scavo meridionale
+
+Descr:
+Fra est ed ovest c'è un repentino cambio di registro. La zona meridionale appare più agile e facile da scavare.
+Al centro c'è anche il termine dei binari con un massiccio blocco di pietra munito di grossi e vecchi respingenti.
+DescrTouch: 
+Le pareti rocciose; dapprima squadrate, man mano che procedi, si trovano a formare una volta più morbida che sale ben oltre la tua statura.
+DescrSmell: 
+Non
+DescrSixth:
+Probabilmente anche con le sole mani si riesce a scavare qui dentro.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.NORTHWEST
+	Descr: Una biforcazione
+End

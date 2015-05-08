@@ -1,0 +1,76 @@
+FunName:    social_adore
+Intention:  INTENTION.FRIENDLY
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Sei in adorazione, ma di chi?.. o di cosa?
+  OthersNoArg: $n cerca qualcuno da adorare.
+  EntityFound: Adori $N.
+  OthersFound: $n adora $N.
+  TargetFound: $n ti guarda in completa adorazione.
+  EntityAuto:  Ti adora, che vanesi$o!
+  OthersAuto:  $n si adora, che vanesi$o!
+End
+RacialMessages:
+  Race:        RACE.HIGHELF
+  EntityNoArg: Tendi le $hands nel vuoto, in accorato moto adorante.
+  OthersNoArg: $n distende le braccia congiungendo le $hands, sta adorando qualcuno?
+  EntityFound: Chini lievemente il capo verso $N in segno di adorazione.
+  OthersFound: $n china lievemente il capo verso $N con moto adorante.
+  TargetFound: $n, con moto gentile del capo, congiunge le $hands verso di te in segno d'adorazione.
+  EntityAuto:  Manifesti appieno il grande amore che nutri per te stess$o.
+  OthersAuto:  $n si sta adorando.. Meglio non interromperl$o.
+End
+RacialMessages:
+  Race:        RACE.DWARF
+  EntityNoArg: Fissi il vuoto come se vedessi un pezzo di mithril..
+  OthersNoArg: $n fissa il vuoto come se vedesse un pezzo di mithril.
+  EntityFound: Fissi $N con intenso moto d'adorazione.
+  OthersFound: $n fissa $N con intenso moto d'adorazione.
+  TargetFound: $n ti fissa agitando la barba con fare adorante.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Hai altri idoli oltre la Natura?
+  OthersNoArg: $n manifesta il bisogno di idoli.
+  EntityFound: $N è il tuo eroe.
+  OthersFound: $n fissa $N rapit$o pendendo dalle sue labbra.
+  TargetFound: $n non ti stacca gli occhi di dosso e beve ogni tua parola.
+  EntityAuto:  Ma quanto sei carin$o!
+  OthersAuto:  $n è pers$o nell'ammirazione di se stess$o.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: ti fermi in silenzio in muta adorazione della tua dea.
+  OthersNoArg: $n si ferma in silenzio in profonda adorazione di qualche sua divinità.
+  EntityFound: Cadi in profonda adorazione di $N.
+  OthersFound: Il capo di $n si china silente dinnanzi a $N.
+  TargetFound: $n china il capo dinnanzi a te in segno di sottomissione.
+  EntityAuto:  Niente e nessuno! Solo tu!
+  OthersAuto:  $n basta decisamente a sé stess$o.
+End
+RacialMessages:
+  Race:        RACE.THEPA
+  EntityNoArg: Sibili parole adoranti..
+  OthersNoArg: $n sibila all'aria parole d'adorazione.
+  EntityFound: Sibili a $N lievi parole d'adorazione..
+  OthersFound: $n sibila a $N lievi parole d'adorazione.
+  TargetFound: $n ti guarda e sibila parole d'adorazione.
+  EntityAuto:  Sssssei presssssocché perfett$o!
+  OthersAuto:  $n testa la propria perfezione con la $tongue.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Sorridi beatamente come in un muta adorazione.
+  OthersNoArg: $n sorride socchiudendo gli occhi come in muta adorazione.
+  EntityFound: Sfioro il capo di $N con il tuo in segno di grande stima.
+  OthersFound: $n sfiora la testa di $N con il proprio capo, manifestando$GLI grande stima.
+  TargetFound: $n sfiora il suo capo contro il tuo in segno di grande stima.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Sorridi beatamente come in un muta adorazione.
+  OthersNoArg: $n sorride socchiudendo gli occhi come in muta adorazione.
+  EntityFound: Sfioro il capo di $N con il tuo in segno di grande stima.
+  OthersFound: $n sfiora la testa di $N con il proprio capo, manifestando$GLI grande stima.
+  TargetFound: $n sfiora il suo capo contro il tuo in segno di grande stima.
+End

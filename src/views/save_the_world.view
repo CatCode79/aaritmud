@@ -1,0 +1,15 @@
+﻿<script>
+function confirmSaveTheWorld() {
+	if (!window.confirm("Vuoi veramente eseguire la persistenza di room, items, mobs, accounts e players?")) {
+		return false;
+	}
+	sendPostRequest("save_the_world.html", "save_the_world=1", afterSaveTheWorld);
+}
+function afterSaveTheWorld(response) {
+	$("#response").text(reponse);
+}
+</script>
+<h3>Save The World:</h3>
+<input type="submit" onclick="return confirmSaveTheWorld();" value="Rendi Persistente" />
+<br>
+<div id="response" />

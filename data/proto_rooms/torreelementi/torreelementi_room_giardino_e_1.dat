@@ -1,0 +1,32 @@
+Code: torreelementi_room_giardino_e_1
+Sector: SECTOR.PLAIN
+Name: Le Talee
+Short: terreno coltivato
+Descr:
+Il terreno qui è diversificato in zone da sentieri d'accesso laterali. Numerosi filari
+di talee sono disposti ordinatamente; nelle zone verso la torre vi son quelli in cui i
+rametti paiono più giovani e fragili. La zona a ridosso del avvallamento ad est è quella
+con le piante già produttive.
+
+Extras:
+  Keywords: produttiva produttive
+  Descr: Prugne, albicocche e  pesche
+  DescrSmell: Prugne, albicocche e pesche
+End
+Extras:
+  Keywords: _proc
+  Descr: Qui la proc deciderà di che albero si tratta
+End
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Macchia naturale 
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Un campo coltivato
+End

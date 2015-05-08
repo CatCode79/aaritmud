@@ -1,0 +1,25 @@
+Code: opekus_room_rovine_11_aperta
+Sector: SECTOR.PATH
+Name: La Via Misteriosa
+Short: una pozza
+Descr:
+La strettissima e breve via s'immerge profondamente  in quel che resta di una pozza
+d'acqua. Ai lati le pareti sono fradice solo fino ad una certa altezza; è probabile
+che il livello sia sceso recentemente. Entro la fossa, quello che pareva essere una
+parete è in realtà un masso tondeggiante che nella parte inferiore consente di
+proseguire verso nord.
+DescrSixth:
+Viene il dubbio che il livello dell'acqua qui muti con una certa frequenza.
+
+Width:	10m
+Depth:	10m
+Height: 10m
+
+Exits:
+  Direction: DIR.UP
+  Descr: La antiche rovine
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: La antiche rovine
+End

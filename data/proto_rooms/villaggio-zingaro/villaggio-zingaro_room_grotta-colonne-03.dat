@@ -1,0 +1,36 @@
+Comment: Abbozzo
+Code: villaggio-zingaro_room_grotta-colonne-03
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: Un Ampio Tornante
+Short: un ampio tornante
+
+Descr:
+Per poter aggirare le colonne il sentiero subisce qui un repentino cambio di direzione passando sotto un arco che tutto sembra fuorché naturale. Piccoli cumuli di detriti sono ammassati ai bordi del passaggio rendendolo disagevole.
+DescrSmell: 
+Aria calda e madida di umido.
+DescrSixth:
+I sentieri tracciati e molti altri piccoli elementi ti fanno pensare che questa grotta non dev'esser stata sempre deserta e silenziosa. 
+DescrHearing:
+Una brezza proveniente da chissà dove produce un suono cupo e mesto.
+
+Extras:
+	Keywords: arco
+	Descr:
+	Un arco irregolare e scolpito nella roccia in maniera sommaria.
+	DescrSixth:
+	Dà l'impressione di esser stato creato per la pura necessità di collegare due parti della grotta senz'alcuna pretesa estetica.
+End
+
+Width:	2m
+Depth:	2m
+Height: 150cm
+
+Exits:
+	Direction: DIR.NORTHEAST
+	Descr: Aggirando le colonne
+End
+Exits:
+	Direction: DIR.NORTHWEST
+	Descr: Aggirando le colonne
+End

@@ -1,0 +1,40 @@
+﻿<script>
+function enableSubmit(id) {
+	document.getElementById(id).disabled = false;
+}
+
+function showSocials(type) {
+	var select = document.getElementById(type + "s");
+	sendPostRequest("show_socials.html", type + "=" + select.options[select.selectedIndex].value, afterAjaxCall);
+}
+
+function afterAjaxCall(response) {
+	if (response.startswith("<?xml version=")) {
+		window.location.reload();
+	} else {
+		document.getElementById("results").innerHTML = response;
+	}
+}
+</script>
+
+Panoramica dei social per razza:&nbsp;
+<select id="races" onchange="enableSubmit('show_socials');">
+${race_options}
+</select>
+<script>
+	document.getElementById("races").selectedIndex = -1;
+</script>
+&nbsp;<input id="show_socials" type="submit" value="Show Socials" onclick="showSocials('race');" disabled="disabled" />
+<br><br>
+
+Panoramica dei messaggi razziali per social:&nbsp;
+<select id="socials" onchange="enableSubmit('show_racial_messages');">
+${social_options}
+</select>
+<script>
+	document.getElementById("socials").selectedIndex = -1;
+</script>
+&nbsp;<input id="show_racial_messages" type="submit" value="Show Socials" onclick="showSocials('social');" disabled="disabled" />
+
+<br><br><hr>
+<div id="results" />

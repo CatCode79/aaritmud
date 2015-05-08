@@ -1,0 +1,27 @@
+Code: krablath_room_settori-16
+Sector: SECTOR.PLAIN
+Name: [yellowgreen]L'Aiuola delle Erbe Aromatiche[close]
+Short: [yellowgreen]tanti bassi cespuglietti[close]
+
+Descr:
+Un alta parete di impenetrabili rovi ti separa dal resto del giardino; con non poca difficoltà ti aggiri tra i bassi cespuglietti senza calpestarli.
+DescrTouch: 
+Prendi una fogliolina la sfreghi tra le mani.
+DescrSmell: 
+Passando una mano tra i cespuglietti scateni un'ondata di aromi che ti stordisce. 
+DescrSixth:
+Il giardiniere dev'essere un amante degli arrosti.
+DescrHearing:
+Avverti il ronzare di una miriade di insetti.
+DescrTaste:
+Non sei certo di voler pescare qualcosa a caso da assaggiare, potresti incontrare qualcosa di poco commestibile.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.SOUTHWEST
+	Descr: Il centro del giardino
+End
+

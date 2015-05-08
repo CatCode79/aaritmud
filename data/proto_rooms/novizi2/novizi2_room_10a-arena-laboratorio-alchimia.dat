@@ -1,0 +1,26 @@
+Code: novizi2_room_10a-arena-laboratorio-alchimia
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	[gold]Il Laboratorio dell'Alchimista[close]
+Short: [gold]il laboratorio[close]
+
+Descr:
+Male illuminato da perpetue lampade giallastre ti si para dinanzi un laboratorio alchemico molto prosaico e poco magico.
+Le originali finestre tondeggianti che si aprivano alte su tutto il perimetro sono tamponate o sigillate.
+Banconi in legno con fasci di piante secche, sacchi di polveri, terre umidicce.
+Scaffali colmi di bottigliette, vasi trasparenti e opachi, strumenti di laboratorio.
+
+DescrTouch: 
+O magia o buonsenso, non si comprende bene ma non riesci a toccare nulla.
+
+DescrSixth:
+Se c'è un laboratorio alchemico attaccato all'arena ci deve essere un ottimo motivo.
+
+Width:  10m
+Depth:  10m
+Height: 4m
+
+Exits:
+	Direction:	DIR.NORTH
+	Descr: [lemonchiffon]L'arena[close]
+End

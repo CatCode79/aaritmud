@@ -1,0 +1,16 @@
+Code: serpidi_room_8633_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: La tomba triangolare 
+Short: La tomba triangolare 
+Descr: 
+Sei in una vasta stanza a pianta triangolare dal soffitto basso. In ogni angolo c'è la mummia di una donna rivestita da una cappa nera. Su ogni parete c'è una raffigurazione dipinta con colori foschi, resi ora sbiaditi dal tempo. Sulla prima la scena mostra una fanciulla che viene affogata. Sulla seconda una giovane donna viene sepolta viva. Sulla terza una vecchia viene arsa su una pira di legna. Al centro della stanza c'è un sarcofago piramidale. 
+Exits:
+	Direction: DIR.UP
+	Destination: 3 7 -1 serpidi
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

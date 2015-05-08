@@ -1,0 +1,75 @@
+Comment:
+FUOCO
+ACQUA immagine o asciiart di qualcosa di legato all'acqua, è l'ingresso della zona fatta di ruscelli
+ARIA qui sarebbe carino un albero sbatacchiato dal vento impresso sulla porta (zona dei venti [DersuUzala nella tormenta])
+TERRA montagna brulla (zona dei fiori, zone impervie massi con graniti coperti da licheni gialli)
+
+
+Code: limbo_room_void_1
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: il bianco sentiero sul circolo d'acqua
+Short: un corso d'acqua circolare
+Descr: 
+Un largo ballatoio a guisa di corridoio circolare descrive tutto il perimetro del piano.
+Un corso d'acqua trasparentissima percorre il perimetro; Numerosi sassi bianchi
+emergono dall'acqua, disegnando un articolato sentiero. Alle quattro finestre aperte
+sull'esterno si alternano quattro arcate. Possenti cardini in metallo sorreggono
+i relativi portali.
+$minute $hour $day $month $year $day_week $season
+Una balaustra di glicini è disposta circolarmente verso l'interno e consente di scorgere
+i piani bassi della torre e la zona soprastante.
+
+Extras:
+  Keywords: alto soprastante zona alti
+  Descr: Superiormente il tetto ha un foro circolare che consente all'acqua piovana di entrare
+End
+Extras:
+  Keywords: basso piani bassi
+  Descr: Si vede fino al pavimento ove c'è una vasca di raccolta, c'è tanta vegetazione che pare
+ di essere all'esterno 
+End
+Extras:
+  Keywords: sassi bianchi
+  Descr: Piatti, stabili e disposti a breve distanza l'uno dall'altro
+End
+Extras:
+  Keywords: finestre
+  Descr: I sassi consentono di avvicinarsi a ciascuna delle finistre per poter vedere all'esterno
+End
+Extras:
+  Keywords: arcate portali
+  Descr: Portali a doppi battenti imperniati su cardini in metallo, ciascun portale reca iscrizioni
+End
+
+Width:	7m
+Depth:	7m
+Height: 5m
+
+Exits:
+  Direction: DIR.DOWN
+  Descr: Il piano inferiore
+End
+Exits:
+  Direction: DIR.NORTH 
+  Descr: FUOCO 
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: ACQUA 
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: ARIA 
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: TERRA
+End
+Exits:
+  Destination 1 2 3 limbo
+  Direction: DIR.UP
+  Descr: Dovremmo essere quasi in cima oramai
+End
+
+Music creation.mid

@@ -1,0 +1,30 @@
+Code: villaggio-zingaro_room_grotta-01
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: Il Fondo del Pozzo
+Short: in ammollo nel pozzo
+
+DescrNight:
+Galleggi sul fondo del pozzo con l'acqua che ti arriva alla gola. L'ora tarda impedisce di scorgere in alto l'uscita superiore del pozzo; intravedi un'apertura nella roccia su di un lato appena sotto di te.
+Descr:
+Galleggi sul fondo del pozzo con l'acqua che ti arriva alla gola. L'unica luce che riesci a scorgere, peraltro molto lontana, è quella proveniente dall'imboccatura del pozzo; intravedi un'apertura nella roccia su di un lato appena sotto di te.
+DescrTouch: 
+Viscide alghette cresciute sulle pareti del pozzo ti lambiscono la $skin.
+DescrSmell: 
+Aria calda e madida d'umido.
+DescrHearing:
+Lo scorrere di qualche rivoletto d'acqua lungo le pareti rompe timidamente il profondo silenzio.
+DescrSixth:
+Bloccato in fondo al pozzo devi deciderti sul da farsi..tentare le risalita o proseguire?
+
+Width:	2m
+Depth:	2m
+Height: 2m
+Exits:
+	Direction: DIR.UP
+	Descr: Verso la cima del pozzo
+End
+Exits:
+	Direction: DIR.EAST
+	Descr: Un passaggio sommerso
+End

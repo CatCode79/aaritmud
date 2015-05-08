@@ -1,0 +1,26 @@
+FunName:    social_tsk
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Fai una faccia supponente dicendo a denti stretti: Tsk tsk tsk..
+  OthersNoArg: $n fa una faccia supponente dicendo a denti stretti: Tsk tsk tsk.
+  EntityFound: Guardi $N supponente dicendo: Tsk tsk tsk..
+  OthersFound: $n guarda $N con aria supponente dicendo: Tsk tsk tsk..
+  TargetFound: $n ti guarda supponente dicendo: Tsk tsk tsk..
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Sollevi un sopracciglio con aria supponente.
+  OthersNoArg: $n osserva i presenti con aria supponente ed agitando la punta della coda.
+  EntityFound: Fissi $N con alterigia per un istante, poi degni altro della tua attenzione.
+  OthersFound: $n concede a $N un pezzetto della sua alterigia, poi sposta la sua attenzione su altro.
+  TargetFound: $n ti fissa per un istante con alterigia, poi si volge altrove.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Sollevi un sopracciglio con aria supponente.
+  OthersNoArg: $n osserva i presenti con aria supponente ed agitando la punta della coda.
+  EntityFound: Fissi $N con alterigia per un istante, poi degni altro della tua attenzione.
+  OthersFound: $n concede a $N un pezzetto della sua alterigia, poi sposta la sua attenzione su altro.
+  TargetFound: $n ti fissa per un istante con alterigia, poi si volge altrove.
+End

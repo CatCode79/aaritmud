@@ -1,0 +1,45 @@
+Code:	opekus_room_ofidian_temple_scala-sx-02
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	L'Erta Scala Est
+Short:	l'erta scalinata
+
+Descr:
+I gradini sporgono dalla parete cresciuti come funghi, in lunghezze diseguali;
+La visuale è ristretta alla prima navata della cattedrale ed alle relative colonne.
+
+DescrTouch:
+Indugi con il piede al su uno dei gradini cercando al contempo sostegno alla parete scoprendo che la parete è ILLUSORIA!
+
+DescrSixth:
+I gradini sporgono dalla parete come fatti estroflettere da un'antica magia,
+ma proprio qui dove ti trovi ora ce n'è [red]uno[close] che vibra.
+
+
+Extras:
+	Keywords:	uno gradino gradini vibra parete vibrazione vibrare
+	Descr:
+	Il gradino ove ti trovi vibra distorcendo la visione della parete alla quale è infisso, come se in realtà la parete fosse illusoria.
+	DescrTouch:
+	Con la $hand percorri il gradino verso l'interno scoprendo che non c'è parete a nord.
+	DescrSixth:
+	Non c'è parete a nord, si tratta di un'illusione!
+End
+
+Width:	3m
+Depth:	1m
+Height: 5m
+
+Exits:
+	Direction:	DIR.DOWN
+	Descr:	La navata laterale
+End
+Exits:
+	Direction:	DIR.NORTH
+	Flags:	EXIT.NO_LOOK_LIST
+	Descr:	Una stanza
+End
+Exits:
+	Direction:	DIR.UP
+	Descr:	Sulla scalinata
+End

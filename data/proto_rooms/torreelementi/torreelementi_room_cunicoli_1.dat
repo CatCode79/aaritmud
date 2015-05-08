@@ -1,0 +1,20 @@
+Code: torreelementi_room_cunicoli_1
+Sector: SECTOR.CAVERN
+Name: La Spianata Buia
+Short: massi e roccia ovunque
+Descr:
+Le pareti sono di roccia e terreno compattati. A terra c'è uno scomodo strato di sabbia e sassi.
+Il fondo della buca è disastrato, attorno a te un sentiero sale a chiocciola verso l'alto, verso l'uscita.
+Verso nord, un arco di roccia conduce chissà dove.
+Width: 30m
+Depth: 30m
+Height: 10m
+Exits:
+  Direction: DIR.UP
+  Descr: Gira gira gira, su su su..
+  DescrNight: Ancora solo un giro?
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Una mistica fluorescenza
+End

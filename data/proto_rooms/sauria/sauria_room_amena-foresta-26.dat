@@ -1,0 +1,39 @@
+Comment: 85 1 3
+Code: sauria_room_amena-foresta-26
+Sector: SECTOR.FOREST
+Name: Un'Amena Foresta
+Short: un'amena foresta
+
+Descr:
+Il sentiero qui si stringe e la vegetazione s'infittisce man mano che procedi! Non riesci a vedere molto più avanti delle tue braccia.  
+DescrTouch: 
+Noti che la vegetazione s'abbassa percettibilmente man mano che procedi verso nord.
+DescrSmell: 
+Un triste puzzo di uova marce persiste a fior di terra rafforzando in te l'idea di cercare presto un altro posto ove riposare.
+DescrHearing:
+Una leggera brezza soffia da nord e ti accarezza le spalle.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21831
+  Descr:	Una radura
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 -1 21825
+  Descr:	Un'amena foresta
+  Direction:	DIR.EAST
+End
+Exits:
+  Comment:	0 -1 21820
+  Descr:	Un'amena foresta
+  Direction:	DIR.SOUTH
+End
+Exits:
+  Comment:	0 -1 21827
+  Descr:	Un'amena foresta
+  Direction:	DIR.WEST
+End

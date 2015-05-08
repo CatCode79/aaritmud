@@ -1,0 +1,28 @@
+FunName:    social_laugh
+Intention:  INTENTION.FRIENDLY
+Expression: ridendo
+Smiles:     :D :-D ^_^ :d :-d
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Ridi di cuore!
+  OthersNoArg: $n scoppia a ridere!
+  EntityFound: Ridi di cuore guardando $N.
+  OthersFound: $n ride di cuore guardando $N.
+  TargetFound: $n ride di cuore guardandoti!
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Ridi di cuore! E' bella la vita, soprattutto la quinta.
+  OthersNoArg: $n ride gioiosamente forse pensando alla bellezza delle sue sette vite.
+  EntityFound: $N ti fa proprio ridere di cuore.
+  OthersFound: $n guarda $N e sfodera una sincera risata birbona.
+  TargetFound: $n ti guarda ridendo di cuore con aria birbona.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Ridi di cuore! E' bella la vita, soprattutto la quinta.
+  OthersNoArg: $n ride gioiosamente forse pensando alla bellezza delle sue sette vite.
+  EntityFound: $N ti fa proprio ridere di cuore.
+  OthersFound: $n guarda $N e sfodera una sincera risata birbona.
+  TargetFound: $n ti guarda ridendo di cuore con aria birbona.
+End

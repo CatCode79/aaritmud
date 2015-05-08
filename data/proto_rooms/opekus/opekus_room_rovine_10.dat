@@ -1,0 +1,25 @@
+Code: opekus_room_rovine_10
+Sector: SECTOR.PATH
+Name: L'Antica Strada
+Short: Il cammino erboso
+Descr:
+Quello che resta dell'arteria principale, qui devia in un arco di sentiero che proviene
+da ovest e di botto sparisce nel nulla. A terra si notano appena dei leggeri solchi in
+direzione est.
+
+Width:	10m
+Depth:	10m
+Height: 10m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: La via principale
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: La via principale
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Intricati rovi
+End

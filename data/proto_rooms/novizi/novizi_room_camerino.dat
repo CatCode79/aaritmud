@@ -1,0 +1,35 @@
+Code: novizi_room_camerino
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: camerino
+Short: camerino
+
+DescrNight:
+Il camerino è soprattutto un anfratto piccolo in cui si entra a malapena e le lampade accese consumano tutta l'aria, fortunatamente c'è almeno uno [yellow]specchio[close] per guardarsi.
+
+Descr:
+Il camerino è soprattutto un anfratto piccolo in cui si entra a malapena, fortunatamente c'è uno [yellow]specchio[close] per guardarsi. Di notte le lampade accese devon fare un calore della malora.
+
+DescrSmell: 
+L'odore che si respira conferma che è usato da avventurieri con la predilezione per l'attività fisica.
+
+DescrSixth:
+Hai l'impressione che i vestiti appoggiati qui in terra spariscano quando non li guardi.
+
+Extras:
+	Keywords: specchio
+	Descr:
+	La tua immagine allo specchio non è mai stata così... uhm... splendida.
+	DescrTouch:
+	Allunghi le dita per capire se i punti neri sullo specchio sono buchi o cosa...
+        Si direbbe un po' di sozzume
+End
+
+Width:	2m
+Depth:	2m
+Height: 2m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: La confusione d'indumenti
+End

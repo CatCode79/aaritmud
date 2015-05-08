@@ -1,0 +1,47 @@
+Code: karpuram_room_secolare-11
+Sector: SECTOR.PLAIN
+Name: Il Terzo Ballatoio
+Short: il terzo ballatoio
+
+Descr:
+La geometria di questo ballatoio risulta perfettamente esagonale e su ogni 
+angolo vi sono delle piccole rientranze sopra le quali spiccano altrettante 
+lampade al momento spente. Questa postazione risulta controllata da sei elfi, 
+che seppur ben mimetizzati sulle pareti delle piccole rientranze, ogni tanto
+fanno capolino per osservarti. Anche se questo ballatoio è di notevoli
+dimensioni, risulta armoniosamente in linea con le altre strutture che ruotano
+attorno all'enorme albero secolare che si trova perfettamente al centro. 
+Volgendo lo sguardo intorno a te, verso il basso noti una stanza ben difesa, a
+sud una torretta d'avvistamento mentre ad est una piattaforma di transito.
+
+DescrNight:
+La geometria di questo ballatoio risulta perfettamente esagonale e su ogni 
+angolo vi sono delle piccole rientranze sopra le quali spiccano altrettante 
+lampade che diffondono una flebile [orange]luce[close] arancione. Questa 
+postazione risulta controllata da sei elfi, che seppur ben mimetizzati sulle 
+pareti delle piccole rientranze, ogni tanto fanno capolino per osservarti. 
+Anche se questo ballatoio è di notevoli dimensioni, risulta armoniosamente in 
+linea con le altre strutture che ruotano attorno all'enorme albero secolare che 
+si trova perfettamente al centro. Volgendo lo sguardo intorno a te, verso il 
+basso noti una stanza ben difesa, a sud una torretta d'avvistamento mentre 
+ad est una piattaforma di transito.
+
+
+
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.DOWN
+  Descr: Una stanza ben difesa
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Una seconda torretta
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Una piattaforma di passaggio
+End

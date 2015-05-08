@@ -1,0 +1,47 @@
+Code: novizi_room_ingresso-02
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Benvenuto
+Short: la stanza di benvenuto
+
+Descr:
+Il [red]N[gold]akilen[close] ora ti attende e qui di seguito ci sono alcune altre comode informazioni
+per esplorare questo mondo; molti sono gli aspetti nuovi ai quali potrai andare incontro. Ecco quali
+le [yellow]modalità principali[close] per investigare:<br>
+<br>
+- $tLOOK<br>
+- $tSMELL<br>
+- $tLISTEN<br>
+- $tTOUCH<br>
+- $tTASTE<br>
+- $tINTUITION<br>
+<br>
+Già in questa misera stanza troverai che c'è più di quanto non si veda con gli occhi.
+Puoi uscire in ogni momento senza timore di perdere gli oggetti che hai con te.
+
+DescrTouch: 
+Bene, stai cercando di toccare l'aria per vedere se quelle sei scritte rosse sono
+sospese o appiccicate. Spiacente ma sono appiccicate al muro.
+DescrSmell: 
+Allarghi le narici e cominci ad inspirare lungamente fino a sentire un profumo di
+spezzatino provenire dal basso
+DescrSixth:
+Il tuo sesto senso ti fa intuire come [red]N[gold]akilen[close] nasconda più di quanto credevi inizialmente
+DescrHearing:
+Ti metti in attento ascolto e senti il frinire delle cicale provenire dalla finestra
+DescrTaste:
+Provi a dare una leccata alle sei scritte verdi sulla parete per verificare se la
+vernice è fresca. No, non è fresca.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.UP
+  Descr: La fine delle scale
+End
+Exits:
+  Direction: DIR.DOWN
+  Descr: La scalinata verso il basso
+End

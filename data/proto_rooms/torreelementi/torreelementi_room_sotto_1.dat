@@ -1,0 +1,37 @@
+Code: torreelementi_room_sotto_1
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Il Corridoio Disadorno
+Short: un corridoio
+Descr:
+Il corridoio procede in direzione est-ovest, le pareti sono ruvide, asciutte e prive di
+segni di alcun genere. La luminosità soffusa cresce in direzione ovest. Su di un lato
+noti una nicchia oblunga grande poco più di un braccio e stretta quanto un pugno.
+
+Extras:
+  Keywords: nicchia
+  Descr: Completamente vuota, pulita, asciutta...
+End
+Extras:
+  Keywords: segni
+  Descr: Beh, ok, si... qualche graffio e un po' di muffetta nera c'è! 
+End 
+Extras:
+  Keywords: muffa nera muffetta
+  Descr:
+	La [darkolivegreen]muffa[close] è [darkolivegreen]muffa[close], vera [darkolivegreen]muffa[close] originale, se ne vuoi dei campioncini basta che te la vai
+	a raschiare via, è gratis!
+End 
+
+Width:	7m
+Depth:	2m
+Height: 2m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: Uno slargo
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Un trivio
+End

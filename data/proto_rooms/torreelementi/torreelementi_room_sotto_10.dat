@@ -1,0 +1,50 @@
+Comment: qui ci deve essere fresco che la stanza è un frigo per l'inoculato che attende
+di esser posto a germinare stanza pulita
+a sud ci deve essere una porta da chiudere
+
+Code: torreelementi_room_sotto_10
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: la stanza di raccordo
+Short: un corridoio freddo
+Descr:
+Un corridoio lindo e pulito illuminato da una luce bianca e soffusa termina sul lato
+ovest con una grata e procede per un lungo tratto verso est. Le pareti appaiono
+rivestite di un materiale lucido e riflettente.
+
+DescrSmell:
+Qui gli odoro e i profumi sono molto ovattati ma si percepisce distintamente sopra
+gli altri un vago odore di muffa.
+
+Extras:
+  Keywords: muffa
+  DescrSmell: Odore di muffa... ma non la muffa... uhm... boh...
+  Descr: Si fatica un po' a respirare con tutta questa umidità
+  DescrSixth: Questo è odore di [red]funghi[close]
+End
+Extras:
+  Keywords: parete pareti lucido riflettente
+  Descr: Lucentezza metallica ma non lucide a sufficienza da riflettere come uno specchio
+End
+Extras:
+  Keywords: grata
+  Descr:	La grata ha un meccanismo di apertura a sportello
+End
+Extras:
+  Keywords: meccanismo sportello
+  Descr: Sembra alquanto improbabile attivarlo dall'esterno
+  DescrSixth: Impossibile
+End
+
+Width:	7m
+Depth:	4m
+Height: 2m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Un salone
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Un corridoio
+End

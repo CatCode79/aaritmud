@@ -1,0 +1,34 @@
+FunName:    social_murmur
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Mormori qualcosa distrattamente..
+  OthersNoArg: $n mormora qualcosa distrattamente..
+  EntityFound: Mormori distrattamente qualcosa all'indirizzo di $N.
+  OthersFound: $n mormora distrattamente qualcosa all'indirizzo di $N.
+  TargetFound: $n mormora distrattamente qualcosa verso di te.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Mormori qualche parola sovrappensiero.
+  OthersNoArg: $n produce un ronzio appena percettibile.
+  EntityFound: Voli vicino all'orecchio di $N per dir$GLI qualcosa di riservato.
+  OthersFound: $n vola all'orecchio di $N per parlar$GLI senza essere sentit$o da altri.
+  TargetFound: $n ti si avvicina all'orecchio con fare di chi sta per rivelare un segreto.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Miagoli qualcosa a bassa voce, poco più che un sussurro.
+  OthersNoArg: $n sta mormorando alcune parole o forse dei miagolii profondi.
+  EntityFound: Mormori alcune parole all'orecchio di $N.
+  OthersFound: $n miagola qualcosa all'orecchio di $N.
+  TargetFound: Le vibrisse di $n ti solleticano l'orecchio mentre $n ti mormora qualcosa.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Miagoli qualcosa a bassa voce, poco più che un sussurro.
+  OthersNoArg: $n sta mormorando alcune parole o forse dei miagolii profondi.
+  EntityFound: Mormori alcune parole all'orecchio di $N.
+  OthersFound: $n miagola qualcosa all'orecchio di $N.
+  TargetFound: Le vibrisse di $n ti solleticano l'orecchio mentre $n ti mormora qualcosa.
+End

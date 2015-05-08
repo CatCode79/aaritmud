@@ -1,0 +1,103 @@
+Comment:
+Stanza deputata per lo più a test relativi ad implementazioni nuove senza la necessità dell'rpg e di tutte quelle cose che...
+
+Code: mfdonald_room_negozio
+Sector: SECTOR.AIR
+Name: Solo da MfDonald
+Short: Il baracchino delle prelibatezze
+Descr: 
+Sopra una coltre densa e morbida si che 'l tuo andare procede con piè sicuro, ecco che alcuni
+strali dipinti in rosso colore a guisa d'indicazione conducon inesorabili ad un'edicola lucida.
+Tutto qui ispira fiducia e senso di pace... ed insinua pure un certo languore.
+Il cartello appeso sopra chiarisce ogni dubbio.
+Il bottegaio è un... un... un...
+
+DescrSmell: L'odore di fritto è inconfondibile e due sole cose ti preoccupano ora:
+- Ottenere in qualunque maniera le prelibatezze indicibili che certo assaggerai a breve
+- Trovare il modo di giustificarti presso il tuo medico
+DescrHearing: A ritmo cadenzato ti giungono all'orecchio i tipici rumori di leggero sfrigolio
+
+ShortNight: un baracchino chiuso
+DescrNight:
+Sopra una coltre densa e morbida si che 'l tuo andare procede con piè sicuro, ecco che in poca
+distanza sei condotto inesorabile ad un'edicoletta.
+Tutto qui ispira fiducia e senso di pace... ma insinua anche un vaghissimo senso di nausea.
+Peccato sia tutto chiuso e non si veda nessuno al baracchino ma vi sia solo una scritta su un
+cartello appeso sopra che chiarisce ogni dubbio.
+
+DescrSmellNight: Senti il grasso odoraccio tipico di untume tiepido e stantio
+DescrHearingNight: Riconosci un gocciolio pur se sporadico ed irregolare provenire dal baracchino 
+
+Extras:
+  Keywords:	edicola lucida
+  Descr: è poco più di un baldacchino in legnaccio sottile e cigolante a base quadrata con sedie
+        e tavolini vagamente puliti disposti alla rinfusa tutto intorno
+  DescrNight: è poco più di un baldacchino in legnaccio a base quadrata con un ampio spiazzo antistante,
+              accanto sono impilate alcune sedie ed alcuni tavolini richiusi    
+End
+Extras:
+  Flags: EXTRA.DAY_ONLY
+  Keywords: bottegaio
+  Descr: MindFlayer?? Beh... si, un mindflayer intento a bere da una lattina senza cannuccia.
+              Non ne ha ovviamente bisogno
+End
+Extras:
+  Keywords: cartello
+  Descr: Da R'Ham Esh - Cervella avvolte in morbida pastella e fritti in olio di semi - 
+              prezzi di favore
+End
+Extras:
+  Keywords: odore
+  Descr: Prova
+  DescrSmell: Il profumo è delizioso, altro che nettare ed ambrosia!
+End
+Extras:
+  Flags: EXTRA.DAY_ONLY
+  Keywords: mindflayer
+  Descr: Un essere alto vagamente umanoide con due occhi tondi tondi quanto inespressivi, numerosi tentacoli
+              pendono al posto della bocca muovendosi in continuazione; frequentemente fa il classico rumore 
+              irritante di chi tira su con il naso. 
+End
+
+Width:	7m
+Depth:	7m
+Height: 5m
+
+Exits:
+  Direction: DIR.DOWN
+  Descr: Un portale di pietra
+  Destination: 1 2 -3 torreelementi 
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: La via
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Un passaggio
+  Flags: EXIT.NO_LOOK_LIST
+End
+Exits:
+  Direction: DIR.UP
+  Descr: Una scala per salire
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Per l'oggetto nascosto
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Utilitate
+End
+
+MobBehaviour:
+	RandomDo:	10
+	RandomDoInputs:	emote si gratta.
+        RandomDoInputs:	smile
+End
+
+ItemBehaviour:
+	RandomDo:	10
+	RandomDoInputs:	emote vibra come una tupaia.
+        RandomDoInputs:	yawn
+End

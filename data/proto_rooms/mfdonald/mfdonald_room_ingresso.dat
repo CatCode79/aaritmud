@@ -1,0 +1,29 @@
+Code: mfdonald_room_ingresso
+Sector: SECTOR.VILLAGE
+Name: L'Ingresso
+Short: [green]l'ingresso[close]
+
+Descr:
+Salute a te avventuriero avventato che hai fatto l'ingresso in [yellow]A[red]arit[close].
+Queste poche righe sono qui ad indicarti come ci si muove e come si interagisce in questo mondo.
+
+La tua amica principale è la barra orizzonale in basso in cui puoi scrivere i [red]comandi[close]
+che vuoi eseguire.
+
+Tu ora sei $n e sei qui in questa stanza che, come è scritto in verde, si chiama l'ingresso.
+Qui sotto in rosso è scritto che a NORD c'è ****. Per visitarlo basta digitare il comando
+[red]nord[close] nella barra sottostante e pigiare enter. 
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: In strada
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: In strada
+End

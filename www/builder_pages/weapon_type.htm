@@ -1,0 +1,90 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<h2>Indice delle Etichette per le Armi</h2>
+<div>
+<a href='#Comment'><span class='label'>Comment</span>:</a><br>
+<a href='#Category'><span class='label'>Category</span>:</a><br>
+<a href='#Flags'><span class='label'>Flags</span>:</a><br>
+<a href='#Damage'><span class='label'>Damage</span>:</a><br>
+</div>
+<br>
+
+<hr>
+<h2>Note Riguardo alla Valuta.</h2>
+<div>
+<span class="label">WeaponType</span> &egrave; un'etichetta che rappresenta una struttura di pi&ugrave; sottoetichette, e quindi abbisogna dell'etichetta <span class="label">End</span> per terminarne la definizione.<br>
+Importante ricordare che il livello dell'item, nel caso esso sia un'arma implica che per essere maneggiata in modo efficiente impone al player o al mob lo stesso livello o superiore.
+Un pg di livello uno che impugna un'arma di livello dieci alla meglio potr&agrave; farsi del male da solo.
+Una nota obbligatoria su questa struttura: le armi sono il mezzo di comunicazione pi&ugrave; utilizzato dalla preistoria ad oggi; potevamo dunque noi di Aarit esserne sprovvisti? 
+</div>
+<br>
+
+<hr>
+<h2>Tabella di Riferimento Veloce.</h2>
+<div>
+<table border="1">
+<tr class="thref"><td>Etichetta</td><td>Tipologia</td><td>Utilizzo</td></tr>
+<tr><td class="label">Comment</td><td>Stringa, relativa ad un commento</td><td>Facoltativo, consigliato se c'&egrave; qualcosa di particolare</td></tr>
+<tr><td class="label">Category</td><td>Flags, relative alla tipologia WEAPON</td><td>Obbligatoria</td></tr>
+<tr><td class="label">Flags</td><td>Flags, relative alla tipologia WEAPONFLAG</td><td>Obbligatoria</td></tr>
+<tr><td class="label">Damage</td><td>dadi di danno</td><td>Facoltativa</td></tr>
+</table>
+</div>
+<br>
+
+<hr>
+<h2>Struttura Tipica con le Etichette di Maggior Utilizzo e Valori Random.</h2>
+<div>
+<pre>
+WeaponType:
+	Category:	WEAPON.SWORD
+	Damage: 1D6+1
+	Flags:	WEAPONFLAG.ONE_HAND 
+End
+
+
+</pre>
+</div>
+<br>
+
+<hr>
+<h2>Spiegazione delle Etichette.</h2>
+<div>
+<a name='Comment'><h3 class='label'>Comment:</h3></a>
+Eventuale commento relativo al vestito, per maggior informazioni leggere <a href="comment.htm">questa pagina</a>.<br>
+Non &egrave; obbligatoria, ma &egrave; comunque consigliato utilizzarla se la tipologia d'entit&agrave; &egrave; una cosa particolare o bisogna segnarsi qualcosa da ricordare.<br>
+<br>
+
+
+<a name='Category'><h3 class='label'>Category:</h3></a>
+Indica il tipo di arma. &Egrave; un parametro importante perch&eacute; da essa &egrave; desunto anche il tipo di danno (taglio, contundente, perforazione, da fuoco, etc.).
+La lista delle armi si trova nella pagina degli <a href="elements_list.htm#WEAPON">elementi WEAPON</a>.
+<br>
+
+<a name='Flags'><h3 class='label'>Flags:</h3></a>
+L'arma deve essere ad una mano o due mani.
+Se non viene specificata alcuna Flag, in un prossimo futuro, l'arma non risulter&agrave; impugnabile.
+I due valori possibili dunque sono WEAPONFLAG.ONE_HAND e  WEAPONFLAG.TWO_HANDS.
+La lista delle due Flag si trova anche nella pagina degli <a href="elements_list.htm#WEAPONFLAG">elementi WEAPONFLAG</a>.
+
+<br>
+
+<a name='Damage'><h3 class='label'>Damage:</h3></a>
+Il danno dell'arma dipende dal livello che viene attribuito all'entit&agrave; tramite l'etichetta Level.
+&Egrave; vivamente consigliato all'inizio di non utilizzare l'etichetta per non trovarsi con armi troppo potenti che potrebbero dover essere limitate o ritirate; oppure all'opposto rischiare di fare armi troppo deboli che sarebbero scartate dai giocatori vanificando la smodata cura con cui il builder ha realizzato l'oggetto.
+Nel caso foste davvero sicuri di sapere il fatto vostro, potete valutare i valori di default alla pagina dei <a href="damages.htm">danni da arma</a>.
+Da notare che sono ammessi anche valori negativi per il danno; in questo caso l'avversario verr&agrave; rigenerato invece che danneggiato. L'unica incombenza davvero  opprimente in questo caso &egrave; giustificare una scelta dall'apparenza cos&igrave; assurda.
+
+<br>
+</div>
+<hr>
+</body>
+</html>

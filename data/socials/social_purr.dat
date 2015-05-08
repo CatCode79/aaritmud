@@ -1,0 +1,34 @@
+FunName:    social_purr
+Intention:  INTENTION.FRIENDLY
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Fai le fusa.. E miagoli pure!
+  OthersNoArg: $n fa le fusa..
+  EntityFound: Ti strofini contro $N facendo le fusa.
+  OthersFound: $n si strofina contro $N facendo le fusa.
+  TargetFound: $n fa le fusa strofinandosi contro di te.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Decisamente no!
+  OthersNoArg: no_send
+  EntityFound: Decisamente no!
+  OthersFound: no_send
+  TargetFound: no_send
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Ti esibisci in sonore fusa per la gioia dei presenti.
+  OthersNoArg: $n allieta l'ambiente con le sue tranquillizzanti fusa.
+  EntityFound: Ti avvicini a $N facendo le fusa per $LUI.
+  OthersFound: $n si accosta a $N facendo le fusa.
+  TargetFound: $n ti sfiora con il suo corpo facendo le fusa.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Ti esibisci in sonore fusa per la gioia dei presenti.
+  OthersNoArg: $n allieta l'ambiente con le sue tranquillizzanti fusa.
+  EntityFound: Ti avvicini a $N facendo le fusa per $LUI.
+  OthersFound: $n si accosta a $N facendo le fusa.
+  TargetFound: $n ti sfiora con il suo corpo facendo le fusa.
+End

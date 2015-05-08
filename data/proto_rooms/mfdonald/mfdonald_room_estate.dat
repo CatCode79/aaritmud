@@ -1,0 +1,25 @@
+Code: mfdonald_room_estate
+Sector: SECTOR.AIR
+Name: L'Estate
+Short: una generica estate calda come tutti gli anni
+Descr: 
+Sei sotto un pergolato, comod$o sdraiato nell'erba bassa ma rigorosamente in fiore in
+stretto accordo con le volontà del regista rompiballe. Nulla sembra turbare il tuo volto
+che ha (per contratto) lineamenti morbidi e rilassati per tutta la durata delle riprese.
+
+
+DescrSmell:
+Lo svantaggio delle produzioni di second'ordine è che non curano per nulla i dettagli.
+L'odore di olio lubrificante e borotalco sono quanto di peggio con questo caldo
+DescrSixth:
+Alla macchinetta delle bibite sta l'oggetto dei tuoi desideri ora. Sai che lo
+raggiungerai entro 10minuti da ora, la pausa caffè dei cameraman.
+
+Width:	12m
+Depth:	12m
+Height: 4m
+
+Exits:
+  Direction: DIR.DOWN
+  Descr: La friggitoria
+End

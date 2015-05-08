@@ -1,0 +1,23 @@
+Code: klirbe_room_sentiero-03
+Sector: SECTOR.HILL
+Name: L'Inzio del Sentiero
+Short: comincia la salita
+
+Descr:
+Un largo sentiero pigro e scosceso che congiunge in pochi tornanti il fondovalle con
+la perigliosa via verso la cima. Ai bordi del sentiero la vegetazione s'alterna con
+terra argillosa e sassi bianchi.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.NORTHEAST
+	Descr: Il sentiero continua a salire
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: Il fondovalle
+End
+

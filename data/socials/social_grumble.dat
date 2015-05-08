@@ -1,0 +1,34 @@
+FunName:    social_grumble
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Borbotti qualcosa.
+  OthersNoArg: $n borbotta qualcosa sommessamente
+  EntityFound: Borbotti qualcosa verso $N.
+  OthersFound: $n borbotta qualcosa verso $N.
+  TargetFound: $n ti borbotta qualcosa in faccia.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Ti viene spontaneo salmodiare malevolmente un augurio nefasto.
+  OthersNoArg: $n salmodia malevolmente qualcosa di nefasto.
+  EntityFound: Ti viene spontaneo Salmodiare malevolmente un augurio nefasto per $N.
+  OthersFound: $n salmodia malevolmente qualcosa di nefasto per $N.
+  TargetFound: $n salmodia malevolmente qualcosa al tuo indirizzo.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Borbotti fra le vibrisse qualche epiteto khajit.
+  OthersNoArg: $n borbotta versacci incomprensibili sollevando la parte destra del labbro superiore.
+  EntityFound: Borbotti il tuo dissenso fra soffi e ringhi, verso $N.
+  OthersFound: $n borbotta verso $N degli insoliti termini in lingua khajit.
+  TargetFound: $n ti borbotta contro il suo dissenso, colorato da epiteti incomprensibili.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Borbotti fra le vibrisse qualche epiteto felino.
+  OthersNoArg: $n borbotta versacci incomprensibili sollevando la parte destra del labbro superiore.
+  EntityFound: Borbotti il tuo dissenso fra soffi e ringhi, verso $N.
+  OthersFound: $n borbotta verso $N degli insoliti termini in lingua felina.
+  TargetFound: $n ti borbotta contro il suo dissenso, colorato da epiteti incomprensibili.
+End

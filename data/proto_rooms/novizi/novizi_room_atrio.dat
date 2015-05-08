@@ -1,0 +1,44 @@
+Code: novizi_room_atrio
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: L'ingresso
+Short: l'ingresso
+
+Descr:
+Sei nella stanzina d'ingresso dell'abitazione. Verso sud puoi uscire dalla casa ed
+andare incontro al mondo. Puoi anche tornare alle sale interne. Su di un lato vi è
+l'accesso alla zona dei padroni di casa.
+Nel caso vi siano porte chiuse basta semplicemente aprirle con il comando $tOpen;
+ovviamente si chiudono che sennò entra freddo ( $tClose ).
+Quando vi sono porte in più di una direzione si deve specificare quale delle porte si
+desidera aprire specificando anche la direzione ($tOpen $tSouth oppure $tOpen porta $tSouth).
+<br>
+(evitate di [yellow]strappare[close] le porte che costano...)
+
+Extras:
+	Keywords: strappare costano
+	Descr:
+	Strappare le porte? Si possono strappare le porte?
+	Basta cioè un $tGet porticina?
+	DescrSixth:
+	Si possono strappare le porte!?
+	Basta cioè un $tGet porticina.
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Una sala
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Il piazzale
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: La zona privata
+  Door: novizi_item_porta-privata
+End

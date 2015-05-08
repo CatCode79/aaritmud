@@ -1,0 +1,42 @@
+Comment: eliminata l'uscita sud verso cinta muraria. Andrebbe eliminata anche quella che da cinta muraria porta qui.
+ Vi si accede dall'uscita ovest della bottega delle spezie-una porticina verde-si potrebbe mettere una porta, un'entrata
+ bassa che per passare bisogna inchinarsi un pò. Via via si metteranno qui le varie piante delle spezie cominciando dal
+peperoncino oltre che un grande albero:un arancio
+
+Code: citta-raminghe_room_giardino-spezie-12
+Sector: SECTOR.FARMLAND
+Name: Il [lightgreen]Giardino delle Spezie[close]
+Short: un [lightgreen]giardino delle spezie[close]
+
+Descr: 
+Un giardino segreto ti appare all'improvviso, inaspettato.
+E'di forma circolare, delimitato da un muro costruito con pietre di origine vulcanica poste regolarmente e incastrate una
+sull'altra da mani esperte. Le mura a secco di pietra lavica alte circa quattro metri non permettono al vento di danneggiare i frutti, ma permettono di trattenere l'umidità notturna, lasciando su di essi la rugiada per tutta la giornata.
+Inoltre ha un'unica apertura stretta per accedere all'interno e delle piccole aperture alla base per consentire il passaggio di acqua piovana. La terra è ben lavorata e mostra delle sfumature che danno sul rosso intenso.
+Regolarmente disposte accoglie le piante delle spezie: peperoncino, cardamomo, zenzero, vaniglia e molte altre ancora...
+Al centro è posto un antico albero. Viene potato in modo da limitarne la crescita in altezza tanto da creare così tra i rami e il tronco un fitto intreccio.
+
+DescrSmell: 
+I profumi che avverti sono quelli delle spezie. Ti avvolgono essenze dolci e piccanti, fragranze intense e persistenti.
+
+DescrSixth:
+Nel [gold]Giardino[close] si entra abbassando il capo come se si dovesse tributare un onore particolare ad una pianta sacra. E infatti, nelle aride regioni dell'Oriente, si racconta del mito della dea fanciulla che ha raccolto l'albero
+sacro nato nei giorni della creazione e lo ha custodito amorevolmente, strappandolo ad una piena. L'albero sacro sarà 
+coltivato, irrigato, difeso dal vento e dalla sabbia del deserto, dai morsi del bestiame affamato, dai furti dei pastori 
+golosi, dagli sguardi curiosi fino a quando non porterà a maturazione i suoi frutti.Il giardino quindi con la sua circolaritàrimanda ai cicli della vita, al grembo materno che nutre, alla Grande Madre che protegge. L'albero è la vita stessa.
+E le Spezie...la sua dimensione onirica. 
+DescrHearing:
+Il suono irreale del silenzio.
+ 
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+        Direction: DIR.WEST
+        Descr: La bottega
+        Door:   ikea_item_porta
+	EntityMessage:  Vai verso $A abbassandoti per passare sotto al basso stipite.
+	OthersInMessage: $n esce da $a abbassandosi per passare sotto al basso stipite.
+	OthersOutMessage: $n entra da $a abbassandosi per passare sotto al basso stipite.
+End

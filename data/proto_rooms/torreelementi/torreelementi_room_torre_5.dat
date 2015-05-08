@@ -1,0 +1,30 @@
+Code: torreelementi_room_torre_5
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Il tetto ad impluvio
+Short: il tetto
+Descr:
+Il tetto della torre è costituito da spioventi rivolti verso l'interno e formanti un
+foro circolare. La superficie è costituita da tegole incrostate di licheni che ne
+nascondono parzialmente il disegno originale.
+Verso i bordi esterni quattro aperture conducono in basso.  
+
+Extras:
+  Keywords: aperture bordi apertura
+  Descr: Una serie di scalini porta alla balaustra esterna del piano inferiore
+End
+Extras:
+  Keywords: disegno
+  Descr: Forse servono a rallentare l'acqua che entra nella torre
+  DescrTouch: I licheni sembra siano posti come collante fra le tegole
+End
+
+
+Width:	7m
+Depth:	7m
+Height: 5m
+
+Exits:
+  Direction: DIR.DOWN
+  Descr: La balaustra del piano inferiore
+End

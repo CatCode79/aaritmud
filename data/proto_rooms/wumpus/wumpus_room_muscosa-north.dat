@@ -1,0 +1,28 @@
+Code: wumpus_room_muscosa-north
+Sector: SECTOR.UNDERGROUND
+Flags: ROOM.INSIDE
+Name: La Zona [lawngreen]Muscosa[close] Nord
+Short: la zona [lawngreen]muscosa[close] nord
+
+Descr:
+Infiltrazioni d'acqua e luce innaturale proveniente da non si sa dove hanno consentito ad una variegata estensione di [lawngreen]muschi[close] pionieri di prendere possesso tutto intorno.
+DescrTouch: 
+Infiltrazioni d'acqua proveniente da non si sa dove hanno consentito ad una variegata estensione di morbidi [lawngreen]muschi[close] pionieri di prendere possesso tutto intorno rivestendo di un morbido stratto tutto ciò che tocchi.
+
+Width:	7m
+Depth:	7m
+Height:	7m
+
+Exits:
+  Direction: DIR.NORTH
+  Destination:	 5 1 0 wumpus
+  Descr: Il cunicolo [firebrick]argilloso[close]
+End
+Exits:
+  Direction: DIR.SOUTHWEST
+  Descr: La zona [lawngreen]muscosa[close]
+End
+Exits:
+  Direction: DIR.SOUTHEAST
+  Descr: La zona [lawngreen]muscosa[close]
+End

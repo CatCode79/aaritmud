@@ -1,0 +1,894 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<h2>Note Riguardanti i GameScript</h2>
+Sia alle stanze che ai mob e agli oggetti si ha la possibilit&agrave; di aggiungere dei gamescript (o mudprog che dir si voglia), questi sono dei file python scritti dai Coder di Aarit su vostra proposta: li discuteremo, sceglieremo, miglioremo, bilanceremo e infine vi sar&agrave; la loro implementazione.<br>
+Tutti i gamescript vengono attivati da un evento, detto Trigger, che pu&ograve; essere un qualsiasi evento del Mud: un comando, un'azione, una frase detta dalle varie entit&agrave; del gioco, ecc...<br><br>
+C'&egrave; una gerarchia di attivazione ben precisa del trigger voluto, se l'entit&agrave; che ha scatenato il trigger ha il relativo gamescript.<br>
+Se s&igrave; il gamescript verr&agrave; attivato, altrimenti verr&agrave; controllato se la stanza in cui l'entit&agrave; si trova ha il gamescript del trigger relativo.<br>
+Se s&igrave; li gamescript verr&agrave; attivato, altrimenti verr&agrave; controllata l'area in cui si trova l'entit&agrave; ha il gamescript  del trigger relativo.<br>
+Se s&igrave; il gamescript verr&agrave; attivato, altrimenti il flusso del gioco continua normalmente.<br><br>
+Ogni esecuzione di gamescript pu&ograve; fermare il normale flusso di gioco se il gamescript lo necessit&agrave;: un giocatore sta raccogliendo un oggetto che dandogli la scossa evita di essere raccolto? Il gamescript gestir&agrave; la situazione dicendo al comando get di evitare di raccogliere l'oggetto.<br><br>
+Di seguito c'&egrave; l'elenco di tutti i Trigger implementati nel Mud, non esiste il Trigger che ti serve? Al 90% riusciamo ad aggiungerne 2 al prezzo di uno!<br><br>
+<br><br>
+Da notare che se a un mob o a un oggetto non viene trovato un trigger questo viene cercato nella stanza, passando per&ograve; come argomento il mob o l'oggetto e non la stanza!
+<br>
+Fanno eccezione a questo sistema esteso alcuni trigger, che sono:<br>
+"on_booting", "on_shutdown",<br>
+"on_reset", "on_repop", "on_init_after_booting",<br>
+"before_inject", "after_inject", "before_extract", "after_extract",<br>
+"before_to_location", "after_to_location", "before_from_location", "after_from_location",<br>
+"on_dawn", "on_sunrise", "on_noon", "on_sunset", "on_dusk", "on_midnight".<br>
+Attenzione al trigger on_next_stage che invece funziona in maniera estesa.<br>
+<br>
+
+
+<h2> Consigli per lo Scripting</h2>
+<h3>Chi fa scattare un trigger</h3>
+Non sorprende che qualunque entit&agrave; possa far scattare i trigger oportuni. Talvolta per&ograve; potrebbe essere scomodo oppure altamente non desiderabile che un trigger possa scattare a causa di un comportamento automatico di un mob (un behaviour).<br>
+In tale senso viene in aiuto il valore booleano behavioured prsente nella maggior parte dei trigger.<br>
+Esso assume valore di verit&agrave; (True) nel caso in cui l'evento sia stato triggerato da un behaviour; cosicch&eacute;, volendo evitare un comportamento del genere &egrave; sufficiente gestire opportunamente tale valore nello script.<br>
+<xmp>if beavioured:
+    return False</xmp>
+<br>
+
+<h3>Estrazione Entit&agrave;</h3>
+&Egrave; norma igienica importante controllare negli script che la nostra entit&agrave; sia ancora in gioco.<br>
+Il controllo per farlo si riduce a:
+<xmp>if entity.is_extracted():</xmp>
+Un'entit&agrave; estratta &egrave; un mob, item o room che ad esempio &egrave; uccisa o finita nell'eq di un player uscito dal gioco.<br>
+Tutti gli script che utilizzano una deferLater impostando nella funzione deferrata degli argomenti che sono delle entit&agrave; abbisognano di questo check per controllare se siano o meno estratti.<br>
+
+
+<h3>Peso Trasportato</h3>
+Una funzione utile per determinare se entity pu&ograve; trasportare l'entit&agrave; target tenendo in considerazione ci&ograve; che gi&agrave; entity sta trasportando, &egrave;:<br>
+<xmp>entity.can_carry_target(target)</xmp>
+Il suo impiego &egrave; elementare:<br>
+<br>
+<pre>
+if entity.can_carry_target(target):
+     allora lo mette in inventario
+else:
+     lo lascia per terra
+</pre>
+Opzionalmente si pu&ograve; passare la quantit&agrave; delle istanze di target:<br>
+<pre>
+if entity.can_carry_target(target, quantity=3):
+     allora lo mette in inventario
+else:
+     lo lascia per terra
+</pre>
+<br>
+
+
+<h3>Metodo Wait</h3>
+Il metodo wait utile per fermare l'invio interattivo di una entit&agrave;.<br>
+Esempio:<br>
+<code>  
+[codice]<br>
+interpreter(entity, "kick vittima")<br>
+entity.wait(3)<br>
+interpreter(entity, "kick vittima")<br>
+[resto del codice]<br>
+</code>  
+<br>
+L'entit&agrave; invier&agrave; un calcio alla vittima, aspetter&agrave; 3 secondi e poi ne invier&agrave; un altro, attenzione che non &egrave; una deferred!<br>
+Il [resto del codice] viene eseguito subito e non vengono attesi tre secondi, sono solo i comandi interattivi che vengono messi in coda per entity.<br>
+
+
+<h3>Funzioni di Ritardo</h3>
+Le funzioni di Defer sono funzione che vengono utilizzata quando si vuole differire nel tempo un comando, tipicamente dopo un lasso determinato di tempo o con un certo fattore casuale.<br>
+Pu&ograve; essere utile anche solo ritardare di uno o due secondi l'interazione di un mob con un pg per non farla artificiosamente immediata.<br>
+Ci sono tre funzioni di defer utilizzabili, previo relativo import:<br>
+<br>
+<xmp>from src.defer import defer</xmp>
+<xmp>from src.defer import defer_random_time</xmp>
+<xmp>from src.defer import defer_if_possible</xmp>
+<br>
+La prima consente di far eseguire una funziona dopo uno specificato tempo:<br>
+<xmp>defer(60, reset_greetable, astronoma)</xmp>
+In questo caso la funziona reset_greetable(astronoma) viene eseguita con un ritardo di 60 secondi.<br>
+<br>
+La seconda consente d'inserire intervalli di tempo:<br>
+<xmp>defer_random_time(30, 60, reset_greetable, astronoma)</xmp>
+In questo caso la funziona reset_greetable(astronoma) viene eseguita con un ritardo che varia casualmente fra 30 e 60 secondi.<br>
+<br>
+L'ultima esegue dei controlli aggiuntivi sulle entit&agrave;:<br>
+<xmp>defer_if_possible(30, 60, player, astronoma, greetings, astronoma, player)</xmp>
+Questa versione della defer che prima dell'esecuzione si assicurara: che le due entit&agrave; non siano state estratte, che si trovino nella stessa locazione, che entity veda target.<br>
+Di solito la funzione passata &egrave; una funzione di comando.<br>
+<br>
+
+<h3>Controllo del MaxGlobalQuantity</h3>
+Ogni builder pu&ograve; impostare il numero massimo d'esemplari d'un entit&agrave; che potranno comprire in gioco contemporaneamente.
+L'etichetta deputata &egrave; la MaxGlobalQuantity.<br>
+Un gamescript deve rispettare tale scelta, e per questo &egrave; utile il metodo has_reached_max_global_quantity(), che si usa per quel che appare<br>:
+<xmp>if proto.has_reached_max_global_quantity()</xmp>
+<br>
+
+<h3>Specials</h3>
+Bisogna ricordare che per quanto concerne le specials: i valori inseriti devono essere sempre: stringhe, numeri o valori True/False; non altro.<br>
+Quindi &egrave; da evitare l'utilizzo di specials come magazzino per salvare un riferimento ad un mob o ad un pg!<br>
+&Egrave; pi&ugrave; lecito utilizzare invece il codice identificativo del mob o del pg e poi ricavate il riferimento quando servir&agrave;.<br>
+Quindi non:
+<xmp>mob.specials["player_to_speak"] = player</xmp>
+ ma:
+<xmp>mob.specials["player_to_speak"] = player.code</xmp>
+Il motivo &egrave; dovuto al salvataggio delle persistenze; il valore salterebbe e non si potrebbe utilizzare dopo il riavvio.<br>
+Per dovere di cronaca: in realt&agrave; c'&egrave; la possibilit&agrave; di salvare strutture  complesse, ma bisogna utilizzare i trigger di on_booting e on_shutdown per la lettura e il save delle informazioni complesse; di solito il gioco non vale la candela, ma se servisse basta chiedere all'autore per una delucidazione pi&ugrave; articolata.<br>
+C'&egrave; inoltre da dire che tutti i valori numerici inseriti come stringa nelle specials, del tipo:<br>
+<xmp> entity.specials["counter"] = "0"</xmp>
+verranno ricaricati come numeri al reboot e non pi&ugrave; come stringa!
+Ovvero saranno considerati come:
+<xmp> entity.specials["counter"] = 0</xmp>
+&Egrave; un buon modo per impazzire di debugging.<br>
+
+<h3>entit&agrave; con keyword uguali</h3>
+C'&egrave; la funzione get_numbered_argument che pu&ograve; risultare utile per ritornare la keyword preceduta da un eventuale numero posizionale;<br>
+ovvero se nella stanza ci sono:<br>
+Un mostro selvatico<br>
+Onirik<br>
+Un mostro selvaggio<br>
+Sulfrum<br>
+I due mostri hanno la stessa key, se nel codice vogliamo ottenere correttamente l'argomento con cui interagire con il secondo mostro (ovvero 2.mostro) bisogna utilizzare proprio il metodo get_numbered_argument cos&igrave;:
+<xmp> numbered_argument = monster2_entity.get_numbered_argument(looker=sulfrum)</xmp>.
+Se si pu&ograve; &egrave; sempre bene aggiungere il looker, cio&egrave; colui che interagisce e vede il mostro, in questo caso chi guarda la stanza &egrave; appunto Sulfrum.<br>
+Tale metodo &egrave; molto utile quando negli script si utilizzino dei comandi su dei target che possono essere mob oltre che pg (sui pg &egrave; facile, basta un player.code)
+
+<br><hr>
+<h2>Trigger sui Socials</h2>
+Recentemente sono stati introdotti i trigger per gamescrit anche sui scomandi sociali.<br>
+Vista la mole ingente di comandi sociali, essi sono indicati in una <a href="../builder_pages/gamescripts_social.htm" title="trigger sui socials">pagina a parte</a>.
+<br>
+<h2>EntityScripts:</h2>
+
+def <span style='color:royalblue;'>before_emote</span>(entity, argument, behavioured):<br>
+def <span style='color:royalblue;'>after_emote</span>(entity, argument, behavioured):<br>
+entity &egrave; l'entit&agrave; (mob, item o player) che sta effettuando esprimendo qualcosa.<br>
+argument &egrave; l'argomento passato per descrivere l'espressione.<br>
+behavioured &egrave; un valore booleano che indica se il trigge &egrave; scattato ad opera di un emote automatico (via behaviour) di un entit&agrave;.<br>
+ &egrave; l'argomento passato per descrivere l'espressione.<br>
+L'emote &egrave; particolarmente adatto per personalizzare una risposta di un'enigma che richiede una posizione particolare del corpo, come: coprirsi gli occhi con una mano.<br>
+emote si copre gli occhi<br>
+Il trigger potrebbe attivarsi con la presenza delle parola copre/coprire e occhi.<br>
+<br>
+
+def <span style='color:royalblue;'>before_use</span>(entity, target, argument, behavioured):<br>
+def <span style='color:royalblue;'>after_use</span>(entity, target, argument, behavioured):<br>
+<br>
+def <span style='color:royalblue;'>before_used</span>(entity, target, argument, behavioured):<br>
+def <span style='color:royalblue;'>after_used</span>(entity, target, argument, behavioured):<br>
+Trigger che si attivano, rispettivamente, prima e dopo che una entit&agrave; abbia lanciato il comado use.<br>
+entity &egrave; l'entit&agrave; che esegue il comando.<br>
+target &egrave; l'entit&agrave; utilizzata.<br>
+argument &egrave; l'eventuale argomento rimanente del comando.<br>
+I primi due si attivano sull'entit&agrave; che ha eseguito il comando, gli altri due invece si attivano sull'entit&agrave; utilizzata.<br>
+<br>
+
+def <span style='color:royalblue;'>before_list</span>(entity, dealer, behavioured):<br>
+def <span style='color:royalblue;'>after_list</span>(entity, dealer, behavioured):<br>
+<br>
+def <span style='color:royalblue;'>before_listed</span>(entity, dealer, behavioured):<br>
+def <span style='color:royalblue;'>after_listed</span>(entity, dealer, behavioured):<br>
+entity &egrave; il cliente che chiede la lista della mercanzia.<br>
+dealer &egrave; il negoziante che possiede la mercanzia.<br>
+behavioured &egrave; un valore booleano che indica se il comando &egrave; stato eseguito dall'entit&agrave; tramite un behaviour.<br>
+I primi due si attivano su chi ha eseguito il comando, gli altri due si attivano sul negoziante.<br>
+<br>
+
+def <span style='color:royalblue;'>before_buy</span>(client, dealer, purchase, quantity, behavioured):<br>
+def <span style='color:royalblue;'>after_buy</span>(client, dealer, purchase, quantity, behavioured):<br>
+<br>
+def <span style='color:royalblue;'>before_bought</span>(client, dealer, purchase, quantity, behavioured):<br>
+def <span style='color:royalblue;'>after_bought</span>(client, dealer, purchase, quantity, behavioured):<br>
+<br>
+def <span style='color:royalblue;'>before_buying</span>(client, dealer, purchase, quantity, behavioured):<br>
+def <span style='color:royalblue;'>after_buying</span>(client, dealer, purchase, quantity, behavioured):<br>
+Trigger che si attivano, rispettivamente, prima e dopo che una entit&agrave; abbia comprato qualcosa.<br>
+client: entit&agrave; che sta comprando qualche cosa.<br>
+dealer: negoziante che sta vendendo qualche cosa.<br>
+purchase: entit&agrave; che si vuole comprare o gi&agrave; comprata.<br>
+quantity: quantit&agrave; comprata da dealer.<br>
+behavioured &egrave; un valore booleano che indica se il comando &egrave; stato eseguito dall'entit&agrave; tramite un behaviour.<br>
+I primi due trigger si attivano se impostati sul file di script con codice uguale a client, i secondi due si attivano se impostati su file di script con codice uguale a purchase mentre gli ultimi due si attivano se impostati su file di script con codice uguale a dealer.<br>
+<br>
+
+def <span style='color:royalblue;'>before_sell</span>(client, dealer, target, quantity, behavioured):<br>
+def <span style='color:royalblue;'>after_sell</span>(client, dealer, target, quantity, behavioured):<br>
+<br>
+def <span style='color:royalblue;'>before_sold</span>(client, dealer, target, quantity, behavioured):<br>
+def <span style='color:royalblue;'>after_sold</span>(client, dealer, target, quantity, behavioured):<br>
+<br>
+def <span style='color:royalblue;'>before_selling</span>(client, dealer, target, quantity, behavioured):<br>
+def <span style='color:royalblue;'>after_selling</span>(client, dealer, target, quantity, behavioured):<br>
+Trigger che si attivano, rispettivamente, prima e dopo che una entit&agrave; abbia comprato qualcosa da un'entit&agrave; shop.<br>
+client: entit&agrave; che sta comprando qualche cosa.<br>
+dealer: negoziante che sta vendendo qualche cosa.<br>
+target: entit&agrave; che si vuole comprare o gi&agrave; comprata.<br>
+quantity: quantit&agrave; venduta a dealer.<br>
+behavioured &egrave; un valore booleano che indica se il comando &egrave; stato eseguito dall'entit&agrave; tramite un behaviour.<br>
+I primi due trigger si attivano se impostati sul file di script con codice uguale a client, i seondi due si attivano se impostati su file di script con codice uguale a target mentre gli ultimi due si attivano se impostati su file di script con codice uguale a dealer.<br>
+<br>
+
+def <span style='color:royalblue;'>before_offer</span>(client, dealer, target, quantity, behavioured):<br>
+def <span style='color:royalblue;'>after_offer</span>(client, dealer, target, quantity, behavioured):<br>
+<br>
+def <span style='color:royalblue;'>before_offered</span>(client, dealer, target, quantity, behavioured):<br>
+def <span style='color:royalblue;'>after_offered</span>(client, dealer, target, quantity, behavioured):<br>
+<br>
+def <span style='color:royalblue;'>before_offering</span>(client, dealer, target, quantity, behavioured):<br>
+def <span style='color:royalblue;'>after_offering</span>(client, dealer, target, quantity, behavioured):<br>
+Trigger che si attivano, rispettivamente, prima e dopo che una entit&agrave; abbia verificato la vendibilit&agrave; di un proprio item/mob tramite comando offer presso un'entit&agrave; shop.<br>
+client: entit&agrave; che sta chiedendo la  valutazione di qualche cosa.<br>
+dealer: negoziante che valuta l'entit&agrave;.<br>
+target: entit&agrave; che si sta valutando.<br>
+quantity: quantit&agrave; di quel che che si valuta.<br>
+behavioured &egrave; un valore booleano che indica se il comando &egrave; stato eseguito dall'entit&agrave; tramite un behaviour.<br>
+I primi due trigger si attivano se impostati sul file di script con codice uguale a client, i secondi due si attivano se impostati su file di script con codice uguale a target mentre gli ultimi due si attivano se impostati su file di script con codice uguale a dealer.<br>
+<br>
+
+def <span style='color:royalblue;'>before_money</span>(entity, behavioured):<br>
+def <span style='color:royalblue;'>after_money</span>(entity, behavioured):<br>
+Trigger che si attivano, rispettivamente, prima e dopo che un enetit&agrave; esegue il comando money.<br>
+entity &egrave; colui che ha digitato il comando.<br>
+behavioured &egrave; un valore booleano che indica se il comando &egrave; stato eseguito dall'entit&agrave; tramite un behaviour.<br>
+<br>
+
+def <span style='color:royalblue;'>before_kill</span>(entity, target, attack, destroy, behavioured):<br>
+def <span style='color:royalblue;'>after_kill</span>(entity, target, attack, destroy, behavioured):<br>
+<br>
+def <span style='color:royalblue;'>before_killed</span>(entity, target, attack, destroy, behavioured):<br>
+def <span style='color:royalblue;'>after_killed</span>(entity, target, attack, destroy, behavioured):<br>
+Trigger che si attivano rispettivamente prima e dopo l'inizio di un combattimento tramite il comando kill o il comando destroy.<br>
+entity &egrave; colui che sta attaccando.<br>
+target &egrave; il mob che viene attaccato.<br>
+attack &egrave; un valore booleano che indica se si sta killando tramite comando attack.<br>
+destroy &egrave; un valore booleano che indica se si sta killando tramite comando destroy.<br>
+behavioured &egrave; un valore booleano che indica se il comando &egrave; stato eseguito dall'entit&agrave; tramite un behaviour.<br>
+i primi due scattano sull'entit&agrave; che sta eseguendo o ha eseguito il comando, gli altri due scattano sull'entit&agrave; che lo sta subendo o lo ha subito.<br>
+<br>
+
+<!--
+# Rimosso con la r112#
+def <span style='color:royalblue;'>before_attack</span>(entity, target, behavioured):<br>
+def <span style='color:royalblue;'>after_attack</span>(entity, target, behavioured):<br>
+def <span style='color:royalblue;'>before_destroy</span>(entity, target, behavioured):<br>
+def <span style='color:royalblue;'>after_destroy</span>(entity, target, behavioured):<br>
+Trigger che si attivano rispettivamente prima e dopo l'inizio di un combattimento tramite il comando kill o il comando destroy.<br>
+entity &egrave; colui che sta attaccando.<br>
+target &egrave; il mob che viene attaccato.<br>
+behavioured &egrave; un valore booleano che indica se il comando &egrave; stato eseguito dall'entit&agrave; tramite un behaviour.<br>
+<br>
+//-->
+
+def <span style='color:royalblue;'>before_die</span>(entity, opponent):<br>
+def <span style='color:royalblue;'>after_die</span>(entity, opponent):<br>
+<br>
+def <span style='color:royalblue;'>before_dies</span>(entity, opponent):<br>
+def <span style='color:royalblue;'>after_dies</span>(entity, opponent):<br>
+Trigger che si attivano rispettivamente prima e dopo la morte dell'entit&agrave;.<br>
+entity &egrave; colui che &egrave; morto o sta per morire.<br>
+opponent &egrave; colui che uccide; potrebbe essere None in caso di morte naturale o DT.<br>
+Un punto delicato &egrave; il trigger after_dies che per i mob non pu&ograve; funzionare poich&eacute; all'atto della morte, il mob &egrave; rimosso per essere sostituito dal cadavere. Pertanto &egrave; da utilizzare il before_dies.<br>
+Oggetti e player invece vedono la possibilit&agrave; d'utilizzarli entrambi in quando l'oggetto distrutto &egrave; sempre la stessa entit&agrave; in cui son modificate le descrizioni. Per i player invece la morte &egrave; caratterizzata da uno spostamento alla locazione di resurrezione.<br>
+I primi due trigger si attivano se impostati sul file di script con codice uguale a entity, mentre gli altri due si attivano se impostati su file di script con codice uguale a opponent.<br>
+<br>
+
+def <span style='color:royalblue;'>before_flee</span>(entity, opponent, dir, portal, behavioured):<br>
+def <span style='color:royalblue;'>after_flee</span>(entity, opponent, dir, portal, behavioured):<br>
+<br>
+def <span style='color:royalblue;'>before_fleeing</span>(entity, opponent, dir, portal, behavioured):<br>
+def <span style='color:royalblue;'>after_fleeing</span>(entity, opponent, dir, portal, behavioured):<br>
+Trigger che si attivano sul comando di fuga.<br>
+entity &egrave; colui che fugge.<br>
+opponent &egrave; l'avversario da cui si fugge.<br>
+dir &egrave; la direzione in cui si fugge, se si utilizza un portale per fuggire questo parametro viene passato a None.<br>
+portal &egrave; il portale da cui si fugge, se si utilizza una direzione per fuggire questo parametro viene passato a None.<br>
+behavioured &egrave; un valore booleano che indica se il comando &egrave; stato eseguito dall'entit&agrave; tramite un behaviour.<br>
+I primi due trigger si attivano se impostati sul file di script con codice uguale a entity, mentre gli altri due si attivano se impostati su file di script con codice uguale a opponent.<br>
+<br>
+
+def <span style='color:royalblue;'>before_express_aggressiveness</span>(express_aggressiveness):<br>
+def <span style='color:royalblue;'>after_express_aggressiveness</span>(express_aggressiveness):<br>
+<br>
+def <span style='color:royalblue;'>before_undergoes_aggressiveness</span>(undergoes_aggressiveness):<br>
+def <span style='color:royalblue;'>after_undergoes_aggressiveness</span>(undergoes_aggressiveness):<br>
+Trigger che si attivano quando un mob o un item aggressivo incontra una vittima papabile.<br>
+express_aggressiveness &egrave; l'oggetto che contiene tutte le informazioni per esprimere aggressivit&agrave; nei confronti di un'entit&agrave; prima di attaccarla.<br>
+express_aggressiveness.aggressor(): aggressore che invia i messaggi di minaccia.<br>
+express_aggressiveness.victim(): vittima dei messaggi di minaccia e prima o poi dell'attacco.<br>
+express_aggressiveness.timer: timer che indica a quanti secondi reali attivare il messaggio di minaccia. Nel before_express_aggressiveness &egrave; 0 o meno, e si pu&ograve; modificare a piacere, se poi viene ritornato True nello script l'invio del messaggio non avverr&agrave;, spostando di tot l'esecuzione.<br>
+Nell'after_express_aggressiveness invece il valore timer potrebbe essere differente da 0 o meno, dipende se l'invio dell'espressione &egrave; stata rinnovata oppure se vi &egrave; stato finalmente l'attacco.<br>
+express_aggressiveness.remaining_tries: numero di tentativi massimi prima che un attacco avvenga, meno tentativi vi sono pi&ugrave; probabilit&agrave; di attacco esistono, si pu&ograve; modificare il valore a piacere.<br>
+Da notare il fatto che vi si accede all'informazione di alcuni attributi tramite parentesi.<br>
+Potrebbe essere opportuna la conoscenza del metodo execute della classe ExpressAggressiveness per poter gestire al meglio questo trigger.<br>
+I primi due trigger si attivano se impostati sul file di script con codice uguale a chi invia i messaggi di aggressiveness, mentre gli altri due si attivano se impostati su file di script con codice uguale a chi subisce i messaggi di aggressiveness.<br>
+<br>
+
+def <span style='color:royalblue;'>before_eat</span>(entity, food, devour, swallow, behavioured):<br>
+def <span style='color:royalblue;'>after_eat</span>(entity, food, devour, swallow, behavioured):<br>
+def <span style='color:royalblue;'>before_eated</span>(entity, food, devour, swallow, behavioured):<br>
+def <span style='color:royalblue;'>after_eated</span>(entity, food, devour, swallow, behavioured):<br>
+Trigger che si attivano quando si mangia un'entit&agrave;.<br>
+entity &egrave; l'entit&agrave; che sta mangiando il cibo.<br>
+food &egrave; il cibo.<br>
+devour &egrave; un valore booleano che indica se il trigger &egrave; stato azionato tramite il comando divora invece del comando mangia.<br>
+swallow &egrave; un valore booleano che indica se il trigger &egrave; stato azionato tramite il comando ingoia invece del comando mangia<br>
+behavioured &egrave; un valore booleano che indica se il comando &egrave; stato eseguito dall'entit&agrave; tramite un behaviour.<br>
+I primi due trigger si attivano se impostati sul file di script con codice uguale a entity, mentre gli altri due si attivano se impostati su file di script con codice uguale a food.<br>
+Da ricordare che comunque tutti e due possono essere attivati tramite script con tali trigger dalla locazione che li contiene.<br>
+<br>
+
+def <span style='color:royalblue;'>before_digestion</span>(digestion):<br>
+def <span style='color:royalblue;'>after_digestion</span>(digestion):<br>
+<br>
+def <span style='color:royalblue;'>before_digested</span>(digestion):<br>
+def <span style='color:royalblue;'>after_digested</span>(digestion):<br>
+I trigger vanno si attivano trascorso il tempo di digestione di un entit&agrave; nello stomaco.<br>
+digestion &egrave; l'oggetto che contiene tutte le informazioni per poter effettuare la posposta digestione.<br>
+digestion.entity(): &egrave; l'entit&agrave; che sta digerendo.<br>
+digestion.ingested(): &egrave; l'entit&agrave; che sta per essere digerita.<br>
+digestion.timer: rappresenta il numero di minuti reali per questa digestione, sia nella before che nella after &egrave; atteso a 0 o meno; pu&ograve; essere impostato ad un valore differente nella before ritornando poi dal trigger tramite True sicch&eacute; da saltare la vera esecuzione della digestione e allungare il tempo della digestione.<br>
+I primi due trigger si attivano se impostati sul file di script con codice uguale all'entit&agrave; che sta digerendo, mentre gli altri due si attivano se impostati su file di script con codice uguale all'entit&agrave; digerita.<br>
+<br>
+
+def <span style='color:royalblue;'>before_read</span>(entity, target, output, extra, behavioured):<br>
+def <span style='color:royalblue;'>after_read</span>(entity, target, output, extra, behavioured):<br>
+<br>
+def <span style='color:royalblue;'>before_readed</span>(entity, target, output, extra, behavioured):<br>
+def <span style='color:royalblue;'>after_readed</span>(entity, target, output, extra, behavioured):<br>
+Trigger che si attivano rispettivamente prima e dopo che un'entit&agrave; viene letta.<br>
+entity &egrave; l'entit&agrave; (mob, item o player) che sta leggendo.<br>
+target &egrave; l'entit&agrave; (mob o item) letta.<br>
+output &egrave; ci&ograve; che viene letto.<br>
+extra: se ci&ograve; che &egrave; stato letto viene da una extra questo parametro &egrave; l'extra.<br>
+behavioured &egrave; un valore booleano che indica se il comando &egrave; stato eseguito dall'entit&agrave; tramite un behaviour.<br>
+I primi due trigger si attivano se impostati sul file di script con codice uguale a entity,<br>
+mentre gli altri due si attivano se impostati su file di script con codice uguale a target.<br>
+Da ricordare che comunque tutti e due possono essere attivati tramite script con tali trigger dalla locazione che li contiene.
+<br>
+<br>
+
+def <span style='color:royalblue;'>before_lock</span>(entity, target, key, behavioured):<br>
+def <span style='color:royalblue;'>after_lock</span>(entity, target, key, behavioured):<br>
+def <span style='color:royalblue;'>before_unlock</span>(entity, target, key, behavioured):<br>
+def <span style='color:royalblue;'>after_unlock</span>(entity, target, key, behavioured):<br>
+<br>
+def <span style='color:royalblue;'>before_locked</span>(entity, target, key, behavioured):<br>
+def <span style='color:royalblue;'>after_locked</span>(entity, target, key, behavioured):<br>
+def <span style='color:royalblue;'>before_unlocked</span>(entity, target, key, behavioured):<br>
+def <span style='color:royalblue;'>after_unlocked</span>(entity, target, key, behavioured):<br>
+Trigger che si attivano rispettivamente prima e dopo che un'entit&agrave; viene aperta o chiusa a chiave.<br>
+entity &egrave; colui che sta aprendo/chiudendo.<br>
+target &egrave; l'entit&agrave; che viene aperta o chiusa a chiave.<br>
+key &egrave; la chiave usata.<br>
+behavioured &egrave; un valore booleano che indica se il comando &egrave; stato eseguito dall'entit&agrave; tramite un behaviour.<br>
+I primi quattro trigger si attivano se impostati sul file di script con codice uguale a entity, mentre gli altri quattro si attivano se impostati su file di script con codice uguale a target.<br>
+<br>
+
+def <span style='color:royalblue;'>before_bolt</span>(entity, target, reverse_target, behavioured):<br>
+def <span style='color:royalblue;'>after_bolt</span>(entity, target, reverse_target, behavioured):<br>
+def <span style='color:royalblue;'>before_unbolt</span>(entity, target, reverse_target, behavioured):<br>
+def <span style='color:royalblue;'>after_unbolt</span>(entity, target, reverse_target, behavioured):<br>
+<br>
+def <span style='color:royalblue;'>before_bolted</span>(entity, target, reverse_target, behavioured):<br>
+def <span style='color:royalblue;'>after_bolted</span>(entity, target, reverse_target, behavioured):<br>
+def <span style='color:royalblue;'>before_unbolted</span>(entity, target, reverse_target, behavioured):<br>
+def <span style='color:royalblue;'>after_unbolted</span>(entity, target, reverse_target, behavioured):<br>
+Trigger che si attivano rispettivamente prima e dopo che un'entit&agrave; porta venga sprangata con il chiavistello.<br>
+entity &egrave; colui che sta sprangando.<br>
+target &egrave; l'entit&agrave; che viene sprangata.<br>
+reverse_target rappresenta l'eventuale porta dall'altra parte (nel caso si sia utilizzata la doppia porta sull'uscita).<br>
+behavioured &egrave; un valore booleano che indica se il comando &egrave; stato eseguito dall'entit&agrave; tramite un behaviour.<br>
+I primi quattro trigger si attivano se impostati sul file di script con codice uguale a entity, mentre gli altri quattro si attivano se impostati su file di script con codice uguale a target.<br>
+<br>
+
+def <span style='color:royalblue;'>before_dig</span>(entity, location, target, dir, behavioured):<br>
+def <span style='color:royalblue;'>after_dig</span>(entity, location, target, dir, behavioured):<br>
+<br>
+def <span style='color:royalblue;'>before_digged</span>(entity, location, target, dir, behavioured):<br>
+def <span style='color:royalblue;'>after_digged</span>(entity, location, target, dir, behavioured):<br>
+Trigger che si attivano rispettivamente prima e dopo che la locazione o la direzione sia stata scavata.<br>
+entity &egrave; colui che sta scavando.<br>
+location &egrave; il luogo in cui avviene lo scavo.<br>
+target &egrave; l'entit&agrave; che &egrave; affiorato mentre si scavava nella locazione; se invece si sta cercando di scavare un'uscita target &egrave; sempre None.<br>
+dir &egrave; l'elemento DIR relativo all'uscita che si sta cercando di scavare; se invece si sta cercando di scavare semplicemente nella locazione dir vale DIR.NONE.<br>
+behavioured &egrave; un valore booleano che indica se il comando &egrave; stato eseguito dall'entit&agrave; tramite un behaviour.<br>
+I primi due trigger si attivano se impostati sul file di script con codice uguale a entity, mentre gli altri due si attivano se impostati su file di script con codice uguale a location.<br>
+<br>
+
+def <span style='color:royalblue;'>before_enter</span>(entity, portal, starting_location, destination_room, behavioured):<br>
+def <span style='color:royalblue;'>after_enter</span>(entity, portal, starting_location, destination_room, behavioured):<br>
+<br>
+def <span style='color:royalblue;'>before_entered</span>(entity, portal, starting_location, destination_room, behavioured):<br>
+def <span style='color:royalblue;'>after_entered</span>(entity, portal, starting_location, destination_room, behavioured):<br>
+Trigger che si attivano rispettivamente prima e dopo che l'entit&agrave; sia entrata in un portale.<br>
+entity &egrave; colui che &egrave; entrato nel portale.<br>
+portal &egrave; il portale.<br>
+starting_location &egrave; la locazione, stanza o altro, in cui vi &egrave; il portale.<br>
+destination_room &egrave; la stanza dove conduce il portale.<br>
+behavioured &egrave; un valore booleano che indica se il comando &egrave; stato eseguito dall'entit&agrave; tramite un behaviour.<br>
+I primi due trigger si attivano se impostati sul file di script con codice uguale a entity, mentre gli altri due si attivano se impostati su file di script con codice uguale a portal.<br>
+<br>
+
+def <span style='color:royalblue;'>before_get</span>(entity, target, location, behavioured):<br>
+def <span style='color:royalblue;'>after_get</span>(entity, target, location, behavioured):<br>
+def <span style='color:royalblue;'>before_drop</span>(entity, target, location, behavioured):<br>
+def <span style='color:royalblue;'>after_drop</span>(entity, target, location, behavioured):<br>
+<br>
+def <span style='color:royalblue;'>before_getted</span>(entity, target, location, behavioured):<br>
+def <span style='color:royalblue;'>after_getted</span>(entity, target, location, behavioured):<br>
+def <span style='color:royalblue;'>before_dropped</span>(entity, targetted, location, behavioured):<br>
+def <span style='color:royalblue;'>after_dropped</span>(entity, targetted, location, behavioured):<br>
+Trigger che si attivano rispettivamente prima e dopo che l'obiettivo venga raccolto o posato da un'entit&agrave;.<br>
+entity &egrave; colui che sta raccogliendo/posando.<br>
+target &egrave; colui che &egrave; raccolto/posato.<br>
+location &egrave; il luogo in cui avviene l'azione.<br>
+behavioured &egrave; un valore booleano che indica se il comando &egrave; stato eseguito dall'entit&agrave; tramite un behaviour.<br>
+I primi quattro trigger si attivano se impostati sul file di script con codice uguale a entity, mentre gli altri quattro si attivano se impostati su file di script con codice uguale a target.<br>
+<br>
+
+def <span style='color:royalblue;'>before_get_from_location</span>(entity, target, location, behavioured):<br>
+def <span style='color:royalblue;'>after_get_from_location</span>(entity, target, location, behavioured):<br>
+def <span style='color:royalblue;'>before_drop_from_location</span>(entity, target, location, behavioured):<br>
+def <span style='color:royalblue;'>after_drop_from_location</span>(entity, target, location, behavioured):<br>
+Hanno lo stesso interfacciamento dei before_get/drop e after_get/drop ma vanno inseriti nell'entit&agrave; rappresentante la location (cio&egrave; il contenitore o room chessia) da cui un giocatore o altra entit&agrave; esegue il get/drop.<br>
+entity &egrave; colui che sta raccogliendo/posando.<br>
+target &egrave; colui che &egrave; raccolto/posato.<br>
+location &egrave; il luogo in cui avviene l'azione.<br>
+behavioured &egrave; un valore booleano che indica se il comando &egrave; stato eseguito dall'entit&agrave; tramite un behaviour.<br>
+<br>
+
+def <span style='color:royalblue;'>before_try_to_get</span>(entity, target, location, behavioured):<br>
+Trigger che apparentemente funziona come il get, ma che si attiva quando il target e la location sono definite, cio&egrave; ancora prima che venga controllato il peso o l'eventuale esistenza di flag NO_ROOM.<br>
+Questo trigger ad esempio &egrave; stato utilizzato per far apparire un oggetto forzandone il get in luogo del target; con un before_get non sarebbe possibile poich&eacute; allo, scattare del trigger, target sarebbe gi&agrave; stato passato al comando get.<br>
+entity &egrave; colui che sta raccogliendo.<br>
+target &egrave; colui che &egrave; raccolto.<br>
+location &egrave; il luogo in cui avviene l'azione.<br>
+<br>
+
+def <span style='color:royalblue;'>before_give</span>(entity, target, receiver, direction, behavioured):<br>
+def <span style='color:royalblue;'>after_give</span>(entity, target, receiver, direction, behavioured):<br>
+def <span style='color:royalblue;'>before_put</span>(entity, target, receiver, direction, behavioured):<br>
+def <span style='color:royalblue;'>after_put</span>(entity, target, receiver, direction, behavioured):<br>
+<br>
+def <span style='color:royalblue;'>before_gave</span>(entity, target, receiver, direction, behavioured):<br>
+def <span style='color:royalblue;'>after_gave</span>(entity, target, receiver, direction, behavioured):<br>
+def <span style='color:royalblue;'>before_putted</span>(entity, target, receiver, direction, behavioured):<br>
+def <span style='color:royalblue;'>after_putted</span>(entity, target, receiver, direction, behavioured):<br>
+<br>
+def <span style='color:royalblue;'>before_giving</span>(entity, target, receiver, direction, behavioured):<br>
+def <span style='color:royalblue;'>after_giving</span>(entity, target, receiver, direction, behavioured):<br>
+def <span style='color:royalblue;'>before_putting</span>(entity, target, receiver, direction, behavioured):<br>
+def <span style='color:royalblue;'>after_putting</span>(entity, target, receiver, direction, behavioured):<br>
+Trigger che si attivano rispettivamente prima e dopo che l'obiettivo venga dato o messo in un'altra entit&agrave;.<br>
+entity &egrave; colui che sta dando/mettendo.<br>
+target &egrave; ci&ograve; che viene dato/messo.<br>
+receiver &egrave; colui che riceve.<br>
+direction &egrave; il parametro che indica la direzione verso la quale una porta, target, viene inserita sui cardini, in quel caso receiver &egrave; a None. Viceversa quando receiver &egrave; valido direction &egrave; passata a DIR.NONE. <br>
+behavioured &egrave; un valore booleano che indica se il comando &egrave; stato eseguito dall'entit&agrave; tramite un behaviour.<br>
+I primi trigger si attivano se impostati sul file di script con codice uguale a entity, gli altri quattro si attivano se impostati su file di script con codice uguale a target, mentre gli ultimi vanno nel file script uguale a receiver.<br>
+<br>
+
+def <span style='color:royalblue;'>before_hold</span>(entity, target, hands, behavioured):<br>
+def <span style='color:royalblue;'>after_hold</span>(entity, target, hands, behavioured):<br>
+def <span style='color:royalblue;'>before_wield</span>(entity, target, hands, behavioured):<br>
+def <span style='color:royalblue;'>after_wield</span>(entity, target, hands, behavioured):<br>
+<br>
+def <span style='color:royalblue;'>before_holded</span>(entity, target, hands, behavioured):<br>
+def <span style='color:royalblue;'>after_holded</span>(entity, target, hands, behavioured):<br>
+def <span style='color:royalblue;'>before_wielded</span>(entity, target, hands, behavioured):<br>
+def <span style='color:royalblue;'>after_wielded</span>(entity, target, hands, behavioured):<br>
+Trigger che si attivano rispettivamente prima e dopo che l'obiettivo venga preso in mano tramite il rispettivo comando hold e wield.<br>
+entity &egrave; colui che sta tenendo in mano.<br>
+target &egrave; colui che viene tenuto in mano.<br>
+hands &egrave; la lista che contiene la mano o le mani usate per l'operazione.<br>
+behavioured &egrave; un valore booleano che indica se il comando &egrave; stato eseguito dall'entit&agrave; tramite un behaviour.<br>
+I primi quattro trigger si attivano se impostati sul file di script con codice uguale a entity, mentre gli altri quattro si attivano se impostati su file di script con codice uguale a target.<br>
+<br>
+
+def <span style='color:royalblue;'>before_follow</span>(entity, target, behavioured):<br>
+def <span style='color:royalblue;'>after_follow</span>(entity, target, behavioured):<br>
+<br>
+def <span style='color:royalblue;'>before_followed</span>(entity, target, behavioured):<br>
+def <span style='color:royalblue;'>after_followed</span>(entity, target, behavioured):<br>
+Trigger che si attivano rispettivamente prima e dopo che l'obiettivo sia iniziato ad esser seguito.<br>
+Attenzione che questo trigger si attiva solo subito dopo la digitazione del comando, se volete controllare ogni passo del seguito o del seguitore dovete utilizzare i trigger before_move e after_move (e probabilmente controllare poi l'attributo entity.guide).<br>
+entity &egrave; colui che comincia a seguire.<br>
+target &egrave; colui che &egrave; seguito.<br>
+behavioured &egrave; un valore booleano che indica se il comando &egrave; stato eseguito dall'entit&agrave; tramite un behaviour.<br>
+I primi due trigger si attivano se impostati sul file di script con codice uguale a entity, mentre gli altri due si attivano se impostati su file di script con codice uguale a target.<br>
+<br>
+
+def <span style='color:royalblue;'>before_open</span>(entity, target, reverse_target, container_only, behavioured):<br>
+def <span style='color:royalblue;'>after_open</span>(entity, target, reverse_target, container_only, behavioured):<br>
+def <span style='color:royalblue;'>before_close</span>(entity, target, reverse_target, container_only, behavioured):<br>
+def <span style='color:royalblue;'>after_close</span>(entity, target, reverse_target, container_only, behavioured):<br>
+<br>
+def <span style='color:royalblue;'>before_opened</span>(entity, target, reverse_target, container_only, behavioured):<br>
+def <span style='color:royalblue;'>after_opened</span>(entity, target, reverse_target, container_only, behavioured):<br>
+def <span style='color:royalblue;'>before_closed</span>(entity, target, reverse_target, container_only, behavioured):<br>
+def <span style='color:royalblue;'>after_closed</span>(entity, target, reverse_target, container_only, behavioured):<br>
+Trigger che si attivano rispettivamente prima e dopo che un'entit&agrave; viene aperta o chiusa.<br>
+entity &egrave; colui che sta aprendo/chiudendo.<br>
+target &egrave; l'entit&agrave; che viene aperta/chiusa.<br>
+reverse_target rappresenta l'eventuale porta dall'altra parte (nel caso si sia utilizzata la doppia porta sull'uscita).<br>
+container_only &egrave; un valore booleano che indica che il comando cercher&agrave; solo tra i contenitori o anche sulle porte.<br>
+behavioured &egrave; un valore booleano che indica se il comando &egrave; stato eseguito dall'entit&agrave; tramite un behaviour.<br>
+I primi quattro trigger si attivano se impostati sul file di script con codice uguale a entity, mentre gli altri quattro si attivano se impostati su file di script con codice uguale a target.<br>
+<br>
+
+def <span style='color:royalblue;'>before_remove</span>(entity, target, location, chosen_part, behavioured):<br>
+def <span style='color:royalblue;'>after_remove</span>(entity, target, location, chosen_part, behavioured):<br>
+<br>
+def <span style='color:royalblue;'>before_removed</span>(entity, target, location, chosen_part, behavioured):<br>
+def <span style='color:royalblue;'>after_removed</span>(entity, target, location, chosen_part, behavioured):<br>
+Trigger che si attivano rispettivamente prima e dopo che un'entit&agrave; si sia svestita dell'obiettivo.<br>
+entity &egrave; colui che si sveste.<br>
+target &egrave; colui che viene svestito.<br>
+location &egrave; la locazione da cui viene rimossa l'entit&agrave;
+chosen_part &egrave; la parte del corpo di entity scelta per la rimozione di target.<br>
+behavioured &egrave; un valore booleano che indica se il comando &egrave; stato eseguito dall'entit&agrave; tramite un behaviour.<br>
+I primi due trigger si attivano se impostati sul file di script con codice uguale a entity, mentre gli altri due si attivano se impostati su file di script con codice uguale a target.<br>
+<br>
+
+def <span style='color:royalblue;'>before_wear</span>(entity, target, chosen_part, chosen_mode, behavioured):<br>
+def <span style='color:royalblue;'>after_wear</span>(entity, target, chosen_part, chosen_mode, behavioured):<br>
+<br>
+def <span style='color:royalblue;'>before_weared</span>(entity, target, chosen_part, chosen_mode, behavioured):<br>
+def <span style='color:royalblue;'>after_weared</span>(entity, target, chosen_part, chosen_mode, behavioured):<br>
+Trigger che si attivano rispettivamente prima e dopo che un'entit&agrave; abbia indossato qualcosa.<br>
+entity &egrave; colui che si veste.<br>
+target &egrave; ci&ograve; che viene indossato.<br>
+chosen_part &egrave; la parte del corpo di entity scelta ove indossare target.<br>
+chosen_mode &egrave; la modalit&agrave; scelta di wear di target.<br>
+behavioured &egrave; un valore booleano che indica se il comando &egrave; stato eseguito dall'entit&agrave; tramite un behaviour.<br>
+I primi due trigger si attivano se impostati sul file di script con codice uguale a entity, mentre gli altri due si attivano se impostati su file di script con codice uguale a target.<br>
+<br>
+
+def <span style='color:royalblue;'>before_equipment</span>(entity, target, behavioured):<br>
+def <span style='color:royalblue;'>after_equipment</span>(entity, target, behavioured):<br>
+Trigger che si attivano quando si digita il comando equipment.<br>
+entity &egrave; colui che ha digitato il comando.<br>
+target &egrave; l'entit&agrave; con l'equipaggiamento da visualizzare, se entity ha digitato il comando equipment senza argomenti, per vedere il proprio equipaggiamento, target viene passato a None.<br>
+behavioured &egrave; un valore booleano che indica se il comando &egrave; stato eseguito dall'entit&agrave; tramite un behaviour.<br>
+<br>
+
+def <span style='color:royalblue;'>before_inventory</span>(entity, target, behavioured):<br>
+def <span style='color:royalblue;'>after_inventory</span>(entity, target, behavioured):<br>
+Trigger che si attivano quando si digita il comando inventory.<br>
+entity &egrave; colui che ha digitato il comando.<br>
+target &egrave; l'entit&agrave; con l'equipaggiamento da visualizzare, se entity ha digitato il comando inventory senza argomenti, per vedere il proprio inventario, target viene passato a None.<br>
+behavioured &egrave; un valore booleano che indica se il comando &egrave; stato eseguito dall'entit&agrave; tramite un behaviour.<br>
+<br>
+
+def <span style='color:royalblue;'>before_stand</span>(entity, behavioured):<br>
+def <span style='color:royalblue;'>after_stand</span>(entity, behavioured):<br>
+def <span style='color:royalblue;'>before_knee</span>(entity, behavioured):<br>
+def <span style='color:royalblue;'>after_knee</span>(entity, behavioured):<br>
+def <span style='color:royalblue;'>before_rest</span>(entity, behavioured):<br>
+def <span style='color:royalblue;'>after_rest</span>(entity, behavioured):<br>
+def <span style='color:royalblue;'>before_sit</span>(entity, behavioured):<br>
+def <span style='color:royalblue;'>after_sit</span>(entity, behavioured):<br>
+def <span style='color:royalblue;'>before_sleep</span>(entity, behavioured):<br>
+def <span style='color:royalblue;'>after_sleep</span>(entity, behavioured):<br>
+
+
+Trigger che si attivano rispettivamente prima e dopo che sia stata assunta la relativa postura (risveglio, dormiente, in ginocchio, a riposo, seduto, dormiente).<br>
+entity &egrave; l'entit&agrave; (mob, item o player) che effettua l'azione.<br>
+behavioured &egrave; un valore booleano che indica se il comando &egrave; stato eseguito dall'entit&agrave; tramite un behaviour.<br>
+<br>
+
+
+def <span style='color:royalblue;'>before_wake</span>(entity, behavioured):<br>
+def <span style='color:royalblue;'>after_wake</span>(entity, behavioured):<br>
+<br>
+def <span style='color:royalblue;'>before_waked</span>(entity, behavioured):<br>
+def <span style='color:royalblue;'>after_waked</span>(entity, behavioured):<br>
+Trigger che si attivano rispettivamente prima e dopo che sia stato digitato il comando wake.<br>
+entity &egrave; l'entit&agrave; (mob, item o player) che effettua l'azione.<br>
+behavioured &egrave; un valore booleano che indica se il comando &egrave; stato eseguito dall'entit&agrave; tramite un behaviour.<br>
+I primi due si attivano su chi ha eseguito il comando.<br>
+I secondi due si attivano su chi lo sta subendo.<br>
+Attenzione che non si attivano se il comando &egrave; stato eseguito su se stessi.<br>
+<br>
+
+def <span style='color:royalblue;'>before_look</span>(entity, target, descr, detail, use_examine, behavioured):<br>
+def <span style='color:royalblue;'>after_look</span>(entity, target, descr, detail, use_examine, behavioured):<br>
+<br>
+def <span style='color:royalblue;'>before_looked</span>(entity, target, descr, detail, use_examine, behavioured):<br>
+def <span style='color:royalblue;'>after_looked</span>(entity, target, descr, detail, use_examine, behavioured):<br>
+Trigger che si attivano prima e dopo che una entit&agrave; abbia effettuato un look.<br>
+use_examine, valore booleano che indica se il comando &egrave; stato digitato per eseguire un look oppure per eseguire un examine.<br>
+entity &egrave; l'entit&agrave; che vuole leggere la descrizione.<br>
+target &egrave; colui la cui descrizione viene letta, pu&ograve; essere un'entit&agrave; o una room.<br>
+detail &egrave; da dove per la precisione la descrizione viene letta, se target &egrave; una room potrebbe essere lei stessa, una sua extra, una sua exit o un suo wall.
+descr &egrave; la descrizione che sta per essere letta o che &egrave; stata letta, a seconda se stiate utilizzando un trigger before_ o un trigger after_<br>
+use_examine &egrave; un valore booleano che indica se &egrave; stato effettuato un examine in luogo di un look.<br>
+behavioured &egrave; un valore booleano che indica se il comando &egrave; stato eseguito dall'entit&agrave; tramite un behaviour.<br>
+I primi due trigger si attivano se impostati sul file di script con codice uguale a entity, mentre gli altri due si attivano se impostati su file di script con codice uguale a location.<br>
+<br>
+
+def <span style='color:royalblue;'>before_listen</span>(entity, target, detail, descr, behavioured):<br>
+def <span style='color:royalblue;'>after_listen</span>(entity, target, detail, descr, behavioured):<br>
+def <span style='color:royalblue;'>before_smell</span>(entity, target, detail, descr, behavioured):<br>
+def <span style='color:royalblue;'>after_smell</span>(entity, target, detail, descr, behavioured):<br>
+def <span style='color:royalblue;'>before_touch</span>(entity, target, detail, descr, behavioured):<br>
+def <span style='color:royalblue;'>after_touch</span>(entity, target, detail, descr, behavioured):<br>
+def <span style='color:royalblue;'>before_taste</span>(entity, target, detail, descr, behavioured):<br>
+def <span style='color:royalblue;'>after_taste</span>(entity, target, detail, descr, behavioured):<br>
+def <span style='color:royalblue;'>before_intuition</span>(entity, target, detail, descr, behavioured):<br>
+def <span style='color:royalblue;'>after_intuition</span>(entity, target, detail, descrt, behavioured):<br>
+<br>
+def <span style='color:royalblue;'>before_listened</span>(entity, target, detail, descr, behavioured):<br>
+def <span style='color:royalblue;'>after_listened</span>(entity, target, detail, descr, behavioured):<br>
+def <span style='color:royalblue;'>before_smelled</span>(entity, target, detail, descr, behavioured):<br>
+def <span style='color:royalblue;'>after_smelled</span>(entity, target, detail, descr, behavioured):<br>
+def <span style='color:royalblue;'>before_touched</span>(entity, target, detail, descr, behavioured):<br>
+def <span style='color:royalblue;'>after_touched</span>(entity, target, detail, descr, behavioured):<br>
+def <span style='color:royalblue;'>before_tasted</span>(entity, target, detail, descr, behavioured):<br>
+def <span style='color:royalblue;'>after_tasted</span>(entity, target, detail, descr, behavioured):<br>
+def <span style='color:royalblue;'>before_intuited</span>(entity, target, detail, descr, behavioured):<br>
+def <span style='color:royalblue;'>after_intuited</span>(entity, target, detail, descr, behavioured):<br>
+Trigger che si attivano prima e dopo che una entit&agrave; abbia lanciato lo specifico comando sensoriale.<br>
+La descrizione deve effettivamente esistere perch&eacute; il trigger si attivi.<br>
+entity &egrave; l'entit&agrave; che vuole leggere la descrizione sensoriale.<br>
+target &egrave; colui la cui descrizione sensoriale viene letta, pu&ograve; essere un'entit&agrave; o una room.<br>
+detail &egrave; da dove per la precisione la descrizione viene letta, se target &egrave; una room potrebbe essere lei stessa, una sua extra, una sua exit o un suo wall. Se invece target &egrave; un'altro tipo di entit&agrave; potrebbe essere lei stessa oppure una sua extra.<br>
+detail consente in pratica di discriminare tra target o una sua extra. Se il comando &egrave; lanciato sulla room o sull'entit&agrave;, allora detail e target coincidono ma se si tratta di una extra allora detail &egrave; la extra di cui si vuole avere la descrizione.<br>
+descr &egrave; la descrizione che sta per essere letta o che &egrave; stata letta, a seconda se stiate utilizzando un before_ trigger o un after_ trigger<br>
+behavioured &egrave; un valore booleano che indica se il comando &egrave; stato eseguito dall'entit&agrave; tramite un behaviour.<br>
+I primi dieci trigger si attivano se impostati sul file di script con codice uguale a entity, mentre gli altri due si attivano se impostati su file di script con codice uguale a target.<br>
+<br>
+
+def <span style='color:royalblue;'>before_move</span>(entity, from_room, direction, to_room, running, behavioured):<br>
+def <span style='color:royalblue;'>after_move</span>(entity, from_room, direction, to_room, running, behavioured):<br>
+def <span style='color:royalblue;'>before_north</span>(entity, from_room, direction, to_room, running, behavioured):<br>
+def <span style='color:royalblue;'>after_north</span>(entity, from_room, direction, to_room, running, behavioured):<br>
+def <span style='color:royalblue;'>before_northeast</span>(entity, from_room, direction, to_room, running, behavioured):<br>
+def <span style='color:royalblue;'>after_northeast</span>(entity, from_room, direction, to_room, running, behavioured):<br>
+def <span style='color:royalblue;'>before_east</span>(entity, from_room, direction, to_room, running, behavioured):<br>
+def <span style='color:royalblue;'>after_east</span>(entity, from_room, direction, to_room, running, behavioured):<br>
+def <span style='color:royalblue;'>before_southeast</span>(entity, from_room, direction, to_room, running, behavioured):<br>
+def <span style='color:royalblue;'>after_southeast</span>(entity, from_room, direction, to_room, running, behavioured):<br>
+def <span style='color:royalblue;'>before_south</span>(entity, from_room, direction, to_room, running, behavioured):<br>
+def <span style='color:royalblue;'>after_south</span>(entity, from_room, direction, to_room, running, behavioured):<br>
+def <span style='color:royalblue;'>before_southwest</span>(entity, from_room, direction, to_room, running, behavioured):<br>
+def <span style='color:royalblue;'>after_southwest</span>(entity, from_room, direction, to_room, running, behavioured):<br>
+def <span style='color:royalblue;'>before_west</span>(entity, from_room, direction, to_room, running, behavioured):<br>
+def <span style='color:royalblue;'>after_west</span>(entity, from_room, direction, to_room, running, behavioured):<br>
+def <span style='color:royalblue;'>before_northwest</span>(entity, from_room, direction, to_room, running, behavioured):<br>
+def <span style='color:royalblue;'>after_northwest</span>(entity, from_room, direction, to_room, running, behavioured):<br>
+Trigger che si attivano rispettivamente prima e dopo che un giocatore si muova da una stanza per raggiungerne un'altra.<br>
+Quelli di tipo before si attivano sulla room dalla quale ci si muove, mentre quelli di tipo after si attivano sulla room alla quale si arriva.<br>
+entity &egrave; colui che si sta muovendo in una direzione.<br>
+from_room &egrave; la stanza da cui ha iniziato a muoversi verso una direzione.<br>
+direction &egrave; la direzione in cui si sta muovendo.<br>
+to_room &egrave; la stanza di destinazione.<br>
+running &egrave; un valore booleano che indica se entity si sta muovendo di corsa.<br>
+behavioured &egrave; un valore booleano che indica se il comando &egrave; stato eseguito dall'entit&agrave; tramite un behaviour.<br>
+<br>
+
+def <span style='color:royalblue;'>before_outcoming</span>(entity, from_room, direction, to_room, looker, running, behavioured):<br>
+def <span style='color:royalblue;'>after_outcoming</span>(entity, from_room, direction, to_room, looker, running, behavioured):<br>
+Trigger che si attivano su tutte le entit&agrave; che stanno per vedere uscire un'altra entit&agrave;.
+entity &egrave; colui che sta uscendo.<br>
+from_room &egrave; la stanza da cui ha iniziato a muoversi verso una direzione.<br>
+direction &egrave; la direzione in cui si sta muovendo.<br>
+to_room &egrave; la stanza di destinazione.<br>
+looker &egrave; colui che vede uscire entity.<br>
+running &egrave; un valore booleano che indica se entity si sta muovendo di corsa.<br>
+behavioured &egrave; un valore booleano che indica se entity sta uscendo di corsa tramite un behaviour.<br>
+<br>
+
+def <span style='color:royalblue;'>before_incoming</span>(entity, from_room, direction, to_room, looker, running, behavioured):<br>
+def <span style='color:royalblue;'>after_incoming</span>(entity, from_room, direction, to_room, looker, running, behavioured):<br>
+Trigger che si attivano su tutte le entit&agrave; che stanno per vedere entrare un'altra entit&agrave;.
+entity &egrave; colui che sta entrando.<br>
+from_room &egrave; la stanza da cui ha iniziato a muoversi verso una direzione.<br>
+direction &egrave; la direzione in cui si sta muovendo.<br>
+to_room &egrave; la stanza di destinazione.<br>
+looker &egrave; colui che vede entrare entity.<br>
+running &egrave; un valore booleano che indica se entity si sta muovendo di corsa.<br>
+behavioured &egrave; un valore booleano che indica se entity sta entrando di corsa tramite un behaviour.<br>
+<br>
+
+def <span style='color:royalblue;'>before_rpg_channel</span>(listener, speaker, target, phrase, ask, exclaim, behavioured):<br>
+def <span style='color:royalblue;'>after_rpg_channel</span>(listener, speaker, target, phrase, ask, exclaim, behavioured):<br>
+def <span style='color:royalblue;'>before_whisper</span>(listener, speaker, target, phrase, ask, exclaim, behavioured):<br>
+def <span style='color:royalblue;'>after_whisper</span>(listener, speaker, target, phrase, ask, exclaim, behavioured):<br>
+def <span style='color:royalblue;'>before_murmur</span>(listener, speaker, target, phrase, ask, exclaim, behavioured):<br>
+def <span style='color:royalblue;'>after_murmur</span>(listener, speaker, target, phrase, ask, exclaim, behavioured):<br>
+def <span style='color:royalblue;'>before_hissing</span>(listener, speaker, target, phrase, ask, exclaim, behavioured):<br>
+def <span style='color:royalblue;'>after_hissing</span>(listener, speaker, target, phrase, ask, exclaim, behavioured):<br>
+def <span style='color:royalblue;'>before_say</span>(listener, speaker, target, phrase, ask, exclaim, behavioured):<br>
+def <span style='color:royalblue;'>after_say</span>(listener, speaker, target, phrase, ask, exclaim, behavioured):<br>
+def <span style='color:royalblue;'>before_thundering</span>(listener, speaker, target, phrase, ask, exclaim, behavioured):<br>
+def <span style='color:royalblue;'>after_thundering</span>(listener, speaker, target, phrase, ask, exclaim, behavioured):<br>
+def <span style='color:royalblue;'>before_sing</span>(listener, speaker, target, phrase, ask, exclaim, behavioured):<br>
+def <span style='color:royalblue;'>after_sing</span>(listener, speaker, target, phrase, ask, exclaim, behavioured):<br>
+def <span style='color:royalblue;'>before_yell</span>(listener, speaker, target, phrase, ask, exclaim, behavioured):<br>
+def <span style='color:royalblue;'>after_yell</span>(listener, speaker, target, phrase, ask, exclaim, behavioured):<br>
+def <span style='color:royalblue;'>before_shout</span>(listener, speaker, target, phrase, ask, exclaim, behavioured):<br>
+def <span style='color:royalblue;'>after_shout</span>(listener, speaker, target, phrase, ask, exclaim, behavioured):<br>
+<br>
+def <span style='color:royalblue;'>before_listen_rpg_channel</span>(listener, speaker, target, phrase, ask, exclaim, behavioured):<br>
+def <span style='color:royalblue;'>after_listen_rpg_channel</span>(listener, speaker, target, phrase, ask, exclaim, behavioured):<br>
+def <span style='color:royalblue;'>before_listen_whisper</span>(listener, speaker, target, phrase, ask, exclaim, behavioured):<br>
+def <span style='color:royalblue;'>after_listen_whisper</span>(listener, speaker, target, phrase, ask, exclaim, behavioured):<br>
+def <span style='color:royalblue;'>before_listen_murmur</span>(listener, speaker, target, phrase, ask, exclaim, behavioured):<br>
+def <span style='color:royalblue;'>after_listen_murmur</span>(listener, speaker, target, phrase, ask, exclaim, behavioured):<br>
+def <span style='color:royalblue;'>before_listen_hissing</span>(listener, speaker, target, phrase, ask, exclaim, behavioured):<br>
+def <span style='color:royalblue;'>after_listen_hissing</span>(listener, speaker, target, phrase, ask, exclaim, behavioured):<br>
+def <span style='color:royalblue;'>before_listen_say</span>(listener, speaker, target, phrase, ask, exclaim, behavioured):<br>
+def <span style='color:royalblue;'>after_listen_say</span>(listener, speaker, target, phrase, ask, exclaim, behavioured):<br>
+def <span style='color:royalblue;'>before_listen_thundering</span>(listener, speaker, target, phrase, ask, exclaim, behavioured):<br>
+def <span style='color:royalblue;'>after_listen_thundering</span>(listener, speaker, target, phrase, ask, exclaim, behavioured):<br>
+def <span style='color:royalblue;'>before_listen_sing</span>(listener, speaker, target, phrase, ask, exclaim, behavioured):<br>
+def <span style='color:royalblue;'>after_listen_sing</span>(listener, speaker, target, phrase, ask, exclaim, behavioured):<br>
+def <span style='color:royalblue;'>before_listen_yell</span>(listener, speaker, target, phrase, ask, exclaim, behavioured):<br>
+def <span style='color:royalblue;'>after_listen_yell</span>(listener, speaker, target, phrase, ask, exclaim, behavioured):<br>
+def <span style='color:royalblue;'>before_listen_shout</span>(listener, speaker, target, phrase, ask, exclaim, behavioured):<br>
+def <span style='color:royalblue;'>after_listen_shout</span>(listener, speaker, target, phrase, ask, exclaim, behavioured):<br>
+Trigger che si attivano rispettivamente prima e dopo che un'entit&agrave; ascolti o dica qualcosa in uno dei qualsiasi canali rpg.<br>
+listener &egrave; colui che sta ascoltando qualcosa.<br>
+speaker &egrave; colui che dice quella cosa.<br>
+target &egrave; colui a cui si parla, potrebbe benissimo essere a None, in quel caso speaker sta parlando genericamente alla stanza (cosa che di solito il giocatore classico fa)<br>
+phrase &egrave; la cosa detta nella lingua come viene letta da listener, che se non la conosce quindi non &egrave; intellegibile.<br>
+ask &egrave; un valore booleano indica che la frase &egrave; interrogativa.<br>
+exclaim &egrave; un valore booleano indica che la frase &egrave; esclamativa.<br>
+Notare che solo nel il canale say viene convertito il verbo nel messaggio da "Di" a "Domandi" o "Esclami"; ugualmente il valore di ask e exclaim viene definito per tutti i canali a seconda del numero di punti di domanda rispetto ai punti esclamativi.<br>
+behavioured &egrave; un valore booleano che indica se il comando &egrave; stato eseguito dall'entit&agrave; tramite un behaviour.<br>
+I primi diciotto trigger si attivano se impostati sul file di script con codice uguale a speaker, mentre gli altri diciotto si attivano se impostati su file di script con codice uguale a listener.<br>
+<br>
+
+def <span style='color:royalblue;'>before_date</span>(entity, behavioured):<br>
+def <span style='color:royalblue;'>after_date</span>(entity, behavioured):<br>
+Trigger che si attivano quando viene digitato il comando data.<br>
+entity &egrave; colui che ha digitato il comando.<br>
+behavioured &egrave; un valore booleano che indica se il comando &egrave; stato eseguito dall'entit&agrave; tramite un behaviour.<br>
+<br>
+
+def <span style='color:royalblue;'>on_dawn</span>(room):<br>
+def <span style='color:royalblue;'>on_dawn</span>(mob):<br>
+def <span style='color:royalblue;'>on_dawn</span>(item):<br>
+def <span style='color:royalblue;'>on_sunrise</span>(room):<br>
+def <span style='color:royalblue;'>on_sunrise</span>(mob):<br>
+def <span style='color:royalblue;'>on_sunrise</span>(item):<br>
+def <span style='color:royalblue;'>on_noon</span>(room):<br>
+def <span style='color:royalblue;'>on_noon</span>(mob):<br>
+def <span style='color:royalblue;'>on_noon</span>(item):<br>
+def <span style='color:royalblue;'>on_sunset</span>(room):<br>
+def <span style='color:royalblue;'>on_sunset</span>(mob):<br>
+def <span style='color:royalblue;'>on_sunset</span>(item):<br>
+def <span style='color:royalblue;'>on_dusk</span>(room):<br>
+def <span style='color:royalblue;'>on_dusk</span>(mob):<br>
+def <span style='color:royalblue;'>on_dusk</span>(item):<br>
+def <span style='color:royalblue;'>on_midnight</span>(room):<br>
+def <span style='color:royalblue;'>on_midnight</span>(mob):<br>
+def <span style='color:royalblue;'>on_midnight</span>(item):<br>
+Trigger che si attivano quando intercorre un determinato momento della giornata (alba, sorger del sole, mezzogiorno, tramonto, crepuscolo, mezzanotte).<br>
+room, mob o item &egrave; l'entit&agrave; legata al gamescript del trigger.<br>
+Nel caso di una room se si esce dalla funzione di trigger con un return True allora eventuali trigger dello stesso tipo del contenuto della stanza non verranno attivati.<br>
+Invece nel caso di un mob o di un item se si esce dalla funzione di trigger con un return True allora verranno saltati eventuali trigger dello stesso tipo sugli altri mob e/o item.<br>
+<br>
+
+
+def <span style='color:royalblue;'>before_enter_in_game</span>(player):<br>
+def <span style='color:royalblue;'>after_enter_in_game</span>(player):<br>
+<br>
+def <span style='color:royalblue;'>before_exit_from_game</span>(player):<br>
+def <span style='color:royalblue;'>after_exit_from_game</span>(player):<br>
+Attenzione: sono trigger da usare solo quando si sa esattamente cosa si sta facendo, in particolare non si deve giocare con la from_location e to_location che con questi trigger o succedono macelli.<br>
+Si attivano rispettivamente prima e dopo che un player entra / esce dal gioco.<br>
+Si attivano unicamente sui player.<br>
+<br>
+
+def <span style='color:royalblue;'>on_booting</span>(room):<br>
+def <span style='color:royalblue;'>on_booting</span>(item):<br>
+def <span style='color:royalblue;'>on_booting</span>(mob):<br>
+def <span style='color:royalblue;'>on_shutdown</span>(room):<br>
+def <span style='color:royalblue;'>on_shutdown</span>(item):<br>
+def <span style='color:royalblue;'>on_shutdown</span>(mob):<br>
+Trigger che si attivano all'avvio o alla chiusura del gioco.<br>
+Servono principalmente per assicurarsi che le specials impostate nei vari mudscript siano inizializzate o salvate in maniera corretta in queste due fasi critiche del ciclo di persistenza. Ci&ograve; permette per esempio di rimuovere le variabili specials che non si vogliono rendere persistenti tra un avvio ed un altro oppure impostare correttamente quelle che si vogliono mantenere tra un avvio ed un altro, creando per esempio, delle quest a lungo termine.<br>
+<br>
+
+def <span style='color:royalblue;'>on_reset</span>(room):<br>
+def <span style='color:royalblue;'>on_reset</span>(mob):<br>
+def <span style='color:royalblue;'>on_reset</span>(item):<br>
+Trigger che si attivano al resetting di una delle entit&agrave; specifiche: una stanza, un mob o un oggetto.<br>
+Questi trigger si attivano anche quando il Mud viene riavviato.<br>
+C'&egrave; da notare che il trigger si attiva quando l'entit&agrave; &egrave; stata resettata assieme a tutto il suo contenuto, permettendo manipolazioni su quest'ultimo.<br>
+Se c'&egrave; necessit&agrave; di inibirne il funzionamento durante l'avvio basta un check nel gamescript di questo tipo:<br>
+<xmp>   from src.engine import engine
+   if engine.booting:
+       return</xmp>
+<br>
+
+def <span style='color:royalblue;'>on_repop</span>(room):<br>
+def <span style='color:royalblue;'>on_repop</span>(mob):<br>
+def <span style='color:royalblue;'>on_repop</span>(item):<br>
+Trigger che si attivano al repop d'area.<br>
+<br>
+
+def <span style='color:royalblue;'>on_init</span>(room):<br>
+def <span style='color:royalblue;'>on_init</span>(mob):<br>
+def <span style='color:royalblue;'>on_init</span>(item):<br>
+Trigger che si attivano alla creazione di una dell'entit&agrave; specifiche: una stanza, un mob o un oggetto.<br>
+Questo trigger si attiva anche quando il Mud viene riavviato.<br>
+Se l'entit&agrave; con questo trigger viene creata tramite reset il trigger on_init viene attivato anche in quell'occasione assieme all'eventuale trigger on_reset.<br>
+<br>
+
+def <span style='color:royalblue;'>before_inject</span>(item, location):<br>
+def <span style='color:royalblue;'>after_inject</span>(item, location):<br>
+def <span style='color:royalblue;'>before_inject</span>(mob, location):<br>
+def <span style='color:royalblue;'>after_inject</span>(mob, location):<br>
+Trigger che si attivano all'inserimento di una dell'entit&agrave; specifiche dal gioco: per ora non si pu&ograve; utilizzare il trigger per l'iniezione delle stanze, bisogna per forza utilizzare l'on_reset sulle stesse che vanno a sostituire quella vecchia.<br>
+location &egrave; l'entit&agrave; o la stanza in cui viene iniettato mob o item.<br>
+Se viene ritornato True l'iniezione verr&agrave; interrotta, &egrave; una cosa pericolosa da fare perch&eacute; danneggia i riferimenti globali delle entit&agrave;, ma se si sa quello che si fa si pu&ograve; utilizzare.<br>
+<br>
+
+def <span style='color:royalblue;'>before_extract</span>(mob):<br>
+def <span style='color:royalblue;'>after_extract</span>(mob):<br>
+def <span style='color:royalblue;'>before_extract</span>(item):<br>
+def <span style='color:royalblue;'>after_extract</span>(item):<br>
+Trigger che si attivano alla rimozione di una delle entit&agrave; specifiche dal gioco: per ora non si pu&ograve; utilizzare il trigger per l'estrazione delle stanze, bisogna per forza utilizzare l'on_reset sulle stesse che vanno a sostituire quella vecchia.<br>
+Se viene ritornato True l'estrazione verr&agrave; interrotta, &egrave; una cosa pericolosa da fare perch&eacute; danneggia i riferimenti globali delle entit&agrave;, ma se si sa quello che si fa si pu&ograve; utilizzare.<br>
+<br>
+
+def <span style='color:royalblue;'>before_from_location</span>(entyity, quantity):<br>
+def <span style='color:royalblue;'>after_from_location</span>(entity, quantity):<br>
+Funzionano concettualmente come la from_location del codice kernel:<br>
+entity &egrave; l'entit&agrave; (mob o item) da rimuovere per una quantit&agrave; voluta dalla locazione in cui si trovano attualmente.<br>
+<br>
+def <span style='color:royalblue;'>before_to_location</span>(entity, location):<br>
+def <span style='color:royalblue;'>after_to_location</span>(entity, location):<br>
+Funzionano concettualmente come la to_location del codice kernel:<br>
+entity &egrave; l'entit&agrave; (mob o item) da inserire nella locazione voluta (room, mob, item o player).<br>
+<br>
+
+def <span style='color:royalblue;'>before_seed</span>(entity, target, location, ground, behavioured):<br>
+def <span style='color:royalblue;'>after_seed</span>(entity, target, location, ground, behavioured):<br>
+<br>
+def <span style='color:royalblue;'>before_seeded</span>(entity, target, location, ground, behavioured):<br>
+def <span style='color:royalblue;'>after_seeded</span>(entity, target, location, ground, behavioured):<br>
+<br>
+def <span style='color:royalblue;'>before_seeding_in_location</span>(entity, target, location, ground, behavioured):<br>
+def <span style='color:royalblue;'>after_seeding_in_location</span>(entity, target, location, ground, behavioured):<br>
+Trigger che si attivano rispettivamente prima e dopo che un seme venga piantato con il comando seed.<br>
+Se si ritorna True nella funzione relativa al trigger allora il gioco eviter&agrave; di fare germinare il seme.<br>
+entity &egrave; chi sta cercando di piantare il seme.<br>
+target &egrave; il seme stesso.<br>
+location &egrave; la room o il contenitore dove si sta seminando.<br>
+ground &egrave; il terreno in cui si sta seminando la pianta oppure quello trovato per primo nel vaso (la location).<br>
+behavioured &egrave; un valore booleano che indica se il comando &egrave; stato eseguito dall'entit&agrave; tramite un behaviour.<br>
+I primi due trigger si attivano se impostati sul file di script con codice uguale a entity, i secondi due si attivano se impostati su file di script con codice uguale a target mentre gli ultimi due si attivano se impostati su file di script con codice uguale a location.<br>
+
+<br>
+def <span style='color:royalblue;'>on_next_stage</span>(old_entity, new_entity, choised_attr):<br>
+def <span style='color:royalblue;'>on_next_stage</span>(old_entity, new_entity, choised_attr):<br>
+Trigger che si attiva quando un seme o una pianta passa da uno stadio di crescita ad un altro. Il gamescript &egrave; da inserire in un file py con il nome uguale al prototipo relativo ad old_entity e non a new_entity.<br>
+Se si ritorna True nella funzione relativa al trigger allora il gioco eviter&agrave; di chiamare il prossimo stadio di crescita<br>
+old_entity &egrave; l'entit&agrave; dello stadio di crescita della pianta precedente<br>
+new_entity &egrave; l'entit&agrave; dello stadio di crescita della pianta attuale<br>
+choised_attr indica quale tra i tre possibili etichette contenenti il codice di prototipo &egrave; stata scelta per creare la nuova entit&agrave;, &egrave; una stringa che pu&ograve; contenere tre valori: "worse_entity", "normal_entity" e "better_entity"<br>
+<br>
+
+def <span style='color:royalblue;'>remove_persistence</span>(data):<br>
+Trigger che si attiva in caso di rimozione di persistenze tramite l'opzione via web: Remove Persistence.<br>
+data &egrave; una location (room, mob o item) che viene rimossa.<br>
+La presenza di tale trigger serve primariamente a lenire l'assenza degli affect che &egrave; temporaneamante compensata da oggetti pericolosi.<br>
+Un oggetto che conferisce aumenti di stat, se rimossa tramite persistenze non riesce a riportare alla normalit&agrave; i valori del pg conferendo un indebito vantaggio definitivo.<br>
+Si tratta dunque di un trigger che cosente di fare i primi surrogati di affect senza dover impazzire per prevenire tutto quello che non si pu&ograve; prevedere..<br>
+
+<hr>
+</body>
+</html>

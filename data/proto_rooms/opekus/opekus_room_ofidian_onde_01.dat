@@ -1,0 +1,23 @@
+Code: opekus_room_ofidian_onde_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Tempesta Congelata
+Short: un'onda scolpita
+
+Descr:
+Dalla roccia scolpita come flutti spicca un'onda bassa piegata su sé stessa a ricciolo;
+per tutta la sua lunghezza s'avvolge ad elica rivelando un corridoio profondo. 
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Il cammino
+End
+Exits:
+  Direction: DIR.SOUTHWEST
+  Descr: Verso la cattedrale
+End
+

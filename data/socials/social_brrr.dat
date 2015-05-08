@@ -1,0 +1,26 @@
+FunName:    social_brrr
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Rabbrividisci.. brrr!!!
+  OthersNoArg: $n rabbrividisce visibilmente.. brrr!!!
+  EntityFound: Rabbrividisci guardando $N.. brrr!!!
+  OthersFound: $n rabbrividisce guardando $N.. brrr!
+  TargetFound: $n rabbrividisce guardandomi.. brrr!!!
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: ti stringi abbracciandoti con le zampe, cercando riparo dal freddo.
+  OthersNoArg: $n forse ha freddo perché sta rabbrividendo vistosamente.
+  EntityFound: Un brivido ti percorre la colonna spinale proprio mentre t'accosti a $N.
+  OthersFound: $n pare scoss$o da un brivido non appena s'accosta a $N.
+  TargetFound: $n s'accosta un poco a te e viene scoss$o da un brivido.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: ti stringi abbracciandoti con le zampe, cercando riparo dal freddo.
+  OthersNoArg: $n forse ha freddo perché sta rabbrividendo vistosamente.
+  EntityFound: Un brivido ti percorre la colonna spinale proprio mentre t'accosti a $N.
+  OthersFound: $n pare scoss$o da un brivido non appena s'accosta a $N.
+  TargetFound: $n s'accosta un poco a te e viene scoss$o da un brivido.
+End

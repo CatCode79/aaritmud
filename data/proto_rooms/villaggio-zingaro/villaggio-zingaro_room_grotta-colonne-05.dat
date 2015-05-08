@@ -1,0 +1,35 @@
+Comment: Abbozzo
+Code: villaggio-zingaro_room_grotta-colonne-05
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: Il Loggiato
+Short: un loggiato
+
+Descr: 
+Una fila di eleganti colonnine ritorte appaiono come un loggiato che permette di intravedere parte del lago sottostante e impediscono rovinose cadute che potrebbero costare la vita. La punta di una stalagmite a lato del sentiero sembra aver inglobato qualcosa che però non riesci bene a distinguere.
+DescrSmell: 
+Aria calda e madida di umido.
+DescrSixth:
+I sentieri tracciati e molti altri piccoli elementi ti fanno pensare che questa grotta non dev'esser stata sempre deserta e silenziosa. 
+DescrHearing:
+Una brezza proveniente da chissà dove si muta in fischio passando fra interstizi di stalagmiti.
+
+Extras:
+	Keywords: qualcosa
+	Descr:
+	Osservando meglio ti accorgi che sono i resti arrugginiti di una lanterna.
+End
+
+Width:	3m
+Depth:	2m
+Height: 8m
+
+Exits:
+	Direction: DIR.SOUTH
+	Descr: Attorno alle colonne
+End
+Exits:
+	Direction: DIR.NORTHWEST
+	Descr: Al promontorio
+	Destination:	4 -2 -3 villaggio-zingaro
+End

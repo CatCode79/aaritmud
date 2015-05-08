@@ -1,0 +1,35 @@
+Comment: qui eventualmente si può considerare di mettere un contenitore invisibile vuoto locked non demolibile e chiamarlo porta e/o finestra.
+Code: villaggio-zingaro_room_villaggio-09
+Sector: SECTOR.ROAD
+Name: Poche Casupole
+Short: poche casupole
+
+Descr:
+All'interno della via stretta, diverse casupole s'affacciano con le grondaie fino quasi a toccarsi reciprocamente sopra la tua testa.
+Le porte per la maggior parte sono chiuse inchiodate e le finestre sbarrate da assi di legno messe a croce.
+Al tuo passaggio non puoi fare a meno di notare gli stretti anfratti fra un'abitazione e l'altra, troppo stretti anche per un marmocchio.
+
+DescrTouch: 
+Se ci può essere una causa d'abbandono delle case deve essere tutta questa maledetta polvere che si deposita ovunque.
+DescrSmell: 
+Tmidi sbuffi di vento da sud portan odori curiosi e indistinguibili.
+DescrSixth:
+Un riparo per la notte forse è meglio cercarlo in qualche locanda che oltre queste porta.
+DescrHearing:
+Qualche topo banchetta nei pressi di questa zona coprendo di stridenti squittii la flemma del vento.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+Exits:
+	Direction: DIR.SOUTH
+	Descr: La piazza
+End
+Exits:
+	Direction: DIR.NORTH
+	Descr: La strada
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: L'officina del fabbro
+End

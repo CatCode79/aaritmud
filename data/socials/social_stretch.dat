@@ -1,0 +1,34 @@
+FunName:    social_stretch
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Allunghi gambe e braccia stiracchiandoti pigramente.. va meglio, car$o?
+  OthersNoArg: $n allunga gambe e braccia stiracchiandosi pigramente..
+  EntityFound: Ti stiracchi appoggiandoti a $N.
+  OthersFound: $n si stiracchia appoggiandosi a $N.
+  TargetFound: $n si stiracchia appoggiandosi a te!
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Alzi il capo stiracchiando i muscoli del collo.
+  OthersNoArg: $n alza il capo e con morbidi movimenti laterali si stiracchia il collo.
+  EntityFound: Metti le $hands addosso a $N per stiracchiarti le braccia.
+  OthersFound: $n mette le $hands addosso a $N per stiracchiarsi le braccia.
+  TargetFound: $n ti mette le $hands addosso per stiracchirsi... cafone!
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Inarchi la schiena e distendi le zampe stiracchiandoti.
+  OthersNoArg: $n inarca la schiena e stiracchia le zampe distendendole.
+  EntityFound: Inarchi la schiena ed allunghi una zampa verso $N mentre ti stiracchi.
+  OthersFound: $n inarca la schiena ed allunga una zampa verso $N mentre si stiracchia.
+  TargetFound: $n inarca la schiena ed allunga una zampa verso te mentre si stiracchia.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Inarchi la schiena e distendi le zampe stiracchiandoti.
+  OthersNoArg: $n inarca la schiena e stiracchia le zampe distendendole.
+  EntityFound: Inarchi la schiena ed allunghi una zampa verso $N mentre ti stiracchi.
+  OthersFound: $n inarca la schiena ed allunga una zampa verso $N mentre si stiracchia.
+  TargetFound: $n inarca la schiena ed allunga una zampa verso te mentre si stiracchia.
+End

@@ -1,0 +1,32 @@
+Comment: 85 1|4 3
+Code: sauria_room_amena-foresta-18
+Sector: SECTOR.FOREST
+Name: Un'Amena Foresta
+Short: un'amena foresta
+
+Descr:
+Qui la foresta termina davanti ad una parete rocciosa invalicabile. Verso sud la gli arbusti son troppo fitti per prendere in considerazione di proseguire oltre. Le uniche scelte possibili sembrano essere a nord e ad est. 
+DescrTouch: 
+Una massiccia parete di pietra priva di asperità come se un tempo fosse stata percorsa dall'acqua.
+DescrSmell: 
+Gli odori nella foresta si mescolano e si confondo ad ogni refolo di vento.
+DescrSixth:
+Verso sud il rigoglio è tale che servirebbero ore per procedere di troppo poco.
+DescrHearing:
+Da est e da ovest il vento porta le sgraziate strida di quelli che potrebbero essere degli uccelli.
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21821
+  Descr:	Un'amena foresta
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 -1 21817
+  Descr:	Un'amena foresta
+  Direction:	DIR.EAST
+End

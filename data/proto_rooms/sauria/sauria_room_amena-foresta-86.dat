@@ -1,0 +1,39 @@
+Comment: 0 1 3
+Code: sauria_room_amena-foresta-86
+Sector: SECTOR.FOREST
+Name: Un'Amena Foresta
+Short: un'amena foresta
+
+Descr:
+La foresta continua sempre uguale in tutte le direzioni. Forse a nord risulta infruttuoso proseguire; ad est cespugli spinosi. 
+DescrTouch: 
+Dietro una [maroon]frasca[close] più esterna delle altre c'è un passaggio.
+DescrSixth:
+Oltre la [maroon]frasca[close] sul lato intravedi un'apertura.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	1|8|128 0 21887
+  Descr:	Lo specchio nero
+  Direction:	DIR.EAST
+  Door:		sauria_item_door-frasca
+End
+Exits:
+  Comment:	0 0 21828
+  Descr:	Un'amena foresta
+  Direction:	DIR.SOUTH
+End
+Exits:
+  Comment:	0 -1 21837
+  Descr:	Un'amena foresta
+  Direction:	DIR.WEST
+End
+Extras:
+  Comment:	EXTRA_COMMENT
+  Keywords:	cespugli spinosi
+  Descr: 
+	Un'averla cinerina qui si sentirebbe a casa. A ben guardare però oltre questa frasca c'è qualcosa.
+End

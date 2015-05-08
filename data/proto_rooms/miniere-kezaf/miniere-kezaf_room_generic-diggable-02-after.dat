@@ -1,0 +1,29 @@
+Comment: room che si possono visitare solo scavando. Si tratta dei percorsi di collegamento fra tratti di miniera preesistenti
+Code: miniere-kezaf_room_generic-diggable-02-after
+Sector: SECTOR.UNDERGROUND
+Flags:	ROOM.INSIDE
+Name: Un Cunicolo Sotterraneo
+Short: un cunicolo sotterraneo
+
+Descr:
+Questa stanza presenta una serie di tubi di ferro oramai quasi del tutto
+arrugginiti sparsi per la stanza, buttati alla rinfusa in terra. Una corda
+anch'essa consunta dal tempo e sfilacciata, sicuramente sarà servita per tenere
+legati in ordine i tubi durante i bei tempi in cui la miniera era ancora
+funzionante. Noti dei segni sulle pareti della stanza e della terra smossa di
+recente presente sul pavimento, qualcuno potrebbe essere passato di qui
+prima di te.
+
+DescrSmell: 
+Avverti un forte odore di ferro e di ruggine provenire da quel che rimane di
+alcuni grossi tubi sparsi sul terreno.
+
+DescrSixth:
+Ti sembra di essere già passato di qui.
+
+
+
+Width:	2m
+Depth:	2m
+Height: 150cm
+

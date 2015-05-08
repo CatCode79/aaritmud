@@ -1,0 +1,81 @@
+Comment:
+    Descrizione dell'interno di casa di Sophie. Ogni oggetto richiede una descrizione ...
+
+Code: home-sophie_room_dentro-casa-01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Casa di Sophie
+Short: la casina di sophie
+
+Descr:
+Entri in un ampio salone nel quale ciò che noti immediatamente è un piacevolissimo
+disordine che caratterizza l'ambiente. In un angolo della stanza un enorme camino.
+Arredata con divani di vari colori caldi che ti fanno pensare a climi mediorientali.
+Libri ovunque: per terra, sopra i tavoli, sui divani... Un tavolo rettangolare e lampade
+disposte con un'apparente casualità.La stanza è illuminata dalla luce del sole che entra
+attraverso le numerose finestre che ti mettono in contatto con la natura. La finestra più
+grande ti regala la vista del Lago Blu che si trova proprio di fronte la casa di Sophie.
+
+DescrNight:
+Entri in un ampio salone nel quale ciò che noti immediatamente è un piacevolissimo
+disordine che caratterizza l'ambiente. In un angolo della stanza un enorme camino acceso.
+È arredata con divani di vari colori caldi che ti fanno pensare a climi mediorientali.
+Libri ovunque: per terra, sopra i tavoli, sui divani... Un tavolo rettangolare e lampade
+accese disposte con un'apparente casualità.La stanza è invasa dalla luce della luna che
+entra attraverso le numerose finestre.La più grande ti regala la vista del Lago Blu,
+illuminato dalla luna, che si trova proprio di fronte la casa di Sophie.
+
+
+DescrTouch:
+          Prendi in mano dei libri e li sfogli
+DescrTouchNight:
+
+Prendi in mano dei libri e li sfogli
+
+DescrSmell:
+
+Senti il profumo delle ciambelline all'anice appena sfornate
+DescrSmellNight:
+
+Senti il profumo delle spezie del dolce preparato da Sophie.
+
+DescrSixth:
+
+Il tuo sesto senso ti fa intuire che questa è la casa di  [red]S[gold]ophie[close].
+DescrSixth:
+
+Il tuo sesto senso ti fa intuire che questa è la casa di  [red]S[gold]ophie[close].
+
+Non è il caso di venirci di notte non invitati!
+
+DescrHearing:
+
+Senti una musica provenire chissà da dove.
+DescrHearingNight:
+
+Ascolti il silenzio della casa ed il suono dei tuoi pensieri.
+
+DescrTaste:
+
+Provi ad assaggiare le ciambelline all'anice di Sophie.
+DescrTasteNight:
+
+Provi ad assaggiare il dolce speziato allo zenzero di Sophie.
+
+
+
+Extras:
+ Keywords:	terzo cartello
+ Descr: Il cartello dice “Se sei arrivato qui vuol dire che puoi anche curiosare, leggere e pensare...anche assaggiare i dolci di  Sophie!”
+ DescrSixth: Intuisci che c'è qualcosa di invisibile nella casa che ti piace, ma non sai bene cosa sia!
+End
+
+
+Width:	7 m
+Depth:	7 m
+Height: 5 m
+
+Exits:
+ Direction: DIR.SOUTH
+ Descr: L'esterno
+End

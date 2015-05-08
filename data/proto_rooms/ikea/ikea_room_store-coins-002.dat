@@ -1,0 +1,29 @@
+Code: ikea_room_store-coins-002
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Zecca del Nakilen
+Short: reparto della zecca del Nakilen
+
+Descr:
+Magazzino Ikea, Reparto [aqua]Giardinaggio[close];
+arredamento in corso. Per soli 2 Euro ci scusiamo con la clientela; accorrete numerosi.
+Un cartello dice "Zecca del Nakilen".
+
+Extras:
+	Keywords: cartello
+	Descr:
+	Zecca del Nakilen
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: Verso il centro dei magazzini
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Prosegue il reparto della zecca
+End

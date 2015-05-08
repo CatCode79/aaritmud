@@ -1,0 +1,34 @@
+Code: novizi_room_privato_studiolo
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Lo Studiolo di Grozzy
+Short: un piccolo studio
+
+Descr:
+La stanza ampia e nuda cerca vanamente di essere riempita da un divano posto sotto la
+luminosa finestra ad ovest e da una scrivania in legno massiccio collocata in un angolo.
+Qualche seggiola e una poltrona sono abbandonate qua e là facendole sembrare solitari
+iceberg abbandonati a loro stessi. C'è una lanterna in alto sulla verticale della
+scrivania.
+DescrNight:
+La stanza ampia e nuda cerca vanamente di essere riempita da un divano posto davanti
+ad una finestra coperta da spessi tendaggi, sul lato opposto una scrivania in legno
+massiccio occupa a malapena l'angolo a destra. Qualche seggiola e una poltrona sono
+abbandonate qua e la facendole sembrare solitari iceberg abbandonati a loro stessi.
+C'è una lanterna in alto sulla verticale della scrivania.
+DescrSmell: 
+Colonna sonora onnipresente il vago odore di collante.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Il corridoio
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: La bottega
+End
+

@@ -1,0 +1,33 @@
+Code: opekus_room_ofidian_common_11
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Il Corridoio d'Ardesia
+Short: un corridoio nero
+
+Descr:
+Il corridoio sotterraneo è scavato nella roccia con degli inserti in pietra chiara di
+estensione via via maggiore man mano che si procede verso ovest; spariscono tratti di
+roccia nera a favore di zone tassellate con blocchi chiari separati da materiale
+granuloso.
+
+Extras:
+	Keywords: pietre granuli granuloso
+	Descr:
+	Lo spazio fra le pietre è meno di un dito ed è riempito di una sostanza che, trascurato
+	il colore, parrebbe argilla.
+	DescrTouch:
+	La parte di materiale fra le pietre non pare abbia grande consistenza pur non essendo friabile
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Il corridoio
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Il corridoio
+End

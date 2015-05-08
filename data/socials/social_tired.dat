@@ -1,0 +1,28 @@
+FunName:    social_tired
+Intention:  INTENTION.NEUTRAL
+Expression: stanco
+Smiles:     :v :-v
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Distendi stancamente le braccia mentre sbadigli..
+  OthersNoArg: $n distende le braccia sbadigliando stancamente..
+  EntityFound: Distendi le braccia sbadigliando in faccia a $N.
+  OthersFound: $n distende le braccia sbadigliando in faccia a $N.
+  TargetFound: $n distende le braccia sbadigliandoti in viso!
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Ciondoli il capo stancamente, sei less$o.
+  OthersNoArg: $n ciondola il capo stancamente, sembra proprio less$o.
+  EntityFound: Miagoli uno sbadiglio mentre cerchi di guardare $N.
+  OthersFound: $n compie un grande sforzo per guardare $N ma in realtà è stanc$o mort$o.
+  TargetFound: $n ti segue con fatica, è davvero stanc$o.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Ciondoli il capo stancamente, sei less$o.
+  OthersNoArg: $n ciondola il capo stancamente, sembra proprio less$o.
+  EntityFound: Miagoli uno sbadiglio mentre cerchi di guardare $N.
+  OthersFound: $n compie un grande sforzo per guardare $N ma in realtà è stanc$o mort$o.
+  TargetFound: $n ti segue con fatica, è davvero stanc$o.
+End

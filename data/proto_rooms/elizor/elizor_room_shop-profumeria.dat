@@ -1,0 +1,39 @@
+Comment:
+porta che si deve richiudere in fretta (per il rumore)
+messaggi con il rumore dell'esterno che permea se si apre e scema se si chiude
+
+script sulla negoziera per spruzzare (random 1/3) chi entra con dei campioncini di profumo
+
+una extra per le boccetine che sia sempre diversa pescando in un database creato con una sorta di polygen
+qui sarebbe da fare una lista fatta da polygen oppure importare la grammatico o importare polygen come modulo di aarit.
+Se lo legge il gatto è capace che di notte riscrive polygen...
+
+
+Code: elizor_room_shop-profumeria
+Sector: SECTOR.SHOP
+Flags: ROOM.INSIDE
+Name: Le Fragranze di Alina
+Short: la profumeria
+
+Descr:
+Ciò che ti si palesa agli occhi accentua il forte contrasto con l'ambiente di piazza; una fitta serie di boccettine sfavillanti riempie di riflessi il morbido spazio che ti accoglie.
+Al centro del tempio, una sorta di altare ospita poche rare boccette di profumi con l'intento di conferire loro legittimazione al munifico prezzo.
+DescrTouch: 
+no_send
+DescrSmell: 
+Trapela anche dai cristalli sigillati il sottile sentore aromatico di inpronuncibili profumi.
+DescrSixth:
+È lecito chiedersi quale sia l'uso maggiormente in voga dei prodotti qui in vendita che possano consentire alla proprietaria l'agio e la ricchezza di cui dà sfoggio.
+DescrHearing:
+Evidentemente il fastidoso frastuno dell'esterno è sentito come tale dalla proprietaria che si deve'essere prodigata non poco per rendere tutto così silenzioso qui dentro.
+DescrTaste:
+no_send
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	L'uscita
+End

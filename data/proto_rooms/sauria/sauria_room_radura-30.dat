@@ -1,0 +1,41 @@
+Comment: 85 0 2
+Code: sauria_room_radura-30
+Sector: SECTOR.SAVANNA
+Name: Una Radura
+Short: una radura
+
+Descr:
+Nel mezzo della foresta c'è un'ampia radura dove la vegetazione è stata strappata calpestata e schiacciata.
+DescrTouch: 
+La vegetazione qui è a rischio se non completamente assente ed il terreno a tratti è divenuto terra battuta.
+DescrSmell: 
+Ad ogni passo si alza un che di polveroso che ti solletica le narici.
+DescrSixth:
+Qualunque evento abbia creato uno spazio così ampio, non è quel genere di evento con il quale  passare un piacevole pomeriggio.
+DescrHearing:
+Di quando in quando giunge un rumore di mascelle... ma forse è solo l'immaginazione.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21838
+  Descr:	Una radura
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 -1 21829
+  Descr:	Un'amena foresta
+  Direction:	DIR.EAST
+End
+Exits:
+  Comment:	0 -1 21825
+  Descr:	Un'amena foresta
+  Direction:	DIR.SOUTH
+End
+Exits:
+  Comment:	0 -1 21831
+  Descr:	Una radura
+  Direction:	DIR.WEST
+End

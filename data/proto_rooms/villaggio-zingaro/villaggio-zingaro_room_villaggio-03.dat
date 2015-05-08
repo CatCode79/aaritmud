@@ -1,0 +1,59 @@
+Comment: nei rumori della fontana ho messo direttamente parte della poesia di Aldo Palazzeschi - La fontana malata
+laubja invece ha il significato di 'riparo' in qualche lingua antica francofona ( è la radice del termine lodge)
+Code: villaggio-zingaro_room_villaggio-03
+Sector: SECTOR.VILLAGE
+Name: La Piazza del Villaggio
+Short: la piazza del villaggio
+
+Descr:
+La facciata principale di un alto edificio delimita ad est una modesta piazzetta:
+tre stradine tranquille che s'incontrano mollemente attorno ad una fontanina centrale.
+Le poche costruzioni in vista sono tutte dislocate verso sudest.
+
+DescrSmell: 
+Odore di pulito e profumo innaturale che giunge chissà da dove.
+DescrSixth:
+L'edificio principale della piazza ha un'[deeppink]insegna[close] proprio sopra l'ingresso.
+DescrHearing:
+Clof, clop, cloch,
+cloffete,
+cloppete,
+clocchete,
+chchch...
+Una fontanina malata
+
+Extras:
+	Keywords: insegna
+	Descr:
+<pre class="asciiart">
+ -----------------------            
+| [deeppink]  /)         /)  ,    [close] |
+| [deeppink] // _       (/_    _  [close] |
+| [deeppink](/_(_(_(_(_/_)  /_(_(_[close] |
+| [deeppink]             .-/      [close] |
+| [deeppink]            (_/       [close] |
+ -----------------------            
+</pre>
+	DescrSixth:
+	Di certo se c'è un insegna non è per una setta segreta che odia gli stranieri
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+Exits:
+	Direction: DIR.NORTHEAST
+	Descr: La strada
+End
+Exits:
+	Direction: DIR.EAST
+	Descr: Verso la laubja
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: La strada
+End
+Exits:
+	Direction: DIR.SOUTH
+	Descr: La strada
+End

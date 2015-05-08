@@ -1,0 +1,41 @@
+Code:	citta-raminghe_room_piramide-gradoni-01
+Sector:	SECTOR.CITY
+Name:	[gold]La Piramide della Luna[close]
+Short:	una [gold]piramide[close] imponente
+
+Descr:
+Improvvisamente davanti a te la maestosità di un'antica [gold]piramide[close] costruita in tempi remotissimi. Le sue pareti
+sono tipicamente oblique alternate a gradoni rettangolari. Si compone di tre piani sovrapposti e lateralmente una
+[coral]scalinata[close] conduce verso la sommità della costruzione. È ornata da teste scolpite a rilievo:
+[yellowgreen]serpenti[close] con collari piumati alternati a teste di [crimson]drago[close] con la pelle a squame. Le teste
+ sono circa trecento. L'ingresso è rivolto a est verso il sole che sorge. I raggi illuminano l'apice della piramide con una 
+luce intensa quasi ad indicare che si tratta di un luogo sacro.
+DescrNight:	
+Improvvisamente davanti a te la maestosità di un'antica [gold]piramide[close] costruita in tempi remotissimi. Le sue pareti
+sono tipicamente oblique alternate a gradoni rettangolari. Si compone di tre piani sovrapposti e lateralmente una
+[coral]scalinata[close] conduce verso la sommità della costruzione. È ornata da teste scolpite a rilievo:
+[yellowgreen]serpenti[close] con collari piumati alternati a teste di [crimson]drago[close] con la pelle a squame. L'ingresso è rivolto a est verso il sole che sorge. Lungo le pareti numerose fiaccole illuminano la piramide rendendola visibile nel 
+buio della notte anche a distanza.
+
+DescrSixth:
+L'entrata della piramide orientata verso il sorgere del [yellow]sole[close] ti fa intuire che questo è un luogo sacro 
+destinato alla fertilità e alla rinascita. L'energia che sprigiona può attivare pensieri fecondi se saprai farne buon uso.
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	Un sentiero selciato
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	Una porta
+	Door:	citta-raminghe_item_porta-piramide-secret
+End
+Exits:
+	Direction:	DIR.UP
+	Descr:	Una lunghissima scalinata in pietra
+	Destination:	14 2 2 citta-raminghe
+End

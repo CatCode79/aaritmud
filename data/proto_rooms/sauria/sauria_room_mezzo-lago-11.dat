@@ -1,0 +1,34 @@
+Comment: 85 0 6
+Code: sauria_room_mezzo-lago-11
+Sector: SECTOR.LAKE
+Name: In Mezzo Al Lago
+Short: in mezzo al lago
+
+Descr:
+Ti trovi a galleggiare nel mezzo del lago. Sei circondato da ampie ninfee che potrebbero forse sostenere il peso di un umano. Qua e là fiori bianchi e rosa. 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21810
+  Descr:	Canneto
+  Direction:	DIR.SOUTH
+End
+Exits:
+  Comment:	0 -1 21812
+  Descr:	Nelle profondità del lago
+  Direction:	DIR.DOWN
+End

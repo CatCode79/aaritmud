@@ -1,0 +1,31 @@
+Comment: Il fungo qui descritto è il chantarellus cibarius (gallinaccio, finferlo) info da wikipedia. da usare per la creazione degli oggetti
+Code: torreelementi_room_fungheria_02
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: il Cunicolo [gold]Dorato[close]
+Short: [gold]oro[close] che non luccica
+Descr:
+La parte di cunicolo si restringe man mano che ci si allontana dal centro della
+fungheria e i fagottoni fungini si fanno ammassati sempre più fittamente. Si vede
+facilmente rispetto alle altre zone della fungheria l'uso delle foglie di faggio
+come substrato per i funghi. Ciò che maggiormente salta all'occhio qui è però il
+colore [gold]dorato[close] dei funghi.
+DescrSmell:
+L'odore qui si fa molto più sottile e delicato; delle due l'una: o non ci son funghi
+qui oppure se ci sono non profumano molto
+
+Extras:
+  Keywords: funghi fungo
+  DescrTouch: Sodo al tatto e fibroso quanto basta da percepirlo anche solo staccandone un pezzetto
+  DescrSmell: Sarà anche che sono coltivati ma qui il profumo è proprio difficile da percepire
+  Descr: Sono tutti piuttosto piccini e di forma irregolare di colore [gold]dorato[close] sia cappello che gambo. Le lamelle sono larghe e grossolane.
+End
+
+Width:	3m
+Depth:	3m
+Height: 2m
+
+Exits:
+  Direction: DIR.SOUTHEAST
+  Descr: La zona centrale
+End

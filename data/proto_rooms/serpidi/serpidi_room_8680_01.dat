@@ -1,0 +1,20 @@
+Code: serpidi_room_8680_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: Un corridoio buio 
+Short: Un corridoio buio 
+Descr: 
+Sei in un corridoio più buio dei precedenti. Senti i tuoi passi risuonare... pensi che forse il corridoio è in realtà un ponte sospeso. 
+Exits:
+	Direction: DIR.NORTH
+	Destination: 2 9 -2 serpidi
+End
+Exits:
+	Direction: DIR.SOUTH
+	Destination: 2 7 -2 serpidi
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

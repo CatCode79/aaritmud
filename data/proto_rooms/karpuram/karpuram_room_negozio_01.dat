@@ -1,0 +1,26 @@
+Comment: qui ci va un enter portale per arrivare dentro al negozio che per ora è linkato solo ONE-WAY
+Code: karpuram_room_negozio_01
+Sector: SECTOR.PLAIN
+Name: [yellow]G[white]aia[close] la [yellow]Q[white]uercia [yellow]M[white]illenaria[close]
+Short: la [yellow]q[white]uercia [yellow]m[white]illenaria
+Descr:
+Sei sul palco maggiore dell'enorme quercia; disposti in ogni dove sono tralci d'edera
+a pavimentare e a rivestire tronco e rami. Pareti vegetali sono a separare fra loro
+stanze e corridoi. La stanza centrale è circondata da una miriade di lanterne spente
+ed ha un misterioso portale fluttuante. Oltre il portale si intravvede una stanza stipata
+di oggetti.
+DescrNight:
+Sei sul palco maggiore dell'enorme quercia; disposti in ogni dove sono tralci d'edera
+a pavimentare e a rivestire tronco e rami. Pareti vegetali sono a separare fra loro
+stanze e corridoi. La stanza centrale è circondata da una miriade di lanterne dalla luce
+argentea ed ha un misterioso portale fluttuante. Oltre il portale si intravvede una
+stanza stipata di oggetti.
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.DOWN
+  Descr: Alla base dell'albero
+End

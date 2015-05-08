@@ -1,0 +1,44 @@
+Code: novizi2_room_07-wear
+Icon: icons/room/triskele-yellow.png
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Il Guardaroba
+Short: il guardaroba
+
+Descr:
+Sei giunto alla parte più succosa relativa agli oggetti. Qui sparsi in giro sono
+disposti in rigoroso disordine dei capi d'abbigliamento per consentirti di non
+uscire nud$o. Nella [red]cassa[close] ci sono gli ultimi arrivi.
+Tramite:<br>
+$tLook cassa<br>
+si vede in contenuto e ad esempio tramite:<br>
+$tGet calzino cassa<br>
+si può prendere un calzino dalla cassa.
+<br>
+Una volta presi i capi di abbigliamento più idonei li puoi provare e rimuovere tramite:
+<br>
+- $tWEAR calzino<br>
+- $tREMOVE calzino<br><br>
+<br>
+Su di un lato c'è un accesso per la zona notte che permette di sentirsi un po' meno in piazza mentre ci si cambia.
+DescrSmell: 
+L'ambiente è colmo dell'odore di confezioni aperte da poco e di collanti non ancora perfettamente asciutti.
+DescrSixth:
+Difficile credere di trovare dell'equipaggiamento interessante qui. Pare che tutto sia stato acquistato ad una svendita o addirittura da artigiani in malafede.
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.NORTHWEST
+	Descr: [lemonchiffon]Un corridoio[close]
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr: [lemonchiffon]La sala delle armi[close]
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	Un camerino
+End

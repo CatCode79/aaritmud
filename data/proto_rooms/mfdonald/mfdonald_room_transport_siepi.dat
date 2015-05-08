@@ -1,0 +1,27 @@
+Code: mfdonald_room_transport_siepi
+Sector: SECTOR.AIR
+Name: La Sfera MindFlayer
+Short: una pozza spugnosa
+Descr: 
+Sei in una pozza spugnosa
+
+DescrSmell:
+Non si sente odore alcuno come se la zona fosse stata creata dal nulla da pochi istanti,
+ti senti il primo essere a venir con la sua puzza qui a colonizzare.
+
+DescrHearing: 
+Un ronzio basso poco percettibile come potenza che però ti pervade in ogni singola fibra.
+
+ShortNight: una pozza
+DescrNight:
+Sei in una pozza di consistenza morbida e strana
+
+Width:	9m
+Depth:	9m
+Height: 9m
+
+Exits:
+  Direction: DIR.DOWN
+  Descr: Le siepi
+  Destination: 0 0 0 siepi
+End

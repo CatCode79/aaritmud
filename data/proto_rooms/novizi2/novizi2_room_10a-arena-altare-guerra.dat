@@ -1,0 +1,22 @@
+Code: novizi2_room_10a-arena-altare-guerra
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	[gold]L'Altare alla Guerra[close]
+Short:	[gold]la scelta più comune[close]
+
+Descr:
+L'affusto in conci di pietra chiara avvolge la piccola sala voltata a botte.
+La pianta rettangolare vede ai quattro angoli alcune statue in pose inquistorie che ti scrutano gravi e scettiche al contempo.
+
+DescrSixth:
+Questo piccolo tempietto è dedicato al combattimento ed all'arte della guerra. Sono qui collocate quattro statue, ciascuna rappresentante le virtù che meglio si confanno ad una vita da combattente lunga abbastanza per poterne raccontare ai nipotini.
+
+Width:  10m
+Depth:  10m
+Height: 4m
+
+Exits:
+	Direction:	DIR.EAST
+	Descr: [lemonchiffon]L'arena[close]
+End
+

@@ -1,0 +1,42 @@
+Code: karpuram_room_secolare-08
+Sector: SECTOR.PLAIN
+Name: Una Guardiola
+Short: una guardiola
+
+Descr:
+Questa stanza è stata studiata appositamente per controllare il passaggio
+verso ovest, te ne rendi conto quasi subito poiché non risulta totalmente
+chiusa. Si tratta di una sorta di corridoio coperto da due pareti laterali e da
+un tetto di foglie e liane, che si ergono parallele alla piattaforma su cui
+poggiano. La via verso ovest è bloccata da una grata di ferro e da due elfi
+molto alti e armati di tutto punto che non sembrano intenzionati a farti
+procedere oltre. Verso est si trova un ballatoio, mentre ad ovest ti sembra di
+notare una costruzione fortificata.
+
+DescrNight:
+Questa stanza è stata studiata appositamente per controllare il passaggio
+verso ovest, te ne rendi conto quasi subito poiché non risulta totalmente
+chiusa. Si tratta di una sorta di corridoio coperto da due pareti laterali e da
+un tetto di foglie e liane, che si ergono parallele alla piattaforma su cui
+poggiano. La via verso ovest è bloccata da una grata di ferro e da due elfi
+molto alti e armati di tutto punto che non sembrano intenzionati a farti
+procedere oltre. Quattro lampade di rame illuminano la stanza con una luce
+flebile [orange]luce[close] arancione. Verso est si trova un ballatoio, mentre 
+ad ovest ti sembra di notare una costruzione fortificata.
+
+DescrSixth:
+Percepisci ostilità e astio provenire da questo luogo, come se l'armoniosità
+della natura circostante non riuscisse a estendersi oltre.
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Il secondo ballatoio
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: La prima torretta
+End

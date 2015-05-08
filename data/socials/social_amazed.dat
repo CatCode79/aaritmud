@@ -1,0 +1,28 @@
+FunName:    social_amazed
+Intention:  INTENTION.NEUTRAL
+Expression: sorpreso
+Smiles:     :o :-o
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Spalanchi gli occhi dalla sorpresa!
+  OthersNoArg: $n spalanca gli occhi dalla sorpresa!
+  EntityFound: Spalanchi gli occhi guardando $N.
+  OthersFound: $n spalanca gli occhi guardando $N.
+  TargetFound: $n spalanca gli occhi guardandoti.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Drizzi le orecchie sorpres$o dagli eventi.
+  OthersNoArg: $n drizza le orecchie con stupore.
+  EntityFound: Drizzi le orecchie verso $N, guardandol$O con stupore.
+  OthersFound: $n drizza le orecchie verso $N, guardandol$O con stupore.
+  TargetFound: $n drizza le orecchie verso di te, guardandoti con stupore.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Drizzi le orecchie sorpres$o dagli eventi.
+  OthersNoArg: $n drizza le orecchie con stupore.
+  EntityFound: Drizzi le orecchie verso $N, guardandol$O con stupore.
+  OthersFound: $n drizza le orecchie verso $N, guardandol$O con stupore.
+  TargetFound: $n drizza le orecchie verso di te, guardandoti con stupore.
+End

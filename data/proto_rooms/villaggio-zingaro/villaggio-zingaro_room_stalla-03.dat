@@ -1,0 +1,35 @@
+Code: villaggio-zingaro_room_stalla-03
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Stalla
+Short: la stalla
+
+Descr:
+In quest'ultimo tratto il corridoio dei box si restringe leggermente verso il fondo e il lucernario prosegue anche oltre la porticina dell'ultimo box. 
+Attraverso le assi del pavimento scorgi quelle che sembrano essere delle piastrelle colorate.  
+DescrSmell: 
+Un'inconfondibile fragranza equina
+DescrHearing:
+Odi numerosi sbuffi e nitriti.
+DescrSixth:
+Hai l'impressione che questa parte della struttura sia precedente alla costruzione della stalla e che sia stata rimaneggiata in tempi più recenti.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+Exits:
+	Direction: DIR.WEST
+	Descr: Un box
+End
+Exits:
+	Direction: DIR.NORTH
+	Descr: Il corridoio
+End
+Exits:
+	Direction: DIR.SOUTH
+	Descr: Un box
+End
+Exits:
+	Direction: DIR.EAST
+	Descr: Un box
+End

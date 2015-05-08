@@ -1,0 +1,83 @@
+Comment: Casa della Batu
+Code: home-batu_room_01-pentacolo
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE ROOM.STOREROOM
+
+Name: La Sala delle Evocazioni
+Short: la sala delle evocazioni
+ShortNight: la buia sala delle evocazioni 
+
+Descr:
+Un pavimento color antracite in cui affiora in rilievo un pentacolo demoniaco.
+Alle pareti sono collocate torce spente e dal soffitto proviene una luce diffusa d'origine ignota.
+DescrNight: 
+Un pavimento color antracite in cui affiora in rilievo un pentacolo demoniaco luminoso.
+Alle pareti sono collocate torce accese che riescono a rischiarare tenuamente l'ambiente.
+DescrHearing:
+Il tipico rumore delle onde luminose che s'infrangono sulla tua persona ottundono l'udito con il tipico Buzzzzzzzzzzzz...
+DescrHearingNight: 
+Rumore come di fiamme che scollano mormorando.
+DescrSmell:
+Zolfo e zucchero.
+DescrSmellNight:
+Zolfo e bella di notte.
+DescrTouch:
+Allunghi le mani verso di lì per verificare l'omogeneità delle correnti d'aria ma senza risultati.
+DescrTouchNight:
+Infili il naso nella densa aria notturna con timida speranza.
+DescrTaste:
+Assapori il nulla dell'aria per sentirlo appieno.
+DescrTasteNight:
+Assapori il nulla ignoto dell'aria per averne un sentore vacuo.
+DescrSixth:
+Questa è zona d'ingresso di bestie da altre dimensioni meglio fare spazio.
+DescrSixthNight:
+Questa è zona d'ingresso di bestie da altre dimensioni che nel buio potrebbero spalmarti senza avvedersene.
+
+Extras:
+  Keywords: pentacolo "pentacolo demoniaco"
+  Descr:
+	Ogni punta del pentacolo ha un portacandela a forma di lecca lecca in diversi colori.
+  DescrNight: 
+	Ogni punta del pentacolo ha un portacandela a forma di malevolo lecca lecca che ti osserva con aria di sfida. Noti che in alcuni punti i rilievi del pentacolo rifulgono di luce diafana
+  
+DescrHearing:
+	Da ogni punta del pentacolo giungono flebili bisbiglii malevoli.
+  DescrHearingNight:
+	Da ogni punta del pentacolo si levano salmodianti vocii in controcanto.
+  DescrTouch:
+	Il rilievo pare un estroflessione del terreno come se il pentacolo provenisse dal profondo spingendo verso l'alto.
+  DescrTouchNight:
+	Il rilievo pare un estroflessione del terreno come se il pentacolo provenisse dal profondo spingendo verso l'alto e sporgendo d'acuminata audacia malevole.
+  DescrSixth:
+	Il giusto rituale può far comparire potentissime entità da luoghi poco raccomandabili. Il punto è capire se compaiono all'interno o all'esterno del pentacolo e se il pentacolo è una protezione sufficiente.
+  DescrSixthNight:
+	Il giusto rituale può far comparire potentissime entità da luoghi poco raccomandabili. Il punto non è capire se compaiono all'interno o all'esterno del pentacolo quanto mettere a punto il pentacolo nei punti poco luminosi che potrebbero non essere protezione sufficiente.
+
+  Author: Patheff
+End
+
+Width: 20m
+Depth: 20m
+Height: 10m
+Owner: Patheff
+ModTemperature: 60%
+ModLight: 30%
+Exits:
+  Direction: DIR.DOWN
+  Destination: 0 0 0 carrozzone-zingaro
+  Descr: Una botola tonda spalancata e priva della copertura.
+  DescrNight: La debole lucentezza delle candele illumina a malapena una botola spalancata.
+  EntityMessage: Ti dirigi $A allontanandoti dal $a.
+  OthersInMessage: $n esce dal $a.
+  OthersOutMessage: $n entra nel $A.
+End
+Exits:
+	Direction: DIR.NORTH
+	Descr: Al villaggio
+	Destination: 0 1 0 villaggio-zingaro
+End
+Exits:
+	Direction: DIR.EAST
+	Descr: Al groviglio
+End

@@ -1,0 +1,16 @@
+Code: rip_room_thepa-street-02
+Sector: SECTOR.PATH
+
+Name: Il Principio Urodelo
+Short: il principio urodelo
+
+Descr:
+La via dove sono i cadaveri dei thepa.
+
+Width: 20m
+Depth: 20m
+Height: 10m
+Exits:
+  Direction: DIR.WEST
+  Descr: Verso il centro
+End

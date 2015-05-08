@@ -1,0 +1,28 @@
+FunName:    social_sadly
+Intention:  INTENTION.NEUTRAL
+Expression: mesto
+Smiles:     :[ :-[
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Ti avvilisci tenendo basse spalle mentre chini mestamente il capo.
+  OthersNoArg: $n abbassa le spalle sospirando mestamente.
+  EntityFound: Lasci cadere le spalle mentre chini mestamente il capo guardando $N.
+  OthersFound: $n china mestamente il capo guardando $N.
+  TargetFound: $n abbassa le spalle e chinando mestamente il capo ti guarda negli occhi.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Abbassi le orecchie con aria mesta.
+  OthersNoArg: $n si guarda attorno con aria affranta, piegando le orecchie.
+  EntityFound: Sfuggi lo sguardo di $N per non mostrare il tuo dolore.
+  OthersFound: $n sembra a disagio davanti a $N, non vuole mostrar$gli il suo dolore.
+  TargetFound: $n evita il tuo sguardo ma si vede che è affrant$o.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Abbassi le orecchie con aria mesta.
+  OthersNoArg: $n si guarda attorno con aria affranta, piegando le orecchie.
+  EntityFound: Sfuggi lo sguardo di $N per non mostrare il tuo dolore.
+  OthersFound: $n sembra a disagio davanti a $N, non vuole mostrar$gli il suo dolore.
+  TargetFound: $n evita il tuo sguardo ma si vede che è affrant$o.
+End

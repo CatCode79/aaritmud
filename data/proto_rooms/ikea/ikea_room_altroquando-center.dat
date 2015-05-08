@@ -1,0 +1,36 @@
+Code: ikea_room_altroquando-center
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Il Centro della Zona Mobbosa
+Short: il centro della zona mobbosa
+
+Descr:
+Il piano superiore dell'Ikea non è posto per compere... è più un'area di DOOM.
+Qui siamo nel suo esatto centro e si può uscire andando verso il basso.
+(la room è resettata alle ore 07 di ogni giorno)
+
+Width:	6m
+Depth:	6m
+Height: 10m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Altroquando
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Altroquando 
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Altroquando 
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Altroquando 
+End
+Exits:
+  Direction: DIR.DOWN
+  Descr: Il ritorno
+  Door:	ikea_item_grata
+End

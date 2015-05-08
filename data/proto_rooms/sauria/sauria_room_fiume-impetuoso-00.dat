@@ -1,0 +1,30 @@
+Comment: 85 0 7 0 0
+Code: sauria_room_fiume-impetuoso-00
+Sector: SECTOR.RIVER
+Flags:	ROOM.INSIDE
+Name: Un Fiume Impetuoso
+Short: un fiume impetuoso
+
+Descr:
+Sei trascinato via verso nord dalla corrente.
+DescrTouch: 
+L'aria è calda e carica d'umidità.
+DescrSmell: 
+Percepisci una vaga fragranza di vaniglia... 
+DescrHearing:
+Verso sud echeggia un rimbombo come di tuono.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 13915 -1
+  Descr:	Un fiume impetuoso
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 -1 21801
+  Descr:	La cascata
+  Direction:	DIR.SOUTH
+End

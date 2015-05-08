@@ -1,0 +1,47 @@
+Code: siepi_room_intrico_se
+Sector: SECTOR.WOOD
+Name: Il Labirinto di Akh-Dara
+Short: un garbuglio intricato
+Descr: 
+I sentieri e le siepi piegano qui tutti a raggera nella direzione di un imponente
+albero in direzione sudest. Non meno alta di prima ora la siepe pare piuttosto piccina
+se confrontata con quell'albero imperioso.
+
+DescrSmell:
+Per la prima volta da che sei qui dentro ti pervade un profumo di piante in fiore.
+
+DescrHearing:
+Qui il vento si fa maggiormente impetuoso nelle orecchie impedendoti di ascoltare
+qualunque altro suono.
+
+ShortNight: un intrico scuro 
+
+DescrHearingNight:
+Il vento sta cambiando.
+
+Width:	7m
+Depth:	7m
+Height: 15m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Lo squarcio nella siepe
+  Destination: -2 0 0 siepi
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Sentieri imbrigliati da siepi 
+  Destination: -1 1 0 siepi
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Sentieri imbrigliati da siepi 
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Sentieri imbrigliati da siepi 
+End
+Exits:
+  Direction: DIR.SOUTHEAST
+  Descr: L'albero imponente
+End

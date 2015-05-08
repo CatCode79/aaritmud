@@ -1,0 +1,24 @@
+Code: villaggio-zingaro_room_villaggio-16
+Sector: SECTOR.ROAD
+Name: Un Sentierucolo di Sterpi
+Short: un sentierucolo di sterpi
+
+Descr:
+Quel che inizia convinto come sentiero costeggia lateralmente un grande edificio in legno.
+Dopo pochi passi la dignità di sentierucolo si perde fiaccamente e vincono sterpi ed erbacce. 
+Con un po' di fatica si vede fra la vegetazione un mucchio di ghiaia e sassi bianchi.
+
+
+Extras:
+	Keywords: mucchio ghiaia sassi sasso
+	Descr:
+	L'ammasso di ciottoli pare smosso di recente ma non vale davvero la pena scavare.
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+Exits:
+	Direction: DIR.SOUTHWEST
+	Descr: La piazza
+End

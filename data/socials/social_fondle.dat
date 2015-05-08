@@ -1,0 +1,48 @@
+FunName:    social_fondle
+Intention:  INTENTION.FRIENDLY
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Ti dai un bacino.
+  OthersNoArg: $n si dà un bacino sul palmo della $hand.
+  EntityFound: Dai un tenero bacino a $N.
+  OthersFound: $n dà un tenero bacino a $N.
+  TargetFound: $n ti dà un tenero bacino.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Affidi un bacino al signor Vento.
+  OthersNoArg: $n bacia la punta delle dita e vi soffia sopra.
+  EntityFound: Sfioro appena la guancia di $N con le labbra.
+  OthersFound: $n vola vicino a $N e gli sfiora una guancia con le labbra.
+  TargetFound: $n ti sfiora la guancia con le labbra facendomi il solletico.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Non è proprio nella tua natura.
+  OthersNoArg: no_send
+  EntityFound: Non è proprio nella tua natura.
+  OthersFound: no_send
+  TargetFound: no_send
+  EntityAuto:  Non è proprio nella tua natura.
+  OthersAuto:  no_send
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Affidi un bacino al vento.
+  OthersNoArg: $n manda bacini ai presenti.
+  EntityFound: Strofini il muso contro la guancia di $N, a mo' di bacino.
+  OthersFound: $n strofina delicatamente il muso contro la guancia di $N.
+  TargetFound: $n strofina delicatamente il suo muso contro la tua guancia
+  EntityAuto:  Ti dai un bacino sulla zampetta e poi te la passi più volte sull'orecchia.
+  OthersAuto:  $n si dà un bacino sulla zampetta e poi se la passa più volte sull'orecchia.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Affidi un bacino al vento.
+  OthersNoArg: $n manda bacini ai presenti.
+  EntityFound: Strofini il muso contro la guancia di $N, a mo' di bacino.
+  OthersFound: $n strofina delicatamente il muso contro la guancia di $N.
+  TargetFound: $n strofina delicatamente il suo muso contro la tua guancia
+  EntityAuto:  Ti dai un bacino sulla zampetta e poi te la passi più volte sull'orecchia.
+  OthersAuto:  $n si dà un bacino sulla zampetta e poi se la passa più volte sull'orecchia.
+End

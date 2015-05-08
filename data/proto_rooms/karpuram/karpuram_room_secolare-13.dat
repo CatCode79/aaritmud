@@ -1,0 +1,35 @@
+Code: karpuram_room_secolare-13
+Sector: SECTOR.PLAIN
+Name: Una Seconda Torretta
+Short: una seconda torretta
+
+Descr:
+Ti trovi alla seconda torretta di guardia e noti subito un certo allarmismo
+da parte degli elfi posti a difesa. La torretta è interamente rivestita da 
+lamine di ferro, sia in terra che ai lati e vi sono due punti di avvistamento 
+che sporgono leggermente rispetto al quadrato centrale, all'interno dei quali 
+altrettanti elfi arcieri sono in posizione di guardia. Come loro supervisore 
+si muove centralmente un altro elfo armato di tutto punto. Da qui puoi solo 
+tornare al ballatoio verso nord.
+
+DescrNight:
+Ti trovi alla seconda torretta di guardia e noti subito un certo allarmismo
+da parte degli elfi posti a difesa. La torretta è interamente rivestita da 
+lamine di ferro, sia in terra che ai lati e vi sono due punti di avvistamento 
+che sporgono leggermente rispetto al quadrato centrale, all'interno dei quali 
+altrettanti elfi arcieri sono in posizione di guardia. Come loro supervisore si 
+muove centralmente un altro elfo armato di tutto punto. Da qui puoi solo 
+tornare al ballatoio verso nord.
+
+DescrSixth:
+La tua presenza qui non è gradita e ti sembra di avere tutti gli occhi puntati
+addosso anche se nessuno degli elfi presenti nella stanza sembra osservarti.
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Il terzo ballatoio
+End

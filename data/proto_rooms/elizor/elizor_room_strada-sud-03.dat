@@ -1,0 +1,30 @@
+Code: elizor_room_strada-sud-03
+Sector:	SECTOR.ROAD
+Name: strada-sud-03
+Short: strada-sud-03
+
+Descr:
+Sei 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.NORTHWEST
+	Descr:	La direttrice sud
+End
+Exits:
+	Direction:	DIR.SOUTHEAST
+	Descr:	La direttrice sud
+End

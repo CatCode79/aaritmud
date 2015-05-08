@@ -1,0 +1,27 @@
+Code: opekus_room_periferia_06
+Sector: SECTOR.PATH
+Name: La Vecchia Strada
+Short: una strada
+Descr:
+Poche ardite sterpaglie cercano instancabili di riconquistare il terreno a loro sottratto
+dalla strada ove cammini. Esperti operai devono aver faticato non poco nella posa della
+miriade di piastre di questa strada. La via procede senza l'impegno di un cambiamento
+complice la ragguardevole età.
+
+Width:	2m
+Depth:	10m
+Height: 10m
+
+Exits:
+	Direction: DIR.SOUTH
+	Descr: La strada
+End
+Exits:
+	Direction: DIR.NORTH
+	Descr: La strada
+End
+Exits:
+	Direction:	DIR.WEST
+	Destination:	4 0 -2 siepi
+	Descr:	Un viale
+End

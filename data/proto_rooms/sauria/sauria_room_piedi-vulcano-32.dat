@@ -1,0 +1,48 @@
+Comment: 85 0 5
+Code: sauria_room_piedi-vulcano-32
+Sector: SECTOR.FOREST
+Name: Ai Piedi Del Vulcano
+Short: ai piedi del vulcano
+
+Descr:
+La foresta termina bruscamente cedendo il passo ad una nera spianata.
+Sul lato della parete rocciosa si apre uno stretto varco impenetrabile.
+In alto si vedon refoli di fumo nero.
+DescrTouch: 
+Il substrato dove cammini diviene duro e vetroso. La parete ovest si piega diventando un accesso difficoltoso ed erto. La tua $hand sfiora una frattura nella roccia troppo stretta per te.
+DescrSmell: 
+Miasmi soporiferi giungono provengono a singulti come esalati da una creatura in affanno.
+A tratti giunge anche l'ottundente aspro sapore di fuliggine.
+DescrSixth:
+Non c'è modo di oltrepassare il varco ad ovest.
+DescrHearing:
+Si sente distintamente un basso rombo continuo provenire dalle profondità della terra.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21840
+  Descr:	Un'amena foresta
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 -1 21831
+  Descr:	Una radura
+  Direction:	DIR.EAST
+End
+Exits:
+  Comment:	0 -1 21827
+  Descr:	Un'amena foresta
+  Direction:	DIR.SOUTH
+End
+Exits:
+  Direction:	DIR.WEST
+  Descr:	Aperta verso altra area (TD)
+End
+Exits:
+  Comment:	0 -1 21833
+  Descr:	Una cengia
+  Direction:	DIR.UP
+End

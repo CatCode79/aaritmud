@@ -1,0 +1,34 @@
+FunName:    social_ops
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Ti metti la $hand sulla bocca e dici, "Oooops! Che ho combinato?"
+  OthersNoArg: $n si mette la $hand sulla bocca e dice, "Oooops! Che ho combinato?"
+  EntityFound: Guardi $N allargando le braccia e dici, "Oops! Ma che ho combinato!?"
+  OthersFound: $n guarda $N allargando le braccia e dice, "Oops! Ma che ho combinato?!"
+  TargetFound: $n ti guarda allargando le braccia e dice, "Ooops! Ma che ho combinato?!"
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Ecco, hai fatto un disastro.. toccherà uccidere i testimoni.
+  OthersNoArg: Con le $hands sui fianchi $n contempla il disastro appena combinato.
+  EntityFound: Ecco, hai fatto in disastro.. toccherò uccidere $N che ne è stat$O testimone.
+  OthersFound: $n ha fatto un disastro e guarda $N con fare irritato.
+  TargetFound: $n ha fatto un disastro e ti osserva con sguardo irritato.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Sposti la coda e combini un pasticcio!
+  OthersNoArg: $n combina un disastro con un semplice movimento della coda..
+  EntityFound: Ti distrai a guardare $N e combini un pasticcio con la coda.
+  OthersFound: $n si distrae a guardare $N e combina un pasticcio con la coda.
+  TargetFound: $n si volta a guardarti e combina un pasticcio con la coda!
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Sposti la coda e combini un pasticcio!
+  OthersNoArg: $n combina un disastro con un semplice movimento della coda..
+  EntityFound: Ti distrai a guardare $N e combini un pasticcio con la coda.
+  OthersFound: $n si distrae a guardare $N e combina un pasticcio con la coda.
+  TargetFound: $n si volta a guardarti e combina un pasticcio con la coda!
+End

@@ -1,0 +1,90 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<h2>Indice delle Etichette per la rimozione di entit&agrave;.</h2>
+<div>
+<a href='#Comment'><span class='label'>Comment</span>:</a><br>
+<a href='#Minutes'><span class='label'>Minutes</span>:</a><br>
+<a href='#EntityMessage'><span class='label'>EntityMessage</span>:</a><br>
+<a href='#OthersMessage'><span class='label'>OthersMessage</span>:</a><br>
+</div>
+<br>
+
+<hr>
+<h2>Note Riguardo all'estrazione delle entit&agrave;.</h2>
+<div>
+<span class="label">ExtractTimeout</span> &egrave; un'etichetta che rappresenta una struttura di pi&ugrave; sottoetichette, e quindi abbisogna dell'etichetta <span class="label">End</span> per terminarne la definizione.<br>
+Impostando tempi e messaggi &egrave; possibile far sparire definitvamente un mob oppure un oggetto con anche la frase di commiato.<br>
+Utile per far rimuovere scarti e prodotti di script che non si vogliono in eterno ad insozzare il mud oppure anche solo per garantire un repop nel caso l'oggetto abbia una quantit&agrave; massima di copie generabili (tramite l'etichetta MaxGlobaQuantity dei mob/item).<br>
+L'etichetta permette far rimuovere automaticamente l'entit&agrave; dopo un certo tempo.<br>
+Si attiva solo nel metodo inject, ovvero quando si resetta o si inserisce un'entit&agrave; nel gioco tramite tale metodo.<br>
+La procedura di morte viene invece disattivata in gioco in un qualsiasi momento se l'entit&agrave; viene spostata da dove si trova (un get, uno scrpt...).<br>
+</div>
+<br>
+
+<hr>
+<h2>Tabella di Riferimento Veloce.</h2>
+<div>
+<table border="1">
+<tr class="thref"><td>Etichetta</td><td>Tipologia</td><td>Utilizzo</td></tr>
+<tr><td class="label">Comment</td><td>Stringa, relativa ad un commento</td><td>Facoltativo, consigliato se c'&egrave; qualcosa di particolare</td></tr>
+<tr><td class="label">Minutes</td><td>Numero Intero</td><td>Obbligatoria</td></tr>
+<tr><td class="label">EntityMessage</td><td>Stringa</td><td>Facoltativa</td></tr>
+<tr><td class="label">OthersMessage</td><td>Stringa</td><td>Facoltativa</td></tr>
+</table>
+</div>
+<br>
+
+<hr>
+<h2>Struttura Tipica con tutte le Etichette (per copia e incolla).</h2>
+<div>
+<pre>
+
+ExtractTimeout:
+	Comment:
+	Minutes:
+	EntityMessage:
+	OthersMessage:
+End
+
+</pre>
+</div>
+<br>
+
+<hr>
+<h2>Spiegazione delle Etichette.</h2>
+<div>
+<a name='Comment'><h3 class='label'>Comment:</h3></a>
+Eventuale commento relativo all'entit&agrave;, per maggior informazioni leggere <a href="comment.htm">questa pagina</a>.<br>
+Non &egrave; obbligatoria, ma &egrave; comunque consigliato utilizzarla se la tipologia d'entit&agrave; &egrave; una cosa particolare o bisogna segnarsi qualcosa da ricordare.<br>
+L'etichetta &egrave; facoltativa per quanto sia comunque cosa buona inserirle tutte una volta che si &egrave; deciso di fare uso della struttura.<br>
+<br>
+
+<a name='Minutes'><h3 class='label'>Minutes:</h3></a>
+Indica il numero di minuti rpg a disposizione dell'oggetto o del mob da quando fa la sua comparsa in gioco.<br> 
+Tale tempo non sar&agrave; rispettato scruplosamente dal mud ma potr&agrave; fluttuare insindacabilmente di un 10% del valore assegnato.<br>
+<br>
+
+<a name='EntityMessage'><h3>EntityMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> visto dal mob o dell'oggetto prima di essere giustiziato.<br>
+Non accetta i vari tag $n e $N, a meno che qualche builder non ne faccia richiesta.<br>
+L'etichetta &egrave; facoltativa.<br>
+<br>
+
+<a name='OthersMessage'><h3>OthersMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> visto dai presenti all'atto della sparizione del mob o dell'oggetto.<br>
+Non accetta i vari tag $n e $N, a meno che qualche builder non ne faccia richiesta.<br>
+L'etichetta &egrave; facoltativa.<br>
+<br>
+
+</div>
+<hr>
+</body>
+</html>

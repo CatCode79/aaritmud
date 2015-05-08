@@ -1,0 +1,37 @@
+Comment: 0 4|8|32|64|128|256|16384|32768|8388608|16777216 0 4
+Code: sauria_room_cubicolo-vuoto-71
+Sector: SECTOR.UNDERGROUND
+Flags:	ROOM.INSIDE
+Name: Il Cubicolo Vuoto
+Short: il cubicolo vuoto
+
+Descr:
+Una Luce fredda illumina a giorno un cubicolo disadorno, basso e angusto. Neppure la polvere sembra aver mai violato la stanza. Un cupo ronzio riempie il silenzio. 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	1 0 21892
+porta
+  Descr:	Lo studio ottagonale
+  Direction:	DIR.WEST
+End
+Extras:
+  Comment:	EXTRA_COMMENT
+  Keywords:	luce
+  Descr: 
+	Il soffitto è pigmentato di qualche sostanza che emette luce.
+End

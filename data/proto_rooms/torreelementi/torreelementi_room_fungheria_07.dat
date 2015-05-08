@@ -1,0 +1,39 @@
+Code: torreelementi_room_fungheria_07
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Il Retro del Baracchino
+Short: un lastrone
+Descr:
+Sei in un lungo corridoio oblungo il cui pavimento sembra ricavato scavando e satinando
+un unico pezzo di roccia. Qua e la sono scavati lateralmente diversi vani nelle pareti
+laterali. Verso nordest è appeso qualcosa come una coltre grezza e pesante ad impedire
+di vederne attraverso.
+
+DescrSmell:
+L'odore della zona è il più atipico fra quelle annusate finora. Un che di mistico e
+rituale impregna la stanza sovrapponendosi ed in parte mitigando l'onnipresente odore di
+funghi. Se qualcuno abita qui, ha certamente un naso che funziona ed una pazienza
+limitata.
+
+Extras:
+  Keywords: tenda coltre coperta
+  DescrTouch: Al tatto dà l'impressione di un panno grezzo, molto pesante e di una certa età
+  DescrSmell: Fra tutti gli odori che sono ovunque è arduo riuscire a capire che odore possa avere
+  Descr: Una coltre bruna appesa ad invisibili appigli è posta a efficiente separazione fra qui e
+        ciò che oltre non vedi. Si vede un lembo centrale che probabilmente consente di aprirsi un
+        varco e passare oltre.
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction:	DIR.SOUTHWEST
+  Descr:	La zona centrale
+End
+Exits:
+  Direction:	DIR.NORTHEAST
+  Flags:	EXIT.NO_MOB EXIT.NO_ITEM
+  Descr:	Il retro di un baracchino
+End

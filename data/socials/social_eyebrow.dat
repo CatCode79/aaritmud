@@ -1,0 +1,26 @@
+FunName:    social_eyebrow
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Sollevi un sopracciglio perpless$o.
+  OthersNoArg: $n solleva un sopracciglio perpless$o.
+  EntityFound: Sollevi un sopracciglio verso $N.
+  OthersFound: $n solleva un sopracciglio guardando $N.
+  TargetFound: $n solleva un sopracciglio guardandoti
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Sollevi lentamente un sopracciglio, manifestando la tua perplessità.
+  OthersNoArg: $n solleva un sopracciglio, manifestando la sua perplessità.
+  EntityFound: Ruoti un poco le orecchie e sollevi un sopracciglio guardando $N con perlpessità.
+  OthersFound: $n solleva un sopracciglio ruotando le orecchie perpless$o in direzione di $N.
+  TargetFound: $n solleva un sopracciglio ruotando le orecchie perpless$o verso di te.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Sollevi lentamente un sopracciglio, manifestando la tua perplessità.
+  OthersNoArg: $n solleva un sopracciglio, manifestando la sua perplessità.
+  EntityFound: Ruoti un poco le orecchie e sollevi un sopracciglio guardando $N con perlpessità.
+  OthersFound: $n solleva un sopracciglio ruotando le orecchie perpless$o in direzione di $N.
+  TargetFound: $n solleva un sopracciglio ruotando le orecchie perpless$o verso di te.
+End

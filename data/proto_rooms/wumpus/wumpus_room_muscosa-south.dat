@@ -1,0 +1,27 @@
+Code: wumpus_room_muscosa-south
+Sector: SECTOR.UNDERGROUND
+Flags: ROOM.INSIDE
+Name: La Zona [lawngreen]Muscosa[close] Sud
+Short: la zona [lawngreen]muscosa[close] sud
+
+Descr:
+Infiltrazioni d'acqua e luce innaturale proveniente da non si sa dove hanno consentito ad una variegata estensione di [lawngreen]muschi[close] pionieri di prendere possesso tutto intorno.
+DescrTouch: 
+Infiltrazioni d'acqua proveniente da non si sa dove hanno consentito ad una variegata estensione di morbidi [lawngreen]muschi[close] pionieri di prendere possesso tutto intorno rivestendo di un morbido stratto tutto ciò che tocchi.
+
+Width:	7m
+Depth:	7m
+Height:	7m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: La colonna di [aqua]cristallo[close]
+End
+Exits:
+  Direction: DIR.NORTHWEST
+  Descr: La zona [lawngreen]muscosa[close]
+End
+Exits:
+  Direction: DIR.NORTHEAST
+  Descr: La zona [lawngreen]muscosa[close]
+End

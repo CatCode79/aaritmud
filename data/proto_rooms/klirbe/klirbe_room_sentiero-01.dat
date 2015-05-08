@@ -1,0 +1,21 @@
+Code: klirbe_room_sentiero-01
+Sector: SECTOR.MOUNTAIN
+Name: La Cima del Sentiero
+Short: verso la cima
+
+Descr:
+Il sentiero qui si stringe e si fa spazio lungo la roccia procedendo quasi pianeggiante
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.NORTHWEST
+	Descr: In strada
+End
+Exits:
+	Direction: DIR.SOUTH
+	Descr: In strada
+End
+

@@ -1,0 +1,26 @@
+FunName:    social_lipseth
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Apri la bocca e commenti con un "........"
+  OthersNoArg: $n commenta con un "........"
+  EntityFound: Commenti con un "........" le parole di $N.
+  OthersFound: $n commenta con un "........" le parole di $N.
+  TargetFound: $n commenta con un "........" le tue parole.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Il tuo silenzio commenta da solo la stupidità di queste affermazioni.
+  OthersNoArg: $n non ritiene degni i presenti delle proprie considerazioni.
+  EntityFound: Regali a $N un muto silenzio felino e ti occupi d'altro.
+  OthersFound: $n commenta $N con un silenzio sornione.
+  TargetFound: $n dischiude le fauci ma non proferisce parola, ti fa dono del suo silenzio.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Il tuo silenzio commenta da solo la stupidità di queste affermazioni.
+  OthersNoArg: $n non ritiene degni i presenti delle proprie considerazioni.
+  EntityFound: Regali a $N un muto silenzio felino e ti occupi d'altro.
+  OthersFound: $n commenta $N con un silenzio sornione.
+  TargetFound: $n dischiude le fauci ma non proferisce parola, ti fa dono del suo silenzio.
+End

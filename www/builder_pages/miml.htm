@@ -1,0 +1,139 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<h2>Descrizioni dinamiche - MIML</h2>
+Forse vi sarà capitato di notare che a volte una descrizione di un oggetto non corrisponde con il suo stato in quel momento.<br>
+Per esempio nella descrizione di un libro vi sarà detto che si trova su di uno scrittoio quando invece lo avete in inventario.<br>
+Difatti è un dilemma per i Builder è scegliere se creare una descrizione specifica, che però non si adatterà ai giocatori che la leggeranno, oppure se farla generica, risultando però poco interessante se non addirittura triste e vuota.<br>
+Per venire incontro a questa difficoltà, in Aarit c'è modo di scrivere descrizioni che mutano in base a molti possibili parametri.<br>
+Immaginiamo una stanza con libreria in cui qualcuno ha infierito sui libri strappandone delle pagine che ora sono sparse sul pavimento.<br>
+<pre>
+L'angusto spazio della piccola stanzina è occupato da una libreria a tutta parete.
+A terra sono finiti alcuni libri sgualciti e spiegazzati.
+Qua e là ci sono pagine strappate in malo modo ed appallottolate sommariamente.
+</pre>
+Ma che dire se il pg di turno o un mob sono passati a raccogliere i libri o a far sparire la pagine strappate?<br>
+La stanza risulterebbe descritta in modo inappropriato.<br>
+Mettiamo caso che i libri a terra abbiano il codice identificativo dell'entità biblioteca_item_libro-sgualcito e i fogli il codice biblioteca_item_pagina-strappata; possiamo allora realizzare questa descrizione:<br>
+<pre>
+L'angusto spazio della piccola stanzina è occupato da una libreria a tutta parete.
+#biblioteca_item_libro-sgualcito#A terra sono finiti alcuni libri sgualciti e spiegazzati.#Nonostante il disordine non vi sono libri a terra#
+#biblioteca_item_pagina-strappata#Qua e là ci sono pagine strappate in malo modo ed appallottolate sommariamente.##
+</pre>
+Notiamo che i simboli di cancelletto (#) fungono da delimitatori identificando tre possibli campi:<br>
+#item#ramo_1#ramo_2#<br>
+Nel caso che un oggetto con codice item sia presente nella locazione allora verrà mostrato il ramo_1, altrimenti se l'item non è presente verrà mostrato il ramo_2.<br>
+<br>
+Se ad esempio nella room non c'è l'entità con codice biblioteca_item_libro-sgualcito, tutti coloro che entreranno nella stanza leggeranno:<br>
+<pre>
+Nonostante il disordine non vi sono libri a terra.
+Se invece c'è almeno un biblioteca_item_libro-sgualcito in room, si leggerà:
+A terra sono finiti alcuni libri sgualciti e spiegazzati.
+</pre>
+Da notare che uno dei due rami può essere lasciato vuoto se si desidera che in uno dei due casi non si debba leggere nulla.<br>
+<pre>
+#biblioteca_item_impronte#Impossibile non notare una serie d'impronte che vanno verso nord.##
+</pre>
+Quello presentato qui è solo un piccolo esempio delle innumerevoli possibilità offerte dal sistema di MIML di Aarit.<br>
+<br>
+<hr>
+<br>
+Oltre al metodo suddetto, che si potrebbe definire il metodo base d'utilizzo dei MIML, qui di seguito elenchiamo altri esempi con spiegazione al seguito:<br>
+
+<h4>MIML SEX:</h4>
+<pre>
+Questa stanza è un disastro, #looker is SEX.MALE#ma le donne qui poltriscono?#sicuramente ci abita un single#
+</pre>
+Descrizione dinamica dipendente dal genere (maschile/femminile) di chi legge la descrizione, se il giocatore (looker) è un maschio leggerà:<br>
+Questa stanza è un disastro, ma le donne qui poltriscono?<br>
+Altrimenti:<br>
+Questa stanza è un disastro, sicuramente ci abita un single<br>
+<br>
+I valori significativi per la condizione di questo MIML sono:<br>
+looker is SEX.MALE<br>
+looker is SEX.FEMALE<br>
+
+<h4>MIML RACE:</h4>
+<pre>
+#looker is RACE.DROW#Ti arriva alle narici un inebriante#Percepisci distintamente un acre# odore di sangue.
+#looker is not RACE.ARIAL#Il ponte è crollato e bisogna trovare un altro punto ove guadare#Il crollo del ponte non t'impedirà certo di volare fin sull'altra riva#
+</pre>
+Descrizione dinamica dipendente dalla razza di chi legge la descrizione.<br>
+<br>
+I valori significativi per la condizione di questo MIML sono:<br>
+looker is RACE.XXX<br>
+looker is not RACE.XXX<br>
+Dove RACE.XXX è uno dei <a href="elements_list.htm#RACE">codici di razza</a>.<br>
+
+<h4>MIML SECTOR:</h4>
+13) settore
+#self is SECTOR.PLAIN#È pianura#È montagna.#
+#location is SECTOR.PLAIN#È pianura#È montagna.#
+
+
+** Operatori matematici
+Questi operatori consentono di realizzare descrizioni con un controllo elementare sul numero delle entità presenti; gli operatori usabili sono ==, !=, <, <=, >, >=.
+I controlli possono essere effetuati sia sull'equipaggiamento che sull'inventario.
+
+
+Si usano in Descrizioni, RandomDo, Libri. (Nelle Long no vero?)
+
+@ per inserire la short (provare)
+IS / IS NOT
+Se in uno dei due rami non si vuole inviare nulla basta lasciarlo vuoto.
+
+1) item in room
+#mfdonald_item_banana#c'è almeno una banana in terra qui dentro# nessuna banana in terra qui dentro.#
+
+== != < <= > >=
+
+4) quantità di entità nell'inventario di looker, self e location == !=
+#self.inventory_qty == 1#Nella stanza c'è un'entità# Nella stanza c'è più di un entità (oppure nessuna ma non vedresti la room se non ci fossi almeno tu)#
+#looker.inventory_qty == 1#hai un oggetto in inventario# hai un numero di oggetti in inventario diverso da 1#
+#location.inventory_qty == 1#hai un oggetto in inventario# hai un numero di oggetti in inventario diverso da 1# **(provare)**
+5) quantità di entità nell'invetario di looker, self e location < <= > >=
+#self.inventory_qty > 2#nella stanza ci sono tre o più entità# nella stanza c'è una sola entità massimo due#
+#looker.inventory_qty > 2#in inventario hai almeno tre oggetti# in inventario hai uno o due oggetti al massimo#
+#location.inventory_qty > 2#in inventario hai almeno tre oggetti# in inventario hai uno o due oggetti al massimo#  **(provare)**
+6) quantità di equipaggiamento di looker, self e location == !=
+#self.equipment_qty == 1#la room indossa un'entità# La stanza indossa più di un'entità#
+#looker.equipment_qty == 1#hai un oggetto in equipment# hai un numero di oggetti in equipment diverso da 1#
+7) quantità di equipaggiamento di looker, self e location < <= > >=
+#self.equipment_qty > 2#La stanza equipaggia tre o più entità# La stanza ha equipaggiata una sola entità massimo due#
+#looker.equipment_qty > 2#in equipaggiamento hai almeno tre oggetti# in equipaggiamento hai uno o due oggetti al massimo#
+
+Utilizzo di tutte le direzioni, Flags di EXIT, DOOR, SECTOR, ROOM, CONTAINER che si trovano qui.
+
+8) uscite in direzioni
+#self[north] is Exit#c'è un'uscita a nord#non c'è un'uscita a nord#
+#location[north] is Exit#c'è un'uscita a nord#non c'è un'uscita a nord#
+9) muri direzioni
+#self[east] is Wall#a est c'è un muro#non c'è un muro ad est#
+#location[east] is Wall#a est c'è un muro#non c'è un muro ad est#
+10) porte direzioni
+#self[northwest] is Door#a nord ovest c'è una porta#non c'è una porta a ovest#
+#location[northwest] is Door#a nord ovest c'è una porta#non c'è una porta a ovest#
+11) uscite diggabili
+#self[down] is EXIT.DIGGABLE#è scavabile verso il basso#non è scavabile verso il basso#
+#location[down] is EXIT.DIGGABLE#è scavabile verso il basso#non è scavabile verso il basso#
+12) porte aperte e chiuse
+#self[up] is DOOR.CLOSED#la porta in alto è chiusa #la porta verso l'alto è aperta#
+#location[up] is DOOR.CLOSED#la porta in alto è chiusa #la porta verso l'alto è aperta#
+14) room
+#self is ROOM.INSIDE#Sei in pianura#Sei in montagna.#
+#location is ROOM.INSIDE#È pianura#È montagna.#
+15) container
+#self is CONTAINER.CLOSED#Sei in pianura#Sei in montagna.#
+#location is CONTAINER.CLOSED#È pianura#È montagna.#
+<br>
+Infine è doveroso indicare che l'acronimo MIML significa MUD Internal Markup Language ed è un sistema che è stato ideato da questo Smaug Codebase: <a href="http://www.dotd.com/mud/" target="_blank">Desolation of the Dragon</a><br>
+<hr>
+</body>
+</html>

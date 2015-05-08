@@ -1,0 +1,45 @@
+Code: torreelementi_room_sotto_5
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Sala del Micelio
+Short: la camera pulita
+
+Descr:
+La sala in cui ti trovi è solo una stretta via d'ingresso ad un'altra zona. Da essa
+ti separa una paratia trasparente senza aperture visibili e senza meccanismi
+d'apertura. Oltre la paratia vedi numerosi oggetti che somigliano a dei tronchi di
+betulla; lunghi circa un piede. Paiono ricoperti di muffe bianche e bluastre.
+A tratti, degli sbuffi d'acqua vengono nebulizzata dall'alto impedendo completamente la
+visuale.
+
+ShortNight: la camera pulita
+
+DescrNight:
+La sala in cui ti trovi è solo una stretta via d'ingresso ad un'altra zona; da essa
+ti separa una paratia trasparente che termina di chiudersi non appena ti avvicini.
+Oltre la paratia vedi numerosi oggetti che somigliano a dei tronchi di betulla;
+lunghi circa un piede. Paiono ricoperti di muffe bianche e bluastre.
+A tratti degli sbuffi d'acqua vengono nebulizzati dall'alto impedendo completamente la
+visuale.
+
+Extras:
+  Keywords: tronchi betulla
+  Descr: Forse lo sembrano solo per via del colore bianco
+End
+Extras:
+  Keywords: muffe muffa
+  Descr: Grossolana per essere semplice muffa
+End 
+
+Width:	3m
+Depth:	4m
+Height: 4m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Una sala 
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Una sala 
+End

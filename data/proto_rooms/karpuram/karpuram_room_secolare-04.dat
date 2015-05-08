@@ -1,0 +1,49 @@
+Code: karpuram_room_secolare-04
+Sector: SECTOR.PLAIN
+Name: Un Semplice Magazzino
+Short: un semplice magazzino
+
+Descr:
+Accedi a questo ripostiglio dal varco naturale ad est, ricavato con cura 
+incidendo le assi di scuro legno. La stanza è semplice e disadorna, ma presenta
+sulla parete nord un grande assembramento di archi di diverse misure e forme. 
+Da una cassa posizionata sulla tua destra, fuoriescono faretre e frecce dalle
+molteplici colorazioni. La parte centrale del tetto, formato da foglie e liane
+fermate tra loro con nodi di diversa forma, è forata e da essa trapela lieve
+la luce del giorno. Sulla parte sinistra si trova un semplice tavolo sempre in 
+legno con una sedia, su di esso ti sembra di notare alcuni fogli di pergamena
+e una piuma d'oca riposta su un fianco.
+
+DescrNight:
+Accedi a questo ripostiglio dal varco naturale ad est, ricavato con cura 
+incidendo le assi di scuro legno. La stanza è semplice e disadorna e sulla
+parete nord presenta un modesto assembramento di archi, vi sono degli spazi
+vuoti tra di essi, di diverse misure e forme. Da una cassa posizionata sulla tua
+destra, fuoriescono faretre e frecce dalle molteplici colorazioni. 
+La parte centrale del tetto, formato da foglie e liane fermate tra loro con nodi
+di diversa forma, è forata e da essa trapela lieve la luce notturna. 
+Sulla parte sinistra si trova un semplice tavolo sempre in legno con una sedia, 
+su di esso ti sembra di notare alcuni fogli di pergamena e una piuma d'oca 
+riposta su di essi.
+
+DescrSmell:
+Oltre ad avvertire uno spiccato odore di legno e foglie, affinando i tuoi sensi
+ti sembra di sentire anche un leggero odore di carta e inchiostro provenire dal 
+lato sinistro della stanza.
+
+
+Extras:
+	Keywords: pergamena, fogli
+	Descr: Una serie di fogli di pergamena sui quali vi sono scritti
+altrettanti nomi di elfi, con diverse mansioni e ruoli.	
+End
+
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: La prima piattaforma
+End

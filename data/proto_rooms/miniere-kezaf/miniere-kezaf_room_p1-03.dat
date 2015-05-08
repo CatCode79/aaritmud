@@ -1,0 +1,27 @@
+Code: miniere-kezaf_room_p1-03
+Sector: SECTOR.UNDERGROUND
+Flags: ROOM.INSIDE
+Icon:	icons/item/rotaie-01.png
+Name: Al Primo Livello Delle Miniere
+Short: all'interno delle miniere
+
+Descr:
+Una strettoia angusta procede per tutta la lunghezza del tratto roccioso che stai percorrendo.
+La roccia qui appare difficoltosa da perforare a giudicare da quanto è angusto ed irregolare il passaggio.
+È stato scavato della larghezza poco superiore per consentire il passaggio del vecchio binario che stai percorrendo.
+DescrSixth:
+Una strettoia per tutta la lunghezza di questo tratto indica una probabile vena rocciosa più dura di altre.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: La nuda roccia
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: La nuda roccia
+End
+

@@ -1,0 +1,32 @@
+Code: villaggio-zingaro_room_grotta-03
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: La Grotta Sotterranea
+Short: nella grotta
+
+Descr:
+Ai tuoi piedi, quella che sembra una pozzanghera, è la via che conduce al pozzo, di fronte a te invece si apre un'enorme grotta sotterranea. Il soffitto è completamente ricoperto di stalattiti delle più svariate misure e lo stesso vale per le stalagmiti che si levano dal terreno trasformandosi qua e là in monumentali pilastri. 
+Buona parte della grotta è occupata da un lago oscuro costeggiato da un sentierino, che ad un certo punto si dirama salendo verso l'alto in un intrico di passaggi. 
+DescrSmell: 
+Aria calda e madida di umido, da est senti arrivare una fragranza di menta balsamica.
+DescrSixth:
+Capisci che farai bene a stare attent$o a dove metti i $feet, non vorresti mai cadere su una di queste stalagmiti appuntite.
+DescrHearing:
+La convinta brezza che t'investe, si muta in fischio passando fra interstizi di stalagmiti.
+
+Width:	3m
+Depth:	3m
+Height: 10m
+
+Exits:
+	Direction: DIR.WEST
+	Descr: Nel cunicolo
+End
+Exits:
+	Direction: DIR.NORTH
+	Descr: Intorno al lago
+End
+Exits:
+	Direction: DIR.SOUTHEAST
+	Descr: Intorno al lago
+End

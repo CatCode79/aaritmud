@@ -1,0 +1,21 @@
+	</div>
+	<br>
+</td>
+<br class="demi">
+<td valign="top" style="margin:0; padding:0;">
+	<iframe id="square" src="square.html" frameborder="0" style="width:17.5em" scrolling="no" marginwidth="0"  marginheight="0" onload="addBackgroundImage();">
+	</iframe>
+</td>
+</tr>
+</table>
+<script>
+$('#square').load(function () {
+    $(this).height($(this).contents().height());
+});
+
+function addBackgroundImage() {
+	document.body.ownerDocument.body.style.backgroundImage = "url(${image_path})";
+	document.body.ownerDocument.body.style.backgroundRepeat = "no-repeat";
+	document.body.ownerDocument.body.style.backgroundPosition = "left bottom";
+}
+</script>

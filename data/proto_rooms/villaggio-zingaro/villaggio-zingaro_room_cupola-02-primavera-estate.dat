@@ -1,0 +1,32 @@
+Code: villaggio-zingaro_room_cupola-02-primavera-estate
+Sector: SECTOR.WOOD
+Name: Nel Faggeto
+Short: nel faggeto
+
+Descr:
+La via procede più agevole e si piega in un ampio tornante che preclude la vista al tratto successivo. 
+DescrSmell:
+Il penetrante aroma di muschio sembra non volerti lasciar proseguire.
+DescrSixth:
+Capisci che un passo fuori dal sentiero potrebbe esserti fatale; la foresta sembra inghiottire qualsiasi cosa vi si addentri, anche per pochi metri.
+DescrSixthNight:
+Intuisci che girare di notte in un bosco potrebbe essere pericoloso, non solo per il rischio di perdersi, ma anche per la possibilità di incontrare qualche bestia sconosciuta per cui potresti essere un gradito spuntino di mezzanotte.
+DescrHearing:
+Senti dei rametti spezzarsi, probabilmente qualche animale passeggia qui intorno.
+DescrHearingNight:
+Dato che la vista con tutto questo buio di certo non ti aiuta, rizzi le orecchie alla ricerca anche del più impercettibile rumore.
+DescrTouch:
+Poggi una $hand su di un masso ricoperto di muschio e ne avverti la vellutata umidità.
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+Exits:
+	Direction: DIR.NORTHEAST
+	Descr: Faggi a non finire	
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: Dietro al tornante
+End

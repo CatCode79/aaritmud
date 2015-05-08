@@ -1,0 +1,34 @@
+Comment:
+qui la descrizione ridondante di grappolo grappoli è per la proc che consentirà di raccogliere grappoli se si ha la fortuna che ne venga generato uno
+Code: torreelementi_room_torre_2
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Il Ballatoio
+Short: un terrazzo interno
+Descr:
+A Nordest e Sudovest partono delle scale che scendono avvolgendosi a spirale lungo
+le pareti della torre per arrivare fino a terra. Una robusta balaustra di glicini
+alta fin quasi tre cubiti corre tutto intorno al bordo interno e ti consente di
+guardare l'interno della torre in alto e in basso.
+Una piccola scala a chiocciola là in fondo conduce in alto. 
+
+Extras:
+  Keywords: glicine
+  Descr: Un grappolo di fiori di glicine di vari colori
+  DescrTouch: Un molle grappolo di fiori morbidi
+  DescrSixth: Come non cogliere uno o due grappoli in fiore?
+  DescrSmell: Un inebriante immagine di un glicine odoroso ti si palesa alla mente
+End
+
+Width:	7m
+Depth:	7m
+Height: 5m
+
+Exits:
+  Direction: DIR.UP
+  Descr: Quasi in cima
+End
+Exits:
+  Direction: DIR.DOWN
+  Descr: Il piano superiore
+End

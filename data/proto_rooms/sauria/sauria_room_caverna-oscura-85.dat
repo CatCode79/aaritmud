@@ -1,0 +1,30 @@
+Comment: 85 1|256 9 1 3 2
+Code: sauria_room_caverna-oscura-85
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: La Caverna Oscura
+Short: la caverna oscura
+
+Descr:
+Giungi all'ingresso di una tenebrosa caverna che pare estendersi verso ovest. Il luogo comunica un inequivocabile senso di minaccia. 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21884
+  Descr:	Nelle profondità del lago
+  Direction:	DIR.EAST
+End

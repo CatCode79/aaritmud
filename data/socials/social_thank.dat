@@ -1,0 +1,34 @@
+FunName:    social_thank
+Intention:  INTENTION.FRIENDLY
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Esprimi la tua gratitudine
+  OthersNoArg: $n ringrazia sentitamente..
+  EntityFound: Ringrazi $N con un sorriso.
+  OthersFound: $n ringrazia sorridendo $N.
+  TargetFound: $n ti ringrazia sorridendo.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Senti la dirompente necessità di ringraziare i presenti.
+  OthersNoArg: $n balbetta e si agita ma è chiaro che desidera esprimere la sua gratitudine.
+  EntityFound: Devi assolutamente ringraziare $N.
+  OthersFound: $n fa tanta confusione per ringraziare $N.
+  TargetFound: $n si agita tutt$o per manifestarti la sua gratitudine.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Cerchi qualcuni cui essere grat$o.
+  OthersNoArg: $n si guarda intorno con vaga aria di gratitudine. Molto vaga..
+  EntityFound: Ringrazi $N strizzando gli occhi nella sua direzione.
+  OthersFound: $n socchiude gli occhi verso $N, manifestando$GLI gratitudine.
+  TargetFound: $n ti strizza un poco gli occhi in segno di gratitudine.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Cerchi qualcuni cui essere grat$o.
+  OthersNoArg: $n si guarda intorno con vaga aria di gratitudine. Molto vaga..
+  EntityFound: Ringrazi $N strizzando gli occhi nella sua direzione.
+  OthersFound: $n socchiude gli occhi verso $N, manifestando$GLI gratitudine.
+  TargetFound: $n ti strizza un poco gli occhi in segno di gratitudine.
+End

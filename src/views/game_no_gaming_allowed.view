@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta name="robots" content="noindex, nofollow">
+	<title>${player_code}</title>
+	<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="mud" onload="document.getElementById('input_content').select()">
+	${audio}
+	<div id="output" style="border:1px solid rgb(216, 216, 216); position:absolute; top:10px; width:78.5%; height:90%; left:6px; -moz-box-shadow: 2px 2px 4px; overflow:auto; padding-left:5px;">
+<center><img src="images/yingyang.jpg" width="375" height="281" alt="Un drago e una tigre si fronteggiano."></center>
+Ciao, siamo temporaneamente chiusi al pubblico per motivi tecnici. ${game_name} riaprirà in poche ore; grazie per la pazienza.
+</div>
+	<div id="wild" style="border:1px solid rgb(216, 216, 216); position:absolute; top:10px; width:18.5%; height:89%; left:80.5%; -moz-box-shadow: 2px 2px 4px; overflow:auto; font-size:smaller; padding:3px;"><b>Bigino comandi</b>:
+<ul>
+<li>nord
+<li>nordest
+<li>est
+<li>sudest
+<li>sud
+<li>sudovest
+<li>ovest
+<li>nordovest
+<li>alto
+<li>basso
+<br>
+<li>guarda
+<li>annusa
+<li>ascolta
+<li>tocca
+<li>assaggia
+<li>intuisci
+<br>
+<li>prendi
+<li>inventario
+<li>apri
+<li>chiudi
+<li>entra
+</ul>
+<b>Altri comandi</b>:
+<ul>
+<li>Digitate bug quando volete segnalare eventuali errori di funzionamento riscontrati nel gioco
+<li>Digitate typo quando volete segnalare eventuali errori grammaticali o sintattici che avete notato
+<li>Digitate idea quando volete proporre una vostra idea per migliorare Aarit
+</ul>
+	</div>
+	<input type="text" id="input_content" name="input_content" maxlength="256" value="${last_input}" autocomplete="off" style="position:absolute; left:10px; width:70%; top:94%;" />
+	<input type="submit" id="input_submit" value="Invia" style="position:absolute; left:73.5%; top:94%;" />
+	<input type="submit" id='scroll' value="Disattiva Scroll" style="position:absolute; left:82.5%; top:94%;" />
+	<span id="pg_language" class="invisible">${language}</span>
+	${show_last_input_span}
+</body>
+</html>

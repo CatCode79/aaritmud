@@ -1,0 +1,28 @@
+FunName:    social_snort
+Intention:  INTENTION.NEUTRAL
+Expression: sbuffando
+Smiles:     := :-=
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Sbuffi nervosamente.. Snort.
+  OthersNoArg: $n sbuffa nervosamente..
+  EntityFound: Sbuffi nervosamente all'indirizzo di $N.
+  OthersFound: $n sbuffa nervosamente all'indirizzo di $N.
+  TargetFound: $n sbuffa nervosamente nei tuoi confronti
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Sbuffi di noia, piegando le orecchie all'indietro.
+  OthersNoArg: $n piega le orecchie all'indietro, sbuffando annoiat$o.
+  EntityFound: Appiattisci le orecchie all'indietro, sbuffando annoiat$o verso $N.
+  OthersFound: $n appiattisce le orecchie all'indietro, sbuffando annoiat$o verso $N.
+  TargetFound: $n appiattisce le orecchie all'indietro, sbuffando annoiat$o verso di te.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Sbuffi di noia, piegando le orecchie all'indietro.
+  OthersNoArg: $n piega le orecchie all'indietro, sbuffando annoiat$o.
+  EntityFound: Appiattisci le orecchie all'indietro, sbuffando annoiat$o verso $N.
+  OthersFound: $n appiattisce le orecchie all'indietro, sbuffando annoiat$o verso $N.
+  TargetFound: $n appiattisce le orecchie all'indietro, sbuffando annoiat$o verso di te.
+End

@@ -1,0 +1,30 @@
+Code: torreelementi_room_fungheria-magazzino-nascosto-02
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Un Cunicolo Umido
+Short: un cunicolo umido
+
+Descr:
+Terra ovunque, questo non è certo l'ingresso principale e forse neppure quello di servizio.
+DescrTouch: 
+La terra ti si appiccica ovunque.
+DescrSmell: 
+L'odor di funghi compre qualunque altra traccia.
+DescrSixth:
+Potrebbe non essere desiderabile finire sepolti qui da un cedimento improvviso.
+DescrTaste:
+Persino in bocca la terra... bah!
+
+Width:	2m
+Depth:	2m
+Height: 2m
+
+Exits:
+  Direction: DIR.UP
+  Descr: In strada
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Un vano scavato nella roccia
+End
+

@@ -1,0 +1,62 @@
+Code: serpidi_room_8602_01
+Sector: SECTOR.PLATEAU
+Flags:	ROOM.SILENCE
+
+Name: Alla Fine della Radura. 
+Short: Alla fine della radura. 
+Descr: 
+Questa piccola radura sembra l'ideale per una merenda all'aperto oppure per una riunione di amici. Ci sono anche delle [white]pietre[close] levigate sparse che sarebbero l'ideale per un banchetto. C'è una [white]lastra[close] di marmo piuttosto antica ai piedi di un albero. 
+Exits:
+	Direction: DIR.NORTH
+	Destination: 0 3 0 serpidi
+	Descr: C'è un passaggio aperto nella parete di roccia davanti all'altare.
+	Door: serpidi_item_secret_tempio_01
+End
+Exits:
+	Direction: DIR.SOUTH
+	Destination: 0 1 0 serpidi
+End
+Extras:
+	Keywords: pietra 
+Descr:
+Guardando bene le pietre ti rendi conto che non sono naturali, ma invece è evidente che sono state lavorate con abilità, anche se ora sono consunte dagli agenti atmosferici. Ora che hai osservato la cosa vedi anche che al centro c'è una pietra più grande e più alta, una specie di [white]altare[close]. 
+End
+Extras:
+	Keywords: altare 
+Descr:
+Questa [white]pietra[close] doveva davvero essere un'altare, infatti è molto più alta delle altre e più larga, rettangolare. Vi si potrebbe senz'altro sdraiare una persona. Noti che il piano dell'altare è concavo e che una [white]scanalatura[close] procede dal centro verso il bordo come per raccogliere l'acqua piovana o qualche altro liquido. Il pensiero ti fa leggermente rabbrividire. 
+End
+Extras:
+	Keywords: scanalatura 
+Descr:
+La scanalatura parte dal centro del piano concavo dell'[white]altare[close] e finisce alla metà del bordo più lungo. Sotto c'è un piccolo piano di appoggio che potrebbe contenere tranquillamente una coppa o un altro recipiente per raccogliere il liquido proveniente dalla sommità dell'[white]altare[close]. 
+End
+Extras:
+	Keywords: radice radici 
+Descr:
+Sono radici di vecchi alberi che evidentemente ora sono morti. Alcune sembrano solidamente ancorate al terreno, mentre altre potrebbero venir via tirandole. 
+End
+Extras:
+	Keywords: spuntoni 
+Descr:
+Dalla parete di roccia spuntano qua e la delle pietre di consistenza leggermente diversa, e che quindi hanno resistito di più al consumo dell'acqua e del vento. Sembrano solidi. 
+End
+Extras:
+	Keywords: buchi 
+Descr:
+Ci sono molti buchi sulla parete, forse causati dall'erosione dell'acqua, probabilmente dalla rimozione di pietre dalla parete. 
+End
+Extras:
+	Keywords: lastra 
+Descr:
+È scritta in un linguaggio piuttosto arcaico, ma comprendibile, e deve risalire ad almeno un centinaio di anni addietro. L'incisione recita: Su ordine di Nubinus Tredipo, Pontefice Massimo, dopo due anni di indagini e battaglie ho finalmente distrutto gli ultimi resti della Legione Maledetta. Gli ultimi di loro si erano qui rifugiati per continuare i loro riti immondi ma sono stati tutti uccisi e i loro corpi bruciati. In fondo alla lastra c'è un'[white]iscrizione[close] in una scrittura svolazzante. 
+End
+Extras:
+	Keywords: iscrizione 
+Descr:
+In questo luogo: L'impaziente l'abbandonerà senza nulla trovare. Lo stolto morirà inutilmente. Il solitario giacerà per sempre prigioniero della sua solitudine. L'avido porterà il peso della sua coscienza. 
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

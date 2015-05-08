@@ -1,0 +1,34 @@
+FunName:    social_stud
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Ti metti in posa mostrando i muscoli!
+  OthersNoArg: $n si mette in posa mostrando i muscoli.. eh?
+  EntityFound: Ti metti in posa mostrando i muscoli a $N!
+  OthersFound: $n si mette in posa e mostra i muscoli a $N!
+  TargetFound: $n si mette in posa e ti mostra i muscoli.. eh?
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Fletti i muscoli ed erompi in un grido di guerra!
+  OthersNoArg: $n gonfia i muscoli ed erompe in un grido di guerra!
+  EntityFound: Fletti i muscoli e gridi in viso a $N!
+  OthersFound: $n flette i muscoli e grida in viso a $N!
+  TargetFound: $n flette i muscoli e ti urla addosso!
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Inarchi la schiena e distendi i muscoli delle zampe.
+  OthersNoArg: $n inarca la schiena stiracchiando i muscoli delle zampe.
+  EntityFound: Mostri a $N le tue potenti zampe muscolose!
+  OthersFound: $n mostra a $N le potenti zampe muscolose.
+  TargetFound: $n cerca di impressionarmi mostrandomi le sue vigorose zampe leonine.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Inarchi la schiena e distendi i muscoli delle zampe.
+  OthersNoArg: $n inarca la schiena stiracchiando i muscoli delle zampe.
+  EntityFound: Mostri a $N le tue potenti zampe muscolose!
+  OthersFound: $n mostra a $N le potenti zampe muscolose.
+  TargetFound: $n cerca di impressionarmi mostrandomi le sue vigorose zampe leonine.
+End

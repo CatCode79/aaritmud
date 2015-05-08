@@ -1,0 +1,40 @@
+/* tag */
+body{
+    font-family:Verdana;
+    font-size:small;
+    font-weight:bold;
+    color:silver;
+    background-color:black;
+    word-spacing:1px;
+    line-height: 1.3;
+}
+table{
+    font-family:Verdana;
+    font-size:small;
+    font-weight:bold;
+    color:silver;
+    background-color:black;
+    word-spacing:1px;
+    line-height: 1.3;
+    border-collapse: collapse;
+}
+th, td{padding: 2px;}
+div{margin-left:3%;
+    margin-right:5%;
+}
+h2{color:white;}
+h3{color:white;}
+h4{color:white;}
+pre{font-size:medium;}
+
+/*link e tooltip*/
+a:link, a:visited {color:silver; text-decoration:none; border-bottom:1px solid #FFFF00;}
+/*a:link, a:visited {color:silver; text-decoration:none; border-bottom: 2px ridge red;}*/
+/*a:link, a:visited{color:#FFEB00;}*/
+/*a:link, a:visited {color:silver; text-decoration:none; border-bottom: 2px dotted #FFEB00}*/
+a:hover{color:red; z-index:25; text-decoration:none; border-bottom:1px solid red;}
+a:active{color:red;}
+
+/*altri*/
+.label{color:limegreen;}
+.thref{color:white; font-size:larger;}

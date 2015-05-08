@@ -1,0 +1,21 @@
+Code: siepi_room_zerozero
+Sector: SECTOR.WOOD
+Name: Zero - Room di Presentazione
+Short: Zero - Room di Presentazione
+Descr:
+Prova per vedere dove portano le room con Destination:
+
+Width:	2m
+Depth:	2m
+Height: 2m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: Room per la presentazione 
+End
+Exits:
+  Direction: DIR.UP
+  Descr: Qui caos...
+  Destination: 40 40 40 siepi 
+End
+

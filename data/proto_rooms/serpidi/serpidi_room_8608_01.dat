@@ -1,0 +1,39 @@
+Code: serpidi_room_8608_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: La parete ovest del tempio 
+Short: La parete ovest del tempio 
+Descr: 
+Il tempio ha una pianta quadrata ed è completamente immerso nel buio, puoi osservare le figure su questa parete, ma il resto del tempio rimane appena illuminato dalla tua luce. Da quando sei entrato qui dentro ti senti pervaso da una certa oppressione come se qualche oscura ed antica potenza interferisse con i tuoi stessi principi vitali. 
+Exits:
+	Direction: DIR.NORTH
+	Destination: -1 6 0 serpidi
+End
+Exits:
+	Direction: DIR.EAST
+	Destination: 0 5 0 serpidi
+End
+Exits:
+	Direction: DIR.SOUTH
+	Destination: -1 4 0 serpidi
+End
+Extras:
+	Keywords: figure 
+Descr:
+Puoi vedere le figure su questa parete. La scena rappresenta la radura dalla quale sei entrato, la riconosci per via delle pietre e dell'altare. Figure incappucciate sono vicino all'altare, mentre presso le pietre vi sono i guerrieri neri della parete sud. Sull'altare c'è la vittima sacrificale, mentre uno degli incappucciati ha un nero pugnale sollevato e si prepara ad immolarla. Riconosci chiaramente in una femmina umana nuda la vittima. Un brivido ti corre per la schiena. Non riesci a vedere le altre pareti da qui. 
+End
+Extras:
+	Keywords: mosaico 
+Descr:
+Sei troppo lontano per vederlo bene, da qui distingui solo forme aggrovigliate in maniera insensata. Forse dal centro del tempio potresti cogliere la visione d'insieme. 
+End
+Extras:
+	Keywords: intarsi 
+Descr:
+Sei troppo lontano dal centro del tempio e vedi molto poco, ma gli intarsi potrebbero rappresentare una qualche divinità intenta a cibarsi. 
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

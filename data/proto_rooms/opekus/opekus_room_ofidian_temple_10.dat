@@ -1,0 +1,27 @@
+Code: opekus_room_ofidian_temple_10
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Un Crollo Strutturale
+Short: solo macerie
+
+Descr:
+Qui puoi sostare unicamente nell'esiguo spazio non ingombro da macerie. Il soffitto
+in pietra collassando ha portato con sé terraccia umida e pietre.
+
+Extras:
+	Keywords: macerie
+	Descr:
+	Un filo d'acqua ancora scende dal soffitto sui detriti disegnando pazientemente
+	piccoli canali di concrezioni calcaree bianche e rosa.
+	DescrTouch:
+	Imprimi il segno della $hand bene in vista sulla terra umida
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Al portico
+End

@@ -1,0 +1,48 @@
+Comment: 0 8|8388608 0
+Code: sauria_room_colonne-disgregate-98
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: Le Colonne Disgregate
+Short: le colonne disgregate
+
+Descr:
+La via sale spiraleggiando verso un ampio spiazzo dal quale si dipartono i resti di un colonnato oramai in frantumi. Paradossale che non ci sia altro segno di vita intelligente se non questo. 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 0 21878
+  Descr:	Grotta naturale
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 0 21875
+  Descr:	Le colonne disgregate
+  Direction:	DIR.SOUTH
+  Destination:	5 2 10 sauria
+End
+Extras:
+  Comment:	EXTRA_COMMENT
+  Keywords:	colonne frantumi
+  Descr: 
+	Non rimane davvero molto delle colonne, se non quello che potrebbe vagamente sembrare un simbolo inciso su di uno dei basamenti.
+End
+Extras:
+  Comment:	EXTRA_COMMENT
+  Keywords:	simbolo incisione
+  Descr: 
+	Paiono due figura che protendono le braccia in alto...
+End

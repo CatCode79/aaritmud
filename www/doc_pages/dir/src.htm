@@ -1,0 +1,145 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<a name="src"><h3>File della directory dei sorgenti</h3></a>
+<div>
+File accent.py:<br>
+Contiene la gestione degli accenti, la funzione principale di questo modulo è la remove_accents grazie la quale per esempio l'input abilità verrà interpretato sia che il giocatore scriva abilità, abilita' o abilita.<br>
+Probabilmente in futuro toglierò il modulo e terrò solo la remove_accents che inserirò nel modulo compare.py<br><br>
+
+File account.py:<br>
+Contiene il codice relativo alla gestione dell'account (cioè quella cosa che contiene le opzioni di account e la lista dei propri personaggi) e la visualizzazione del menù di account a connessione avvenuta.<br>
+Penso di rifare tutta la parte riguardante i menù in toto con una interfaccia molto più semplice e maneggevole (e poi ora come ora modificare il codice dei menù di account è un mezzo casino).<br><br>
+
+File area.py:<br>
+È il modulo per la gestione delle aree del Mud, è un modulo ancora in formato grezzo, comunque le aree in Aarit non sono le classiche cose degli altri Mud ma sono in pratica una zona della wild.. vedetela come una selezione della immagine di wild, anche irregolare.<br><br>
+
+File bitvector.py:<br>
+Gestione dei bitvector, è divertente notare come questo modulo sia ugualmente potente con quello del codice Mud Bard, solo che quello era formato da 1000 righe circa, questo invece una settantina..<br>
+Comunque penso che abbandonerò questo modulo con soluzioni di più alto livello.<br><br>
+
+File calendar.py:<br>
+Gestisce la classe calendario e tutte le informazioni riguardanti alle date e cose simili.<br><br>
+
+File channel.py:<br>
+Gestisce tutti i canali gdr e non e, per ultimo e un po' fuori luogo, la funzione act.<br><br>
+
+File color.py:<br>
+Gestisce i colori tipici dei terminali telnet e cose simili (dovrebbe far funzionare anche i colori IRC ma non gliela fà). In futuro penso di rifare questo modulo con un sistema di colorazione e di formattazione migliore.<br><br>
+
+File command.py:<br>
+È il modulo contenente la classe Command e la sua gestione. Attenzione non bisogna confondersi con gli input, che sono gli "alias" con il quale richiamare comandi, skill o social.<br><br>
+
+File compare.py:<br>
+È il modulo contenente tutte le funzione atti ad effettuare confronti tra stringhe normali e stringhe inviate dai giocatori.<br>
+In pratica alla stringa normale vengono rimossi accenti e colori per poter effettuare poi un confronto non case sensitive in più vicino a quello che il giocatore ha inserito.<br><br>
+
+File config.py:<br>
+Modulo contenente la classe con le configurazioni del Mud.<br>
+
+File connection.py:<br>
+Modulo per la gestione delle connessioni Telnet e Irc (quest'ultimo in fase sperimentale); vi sono inoltre tutti gli stati di connessione relativi alla creazione del personaggio e del gioco.<br>
+Penso proprio che rifarò in toto questo modulo con qualcosa di meglio.<br><br>
+
+File mob.py:<br>
+Questo file gestisce la classe e tutto ciò che riguarda i mob.<br><br>
+
+File description.py:<br>
+Modulo per la gestione delle descrizioni dinamiche, cioè quelle che si leggono tramite comando look ma che vengono generate dinamicamente a seconda della situazione dell'entità guardata.<br>
+Ho già delle idee a riguardo ma per ora questo modulo è in attesa di una idea il più migliore possibile per poterle gestire.<br><br>
+
+File entity.py:<br>
+Una entità è la classe base per le classi di Room, Item, Mob e Player.<br>
+Quindi qui ci sono tutti gli attributi e i metodi base di tutte le entità.<br>
+Grazie a questo modulo le stanze, per esempio, potranno "camminare" e i mob piccoli potranno essere raccolte e messe nello zaino (per esempio i famili).<br><br>
+
+File enum.py:<br>
+Modulo per la gestione delle enumerazioni, di cui ho già parlato un po' relativamente alla cartella data/enums/, oltre alla classe Enum e alla funzione per caricare le enumerazioni da file vi sono due classi importanti:<br>
+Element e Flags, la prima serve a gestire in maniera ottimale dei valori di attributo conosciuti (tipo attributo race di Player può essere RACE_HUMAN, RACE_ELF, RACE_DWARF etc etc) permettendo così una gestione semplificata nel codice senza dover pensare con i numeri o delle pseudo costanti (che sarebbero da importare ogni volta).<br>
+La Flags invece sarebbe un bitvector, oppure se vista in più alto livello: una serie di Element uno dietro l'altro. Serve per quegli attributi che contengono più valori per volta (per esempio le opzioni di account).<br>
+Poiché le Flags si basano sulla gestione dei bitvector, e quindi sul relativo modulo, quando abbandonerò quest'ultimo dovrò mettere mano anche a questo modulo e rifarlo.<br><br>
+
+File event.py:<br>
+È ancora da fare, comunque gestirà la coda di eventi e lo scheduler per inviarli.<br><br>
+
+File fight.py:<br>
+Modulo per la gestione del combattimento, tutto da fare ancora.<br><br>
+
+File fread.py:<br>
+Gestisce la lettura e la scrittura dei dati del Mud su file testuali.<br>
+Difatti la persistenza è gestita su semplici file testuali, all'avvio del Mud vengono caricate le informazioni, alla sua chiusura invece (per eccezione o per chiusura normale) vengono salvate.<br>
+Lo stile con cui salva i dati è simil Smaug, cioè una cosa tipo:<br>
+Name    Conan<br>
+Race    RACE_HUMAN<br>
+etc etc..<br>
+Ogni classe che ha degli attributi persistenti, cioè salvati su file, deve avere l'attributo di classe datas, una lista con il nome di tutti gli attributi che dovranno essere salvati e non volatili.<br>
+Le funzioni fread e la fwrite si occupano di caricare e salvare automaticamente qualsiasi tipo di attributo (in futuro queste due funzioni le migliorerò).<br><br>
+
+File grammar.py:<br>
+Modulo per la gestione grammaticale di alcuni parti del testo, è ancora in bozza, su per giù son le stesse feature che aveva con il Bard, più che la funzione get_article che va' non c'è molto.<br><br>
+
+File group.py:<br>
+Gestione del gruppo e dei suoi componenti.<br><br>
+
+File interpret.py:<br>
+Gestione del riconoscimento degli inputs, sù per giù il sistema si basa sulla interpret dello Smaug con le idee sulla doppia lingua che ho ampiamente testato sul Bard.<br><br>
+
+File item.py:<br>
+Modulo per la gestione degli oggetti del Mud.<br><br>
+
+File language.py:<br>
+Modulo per la gestione delle differenti lingue razziali e oltre.<br><br>
+
+File log.py:<br>
+Funzione di send_log, debbo ancora finire di potenziarla.<br><br>
+
+File main.py:<br>
+Modulo principale contenente il codice per avviare il Mud preparare le cose di twisted per accettare connessioni e creare il game loop (un ciclo al secondo).<br><br>
+
+File player.py:<br>
+Modulo contenente la classe Player e tutto il codice per gestire questa entità.<br><br>
+
+File room.py:<br>
+Modulo contenente la classe Room, le stanze del Mud e tutto il codice per gestire tale entità.<br><br>
+
+File skill.py:<br>
+File per la gestione generica delle skill, per ora ho codato solo un paio di skill e non le ho manco provate.<br><br>
+
+File social.py:<br>
+Per ora nulla, ma sarà ovviamente il modulo per la gestione dei social.<br><br>
+
+File statistic.py:<br>
+Modulo per il salvataggio delle statistiche principali del Mud, numero di giocatori al giorno e cose così.. Non sono molto soddisfatto di quello che sta uscendo fuori con questo modulo, dovrò pensare meglio cosa farne.<br><br>
+
+File synonim.py:<br>
+I sinonimi sarebbero una struttura la cui parte è formata da un Element (vedi enum.py) e l'altra da del testo, l'idea è quella di poter modificare il testo a piacere mantenendo un identificativo, l'Element appunto.<br>
+In pratica mettiamo che l'attributo race di ogni entità sia un sinonimo, avrà una parte Element("RACE_QUALCOSA") e un testo con "NomeRazza".<br>
+Esempio: "RACE_ELF" e "Elfo" e fin qui tutto ok, ma il bello viene se si vuole modificare il testo a piacere con cose tipo "Elfo Marino", "Elfo Dorato" o "Elfo Truzzo" etc etc.. in pratica si ha un testo variabile (sempre nei limiti relativi al proprio elemento) e l'elemento che invece rimane fisso identificando così il tipo di razza.<br>
+A ben vedere questo sistema, già codato e provato nel Bard, è l'anticamera della descrizione dinamica, quindi non so se questo modulo in futuro esisterà ancora oppure verrà inglobato nel modulo description.py<br><br>
+
+File weather.py:<br><br>
+Modulo per la gestione del meteo, questo modulo non mi soddisfa molto, debbo trovare una maniera per gestire al meglio condizioni meteo generiche come in wild o area e particolari come nelle stanze.<br><br>
+
+File wild.py:<br>
+In questo modulo vi è il caricamento, la visualizzazione (da terminare) e la gestione della wild.<br><br>
+
+Cartella commands:<br>
+Questa cartella contiene tutti i comandi del Mud codati in singolo file per ogni comando, i file vengono importati dinamicamente nella interpret al primo utilizzo del comando.<br><br>
+
+Cartella skills:<br>
+Stessa cosa dei comandi, ma per le skill.<br><br>
+
+Cartella socials:<br>
+Idem come sopra, ma per i social; sì, anche i social potranno avere il loro bel codice con cui gestire social particolari e "interattivi" e non solo inviare output.<br><br><br>
+</div>
+
+<hr>
+</body>
+</html>

@@ -1,0 +1,34 @@
+FunName:    social_grunt
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Grugnisci stizzit$o.
+  OthersNoArg: $n grugnisce stizzit$o.
+  EntityFound: Grugnisci verso $N, stizzit$o.
+  OthersFound: $n grugnisce stizzit$o verso $N.
+  TargetFound: $n grugnisce stizzit$o verso di te!
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Grunisci sprezzante.
+  OthersNoArg: $n grugnisce sprezzante.
+  EntityFound: Grugnisci sprezzante alla volta di $N.
+  OthersFound: $n grugnisce sprezzante alla volta di $N.
+  TargetFound: $n ti grugnisce addosso sprezzante!
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Ti esibisci in un assolo di grugniti.
+  OthersNoArg: $n grugnisce qualcosa di incomprensibile sotto le vibrisse.
+  EntityFound: Grugnisci all'indirizzo di $N, manifestando il tuo dissenso.
+  OthersFound: $n grugnisce verso $N il suo dissenso.
+  TargetFound: $n ti grugnisce addosso tutto il suo dissenso.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Ti esibisci in un assolo di grugniti.
+  OthersNoArg: $n grugnisce qualcosa di incomprensibile sotto le vibrisse.
+  EntityFound: Grugnisci all'indirizzo di $N, manifestando il tuo dissenso.
+  OthersFound: $n grugnisce verso $N il suo dissenso.
+  TargetFound: $n ti grugnisce addosso tutto il suo dissenso.
+End

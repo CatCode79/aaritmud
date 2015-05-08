@@ -1,0 +1,40 @@
+Code: novizi2_room_10-fight
+Icon: icons/room/triskele-yellow.png
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: L'accesso alla Sala dei Combattimenti
+Short: l'accesso alla sala dei combattimenti
+
+Descr:
+Il corridoio si alza per fare posto ad una inopportuna quanto improbabile cornice architravata in pietra rossa.
+Un abnorme scudo da battaglia di spropositate dimensioni è imperniato su cardini a guisa di portale.
+La bugnatura della cornice riporta le sagome dei volti di personalità anonime.
+Allontanandosi da ambo i lati il soffitto riguadagna toni più modesti e contenuti.
+
+DescrTouch: 
+Il soffitto fugge via verso l'alto per fare posto ad un'ampia cornice di pietra fredda.
+Due mastodontiche ante di metallo imperniate a guisa di portale consentono l'accesso.
+
+DescrSixth:
+La via per una nuova dimensione dell'esplorazione; più sanguigna, brutale e spregiudicata. 
+
+DescrHearing:
+L'eco della voce suggerisce l'ampiezza dell'entrare verso altezze considerevoli.
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.SOUTHWEST
+	Descr: [lemonchiffon]Un corridoio[close]
+End
+Exits:
+	Direction:	DIR.SOUTHEAST
+	Descr:	Sotto l'Architrave rosso
+	Door:	novizi2_item_porta-combattimento
+End
+Exits:
+	Direction:	DIR.NORTH
+	Descr: [lemonchiffon]Un corridoio[close]
+End

@@ -1,0 +1,63 @@
+Comment:
+asta frammento che sporge da sopra e accanto un pezzo di qualcosa che è caduto
+Questa vorrebbe essere l'alcova in cui riporre le spoglie mortali del sacerdote di cui si parla nell'altro commento (v.cupola).
+L'idea è che fosse tutto pronto e preorganizzato per le spoglie quando il sacerdote era ancora vivo (un po' come per i papi)
+ma dopo l'ordalia andata nel peggiore dei modi e dopo il crollo del ciborio qui sia stato fatto vandalismo rimuovendo tutta la parte di iscrizioni.
+
+Code: opekus_room_ofidian_alcova_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: L'Alcova Violata
+Short: un'alcova
+
+Descr:
+Uno spazio oblungo si sviluppa in direzione sud fino a terminare innanzi ad una massiccia
+lapide che a sua volta poggia al fondo dell'alcova. Sulle pareti laterali sono collocati
+altri lastroni di materiale pietroso con strani segni. La parte superiore dell'alcova è
+scavata a volta e nella sua parte bassa vi è un foro dal quale sporge un moncone di un
+asta metallica.
+Infine la grezza pavimentazione è interrotta da un liscio blocco di pietra nera abraso ferocemente di cui non resta più neppure un decoro.
+
+Extras:
+	Keywords: lapide 
+	Descr:
+		È una massiccia lapide in pietra grigia attaccata alla parete di fondo. Lungo tutta
+		la sua estensione verticale è percorsa da una crepa che ne separa le due parti di
+		ben oltre tre dita. Alla base si diparte orizzonatale il blocco di poetra nera del sarcofago
+End
+Extras:
+	Keywords: lastroni lastre lastra
+	Descr:
+		Sono lastre di materiale roccioso grigiastro parzialmente incassate nelle pareti e
+		sporgenti nella parte superiore; le lastre più in alto pare sian state divelte a bella
+		posta e lasciate cadere sulle sottostanti. C'erano forse delle iscrizioni incise sopra.
+                Come facilmente eran riportate anche sul sarcofago di pietra nera incassato nel pavimento.
+End
+Extras:
+	Keywords: iscrizioni segni
+	Descr:
+		C'erano sicuramente delle incisioni lungo tutti e quattro le lastre laterali e su tutta la
+                superficie del sarcofago; ma sono state rimosse scavando la roccia tanto in profondità da
+                lasciare solo qualche segno decisamente insufficiente anche solo per postulare qualcosa. 
+End
+Extras:
+	Keywords: moncone asta metallica 
+	Descr:
+		Un pezzo d'asta metallica sporge da terra lateralmente al sarcofago; già dopo poco meno di
+                una spanna pare che qualcosa o qualcuno si sia accanito sull'asta o su quello che vi era saldato
+                lasciando solo un moncone deformato.
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Verso il corpo centrale della cattedrale
+End
+Exits:
+	Direction:	DIR.DOWN
+	Descr:	il sarcofago
+	Door:	opekus_item_door-sarcofago-sacerdote
+End

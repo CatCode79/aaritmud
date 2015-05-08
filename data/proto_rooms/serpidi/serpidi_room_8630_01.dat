@@ -1,0 +1,24 @@
+Code: serpidi_room_8630_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Width:	1m
+Depth:	3m
+Height:	3m
+Name: Nella cripta dei serpenti 
+Short: Nella cripta dei serpenti 
+Descr: 
+Sei in una stanza di un metro di lato, con aperture su tutte le pareti. Ogni apertura è alta circa due metri e larga meno di un metro, e porta a un lungo tunnel delle stesse dimensioni che sbocca in una stanza simile a questa. Riesci a malapena a girarti in questo spazio angusto. Urti, con il piede destro, una lastra rialzata. 
+Exits:
+	Direction: DIR.WEST
+	Destination: 2 5 0 serpidi
+End
+Exits:
+	Direction: DIR.DOWN
+	Destination: 0 4 -2 serpidi
+End
+Extras:
+	Keywords: lastra 
+Descr:
+Ha la forma e la dimensione di una lapide, ma sopra non c'è scritto nulla solo un simbolo quadrato. 
+End

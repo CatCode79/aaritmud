@@ -1,0 +1,44 @@
+FunName:    social_cruel
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Assumi in volto un'espressione malvagia e crudele, sogghignando.
+  OthersNoArg: $n assume in volto un'espressione malvagia e crudele, sogghignando.
+  EntityFound: Guardi $N in maniera crudele e spietata!
+  OthersFound: $n guarda $N in maniera crudele e spietata! Che senza cuore!
+  TargetFound: $n ti guarda in maniera crudele e spietata! Che senza cuore!
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Assumi un'aria di pura perfidia.
+  OthersNoArg: $n fa strane smorfie. Che stia male?
+  EntityFound: Squadri $N facendo$GLI capire quanto sei perfid$o.
+  OthersFound: $n fa strane smorfie a $N. Che stia male?
+  TargetFound: $n ti fa delle facce buffissime!
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Assumi un'espressione naturale.
+  OthersNoArg: Il volto di $n si contrae in una maschera di malevoli intenti.
+  EntityFound: Guardi $N con espressione naturale.
+  OthersFound: Il volto di $n si gira verso $n contratto in una maschera di malevoli intenti.
+  TargetFound: $n ti fissa con i linemaneti del volto contratti in una maschera malvagia e crudele.
+  EntityAuto:  Assumi un'espressione più cattiva.
+  OthersAuto:  $n rivela occhi spiritati incorniciati da lineamenti contratti in una maschera di pura malvagità.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Non sei crudele.. E' nella tua natura agire così.
+  OthersNoArg: $n assume un atteggiamento perfido ma forse sta solo seguendo il suo istinto di khajit.
+  EntityFound: Fissi $N sapendo che sarà la tua prossima vittima.
+  OthersFound: $n guarda $N come se stesse fissando un nemico da uccidere.
+  TargetFound: $n ti pianta gli occhi addosso stringendo le pupille e digrignando i denti..
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Non sei crudele.. E' nella tua natura agire così.
+  OthersNoArg: $n assume un atteggiamento perfido ma forse sta solo seguendo il suo istinto di khajit.
+  EntityFound: Fissi $N sapendo che sarà la tua prossima vittima.
+  OthersFound: $n guarda $N come se stesse fissando un nemico da uccidere.
+  TargetFound: $n ti pianta gli occhi addosso stringendo le pupille e digrignando i denti..
+End

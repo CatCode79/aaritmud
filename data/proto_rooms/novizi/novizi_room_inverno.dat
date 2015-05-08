@@ -1,0 +1,32 @@
+Code: novizi_room_inverno
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: [aqua]L'inverno Confuso[close]
+Short: [aqua]l'inverno confuso[close]
+
+Descr:
+L'ala dell'edificio in questo periodo è addobbata e preparata in sintonia all'attuale
+stagione invernale. È curioso come sia stato possibile portare all'interno tutta la neve
+che ricopre ogni cosa. Sul pavimento di finto [aqua]ghiaccio[close] trasparente la neve è stata
+scostata in modo che gli unici sentierini praticabili portano a tappe obbligate verso
+tutti i banchetti in cui sono venduti prodotti dell'artigianato locale e forse non solo.
+DescrSmell: 
+I profumi speziati che arrivano alle narici sono soprattutto [maroon]chiodi di garofano[close] e
+[maroon]cannella[close], è probabile ci sia del vino caldo in vendita da queste parti.
+
+Extras:
+	Keywords: pavimento finto ghiaccio trasparente
+	Descr:
+	Un unico grosso lastrone di qualche materiale trasparente ad anche un po' scivoloso.
+	DescrTouch:
+	Duro e difficile da graffiare, ci si potrebbero fare delle pregevoli architetture
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: In strada
+End

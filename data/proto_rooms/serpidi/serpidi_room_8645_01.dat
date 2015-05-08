@@ -1,0 +1,24 @@
+Code: serpidi_room_8645_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: I campi coltivati 
+Short: I campi coltivati 
+Descr: 
+Qui crescono piante il cui uso ti è sconosciuto. Ci sono arbusti con chicchi rossi su tutti i rami, altri con grossi frutti che non sembrano invitanti all'assaggio e dai grossi semi e molte altre. In un angolo ci sono alcuni vasi con dei fiori. C'è una colonna con una sfera luminosissima in cima. 
+Exits:
+	Direction: DIR.EAST
+	Destination: 3 0 0 serpidi
+End
+Exits:
+	Direction: DIR.SOUTH
+	Destination: 2 -1 0 serpidi
+End
+Exits:
+	Direction: DIR.WEST
+	Destination: 1 0 0 serpidi
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

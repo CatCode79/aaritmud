@@ -1,0 +1,156 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<h2>Indice delle Etichette per i Vestiti.</h2>
+<div>
+<a href='#Comment'><span class='label'>Comment</span>:</a><br>
+<a href='#Modes'><span class='label'>Modes</span>:</a><br>
+<a href='#Affects'><span class='label'>Affects</span>:</a><br>
+<a href='#Flags'><span class='label'>Flags</span>:</a><br>
+<a href='#EntityWearMessage'><span class='label'>EntityWearMessage</span>:</a><br>
+<a href='#TargetWearMessage'><span class='label'>TargetWearMessage</span>:</a><br>
+<a href='#OthersWearMessage'><span class='label'>OthersWearMessage</span>:</a><br>
+<a href='#EntityRemoveMessage'><span class='label'>EntityRemoveMessage</span>:</a><br>
+<a href='#TargetRemoveMessage'><span class='label'>TargetRemoveMessage</span>:</a><br>
+<a href='#OthersRemoveMessage'><span class='label'>OthersRemoveMessage</span>:</a><br>
+</div>
+<br>
+
+<hr>
+<h2>Note Riguardo i Vestiti.</h2>
+<div>
+<span class="label">WearType</span> &egrave; un'etichetta che rappresenta una struttura di pi&ugrave; sottoetichette, e quindi abbisogna dell'etichetta <span class="label">End</span> per terminarne la definizione.<br>
+Come di consueto potete inserire quest'etichetta sia in un oggetto, sia in un mob, cos&igrave; da permette un wear di un mob (per esempio un gatto al collo come sciarpa).<br>
+Non c'&egrave; molto altro da dire, tutto il resto viene spiegato nelle singole etichette.<br>
+</div>
+<br>
+
+<hr>
+<h2>Tabella di Riferimento Veloce.</h2>
+<div>
+<table border="1">
+<tr class="thref"><td>Etichetta</td><td>Tipologia</td><td>Utilizzo</td></tr>
+<tr><td class="label">Comment</td><td>Stringa, relativa ad un commento</td><td>Facoltativo, consigliato se c'&egrave; qualcosa di particolare</td></tr>
+<tr><td class="label">Modes</td><td>Flags</td><td>Obbligatoria</td></tr>
+<tr><td class="label">Affects</td><td>Effetti</td><td>Facoltativa</td></tr>
+<tr><td class="label">Flags</td><td>Flags</td><td>Facoltativa</td></tr>
+<tr><td class="label">EntityWearMessage</td><td>Stringa</td><td>Facoltativa</td></tr>
+<tr><td class="label">TargetWearMessage</td><td>Stringa</td><td>Facoltativa</td></tr>
+<tr><td class="label">OthersWearMessage</td><td>Stringa</td><td>Facoltativa</td></tr>
+<tr><td class="label">EntityRemoveMessage</td><td>Stringa</td><td>Facoltativa</td></tr>
+<tr><td class="label">TargetRemoveMessage</td><td>Stringa</td><td>Facoltativa</td></tr>
+<tr><td class="label">OthersRemoveMessage</td><td>Stringa</td><td>Facoltativa</td></tr>
+</table>
+</div>
+<br>
+
+<hr>
+<h2>Struttura Tipica con le Etichette di Maggior Utilizzo (per copia e incolla).</h2>
+<div>
+<pre>
+WearType:
+	Modes: PART. 
+End
+</pre>
+</div>
+<br>
+
+<hr>
+<h2>Spiegazione delle Etichette.</h2>
+<div>
+<a name='Comment'><h3 class='label'>Comment:</h3></a>
+Eventuale commento relativo al vestito, per maggior informazioni leggere <a href="comment.htm">questa pagina</a>.<br>
+Non &egrave; obbligatoria, ma &egrave; comunque consigliato utilizzarla se la tipologia d'entit&agrave; &egrave; una cosa particolare o bisogna segnarsi qualcosa da ricordare.<br>
+<br>
+
+<a name='Modes'><h3 class='label'>Modes:</h3></a>
+E' una lista di etichette ognuna delle quali &egrave; una <a href="flags.htm">Flags</a> che si rif&agrave; alla <a href="elements_list.htm#PART">lista delle flag di PART</a>.<br>
+Quest'etichetta, nonostante finisca non la lettera 's', non abbisogna della controparte <span class='label'>End</span>.
+Dopo la dichiarazione dell'etichetta ci vuole una o pi&ugrave; elementi di PART che indicano quali parti del corpo l'entit&agrave; va a ricoprire se indossato.<br>
+Ogni dichiarazione di quest'etichetta inserir&agrave; una voce nelle possibili modalit&agrave; di wear.<br>
+Se tramite il comando wear non viene indicata quale specifica parte si vuole coprire il comando sceglier&agrave; la prima della lista disponibile, ovvero quella che corrisponde con delle parti esistenti e non occupate da altro.<br>
+Per esempio un oggetto elmo con:<br>
+<pre>
+WearType:
+    Modes: PART.HEAD PART.NECK
+    Modes: PART.LEFT_HAND
+    Modes: PART.RIGHT_HAND
+End
+</pre>
+una volta che il giocatore indosser&agrave; l'elmo se la testa e il collo sono liberi ed esistenti (potrebbero esistere razze senza testa o collo!) allora l'elmo verr&agrave; indossato su quelle due parti, altrimenti sulla prima disponibile delle due successive, in questo caso la mano sinistra o destra (che sia un elmo per pugili?).<br>
+Se invece tramite il comando wear viene indicata una specifica parte allora il Mud cercher&agrave; tra le varie modalit&agrave; di wear con quella parte la prima disponibile.<br>
+Per esempio se un giocatore digita 'wear elmo mano' indosser&agrave; l'elmo precedente sulla prima mano libera trovata nonostante abbia la testa e il collo esistenti e liberi.<br>
+L'utilizzo di quest'etichetta &egrave; obbligatorio.<br>
+<br>
+
+<a name='Affects'><h3 class='label'>Affects:</h3></a>
+Gli effetti sono utili per dare un qualsiasi propriet&agrave; al vestito, questi effetti vengono attivati solo nel momento in cui vengono indossati e smettono di esistere nel momento in cui il vestito viene rimosso.<br>
+(TD) per ora gli effetti non sono ancora stati fatti lato codice quindi questa parte &egrave; da saltare.<br>
+<br>
+
+<a name='Flags'><h3 class='label'>Flags:</h3></a>
+&Egrave; una <a href="flags.htm">Flags</a> che si rif&agrave; alla <a href="elements_list.htm#WEAR">lista delle flag per WEAR</a>.<br>
+L'etichetta &egrave; facoltativa.<br>
+Tramite questa etichetta si pu&ograve; fare in modo che un indumento sia indossabile sopra o sotto un altro.<br>
+<br>
+<a name='EntityWearMessage'><h3 class='label'>EntityWearMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto, al posto di quello di default, da chi indossa un'entit&agrave;.<br>
+Segue le regole normali dei tag di act relativi all'entit&agrave; che fa l'azione e al suo obiettivo, quindi per esempio:<br>
+$n &egrave; il nome dell'entit&agrave; che esegue l'azione<br>
+$o restituisce 'o' se l'entit&agrave; che esegue l'azione &egrave; maschile oppure 'a' se femminile<br>
+$N &egrave; il nome dell'entit&agrave; che subisce l'azione, cio&egrave; viene indossata (o levata)<br>
+$O restituisce 'o' se l'entit&agrave; che subisce l'azione &egrave; maschile oppure 'a' se femminile<br>
+%part: che indica la parte, o le parti, che vengono coperte dal wear<br>
+A questi bisogna aggiungere tutti i tag razziali, $hand, $foot, etc etc...<br>
+Inoltre al posto del tag %part verr&agrave; indicato su che parte del corpo si indossa l'entit&agrave;, non c'&egrave; bisogno di inserire alcuna preposizione.
+Se non si vuole inviare n&eacute; questo messaggio n&eacute; quello di default quest'etichetta deve contenere il valore <i>no_send</i>.
+L'etichetta &egrave; facoltativa, la sua omissione far&agrave; inviare il messaggio di default.<br>
+<br>
+
+<a name='TargetWearMessage'><h3 class='label'>TargetWearMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto, al posto di quello di default, da chi &egrave; indossato.<br>
+All'etichetta <span class="label">EntityWearMessage</span> vengono elencati alcuni dei tag di act che si possono utilizzare all'interno del messaggio.<br>
+Anche qui se non si vuole inviare n&eacute; questo messaggio n&eacute; quello di default quest'etichetta deve contenere il valore <i>no_send</i>.
+L'etichetta &egrave; facoltativa, la sua omissione far&agrave; inviare il messaggio di default.<br>
+<br>
+
+<a name='OthersWearMessage'><h3 class='label'>OthersWearMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto, al posto di quello di default, da tutti quelli che possono vedere chi sta indossando l'entit&agrave;.<br>
+All'etichetta <span class="label">EntityWearMessage</span> vengono elencati alcuni dei tag di act che si possono utilizzare all'interno del messaggio.<br>
+Anche qui se non si vuole inviare n&egrave; questo messaggio n&egrave; quello di default quest'etichetta deve contenere il valore <i>no_send</i>.
+L'etichetta &egrave; facoltativa, la sua omissione far&agrave; inviare il messaggio di default.<br>
+<br>
+
+<a name='EntityRemoveMessage'><h3 class='label'>EntityRemoveMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto, al posto di quello di default, da chi rimuove un'entit&agrave;.<br>
+All'etichetta <span class="label">EntityWearMessage</span> vengono elencati alcuni dei tag di act che si possono utilizzare all'interno del messaggio.<br>
+Anche qui se non si vuole inviare n&eacute; questo messaggio n&eacute; quello di default quest'etichetta deve contenere il valore <i>no_send</i>.
+L'etichetta &egrave; facoltativa, la sua omissione far&agrave; inviare il messaggio di default.<br>
+<br>
+
+<a name='TargetRemoveMessage'><h3 class='label'>TargetRemoveMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto, al posto di quello di default, da chi &egrave; rimosso.<br>
+All'etichetta <span class="label">EntityWearMessage</span> vengono elencati alcuni dei tag di act che si possono utilizzare all'interno del messaggio.<br>
+Anche qui se non si vuole inviare n&eacute; questo messaggio n&eacute; quello di default quest'etichetta deve contenere il valore <i>no_send</i>.
+L'etichetta &egrave; facoltativa, la sua omissione far&agrave; inviare il messaggio di default.<br>
+<br>
+
+<a name='OthersRemoveMessage'><h3 class='label'>OthersRemoveMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto, al posto di quello di default, da chi &egrave; rimosso.<br>
+All'etichetta <span class="label">EntityWearMessage</span> vengono elencati alcuni dei tag di act che si possono utilizzare all'interno del messaggio.<br>
+Anche qui se non si vuole inviare n&eacute; questo messaggio n&eacute; quello di default quest'etichetta deve contenere il valore <i>no_send</i>.
+L'etichetta &egrave; facoltativa, la sua omissione far&agrave; inviare il messaggio di default.<br>
+<br>
+<br>
+
+</div>
+<hr>
+</body>
+</html>

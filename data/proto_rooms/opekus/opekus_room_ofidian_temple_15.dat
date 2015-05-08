@@ -1,0 +1,32 @@
+Code: opekus_room_ofidian_temple_15
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Navata Laterale
+Short: nella cattedrale
+
+Descr:
+Fra il colonnato ed una mezza dozzina di alcove rientranze e aperture si sviluppa la
+navata laterale della cattedrale, un ampio corridoio che dal fondo porta verso quello
+che doveva essere un altare o un'antica ara. La vista permette di abbracciare in tutta
+la sua lunghezza il lato destro dell'edificio, dall'ingresso fino all'abside sul fondo.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: Lungo la navata laterale
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Verso la navata centrale
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Attorno al ciborio
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Un'alcova disadorna
+End

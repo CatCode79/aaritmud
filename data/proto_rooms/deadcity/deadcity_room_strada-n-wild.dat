@@ -1,0 +1,49 @@
+Comment: asciiart:figlet font:tengwar
+nome città: lastrich
+Code: deadcity_room_strada-n-wild
+Sector: SECTOR.CITY
+Name: Ai Margini Settentrionali della Città Morta
+Short: la periferia settentrionale
+
+Descr:
+Sei giunt$o ai margini di una città abbandonata che si estende in direzione sud per
+miglia e miglia. La strada principale si dirige pianeggiante in un involuto cammino
+laterale che impedisce di vedere quanto dista il centro. Su un lato della strada c'è
+un [brown]cartello[close] sbiadito dal tempo.
+
+Extras:
+	Keywords: lato cartello
+	Descr:
+Il cartello riporta un misteriosa scritta:
+<pre class="asciiart">
+---------------------------------------------------------------------------------
+|[gray]               db                                                 `Yb.         [close]|
+|[gray]            db    db                                 db             `Yb        [close]|
+|[gray]                                                                      Yb       [close]|
+|[gray]`Y8888888b.   'Yb    .d888b.  `Yb.d888b  `Yb    dP' 'Yb .dP'  dP'      Yb      [close]|
+|[gray]   .dP'        88    8'   `Yb  88'    8Y   Yb  dP    88 88    88      dPYb     [close]|
+|[gray] ,dP           88    Yb.   88  88     8P    YbdP     88 Y8   .88    ,dP  Yb    [close]|
+|[gray] 88     .     .8P        .dP   88   ,dP     .8P     .8P `Y88P'88  .dP'    `Yb. [close]|
+|[gray] `Yb...dP              .dP'    88         dP'  b              88               [close]|
+|[gray]   `"""'             .dP'      88         Y.  ,P              88               [close]|
+|[gray]                              .8P          `""'               Y8.              [close]|
+---------------------------------------------------------------------------------
+</pre>
+
+	DescrSixth:
+Probabilmente si tratta del nome della città.
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Fuori dalla città
+  Destination: 0 6 0 deadcity
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: In strada
+End

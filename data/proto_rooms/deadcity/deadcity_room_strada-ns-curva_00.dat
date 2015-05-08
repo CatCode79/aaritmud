@@ -1,0 +1,29 @@
+Code: deadcity_room_strada-ns-curva_00
+Sector: SECTOR.CITY
+Name: La Via Polverosa
+Short: una strada polverosa
+
+Descr:
+Sei in un punto della città abbandonata in cui la visuale è impedita a causa della
+piega stradale; è strano come pare di essere rimasti fermi nello stesso punto eppure
+la visuale deve essere mutata. La sabbia qui è meno invasiva e devastante.
+Su di un lato della strada, due edifici distano fra loro quanto basta per far posto
+ad una strada.
+ 
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTHWEST
+  Descr: In strada
+End
+Exits:
+  Direction: DIR.SOUTHWEST
+  Descr: In strada
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: In strada
+End
+

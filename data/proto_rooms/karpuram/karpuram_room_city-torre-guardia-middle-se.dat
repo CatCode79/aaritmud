@@ -1,0 +1,26 @@
+Code: karpuram_room_city-torre-guardia-middle-se
+Sector: SECTOR.PLAIN
+Name: Sotto l'[lime]Osservatorio[close]
+Short: l'accesso verticale
+Descr:
+Procedendo lungo l'impalcato si ha la visione della sterminata distesa boscosa che pare
+senza fine. Per quanto la posizione si dimostri piuttosto scomoda, si indugia
+piacevolmente a contemplare tutto quel che si vede di qua.
+
+DescrNight:
+Procedendo lungo l'impalcato e complice la notte buia si ha l'impressione di essere
+immersi nel nulla più assoluto. Appena la vista si abitua a tanta oscurità si cominciano
+ad intravvedere verso il basso guizzi di luce che appaiono e scompaiono.
+
+Width:	10m
+Depth:	10m
+Height: 20m
+
+Exits:
+  Direction: DIR.DOWN
+  Descr: La scala lungo l'impalcato
+End
+Exits:
+  Direction: DIR.UP
+  Descr: La scala lungo l'impalcato
+End

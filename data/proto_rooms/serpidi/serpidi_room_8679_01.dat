@@ -1,0 +1,16 @@
+Code: serpidi_room_8679_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: Al cospetto del Primo Serpide. 
+Short: Al cospetto del Primo Serpide. 
+Descr: 
+Sei entrato in una grande stanza ottagonale con colonne di ghiaccio che scendono dal soffitto. Sotto il ghiaccio le pareti sono insonorizzate e rinforzate con spesse lastre di acciaio. In fondo a destra c'è il più grande serpide che hai visto fino adesso. Lui non ha nome i suoi genitori si rifiutarono di riconoscerlo perché fu il Primo Serpide venuto al mondo. 
+Exits:
+	Direction: DIR.NORTH
+	Destination: -3 7 -2 serpidi
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

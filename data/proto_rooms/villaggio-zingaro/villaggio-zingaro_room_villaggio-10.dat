@@ -1,0 +1,79 @@
+Code: villaggio-zingaro_room_villaggio-10
+Sector: SECTOR.ROAD
+Name: La Piazza del Villaggio
+Short: una piazzetta
+
+Descr:
+Anni ed anni di passaggio hanno allargato e spianato questa piazza cinto da una serie di caseggiati sul lato est mentre a ovest solo un [brown]edificio[close] abbandonato quasi immerso nella boscaglia.
+Al centro della piazza un monumento oppure semplicemente dei bidoni sovrapposti piegati e deformati dall'incuria e dal tempo.
+A lato, su tutto spicca un edificio in legno a due piani con un'insegna vistosa ma semicancellata. Prima dell'ingresso, poco a sinistra c'è un abbeveratoio per cavalli con la classica paletteria per legarne le briglie.
+DescrSixth:
+Per qualche motivo ti senti particolarmente attratto dall'edifizio disabitato, in particolare da un anonima [plum]finestrella[close] socchiusa.
+
+Extras:
+	Keywords: monumento bidoni
+	Descr:
+	Un artista malato e sadico oppure più propriamente dell'immondizia collassata sotto il suo stesso peso.
+	DescrSmell:
+	Senza dubbio se si tratta di un monumento, è maggiormente esplicativo per chi ha olfatto e poca vista.
+End
+
+
+Extras:
+	Keywords: insegna
+	Descr:
+	Molto cancellata... troppo
+	DescrSixth:
+        Il tuo spiccato e profondo sesto senso ti suggerisce che le scritte "emporio" sulle finestre siano un buon indizio
+
+End
+
+Extras:
+	Keywords:	 edificio abbandonato disabitato
+	Descr:
+	Un edificio disabitato ormai ridotto in condizioni pietose, la porta è sprangata e l'unica via d'accesso pare essere una minuta [plum]finestra[close] che dà sulla piazza.
+	DescrSixth:
+	Sì, forse con un po' di sforzo potresti anche riuscire ad entrare.
+End
+
+Extras:
+	Keywords: abbeveratoio
+	Descr:
+	Una vasca in legno colma d'acqua e qualche pezzo di fieno
+	DescrSmell:
+	Non sembra neppure acqua sporca
+	DescrTouch:
+	Bagnata...
+	DescrTaste:
+	Questo deve essere il sapore di un cavallo sudato...
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+Exits:
+	Direction: DIR.NORTH
+	Descr: La strada
+End
+Exits:
+	Direction: DIR.SOUTH
+	Descr: La strada
+End
+Exits:
+	Direction: DIR.SOUTHEAST
+	Descr: La strada
+End
+Exits:
+	Direction: DIR.EAST
+	Descr: Un edificio
+	Door:	villaggio-zingaro_item_door-porta-emporio-esterna
+End
+Exits:
+	Direction: DIR.NORTHEAST
+	Descr: Un sentierucolo
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	Un edificio abbandonato
+	Door:	villaggio-zingaro_item_door-finestra
+End

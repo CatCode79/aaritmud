@@ -1,0 +1,41 @@
+Code: novizi2_room_09-corridoio
+Icon: icons/room/triskele-yellow.png
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Un Corridoio
+Short: un corridoio
+
+Descr:
+Un anonimo corridoio finestrato ai due lati, privo di qualsivoglia nota significativa.
+DescrSmell: 
+Sembra di sentire un vago odore di sangue provenente da est e forse non è una macelleria.
+DescrSixth:
+Ti accorgi che è possibile guardare dalle finestre tramite il comando $tLOOK finestra.
+DescrHearing:
+Scricchiolii sinistri accompagnano come e gemiti l'assito che calpesti.
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Extras:
+	Keywords:	finestra finestre esterno
+	Descr:
+	Una delle due finestre rivela la vista su di un cortile interno circondato dall'estensione della casa. L'altra invece dà su una zona boschiva che cela lo sguardo verso le zone più lontane.
+	DescrNight:
+	Una delle finestre rivela la vista su di un cortile illuminato a giorno e circondato dalla casa. L'altra finestra invece non consente di vedere nulla per via dell'ora tarda.
+End
+
+
+Exits:
+	Direction:	DIR.SOUTHWEST
+	Descr: [lemonchiffon]La palestra[close]
+End
+Exits:
+	Direction:	DIR.NORTHEAST
+	Descr: [lemonchiffon]Le vittime sacrificali[close]
+End
+Exits:
+	Direction:	DIR.UP
+	Descr:	La soffitta
+End

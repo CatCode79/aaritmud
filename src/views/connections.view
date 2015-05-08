@@ -1,0 +1,5 @@
+<h3>Lista delle Connessioni al Sito:</h3>
+<table border="1">
+<tr><th>ID</th><th>Logged On</th><th>User Agent</th><th>Pagina</th><th>Idle Seconds</th></tr>
+${connections}
+</table><br>

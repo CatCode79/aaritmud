@@ -1,0 +1,31 @@
+Code: citta-raminghe_room_piramide-gradoni-02
+Sector: SECTOR.CITY
+Name: [gold]L'ingresso della Piramide[close]
+Short: [gold]l'ingresso della Piramide[close]
+
+Descr:
+Un passaggio appena oltre la porta d'accesso alla Piramide. È un corridoio non molto lungo e abbastanza largo.
+
+DescrSmell: 
+Avverti un odore di spezie
+DescrSixth:
+Stai per addentrarti in un luogo avvolto da sacralità e mistero in cui le dimensioni dello [lightskyblue]spazio[close] e del [red]tempo[close] potrebbero assumere configurazioni inaspettate.
+
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.EAST
+	Descr: Una porta
+End
+Exits:
+	Direction: DIR.UP
+	Descr: Una scalinata in pietra
+End
+Exits:
+	Direction: DIR.DOWN
+	Descr: Una grotta
+End

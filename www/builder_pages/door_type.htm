@@ -1,0 +1,320 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<h2>Indice delle Etichette per le Porte.</h2>
+<div>
+<a href='#Comment'><span class='label'>Comment</span>:</a><br>
+<a href='#Flags'><span class='label'>Flags</span>:</a><br>
+<a href='#OpenIcon'><span class='label'>OpenIcon</span>:</a><br>
+<a href='#OpenIconNight'><span class='label'>OpenIconNight</span>:</a><br>
+<a href='#KeyCode'><span class='label'>KeyCode</span>:</a><br>
+<a href='#PickLockDifficulty'><span class='label'>PickLockDifficulty</span>:</a><br>
+<a href='#BashDifficulty'><span class='label'>BashDifficulty</span>:</a><br>
+<a href='#PassDoorDifficulty'><span class='label'>PassDoorDifficulty</span>:</a><br>
+<a href='#EntityOpenMessage'><span class='label'>EntityOpenMessage</span>:</a><br>
+<a href='#TargetOpenMessage'><span class='label'>TargetOpenMessage</span>:</a><br>
+<a href='#OthersOpenMessage'><span class='label'>OthersOpenMessage</span>:</a><br>
+<a href='#DestinationOpenMessage'><span class='label'>DestinationOpenMessage</span>:</a><br>
+<a href='#EntityCloseMessage'><span class='label'>EntityCloseMessage</span>:</a><br>
+<a href='#TargetCloseMessage'><span class='label'>TargetCloseMessage</span>:</a><br>
+<a href='#OthersCloseMessage'><span class='label'>OthersCloseMessage</span>:</a><br>
+<a href='#DestinationCloseMessage'><span class='label'>DestinationCloseMessage</span>:</a><br>
+<a href='#EntityLockMessage'><span class='label'>EntityLockMessage</span>:</a><br>
+<a href='#TargetLockMessage'><span class='label'>TargetLockMessage</span>:</a><br>
+<a href='#OthersLockMessage'><span class='label'>OthersLockMessage</span>:</a><br>
+<a href='#DestinationLockMessage'><span class='label'>DestinationLockMessage</span>:</a><br>
+<a href='#EntityUnlockMessage'><span class='label'>EntityUnlockMessage</span>:</a><br>
+<a href='#TargetUnlockMessage'><span class='label'>TargetUnlockMessage</span>:</a><br>
+<a href='#OthersUnlockMessage'><span class='label'>OthersUnlockMessage</span>:</a><br>
+<a href='#DestinationUnlockMessage'><span class='label'>DestinationUnlockMessage</span>:</a><br>
+<a href='#ResetOpenMessage'><span class='label'>ResetOpenMessage</span>:</a><br>
+<a href='#ResetCloseMessage'><span class='label'>ResetCloseMessage</span>:</a><br>
+<a href='#EntityEatkeyMessage'><span class='label'>EntityEatkeyMessage</span>:</a><br>
+<a href='#TargetEatkeyMessage'><span class='label'>TargetEatkeyMessage</span>:</a><br>
+<a href='#OthersEatkeyMessage'><span class='label'>OthersEatkeyMessage</span>:</a><br>
+</div>
+<br>
+
+<hr>
+<h2>Note Riguardo le Porte.</h2>
+<div>
+Diversamente dai mud classici in <span style='color:red'>A</span><span style='color:gold'>arit</span> la porta &egrave; una vera e propria entit&agrave; (solitamente un oggetto) che va inserita all'uscita nella stanza voluta.<br>
+Ci sono tre modi per creare una porta, ma prima di elencarveli &egrave; meglio fare un ripassino su come sono fatte le uscite.<br>
+Per collegare una stanza ad un'altra ci vogliono due uscite, una che va dalla prima alla seconda e l'altra che fa il tragitto contrario.<br>
+Questo implica un po' di cose: prima di tutto dove va inserita la porta nell'etichetta <span class="label">Door</span> dell'uscita?<br>
+Dipende da cosa volete fare, il primo caso, quello pi&ugrave; semplice, e inserirla in una sola delle due uscite, quella relativa alla stanza che ritenete debba contenere la porta (perch&eacute; pi&ugrave; vicina o quello che volete). In questo caso l'uscita opposta visualizzer&agrave; e gestir&agrave; la porta come se esistesse nella propria etichetta <span class="label">Door</span>.<br>
+Il secondo metodo &egrave; quello di creare due entit&agrave; <span class="label">DoorType</span>, ognuna delle quali rappresenta in gioco un lato della porta, e inserirne una per uscita, questo permette di avere delle descrizioni differenti della porta in ognuna dei lati nonostante esse verranno gestite come una sola  entit&agrave; (apertura, chiusura, sfondamento, etc etc...).<br>
+Il terzo e ultimo caso &egrave; tale quale al secondo ma con l'aggiunta della flag DOOR.ASYNCHRONOUS <span style="font-size:smaller;">(preferibilmente)</span> su tutte e due le porte inserite per lato, questo permette di avere DUE porte indipendenti tra loro, quindi se per esempio queste saranno chiuse il giocatore dovr&agrave; aprirle tutte e due prima di poter andare nella stanza successiva.<br>
+</div>
+<br>
+
+<hr>
+<h2>Tabella di Riferimento Veloce.</h2>
+<div>
+<table border="1">
+<tr class="thref"><td>Etichetta</td><td>Tipologia</td><td>Utilizzo</td></tr>
+<tr><td class="label">Comment</td><td>Stringa, relativa ad un commento</td><td>Facoltativo, consigliato se c'&egrave; qualcosa di particolare</td></tr>
+<tr><td class="label">Flags</td><td>Flags di DOOR</td><td>Facoltativa</td></tr>
+<tr><td class="label">KeyCode</td><td>Codice Entit&agrave;</td><td>Facoltativa</td></tr>
+<tr><td class="label">PickLockDifficulty</td><td>Numero da 0 a 1000</td><td>Facoltativa</td></tr>
+<tr><td class="label">BashDifficulty</td><td>Numero da 0 a 1000</td><td>Facoltativa</td></tr>
+<tr><td class="label">PassDoorDifficulty</td><td>Numero da 0 a 1000</td><td>Facoltativa</td></tr>
+<tr><td class="label">EntityOpenMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">TargetOpenMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">OthersOpenMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">DestinationOpenMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">EntityCloseMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">TargetCloseMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">OthersCloseMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">DestinationCloseMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">EntityLockMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">TargetLockMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">OthersLockMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">DestinationLockMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">EntityUnlockMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">TargetUnlockMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">OthersUnlockMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">DestinationUnlockMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">ResetOpenMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">ResetCloseMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">EntityEatkeyMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">TargetEatkeyMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">OthersEatkeyMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+</table>
+</div>
+<br>
+
+<hr>
+<h2>Strutture Tipiche con le Etichette di Maggior Utilizzo (per copia e incolla).</h2>
+<div>
+<pre>
+DoorType:
+	Flags: 
+	KeyCode:
+End
+</pre>
+Per definire una porta aperta e null'altro potete benissimo dichiarare la struttura cos&igrave;:
+<pre>
+DoorType:
+	Flags: DOOR.CLOSABLE
+End
+</pre>
+</div>
+<br>
+
+<hr>
+<h2>Spiegazione delle Etichette.</h2>
+<div>
+<a name='Comment'><h3 class='label'>Comment:</h3></a>
+Eventuale commento relativo la porta, per maggior informazioni leggere <a href="comment.htm">questa pagina</a>.<br>
+Non &egrave; obbligatorio, ma &egrave; comunque consigliato utilizzarla se la tipologia di entit&agrave; &egrave; una cosa particolare o bisogna segnarsi qualcosa da ricordare.<br>
+<br>
+
+<a name='Flags'><h3 class='label'>Flags:</h3></a>
+&Egrave; una <a href="flags.htm">Flags</a> che si rif&agrave; alla <a href="elements_list.htm#DOOR">lista delle flag di DOOR</a>.<br>
+L'assenza di qualsiasi flag o l'inserimento della sola flag DOOR.NONE indicher&agrave; che la porta &egrave; aperta ma non richiudibile.<br>
+L'utilizzo di quest'etichetta &egrave; facoltativo, anche se la si utilizza quasi sempre per indicare quando una porta &egrave; chiudibile con la flag DOOR.CLOSABLE; oppure per indicare che &egrave; chiusa con l'aggiunta della flag DOOR.CLOSED.<br>
+<br>
+
+<a name='OpenIcon'><h3 class='label'>OpenIcon:</h3></a>
+Consente di specificare un'icona diversa dal default nel caso la porta si presenti aperta.<br>
+L'icona della porta chiusa va collocata invece nella struttura exit della room.
+<br>
+
+<a name='OpenIconNight'><h3 class='label'>OpenIconNight:</h3></a>
+Consente di specificare un'icona diversa dal'default nel caso la porta si presenti aperta o sia aperta di notte.<br>
+<br>
+
+<a name='KeyCode'><h3 class='label'>KeyCode:</h3></a>
+Codice identificativo dell'entit&agrave; da utilizzare per aprire o chiudere a chiave la porta, solitamente &egrave; un oggetto (ma pu&ograve; essere anche un mob).<br>
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='Bolt'><h3 class='label'>Bolt:</h3></a>
+Codice identificativo dell'entit&agrave; da utilizzare come catenaccio per la porta solitamente un oggetto (ma pu&ograve; essere anche un mob), attraverso i comando bolt e unbolt poi sar&agrave; possibile sprangare o rimuovere il catenaccio.<br>
+Il pi&ugrave; delle volte per fare in modo che solo un lato della porta abbia il catenaccio mentre l'altro no, bisogna inserire un'istanza di porta con il catenaccio nell'uscita da una stanza all'altra, mentre nell'uscita della direzione opposta dovete inserire una porta senza quest'etichetta.<br>
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='PickLockDifficulty'><h3 class='label'>PickLockDifficulty:</h3></a>
+Valore numerico, da 0 a 1000, che verr&agrave; sottratto al lacio di dado per la skill di Pick Lock sul successo o meno dell'apertura della serratura di una porta chiusa.<br>
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='BashDifficulty'><h3 class='label'>BashDifficulty:</h3></a>
+Valore numerico, da 0 a 1000, che verr&agrave; sottratto al lacio di dado per la skill di Bash sul successo o meno dello sfondamento della porta chiusa.<br>
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='PassDoorDifficulty'><h3 class='label'>PassDoorDifficulty:</h3></a>
+Valore numerico, da 0 a 1000, se il personaggio prover&agrave; ad oltrepassare una porta senza avere almeno il valore indicato nell'etichetta di Pass Door allora non potr&agrave; oltrepassare la porta.<br>
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='EntityOpenMessage'><h3 class='label'>EntityOpenMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto dall'entit&agrave; che apre una porta.<br>
+I tag di act utilizzabili, oltre quelli di default, per questo messaggio sono:<br>
+$n = colui che apre la porta.<br>
+$N = la porta aperta.<br>
+%verb = verbo di default nel codice per descrivere l'apertura.<br>
+$a = stanza che si trova nell'altro lato della porta.<br>
+$A = il nome dell'eventuale porta che c'&egrave; dall'altra parte<br>
+%dir = direzione in cui si sta agendo,
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='TargetOpenMessage'><h3 class='label'>TargetOpenMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto dall'entit&agrave; che viene aperta.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityOpenMessage</span>.
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='OthersOpenMessage'><h3 class='label'>OthersOpenMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto da tutti coloro che vedono la porta aprirsi e che si trovano nel luogo della porta e di chi la sta aprendo.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityOpenMessage</span>.
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='DestinationOpenMessage'><h3 class='label'>DestinationOpenMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto da tutti coloro che si trovano dall'altro lato della porta e la vedono aprirsi.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityOpenMessage</span>.
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='EntityCloseMessage'><h3 class='label'>EntityCloseMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto dall'entit&agrave; che chiude una porta.<br>
+I tag di act utilizzabili, oltre quelli di default, per questo messaggio sono:<br>
+$n = colui che apre la porta.<br>
+$N = la porta aperta.<br>
+%verb = verbo di default nel codice per descrivere la chiusura.<br>
+$a = stanza che si trova nell'altro lato della porta.<br>
+$A = il nome dell'eventuale porta che c'&egrave; dall'altra parte<br>
+%dir = direzione in cui si sta agendo,
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='TargetCloseMessage'><h3 class='label'>TargetCloseMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto dall'entit&agrave; che viene chiusa.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityCloseMessage</span>.
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='OthersCloseMessage'><h3 class='label'>OthersCloseMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto da tutti coloro che vedono la porta chiudersi e che si trovano nel luogo della porta e di chi la sta chiudendo.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityCloseMessage</span>.
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='DestinationCloseMessage'><h3 class='label'>DestinationCloseMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto da tutti coloro che si trovano dall'altro lato della porta e la vedono chiudersi.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityCloseMessage</span>.
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='EntityLockMessage'><h3 class='label'>EntityLockMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto dall'entit&agrave; che blocca con chiave una porta.<br>
+I tag di act utilizzabili, oltre quelli di default, per questo messaggio sono:<br>
+$n = colui che blocca la porta.<br>
+$N = la porta aperta.<br>
+%verb = verbo di default nel codice per descrivere l'azione di bloccare la porta.<br>
+$a = stanza che si trova nell'altro lato della porta.<br>
+%dir = direzione in cui si sta agendo,
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='TargetLockMessage'><h3 class='label'>TargetLockMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto dall'entit&agrave; che viene bloccata con chiave.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityLockMessage</span>.
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='OthersLockMessage'><h3 class='label'>OthersLockMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto da tutti coloro che vedono la porta mentre viene bloccata e che si trovano nel luogo della porta e di chi la sta bloccando.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityLockMessage</span>.
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='DestinationLockMessage'><h3 class='label'>DestinationLockMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto da tutti coloro che si trovano dall'altro lato della porta e la vedono bloccarsi con la chiave.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityLockMessage</span>.
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='EntityUnlockMessage'><h3 class='label'>EntityUnlockMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto dall'entit&agrave; che sblocca con chiave una porta.<br>
+I tag di act utilizzabili, oltre quelli di default, per questo messaggio sono:<br>
+$n = colui che sblocca la porta.<br>
+$N = la porta.<br>
+%verb = verbo di default nel codice per descrivere l'azione di sbloccare la porta.<br>
+$a = stanza che si trova nell'altro lato della porta.<br>
+%dir = direzione in cui si sta agendo,
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='TargetUnlockMessage'><h3 class='label'>TargetUnlockMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto dall'entit&agrave; che viene sbloccata con chiave.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityUnlockMessage</span>.
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='OthersUnlockMessage'><h3 class='label'>OthersUnlockMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto da tutti coloro che vedono la porta mentre viene sbloccata e che si trovano nel luogo della porta e di chi la sta sbloccando.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityUnlockMessage</span>.
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='DestinationUnlockMessage'><h3 class='label'>DestinationUnlockMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto da tutti coloro che si trovano dall'altro lato della porta e la vedono sbloccarsi con la chiave.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityUnlockMessage</span>.
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='ResetOpenMessage'><h3 class='label'>ResetOpenMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto da tutti coloro che possono vedere la porta aprirsi da sola se precedentemente era chiusa.<br>
+I tag di act utilizzabili, oltre quelli di default, per questo messaggio sono:<br>
+$n = La porta.<br>
+$N = La porta.<br>
+%verb = Verbo di default per l'apertura.<br>
+$a = Direzione a cui punta la porta.<br>
+$A = il nome dell'eventuale porta che c'&egrave; dall'altra parte<br>
+%dir = direzione in cui si sta agendo,
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='ResetCloseMessage'><h3 class='label'>ResetCloseMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto da tutti coloro che possono vedere la porta chiudersi da sola se precedentemente era aperta.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>ResetCloseMessage</span>.
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='EntityEatkeyMessage'><h3 class='label'>EntityEatkeyMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto dall'entit&agrave; che, usata la chiave gli si sbriciola in mano.<br>
+I tag di act utilizzabili, oltre quelli di default, per questo messaggio sono:<br>
+$n = colui che sblocca il contenitore.<br>
+$N = il contenitore.<br>
+$a = room di destinazione.<br>
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='TargetEatkeyMessage'><h3 class='label'>TargetEatkeyMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto dall'entit&agrave; che viene sbloccata quando vede sbriciolarsi la chiave.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityEatkeyMessage</span>.
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='OthersEatkeyMessage'><h3 class='label'>OthersEatkeyMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto da tutti coloro che vedono sbriciolarsi la chiave allo sbloccare della porta e che si trovano nel luogo del contenitore e di chi lo sta sbloccando.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityEatkeyMessage</span>.
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+</div>
+<hr>
+</body>
+</html>

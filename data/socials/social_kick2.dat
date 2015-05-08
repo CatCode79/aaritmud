@@ -1,0 +1,28 @@
+FunName:    social_kick2
+Intention:  INTENTION.AGGRESSIVE
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Dai una pedata alla prima cosa che ti capita dinnanzi senza troppa convinzione.
+  OthersNoArg: $n senza molta convinzione sferra una pedata alla prima cosa che incontra.
+  EntityFound: Dai un calcio nel sedere a $N!
+  OthersFound: $n dà un calcio nel sedere a $N!
+  TargetFound: $n ti dà un calcio nel sedere!
+  EntityAuto:  Sgambetti per darti una pedata nel sedere da sol$o senza aiuto altrui.
+  OthersAuto:  $n sgambetta per darsi una pedata nel sedere da sol$o...
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Sferri una gamba in avanti con fare minaccioso.
+  OthersNoArg: $n cerca di portare avanti una gamba senza ruotare rocambolescamente.
+  EntityFound: Dai un colpo di piede stizzito a $N.
+  OthersFound: $n tenta d'arrampicare su $N impuntando un piede $N.
+  TargetFound: $n tenta di portarti veloce un piede alla natica, forse per scavalcarti?
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Grattandoti un'orecchia ti sferri una pedata alla nuca! OUCH!
+  OthersNoArg: $n si sferra una pedata alla nuca mentre si gratta le orecchie.
+  EntityFound: A quattro zampe ti giri di scatto per dare una pedata in pancia a $N.
+  OthersFound: $n in un gesto felino si volta di spalle chinandosi e sferra una pedata in pancia a $N .
+  TargetFound: $n in un gesto felino ti volta le spalle, si china e ti sferra una pedata in pancia! OUCH!
+End

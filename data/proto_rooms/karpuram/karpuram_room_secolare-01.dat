@@ -1,0 +1,52 @@
+Code: karpuram_room_secolare-01
+Sector: SECTOR.PLAIN
+Name: Intorno all'Albero
+Short: costeggiando l'albero
+
+Descr:
+Passando sotto alla grande radice ti stai muovendo verso est e ti ritrovi a
+costeggiare il grande tronco di questo stupendo albero. Un sottile sentiero 
+formato da tanti piccoli sassolini bianchi, affiora leggermente da un soffice
+manto erboso che si estende per circa tre metri attorno alla base dell'albero.
+Percorrendo il sentiero la tua attenzione è rapita da una miriade di minuti
+insetti e animaletti che convivono all'interno del grande albero e che sono
+sempre in movimento alla ricerca di cibo, operosi e affaccendati non si 
+accorgono della tua presenza. Proseguendo verso sud intravedi una scala di
+puro legno, mentre tornando sui tuoi passi noti la grande radice formare un
+arco naturale.
+
+DescrNight:
+Passando sotto alla grande radice ti stai muovendo verso est e ti ritrovi a
+costeggiare il grande tronco di questo stupendo albero. Un sottile sentiero 
+formato da tanti piccoli sassolini bianchi, affiora leggermente da un soffice
+manto erboso che si estende per circa tre metri attorno alla base dell'albero.
+Percorrendo il sentiero la tua attenzione è rapita da diverse fiaccole di legno
+posizionate in modo alternato sul sentiero, che ti consentono di proseguire
+abilmente verso sud. Ti fanno compagnia diversi gruppi d'insetti sempre in 
+movimento alla ricerca di cibo, operosi e affaccendati che non si accorgono 
+della tua presenza. Proseguendo intravedi una scala di puro legno, mentre 
+tornando sui tuoi passi noti la grande radice formare un arco naturale.
+
+DescrTouch:
+Ti viene quasi naturale toccare la spessa corteccia che riveste l'antico albero
+che stai osservando mentre ti trovi a percorrere il sentiero, da questo 
+percepisci subito un forte calore scaldare le tue $hands e una sensazione di
+quiete pervaderti.
+
+DescrSmell:
+Il profumo intenso dell'erba presente in terra raggiunge subito le tue narici,
+ad esso si sommano gli aromi naturali di fiori e foglie e della corteccia
+dell'albero attorno al quale stai camminando.
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Ai piedi di una scala di legno
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Nei pressi di un albero secolare
+End

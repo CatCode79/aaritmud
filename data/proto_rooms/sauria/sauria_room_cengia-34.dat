@@ -1,0 +1,39 @@
+Comment: 85 0 5
+Code: sauria_room_cengia-34
+Sector: SECTOR.ROCKY
+Name: Una Cengia
+Short: una cengia
+
+Descr:
+La veduta suggestiva che si gode da qui, dipinge di una nuova connotazione l'area.
+Collocata entro un grandiosa cornice di monti, si vede tutta la foresta con una nota più brulla.
+Guardando giù Verso nordest, ove la visuale non è così nitida, non si vede a malapena una brulla distesa.
+La suggestione e la sua magia s'affievoliscono attorno ai resti di ossa e brandelli di carne che ingombrano la cengia.
+DescrNight:
+La veduta suggestiva che si godrebbe da qui, è vanificata dall'ora tarda.
+In compenso qualcos'altro di suggestivo richiama la tua attenzione: resti di ossa e brandelli di carne che ingombrano la cengia.
+
+DescrTouch: 
+La cengia prosegue trasversalmente lungo la parete garantendoti un dignitoso passaggio in luogo di una rovinosa caduta. Attenzione a non inciampare nelle carcasse o negli scheletri che addobbano la via.
+DescrSmell: 
+Folate da ovest indicano che è stato sparso del sangue recentemente.
+DescrSixth:
+Il vento porta con sé odore di sangue fresco ma anche rappreso.
+DescrHearing:
+Il vento mugghia da ovest accarezzando come una lama la roccia dove cammini, a tratti pare che tu non gli vada a genio tanto da volerti strappare dall'appoggio per portarti altrove. Un altrove troppo in basso.
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21833
+  Descr:	Una cengia
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 -1 21835
+  Descr:	Una cengia
+  Direction:	DIR.WEST
+End

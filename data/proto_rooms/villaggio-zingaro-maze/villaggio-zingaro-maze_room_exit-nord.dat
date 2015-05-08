@@ -1,0 +1,28 @@
+Code: villaggio-zingaro-maze_room_exit-nord
+Sector: SECTOR.UNDERGROUND
+Flags:	ROOM.INSIDE
+Name: Negli Anfratti
+Short: negli anfratti
+
+Descr:
+Il sentiero è irregolare sia per altezza che per larghezza tanto che talvolta hai bisogno di piegarti o metterti di lato per poter passare. Non ne vedi la fine ma confidi che sia proprio dietro l'angolo.
+DescrTouch: 
+Avanzi a tastoni appoggiandoti alla roccia irregolare.
+DescrHearing:
+Hai l'impressione di cogliere lo scorrere di un corso d'acqua.
+DescrSixth:
+Non sai dove ti stai dirigendo ma speri che qui da qualche parte vi sia un'uscita.
+
+Width:	10m
+Depth:	2m
+Height: 2m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Addentrandoti sempre più nelle viscere della terra
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Negli anfratti
+  Destination:	8 -4 -3 villaggio-zingaro
+End

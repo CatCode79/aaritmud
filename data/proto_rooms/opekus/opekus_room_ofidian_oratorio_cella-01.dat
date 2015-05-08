@@ -1,0 +1,25 @@
+Code:	opekus_room_ofidian_oratorio_cella-01
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Una Cella
+Short:	una cella
+
+Descr:
+Una povera celletta scavata nella roccia con l'unico intento di non farla sembrare una caverna sicché la forma è stata squadrata il più possibile.
+#opekus_item_asse-giaciglio#Ai lati sono collocate diverse assi sospese a mo di giaciglio#Ai lati sono visibili i segni di qualcosa che era piantato a diverse altezze#.
+
+DescrTouch:
+Una povera cella di forma rettangolare; nelle due pareti laterali #opekus_item_asse-giaciglio#sono collocate diverse assi sospese a mo di giaciglio#tocchi gli spuntoni di qualcosa che era collocato a diverse altezze ma che ora non c'è più#.
+
+DescrSixth:
+Una cella monastica del tipo più morigerato e povero.
+#opekus_item_asse-giaciglio#Ti sorge il dubbio che nei vari giacigli vi possa essere qualche indizio##.
+
+Width:	3m
+Depth:	5m
+Height: 3m
+
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	Il corridoio
+End

@@ -1,0 +1,32 @@
+Code: opekus_room_ofidian_common_08
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Il Protiro 
+Short: l'accesso al tempio
+
+Descr:
+	Sei sotto ad un portico in pietra che sormonta due colonne e che sull'altro lato
+	poggia alla facciata del tempio. Le due colonne poggiano ciascuna su una statua
+	raffigurante un rettile dalle fauci spalancate.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: L'ingresso
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Verso la gradinata
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Un piccolo stanzino
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Un piccolo stanzino
+End
+

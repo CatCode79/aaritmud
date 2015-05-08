@@ -1,0 +1,26 @@
+FunName:    social_gulp
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Deglutisci lentamente..
+  OthersNoArg: $n deglutisce lentamente..
+  EntityFound: Deglutisci lentamente guardando fisso $N.
+  OthersFound: $n deglutisce lentamente guardando fisso $N.
+  TargetFound: $n deglutisce lentamente guardandomi fisso
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Deglutisci ferinamente.
+  OthersNoArg: $n deglutisce il suo boccone.
+  EntityFound: Deglutisci mentre guardo $N.
+  OthersFound: $n deglutisce il suo boccone mentre guarda $N.
+  TargetFound: $n ti guarda e deglutisce senza tanti complimenti.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Deglutisci ferinamente.
+  OthersNoArg: $n deglutisce il suo boccone.
+  EntityFound: Deglutisci mentre guardo $N.
+  OthersFound: $n deglutisce il suo boccone mentre guarda $N.
+  TargetFound: $n ti guarda e deglutisce senza tanti complimenti.
+End

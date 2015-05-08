@@ -1,0 +1,36 @@
+Code: torreelementi_room_torre_1
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Base della Torre
+Short: un salone amplissimo
+Descr:
+Qui sei al chiuso, anche piovesse non ti puoi bagnare. Sei dentro la torre davanti
+all'uscita. Due scale di pietra si avvolgono a spirale a ridosso delle pareti partendo
+l'una a destra e l'altra a sinistra dell'ingresso. Il parapetto è sormontato da una
+striscia di muschio morbido. La zona è sì ampia che dal centro riesci ad avere una
+visione d'insieme mozzafiato dell'altezza della torre.
+
+
+Extras:
+  Keywords: muschio
+  DescrTouch: Morbido al tocco
+  Descr: Ogni tanto qualche pianta d'ortica.
+End
+
+Width:	7m
+Depth:	7m
+Height: 5m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: L'uscita
+End
+Exits:
+  Direction: DIR.UP
+  Descr: Il piano superiore
+End
+Exits:
+  Direction: DIR.DOWN
+  Descr: Un declivio
+End
+

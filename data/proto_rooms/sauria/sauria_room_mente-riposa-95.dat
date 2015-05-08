@@ -1,0 +1,41 @@
+Comment: 0 8|8388608 0
+Code: sauria_room_mente-riposa-95
+Sector: SECTOR.UNDERGROUND
+Flags:	ROOM.INSIDE
+Name: La Mente Riposa
+Short: la mente riposa
+
+Descr:
+Arrivi in un corridoio dalle pareti nere lucide, così come soffitto e pavimento. Ogni dieci passi circa, noti sopra di te delle luci rosse intermittenti. 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 0 21896
+  Descr:	L'area di passaggio
+  Direction:	DIR.EAST
+End
+Exits:
+  Comment:	0 0 21891
+  Descr:	Sprazzi di memoria
+  Direction:	DIR.WEST
+End
+Extras:
+  Comment:	EXTRA_COMMENT
+  Keywords:	luci luce rossa rosse
+  Descr: 
+	Ci sono delle minuscole targhette accanto ad ogni luce. Riportano strani simboli a cui non sai riconoscere un significato.
+End

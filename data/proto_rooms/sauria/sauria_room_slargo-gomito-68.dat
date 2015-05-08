@@ -1,0 +1,41 @@
+Comment: 85 1|8 0
+Code: sauria_room_slargo-gomito-68
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: Uno Slargo A Gomito
+Short: uno slargo a gomito
+
+Descr:
+Il tunnel qui si allarga ad incontrare questo slargo. Nell'angolo nord-ovest ci sono pezzi di legno bruciacchiati e cenere. Sparsi un po' ovunque cocci di rozzo vasellame. Diversi segni sulle pareti suggeriscono ci sia stato qualche evento violento di recente. 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21869
+  Descr:	Il covo
+  Direction:	DIR.SOUTH
+End
+Exits:
+  Comment:	0 -1 21867
+  Descr:	Angusto passaggio
+  Direction:	DIR.WEST
+End
+Extras:
+  Comment:	EXTRA_COMMENT
+  Keywords:	segni
+  Descr: 
+	Alcuni segni sulla parete sembran sangue rappreso e secco.
+End

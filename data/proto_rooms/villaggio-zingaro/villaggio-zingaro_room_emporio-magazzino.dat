@@ -1,0 +1,34 @@
+Code: villaggio-zingaro_room_emporio-magazzino
+Sector: SECTOR.SHOP
+Flags:	ROOM.INSIDE 
+Name: Il Magazzino dell'Emporio
+Short: il magazzino
+
+Descr:
+Un angusto stanzino quadrangolare con le pareti e il pavimento in conci di calcare bianco; non vi sono finestre ne fonti di luce che permettano di vedere con precisione l'interno della stanza. Sul pavimento scorgi una grossa [saddlebrown]macchia scura[close] mentre dal soffitto, attraversato da travi di legno,#villaggio-zingaro_item_fili-01# pendono [darkkhaki]oggetti[close] che non riesci a distinguere.# pendono dei fili ai quali non molto tempo fa era attaccato qualcosa.#
+DescrSmell: 
+Un lieve effluvio di muffa e marcio.
+DescrSixth:
+Questo dev'essere il luogo dove si ammassano cianfrusaglie invendute e le scorte di alcuni prodotti.
+DescrTouch: 
+Appoggi una $hand al muro che si insozza di ragnatele. 
+DescrHearing:
+Senti gocciolare di quando in quando.
+
+Extras: 
+	Keywords: macchia 
+	Descr: 
+	Una grossa macchia scura ricopre quasi per intero il pavimento.
+	DescrTouch: 
+	La tocchi con la punta delle dita e ti appare bagnata e vagamente appiccicosa.
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.WEST
+	Descr: L'emporio
+	Door:	villaggio-zingaro_item_door-porta-emporio-magazzino
+End

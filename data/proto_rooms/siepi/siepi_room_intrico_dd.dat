@@ -1,0 +1,47 @@
+Code: siepi_room_intrico_dd
+Sector: SECTOR.WOOD
+Name: Dentro la Quercia
+Short: Dentro al tronco
+Descr:
+Le pressoche infinite gibbosità dell'interno del tronco ti consentono di percorrere
+comodamente il cammino verticale che unisce le profondità del terreno alla cima dell'albero. 
+
+DescrSmell:
+Odore di terra umida e secca ed un che di animale...
+
+DescrHearing:
+Il tronco ovatta il suono del vento e delle fronde
+
+Extras:
+  Keywords: tronco 
+  Descr: 
+	Non si tratta di un guscio vuoto, questo albero è ancor in vita nonostante
+	il buco che lo attraversa.
+End
+Extras:
+  Flags: EXTRA.DAY_ONLY
+  Keywords: luce 
+  Descr: La luce del giorno filtra illuminando una cavità
+End
+Extras:
+  Keywords: cavità
+  Descr: C'è una cavità laterale piena di fogliame
+End
+Extras:
+  Keywords: fogliame
+  Descr: Foglie e ghiande, forse la tana di qualche piccolo animale
+End
+
+Width:	7m
+Depth:	7m
+Height: 15m
+
+Exits:
+  Direction: DIR.UP
+  Descr: L'esterno
+  Destination: 0 0 1 siepi
+End
+Exits:
+  Direction: DIR.DOWN
+  Descr: In fondo al camino
+End

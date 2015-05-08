@@ -1,0 +1,24 @@
+Code: serpidi_room_8642_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: I campi coltivati 
+Short: I campi coltivati 
+Descr: 
+Qui crescono alberi da frutta di tantissime varietà, molte delle quali sono simili a quelle che tu conosci, mentre altre ti sono del tutto estranee. Gli alberi sono piccoli e carichi di frutti. Noti che non ci sono insetti. Alcuni frutti già maturi sono caduti a terra, dove non cresce erbaccia. Anche in questo caso ci sono dei canali per convogliare l'acqua alle piante. C'è una colonna con una sfera luminosissima in cima. 
+Exits:
+	Direction: DIR.NORTH
+	Destination: 2 0 0 serpidi
+End
+Exits:
+	Direction: DIR.EAST
+	Destination: 3 -1 0 serpidi
+End
+Exits:
+	Direction: DIR.WEST
+	Destination: 1 -1 0 serpidi
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

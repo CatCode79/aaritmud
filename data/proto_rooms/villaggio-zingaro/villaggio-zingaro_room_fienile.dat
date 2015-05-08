@@ -1,0 +1,25 @@
+Code: villaggio-zingaro_room_fienile
+Sector: SECTOR.ROAD
+Name: Il Fienile
+Short: il fienile
+
+Descr:
+Un basso soppalco ricavato sotto il tetto spiovente è adibito a fienile. Lo spazio è quasi completamente occupato da un enorme cumulo di [khaki]paglia[close].
+DescrSmell: 
+Le tue narici vengono stuzzicate da microscopiche pagliuzze che permeano l'ambiente.
+DescrHearing:
+Ti sembra di avvertire un fruscio, come se qualcosa stesse sgusciando tra la paglia..forse qualche topino.
+DescrTouch:
+Sbadatamente rischi di sbattere la testa sulle travi del tetto.
+DescrSixth:
+Intuisci che questo potrebbe essere un ottimo riparo per qualche fredda notte invernale: l'ambiente riscaldato dagli animali, un morbido materasso..
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.DOWN
+	Descr: Al pian terreno
+End

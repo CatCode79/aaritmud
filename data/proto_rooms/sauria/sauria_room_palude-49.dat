@@ -1,0 +1,34 @@
+Comment: 85 2|8 0
+Code: sauria_room_palude-49
+Sector: SECTOR.SWAMP
+Flags:	ROOM.DEATH_TRAP
+Name: Palude
+Short: palude
+
+Descr:
+Hai cercato di oltrepassare un'ampia pozza di sabbie mobili; pessima idea, è più larga di quanto non sembrasse a prima vista.
+Cominci a sprofondare e invocare disperatamante aiuto mentre procedi verso il basso con disperata monotonia.
+Sei prossimo alla fine, ma la sofferenza non si protrae poi così lungamente; il panico infatti aumenta grandemente la frequenza respiratoria; cio' ti permette in pochissimo di ingollare viscide lingue di sabbia fino a riempir quasi i polmoni.
+La morte certo non è proprio rapidissima e neppure indolore, ma poteva andare peggio... 
+
+DescrTouch: 
+Hai cercato di oltrepassare un'ampia pozza di sabbie mobili; pessima idea, è più larga di quanto non sembrasse a prima vista.
+Cominci a sprofondare e invocare disperatamante aiuto mentre procedi verso il basso con disperata monotonia.
+Sei prossimo alla fine, ma la sofferenza non si protrae poi così lungamente; il panico infatti aumenta grandemente la frequenza respiratoria; cio' ti permette in pochissimo di ingollare viscide lingue di sabbia fino a riempir quasi i polmoni.
+La morte certo non è proprio rapidissima e neppure indolore, ma poteva andare peggio... 
+DescrSixth:
+Hai cercato di oltrepassare un'ampia pozza di sabbie mobili; pessima idea, è più larga di quanto non sembrasse a prima vista.
+Cominci a sprofondare e invocare disperatamante aiuto mentre procedi verso il basso con disperata monotonia.
+Sei prossimo alla fine, ma la sofferenza non si protrae poi così lungamente; il panico infatti aumenta grandemente la frequenza respiratoria; cio' ti permette in pochissimo di ingollare viscide lingue di sabbia fino a riempir quasi i polmoni.
+La morte certo non è proprio rapidissima e neppure indolore, ma poteva andare peggio... 
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21822
+  Descr:	Palude
+  Direction:	DIR.SOUTH
+End

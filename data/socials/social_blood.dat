@@ -1,0 +1,34 @@
+FunName:    social_blood
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Cerchi un sostegno.. Stai sanguinando davvero troppo.
+  OthersNoArg: $n sanguina copiosamente.. Sarà il caso di aiutarl$o..
+  EntityFound: Sanguini addosso a $N sporcandol$o del tuo sangue.
+  OthersFound: $n sta sporcando $N con il proprio sangue..
+  TargetFound: $n ti sta sporcando con litrate del suo sangue!
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Stai perdendo troppo sangue!
+  OthersNoArg: $n sta perdendo molto sangue.
+  EntityFound: Allunghi la $hand zuppa di sangue verso $N.
+  OthersFound: $n allunga la $hand zuppa di sangue verso $N.
+  TargetFound: $n tende la $hand zuppa di sangue verso di te.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: ti lecchi le ferite che sanguinano copiosamente.
+  OthersNoArg: $n si lecca le ferite che sanguinano copiose.
+  EntityFound: ti lecchi le ferite sanguinanti, lanciando qualche fugace occhiata a $N.
+  OthersFound: $n si lecca le ferite sanguinanti, lanciando qualche fugace occhiata a $N.
+  TargetFound: $n si lecca le ferite sanguinanti, lanciandomi qualche fugace occhiata.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: ti lecchi le ferite che sanguinano copiosamente.
+  OthersNoArg: $n si lecca le ferite che sanguinano copiose.
+  EntityFound: ti lecchi le ferite sanguinanti, lanciando qualche fugace occhiata a $N.
+  OthersFound: $n si lecca le ferite sanguinanti, lanciando qualche fugace occhiata a $N.
+  TargetFound: $n si lecca le ferite sanguinanti, lanciandomi qualche fugace occhiata.
+End

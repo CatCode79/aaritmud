@@ -1,0 +1,26 @@
+Code: novizi2_room_piazzale
+Sector: SECTOR.PLAIN
+Name: Il piazzale
+Short: il piazzale
+
+Descr:
+L'ampio spazio prospicente la casa è stato calpestato così tanto da compattare il terreno privandolo della possibilità d'un po' di verde.
+DescrSmell: 
+Niente altro che la polvere s'insinua nelle narici nel vacuo gusto d'arrecar noia.
+DescrSixth:
+Là oltre quella porta ha avuto inizio il tuo viaggio in queste lande ma non sarà oltre quella soglia che avrà termine.
+
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.EAST
+	Descr:	Un sentiero
+	Destination:    -2 4 -3 torreelementi
+End
+Exits:
+	Direction:	DIR.SOUTHWEST
+	Descr:	L'ingresso
+End

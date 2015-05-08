@@ -1,0 +1,44 @@
+Comment: 85 0 2
+Code: sauria_room_immensa-prateria-53
+Sector: SECTOR.SAVANNA
+Name: Un'Immensa Prateria
+Short: un'immensa prateria
+
+Descr:
+Il tuo sguardo si perde nella contemplazione di questa prateria senza confini e senza mai fine. Il tuo passo procede spedito e senza fatica nella monotonia del paesaggio. 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21857
+  Descr:	Un'immensa prateria
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 -1 21852
+  Descr:	Un'immensa prateria
+  Direction:	DIR.EAST
+End
+Exits:
+  Comment:	0 -1 21848
+  Descr:	Un'amena foresta
+  Direction:	DIR.SOUTH
+End
+Exits:
+  Comment:	0 -1 21859
+  Descr:	Un'immensa prateria
+  Direction:	DIR.WEST
+End

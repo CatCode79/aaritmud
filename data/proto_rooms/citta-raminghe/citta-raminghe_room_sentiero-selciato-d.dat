@@ -1,0 +1,34 @@
+Code: citta-raminghe_room_sentiero-selciato-d
+Sector: SECTOR.CITY
+Name: Un sentiero selciato
+Short: [turquoise]Un sentiero selciato[close] 
+
+Descr:
+Una via abbastanza stretta pavimentata con [silver]pietre grigie[close] di forma irregolare
+DescrHearing:
+Ascolti in lontananza i rumori della città.
+DescrHearingNight:
+Percepisci il silenzio della notte.
+DescrSmell:
+Avverti il profumo delle piante che crescono spontanee a poca distanza.
+
+DescrTouch:
+Pietre abbastanza ruvide al tatto
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.NORTH
+	Descr: Una strada
+End
+Exits:
+	Direction: DIR.SOUTH
+	Descr: Una valle verdeggiante
+End
+Exits:
+	Direction: DIR.NORTHWEST
+	Descr: Un piazzale fuori le mura
+End

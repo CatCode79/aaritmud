@@ -1,0 +1,37 @@
+Code: torreelementi_room_fungheria_06
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Zona di Raccolta
+Short: uno slargo libero
+Descr:
+Varcata la soglia che separa dal resto della fungheria, ti trovi in una celletta
+separata da tutto il resto da un'inferriata a maglie molto larghe. All'interno sono
+disposte lungo le pareti delle assi ancorate a catene. Sembra una cella carceraria
+convertita alla meglio in magazzino tanto che ogni asse, invece di sostenere un
+carcerato, è invasa da cassette e cassettine ove funghi di tipologie diverse sono
+disposti in modo ordinato.
+Sul fondo della cella vi è una porta.
+DescrSmell:
+Come in tutta la zona qui l'odore è irrimediabilmente di funghi, funghi e ancora funghi...
+Ok, c'è anche dell'altro, forse qualche sostanza aromatica... ma dire di più è difficile
+
+Extras:
+  Keywords: funghi fungo
+  DescrTouch: Raccolti di fresco e pronti per... per... beh... boh!
+  DescrSmell: Come in tutta la zona qui l'odore è irrimediabilmente di funghi, funghi e ancora funghi...
+  Descr: Chi ha disposto i vari funghetti nelle cassette lo ha fatto con certosina perizia e pazienza
+         ammirevole; tutti intatti perfetti e puliti.
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: Il corridoio
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: L'accesso
+End

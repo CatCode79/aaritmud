@@ -1,0 +1,24 @@
+Code:	elementi_room_torre-accesso-area-west 
+Sector: SECTOR.VOID
+Flags:	ROOM.INSIDE
+Name:	I Flutti d'[gold]Ambra[close]
+Short:	i flutti [gold]dorati[close]
+Descr:
+Ti muovi a stento in un non-luogo ovattato di [gold]nebbia dorata[close] che congiunge in modo temporaneo i due accessi che vedi l'uno opposto all'altro.
+A tratti i due accessi sembrano affievolire e sparire per sempre ma poi ricompaiono di nuovo.
+DescrTouch:
+Il nulla qui impera e ti impedisce di toccare qualunque cosa. Anche la [gold]nebbia[close] pare attraversarti senza attrito.
+DescrHearing:
+Le orecchie risuonano a vuoto e senti pulsare il tuo sangue nelle vene.
+DescrSixth:
+Qualcuno o qualcosa ha condotto qui esperimenti connettendo realtà diverse dell'universo in un risultato che non si può dire che sia stabila e si spera non sia pericolos da provare. 
+
+Width:	7 m
+Depth:	7 m
+Height: 5 m
+
+Exits:
+	Direction: DIR.EAST
+	Descr: Una luce che filtra a sprazzi
+	Destination:	1 4 -1 torreelementi
+End

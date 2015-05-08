@@ -1,0 +1,20 @@
+Code: opekus_room_ofidian_armeria-01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: L'Armeria delle Guardie
+Short: un armeria
+
+Descr:
+Una piccola stanza con il soffitto a volta e le pareti basse. Lungo il perimetro
+della stanza sono accumulati qua e là una miriade di oggetti che un tempo dovevano
+essere armi e armature; ora sono solo ruggine polvere e ciarpame.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: L'uscita
+  Door:	opekus_item_porta-sala-armi
+End

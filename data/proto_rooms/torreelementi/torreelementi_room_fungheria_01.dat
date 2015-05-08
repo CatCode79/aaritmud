@@ -1,0 +1,77 @@
+Comment: il fungo descritto sommariamente è un pleurotus ostreatus. Tenerne conto all'atto dello sviluppo degli oggetti.
+ Info reperite su wikipedia
+
+Code: torreelementi_room_fungheria_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Il Centro della Fungheria
+Short: la zona centrale
+Descr:
+Qualcuno molto tempo fa deve aver scavato nella roccia e nella terra un nugolo di
+gallerie che si congiungono tutte qui. Difatti ora vi è solo l'imbarazzo della scelta
+riguardo alla strada da seguire; persino in terra pare che la terra sia stata smossa
+recentemente.
+In ogni direzione ove guardi si apre un ampio cunicolo che vede ammonticchiati ai lati
+due o tre fagottoni biancastri costellati di funghi.
+DescrSmell:
+Qui l'unica cosa certa è che ci devono essere funghi ovunque ed in qualunque direzione
+e probabilmente ve ne sono anche di generi differenti.
+
+Extras:
+  Keywords: fagottone fagotti 
+  DescrTouch: Non hai la delicatezza propria di un raccoglitore di funghi,
+             il prossimo conviene raccoglierlo con maggiore grazia
+  DescrSmell: Tutte le fragranze qui son così intense ed equipresenti che l'unica cosa da dire è [red]fungo[close]
+  Descr: Per quanto hai modo di osservare qui c'è solo questa [antiquewhite]tipologia[close] di fungo.
+End
+Extras:
+  Keywords: tipologia fungo funghi
+  Descr: Gambo eccentrico cilindrico [darkolivegreen]bruno grigiastro[close],
+        lamelle fitte mediamente larghe e ramificate.
+        Cappello da bruno-rossiccio a bruno-violaceo
+  DescrTaste: Dolciastro e piuttosto gradevole ma poco aromatico, a questo punto la speranza è
+             che sia commestibile
+End  
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: L'ala est
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: L'ala sud
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Il corridoio
+  Destination: 2 5 -4 torreelementi
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: L'ala nord
+End
+Exits:
+  Direction: DIR.NORTHEAST
+  Descr: L'ala nordest
+End
+Exits:
+  Direction: DIR.NORTHWEST
+  Descr: L'ala nordest
+End
+Exits:
+  Direction: DIR.SOUTHEAST
+  Descr: L'ala nordest
+End
+Exits:
+  Direction: DIR.SOUTHWEST
+  Descr: L'ala nordest
+End
+Exits:
+  Direction: DIR.DOWN
+  Descr: Una fossa buia
+  Flags: EXIT.DIGGABLE
+End

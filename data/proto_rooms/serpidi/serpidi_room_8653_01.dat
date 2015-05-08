@@ -1,0 +1,28 @@
+Code: serpidi_room_8653_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: In un incrocio di gallerie 
+Short: In un incrocio di gallerie 
+Descr: 
+Qui si incrociano quattro gallerie, l'ambiente è illuminato debolmente e puoi notare che il pavimento è ben lastricato e le pareti delle gallerie sono decorate con pitture murali. Sulla parete sud c'è una porta di metallo. 
+Exits:
+	Direction: DIR.NORTH
+	Destination: 2 8 -2 serpidi
+End
+Exits:
+	Direction: DIR.EAST
+	Destination: 3 7 -2 serpidi
+End
+Exits:
+	Direction: DIR.SOUTH
+	Destination: 2 6 -2 serpidi
+End
+Exits:
+	Direction: DIR.WEST
+	Destination: 1 7 -2 serpidi
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

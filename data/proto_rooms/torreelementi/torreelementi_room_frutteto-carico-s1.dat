@@ -1,0 +1,18 @@
+Code: torreelementi_room_frutteto-carico-s1
+Sector: SECTOR.FARMLAND
+Name: Il Frutteto sotto la Torre
+Short: un frutteto
+
+Descr:
+Una discreto numero di file d'alberi disposte ordinatamente si estendono a ricoprire
+questo vasto spazio, dalla torre che si vede ad ovest e per altrettanto spazio ad est.
+#torreelementi_item_frutteto-albicocca#Albicocche mature sugli alberi ed appena cadute in terra rendono il posto molto invitante.#Anche sa la stagione è quella giusta pare che sian già passati a fare incetta di frutta.#
+
+Width:	50m
+Depth:	50m
+Height: 200m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Verso alberi un po' diversi 
+End

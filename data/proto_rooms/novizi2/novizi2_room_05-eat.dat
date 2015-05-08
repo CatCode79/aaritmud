@@ -1,0 +1,43 @@
+Code: novizi2_room_05-eat
+Icon: icons/room/triskele-yellow.png
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Sala da Pranzo
+Short: la sala da pranzo
+
+Descr:
+Un ampio ambiente oblungo con un lungo [blue]tavolo[close] al centro della sala. Nessuna sedia e nessuna posata.
+Pare una stanza adibita a buffet anche se all'attuale pare che di pronto ci sia solo quello [blue]spezzatino[close] che vedi.
+<br>
+Sentiti liber$o di sguinzagliare i tuoi sensi come hai fatto nelle stanze precedenti ma stavolta sugli oggetti:<br>
+<br>
+- $tLOOK spezzatino<br>
+- $tSMELL spezzatino<br>
+- $tLISTEN spezzatino<br>
+- $tTOUCH spezzatino<br>
+- $tTASTE spezzatino<br>
+- $tINTUITION spezzatino<br>
+<br>
+Le norme igieniche sono scrupolosamente rispettate.
+
+DescrSmell: 
+L'odore che pervade la stanza è un misto di spezzatino caldo e patate arrosto.
+DescrSixth:
+Lo spezzatino sempre sia stato preparato di recente.
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.NORTH
+	Descr: [lemonchiffon]Il salotto[close]
+End
+Exits:
+	Direction:	DIR.SOUTHEAST
+	Descr: [lemonchiffon]Un corridoio[close]
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	La mangeria
+End

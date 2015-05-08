@@ -1,0 +1,35 @@
+Code: elizor_room_chiesetta-01
+Sector: SECTOR.HOUSE
+Flags: ROOM.INSIDE
+Name: chiesetta-01
+Short: chiesetta-01
+
+Descr:
+Sei in una chiesetta con un mosaico.
+DescrTouch: 
+Tocchi con mano ruderi e spazi di mosaico.
+DescrSixth:
+Comprendi al volo che c'è un mosaico da sistemare.
+
+Extras:
+	Keywords:	mosaico
+	Descr:
+	Un gran bel mosaico, peccato manchino i tasselli
+End
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.EAST
+	Descr:	All'altare
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	L'uscita
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	Il sagrato
+End

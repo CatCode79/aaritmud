@@ -1,0 +1,60 @@
+Code:	quest-accademia_room_003_arco-fluttuante
+Sector:	SECTOR.BRIDGE
+Name:	L'Arco Fluttuante
+Short:	l'arco fluttuante
+Descr:
+	Sei nella parte di ponte più vicina alla torre che ai camminamenti, 
+	volgendo lo sguardo a nord ora puoi distinguere chiaramente l'arena
+	dei cavalieri e la strada rialzata che la collega all'accademia. La 
+	tua attenzione è però catturata da ciò che ti si para davanti qui, 
+	a pochi metri dal tuo naso, una circonferenza di pietra del diametro 
+	di una decina di metri che come un enorme anello troppo largo fluttua 
+	intorno al ponte. Si tratta del famoso arco fluttuante, vero e proprio 
+	portale di accesso alla torre, i libri di storia narrano di come nei 
+	milleni molti uomini abbiano tentato di oltrepassarlo fallendo 
+	miseramente.
+DescrHearing:
+	Il fischio del vento tormenta ti tormenta le orecchie senza sosta.
+
+Width:	5m
+Depth:	3m
+Height:	111m
+
+
+Exits:
+	Direction: DIR.EAST
+	Descr:	Oltre l'arco fluttuante vedi a poche devine di metri il portone di ingresso alla torre dei draghi
+End
+
+
+Exits:
+	Direction: DIR.WEST
+	Descr: Verso ovest il ponte è spazzato dal vento e si dirige all'accademia
+End
+
+
+Extras:
+	Keywords: Arco 
+	Descr:
+		Una cosa impressionante, un anello di pietra dal diametro di dieci metri,
+		tutto il bordo, spesso circa un metro è ricoperto di rune. Nessuna forza 
+		visibile sembra sostenere questa struttura evitando che collassi su ponte 
+		eppure è qui, davanti ai tuoi occhi.
+
+	DescrSmell:
+		Forse non è il caso sporgersi per annusarlo....
+	DescrHearing:
+		Silenzio.... OoOoOoOoOoOoOoOoO.... solo il vento....
+	DescrTouch:
+		Forse non è il caso sporgersi per toccarlo....
+	DescrTaste:
+		Vuoi tuffarti nel vuoto a lingua tesa?
+	DescrSixth:
+		Il tuo sesto senso ti dice che oltrepassare questo strambo portale non sarà cosi' facile.....
+End
+
+
+
+
+
+

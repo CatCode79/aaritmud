@@ -1,0 +1,26 @@
+<h3 align="center">AIUTO</h3>
+<p>
+Nel qual caso tu voglia saperne di più, abbia dei dubbi o problemi qui troverai delle informazioni che ti possano aiutare.<br><br>
+</p>
+<!-- (TD) Se un giorno al posto della table usassi dei div float farei un sito più liquido -->
+<div class="block" style="width:49%">
+	<div class="block_title">Come Connettersi al Gioco:</div>
+	<div class="block_text">
+	<img class="tag" src="tags/compatibility.png" />
+		${game_name} è un MUD giocabile via browser (e non utilizza un client telnet), le varie pagine del sito non dovrebbero avere problemi di visualizzazione in un qualsiasi browser, tuttavia la pagina di collegamento al gioco è particolare e potrebbe non funzionare correttamente.<br>
+		Grazie ai feedback ricevuti dai giocatori abbiamo potuto redarre <a href="compatibility.html" title="Scopri quale browser funziona con ${game_name_nocolor}!">una tabella di compatibilità</a>.<br>
+	</div>
+</div>
+<!--div class="block" style="width:49%">
+	<div class="block_title">Enciclopedia degli Aiuti:</div>
+	<div class="block_text">
+	<img class="tag" src="tags/encyclopedia.png" />
+	Se hai bisogno di cercare un argomento preciso riguardante il gioco qui troverai l'elenco gli argomenti consultabili:<br>
+	${help_types}
+	<div style="text-align:center;">
+		Puoi anche cercare l'argomento voluto inserendolo qui:<br>
+		<input type="text" id="help_argument" onblur="blurWatermark(this.id);" onfocus="focusWatermark(this.id);" />
+		<script>blurWatermark("help_argument")</script>
+	<div>
+	</div>
+</div-->

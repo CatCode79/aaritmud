@@ -1,0 +1,46 @@
+Code: novizi2_room_00-benvenuto
+Icon: icons/room/triskele-yellow.png
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: L'Ingresso
+Short: la stanza d'ingresso
+
+Descr:
+Prode avventurier$o che hai scelto di entrare in [red]N[gold]akilen[close]; ecco alcune informazioni che ti
+saranno utili per muoverti in questo mondo.
+Il [white]Primo Passo[close] consiste nello spostarsi fra le varie stanze.
+In fondo alla descrizione di ciascuna stanza ci possono essere alcune delle seguenti possibili uscite:<br>
+<br>
+- $tNORTH<br>
+- $tEAST<br>
+- $tSOUTH<br>
+- $tWEST<br>
+- $tUP<br>
+- $tDOWN<br>
+<br>
+- $tNORTHEAST<br>
+- $tNORTHWEST<br>
+- $tSOUTHEAST<br>
+- $tSOUTHWEST<br>
+<br>
+Questa stanza spoglia ha solo un'uscita... verso sud.
+Per raggiungerla puoi digitare $tSouth ed invio.
+DescrTouch:
+no_send
+DescrTaste:
+no_send
+DescrSmell:
+no_send
+DescrHearing:
+no_send
+DescrSixth:
+no_send
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.SOUTH
+	Descr: [lemonchiffon]Le sensorialità[close]
+End

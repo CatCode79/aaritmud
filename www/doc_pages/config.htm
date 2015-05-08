@@ -1,0 +1,127 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="style.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<table style="width:100%">
+<tr>
+	<td><a href="license.htm"><img src="../graphics/arrow_left.gif" width="16px" height="16px"> Licenza d'utilizzo</a></td>
+	<td style="text-align:right"><a href="../builder_pages/index.htm">Introduzione del Manuale del Builder per Aarit <img src="../graphics/arrow_right.gif" width="16px" height="16px"></a></td>
+</tr>
+</table>
+
+<hr>
+<h3>Il File di Configurazione:</h3>
+<div class="main">
+Di seguito sono descritti i singoli campi che riguardano, di default, il file config.ini nella cartella principale di Aarit.<br><br>
+
+<hr>
+Sezione [CFG]<br>
+Impostazioni riguardanti la configurazione e la manutenzione generale del Mud.<br><br>
+
+<span style="color:royalblue">port</span>:<br>
+Porta web a cui connettersi con il browser, l'80 è quella di default cosicché non v'è bisogno d'inserirla nell'url del browser.<br><br>
+
+<span style="color:royalblue">game_name</span>:<br>
+Nome del Mud, si possono inserire i tag di stile per colorarlo come si vuole.<br><br>
+
+<span style="color:royalblue">smtp_host</span>:<br>
+<span style="color:royalblue">smtp_email</span>:<br>
+Serve per inviare mail ai giocatori (tipo per il recupero della password) l'SmtpHost deve essere un indirizzo relativo al vostro gestore di connessione internet, quindi se per esempio utilizzate connessione Libero dovete inserire l'smtp di Libero (altrimenti otterrete un messaggio di errore tipo questo: 550 RCPT TO: Relaying not allowed).<br><br>
+
+<span style="color:royalblue">log_accent</span>:<br>
+Se impostato a True stamperà alla console i messaggi di log con gli accenti (àèìòù) se invece viene impostato a False gli accenti verranno convertiti in vocali apostrofate (a' e' i' o' u') questo è utile quando alcune console supportano solo i caratteri ASCII.<br>
+Bisogna però fare attenzione ad effettuare una ricerca del messaggio di log nel codice per tracciare l'errore, potreste non trovare la stringa esatta poiché effettivamente differente.<br><br>
+
+<span style="color:royalblue">development</span>:<br>
+Se state sviluppando o testando Aarit meglio tenere questa variabile a True, ciò vi permetterà di riaggiornare le pagine web ogni volta che vengono chiamate con eventuali nuove modifiche, stessa cosa per i moduli dei comandi (in src/commands) che verranno ricaricati ad ogni utilizzo. Inoltre questa configurazione vi permetterà di leggere maggiori informazioni di debug.<br><br>
+
+<span style="color:royalblue">min_len_name</span>:<br>
+<span style="color:royalblue">max_len_name</span>:<br>
+Lunghezza minima e massima permessa ai nomi di account o di personaggio.<br>
+Ricordatevi che eventuali colori inseriti nel nome non inficiano sulla lunghezza totale del nome.<br><br>
+
+<span style="color:royalblue">min_len_password</span>:<br>
+<span style="color:royalblue">max_len_password</span>:<br>
+Lunghezza minima e massima relativa alla password dell'account, per una maggior sicurezza il minimo dovrebbe essere almeno 7, ma potete sceglierne comunque una minore.<br><br>
+
+<span style="color:royalblue">max_aliases</span>:<br>
+Valore massimo di alias impostabili per personaggio.<br>
+Se come valore inserite lo 0 indicate che non supportate gli aliases.<br><br>
+
+<span style="color:royalblue">max_macros</span>:<br>
+Valore massimo di macro impostabili per personaggio.<br>
+Se come valore inserite lo 0 indicate che non supportate le macro.<br><br>
+
+<span style="color:royalblue">max_account_players</span>:<br>
+Valore massimo di giocatori creabili per ogni account.<br>
+Se come valore inserite lo 0 indicate che non supportate la creazione di nuovi personaggi (può essere utile in casi di emergenza per evitare proliferazione di personaggi nuovi con caratteristiche errate).<br><br>
+
+<span style="color:royalblue">min_reset_time</span>:<br>
+Tempo minimo di reset per le aree consentito (in minuti reali).<br><br>
+
+<span style="color:royalblue">max_reset_time</span>:<br>
+Tempo massimo di reset per le aree consentito (in minuti reali).<br><br>
+
+<span style="color:royalblue">chars_for_smile</span>:<br>
+Numero di caratteri finali controllati in una frase inviata tramite un canale rpg in cui viene cercato uno smile poi convertito in un'espressione, per esempio:<br>
+"di ciao :)" -> "dici sorridendo: 'ciao'"<br>
+Se non si vuole questa feature basta inserire a 0 tale configurazione.<br><br>
+
+<span style="color:royalblue">first_destination</span>:<br>
+Destinazione voluta per la prima entrata in gioco da parte dei personaggi.<br>
+Per saperne di più su come impostare la destinazione vedere <a href="builder_manual/destination.htm">questa pagina</a>.<br><br>
+
+<hr>
+Sezione [CALENDAR]<br>
+Impostazioni riguardanti il calendario RPG del Mud:<br><br>
+
+<span style="color:royalblue">dawn_hour</span>:<br>
+A che ora rpg è l'aurora.<br><br>
+
+<span style="color:royalblue">sunrise_hour</span>:<br>
+A che ora rpg è l'alba.<br><br>
+
+<span style="color:royalblue">noon_hour</span>:<br>
+A che ora rpg è mezzogiorno.<br><br>
+
+<span style="color:royalblue">sunset_hour</span>:<br>
+A che ora rpg c'è il tramonto.<br><br>
+
+<span style="color:royalblue">dusk_hour</span>:<br>
+A che ora rpg è il crepuscolo.<br><br>
+
+<span style="color:royalblue">midnight_hour</span>:<br>
+A che ora rpg è mezzanotte.<br><br>
+
+<span style="color:royalblue">seconds_in_minute</span>:<br>
+Numero di secondi reali che formano un minuto rpg, il minimo può essere 1 (e in tal caso un giorno RPG nel Mud durerebbe 24 minuti reali).<br><br>
+
+<span style="color:royalblue">minutes_in_hour</span>:<br>
+Quantità di minuti rpg dentro un'ora rpg.<br><br>
+
+<span style="color:royalblue">hours_in_day</span>:<br>
+Quantità di ore rpg dentro un giorno rpg.<br><br>
+
+<span style="color:royalblue">days_in_month</span>:<br>
+Quantità di giorni rpg dentro un mese rpg.<br>
+Se si modifica quest'opzione bisogna tenere d'occhio anche l'enumerazione DAYWEEK in src/enums e il metodo get_day_week nella classe Config nel file src/config.py.<br><br>
+
+<span style="color:royalblue">months_in_year</span>:<br>
+Quantità di mesi rpg dentro un anno rpg.<br>
+Se si modifica quest'opzione bisogna anche modificare l'enumerazione MONTH in src/enums.<br><br>
+
+<span style="color:royalblue">minute</span>:<br>
+<span style="color:royalblue">hour</span>:<br>
+<span style="color:royalblue">day</span>:<br>
+<span style="color:royalblue">month</span>:<br>
+<span style="color:royalblue">year</span>:<br>
+Valori che salvano l'attuale data RPG del mud, il minuto si inizia a contare a 0.<br><br>
+</div>
+
+<hr>
+</body>
+</html>

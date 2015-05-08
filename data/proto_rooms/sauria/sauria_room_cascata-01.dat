@@ -1,0 +1,34 @@
+Comment: 85 0 0
+Code: sauria_room_cascata-01
+Sector: SECTOR.SHORE
+Name: La Cascata
+Short: la cascata
+
+Descr:
+Ti trovi sulle rive del lago formato da un'immensa cascata. La densa nebbia ti impedisce la visuale. Fiori enormi crescono sulle sponde del lago.
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Noti una roccia tufica parzialmente smossa sulla sponda sinistra del lago, dietro ad essa un gorgo d'acqua fluisce rapido.
+DescrHearing:
+Un rombo assordante riempie l'aria e ti par di percepire un debolissimo canto di uccelli, quasi certamente un'allucinazione auditiva. 
+DescrTaste:
+Un
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21800
+  Descr:	Un fiume impetuoso
+  Direction:	DIR.NORTH
+End
+Exits:
+  Descr:	Galleria fangosa
+  Direction:	DIR.EAST
+  Door:	sauria_item_door-roccia-01
+End

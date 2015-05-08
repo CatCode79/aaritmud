@@ -1,0 +1,15 @@
+﻿<h3 align="center">BIBLIOTECA</h3>
+<p>
+Benvenuto nella <span style="color:gold">Biblioteca degli Antichi</span>, un misterioso popolo senza volto e quasi estinto, che ha come proprio obiettivo quello di conservare dalla <span style="color:dimgrey">Grande Distruzione</span> tutto lo scibile sul mondo di <span style="color:red">N<span style="color:gold">akilen</span></span>.<br>
+</p>
+<center><img src="images/grande_distruzione.jpg" width="800" height="392" alt="La Grande Distruzione Profetizzata" /></center>
+<p>
+Non sei qui per caso, sei qui per volere del <span style="color:green">Destino</span> e potrai leggere solamente i <span style="color:bisque">Libri</span> a te destinati, gli altri non li potrai percepire con gli occhi o con le mani.<br>
+Un giorno, forse, potrai tornare fino a qui, ma attraversando il <span style="color:royalblue">Portale</span>, per poi raggiungere il <span style="color:bisque">Libro</span> che ti aprirà la strada all'<span style="color:cyan">Ascensione</span>.<br>
+</p>
+<p>
+<!--a href="virtues.html">Sfoglia le pergamene riguardanti le virtù</a><br-->
+<!--a href="constellations.html">Leggi le antiche tavolette sulle costellazioni visibili in cielo</a><br-->
+<a href="maps.html">Consulta le mappe del mondo di Nakilen</a><br>
+<a href="areas.html">Leggi gli scritti sulla geografia delle differenti aree</a><br>
+</p>

@@ -1,0 +1,32 @@
+FunName:    social_point
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Chi dovresti indicare?
+  OthersNoArg: $n indica un punto indefinito dell'orizzonte.
+  EntityFound: Indichi $N con la $hand.
+  OthersFound: $n indica $N con la $hand.
+  TargetFound: $n indica TE con la $hand.
+  EntityAuto:  Indichi te stess$o con la $hand.
+  OthersAuto:  $n indica se stess$o con la $hand.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Indichi un punto nel vuoto, con un artiglio.
+  OthersNoArg: $n con un artiglio indica un punto nel vuoto.
+  EntityFound: Indichi $N con un artiglio.
+  OthersFound: $n solleva un artiglio ed indica $N.
+  TargetFound: $n ti indica con un artiglio.
+  EntityAuto:  Poggi una zampa sul petto indicandoti.
+  OthersAuto:  $n si indica poggiandosi una zampa sul petto.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Indichi un punto nel vuoto, con un artiglio.
+  OthersNoArg: $n con un artiglio indica un punto nel vuoto.
+  EntityFound: Indichi $N con un artiglio.
+  OthersFound: $n solleva un artiglio ed indica $N.
+  TargetFound: $n ti indica con un artiglio.
+  EntityAuto:  Poggi una zampa sul petto indicandoti.
+  OthersAuto:  $n si indica poggiandosi una zampa sul petto.
+End

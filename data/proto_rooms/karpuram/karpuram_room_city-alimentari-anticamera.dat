@@ -1,0 +1,28 @@
+Code: karpuram_room_city-alimentari-anticamera
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: L'Ingresso del Forno
+Short: l'anticamera
+
+Descr:
+Ti trovi in passagio a tunnel ricavato fra le fronde di un canneto e protetto superiormente
+da un pergolato di rami dorati. Le foglie oblunghe del pergolato si spostano in anticipo
+al tuo passaggio suggerendo la strada. Il terreno compatto risuona al tuo passaggio.
+DescrTouch: 
+Afferri una delle ampie foglie che hai davanti lasciandola poi scivolare dolcemente
+con gesto inconsapevole.
+DescrSmell: 
+Alle narici ti arriva l'odore di cibarie cotte in forno.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Al forno
+End
+Exits:
+  Direction: DIR.SOUTHEAST
+  Descr: Al bordo del canneto
+End

@@ -1,0 +1,37 @@
+Code: karpuram_room_city-memoria-00
+Sector: SECTOR.PLAIN
+Name: Sperduti Dentro [lime]Karpuram[close]
+Short: le vie del [lime]bosco[close]
+Descr:
+Girovagando per il bosco sei giunt$o ad un unico sentiero più in alto degli altri che
+ora non pare avere altri sbocchi se non in una ripida discesa irta di sentierini
+bordati dalla folta vegetazione.
+
+DescrNight:
+Girovagando per il bosco sei giunt$o ad un unico sentiero rialzato, non ti è possibile
+vedere quanto convenga abbandonare il sentiero per finire in chissà che situazione.
+Attendere il sorgere del sole qui però non dà una così grande sicurezza.
+
+DescrSixth:
+Qualcosa di più anomalo di davvero anomalo si percepisce blandamente i questi anfratti.
+
+DescrSixth:
+Un sentore balndamente mesto pervade questi anfratti.
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: La via delle pietre
+  Door:	karpuram_item_door-foglie-outside
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Nel folto del bosco
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Nel folto del bosco
+End

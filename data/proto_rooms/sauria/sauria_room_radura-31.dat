@@ -1,0 +1,42 @@
+Comment: 85 0 2
+Code: sauria_room_radura-31
+Sector: SECTOR.SAVANNA
+Name: Una Radura
+Short: una radura
+
+Descr:
+Sei in un'ampia radura nel bel mezzo dell'amena foresta. La vegetazione è attorcigliata e schiacciata a terra come vi fosse passato e ripassato sopra qualcosa di enorme.
+DescrTouch: 
+La vegetazione qui è a rischio se non completamente assente ed il terreno a tratti è divenuto terra battuta.
+DescrSmell: 
+Ad ogni passo si alza un che di polveroso che ti solletica le narici.
+DescrSixth:
+Qualcosa ha certo causato questo strazio alla vegetazione.
+Deve trattarsi di un qualcosa molto paziente perché ugualmente non sarebbe riuscito a fare tale disastro in solo due o tre giorni.
+DescrHearing:
+Qualcosa ti sta facendo venire fame...
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21839
+  Descr:	Una radura
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 -1 21830
+  Descr:	Una radura
+  Direction:	DIR.EAST
+End
+Exits:
+  Comment:	0 -1 21826
+  Descr:	Un'amena foresta
+  Direction:	DIR.SOUTH
+End
+Exits:
+  Comment:	0 -1 21832
+  Descr:	Ai piedi del vulcano
+  Direction:	DIR.WEST
+End

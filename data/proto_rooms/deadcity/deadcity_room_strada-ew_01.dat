@@ -1,0 +1,33 @@
+Code: deadcity_room_strada-ew_01
+Sector: SECTOR.CITY
+Name: Un'Anonima Strada  
+Short: una strada
+
+Descr:
+Una strada deserta anonima e desolante senza un posto ove posare gli occhi per staccarsi
+da tanta monotonia. Ai lati della strada un'interminabile sequenza di facciate di edifici
+cadenti e tutti uguali. Tutti tutti? No! L'edificio a sud, a ben guardare dà l'impressione
+di essere qui per sbaglio.
+DescrSmell: 
+Polvere, polvere nelle narici e sulla $tongue. Saporaccio orribile ma a sud forse ne
+arriva un po' meno.
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: In strada
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: In strada
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Un edificio o un miraggio?
+  Destination: 6 7 -4 torreelementi
+End
+

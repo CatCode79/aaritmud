@@ -1,0 +1,48 @@
+FunName:    social_ruffle
+Intention:  INTENTION.FRIENDLY
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Ti arruffi i capelli
+  OthersNoArg: $n si arruffa i capelli.
+  EntityFound: Arruffi i capelli a $N.
+  OthersFound: $n arruffa i capelli a $N.
+  TargetFound: $n ti arruffa giocosamente i capelli.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Agiti la testa per arruffarti la chioma.
+  OthersNoArg: $n agita la testolina scompigliandosi i capelli.
+  EntityFound: Chiedi al signor Vento di fare uno scherzo a $N.
+  OthersFound: Una folata di vento scompiglia i capelli di $N. È colpa di $n.
+  TargetFound: Una folata di vento ti scompiglia i capelli. È stat$o $n.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Ti scompigli i capelli.
+  OthersNoArg: $n si scompiglia i capelli.
+  EntityFound: Metti una $hand nei capelli di $N scompigliandoli.
+  OthersFound: $n mette una $hand nei capelli di $N scompigliandoli.
+  TargetFound: $n ti mette una $hand nei capelli arruffandoli.
+  EntityAuto:  Ti passi una $hand fra i capelli .
+  OthersAuto:  $n si passa una $hand fra i capelli.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Cerchi qualche capigliatura da scapigliare..
+  OthersNoArg: $n guarda le chiome dei presenti con fare dispettoso..
+  EntityFound: Scompigli i capelli di $N dispettosamente!
+  OthersFound: $n scompiglia dispettosamente i capelli di $N.
+  TargetFound: $n ti scompiglia le chiome con fare dispettoso.
+  EntityAuto:  Ti scompigli un po' il manto, è troppo pettinato.
+  OthersAuto:  $n s'arruffa tutto il manto.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Cerchi qualche capigliatura da scapigliare..
+  OthersNoArg: $n guarda le chiome dei presenti con fare dispettoso..
+  EntityFound: Scompigli i capelli di $N dispettosamente!
+  OthersFound: $n scompiglia dispettosamente i capelli di $N.
+  TargetFound: $n ti scompiglia le chiome con fare dispettoso.
+  EntityAuto:  Ti scompigli un po' il manto, è troppo pettinato.
+  OthersAuto:  $n s'arruffa tutto il manto.
+End

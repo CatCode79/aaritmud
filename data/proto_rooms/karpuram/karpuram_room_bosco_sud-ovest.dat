@@ -1,0 +1,30 @@
+Code: karpuram_room_bosco_sud-ovest
+Sector: SECTOR.PLAIN
+Name: I Passaggi Attraverso [lime]Karpuram[close]
+Short: [lime]passaggi[close] a vista d'occhio
+Descr:
+Il sentiero si perde inquieto dentro il fitto bosco tanto che pare di perdere il senso
+dell'orientamento; tutti i riferimenti che cerchi di fissare si ripetono identici poco
+più avanti. L'unica è proseguire lungo il sentiero che piega leggero nella direzione
+in cui digrada.
+
+DescrNight:
+Con le tenebre giunge la tiepida inquietudine che ti trasmette il sentiero stesso in una
+gara a due in cui non è ben chiaro chi stia incontrando l'altr$o reiterate volte.
+Un altra svolta repentina e oltre, certamente la gara continua.
+
+DescrSixth:
+Un bosco è sempre un buon posto per qualcuno o qualcosa
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Nel folto del bosco
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Nel folto del bosco
+End

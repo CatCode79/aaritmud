@@ -1,0 +1,28 @@
+Code: serpidi_room_8615_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Width:	1m
+Depth:	3m
+Height:	3m
+
+Name: Nella cripta dei serpenti 
+Short: Nella cripta dei serpenti 
+Descr: 
+Sei in una stanza di un metro di lato, con aperture su tutte le pareti. Ogni apertura è alta circa due metri e larga meno di un metro, e porta a un lungo tunnel delle stesse dimensioni che sbocca in una stanza simile a questa. Riesci a malapena a girarti in questo spazio angusto. 
+Exits:
+	Direction: DIR.NORTH
+	Destination: 2 7 -1 serpidi
+End
+Exits:
+	Direction: DIR.EAST
+	Destination: 3 6 -1 serpidi
+End
+Exits:
+	Direction: DIR.SOUTH
+	Destination: 2 5 -1 serpidi
+End
+Exits:
+	Direction: DIR.WEST
+	Destination: 1 6 -1 serpidi
+End

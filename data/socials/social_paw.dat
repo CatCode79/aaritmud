@@ -1,0 +1,30 @@
+FunName:    social_paw
+Intention:  INTENTION.FRIENDLY
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Ti è impossibile saltellare sulle quattro zampe.
+  OthersNoArg: no_send
+  EntityFound: Ti è impossibile saltellare sulle quattro zampe attorno a $N.
+  OthersFound: no_send
+  TargetFound: no_send
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Saltelli tutt'intorno sulle zampe.
+  OthersNoArg: $n fa i saltini sulle zampe, sembra proprio felice.
+  EntityFound: Fai i saltini intorno a $N.. Zamp! Zamp!
+  OthersFound: $n saltella sulle zampe intorno a $N.. Si sta divertendo un mondo.
+  TargetFound: $n fa i saltini intorno a te sorridendoti.
+  EntityAuto:  Saltelli inseguendoti la coda.
+  OthersAuto:  $n sembra felice d'inseguirsi la coda e mordersela di quando in quando..
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Saltelli tutt'intorno sulle zampe.
+  OthersNoArg: $n fa i saltini sulle zampe, sembra proprio felice.
+  EntityFound: Fai i saltini intorno a $N.. Zamp! Zamp!
+  OthersFound: $n saltella sulle zampe intorno a $N.. Si sta divertendo un mondo.
+  TargetFound: $n fa i saltini intorno a te sorridendoti.
+  EntityAuto:  Saltelli inseguendoti la coda.
+  OthersAuto:  $n sembra felice d'inseguirsi la coda e mordersela di quando in quando..
+End

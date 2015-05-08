@@ -1,0 +1,20 @@
+Code: serpidi_room_8681_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: Un incrocio di corridoi 
+Short: Un incrocio di corridoi 
+Descr: 
+L'arredamento ti sembra diverso, sicuramente è più curato e più ricco. Ad est e a ovest intravedi dei corridoi con delle porte sui due lati. 
+Exits:
+	Direction: DIR.EAST
+	Destination: 3 9 -2 serpidi
+End
+Exits:
+	Direction: DIR.SOUTH
+	Destination: 2 8 -2 serpidi
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

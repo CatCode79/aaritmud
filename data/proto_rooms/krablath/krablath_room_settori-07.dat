@@ -1,0 +1,30 @@
+Code: krablath_room_settori-07
+Sector: SECTOR.PLAIN
+Name: [darkmagenta]L'Aiuola della Bocche di Leone[close]
+Short: [darkmagenta]tra esili fusti[close]
+
+Descr:
+Un mosaico di fiori variopinti si estende per metri a livello delle tue ginocchia; non puoi fare a meno di piegare alcune piante al tuo passaggio nonostante i tuoi piedi poggino su una strisciolina di terra, che con un po' di immaginazione  puoi chiamare sentiero, strappata al verde.
+Sulla destra un fosso ti separa da una zona umida e buia, poco lontano si leva un enorme fusto. 
+DescrTouch:
+Le pianticelle si piegano sotto il tocco della tua $hand.
+DescrSmell: 
+I profumi del giardino si rincorrono creando una permeante fragranza che non ti abbandona mai.
+DescrSixth:
+Non v'è chi non veda che alcune foglie sono state brucate.	
+DescrHearing:
+Il ronzio di qualche ape operosa.
+
+Width:	6m
+Depth:	6m
+Height: 200m
+
+Exits:
+	Direction:	DIR.SOUTHWEST
+	Descr:	Tra esili fusti
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	Verso il centro del giardino
+End
+

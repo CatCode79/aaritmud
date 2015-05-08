@@ -1,0 +1,35 @@
+Comment: 85 8|256 0 2
+Code: sauria_room_galleria-fangosa-05
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: Galleria Fangosa
+Short: galleria fangosa
+
+Descr:
+Sei nella parte estremale di una sinuosa galleria. La via pare snodarsi verso l'alto nel buio più assoluto. Da nord proviene una brezza vagamente permeata dall'odore di terra smossa. 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21806
+  Descr:	Ingresso della caverna
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 -1 21804
+  Descr:	Galleria fangosa
+  Direction:	DIR.UP
+End

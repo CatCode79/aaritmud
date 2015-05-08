@@ -1,0 +1,26 @@
+Comment: 85 64|256 5 2
+Code: sauria_room_burrone-36
+Sector: SECTOR.ROCKY
+Name: Un Burrone
+Short: un burrone
+
+Descr:
+Sei fra due imponenti pareti di pietra. Profonde spaccature segnano la roccia permettendo di salire abbastanza agevolmente verso una cengia in alto.
+DescrTouch: 
+Non tutte le spaccature della roccia sono così naturali, alcune paiono sensibilmente aiutate da qualcosa di arrabbiato o annoiato a morte.
+DescrSmell: 
+Il lezzo di carne morta da troppo poco riempie il fondo del burrone cancellando ogni ricordo di desolata solitudine.
+DescrSixth:
+Non c'è pericolo di essere inseguiti da qualcosa di poco più grande di te; non troverebbe punti d'appoggio per la salita. 
+DescrHearing:
+Al fondo arrivano cupi storpiati ed ovattati i suoni dall'alto impedendo di discernerli o riconoscerli.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21835
+  Descr:	Una cengia
+  Direction:	DIR.UP
+End

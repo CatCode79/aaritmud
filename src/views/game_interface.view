@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- in futuro dovrà essere sono doctype html per il 5-->
+<html>
+<head>
+	<meta http-equiv="PRAGMA" content="NO-CACHE">
+	<meta content="no-cache" http-equiv="Cache-Control">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>${player_code}</title>
+	<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+	<link type="text/css" rel="stylesheet" href="style.css">
+	<link type="text/css" rel="stylesheet" href="jquery/themes/vader/jquery-ui-1.8.16.custom.css">
+	<meta name="robots" content="noindex, nofollow">
+	<script type="text/javascript" src="site.js"></script>
+	<script type="text/javascript" src="game.js"></script>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="jquery/jquery.ui.js"></script>
+	<script type="text/javascript" src="jquery/jquery.tools.js"></script>
+	<script>
+		$(document).ready(function() {
+			$("#game_tabs").height($(window).height() * 89 / 100);
+			connectToGame("${player_code}");
+			$("#input_content").select();
+		});
+	</script>
+	${courier_font_style}
+	${spinner_header}
+</head>
+<body id="body" onkeydown="return checkMacro(event);" onunload="$.post('game_interface.html', 'close_connection=1')">
+${player_menu}
+${use_comet}
+${output_iframe}
+${audio}
+
+<!--ul class="tabs">
+	<li><a href="#">Tab 1</a></li>
+	<li><a href="#">Tab 2</a></li>
+	<li><a href="#">Tab 3</a></li>
+</ul>
+<div class="panes">
+	<div>First tab content. Tab contents are called "panes"</div>
+	<div>Second tab content</div>
+	<div>Third tab content</div>
+</div-->
+
+<div id="game_tabs" class="game_tabs">
+	<ul>
+		<li><a id="output_title" href="#output" class="avoid_border_bottom">Gioco</a></li>
+		<li><a id="channels_title" href="#channels" class="avoid_border_bottom" onclick="$(this).text('Canali')">Canali</a></li>
+		<li><a id="talents_title" href="#talents" class="avoid_border_bottom">Talenti</a></li>
+	</ul>
+<div id="output" class="mud game_panel"><center>${suggested}
+<b>Se doveste avere dei problemi di connessione provate ad attivare, o disattivare a seconda se lo sia già o meno, l'opzione comet che <a href="account.html">potete trovare qui</a>.
+Anche la <a href="http://support.google.com/adsense/bin/answer.py?hl=it&answer=23767" target="blank_">cancellazione della cache del browser</a> e il ricaricamento della pagina possono servire a risolvere problemi di connessione.</b>
+<img src="images/yingyang.jpg" width="375" height="281" alt="Un drago e una tigre si fronteggiano.">
+</center>
+</div>
+<div id="channels" class="mud game_panel"><center><span style="font-weight:bold;">Qui di seguito verranno inseriti tutti i messaggi ricevuti ed inviati.</span></center><br>
+</div>
+<div id="talents" class="mud game_panel">
+${talents_body}
+</div>
+</div>
+<script>
+$("#game_tabs").tabs();
+${disabled_tabs}
+</script>
+
+<div>
+	<div id="bigino" class="mud bigino"><b>Bigino comandi</b>:
+		<ul style="margin:0.6em; padding:0.6em;">
+		<!--li><a href="javascript:putInput('$Thelp ')">$thelp</a>
+		<br><br-->
+		<li><a href="javascript:putInput('$Tnorth')">$tnorth</a>
+		<li><a href="javascript:putInput('$Tnortheast')">$tnortheast</a>
+		<li><a href="javascript:putInput('$Teast')">$teast</a>
+		<li><a href="javascript:putInput('$Tsoutheast')">$tsoutheast</a>
+		<li><a href="javascript:putInput('$Tsouth')">$tsouth</a>
+		<li><a href="javascript:putInput('$Tsouthwest')">$tsouthwest</a>
+		<li><a href="javascript:putInput('$Twest')">$twest</a>
+		<li><a href="javascript:putInput('$Tnorthwest')">$tnorthwest</a>
+		<li><a href="javascript:putInput('$Tup')">$tup</a>
+		<li><a href="javascript:putInput('$Tdown')">$tdown</a>
+		<li><a href="javascript:putInput('$Tfollow')">$tfollow</a>
+		<br><br>
+		<li><a href="javascript:putInput('$Tlook ')">$tlook</a>
+		<li><a href="javascript:putInput('$Tlisten ')">$tlisten</a>
+		<li><a href="javascript:putInput('$Tsmell ')">$tsmell</a>
+		<li><a href="javascript:putInput('$Ttouch ')">$ttouch</a>
+		<li><a href="javascript:putInput('$Ttaste ')">$ttaste</a>
+		<li><a href="javascript:putInput('$Tintuition ')">$tintuition</a>
+		<br><br>
+		<li><a href="javascript:putInput('$Tmurmur ')">$tmurmur</a>
+		<li><a href="javascript:putInput('$Twhisper ')">$twhisper</a>
+		<li><a href="javascript:putInput('$Tsay ')">$tsay</a>
+		<li><a href="javascript:putInput('$Tyell ')">$tyell</a>
+		<li><a href="javascript:putInput('$Tshout ')">$tshout</a>
+		<li><a href="javascript:putInput('$Tsing ')">$tsing</a>
+		<li><a href="javascript:putInput('$Temote ')">$temote</a>
+		<li><a href="javascript:putInput('$Ttell ')">$ttell</a>
+		<li><a href="javascript:putInput('$Tchat ')">$tchat</a>
+		<br><br>
+		<li><a href="javascript:putInput('$Texamine ')">$texamine</a>
+		<li><a href="javascript:putInput('$Tscore')">$tscore</a>
+		<li><a href="javascript:putInput('$Twho')">$twho</a>
+		<li><a href="javascript:putInput('$Ttitle')">$ttitle</a>
+		<li><a href="javascript:putInput('$Tget ')">$tget</a>
+		<li><a href="javascript:putInput('$Tgive ')">$tgive</a>
+		<li><a href="javascript:putInput('$Tdrop ')">$tdrop</a>
+		<li><a href="javascript:putInput('$Tinventory')">$tinventory</a>
+		<li><a href="javascript:putInput('$Twear ')">$twear</a>
+		<li><a href="javascript:putInput('$Tremove ')">$tremove</a>
+		<li><a href="javascript:putInput('$Thold ')">$thold</a>
+		<li><a href="javascript:putInput('$Twield ')">$twield</a>
+		<li><a href="javascript:putInput('$Tequipment')">$tequipment</a>
+		<br><br>
+		<li><a href="javascript:putInput('$Topen ')">$topen</a>
+		<li><a href="javascript:putInput('$Tclose ')">$tclose</a>
+		<li><a href="javascript:putInput('$Tlock ')">$tlock</a>
+		<li><a href="javascript:putInput('$Tunlock ')">$tunlock</a>
+		<li><a href="javascript:putInput('$Tbolt ')">$tbolt</a>
+		<li><a href="javascript:putInput('$Tunbolt ')">$tunbolt</a>
+		<li><a href="javascript:putInput('$Tenter ')">$tenter</a>
+		<br><br>
+		<li><a href="javascript:putInput('$Teat ')">$teat</a>
+		<li><a href="javascript:putInput('$Tswallow ')">$tswallow</a>
+		<li><a href="javascript:putInput('$Tseed ')">$tseed</a>
+		<li><a href="javascript:putInput('$Tdig ')">$tdig</a>
+		<li><a href="javascript:putInput('$Tread ')">$tread</a>
+		<li><a href="javascript:putInput('$Tkill ')">$tkill</a>
+		<li><a href="javascript:putInput('$Tdestroy ')">$tdestroy</a>
+		<li><a href="javascript:putInput('$Tattack ')">$tattack</a>
+		<li><a href="javascript:putInput('$Tkick ')">$tkick</a>
+		<li><a href="javascript:putInput('$Tflee ')">$tflee</a>
+		<br><br>
+		<li><a href="javascript:putInput('$Tsleep ')">$tsleep</a>
+		<li><a href="javascript:putInput('$Twake ')">$twake</a>
+		<li><a href="javascript:putInput('$Tstand ')">$tstand</a>
+		<li><a href="javascript:putInput('$Tsit ')">$tsit</a>
+		<li><a href="javascript:putInput('$Tknee ')">$tknee</a>
+		<li><a href="javascript:putInput('$Trest ')">$trest</a>
+		<br><br>
+		<li><a href="javascript:putInput('$Tmoney ')">$tmoney</a>
+		<li><a href="javascript:putInput('$Tlist ')">$tlist</a>
+		<li><a href="javascript:putInput('$Tbuy ')">$tbuy</a>
+		<li><a href="javascript:putInput('$Toffer ')">$toffer</a>
+		<li><a href="javascript:putInput('$Tsell ')">$tsell</a>
+		<br><br>
+		<li><a href="javascript:putInput('$Ttypo ')">$ttypo</a>
+		<li><a href="javascript:putInput('$Tcomment ')">$tcomment</a>
+		<li><a href="javascript:putInput('$Tidea ')">$tidea</a>
+		<li><a href="javascript:putInput('$Tbug ')">$tbug</a>
+		</ul>
+	</div>
+	<!--div id="tabs-2">
+	</div-->
+</div>
+<div id="windrose" style="border:1px solid rgb(216, 216, 216); position:absolute; top:62.2%; width:18%; height:26.7%; left:80.1%; -moz-box-shadow: 2px 2px 4px; overflow:auto; overflow-y:scroll; font-size:smaller; padding:5px; text-align:center">
+	<div style="position:relative; top:50%">
+	<table style="margin:0 auto; margin-top:-7.5em">
+		<tr>
+			<td><input type="image" src="graphics/northwest.gif" title="$Tnorthwest (7)" alt="NW" onclick="sendInput('$Tnorthwest');" onmousedown="this.src='graphics/northwest_active.gif'" onmouseup="this.src='graphics/northwest.gif'" onmouseout="this.onmouseup();" /></td>
+			<td><input type="image" src="graphics/north.gif"     title="$Tnorth (8)"     alt="N"  onclick="sendInput('$Tnorth');" onmousedown="this.src='graphics/north_active.gif'"     onmouseup="this.src='graphics/north.gif'"     onmouseout="this.onmouseup();" /></td>
+			<td><input type="image" src="graphics/northeast.gif" title="$Tnortheast (9)" alt="NE" onclick="sendInput('$Tnortheast');" onmousedown="this.src='graphics/northeast_active.gif'" onmouseup="this.src='graphics/northeast.gif'" onmouseout="this.onmouseup();" /></td>
+			<td><input type="image" src="graphics/up.gif"        title="$Tup (*)"        alt="/"  onclick="sendInput('$Tup');" onmousedown="this.src='graphics/up_active.gif'"        onmouseup="this.src='graphics/up.gif'"        onmouseout="this.onmouseup();" /></td>
+		</tr>
+		<tr>
+			<td><input type="image" src="graphics/west.gif"  title="$Twest (4)"  alt="W"       onclick="sendInput('$Twest');" onmousedown="this.src='graphics/west_active.gif'"  onmouseup="this.src='graphics/west.gif'"  onmouseout="this.onmouseup();" /></td>
+			<td><input type="image" src="graphics/look.gif"  title="$Tlook (5)"  alt="$Tlook"  onclick="sendInput('$Tlook');" onmousedown="this.src='graphics/look_active.gif'"  onmouseup="this.src='graphics/look.gif'"  onmouseout="this.onmouseup();" /></td>
+			<td><input type="image" src="graphics/east.gif"  title="$Teast (6)"  alt="E"       onclick="sendInput('$Teast');" onmousedown="this.src='graphics/east_active.gif'"  onmouseup="this.src='graphics/east.gif'"  onmouseout="this.onmouseup();" /></td>
+			<td><input type="image" src="graphics/score.gif" title="$Tscore" alt="$Tscore" onclick="sendInput(this.title);" onmousedown="this.src='graphics/score_active.gif'" onmouseup="this.src='graphics/score.gif'" onmouseout="this.onmouseup();" /></td>
+		</tr>
+		<tr>
+			<td><input type="image" src="graphics/southwest.gif" title="$Tsouthwest (1)" alt="SW" onclick="sendInput('$Tsouthwest');" onmousedown="this.src='graphics/southwest_active.gif'" onmouseup="this.src='graphics/southwest.gif'" onmouseout="this.onmouseup();" /></td>
+			<td><input type="image" src="graphics/south.gif"     title="$Tsouth (2)"     alt="S"  onclick="sendInput('$Tsouth');" onmousedown="this.src='graphics/south_active.gif'"     onmouseup="this.src='graphics/south.gif'"     onmouseout="this.onmouseup();" /></td>
+			<td><input type="image" src="graphics/southeast.gif" title="$Tsoutheast (3)" alt="SE" onclick="sendInput('$Tsoutheast');" onmousedown="this.src='graphics/southeast_active.gif'" onmouseup="this.src='graphics/southeast.gif'" onmouseout="this.onmouseup();" /></td>
+			<td><input type="image" src="graphics/down.gif"      title="$Tdown (.)"      alt="\"  onclick="sendInput('$Tdown');" onmousedown="this.src='graphics/down_active.gif'"      onmouseup="this.src='graphics/down.gif'"      onmouseout="this.onmouseup();" /></td>
+		</tr>
+		<tr>
+			<td><input type="image" src="graphics/listen.gif" title="$Tlisten" alt="Listen" onclick="sendInput(this.title);" onmousedown="this.src='graphics/listen_active.gif'" onmouseup="this.src='graphics/listen.gif'" onmouseout="this.onmouseup();" /></td>
+			<td><input type="image" src="graphics/smell.gif"  title="$Tsmell"  alt="Smell"  onclick="sendInput(this.title);" onmousedown="this.src='graphics/smell_active.gif'"  onmouseup="this.src='graphics/smell.gif'"  onmouseout="this.onmouseup();" /></td>
+			<td><input type="image" src="graphics/taste.gif"  title="$Ttaste"  alt="Taste"  onclick="sendInput(this.title);" onmousedown="this.src='graphics/taste_active.gif'"  onmouseup="this.src='graphics/taste.gif'"  onmouseout="this.onmouseup();" /></td>
+			<td><input type="image" src="graphics/touch.gif"  title="$Ttouch"  alt="Touch"  onclick="sendInput(this.title);" onmousedown="this.src='graphics/touch_active.gif'"  onmouseup="this.src='graphics/touch.gif'"  onmouseout="this.onmouseup();" /></td>
+		</tr>
+	</table>
+	Potete utilizzare anche il tastierino numerico per muovervi e guardare
+	</div>
+</div>
+
+<div style="position:absolute; top:91.5%; width:99%; height:8%; left:0%;">
+	<!--div style="border:1px solid lightgrey; position:absolute; height:15px; width:200px; left:11px; background-color:red" title="${life} / ${max_life}"></div>
+	<div style="border:1px solid lightgrey; position:absolute; height:15px; width:200px; left:221px; background-color:royalblue" title="${mana} / ${max_mana}"></div>
+	<div style="border:1px solid lightgrey; position:absolute; height:15px; width:200px; left:431px; background-color:green" title="${vigour} / ${max_vigour}"></div-->
+	<input type="text" id="input_content" name="input_content" maxlength="512" value="${last_input}" autocomplete="off" style="position:absolute; top:38%; width:70%; left:0.7%" onkeydown="getFromHistory(event, this);" />
+	${save_last_input_script}
+	<input type="submit" id="input_submit" value="Invia" style="position:absolute; top:37%; left:73.5%" onclick="sendInput();" />
+	<input type="submit" id='scroll' value="Disattiva Scroll" style="position:absolute; top:37%; left:82.5%" onclick="toggleScroll();" /><br>
+	<span id="pg_language" class="invisible">${language}</span>
+	${show_last_input_span}
+</div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+FunName:    social_mmm
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Ti fermi un attimo a riflettere dicendo tra te e te.. "mmm.."
+  OthersNoArg: $n si ferma a riflettere mormorando.. "mmm.."
+  EntityFound: Guardi $N mormorando un "mmm" a labbra chiuse.
+  OthersFound: $n guarda $N mormorando un "mmm" a labbra chiuse.
+  TargetFound: $n ti guarda mormorando un "mmm" a labbra chiuse.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Ti fermi un istante per riflettere sulla situazione.
+  OthersNoArg: $n si ferma un istante con aria pensierosa.
+  EntityFound: Guardi $N con aria distratta, in realtà sei pers$o nelle tue elucubrazioni.
+  OthersFound: $n sembra guardare $N, in realtà osserva pensieros$o un quid visibile solo ai khajit.
+  TargetFound: Gli occhi di $n si posano su di te, ma la sua attenzione è altrove.. Che starà pensando quest$o khajit?
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Ti fermi un istante per riflettere sulla situazione.
+  OthersNoArg: $n si ferma un istante con aria pensierosa.
+  EntityFound: Guardi $N con aria distratta, in realtà sei pers$o nelle tue elucubrazioni.
+  OthersFound: $n sembra guardare $N, in realtà osserva pensieros$o un quid visibile solo ai khajit.
+  TargetFound: Gli occhi di $n si posano su di te, ma la sua attenzione è altrove.. Che starà pensando quest$o khajit?
+End

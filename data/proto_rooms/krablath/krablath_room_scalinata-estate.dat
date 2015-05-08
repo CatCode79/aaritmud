@@ -1,0 +1,45 @@
+Code: krablath_room_scalinata-estate
+Sector: SECTOR.TERRACE
+Name: [white]La Scalinata[close] 
+Short: [white]la scalinata[close]
+
+Descr:
+Una doppia scalinata in pietra bianca connette il giardino ad una terrazza sopraelevata; gli scalini sono costellati di piccoli [olivedrab]mucchietti[close] di [olivedrab]muschio[close] e il corrimano avvolto d'[darkgreen]edera[close] [mocassin]fiorita[close].
+DescrSmell: 
+Le mille fragranze del giardino si mischiano a formare un profumo inebriante.
+DescrHearing:
+Un incessante ronzio di operosi insetti.
+
+Extras:
+	Keywords: muschio
+	DescrTouch:
+	Tocchi con una $hand uno dei soffici cuscinetti muschiosi.
+End
+
+Extras:
+	Keywords:	edera fiorita
+	Descr:
+	Un mare di modesti [mocassin]fiorellini[close] bianchi ricoprono l'edera rendendola quasi completamente bianca.
+End
+
+Width:	3m
+Depth:	4m
+Height: 200m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Al terrazzo.
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Nel giardino.
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Al terrazzo.
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Nel giardino.
+End
+

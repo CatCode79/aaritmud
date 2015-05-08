@@ -1,0 +1,28 @@
+FunName:    social_puzzled
+Intention:  INTENTION.NEUTRAL
+Expression: perplesso
+Smiles:     :| :-|
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Schiudi le labbra e stringi gli occhi in maniera perplessa..
+  OthersNoArg: $n schiude le labbra e stringe gli occhi perplessamente.
+  EntityFound: Guardi $N esprimendo ampiamente la tua perplessità..
+  OthersFound: $n comunica con uno sguardo eloquente la sua perplessità a $N.
+  TargetFound: $n ti comunica la sua perplessità con uno sguardo eloquente..
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Ti guardi attorno perpless$o, leccandoti le vibrisse di quando in quando.
+  OthersNoArg: $n si guarda attorno perpless$o leccandosi le vibrisse.
+  EntityFound: Guardi $N drizzando le orecchie, sei piuttosto perpless$o.
+  OthersFound: Guarda $N drizzando le orecchie, sembra piuttosto perpless$O.
+  TargetFound: $n ti guarda drizzando le orecchie ed assumendo un'espressione decisamente perplessa.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Ti guardi attorno perpless$o, leccandoti le vibrisse di quando in quando.
+  OthersNoArg: $n si guarda attorno perpless$o leccandosi le vibrisse.
+  EntityFound: Guardi $N drizzando le orecchie, sei piuttosto perpless$o.
+  OthersFound: Guarda $N drizzando le orecchie, sembra piuttosto perpless$O.
+  TargetFound: $n ti guarda drizzando le orecchie ed assumendo un'espressione decisamente perplessa.
+End

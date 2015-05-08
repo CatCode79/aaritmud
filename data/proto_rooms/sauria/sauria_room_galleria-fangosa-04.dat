@@ -1,0 +1,35 @@
+Comment: 85 1|8|256 0 2
+Code: sauria_room_galleria-fangosa-04
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: Galleria Fangosa
+Short: galleria fangosa
+
+Descr:
+La via prosegue lungo una galleria che passa dietro alla cascata. Le pareti sono viscide e ricoperte di alghe. Dal basso sembra provenire una timida luminosità. 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21803
+  Descr:	Slargo viscido
+  Direction:	DIR.WEST
+End
+Exits:
+  Comment:	0 -1 21805
+  Descr:	Galleria fangosa
+  Direction:	DIR.DOWN
+End

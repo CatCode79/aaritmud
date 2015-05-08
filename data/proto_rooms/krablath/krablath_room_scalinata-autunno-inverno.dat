@@ -1,0 +1,40 @@
+Code: krablath_room_scalinata-autunno-inverno
+Sector: SECTOR.TERRACE
+Name: [white]La Scalinata[close] 
+Short: [white]la scalinata[close]
+
+Descr:
+Una doppia scalinata in pietra bianca connette il giardino ad una terrazza sopraelevata; gli scalini sono costellati di piccoli [tan]mucchietti[close] di [tan]muschio[close] e il corrimano avvolto d'[darkgreen]edera[close] ricolma di [darkslateblue]frutti.[close]
+DescrSmell: 
+Le mille fragranze del giardino si mischiano a formare un profumo inebriante.
+DescrHearing:
+Il muschio secco scricchiola calpestato dai tuoi $feet.
+
+Extras:
+	Keywords:	edera frutti
+	Descr:
+        I rami d'edera in questo periodo dell'anno si piegano ulteriormente sotto il peso di grossi grappoli di [darkslateblue]bacche scure[close]. 
+	DescrSixth:
+	Sono talmente tanti che di certo nessuno si accorgerebbe se ne prendessi qualcuno.
+End
+Width:	3m
+Depth:	4m
+Height: 200m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Al terrazzo.
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Nel giardino.
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Al terrazzo.
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Nel giardino.
+End
+

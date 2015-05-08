@@ -1,0 +1,45 @@
+Code: elizor_room_piazza-fontana
+Sector: SECTOR.CITY
+Name: La Piazza Centrale
+Short: la piazza centrale
+
+Descr:
+La piazza soffocata da un'economia in espansione vede ritagliati pochi spazi liberi che non siano occupati da mercanti e negozi.
+A raggiera, seguendo il bordo della fontana non si vedono che commerci intramezzati dalle quattro direttrici principali a collegare la città con le sue brulicanti periferie.
+DescrTouch: 
+no_send
+DescrSmell: 
+Arduo il mestiere di chi lavora con l'olfatto in questa piazza calderone e campionario disordinato di tutte le essenze, gli effluvi e le impronte pestilenziali della città.
+Di certo in questo snodo confluisce di tutto.
+DescrHearing:
+Ha certo una connotazione mistica il fatto di poter sentire lo scroscio dell'acqua di una fontana nella feroce confusione che regna ai suoi piedi.
+DescrTaste:
+La lingua che sporge per poco tempo qui e niente sarà più come prima.
+Un acre sublimato del sudore di ogni creatura arriva ai tuoi gangli più privati convincendoti ancor di più di non voler reiterare l'esperienza.
+
+DescrSixth:
+A raggiera, seguendo il bordo della fontana, non si vedono che commerci intramezzati dalle quattro direttrici principali che conducono nuova sconsolata miseria in chi già non ne sa uscire. Portano invece abbondante profitto nelle tasche delle eminenze grige della zona.
+In questo ritratto a tinte fosche emerge in modo circospetto tutta una classe di arrivisti dell'ultima ora e scaltri sciacalli rotti a qualunque esperienza.
+La chiave per non rimanere scottati in questi anfratti consiste nel imparare a riconoscere quali categorie rispettare, quali evitare ma soprattutto quali categorie sfruttare.
+
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	La direttrice nord-sud
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	La via verso est
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	La direttrice nord-sud
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	La direttrice ovest
+End

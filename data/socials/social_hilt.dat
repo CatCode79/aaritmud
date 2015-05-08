@@ -1,0 +1,42 @@
+FunName:    social_hilt
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Stringi la presa sulla tua arma, pront$o a combattere.
+  OthersNoArg: $n stringe la presa sulla sua arma, pront$o a combattere.
+  EntityFound: Stringi l'elsa della tua spada, fissando $N con aria di sfida.
+  OthersFound: $n stringe l'elsa della spada, fissando $N con aria di sfida.
+  TargetFound: $n stringe l'elsa della spada, fissandoti con aria di sfida.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Afferro con decisione la tua arma: se proprio si deve...
+  OthersNoArg: $n afferra con poca convinzione e con aria depressa la sua arma.
+  EntityFound: Se $N ti vuole male sei pront$o a difenderti. Però che tristezza!
+  OthersFound: $n si mette sulla difensiva nei confronti di $N.
+  TargetFound: Sembra che il solo pensiero di difendersi da te metta tristezza a $n.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Porti istintivamente la $hand all'impugnatura dell'arma.
+  OthersNoArg: La $hand di $n saetta verso l'impugnatura dell'arma.
+  EntityFound: Fisso $N con aria di sfida mentre la tua $hand saetta sull'arma.
+  OthersFound: $n fissa $N con aria di sfida mentre la sua $hand saetta sull'arma.
+  TargetFound: La $hand di $n vola veloce sull'arma mentre ti fissa con aria di sfida.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Stringi l'elsa della tua arma con fare guardingo.
+  OthersNoArg: $n non sembra seren$o, sta stringendo l'elsa della sua arma.
+  EntityFound: Stringi l'elsa della tua arma fissando $N.
+  OthersFound: $n stringe fra le zampe l'elsa dell'arma, rivolta verso $N.
+  TargetFound: $n ti guarda e stringe fra le zampe l'elsa della sua arma.. Che intenzioni avrà?
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Stringi l'elsa della tua arma con fare guardingo.
+  OthersNoArg: $n non sembra seren$o, sta stringendo l'elsa della sua arma.
+  EntityFound: Stringi l'elsa della tua arma fissando $N.
+  OthersFound: $n stringe fra le zampe l'elsa dell'arma, rivolta verso $N.
+  TargetFound: $n ti guarda e stringe fra le zampe l'elsa della sua arma.. Che intenzioni avrà?
+End

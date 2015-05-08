@@ -1,0 +1,56 @@
+Code: karpuram_room_secolare-02
+Sector: SECTOR.PLAIN
+Name: Ai Piedi di una Scala di Legno
+Short: ai piedi di una scala
+
+Descr:
+Camminando a sud e mantenendo alla tua sinistra l'albero secolare, ti ritrovi
+infine di fronte a una lunga e larga scala ricavata da pezzi di legno di
+pregiata fattura. Questa è fermata al grande tronco da una serie di corde e
+liane vegetali che la sorreggono. Non sono presenti chiodi o fermi di altro tipo
+per rammentare a tutti che siamo di fronte a una creatura vivente e senziente
+di straordinaria bellezza. Guardando verso l'alto riesci a notare che la scala
+si perde tra le lontane fronde della maestosa chioma. Procedendo in alto
+noti una prima piattaforma, mentre volgendo lo sguardo ad ovest puoi tornare
+alle grandi radici sporgenti.
+
+DescrNight:
+Camminando a sud e mantenendo alla tua sinistra l'albero secolare, ti ritrovi
+infine di fronte a una lunga e larga scala ricavata da pezzi di legno di
+pregiata fattura. Questa è fermata al grande tronco da una serie di corde e
+liane vegetali che la sorreggono, in terra vi sono due fiaccole che illuminano
+i primi scalini. Non sono presenti chiodi o fermi di altro tipo per rammentare a
+tutti che siamo di fronte a una creatura vivente e senziente di straordinaria 
+bellezza. Guardando verso l'alto riesci a notare che la scala si perde tra le 
+lontane fronde della maestosa chioma. Procedendo in alto noti una prima 
+piattaforma, mentre volgendo lo sguardo ad ovest puoi tornare alle grandi radici
+sporgenti.
+
+DescrSixth:
+Soffermandoti ad osservare la maestosità di questa antica creatura e della sua
+prorompente presenza, noti un lieve segno in prossimità dell'erba che circonda
+il tronco.
+
+Extras:
+	Keywords: segno
+	Descr: Si tratta di una [white]linea[close] posizionata perfettamente
+in verticale rispetto al terreno.	
+End
+ 
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.UP
+  Descr: La prima piattaforma
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Intorno all'albero
+End
+Exits:
+  Direction: DIR.DOWN
+  Descr: Sotto le radici
+End

@@ -1,0 +1,39 @@
+Code: villaggio-zingaro_room_generatore-esserini
+Sector: SECTOR.VOID
+Name: generatore-esserini
+Short: generatore-esserini
+
+Descr:
+In questa room poppano gli esserini.
+Ci sono 4 uscite 3 che tornano su loro stesse e 1 che esce davvero.
+L'uscita down è sola andata e fatta in modo che gli esserini sembra
+provengano da un muro di siepi che è nella room di destinazione.
+Gli esserini hanno anche addosso uno script che li fa sparire dopo un certo tempo.
+Tutto ciò per simulare un flusso di bestiole uscenti di continuo.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Sempre qui
+  Destination: 42 42 42 villaggio-zingaro
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Sempre qui
+  Destination: 42 42 42 villaggio-zingaro
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Sempre qui
+  Destination: 42 42 42 villaggio-zingaro
+End
+Exits:
+  Direction: DIR.DOWN
+  Descr: Verso l'RPG
+  Destination: -1 0 0 villaggio-zingaro
+  OthersInMessage: $n esce dal $a buttandosi $A.
+  OthersOutMessage: $n sbuca dalla [palegreen]parete di rovi[close].
+End

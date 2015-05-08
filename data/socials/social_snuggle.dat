@@ -1,0 +1,90 @@
+FunName:    social_snuggle
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Ti accovacci di scatto.
+  OthersNoArg: $n si accovaccia piegandosi sulle ginocchia.
+  EntityFound: Ti accovacci su $N.
+  OthersFound: $n si accovaccia su $N.
+  TargetFound: $n si accovaccia su di te.
+End
+RacialMessages:
+  Race:        RACE.HIGHELF
+  EntityNoArg: Ti pieghi sulle ginocchia.
+  OthersNoArg: $n si piega sulle ginocchia.
+  EntityFound: Ti pieghi sulle ginocchia accanto a $N.
+  OthersFound: $n si piega sulle ginocchia accanto a $N.
+  TargetFound: $n si piega sulle ginocchia accanto a te.
+End
+RacialMessages:
+  Race:        RACE.DWARF
+  EntityNoArg: Ti accovacci di scatto.
+  OthersNoArg: $n si accovaccia piegandosi sulle corte gambe.
+  EntityFound: Ti accovacci su $N.
+  OthersFound: $n si accovaccia su $N.
+  TargetFound: $n si accovaccia su di te, pungendoti con la sua barba.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Pieghi le gambe e ti rannicchi in volo.
+  OthersNoArg: $n si contrae di scatto.
+  EntityFound: no_send
+  OthersFound: no_send
+  TargetFound: no_send
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Ti accovacci repentinamente.
+  OthersNoArg: $n si accovaccia guarding$o, piegandosi sulle ginocchia.
+  EntityFound: Ti accovacci con freddezza su $N.
+  OthersFound: $n si accovaccia su $N con sprezzante distacco.
+  TargetFound: $n si accovaccia su di te, fissandomi con sguardo gelido.
+End
+RacialMessages:
+  Race:        RACE.THEPA
+  EntityNoArg: Ti accovacci di scatto.
+  OthersNoArg: $n si accovaccia sibilando sulle ginocchia.
+  EntityFound: Ti accovacci sibilando su $N.
+  OthersFound: $n si accovaccia su $N.
+  TargetFound: $n si accovaccia su di te.
+End
+RacialMessages:
+  Race:        RACE.MINOTAUR
+  EntityNoArg: Ti accovacci di scatto sulle zampe.
+  OthersNoArg: $n si accovaccia piegandosi sulle possenti zampe.
+  EntityFound: Ti accovacci pesantemente su $N.
+  OthersFound: $n si accovaccia pesantemente su $N.
+  TargetFound: $n si accovaccia pesantemente su di te.. HHOOFFF!
+End
+RacialMessages:
+  Race:        RACE.ORC
+  EntityNoArg: Ti accovacci di scatto.
+  OthersNoArg: $n si accovaccia piegandosi sulle ginocchia con malagrazia.
+  EntityFound: Ti accovacci prepotentemente su $N.
+  OthersFound: $n si accovaccia prepotentemente su $N.
+  TargetFound: $n si accovaccia su di te senza chiedere il permesso.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Ti accovacci di scatto sulle zampe.
+  OthersNoArg: $n si accovaccia con scatto felino.
+  EntityFound: Ti accovacci su $N morbidamente.
+  OthersFound: $n si accovaccia morbidamente su $N.
+  TargetFound: $n si accovaccia morbidamente su di te.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Ti accovacci di scatto sulle zampe.
+  OthersNoArg: $n si accovaccia con scatto felino.
+  EntityFound: Ti accovacci su $N morbidamente.
+  OthersFound: $n si accovaccia morbidamente su $N.
+  TargetFound: $n si accovaccia morbidamente su di te.
+End
+RacialMessages:
+  Race:        RACE.ARIAL
+  EntityNoArg: Ti accovacci di scatto chiudendoti nelle ali.
+  OthersNoArg: $n si accovaccia proteggendosi con le ali.
+  EntityFound: Ti accovacci su $N avvolgendol$o con le tue ali.
+  OthersFound: $n si accovaccia su $N avvolgendol$o con le sue ali.
+  TargetFound: $n si accovaccia su di te avvolgendoti con le sue ali.
+End

@@ -1,0 +1,46 @@
+Comment:
+Da alcune fonti scritte ho trovato che in alcune lingua gitane Luvvo si riferisce in modo non gergale al denaro e dinnilos dovrebbe essere l'equivalente di matto (inteso più come crazy che come mad). 
+Code: villaggio-zingaro_room_oreficeria-01
+Sector: SECTOR.SHOP
+Flags:	ROOM.INSIDE
+Name: L'Oreficeria di Dinnilos Luvvo
+Short: l'oreficeria
+
+Descr:
+Un ambiente a pianta rettangolare tutto edificato in pietra lucida e riflettente. In ciascuno dei quattro angoli in alto è disposta una fonte di luce. Quello che non fa la luce esterna lo fanno qui queste quattro fonti artificiali.
+Diversi poderosi [slategray]espositori[close] in legno e vetro sono disposti sulle uniche due pareti prive di un'uscita.
+A terra un pavimento in legno fatto di assi massicce.
+
+DescrSmell: 
+Fievole l'odore di bruciato copre altri odori altrettanto aggressivi e secchi.
+DescrHearing:
+Ogni tanto si sente uno sferragliare proveniente dalla stanza di là.
+DescrHearingNight:
+Non si sente nulla di particolare se non gli onnipresenti segnali della notte.
+
+Extras:
+	Keywords: espositore
+	Descr:
+	Uno degli espositori mette in mostra un'interminabile sfilza d'anelli grezzi di vari colori.
+
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.WEST
+	Descr: Uno stanzino
+End
+Exits:
+	Direction: DIR.EAST
+	Descr: All'esterno
+        Door: villaggio-zingaro_item_door-porta-oreficeria
+End
+Exits:
+	Direction: DIR.DOWN
+	Descr: Un passaggio nascosto
+	Door: villaggio-zingaro_item_botola-oreficeria
+	EntityMessage: [palegoldenrod]Non appena ti cali nella botola una candela si accende.[close]
+End

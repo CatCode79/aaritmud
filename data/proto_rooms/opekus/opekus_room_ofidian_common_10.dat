@@ -1,0 +1,28 @@
+Code: opekus_room_ofidian_common_10
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Il Corridoio d'Ardesia
+Short: un corridoio nero
+
+Descr:
+Ti trovi in un ampio passaggio sotterraneo fiancheggiato da pareti in muratura realizzate
+con pietre chiare. Nonostante l'irregolarità delle singole pietre, ai muri è stata
+conferita una mirabile precisione. Ad un tratto, il corridoio ha una piega a gomito oltra
+la quale prosegue identico a sé stesso.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Il corridoio
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Una salone
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Il corridoio
+End

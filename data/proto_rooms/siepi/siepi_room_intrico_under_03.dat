@@ -1,0 +1,21 @@
+Code: siepi_room_intrico_under_03
+Sector: SECTOR.UNDERGROUND
+Name: All'Uscita della Caverna
+Short: l'estremità esterna della caverna
+Descr:
+Un ripido pendio dall'esterno porta nelle profondità del terreno in direzione ovest.
+Le pareti rocciose sono rossastre e sporche di terra umidiccia.
+
+Width:	7m
+Depth:	7m
+Height: 15m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Verso l'esterno
+  Destination: 2 -4 0 opekus
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: La via verso l'interno
+End

@@ -1,0 +1,44 @@
+Code: ikea_room_store-000
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Store-000
+Short: store-000
+
+Descr:
+Magazzino Ikea, arredamento in corso. Per soli 2 Euro ci scusiamo con la clientela; accorrete numerosi.
+La stanza viene rimessa in ordine al minuto 42 di ogni ora.
+La porta a sud è caricata in questa room.
+Extras:
+	Keywords: chiave
+	Descr:
+	Nessuna chiave qui
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Magazzino ikea - reparto Giardinaggio
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Magazzino ikea - reparto Equipaggiamento
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Magazzino ikea - zecca del Nakilen
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Magazzino ikea - reparto alimentari
+End
+Exits:
+  Direction: DIR.DOWN
+  Descr: Magazzino ikea - reparto arredamenti
+End
+Exits:
+	Direction: DIR.UP
+	Descr: Altroquando
+End

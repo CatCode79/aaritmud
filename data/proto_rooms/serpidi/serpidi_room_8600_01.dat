@@ -1,0 +1,21 @@
+Code: serpidi_room_8600_01
+Sector: SECTOR.PLATEAU
+Flags:	ROOM.SILENCE
+
+Name: Verso Una Piccola Radura. 
+Short: Verso una piccola radura. 
+Descr: 
+Il sentiero prosegue snello e lentamente ti ritrovi a procedere verso una verde radura. 
+Exits:
+	Direction: DIR.NORTH
+	Destination: 0 1 0 serpidi
+End
+Exits:
+	Direction: DIR.SOUTHWEST
+	Destination: 1 -1 0 opekus
+End
+
+
+Width:	1m
+Depth:	2m
+Height:	2m

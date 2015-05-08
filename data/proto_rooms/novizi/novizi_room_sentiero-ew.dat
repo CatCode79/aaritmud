@@ -1,0 +1,26 @@
+Code: novizi_room_sentiero-ew
+Sector: SECTOR.PATH
+Name: Un Sentiero Bucolico
+Short: un sentiero
+Descr:
+	Il sentiero principia qui ad est, all'estrema propaggine d'un cortile.
+	La vegetazione curiosa si affaccia dai margini collocando il sentiero
+	in un tunnel coperto.	
+ 
+Width:	200m
+Depth:	5m
+Height: 100m
+
+
+Exits:
+	Direction: DIR.EAST
+	Descr: Un cortile
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: Un sentiero
+End
+Exits:
+	Direction: DIR.SOUTH
+	Descr: Un sentiero
+End

@@ -1,0 +1,38 @@
+Code: ikea_room_store-plants-001
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Reparto Giardinaggio
+Short: reparto giardinaggio - pomodoro
+
+Descr:
+Magazzino Ikea, Reparto [aqua]Giardinaggio[close];
+arredamento in corso. Per soli 2 Euro ci scusiamo con la clientela; accorrete numerosi.
+La stanza viene rimessa in ordine al minuto 42 di ogni ora.
+Un cartello dice "Pomodoro Nakilense".
+
+Extras:
+	Keywords: cartello
+	Descr:
+	Pomodoro Nakilense
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Al centro del magazzino
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Prosegue il reparto piante
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Magazzino ikea
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Magazzino ikea
+End

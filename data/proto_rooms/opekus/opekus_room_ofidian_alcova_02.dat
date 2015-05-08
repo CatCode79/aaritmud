@@ -1,0 +1,25 @@
+Code: opekus_room_ofidian_alcova_02
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: L'Alcova Lapidea
+Short: un'alcova
+
+Descr:
+Una sorta di lungo corridoio prende la via dalla parete destra della cattedrale e si
+sviluppa nella nuda roccia curvando su un lato; è scavato in modo sommario e meno
+preciso di tutto il resto dell'edificio. Si tratta di un luogo in cui lastre di pietra
+verde sono disposte a coppie ai lati del camminamento. In totale vi saranno meno di un
+centinaio di pietre.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Verso il corpo centrale della cattedrale
+End
+Exits:
+  Direction: DIR.SOUTHEAST
+  Descr: Un camminamento
+End

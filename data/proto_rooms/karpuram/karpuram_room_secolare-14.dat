@@ -1,0 +1,46 @@
+Code: karpuram_room_secolare-14
+Sector: SECTOR.PLAIN
+Name: Un Posto di Blocco
+Short: un posto di blocco
+
+Descr:
+La stanza è molto semplice e presenta un corrimano di corda ben teso, assi di
+scuro legno fermati tra loro tramite alcune travi di ferro e lampade ora
+spente poste in modo alternato tra loro per garantire la giusta visibilità
+durante la notte. La stanza è divisa perfettamente a metà da una grossa lastra
+di ferro che ti blocca la vista, davanti ad essa vi sono quattro elfi molto 
+alti posti a difesa del muro di ferro. Questi elfi indossano un'armatura
+completa di maglia elfica, brandiscono un largo scudo rettangolare e non 
+sembrano per nulla contenti della tua presenza.
+
+DescrNight:
+La stanza è molto semplice e presenta un corrimano di corda ben teso, assi di
+scuro legno fermati tra loro tramite alcune travi di ferro e lampade ora
+spente poste in modo alternato tra loro per garantire la giusta visibilità
+durante la notte. La stanza è divisa perfettamente a metà da una grossa lastra
+di ferro che ti blocca la vista, davanti ad essa vi sono quattro elfi molto 
+alti posti a difesa del muro di ferro. Questi elfi indossano un'armatura
+completa di maglia elfica, brandiscono un largo scudo rettangolare e non 
+sembrano per nulla contenti della tua presenza.
+
+DescrSixth:
+Un senso di paura e preoccupazione ti coglie impreparato, la motivazione
+però di questo tuo stato è rivolta al fatto che queste guardie non sembrano
+per nulla intimorite dalla tua presenza.
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: Un secondo magazzino
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Una piattaforma di passaggio
+End
+Exits:
+  Direction: DIR.UP
+  Descr: Il quarto ballatoio
+End

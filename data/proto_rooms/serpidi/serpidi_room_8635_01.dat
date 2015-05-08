@@ -1,0 +1,20 @@
+Code: serpidi_room_8635_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: Un antico posto di guardia 
+Short: Un antico posto di guardia 
+Descr: 
+Questo era il posto di guardia per la sorveglianza dell'entrata al livello sotterraneo dei serpidi. Un tavolaccio di pietra è accostato ad un angolo, e da una strana torcia si diffonde una debole e tremolante luce. È subito evidente che nonostante debba essere passato molto tempo da quando l'ultimo visitatore si è affacciato in questa caverna, la sorveglianza non è stata allentata. 
+Exits:
+	Direction: DIR.NORTH
+	Destination: 2 4 -2 serpidi
+End
+Exits:
+	Direction: DIR.WEST
+	Destination: 1 3 -2 serpidi
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

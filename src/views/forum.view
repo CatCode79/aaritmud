@@ -1,0 +1,37 @@
+<h3>Benvenuto nel Forum di ${mud_name}</h3>
+<div class="half_block">
+	<div class="block_title"><div style="float:left">Forum di voi Giocatori</div><div style="text-align:right; position:relative; left:-1em;">Ultimo Messaggio</div></div>
+	<div class="block_text">
+		<table rules="rows">
+		${player_forums}
+		</table>
+	</div>
+</div><br>
+<br>
+<!--div class="half_block">
+	<div class="block_title"><div style="float:left">Forum di Clan, Gilde e Cabale</div><div style="text-align:right; position:relative; left:-1em;">Ultimo Messaggio</div></div>
+	<div class="block_text">
+		<table rules="rows">
+		${clan_forums}
+		</table>
+	</div>
+</div><br>
+<br-->
+<div class="half_block">
+	<div class="block_title"><div style="float:left">Forum degli Amministratori</div><div style="text-align:right; position:relative; left:-1em;">Ultimo Messaggio</div></div>
+	<div class="block_text">
+		<table rules="rows">
+		${admin_forums}
+		</table>
+	</div>
+</div><br>
+<br>
+<div class="half_block">
+	<div class="block_title">Statistiche del Forum</div>
+	<div class="block_text">
+		Ci sono attualmente ${total_counter} utenti online. ${user_counter} utenti e ${guest_counter} ospiti.<br>
+		<!--Il numero massimo di utenti online è stato di ${maximal_user}, il {maximal_pretty_date}.<br>-->
+		Discussioni: ${thread_counter} &nbsp; Messaggi: ${post_counter} &nbsp; Utenti: ${user_counter} &nbsp; Utenti Attivi: ${active_counter}<br>
+		Benvenuto al nostro nuovo utente, ${last_user}!<br>
+	</div>
+</div><br>

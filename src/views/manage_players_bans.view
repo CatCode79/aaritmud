@@ -1,0 +1,13 @@
+<center><h3>GESTIONE DELLE PUNIZIONI:</h3></center>
+[white]Aggiungi una Punizione:[close]<br>
+<table>
+<tr><td>Giocatore:</td><td><select id="player">${player_options}</select></td></tr>
+<tr><td>Per # giorni:</td><td><select id="day">${day_options}</select></td></tr>
+<tr><td>Motivo ${reason_tooltip}:</td><td><textarea id="reason" rows="5" cols="50"></textarea></td></tr>
+<tr><td>Commento ${comment_tooltip}:</td><td><textarea id="comment" rows="5" cols="50"></textarea></td></tr>
+</table>
+PS: Nonstante che il ban, per comodità, venga assegnato al personaggio la punizione verrà inflitta a livello di account, cioè a tutti i giocatori dell'account del giocatore scelto.<br>
+<br>
+<hr>
+<br>
+${player_bans}<br>

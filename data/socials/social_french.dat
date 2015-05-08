@@ -1,0 +1,36 @@
+FunName:    social_french
+Intention:  INTENTION.FRIENDLY
+Expression: baciando appassionatamente
+Smiles:     :** :-**
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Mhh per chi è questo bacio?
+  OthersNoArg: $n ha uno strano sguardo da maniac$o..
+  EntityFound: Socchiudi gli occhi avvicinandomi a $N prendendo la sua bocca in un lungo e appassionato bacio.
+  OthersFound: $n socchiude gli occhi baciando $N appassionatamente.
+  TargetFound: $n socchiude gli occhi unendo le sue labbra alle tue in un lento e appassionato bacio..
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Chi e perché dovresti baciare in questo modo?
+  OthersNoArg: Lo sguardo di $n si fa via via più lascivo.
+  EntityFound: Baci appassionatamente e con trasposrto fin quasi eccessivo.
+  OthersFound: $n bacia con passione inusitata $N, quasi sospetta.
+  TargetFound: $n ti bacia con tanto calore da essere quasi sospetto.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Non è ancora il tempo dei calori, datti una calmata.
+  OthersNoArg: $n sembra piuttosto agitat$o.. Sarà il periodo dei calori?
+  EntityFound: Stringi $N a te baciando$GLI le labbra ed il collo con selvaggia passione .
+  OthersFound: $n stringe $N a sé baciando$GLI le labbra ed il collo con passione selvaggia.
+  TargetFound: $n ti stringe a sé baciandoti le labbra e mordicchiandoti il collo con selvaggia passione..
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Non è ancora il tempo dei calori, datti una calmata.
+  OthersNoArg: $n sembra piuttosto agitat$o.. Sarà il periodo dei calori?
+  EntityFound: Stringi $N a te baciando$GLI le labbra ed il collo con selvaggia passione .
+  OthersFound: $n stringe $N a sé baciando$GLI le labbra ed il collo con passione selvaggia.
+  TargetFound: $n ti stringe a sé baciandoti le labbra e mordicchiandoti il collo con selvaggia passione..
+End

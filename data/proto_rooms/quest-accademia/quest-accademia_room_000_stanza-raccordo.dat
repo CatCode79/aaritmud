@@ -1,0 +1,111 @@
+Code:	quest-accademia_room_000_stanza-raccordo
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Stanza di Raccordo
+Short:	stanza di raccordo
+Descr:
+	Stanza di raccordo.
+
+
+Width:	6m
+Depth:	6m
+Height:	3m
+
+Exits:
+	Direction:	DIR.DOWN
+	Descr:	Uscita
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

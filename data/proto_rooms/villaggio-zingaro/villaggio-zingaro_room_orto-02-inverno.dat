@@ -1,0 +1,36 @@
+Code: villaggio-zingaro_room_orto-02-inverno
+Sector: SECTOR.FARMLAND
+Name: L'Orto Comune 
+Short: un orto
+
+Descr:
+L'interno della serra; le pareti sono state realizzate unendo tra loro vari pezzi, di diverse forme e dimensioni, di un materiale flessibile e traslucido. Il tutto e stato eretto grazie a tubi metallici tenuti insieme con del robusto fil di ferro. Il terreno è ordinatamente [saddlebrown]ripartito[close] in più settori ed in alcuni noti rigogliosi vegetali. In un angolo vedi grosso [darkgray]pezzo[close] di [darkgray]lamiera[close] ondulata che sembra ricoprire qualcosa.
+DescrTouch: 
+Affondi le $hands nella [saddlebrown]terra[close] scura insozzandole tutte.
+DescrSmell: 
+Una leggera brezza porta un lieve fetore di marciume.
+DescrHearing:
+Avverti un lontano gracchiare di uccelli.
+DescrTaste:
+Porti alla bocca una manciata di terra e sa di..terra, strano vero?!
+DescrSixth:
+Nonostante sia piuttosto rudimentale questa serra sembra piuttosto stabile ed è un ottimo metodo per avere verdure fresche tutto l'anno!
+
+Width:	6m
+Depth:	6m
+Height: 2m
+Exits:
+	Direction: DIR.WEST
+	Descr: L'orto
+End
+Exits: 
+	Direction: DIR.DOWN
+	Descr: Una fossa fetente
+	EntityMessage: Qualcosa ti fa scivolare e finisci in $N.
+	OthersInMessage: Qualcosa fa scivolare $n che finisce in $N.
+	OthersOutMessage: $n cade dall'alto finendoti quasi addosso.
+End
+Exits:
+	Direction:	DIR.NORTHWEST
+	Descr:	La strada
+End

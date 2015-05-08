@@ -1,0 +1,39 @@
+Comment: 85 0 3
+Code: sauria_room_palude-08
+Sector: SECTOR.SWAMP
+Name: La palude
+Short: la palude
+
+Descr:
+Yep... sei finito in una palude! Ci son Zanzare GROSSE come pugni e dalle punture decisamente preoccupanti.
+DescrTouch: 
+Fai inutili stragi di zanzare agitando le braccia con l'unico effetto di stancarti e di giustificare la loro furia vendicativa.
+DescrSmell: 
+Gli odori qui si smarcano dalla sulfurea prevaricazione proveniente da ovest per spostarsi verso orizzonti più da pesce marcio.
+DescrSixth:
+Un prelievo di sangue così ingente come quello che ti riservano qui le zanzare potrebbe essere mortale per avventurieri meno massicci di te.
+DescrHearing:
+Bzzzz... Zzzzzzz... Zz... Zz... Zzzzzzzzzzzzzzzzz...
+Uhm... zanzare si direbbe.
+DescrTaste:
+Difficile respirare e non assaggiare zanzare anche tenendo la $hand sulla bocca; non che abbian un sapore così repellente.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21813
+  Descr:	Palude
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 -1 21809
+  Descr:	Sponda del lago
+  Direction:	DIR.EAST
+End
+Exits:
+  Comment:	0 -1 21807
+  Descr:	Palude
+  Direction:	DIR.WEST
+End

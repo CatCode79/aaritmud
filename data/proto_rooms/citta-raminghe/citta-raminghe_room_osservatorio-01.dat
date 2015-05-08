@@ -1,0 +1,35 @@
+Code: citta-raminghe_room_osservatorio-01
+Sector: SECTOR.CITY
+Name: [mediumblue]La Stanza del Telescopio[close]
+Short: [mediumblue]una sala con al centro un potente telescopio[close]
+
+Descr:
+Un [orangered]potente telescopio[close] è al centro della stanza circolare. 
+In alto un immenso [yellow]lucernario cupoliforme[close] si apre all'occorrenza 
+con un meccanismo complesso. Adesso è chiuso ed i vetri trasparenti, ma spessi,
+consentono ai raggi del sole di entrare illuminando la sala con una luce calda e intensa. Le pareti sono tappezzate da diverse 
+[cornflowerblue]carte celesti[close]: alcune sono dei [violet]planisferi[close] che rappresentano l'intera volta celeste, 
+altre invece riportano le singole costellazioni.
+DescrNight:
+Un [orangered]potente telescopio[close] è al centro della stanza circolare. 
+In alto un immenso [dodgerblue]lucernario cupoliforme[close] è aperto così che
+alzando lo sguardo puoi perderti nel cielo notturno. 
+Un incantevole e infinito [yellow]cielo stellato[close] è proprio lì che 
+cattura il tuo sguardo curioso.
+DescrSmell: 
+Non avverti alcun odore particolare
+DescrSixth:
+È un luogo in cui ci si sente come sospesi tra la Terra e il Cielo.
+DescrHearing:
+Ascolti il ritmo del tuo respiro e del tuo cuore sino a che diventa emozione.
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.DOWN
+	Descr: La Stanza degli Strumenti
+End
+

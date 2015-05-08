@@ -1,0 +1,44 @@
+FunName:    social_happy
+Intention:  INTENTION.FRIENDLY
+Expression: felice
+Smiles:     :)) :-))
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Sorridi con gioia.
+  OthersNoArg: $n sorride gioiosamente.
+  EntityFound: Sorridi a $N gioiosamente.
+  OthersFound: $n sorride gioiosamente a $N.
+  TargetFound: $n ti rivolge con gioia un sorriso.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: La tua gioia è incontenibile.
+  OthersNoArg: La risata di $n diffonde un senso di piena e viva soddisfazione.
+  EntityFound: Dedichi a $N una risata cristallina.
+  OthersFound: $n comunica a $N la sua gioia con una risata argentina.
+  TargetFound: $n ride gioios$o.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Simuli gioia e felicità.
+  OthersNoArg: $n simula gioia e felicità senza troppa convinzione.
+  EntityFound: Cerchi di distrarre $N simulando gioia e felicità.
+  OthersFound: $n cerca di circuire $N simulando gioia e felicità.
+  TargetFound: $n ostenta gioia e felictà in modo alquanto sospetto.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Zompetti allegramente tutt'intorno.
+  OthersNoArg: $n manifesta la sua gioia, zompettando allegramente.
+  EntityFound: Zompetti allegramente tutt'intorno a $N.
+  OthersFound: $n si struscia contro $N gioiosamente.
+  TargetFound: $n ti si struscia contro manifestandoti la sua gioia.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Zompetti allegramente tutt'intorno.
+  OthersNoArg: $n manifesta la sua gioia, zompettando allegramente.
+  EntityFound: Zompetti allegramente tutt'intorno a $N.
+  OthersFound: $n si struscia contro $N gioiosamente.
+  TargetFound: $n ti si struscia contro manifestandoti la sua gioia.
+End

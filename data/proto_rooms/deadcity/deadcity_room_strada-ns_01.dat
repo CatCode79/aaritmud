@@ -1,0 +1,36 @@
+Code: deadcity_room_strada-ns_01
+Sector: SECTOR.CITY
+Name: Una Strada Vuota
+Short: una strada
+
+Descr:
+Disposti lungo un interminabile monotono rettilineo vi sono edifici altrettanto degni
+di menzione. Qui tutto pare abbandonato da anni e probabilmente nessuno passa da anni
+per queste zone. Fatta forse eccezione per l'edificio a nordovest qui nulla attira il
+tuo interesse.
+
+DescrSmell: 
+Forse hai le allucinazioni o forse no, ma qui attorno si sentono odori vegetali troppo
+freschi per il contesto in cui sei finit$o.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: In strada
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: In strada
+End
+Exits:
+  Direction: DIR.NORTHWEST
+  Descr: Un negozio
+  Destination: 9 1 1 karpuram
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Un vecchio edificio
+End

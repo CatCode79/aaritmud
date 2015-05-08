@@ -1,0 +1,44 @@
+FunName:    social_superb
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Sghignazzi esclamando: 'Eccellente. Avanti così!'
+  OthersNoArg: $n sogghigna esclamando: 'Eccellente. Avanti così!'
+  EntityFound: Sghignazzi verso $N bisbigliando: 'Eccellente. Avanti così!'
+  OthersFound: $n sghignazza verso $N bisbigliando: 'Eccellente. Avanti così!'
+  TargetFound: $n sghignazza verso di te bisbigliandoti: 'Eccellente. Avanti così!'
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Riconosci che è veramente eccellente.
+  OthersNoArg: $n si lascia andare a smodare manifestazioni di entusiasmo.
+  EntityFound: Comunichi a $N che trovi il suo operato splendido.
+  OthersFound: $n fa mille complimenti a $N per il suo operato.
+  TargetFound: $n manifesta un genuino ma eccessivo gaudio per il tuo operato.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Un lavoro decisamente superbo.
+  OthersNoArg: Si intuisce che $n lo ritiene un lavoro superbo.
+  EntityFound: $N ha fatto decisamente un buon lavoro.
+  OthersFound: Si intuisce che $n ritiene superbo il lavoro di $N.
+  TargetFound: Intuisci che $n lo ritiene un lavoro superbo.
+  EntityAuto:  Ti sfreghi le $hands incapace di contenere l'apprezzamento.
+  OthersAuto:  $n si sfrega le $hands per per il superbo lavoro.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Annuisci con il capo.. Eccellente!
+  OthersNoArg: $n sembra estremamente soddisfatt$o.
+  EntityFound: Fissi $N con superba alterigia.
+  OthersFound: $n fissa $N con superba alterigia.
+  TargetFound: $n ti fissa con superba alterigia.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Annuisci con il capo.. Eccellente!
+  OthersNoArg: $n sembra estremamente soddisfatt$o.
+  EntityFound: Fissi $N con superba alterigia.
+  OthersFound: $n fissa $N con superba alterigia.
+  TargetFound: $n ti fissa con superba alterigia.
+End

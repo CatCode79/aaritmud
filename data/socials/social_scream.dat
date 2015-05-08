@@ -1,0 +1,44 @@
+FunName:    social_scream
+Intention:  INTENTION.AGGRESSIVE
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: urli: 'ARRRRRRRRRRGH!!!!!'
+  OthersNoArg: $n urla ad alta voce: 'AAARRRGHHHH!!!!'
+  EntityFound: Urli rivolt$o a $N : 'ARRRRRRRRRRGH!!!!!'
+  OthersFound: $n urla rivolt$o a $N : 'ARRRRRRRRRRGH!!!!!'
+  TargetFound: $n ti urla in faccia: 'AAAAARRRGHHHH!!!'
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Gridi tutto quello che senti dentro fino a non aver più fiato.
+  OthersNoArg: $n emette un suono come di mille unghie su lavagna.
+  EntityFound: Urli rivolt$o a $N.
+  OthersFound: $n spalanca la bocca emettendo un fischio dolorosamente acuto rivolto a $N.
+  TargetFound: $n ti rivolge un fischio tanto acuto da non poter pensare.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Urli.
+  OthersNoArg: $n lancia un urlo acuto!
+  EntityFound: Lanci un grido verso $N.
+  OthersFound: $n lancia un acuto grido verso $N!
+  TargetFound: $n ti urla addosso con voce acuta!
+  EntityAuto:  Gridi tutto il tuo disappunto.
+  OthersAuto:  $n grida tutto il suo disappunto.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: urli: 'MIEEEOOOWWW!'
+  OthersNoArg: $n lancia un grido ringhioso!
+  EntityFound: Ruggisci verso $N.
+  OthersFound: $n ruggisce verso $N!
+  TargetFound: $n ti ruggisce addosso!
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: urli: 'MIEEEOOOWWW!'
+  OthersNoArg: $n lancia un grido ringhioso!
+  EntityFound: Ruggisci verso $N.
+  OthersFound: $n ruggisce verso $N!
+  TargetFound: $n ti ruggisce addosso!
+End

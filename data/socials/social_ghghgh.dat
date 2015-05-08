@@ -1,0 +1,34 @@
+FunName:    social_ghghgh
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Sghignazzi in disparte..
+  OthersNoArg: $n sghignazza in disparte..
+  EntityFound: Sghignazzi guardando $N..
+  OthersFound: $n sghignazza guardando $N..
+  TargetFound: $n sghignazza guardandoti..
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Il mondo è mio!
+  OthersNoArg: $n è in preda a delirio di onnipotenza!
+  EntityFound: Il mondo e mio! E per te $N, non c'è posto!
+  OthersFound: $n schernisce $N in preda a delirio di onnipotenza.
+  TargetFound: $n ti schernisce in preda a delirio di onnipotenza.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Sghignazzi leccandomi le zanne.
+  OthersNoArg: $n si lecca le zanne e sghignazza sospettosamente.
+  EntityFound: Sghignazzi in faccia a $N mentre ti pulisco un artiglio.
+  OthersFound: $n sghignazza in faccia a $N mentre si pulisce un artiglio.
+  TargetFound: $n ti sghignazza in faccia mentre si pulisce un artiglio.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Sghignazzi leccandomi le zanne.
+  OthersNoArg: $n si lecca le zanne e sghignazza sospettosamente.
+  EntityFound: Sghignazzi in faccia a $N mentre ti pulisco un artiglio.
+  OthersFound: $n sghignazza in faccia a $N mentre si pulisce un artiglio.
+  TargetFound: $n ti sghignazza in faccia mentre si pulisce un artiglio.
+End

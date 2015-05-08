@@ -1,0 +1,16 @@
+Code: opekus_room_rovine_11
+Sector: SECTOR.PATH
+Name: La Via Misterosa
+Short: una pozza
+Descr:
+La strettisima e breve via s'immerge in una pozza d'acqua ferma. Poco lo spazio anche
+per pensare d'immergersi. L'unica via è tornare indietro.
+
+Width:	10m
+Depth:	10m
+Height: 10m
+
+Exits:
+  Direction: DIR.UP
+  Descr: La antiche rovine
+End

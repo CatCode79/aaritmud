@@ -1,0 +1,41 @@
+Comment: 85 0 3
+Code: sauria_room_amena-foresta-47
+Sector: SECTOR.FOREST
+Name: Un'Amena Foresta
+Short: un'amena foresta
+
+Descr:
+Ti accorgi di essere nella propaggine settentrionale della foresta, infatti qui gli arbusti e gli alberi sono maggiormente distanziato permettendoti una visuale di più ampio respiro. Verso nord c'è quella che si direbbe una prateria con qualche cespuglio qua e là. 
+DescrTouch: 
+In questa parte di foresta la vegetazione si riduce considerevolmente man mano che si procede verso nord.
+DescrSmell: 
+La vegetazione spande tutt'attorno fragranze piacevoli interrotte dall'odore di erba calpestata che il vento porta da nord.
+DescrSixth:
+Ti trovi al margine nordest della foresta dove cede il passo ad un'immensa prateria.
+DescrHearing:
+Una brezza esanime si risveglia a singulti interrompendo i tuoi pensieri accompagnata da zoccoli veloci.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21852
+  Descr:	Un'immensa prateria
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 -1 21846
+  Descr:	Un'amena foresta
+  Direction:	DIR.EAST
+End
+Exits:
+  Comment:	0 -1 21843
+  Descr:	Un'amena foresta
+  Direction:	DIR.SOUTH
+End
+Exits:
+  Comment:	0 -1 21848
+  Descr:	Un'amena foresta
+  Direction:	DIR.WEST
+End

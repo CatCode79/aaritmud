@@ -1,0 +1,48 @@
+Code: karpuram_room_secolare-00
+Sector: SECTOR.PLAIN
+Name: Nei Pressi di un Albero Secolare
+Short: costeggiando un albero secolare
+
+Descr:
+Ti trovi dinnanzi alla radice sporgente di un immenso albero, come un grande
+muro scuro ti sovrasta e quasi non ti rendi conto di essere di fronte a una
+creatura vivente. Su una parte del tronco, fissata con grandi corde e liane,
+vedi una comoda scala che volteggiando verso la cima si perde tra le fronde
+di questo possente albero. Dalla tua posizione, procedendo verso nord tornerai
+verso la pista nel bosco, mentre verso est arriverai di fronte alla scala.
+
+DescrNight:
+I raggi della luna filtrano a malapena dalle fronde degli alberi del bosco e
+ti prospettano un panorama del tutto nuovo, come un grande muro scuro ti rendi
+conto di essere di fronte a un immenso albero che ti sovrasta. Più avanti 
+rispetto alla tua posizione noti una comoda scala che volteggiando verso la
+cima si perde tra le fronde di quest'albero secolare. Procedendo verso nord
+tornerai sui tuoi passi nel folto del bosco, mentre andando ad est arriverai
+di fronte alla scala.
+
+DescrSixth:
+Avverti un'intensa sensazione di pace e calore che s'irradiano da questo
+immenso albero secolare.
+
+DescrTouch:
+Toccando la grande radice sporgente, la prima sensazione che provi è un forte
+calore che lentamente s'irradia per il tuo %body ristorando corpo e mente.
+
+DescrSmell:
+Si avverte intenso e deciso il profumo del sottobosco, dell'erba e delle foglie
+cadute in terra. Alcuni fiorellini si fanno strada tra l'erba e colpiscono,
+con le loro diverse note profumate, il tuo olfatto.
+
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Nel folto del bosco
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Intorno all'albero
+End

@@ -1,0 +1,23 @@
+Code: citta-raminghe_room_forno
+Sector: SECTOR.CITY
+Name: forno
+Short: [yellow]un forno per il pane[close]
+
+Descr:
+Un ambiente molto spazioso. Le pareti sono bianche e danno luminosità alla stanza. In fondo un enorme forno a legna. 
+Un tavolo in legno massello divide in due parti l'ambiente. Vi sono poggiati alcuni cesti di vimini che contengono del pane.
+DescrSmell: 
+Profumo di pane appena sfornato
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.WEST
+	Descr: In città
+End
+Exits:
+	Direction: DIR.SOUTHWEST
+	Descr: In città
+End

@@ -1,0 +1,110 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<h2>Indice delle Etichette per una Descrizione Extra</h2>
+<a href='#Comment'>Comment:</a><br>
+<a href='#Keywords'>Keywords:</a><br>
+<a href='#Descr'>Descr:</a><br>
+<a href='#DescrNight'>DescrNight:</a><br>
+<a href='#DescrHearing'>DescrHearing:</a><br>
+<a href='#DescrHearingNight'>DescrHearingNight:</a><br>
+<a href='#DescrSmell'>DescrSmell:</a><br>
+<a href='#DescrSmellNight'>DescrSmellNight:</a><br>
+<a href='#DescrTouch'>DescrTouch:</a><br>
+<a href='#DescrTouchNight'>DescrTouchNight:</a><br>
+<a href='#DescrTaste'>DescrTaste:</a><br>
+<a href='#DescrTasteNight'>DescrTasteNight:</a><br>
+<a href='#DescrSixth'>DescrSixth:</a><br>
+<a href='#DescrSixthNight'>DescrSixthNight:</a><br>
+<a href='#Flags'>Flags:</a><br>
+<a href='#Author'>Author:</a><br><br>
+
+<hr>
+<h2>Note Riguardanti alle Descrizioni Extra</h2>
+<span class="label">Extras</span>, finendo per 's', &egrave; una di quelle etichette che hanno bisogno dell'etichetta <span class="label">End</span> per indicare la fine delle sotto-etichette, ci&ograve; per ogni descrizione extra inserita.<br>
+Le descrizioni extra sono quelle che vengono visualizzate quando il giocatore aggiunge un argomento in pi&ugrave; nel comando look (per esempio con il comando look quadro si potr&agrave; leggere una pi&ugrave; o meno breve descrizione del quadro in dettaglio).<br>
+A differenza di altri Mud, in Aarit &egrave; possibile guardare le extra anche di oggetti indossati da altri personaggi o mob, tenetelo a mente quando le create.<br>
+C'&egrave; un'altra cosa abbastanza importante da dire riguardo le aree di Aarit: poich&eacute; il Mud &egrave; nato per avere delle aree molto interattive capiter&agrave; a volte di voler creare un'extra in una stanza ad una cosa che starebbe invece benissimo come oggetto, per esempio una sedia, una torcia contro il muro, un albero in mezzo ad una piazza, un comignolo sul tetto, sono tutte cose che, in una maniera o nell'altra, possono essere considerati non facenti parte integrante della stanza, interagibili e magari rompibili. C'&egrave; una flag specifica per le entit&agrave; che permette di non elencarle nel comando di 'look', ma che comunque esistono se guardati (come se fossero delle extra) e toccati, presi o rotti (cosa che con le extra non &egrave; possibile).<br>
+Cercate quindi di scegliere con accortezza quando creare una nuova extra e quando, al suo posto, sia meglio fare un oggetto.<br><br>
+
+<hr>
+<h2>Tabella di Riferimento Veloce</h2>
+<table border="1">
+<tr class="thref"><td>Etichetta</td><td>Tipologia</td><td>Utilizzo</td></tr>
+<tr><td class="label">Comment</td><td>Stringa, relativa ad un commento</td><td>Facoltativo, consigliato se c'&egrave; qualcosa di particolare</td></tr>
+<tr><td class="label">Keywords</td><td>Stringa, lista di parole</td><td>Obbligatorio</td></tr>
+<tr><td class="label">Descr</td><td>Stringa, anche multi-linea</td><td>Obbligatorio</td></tr>
+<tr><td class="label">DescrNight</td><td>Stringa, anche multi-linea</td><td>Facoltativo</td></tr>
+<tr><td class="label">DescrHearing</td><td>Stringa, anche multi-linea</td><td>Facoltativo</td></tr>
+<tr><td class="label">DescrHearingNight</td><td>Stringa, anche multi-linea</td><td>Facoltativo</td></tr>
+<tr><td class="label">DescrSmell</td><td>Stringa, anche multi-linea</td><td>Facoltativo</td></tr>
+<tr><td class="label">DescrSmellNight</td><td>Stringa, anche multi-linea</td><td>Facoltativo</td></tr>
+<tr><td class="label">DescrTouch</td><td>Stringa, anche multi-linea</td><td>Facoltativo</td></tr>
+<tr><td class="label">DescrTouchNight</td><td>Stringa, anche multi-linea</td><td>Facoltativo</td></tr>
+<tr><td class="label">DescrTaste</td><td>Stringa, anche multi-linea</td><td>Facoltativo</td></tr>
+<tr><td class="label">DescrTasteNight</td><td>Stringa, anche multi-linea</td><td>Facoltativo</td></tr>
+<tr><td class="label">DescrSixth</td><td>Stringa, anche multi-linea</td><td>Facoltativo</td></tr>
+<tr><td class="label">DescrSixthNight</td><td>Stringa, anche multi-linea</td><td>Facoltativo</td></tr>
+<tr><td class="label">Flags</td><td>Flags, relative alle extra</td><td>Facoltativo</td></tr>
+<tr><td class="label">Author</td><td>Codice di entit&agrave;</td><td>Facoltativo</td></tr>
+</table><br>
+
+<hr>
+<h2>Struttura Tipica con le Etichette Obbligatorie (per copia e incolla)</h2>
+<pre>
+Extras:
+  Keywords:
+  Descr:
+End
+</pre><br>
+
+<hr>
+<a name='Comment'><h3>Comment:</h3></a>
+Eventuale commento relativo al reset dell'entit&agrave;, per maggior informazioni leggere <a href="comment.htm">questa pagina</a>.<br>
+Non &egrave; obbligatorio, ma &egrave; cmq consigliato se il reset &egrave; una cosa particolare, un'eccezione oppure se c'&egrave; qualcosa da far notare ai futuri builder.<br><br>
+
+<a name='Keywords'><h3>Keywords:</h3></a>
+&Egrave; una lista di parole chiave, suddivise da un singolo spazio, digitate le quali, tramite il comando look, visualizzeranno la descrizione legata ad esse.<br>
+Esempio:<br>
+<span class="label">Keywords:</span> botola botolone<br>
+L'etichetta sopra possiede due keywords, una che funziona se il giocatore scrive look botola, l'altra che funziona se scrive look botolone.<br>
+&Egrave; possibile anche inserire pi&ugrave; parole separate da virgolette cosicch&eacute; si pu&ograve; far guardare quell'extra quando il personaggio digita il contenuto delle virgolette in maniera corretta:<br>
+<span class="label">Keywords:</span>porta "grande porta" "porta grande"<br>
+<i>look porta</i>, <i>look grande porta</i> e <i>look porta</i> grande serviranno tutte e tre a visualizzare la stessa descrizione extra.<br>
+L'etichetta &egrave; obbligatoria.<br><br>
+
+<a name='Descr'><h3>Descr:</h3></a>
+<a name='DescrNight'><h3>DescrNight:</h3></a>
+<a name='DescrHearing'><h3>DescrHearing:</h3></a>
+<a name='DescrHearingNight'><h3>DescrHearingNight:</h3></a>
+<a name='DescrSmell'><h3>DescrSmell:</h3></a>
+<a name='DescrSmellNight'><h3>DescrSmellNight:</h3></a>
+<a name='DescrTouch'><h3>DescrTouch:</h3></a>
+<a name='DescrTouchNight'><h3>DescrTouchNight:</h3></a>
+<a name='DescrTaste'><h3>DescrTaste:</h3></a>
+<a name='DescrTasteNight'><h3>DescrTasteNight:</h3></a>
+<a name='DescrSixth'><h3>DescrSixth:</h3></a>
+<a name='DescrSixthNight'><h3>DescrSixthNight:</h3></a>
+Per l'utilizzo di queste etichette basta vedersi le medesime nella pagina riguardanti <a href="room.htm#Descr">le stanze</a>.
+Ovviamente qui le descrizioni si riferiscono all'extra relativa ad una parola chiave inserita e non alla descrizione della stanza stessa.<br>
+Se avete deciso di inserire un'extra &egrave; perch&eacute; volete far visualizzare una descrizione no? Quindi almeno l'etichetta <span class='label'>Descr</span> &egrave; obbligatoria mentre le altre sono facoltative, a meno che non abbiate inserito la flag EXTRA.NIGHT_ONLY, in quel caso l'etichetta obbligatoria &egrave; la DescrNight mentre le altre sono facoltative.<br><br>
+
+<a name='Flags'><h3>Flags:</h3></a>
+&Egrave; una <a href="flags.htm">Flags</a> relativa alla <a href="elements_list.htm#EXTRA">lista delle extra</a>.<br>
+L'etichetta &egrave; facoltativa.<br><br>
+
+<a name='Author'><h3>Author:</h3></a>
+Codice relativo all'entit&agrave; autrice dell'extra, viene utilizzata solo per le extra che contengono scritte, disegni o altro di simile su di un muro, foglio e altro.<br>
+In questo caso per autore si intende in maniera RPG, cio&egrave; l'entit&agrave; che il builder ha deciso di far scrivere o disegnare questa extra, il codice non centra nulla con il nome del builder dell'area.<br>
+L'etichetta &egrave; facoltativa.<br><br>
+
+<hr>
+</body>
+</html>

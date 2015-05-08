@@ -1,0 +1,48 @@
+Comment: 0 8|8388608 0
+Code: sauria_room_colonne-disgregate-75
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: Le Colonne Disgregate
+Short: le colonne disgregate
+
+Descr:
+La via qui sale spiraleggiando verso uno spiazzo dal quale si dipartono i resti di un colonnato oramai in frantumi. Certamente è l'opera antica di qualche essere senziente. 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 0 21898
+  Descr:	Le colonne disgregate
+  Direction:	DIR.NORTH
+  Destination:	5 -2 10 sauria
+End
+Exits:
+  Comment:	0 0 21876
+  Descr:	Grotta naturale
+  Direction:	DIR.SOUTH
+End
+Extras:
+  Comment:	EXTRA_COMMENT
+  Keywords:	colonne frantumi
+  Descr: 
+	Lo spuntone più lungo è poco più basso de te. Se c'erano delle incisioni sono state consumate assieme alle colonne stesse.
+End
+Extras:
+  Comment:	EXTRA_COMMENT
+  Keywords:	incisione incisioni
+  Descr: 
+	Rimuovi il pietrisco alla base di una delle colonne per rivelare il disegno di una figura che protende le braccia verso l'alto come a sostituirsi ad una colonna.
+End

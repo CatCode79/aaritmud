@@ -1,0 +1,42 @@
+FunName:    social_stag
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Barcolli a destra e a manca.
+  OthersNoArg: $n barcolla, sembra ubriac$o.
+  EntityFound: Barcolli cercando di sorreggermi a $N.
+  OthersFound: $n barcolla pericolosamente, appoggiandosi a $N un attimo prima di cadere.
+  TargetFound: $n sta barcollando vistosamente, ti si appoggia addosso.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Non riesci a volare dritt$o.
+  OthersNoArg: $n vola a zig zag.
+  EntityFound: Per quanto ti impegni non riesci che a volare intorno a $N.
+  OthersFound: $n vola a zig zag intorno a $N.
+  TargetFound: $n ti sta volendo intorno con andatura instabile.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Il terreno ondeggia sotto i tuoi $feet.
+  OthersNoArg: $n vacilla.
+  EntityFound: Vacillante, ti sorreggi alla spalla di $N.
+  OthersFound: Vacillante, $n si sorregge alla spalla di $N.
+  TargetFound: $n vacilla e si sorregge alla tua spalla.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Ooooh il mondo oscilla sotto le tue zampe!
+  OthersNoArg: $n barcolla vistosamente, non $gli bastano quattro zampe per tenersi dritt$o..
+  EntityFound: Barcolli ondeggiando verso $N..
+  OthersFound: $n si muove verso $N barcollando sulle zampe.
+  TargetFound: Le zampe di $n non l$o reggono.. Sta barcollando vistosamente verso di te.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Ooooh il mondo oscilla sotto le tue zampe!
+  OthersNoArg: $n barcolla vistosamente, non $gli bastano quattro zampe per tenersi dritt$o..
+  EntityFound: Barcolli ondeggiando verso $N..
+  OthersFound: $n si muove verso $N barcollando sulle zampe.
+  TargetFound: Le zampe di $n non l$o reggono.. Sta barcollando vistosamente verso di te.
+End

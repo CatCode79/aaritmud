@@ -1,0 +1,31 @@
+Code: elizor_room_strada-ovest-01
+Sector:	SECTOR.ROAD
+Name: Il Margine Ovest della Zona Commerciale
+Short: Il margine ovest della zona commerciale
+
+Descr:
+Qui si trova la netta linea di demarcazione che separa la piazza brulicante d'affari avanti ad est con la parte brulla della roccia galleggiante.
+La strada formatasi con il tempo a causa del pesante traffico indica l'importanza che l'accesso ovest ha per la comunità.
+DescrTouch: 
+no_send
+DescrSmell: 
+Un refolo di vento di quando in quanto inverte il cammino e torna disgustato da est rendendoti partecipe del suo multiforme disgusto.
+DescrSixth:
+Denaro ben obliato ora, sia che si debba entrare in città, sia che si debba scendere da questo strano masso galleggiante.
+DescrHearing:
+Solo il vento quando spira verso est acquista la sua connotazione più naturale mentre quando torna porta con sè rumori troppo innaturali.
+DescrTaste:
+no_send
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.WEST
+	Descr:	La direttrice ovest
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	La piazza
+End

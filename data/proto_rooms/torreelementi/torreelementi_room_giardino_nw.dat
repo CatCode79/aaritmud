@@ -1,0 +1,30 @@
+Code: torreelementi_room_giardino_nw
+Sector: SECTOR.PLAIN
+Name: Il Giardino Nordoccidentale
+Short: Un arco di sentiero
+Descr:
+Un sentiero di ciottoli costeggia circolarmente l'imponente struttura della torre.
+Vaste aree delle mura occidentali sono ricoperte da vegetazione che sembra farsi
+maggiormente rigogliosa sul lato nord della torre. Un vasto prato si estende da qui
+verso nordovest e vi riconosci senza esitazione arcani simboli tracciati nell'erba.
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Extras: 
+  Keywords: arcani simbolo simboli
+  DescrSixth: 
+  O forse più semplicemente qualche bestia ama brucare e calpestare in modo piuttosto
+  personale, suvvia rilassati e non pensare sempre a rune e magia.
+  Descr: Una costellazione... è certo una costellazione, ma quale?
+End
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Umido
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Il giardino prosegue
+End

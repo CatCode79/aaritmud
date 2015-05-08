@@ -1,0 +1,34 @@
+Code:	opekus_room_ofidian_oratorio_corridoio-03
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il Corridoio dell'Oratorio
+Short:	il corridoio di pietra
+
+Descr:
+i questa parte di tunnel il pavimento presenta alcune asperità dovute ad un cedimento laterale,
+la parte inferiore è sprofondata di quasi un piede trasciando con sé un lungo spuntone di roccia prodotto da una sottile e profonda crepa.
+
+DescrTouch:
+Scavato nel ventre della roccia con metodi e tecniche dimenticate che hanno lasciato le superfici vetrificate.
+Approfittando della crepa scopri che la parte vetrificata è profonda almeno una spanna.
+
+DescrSixth:
+Intensissimo dev'essere stato il calore qui quando fu praticato questo lungo corridoio nella dura pietra, ed a giudicare dalla profondità del vetrificato in seno alla crepa, deve essere durato anche molto a lungo.
+
+Width:	3m
+Depth:	2m
+Height: 2m
+
+Exits:
+	Direction:	DIR.WEST
+	Descr:	Un tunnel
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	Un tunnel
+End
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	Una celletta
+	Door:	opekus_item_door-oratorio-03
+End

@@ -1,0 +1,20 @@
+Code: serpidi_room_8641_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: I campi coltivati 
+Short: I campi coltivati 
+Descr: 
+In questa parte della caverna vengono coltivate alcune verdure a foglia verde che probabilmente i serpidi utilizzano per la loro alimentazione. L'insalata cresce in ciocche allineate in filari. Ci sono piccoli solchi tra i filari dove scorre dell'acqua che arriva da buchi nella parete della caverna. Il flusso è controllato da porte di pietra che possono essere aperte e chiuse. In un angolo ci sono alcuni vasi con dei fiori. C'è una colonna con una sfera luminosissima in cima. 
+Exits:
+	Direction: DIR.NORTH
+	Destination: 1 0 0 serpidi
+End
+Exits:
+	Direction: DIR.EAST
+	Destination: 2 -1 0 serpidi
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

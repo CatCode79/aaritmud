@@ -1,0 +1,61 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="style.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<div class="main">
+Ho iniziato a codare Aarit indicativamente all'inizio del mese di marzo del 2006.<br><br>
+
+Giusto per vostra eventuale curiosità ecco una tabella con le versioni di Aarit e quando le ho terminate:<br><br>
+
+<table border="1">
+<tr><th width="5%">Versione</th><th width="16%">Finita il</th><th width="10%">Release?</th><th>Note</th></tr>
+<tr><td align="center">0.0a</td><td align="center">19 marzo 2006</td>    <td align="center">&nbsp</td> <td>&nbsp</td></tr>
+<tr><td align="center">0.0e</td><td align="center">15 luglio 2006</td>   <td align="center">&nbsp</td> <td>&nbsp</td></tr>
+<tr><td align="center">0.0i</td><td align="center">28 luglio 2006</td>   <td align="center">&nbsp</td> <td>&nbsp</td></tr>
+<tr><td align="center">0.0o</td><td align="center">06 settembre 2006</td><td align="center">&nbsp</td> <td>&nbsp</td></tr>
+<tr><td align="center">0.0u</td><td align="center">21 ottobre 2006</td>  <td align="center">&nbsp</td> <td>&nbsp</td></tr>
+<tr><td align="center">0.1a</td><td align="center">11 novembre 2006</td> <td align="center">&nbsp</td> <td>&nbsp</td></tr>
+<tr><td align="center">0.1e</td><td align="center">17 novembre 2006</td> <td align="center">&nbsp</td> <td>&nbsp</td></tr>
+<tr><td align="center">0.1i</td><td align="center">27 novembre 2006</td> <td align="center">&nbsp</td> <td>&nbsp</td></tr>
+<tr><td align="center">0.1o</td><td align="center">02 gennaio 2007</td>  <td align="center">Sì</td>    <td>Ultima versione con il supporto al protocollo telnet e il protocollo irc sperimentale (cioè giocare il mud tramite irc e non un canale di chat), d'ora in poi verrà utilizzato il protocollo http 1.0 tramite <a href="http://twistedmatrix.com/trac/" target="_blank">Twisted</a></td></tr>
+<tr><td align="center">0.1u</td><td align="center">22 gennaio 2007</td>  <td align="center">&nbsp</td> <td>&nbsp</td></tr>
+<tr><td align="center">0.2a</td><td align="center">16 febbraio 2007</td> <td align="center">&nbsp</td> <td>Dopo questa versione viene abbandonata la gestione dei dati su file testuali in maniera diku-like, d'ora in poi per un tot di versioni verrà utilizzato ZODB per la gestione del database.</td></tr>
+<tr><td align="center">0.2e</td><td align="center">16 marzo 2007</td>    <td align="center">&nbsp</td> <td>&nbsp</td></tr>
+<tr><td align="center">0.2i</td><td align="center">05 maggio 2007</td>   <td align="center">&nbsp</td> <td>&nbsp</td></tr>
+<tr><td align="center">0.2o</td><td align="center">25 maggio 2007</td>   <td align="center">&nbsp</td> <td>&nbsp</td></tr>
+<tr><td align="center">0.2u</td><td align="center">05 giugno 2007</td>   <td align="center">&nbsp</td> <td>&nbsp</td></tr>
+<tr><td align="center">0.3a</td><td align="center">28 giugno 2007</td>   <td align="center">Sì</td>    <td>Ultima versione pensata solo per python 2.4 d'ora in poi le release verranno pensate e testate sotto python 2.5</td></tr>
+<tr><td align="center">0.3e</td><td align="center">24 luglio 2007</td>   <td align="center">&nbsp</td> <td>Ultima versione che supporta ZODB, d'ora in poi gestirò i dati tramite un generico sistema di lettura/scrittura da file testuali.</td></tr>
+<tr><td align="center">0.3i</td><td align="center">19 settembre 2007</td><td align="center">&nbsp</td> <td>&nbsp</td></tr>
+<tr><td align="center">0.3o</td><td align="center">04 novembre 2007</td> <td align="center">&nbsp</td> <td>&nbsp</td></tr>
+<tr><td align="center">0.3u</td><td align="center">01 dicembre 2007</td> <td align="center">&nbsp</td> <td>&nbsp</td></tr>
+<tr><td align="center">0.4a</td><td align="center">20 dicembre 2007</td> <td align="center">&nbsp</td> <td>&nbsp</td></tr>
+<tr><td align="center">0.4e</td><td align="center">31 dicembre 2007</td> <td align="center">&nbsp</td> <td>&nbsp</td></tr>
+<tr><td align="center">0.4i</td><td align="center">16 gennaio 2008</td>  <td align="center">&nbsp</td> <td>&nbsp</td></tr>
+<tr><td align="center">0.4o</td><td align="center">03 febbraio 2008</td> <td align="center">&nbsp</td> <td>Ultima versione con le vecchie enumerazioni, dalla prossima verranno implementate le enumerazioni estendibili</td></tr>
+<tr><td align="center">0.4u</td><td align="center">11 aprile 2008</td>   <td align="center">&nbsp</td> <td>&nbsp</td></tr>
+<tr><td align="center">0.5a</td><td align="center">24 aprile 2008</td>   <td align="center">&nbsp</td> <td>&nbsp</td></tr>
+<tr><td align="center">0.5e</td><td align="center">19 maggio 2008</td>   <td align="center">&nbsp</td> <td>&nbsp</td></tr>
+<tr><td align="center">0.5i</td><td align="center">30 novembre 2008</td> <td align="center">&nbsp</td> <td>&nbsp</td></tr>
+</table><br>
+
+Il sistema di numerazione delle versioni è semplicistico, l'ho scelto perché vi sono abituato.<br>
+In pratica decido di creare una nuova versione del codice quando mi sembra di averci lavorato un tot di tempo, cercando di mantenere quel tot di tempo costante tra una versione ed un'altra.<br>
+Spesso creo una versione prima di cambiare qualche grosso pezzo di codice con un'altra tecnologia, come potete vedere dalle note della tabella.<br><br>
+
+Di solito c'è una differenza di tempo tra quando termino una versione e quando decido di renderla pubblica, sempre che decida di renderla pubblica.<br>
+Questo perché alcune release sono così poco stabili che ho evitato di farle circolare, altre volte attendo che mi venga la voglia di scrivere della documentazione decente per il progetto e i tempi si allungano.<br>
+Per ora ho deciso di creare delle release pubbliche su versioni di codice profondamente differenti tra di loro; in futuro probabilmente aumenterò la frequenza delle release tenendomi in pari con le versioni terminate.<br><br>
+
+È difficile stimare quante ore ho dedicato ad Aarit, qualunque Implementatore di Mud sa quanto un progetto di questo genere richiesta tempo (ve lo spiegherò meglio con due parole: sudare sangue).<br>
+Di solito tra una versione ed un'altra ci metto un mese. A volte come potete vedere mi sono bastati 10 giorni, altre volte due mesi, comunque cerco sempre di fare qualcosa, anche piccola, ogni giorno. E penso che questo sia uno dei consigli migliori che possa dare a qualsiasi persona che crea qualsiasi progetto di questo tipo.<br><br>
+</div>
+
+<hr>
+</body>
+</html>

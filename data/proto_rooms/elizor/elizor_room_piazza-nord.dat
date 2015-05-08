@@ -1,0 +1,41 @@
+Code: elizor_room_piazza-nord
+Sector: SECTOR.CITY
+Name: La Piazza Centrale
+Short: la piazza centrale
+
+Descr:
+L'assetto della piazza nella sua parte più a nord presenta un invito verso l'ampia via che si dirige all'esterno.
+Paradossalmente l'unica forza sovrannaturale che impedisce al commercio di ostruire persino la piazza stessa è proprio la necessità di avere delle vie per le merci.
+DescrTouch: 
+no_send
+DescrSmell: 
+Arduo il mestiere di chi lavora con l'olfatto in questa piazza calderone e campionario disordinato di tutte le essenze, gli effluvi e le impronte pestilenziali della città.
+Di certo in questo snodo confluisce di tutto.
+DescrHearing:
+Le contrattazioni infittite dall'esuberante vocio dei venditori trasforma la piazza in un rutilante circo di colori sonori.
+DescrTaste:
+La lingua che sporge per poco tempo qui e niente sarà più come prima.
+Un acre sublimato del sudore di ogni creatura arriva ai tuoi gangli più privati convincendoti ancor di più di non voler reiterare l'esperienza.
+DescrSixth:
+Schiena alla fontana si vede l'ampia direttrice oltre la piazza, accesso nevralgico di danaro e disperazione al soldo dell'economia di Elizor.
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	La direttrice nord-sud
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	L'angolo nord-est della piazza
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	La piazza maggiore
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	L'angolo nord-ovest della piazza
+End

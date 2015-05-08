@@ -1,0 +1,35 @@
+Comment: 85 1 3
+Code: sauria_room_amena-foresta-16
+Sector: SECTOR.FOREST
+Name: Un'Amena Foresta
+Short: un'amena foresta
+
+Descr:
+Gli alberi altissimi e fitti non lasciano filtrare luce. Il terreno è morbido e a tratti spugnoso. 
+DescrTouch: 
+Gli alberi e gli arbusti di questa foresta lasciano le $hands bagnate di qualcosa di vagamente untuoso.
+DescrSmell: 
+Un mix di aromi ed odori arriva alle tue narici sempre diverso ad ogni cambio di vento.
+DescrHearing:
+Senti il ronzio di enormi ali come di insetti della taglia di un halfling.
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21819
+  Descr:	Un'amena foresta
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 -1 21806
+  Descr:	Ingresso della caverna
+  Direction:	DIR.EAST
+End
+Exits:
+  Comment:	0 -1 21817
+  Descr:	Un'amena foresta
+  Direction:	DIR.WEST
+End

@@ -1,0 +1,36 @@
+FunName:    social_tail
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Quale coda?
+  OthersNoArg: no_send
+  EntityFound: Quale coda?
+  OthersFound: no_send
+  TargetFound: no_send
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Ne sei sprovvist$o.
+  OthersNoArg: no_send
+  EntityFound: Ne sei sprovvist$o.
+  OthersFound: no_send
+  TargetFound: Ne sei sprovvist$o.
+  EntityAuto:  Ne sei sprovvist$o.
+  OthersAuto:  no_send
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Agiti la coda nervosamente.
+  OthersNoArg: $n agita la coda nervosamente.
+  EntityFound: Agiti la coda nervosamente, fissando $N.
+  OthersFound: $n agita la coda nervosamente, fissando $N.
+  TargetFound: $n agita la coda nervosamente e ti fissa..
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Agiti la coda nervosamente.
+  OthersNoArg: $n agita la coda nervosamente.
+  EntityFound: Agiti la coda nervosamente, fissando $N.
+  OthersFound: $n agita la coda nervosamente, fissando $N.
+  TargetFound: $n agita la coda nervosamente e ti fissa..
+End

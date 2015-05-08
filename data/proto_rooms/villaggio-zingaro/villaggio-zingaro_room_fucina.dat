@@ -1,0 +1,26 @@
+Code: villaggio-zingaro_room_fucina
+Sector: SECTOR.BLACKSMITH	
+Flags: ROOM.INSIDE
+Name: La Fucina
+Short: una fucina
+
+Descr:
+Un locale di medie dimensioni, muri e pavimento sono in pietra, e in un angolo è collocata un'enorme fornace dalla quale fuoriescono ad intervalli regolari lingue di fuoco. Sparsi qua e là per la stanza vi sono pezzi di metallo, tavolini con attrezzi e un poderoso maglio.
+DescrTouch: 
+Ti avvicini alla fornace ma il calore rischi a bruciarti $skin e ti allontani.
+DescrSmell: 
+Un odore di bruciato e metallo permea l'ambiente.
+DescrSixth:
+Intuisci che per usare questo genere di attrezzi di debba avere una forza spropositata.
+DescrHearing:
+Il crepitio del fuoco fa da perenne sottofondo a saltuari colpi di martello.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: In strada
+End
+

@@ -1,0 +1,34 @@
+FunName:    social_preach
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Parli lungamente..
+  OthersNoArg: $n intavola un discorso interminabile senza curarsi dei presenti..
+  EntityFound: Intratteni $N con la tua piacevole conversazione.
+  OthersFound: $n ammorba $N con il suo milione di chiacchiere.
+  TargetFound: $n vuole parlare di nuovo con te dei mali del mondo.. AIUTOO!!
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Parli, parli, parli e miagoli ogni tanto.
+  OthersNoArg: $n narra la storia della sua vita, partendo dagli albori del mondo.
+  EntityFound: Ricopri $N di mille e più parole e qualche miagolio.
+  OthersFound: $n sta tediando $N con i suoi logorroici miagolii.
+  TargetFound: Vuoi andare via da qui... $n non la smette di parlare e parlare e parlare..
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Parli, parli, parli e miagoli ogni tanto.
+  OthersNoArg: $n narra la storia della sua vita, partendo dagli albori del mondo.
+  EntityFound: Ricopri $N di mille e più parole e qualche miagolio.
+  OthersFound: $n sta tediando $N con i suoi logorroici miagolii.
+  TargetFound: Vuoi andare via da qui... $n non la smette di parlare e parlare e parlare..
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Intrattieni i presenti narrando lungamente della supremazia drow.
+  OthersNoArg: $n ammorba i presenti dissertando moooolto lungamente approposito della sua razza.
+  EntityFound: Intrattieni $N narrando lungamente della supremazia drow.
+  OthersFound: $n sta ammorbando $N con interminabili dissertazioni su qualche argomento che non vuoi conoscere.
+  TargetFound: La noia mortale che ti causa $n ti fa rivalutare idee suicide.
+End

@@ -1,0 +1,26 @@
+Code: elizor_room_shop-05
+Sector: SECTOR.HOUSE
+Flags: ROOM.INSIDE
+Name: shop-05
+Short: shop-05
+
+Descr:
+Sei 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Width:  6m
+Depth:  6m
+Height: 2m
+Exits:
+	Direction:	DIR.WEST
+	Descr:	L'uscita
+End

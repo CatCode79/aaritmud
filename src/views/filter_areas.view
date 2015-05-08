@@ -1,0 +1,19 @@
+<h3>Scegli di quali aree visualizzarne i dati:</h3>
+${area_checkboxs}
+<br><br>
+<input type="submit" value="Filtra" onclick="submitFilter();" />
+<script>
+function submitFilter() {
+    var query = window.top.location.search.substring(1) + "&areas=";
+    var checkboxs = document.getElementsByName("area");
+    for (checkbox in checkboxs) {
+        if (checkboxs[checkbox].checked) {
+            query += checkboxs[checkbox].value + ","
+        }
+    }
+    if (query.endsWith(",")) {
+        query = query.slice(0, -1);
+    }
+    window.location = "list_datas.html?" + query
+}
+</script>

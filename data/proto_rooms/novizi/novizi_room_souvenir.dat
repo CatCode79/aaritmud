@@ -1,0 +1,32 @@
+Code: novizi_room_souvenir
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Stanza dei Souvenir
+Short: la stanza dei [gold]s[red]ouvenir[close]
+
+Descr:
+Qui in questa piccola stanzina c'è la prova che Qualcuno ha devoluto del denaro per la
+costruzione di questo luogo e per la realizzazione di oggettini ricordo della visita.
+La stanzina ha due doppie finestre rivolte ad est a permettere alla [gold]luce[close] di [gold]illuminare[close]
+tutto il ricco contenuto. Sulle pareti adiacenti, ad altezza di quasi due metri sono
+installate lucerne per l'illuminazione notturna. Ora ovviamente sono spente anche se
+si vede bene che sono usate di frequente.
+DescrNight:
+Qui in questa piccola stanzina c'è la prova che Qualcuno ha devoluto del denaro per la
+costruzione di questo luogo e per la realizzazione di oggettini ricordo della visita.
+La stanzina ha due doppie finestre rivolte ad est con le imposte chiuse a causa dell'[blue]ora
+tarda[close]. Sulle pareti adiacenti, ad altezza di quasi due metri sono installate [gold]lucerne
+splendenti[close] che illuminano di [gold]luce dorata[close] tutta la stanza e il suo contenuto.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: L'uscita
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Prove tecniche d'apprendimento 
+End

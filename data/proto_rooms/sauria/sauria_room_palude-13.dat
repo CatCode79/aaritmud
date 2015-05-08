@@ -1,0 +1,38 @@
+Comment: 85 0 3
+Code: sauria_room_palude-13
+Sector: SECTOR.SWAMP
+Name: Palude
+Short: palude
+
+Descr:
+La palude si fa più insidiosa e profonda, l'unico vantaggio è che a sprofondare ancora un po', le zanzare non avranno più possibilità d'infierire.
+In direzione est si apre uno specchio d'acqua melmosa dalla quale affiorano radici scivolose. Un ottimo posto da evitare.
+DescrTouch: 
+Sei in un'inospitalissima palude, colma di insetti dalle punture preoccupanti. 
+DescrSmell: 
+C'è qualcosa di malsano che gorgoglia fuori dalla palude con zaffate acri e pungenti.
+DescrSixth:
+Se le zanzare valessero qualcosa, qui si potrebbe diventare ricchi oltre ogni più esasperata bramosia.
+DescrHearing:
+L'unico modo per sentire qualcosa è stare fermi ed attendere qualche minuto fino a smettere di gocciolare.
+Così si riesce a cogliere appieno il sordo brusio delle zanzare.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21822
+  Descr:	Palude
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 -1 21808
+  Descr:	Palude
+  Direction:	DIR.SOUTH
+End
+Exits:
+  Comment:	0 -1 21814
+  Descr:	Palude
+  Direction:	DIR.WEST
+End

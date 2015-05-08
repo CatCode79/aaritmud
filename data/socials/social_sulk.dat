@@ -1,0 +1,44 @@
+FunName:    social_sulk
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Metti il broncio..
+  OthersNoArg: $n mette il broncio.. ma pover$o..
+  EntityFound: Guardi $N per un istante, poi ti giro altrove e metto il broncio.
+  OthersFound: $n guarda $N per un attimo, poi si gira altrove e mette il broncio.
+  TargetFound: $n ti guarda per un attimo, poi si gira mettendo il broncio!
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Ti si adombra il viso.
+  OthersNoArg: $n mette il broncio sicuramente per futili motivi.
+  EntityFound: Guardi $N mettendo il broncio.
+  OthersFound: $n mette il broncio guardando $N.
+  TargetFound: Mentre ti guarda, $n mette il broncio. Sento di dover fare qualcosa.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: I drow non mettono il broncio.
+  OthersNoArg: no_send
+  EntityFound: I drow non mettono il broncio.
+  OthersFound: no_send
+  TargetFound: no_send
+  EntityAuto:  I drow non mettono il broncio.
+  OthersAuto:  no_send
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Metti il muso!
+  OthersNoArg: $n ha deciso che un muso solo non $gli basta.. Sembra proprio imbronciat$o.
+  EntityFound: Guardi $N con aria imbronciata manifestando il tuo malumore con cupi ruggiti.
+  OthersFound: $n ringhia cupamente verso $N manifestando la sua imbronciatura.
+  TargetFound: $n ti guarda imbronciat$o.. Che $gli avrai fatto mai?
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Metti il muso!
+  OthersNoArg: $n ha deciso che un muso solo non $gli basta.. Sembra proprio imbronciat$o.
+  EntityFound: Guardi $N con aria imbronciata manifestando il tuo malumore con cupi ruggiti.
+  OthersFound: $n ringhia cupamente verso $N manifestando la sua imbronciatura.
+  TargetFound: $n ti guarda imbronciat$o.. Che $gli avrai fatto mai?
+End

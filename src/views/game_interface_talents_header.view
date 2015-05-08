@@ -1,0 +1,75 @@
+<link rel="stylesheet" href="jquery/jquery.ui.spinner.css" type="text/css" />
+<script src="jquery/jquery.ui.spinner.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+var initial_life = ${max_life}
+var initial_mana = ${max_mana}
+var initial_vigour = ${max_vigour}
+var initial_talents = ${talents}
+
+jQuery().ready(function($) {
+	$("#game_tabs").bind("tabsselect", function(event, ui) {
+		if (ui.tab.id != "talents_title") {
+			return;
+		}
+		$.post("game_interface.html", {refresh_talents : "1"}, function (response) {
+			$(ui.panel).html(response);
+
+			$("#life").spinner({min:${max_life}, max:100000, increment:"fast"});
+			$("#mana").spinner({min:${max_mana}, max:100000, increment:"fast"});
+			$("#vigour").spinner({min:${max_vigour}, max:100000, increment:"fast"});
+
+			$(".ui-corner-tr").css("height", 11)
+			$(".ui-corner-br").css("height", 11)
+			if (navigator.userAgent.indexOf("Firefox") != -1 || navigator.userAgent.indexOf("MSIE") != -1) {
+				$(".ui-spinner-buttons").css("top", -17)
+			} else if (navigator.userAgent.indexOf("Chrome") != -1 || navigator.userAgent.indexOf("Safari") != -1) {
+				$(".ui-spinner-buttons").css("top", -5)
+			}
+		});
+	});
+});
+
+function changeTalentPoints(spinner) {
+	var life_points = parseInt($("#life").val());
+	var mana_points = parseInt($("#mana").val());
+	var vigour_points = parseInt($("#vigour").val());
+
+	var total_points = life_points + mana_points + vigour_points;
+	var initial_points = initial_life + initial_mana + initial_vigour;
+	if (total_points - initial_points >= 0) {
+		$("#talents").text(initial_talents - (total_points - initial_points));
+	}
+
+	var talents = parseInt($("#talents").text());
+	if (talents == 0) {
+		$("#error_message").text("");
+	} else if (talents <= 0) {
+		$(spinner).val($(spinner).val() - (-talents));
+		$("#talents").text("0");
+	}
+
+	return false;
+}
+
+function distribute() {
+	var talents = parseInt($("#talents").text());
+	var life_points = $("#life").val();
+	var mana_points = $("#mana").val();
+	var vigour_points = $("#vigour").val();
+
+	$.post("game_interface.html", {distribute: "1", initial_talents: initial_talents, talents: talents, initial_life: initial_life, initial_mana: initial_mana, initial_vigour: initial_vigour, life_points: life_points, mana_points: mana_points, vigour_points: vigour_points}, function (response) {
+		if (response.startsWith("<?xml")) {
+			document.write(response);
+			return;
+		}
+		if (response) {
+			$("#error_message").text(response);
+		} else {
+			window.alert("Talenti distribuiti con successo.");
+			$("#talents_title").parent().hide();
+			$("#game_tabs").tabs({selected: 0});
+		}
+	});
+}
+</script>

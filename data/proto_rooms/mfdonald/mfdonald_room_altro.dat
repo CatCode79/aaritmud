@@ -1,0 +1,24 @@
+Code: mfdonald_room_altro
+Sector: SECTOR.AIR
+Name: La Season
+Short: una generica Season come ce ne sono tutti gli anni
+Descr: 
+CI SCUSIAMO CON L'UTENZA PER I FONDALI NON RIFINITI E I LAVORI ANCORA IN ALTO MARE.
+La stagione  [blue]Autunnale[close] e [blue]Invernale[close] sono in lavorazione a rilento a causa della crisi
+economica, la congiuntura e i sindacati sul piede di guerra.
+I lavori saranno terminati al più presto.
+Mentre praticate la via della pazienza ora che siamo in [blue]Autunno[close] o [blue]Inverno[close] 
+vi dedichiamo questo stupefacente profumo a tema.
+DescrSmell:
+Arbre Magique - fragranza mango (per l'autunno) e menta (per l'inverno). Peccato sian aperti entrambi...
+DescrSixth:
+Messaggio Subliminale: Qui il posto è magnifico, il posto è magnifico, davvero magnifico. Uno splendore!
+
+Width:	12m
+Depth:	12m
+Height: 4m
+
+Exits:
+  Direction: DIR.DOWN
+  Descr: La friggitoria
+End

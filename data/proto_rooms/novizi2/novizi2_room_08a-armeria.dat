@@ -1,0 +1,50 @@
+Code: novizi2_room_08a-armeria
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	[gold]L'Armeria[close]
+Short:	[gold]l'armeria[close]
+
+Descr:
+Ai lati dell'ingresso, due colonne si nutrono della vana speranza di rappresentare un accesso trionfale a questa specie di magazzino.
+Evidentemente vorrebbe sembrare un'esposizione d'armi ma l'archivista deve essere sottopagato e latitante.
+Quattro sono le rastrelliere per le armi dislocate ciascuna a ridosso d'una parete con a malapena lo spazio per poterne scorrere il perimetro.
+<br>
+- il comando $tWIELD consente di portare l'arma alla vostra $hand1 che è più adatta per combattere.<br>
+- il comando $tHOLD invece consente di usare l'altra $hand. <br>
+<br>
+DescrTouch: 
+Poggi le $hands ovunuque per accertarti che non sbuchi un negoziante da un momento all'altro.
+DescrSmell: 
+L'odoraccio della stanza accanto arriva fino qui.
+DescrSixth:
+Le rastrelliere ci sono anche se non sono visualizzate come per gli altri oggetti.
+per poterele discernere l'una dall'altra si deve usare:<br>
+- 1.rastrelliera<br>
+- 2.rastrelliera<br>
+<br>
+Se pertanto si volesse prendere la spada che sta nella terza rastrelliera:<br>
+- $tGET spada [red]3.[close]rastrelliera<br>
+
+
+Extras:
+	Keywords:	colonna colonne
+	Descr:
+	Un variegato, fiorito, esuberante stile corinzio sostiene su di sé tutto il peso estetico dell'ambiente... fallendo miseramente.
+	DescrTouch:
+	Un variegato, fiorito, esuberante stile corinzio sostiene su di sé tutto il peso estetico dell'ambiente...
+	DescrSixth:
+        Chi ha rubato queste colonne al Museo Storico della Torre, ha reso maggiore ingiustizia qui che al museo stesso.
+End
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.NORTHWEST
+	Descr: [lemonchiffon]La palestra[close]
+End
+Exits:
+	Direction:	DIR.SOUTHEAST
+	Descr:	L'attrezzatura
+End

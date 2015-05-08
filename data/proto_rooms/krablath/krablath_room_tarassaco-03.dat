@@ -1,0 +1,22 @@
+Code: krablath_room_tarassaco-03
+Sector: SECTOR.HOUSE
+Flags: ROOM.INSIDE
+Name: tarassaco-03
+Short: tarassaco-03
+
+Descr:
+Sei 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Width:  6m
+Depth:  6m
+Height: 2m

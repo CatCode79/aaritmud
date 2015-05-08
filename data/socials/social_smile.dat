@@ -1,0 +1,40 @@
+FunName:    social_smile
+Intention:  INTENTION.FRIENDLY
+Expression: sorridendo
+Smiles:     :) :-) =) =-) ^^
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Distendi le labbra in un sorriso.
+  OthersNoArg: $n sorride lievemente.
+  EntityFound: $GLI volgi un sorriso.
+  OthersFound: $n volge a $N un sorriso.
+  TargetFound: $n ti guarda sorridendo.
+  EntityAuto:  Socchiudi gli occhi dando al tuo Ego il buongiorno con un sorriso interiore..
+  OthersAuto:  $n batte lentamente le palpebre abbozzando un sorriso compiaciuto.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Tendi le labbra in un sorriso a denti stretti.
+  OthersNoArg: $n tende le labbra in uno stretto sorriso.
+  EntityFound: Rivolgi un innaturale sorriso a $N.
+  OthersFound: $n rivoge uno stretto sorriso a $N.
+  TargetFound: $n ti guarda sorridendo a denti stretti.
+  EntityAuto:  Rilassi le labbra in un ghigno compiaciuto.
+  OthersAuto:  $n rilassa le labbra in un ghino compiaciuto.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Sorridi mostrando le tue belle zanne ai presenti.
+  OthersNoArg: $n sorride mostrando a tutti le sue belle zanne.
+  EntityFound: Sveli i tuoi canini a $N in un candido sorriso.
+  OthersFound: $n sorride candidamente a $N svelando i propri canini.
+  TargetFound: $n ti sorride candidamente svelandoti i suoi canini.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Sorridi mostrando le tue belle zanne ai presenti.
+  OthersNoArg: $n sorride mostrando a tutti le sue belle zanne.
+  EntityFound: Sveli i tuoi canini a $N in un candido sorriso.
+  OthersFound: $n sorride candidamente a $N svelando i propri canini.
+  TargetFound: $n ti sorride candidamente svelandoti i suoi canini.
+End

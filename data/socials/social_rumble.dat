@@ -1,0 +1,44 @@
+FunName:    social_rumble
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Brontoli infastidit$o.
+  OthersNoArg: $n brontola infastidit$o.
+  EntityFound: Brontoli infastidit$o verso $N.
+  OthersFound: $n brontola infastidit$o verso $N.
+  TargetFound: $n brontola infastidit$o verso di te.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Brontoli infastidit$o.
+  OthersNoArg: $n emette un cupo ronzio.
+  EntityFound: Brontoli verso $N.
+  OthersFound: $n produce un cupo ronzio rivolgendosi a $N
+  TargetFound: $n ronza cupamente verso di te.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: I drow non brontolano.
+  OthersNoArg: no_send
+  EntityFound: I drow non brontolano.
+  OthersFound: no_send
+  TargetFound: no_send
+  EntityAuto:  I drow non brontolano.
+  OthersAuto:  no_send
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Borbotti tutto il tuo scontento.
+  OthersNoArg: $n brontola miagolando cupamente il suo scontento.
+  EntityFound: Brontoli cupi ruggiti all'indirizzo di $N.
+  OthersFound: $n brontola ruggendo vagamente verso $N.
+  TargetFound: $n brontola con te per qualche motivo incomprensibile.. Appena smette di ruggire glielo chiedi?
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Borbotti tutto il tuo scontento.
+  OthersNoArg: $n brontola miagolando cupamente il suo scontento.
+  EntityFound: Brontoli cupi ruggiti all'indirizzo di $N.
+  OthersFound: $n brontola ruggendo vagamente verso $N.
+  TargetFound: $n brontola con te per qualche motivo incomprensibile.. Appena smette di ruggire glielo chiedi?
+End

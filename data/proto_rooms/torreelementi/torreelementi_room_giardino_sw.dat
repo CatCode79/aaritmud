@@ -1,0 +1,36 @@
+Code:	torreelementi_room_giardino_sw
+Sector:	SECTOR.PLAIN
+Name:	Il Giardino Sudoccidentale
+Short:	un arco di sentiero
+Descr:
+Un sentiero di ciottoli costeggia circolarmente l'imponente struttura della torre.
+Vaste aree delle mura occidentali sono ricoperte di campanule azzurre. Non sembra
+vi siano punti d'ingresso nella torre se non una finestra così in alto fa far
+passare il desiderio persino ad un volatile. L'arco di sentiero ove ti trovi
+procede verso nord e verso est chiudendosi presumibilmente sul retro della torre.
+Width:	10m
+Depth:	10m
+Height:	100m
+
+Extras:
+ Keywords:	finestra
+ Descr:	Forse forse forse arrampicandosi...
+End
+Extras:
+ Keywords:	forse
+ Descr:	Bisogna scoprire se la vegetazione regge il peso.
+End
+Extras:
+ Keywords:	campanule
+ Descr:	Si direbbe una varietà particolarmente rigogliosa.
+ DescrTouch:	Alcune già sfiorite hanno già mature le capsule con i numerosi semi
+End
+
+Exits:
+ Direction:	DIR.EAST
+ Descr:	Il giardino prosegue
+End
+Exits:
+ Direction:	DIR.NORTH
+ Descr:	È più umido di là
+End

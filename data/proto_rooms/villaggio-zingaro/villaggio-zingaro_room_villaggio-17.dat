@@ -1,0 +1,34 @@
+Code: villaggio-zingaro_room_villaggio-17
+Sector: SECTOR.HOUSE
+Flags: ROOM.INSIDE
+Name: Una Casa Abbandonata
+Short: una casa abbandonata
+
+Descr:
+#contained_by[east] is DOOR.CLOSED#La poca luce che filtra dai vetri opachi per la polvere#Lapoca luce che entra dalla piccola finestrella# basta appena per illuminare una caotica stanzina evidentamente disabitata.
+Mucchietti di calcinacci occupano i quattro angoli, un accesso inagibile conduce probabilmente ad un'altra stanza, bamboline di pezza, fogli disegnati e quadernini sono sparsi per tutta la stanza; il tutto è spolverato da un pesante velo di polvere.
+DescrTouch: 
+Ti titrovi il dito ingrigito dopo averlo passato sullo strato di polvere.
+DescrSmell: 
+Odore di polvere e abbandono.
+DescrSixth:
+Intuisci che dev'esser stata la stanza di una bimba.
+DescrHearing:
+Uno scricchiolio proveniente dal piano di sopra
+
+Extras:
+	Keywords:	fogli disegni disegnati
+	Descr:
+	Una decina di disegni variopinti, uno in particolare attira la tua attenzione. Ritrae una sbilenca cupola con spine aguzze e un bagliore che filtra dall'esterno..una nuvola di pallini sembra fluttuarvi attorno.
+	DescrSixth:
+	Intuisci che si tratti di qualcosa di importante, da ricordare.
+End
+
+Width:  4m
+Depth:  3m
+Height: 2m
+
+Exits:
+	Direction:	DIR.EAST
+	Descr:	La piazzetta
+End

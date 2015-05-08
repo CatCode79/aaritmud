@@ -1,0 +1,28 @@
+Code:	opekus_room_ofidian_temple_scala-sx-01
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	L'Erta Scala Est
+Short:	un'erta scalinata
+
+Descr:
+I gradini sporgono dalla parete cresciuti come funghi, in lunghezze diseguali;
+La visuale è ristretta alla prima navata della cattedrale ed alle relative colonne.
+
+DescrTouch:
+Indugi con il piede al bordo esterno saggiando sovrappensiero lo spazio di manovra.
+
+DescrSixth:
+I gradini sporgono dalla parete come fatti estroflettere da un'antica magia.
+
+Width:	3m
+Depth:	1m
+Height: 5m
+
+Exits:
+	Direction:	DIR.DOWN
+	Descr:	La navata laterale
+End
+Exits:
+	Direction:	DIR.UP
+	Descr:	Sulla scalinata
+End

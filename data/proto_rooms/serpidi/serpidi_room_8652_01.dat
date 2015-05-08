@@ -1,0 +1,24 @@
+Code: serpidi_room_8652_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: Gli allevamenti 
+Short: Gli allevamenti 
+Descr: 
+Sei accanto ad uno dei recinti degli animali. Questo è il più normale, almeno per l'aspetto, tra gli animali allevati qui. Si tratta in pratica di una grossa tartaruga molto molto piatta. C'è una colonna con una sfera luminosissima in cima. 
+Exits:
+	Direction: DIR.EAST
+	Destination: -1 0 0 serpidi
+End
+Exits:
+	Direction: DIR.SOUTH
+	Destination: -2 -1 0 serpidi
+End
+Exits:
+	Direction: DIR.WEST
+	Destination: -3 0 0 serpidi
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

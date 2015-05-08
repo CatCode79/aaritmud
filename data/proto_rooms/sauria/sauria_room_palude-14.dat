@@ -1,0 +1,42 @@
+Comment: 85 0 3
+Code: sauria_room_palude-14
+Sector: SECTOR.SWAMP
+Name: Palude
+Short: palude
+
+Descr:
+Ti trovi in una parte di palude in cui il terreno è, tutto sommato, piuttosto praticabile. 
+DescrTouch: 
+Sono i tuoi $feet a dirti che sei finito in una palude grazie alla profondità delle orme.
+DescrSmell: 
+Curioso come ogni palude che si rispetti porti con se un odoraccio di zolfo.
+DescrSixth:
+Un buon modo per porre fine alle tribolazioni è certo il reperimento di sabbie mobili.
+DescrHearing:
+Sono i tuoi $feet a dirti che sei finito in una palude grazie allo [white]squish[close] che fanno mentre avanzi.
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21823
+  Descr:	Un'amena foresta
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 -1 21813
+  Descr:	Palude
+  Direction:	DIR.EAST
+End
+Exits:
+  Comment:	0 -1 21807
+  Descr:	Palude
+  Direction:	DIR.SOUTH
+End
+Exits:
+  Comment:	0 -1 21815
+  Descr:	Un'amena foresta
+  Direction:	DIR.WEST
+End

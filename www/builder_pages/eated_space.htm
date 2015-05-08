@@ -1,0 +1,34 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<h3>Inserire spazi all'inizio di una stringa:</h3>
+<div>
+Vi capiter&agrave; d'inserire un'ascii-art che inizi con degli spazi e che questi vengano <i>'mangiati'</i> nella lettura dell'area.<br>
+Per evitare ci&ograve; dovrete aggiungere prima degli spazi voluti un punto, quest'ultimo eviter&agrave; che gli spazi iniziali vengano persi. Il punto verr&agrave; rimosso durante la lettura del dato e quindi non verr&agrave; visualizzato.<br>
+Nel qual caso la vostra ascii-art inizi con un punto dovrete inserirne due perch&eacute; il primo viene automaticamente 'mangiato' nella lettura.<br><br>
+
+<u>Esempi</u>:<br><br>
+
+Descr:       Una stanza buia buia..<br>
+Ricaver&agrave; la stringa:<br>
+Una stanza buia buia..<br><br>
+
+Descr:  .  Una stanza brutta brutta brutta..<br>
+Ricaver&agrave; la stringa:<br>
+&nbsp;&nbsp;Una stanza buia buia..<br><br>
+
+Descr:  ... Una stanza brutta e buia!<br>
+Ricaver&agrave; la stringa:<br>
+.. Una stanza brutta e buia!<br><br>
+</div>
+
+<hr>
+</body>
+</html>

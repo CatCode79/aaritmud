@@ -1,0 +1,34 @@
+FunName:    social_hic
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Singhiozzi rumorosamente..
+  OthersNoArg: $n singhiozza rumorosamente..
+  EntityFound: Singhiozzi rumorosamente verso $N!
+  OthersFound: $n singhiozza rumorosamente verso $N!
+  TargetFound: $n singhiozza rumorosamente verso di te.. cos'avrà bevuto?
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Hips! Un singulto..
+  OthersNoArg: $n emette un acuto singulto.
+  EntityFound: Hips! Un singulto..
+  OthersFound: $n emette un acuto singulto.
+  TargetFound: $n emette un acuto singulto.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Hic! Hic! Ad ogni singhiozzo un saltello!
+  OthersNoArg: $n ha un simpatico singhiozzo che l$o fa saltellare tutt'intorno.
+  EntityFound: Guardo $N sperando che ti faccia passare il singhiozzo.
+  OthersFound: $n guarda $N e singhiozza peggio di prima.
+  TargetFound: $n ha un singhiozzo insopportabile, dovrei provare a spaventarl$o.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Hic! Hic! Ad ogni singhiozzo un saltello!
+  OthersNoArg: $n ha un simpatico singhiozzo che l$o fa saltellare tutt'intorno.
+  EntityFound: Guardo $N sperando che ti faccia passare il singhiozzo.
+  OthersFound: $n guarda $N e singhiozza peggio di prima.
+  TargetFound: $n ha un singhiozzo insopportabile, dovrei provare a spaventarl$o.
+End

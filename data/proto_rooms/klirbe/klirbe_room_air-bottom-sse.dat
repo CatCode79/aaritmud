@@ -1,0 +1,36 @@
+Code: klirbe_room_air-bottom-sse
+Sector: SECTOR.AIR
+Name: Nell'Aria
+Short: nell'aria
+
+Descr:
+	Nell'aria umida e fradicia senza alcun appiglio possibile. A nord lo spazio sconfinato
+	e a sudovest una parete di roccia che inizia diversi metri sotto e prosegue per molte
+	lunghezze in alto.
+DescrSmell: 
+	Odore di salsedine ed aria madida.
+DescrHearing:
+	Dal basso giunge il rumore disturbato dell'oceano che s'infrange.
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.UP
+	Descr: In aloto negli spazi sconfinati
+End
+Exits:
+	Direction: DIR.DOWN
+	Descr: L'atterraggio
+End
+Exits:
+	Direction: DIR.NORTH
+	Descr: Ancora spazi sconfinati
+End
+Exits:
+	Direction: DIR.EAST
+	Descr: Ancora spazi sconfinati
+End
+

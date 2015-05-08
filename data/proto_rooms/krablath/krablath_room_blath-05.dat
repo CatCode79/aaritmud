@@ -1,0 +1,37 @@
+Comment:	Room del ponticello che collega la terra ferma con l'isoletta. Incentrerei la descrizione più sulla parte di congiunzione (ponte) che sulle due rive, da una parte c'è l'aiuola del bamboo, come sempre piante acquatiche e l'isolatte dall'altra.
+Code: krablath_room_blath-05
+Sector: SECTOR.SHORE	
+Name: [aquamarine]Lo Stagno[close]
+Short: [aquamarine]un suggestivo stagno[close]
+
+Descr:
+Dal vertice dell'arquato ponticello si scende bruscamente alle due sponde lungo un arco rampante più mirabile che funzionale.
+Parapetti in legno chiaro si aprono a spicchi rivelando il rigoglio del panorama.
+L'assito accompagna il tuo passo in un morbido movimento elastico.
+DescrTouch: 
+L'assito accompagna il tuo passo in un morbido movimento elastico che consente di far oscillare il ponte e raggiunge lo stomaco in leggero malessere.
+DescrSmell: 
+Inebrianti fragranze floreali ti giungono da ogni dove in luogo degli attesi effluvi nauseanti da acqua stagnante.
+DescrSixth:
+Un ponte realizzato per il piacere degli occhi più che per il passo saldo e fermo di chi lo deve attraversare; inserito in un contesto più a carattere bucolico che transazionale.
+DescrHearing:
+Il ronzio degli insetti accompagna il tuo incedere.
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: In strada
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Altrove
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: In strada
+End
+

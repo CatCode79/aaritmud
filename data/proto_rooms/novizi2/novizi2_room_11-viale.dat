@@ -1,0 +1,33 @@
+Code: novizi2_room_11-viale
+Sector: SECTOR.PLAIN
+Name: Il Vialetto Interno
+Short: un vialetto interno
+
+Descr:
+Un sentierino dritto dritto e ben tenuto, circondato da un'aiuola per parte collega il giardino interno alla casa.
+La pavimentazione di ciottolato tondeggiante s'interrompe in modo armonico ad ovest dove inizia un prato ben curato.
+DescrTouch: 
+Un sentiero diritto come un fuso al quale fanno da contrappunto gli scomodi ciottoli fittamente dislocati; l'intento finale è il collegamento fra lì e laggiù.  
+DescrSmell: 
+Da ovest giunge inconfondibile l'odore di qualcosa di vegetale e vivo ma che in misura meno rigogliosa t'avvolge però anche qui dal basso.
+DescrSixth:
+no_send
+DescrHearing:
+Un brusio d'insetti forse neri come esuli pensieri ma qui intenti a pasteggiar.
+DescrTaste:
+no_send
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.WEST
+	Descr:	Il giardino
+	Destination:    -1 -3 0 novizi2
+End
+
+Exits:
+	Direction:	DIR.EAST
+	Descr:	Verso casa
+End

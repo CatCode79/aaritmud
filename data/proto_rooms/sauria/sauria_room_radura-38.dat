@@ -1,0 +1,48 @@
+Comment: 85 0 2
+Code: sauria_room_radura-38
+Sector: SECTOR.SAVANNA
+Name: Una Radura
+Short: una radura
+
+Descr:
+Sei al confine nord est della radura, dove incomincia la fitta foresta. La radura si estende per parecchie centinaia di metri a sud e ad ovest. Hai appena calpestato la prova evidente della presenza di un enorme onnivoro. Dicono che porti fortuna. Sarà... 
+DescrTouch: 
+Dalla consistenza si direbbe anche che la prova eviente della presenza di un enorme onnivoro è stata prodotta e deposta di fresco.
+DescrSmell: 
+Qualche onnivoro particolarmente vorace ha lasciato qui un suo aulentissimo ricordo.
+DescrSixth:
+Onnivoro può voler dire tante cose; fra le tante ad esempio potresti voler evitare di divenire il suo prossimo pasto.
+DescrHearing:
+Chissà cosa attira poprio qui tutti questi rumorosi insetti...
+
+Extras:
+  Keywords:	cacca cacche escremento escrementi merda
+  Descr: 
+	Esattamente! E... buona fortuna!
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21842
+  Descr:	Un'amena foresta
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 -1 21837
+  Descr:	Un'amena foresta
+  Direction:	DIR.EAST
+End
+Exits:
+  Comment:	0 -1 21830
+  Descr:	Una radura
+  Direction:	DIR.SOUTH
+End
+Exits:
+  Comment:	0 -1 21839
+  Descr:	Una radura
+  Direction:	DIR.WEST
+End
+

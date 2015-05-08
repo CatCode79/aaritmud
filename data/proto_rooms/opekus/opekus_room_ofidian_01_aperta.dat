@@ -1,0 +1,24 @@
+Code: opekus_room_ofidian_01_aperta
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: La Caverna di Collegamento
+Short: un passaggio roccioso
+Descr: 
+Un anfratto fradicio in cui l'acqua percola da ogni parte e ti costringe ad
+inzaccherarti di fango ad ogni passo. Il passaggio procede a zig zag salendo
+lentamente verso est in una zona più asciutta e scende in direzione sud fra
+pozze e rivoli d'acqua.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTHEAST
+  Descr: Il tempio degli ofidi
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Il tempio degli ofidi
+End
+

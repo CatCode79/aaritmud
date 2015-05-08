@@ -1,0 +1,26 @@
+FunName:    social_shrug
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Alzi le spalle..
+  OthersNoArg: $n alza le spalle..
+  EntityFound: Alzi le spalle in risposta a $N.
+  OthersFound: $n alza le spalle in risposta a $N.
+  TargetFound: $n alza le spalle in tua risposta $N.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Scuoti un po' le spalle ignorando il mondo, nulla di più facile.
+  OthersNoArg: $n scrolla un po' le spalle con aria indecisa.
+  EntityFound: Ciondoli un po' il capo verso $N e scrolli le spalle con sano menefreghismo.
+  OthersFound: $n ciondola un po' il capo verso $N e scrolla le spalle con menefreghismo.
+  TargetFound: $n ciondola un po' il capo verso di te scrollando le spalle con menefreghismo.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Scuoti un po' le spalle ignorando il mondo, nulla di più facile.
+  OthersNoArg: $n scrolla un po' le spalle con aria indecisa.
+  EntityFound: Ciondoli un po' il capo verso $N e scrolli le spalle con sano menefreghismo.
+  OthersFound: $n ciondola un po' il capo verso $N e scrolla le spalle con menefreghismo.
+  TargetFound: $n ciondola un po' il capo verso di te scrollando le spalle con menefreghismo.
+End

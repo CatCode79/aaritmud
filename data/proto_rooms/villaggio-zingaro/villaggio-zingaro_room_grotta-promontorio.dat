@@ -1,0 +1,29 @@
+Code: villaggio-zingaro_room_grotta-promontorio
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: Un Promontorio
+Short: un punto panoramico
+
+Descr:
+Un piccolo slargo sopraelevato dal quale si può godere di una visuale a trecentosessanta gradi della grotta limitato a destra e sinistra da colonne di varia natura. Questa piccola piattaforma potrebbe far venir voglia di un bel tuffo nel lago!
+DescrSmell:
+Aria calda e madida di umido.
+DescrSixth:
+I sentieri tracciati e molti altri piccoli elementi ti fanno pensare che questa grotta non dev'esser stata sempre deserta e silenziosa. 
+DescrHearing:
+La convinta brezza che t'investe, si muta in fischio passando fra interstizi di stalagmiti.
+
+Width:	3m
+Depth:	3m
+Height: 6m
+
+Exits:
+	Direction: DIR.SOUTHEAST
+	Descr: Alla loggia
+	Destination:	5 -3 -4 villaggio-zingaro
+End
+
+RoomBehaviour:
+	RandomEcho:	3
+	RandomEchoTexts:	Un ombra ti sfiora.
+End

@@ -1,0 +1,46 @@
+Code: karpuram_room_secolare-19
+Sector: SECTOR.PLAIN
+Name: Un Secondo Angolo Attrezzato
+Short: un secondo angolo attrezzato
+
+Descr:
+La piattaforma in questo punto forma un singolare angolo, un'estensione di
+forma triangolare permette di procedere senza sostare su un lato del pianale
+di legno, mentre sulla parte limitrofa all'angolo stesso vi sono una serie
+di bauli ricolmi di equipaggiamento, faretre, frecce ed archi adagiati su degli
+appositi ganci di ferro scuro che si protendono dal parapetto della piattaforma.
+Un gruppo di elfi fa la spola da questo angolo verso sud dove si trova una
+maestosa torretta, altri sono intenti a sistemare l'attrezzatura e non sembrano
+notarti. Verso ovest puoi proseguire sulla piattaforma, mentre a nord noti una
+struttura ad angolo simile a questa.
+
+DescrNight:
+La piattaforma in questo punto forma un singolare angolo illuminato da un grande
+braciere posto simmetricamente al centro, un'estensione triangolare permette 
+di procedere senza doversi fermare su un lato del pianale di legno, 
+mentre sulla parte limitrofa all'angolo stesso vi sono una serie di bauli 
+ricolmi di equipaggiamento, faretre, frecce ed archi adagiati su degli
+appositi ganci di ferro scuro che si protendono dal parapetto della piattaforma.
+Un gruppo di elfi fa la spola da questo angolo verso sud dove si trova una
+maestosa torretta, altri sono intenti a sistemare l'attrezzatura e non sembrano
+notarti. Verso ovest puoi proseguire sulla piattaforma, mentre a nord noti una
+struttura ad angolo simile a questa.
+
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Un primo angolo attrezzato
+  Destination: 13 0 4 karpuram
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: La terza torretta reale
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Sulla quarta piattaforma
+End

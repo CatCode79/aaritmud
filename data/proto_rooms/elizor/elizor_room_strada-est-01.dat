@@ -1,0 +1,34 @@
+Code: elizor_room_strada-est-01
+Sector: SECTOR.PATH
+Name: Il margine Est della Zona Commerciale
+Short: il margine est della zona commerciale
+
+Descr:
+Gli alti e sgraziati caseggiati quasi oscurano la luce del sole che si fa largo a fatica tra la selva di comignoli; filtrando lambiscono blandamente il gomitolo di calli senza ritorno che penetrano a forza la catasta di edifici tutt'attorno.
+Lungo la direzione est alcuni pietroni sono collocati sopra la strada come a copertura di qualcosa.
+DescrNight:
+Anche in una notte di luna piena arduo sarebbe il compito di chi volesse dipanare il gomitolo di calli che si tuffano tra gli scomposti edifici.
+Lungo la direzione est alcuni pietroni sono collocati sopra la strada come a copertura di qualcosa.
+DescrTouch: 
+no_send
+DescrSmell: 
+Un inappropriato miscuglio di odori proviene da ovest acquietandosi verso est.
+DescrSixth:
+Fondamentale è seguire la via principale, onde evitare d'esser inghiottiti dal centro abitato.
+DescrHearing:
+Avverti distintamente lo scorrere di un corso d'acqua.
+DescrTaste:
+no_send
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.WEST
+	Descr:	La piazza
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	La via verso est
+End

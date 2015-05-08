@@ -1,0 +1,36 @@
+FunName:    social_sarcasm
+Intention:  INTENTION.NEUTRAL
+Expression: sarcasticamente
+Smiles:     :$ :-$
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Sorridi sarcasticamente.
+  OthersNoArg: $n atteggia il viso ad un sorriso freddamente sarcastico.
+  EntityFound: Rivolgi a $N un freddo sorriso pieno di sarcasmo.
+  OthersFound: $n rivolge a $N un freddo sorriso pieno di sarcasmo.
+  TargetFound: $n ti rivolge un gelido sorriso pieno di sarcasmo.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Sorridi rilassat$o.
+  OthersNoArg: $n sorride sarcastico.
+  EntityFound: Sorridi rilassat$o a $N.
+  OthersFound: $n rivolge un sorriso sarcastico a $N.
+  TargetFound: $n ti rivolge un ghigno sarcastico.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Sfoderi un sarcastico sorriso felar.
+  OthersNoArg: $n sorride sarcasticamente guardandosi gli artigli.
+  EntityFound: Pieghi un po' le orecchie mentre sorrido a $N sarcasticamente.
+  OthersFound: $n piega un po' le orecchie mentre sorride sarcastic$O a $N.
+  TargetFound: $n piega le orecchie verso l'esterno mentre ti sorride sarcastic$O.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Sfoderi un sarcastico sorriso felino.
+  OthersNoArg: $n sorride sarcasticamente guardandosi gli artigli.
+  EntityFound: Pieghi un po' le orecchie mentre sorrido a $N sarcasticamente.
+  OthersFound: $n piega un po' le orecchie mentre sorride sarcastic$O a $N.
+  TargetFound: $n piega le orecchie verso l'esterno mentre ti sorride sarcastic$O.
+End

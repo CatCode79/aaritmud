@@ -1,0 +1,26 @@
+FunName:    social_zzz
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Zzzzzzzzzzzzzzzzz.
+  OthersNoArg: $n russa sonoramente..
+  EntityFound: Ti addormenti mentre $N ti sta dicendo qualcosa.
+  OthersFound: $n si addormenta all'improvviso mentre $N ancora parla.
+  TargetFound: $n si addormenta mentre gli stai parlando!
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Uno strano rumore disturba il tuo sonno..
+  OthersNoArg: $n russa come tutti i felar.
+  EntityFound: T'assopisci accanto a $N che fa un rumore infernale..
+  OthersFound: $n s'assopisce accanto a $N e in breve tempo inizia a russare.
+  TargetFound: $n s'assopisce accanto a te iniziando a russare poco dopo.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Uno strano rumore disturba il tuo sonno..
+  OthersNoArg: $n russa come tutti i gatti.
+  EntityFound: T'assopisci accanto a $N che fa un rumore infernale..
+  OthersFound: $n s'assopisce accanto a $N e in breve tempo inizia a russare.
+  TargetFound: $n s'assopisce accanto a te iniziando a russare poco dopo.
+End

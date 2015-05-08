@@ -1,0 +1,25 @@
+Code: opekus_room_rovine_06
+Sector: SECTOR.PATH
+Name: L'Antica Strada
+Short: Il cammino erboso
+Descr:
+Il percorso prosegue diritto nell'erbetta bassa e morbida; sul lato della strada
+un monticciolo irto di spine impedisce il passaggio. Probabilmente un grande palazzo
+ha originato il cumulo che le spine han presto reclamato
+
+Width:	10m
+Depth:	10m
+Height: 10m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Ruderi
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: La via principale
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: La antiche rovine
+End

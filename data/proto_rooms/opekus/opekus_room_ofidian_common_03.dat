@@ -1,0 +1,35 @@
+Code: opekus_room_ofidian_common_03
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: I Corridoi d'Ardesia
+Short: un'intersezione
+
+Descr:
+Sei su di una pietra rialzata alla quale giungono due corridoi di pietra nera e dalla
+quale si diparte una ripida scalinata diritta che si perde in lontananza. L'unico segno
+degno di nota è una nicchia scavata nell'unica parete a sud.
+
+Extras:
+	Keywords: nicchia
+	Descr:
+	Un foro rettangolare praticato con un'incisione di grande abilità sprofonda nella
+	parete per oltre un metro.
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Un corridoio
+End
+Exits:
+  Direction: DIR.NORTHEAST
+  Descr: La gradinata
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Un corridoio
+End
+

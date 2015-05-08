@@ -1,0 +1,33 @@
+Code: novizi2_room_12d-soffitta
+Sector: SECTOR.HOUSE
+Flags: ROOM.INSIDE
+Name: [gold]Il Nascondiglio della Soffitta[close]
+Short: [gold]un nascondiglio in soffitta[close]
+
+Descr:
+Celato in uno spazio limitato ed angusto, c'è questo nascondiglio.
+Gli spioventi del tetto sono privi di lucernari e le uniche altre due pareti sono spoglie e prive di nota.
+Maggiormente degno di nota è l'oggetto che hai davanti.
+Per poterlo aprire serve una chiave.
+Una volta reperitala il modo per utilizzarla è:<br>
+<br>
+- $tLOCK [red]scrigno[close]<br>
+- $tUNLOCK [red]scrigno[close]<br>
+DescrTouch: 
+Il legno in questa parte di soffitta è rimasto più grezzo.
+DescrSmell: 
+Vago e flebile l'odore delle resina, figlio certo delle travi in legno della soffitta.
+DescrSixth:
+Potrebbe essere un buon posto dove tenere nascosta la propria roba se nessuno sa dell'esistenza di questo luogo.
+DescrHearing:
+Ci deve essere un po' di vento all'esterno a giudicare dai sinistri cigolii provenienti dalle travature.
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.SOUTH
+	Door:	novizi2_item_porta-segreta-asse
+	Descr: [lemonchiffon]La soffitta[close]
+End

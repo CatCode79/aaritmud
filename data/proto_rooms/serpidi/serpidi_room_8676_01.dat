@@ -1,0 +1,16 @@
+Code: serpidi_room_8676_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: Una grande stanza da letto 
+Short: Una grande stanza da letto 
+Descr: 
+Questa enorme stanza da letto ti lascia un po' perplesso. C'è un letto centrale, molto grande, di forma rotonda. Tutta la stanza è riccamente arredata e nell'aria si sente un'aroma molto strano, ma non sgradevole. 
+Exits:
+	Direction: DIR.NORTH
+	Destination: 0 7 -2 serpidi
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

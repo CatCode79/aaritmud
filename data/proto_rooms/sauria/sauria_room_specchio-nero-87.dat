@@ -1,0 +1,29 @@
+Comment: teleport via script sulla room 88 - 0 1|4 -1 40 21888
+Code: sauria_room_specchio-nero-87
+Sector: SECTOR.FOREST
+Name: Lo Specchio Nero
+Short: lo specchio nero
+
+Descr:
+Sembra che qui siano state appiccicate fra loro due realtà completamente estranee: ad ovest la foresta, scura tetra ed impenetrabile; ad est una parete liscia che pur nera, appare perfettamente riflettente.
+DescrTouch: 
+Protendi la mano un po' a casaccio.
+DescrSixth:
+Hai la netta sensazione che ci sia qualcosa che non va... Sembra che qui siano state appiccicate fra loro due realtà completamente estranee: ad ovest la foresta, scura tetra ed impenetrabile; ad est una parete liscia che pur nera, appare perfettamente riflettente. L'ingresso in questa parete ti è palese ma non si imprime nella tua mente come fossi privo della vista ma sapessi di esser in un posto noto e amico. 
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	1 0 21886
+  Descr:	Un'amena foresta
+  Direction:	DIR.WEST
+End
+Extras:
+  Keywords:	parete liscia liscio nero nera
+  Descr: 
+	Sbiadisce lentamente il confine fra te e la parete..
+  DescrTouch: 
+	Al tatto la superficie non restituisce alcuna sensazione e la tua $hand passa oltre.
+End

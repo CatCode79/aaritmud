@@ -1,0 +1,38 @@
+Code: citta-raminghe_room_sentiero-selciato-s
+Sector: SECTOR.CITY
+Name: [silver]Il Sentiero Selciato[close]
+Short: [silver]Un sentiero selciato[close]
+
+Descr:
+Un sentiero pavimentato con lastre di [silver]pietra grigia[close]. 
+
+DescrHearing:
+Ascolti in lontananza i rumori della città.
+DescrHearingNight:
+Percepisci il silenzio della notte.
+DescrSmell:
+Avverti il profumo delle piante che crescono spontanee a poca distanza.
+
+DescrTouch:
+Pietre abbastanza ruvide al tatto.
+
+DescrTaste:
+Nulla da assaggiare.
+
+DescrSixth:
+Nulla da intuire.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits: 
+	Direction: DIR.NORTH 
+	Descr: [red]Un osservatorio astronomico in una torre di pietra[close]
+	Destination: 3 7 0 citta-raminghe
+End
+
+Exits:
+	Direction: DIR.SOUTH
+	Descr: La strada
+End

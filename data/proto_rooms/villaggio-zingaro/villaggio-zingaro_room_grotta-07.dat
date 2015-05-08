@@ -1,0 +1,38 @@
+Code: villaggio-zingaro_room_grotta-07
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: Il Sentiero Intorno al Lago
+Short: intorno al lago
+
+Descr:
+Il sentiero digrada lentamente verso il lago insinuandosi pochi passi più avanti in una nicchia visibile solo da questa posizione. I bordi della via sono costellati di piccoli ammassi di minuscoli [lightblue]funghetti[close] luminescenti.  
+DescrSmell: 
+Aria calda e madida di umido, da ovest senti arrivare una fragranza di menta balsamica.
+DescrSixth:
+Capisci che farai bene a stare attent$o a dove metti i $feet, non vorresti mai cadere su una di queste stalagmiti appuntite.
+DescrHearing:
+La convinta brezza che t'investe, si muta in fischio passando fra interstizi di stalagmiti.
+
+Extras:
+	Keywords: funghetti
+	Descr:
+	Dei microscopici funghetti, dei quali con difficoltà distingui il gambo dalla cappella, formano lungo il sentiero una scia opalescente.
+	DescrSixth:
+ 	Sembrano volerti indicare qualcosa, una direzione da seguire.
+End
+Width:	4m
+Depth:	2m
+Height: 8m
+Exits:
+	Direction: DIR.WEST
+	Descr: Intorno al lago
+End
+Exits:
+	Direction: DIR.NORTHEAST
+	Descr: Una nicchia 
+End
+
+RoomBehaviour:
+	RandomEcho:	3
+	RandomEchoTexts:	Una goccia cade dall'alto.
+End

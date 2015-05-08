@@ -1,0 +1,32 @@
+Code: conflitti_room_collegamento
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE ROOM.NO_MOB ROOM.NO_ITEM
+Name: L'Accesso Alla Caverna
+Short: una caverna naturale
+
+Descr:	
+        Le pareti scavate naturalmente di questo ampio cunicolo procedono lungamente
+	per un tratto che pare non abbia mai fine.
+DescrSmell:
+        L'aria olezza d'una fragranza che non sai definire ma che suggerisce un senso
+	di tensione.
+DescrSixth:
+        Ti sembra di essere in un luogo che è in qualche modo rassicurante, ma
+	contemporaneamente attiva in te qualcosa che rimanda al tuo passato.
+	Ovviamente è necessario trovare il modo per andare oltre la parete di roccia a sud.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.NORTH
+	Descr:	Zona rocciosa
+	Destination:	0 1 -1 cimitero
+End
+
+Exits:
+	Direction: DIR.SOUTH
+	Door:	conflitti_item_door-secret-parete
+	Descr:	Un misterioso accesso
+End

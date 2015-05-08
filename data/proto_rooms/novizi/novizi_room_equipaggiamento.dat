@@ -1,0 +1,40 @@
+Code: novizi_room_equipaggiamento
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Vestizione
+Short: la stanza del vestiario
+
+Descr:
+Sei giunto alla parte più succosa relativa agli oggetti. Qui sparsi in giro sono
+disposti in rigoroso disordine dei capi d'abbigliamento per consentirti di non
+uscire nud$o. Nella cassa ci sono gli ultimi arrivi.
+Tramite:<br>
+$tLook cassa<br>
+si vede in contenuto e ad esempio tramite:<br>
+$tGet calzino cassa<br>
+si può prendere un calzino dalla cassa.
+<br>
+Una volta presi i capi di abbigliamento più idonei li puoi provare e rimuovere tramite:
+<br>
+- $tWEAR
+- $tREMOVE
+<br>
+Su di un lato c'è un accesso per andare ad un piccolo camerino evitando di sentirsi
+in piazza mentre ci si cambia.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.UP
+  Descr: Verso l'alto
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Il camerino per l'avventuriero timido
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Verso l'uscita
+End

@@ -1,0 +1,32 @@
+Code: novizi_room_sotterraneo-accesso
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Giunzione
+Short: una scalinata
+
+Descr:
+Quattro rampe di ardite scale forzano il passo verticalmente per un'estensione
+ stancante. Un corrimano armonico che scende ad elica sembra l'unico gesto di pietà
+del criminale mastro muratore che ha fatto realizzare questo camino.
+
+DescrSixth:
+Entrambi i pomelli metallici del corrimano sono a forma di cartiglio e riportano un'incisione piuttosto marcata.
+
+Extras:
+	Keywords: pomelli incisione cartiglio metallici 
+	Descr: Il cartiglio riporta il nome "Ranzi" seguito da "890 talleri". 
+	DescrTouch: L'incisione sul cartiglio riporta il nome "Ranzi" seguito da "890 talleri". 
+End
+
+Width:	3m
+Depth:	3m
+Height: 6m
+
+Exits:
+  Direction: DIR.UP
+  Descr: Un bagno?
+End
+Exits:
+  Direction: DIR.DOWN
+  Descr: Ai piedi del camino
+End

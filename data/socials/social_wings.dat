@@ -1,0 +1,56 @@
+FunName:    social_wings
+Intention:  INTENTION.FRIENDLY
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Sbatti le braccia tenacemente, procurandoti uno strappo muscolare.
+  OthersNoArg: $n sbatte le braccia con veemenza sollevando un gran polverone.
+  EntityFound: Sbatti le braccia davanti a $N cercando di volare ma i tuoi $feet son incollati al suolo.
+  OthersFound: $n sbatte le braccia davanti a $N cercando di impressionarl$O con patetici tentativi di volo.
+  TargetFound: $n sbatte le braccia davanti a te.. Forse vuole farti sentire la fragranza delle sue ascelle..?
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Frulli vorticosamente le ali ed acquisti quota.
+  OthersNoArg: $n muove vorticosamente le ali e si alza in cielo.
+  EntityFound: Ronzi allegramente intorno $N.
+  OthersFound: $n ronza intorno a $N ridendo e scherzando.
+  TargetFound: $n ti ronza intorno alla testa: fatel$o smettere!
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Imiti i movimenti dell'aquila con le braccia tenendoti in punta di $feet.
+  OthersNoArg: $n imita i movimenti dell'aquila con le braccia tenendosi in punta di $feet.
+  EntityFound: Imiti il volo dell'aquila in picchiata su $N.
+  OthersFound: $n imita il volo dell'aquila in picchiata su $N.
+  TargetFound: $n si lancia su di te come aquila in picchiata.
+  EntityAuto:  Ti lasci andare senza ritegno nell'imitazione di un'aquila.
+  OthersAuto:  Dimentic$o di tutti, $n corre su e giù imitando l'aquila.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Sbatti rapidamente le orecchie sperando di decollare..
+  OthersNoArg: $n muove rapidamente la coda a mulinello.. dove vuole andare?
+  EntityFound: Muovi rapidamente le orecchie verso $N sperando di sollevarl$O in aria con te.
+  OthersFound: $n è impazzit$o, vuole sollevare $N con le orecchie.
+  TargetFound: Non sai come riesca $n a muovere così le orecchie ma produce un grazioso rumorino.
+  EntityAuto:  Sai volareee!!
+  OthersAuto:  $n forse ha qualche difficoltà motoria..
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Sbatti rapidamente le orecchie sperando di decollare..
+  OthersNoArg: $n muove rapidamente la coda a mulinello.. dove vuole andare?
+  EntityFound: Muovi rapidamente le orecchie verso $N sperando di sollevarl$O in aria con te.
+  OthersFound: $n è impazzit$o, vuole sollevare $N con le orecchie.
+  TargetFound: Non sai come riesca $n a muovere così le orecchie ma produce un grazioso rumorino.
+  EntityAuto:  Sai volareee!!
+  OthersAuto:  $n forse ha qualche difficoltà motoria..
+End
+RacialMessages:
+  Race:        RACE.ARIAL
+  EntityNoArg: Muovi le ali portandoti a qualche centimetro dal terreno.
+  OthersNoArg: $n sbatte leggermente le ali, sollevandosi da terra.
+  EntityFound: Avvolgi $N con le tue ali e l$o sollevi dal suolo in un tenero abbraccio.
+  OthersFound: $n avvolge $N con le sue ali sollevandol$o dal suolo in un tenero abbraccio.
+  TargetFound: $n ti avvolge con le sue ali sollevandoti dal suolo in un tenero abbraccio..
+End

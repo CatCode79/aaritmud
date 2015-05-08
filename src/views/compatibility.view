@@ -1,0 +1,249 @@
+<script>
+// (TD) quese funzioni sono simili a quelle per il post dei messaggi sulla piazzetta, magari cercare di accorparle
+function showCompatibilityMessage(message, color) {
+	var compatibility_response = document.getElementById("compatibility_response");
+	if (message) {
+		compatibility_response.className = "";
+	} else {
+		compatibility_response.className = "invisible";
+	}
+	compatibility_response.style.color = color || "red";
+	$(compatibility_response).text(message);
+}
+
+function postCompatibility(event, widget) {
+	var compatibility = document.getElementById("compatibility");
+	if (compatibility.value && compatibility.value.length > ${max_feedback_len}) {
+		showCompatibilityMessage("Messaggio troppo lungo (" + compatibility.value.length + "/${max_feedback_len})");
+	} else {
+		showCompatibilityMessage("");
+	}
+	if (widget.value == WATERMARK_MSG) {
+		return;
+	}
+	var key_code = event.keyCode || event.which;
+	if (key_code == 13 || compatibility != widget) {
+		if (compatibility.value && !compatibility.disabled) {
+			compatibility.value = trim(compatibility.value);
+			// Potrebbe non essere più così lungo il messaggio quindi rimuove il msg di errore
+			showCompatibilityMessage("");
+			if (compatibility.value.length > ${max_feedback_len}) {
+				showCompatibilityMessage("Non puoi inviare un messaggio più lungo di ${max_feedback_len} caratteri")
+				return false;
+			}
+			compatibility.disabled = true;
+			compatibility.style.color = "gray";
+			return sendPostRequest("compatibility.html", "msg=" + encodeURIComponent(compatibility.value), afterPostCompatibility, compatibility);
+		}
+		// Evita di inserire gli a-capo
+		return false;
+	}
+	compatibility.style.color = "black";
+	return true
+}
+
+function afterPostCompatibility(error, compatibility) {
+	if (error) {
+		// Può capitare quando la sessione di login scade
+		if (error.toLowerCase().startsWith("<?xml") || error.toLowerCase().startsWith("<html")) {
+			window.location.reload();
+		} else {
+			showCompatibilityMessage(error);
+		}
+	} else {
+		showCompatibilityMessage("Messaggio inviato correttamente", "green");
+		resetSpan(document.getElementById("compatibility_response"));
+	}
+	compatibility.disabled = false;
+	compatibility.value = "";
+	compatibility.blur();
+}
+
+</script>
+<h3>COMPATIBILITÀ:</h3>
+<p>
+</p>
+<table rules="rows" frame="below">
+	<tr style="font-size:bold">
+		<th>Browser</th>
+		<th class="nowrap">Sistema</th>
+		<th>Giocabile?</th>
+		<th>Note</th>
+	</tr>
+	<tr id="CHROME6">
+		<td class="nowrap"><a href="http://www.google.com/chrome/?hl=it" target="_blank" title="Scarica Chrome 6.0 per Windows">Chrome 6.0</a></td>
+		<td class="nowrap" align="center">Windows Xp<br>Altri?</td>
+		<td align="center"><span style='color:green'>Sì</span>!</td>
+		<td></td>
+	</tr>
+	<tr id="CHROME5">
+		<td class="nowrap"><a href="http://www.oldapps.com/google_chrome.php?old_chrome=7" "target=_blank" title="Scarica Chrome 5.0 per Windows">Chrome 5.0</a></td>
+		<td class="nowrap" align="center">Windows Xp<br>Altri?</td>
+		<td align="center"><span style='color:green'>Sì</span>!</td>
+		<td></td>
+	</tr>
+	<tr id="CHROME4">
+		<td class="nowrap"><a href="http://www.oldapps.com/google_chrome.php?old_chrome=6" "target=_blank" title="Scarica Chrome 4.0 per Windows">Chrome 4.0</a></td>
+		<td class="nowrap" align="center">?</td>
+		<td align="center">?</td>
+		<td></td>
+	</tr>
+	<tr id="CHROME3">
+		<td class="nowrap"><a href="http://www.oldapps.com/google_chrome.php?old_chrome=5" "target=_blank" title="Scarica Chrome 3.0 per Windows">Chrome 3.0</a></td>
+		<td class="nowrap" align="center">?</td>
+		<td align="center">?</td>
+		<td></td>
+	</tr>
+	<tr id="CHROME2">
+		<td class="nowrap"><a href="http://www.oldapps.com/google_chrome.php?old_chrome=4" "target=_blank" title="Scarica Chrome 2.0 per Windows">Chrome 2.0</a></td>
+		<td class="nowrap" align="center">?</td>
+		<td align="center">?</td>
+		<td></td>
+	</tr>
+	<tr id="CHROME1">
+		<td class="nowrap"><a href="http://www.oldapps.com/google_chrome.php?old_chrome=1" "target=_blank" title="Scarica Chrome 1.0 per Windows">Chrome 1.0</a></td>
+		<td class="nowrap" align="center">?</td>
+		<td align="center">?</td>
+		<td></td>
+	</tr>
+	<tr id="FIREFOX4">
+		<td class="nowrap"><a href="http://www.oldapps.com/firefox.php?old_firefox=112" "target=_blank" title="Scarica Firefox 4.0 per Windows">Firefox 4.0</a></td>
+		<td class="nowrap" align="center">Windows Xp<br>Windows 7<br>Altri?</td>
+		<td align="center"><span style='color:green'>Sì</span>!</td>
+		<td></td>
+	</tr>
+	<tr id="FIREFOX3_6">
+		<td class="nowrap"><a href="http://www.oldapps.com/firefox.php?old_firefox=82" "target=_blank" title="Scarica Firefox 3.6 per Windows">Firefox 3.6</a></td>
+		<td class="nowrap" align="center">Windows Xp<br>Windows 7<br>Altri?</td>
+		<td align="center"><span style='color:green'>Sì</span>!</td>
+		<td></td>
+	</tr>
+	<tr id="FIREFOX3_5">
+		<td class="nowrap"><a href="http://www.oldapps.com/firefox.php?old_firefox=80" "target=_blank" title="Scarica Firefox 3.5 per Windows">Firefox 3.5</a></td>
+		<td class="nowrap" align="center">Windows Xp<br>Windows 7<br>Altri?</td>
+		<td align="center"><span style='color:green'>Sì</span>!</td>
+		<td></td>
+	</tr>
+	<tr id="FIREFOX3">
+		<td class="nowrap"><a href="http://www.oldapps.com/firefox.php?old_firefox=76" "target=_blank" title="Scarica Firefox 3.0 per Windows">Firefox 3.0</a></td>
+		<td class="nowrap" align="center">Windows Xp<br>Altri?</td>
+		<td align="center"><span style='color:green'>Sì</span>!</td>
+		<td></td>
+	</tr>
+	<tr id="FIREFOX2">
+		<td class="nowrap"><a href="http://www.oldapps.com/firefox.php?old_firefox=7" "target=_blank" title="Scarica Firefox 2.0 per Windows">Firefox 2.0</a></td>
+		<td class="nowrap" align="center">Windows Xp<br>Altri?</td>
+		<td align="center"><span style='color:green'>Sì</span>!</td><td>Questo è il browser che potrebbe fare per voi sotto Max Os 10.3 oppure sotto Windows 98</td>
+	</tr>
+	<tr id="FIREFOX1_5">
+		<td class="nowrap"><a href="http://www.oldapps.com/firefox.php?old_firefox=27" "target=_blank" title="Scarica Firefox 1.5 per Windows">Firefox 1.5</a></td>
+		<td class="nowrap" align="center">?</td>
+		<td align="center">?</td>
+		<td></td>
+	</tr>
+	<tr id="FIREFOX1_0">
+		<td class="nowrap"><a href="http://www.oldapps.com/firefox.php?old_firefox=40" "target=_blank" title="Scarica Firefox 1.0 per Windows">Firefox 1.0</a></td>
+		<td class="nowrap" align="center">?</td>
+		<td align="center">?</td>
+		<td></td>
+	</tr>
+	<tr id="IE9">
+		<td class="nowrap">Internet Explorer 9.0</td>
+		<td class="nowrap" align="center">Windows Xp</td>
+		<td align="center"><span style='color:red'>No</span>!</td>
+		<td>A fine giugno 2010 Internet Explorer 9 dev'essere ancora rilasciato e le relative versioni in preview non riescono a gestire la pagina di gioco</td>
+	</tr>
+	<tr id="IE8">
+		<td class="nowrap">Internet Explorer 8.0</td>
+		<td class="nowrap" align="center">Windows Xp<br>Windows 7<br>Altri?</td>
+		<td align="center"><span style='color:green'>Sì</span>!</td>
+		<td>Ad alcuni utenti tuttavia non funziona, consigliamo in questo caso d'installare l'ultima versione di uno tra i Browser segnati come giocabili in questa tabella</td>
+	</tr>
+	<tr id="IE7">
+		<td class="nowrap">Internet Explorer 7.0</td>
+		<td class="nowrap" align="center">Windows Xp<br>Windows 7<br>Altri?</td>
+		<td align="center"><span style='color:green'>Sì</span>!</td>
+		<td>Se però eseguite un refresh nella pagina di gioco la riconnessione funzionerà una volta sì e una no</td>
+	</tr>
+	<tr id="IE6">
+		<td class="nowrap">Internet Explorer 6.0</td>
+		<td class="nowrap" align="center">Vedi nota</td>
+		<td align="center"><span style='color:red'>No</span>!</td>
+		<td>Per scelta non supportiamo la pagina di gioco con Internet Explorer 6.0 e precedenti. Se state utilizzando Windows 95 o Windows 98 consigliamo Firefox 2.0. Se invece state utilizzando un sistema operativo Windows più recente installate l'ultima versione di uno tra i Browser segnati come giocabili in questa tabella</td>
+	</tr>
+	<tr id="IE5">
+		<td class="nowrap">Internet Explorer 5 e 5.5</td>
+		<td class="nowrap" align="center">Vedi nota</td>
+		<td align="center"><span style='color:red'>No</span>!</td>
+		<td>Leggi la nota sopra</td>
+	</tr>
+	<tr id="OPERA10_5">
+		<td class="nowrap"><a href="http://www.oldapps.com/opera.php?old_opera=81" target="_blank" title="Scarica Opera 10 per Windows">Opera 10.5+</a></td>
+		<td class="nowrap" align="center">Windows XP<br>Windows 7<br>Altri?</td>
+		<td align="center"><span style='color:green'>Si</span>!</td>
+		<td></td>
+	</tr>
+	<tr id="OPERA10">
+		<td class="nowrap"><a href="http://www.oldapps.com/opera.php?old_opera=73" target="_blank" title="Scarica Opera 10 per Windows">Opera 10</a></td>
+		<td class="nowrap" align="center">?</td>
+		<td align="center">?</td>
+		<td></td>
+	</tr>
+	<tr id="OPERA9_5">
+		<td class="nowrap"><a href="http://www.oldapps.com/opera.php?old_opera=66" target="_blank" title="Scarica Opera 9.5 per Windows">Opera 9.5+</a></td>
+		<td class="nowrap" align="center">Mac</td>
+		<td align="center"><span style='color:green'>Si</span>!</td>
+		<td></td>
+	</tr>
+	<tr id="OPERA9">
+		<td class="nowrap"><a href="http://www.oldapps.com/opera.php?old_opera=54" target="_blank" title="Scarica Opera 9 per Windows">Opera 9</a></td>
+		<td class="nowrap" align="center">Windows Xp<br>Altri?</td>
+		<td align="center"><span style='color:red'>No</span>!</td>
+		<td></td>
+	</tr>
+	<tr id="SAFARI5">
+		<td class="nowrap"><a href="http://www.apple.com/it/safari/download/" target="_blank" title="Scarica Safari 5 per Windows">Safari 5</a></td>
+		<td class="nowrap" align="center">Windows 7<br>Altri?</td>
+		<td align="center"><span style='color:green'>Si</span>!</td>
+		<td></td>
+	</tr>
+	<tr id="SAFARI4">
+		<td class="nowrap"><a href="http://www.oldapps.com/apple_safari.php?old_safari=16" target="_blank" title="Scarica Safari 3 per Windows">Safari 4</a></td>
+		<td class="nowrap" align="center">Windows Xp<br>Altri?</td>
+		<td align="center"><span style='color:green'>Si</span>!</td>
+		<td></td>
+	</tr>
+	<tr id="SAFARI3">
+		<td class="nowrap"><a href="http://www.oldapps.com/apple_safari.php?old_safari=12" target="_blank" title="Scarica Safari 3 per Windows">Safari 3</a></td>
+		<td class="nowrap" align="center">?</td>
+		<td align="center">?</td>
+		<td></td>
+	</tr>
+</table>
+<span id="browser_code" class="invisible">${browser_code}</span>
+<script>
+	var browser_code = $("#browser_code").text();
+	if (browser_code) {
+		var row = document.getElementById(browser_code);
+		for (var i=0; row && row.childNodes && i<row.childNodes.length; i+=1) {
+			var cell = row.childNodes[i];
+			if (cell.nodeType == 1) {
+				cell.style.backgroundColor = "#333";
+			}
+		}
+	}
+</script>
+<br>
+<p>
+Cercheremo di supportare il maggior numero di Browser possibile quindi questa tabella cambierà nel tempo: torna a controllarla di tanto in tanto se il tuo browser preferito non è ancora compatibile!<br><br>
+</p>
+<p>
+Se vuoi farci sapere come la pagina di gioco si comporta con un certo browser e sotto un certo sistema operativo puoi scriverlo qui sotto${login_message}<br>
+Non è necessario specificare che browser e che sistema operativo stai utilizzando, verrà ricavato automaticamente.<br>
+<div style="text-align:center">
+	<textarea id="compatibility" rows="8" cols="50" ${disabled_color} ${disabled_attribute} onfocus="focusWatermark(this.id);" onblur="blurWatermark(this.id);" onkeydown="return postCompatibility(event, this);"></textarea><br>
+	<input type="submit" ${disabled_attribute} value="Invia" onclick="return postCompatibility(event);" />
+	<script>blurWatermark("compatibility", "${disabled_message}");</script>
+	<br><span id="compatibility_response"></span>
+</div>
+</p>

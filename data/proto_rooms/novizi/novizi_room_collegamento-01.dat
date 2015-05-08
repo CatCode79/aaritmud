@@ -1,0 +1,21 @@
+Code: novizi_room_collegamento-01
+Sector: SECTOR.PATH
+Name: Il Termine del Sentiero
+Short: il termine del sentiero
+Descr:
+	Collocato nella vegetazione, un lungo sentiero pianeggiante s'esaurisce ad ovest davanti ad una piatta distesa di roccia nuda. Increduli gli alberi si osservano incerti sul da farsi.
+
+ 
+Width:	200m
+Depth:	5m
+Height: 100m
+
+
+Exits:
+	Direction: DIR.EAST
+	Descr: Un cortile
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: La nuda roccia
+End

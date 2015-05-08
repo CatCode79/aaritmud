@@ -1,0 +1,94 @@
+<center><h3>Opzioni di Config:</h3></center>
+Opzioni del file di configurazione [white]${config_filename}[close].<br><br>
+<form id="config_options">
+	<div class="block" id="site">
+		<div class="block_title">Opzioni relative la sezione [SITE]:</div>
+		<div class="block_text">${site_section}</div>
+	</div><br>
+	<div class="block" id="server">
+		<div class="block_title">Opzioni relative la sezione [SERVER]:</div>
+		<div class="block_text">${server_section}</div>
+	</div><br>
+	<div class="block" id="mail">
+		<div class="block_title">Opzioni relative la sezione [MAIL]:</div>
+		<div class="block_text">${mail_section}</div>
+	</div><br>
+	<div class="block" id="game">
+		<div class="block_title">Opzioni relative la sezione [GAME]:</div>
+		<div class="block_text">${game_section}</div>
+	</div><br>
+	<div class="block" id="time">
+		<div class="block_title">Opzioni relative la sezione [TIME]:</div>
+		<div class="block_text">${time_section}</div>
+	</div><br>
+	<div class="block" id="log">
+		<div class="block_title">Opzioni relative la sezione [LOG]:</div>
+		<div class="block_text">${log_section}</div>
+	</div><br>
+	<div class="block" id="development">
+		<div class="block_title">Opzioni relative la sezione [DEVELOPMENT]:</div>
+		<div class="block_text">${development_section}</div>
+	</div><br>
+</form>
+<div style="text-align:center">
+	<input type="submit" id="modify_options" onclick="modifyOptions(false)" value="Cambia le Opzioni"${disabled} />&nbsp;
+	<input type="submit" id="write_options" onclick="modifyOptions(true)" value="Cambia e Scrivi le Opzioni"${disabled} /><br><br>
+	<span id="message"></span>
+</div>
+<script>
+function modifyOptions(write_config) {
+	if (write_config) {
+		result = window.confirm("Vuoi modificare e scrivere le opzioni sul file di config?");
+	} else {
+		result = window.confirm("Vuoi modificare le opzioni? (la scrittura delle opzioni sul file di config avverrà durante lo shutdown)");
+	}
+	if (!result) {
+		return;
+	}
+
+	$("#message").text("").show();
+	jQuery.each($("td"), cleanTdError);
+
+	var extra_arg = "";
+	if (write_config) {
+		var extra_arg = "&write_config=1"
+	}
+	$.post("config_options.html", $("#config_options").serialize() + extra_arg, afterSaveOptions);
+}
+
+function cleanTdError(index, td) {
+	if (td.id.indexOf("_") != -1) {
+		var parts = td.id.split("_");
+		if (parts[parts.length-1] == "error") {
+			$(td).text("");
+		}
+	}
+}
+
+function afterSaveOptions(response) {
+	var messages = jQuery.parseJSON(response);
+	if (messages == "[]") {
+		$("#message").css("color", "green");
+		$("#message").text("Salvataggio delle opzioni avvenuto con successo!");
+		setTimeout(function () {$("#message").hide()}, 4000);
+		return;
+	}
+
+	for (e=0; e<messages.length; e++) {
+		var error = messages[e];
+		$("#message").css("color", "red");
+		if (error.indexOf(" ") == -1) {
+			$("#message").text(error);
+			continue;
+		}
+		var parts = error.split(" ", 1);
+		var td_error = $("#" + parts[0] + "_error");
+		if (td_error) {
+			td_error.text(error)
+			$("#message").text("È occorso un errore, controlla accanto alle opzioni per i dettagli.");
+		} else {
+			$("#message").text(error);
+		}
+	}
+}
+</script>

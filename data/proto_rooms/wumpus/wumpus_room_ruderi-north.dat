@@ -1,0 +1,30 @@
+Code: wumpus_room_ruderi-north
+Sector: SECTOR.UNDERGROUND
+Flags: ROOM.INSIDE
+Name: I [white]Ruderi[close] di una Vecchia Scalinata
+Short: i [white]ruderi[close] di una vecchio scalinata
+
+Descr:
+Questo era un vecchio nascondiglio scavato nel sottosuolo; pareti e pavimenti lastricate di pietra [white]bianca[close], soffitti con volte a botte.
+In questo punto c'era una scala che portava all'uscita in alto e che ora è inagibile a causa del collasso di della struttura superiore.
+DescrTouch: 
+Questo era un vecchio nascondiglio scavato nel sottosuolo; pareti e pavimenti lastricate di pietre levigate, soffitti con volte a botte.
+In questo punto c'era una scala che portava all'uscita in alto e che ora è inagibile a causa del collasso di della struttura superiore.
+
+Width:	7m
+Depth:	7m
+Height:	7m
+
+Exits:
+  Direction: DIR.NORTH
+  Destination:	 2 8 0 wumpus
+  Descr: Le [darkseagreen]ragnatele[close]
+End
+Exits:
+  Direction: DIR.SOUTHWEST
+  Descr: I [white]ruderi[close]
+End
+Exits:
+  Direction: DIR.SOUTHEAST
+  Descr: I [white]ruderi[close]
+End

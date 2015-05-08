@@ -1,0 +1,35 @@
+Code: novizi2_room_05a-mangeria
+Sector: SECTOR.HOUSE
+Flags: ROOM.INSIDE
+Name: [gold]La Dispensa[close]
+Short: [gold]una dispensa stipata[close]
+
+Descr:
+Il poco spazio di questo piccolo ambiente circolare è usurpato da una scaffalatura ipertrofica e sfacciata.
+Su ogni ripiano ci sono oggetti di vari colori e varie taglie.
+Non tutto quel che c'è qui è commestibile; alcuni sono contenitori con dentro del cibo, altri non si sa bene cosa possano essere.
+<br>
+Qui è garantito non vi sia nulla di velenoso o nocivo per la saluta ma solo il cibo è consumabile con il comando:<br>
+- $tEAT <br>
+- $tDEVOUR <br>
+Quel che cibo non è si può certo ingurgitare, magari per passare la dogana senza pagare il dazio sull'esportazione:<br>
+- $tSWALLOW <br>
+<br>
+Il recupero degli oggetti si effettua tramite il comando:<br>
+- $tPUKE
+DescrTouch: 
+La tua $hand scorre pigra sugli scaffali incontrando resistenza solo di sostegno in sostegno.
+DescrSmell: 
+Troppa confusione d'odori per riuscire ad individuarne qualcuno.
+DescrSixth:
+Devi estrarre gli oggetti dagli scaffali per poterli manipolare.
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.EAST
+	Door:	ikea_item_porta
+	Descr: [lemonchiffon]al buffet[close]
+End

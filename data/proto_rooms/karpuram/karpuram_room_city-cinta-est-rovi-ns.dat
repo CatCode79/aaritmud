@@ -1,0 +1,22 @@
+Code: karpuram_room_city-cinta-est-rovi-ns
+Sector: SECTOR.PLAIN
+Name: Sul limitare [lime]orientale[close]
+Short: al bordo della [lime]città[close]
+Descr:
+La Via fra gli alberi è tracciata con precisone, prosegue dritta come un fuso. Sul lato
+ovest la vegetazione molto fitta come a costruire una gentile siepe naturale. È invece
+peculiare il bordo ad est della strada ove s'intreccia una fitta muraglia di rovi
+impenetrabile ed altissima; più efficace di ogni fortificazione.
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Nel folto del bosco
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Nel folto del bosco
+End

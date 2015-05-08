@@ -1,0 +1,27 @@
+Code: opekus_room_ofidian_temple_16
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Navata Laterale
+Short: nella cattedrale
+
+Descr:
+La parete laterale nuda e spoglia percorre interminabile tutto il lato sinistro della
+cattedrale; sull'altro lato una fila di colonne separa le due navate. Da questa
+posizione si riesce a vedere in tutta la sua lunghezza la cattedrale.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: Lungo la navata laterale
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Verso la navata centrale
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Attorno al ciborio
+End

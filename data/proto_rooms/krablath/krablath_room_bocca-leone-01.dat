@@ -1,0 +1,25 @@
+Code: krablath_room_bocca-leone-01
+Sector: SECTOR.AIR
+Name: [darkmagenta]Sul Fusto della Bocca di Leone[close]
+Short: [darkmagenta]in arrampicata[close]
+
+Descr:
+Sospes$o a mezzaria, poggi $feet su lunghe [darkolivegreen]foglie[close] affusolate sufficientemente resistenti da sostenere il peso del tuo corpo. La brezza piega appena il fusto della pianta facendoti ondeggiare piacevolmente. Poco sopra di te scorgi alcuni [purple]f[darkmagenta]i[darkviolet]o[darkorchid]r[mediumorchid]i[close] dalle dimensioni altrettanto stupefacenti.
+DescrSmell: 
+Il lieve venticello trasporta qui i profumi di tutto il giardino.
+DescrHearing:
+Un tripudio di insetti concorre a creare una sinfonia di ronzii e sbattiti di ali.
+
+Width:	2m
+Depth:	2m
+Height: 10m
+
+Exits:
+  Direction: DIR.UP
+  Descr: Sempre più su.
+End
+Exits:
+  Direction: DIR.DOWN
+  Descr: Nel giardino.
+End
+

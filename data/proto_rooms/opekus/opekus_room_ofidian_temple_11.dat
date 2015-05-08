@@ -1,0 +1,39 @@
+Code: opekus_room_ofidian_temple_11
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Navata Centrale
+Short: nella cattedrale
+
+Descr:
+Sei all'interno di una cattedrale scavata nelle profondità della roccia. La luce soffusa
+pare arrivare dalla parte superiore da grossolane sfere poste sulla cima delle colonne.
+L'ampio spazio in cui ti trovi è suddiviso in navate da due file di colonne. 
+DescrSmell: 
+Giungono dai lati nord e sud fino alle tue narici, zaffate quasi continue di aria
+umida e stantia.
+DescrHearing:
+Un gocciolio regolare amplificato dall'acustica del luogo riempie il silenzio di
+continui echi sommersi da quelli successivi, diventa impossibile determinare l'origine
+del suono.
+
+Width:	6m
+Depth:	6m
+Height: 8m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Lungo la navata centrale
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Verso l'uscita
+  Door:	opekus_item_door-portale-cattedrale
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Verso la navata inferiore
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Verso la navata inferiore
+End

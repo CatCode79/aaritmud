@@ -1,0 +1,26 @@
+Code: novizi2_room_11b-seed
+Sector: SECTOR.PLAIN
+Name: La Propaggine Sud del Giardino
+Short: la parte sud del giardino
+
+Descr:
+Il giardino si conclude qui su questo lato addossandosi alla parete del caseggiato. Degli stretti corridoietti consentono di muoversi comodamente senza dovr calpestare la terra smossa e pronta per la semina.
+DescrTouch: 
+Diversi paletti sono messi qua e là per fare evidente segnalazione di avvenute semine o proteggerei piccole piantine.
+DescrSmell: 
+La terra smossa di recente contribuisce a dare all'ambiente quell'impressione di rustico che andava molto più in voga qualche secolo fa.
+DescrSixth:
+no_send
+DescrHearing:
+Indisitinto il brusio sommesso che giunge da più parti.
+DescrTaste:
+no_send
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	il vialetto
+End

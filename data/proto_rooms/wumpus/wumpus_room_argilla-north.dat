@@ -1,0 +1,28 @@
+Code: wumpus_room_argilla-north
+Sector: SECTOR.UNDERGROUND
+Flags: ROOM.INSIDE
+Name: Il Cunicolo [firebrick]Argilloso[close] Nord
+Short: il cunicolo [firebrick]argilloso[close] nord
+
+Descr:
+Il colore delle pareti si fa più marcatamente rossastro via via che il cunicolo s'abbassa arzigogolando morbidamente fino ad una biforcazione improvvisa.
+
+DescrTouch: 
+il cunicolo s'abbassa arzigogolando morbidamente in un materiale friabile ed umidiccio che lascia residui sulle pareti. D'un tratto la mano manca l'appoggio ed ecco una biforcazione che s'improvvisa novità repentina..
+
+Width:	3m
+Depth:	3m
+Height:	3m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: La colonna di [aqua]cristallo[close]
+End
+Exits:
+  Direction: DIR.SOUTHWEST
+  Descr: Il cunicolo [firebrick]argilloso[close]
+End
+Exits:
+  Direction: DIR.SOUTHEAST
+  Descr: Il cunicolo [firebrick]argilloso[close]
+End

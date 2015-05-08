@@ -1,0 +1,30 @@
+Code: elizor_room_sagrato-01
+Sector: SECTOR.CITY
+Name: sagrato-01
+Short: sagrato-01
+
+Descr:
+Sei 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	La via
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	Il sagrato
+End

@@ -1,0 +1,115 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<h2>Tag di Act</h2>
+I tag di act sono inseribili dal builder praticamente in qualunque parte di testo (room, item, mob) e consentono di rendere dinamica la lettura da parte del player. Si va dalle descrizioni dell'entit&agrave; fino ai messaggi che possono essere inviati in innumerevoli occasioni.<br>
+Ogni tag viene sostituito in base alle numerose variabili di gioco che possono coinvolgere chi legge, chi effettua un azione e chi la subisce.<br>
+Il pi&ugrave; delle volte i messaggi di act hanno un soggetto: colui che sta facendo l'azione.<br>
+Tutti i tag minuscoli, se non dichiarato altrimenti, sono relativi a colui che sta compiendo l'azione: il soggetto, nel caso pi&ugrave; tipico il giocatore.<br>
+Tutti i tag maiuscoli, se non dichiarato altrimenti, sono relativi all'oggetto relativo all'azione (per esempio il mob relativo ad un comando di azione di kick).<br>
+
+<a name='GENDER'><h3 style='color:white'>Tag di Genere</h3></a>
+Di seguito ci sono gli act di tag utilizzati per la gestione grammaticale delle frasi:
+<br>
+
+<table border='1' width="100%">
+<tr><th>tag di act</th><th>Descrizione</th></tr>
+<tr><td class="label">$o e $O</td><td>ritorna il carattere grammaticale 'o' oppure 'a' a seconda del sesso dell'entit&agrave;.</td></tr>
+<tr><td class="label">$lui e $LUI</td><td>ritorna lui/lei.</td></tr>
+<tr><td class="label">$gli e $GLI</td><td>ritorna gli/le.</td></tr>
+</table><br><br>
+
+<a name='PART'><h3 style='color:white'>Parti del Corpo</h3></a>
+Di seguito ci sono gli act di tag utilizzati per descrivere le parti del corpo delle entit&agrave;, variano a seconda della razza:
+<br>
+<table border='1' width="100%">
+<tr><th>tag di act</th><th>Descrizione</th></tr>
+<tr><td class="label">$hands e $HANDS</td><td>ritorna la stringa descrivente le mani dell'entit&agrave;.</td class="label"></tr>
+<tr><td class="label">$hand1 e $HAND1</td><td>ritorna la stringa descrivente la mano principale dell'entit&agrave;.</td></tr>
+<tr><td class="label">$hand2 e $HAND2</td><td>ritorna la stringa descrivente la mano secondaria dell'entit&agrave;.</td></tr>
+<tr><td class="label">$hand e $HAND</td><td>ritorna la stringa descrivente una generica mano dell'entit&agrave;.</td></tr>
+<tr><td class="label">$feet e $FEET</td><td>ritorna la stringa descrivente i piedi dell'entit&agrave;.</td></tr>
+<tr><td class="label">$foot e $FOOT</td><td>ritorna la stringa descrivente un generica piede dell'entit&agrave;.</td></tr>
+<tr><td class="label">$skin e $SKIN</td><td>ritorna la stringa descrivente la pelle dell'entit&agrave;.</td></tr>
+<tr><td class="label">$tongue e $TONGUE</td><td>ritorna la stringa descrivente la lingua dell'entit&agrave;.</td></tr>
+</table><br><br>
+
+<a name='TRANSLATION'><h3 style='color:white'>Tag di Traduzione</h3></a>
+Di seguito ci sono gli act di tag utilizzati per la traduzione dei comandi:
+
+<br>
+<table border='1' width="100%">
+<tr><td class="label">$t</td><td>Traduce l'input scritto di seguito al tag nella lingua preferita per l'invio dei comandi dell'entit&agrave;, per esempio: $tlook tradurr&agrave; 'guarda' per coloro che usano i comandi in italiano, altrimenti 'look'</td></tr>
+<tr><td class="label">$T</td><td>funziona come $t ma non invia il colore di default utilizzato per i comandi lasciando la possilit&agrave; di colorare la traduzione come si vuole..</td></tr>
+</table><br><br>
+
+<a name='CHRONOLGY'><h3 style='color:white'>Tag di Cronologia</h3></a>
+Di seguito ci sono gli act di tag relativi al calendario gdr del gioco:
+
+<br>
+<table border='1' width="100%">
+<tr><th>tag di act</th><th>Descrizione</th></tr>
+<tr><td class="label">$minute</td><td>ritorna l'attuale minuto.</td></tr>
+<tr><td class="label">$hour</td><td>ritorna l'attuale ora.</td></tr>
+<tr><td class="label">$day_week</td><td>ritorna l'attuale nome del giorno della settimana.</td></tr>
+<tr><td class="label">$day</td><td>ritorna l'attuale giorno del mese.</td></tr>
+<tr><td class="label">$month</td><td>ritorna l'attuale nome del mese.</td></tr>
+<tr><td class="label">$season</td><td>ritorna il nome dell'attuale stagione.</td></tr>
+<tr><td class="label">$year</td><td>ritorna l'attuale anno.</td></tr>
+</table><br><br>
+
+<a name='NAME'><h3 style='color:white'>Tag per i Nomi</h3></a>
+Di seguito ci sono gli act di tag utilizzati per ricavare i nomi delle entit&agrave;:
+
+<br>
+<table border='1' width="100%">
+<tr><th>tag di act</th><th>Descrizione</th></tr>
+<tr><td class="label">$n</td><td>ritorna il nome dell'entit&agrave; che esegue l'azione.</td></tr>
+<tr><td class="label">$N</td><td>ritorna il nome dell'entit&agrave; che subisce l'azione.</td></tr>
+<tr><td class="label">$a</td><td>ritorna il nome della prima entit&agrave; ausiliaria del metodo di act.</td></tr>
+<tr><td class="label">$A</td><td>ritorna il nome della seconda entit&agrave; ausiliaria del metodo di act.</td></tr>
+</table><br><br>
+
+<h3>Esempio</h3>
+Un esempio aiuter&agrave; a comprendere il funzionamento del metodo act, metodo che fa largo uso di questi tag:<br>
+entity.act("Hai dato un calcio a $N mentre $a e $A stavano a guardare!", TO.ENTITY, vittima, compagno1, compagno2)<br>
+entity.act("$n ti ha dato un calcio mentre $a e $A stavano a guardare!", TO.TARGET, vittima, compagno1, compagno2)<br>
+entity.act("$n ha dato un calcio a $N mentre $a e $A stavano a guardare!", TO.OTHERS, vittima, compagno1, compagno2)<br>
+<br>
+Concettualmente il metodo di act funziona in questo modo:<br>
+entit&agrave;_$n.act("messaggio con i tag di act", TO.ENTITY, entit&agrave;_$N, entit&agrave;_$a, entit&agrave;_$A)<br>
+entit&agrave;_$n.act("messaggio con i tag di act", TO.TARGET, entit&agrave;_$N, entit&agrave;_$a, entit&agrave;_$A)<br>
+entit&agrave;_$n.act("messaggio con i tag di act", TO.OTHERS, entit&agrave;_$N, entit&agrave;_$a, entit&agrave;_$A)<br>
+<br>
+In senso generale $a e $A vengono usati pi&ugrave; di rado, e addirittura, nei messaggi di act pi&ugrave; semplici con un'azione priva di vittime a subirla, non vi &egrave; neppure il bisogno di $N n&eacute; del messaggio a TO.TARGET:<br>
+entity.act("Sorridi sornione...", TO.ENTITY)<br>
+entity.act("$n sorride sornione...", TO.OTHERS)<br>
+<br>
+Inoltre che i tag ausiliari di $a e $A possono passare anche una stringa descrivente qualche cosa:<br>
+entity.act("miagoli verso $a...", TO.ENTITY, None, str(DIR.NORTH))<br>
+entity.act("$n miagola verso $a...", TO.OTHERS, None, str(DIR.NORTH))<br>
+
+<a name='GENERIC'><h3 style='color:white'>Altri Tag</h3></a>
+
+<table  border='1' width="100%">
+<tr><th>tag di act</th><th>Descrizione</th></tr>
+<tr><td class="label">$l e $L</td><td>ritorna il nome dell'attuale locazione in cui si trova rispettivamente l'entit&agrave; che esegue l'azione e l'entit&agrave; che la subisce.</td></tr>
+<tr><td class="label">$p e $P</td><td>ritorna il nome della locazione precedente in cui si trovava rispettivamente l'entit&agrave; che esegue l'azione e l'entit&agrave; che la subisce.</td></tr>
+<tr><td class="label">$k e $K</td><td>ritorna la parola chiave relativa rispettivamente all'entit&agrave; che esegue l'azione e all'entit&agrave; che la subisce.</td></tr>
+<tr><td>Attenzione a questi due tag di act che non funzionano sull'entit&agrave; che esegue l'azione ma sull'obiettivo dell'azione.</td></tr>
+<tr><td class="label">$i</td><td>elenca le entit&agrave; contenute nell'obiettivo della stringa di act.</td></tr>
+<tr><td class="label">$I</td><td>visualizza il nome dell'entit&agrave; di peso maggiore nell'obiettivo della stringa di act.</td></tr>
+</table><br><br>
+
+
+</div>
+<hr>
+</body>
+</html>

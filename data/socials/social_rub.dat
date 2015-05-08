@@ -1,0 +1,32 @@
+FunName:    social_rub
+Intention:  INTENTION.AGGRESSIVE
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: A chi potresti 'fare lo scalpo'?
+  OthersNoArg: $n osserva con fare poco rassicurante le teste dei presenti..
+  EntityFound: Strofini con forza le nocche sulla testa di $N! AHI!
+  OthersFound: $n strofina con forza le nocche sulla testa di $N! AHI!
+  TargetFound: $n strofina con forza le nocche sulla tua testa! ARGH!
+  EntityAuto:  Strofini con forza le nocche sulla tua testa..è piacevole?
+  OthersAuto:  $n strofina con forza le nocche sulla sua testa.. è piacevole?
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Ti struffi addosso ai presenti senza chiedere permesso.
+  OthersNoArg: $n si struffa addosso ai presenti senza chiedere permesso.
+  EntityFound: Ti struffi addosso a $N lasciando$GLI addosso il tuo odore.
+  OthersFound: $n si struffa addosso $N lasciando$GLI addosso il suo odore.
+  TargetFound: $n si struffa addosso a te lasciandomi addosso il suo odore.
+  EntityAuto:  Ti strofini il manto energicamente.
+  OthersAuto:  $n si strofina energicamente il manto con le zampe.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Ti struffi addosso ai presenti senza chiedere permesso.
+  OthersNoArg: $n si struffa addosso ai presenti senza chiedere permesso.
+  EntityFound: Ti struffi addosso a $N lasciando$GLI addosso il tuo odore.
+  OthersFound: $n si struffa addosso $N lasciando$GLI addosso il suo odore.
+  TargetFound: $n si struffa addosso a te lasciandomi addosso il suo odore.
+  EntityAuto:  Ti strofini il manto energicamente.
+  OthersAuto:  $n si strofina energicamente il manto con le zampe.
+End

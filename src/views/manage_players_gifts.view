@@ -1,0 +1,16 @@
+<center><h3>GESTIONE DEI REGALI</h3></center>
+Di seguito viene mostrato l'elenco dei giocatori che hanno uno o più regali.<br>
+I codici evidenziati in verde indicano che sono entità esistenti in gioco con owner relativo al giocatore, altrimenti risulteranno evidenziati in colore bianco e possibili da ridonare con l'apposito tasto in fondo.<br>
+<br>
+${player_gifts}
+<br>
+<input type="submit" value="Ridona" onclick="redonate();" /><br>
+ATTENZIONE: Tale azione è bene eseguirla quando non vi è nessun giocatore online che deve ricevere il dono, questo problema lo avremo fino a che utilizzeremo la connessione Ajax e non ci saraà più quando useremo solo la connessione WebSocket.<br><br>
+<span id="response" style="color:green;"></span>
+<script>
+function redonate() {
+	$.post("manage_players_gifts.html", function(response) {
+		$("#response").html(response);
+	});
+}
+</script>

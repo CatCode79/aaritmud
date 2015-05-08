@@ -1,0 +1,38 @@
+FunName:    social_stomp
+Intention:  INTENTION.AGGRESSIVE
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Sbatti i $feet per terra protestando e mettendo il broncio!
+  OthersNoArg: $n sbatte i $feet per terra protestando e mettendo il broncio!
+  EntityFound: Pesti un $FOOT a $N! Ahi!
+  OthersFound: $n pesta un $FOOT a $N, Ahi!
+  TargetFound: $n ti pesta un $FOOT, Ahi!
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Esterni il tuo disappunto.
+  OthersNoArg: $n si agita e si produce in indecorosi piagnistei.
+  EntityFound: Segnali a $N il tuo disappunto.
+  OthersFound: Pesti i $feet a mezz'aria e frigni all'indirizzo di $N.
+  TargetFound: $n si lascia andare ad indecorosi piagnistei al tuo indirizzo.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Sbatti le zampe per terra non producendo alcun suono..
+  OthersNoArg: $n pesta le zampe per terra ma ahi$gli, non produce rumore.
+  EntityFound: Dai una solenne zampata al $FOOT di $N!
+  OthersFound: $n pesta un $FOOT a $N con la sua zampa.
+  TargetFound: Ahie! $n ti dà una zampata su un $FOOT!
+  EntityAuto:  Ti pesti una zampa con l'altra.
+  OthersAuto:  $n ha un attacco di idiozia, si sta pestando le zampe da sol$o.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Sbatti le zampe per terra non producendo alcun suono..
+  OthersNoArg: $n pesta le zampe per terra ma ahi$gli, non produce rumore.
+  EntityFound: Dai una solenne zampata al $FOOT di $N!
+  OthersFound: $n pesta un $FOOT a $N con la sua zampa.
+  TargetFound: Ahie! $n ti dà una zampata su un $FOOT!
+  EntityAuto:  Ti pesti una zampa con l'altra.
+  OthersAuto:  $n ha un attacco di idiozia, si sta pestando le zampe da sol$o.
+End

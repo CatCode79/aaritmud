@@ -1,0 +1,26 @@
+FunName:    social_swoon
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Svieni.. ahi, il pavimento è duro..
+  OthersNoArg: $n sviene improvvisamente..
+  EntityFound: Svieni improvvisamente guardando $N!
+  OthersFound: $n sviene improvvisamente guardando $N.
+  TargetFound: $n sviene improvvisamente.. tra le tue braccia..
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Ti senti svenire e cerchi di tenerti in equilibrio con la coda.
+  OthersNoArg: $n ruota la coda per mantenersi in equilibrio mentre sviene.
+  EntityFound: Avverti la tua $tongue sfuggire dalle labbra mentre svieni addosso a $N.
+  OthersFound: $n s'accascia addosso a $N, la sua $tongue pende come morta dalle labbra.
+  TargetFound: $n s'accascia addosso a te, la sua $tongue pende come morta dalle labbra.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Ti senti svenire e cerchi di tenerti in equilibrio con la coda.
+  OthersNoArg: $n ruota la coda per mantenersi in equilibrio mentre sviene.
+  EntityFound: Avverti la tua $tongue sfuggire dalle labbra mentre svieni addosso a $N.
+  OthersFound: $n s'accascia addosso a $N, la sua $tongue pende come morta dalle labbra.
+  TargetFound: $n s'accascia addosso a te, la sua $tongue pende come morta dalle labbra.
+End

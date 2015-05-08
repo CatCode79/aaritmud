@@ -1,0 +1,41 @@
+Code: karpuram_room_secolare-06
+Sector: SECTOR.PLAIN
+Name: Le Scale per il Secondo Livello
+Short: una scala per il secondo livello
+
+Descr:
+Sei sulla scala che collega il primo ballatoio al secondo, ti risulta agevole
+poterti muovere per tutta la sua lunghezza e ti rendi conto, solamente 
+guardandoti intorno, di quanto tu sia in alto rispetto a prima, la scala però
+non risulta ripida e mantiene una conformità relativamente unica che si
+accosta perfettamente con l'ambiente circostante. Persino il materiale con cui
+è stata costruita ti lascia pensare che essa stessa sia parte integrante del
+grande albero su cui poggia. Una serie di lampade, ora spente, sfalsate ad 
+intervalli regolari indicano il percorso. Dalla tua posizione procedendo
+verso est potrai giungere al primo ballatoio, mentre verso l'alto al secondo.
+
+DescrNight:
+Sei sulla scala che collega il primo ballatoio al secondo, ti risulta agevole
+poterti muovere per tutta la sua lunghezza e ti rendi conto, solamente 
+guardandoti intorno, di quanto tu sia in alto rispetto a prima, la scala però
+non risulta ripida e mantiene una conformità relativamente unica che si
+accosta perfettamente con l'ambiente circostante. Persino il materiale con cui
+è stata costruita ti lascia pensare che essa stessa sia parte integrante del
+grande albero su cui poggia. Una serie di lampade, sfalsate ad 
+intervalli regolari illuminano il percorso. Dalla tua posizione procedendo
+verso est potrai giungere al primo ballatoio, mentre verso l'alto al secondo.
+
+
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Sul primo ballatoio
+End
+Exits:
+  Direction: DIR.UP
+  Descr: Il secondo ballatoio
+End

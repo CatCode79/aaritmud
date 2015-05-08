@@ -1,0 +1,27 @@
+Code: krablath_room_settori-08
+Sector: SECTOR.PLAIN
+Flags:	ROOM.NO_MOB ROOM.NO_ITEM
+Name: [darkmagenta]Nell'Aiuola delle Bocche di Leone[close]
+Short: [darkmagenta]ai piedi di un enorme vegetale[close]
+
+Descr:
+Una miriade di piccoli rampicanti si aggrappano ad un fusto dalle inaudite dimensioni che è cresciuto al centro di quest'aiuola. Anche guardando verso l'alto non riesci a scorgerne la cima.
+DescrSmell: 
+Una permeante fragranza d'erba..
+DescrSixth:
+Le dimensioni di questo vegetale di lasciano a dir poco allibit$o e ti chiedi cosa possa averla fatta crescere così.
+DescrHearing:
+Un sonoro sgranocchiare coperto appena dalla brezza che passa tra le foglie.
+
+Width:	5m
+Depth:	5m
+Height: 10m
+
+Exits:
+  Direction: DIR.NORTHEAST
+  Descr: Immerso nelle bocche di leone.
+End
+Exits:
+	Direction:	DIR.UP
+	Descr:	In arrampiacata.
+End

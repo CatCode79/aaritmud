@@ -1,0 +1,30 @@
+Comment: L'idea dell'emporio è che si possa vendere praticamente qualsiasi cosa, anche se in questo escluderei il cibo..anche le cose più strampalate. Qui ci terrei a mettere un po' di sementi, ingredienti per non si sa cosa oggettini vari anche apparentemente inutili. 
+
+Code: villaggio-zingaro_room_emporio
+Sector: SECTOR.SHOP
+Flags: ROOM.INSIDE 
+Name: L'Emporio di Urf Aliyeva
+Short: l'emporio
+
+Descr:
+Uno già striminzito locale appare ancora più angusto a causa dell'ingente quantità di cianfrusaglie riposte in ordine sommario su tre immense [saddlebrown]scaffalature[close] che ricoprono le pareti. L'unico muro libero è occupato da un [saddlebrown]bancone[close] con [lightblue]vetrinetta[close] e da una piccola porticina.
+DescrTouch:
+I movimenti sono limitati dal poco spazio ed ad ogni passo rischi di combinare qualche pasticcio.
+DescrSmell: 
+Una notevole quantità di polvere aleggia nell'aria solleticandoti il naso. Evidentemente qui non si spolvera troppo spesso.
+DescrSixth:
+Hai l'impressione che questo negozio possa custodire qualche oggetto di notevole valore sotto a tutte le cianfrusaglie.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.EAST
+	Descr: Il magazzino
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: La strada
+	Door:	villaggio-zingaro_item_door-porta-emporio-interna
+End

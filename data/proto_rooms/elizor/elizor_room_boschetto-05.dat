@@ -1,0 +1,26 @@
+Code: elizor_room_boschetto-05
+Sector: SECTOR.HOUSE
+Name: boschetto-05
+Short: boschetto-05
+
+Descr:
+Sei 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	La strada
+End

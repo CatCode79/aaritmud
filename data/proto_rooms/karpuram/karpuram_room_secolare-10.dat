@@ -1,0 +1,46 @@
+Code: karpuram_room_secolare-10
+Sector: SECTOR.PLAIN
+Name: Una Stanza Ben Difesa
+Short: una stanza ben difesa
+
+Descr:
+Questa stanza si trova in una posizione strategica, è molto semplice e senza
+troppi fronzoli. Presenta alcune lampade sparse ai bordi, legate con cura al
+corrimano di corda presente su tutto il perimetro. La stanza è aperta e non 
+vi sono pareti divisorie o zone di avvistamento, noti però infine con lo sguardo
+una grossa grata di ferro battuto, molto scura e apparentemente solida che ti
+vieta di salire al terzo piano di questa grande struttura. Posto a guardia di
+questo sbarramento vi è un muro di elfi armati fino ai denti che ti preoccupa
+molto più della grata ferrosa. Questa stanza risulta molto ben difesa, lo 
+sbarramento delle guardie difatti è presente da ambo i lati della grata!
+Forse ti conviene tornare verso nord al secondo ballatoio.
+
+DescrNight:
+Questa stanza si trova in una posizione strategica, è molto semplice e senza
+troppi fronzoli. Presenta alcune [orange]lampade[close] sparse ai bordi, 
+legate con cura al corrimano di corda presente su tutto il perimetro. 
+La stanza è aperta e non vi sono pareti divisorie o zone di avvistamento, 
+noti però infine con lo sguardo una grossa grata di ferro battuto, molto scura e
+apparentemente solida che ti vieta di salire al terzo piano di questa grande 
+struttura. Posto a guardia di questo sbarramento vi è un muro di elfi armati 
+fino ai denti che ti preoccupa molto più della grata ferrosa. Questa stanza 
+risulta molto ben difesa, lo sbarramento delle guardie difatti è presente da 
+ambo i lati della grata! Forse ti conviene tornare verso nord al secondo 
+ballatoio.
+
+DescrSixth:
+Avverti una sensazione di paura molto forte! Ogni parte del tuo corpo ti sta
+dicendo di andare via di qui al più presto!
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.UP
+  Descr: Il terzo ballatoio
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Il secondo ballatoio
+End

@@ -1,0 +1,20 @@
+Code: serpidi_room_8651_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: Gli allevamenti 
+Short: Gli allevamenti 
+Descr: 
+Sei accanto ad uno dei recinti degli animali. Ecco un'animale davvero strabiliante. Istintivamente ti fa pensare ad un uccello. Comunque quello che si vede è un paio di gambe sottili come cannucce ed alte circa due metri, sormontate da un enorme massa di lanugine viola. C'è una colonna con una sfera luminosissima in cima. 
+Exits:
+	Direction: DIR.EAST
+	Destination: -2 0 0 serpidi
+End
+Exits:
+	Direction: DIR.SOUTH
+	Destination: -3 -1 0 serpidi
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

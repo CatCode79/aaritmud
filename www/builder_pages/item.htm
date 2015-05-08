@@ -1,0 +1,240 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<h2>Indice delle Etichette per un Oggetto Prototipo</h2>
+<a href='#Comment'>Comment:</a><br>
+<a href='#Code'>Code:</a><br>
+<a href='#Icon'>Icon:</a><br>
+<a href='#Level'>Level:</a><br>
+<a href='#Race'>Race:</a><br>
+<a href='#Materials'>Materials:</a><br>
+<a href='#Sex'>Sex:</a><br>
+<a href='#MaxGlobalQuantity'>MaxGlobalQuantity:</a><br>
+<a href='#MaxLife'>MaxLife:</a><br>
+<a href='#Life'>Life:</a><br>
+<a href='#MaxMana'>MaxMana:</a><br>
+<a href='#Mana'>Mana:</a><br>
+<a href='#MaxVigour'>MaxVigour:</a><br>
+<a href='#Vigour'>Vigour:</a><br>
+<a href='#Entitype'>Entitype:</a><br>
+<a href='#Name'>Name:</a><br>
+<a href='#Short'>Short:</a><br>
+<a href='#Long'>Long:</a><br>
+<a href='#LongNight'>LongNight:</a><br>
+<a href='#ShortNight'>ShortNight:</a><br>
+<a href='#Descr'>Descr:</a><br>
+<a href='#DescrNight'>DescrNight:</a><br>
+<a href='#DescrHearing'>DescrHearing:</a><br>
+<a href='#DescrHearingNight'>DescrHearingNight:</a><br>
+<a href='#DescrSmell'>DescrSmell:</a><br>
+<a href='#DescrSmellNight'>DescrSmellNight:</a><br>
+<a href='#DescrTouch'>DescrTouch:</a><br>
+<a href='#DescrTouchNight'>DescrTouchNight:</a><br>
+<a href='#DescrTaste'>DescrTaste:</a><br>
+<a href='#DescrTasteNight'>DescrTasteNight:</a><br>
+<a href='#DescrSixth'>DescrSixth:</a><br>
+<a href='#DescrSixthNight'>DescrSixthNight:</a><br>
+<a href='#Extras'>Extras:</a><br>
+<a href='#Weight'>Weight:</a><br>
+<a href='#BirthDay'>BirthDay:</a><br>
+<a href='#BirthMonth'>BirthMonth:</a><br>
+<a href='#Age'>Age:</a><br>
+<a href='#Flags'>Flags:</a><br>
+<a href='#Affects'>Affects:</a><br>
+<a href='#Walker'>Walker:</a><br>
+<a href='#ExtractTimeout'>ExtractTimeout:</a><br>
+<a href='#Remains'>Remains:</a><br>
+<a href='#RemainsNight'>RemainsNight:</a><br>
+<a href='#Aggressivenesses'>Aggressivenesses:</a><br>
+<a href='#Behaviour'>Behaviour:</a><br>
+<a href='#Shop'>Shop:</a><br>
+<!--
+<a href='#PersonalResets'>PersonalResets:</a><br>
+-->
+</table><br>
+
+<hr>
+<h2>Struttura Tipica con le Etichette pi&ugrave; Comuni (per copia e incolla)</h2>
+<pre>
+Code:
+Level:
+Entitype:
+Name:
+Short:
+Descr:
+Weight:
+</pre>
+
+<hr>
+<a name='Comment'><h3>Comment:</h3></a>
+Come per la stanza.<br>
+L'etichetta &egrave; facoltativa ma utile per i futuri builder o revisor<br><br>
+
+<a name='Code'><h3>Code:</h3></a>
+Come per la stanza.<br>
+Etichetta obbligatoria.<br><br>
+
+<a name='Icon'><h3>Icon:</h3></a>
+Come per la <a href="room.htm#Icon">stanza</a>.<br>
+Ma see omessa e l'oggetto &egrave; una porta con struttra DoorType vedr&agrave; automaticamente assegnata l'icona di default della porta chiusa.<br>
+Si rimanda alla struttura <a href="door_type.htm">DoorType</a> per dettagli riguardo alle icone door.<br>
+Etichetta Facoltativa.<br><br>
+
+<a name='Level'><h3>Level:</h3></a>
+Modificatore del livello rispetto al livello dell'area, quindi se si vuole un oggetto "un po' pi&ugrave; fico" rispetto alla media dell'area basta inserire +N, dove N &egrave; un numero consigliato da 1 a 5. Ovviamente si pu&ograve; fare il contrario, stesse modalit&agrave; ma con l'operatore meno.<br>
+Etichetta facoltativa se il modificatore &egrave; 0.<br><br>
+
+<a name='Race'><h3>Race:</h3></a>
+Manifattura razziale dell'oggetto, cio&egrave; indica se quell'oggetto &egrave; stato creato appositamente per una razza, questo serve soprattutto per le cose vestibili, un'armatura di minotauro non andr&agrave; mai bene ad un nano, per&ograve; ad un orco potrebbe andare bene.<br>
+Etichetta facoltativa se si vuole che l'oggetto sia pensato per qualsiasi razza.<br><br>
+
+<a name='Materials'><h3>Materials:</h3></a>
+Indica di che materiale &egrave; fatto l'item.<br>
+La sintassi &egrave; la seguente:<br>
+Materials: MATERIAL.PAPER 100%<br>
+Per scegliere un materiale basta andare alla lista dei <a href="builder_pages/elements_list.htm#MATERIAL" target="_blank" title="pagina delle enumerazioni, sezione materiali">lista dei materiali</a>.<br>
+Il totale della percentuale di tutti i materiale deve essere 100%, se il materiale &egrave; uno solo deve essere impostato a 100%.<br>
+in generale vige la regola semplificativa: se &egrave; solido ha materiali solidi, se &egrave; liquido ha materiali liquidi.<br>
+Etichetta facoltativa.<br><br>
+
+<a name='Sex'><h3>Sex:</h3></a>
+Genere con il quale ci si riferisce al oggetto e con il quale si declinano gli articoli ed pronomi che vi si riferiscono.<br>
+Etichetta obbligatoria.<br><br>
+
+<a name='MaxGlobalQuantity'><h3>MaxGlobalQuantity:</h3></a>
+Etichetta che indica, per un oggetto, il numero massimo di copie presenti contemporaneamente sia in gioco che fuori.<br>
+Il valore 0 indica che non vi &egrave; un limite superiore e corrisponde al valore di default.<br>
+Etichetta facoltativa.<br><br>
+
+<a name='MaxLife'><h3>MaxLife:</h3></a>
+Valore massimo dei punti vita. Oggetti fragili potranno avere poche decine di MaxLife, un valore di 100 rappresenta un oggetto duraturo.<br>
+Etichetta obbligatoria.<br><br>
+
+<a name='Life'><h3>Life:</h3></a>
+Valore dei punti vita con cui viene caricato l'item. Pu&ograve; essere ovviamente minore di MaxLife oppure anche maggiore ad esempio nel caso di oggetti male in arnese o rispettivamente nati per non tornare mai pi&ugrave; nelle loro condizione di splendore iniziale.<br>
+Etichetta obbligatoria.<br><br>
+
+<a name='MaxMana'><h3>MaxMana:</h3></a>
+Valore massimo dei punti legati alla magia come potrebbero essere  il numero di cariche di una bacchetta magica.<br>
+Etichetta obbligatoria.<br><br>
+
+<a name='Mana'><h3>Mana:</h3></a>
+Valore dei punti legati alla magia con cui viene caricato in gioco l'oggetto.<br>
+Etichetta obbligatoria.<br><br>
+
+<a name='MaxVigour'><h3>MaxVigour:</h3></a>
+Valore massimo del vigore. Etichetta con significato ancora in cantiere per gli oggetti.<br>
+Etichetta obbligatoria.<br><br>
+
+<a name='Vigour'><h3>Vigour:</h3></a>
+Valore del vigore. Etichetta con significato ancora in cantiere per gli oggetti.<br>
+Etichetta obbligatoria.<br><br>
+
+<a name='Entitype'><h3>Entitype:</h3></a>
+Element che indica la <a href="entitype.htm">tipologia</a> dell'oggetto, vedere la lista di <a href="elements_list.htm#ENTITYPE">ENTITYPE</a> (per ora pi&ugrave; che scarna, fare un fischio per ogni tipologia che si vuole aggiungere).<br>
+Etichetta obbligatoria.<br><br>
+
+<a name='Name'><h3>Name:</h3></a>
+<a name='Short'><h3>Short:</h3></a>
+<a name='ShortNight'><h3>ShortNight:</h3></a>
+Come per le stanze.<br><br>
+
+<a name='Long'><h3>Long:</h3></a>
+L'etichetta consente di arricchire la Short o la Name con del testo che non si vuole mettere direttamente nella Short o nella Name.
+Aarit visualizza unicamente la Long, diventa quindi necessario inserire la short o name con la stringa di act $N all'interno.<br>
+<br>
+<fieldset>
+<legend>Esempio:</legend>
+<span class="label">Short</span>: una trottola</pre><br>
+<span class="label">Long</span>: C'&egrave; $N tutta sbilenca gettata qui a terra.</pre><br>
+<br>
+Il giocatore legger&agrave;:<br>
+<br>
+C'&egrave; una trottola tutta sbilenca gettata qui a terra.<br>
+</fieldset><br>
+<br>
+L'etichetta non &egrave; obbligatoria.
+
+<a name='LongNight'><h3>LongNight:</h3></a>
+Corrispettivo della Long ma questa funziona di notte.
+L'etichetta non &egrave; obbligatoria.
+<br><br>
+<a name='Descr'><h3>Descr:</h3></a>
+<a name='DescrNight'><h3>DescrNight:</h3></a>
+<a name='DescrHearing'><h3>DescrHearing:</h3></a>
+<a name='DescrHearingNight'><h3>DescrHearingNight:</h3></a>
+<a name='DescrSmell'><h3>DescrSmell:</h3></a>
+<a name='DescrSmellNight'><h3>DescrSmellNight:</h3></a>
+<a name='DescrTouch'><h3>DescrTouch:</h3></a>
+<a name='DescrTouchNight'><h3>DescrTouchNight:</h3></a>
+<a name='DescrTaste'><h3>DescrTaste:</h3></a>
+<a name='DescrTasteNight'><h3>DescrTasteNight:</h3></a>
+<a name='DescrSixth'><h3>DescrSixth:</h3></a>
+<a name='DescrSixthNight'><h3>DescrSixthNight:</h3></a>
+<a name='Extras'><h3>Extras:</h3></a>
+Come per le stanze.<br><br>
+
+<a name='Weight'><h3>Weight:</h3></a>
+Weight &egrave; una misura relativa ad un peso, ricordarsi dell'unit&agrave; di misura.<br>
+Se un'oggetto ha peso trascurabile (minore di un grammo: una piuma, un centesimino), si pu&ograve; evitare di inserire un peso rendendo facoltativa quest'etichetta.<br><br>
+
+<a name='BirthDay'><h3>BirthDay:</h3></a>
+<a name='BirthMonth'><h3>BirthMonth:</h3></a>
+Giorno, mese rpg in cui l'oggetto &egrave; stato creato.<br>
+Facoltativo, tuttavia anche gli oggetti hanno diritto al loro compleanno, o no?<br><br>
+
+<a name='Age'><h3>Age:</h3></a>
+Et&agrave; dell'oggetto, da quest'etichetta e dalle due precedenti si pu&ograve; quindi ricavare quando &egrave; stato costruito l'oggetto.<br>
+L'etichetta &egrave; facoltativa anche se consigliata, se omessa l'oggetto verr&agrave; considerato come creato da poco tempo, ovvero nuovo.<br><br>
+
+<a name='Flags'><h3>Flags:</h3></a>
+Flags di oggetto relative alla lista di enumerazione FLAG.<br>
+L'etichetta &egrave; facoltativa.<br><br>
+
+<a name='Affects'><h3>Affects:</h3></a>
+Etichetta ancora in cantiere, come per le stanze.<br><br>
+
+<a name='Walker'><h3>Walker:</h3></a>
+Sottostruttura che consente di personalizzare i verbi di movimento che compaiono quando l'entit&agrave; si sposta di room in room.<br>
+Viene spiegata in una <a href="walker.htm">pagina a parte</a>.<br><br>
+
+<a name='ExtractTimeout'><h3>ExtractTimeout:</h3></a>
+&Egrave; una sotto-struttura che consente di far rimuovere automaticamente l'entit&agrave; dopo il numero desiderato di minuti rpg con una variazione casuale attorno al 10%.<br>
+Viene spiegata in una <a href="extracttimeout.htm">pagina a parte</a>.<br><br>
+<br>
+
+<a name='Remains'><h3>Remains:</h3></a>
+<a name='RemainsNight'><h3>RemainsNight:</h3></a>
+Esse servono ad indicare il codice proto, di item o mob, relativo ai cocci o i resti di un item dopo distruzione in alternativa a quelli di default.<br>
+&Egrave; possibile cio&egrave; utilizzare anche un prototipo di mob.<br>
+L'etichetta Remains si attiva sempre a meno che non vi sia anche la RemainsNight che ne prende il posto per le ore notturne.<br>
+Se si imposta solo la notturna, essa verr&agrave; attivata solo in caso di distruzione notturna; la distruzione diurna vedr&agrave; invece i cocci di default.<br><br>
+
+<a name='Aggressivenesses'><h3>Aggressivenesses:</h3></a>
+Tale etichetta &egrave; una lista di stringhe che possono essere degli echo o degli input inviati al giocatore nel Caso l'item abbia la flag FLAG.AGGRESSIVE.<br>
+Quindi dopo che la vittima sar&agrave; entrata nella stanza l'item invier&agrave; a caso, ogni 3-6 secondi uno di questi echo o input.<br><br>
+
+<a name='Behaviour'><h3>Behaviour:</h3></a>
+La sotto-struttura degli oggetti relativa al comportamento &egrave; piuttosto estesa, viene spiegata in una <a href="behaviour.htm">pagina a parte</a>.<br><br>
+
+<a name='Shop'><h3>Shop:</h3></a>
+La sotto-struttura consente di creare un mob venditore/riparatore, essendo particolarmente articolata &egrave; sconsigliata a chi inizia ad intraprendere il building. Viene spiegata in una <a href="shop.htm">pagina a parte</a>.<br><br> .<br><br>
+
+
+<!--
+<a name='PersonalResets'><h3>PersonalResets:</h3></a>
+La sotto-struttura consente di far resettare entit&agrave; direttamente all'item stesso in luogo dei reset di area presenti nei file area. L'utilizzo maggiore consiste nel poter realizzare oggetti che vengono riempiti autonomamente all'atto della creazione: ad esempio per far vendere una scatola di cioccolatini ad un venditore, basta porre in vendita la scatola che poi tramite PersonalResets caricher&agrave; i cioccolatini.<br>
+Il trigger per interagirvi &egrave; il before_/after_inject.<br>
+La sotto-struttura viene spiegata in una <a href="personal_resets.htm">pagina a parte</a>.<br><br>
+-->
+
+<br>
+</body>
+</html>

@@ -1,0 +1,37 @@
+Comment: 85 1 3
+Code: sauria_room_amena-foresta-27
+Sector: SECTOR.FOREST
+Name: Un'Amena Foresta
+Short: un'amena foresta
+
+Descr:
+Una parete di spessa e solida roccia torreggia verso ovest. La foresta qui appare ancor più tetra, tanto da far accapponare la pelle.
+DescrTouch: 
+Una $hand sulla roccia a lato ti persuade d'esser giunto alla periferia ovest della foresta.
+DescrSmell: 
+Qualche muschio e qualche umida felce ti salutano con l'inequivocabile olezzo caratteristico.
+DescrSixth:
+Qualcosa a nord... forse una via alternativa...
+DescrHearing:
+Senti del brusio indistinto provenire da nord.
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21832
+  Descr:	Ai piedi del vulcano
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 -1 21826
+  Descr:	Un'amena foresta
+  Direction:	DIR.EAST
+End
+Exits:
+  Comment:	0 -1 21821
+  Descr:	Un'amena foresta
+  Direction:	DIR.SOUTH
+End

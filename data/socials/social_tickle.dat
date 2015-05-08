@@ -1,0 +1,32 @@
+FunName:    social_tickle
+Intention:  INTENTION.FRIENDLY
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Chi vuoi solleticare?
+  OthersNoArg: $n agita le dita nervosamente, forse vuole solleticare qualcuno.
+  EntityFound: Fai il solletico a $N.
+  OthersFound: $n fa il solletico a $N.
+  TargetFound: $n ti fa il solletico - hee hee hee.
+  EntityAuto:  AHAHAHAHAHAHAHAH!!
+  OthersAuto:  $n si solletica ridendo a crepapelle.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Agiti gli artiglini in cerca di qualcuno da solleticare.
+  OthersNoArg: $n ha sfoderato gli artigli, in cerca di qualcuno da solleticare.
+  EntityFound: Solletichi $N con la punta degli artigli, delicatamente.
+  OthersFound: $n solletica $N delicatamente con la punta degli artigli.
+  TargetFound: $n ti solletica con gli artiglini, delicatamente.
+  EntityAuto:  Ahhh! Che bel solletichino!
+  OthersAuto:  $n si solletica da sé, $gli basta poco per esser felice.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Agiti gli artiglini in cerca di qualcuno da solleticare.
+  OthersNoArg: $n ha sfoderato gli artigli, in cerca di qualcuno da solleticare.
+  EntityFound: Solletichi $N con la punta degli artigli, delicatamente.
+  OthersFound: $n solletica $N delicatamente con la punta degli artigli.
+  TargetFound: $n ti solletica con gli artiglini, delicatamente.
+  EntityAuto:  Ahhh! Che bel solletichino!
+  OthersAuto:  $n si solletica da sé, $gli basta poco per esser felice.
+End

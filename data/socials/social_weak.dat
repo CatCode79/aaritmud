@@ -1,0 +1,42 @@
+FunName:    social_weak
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Ti senti talmente debole da non reggerti in $feet.
+  OthersNoArg: $n si sente talmente debole da lasciarsi cadere a terra.
+  EntityFound: Ti senti talmente debole da cadere.. tra le braccia di $N.
+  OthersFound: $n si sente talmente debole da cadere.. tra le braccia di $N.
+  TargetFound: $n si sente talmente debole da cadere.. tra le tue braccia.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Così stanc$o da non poter pensare.
+  OthersNoArg: $n penzola impotente a mezz'aria sostenut$o solo dalla magia.
+  EntityFound: Che stanchezza! Forse $N è un buon appoggio.
+  OthersFound: $n cade su $N come se fosse stat$o privat$o della capacità di volare.
+  TargetFound: $n ti cade addosso come fosse stat$o privat$o della capacità di volare.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Tutte le tue energie svaniscono.
+  OthersNoArg: $n appare completamente svuotat$o da ogni energia.
+  EntityFound: Priv$o di energie, usi $N cone sostegno.
+  OthersFound: Privo di energia $n si serve di $N per sostenersi.
+  TargetFound: $n esanime, si serve di te come sostegno.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Le zampe ti sorreggono a malapena..
+  OthersNoArg: $n si regge a stento sulle zampe, è molto debole.
+  EntityFound: Cerchi di aggrapparti a $N, ti mancano le forze.
+  OthersFound: $n sente mancarsi le forze e cerca un appiglio nelle $HANDS di $N.
+  TargetFound: $n è molto debole e si appoggia a te cercando un sostegno.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Le zampe ti sorreggono a malapena..
+  OthersNoArg: $n si regge a stento sulle zampe, è molto debole.
+  EntityFound: Cerchi di aggrapparti a $N, ti mancano le forze.
+  OthersFound: $n sente mancarsi le forze e cerca un appiglio nelle $HANDS di $N.
+  TargetFound: $n è molto debole e si appoggia a te cercando un sostegno.
+End

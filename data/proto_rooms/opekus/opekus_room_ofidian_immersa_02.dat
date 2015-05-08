@@ -1,0 +1,24 @@
+Code: opekus_room_ofidian_immersa_02
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Via Sommersa 
+Short: un lungo tunnel
+
+Descr:
+Le due serie di doppie colonne ai lati del cammino procedono orizzontali venendo
+inglobate dalla roccia; il pavimento procede invece in forte pendenza lungo una via
+d'acqua. Verso sud non c'è più aria ma solo il tunnel subacqueo. In direzione ovest
+si risale verso l'asciutto.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Nel profondo
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Fuori dall'acqua
+End

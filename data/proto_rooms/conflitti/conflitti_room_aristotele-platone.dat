@@ -1,0 +1,43 @@
+Code:	conflitti_room_aristotele-platone
+Sector: SECTOR.VOID
+Name:	Labirinti Mentali
+Short:	[firebrick]labirinti mentali[close]
+
+Descr:
+Le pareti, appena illuminate dalla fioca luce rossastra che le attraversa, cominciano poco alla volta a mostrare quelli che sembrano dei fogli di pergamena sui quali noti delle scritte.
+
+Prendi un foglio di pergamena e leggi quelli che sembrano degli scritti  forse dei koan o forse degli enigmi... forse altro...
+DescrSixth:
+Si materializza davanti a te un [greenyellow]Golem[close] alto tre metri che ti impedisce di procedere oltre e di cercare una possibile via di fuga da quella situazione che rischia di diventare estremamente  inquietante e pericolosa. Strappa via dalla parete uno dei fogli di pergamena e te lo porge. I [greenyellow]Golem[close] non parlano... incutono timore proprio per la loro imprevedibile furia priva di linguaggio. Sul foglio di pergamena una scritta "Non ti è consentito passare oltre, né cercare vie d'uscita sempre che ce ne siano... l'unica possibilità che hai di sopravvivenza è che tu mi dica un [firebrick]enunciato[close] che sia [firebrick]vero[close]. Se sarà falso comincerai a perdere energie mentali poco alla volta e tutto qui si nutrirà di te..."
+
+Questa infatti, non è una semplice stanza inanimata, ma è una stanza viva, mostruosa che si nutre di energie mentali perdute  di chi smette di pensare o non sa farlo più. Mantenere vivo il pensiero è l'unico modo di sopravvivere e sottrarre “cibo” all'essere mostruoso dentro cui sei rimasto imprigionato.
+
+DescrHearing:
+Un boato improvviso e fragoroso irrompe nella stanza aumentando progressivamente di intensità. Non hai mai sentito un rumore così potente.  Ti vengono in mente catastrofi naturali come tsunami, frane o eruzioni vulcaniche, ma sei in stanza…o in qualcosa che ti sembra esserlo.
+DescrSmell:
+
+Un intenso odore di argilla riempie di sé la stanza   
+DescrTouch: 
+L'idea di toccare qualcosa in questo momento che non sia la pergamena è infinitamente inappropriata tanto che, in un momento di lucidità, desisti. 
+DescrTaste: 
+Assaggiare un [greenyellow]Golem[close]? Non potresti raccontarlo a nessuno e cambi idea. 
+
+Extras:
+        Keywords: parete pareti
+        Descr:
+        Ti avvicini e cominci a leggere con estrema difficoltà poiché la luce non è sufficiente. In fondo intravedi una nicchia scavata nella parete dentro la quale è appoggiato un enorme libro antico cona copertina spessa di pelle marrone.
+End
+       
+Extras:
+        Keywords: enunciato
+        Descr:	
+                la soluzione è lì ma non ti arriva alla mente
+     
+        DescrSixth:
+              Tutto qui sta per nutrirsi di me
+       
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m

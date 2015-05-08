@@ -1,0 +1,267 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<pre style="white-space:pre; word-spacing:normal; line-height:normal;">
+I file di dato di Aarit sono formati da etichette ognuna delle quali ha un suo
+contenuto, per esempio questo &egrave; un dato relativo ad un comando (che a te non
+interessa per gli help ma solo per capire concettualmente com'&egrave; una struttura
+di dato):
+
+<div style="border:2px solid black; padding:5px;">FunName:  command_get
+Type:     CMDTYPE.ITEM
+Trust:    TRUST.PLAYER
+Position: POSITION.REST
+Flags:    CMDFLAG.TRACE_IT
+MiniHelp: Serve per raccogliere o afferrare oggetti per terra o da un contenitore.
+</div>
+
+Ogni file contiene un solo dato, il nome del file &egrave; uguale al contenuto di
+un'etichetta che fa da "chiave primaria" pi&ugrave; l'estenzione .dat), nel caso del
+dato sopra l'etichetta che fa da chiave primaria &egrave; la FunName
+
+L'etichette dei Dati relativi agli Help saranno queste:
+Code:
+ItalianKeywords:
+EnglishKeywords:
+Type:
+Text:
+AdminText:
+SeeAlso:
+
+Code &egrave; la chiave primaria e quindi il nome del file sar&agrave; uguale al suo contenuto
+pi&ugrave; l'estensione dat (che in Code non dev'esserci). Il codice di un help
+relativo ad un comando dev'essere il nome in inglese di quel comando.
+
+ItalianKeywords e EnglishKeywords Sono rispettivamente le parole chiavi in
+italiano ed in inglese d'eventuali parole di ricerca utilizzate poi dall'utente
+per richiamare l'help voluto.
+Potrebbe essere utile inserirvi dei sinonimi al semplice comando in maniera
+tale che l'help possa essere trovato pi&ugrave; facilmente.
+La divisione tra italiano ed inglese &egrave; stata fatta per eseguire una ricerca
+precisa a seconda che l'utente utilizzi i comandi in inglese o meno dando alcune
+priorit&agrave;, ma la ricerca di per s&eacute; controlla sia le chiavi di ricerca italiane
+che quelle inglesi, cambia solo l'ordine di ricerca.
+Puoi anche passare una chiave di ricerca formata da pi&ugrave; parole, essa per&ograve; per
+essere considerata come se fosse una parola unica, e non come due separate dallo
+spazio deve essere compresa tra le virgolette.
+
+Type indica la tipologia di Dato-Help, pu&ograve; avere i seguenti valori:
+HELP.GENERIC
+HELP.MOVEMENT
+HELP.CHANNEL
+HELP.INFO
+HELP.ITEM
+HELP.COMBAT
+HELP.GROUP
+HELP.SETTING
+HELP.CLAN
+HELP.SKILL
+HELP.SPELL
+HELP.ADMIN
+HELP.BUILD
+
+Pi&ugrave; in dettaglio ognuno di loro significa:
+HELP.GENERIC  = "Aiuto di argomento generale"
+HELP.MOVEMENT = "Tipologia di aiuto relativo il movimento e all'interazione con le uscite"
+HELP.CHANNEL  = "Tipologia di aiuto relativo la comunicazione, rpg e non, e impostazione dei canali"
+HELP.INFO     = "Tipologia di aiuto relativo i comandi che danno informazioni su qualcosa"
+HELP.ITEM     = "Tipologia di aiuto relativo ai comandi che manipolano o usano oggetti"
+HELP.COMBAT   = "Tipologia di aiuto riguardante il combattimento"
+HELP.GROUP    = "Tipologia di aiuto riguardante il gruppo"
+HELP.SETTING  = "Tipologia di aiuto relativa alle opzioni e impostazioni dell'account e del personaggio"
+HELP.CLAN     = "Tipologia di aiuto riguardante i clan"
+HELP.SKILL    = "Tipologia di aiuto riguardante le skill"
+HELP.SPELL    = "Tipologia di aiuto riguardante gli spell"
+HELP.ADMIN    = "Tipologia di aiuto per gli admin"
+HELP.BUILD    = "Tipologia di aiuto relativa la costruzione di aree"
+
+Text &egrave; l'etichetta con il contenuto dell'Help leggibile da tutti
+
+AdminText &egrave; l'etichetta con il contenuto dell'help leggibile solo dagli Admin.
+Se l'Help &egrave; solo per gli Admin ci sar&agrave; solo questa etichetta e non Text,
+altrimenti se viene utilizzata quest'etichetta assieme a Text significa che
+il contenuto di quest'etichetta &egrave; una nota aggiuntiva per i soli Admin.
+
+SeeAlso &egrave; una lista di codici di altri Help (etichetta Code) separati da spazio
+mi serve cos&igrave; per poter creare dei link automatici ad altri Help, &egrave; possibile
+che un Help abbia quest'etichetta ma non le etichette Text e AdminText
+utilizzando cos&igrave; l'Help solo come ponte tra una voce ed un'altra.
+In alternativa &egrave; possibile inserire un link ad una pagina html con il tag <a>,
+ci&ograve; &egrave; molto utile quando si sta descrivendo sommariamente alcune cose si
+trovano gi&agrave; pi&ugrave; estensivamente sul sito, come le razze. Esempio:
+<a href="race_celt.html" target="_blank">Celta</a>
+
+Un'altra possibile etichetta da utilizzare &egrave; quella di Comment, difatti essendo
+gli Help dei dati anche qui pu&ograve; essere inserita, cos&igrave; da aggiungere eventuali
+note nel qual caso che l'help non sia terminato in attesa che una particolare
+implementazione venga terminata.
+
+Ora quello che tu farai &egrave; guardicchiare i file di *.help di Terra Secunda che
+ti ho passato e trovare possibile help da convertire dal formato Terra Secunda
+nel formato Aarit, che &egrave; quasi uguale.. ma vi sono delle differenze, prendiamo
+un esempio di Dato-Help di Terra Secunda:
+
+<div style="border:2px solid black; padding:5px;">#HELP
+ItalianKeywords: alias unalias
+EnglishKeywords: alias unalias
+Type:            HELP.OPTION
+Trust:           TRUST.PLAYER
+Text:
+&YSintassi&w:  $talias <&gabbreviazione&w> <&gcomando&w>
+&YSintassi&w:  $talias <&gabbreviazione&w>
+
+Il comando $talias permette di creare delle abbreviazioni di una o pi&ugrave;
+lettere per comandi o lunghe stringhe di testo usati frequentemente.
+Esempio: $talias bless $tcast &gbless&w
+In questo modo quando tu scriverai "bless" sar&agrave; inviato al mud il comando
+completo che lancia questo incantesimo.
+Ad ogni alias pu&ograve; essere assegnato un solo comando.
+
+Per cancellare un alias basta scrivere $talias seguito dall'abbreviazione
+di quello che si desidera rimuovere.
+
+Scrivendo $talias senza argomenti, ti sar&agrave; mostrata una lista degli alias
+da te creati.
+Gli alias vengono salvati quando esci dal gioco.
+
+End
+</div>
+
+I file di help che ti passer&ograve; sono pieni di queste strutture-dato, quello che
+bisogna fare &egrave; convertire quelle che interessano salvando ognuna in un file
+identificato con il suo Code.
+Una volta che &egrave; stato copiato e incollato un dato-help bisogna:
+- Togliere l'#HELP e l'End Finale
+- Aggiungere l'etichetta Code in cima, di solito come codice va' bene la prima
+  parole di ricerca in inglese che c'&egrave; in EnglishKeywords
+- Rimuovere l'etichetta Trust e tutta la relativa linea
+- Relativamente al contenuto dell'etichetta Text bisogna rimuovere qualsiasi
+  linea che inizia con &YSintassi&w, Aarit ha un sistema interno che stampa
+  la sintassi automaticamente.
+- Aggiungere eventualmente un'etichetta AdminText, il pi&ugrave; delle volte non
+  serve farlo
+- Aggiungere eventualmente un'etichetta SeeAlso, cosa consigliata se si pu&ograve;;
+  comunque &egrave; meglio non esagerare con i codici di Help aggiunti in SeeAlso,
+  potrebbe creare confusione se il giocatore sta cercando di cliccare qui e l&agrave;
+  tra gli help per leggerli tutti, meglio &egrave; cercare di creare un filo conduttore
+  logico tra un'help ed un'altro
+
+
+Se seguirai i punti sopra avrai questo nel file alias.dat (che a noi come
+comando non ci interessa visto che abbiamo la pagina apposita per creare gli
+alias, ma era tanto per fare un esempio):
+
+<div style="border:2px solid black; padding:5px;">Code: alias
+ItalianKeywords: alias
+EnglishKeywords: alias
+Type:            HELP.SETTING
+Text:
+Il comando $talias permette di creare delle abbreviazioni di una o pi&ugrave;
+lettere per comandi o lunghe stringhe di testo usati frequentemente.
+Esempio: $talias bless $tcast &gbless&w
+In questo modo quando tu scriverai "bless" sar&agrave; inviato al mud il comando
+completo che lancia questo incantesimo.
+Ad ogni alias pu&ograve; essere assegnato un solo comando.
+
+Per cancellare un alias basta scrivere $talias seguito dall'abbreviazione
+di quello che si desidera rimuovere.
+
+Scrivendo $talias senza argomenti, ti sar&agrave; mostrata una lista degli alias
+da te creati.
+Gli alias vengono salvati quando esci dal gioco.
+SeeAlso: unalias
+</div>
+
+Tra un'etichetta ed un'altra puoi inserire gli a capo che vuoi per rendere pi&ugrave;
+chiaro il tutto secondo le tue esigenze, per sempio:
+
+<div style="border:2px solid black; padding:5px;">Code: alias
+
+ItalianKeywords: alias
+EnglishKeywords: alias
+
+Type: HELP.SETTING
+
+Text:
+Il comando $talias permette di creare delle abbreviazioni di una o pi&ugrave;
+lettere per comandi o lunghe stringhe di testo usati frequentemente.
+Esempio: $talias bless $tcast &gbless&w
+In questo modo quando tu scriverai "bless" sar&agrave; inviato al mud il comando
+completo che lancia questo incantesimo.
+Ad ogni alias pu&ograve; essere assegnato un solo comando.
+
+Per cancellare un alias basta scrivere $talias seguito dall'abbreviazione
+di quello che si desidera rimuovere.
+
+Scrivendo $talias senza argomenti, ti sar&agrave; mostrata una lista degli alias
+da te creati.
+Gli alias vengono salvati quando esci dal gioco.
+
+SeeAlso: unalias
+</div>
+
+Non cambia nulla, solo cerca di mantenere uno stile per tutti i file una volta
+che sei convinto di quello che ti sia pi&ugrave; chiaro.
+
+Ogni tanto qui e l&agrave; ci sono dei codici di colore, che se hai giocato mai ad un
+Mud smaug-based li avrai riconosciuti:
+&x - Black           &r - Dark Red  &g - Dark Green
+&O - Orange (brown)  &b - Dark Blue &p - Purple
+&c - Cyan            &w - Grey      &z - Dark Grey
+&R - Red             &G - Green     &Y - Yellow
+&B - Blue            &P - Pink      &C - Light Blue
+&W - White
+Se hai bisogno di convertire o di utilizzare i colori devi seguire le regole
+di colorazione di aarit:
+<a href="colors.htm" target="_blank">colors.htm</a>
+Leggi solo la prima parte, relativa ai colori, ignora il resto che &egrave; in fase
+di rivoluzione!
+Ricorda che puoi colorare solo il contenuto delle etichette Text e AdminText.
+
+Avrai notato inoltre che ci sono dei simboli $ in giro, &egrave; il tag $t seguito
+dal nome del comando che indica all'help di tradurre il comando a seconda della
+lingua utilizzata dal giocatore, per esempio:
+$tget ritorner&agrave; prendi per quelli che utilizzano il set di comandi italiano
+altrimenti get.
+C'&egrave; da notare che esiste un sistema di gestione delle maiuscole e delle
+minuscole, per esempio se si scrive dopo il tag $t il comando con la prima
+lettera maiuscola:
+$tGet il comando risulter&agrave; Prendi o Get, con la prima lettera maiuscola.
+Se invece si scrive cos&igrave;:
+$tGET il risultato sar&agrave; PRENDI o GET a seconda della lingua utilizzata.
+Fanne buon uso.
+
+Quando invece incontrerai dei tag &deg;F, esempio &deg;Fget, questi funzionano come
+il tag $t con la prima lettera maiuscola (era il modo di fare di Terra Secunda)
+quindi &deg;Fget diventerebbe $tGet.
+
+Ci sono molti altri tag, anche se il principale &egrave; il $o che viene convertito
+in <b>o</b> se il personaggio &egrave; maschile, altrimenti in <b>a</b> se il
+personaggio &egrave; femminile, esempio:
+simpatic$o pu&ograve; risultare simpatico o simpatica a seconda.
+Non so se ne avrai bisogno negli Help, che sono dei messaggi off-rpg, per&ograve;
+magari in alcuni punti ha senso utilizzarlo...
+
+Poich&eacute; tutti gli spazi iniziali e finali del contenuto dell'etichetta Text
+vengon rimossi se hai bisogno di aggiungere dello spazio iniziale dovrai
+inserire un punto prima degli spazi voluti, esempio:
+
+<div style="border:2px solid black; padding:5px;">Text:
+.     Ecco il testo dell'help dopo 5 spazi!
+</div>
+Se il primo carattere che vuoi inserire &egrave; proprio il punto ne dovrai inserire
+due, ma vabbe' &egrave; un caso limite e non ti capiter&agrave; mai.
+
+Salvati tutti i file in una cartella helps che poi mi zipperai ed invierai;
+magari all'inizio inviami qualche file *.dat tanto per vedere se &egrave; tutto a
+posto o ti debba dare altre dritte.
+</pre>
+
+</body>
+</html>

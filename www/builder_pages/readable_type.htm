@@ -1,0 +1,215 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<h2>Indice delle Etichette per Libri, Pergamene, Quaderni...</h2>
+<div>
+<a href='#Comment'><span class='label'>Comment</span>:</a><br>
+<a href='#Title'><span class='label'>Title</span>:</a><br>
+<a href='#Author'><span class='label'>Author</span>:</a><br>
+<a href='#Summary'><span class='label'>Summary</span>:</a><br>
+<a href='#Language'><span class='label'>Language</span>:</a><br>
+<a href='#Flags'><span class='label'>Flags</span>:</a><br>
+<a href='#NumberDecorationLeft'><span class='label'>NumberDecorationLeft</span>:</a><br>
+<a href='#NumberDecorationRight'><span class='label'>NumberDecorationRight</span>:</a><br>
+<a href='#VisualWidth'><span class='label'>VisualWidth</span>:</a><br>
+<a href='#VisualHeight'><span class='label'>VisualHeight</span>:</a><br>
+<a href='#Padding'><span class='label'>Padding</span>:</a><br>
+<a href='#BorderTop'><span class='label'>BorderTop</span>:</a><br>
+<a href='#BorderRight'><span class='label'>BorderRight</span>:</a><br>
+<a href='#BorderBottom'><span class='label'>BorderBottom</span>:</a><br>
+<a href='#BorderLeft'><span class='label'>BorderLeft</span>:</a><br>
+<a href='#BorderInside'><span class='label'>BorderInside</span>:</a><br>
+<a href='#Pages'><span class='label'>Pages</span>:</a><br>
+</div>
+<br>
+
+<hr>
+<h2>Note Riguardo ai Libri.</h2>
+<div>
+<span class="label">ReadType</span> &egrave; un'etichetta che rappresenta una struttura di pi&ugrave; sottoetichette, e quindi abbisogna dell'etichetta <span class="label">End</span> per terminarne la definizione.<br>
+</div>
+<br>
+
+<hr>
+<h2>Tabella di Riferimento Veloce.</h2>
+<div>
+<table border="1">
+<tr class="thref"><td>Etichetta</td><td>Tipologia</td><td>Utilizzo</td></tr>
+<tr><td class="label">Comment</td><td>Stringa, relativa ad un commento</td><td>Facoltativo, consigliato se c'&egrave; qualcosa di particolare</td></tr>
+<tr><td class="label">Title</td><td>Stringa</td><td>Obbligatoria</td></tr>
+<tr><td class="label">Author</td><td>Codice di entit&agrave;</td><td>Obbligatorio</td></tr>
+<tr><td class="label">Summary</td><td>Stringa, anche multi-linea</td><td>Obbligatoria</td></tr>
+<tr><td class="label">Language</td><td>Flags, relative alla tipologia LANGUAGE </td><td>Facoltativa</td></tr>
+<tr><td class="label">Flags</td><td>Flags, relative alla tipologia READABLE </td><td>Facoltativa</td></tr>
+<tr><td class="label">NumberDecorationLeft</td><td>Stringa</td><td>Facoltativa</td></tr>
+<tr><td class="label">NumberDecorationRight</td><td>Stringa</td><td>Facoltativa</td></tr>
+<tr><td class="label">VisualWidth</td><td>Misura in pixel</td><td>Obbligatoria</td></tr>
+<tr><td class="label">VisualHeight</td><td>Misura in pixel</td><td>Obbligatoria</td></tr>
+<tr><td class="label">Padding</td><td>Misura in pixel</td><td>Facoltativa</td></tr>
+<tr><td class="label">BorderTop</td><td>Codice CSS</td><td>Facoltativa</td></tr>
+<tr><td class="label">BorderRight</td><td>Codice CSS</td><td>Facoltativa</td></tr>
+<tr><td class="label">BorderBottom</td><td>Codice CSS</td><td>Facoltativa</td></tr>
+<tr><td class="label">BorderLeft</td><td>Codice CSS</td><td>Facoltativa</td></tr>
+<tr><td class="label">BorderInside</td><td>Codice CSS</td><td>Facoltativa</td></tr>
+<tr><td class="label">Pages</td><td>Stringa, anche multi-linea</td><td>Obbligatoria</td></tr>
+
+</table>
+</div>
+<br>
+
+<hr>
+<h2>Struttura Tipica con le Etichette di Maggior Utilizzo e Valori di Default delle Opzioni pi&ugrave; Cattive (per copia e incolla).</h2>
+<div>
+<pre>
+
+ReadType:
+	Title:
+	Author:
+	Summary:
+	Language:
+	Flags: READABLE.NUMBERS 
+	NumberDecorationLeft:
+	NumberDecorationRight:
+	VisualWidth: 100px
+	VisualHeight: 150px
+	Padding: 15px
+	BorderTop: 3px outset silver
+	BorderRight: 3px outset silver
+	BorderBottom: 3px outset silver
+	BorderLeft: 3px outset silver
+	BorderInside: 1px solid silver
+	Pages:
+End
+</pre>
+</div>
+<br>
+
+<hr>
+<h2>Spiegazione delle Etichette.</h2>
+<div>
+<a name='Comment'><h3 class='label'>Comment:</h3></a>
+Eventuale commento relativo al vestito, per maggior informazioni leggere <a href="comment.htm">questa pagina</a>.<br>
+Non &egrave; obbligatoria, ma &egrave; comunque consigliato utilizzarla se la tipologia d'entit&agrave; &egrave; una cosa particolare o bisogna segnarsi qualcosa da ricordare.<br>
+<br>
+
+<a name='Title'><h3 class='label'>Title:</h3></a>
+Il titolo del libro, servir&agrave; ai mob bibliotecari in futuro per catalogare i libri.<br>
+L'etichette &egrave; obbligatoria.<br>
+<br>
+
+<a name='Author'><h3 class='label'>Author:</h3></a>
+&Egrave; l'autore del libro, pu&ograve; essere una qualsiasi stringa ma se il libro
+&egrave; stato scritto da un giocatore ed ha senso rpg che sia cos&igrave; bisogna inserirvi
+il nome di quel pg (con prima lettera maiuscolo e senza eventuali colori).<br>
+Anche qui il valore servir&agrave; in una futura implementazione per i bibliotecari
+mob per catalogare i libri e per gestire modifiche di editing ai libri di
+un particolare pg.<br>
+(edizioni di uno stesso libro)<br>
+L'etichette &egrave; obbligatoria.<br>
+<br>
+
+<a name='Summary'><h3 class='label'>Summary:</h3></a>
+&Egrave; una breve descrizione del libro che si carpisce esaminandolo, come
+se lo si sfogliasse velocemente e se ne recepisse il contenuto in maniera
+riassuntiva o si cogliessero le immagini principali.<br>
+Tale informazione la si carpisce tramite il comando esamina.<br>
+&Egrave; interessante da usare per indicare punti interessanti o segreti del libro,
+magari suggerendo delle extra invisibili ai 6 sensi.<br>
+L'etichette &egrave; obbligatoria.<br>
+<br>
+
+<a name='Language'><h3 class='label'>Language:</h3></a>
+Lingua in cui &egrave; scritto il libro, ora come ora non c'&egrave;, ma in futuro<br>
+il contenuto verr&agrave; criptato per coloro che non conoscono la lingua.<br>
+&egrave; una <a href="flags.htm">Flags</a> e si rif&agrave; alla <a href="elements_list.htm#LANGUAGE">lista delle flag di LANGUAGE</a>.<br>
+L'etichetta &egrave; facoltativa, se non &egrave; inserita viene considerata come lingua la COMMON.<br>
+<br>
+
+<a name='Flags'><h3 class='label'>Flags:</h3></a>
+Sono le <a href="flags.htm">Flags</a> READABLE del libro, ora come ora servono a gestire l'output delle pagine, si rifanno alla <a href="elements_list.htm#READABLE">lista delle flag di READABLE</a>.<br>
+L'etichetta &egrave; facoltativa.<br>
+<br>
+
+<a name='NumberDecorationLeft'><h3 class='label'>NumberDecorationLeft:</h3></a>
+<a name='NumberDecorationRight'><h3 class='label'>NumberDecorationRight:</h3></a>
+Servono a decorare inumeri delle pagine.<br>
+Il left serve per le pagine a sinistra mentre l'altro per le pagine a destra.<br>
+Praticamente qualsiasi stringa di caratteri inserita verr&agrave; spezzata a met&agrave;
+ed inserita ai lati del numero di pagina.<br>
+Le etichette sono facoltative.<br>
+Perch&eacute; la decorazione si visualizzi ci deve essere la flag apposita che visualizza i numeri di pagina.<br>
+<br>
+
+<a name='VisualWidth'><h3 class='label'>VisualWidth:</h3></a>
+<a name='VisualHeight'><h3 class='label'>VisualHeight:</h3></a>
+Valore numerico in pixel che indica quanto la pagina del libro debba essere grande.<br>
+All'attuale la pagina del libro non si adatta al contenuto perch&eacute; ci sarebbero orrendi effetti d'asimmetria fra le pagine.<br>
+Serve una certa pazienza di verifica in game per rifinire l'effetto desiderato.<br>
+Il consiglio &egrave; di usare un'"area" di righe e colonne con un editor testuale e scrivere in essa<br>
+infine aggiustare la VisualWidth e VisualHeight a pi&ugrave; riprese.<br>
+Indicativamente i valori massimi sono attorno a 400px di width e i 600px di height.<br>
+Se si vuole testare in game &egrave; bene tenere impostare una risoluzione di schermo di 1024*768.<br>
+Le etichette sono obbligatorie.<br>
+<br>
+
+<a name='Padding'><h3 class='label'>Padding:</h3></a>
+Il padding, sempre in pixel, &egrave; il margine vuoto tra il testo da leggere e la cornice della pagina.<br>
+L'etichetta &egrave; facoltativa, ma se non viene inserita il valore &egrave; 0px.<br>
+<br>
+
+<a name='BorderTop'><h3 class='label'>BorderTop:</h3></a>
+<a name='BorderRight'><h3 class='label'>BorderRight:</h3></a>
+<a name='BorderBottom'><h3 class='label'>BorderBottom:</h3></a>
+<a name='BorderLeft'><h3 class='label'>BorderLeft:</h3></a>
+Le varie etichette BorderXxx: &egrave; codice css che serve a gestire i vari bordi del libro, per maggiori informazioni leggere il link:<br>
+<a href="http://www.w3schools.com/css/css_border.asp" target="_blank">CSS Border</a>
+il bordo pi&ugrave; semplice da fare &egrave;:<br>
+1px solid silver<br>
+Un pixel di larghezza, con una linea semplice, e di colore argento.<br>
+L'esempio ad inizio pagina invece danno un effetto 3D al libro.<br>
+L'etichette Border sono facoltative, si pu&ograve;, volendo creare una cornice
+in ascii art direttamente nel contenuto delle pagine del libro e inserire
+il Padding: 0px (che poi &egrave; il valore di default).<br>
+<br>
+
+<a name='BorderInside'><h3 class='label'>BorderInside:</h3></a>
+L'etichetta BorderInside &egrave; il bordo centrale che serve a dividere le due pagine.<br>
+Il caso pi&ugrave; comune &egrave;:<br>
+1px solid silver<br>
+L'etichette Border sono facoltative, si pu&ograve;, volendo creare una cornice
+in ascii art direttamente nel contenuto delle pagine del libro e inserire
+il Padding: 0px (che poi &egrave; il valore di default).<br>
+<br>
+
+<a name='Pages'><h3 class='label'>Pages:</h3></a>
+Ed ecco infine il contenuto vero e proprio del libro.<br>
+Per ogni etichetta Pages che viene inserita viene aggiunta una pagina, partendo
+dal numero di pagina 0 (la copertina) fino all'ultima, la retrocopertina.<br>
+Si pu&ograve; anche inserire una sola etichetta Pages ad rappresentare per esempio
+una pergamena.<br>
+Due pagine invece potrebbero essere semplicemente il fronte e il retro di un
+singolo foglio.<br>
+Si possono inserire pagine vuote semplicemente scrivendo cos&igrave;:<br>
+<xmp>Pages: &nbsp;</xmp><br>
+Un'idea interessante potrebbe consistere nel creare libri pieni di pagine vuote tranne
+qualcune, a numeri di pagina specifici, che alternativamente al cercarli a mano
+sarebbe interessante scoprire tramite una quest.<br>
+Ricordo che potete inserire le ascii art con il solito metodo oppure delle
+immagini tramite html in questa maniera:<br>
+<xmp><img src="url dell'immagine"/></xmp><br>
+All'attuale le immagini dovranno essere caricate sul server di Aarit dagli amministratori.<br>
+Non &egrave; inoltre da scordare che si possono inserire i <a href="miml.htm">MIML</a>.<br>
+Almeno un'etichetta Pages obbligatoria, altrimenti, che readable &egrave;?<br>
+<br>
+
+</div>
+<hr>
+</body>
+</html>

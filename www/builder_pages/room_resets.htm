@@ -1,0 +1,141 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<h2>Indice delle Etichette per un Reset di Stanza</h2>
+<a href='#Comment'>Comment:</a><br>
+<a href='#ProtoRoom'>ProtoRoom:</a><br>
+<a href="#Destination"><span class="label">Destination</span>:</a><br>
+<a href='#Minute'>Minute:</a><br>
+<a href='#Hour'>Hour:</a><br>
+<a href='#Day'>Day:</a><br>
+<a href='#Month'>Month:</a><br>
+<a href='#EntityResets'>EntityResets:</a><br><br>
+
+<hr>
+<h2>Note Riguardo i RoomResets</h2>
+Ecco infine la sezione pi&ugrave; importante del file di Area: i room-reset e i relativi entity-reset.<br>
+Bisogna premettere una cosa, voi quando create i file testuali delle vostre stanze, mob e oggetti state crendo dei prototipi (o volendo si pu&ograve; vederli come dei modelli o delle idee), tali prototipi vengono inseriti 'materialmente', in una o pi&ugrave; copie, dentro l'area e le sue stanze solamente grazie ai reset, senza di questi tutto quello che create sar&agrave; visualizzabile e interagibile online.<br>
+Ci sono due tipologie di reset, quella che viene spiegata principalmente in questa pagina &egrave; quella relativa ai room-reset, mentre l'altra tipologia viene chiamata entity-reset.<br><br>
+
+Immaginatevi ora la vostra area come a una griglia di coordinate (come precedentemente spiegato <a href="builder_manual.htm">qui</a>), ad ogni coordinata corrisponde una e una sola stanza prototipo (per volta), ecco a cosa servono i room-reset, ad inserire una stanza prototipo dentro quelle coordinate e formare quindi una stanza esplorabile online.<br>
+Gli entity-reset, invece, servono ad inserire le entit&agrave; (mob e oggetti) in una precisa stanza gi&agrave; resettata, ogni stanza pu&ograve; contenere uno svariato numero di entit&agrave; (anche nessuna volendo).<br>
+I reset servono ad inserire le stanze nella griglia di coordinate permettendo la massima libert&agrave;, per esempio si possono inserire in momenti differenti stanze differenti; mentre invece gli entity-reset possono servire a vestire due mob uguali con oggetti differenti.<br><br>
+
+I reset possono essere un po' difficili da digerire, ma le potenzialit&agrave; sono molte: cercate di immaginare in maniera realistica e accurata la vostra area, troverete che molte soluzioni alle idee che vi verranno in mente saranno risolvibili tramite i reset (mentre tutto il resto invece &egrave; risolvibile coi gamescript).<br>
+<span class="label">RoomResets</span>, essendo un'etichetta che finisce con 's', ha il suo bell'<span class="label">End</span>.<br>
+&Egrave; meglio dare un'occhiata ad un esempio per chiarire le idee:<br>
+<pre>
+	<span class="label">RoomResets:</span>
+	<span class="label">ProtoRoom:</span>   city_room_01
+	<span class="label">Destijation: </span> 1 1 4 city
+	<span class="label">EntityResets:</span>
+	<span class="label">ProtoEntity:</span>    city_mob_kobold_01
+	<span class="label">Quantity:</span>  3
+	<span class="label">EntityResets:</span>
+	<span class="label">ProtoEntity:</span>  city_item_sword_01
+	<span class="label">End</span>
+	<span class="label">End</span>
+	<span class="label">EntityResets:</span>
+	<span class="label">ProtoEntity:</span>   city_item_table_01
+	<span class="label">End</span>
+	<span class="label">EntityResets:</span>
+	<span class="label">ProtoEntity:</span>   city_item_chair_01
+	<span class="label">Quantity:</span> 2
+	<span class="label">End</span>
+	<span class="label">End</span>
+</pre>
+Nell'esempio sopra viene inserita una stanza di una citt&agrave; alle coordinate 1, 1, 1; in questa stanza vengono messi 3 coboldi tutti e tre dotati di una spada (la spada verr&agrave; automaticamente inguainata o sguainata a seconda dal pericolo percepito dal mob); inoltre in questa stanza vengono inseriti un tavolo e due sedie.<br>
+Dovrebbe essere chiaro, andiamo a vedere un altro esempio prima di studiarci le etichette:<br>
+<pre>
+	<span class="label">RoomResets:</span>
+	<span class="label">ProtoRoom:</span>   city_room_winter_01
+	<span class="label">Destination:</span> 1 1 1 city
+	<span class="label">Mudscript:</span> kobolds_leave_room_with_winter
+	<span class="label">EntityResets:</span>
+	<span class="label">Type:</span>   RESET.REMOVE
+	<span class="label">ProtoEntity:</span> city_mob_kobold_01
+	<span class="label">Quantity:</span> 2
+	<span class="label">End</span>
+	<span class="label">EntityResets:</span>
+	<span class="label">Type:</span>   RESET.REMOVE
+	<span class="label">ProtoEntity:</span> city_item_chair_01
+	<span class="label">End</span>
+	<span class="label">EntityResets:</span>
+	<span class="label">ProtoEntity:</span> city_item_fireplace_01
+	<span class="label">End</span>
+	<span class="label">End</span>
+</pre>
+Vi spiego quello che far&agrave; a livello di gioco quest'ultima sezione di room-resets che convive con quella precedente (cio&egrave; &egrave; stata inserita di seguito): appena avviene il cambio di stagione in inverno viene sostituita la stanza prima resettata alle coordinate 1 1 1 con una versione invernale, rimuove inoltre due koboldi e una sedia ed aggiunge un focolare (sempre che le rispettive entit&agrave; non fossero gi&agrave; rimosse tramite interazione dei personaggi col luogo).<br>
+Immaginiamo che fosse un posto di vedetta, in inverno per il freddo le sentinelle koboldi diminuiscono e l'unica rimasta rompe una sedia e ne fa un focolare; il tutto supportato anche con dei messaggi echo nella stanza grazie al gamescript relativo a questo room-reset (cio&egrave; kobolds_leave_room_with_winter).<br><br>
+
+State cominciando ad intuire il potenziale dei resets? Spero di s&igrave;, non sono semplicissimi e bisogna scriverne un po' e provarli per capirli appieno, ma ne vale la pena.<br>
+I RoomResets contengono sempre le etichette con un solo livello di indentazione, le etichette dentro gli EntityResets invece devono avere almeno due livelli di indentazione. (detto in altro modo, i RoomResets sono i 'padri', gli EntityResets sono i 'figli'; detto ancora in altro modo la sezione dei RoomResets &egrave; un contenitore, mentre la sezione degli EntityReset &egrave; il loro contenuto).<br><br>
+
+<hr>
+<h2>Tabella di Riferimento Veloce</h2>
+<table border="1">
+<tr class="thref"><td>Etichetta</td><td>Tipologia</td><td>Utilizzo</td></tr>
+<tr><td class="label">Comment</td><td>Stringa, relativa ad un commento</td><td>Facoltativo, consigliato se c'&egrave; qualcosa di particolare</td></tr>
+<tr><td class="label">ProtoRoom</td><td>Stringa, codice di stanza</td><td>Obbligatorio</td></tr>
+<tr><td class="label">Destination</td><td>coordinata_x coordinata_y coordinata_z codice_area</td><td>Obbligatorio</td></tr>
+<tr><td class="label">Minute</td><td>Numero, da 0 a 59</td><td>Facoltativo</td></tr>
+<tr><td class="label">Hour</td><td>Numero, da 0 a 23</td><td>Facoltativo</td></tr>
+<tr><td class="label">Day</td><td>Numero da 1 a 30</td><td>Facoltativo</td></tr>
+<tr><td class="label">Month</td><td>Element, relativo ai mesi</td><td>Facoltativo</td></tr>
+<tr><td class="label">Mudscript</td><td>Stringa, nome funzione</td><td>Facoltativo</td></tr>
+<tr><td class="label">EntityResets</td><td>EntityResets</td><td>Facoltativo</td></tr>
+</table><br>
+
+<hr>
+<h2>Struttura Tipica con le Etichette Obbligatorie (per copia e incolla)</h2>
+<pre>
+RoomResets:
+  ProtoRoom:
+  Destination:
+End
+</pre><br>
+
+<hr>
+<a name='Comment'><h3>Comment:</h3></a>
+Eventuale commento relativo al reset dell'entit&agrave;, per maggior informazioni leggere <a href="comment.htm">questa pagina</a>.<br>
+Non &egrave; obbligatorio, ma &egrave; cmq consigliato se il reset &egrave; una cosa particolare, un'eccezione oppure se c'&egrave; qualcosa da far notare ai futuri builder.<br><br>
+
+<a name='ProtoRoom'><h3>ProtoRoom:</h3></a>
+Codice della stanza da resettare, pu&ograve; essere sia dell'area che state costruendo quanto di un'altra area.<br>
+L'utilizzo dell'etichetta &egrave; obbligatorio.<br><br>
+
+<a name='Destination'><h3>Destination:</h3></a>
+Coordinate alle quali viene posta la room. Leggere <a href="destination.htm">qui</a> su come impostarle.<br>
+L'utilizzo dell'etichetta &egrave; obbligatorio.<br><br>
+
+<a name='Minute'><h3>Minute:</h3></a>
+Minuto rpg in cui viene attivato il reset, se viene inserita solo questa etichetta il reset viene attivato ad ogni minuto rpg uguale al valore inserito in tutte le ore rpg, valori tra 0 e 59.<br>
+L'utilizzo dell'etichetta &egrave; facoltativo.<br><br>
+
+<a name='Hour'><h3>Hour:</h3></a>
+Ora rpg in cui viene attivato il reset. Se viene inserita solo questa etichetta, senza le altre riguardanti il tempo, ogni giorno rpg all'ora inserita il reset si attiva, valori tra 0 e 23.<br>
+L'utilizzo dell'etichetta &egrave; facoltativo.<br><br>
+
+<a name='Day'><h3>Day:</h3></a>
+Numero del Giorno rpg del mese rpg in cui viene attivato il reset, se viene inserita solo quest'etichetta il relativo reset verr&agrave; attivato ogni giorno del mese uguale al valore inserito e dopo la mezzanotte, valori tra 1 e 30.<br>
+L'utilizzo dell'etichetta &egrave; facoltativo.<br><br>
+
+<a name='Month'><h3>Month:</h3></a>
+Questa etichetta &egrave; un <a href="element.htm">Element</a> relativo alla <a href="elements_list.htm#MONTH">lista dei mesi</a>.<br>
+Indica il mese in cui si attiva il reset. Se viene inserito senza giorno, giorno della settimana, ora o minuto si attiva alla nascita del nuovo mese, subito dopo mezzanotte.<br>
+L'utilizzo dell'etichetta &egrave; facoltativo.<br><br>
+
+<a name='EntityResets'><h3>EntityResets:</h3></a>
+Gli entity-reset sono gi&agrave; stati spiegati abbastanza nell'introduzione di questa pagina, quindi <a href="entity_resets.htm">quest'altra</a> conterr&agrave; solamente le spiegazioni relative all'etichette di questa sotto-struttura.<br>
+Non &egrave; obbligatorio inserire quest'etichetta se non volete inserire nessuna entit&agrave; nella vostra stanza, creando cos&igrave; una stanza spoglia di mob e oggetti.<br><br>
+
+<hr>
+</body>
+</html>

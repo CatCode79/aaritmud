@@ -1,0 +1,34 @@
+FunName:    social_stunned
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Ti senti un po' stordit$o.
+  OthersNoArg: $n sembra un po' stordit$o..
+  EntityFound: Sei letteralmente stordit$o dalle parole di $N.
+  OthersFound: $n sembra letteralmente stordit$o dalle parole di $N.
+  TargetFound: $n sembra letteralmente stordit$o dalle tue parole.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Sbalorditivo!
+  OthersNoArg: $n solleva un sopracciglio.
+  EntityFound: $N ti sbalordisce!
+  OthersFound: $n solleva un sopracciglio dinnanzi a $N.
+  TargetFound: $n Solleva un sopracciglio dinnanzi a te.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Scuoti il capo stordit$o dagli eventi.
+  OthersNoArg: $n scuote il capo, sembra proprio stordit$o.
+  EntityFound: Poggi una zampa in fronte fissando $N sbalordit$o.
+  OthersFound: $n fissa $N sbalordit$o, poggiandosi una zampa in fronte.
+  TargetFound: $n ti fissa sbalordit$o mentre si poggia una zampa in fronte.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Scuoti il capo stordit$o dagli eventi.
+  OthersNoArg: $n scuote il capo, sembra proprio stordit$o.
+  EntityFound: Poggi una zampa in fronte fissando $N sbalordit$o.
+  OthersFound: $n fissa $N sbalordit$o, poggiandosi una zampa in fronte.
+  TargetFound: $n ti fissa sbalordit$o mentre si poggia una zampa in fronte.
+End

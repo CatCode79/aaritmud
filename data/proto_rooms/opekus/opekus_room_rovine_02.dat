@@ -1,0 +1,21 @@
+Code: opekus_room_rovine_02
+Sector: SECTOR.PATH
+Name: Nella Conca
+Short: la discesa
+Descr:
+Il terreno s'inselvatichisce e solo l'attenzione che fai ai dettagli ti consente
+di riconoscere in questo discesa di sterpi e ciottoli, l'arteria principale della
+città ormai dimenticata.
+
+Width:	10m
+Depth:	10m
+Height: 10m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: L'arco d'uscita
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: La antiche rovine
+End

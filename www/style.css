@@ -1,0 +1,382 @@
+/*@font-face {
+	font-family: Runes;
+	src: url("fonts/runes.eot");
+}*/
+/* in teoria per firefox, in pratica non funziona*/
+/*@font-face {
+	font-family: Runes;
+	src: url("fonts/runes.ttf");
+}*/
+
+html, body{
+	font-family: Georgia, Verdana, Courier New;
+	font-size:small;
+	font-weight:bold;
+	color:silver;
+	background-color:black;
+	/*word-spacing:1px; bacato sotto opera*/
+	line-height:1.4;
+	cursor: url(auto.cur), auto;
+}
+table{
+	font-family:Georgia, Verdana, Courier New;
+	font-weight:bold;
+	color:silver;
+	/*background-color:black;*/
+	word-spacing:1px;
+	line-height: 1.4;
+	border-collapse: collapse;
+}
+th, td{
+	padding: 3px;
+}
+h2{
+	color:white;
+}
+h3{
+	color: white;
+}
+h4{
+	color:white;
+}
+form{
+	font-family:Georgia, Verdana, Courier New;
+	font-weight:bold;
+	color:silver;
+	background-color:black;
+	word-spacing:1px;
+	line-height: 1.3;
+}
+legend{
+	font-size: 107%;
+	color: white;
+}
+ul{
+	white-space:normal;
+}
+
+/* FFDC96 FFD073 FFBF40 FFAA00 BF8F30 A66F00 */
+input[type="text"], input[type="password"], input[type="number"], input[type="email"] {
+	border:2px solid #FFBF40;
+	padding:3px 10px;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+}
+textarea{
+	border:2px solid #FFBF40;
+	padding:3px 10px;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+}
+input[type="submit"]{
+	background:#FFBF40;
+	border:2px solid #FFDC96;
+	border-bottom-color: #A66F00;
+	border-right-color: #A66F00;
+	padding:3px 10px;
+	height:2.05em;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	text-shadow: 1px 1px 1px #000;
+	-webkit-box-shadow: 1px 1px 1px #999; 
+	box-shadow: 1px 1px 1px #999;
+	-webkit-gradient(linear, left top, left bottom, from(#FFD073),to(#FFAA00), color-stop(0.4, #FFBF40));
+}
+input[type="image"]{
+	background:#FFBF40;
+	border:2px solid #FFDC96;
+	border-bottom-color: #A66F00;
+	border-right-color: #A66F00;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	text-shadow: 1px 1px 1px #000;
+	-webkit-box-shadow: 1px 1px 1px #999; 
+	box-shadow: 1px 1px 1px #999;
+	-webkit-gradient(linear, left top, left bottom, from(#FFD073),to(#FFAA00), color-stop(0.4, #FFBF40));
+}
+
+/*(bb) non funziona */
+.spinner{
+	-webkit-border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	-moz-border-radius-bottomright:0px;
+	border-top-right-radius:0px;
+	border-bottom-right-radius:0px;
+}
+
+a{
+	cursor: url(pointer.cur), pointer;
+}
+a:link{
+	color:silver;
+	text-decoration:none;
+	border-bottom:1px solid yellow;
+}
+a:visited{
+	color:silver;
+	text-decoration:none;
+	border-bottom:1px solid #EDBE10;
+}
+a:hover{
+	color:red;
+	z-index:25;
+	border-bottom:1px solid red;
+}
+a:active{
+	color:red;
+	font-family:Runes, Georgia, Verdana, Courier New;
+}
+
+.avoid_border_bottom {
+	border-bottom:0px solid black !important;
+	font-weight:bold;
+}
+
+ul.menu{
+/*EDBE10 è a metà strada tra gold e goldenrod*/
+	border-top:2px solid #EDBE10;
+	border-bottom:2px solid #EDBE10;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	width:14em;
+}
+ul.menu ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	width:13em;
+}
+ul.menu a{
+	display:block;
+	text-decoration:none;
+	border-bottom:0px;
+}
+ul.menu li{
+	margin-top:1px;
+}
+ul.menu li a{
+	background:#333;
+	color:white;
+	padding:0.5em;
+}
+ul.menu li a:hover{
+	color:red;
+	background:black;
+}
+ul.menu li a:active{
+	font-family:Runes, Georgia, Verdana, Courier New;
+}
+ul.menu li ul li a{
+	background:#ccc;
+	color:black;
+	padding-left:20px;
+}
+ul.menu li ul li a:hover{
+	background:#aaa;
+	border-left:5px black solid;
+	padding-left:15px;
+}
+
+.mud, .mud span table{
+	font-family: Verdana, Courier New, monospace;
+	font-size:100%;
+	font-weight:normal;
+	color:silver;
+	background-color:black;
+	white-space:pre-wrap;
+}
+div.on-bars{
+	margin-left:1em;
+	margin-right:1em;
+}
+div.footer{
+	text-align:center;
+	font-weight:normal;
+}
+.asciiart{
+	white-space:pre;
+	word-spacing:normal;
+	line-height:normal;
+}
+.command{
+	color:limegreen;
+}
+
+.admin{
+	font-size:94%;
+}
+
+.system {
+	font-size:smaller;
+	color:cyan;
+}
+
+.visible{
+	visibility:visible;
+	display:inline;
+}
+.invisible{
+	visibility:hidden;
+	display:none;
+}
+.fade {
+	filter:progid:DXImageTransform.Microsoft.alpha(opacity=0);
+	opacity:0;
+	-moz-opacity:0;
+	-khtml-opacity:0;
+}
+.demi {
+	line-height:50%;
+}
+.nowrap {
+	white-space:nowrap;
+}
+.tag {
+	float:left;
+	padding-right:0.5em;
+}
+.icon {
+	position:relative;
+	top:2px;
+}
+
+/*template alternativo con navy e darkblue come bordi*/
+.block{
+	border:1px solid gray;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+.half_block{
+	border:1px solid gray;
+	-webkit-border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-topright:5px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+}
+.block_title{
+	background:#333;
+	border-bottom:1px solid gray;
+	padding:5px;
+	font-size:107%;
+	color:gold;
+}
+.block_text{
+	padding:5px;
+	min-height:64px;
+}
+.block_submit{
+	text-align:center;
+}
+
+.account_block {
+	font-size:90%;
+	float:left;
+	width:15.8em;
+	height:127px;
+	border-bottom:3px double #EDBE10;
+	border-right:3px double #EDBE10;
+	-webkit-border-bottom-right-radius:15px;
+	-moz-border-radius-bottomright:15px;
+	border-bottom-right-radius:15px;
+	text-align:center;
+}
+
+.account_block_input {
+	width:6.5em;
+}
+
+.logo_title {
+	float:left;
+	position:relative;
+	top:13px;
+	left:31%;
+}
+
+.search_block {
+	font-size:90%;
+	float:right;
+	width:19.3em;
+	height:127px;
+	border-bottom:3px double #EDBE10;
+	border-left:3px double #EDBE10;
+	-webkit-border-bottom-left-radius:15px;
+	-moz-border-radius-bottomleft:15px;
+	border-bottom-left-radius:15px;
+	text-align:center;
+}
+
+.below_menu {
+	width:14em;
+}
+
+.square_message{
+	padding:5px;
+	font-family:Geneva, Tahoma, sans-serif;
+	font-size:94%;
+	text-align:left;
+}
+#square_header{
+	border-bottom: 1px solid gray;
+}
+#square_input{
+	width:82%;
+	margin:0.5em;
+	color:gray;
+	font-style:italic;
+}
+#square_login{
+	padding-top:5px;
+	padding-bottom:5px;
+	border-top: 1px solid gray;
+}
+
+.tooltip {
+	display:none;
+	background-color:#000;
+	border:1px solid #EDBE10;
+	padding:3px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	-moz-box-shadow:2px 2px 11px #666;
+	-webkit-box-shadow:2px 2px 11px #666;
+	opacity:0.91;
+	-moz-opacity:0.91;
+	-khtml-opacity:0.91;
+}
+
+.game_tabs {
+	position:absolute;
+	top:1%;
+	width:78.5%;
+	left:0.5%;
+	background-color:black;
+}
+
+.game_panel {
+	overflow:auto;
+	height:92%;
+	color:silver !important;
+	background:none repeat scroll 0% 0% black !important;
+}
+
+.bigino {
+	border:1px solid rgb(216, 216, 216);
+	position:absolute;
+	top:1%;
+	width:18%;
+	height:58.9%;
+	left:80.1%;
+	-moz-box-shadow:2px 2px 4px;
+	overflow:auto;
+	padding:5px;
+}

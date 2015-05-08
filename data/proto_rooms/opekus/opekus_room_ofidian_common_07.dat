@@ -1,0 +1,23 @@
+Code: opekus_room_ofidian_common_07
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: In Cima ai Gradini
+Short: in cima alla scalinata
+
+Descr:
+Sei sull'ultimo gradino in alto di una scalinata in pietra nera che scende in profondità.
+Sul lato opposto un'arcata consente l'accesso ad un grosso edificio. Ai lati solo pietra
+nera.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: Giù per le scale
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: L'accesso
+End

@@ -1,0 +1,47 @@
+Code: citta-raminghe_room_locanda
+Sector: SECTOR.CITY
+Name: [red]La Locanda Rossa[close]
+Short: [red]un'antica locanda[close]
+
+Descr:
+Ti accoglie un ambiente caldo e spazioso. Numerosi [salmon]tavoli[close] in ciliegio sono sparsi occupando quasi per intero la stanza. Alcuni sono più piccoli di forma quadrata, altri più grandi e rettangolari. Vi sono accostate delle comode [salmon]sedie[close] anch'esse in legno di ciliegio, ricoperte da [red]morbidi cuscini[close] di colore rosso. Nella parete di fronte si impone un enorme camino, quasi sempre acceso, attorno al quale gli avventori indugiano in appassionate 
+conversazioni. Lateralmente, sulla sinistra, si apre un passaggio ad arco da cui si accede alla cucina della locanda e dalla quale provengono le gustose pietanze. 
+DescrSmell: 
+Il profumo delle pietanze dolci e speziate ti avvolge completamente.
+DescrSixth:
+Entrando si avverte una sensazione di accogliente ospitalità. Si preparano piatti di differenti provenienze e se ne creano altri completamente nuovi. Un luogo dove il calore e la passione delle locandiere si riversa in cibi dai sapori coinvolgenti e dal profumo inebriante. Cibi dai quali potrai ricevere [red]forza[close], [yellow]potenza[close] e [cornflowerblue]vigore[close] nel corpo e nella mente.
+DescrHearing:
+Vieni attratto dai suoni e dai rumori delle numerose conversazioni che gli ospiti della locanda intrattengono con chiunque 
+abbia voglia di farlo.
+
+Extras:
+	Keywords: Menu Menù
+	Descr:
+		Vedi affisso sopra il camino un elenco delle pietanze che puoi avere qui:
+
+                - bistecca al pepe verde
+                - dolce alla vaniglia
+                - pollo stufato
+                - spezzatino alle prugne con mandorle
+                - zuppa di fagioli al peperoncino
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.WEST
+	Descr: Un cortile
+End
+Exits:
+	Direction: DIR.EAST
+	Descr: Un cortile
+End
+Exits:
+	Direction: DIR.SOUTHEAST
+	Descr: Una piazza
+End
+
+
+

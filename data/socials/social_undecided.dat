@@ -1,0 +1,28 @@
+FunName:    social_undecided
+Intention:  INTENTION.NEUTRAL
+Expression: indeciso
+Smiles:     :/ :-/
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Posi le $hands sui fianchi tentennando leggermente con il capo
+  OthersNoArg: $n posa le $hands sui fianchi tentennando leggermente con il capo
+  EntityFound: Posi le $hands sui fianchi e tentenni leggermente guardando $N.
+  OthersFound: $n posa le $hands sui fianchi e tentenna leggermente guardando $N.
+  TargetFound: $n posa le $hands sui fianchi e tentenna leggermente guardandomi.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Ti passi una zampa sulle orecchie, carezzandole con indecisione.
+  OthersNoArg: $n sembra indecis$o, nel frattempo si prende qualche istante per pensare.
+  EntityFound: Osservi $N con indecisione e già che ci sei ti lecchi un artiglio.
+  OthersFound: $n scruta $N con fare indeciso, leccandosi distrattamente un artiglio.
+  TargetFound: $n ti guarda con fare indeciso ma intanto si lecca un artiglio.. Sarà buon segno?
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Ti passi una zampa sulle orecchie, carezzandole con indecisione.
+  OthersNoArg: $n sembra indecis$o, nel frattempo si prende qualche istante per pensare.
+  EntityFound: Osservi $N con indecisione e già che ci sei ti lecchi un artiglio.
+  OthersFound: $n scruta $N con fare indeciso, leccandosi distrattamente un artiglio.
+  TargetFound: $n ti guarda con fare indeciso ma intanto si lecca un artiglio.. Sarà buon segno?
+End

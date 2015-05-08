@@ -1,0 +1,44 @@
+Comment: Un'unica cosa, flora sottostante..l'avevo corretto io ma forse ci andrebbe un "zona sottostante" perché non si può essere certi che vi siano solo vegetali...che ne dici?
+Code: krablath_room_funghi-01
+Sector:	SECTOR.HEATH
+Name: [lightseagreen]Il Fungoso Perimetro Interno[close]
+Short:	[lightseagreen]il fungoso perimetro interno[close]
+
+Descr:
+La roccia che ti fa da protezione a sudovest, sale verso l'alto incurvandosi superiormente. Il suo sviluppo copre un'ampia porzione dell'orizzonte e condanna all'imperituro crepuscolo tutta la flora sottostante. La parete, non paga, procede lateralmente come abbraccio di cui non si vede l'estremo.
+Ai tuoi piedi il terreno è interamente ricoperto di [lightseagreen]funghi[close] di ogni dimensione. Per alcuni tratti si fa prima a fare slalom fra i grossi esemplari, per altri invece non si può che calpestare... non pare invece possibile procedere a nordest dove si apre un profondo scavo che ti obbliga a proseguire lungo questo stretto corridoio.
+DescrNight:
+Il fianco roccioso che fa da protezione a sudovest, sale verso l'alto incurvandosi sopra di te. Il suo sviluppo copre un'ampia porzione dell'orizzonte e condanna all'imperituro crepuscolo tutta la flora sottostante. La parete, non paga, procede lateralmente come abbraccio di cui non si vede l'estremo.
+Ai tuoi piedi il terreno è interamente ricoperto di muffe biancastre e [turquoise]luminosi funghi[close] di ogni dimensione. Per alcuni tratti si fa prima a fare slalom fra i grossi esemplari, per altri invece non si può che calpestare... non pare invece possibile procedere a nordest dove si apre un profondo scavo che ti obbliga a proseguire lungo questo stretto corridoio.
+DescrTouch: 
+Il fianco di dura roccia che fa da protezione a sudovest, sale verso l'alto incurvandosi fino a superarti in altezza e oltre. La parete procede lateralmente e non sai dire fino a dove.
+Ai tuoi piedi il morbido terreno è interamente ricoperto da funghi turgidi di ogni dimensione. Per alcuni tratti si fa prima a fare slalom fra i grossi esemplari, per altri invece non si può che calpestare...
+Di quando in quando il tuo piede trova verso nordest una fonda spaccatura che non oltrepassi. 
+DescrSmell: 
+Nessuna brezza qui, tanto che il ristagno satura l'aria d'umido e dell'olezzo caratteristico di muffe e funghi.
+DescrSixth:
+L'impressione è che il fianco roccioso che ti avvolge prosegua in un enorme abbraccio circolare.
+DescrTaste:
+Anche l'aria madida d'umido porta con sé il sapore di muffa e di funghi ma speri d'abituartici prima possibile.
+
+Extras:
+	Flags: EXTRA.NIGHT_ONLY
+	Keywords:	luminosi funghi
+	Descr:
+	Una [turquoise]pun[white]teg[turquoise]gia[white]tu[turquoise]ra[close] di luce decora tutto il cappello
+	DescrSixth:
+	La punteggiatura di luce che decora tutto il cappello suggerisce mutevoli simbologie aliene 
+End
+Width:	6m
+Depth:	6m
+Height:	4m
+
+Exits:
+  Direction: DIR.SOUTHEAST
+  Descr: Il perimetro
+End
+Exits:
+  Direction: DIR.NORTHWEST
+  Descr: Il perimetro
+  Destination: -4 -1 0 krablath
+End

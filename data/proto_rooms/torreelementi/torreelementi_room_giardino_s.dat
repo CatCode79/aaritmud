@@ -1,0 +1,56 @@
+Code: torreelementi_room_giardino_s
+Sector: SECTOR.PLAIN
+Name: l'Uscita Sud del Giardino
+Short: Un trivio nel sentiero
+Descr:
+Il tuo passo procede morbido sull'erba fresca e rigogliosa, l'indistinto brusio
+d'insetti sembra fondersi con i profumi e i colori di questo immenso giardino.
+Verso nord si staglia imponente la torre avvolta d'edera e glicine. Ai lati,
+un sentiero di ghiaia bianca pare abbracciare tutto il perimetro della torre.
+DescrSmell:
+Profumi di glicine e vegetazione sono portati dalla tiepida brezza da est ad ovest.
+Da sud proviene aria più secca.
+
+Width: 10m
+Depth: 10m
+Height: 100m
+
+Extras:
+  Keywords: muro parete
+  Descr: Il rigoglio del glicine e dell'edera ti rendono difficoltoso cercare un varco
+  DescrSixth: Qualcosa ti dice che se non han messo un ingresso, sarà difficile entrare
+End
+Extras:
+  Keywords: varco
+  Descr: Ecco finalmente una spanna di muro libera da vegetazione... un nido!
+End
+Extras:
+  Keywords: nido
+  Descr: Delle piccole uova blu punteggiate di nero
+End
+Extras:
+  Keywords: uova
+  Descr: Beh, sì, uova...
+End
+Extras:
+  Keywords: glicine
+  Descr: Bello bello bello, in fiore
+  DescrSmell: In fiore e profumatissimo, forse pure troppo
+End
+Extras:
+  Keywords: edera
+  Descr: Quante belle api attira un'edera, chissà il miele...
+End
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Il giardino prosegue
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Il giardino prosegue
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Una piattaforma rocciosa
+End

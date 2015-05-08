@@ -1,0 +1,51 @@
+Code: krablath_room_bocca-leone-05
+Sector: SECTOR.UNDERGROUND
+Name: bocca-leone-05
+Short: bocca-leone-05
+
+Descr:
+Sei 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Extras:
+	Keywords: chiave
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTHWEST
+  Descr: In strada
+End
+Exits:
+  Direction: DIR.SOUTHEAST
+  Descr: In strada
+End
+Exits:
+  Direction: DIR.DOWN
+  Descr: In strada
+End
+

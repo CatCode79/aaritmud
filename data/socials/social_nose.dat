@@ -1,0 +1,34 @@
+FunName:    social_nose
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Ti scaccoli con certosina dovizia.
+  OthersNoArg: $n si scaccola con certosina dovizia.
+  EntityFound: Prendi bene la mira e.. Lanciata!
+  OthersFound: $n con abile mira lancia una caccola in fronte a $N!
+  TargetFound: $n ti colpisce in fronte con.. UNA CACCOLA!
+End
+RacialMessages:
+  Race:        RACE.ORC
+  EntityNoArg: Cerco una bella pepita nelle mie narici (assaporo il frutto delle ricerche).
+  OthersNoArg: $n esplora con perizia le sue narici.
+  EntityFound: Applichi una medaglia di caccole addosso a $N.
+  OthersFound: $n conferisce la medaglia al valor caccoloso a $N.
+  TargetFound: $n ti regala una grossa pepita.. Ah, no.. è una caccola.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Esplori le profondità del tuo naso con un artiglio.
+  OthersNoArg: $n sta mappando le sue narici con un artiglio.
+  EntityFound: La presenza di $N ti ispira un bel viaggio nel mondo onirico.
+  OthersFound: $n, ispirat$o dalla presenza di $N, si infila un artiglio nel naso.
+  TargetFound: $n sembra ispirat$o dalla tua presenza, si esplora le narici estasiat$o.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Esplori le profondità del tuo naso con un artiglio.
+  OthersNoArg: $n sta mappando le sue narici con un artiglio.
+  EntityFound: La presenza di $N ti ispira un bel viaggio nel mondo onirico.
+  OthersFound: $n, ispirat$o dalla presenza di $N, si infila un artiglio nel naso.
+  TargetFound: $n sembra ispirat$o dalla tua presenza, si esplora le narici estasiat$o.
+End

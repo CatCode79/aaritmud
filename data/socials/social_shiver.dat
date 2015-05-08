@@ -1,0 +1,28 @@
+FunName:    social_shiver
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Tremi come una foglia.
+  OthersNoArg: $n trema come una foglia.
+  EntityFound: Tremi come una foglia.
+  OthersFound: $n trema come una foglia.
+  TargetFound: $n trema come una foglia.
+  EntityAuto:  Ti guardi e tremi come una foglia.
+  OthersAuto:  $n si guarda e trema, si fa paura!!
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Ti acquatti in un angolo mentre forti tremori ti sferzano il corpo..
+  OthersNoArg: $n cerca di acquattarsi in un angolo mentre forti tremori l$o scuotono..
+  EntityFound: Pieghi le orecchie all'indietro tremando accanto a $N.
+  OthersFound: $n piega le orecchie all'indietro tremando accanto a $N.
+  TargetFound: $n piega le orecchie all'indietro tremando accanto a te.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Ti acquatti in un angolo mentre forti tremori ti sferzano il corpo..
+  OthersNoArg: $n cerca di acquattarsi in un angolo mentre forti tremori l$o scuotono..
+  EntityFound: Pieghi le orecchie all'indietro tremando accanto a $N.
+  OthersFound: $n piega le orecchie all'indietro tremando accanto a $N.
+  TargetFound: $n piega le orecchie all'indietro tremando accanto a te.
+End

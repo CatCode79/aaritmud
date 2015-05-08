@@ -1,0 +1,52 @@
+Code: torreelementi_room_sotto_3
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Sala dei Substrati delle Colture
+Short: uno strano magazzino
+Descr:
+Questo posto sembra un magazzino di materiali che troverebbero migliore collocazione
+all'aperto. Cumuli di cortecce diverse sono disposti ben separati fra loro laggiù,
+cumuli di terra e letame sono disposti sull'altro lato. Al centro diverse balle di
+paglia ammonticchiate fino al soffitto.
+A ridosso della parete di fronte all'uscita sono allineate foglie di qualche pianta
+decisamente esibizionista.
+DescrSmell:
+L'aria stantia permette di riconoscere questa come una zona di stoccaggio di materiali
+diversi; in primis letame stagionato, poi legno di conifera e qualcos'altro che è più
+sottile e coperto dagli altri odori.
+
+Extras:
+  Keywords: paglia balle balla
+  Descr: Paglia fresca e compressa con forza in forma vagamente cilindrica
+  DescrTouch: Paglia fresca essiccata da non più di qualche settimana
+  DescrSmell: Il classico odore della paglia che tanti starnuti procura ai più sensibili
+End
+Extras:
+  Keywords: terra letame
+  DescrSmell: Si dice che più puzza e meglio è... questo deve essere l'arma definitiva! 
+  Descr: Si alternano cumuli di terra a cumuli di letame stagionato
+End 
+Extras:
+  Keywords: corteccia cortecce
+  Descr: Non sai riconoscere la tipologia di alberi dai quali provenga
+  DescrTouch: Piccola pezzatura omogenea
+  DescrSmell: Dall'odore di resina si tratta certo di qualche conifera
+End 
+Extras:
+  Keywords: alberi
+  Descr: Questi sono certamente di qualche conifera 
+End 
+Extras:
+  Keywords: foglia foglie
+  Descr: Se esiste pianta che produce foglie di questa grandezza deve essere visibile a
+              leghe di distanza
+End
+
+Width:	3m
+Depth:	4m
+Height: 4m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Una sala
+End

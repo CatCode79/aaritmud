@@ -1,0 +1,37 @@
+Code: krablath_room_casa-04
+Sector: SECTOR.PLAIN
+Name: Il Tetto
+Short: sul tetto
+
+Descr:
+Tra i pezzi di corteccia che ricoprono il tetto emerge un'enorme [olivedrab]vasca[close] contenente acqua piovana. Decine e decine di [olivedrab]tubicini[close] si estendono da qui verso tutto il giardino interrandosi in diversi punti.
+DescrTouch: 
+Plic plic..immergi un dito nell'acqua e lo fai gocciolare.
+DescrSixth:
+Una vasca d'acqua piovana dev'essere piuttosto comoda per un giardino così grande.
+
+Extras:
+	Keywords:	vasca
+	Descr:
+	La vasca composta da lamine che paiono foglie carnose, la base è direttamente collegata ai muri della casa.
+	DescrSixth:
+	Pare che questo non troppo rudimentale sistema d'irrigazione costituisca anche i muri della casa.
+End
+
+Extras:
+	Keywords:	tubicini
+	Descr:
+	Lunghi tubi in cui scorre dell'acqua.
+	DescrSixth:
+	Pare un non troppo rudimentale sistema d'irrigazione.
+End
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.DOWN
+	Descr:	attorno alla casa
+	Destination:	4 2 0 krablath
+End

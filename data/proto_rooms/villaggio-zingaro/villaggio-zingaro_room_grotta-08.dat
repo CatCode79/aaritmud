@@ -1,0 +1,47 @@
+Code: villaggio-zingaro_room_grotta-08
+Sector: SECTOR.UNDERGROUND
+Name: grotta-08
+Short: grotta-08
+
+Descr:
+Sei 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Extras:
+	Keywords: chiave
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.SOUTHWEST
+	Descr: Alla nicchia
+End
+Exits:
+	Direction: DIR.NORTHEAST
+	Descr: Altrove
+        Destination: 6 1 -1 villaggio-zingaro
+End

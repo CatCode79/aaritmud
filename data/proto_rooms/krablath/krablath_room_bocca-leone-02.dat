@@ -1,0 +1,24 @@
+Code: krablath_room_bocca-leone-02
+Sector: SECTOR.AIR
+Name: [darkmagenta]Sul Fusto della Bocca di Leone[close]
+Short: [darkmagenta]in arrampicata[close]
+
+Descr:
+Ti trovi poco oltre metà altezza ma già da qui sovrasti tutto il giardino una leggera brezza fa ondeggiare piacevolmente il fusto della pianta.
+Davati a te alcuni boccioli purpurei sono pronti a dischiudersi#contained_by[south] is Exit#, su un lato un [darkmagenta]f[darkorchid]i[mediumorchid]o[violet]r[pink]e[close] oscilla sotto la spinta di una fresca brezza###contained_by[northeast] is Exit#, su un lato un [darkmagenta]f[darkorchid]i[mediumorchid]o[violet]r[pink]e[close] oscilla sotto la spinta di una fresca brezza###contained_by[southwest] is Exit#, su un lato un [darkmagenta]f[darkorchid]i[mediumorchid]o[violet]r[pink]e[close] oscilla sotto la spinta di una fresca brezza###contained_by[east] is Exit#, su un lato un [darkmagenta]f[darkorchid]i[mediumorchid]o[violet]r[pink]e[close] oscilla sotto la spinta di una fresca brezza###contained_by[southeast] is Exit#, poco distante invece è appena sbocciato un [indigo]f[darkslateblue]i[mediumpurple]o[plum]r[thistle]e[close] tanto grande da poter ospitare una persona.###contained_by[north] is Exit#, poco distante invece è appena sbocciato un [indigo]f[darkslateblue]i[mediumpurple]o[plum]r[thistle]e[close] tanto grande da poter ospitare una persona.###contained_by[west] is Exit#, poco distante invece è appena sbocciato un [indigo]f[darkslateblue]i[mediumpurple]o[plum]r[thistle]e[close] tanto grande da poter ospitare una persona.###contained_by[northwest] is Exit#, poco distante invece è appena sbocciato un [indigo]f[darkslateblue]i[mediumpurple]o[plum]r[thistle]e[close] tanto grande da poter ospitare una persona.## 
+DescrSmell: 
+La brezza qui in alto porta aromi lontani.
+
+Width:	3m
+Depth:	3m
+Height: 200m
+
+
+Exits:
+	Direction:	DIR.UP
+	Descr:	in arrampicata.
+End
+Exits:
+	Direction:	DIR.DOWN
+	Descr:	alla base.
+End

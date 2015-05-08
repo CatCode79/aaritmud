@@ -1,0 +1,32 @@
+Code: torreelementi_room_giardino_ne
+Sector: SECTOR.PLAIN
+Name: Il Giardino Nordorientale
+Short: Un arco di sentiero
+Descr:
+Un sentiero di ciottoli costeggia circolarmente l'imponente struttura della torre.
+Vaste aree delle mura orientali sono ricoperte di vegetazione che sembra farsi
+maggiormente rigogliosa sul lato nord della torre. Ampi ciottoli son disposti nel prato
+qui a nord-est in una disposizione che sai riconoscere come simbolica.
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Extras: 
+  Keywords: arcani simbolo simboli simbolica
+  DescrSixth: 
+  Sono disposti genuinamente a caso e tu non sei nello stato d'animo di
+  rilassamento sufficiente per coglierne l'intrinseca bellezza.
+  Descr:
+  Riflettendo sei certo di riuscire a venir a capo dell'importante messaggio celato
+  da un essere superiore
+End
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Diversi steli guardano al cielo
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Il giardino prosegue
+End

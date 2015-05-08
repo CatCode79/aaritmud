@@ -1,0 +1,27 @@
+Code: villaggio-zingaro-maze_room_grotte_3no-ovest
+Sector: SECTOR.UNDERGROUND
+Flags: ROOM.INSIDE
+Name:	Nelle Viscere della Terra
+Short:	nel labirinto roccioso
+
+Descr:
+Cammini lungo un basso cunicolo ad imbuto che sul fondo non ha altri sbocchi che in una biforcazione; questa si immerge nuovamente nel dedalo di sentieri accidentati tutti uguali uno all'altro.
+DescrSixth:
+Di certo un nugolo di cunicoli è un posto tranquillo, ma forse preferiresti trovare l'uscita.
+
+Width:	10m
+Depth:	2m
+Height: 2m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Nei meandri rocciosi
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Nei meandri rocciosi
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Nei meandri rocciosi
+End

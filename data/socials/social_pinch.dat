@@ -1,0 +1,38 @@
+FunName:    social_pinch
+Intention:  INTENTION.FRIENDLY
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Ti dai un pizzico.. ma sei davvero svegli$o?!
+  OthersNoArg: $n si dà un pizzico per verificare di essere veramente svegli$o..
+  EntityFound: Pizzichi scherzosamente $N.
+  OthersFound: $n pizzica scherzosamente $N.
+  TargetFound: $n ti pizzica scherzosamente.. Ahi però!
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Ti pizzichi in modo omogeneo per riprenderti dal torpore.
+  OthersNoArg: $n si pizzica le braccia intorpidito per riprendere sensibilità.
+  EntityFound: Pizzichi scrupolosamente $N per sentire la consistenza delle carni.
+  OthersFound: $n pizzica scrupolosamente $N per sentirne la consistenza delle carni.
+  TargetFound: $n ti pizzica con scrupolo per qualche ragione a te ignota.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Pizzichi l'aria con gli artigli.
+  OthersNoArg: $n distribuisce pizzichi ai presenti, con gli artigli.
+  EntityFound: Pizzichi $N con la zampa.
+  OthersFound: $n dà un pizzicotto con la zampa a $N.
+  TargetFound: $n ti dà un pizzicotto con una zampa.
+  EntityAuto:  Ti pizzichi, non si sa mai che possa servire in futuro.
+  OthersAuto:  $n si dà un pizzicotto sul fianco.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Pizzichi l'aria con gli artigli.
+  OthersNoArg: $n distribuisce pizzichi ai presenti, con gli artigli.
+  EntityFound: Pizzichi $N con la zampa.
+  OthersFound: $n dà un pizzicotto con la zampa a $N.
+  TargetFound: $n ti dà un pizzicotto con una zampa.
+  EntityAuto:  Ti pizzichi, non si sa mai che possa servire in futuro.
+  OthersAuto:  $n si dà un pizzicotto sul fianco.
+End

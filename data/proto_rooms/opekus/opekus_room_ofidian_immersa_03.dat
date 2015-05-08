@@ -1,0 +1,23 @@
+Code: opekus_room_ofidian_immersa_03
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE ROOM.UNDERWATER
+Name: La Via Sommersa 
+Short: un lungo tunnel
+
+Descr:
+La via sommersa procede placidamente in uno slargo dalla forma approssimativamente
+sferica, dalle pareti lisce e levigate; di quando in quando incrostazioni ed alghe.
+Sulla parte inferiore un apertura a scivolo spiraleggia ancor più in basso.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Verso un po' d'aria
+End
+Exits:
+  Direction: DIR.DOWN
+  Descr: L'elica
+End

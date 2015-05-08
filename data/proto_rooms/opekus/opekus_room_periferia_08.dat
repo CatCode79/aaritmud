@@ -1,0 +1,30 @@
+Code: opekus_room_periferia_08
+Sector: SECTOR.PATH
+Name: La Vecchia Strada
+Short: una strada
+Descr:
+Poche ardite sterpaglie cercano instancabili di riconquistare il terreno a loro sottratto
+dalla strada ove cammini. Esperti operai devono aver faticato non poco nella posa della
+miriade di piastre di questa strada. Procedendo lungo la via finalmente il segno di un 
+cambiamento: uno slargo accidentato sporge dalla strada sul lato ovest.
+
+
+Extras:
+	Keywords: slargo
+	Descr:
+	Si tratta di una zona dove è rimasto il segno di qualcosa di pesante. Ora è stato
+	rimosso; qualunque cosa fosse è rimasta qui a lungo. 
+End
+
+Width:	2m
+Depth:	10m
+Height: 10m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: La strada
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: La strada
+End

@@ -1,0 +1,35 @@
+Code: serpidi_room_8605_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: L'angolo sud-ovest del tempio 
+Short: L'angolo sud-ovest del tempio 
+Descr: 
+Il tempio ha una pianta quadrata ed è completamente immerso nel buio, in questo angolo c'è una statua piuttosto grande che raffigura un antico guerriero completamente bardato di nero. Da quando sei entrato qui dentro ti senti pervaso da una certa oppressione come se qualche oscura ed antica potenza interferisse con i tuoi stessi principi vitali. 
+Exits:
+	Direction: DIR.NORTH
+	Destination: -1 5 0 serpidi
+End
+Exits:
+	Direction: DIR.EAST
+	Destination: 0 4 0 serpidi
+End
+Extras:
+	Keywords: figure 
+Descr:
+Dall'angolo non riesci ad esaminare le pareti. 
+End
+Extras:
+	Keywords: mosaico 
+Descr:
+Sei troppo lontano per vederlo bene, da qui distingui solo forme aggrovigliate in maniera insensata. Forse dal centro del tempio potresti cogliere la visione d'insieme. 
+End
+Extras:
+	Keywords: intarsi 
+Descr:
+Sei troppo lontano dal centro del tempio e vedi molto poco, ma gli intarsi potrebbero rappresentare una qualche divinità intenta a cibarsi. 
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

@@ -1,0 +1,89 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<h2>Indice delle Etichette per un Muro</h2>
+<a href='#Comment'>Comment:</a><br>
+<a href='#Direction'>Direction:</a><br>
+<a href='#Depth'>Depth:</a><br>
+<a href='#Height'>Height:</a><br>
+<a href='#Descr'>Descr:</a><br>
+<a href='#DescrNight'>DescrNight:</a><br>
+(TD) MANCANO LE ETICHETTE DI DESCRIZIONE SENSORIALE! Vedere le uscite a riguardo, le mura e le uscite sono strutture concettualmente molto simili.<br>
+<a href='#Extras'>Extras:</a><br><br>
+
+<hr>
+<h2>Note Riguardo le Uscite</h2>
+<span class="label">Walls</span> &egrave; una di quelle etichetta che abbisogna della etichetta <span class="label">End</span> per chiudere la sotto-struttura e al cui interno vanno le etichette elencate di seguito indentandole di un paio di spazi.<br>
+Se avete studiato la sezione <a href="exits.htm">sulle uscite</a> sapete che se una stanza non ha una etichetta <td class="label">Exits</span> verso una determinata direzione quest'ultima non pu&ograve; essere utilizzata per muoversi, come se vi fosse una parete.<br>
+Allora perch&egrave; esiste l'etichetta <td class="label">Walls</span>?<br>
+Essenzialmente esiste per tre motivi: per poter scalare le pareti con un balzo, per poter sfondare le pareti e infine per farci scrivere sopra.<br>
+Il primo motivo &egrave; legato all'altezza del muro che volete inserire.<br>
+Gli ultimi due motivi invece cambiano a seconda del materiale che utilizzate per il muro, non potete decidere se un muro pu&ograve; essere solo scrivibile e non distruggibile, o viceversa, dipende. Se scegliete di creare una specie di muro magico fatto solo d'acqua sar&agrave; dura scriverci sopra.. se scegliete di creare un muro fatto di mithril e una profondit&agrave; di 3 metri sar&agrave; dura sfondarlo.. etc etc<br>
+Dovete pensare in termini di realismo: se voi volete fare un muro in cui vi si possa scrivere.. se anche i pg lo fanno saltare, ben venga! (a meno che dall'altra parte non vi sia una stanza supersegreta teoricamente non accessibile con quel mezzo).<br>
+Un'altro comportamento interessante relativo all'arrampicata &egrave; quello che se in una stanza ci sono delle mura, e se non c'&egrave; il soffitto, queste mura, se relativa basse, possono essere scavalcabili finendo non nella stanza sopra ma in quella sopra + direzione (sempre che vi sia una stanza con pavimento in quelle coordinate, altrimenti si cade!).<br>
+
+<hr>
+<h2>Tabella di Riferimento Veloce</h2>
+<table border="1">
+<tr class="thref"><td>Etichetta</td><td>Tipologia</td><td>Utilizzo</td></tr>
+<tr><td class="label">Comment</td><td>Stringa, relativa ad un commento</td><td>Facoltativo, consigliato se c'&egrave; qualcosa di particolare</td></tr>
+<tr><td class="label">Direction</td><td>Element, relativo alle dir</td><td>Obbligatorio</td></tr>
+<tr><td class="label">Depth</td><td>Misura, di default in centimetri</td><td>Obbligatorio</td></tr>
+<tr><td class="label">Height</td><td>Misura, di default in metri</td><td>Facoltativo</td></tr>
+<tr><td class="label">Descr</td><td>Stringa, singola o multi-linea</td><td>Facoltativo</td></tr>
+<tr><td class="label">DescrNight</td><td>Stringa, singola o multi-linea</td><td>Facoltativo</td></tr>
+<tr><td class="label">Extras</td><td>Extras</td><td>Facoltativa</td></tr>
+</table><br>
+
+<hr>
+<h2>Struttura Tipica con le Etichette Obbligatorie (per copia e incolla)</h2>
+<pre>
+Walls:
+  Direction: DIR.
+  Depth:     20cm
+End
+</pre><br>
+
+<hr>
+<a name='Comment'><h3>Comment:</h3></a>
+Eventuale commento relativo al muro, per maggior informazioni leggere <a href="comment.htm">questa pagina</a>.<br>
+Non &egrave; obbligatorio, ma &egrave; cmq consigliato se il muro &egrave; una cosa particolare, un'eccezione oppure se c'&egrave; qualcosa da far notare e ricordare ai futuri builder.<br><br>
+
+<a name='Direction'><h3>Direction:</h3></a>
+&Egrave; un <a href="element.htm">Element</a> relativo alla <a href="elements_list.htm#DIR">lista delle direzioni</a>.<br>
+Indica in quale direzioni si vuole inserire un muro.<br><br>
+
+<a name='Depth'><h3>Depth:</h3></a>
+&Egrave; una <a href="measure.htm">misura</a>, di default in centimetri.<br>
+Indica la profondit&agrave; della parete ed assieme al materiale con cui &egrave; formata cambia la probabilit&agrave; che la parete possa essere distrutta tramite botte, spallate, picconate, magie, arieti ed esplosivi vari..<br>
+L'etichetta &egrave; obbligatoria.<br><br>
+
+<a name='Height'><h3>Height:</h3></a>
+&Egrave; una <a href="measure.htm">misura</a>, di default in metri.<br>
+Indica l'altezza della parete dovete inserire questa etichetta SOLO se volete che l'altezza del muro sia minore rispetto all'altezza che avete inserito per la stanza.<br>
+Vi servir&agrave; per parapetti scavalcabili, muretti anche bassi ma magari distruggibili, oppure per emulare pareti con aperture adebite a finestre ma senza inserire l'oggetto finestra (vedi l'etichetta <a href="exits.htm#Door">Door</a> relativa alle uscite di una stanza).<br>
+L'etichetta &egrave; facoltativa.<br><br>
+
+<a name='Descr'><h3>Descr:</h3></a>
+In questa etichetta bisogna inserire la descrizione dell'uscita che verr&agrave; a formarsi una volta che il muro viene distrutto.<br>
+Quindi qui non va' una descrizione del muro, ma quello che c'&egrave; al di l&agrave; di esso.<br>
+L'etichetta &egrave; facoltativa.<br><br>
+
+<a name='DescrNight'><h3>DescrNight:</h3></a>
+Come per la descrizione sopra, ma in questo caso notturna.<br>
+L'etichetta &egrave; facoltativa.<br><br>
+
+<a name='Extras'><h3>Extras:</h3></a>
+Descrizioni extra che si possono vedere, o leggere, sul muro in quella direzione.<br>
+L'etichetta &egrave; facoltativa.<br><br>
+
+<hr>
+</body>
+</html>

@@ -1,0 +1,16 @@
+Code: serpidi_room_8683_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: Stanza N 4325 
+Short: Stanza N 4325 
+Descr: 
+Una stanza completamente vuota e buia... ma forse in un angolo c'è qualcosa. 
+Exits:
+	Direction: DIR.SOUTH
+	Destination: 3 9 -2 serpidi
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

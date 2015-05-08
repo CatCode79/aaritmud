@@ -1,0 +1,29 @@
+Code: citta-raminghe_room_piramide-gradoni-05
+Sector: SECTOR.CITY
+Name: [red]Le Profondità della Piramide[close]
+Short: [red]una grotta sotto la piramide[close]
+
+Descr:
+Sei in una grotta umida e popolata da [magenta]pipistrelli[close] e [burlywood]ragni[close]. Ti trovi in prossimità di un accesso al mondo sotterraneo di cui questo luogo è solo l'inizio. Un passaggio verso una dimensione dominata dall'oscurità e dalla presenza di creature notturne spesso invisibili, ma attente e diffidenti. Qui l'alternarsi del giorno e della notte e orientarsi nello spazio acquistano un nuovo significato. Il [lightblue]tempo[close] non è più lineare, ma circolare, lo
+[violet]spazio[close] è confuso e ricco di paradossi geometrici. 
+
+DescrSmell: 
+Avverti un odore di umidità e di creature notturne.
+
+DescrSixth:
+Una grotta viva e pulsante non è un luogo tra i più piacevoli, ma a volte può riservare sorprese non sempre sgradevoli per 
+una mente curiosa e aperta alla conoscenza. Uno sguardo indifferente, infatti,ti sottrae possibilità inattese.
+ 
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.UP
+	Descr: L'ingresso
+End
+
+Exits:
+	Direction: DIR.WEST
+	Descr: Altrove
+End

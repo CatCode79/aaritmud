@@ -1,0 +1,21 @@
+Comment: room che si possono visitare solo scavando. Si tratta dei percorsi di collegamento fra tratti di miniera preesistenti
+Code: miniere-kezaf_room_generic-diggable-03-after
+Sector: SECTOR.UNDERGROUND
+Flags:	ROOM.INSIDE
+Name: Un Cunicolo Sotterraneo
+Short: un cunicolo sotterraneo
+
+Descr:
+Ti trovi in una cavità molto probabilmente naturale, dove vi sono una serie di 
+pozze di acqua stagnante e alcune rocce smosse da poco. Forse non sei l'unico ad
+essere finito in questo luogo e sicuramente qualcuno si è spostato ancora
+oltre, visto che vi sono evidenti in terra segni di scavo recenti.
+
+DescrSixth:
+Comprendi che l'acqua ristagna in questo luogo, ma sembra provenire da altre
+zone presenti in questa miniera.
+
+Width:	2m
+Depth:	2m
+Height: 150cm
+

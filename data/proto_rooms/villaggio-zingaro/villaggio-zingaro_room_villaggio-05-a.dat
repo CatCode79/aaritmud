@@ -1,0 +1,31 @@
+Code: villaggio-zingaro_room_villaggio-05-a
+Sector: SECTOR.ROAD
+Name: La Via per la Miniera
+Short: una strada
+
+Descr:
+Lungo la via compaiono i segni del passaggio di carri che transitano fra est ed ovest.
+La pavimentazione ne ha fatto le spese e due profondi solchi segnano la larghezza
+standard per un carro in modo tutt'altro che facoltativo.
+La collina si fa qui più prepotente inerpicandosi a nord sul lato sud invece si estende una folta vegetazione. 
+DescrTouch: 
+Misuri la profondità dei solchi con la $hand.
+DescrSmell: 
+L'odore del sottobosco qui si mescola a qualcosa che porta con sé uno spiacevole sentore
+polverulento.
+DescrHearing:
+Anche ad occhi chiusi e raffreddato ci si accorge d'esser in prossimità d'un bosco a causa
+del vento fra gli alberi.
+
+
+Width:	12m
+Depth:	4m
+Height: 2m
+Exits:
+	Direction: DIR.EAST
+	Descr: La strada
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: La strada
+End

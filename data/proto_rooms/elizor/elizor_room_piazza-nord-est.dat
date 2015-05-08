@@ -1,0 +1,41 @@
+Code: elizor_room_piazza-nord-est
+Sector: SECTOR.CITY
+Name: La Zona Commerciale
+Short: la zona commerciale
+
+Descr:
+Un sottile linea di ciottoli s'insinua con poca speranza a delimitare lo spazio viabile da quello dove s'accampano negozi ed ambulanti.
+Qui si sono stanziati definitivamente un negozio dalle insegne involute e spumeggianti messo a vivo contrasto con il telone estremamente vissuto ed unto di quella che dev'essere una bancarella di untume.
+DescrTouch: 
+no_send
+DescrSmell: 
+Acerrima e senza esclusione di colpi; qui si consuma la battaglia tra due inconciliabili fazioni: le fragranze aromatico speziate in lotta con le fritte folate sviluppate dagli esercizi commerciali qui appresso.
+DescrHearing:
+Un sottofondo caratteristico unge, ottundendoli, rumori e suoni in una nuova sensazione che non sai dire se sia più o meno piacevole.
+ 
+DescrTaste:
+Rispetto alle altre zone della piazza qui si insinua più nettamente di altri un certo retrogusto d'untume plausibilmente proveniente da qualcosa di commestibile.
+
+DescrSixth:
+no_send
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	Una profumeria
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	Il banco del fritto
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	La piazza
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	La piazza
+End

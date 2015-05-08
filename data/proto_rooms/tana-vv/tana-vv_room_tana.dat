@@ -1,0 +1,71 @@
+Comment: Abbiate pietà della scarsa qualità di questa room...
+
+Code: tana-vv_room_tana
+Sector: SECTOR.CAVERN
+
+Name: La Tana del VV
+Short: una tana
+
+Descr:
+Sembra essere la tana di un grosso animale selvatico che ha accumulato oggetti ed artefatti creati da varie razze pensanti. Tranne per pochi oggetti misteriosi lo scopo dei pezzi di questa disordinata collezione appare chiaro ad un osservatore che abbia familiarità con la cultura e la società dalla quale provengono ma pare non sia così per l'abitante di questa grotta il cui pavimento e pareti sono coperti di mucchi di cose. Se degli oggetti sono accostati con qualche ordine si tratta di un ordine quanto meno bizzarro come: tazze da te piene di bottoni, monete e rondelle; quadri usati come vassoi; libri appesi per le copertine al soffitto e quant'altro.
+La luce è diffusa e non se ne riesce a stabilire l'origine.
+DescrNight: 
+Sembra essere la tana di un grosso animale selvatico che ha accumulato oggetti ed artefatti creati da varie razze pensanti. Tranne per pochi oggetti misteriosi lo scopo dei pezzi di questa disordinata collezione appare chiaro ad un osservatore che abbia familiarità con la cultura e la società dalla quale provengono ma pare non sia così per l'abitante di questa grotta il cui pavimento e pareti sono coperti di mucchi di cose. Se degli oggetti sono accostati con qualche ordine tratta di un ordine quanto meno bizzarro come: tazze da te piene di bottoni, monete e rondelle; quadri usati come vassoi; libri appesi per le copertine al soffitto e quant'altro.
+È buio pesto e si scorge il vago chiarore azzurrognolo di alcuni oggetti probabilmente magici.
+DescrHearing:
+Dall'esterno provengono attuttiti il cinguettio degli uccelli, il vociare di bambini urlanti ed il vagito di infanti. A tratti si ode lontano lo stormire del vento tra le cime degli alberi. Da dentro la tana si sente il fruscio di oggetti che lentamente stanno franando da qualche parte in questo immondo guazzabuglio.
+DescrHearingNight: 
+Si sente un frusciare di carta e di altri oggetti che lentamente franano. Ogni tanto qualcosa cade sul morbido con un rumore smorzato. Da una credenza a tratti proviene un sordo ronzio.
+DescrSmell: 
+Un aroma residuo di incensi e resine bruciati si diffonde dalle ceneri ormai spente in alcuni contenitori di terracotta sparsi per il locale mentre da altri proviene un sentore di citronella.
+DescrSixth: 
+La creatura che abita questo luogo è sicuramente selvatica ma la disposizione del contenuto di questa stanza lascia supporre anche un qualche barlume di intelligenza che potrebbe anche renderla più pericolosa di quanto non sia per la sola forza bruta.
+Potrebbe essere saggio essere pronti ad imboccare l'uscita in qualsiasi momento ma... dov'è l'uscita?! Tutte le superfici sono coperte da oggetti!
+DescrTouch: 
+Occorre stare molto attenti a quello che si tocca: alcuni mucchi di morbide stoffe nascondono oggetti più duri mentre tra innocue pile di cianfrusaglie si nascondono margini affilati. Senza contare il rischio che tutto ti frani addosso con esiti difficili da prevedere.
+
+Extras:
+ 	Keywords: pavimento suolo tappeto tappeti
+ 	Descr:
+	Nei pochi lembi non coperti dalle cinfrusaglie il pavimento sembra coperto da tappeti. Su uno di questi scorci di tappeto si scorge una macchia.
+	DescrSixth:
+	Dalla presenza di tappeti e dalla loro disposizione è possibile pensare che un tempo questo posto sia stato abitato da un essere civile.
+End
+
+Extras:
+ 	Keywords: macchia pozzanghera
+ 	Descr: 
+	Una macchia grigio chiaro spicca sugli arabeschi scuri del tappeto. I bordi della macchia sono delimitati da cerchi concentrici di melma verdognola ed il centro è coperto di fine sabbiolina marrone; probabilmente fango seccato. Sembra si trovi sul pavimento del punto più luminoso della stanza.
+ 	DescrNight: 
+	Una macchia grigio chiaro spicca sugli arabeschi scuri del tappeto. I bordi della macchia sono delimitati da cerchi concentrici di melma verdognola ed il centro è coperto di fine sabbiolina marrone; probabilmente fango seccato.
+	DescrSmell: 
+	Dalla chiazza proviene un odore di marciume.
+	DescrSixth:
+	Sembra una macchia lasciata da una pozzanghera d'acqua che ripetutamente si forma per poi evaporare. Non sembra l'acqua scorra qui da qualche punto e sotto il tappeto il suolo sembra solido. Sulla verticale del punto è appeso in grosso tomo.
+End
+
+Extras:
+	Keywords: tomo soffitto libri codice miniato
+	Descr:
+	Molti oggetti sono appesi al soffitto e tra questi parecchi libri, legati nelle posizioni più anomale, che paiono strani uccelli in un volo sghembo. Tra tutti spicca un grosso codice miniato le cui copertine sono appese all'indietro formando una larga V con la rilegatura mentre le pagine penzolano sotto eroicamente aggrappate all'opera del legatore. I fogli sono coperti di rune sconosciute e disegni di creature e piante aliene ed appaiono un po' raggrinziti dall'umidità: sotto la verticale del tomo c'è una chiazza che potrebbe essere quanto resta di una pozzanghera. Dietro il tomo sembra esserci maggiore luminosità.
+	DescrNight:
+	Molti oggetti sono appesi al soffitto e tra questi parecchi libri, legati nelle posizioni più anomale, che paiono strani uccelli in un volo sghembo. Tra tutti spicca un grosso codice miniato le cui copertine sono appese all'indietro formando una larga V con la rilegatura mentre le pagine penzolano sotto eroicamente aggrappate all'opera del legatore. I fogli sono coperti di rune sconosciute e disegni di creature e piante aliene ed appaiono un po' raggrinziti dall'umidità: sotto la verticale del tomo c'è una chiazza che potrebbe essere quanto resta di una pozzanghera. 
+	DescrSixth:
+	Chi ha collocato questo strano libro e tutti gli altri volumi appesi al soffitto deve averli voluti usare come grondaie per far confluire l'acqua in un punto specifico. Nascosta dal libro potrebbe esserci un'apertura che spiegherebbe anche perché da dietro sembra provenire una luce relativamente più intensa.
+	DescrSixth:
+	Chi ha collocato questo strano libro e tutti gli altri volumi appesi al soffitto deve averli voluti usare come grondaie per far confluire l'acqua in un punto specifico. Nascosta dal libro potrebbe esserci un'apertura. 
+End
+
+Extras:
+	Keywords: buco apertura varco aperture buchi
+	Descr:
+	Nel soffitto ci sono delle aperture piccole e grandi tutte semi nascoste dai libri appesi in pose strane e sofferenti. Da questi buchi proviene un chiarore soffuso e probabilmente permettono all'acqua di entrare e raccogliersi guidata dalle copertine dei volumi. Non sono però accessi diretti all'esterno: non si riesce a vedere il fuori ma solo pareti di nuda terra in cui sono incastrati oggetti che riflettono la luce fin dentro.
+	Il più grande, nascosto da un grosso codice miniato, è non più largo di un cubito.
+	DescrNight:
+	Nel soffitto ci sono delle aperture piccole e grandi tutte semi nascoste dai libri appesi in pose strane e sofferenti. Probabilmente permettono all'acqua di entrare e raccogliersi guidata dalle copertine dei volumi. Non sono però accessi diretti all'esterno: non si riesce a vedere il fuori ma solo pareti di nuda terra e sassi levigati.
+	Il più grande, nascosto da un grosso codice miniato, è non più largo di un cubito.
+End
+
+Width:	5m
+Depth:	3m
+Height: 2m

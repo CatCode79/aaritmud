@@ -1,0 +1,34 @@
+FunName:    social_poke
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Chi vorresti spingere?
+  OthersNoArg: $n si muove un po' inquiet$o.
+  EntityFound: Spingi lievemente $N cercando di destare la sua attenzione.
+  OthersFound: $n spinge lievemente $N.
+  TargetFound: $n ti spinge lievemente richiamando la tua attenzione.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Spingere. Ottimo! Chi?
+  OthersNoArg: $n porta le $hands ad altezza torace, palmi in fuori..
+  EntityFound: Spintoni $N.
+  OthersFound: $n spintona $N sgarbatamente.
+  TargetFound: $n ti spintona sgaratamente.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Ti eserciti nell'arte della spinta tenendoti in equilibrio sulla coda.
+  OthersNoArg: $n ondeggia le zampe cercando qualcuno da spintonare.
+  EntityFound: Poggi una zampa sulla schiena di $N.. Poi l$O spingi senza troppi complimenti.
+  OthersFound: $n poggia una zampa sulla schiena di $N.. Poi l$O spingi senza troppi complimenti.
+  TargetFound: $n ti poggia una zampa sulla schiena.. Poi ti spinge senza troppi complimenti!
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Ti eserciti nell'arte della spinta tenendoti in equilibrio sulla coda.
+  OthersNoArg: $n ondeggia le zampe cercando qualcuno da spintonare.
+  EntityFound: Poggi una zampa sulla schiena di $N.. Poi l$O spingi senza troppi complimenti.
+  OthersFound: $n poggia una zampa sulla schiena di $N.. Poi l$O spingi senza troppi complimenti.
+  TargetFound: $n ti poggia una zampa sulla schiena.. Poi ti spinge senza troppi complimenti!
+End

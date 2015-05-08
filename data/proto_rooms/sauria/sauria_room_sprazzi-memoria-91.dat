@@ -1,0 +1,41 @@
+Comment: 0 8|8388608 0
+Code: sauria_room_sprazzi-memoria-91
+Sector: SECTOR.UNDERGROUND
+Flags:	ROOM.INSIDE
+Name: Sprazzi Di Memoria
+Short: sprazzi di memoria
+
+Descr:
+Ti muovi lungo un passaggio impossibile; le pareti, come spugne madide, trasudano ricordi e memorie non tue che ti si insinuano dentro... Mentre passi non sai più discernere quali sian i tuoi ricordi e quali quelli altrui. 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 0 21889
+  Descr:	Cupola d'ingresso
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 0 21895
+  Descr:	La mente riposa
+  Direction:	DIR.EAST
+End
+Extras:
+  Comment:	EXTRA_COMMENT
+  Keywords:	memoria memorie ricordo ricordi
+  Descr: 
+	...quale l'utilità di un libro privo di immagini? ...anche se non sai che sono io che lo porto ...eterna, maledetta, fredda e greve ...dal vecchio ponte, sopra il quale siamo... la moltitudine vien verso noi... L'urtar che fece la nostra barca contro la proda... dall'alto del castellaccio, come l'aquila dal suo nido insanguinato, il selvaggio signore domina... capisco che se non vi aiuto, da soli non ne verreste a capo... La morte in battaglia, da presso, mille volte vidi, e affrontai... forse a un cane morto in guerra prima o poi riviene fame...
+End

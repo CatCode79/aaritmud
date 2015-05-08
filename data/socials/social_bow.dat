@@ -1,0 +1,50 @@
+FunName:    social_bow
+Intention:  INTENTION.FRIENDLY
+Expression: inchinandosi
+Smiles:     :J :-J :j :-j
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Ti inchini profondamente.
+  OthersNoArg: $n si produce in un profondo inchino.
+  EntityFound: Ti inchini profondamente verso $N.
+  OthersFound: $n si inchina verso $N.
+  TargetFound: $n si produce in un profondo inchino verso di te.
+  EntityAuto:  Aaahh un po' di flessioni!
+  OthersAuto:  $n si piega in avanti.. che stia facendo ginnastica?
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Ti produci in un rispettoso inchino.
+  OthersNoArg: $n fa un inchino così profondo da divenire in una capriola a mezz'aria.
+  EntityFound: Ti inchini profondamente verso $N.
+  OthersFound: $n fa una capriola in aria quando cerca di inchinarsi davanti a $N.
+  TargetFound: $n si inchina dinanzi a te ma finisce per fare una buffa capriola.
+  EntityAuto:  Riesci a toccarti le dita dei $feet col mento!
+  OthersAuto:  $n è piegat$o in due e gira come un mulinello.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Ti pieghi in avanti per tendere i muscoli delle gambe.
+  OthersNoArg: $n si piega in avanti portando in tensione i muscoli delle gambe.
+  EntityFound: Ti inchini rispettosamente alla tua Matrona $N.
+  OthersFound: $n si inchina in segno di rispetto davanti alla sua Matrona $N.
+  TargetFound: $n ti tributa il necessario omaggio in quanto sua Matrona.
+  EntityAuto:  Ti pieghi in avanti e ti afferri le caviglie con le $hands.
+  OthersAuto:  $n si piega in avanti afferrandosi le caviglie con le $hands.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Ti inchini davanti ai presenti.
+  OthersNoArg: $n si piega sulle zampe producendo un grazioso inchino.
+  EntityFound: Ti inchini davanti a $N, con ossequioso rispetto.
+  OthersFound: $n si inchina davanti a $N e intanto fissa una piccola moschina in un angolo.
+  TargetFound: $n si inchina davanti a te, con vaga espressione dipinta sul muso.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Ti inchini davanti ai presenti.
+  OthersNoArg: $n si piega sulle zampe producendo un grazioso inchino.
+  EntityFound: Ti inchini davanti a $N, con ossequioso rispetto.
+  OthersFound: $n si inchina davanti a $N e intanto fissa una piccola moschina in un angolo.
+  TargetFound: $n si inchina davanti a te, con vaga espressione dipinta sul muso.
+End

@@ -1,0 +1,36 @@
+Code: torreelementi_room_giardino_se
+Sector: SECTOR.PLAIN
+Name: Il Giardino Sudorientale
+Short: Un arco di sentiero
+Descr:
+Un sentiero di ciottoli costeggia circolarmente l'imponente struttura della torre.
+Vaste aree delle mura debordano di vegetazione. Diversi rami tagliati sono
+accatastati in un cumulo là in fondo verso sudest.
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Extras:
+  Keywords: cumulo
+  DescrSmell:
+  Avvicinandoti senti il profumo forte ed acre ad indicare che il taglio dei rami
+  è cosa recente.
+  Descr:
+  Avvicinandoti vedi che il taglio dei rami è cosa recente e della resina esce dai tagli
+End
+Extras:
+  Keywords: resina acre
+  Descr:
+  I rami sono accatastati su una piattaforma liscia in cui è praticata una scanalatura.
+  Nella scanalatura ci sono diversi grumi rappresi e appiccicosi.
+End
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Diversi steli guardano al cielo
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Il giardino prosegue
+End
+

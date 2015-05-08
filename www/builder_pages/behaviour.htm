@@ -1,0 +1,358 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<h2>Indice delle Etichette per il comportamento di un mob od un item intrinseco (behaviour) o indotto dalla room ove si trovano (ItemBehaviour, MobBehaviour).</h2>
+
+<div>
+
+
+<a href='#LookPlayer'><span class='label'>LookPlayer</span>:</a><br>
+<a href='#LookMob'><span class='label'>LookMob</span>:</a><br>
+<a href='#LookItem'><span class='label'>LookItem</span>:</a><br>
+<a href='#LookSelf'><span class='label'>LookSelf</span>:</a><br>
+<a href='#LookAtRaces'><span class='label'>LookAtRaces</span>:</a><br>
+<a href='#LookAtRacesFlags'><span class='label'>LookAtRacesFlags</span>:</a><br>
+<a href='#LookAtEntitypes'><span class='label'>LookAtEntitypes</span>:</a><br>
+<a href='#LookAtEntitypesFlags'><span class='label'>LookAtEntitypesFlags</span>:</a><br>
+<a href='#LookDirection'><span class='label'>LookDirection</span>:</a><br>
+<a href='#LookExit'><span class='label'>LookExit</span>:</a><br>
+<a href='#LookWall'><span class='label'>LookWall</span>:</a><br>
+<a href='#LookClosedDoor'><span class='label'>LookClosedDoor</span>:</a><br>
+<a href='#LookExtra'><span class='label'>LookExtra</span>:</a><br>
+<a href='#LookEquipment'><span class='label'>LookEquipment</span>:</a><br>
+<a href='#ListenPlayer'><span class='label'>ListenPlayer</span>:</a><br>
+<a href='#ListenMob'><span class='label'>ListenMob</span>:</a><br>
+<a href='#ListenItem'><span class='label'>ListenItem</span>:</a><br>
+<a href='#ListenSelf'><span class='label'>ListenSelf</span>:</a><br>
+<a href='#ListenAtRaces'><span class='label'>ListenAtRaces</span>:</a><br>
+<a href='#ListenAtRacesFlags'><span class='label'>ListenAtRacesFlags</span>:</a><br>
+<a href='#ListenAtEntitypes'><span class='label'>ListenAtEntitypes</span>:</a><br>
+<a href='#ListenAtEntitypesFlags'><span class='label'>ListenAtEntitypesFlags</span>:</a><br>
+<a href='#ListenDirection'><span class='label'>ListenDirection</span>:</a><br>
+<a href='#ListenExit'><span class='label'>ListenExit</span>:</a><br>
+<a href='#ListenWall'><span class='label'>ListenWall</span>:</a><br>
+<a href='#ListenClosedDoor'><span class='label'>ListenClosedDoor</span>:</a><br>
+<a href='#ListenExtra'><span class='label'>ListenExtra</span>:</a><br>
+<a href='#ListenEquipment'><span class='label'>ListenEquipment</span>:</a><br>
+<a href='#SmellPlayer'><span class='label'>SmellPlayer</span>:</a><br>
+<a href='#SmellMob'><span class='label'>SmellMob</span>:</a><br>
+<a href='#SmellItem'><span class='label'>SmellItem</span>:</a><br>
+<a href='#SmellAtRacesFlags'><span class='label'>SmellAtRacesFlags</span>:</a><br>
+<a href='#SmellAtRaces'><span class='label'>SmellAtRaces</span>:</a><br>
+<a href='#SmellAtEntitypesFlags'><span class='label'>SmellAtEntitypesFlags</span>:</a><br>
+<a href='#SmellAtEntitypes'><span class='label'>SmellAtEntitypes</span>:</a><br>
+<a href='#SmellSelf'><span class='label'>SmellSelf</span>:</a><br>
+<a href='#SmellDirection'><span class='label'>SmellDirection</span>:</a><br>
+<a href='#SmellExit'><span class='label'>SmellExit</span>:</a><br>
+<a href='#SmellWall'><span class='label'>SmellWall</span>:</a><br>
+<a href='#SmellClosedDoor'><span class='label'>SmellClosedDoor</span>:</a><br>
+<a href='#SmellExtra'><span class='label'>SmellExtra</span>:</a><br>
+<a href='#SmellEquipment'><span class='label'>SmellEquipment</span>:</a><br>
+<a href='#TouchPlayer'><span class='label'>TouchPlayer</span>:</a><br>
+<a href='#TouchMob'><span class='label'>TouchMob</span>:</a><br>
+<a href='#TouchItem'><span class='label'>TouchItem</span>:</a><br>
+<a href='#TouchSelf'><span class='label'>TouchSelf</span>:</a><br>
+<a href='#TouchAtRaces'><span class='label'>TouchAtRaces</span>:</a><br>
+<a href='#TouchAtRacesFlags'><span class='label'>TouchAtRacesFlags</span>:</a><br>
+<a href='#TouchAtEntitypes'><span class='label'>TouchAtEntitypes</span>:</a><br>
+<a href='#TouchAtEntitypesFlags'><span class='label'>TouchAtEntitypesFlags</span>:</a><br>
+<a href='#TouchDirection'><span class='label'>TouchDirection</span>:</a><br>
+<a href='#TouchExit'><span class='label'>TouchExit</span>:</a><br>
+<a href='#TouchWall'><span class='label'>TouchWall</span>:</a><br>
+<a href='#TouchClosedDoor'><span class='label'>TouchClosedDoor</span>:</a><br>
+<a href='#TouchExtra'><span class='label'>TouchExtra</span>:</a><br>
+<a href='#TouchEquipment'><span class='label'>TouchEquipment</span>:</a><br>
+<a href='#TastePlayer'><span class='label'>TastePlayer</span>:</a><br>
+<a href='#TasteMob'><span class='label'>TasteMob</span>:</a><br>
+<a href='#TasteItem'><span class='label'>TasteItem</span>:</a><br>
+<a href='#TasteSelf'><span class='label'>TasteSelf</span>:</a><br>
+<a href='#TasteAtRaces'><span class='label'>TasteAtRaces</span>:</a><br>
+<a href='#TasteAtRacesFlags'><span class='label'>TasteAtRacesFlags</span>:</a><br>
+<a href='#TasteAtEntitypes'><span class='label'>TasteAtEntitypes</span>:</a><br>
+<a href='#TasteAtEntitypesFlags'><span class='label'>TasteAtEntitypesFlags</span>:</a><br>
+<a href='#TasteDirection'><span class='label'>TasteDirection</span>:</a><br>
+<a href='#TasteExit'><span class='label'>TasteExit</span>:</a><br>
+<a href='#TasteWall'><span class='label'>TasteWall</span>:</a><br>
+<a href='#TasteClosedDoor'><span class='label'>TasteClosedDoor</span>:</a><br>
+<a href='#TasteExtra'><span class='label'>TasteExtra</span>:</a><br>
+<a href='#TasteEquipment'><span class='label'>TasteEquipment</span>:</a><br>
+<a href='#IntuitionPlayer'><span class='label'>IntuitionPlayer</span>:</a><br>
+<a href='#IntuitionMob'><span class='label'>IntuitionMob</span>:</a><br>
+<a href='#IntuitionItem'><span class='label'>IntuitionItem</span>:</a><br>
+<a href='#IntuitionSelf'><span class='label'>IntuitionSelf</span>:</a><br>
+<a href='#IntuitionAtRaces'><span class='label'>IntuitionAtRaces</span>:</a><br>
+<a href='#IntuitionAtRacesFlags'><span class='label'>IntuitionAtRacesFlags</span>:</a><br>
+<a href='#IntuitionAtEntitypes'><span class='label'>IntuitionAtEntitypes</span>:</a><br>
+<a href='#IntuitionAtEntitypesFlags'><span class='label'>IntuitionAtEntitypesFlags</span>:</a><br>
+<a href='#IntuitionDirection'><span class='label'>IntuitionDirection</span>:</a><br>
+<a href='#IntuitionExit'><span class='label'>IntuitionExit</span>:</a><br>
+<a href='#IntuitionWall'><span class='label'>IntuitionWall</span>:</a><br>
+<a href='#IntuitionClosedDoor'><span class='label'>IntuitionClosedDoor</span>:</a><br>
+<a href='#IntuitionExtra'><span class='label'>IntuitionExtra</span>:</a><br>
+<a href='#IntuitionEquipment'><span class='label'>IntuitionEquipment</span>:</a><br>
+<a href='#WanderDirection'><span class='label'>WanderDirection</span>:</a><br>
+<a href='#WanderExit'><span class='label'>WanderExit</span>:</a><br>
+<a href='#WanderWall'><span class='label'>WanderWall</span>:</a><br>
+<a href='#WanderClosedDoor'><span class='label'>WanderClosedDoor</span>:</a><br>
+<a href='#WanderArea'><span class='label'>WanderArea</span>:</a><br>
+<a href='#WanderAtExits'><span class='label'>WanderAtExits</span>:</a><br>
+<a href='#WanderAtExitsFlags'><span class='label'>WanderAtExitsFlags</span>:</a><br>
+<a href='#WanderAtSectors'><span class='label'>WanderAtSectors</span>:</a><br>
+<a href='#WanderPortal'><span class='label'>WanderPortal</span>:</a><br>
+<a href='#WanderEnterContainer'><span class='label'>WanderEnterContainer</span>:</a><br>
+<a href='#WanderExitContainer'><span class='label'>WanderExitContainer</span>:</a><br>
+<a href='#WanderSelf'><span class='label'>WanderSelf</span>:</a><br>
+<a href='#RandomDo'><span class='label'>RandomDo</span>:</a><br>
+<a href='#RandomDoInputs'><span class='label'>RandomDoInputs</span>:</a><br>
+</div>
+<br>
+
+<hr>
+<h2>Note Riguardo ai comportamenti.</h2>
+<div>
+<span class="label">Behaviour ItemBehaviour e MobBehaviour</span> sono etichetta che abbisognano della etichetta <span class="label">End</span> per chiudere la sotto-struttura e al cui interno vanno le etichette elencate di seguito indentandole di due o quattro spazi.<br>
+La struttura Behaviour &egrave; da collocare nelle entit&agrave; di tipo mob oppure item.<br>
+Le due strutture ItemBehaviour e MobBehaviour sono da collocare nelle room ed influenzano rispettivamente gli item e i mob ivi presenti.<br>
+Un'entit&agrave; priva della struttura behaviour eredita i valori di default a seconda che si tratti di un mob o di un item.<br>
+Nel caso non si desideri affatto uno dei comportamenti dei default &egrave; necessario imporlo a 0.<br>
+Ugualmente l'entit&agrave; eredita i valori di MobBehaviour o ItemBehaviour; si pu&ograve; inibire in uno specifico mob oppure item tramite l'utilizzo della flag NO_ROOM_BEHAVIOUR. <br>
+</div>
+<br>
+
+<hr>
+<h2>Struttura Esempio con Alcune Etichette e Valori.</h2>
+<div>
+<pre>
+Behaviour:
+	LookPlayer:	10
+	LookSelf:	0
+	LookDirection:	10
+	LookExit:	5
+	SmellAtRaces:	20
+	SmellAtRacesFlags:	RACE.DROW RACE.HUMAN
+	IntuitionExtra:	10
+	TouchAtEntitypes:	30
+	TouchAtEntitypesFlags:	ENTITYPE.BOOK ENTITYPE.WEAR
+	WanderExit:	5
+	RandomDo:	10
+	RandomDoInputs:	emote si annoia a morte.
+	RandomDoInputs:	emote si accede e si spegne.
+End
+</pre>
+</div>
+<br>
+
+<hr>
+<h2>Spiegazione delle Etichette.</h2>
+<div>
+<a name='Comment'><h3 class='label'>Comment:</h3></a>
+Eventuale commento, per maggior informazioni leggere <a href="comment.htm">questa pagina</a>.<br>
+Non &egrave; obbligatorio, ma &egrave; comunque consigliato utilizzarla se ci sono cose particolari o previsione di comportamenti futuri.<br>
+<br>
+
+<a name='LookPlayer'><h3 class='label'>LookPlayer:</h3></a>
+&Egrave; un intero fra fra 0 e 300 ed indica con che frequenza l'entit&agrave; eseguir&agrave; un look sui personaggi presenti.
+<br>
+
+<a name='LookMob'><h3 class='label'>LookMob:</h3></a>
+&Egrave; un intero fra fra 0 e 300 ed indica con che frequenza l'entit&agrave; eseguir&agrave; un look sui mob presenti.
+<br>
+
+<a name='LookItem'><h3 class='label'>LookItem:</h3></a>
+&Egrave; un intero fra fra 0 e 300 ed indica con che frequenza l'entit&agrave; eseguir&agrave; un look sugli oggetti presenti.
+<br>
+
+<a name='LookSelf'><h3 class='label'>LookSelf:</h3></a>
+&Egrave; un intero fra fra 0 e 300 ed indica con che frequenza l'entit&agrave; eseguir&agrave; un look su s&eacute; stessa.
+<br>
+<a name='LookAtRaces'><h3 class='label'>LookAtRaces:</h3></a>
+&Egrave; un intero fra 0 e 300 ed indica con che frequenza l'entit&agrave; eseguir&agrave; un look su mob con razza assegnata dalla label LookAtRacesFlags.<br>
+
+<a name='LookAtRacesFlags'><h3 class='label'>LookAtRacesFlags:</h3></a>
+Flags che indica quali razze l'entit&agrave; guarder&agrave;.<br>
+In caso sia inserita la flag RACE.NONE, non far&agrave; distinzione di razza nell'osservare.<br>
+
+<a name='LookAtEntitypes'><h3 class='label'>LookAtEntitypes:</h3></a>
+&Egrave; un numero intero fra 0 e 300 ed indica con che frequenza l'entit&agrave; eseguir&agrave; un look sulle altre entit&agrave; di tipo assegnato nella label LookAtEntitypesFlags.<br>
+        
+<a name='LookAtEntitypesFlags'><h3 class='label'>LookAtEntitypesFlags:</h3></a>
+Flags che indica su quali entit&agrave; verr&agrave; eseguito il comando di look.<br>
+In caso sia inserita la flag ENTITYPE.NONE, non sar&agrave; fatta alcuna distinzione nell'osservare.<br>
+
+<a name='LookDirection'><h3 class='label'>LookDirection:</h3></a>
+&Egrave; un intero fra fra 0 e 300 ed indica con che frequenza l'entit&agrave; eseguir&agrave; un look su tutte e dieci le direzioni.<br>
+
+<a name='LookExit'><h3 class='label'>LookExit:</h3></a>
+&Egrave; un intero fra fra 0 e 300 ed indica con che frequenza l'entit&agrave; eseguir&agrave; un look sulle sole uscite presenti ed aperte in room.<br>
+
+<a name='LookWall'><h3 class='label'>LookWall:</h3></a>
+&Egrave; un intero fra fra 0 e 300 ed indica con che frequenza l'entit&agrave; eseguir&agrave; un look sui wall esistenti (non ancora implementati).<br>
+
+<a name='LookClosedDoor'><h3 class='label'>LookClosedDoor:</h3></a>
+&Egrave; un intero fra fra 0 e 300 ed indica con che frequenza l'entit&agrave; eseguir&agrave; un look sulle porte chiuse.<br>
+
+<a name='LookExtra'><h3 class='label'>LookExtra:</h3></a>
+&Egrave; un intero fra fra 0 e 300 ed indica con che frequenza l'entit&agrave; eseguir&agrave; un look sulle extra di uno dei look di cui sopra.<br>
+
+<a name='LookEquipment'><h3 class='label'>LookEquipment:</h3></a>
+&Egrave; un intero fra fra 0 e 300 ed indica con che frequenza l'entit&agrave; eseguir&agrave; un look sui pezzi di equipaggiamento dell'entit&agrave; guardata.<br>
+
+<a name='ListenPlayer'><h3 class='label'>ListenPlayer:</h3></a>
+<a name='ListenMob'><h3 class='label'>ListenMob:</h3></a>
+<a name='ListenItem'><h3 class='label'>ListenItem:</h3></a>
+<a name='ListenSelf'><h3 class='label'>ListenSelf:</h3></a>
+<a name='ListenAtRaces'><h3 class='label'>ListenAtRaces:</h3></a>
+<a name='ListenAtRacesFlags'><h3 class='label'>ListenAtRacesFlags:</h3></a>
+<a name='ListenAtEntitypes'><h3 class='label'>ListenAtEntitypes:</h3></a>
+<a name='ListenAtEntitypesFlags'><h3 class='label'>ListenAtEntitypesFlags:</h3></a>
+<a name='ListenDirection'><h3 class='label'>ListenDirection:</h3></a>
+<a name='ListenExit'><h3 class='label'>ListenExit:</h3></a>
+<a name='ListenWall'><h3 class='label'>ListenWall:</h3></a>
+<a name='ListenClosedDoor'><h3 class='label'>ListenClosedDoor:</h3></a>
+<a name='ListenExtra'><h3 class='label'>ListenExtra:</h3></a>
+<a name='ListenEquipment'><h3 class='label'>ListenEquipment:</h3></a>
+Corrispettivi dei look visti sopra ma per il comando sensoriale listen.<br>
+<br>
+
+<a name='SmellPlayer'><h3 class='label'>SmellPlayer:</h3></a>
+<a name='SmellMob'><h3 class='label'>SmellMob:</h3></a>
+<a name='SmellItem'><h3 class='label'>SmellItem:</h3></a>
+<a name='SmellAtRacesFlags'><h3 class='label'>SmellAtRacesFlags:</h3></a>
+<a name='SmellAtRaces'><h3 class='label'>SmellAtRaces:</h3></a>
+<a name='SmellAtEntitypesFlags'><h3 class='label'>SmellAtEntitypesFlags:</h3></a>
+<a name='SmellAtEntitypes'><h3 class='label'>SmellAtEntitypes:</h3></a>
+<a name='SmellSelf'><h3 class='label'>SmellSelf:</h3></a>
+<a name='SmellDirection'><h3 class='label'>SmellDirection:</h3></a>
+<a name='SmellExit'><h3 class='label'>SmellExit:</h3></a>
+<a name='SmellWall'><h3 class='label'>SmellWall:</h3></a>
+<a name='SmellClosedDoor'><h3 class='label'>SmellClosedDoor:</h3></a>
+<a name='SmellExtra'><h3 class='label'>SmellExtra:</h3></a>
+<a name='SmellEquipment'><h3 class='label'>SmellEquipment:</h3></a>
+Corrispettivi dei look visti sopra ma per il comando sensoriale smell.<br>
+<br>
+
+<a name='TouchPlayer'><h3 class='label'>TouchPlayer:</h3></a>
+<a name='TouchMob'><h3 class='label'>TouchMob:</h3></a>
+<a name='TouchItem'><h3 class='label'>TouchItem:</h3></a>
+<a name='TouchSelf'><h3 class='label'>TouchSelf:</h3></a>
+<a name='TouchAtRaces'><h3 class='label'>TouchAtRaces:</h3></a>
+<a name='TouchAtRacesFlags'><h3 class='label'>TouchAtRacesFlags:</h3></a>
+<a name='TouchAtEntitypes'><h3 class='label'>TouchAtEntitypes:</h3></a>
+<a name='TouchAtEntitypesFlags'><h3 class='label'>TouchAtEntitypesFlags:</h3></a>
+<a name='TouchDirection'><h3 class='label'>TouchDirection:</h3></a>
+<a name='TouchExit'><h3 class='label'>TouchExit:</h3></a>
+<a name='TouchWall'><h3 class='label'>TouchWall:</h3></a>
+<a name='TouchClosedDoor'><h3 class='label'>TouchClosedDoor:</h3></a>
+<a name='TouchExtra'><h3 class='label'>TouchExtra:</h3></a>
+<a name='TouchEquipment'><h3 class='label'>TouchEquipment:</h3></a>
+Corrispettivi dei look visti sopra ma per il comando sensoriale touch.<br>
+<br>
+
+<a name='TastePlayer'><h3 class='label'>TastePlayer:</h3></a>
+<a name='TasteMob'><h3 class='label'>TasteMob:</h3></a>
+<a name='TasteItem'><h3 class='label'>TasteItem:</h3></a>
+<a name='TasteSelf'><h3 class='label'>TasteSelf:</h3></a>
+<a name='TasteAtRaces'><h3 class='label'>TasteAtRaces:</h3></a>
+<a name='TasteAtRacesFlags'><h3 class='label'>TasteAtRacesFlags:</h3></a>
+<a name='TasteAtEntitypes'><h3 class='label'>TasteAtEntitypes:</h3></a>
+<a name='TasteAtEntitypesFlags'><h3 class='label'>TasteAtEntitypesFlags:</h3></a>
+<a name='TasteDirection'><h3 class='label'>TasteDirection:</h3></a>
+<a name='TasteExit'><h3 class='label'>TasteExit:</h3></a>
+<a name='TasteWall'><h3 class='label'>TasteWall:</h3></a>
+<a name='TasteClosedDoor'><h3 class='label'>TasteClosedDoor:</h3></a>
+<a name='TasteExtra'><h3 class='label'>TasteExtra:</h3></a>
+<a name='TasteEquipment'><h3 class='label'>TasteEquipment:</h3></a>
+Corrispettivi dei look visti sopra ma per il comando sensoriale taste.<br>
+<br>
+
+<a name='IntuitionPlayer'><h3 class='label'>IntuitionPlayer:</h3></a>
+<a name='IntuitionMob'><h3 class='label'>IntuitionMob:</h3></a>
+<a name='IntuitionItem'><h3 class='label'>IntuitionItem:</h3></a>
+<a name='IntuitionSelf'><h3 class='label'>IntuitionSelf:</h3></a>
+<a name='IntuitionAtRaces'><h3 class='label'>IntuitionAtRaces:</h3></a>
+<a name='IntuitionAtRacesFlags'><h3 class='label'>IntuitionAtRacesFlags:</h3></a>
+<a name='IntuitionAtEntitypes'><h3 class='label'>IntuitionAtEntitypes:</h3></a>
+<a name='IntuitionAtEntitypesFlags'><h3 class='label'>IntuitionAtEntitypesFlags:</h3></a>
+<a name='IntuitionDirection'><h3 class='label'>IntuitionDirection:</h3></a>
+<a name='IntuitionExit'><h3 class='label'>IntuitionExit:</h3></a>
+<a name='IntuitionWall'><h3 class='label'>IntuitionWall:</h3></a>
+<a name='IntuitionClosedDoor'><h3 class='label'>IntuitionClosedDoor:</h3></a>
+<a name='IntuitionExtra'><h3 class='label'>IntuitionExtra:</h3></a>
+<a name='IntuitionEquipment'><h3 class='label'>IntuitionEquipment:</h3></a>
+Corrispettivi dei look visti sopra ma per il comando sensoriale intuition.<br>
+<br>
+
+<a name='WanderDirection'><h3 class='label'>WanderDirection:</h3></a>
+&Egrave; un intero fra 0 e 300 ed indica con che frequenza l'entit&agrave; tender&agrave; a muoversi in una qualsiasi delle 10 direzioni.<br>
+
+<a name='WanderExit'><h3 class='label'>WanderExit:</h3></a>
+&Egrave; un intero fra 0 e 300 ed indica con che frequenza l'entit&agrave; tender&agrave; a muoversi in una qualsiasi delle uscite presenti.<br>
+
+<a name='WanderWall'><h3 class='label'>WanderWall:</h3></a>
+&Egrave; un intero fra 0 e 300 ed indica con che frequenza l'entit&agrave; tender&agrave; a muoversi sui wall esistenti (non ancora implementati).<br>
+
+<a name='WanderClosedDoor'><h3 class='label'>WanderClosedDoor:</h3></a>
+&Egrave; un intero fra 0 e 300 ed indica con che frequenza l'entit&agrave; tender&agrave; a muoversi in una qualsiasi fra le porte chiuse ed apribili.<br>
+
+<a name='WanderArea'><h3 class='label'>WanderArea:</h3></a>
+&Egrave; un intero fra 0 e 300 ed indica con che frequenza l'entit&agrave; tender&agrave; a cambiare area nel caso in cui si trovi su un uscita a met&agrave; fra due aree diverse.<br>
+
+<a name='WanderAtExits'><h3 class='label'>WanderAtExits:</h3></a>
+&Egrave; un intero fra 0 e 300 ed indica con che frequenza l'entit&agrave; tender&agrave; a muoversi verso le uscite impostate nella WanderAtExitsFlags.<br>
+
+<a name='WanderAtExitsFlags'><h3 class='label'>WanderAtExitsFlags:</h3></a>
+Flags che indica fra quali uscite muoversi con una frequenza data dall'etichetta WanderAtDir.<br>
+In caso sia inserita la flag DIR.NONE, non sar&agrave; fatta alcuna distinzione di direzione.<br>
+
+<a name='WanderAtSectors'><h3 class='label'>WanderAtSectors:</h3></a>
+Flags di tipo sector che indica quali sono i tipi di terreno in cui pu&ograve; muoversi l'entit&agrave;. Utilizzabile ad esempio per confinare un gruppo di mob entro una determinato insieme di room (mucche al pascolo, spiritelli del buio in una miniera...).<br>
+
+<a name='WanderPortal'><h3 class='label'>WanderPortal:</h3></a>
+&Egrave; un intero fra 0 e 300 ed indica con che frequenza l'entit&agrave; tender&agrave; a entrare nei portali.<br>
+
+<a name='WanderEnterContainer'><h3 class='label'>WanderEnterContainer:</h3></a>
+&Egrave; un intero fra 0 e 300 ed indica con che frequenza l'entit&agrave; tender&agrave; a entrare nei contenitori.<br>
+
+<a name='WanderExitContainer'><h3 class='label'>WanderExitContainer:</h3></a>
+&Egrave; un intero fra 0 e 300 ed indica con che frequenza l'entit&agrave; tender&agrave; a uscire dai contenitori.<br>
+
+<a name='WanderSelf'><h3 class='label'>WanderSelf:</h3></a>
+&Egrave; un intero fra 0 e 300 ed indica con che frequenza l'entit&agrave; tender&agrave; a entrare in s&eacute; stessa nel caso sia un portale o un contenitore.<br>
+
+<a name='RandomDo'><h3 class='label'>RandomDo:</h3></a>
+&Egrave; un intero fra 0 e 300 ed indica con che frequenza l'entit&agrave; tender&agrave; a usare uno dei comandi impostati in RandomDoInputs.<br>
+<a name='RandomDoInputs'><h3 class='label'>RandomDoInputs:</h3></a>
+&Egrave; un qualsiasi comando valido oppure un'echo che pu&ograve; essere dato all'entit&agrave; e che verr&agrave; eseguito con una probabilit&agrave; che dipende dal valore in RandomDo.<br>
+Poich&eacute; basta mettere semplicemente del testo per ottenere un'echo, c'&egrave; da fare attenzione a non sbagliare a digitare la sintassi dei comandi; in tal caso infatti Aarit non dar&agrave; alcun errore ed interpreter&agrave; come un'echo quello che era pensato come un comando.<br>
+A causa del carattere involuto dell'etichetta RandomDo presentiamo un esempio pi&ugrave; concreto.<br>
+<br>
+<fieldset>
+<legend>Esempio:</legend>
+Se il mob garzone odoroso, nella struttura behaviour ha i seguenti RandomDo:<br>
+<br>
+RandomDo:	10<br>
+RandomDoInputs: emote si stiracchia sonnolento<br>
+RandomDoInputs: say maledette mezze stagioni!<br>
+RandomDoInputs: sing la la l&agrave;, la l&agrave; l&agrave; la lalla.<br>
+RandomDoInputs: Ti arriva una zaffata stantia di sudaticcio<br>
+<br>
+Il giocatore vedr&agrave; ogni tanto il mob garzone fare una delle seguenti:<br>
+<br>
+Il garzone odoroso si stiracchia<br>
+Il garzone odoroso dice 'Maledette mezze stagioni!'<br>
+Il garzone odoroso canta 'la la l&agrave;, la l&agrave; l&agrave; la lalla'<br>
+Ti arriva una zaffata stantia di sudaticcio
+</fieldset>
+<br>
+
+</div>
+<hr>
+</body>
+</html>

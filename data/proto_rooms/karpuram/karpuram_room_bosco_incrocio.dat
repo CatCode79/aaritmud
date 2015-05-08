@@ -1,0 +1,37 @@
+Code: karpuram_room_bosco_incrocio
+Sector: SECTOR.PLAIN
+Name: Nel Ventre di [lime]Karpuram[close]
+Short: immersi nella [lime]boscaglia[close]
+Descr:
+Immers$o nel bosco perdi naturalmente l'idea del tempo e dello spazio mentre dinanzi
+agli occhi ti si parano gli arbusti più diversi e la vegetazione più variegata.
+In ogni direzione si vede un possibile sentiero o un varco con la possibilità di
+girare privi di mèta per ore intere.
+DescrNight:
+Immers$o nel bosco notturno perdi naturalmente l'idea del tempo e dello spazio mentre
+dinanzi agli occhi ti si parano sempre all'ultimo istante gli arbusti più diversi e la
+vegetazione più variegata. In ogni direzione par di vedere sentieri e varchi che però
+da vicino terminano davanti ad alberi o siepi inaccessibili.
+
+DescrSixth:
+Un bosco è sempre un buon posto per qualcuno o qualcosa
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Il bosco prosegue
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Il bosco prosegue
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Il bosco prosegue
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Il bosco prosegue
+End

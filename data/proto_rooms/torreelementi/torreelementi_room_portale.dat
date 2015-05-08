@@ -1,0 +1,23 @@
+Code: torreelementi_room_portale
+Sector: SECTOR.PLAIN
+Name: Il Portale Fioco
+Short: una piattaforma di roccia 
+Descr:
+Sei su una piattaforma di roccia grigia alta poco meno di un halfling, al centro è
+disegnato un simbolo esoterico. Molta parte dell'orizzonte intorno alla piattaforma è 
+uno spazio vuoto e piatto in cui una luce eterna senza sorgente brilla silente.
+Verso nord e sud le uniche possibilità, un'imponente torre cangiante o una lunga via grigia.
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Una torre cangiante
+End
+Exits:
+	Direction: DIR.SOUTH
+	Descr: La strada prosegue
+	Destination: -4 3 0 villaggio-zingaro
+End

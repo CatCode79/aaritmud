@@ -1,0 +1,26 @@
+FunName:    social_sniff
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Tiri su con il naso. *SNIFF*
+  OthersNoArg: $n tira su con il naso.
+  EntityFound: Tiri su con il naso guardando $N.
+  OthersFound: $n tira su con il naso guardando $N.
+  TargetFound: $n tira su con il naso guardandoti.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Tiri su malinconicamente con il naso.
+  OthersNoArg: $n, malinconicamente tira su con il naso.
+  EntityFound: Tiri su con il naso fissando $N, è melancolia felar.
+  OthersFound: $n guarda $N malinconicamente tirando su con il naso.
+  TargetFound: $n ti guarda malinconicamente mugolando.
+End
+RacialMessages:
+   Race:        RACE.FELAR
+  EntityNoArg: Tiri su malinconicamente con il naso.
+  OthersNoArg: $n, malinconicamente tira su con il naso.
+  EntityFound: Tiri su con il naso fissando $N, è melancolia felar.
+  OthersFound: $n guarda $N malinconicamente tirando su con il naso.
+  TargetFound: $n ti guarda malinconicamente mugolando.
+End

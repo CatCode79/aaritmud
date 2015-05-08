@@ -1,0 +1,25 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="style.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<div class="main"><br>
+Grazie alle librerie Twisted, che implementano una gestione degli eventi asincrona, è molto raro che il Mud vada in crash.<br>
+Con questo non voglio dire che il Mud sia privo di bachi, ma che questi (per la maggior parte) non compromettono il funzionamento dell'applicazione in maniera tale da farla crollare.<br><br>
+
+Mettiamo difatti caso che un utente, girellando per il sito o giocando nel Mud, alzi un'eccezione (cosa abb normale nell'attuale fase alfa di Aarit). Quest'eccezione non si propaga a tutto il motore di Aarit bloccandolo, viene invece catturata automaticamente nella singola connessione mentre la normale esecuzione continua.<br><br>
+
+Attualmente quello che il giocatore vedrà sarà una pagina di errori e traceback, nel frame sopra o nel frame sotto, a seconda se l'eccezione sia stata alzata lato output o lato input; allo stato attuale delle cose il giocatore deve ricollegarsi per ritornare in gioco (evitando magari di eseguire nuovamente l'azione precedente che farebbe nuovamente bloccare la sua navigazione su quella pagina di errore, sempre se quel baco sia ripetibile e non casuale).<br><br>
+
+Se siete incuriositi su come funzioni questo meccanismo potete leggervi queste pagine (in inglese):<br>
+<a href="http://twistedmatrix.com/projects/core/documentation/howto/async.html" target="_blank">Asynchronous Programming with Twisted</a><br>
+<a href="http://twistedmatrix.com/projects/core/documentation/howto/defer.html" target="_blank">Deferred Reference</a><br><br>
+</div>
+
+<hr>
+</body>
+</html>

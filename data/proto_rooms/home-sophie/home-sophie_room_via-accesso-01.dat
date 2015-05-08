@@ -1,0 +1,74 @@
+Comment:
+    descrizione della zona in cui sorge la casa di Sophie
+
+Code: home-sophie_room_via-accesso-01
+Sector: SECTOR.PLAIN
+Name: La Casa di Sophie
+Short: la casina di sophie
+
+Descr:
+Un sentiero attraversa un bosco di querce antiche. È piacevole percorrerlo poiché la vegetazione ai lati è rigogliosa e caratterizzata da fiori dai colori variopinti. I raggi del sole che penetrano raggiungendo il sottobosco creano un caleidoscopico  gioco di luci ed ombre che ti mette di buon umore. Il sentiero continua oltre il bosco e si perde in una spiaggia di ciottoli bianchi. Davanti a te appare l'azzurro profondo di un lago. Alla tua sinistra una costruzione:la casa di Sophie.
+
+
+DescrNight:
+              Un sentiero attraversa in bosco di querce antiche. È piacevole percorrerlo poiché la vegetazione ai lati è rigogliosa e caratterizzata da fiori variopinti. La luna illumina sino al sottobosco creando un gioco di luci e ombre che ti dà una certa calma e rilassatezza. Il sentiero continua oltre il bosco e si perde in una spiaggia di ciottoli bianchi. Davanti a te il lago con la luna che si rispecchia creando giochi dalle mille sfumature. Alla tua sinistra le luci di una costruzione: la casa di Sophie.
+
+DescrTouch:
+
+Le foglie che sfiori con le mani percorrendo il sentiero sono lisce e piacevoli al tatto.Ma non esagerare!
+DescrTouchNight:
+
+Le foglie che sfiori con le mani percorrendo il sentiero sono lisce e piacevoli al tatto.Ma non esagerare!
+
+DescrSmell:
+
+Il profumo dei fiori è inebriante e ti mette in uno stato d'animo positivo nei confronti del mondo.
+DescrSmellNight:
+
+Il profumo dei fiori è inebriante e ti mette in uno stato d'animo positivo nei confronti del mondo.
+
+DescrSixth:
+
+Il tuo sesto senso ti fa intuire che questa è la casa di  [red]S[gold]ophie[close].
+DescrSixth:
+
+Il tuo sesto senso ti fa intuire che questa è la casa di  [red]S[gold]ophie[close].
+
+Non è il caso di venirci di notte non invitati!
+
+DescrHearing:
+
+Ti metti in attento ascolto e senti il vento che attraversa le foglie degli alberi.
+DescrHearingNight:
+
+Ti metti in attento ascolto e senti il vento come se  sussurrasse una dolce melodia.
+
+DescrTaste:
+
+Assaggi l'emozione di trovarti in un luogo sospeso tra il tempo dell'attesa e quello della scoperta.Attento a non  
+
+cadere!                         
+DescrTasteNight:
+        Assaggiare qualcosa che ti sembra dolce e speziato insieme è la proiezione dei tuoi  desideri onirici...svegliati!
+
+Extras:
+ Keywords:	terzo cartello
+ Descr: Il cartello dice “Se sei arrivato qui vuol dire che puoi anche curiosare, leggere e pensare...anche assaggiare i dolci di  Sophie!”
+ DescrSixth: Intuisci che c'è qualcosa di invisibile nella casa che ti piace, ma non sai bene cosa sia!
+End
+
+
+Width:	7 m
+Depth:	7 m
+Height: 5 m
+
+
+Exits:
+	Direction: DIR.WEST
+	Descr: Verso la casa di Sophie
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Una caverna naturale
+  Destination: 0 1 0 conflitti 
+End

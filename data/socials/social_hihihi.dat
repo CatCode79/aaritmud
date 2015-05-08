@@ -1,0 +1,34 @@
+FunName:    social_hihihi
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Sogghigni maleficamente.
+  OthersNoArg: $n sogghigna maleficamente.
+  EntityFound: Sogghigni maleficamente verso $N.
+  OthersFound: $n sogghigna maleficamente verso $N.
+  TargetFound: $n sogghigna maleficamente guardandoti.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Sorridi ai presenti con aria davvero poco raccomandabile.
+  OthersNoArg: $n sogghigna con aria imperscrutabile.. Cosa starà pensando?
+  EntityFound: Osservi $N e sogghigni sotto le vibrisse..
+  OthersFound: $n sogghigna in direzione di $N, sfoderando un poco gli artigli.
+  TargetFound: $n sogghigna mentre ti guarda con la tipica, e poco raccomandabile, espressione khajit.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Sorridi ai presenti con aria davvero poco raccomandabile.
+  OthersNoArg: $n sogghigna con aria imperscrutabile.. Cosa starà pensando?
+  EntityFound: Osservi $N e sogghigni sotto le vibrisse..
+  OthersFound: $n sogghigna in direzione di $N, sfoderando un poco gli artigli.
+  TargetFound: $n sogghigna mentre ti guarda con la tipica, e poco raccomandabile, espressione khajit.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Ridi fra i denti con malizia.
+  OthersNoArg: $n ride fra i denti con malizia.
+  EntityFound: Ridi fra i denti con malizia verso $N.
+  OthersFound: $n ride fra i denti guardando $N con malizia.
+  TargetFound: $n ride fra i denti guardandoti con malizia.
+End

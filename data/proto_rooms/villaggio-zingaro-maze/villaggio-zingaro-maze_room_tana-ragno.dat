@@ -1,0 +1,18 @@
+Code: villaggio-zingaro-maze_room_tana-ragno
+Sector: SECTOR.UNDERGROUND
+Flags: ROOM.INSIDE
+Name: Il Nido del Ragno
+Short: una profonda fossa
+
+Descr:
+Una buca nel terreno scelta da un ragno come tana, ovunque posi lo sguardo infatti non vedi altro che ragnatele e piccoli bozzoli, in un angolo forse anche qualche uovo.
+DescrTouch: 
+Ti muovi a fatica e devi stare attento a non finire anche tu intrappolato in questo mare di ragnatele.
+DescrSixth:
+Dalle dimensioni dei bozzoli intuisci che il ragno che qui dimora dev'essere di dimensioni ragguardevoli ma non tali da poter essere tu la sua cena.
+DescrTaste:
+Anche solo l'idea di mangiare ragnatele ti impasta la bocca.
+
+Width:  2m
+Depth:  2m
+Height: 2m

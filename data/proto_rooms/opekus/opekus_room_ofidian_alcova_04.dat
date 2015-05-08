@@ -1,0 +1,23 @@
+Code: opekus_room_ofidian_alcova_04
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: L'Alcova Lapidea
+Short: un'alcova
+
+Descr:
+Una lungo e stretto corridoio mette in comunicazione la cattedrale con un ambiente più
+basso e scavato sommariamente nella roccia. Ai tuoi piedi, sui lati del camminamento si
+alternano lastre verdi lisce distanziate in modo omogeneo.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Verso il centro della cattedrale
+End
+Exits:
+  Direction: DIR.SOUTHWEST
+  Descr: Un camminamento
+End

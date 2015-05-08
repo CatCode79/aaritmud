@@ -1,0 +1,59 @@
+Comment: 85 1|8 0
+Code: sauria_room_slargo-viscido-03
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: Slargo Viscido
+Short: slargo viscido
+
+Descr:
+Il tunnel, ha qui un subitaneo slargo. Nella parte ovest si trova una pozza nerastra. Tutt'intorno vedi solo alghe marroni e rigagnoli d'acqua. 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21804
+  Descr:	Galleria fangosa
+  Direction:	DIR.EAST
+End
+Exits:
+  Comment:	0 -1 21802
+  Descr:	Galleria fangosa
+  Direction:	DIR.SOUTH
+End
+Extras:
+  Comment:	EXTRA_COMMENT
+  Keywords:	pozza
+  Descr: 
+	Ai margini della pozza noti dei segni familiari.
+End
+Extras:
+  Comment:	EXTRA_COMMENT
+  Keywords:	segni
+  Descr: 
+	Paiono impronte; probabilmente di qualche animale.
+End
+Extras:
+  Comment:	EXTRA_COMMENT
+  Keywords:	animale
+  Descr: 
+	Dalla distanza e dalla profondità delle impronte, si direbbe un animale piccolo e leggero.
+End
+Extras:
+  Comment:	EXTRA_COMMENT
+  Keywords:	piccolo leggero
+  Descr: 
+	Si direbbe proprio che non sia più qui.
+End

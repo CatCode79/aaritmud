@@ -1,0 +1,27 @@
+Code: villaggio-zingaro_room_grotta-04
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: Il Sentiero Intorno al Lago
+Short: intorno al lago
+
+Descr:
+Il sentiero costeggia il lago e si ferma davanti ad una parete rocciosa dove i secoli hanno disegnato sporgenti ghirigori calcarei.
+DescrSmell: 
+Aria calda e madida di umido; da est proviene una fragranza di menta balsamica.
+DescrSixth:
+Hai l'impressione che queste formazioni non siano solo opera del caso ma che possano avere qualche recondito significato.
+DescrHearing:
+La convinta brezza che t'investe, si muta in fischio passando fra interstizi di stalagmiti.
+
+Width:	2m
+Depth:	3m
+Height: 8m
+
+Exits:
+	Direction: DIR.SOUTH
+	Descr: Intorno al lago
+End
+RoomBehaviour:
+	RandomEcho:	3
+	RandomEchoTexts:	Un improvviso battito di ali.
+End

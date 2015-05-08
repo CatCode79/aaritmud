@@ -1,0 +1,29 @@
+Code: krablath_room_bamboo-02
+Sector: SECTOR.AIR
+Name: [darkmagenta]L'Ascesa verso la Piattaforma[close]
+Short: [darkmagenta]in ascesa[close]
+
+Descr:
+Sali faticosamente l'approssimantiva scala incisa nel fusto.
+Non v'è il tempo per guardarsi attorno, la scelta è tra proseguire o desistere nell'impresa.
+DescrTouch: 
+Infili la $hand in un solco, l'usura non è ancora riuscita a smussare i bordi taglienti.
+DescrSixth:
+L'ascea pare lunga e rischiosa ma, chissà, forse ne varrà la pena.
+DescrHearing:
+Solo il fischio del vento
+DescrTaste:
+no_send
+
+Width:  6m
+Depth:  6m
+Height: 300m
+
+Exits:
+	Direction:	DIR.UP
+	Descr:	In arrampicata
+End
+Exits:
+	Direction:	DIR.DOWN
+	Descr:	La discesa
+End

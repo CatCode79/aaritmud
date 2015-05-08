@@ -1,0 +1,135 @@
+Code: mfdonald_room_miml-zone-01
+Sector: SECTOR.PATH
+Name: miml-zone-01
+Short: miml-zone-01 #mfdonald_item_banana#con banana#senza banana#
+
+Descr:
+La room ha una extra di nome  chiave.<br>
+qui sotto c'è un miml:<br>
+1) item<br>
+#mfdonald_item_banana#c'è almeno una banana in terra qui dentro# nessuna banana in terra qui dentro.#<br>
+2) sex<br>
+#looker is SEX.MALE#Sei maschietto anche se non lo vuoi dare a vedere#Non sei un maschietto... che fai qui? Fuori!#<br>
+3) race<br>
+#looker is RACE.DROW#Drow Powwa!#ma che brutta razza di beschia sei?#<br>
+4) self.inventario a 1<br>
+#self.inventory_qty == 1#Nella stanza c'è un'entità# Nella stanza c'è più di un entità (oppure nessuna ma non vedresti la room se non ci fossi almeno tu)#<br>
+5) looker.inventory a 1<br>
+#looker.inventory_qty == 1#hai un oggetto in inventario# hai un numero di oggetti in inventario diverso da 1#<br>
+6) self.inv maggiore di  2<br>
+#self.inventory_qty > 2#nella stanza ci sono tre o più entità# nella stanza c'è una sola entità massimo due#<br>
+7) looker.inventory maggiore di  2<br>
+#looker.inventory_qty > 2#in inventario hai almeno tre oggetti# in inventario hai uno o due oggetti al massimo#<br>
+8) self.eqipment a 1<br>
+#self.equipment_qty == 1#la room indossa un'entità# La stanza indossa più di un'entità#<br>
+9) looker.equipment a 1<br>
+#looker.equipment_qty == 1#hai un oggetto in equipment# hai un numero di oggetti in equipment diverso da 1#<br>
+10) self.inv maggiore di  2<br>
+#self.equipment_qty > 2#La stanza equipaggia tre o più entità# La stanza ha equipaggiata una sola entità massimo due#<br>
+11) looker.equipment maggiore di  2<br>
+#looker.equipment_qty > 2#in equipaggiamento hai almeno tre oggetti# in equipaggiamento hai uno o due oggetti al massimo#<br>
+
+DescrTouch: 
+Qui sotto c'è un miml:<br>
+1) item<br>
+#mfdonald_item_banana#vedi almeno una banana qui dentro# nessuna banana qui dentro, trovala e tutto cambierà.#<br>
+2) sex<br>
+#looker is SEX.MALE#Sei maschietto anche se non lo vuoi dare a vedere#Non sei un maschietto... che fai qui? Fuori!#<br>
+3) race<br>
+#looker is RACE.DROW#Drow Powwa!#ma che brutta razza di beschia sei?#<br>
+DescrSmell: 
+Qui sotto c'è un miml:<br>
+1) item<br>
+#mfdonald_item_banana#vedi almeno una banana qui dentro# nessuna banana qui dentro, trovala e tutto cambierà.#<br>
+2) sex<br>
+#looker is SEX.MALE#Sei maschietto anche se non lo vuoi dare a vedere#Non sei un maschietto... che fai qui? Fuori!#<br>
+3) race<br>
+#looker is RACE.DROW#Drow Powwa!#ma che brutta razza di beschia sei?#<br>
+DescrSixth:
+Qui sotto c'è un miml:<br>
+1) item<br>
+#mfdonald_item_banana#vedi almeno una banana qui dentro# nessuna banana qui dentro, trovala e tutto cambierà.#<br>
+2) sex<br>
+#looker is SEX.MALE#Sei maschietto anche se non lo vuoi dare a vedere#Non sei un maschietto... che fai qui? Fuori!#<br>
+3) race<br>
+#looker is RACE.DROW#Drow Powwa!#ma che brutta razza di beschia sei?#<br>
+DescrHearing:
+Qui sotto c'è un miml:<br>
+1) item<br>
+#mfdonald_item_banana#vedi almeno una banana qui dentro# nessuna banana qui dentro, trovala e tutto cambierà.#<br>
+2) sex<br>
+#looker is SEX.MALE#Sei maschietto anche se non lo vuoi dare a vedere#Non sei un maschietto... che fai qui? Fuori!#<br>
+3) race<br>
+#looker is RACE.DROW#Drow Powwa!#ma che brutta razza di beschia sei?#<br>
+DescrTaste:
+Qui sotto c'è un miml:<br>
+1) item<br>
+#mfdonald_item_banana#vedi almeno una banana qui dentro# nessuna banana qui dentro, trovala e tutto cambierà.#<br>
+2) sex<br>
+#looker is SEX.MALE#Sei maschietto anche se non lo vuoi dare a vedere#Non sei un maschietto... che fai qui? Fuori!#<br>
+3) race<br>
+#looker is RACE.DROW#Drow Powwa!#ma che brutta razza di beschia sei?#<br>
+
+Extras:
+	Keywords: chiave
+	Descr:
+	Qui sotto c'è un miml:<br>
+	1)<br>
+	#mfdonald_item_banana#vedi almeno una banana qui dentro# nessuna banana qui dentro, trovala e tutto cambierà.#<br>
+	2)<br>
+	#looker is SEX.MALE#Sei maschietto anche se non lo vuoi dare a vedere#Non sei un maschietto... che fai qui? Fuori!#<br>
+	3) race<br>
+	#looker is RACE.DROW#Drow Powwa!#ma che brutta razza di beschia sei?#<br>
+	4) self.inventario a 1<br>
+	#self.inventory_qty == 1#inventario ad 1# inventario non a uno#<br>
+	5) looker.inventory a 1<br>
+	#looker.inventory_qty == 1#inventario ad 1# inventario non a uno#<br>
+	6) self.inv maggiore di  2<br>
+	#self.inventory_qty > 2#inventario a maggiore di 2# inventario non maggiore di 2#<br>
+	7) looker.inventory maggiore di  2<br>
+	#looker.inventory_qty > 2#inventario a maggiore di  2# inventario non maggiore di 2#<br>
+	DescrSmell:
+	Qui sotto c'è un miml:<br>
+	1)<br>
+	#mfdonald_item_banana#vedi almeno una banana qui dentro# nessuna banana qui dentro, trovala e tutto cambierà.#<br>
+	2)<br>
+	#looker is SEX.MALE#Sei maschietto anche se non lo vuoi dare a vedere#Non sei un maschietto... che fai qui? Fuori!#<br>
+	DescrHearing:
+	Qui sotto c'è un miml:<br>
+	1)<br>
+	#mfdonald_item_banana#vedi almeno una banana qui dentro# nessuna banana qui dentro, trovala e tutto cambierà.#<br>
+	2)<br>
+	#looker is SEX.MALE#Sei maschietto anche se non lo vuoi dare a vedere#Non sei un maschietto... che fai qui? Fuori!#<br>
+	DescrTouch:
+	Qui sotto c'è un miml:<br>
+	1)<br>
+	#mfdonald_item_banana#vedi almeno una banana qui dentro# nessuna banana qui dentro, trovala e tutto cambierà.#<br>
+	2)<br>
+	#looker is SEX.MALE#Sei maschietto anche se non lo vuoi dare a vedere#Non sei un maschietto... che fai qui? Fuori!#<br>
+	DescrTaste:
+	Qui sotto c'è un miml:<br>
+	1)<br>
+	#mfdonald_item_banana#vedi almeno una banana qui dentro# nessuna banana qui dentro, trovala e tutto cambierà.#<br>
+	2)<br>
+	#looker is SEX.MALE#Sei maschietto anche se non lo vuoi dare a vedere#Non sei un maschietto... che fai qui? Fuori!#<br>
+	DescrSixth:
+	Qui sotto c'è un miml:<br>
+	1)<br>
+	#mfdonald_item_banana#vedi almeno una banana qui dentro# nessuna banana qui dentro, trovala e tutto cambierà.#<br>
+	2)<br>
+	#looker is SEX.MALE#Sei maschietto anche se non lo vuoi dare a vedere#Non sei un maschietto... che fai qui? Fuori!#<br>
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: Fuori dalla miml zone
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Ancora miml
+End
+

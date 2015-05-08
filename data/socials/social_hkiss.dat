@@ -1,0 +1,38 @@
+FunName:    social_hkiss
+Intention:  INTENTION.FRIENDLY
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: A chi questo romantico gesto?
+  OthersNoArg: $n si china in avanti e schiocca un bacio al nulla.
+  EntityFound: Posi un bacio sulla $HAND di $N.
+  OthersFound: $n posa un gentilmente un bacio sulla $HAND di $N.
+  TargetFound: $n posa gentilmente un bacio sulla tua $HAND.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: A chi questo romantico gesto?
+  OthersNoArg: no_send
+  EntityFound: Poggio delicatamente le tue labbra sulla $HAND di $N.
+  OthersFound: $n sfiora con le labbra le dita di $N esibendosi in un delicato baciamano.
+  TargetFound: $n ti solletica le dita con le vibrisse mentre improvvisa una baciamano.
+  EntityAuto:  ti baci una zampetta, come sei galante!
+  OthersAuto:  $n si bacia una zampa con fare galante.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: A chi questo romantico gesto?
+  OthersNoArg: no_send
+  EntityFound: Poggio delicatamente le tue labbra sulla $HAND di $N.
+  OthersFound: $n sfiora con le labbra le dita di $N esibendosi in un delicato baciamano.
+  TargetFound: $n ti solletica le dita con le vibrisse mentre improvvisa una baciamano.
+  EntityAuto:  ti baci una zampetta, come sei galante!
+  OthersAuto:  $n si bacia una zampa con fare galante.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Un premio alla $hand che serve il padrone!
+  OthersNoArg: $n ringrazia la sua $hand destra e ne bacia il dorso.
+  EntityFound: Raccogli la $HAND di $N per un baciamano senza contatto, la prudenza non e' mai troppa...
+  OthersFound: $n raccoglie galantemente la $HAND di $N per un prudente baciamano.
+  TargetFound: $n raccoglie galantemente la tua $hand per un baciamano prudente.
+End

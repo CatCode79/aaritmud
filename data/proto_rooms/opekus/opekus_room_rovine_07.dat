@@ -1,0 +1,28 @@
+Code: opekus_room_rovine_07
+Sector: SECTOR.PATH
+Name: Miseri Ricordi
+Short: ruderi
+Descr:
+Sei giunt$o ad uno spiazzo erboso cinto dai resti di uno steccato in legno, l'opera
+è decisamente più recente. Forse qualche pastore un tempo portava qui le greggi.
+Un po' in disparte c'è un affossamento ricoperto parzialmente d'erba e con una stretta
+via scoscesa che s'incunea nel terreno. 
+
+DescrSixth:
+A ben vedere i resti dello steccato pare fossero disposti solo intorno all'affossamento.
+
+DescrHearing:
+Par di sentire dal basso il rumore d'acqua.
+
+Width:	10m
+Depth:	10m
+Height: 10m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: La via
+End
+Exits:
+  Direction: DIR.DOWN
+  Descr: Nelle profondità
+End

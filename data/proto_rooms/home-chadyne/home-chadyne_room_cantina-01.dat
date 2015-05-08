@@ -1,0 +1,44 @@
+Comment: Prima stanza costruita da chadyne.
+Code: home-chadyne_room_cantina-01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: La Cantina di Chadyne
+Short: cantina di casa chadyne
+ShortNight: una stanza buia
+
+Descr:
+A prima vista sembra una cantina normale delle dimensioni giuste magari appena più grande del solito diciamo un 5 per 4. Su tutti i lati ci sono scaffali metallici che contengo altri scaffali che a loro volta contengono altri scaffali pieni di cose di ogni tipo e probabilmente utilizzate per qualsiasi cosa, anche il soffitto è utilizzato nello stesso modo. Seduto, anzi semisdraiato, su una poltrona in un angolo c'è un uomo impegnato a pensare, nell'angolo opposto si apre una porticina ma è troppo piccola per riuscire a vedere dove porta, potrebbe essere il bagno privato di chadyne.
+DescrNight: 
+Ti sembra di essere in una profonda grotta non illuminata in una notte senza luna. Non riesci a non sbattere continuamente contro qualcosa, l'unica cosa da fare è provare a ripassare di giorno.
+DescrHearing: Senti in sottofondo la telecronaca di una partita di calcio, da qualche parte ci deve essere una radio, ormai sommersa da chissà quanti altri oggetti che chadyne ha rinunciato a cercarla.
+DescrHearingNight: Nulla! Senti male alle orecchie per il troppo silenzio che regna nella cantina.
+DescrSmell: Puzza di umido, di muffa... bleahhh!
+DescrSmellNight: Puzza di umido, di muffa... bleahhh!
+DescrTouch: Non riuscirai mai a toccare la stanza, prima dovresti spostare qualche quintale di roba.
+
+Extras:
+  Comment: N.A.
+  Keywords: porta porticina
+  Descr: È piccola, di legno grezzo forse noce italiano, ha una maniglia di forma circolare al centro, è aperta. Attraverso questa vedi un altro locale con un lavabo appoggiato alla parete di fronte e sparsi nella stanza diversi altri sanitari.
+End
+
+Width: 20m
+Depth: 20m
+Height: 10m
+Flags: ROOM.STOREROOM
+Owner: Chadyne
+Exits:
+  Comment: N.A.
+  Direction: DIR.NORTHEAST
+  Descr: Vedi una piccola porta semi chiusa che introduce in un altro locale più piccolo.
+  EntityMessage: Entri nel $a.
+  OthersInMessage: $n esce dal $a.
+  OthersOutMessage: $n entra nel $a.
+End
+
+Exits:
+	Direction: DIR.DOWN
+	Descr: Altrove
+        Destination:	0 0 0 serpidi
+End

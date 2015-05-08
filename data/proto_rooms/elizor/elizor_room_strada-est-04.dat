@@ -1,0 +1,32 @@
+Code: elizor_room_strada-est-04
+Sector: SECTOR.PATH
+Name: La Via Verso Est
+Short: la via verso est
+
+Descr:
+I ciottoli del selciato si fanno sempre più sporadici lasciando il posto allo sterrato polveroso ed irregolare; anche gli argini del 
+rigagnolo risultano sempre meno definiti.
+In lontananza, verso est, scorgi una costruzione ma sei ancora troppo lontano per poter capire di cosa si tratti.
+DescrTouch: 
+no_send
+DescrSmell: 
+Fragranze campagnole trasportate dalla brezza.
+DescrSixth:
+Una strada apparentemente poco trafficata e forse addirittura in disuso.
+DescrHearing:
+Il tuo incedere è accompagnato dallo scroscio dell'acqua e dal canto di qualche uccello.
+DescrTaste:
+no_send
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.WEST
+	Descr:	La via
+End
+Exits:
+	Direction:	DIR.NORTHEAST
+	Descr:	La via verso est
+End

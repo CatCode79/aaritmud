@@ -1,0 +1,67 @@
+Code: siepi_room_intrico_sese
+Sector: SECTOR.WOOD
+Name: Ai Piedi di Akh-Dara
+Short: Ai Piedi di un albero
+Descr:
+Un camminamento di erbetta fitta e bassa circonda l'immensità di un albero millenario.
+A raggera si dipartono innumerevoli sentieri che se ne allontanano dando l'impressione
+che l'intrico sia un garbuglio di cammini inizianti tutti qui.
+L'albero è così altro che si distinguono a fatica le foglie dei primi altissimi rami. 
+
+DescrSmell:
+L'aria è pregna di un intenso profumo come di timo e come per il timo non ha persistenza.
+L'intensità del vento ti porta continue folate di aria che confondono l'olfatto.
+
+DescrHearing:
+Il vento qui fischia e soffia in modo discontinuo alternando momenti di silenzio a picchi
+quasi assordanti.
+
+ShortNight: un intrico scuro 
+
+DescrNight:
+Un camminamento di erbetta fitta e bassa circonda l'immensità di un albero millenario.
+A raggera si dipartono innumerevoli sentieri scuri che danno l'impressione di mille
+occhi invisibili nascosti nell'ombra e  puntati addosso.
+ 
+Extras:
+  Keywords: albero
+  Descr: Ti serve un intero minuto per fare tutto il giro del tronco
+End
+Extras:
+  Keywords: tronco
+  Descr: Cosparso e punteggiato dai segni di un'età invidiabile
+End
+Extras:
+  Flags: EXTRA.NIGHT_ONLY
+  Keywords: ombre ombra 
+  Descr:	Quello era davvero un paio d'occhi!
+End
+
+Width:	7m
+Depth:	7m
+Height: 15m
+
+Exits:
+  Direction: DIR.NORTHWEST
+  Descr: Sentieri imbrigliati da siepi
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Sentieri imbrigliati da siepi
+  Destination: 0 1 0 siepi
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Sentieri imbrigliati da siepi 
+  Destination: -1 0 0 siepi
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Sentieri imbrigliati da siepi 
+  Destination: 0 -1 0 siepi
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Sentieri imbrigliati da siepi 
+  Destination: 1 0 0 siepi
+End

@@ -1,0 +1,35 @@
+Comment: 0 8|8388608 0
+Code: sauria_room_mente-riposa-94
+Sector: SECTOR.UNDERGROUND
+Flags:	ROOM.INSIDE
+Name: La Mente Riposa
+Short: la mente riposa
+
+Descr:
+Sei in un corridoio dalle pareti nere lucide, così come soffitto e pavimento. Il passaggio pare interminabile per lunghezza e ti priva di ogni punto di riferimento. Un pensiero come di respiro profondo si unisce a tratti ai tuoi pensieri. 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 0 21874
+  Descr:	L'area di passaggio
+  Direction:	DIR.EAST
+End
+Exits:
+  Comment:	0 0 21890
+  Descr:	Sprazzi di memoria
+  Direction:	DIR.WEST
+End

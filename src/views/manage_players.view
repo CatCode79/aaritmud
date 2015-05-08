@@ -1,0 +1,32 @@
+<center><h3>GESTIONE DEI GIOCATORI:</h3></center>
+<span${show_empty_message}>La tua trust di ${trust} non ti permette di eseguire nessuna azione in questa pagina.</span>
+
+<div class="block" id="manage_players_bans" style="width:49%; float:left;${hide_manage_players_bans}">
+	<div class="block_title">Gestione delle Punizioni:</div>
+	<div class="block_text">
+		<img class="tag" src="tags/manage_players_bans.png">
+		Serve a gestire tutte le punizioni da visualizzare, aggiungere o togliere ad un account.<br>
+		Le punizioni impostate si attivano nel momento in cui il giocatore si collega con l'account e non dal momento in cui vengono impostate in questa pagina.
+	</div>
+	<div class="block_submit">
+		<input type="submit" value="Gestisci Punizioni" onclick="location.href='manage_players_bans.html'" />
+	</div>
+</div>
+<div class="block" id="manage_players_gifts" style="width:49%; float:right;${hide_manage_players_gifts}">
+	<div class="block_title">Gestione dei Regali:</div>
+	<div class="block_text">
+		<img class="tag" src="tags/manage_players_gifts.png">
+		Serve a visualizzare tutti i regali presenti nel gioco oppure a ridare regali persi ai giocatori durante una totale rimozione delle persistenze.<br>
+		Il fatto d'aver ricevuto dei regali, tramite l'apposita opzione di config, viene salvato e mantenuto tra le informazioni del giocatore, per questo è possibile un refound sicuro.
+	</div>
+	<div class="block_submit">
+		<input type="submit" value="Gestisci Regali" onclick="location.href='manage_players_gifts.html'" />
+	</div>
+</div>
+<div style="clear:both"></div>
+<br>
+
+<script>
+$(document).ready(resizeBlocksInPairs("manage_players_bans", "manage_players_gifts"));
+$(document).resize(resizeBlocksInPairs("manage_players_bans", "manage_players_gifts"));
+</script>

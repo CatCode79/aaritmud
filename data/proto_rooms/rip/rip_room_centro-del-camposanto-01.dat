@@ -1,0 +1,28 @@
+Code: rip_room_centro-del-camposanto-01
+Sector: SECTOR.PATH
+
+Name: L'Estremo Saluto
+Short: al centro
+
+Descr:
+Il centro della zona morta e dell'estremo saluto, in cui più vivo che mai è il bancomat che consente di scegliersi il cadavere migliore. 
+
+Width: 20m
+Depth: 20m
+Height: 10m
+Exits:
+	Direction: DIR.SOUTH
+	Descr: Umano, troppo umano.
+End
+Exits:
+	Direction: DIR.NORTH
+	Descr: Elfo, troppo alto.
+End
+Exits:
+	Direction: DIR.EAST
+	Descr: Thepa, verde.
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: Arial, piume.
+End

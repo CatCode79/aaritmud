@@ -1,0 +1,29 @@
+Code: novizi2_room_12a-soffitta
+Sector: SECTOR.HOUSE
+Flags: ROOM.INSIDE
+Name: [gold]La Soffitta Est[close]
+Short: [gold]una soffitta[close]
+
+Descr:
+Un tetto a spioventi come cappello conferisce una curiosa geometria a quella che è una lungo sottotetto rivestito con assi di legno.
+L'ambiente è sgombro e poco polveroso.
+#novizi2_item_chiave-scrigno#All'angolo sinistro dell'assito è appesa una chiave metallica#All'angolo sinistro dell'assito c'è un chiodo al quale era appeso un oggetto, lo si vede bene dall'alone scuro che circonda una chiazza chiara#.
+DescrTouch: 
+Un lungo corridoio circondato ai lati dagli spioventi del tetto che impediscono di trovare una parete cui appoggiarsi.
+DescrSmell: 
+Vago e flebile l'odore delle resina, figlio certo delle travi in legno della soffitta.
+DescrSixth:
+#novizi2_item_chiave-scrigno#La chiave ti osserva mentre tu osservi come non vi sia nessuna toppa qui ove infilarla#la sagoma scura dice che qualcuno è passato prima di te sottraendo il misterioso oggetto#.
+
+DescrHearing:
+Ci deve essere un po' di vento all'esterno a giudicare dai sinistri cigolii provenienti dalle travature.
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.SOUTH
+	Destination:	-2 -5 1 novizi2
+	Descr: [lemonchiffon]La soffitta[close]
+End

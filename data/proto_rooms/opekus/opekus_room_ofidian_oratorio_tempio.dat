@@ -1,0 +1,33 @@
+Code:	opekus_room_ofidian_oratorio_tempio
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il Tempio degli Ofidi
+Short:	il tempio segreto
+
+Descr:
+L'occhio qui non riesce a trova riposo a causa della somma magnificenza del luogo.
+Una pavimentazione in elementi di pietre colorate fa da sfondo con motivi geometrico floreali.
+Mano a mano che ci si allontana dall'altare i colori s'incupiscono per incontrare gli affreschi delle pareti.
+L'impianto a croce con i bracci uguali scompone naturalmente le pareti in un ciclo di undici affreschi;
+partendo da quello a sinistra dell'accesso sono raffigurati i momenti liturgici fondamentali di una società #looker is RACE.THEPA#della tua stessa razza#thepa#.
+In altro al centro della cupola esagonale c'è una statua che osserva i presenti con lo sguardo di chi sa che nessuno è mai completamente innocente.
+
+DescrTouch:
+Una pavimentazione a tasselli quadrati compone intricate forme a terra.
+L'impianto a croce partisce il perimetro del tempio  in dodici spicchi che si stringono salendo.
+
+DescrSixth:
+#looker is RACE.THEPA#Ti trovi nel Sancta Sanctorum di un'antica religione della tua razza a te sconosciuta.#Ti trovi nel Sancta Sanctorum di una comunità religiosa che potrebbe non avere piacere di trovare un miscredente così dentro nei suoi spazi più sacri.#
+
+DescrHearing:
+L'ambiente così sacro ti suggerisce allucinazioni auditive di voci salmodianti.
+
+Width:	3m
+Depth:	5m
+Height: 3m
+
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	Una celletta
+	Door:	opekus_item_door-decorazione-interna
+End

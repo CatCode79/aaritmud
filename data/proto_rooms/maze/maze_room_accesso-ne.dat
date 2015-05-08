@@ -1,0 +1,31 @@
+Code: maze_room_accesso-ne
+Sector: SECTOR.PLAIN
+Name: All'estremo del [lime]Labirinto[close]
+Short: l'estremità dei [lime]sentieri[close] nel [lime]bosco[close]
+Descr:
+Cambia repentino il paesaggio mutando dal rigoglio boscoso meridionale con la via più brulla a nord.
+Anche in $season la vegetazione densa e colorata cerca d'incentivarti a godere
+del suo fulgore cangiante.
+
+DescrNight:
+Cambia repentino il paesaggio mutando dal rigoglio boscoso meridionale con la via più brulla a nord.
+Anche nelle notti di $season, la vegetazione appare densa e lussureggiante. Il suo
+fulgore soffuso non risulta appannato dall'ora tarda e con malcelata apprensione ti fa
+intendere che per quel che hai potuto guardare non hai saputo notare che pochi dettagli.
+
+DescrSixth:
+Un bosco è sempre un buon posto per qualcuno o qualcosa
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Verso il villaggio
+  Destination: -3 0 0 villaggio-zingaro
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Nel folto del bosco
+End

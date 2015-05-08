@@ -1,0 +1,46 @@
+FunName:    social_cure
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Le ferite ti bruciano! Hai bisogno di cure!
+  OthersNoArg: $n urla dal dolore! Ha urgente bisogno di cure!
+  EntityFound: Guardi $N invocando il suo aiuto! Hai bisogno di cure!
+  OthersFound: $n guarda $N invocando il suo aiuto! Ha bisogno di cure!
+  TargetFound: $n ti guarda invocando il tuo aiuto! Ha bisogno di cure!
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Soffri da impazzire! Speri che qualcuno ti aiuti!
+  OthersNoArg: $n lancia un grido che presto si spegne. Sarà mort$o? No, ma manca poco.
+  EntityFound: Implori $N:'Per favore, aiutami, sto male!'.
+  OthersFound: $n guarda $N implorante. Sta proprio male!
+  TargetFound: $n ti guarda col viso sfigurato dal dolore. Forse ha bisogno di cure.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Sei ferit$o seriamente, necessiti di cure immediate.
+  OthersNoArg: $n è ferit$o seriamente, ha bisogno di cure.
+  EntityFound: Sei ferit$o seriamente, guardi $N senza troppe speranze.
+  OthersFound: $n è ferit$o seriamente, guarda $N con occhi vacui ed assenti.
+  TargetFound: $n è ferit$o seriamente, ti guarda con occhi vacui ed assenti.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Cerchi un riparo per nascondere agli altri le tue sofferenze..
+  OthersNoArg: $n è visibilmente ferito ma cerca di nasconderlo ai presenti.
+  EntityFound: ti allontani un poco da $N cercando di nascondere le tue sofferenze.
+  OthersFound: $n si distanzia da $N.. Sembra abbia qualcosa da celare.
+  TargetFound: $n si allontana un poco da te, soffocando un'espressione di dolore.
+  EntityAuto:  Cerchi di curare al meglio le tue ferite.
+  OthersAuto:  $n si mette a fare le fusa ma si vede lontano un miglio che sta soffrendo.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Cerchi un riparo per nascondere agli altri le tue sofferenze..
+  OthersNoArg: $n è visibilmente ferito ma cerca di nasconderlo ai presenti.
+  EntityFound: ti allontani un poco da $N cercando di nascondere le tue sofferenze.
+  OthersFound: $n si distanzia da $N.. Sembra abbia qualcosa da celare.
+  TargetFound: $n si allontana un poco da te, soffocando un'espressione di dolore.
+  EntityAuto:  Cerchi di curare al meglio le tue ferite.
+  OthersAuto:  $n si mette a fare le fusa ma si vede lontano un miglio che sta soffrendo.
+End

@@ -1,0 +1,48 @@
+Comment: 85 1 9 0 0
+Code: sauria_room_nelle-profondita-lago-80
+Sector: SECTOR.LAKE
+Flags: ROOM.UNDERWATER
+Name: Nelle Profondita' del Lago
+Short: nelle profondità del lago
+
+Descr:
+Scendi nelle profondità del lago. L'acqua è così scura e torbida che non riesci a vedere oltre il tuo naso. 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21812
+  Descr:	Nelle profondità del lago
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 -1 21881
+  Descr:	Nelle profondità del lago
+  Direction:	DIR.EAST
+  Destination:	6 3 -1 sauria
+End
+Exits:
+  Comment:	0 -1 21883
+  Descr:	Nelle profondità del lago
+  Direction:	DIR.WEST
+  Destination:	4 3 -1 sauria
+End
+Exits:
+  Comment:	0 -1 21811
+  Descr:	In mezzo al lago
+  Direction:	DIR.UP
+  Destination:	5 3 0 sauria
+End

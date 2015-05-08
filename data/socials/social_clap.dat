@@ -1,0 +1,48 @@
+FunName:    social_clap
+Intention:  INTENTION.FRIENDLY
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Applaudi con convinzione.
+  OthersNoArg: $n applaude con convinzione.
+  EntityFound: Applaudi $N:'Bene! Ci voleva! Brav$O!'.
+  OthersFound: $n applaude $N:'Bene! Ci voleva! Brav$O!'.
+  TargetFound: $n ti applaude festosamente:'Bene! Ci voleva! Brav$O!'.
+  EntityAuto:  Ti applaudi orgogliosamente:'Ma quanto son brav$o!'.
+  OthersAuto:  $n si applaude da sol$o.. ma che simpatic$o!
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Applaudi lasciandoti portare dall'entusiasmo.
+  OthersNoArg: $n applaude facendo piccole acrobazie in aria.
+  EntityFound: Manifesti il tuo entusiasmo per $N.
+  OthersFound: $n applaude in direzione di $N ridendo e facendo acrobazie.
+  TargetFound: $n ti applaude facendo acrobazie.
+  EntityAuto:  Batti le manine soddisfatt$o di quello che hai detto e fatto.
+  OthersAuto:  $n batte le manine sottolineando l'entusiasmo per le proprie azioni.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Applaudi lentamente con approvazione.
+  OthersNoArg: $n applaude lentamente con approvazione.
+  EntityFound: Applaudi lent$o in approvazione di $N.
+  OthersFound: $n applaude $N lentamente in segno d'approvazione.
+  TargetFound: $n applaude lent$o nella tua direzione.
+  EntityAuto:  Ti applaudi compiaciut$o.
+  OthersAuto:  $n si applaude decisamente compiaciut$O.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Applaudi pacatamente.
+  OthersNoArg: $n si esibisce in un vellutato applauso
+  EntityFound: Applaudi $N con pacato entusiasmo.
+  OthersFound: $n applaude $N con pacato entusiasmo.
+  TargetFound: $n ti applaude con gentili movenze delle zampe.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Applaudi pacatamente.
+  OthersNoArg: $n si esibisce in un vellutato applauso
+  EntityFound: Applaudi $N con pacato entusiasmo.
+  OthersFound: $n applaude $N con pacato entusiasmo.
+  TargetFound: $n ti applaude con gentili movenze delle zampe.
+End

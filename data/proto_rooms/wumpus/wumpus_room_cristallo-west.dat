@@ -1,0 +1,27 @@
+Code: wumpus_room_cristallo-west
+Sector: SECTOR.UNDERGROUND
+Flags: ROOM.INSIDE
+Name: Ad Ovest della Colonna di [aqua]Cristallo[close]
+Short: ad ovest della colonna di [aqua]cristallo[close]
+
+Descr:
+Il cunicolo pare aggirare a tutto tondo una colonna di [aqua]cristallo[close] naturale semitrasparente ma troppo spessa per poterci vedere attraverso.
+DescrTouch: 
+Il cunicolo pare aggirare a tutto tondo una colonna di pietra tutta d'un pezzo.
+
+Width:	7m
+Depth:	7m
+Height:	7m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: I [white]ruderi[close]
+End
+Exits:
+  Direction: DIR.NORTHEAST
+  Descr: Attorno alla colonna di [aqua]cristallo[close]
+End
+Exits:
+  Direction: DIR.SOUTHEAST
+  Descr: Attorno alla colonna di [aqua]cristallo[close]
+End

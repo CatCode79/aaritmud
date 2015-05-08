@@ -1,0 +1,42 @@
+FunName:    social_pat
+Intention:  INTENTION.FRIENDLY
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: A chi vuoi dare questa pacca?
+  OthersNoArg: $n dà una pacca sulla spalla di una creatura invisibile.
+  EntityFound: Dai a $N una pacca sulla spalla.
+  OthersFound: $n dà a $N una pacca sulla spalla.
+  TargetFound: $n ti dà una pacca sulla spalla.
+  EntityAuto:  Ti dai una pacca sulla spalla, ora stai meglio vero?
+  OthersAuto:  $n si dà una pacca sulla spalla, visibilmente soddisfatt$o.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Pacca sulla spalla? A chi?
+  OthersNoArg: $n muove le $hands come dovesse lanciare un incantesimo!
+  EntityFound: Concedi a $N una sonora sventola sulla spalla.
+  OthersFound: $n conferisce a $N una sonora sventola sulla spalla.
+  TargetFound: $n ti batte una sonora manata sulla spalla.
+  EntityAuto:  ti togli di dosso un po' di polvere.
+  OthersAuto:  $n si toglie di dosso un po' di polvere.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Distribuisci amichevoli zampate. A chi..?
+  OthersNoArg: $n dà amichevoli zampatine sulle spalle dei presenti.
+  EntityFound: Dai una zampatina sulla spalla di $N, in segno di amicizia.
+  OthersFound: $n dà un'amichevole zampatina sulla spalla di $N.
+  TargetFound: $n ti dà un'amichevole zampata sulla spalla.
+  EntityAuto:  Ti picchietti una spalla con una zampa.
+  OthersAuto:  $n si massaggia le spalle da sol$o.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Distribuisci amichevoli zampate. A chi..?
+  OthersNoArg: $n dà amichevoli zampatine sulle spalle dei presenti.
+  EntityFound: Dai una zampatina sulla spalla di $N, in segno di amicizia.
+  OthersFound: $n dà un'amichevole zampatina sulla spalla di $N.
+  TargetFound: $n ti dà un'amichevole zampata sulla spalla.
+  EntityAuto:  Ti picchietti una spalla con una zampa.
+  OthersAuto:  $n si massaggia le spalle da sol$o.
+End

@@ -1,0 +1,29 @@
+Code: torreelementi_room_fungheria-magazzino-nascosto-01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Un Minuscolo Anfratto
+Short: un anfratto
+
+Descr:
+Al riparo da occhi indiscreti è stato scavato sommariamente questo sito. Le pareti
+sembrano state scavate alla meglio ed anche il pavimento non è orizzontale.
+Due supporti per torce sono infissi ad opposte pareti.
+DescrSmell: 
+Qualcos'altro qui riesce a coprire l'odore dei funghi, qualcosa di tremendamente aromatico.
+DescrSixth:
+Chissà che attendendo a sufficienza non si faccia vivo il proprietario.
+
+Extras:
+	Keywords: supporti torce
+	Descr:
+	Un paio di anelli in ferro battuto
+
+End
+Width:	4m
+Depth:	4m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Un cunicolo verticale
+End

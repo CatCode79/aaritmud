@@ -1,0 +1,86 @@
+Comment:
+  Descrizione della parte esterna  della casa di Sophie . Ogni oggetto richiede una descrizione...
+
+Code: home-sophie_room_esterno-casa
+Sector: SECTOR.PLAIN
+Name: La Casa di Sophie
+Short: la casina di sophie
+
+Descr:
+Davanti a te la casa di Sophie. I muri esterni della casa sono costruiti con mattoni
+di pietra lavica disposti regolarmente e separati da linee di un bianco abbagliante.
+Grandi finestre si aprono lasciando intuire che all'interno la luce del sole entri
+rendendo tutto l'ambiente molto luminoso. Il tetto, anch'esso di colore bianco, ha
+una forma circolare  ed è anche un luogo da cui è possibile godere della vista del
+paesaggio circostante. Davanti alla casa un prato erboso sul quale sono disposte
+comodissime poltrone di colore bianco rivolte verso il lago. La porta d'entrata si
+trova proprio sul lato della casa prospiciente il sentiero.
+
+DescrNight:
+Davanti a te la casa di Sophie. I muri esterni della casa sono costruiti con mattoni di
+pietra lavica disposti regolarmente e separati da linee di un bianco abbagliante. Grandi
+finestre si aprono lasciando intuire che all'interno della stanza la luminosità della
+luna crei un piacevole gioco di luci ed ombre.Il tetto, anch'esso di colore bianco, ha
+una forma circolare ed è un luogo da cui è possibile godere della vista del  paesaggio
+circostante. Davanti alla casa un prato erboso sul quale sono disposte comodissime
+poltrone di colore bianco rivolte verso il lago. La porta d'entrata si trova proprio
+sul lato della casa prospiciente il sentiero.
+
+DescrTouch:
+
+Non c'è nulla da toccare qui e non è opportuno accarezzare Gatto_Pardo poiché felino di razza suscettibile e permalosa.
+DescrTouchNight:
+
+Non c'è nulla da toccare qui e non è opportuno accarezzare Gatto_Pardo poiché felino di razza suscettibile e permalosa.
+
+DescrSmell:
+
+Senti un inebriante profumo di pane appena sfornato e di torte ai frutti di bosco.
+DescrSmellNight:
+
+Ti arriva un odore intenso proveniente dal Giardino degli Aromi di casa di Sophie
+
+DescrSixth:
+
+Il tuo sesto senso ti fa intuire che questa è la casa di  [red]S[gold]ophie[close].
+DescrSixth:
+
+Il tuo sesto senso ti fa intuire che questa è la casa di  [red]S[gold]ophie[close].
+
+Non è il caso di venirci di notte non invitati!
+
+DescrHearing:
+
+Senti della musica provenire da casa di Sophie.
+DescrHearingNight:
+
+I suoni della notte sono un  insieme di melodie della natura che ti mettono di buon umore.
+
+DescrTaste:
+
+Assaggi il desiderio di entrare per immergerti nel profumo dei dolci e del pane.
+DescrTasteNight:
+
+Nulla da assaggiare e il grillo parlante tormentoso è troppo indigesto!
+
+
+
+Extras:
+ Keywords:	Secondo cartello
+ Descr: Sul cartello c'è questa scritta:Viandante, Guerriero, Ramingo, Vagabondo non ti avvicinare più di tanto!
+ DescrSixth: Il cartello non dice che puoi stare qui a curiosare, è l'intuito che te lo sta dicendo.
+End
+
+
+Width:	7 m
+Depth:	7 m
+Height: 5 m
+
+Exits:
+ Direction: DIR.NORTH
+ Descr: La zona dello stagno
+End
+Exits:
+ Direction: DIR.EAST
+ Descr: Il sentiero
+End

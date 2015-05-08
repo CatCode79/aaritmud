@@ -1,0 +1,52 @@
+Code: citta-raminghe_room_piazza
+Sector: SECTOR.CITY
+Name: Piazza
+Short: Una [yellow]piazza molto affollata e rumorosa[close] 
+ShortNight: una  [lightblue]piazza silenziosa[close] 
+
+Descr:
+Una piazza circolare molto ampia e delimitata da [lightgreen]antiche abitazioni[close] dalle 
+[yellow]facciate[close] [deeppink]allegramente colorate[close]. Gente affaccendata l'attraversa fermandosi a volte presso una delle innumerevoli bancarelle dove vengono venduti prodotti di vario genere. Gente appartenente ad ogni razza chiacchiera, 
+guarda spettacoli da strada, acquista [yellow]frittelle appena sfornate[close].
+DescrNight:
+Una piazza circolare silenziosa. Noti i resti di una frenetica giornata in cui questo luogo si è riempito di gente, artisti e venditori. Adesso non c'è nessuno se non qualcuno che l'attraversa di fretta per recarsi in altri luoghi.
+DescrSmell: 
+I profumi di spezie, di fiori, di zucchero filato, di pane appena sfornato, si mescolano tra loro caratterizzando 
+fortemente questo luogo di incontri e relazioni.
+DescrSmellNight:
+Avverti l'odore di cibo che proviene dalle abitazioni circostanti.
+DescrSixth:
+Questo luogo ti fa star bene con la sua vitalità e ricchezza di stimoli. Provoca in te sensazioni positive e rivitalizzanti.
+DescrSixthNight:
+Può essere piacevole aggirarsi in questo luogo apparentemente così tranquillo, magari a quest'ora potrebbe non esserlo così 
+tanto in realtà...
+DescrHearing:
+Senti il rumore di una piazza in piena attività.
+DescrHearingNight:
+Percepisci il silenzio della notte.
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.EAST
+	Descr: In città
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: In città
+End
+Exits:
+	Direction: DIR.SOUTH
+	Descr: In città
+End
+Exits:
+	Direction: DIR.NORTHEAST
+	Descr: In città
+End
+Exits:
+	Direction: DIR.NORTHWEST
+	Descr: In città
+End

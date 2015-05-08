@@ -1,0 +1,30 @@
+Code: karpuram_room_bosco_nord-est
+Sector: SECTOR.PLAIN
+Name: I Sentieri di [lime]Karpuram[close]
+Short: un [lime]groviglio[close] di [lime]sentieri[close]
+Descr:
+Un tracciato meglio marcato e certo più frequentato di altri conduce tutti i sentierini
+ad intrecciarlo ed incontrarlo più e più volte; l'impressione di libertà che ti pervade
+nel percorrere mille vie nel modo più casuale è in realtà guidata sottilmente al vecchio
+tracciato.
+
+DescrNight:
+Dimentico dell'ora, la notte ti coglie immers$o nella vegetazione così all'improvviso che
+tutti i sentierini visti poco prima son spariti. Rimane solo un tracciato che si protrae
+curvo e rintorcinato di cui non ti è dato vedere né capo né coda.
+
+DescrSixth:
+Un bosco è sempre un buon posto per qualcuno o qualcosa
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Nel folto del bosco
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Nel folto del bosco
+End

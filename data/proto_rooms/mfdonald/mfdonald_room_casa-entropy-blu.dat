@@ -1,0 +1,43 @@
+Code: mfdonald_room_casa-entropy-blu
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Il Periodo Blu dello Zio
+Short: il periodo blu dello zio
+
+Descr:
+La psiche dello Zio ent talvolta [blue]bluizza[close] in modo autonomo inconsapevole ma
+sopprattutto adiabatico.
+La porta adiabatica è una doppia porta qui sta la parte Adiabatica mentre quella
+Puccettosa sta dall'altra e sono sincronizzate.
+Si resetta e si chiude alle 16 lanciando un messaggio.
+Se non lo fa è colpa del Coder Maximus (coder.maximus@gmail.com ; cell:EGT.BEIOTOO).
+DescrTouch: 
+Guardare e non Toccare!
+DescrSmell: 
+Sconsigliabile come propensione qui dentro!
+DescrSixth:
+Il tuo intuito ti prega gentilmente di uscire.
+DescrHearing:
+Non si sente nulla nulla...
+
+Extras:
+	Keywords: zio
+	Descr:
+	Lo chiamano Zio ma non ha nipoti
+	DescrSixth:
+	Non si sa bene per quale motivo...
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.EAST
+	Descr: La stanza [lightgreen]verde[close]
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: La stanza [maroon]puccettosa[close]
+	Door: mfdonald_item_door-ent-adiabatica
+End

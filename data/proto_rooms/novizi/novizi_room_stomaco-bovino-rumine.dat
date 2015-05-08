@@ -1,0 +1,36 @@
+Comment:
+Decisamente inside :-P
+Code: novizi_room_stomaco-bovino-rumine
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Il Rumine - primo fra i prestomaci
+Short: nel rumine
+
+Descr:
+	Benvenuto nel [gold]RUMINE[close], il primo dei tre prestomaci di [red]Edo[close] bovino mannaro.
+	Ci auguriamo che la tua permanenza qui sia di suo gradimento e che non opporrai
+	resistenza alla spinta finale. Ti ricordiamo che qui è vietato fumare, portare alcolici ed andare controcorrente.
+DescrTouch: 
+Plotch Plotch!
+DescrSmell: 
+Edo il Bovino mannaro è ghiotto di aglio, purtroppo.
+DescrSixth:
+Riesci ad intuire che a breve la situazione si farà vieppiù acida!
+DescrHearing:
+Riesci a sentire il tipico rumore vibrato e persistente della peristalsi bovina
+DescrTaste:
+Ha un che di vagamente acidulo ma con il tempo potrebbe migliorare.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+
+Exits:
+	Direction: DIR.NORTHWEST
+	Descr: Torna all'ingresso
+End
+Exits:
+	Direction: DIR.NORTH
+	Descr: La via per il reticolo
+End

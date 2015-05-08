@@ -1,0 +1,34 @@
+FunName:    social_drool
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Sbavi fissando un punto nel vuoto.
+  OthersNoArg: $n sbava fissando un punto nel vuoto.
+  EntityFound: Sbavi addosso a $N.
+  OthersFound: $n sbava addosso a $N.
+  TargetFound: $n ti sbava addosso.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Come paralizzato senti uscire la bava dalla bocca.
+  OthersNoArg: $n sbava come paralizzato da oscuri incantesimi.
+  EntityFound: Come paralizzato senti uscire la bava dalla bocca proprio addosso a $N.
+  OthersFound: $n sbava addosso a $N come fosse paralizzato da arcani incantesimi.
+  TargetFound: $n ti sbava addosso come fosse paralizzato da oscuri incantesimi.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Sbavi da un angolo della bocca sporcandoti il manto.
+  OthersNoArg: $n si sbava la pelliccia sotto al mento.
+  EntityFound: Che folgorazione! Annusi $N ed inizi a sbavare..
+  OthersFound: $n sembra folgorat$o da $N.. L'annusa ed inizia a sbavare.
+  TargetFound: $n sembra folgorat$o da te.. Ti annusa ed inizia a sbavare.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Sbavi da un angolo della bocca sporcandoti il manto.
+  OthersNoArg: $n si sbava la pelliccia sotto al mento.
+  EntityFound: Che folgorazione! Annusi $N ed inizi a sbavare..
+  OthersFound: $n sembra folgorat$o da $N.. L'annusa ed inizia a sbavare.
+  TargetFound: $n sembra folgorat$o da te.. Ti annusa ed inizia a sbavare.
+End

@@ -1,0 +1,31 @@
+Code: opekus_room_rovine_13
+Sector: SECTOR.PATH
+Name: L'antica scala
+Short: un anfratto scomodo
+Descr:
+Neppure il tempo di postulare alcunché e tutto si ferma in pochi passi verso il basso.
+Probabilmente è solo una grossa buca scavata da un grosso animale chissà quanto tempo
+fa. Ovunque foglie e rami morti.
+
+Width:	10m
+Depth:	10m
+Height: 10m
+
+Extras:
+  Keywords: buca animale tempo foglie rami postulare
+  Descr: Il punto in cui sei presenta un eccessiva regolarità che ha dell'innaturale.
+  DescrTouch: 
+	Spostando un po' di fogliame e terra trovi quello che sembra un [slategray]gradino[close] di
+	pietra orizzontale parzialmente innestato lateralmente. 
+  DescrSixth: Quello che resta di una [slategray]scalinata[close], completamente sepolto dal tempo.
+End
+
+Exits:
+  Direction: DIR.UP
+  Descr: Un tetto di sterpi
+End
+Exits:
+  Direction: DIR.DOWN
+  Descr: Uno stretto passaggio nella roccia
+  Destination: 4 6 0 antro-drow
+End

@@ -1,0 +1,48 @@
+FunName:    social_lick
+Intention:  INTENTION.NEUTRAL
+Expression: leccandosi i baffi
+Smiles:     :9 :-9
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Sorridi passando lentamente la $tongue sopra le labbra.
+  OthersNoArg: $n sorride passandosi la $tongue sopra le labbra.
+  EntityFound: Sorridi passandoti la $tongue sopra le labbra guardando $N.
+  OthersFound: $n sorride passandosi la $tongue sopra le labbra mentre guarda $N.
+  TargetFound: $n sorride passandosi la $tongue sopra le labbra mentre ti guarda.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Passo la $tongue sulle labbra con astuzia.
+  OthersNoArg: $n passa la $tongue sulle labbra con aria astuta.
+  EntityFound: Mentre passi la $tongue sulle labbra guardi $N con astuzia.
+  OthersFound: $n guarda $N con aria astuta mentre si lecca le labbra.
+  TargetFound: $n ti guarda con aria astuta leccandosi le labbra.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Sorridi sinistramente passando lentamente la $tongue sopra le labbra.
+  OthersNoArg: $n sorride sinistramente passandosi la $tongue sopra le labbra.
+  EntityFound: Sorridi passandoti la $tongue sopra le labbra guardando sinistramente $N.
+  OthersFound: $n sorride passandosi la $tongue sopra le labbra mentre guarda sinistramente $N.
+  TargetFound: $n sorride passandosi la $tongue sopra le labbra mentre ti guarda sinistramente.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Sollevi un angolo della bocca, sorridendo con aria furbetta.
+  OthersNoArg: $n si lecca le vibrisse sorridendo con aria furbetta.
+  EntityFound: Guardi $N sorridendo con fare sornione.
+  OthersFound: $n sorride a $N con aria furbetta.
+  TargetFound: $n ti guarda e sorride in modo inconsueto.. Cosa starà macchinando?
+  EntityAuto:  Sei proprio furb$o..!
+  OthersAuto:  $n assume la consueta posa Khajit da birbante.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Sollevi un angolo della bocca, sorridendo con aria furbetta.
+  OthersNoArg: $n si lecca le vibrisse sorridendo con aria furbetta.
+  EntityFound: Guardi $N sorridendo con fare sornione.
+  OthersFound: $n sorride a $N con aria furbetta.
+  TargetFound: $n ti guarda e sorride in modo inconsueto.. Cosa starà macchinando?
+  EntityAuto:  Sei proprio furb$o..!
+  OthersAuto:  $n assume la consueta posa Khajit da birbante.
+End

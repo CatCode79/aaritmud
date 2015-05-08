@@ -1,0 +1,36 @@
+FunName:    social_cry
+Intention:  INTENTION.NEUTRAL
+Expression: piangendo
+Smiles:     :@ :-@
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Ti brillano gli occhi mentre calde lacrime scivolano lungo il tuo viso.
+  OthersNoArg: $n versa calde dolorose lacrime dai suoi occhi lucidi.
+  EntityFound: Volgi a $N il tuo sguardo mentre numerose lacrime ti solcano il volto.
+  OthersFound: $n guarda $N con il volto rigato da lacrime.
+  TargetFound: $n ti guarda mentre dai suoi occhi vedi nascere e scivolar via calde lacrime.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Calde lacrime ti bagnano il muso scivolando via dalle vibrisse.
+  OthersNoArg: $n piange calde lacrime inumidendosi il musetto.
+  EntityFound: Calde lacrime scivolano sul tuo muso mentre chini il capo verso $N.
+  OthersFound: $n piange calde lacrime chinando il muso verso $N.
+  TargetFound: $n china il muso verso di te piangendo calde lacrime.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Calde lacrime ti bagnano il muso scivolando via dalle vibrisse.
+  OthersNoArg: $n piange calde lacrime inumidendosi il musetto.
+  EntityFound: Calde lacrime scivolano sul tuo muso mentre chini il capo verso $N.
+  OthersFound: $n piange calde lacrime chinando il muso verso $N.
+  TargetFound: $n china il muso verso di te piangendo calde lacrime.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Non riesci ad impedire che fredde lacrime ti solchino il viso.
+  OthersNoArg: $n cerca di non scomportsi mentre fredde lacrime $gli solcano il viso.
+  EntityFound: Nascondi lo sguardo da $N mentre fredde lacrime ti rigano il viso.
+  OthersFound: $n nasconde il volto a $N mentre fredde lacrime $gli rigano il viso.
+  TargetFound: $n distoglie gli occhi dai tuoi mentre fredde lacrime $gli rigano il viso.
+End

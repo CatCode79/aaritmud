@@ -1,0 +1,33 @@
+Code: elizor_room_strada-ovest-02
+Sector:	SECTOR.ROAD
+Name: La Direttrice Ovest
+Short: la direttrice ovest
+
+Descr:
+Giunti a questo punto si riesce a vedere là in fondo verso est il centro nevralgico della comunità abitante sull'enorma masso fluttuante.
+Proprio la parte centrale, di poco sormonta la strada e già qui si scorge in un ammasso di costruzioni e di colori,
+Per il resto del panorama c'è solo la foschia interminabile che non consente di vedere oltre il Bordo.
+nella direzione opposta all'abitato, la strada conduce all'unico spicchio verdeggiante che oblia l'accesso ovest.
+DescrTouch: 
+no_send
+DescrSmell: 
+Il vento porta con sé odori fievoli ed indistinguibili.
+DescrSixth:
+no_send
+DescrHearing:
+Il vento ti accompagna con la sua carezza nascondento i tuoi rumori e nascondendo quelli di altri che non sai.
+DescrTaste:
+no_send
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.WEST
+	Descr:	La direttrice ovest
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	La direttrice ovest
+End

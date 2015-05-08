@@ -1,0 +1,24 @@
+<script>
+function testInputs() {
+	if (!window.confirm("Sei sicuro di voler testare gli inputs di ${game_name_nocolor}?")) {
+		return;
+	}
+	sendPostRequest("test_inputs.html", "", afterTestInputs);
+}
+function afterTestInputs(response) {
+	if (response.startsWith("<?xml version=")) {
+		window.location.reload();
+	} else {
+		document.getElementById("results").innerHTML = response;
+	}
+}
+</script>
+<h3>Test Inputs:</h3>
+Attenzione che la procedura di testing è invasiva perciò una volta finita ${game_name} andrà in shutdown automatico senza salvare le persistenze o eseguire backup dei dati.<br><br>
+I test sono un po' casuali, quindi a parità di dati e codice eseguire più test potrebbe dare differenti risultati d'errore.<br><br>
+La procedura dura molto, anche più di un quarto d'ora, il tempo è proporzionale alla quantità di mob, oggetti e giocatori in gioco e, ovviamente, dalla potenza computazionale del server.<br><br>
+<input type="submit" id="test_inputs" value="Testa Ora" onclick="self.disabled=true; testInputs();"${disabled} />
+<br>
+<br>
+<span id="results"></span>
+<br>

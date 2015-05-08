@@ -1,0 +1,44 @@
+Comment: room di tipo nomob in quanto possibile uscita dall'area
+Code: sauria_room_ingresso-della-caverna-06
+Sector: SECTOR.FOREST
+Flags: ROOM.NO_MOB
+Name: Ingresso Della Caverna
+Short: ingresso della caverna
+
+Descr:
+Sei davanti all'ingresso di una caverna e circondato da un'intricata foresta che ad est digrada più mollemente.
+Strani volatili sfrecciano in circolo alti sopra la tua testa; a tratti si fermano su frondosi alberi che torreggiano a nord.
+DescrTouch: 
+Senza che ti debba sforzare per avere sensazioni tattili, ci pensano le zanzare a darti il loro pungente benvenuto.
+DescrSmell: 
+Una debole corrente d'aria s'insinua nella grotta portando con sé gli odori muscosi della foresta.
+DescrSixth:
+Non puoi non notare la vegetazione stranamente differente da quella a te nota, quasi aliena.
+DescrHearing:
+Sei sulla soglia di una grotta e senti provenire dall'esterno, un tutt'uno di suoni come fosse una foresta lussureggiante.
+Come in ogni foresta che si rispetti ci sono le immancabili zanzare!
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21815
+  Descr:	Un'amena foresta
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 -1 21807
+  Descr:	Palude
+  Direction:	DIR.EAST
+End
+Exits:
+  Comment:	0 -1 21805
+  Descr:	Galleria fangosa
+  Direction:	DIR.SOUTH
+End
+Exits:
+  Comment:	0 -1 21816
+  Descr:	Un'amena foresta
+  Direction:	DIR.WEST
+End

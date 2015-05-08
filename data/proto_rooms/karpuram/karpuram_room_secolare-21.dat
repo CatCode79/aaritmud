@@ -1,0 +1,39 @@
+Code: karpuram_room_secolare-21
+Sector: SECTOR.PLAIN
+Name: Una Piattaforma di Transito
+Short: una piattaforma di transito
+
+Descr:
+Semplice e lineare, questa piattaforma serve per collegare due stanze tra loro
+e presenta una pavimentazione di legno scuro, un corrimano di corda ben tesa
+sull'alto parapetto, una serie di lampade spente protette da un rivestimento di
+ferro sono disposte in modo sfalsato tra loro. Dalla posizione in cui ti trovi
+riesci a vedere verso ovest una torretta ben difesa, verso est uno slargo e
+a nord un ballatoio.
+
+DescrNight:
+Semplice e lineare, questa piattaforma serve per collegare due stanze tra loro
+e presenta una pavimentazione di legno scuro, un corrimano di corda ben tesa
+sull'alto parapetto, una serie di lampade protette da un rivestimento di
+ferro sono disposte in modo sfalsato tra loro, riuscendo ad illuminare ogni
+centimetro di questa piattaforma di transito quasi come fosse giorno. Dalla 
+posizione in cui ti trovi riesci a vedere verso ovest una torretta ben difesa, 
+verso est uno slargo e a nord un ballatoio.
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Il quarto ballatoio
+  Destination: 11 0 4 karpuram
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Sulla quarta piattaforma
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: La quarta torretta reale
+End

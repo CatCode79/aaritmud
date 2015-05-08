@@ -1,0 +1,34 @@
+FunName:    social_jump
+Intention:  INTENTION.FRIENDLY
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Saltello per la felicità.
+  OthersNoArg: $n saltella per la felicità.
+  EntityFound: Saltello davanti a $N per la felicità.
+  OthersFound: $n saltella davanti a $N per la felicità.
+  TargetFound: $n ti saltella davanti per la felicità.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Ti molleggi sulle gambe per sgranchire i muscoli.
+  OthersNoArg: $n si molleggia sulle gambe per sgranchirsi.
+  EntityFound: Ti molleggi sulle gambe per sgranchire i muscoli.
+  OthersFound: $n si molleggia sulle gambe per sgranchirsi.
+  TargetFound: $n si molleggia sulle gambe per sgranchirsi.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Saltelli sulle zampe per la felicità!
+  OthersNoArg: $n saltella tutt'intorno a coda ritta.. E' felice.
+  EntityFound: Saltelli intorno a $N battendo le zampe per la felicità.
+  OthersFound: $n saltella intorno a $N battendo le zampe per la felicità.
+  TargetFound: $n ti saltella intorno battendo le zampe per la felicità.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Saltelli sulle zampe per la felicità!
+  OthersNoArg: $n saltella tutt'intorno a coda ritta.. E' felice.
+  EntityFound: Saltelli intorno a $N battendo le zampe per la felicità.
+  OthersFound: $n saltella intorno a $N battendo le zampe per la felicità.
+  TargetFound: $n ti saltella intorno battendo le zampe per la felicità.
+End

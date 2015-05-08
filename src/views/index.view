@@ -1,0 +1,119 @@
+﻿${game_name} è il <a href="http://it.wikipedia.org/wiki/Multi_user_dungeon" target="_blank" title="Che cos'è un Mud?">[white]MUD[close]</a>, giocabile via web tramite un qualsiasi browser.<br>
+L'obiettivo è quello di creare un Mud divertente da giocare e interattivo, per esempio ora come ora è possibile utilizzare molti dei comandi sia sugli oggetti che sulle creature producendo a volte situazioni bizzarre e buffe.<br>
+${game_name} è stato creato con la migliore tecnologia possibile: <a href="images/aarit_creation.jpg" title="${motto_nocolor}" target="_blank">la tua immaginazione</a>.<br><br><br>
+<script>
+function getNews(from_number, to_number) {
+	$.post("index.html", {from_number:from_number, to_number:to_number}, function (response) {
+		$("#anchor").replaceWith(response);
+	});
+}
+
+function voteNew(thumb_id) {
+	var vote_me = $("#vote_me-" + thumb_id.split("-")[1]);
+	$.post("index.html", {thumb_id:thumb_id}, function (response) {
+		// Significa che il giocatore non è collegato per poter votare
+		if (!response) {
+			return;
+		}
+
+		// Se c'è un messaggio d'errore lo mostra esplicitamente
+		if (response != "ok") {
+			alert(response);
+		}
+
+		// Ricava l'input thumb e il suo opposto oltre ai conteggi dei relativi elementi
+		var thumb = document.getElementById(thumb_id);
+		if (thumb.style.background.endsWith("up-blank.gif") || thumb.style.background.endsWith("up.gif")) {
+			var reverse_thumb = document.getElementById("thumbs_down-" + thumb_id.split("-")[1]);
+			var counter = parseInt(thumb.value.split("+")[1]);
+			var reverse_counter = parseInt(reverse_thumb.value.split("-")[1]);
+		} else {
+			var reverse_thumb = document.getElementById("thumbs_up-" + thumb_id.split("-")[1]);
+			var counter = parseInt(thumb.value.split("-")[1]);
+			var reverse_counter = parseInt(reverse_thumb.value.split("+")[1]);
+		}
+
+		// Aggiorna graficamente tutti gli elementi coinvolti
+		if (thumb.style.background.endsWith("up-blank.gif")) {
+			thumb.value = "  +" + (counter+1)
+			thumb.style.background = "url('graphics/thumb_up.gif') no-repeat left";
+			thumb.style.color = "green";
+			if (reverse_thumb.style.background.endsWith("down-blank.gif")) {
+				reverse_thumb.value = "  -" + (reverse_counter-1)
+				reverse_thumb.style.background = "url('graphics/thumb_down-blank.gif') no-repeat left";
+				reverse_thumb.style.color = "white";
+			}
+			vote_me.text("Grazie! ")
+		} else if (thumb.style.background.endsWith("up.gif")) {
+			thumb.value = "  +" + (counter-1)
+			thumb.style.background = "url('graphics/thumb_up-blank.gif') no-repeat left";
+			thumb.style.color = "white";
+			vote_me.text("Votami: ")
+		} else if (thumb.style.background.endsWith("down-blank.gif")) {
+			thumb.value = "  -" + (counter+1)
+			thumb.style.background = "url('graphics/thumb_down.gif') no-repeat left";
+			thumb.style.color = "red";
+			if (reverse_thumb.style.background.endsWith("up-blank.gif")) {
+				reverse_thumb.value = "  +" + (reverse_counter-1)
+				reverse_thumb.style.background = "url('graphics/thumb_up-blank.gif') no-repeat left";
+				reverse_thumb.style.color = "white";
+			}
+			vote_me.text("Grazie! ")
+		} else if (thumb.style.background.endsWith("down.gif")) {
+			thumb.value = "  -" + (counter-1)
+			thumb.style.background = "url('graphics/thumb_down-blank.gif') no-repeat left";
+			thumb.style.color = "white";
+			vote_me.text("Votami: ")
+		}
+	});
+}
+
+function toggleComments(new_code) {
+	var comments = $("#comments_" + new_code);
+	if (!comments.is(":visible")) {
+		$.post("index.html", {new_code:new_code}, function (response) {
+			comments.html(response);
+		});
+	}
+	comments.toggle("fast");
+	if ($("#comment_title_" + new_code).text().indexOf("Mostra") == -1) {
+		$("#comment_title_" + new_code).text("Mostra Commenti (" + $("div[name=comment]").size() + ")");
+	} else {
+		$("#comment_title_" + new_code).text("Nascondi Commenti");
+	}
+}
+
+function checkSubmit() {
+	var comment_submit = $("#comment_submit");
+	var comment_text = $("#comment_text");
+	if (comment_text.val()) {
+		comment_submit.attr("disabled", false);
+	} else {
+		comment_submit.attr("disabled", true);
+	}
+}
+
+function submitComment(new_code) {
+	var comment_text = $("#comment_text");
+	var comment_message = $("#comment_message");
+	comment_message.css("display", "block");
+	if (comment_text.val()) {
+		$.post("index.html", {comment_text:comment_text.val(), new_code:new_code}, function (response) {
+			if (response.startsWith("<div")) {
+				var comments = $("#comments");
+				comments.append(response);
+				comment_message.css("color", "green");
+				comment_message.text("Commento Inviato!").delay(3000).css("display", "none");
+				comment_text.val("");
+			} else {
+				comment_message.css("color", "red");
+				comment_message.html(response);
+			}
+		});
+	} else {
+		comment_message.css("color", "red");
+		comment_message.text("Non puoi inviare un commento vuoto.");
+	}
+}
+</script>
+${news}

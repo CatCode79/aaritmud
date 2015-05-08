@@ -1,0 +1,34 @@
+Code: citta-raminghe_room_piramide-gradoni-03
+Sector: SECTOR.CITY
+Name: [lightpink]La Sala degli Elementi[close]
+Short: una [lightpink]grande sala decorata[close]
+
+Descr:
+Sei dentro una grande sala. Guardandoti intorno ti accorgi che è abbastanza spoglia. Noti solamente pochi oggetti, posti con 
+una cura estrema, che attirano la tua attenzione. Le pareti sono decorate con immagini raffiguranti i quattro elementi:
+ [red]fuoco[close],[peru] terra[close], [skyblue]aria[close] e [deepskyblue]acqua[close]. L'ambiente è illuminato dalla luce 
+del sole che penetra attraverso poche aperture poste sulle pareti. Queste hanno un andamento lievemente obliquo per cui il 
+pavimento risulta un pò più esteso del soffitto. Sembrano sollecitare, nella mente di chi le osserva, un'immagine di 
+movimento ascensionale.
+DescrNight:
+Sei dentro una grande sala. Guardandoti intorno ti accorgi che è abbastanza spoglia. Noti solamente pochi oggetti, posti con una cura estrema, che attirano la tua attenzione. Le pareti sono decorate con immagini raffiguranti i quattro elementi:
+ [red]fuoco[close],[peru]terra[close], [skyblue]aria[close] e [deepskyblue]acqua[close]. L'ambiente è illuminato dalla luce 
+emanata dal fuoco di numerose fiaccole poste sulle pareti. Queste hanno un andamento lievemente obliquo per cui il 
+pavimento risulta un pò più esteso del soffitto. Sembrano sollecitare, nella mente di chi le osserva, un'immagine di 
+movimento ascensionale.
+
+DescrSmell: 
+Avverti profumi speziati ancora più intensi
+DescrSixth:
+La forma geometrica di questo luogo sviluppa energia e forza in chi lo attraversa.
+
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.DOWN
+	Descr: Una scalinata in pietra
+End

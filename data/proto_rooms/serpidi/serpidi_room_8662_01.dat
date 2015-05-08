@@ -1,0 +1,16 @@
+Code: serpidi_room_8662_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: Una Latrina 
+Short: Una latrina 
+Descr: 
+Anche se organizzata in modo piuttosto inusuale la puzza ti fa immediatamente capire che sei in una latrina. Sui due lati c'è una specie di lunga panca con vari buchi posti a distanza regolare. Probabilmente i serpidi non hanno un senso del pudore molto spinto. 
+Exits:
+	Direction: DIR.SOUTH
+	Destination: 7 7 -2 serpidi
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

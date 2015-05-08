@@ -1,0 +1,24 @@
+Code: villaggio-zingaro-maze_room_exit-up
+Sector: SECTOR.UNDERGROUND
+Flags:	ROOM.INSIDE
+Name: Una Crepa più Larga di Altre 
+Short: una crepa ampia forse verso l'uscita
+Descr:
+Due mantelli di roccia si frangono l'uno contro l'altro ed ecco che s'origina una via verticale occlusa di sassi e ghiaia.
+Forse salendo come una talpa si può uscire di qui.
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.UP
+  Descr: All'esterno
+  Destination: 4 2 0 villaggio-zingaro
+  EntityMessage: Sali come una talpa respirando a stento e scavando ad occhi chiusi.
+  OthersInMessage: $n s'incunea nella ghiaia e sale come fosse una talpa.
+  OthersOutMessage: $n sbuca dal terreno come una talpa.
+End
+Exits:
+  Direction: DIR.DOWN
+  Descr: Il termine del cunicolo
+End

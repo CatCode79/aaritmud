@@ -1,0 +1,34 @@
+Code: villaggio-zingaro_room_villaggio-01
+Sector: SECTOR.ROAD
+Name: La Lunga Via Bigia
+Short: la bigia via
+
+Descr:
+Lunghissima strada ingrigita che passa nel mezzo del nulla, diritta in modo innaturale
+che non pare avere né principio né conclusione. In direzione nord si vede un impercettibile
+pallore azzurro mentre nella direzione opposta c'è lontano un certo denso strato verdastro
+ che si leva da terra.
+DescrNight:
+Lunga strada ingrigita che passa nel mezzo del nulla, diritta in modo innaturale
+che inizia nel buio e termina nel buio opposto. Dopo qualche istante in direzione nord par di
+vedere un impercettibile punto azzurro 
+DescrTouch: 
+Nulla di tangibile se non la diritta e piatta strada.
+DescrSixth:
+Un ronzio che è solo nella testa e mal si coniuga con tutto questo nulla.
+DescrHearing:
+Un respiro, il tuo, cerca vanamente di riempire l'ambiente con stentorei risultati.
+
+
+Width:	2m
+Depth:	1500m
+Height: 200m
+Exits:
+	Direction: DIR.NORTH
+	Descr: La strada prosegue
+        Destination: 1 2 -3 torreelementi
+End
+Exits:
+	Direction: DIR.SOUTH
+	Descr: La strada prosegue
+End

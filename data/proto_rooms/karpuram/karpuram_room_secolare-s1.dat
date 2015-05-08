@@ -1,0 +1,36 @@
+Code: karpuram_room_secolare-s1
+Sector: SECTOR.PLAIN
+Name: Sotto le Radici
+Short: sotto le radici
+
+Descr:
+Scendendo lungo la breve scaletta verticale, posi i $feet su un terreno umido e
+soffice. L'unica debole luce proviene dalla botola che hai aperto per accedere
+a questa stanza sotterranea, non ti rendi bene conto di quanto questa possa 
+essere grande...ma avverti una precisa sensazione di malessere e ti rendi
+conto che potresti non essere solo. Qualcosa o qualcuno ti stà osservando. 
+L'unica via d'uscita è verso l'alto.
+
+DescrNight:
+Scendendo lungo la breve scaletta verticale, posi i $feet su un terreno umido e
+soffice. La debole luce della notte proviene dalla botola che hai aperto per 
+accedere a questa stanza sotterranea, non ti rendi bene conto di quanto questa 
+possa essere grande...ma avverti una precisa sensazione di malessere e ti rendi
+conto che potresti non essere solo. Qualcosa o qualcuno ti stà osservando. 
+L'unica via d'uscita è verso l'alto.
+
+DescrSixth:
+Avverti una forte sensazione di pericolo e ti sembra di notare qualcosa o
+qualcuno muoversi nella parte buia della stanza di fronte a te.
+
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.UP
+  Descr: Ai piedi di una scala
+  Door: karpuram_item_segno-secret
+End
+

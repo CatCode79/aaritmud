@@ -1,0 +1,46 @@
+FunName:    social_nod
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Annuisci.
+  OthersNoArg: $n annuisce.
+  EntityFound: Annuisci a $N.
+  OthersFound: $n annuisce a $N.
+  TargetFound: $n ti annuisce.
+  EntityAuto:  Ti annuisci.
+  OthersAuto:  $n si annuisce.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Annuisci.
+  OthersNoArg: $n agita vigorosamente la testolina facendo segno di si.
+  EntityFound: Annuisci a $N.
+  OthersFound: $n per poco non perde l'equilibrio annuendo vigorosamente a $N.
+  TargetFound: $n annuisce verso di te con trasporto.
+  EntityAuto:  Annuisci concorde coi tuoi pensieri.
+  OthersAuto:  $n approva se stess$o annuendo con aria ebete.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Annuisci freddamente.
+  OthersNoArg: $n annuisce freddamente.
+  EntityFound: Annuisci freddamente a $N.
+  OthersFound: $n annuisce freddamente a $N.
+  TargetFound: $n ti annuisce freddamente.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Annuisci con cautela.
+  OthersNoArg: $n annuisce con cautela.
+  EntityFound: Guardi $N ed annuisci con cautela.
+  OthersFound: $n annuisce a $N con un gesto del muso.
+  TargetFound: $n ti scruta e ti annuisce.. ma sarà convint$o?
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Annuisci con cautela.
+  OthersNoArg: $n annuisce con cautela.
+  EntityFound: Guardi $N ed annuisci con cautela.
+  OthersFound: $n annuisce a $N con un gesto del muso.
+  TargetFound: $n ti scruta e ti annuisce.. ma sarà convint$o?
+End

@@ -1,0 +1,31 @@
+Code: elizor_room_guarnigione-ovest-02
+Sector: SECTOR.HOUSE
+Flags: ROOM.INSIDE
+Name: guarnigione-ovest-02
+Short: guarnigione-ovest-02
+
+Descr:
+Sei 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	La strada
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	La guarnigione
+End

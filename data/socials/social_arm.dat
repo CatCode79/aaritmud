@@ -1,0 +1,42 @@
+FunName:    social_arm
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Alzi un braccio come per dire.. posso?
+  OthersNoArg: $n alza un braccio.
+  EntityFound: Interrompi $N chiedendo la parola.
+  OthersFound: $n interrompe $N chiedendo la parola.
+  TargetFound: $n ti interrompe chiedendo la parola.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Chiedi con un gesto discreto che ti sia data la parola.
+  OthersNoArg: $n si sbraccia per avere la parola.
+  EntityFound: Alzi un braccio chiedendo a $N di avere la parola.
+  OthersFound: $n chiede la parola a $N sbracciandosi ed agitandosi tutt$o
+  TargetFound: $n si agita e si sbraccia per avere la parola.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Alzi il braccio per avere la parola.
+  OthersNoArg: $n alza il braccio per dire qualcosa.
+  EntityFound: Interrompi $N per dire la tua.
+  OthersFound: $n interrompe $N per dire la sua.
+  TargetFound: $n ti interrompe per dire la sua.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Alzi una zampa per chiedere parola.
+  OthersNoArg: $n alza una zampa per chiedere parola.
+  EntityFound: Interrompi $N sollevando una zampa.
+  OthersFound: $n interrompe $N sollevando una zampa per chieder parola.
+  TargetFound: $n solleva una zampa e ti interrompe per parlare.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Alzi una zampa per chiedere parola.
+  OthersNoArg: $n alza una zampa per chiedere parola.
+  EntityFound: Interrompi $N sollevando una zampa.
+  OthersFound: $n interrompe $N sollevando una zampa per chieder parola.
+  TargetFound: $n solleva una zampa e ti interrompe per parlare.
+End

@@ -1,0 +1,48 @@
+FunName:    social_dance
+Intention:  INTENTION.FRIENDLY
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Con chi potresti danzare?
+  OthersNoArg: $n sta cercando qualcuno con cui danzare..
+  EntityFound: Prendi $N strett$O a te in un dolce giro di danza.
+  OthersFound: $n prende $N strett$O a sé in un dolce giro di danza.
+  TargetFound: $n ti prende strett$O a sé in un dolce giro di danza.
+  EntityAuto:  Ti esibisci in un favoloso balletto singolo.
+  OthersAuto:  $n si esibisce in un favoloso balletto singolo.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Chi vorrà danzare con te?
+  OthersNoArg: $n fa qualche piroetta in aria ponderando un'idea furbetta.
+  EntityFound: Scegli $N come compagn$O in una vorticosa danza tradizionale pixie.
+  OthersFound: $N è disorientato dall'incessante turbinio di $n.
+  TargetFound: $n ti ronza intorno fino a che non ti gira la testa.
+  EntityAuto:  Ti lasci andare in una sfrenata esibizione.
+  OthersAuto:  $n si produce in sfrenate capriole e piroette a mezz'aria.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Danzare con qualcuno?
+  OthersNoArg: $n esorta a partecipare ad una danza tribale.
+  EntityFound: Ti lanci di fronte a $N in un'ossessiva danza mistica.
+  OthersFound: $n invasat$o si scaglia addosso a $N in un'ossessiva danza mistica.
+  TargetFound: $n invasat$o ti si scaglia addosso in un'ossessiva danza mistica.
+  EntityAuto:  La frenesia di una danza sacra ti coglie irresistibile.
+  OthersAuto:  $n esplode in una forsennata danza mistica.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Saltello di qua e di là improvvisando passi di danza.
+  OthersNoArg: $n forse è in preda alle convulsioni, si sta muovendo come una tarantola..
+  EntityFound: Ti esibisci in una tipica danza felar, davanti a $N.
+  OthersFound: $n balla per $N.. O almeno ci prova.
+  TargetFound: $n sta danzando per te.. Che carin$o.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Saltello di qua e di là improvvisando passi di danza.
+  OthersNoArg: $n forse è in preda alle convulsioni, si sta muovendo come una tarantola..
+  EntityFound: Ti esibisci in una tipica danza felar, davanti a $N.
+  OthersFound: $n balla per $N.. O almeno ci prova.
+  TargetFound: $n sta danzando per te.. Che carin$o.
+End

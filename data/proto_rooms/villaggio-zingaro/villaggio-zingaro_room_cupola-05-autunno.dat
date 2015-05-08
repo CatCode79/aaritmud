@@ -1,0 +1,35 @@
+Code: villaggio-zingaro_room_cupola-05-autunno
+Sector: SECTOR.WOOD
+Name: Nel Faggeto
+Short: nel faggeto
+
+Descr:
+Il sentiero, fattosi più stretto e ripido, si inabissa nel [darkorange]tappeto[close] di [darkorange]foglie[close] per poi riemergere in corrispondenza di qualche grosso masso ricoperto di muschio.
+DescrNight:
+Immerso nelle tenebre fatichi a seguire con lo sguardo il sentiero che si inerpica tra massi scoscesi.
+DescrSmell:
+Spalanchi le narici accogliendo l'umida fragranza di legno e foglie che sale dal terreno.
+DescrSixth:
+Capisci che un passo fuori dal sentiero potrebbe esserti fatale; la foresta sembra inghiottire qualsiasi cosa vi si addentri, anche per pochi metri.
+DescrSixthNight:
+Intuisci che girare di notte in un bosco potrebbe essere pericoloso, non solo per il rischio di perdersi, ma anche per la possibilità di incontrare qualche bestia sconosciuta per cui potresti essere un gradito spuntino di mezzanotte.
+DescrTouch:
+Strisciando i piedi e ti diverti a far volare qua e là le [peru]foglie cadute[close].
+DescrHearing:
+Camminando sei così rumoroso da aver segnalato la tua presenza a chiunque si trovi nel raggio di almeno un chilometro.
+DescrHearingNight:
+Dato che la vista, con tutto questo buio, di certo non ti aiuta rizzi le orecchie alla ricerca anche del rumore più impercettibile.
+
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+Exits:
+	Direction: DIR.EAST
+	Descr: Una radura 
+End
+Exits:
+	Direction: DIR.SOUTHWEST
+	Descr: Faggi a non finire
+End

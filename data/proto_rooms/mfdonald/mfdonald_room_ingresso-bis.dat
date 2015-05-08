@@ -1,0 +1,42 @@
+Code: mfdonald_room_ingresso-bis
+Sector: SECTOR.VILLAGE
+Name: L'Ingresso
+Short: [green]l'ingresso[close]
+Descr:
+Prode avventurier$o che hai scelto di entrare nel Nakilen; alcune informazioni che ti saranno utili per esplorare questo mondo le troverai in questa Accademia per Novizi.
+Dentro nakilen molti sono gli aspetti nuovi ai quali potrai andare incontro. Ecco quali le modalità principali per investigare:
+
+- [red]GUARDA / LOOK[close]
+- [red]ANNUSA / SMELL[close]
+- [red]ASCOLTA[close]
+- [red]TOCCA[close]
+- [red]ASSAGGIA[close]
+- [red]INTUITO[close]
+
+Già in questa misera stanza troverai che c'è più di quanto non si veda con gli occhi.
+
+DescrTouch: 
+Bene, stai cercando di toccare l'aria per vedere se quelle cinque scritte rosse sono
+sospese o appiccicate. Spiacente ma sono appiccicate al muro.
+DescrSmell: 
+Allarghi le narici e cominci ad inspirare lungamente fino a sentire un profumo di
+spezzatino provenire dal basso
+DescrSixth:
+Il tuo sesto senso ti dice che in effetti il Nakilen nasconde più di quanto credevi inizialmente
+DescrHearing:
+Ti metti in attento ascolto e senti il frinire delle cicale provenire dalla finestra
+DescrTaste:
+Provi a dare una leccata alle cinque scritte rosse sulla parete per verificare se la
+vernice è fresca. No, non è fresca.
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: In strada
+  Door: 	mfdonald_item_porta-parlante
+End
+

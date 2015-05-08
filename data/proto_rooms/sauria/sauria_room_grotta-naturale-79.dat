@@ -1,0 +1,47 @@
+Comment: 0 1|8 0
+Code: sauria_room_grotta-naturale-79
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: Grotta Naturale
+Short: grotta naturale
+
+Descr:
+A dispetto dell'ingresso, questa zona è d'origine naturale; ti trovi in un'ampia grotta in cui il gocciolio dell'acqua rimbomba ovunque. Un simbolo dall'apparenza runica rifulge qui in aria. 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 0 21891
+  Descr:	Sprazzi di memoria
+  Direction:	DIR.NORTH
+  Destination:	1 -1 10 sauria
+End
+Exits:
+  Comment:	0 0 21872
+  Descr:	Falda acquifera
+  Direction:	DIR.SOUTH
+End
+Exits:
+  Comment:	0 0 21876
+  Descr:	Grotta naturale
+  Direction:	DIR.WEST
+End
+Extras:
+  Comment:	EXTRA_COMMENT
+  Keywords:	runa simbolo
+  Descr: 
+	[red]*[green]----------------[red]* [green]|[white] -- Wunjo -- [green]| [red]*[green]----------------[red]* [green]|[white] [orange] IIII[white] [orange] [white] [green]| |[white] [orange] II II[white] [orange] [white] [green]| |[white] [orange] II[white] [orange]II[white] [green]| |[white] [orange] II[white] [orange] [white] [orange]II [white] [green]| |[white] [orange] II [white] [orange]II [white] [green]| |[white] [orange] II II[white] [green]| |[white] [orange]II II[white] [green]| |[white] [orange] IIII [white] [green]| |[white] [orange] II [white] [green]| |[white] [orange] II [white] [green]| |[white] [orange] II [white] [green]| |[white] [orange] II[white] [green]| [red]*[green]----------------[red]*[white]
+End

@@ -1,0 +1,36 @@
+Code: ikea_room_store-eq-001
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Equipment Store
+Short: equipment store
+
+Descr:
+Magazzino Ikea, Reparto [aqua]Equipaggiamento[close];
+arredamento in corso. Per soli 2 Euro ci scusiamo con la clientela; accorrete numerosi.
+La stanza viene rimessa in ordine al minuto 42 di ogni ora.
+Extras:
+	Keywords: chiave
+	Descr:
+	Nessuna chiave qui
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Al centro del magazzino
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Prosegue il reparto equipaggiamento
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Magazzino ikea
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Magazzino ikea
+End

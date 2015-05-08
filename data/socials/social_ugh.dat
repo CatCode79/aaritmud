@@ -1,0 +1,26 @@
+FunName:    social_ugh
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Deglutisci socchiudendo gli occhi.. esclamando: Ugh!"
+  OthersNoArg: $n deglutisce socchiudendo gli occhi.. esclamando: Ugh!"
+  EntityFound: Deglutisci lievemente sorpres$o verso $N.
+  OthersFound: $n deglutisce lievemente sorpres$o verso $N.
+  TargetFound: $n deglutisce lievemente sorpres$o verso di te.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Ruoti le orecchie per captare un rumorino mentre deglutisci in fretta.
+  OthersNoArg: $n ruota un poco le orecchie mentre deglutisce sospettosamente.
+  EntityFound: Deglutisci guardando $N con sospetto.
+  OthersFound: $n deglutisce mentre guarda $N con fare sospetto.
+  TargetFound: $n deglutisce mentre ti guarda con sospetto.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Ruoti le orecchie per captare un rumorino mentre deglutisci in fretta.
+  OthersNoArg: $n ruota un poco le orecchie mentre deglutisce sospettosamente.
+  EntityFound: Deglutisci guardando $N con sospetto.
+  OthersFound: $n deglutisce mentre guarda $N con fare sospetto.
+  TargetFound: $n deglutisce mentre ti guarda con sospetto.
+End

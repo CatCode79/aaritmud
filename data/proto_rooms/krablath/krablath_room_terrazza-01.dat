@@ -1,0 +1,35 @@
+Code: krablath_room_terrazza-01
+Sector: SECTOR.PLAIN
+Name: [white]La Terrazza[close]
+Short: [white]la terrazza[close]
+
+Descr: 
+La luce del sole filtra discreta tra i tralci di una lussureggiante pianta di glicine diffondendosi nella spazio sottostante. La pavimentazione si è ormai fatta da parte per lasciare posto al erba che ricopre tutto il calpestabile.
+Qui a fianco un arco di [yellowgreen]rami intrecciati[close] si apre verso una casupola dalle insolite forme.
+DescrNight:
+Negli spiragli di lasciati liberi dai tralci di glicine sopra la tua testa poi scorgere la luna che nelle notti di luna piena rischiara lo spazio sottostante.Qui a fianco oltre un ampio arco scorgi le sagome dell'interno della casa.
+DescrTouch: 
+Ti allunghi come a voler agguantare le poche propaggini che penzolano dall'alto.
+DescrSmell: 
+Una calda fragranza di pane fuoriesce dalla casa.	
+DescrHearing:
+Un incessante ronzio di operosi insetti.
+
+Width:	4m
+Depth:	3m
+Height: 5m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: In casa.
+  EntityMessage: [greenyellow]Non appena ti avvicini all'arco tante piccole appendici tentacolose fuoriescono lambendoti la $skin.[close]
+End
+Exits:
+  Direction: DIR.SOUTHEAST
+  Descr: Al terrazzo.
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Giù verso il giardino.
+End
+

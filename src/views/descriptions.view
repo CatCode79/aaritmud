@@ -1,0 +1,140 @@
+﻿<script>
+var descrs = ["descr", "descr_night", "descr_hearing", "descr_hearing_night", "descr_smell", "descr_smell_night", "descr_touch", "descr_touch_night", "descr_taste", "descr_taste_night", "descr_sixth", "descr_sixth_night"];
+
+function getPlayerCode() {
+	var players_select = document.getElementById("players");
+	var option = players_select.options[players_select.selectedIndex];
+	return $(option).text();
+}
+
+function refreshDescrs() {
+	var query = "player_code=" + getPlayerCode() + "&refresh_descrs='1'";
+	sendPostRequest("descriptions.html", query, afterRefreshDescrs);
+}
+function afterRefreshDescrs(response) {
+	var refrehs_message_span = document.getElementById("refresh_message");
+
+	try {
+		var player_descrs = eval("(" + response + ")");
+	} catch (e) {
+		refrehs_message_span.style.color = "red";
+		$(refrehs_message_span).text(response);
+		return;
+	}
+
+	var count = 0;
+	for (var i in descrs) {
+		var descr_element = document.getElementById(descrs[i]);
+		if (player_descrs && player_descrs[descrs[i]]) {
+			descr_element.value = decodeURIComponent(player_descrs[descrs[i]]);
+			count++;
+		} else {
+			descr_element.value = "";;
+		}
+	}
+
+	refrehs_message_span.style.color = "";
+	$(refrehs_message_span).text(" " + count + " descrizioni");
+}
+
+
+function saveDescrs(save_input) {
+	var query = "&player_code=" + getPlayerCode()
+	for (var i in descrs) {
+		var descr_element = document.getElementById(descrs[i]);
+		var descr = trim(descr_element.value)
+		if (descr) {
+			query += "&" + descrs[i] + "=" + encodeURIComponent(descr);
+		}
+	}
+	save_input.disabled = true;
+	$.post("descriptions.html", query, function (error) {
+		var message_span = document.getElementById(save_input.id + "_message");
+		if (message_span) {
+			if (error) {
+				message_span.style.color = "red";
+				$(message_span).text(response);
+			} else {
+				message_span.style.color = "green";
+				$(message_span).text("Descrizioni salvate");
+			}
+			resetSpan(message_span);
+		}
+		save_input.disabled = false;
+
+		var count = 0;
+		for (var i in descrs) {
+			var descr_element = document.getElementById(descrs[i]);
+			if (trim(descr_element.value)) {
+				count++;
+			}
+		}
+		var refresh_message_span = document.getElementById("refresh_message");
+		refresh_message_span.style.color = "";
+		$(refresh_message_span).text(" " + count + " descrizion" + ((count == 1) ? "e" : "i"));
+	});
+}
+</script>
+<h3>Descrizioni del Personaggio:</h3>
+<select id="players" onchange="refreshDescrs();">
+${players}
+</select><span id="refresh_message"></span><br><br>
+
+Se le descrizioni notturne non sono state definite il gioco utilizzerà al loro posto quelle diurne<br><br>
+
+Descrizione [gold]diurna[close] che viene letta con il comando ${look}:<br>
+<textarea id="descr" cols=80 rows=8></textarea>
+<br style="line-height:50%">
+e relativa [royalblue]notturna[close]:<br>
+<textarea id="descr_night" cols=80 rows=8></textarea>
+<br>
+<input type="submit" id="look" value="Salva Descrizioni" onclick="saveDescrs(this);" /> <span id="look_message"></span>
+<br><br>
+
+Descrizione [gold]diurna[close] che viene letta con il comando ${listen}:<br>
+<textarea id="descr_hearing" cols=80 rows=8></textarea>
+<br style="line-height:50%">
+e relativa [royalblue]notturna[close]:<br>
+<textarea id="descr_hearing_night" cols=80 rows=8></textarea>
+<br>
+<input type="submit" id="listen" value="Salva Descrizioni" onclick="saveDescrs(this);" /> <span id="listen_message"></span>
+<br><br>
+
+Descrizione [gold]diurna[close] che viene letta con il comando ${smell}:<br>
+<textarea id="descr_smell" cols=80 rows=8></textarea>
+<br style="line-height:50%">
+e relativa [royalblue]notturna[close]:<br>
+<textarea id="descr_smell_night" cols=80 rows=8></textarea>
+<br>
+<input type="submit" id="smell" value="Salva Descrizioni" onclick="saveDescrs(this);" /> <span id="smell_message"></span>
+<br><br>
+
+Descrizione [gold]diurna[close] che viene letta con il comando ${touch}:<br>
+<textarea id="descr_touch" cols=80 rows=8></textarea>
+<br style="line-height:50%">
+e relativa [royalblue]notturna[close]:<br>
+<textarea id="descr_touch_night" cols=80 rows=8></textarea>
+<br>
+<input type="submit" id="touch" value="Salva Descrizioni" onclick="saveDescrs(this);" /> <span id="touch_message"></span>
+<br><br>
+
+Descrizione [gold]diurna[close] che viene letta con il comando ${taste}:<br>
+<textarea id="descr_taste" cols=80 rows=8></textarea>
+<br style="line-height:50%">
+e relativa [royalblue]notturna[close]:<br>
+<textarea id="descr_taste_night" cols=80 rows=8></textarea>
+<br>
+<input type="submit" id="taste" value="Salva Descrizioni" onclick="saveDescrs(this);" /> <span id="taste_message"></span>
+<br><br>
+
+Descrizione [gold]diurna[close] che viene letta con il comando ${intuition}:<br>
+<textarea id="descr_sixth" cols=80 rows=8></textarea>
+<br style="line-height:50%">
+e relativa [royalblue]notturna[close]:<br>
+<textarea id="descr_sixth_night" cols=80 rows=8></textarea>
+<br>
+<input type="submit" id="intuition" value="Salva Descrizioni" onclick="saveDescrs(this);" /> <span id="intuition_message"></span>
+<br><br>
+
+<script>refreshDescrs();</script>
+<br>

@@ -1,0 +1,32 @@
+FunName:    social_nibble
+Intention:  INTENTION.FRIENDLY
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Mmmm hai voglia di mordicchiare qualcuno.
+  OthersNoArg: $n si guarda intorno cercando qualcuno da mordere.
+  EntityFound: Mordicchi lentamente l'orecchio di $N.. mmm che buono.
+  OthersFound: $n mordicchia teneramente l'orecchio di $N.
+  TargetFound: $n ti mordicchia un orecchio.. mmm piacevole sensazione.
+  EntityAuto:  Cerchi di mordicchiarti un orecchio.. sarai mica impazzit$o?
+  OthersAuto:  $n contrae il viso in incredibili smorfie.. ma cosa sta facendo?
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Ti lecchi le vibrisse in attesa di qualcuno da mordicchiare.
+  OthersNoArg: $n si guarda intorno con aria birbona, celando un intento morsicatorio.
+  EntityFound: Lecchi la punta dell'orecchio di $N, prima di mordicchiarlo un po'.
+  OthersFound: $n lecca e mordicchia l'orecchio di $N con innata naturalezza.
+  TargetFound: $n ti mordicchia l'orecchio delicatamente solleticandomi un po' con le vibrisse
+  EntityAuto:  Non sei così snodabile!
+  OthersAuto:  $n si abbassa la punta dell'orecchio cercando di mordersi da sol$o.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Ti lecchi le vibrisse in attesa di qualcuno da mordicchiare.
+  OthersNoArg: $n si guarda intorno con aria birbona, celando un intento morsicatorio.
+  EntityFound: Lecchi la punta dell'orecchio di $N, prima di mordicchiarlo un po'.
+  OthersFound: $n lecca e mordicchia l'orecchio di $N con innata naturalezza.
+  TargetFound: $n ti mordicchia l'orecchio delicatamente solleticandomi un po' con le vibrisse
+  EntityAuto:  Non sei così snodabile!
+  OthersAuto:  $n si abbassa la punta dell'orecchio cercando di mordersi da sol$o.
+End

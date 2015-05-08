@@ -1,0 +1,33 @@
+Code: villaggio-zingaro_room_grotta-anfratti-01
+Sector: SECTOR.UNDERGROUND
+Flags:	ROOM.INSIDE
+Name:	Verso il Labirinto
+Short: verso gli anfratti
+
+Descr:
+Un piccolo pianerottolo roccioso, la roccia frastagliata che hai di fronte è cosparsa di innumerevoli fori, squarci e fenditure; in alcuni punti pare che di comune accordo abbiamo sagomato tre larghi accessi.
+DescrSixth:
+Ora devi scegliere quale di queste vie prendere e sperare che una di queste ti riporti all'esterno.
+DescrHearing:
+Il fischio che hai udito per tutta la permanenza nella frotta giunge qui affievolito.
+
+Width:	3m
+Depth:	3m
+Height: 2m
+
+Exits:
+	Direction: DIR.EAST
+	Descr: Negli anfratti
+End
+Exits:
+	Direction: DIR.DOWN
+	Descr: Verso il centro della grotta
+End
+Exits:
+	Direction: DIR.NORTH
+	Descr: Negli anfratti
+End
+Exits:
+	Direction: DIR.NORTHEAST
+	Descr: Negli anfratti
+End

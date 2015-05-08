@@ -1,0 +1,37 @@
+Comment: 0 8|8388608 0
+Code: sauria_room_studio-ottagonale-92
+Sector: SECTOR.UNDERGROUND
+Flags:	ROOM.INSIDE
+Name: Lo Studio Ottagonale
+Short: lo studio ottagonale
+
+Descr:
+Delle scale a pianta ottagonale conducono su una lastra di cristallo trasparente sotto la quale gorgoglia un liquido azzurro. Sulla lastra sono disposti a cerchio degli scranni in pietra. La statua di un piccolo dinosauro si muove di una danza lentissima su un piedistallo al centro. Verso est si diparte una scala nera che conduce ad un portale. 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	1 0 21871
+  Descr:	Il cubicolo vuoto
+portale
+
+  Direction:	DIR.EAST
+End
+Exits:
+  Comment:	0 0 21889
+  Descr:	Cupola d'ingresso
+  Direction:	DIR.WEST
+End

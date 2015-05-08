@@ -1,0 +1,28 @@
+Code: elizor_room_shop-sarta
+Sector: SECTOR.SHOP
+Flags: ROOM.INSIDE
+Name: Le Fragranze di Alina
+Short: la profumeria
+
+Descr:
+Ciò che ti si palesa agli occhi accentua il forte contrasto con l'ambiente di piazza; una fitta serie di boccettine sfavillanti riempie di riflessi il morbido spazio che ti accoglie.
+Al centro del tempio, una sorta di altare ospita poche rare boccette di profumi con l'intento di conferire loro legittimazione al munifico prezzo.
+DescrTouch: 
+no_send
+DescrSmell: 
+Trapela anche dai cristalli sigillati il sottile sentore aromatico di inpronuncibili profumi.
+DescrSixth:
+È lecito chiedersi quale sia l'uso maggiormente in voga dei prodotti qui in vendita che possano consentire alla proprietaria l'agio e la ricchezza di cui dà sfoggio.
+DescrHearing:
+Evidentemente il fastidoso frastuno dell'esterno è sentito come tale dalla proprietaria che si deve'essere prodigata non poco per rendere tutto così silenzioso qui dentro.
+DescrTaste:
+no_send
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	L'uscita
+End

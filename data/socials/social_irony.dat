@@ -1,0 +1,28 @@
+FunName:    social_irony
+Intention:  INTENTION.NEUTRAL
+Expression: ironicamente
+Smiles:     :] :-]
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Sottolinei l'ironia con un sorrisetto malizioso.
+  OthersNoArg: $n sottolinea l'ironia con un sorrisetto malizioso.
+  EntityFound: Fai notare a $N l'ironia con un sorrisetto malizioso.
+  OthersFound: $n rivolge a $N un sorrisetto ironico.
+  TargetFound: $n sottolinea l'ironia sorridendoti maliziosamente.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Sollevi un poco un sopracciglia scrutando i presenti con sguardo sardonico.
+  OthersNoArg: $n osserva i presenti sorridendo ironicamente.
+  EntityFound: Sorridi ironicamente a $N.
+  OthersFound: $n sorride a $N con chiari intenti ironici.
+  TargetFound: $n ti sorride con tipica ironia khajit..
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Sollevi un poco un sopracciglia scrutando i presenti con sguardo sardonico.
+  OthersNoArg: $n osserva i presenti sorridendo ironicamente.
+  EntityFound: Sorridi ironicamente a $N.
+  OthersFound: $n sorride a $N con chiari intenti ironici.
+  TargetFound: $n ti sorride con tipica ironia khajit..
+End

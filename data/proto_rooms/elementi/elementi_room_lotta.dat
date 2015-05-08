@@ -1,0 +1,26 @@
+Code: elementi_room_lotta
+Sector: SECTOR.VOID, il vuoto assoluto
+Name: La Lotta Senza Fine
+Short: l'infinita lotta
+Descr:
+
+Varchi la soglia e sei catapultat$o nel pieno della lotta fra vizi e virtù in balia
+di fatale destino. Solo all'ultimo percepisci che qualcuno o qualcosa ti concede di
+tornare indietro privandoti però di qualcosa, qualcosa che era certo prezioso e già
+ora non sai più cosa fosse...
+
+Extras:
+  Keywords: qualcosa
+  Descr: Già, qualcosa...
+  DescrSixth: I vizi e le virtù si nutrono della tua esperienza, dei tuoi ricordi
+End
+
+Height: 10m
+Width:	10m
+Depth:	10m
+
+Exits:
+  Direction: DIR.DOWN
+  Descr: L'unica possibilità
+  Destination: 1 6 -3 torreelementi
+End

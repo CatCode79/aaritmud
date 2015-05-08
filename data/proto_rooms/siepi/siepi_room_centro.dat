@@ -1,0 +1,77 @@
+Code: siepi_room_centro
+Sector: SECTOR.WOOD
+Name: Il Labirinto di Akh-Dara
+Short: un garbuglio intricato
+Descr: 
+Ti trovi al centro dell'intrico, tutto intorno a te la siepe è bassa e giovane,
+probabilmente è stata messa in terra per ultima. Chi ha costruito l'intrico lo
+ha fatto stranamene partendo dalla parte esterna. Man mano che guardi lontano vedi
+la siepe che si fa via via più alta fino ad impedirti di vedere dove sia collocato
+l'intrico. Al centro una grossa quercia così antica, nodosa e bitorzoluta da poter
+essere salita senza quasi far uso delle $hands per tenersi.
+
+DescrSmell:
+L'aroma che ti accoglie è quello del fogliame secco che fa da letto al tuo camminare.
+Il vento porta con se anche il profumo di una pianta diversa da tutte quelle percepite
+finora.
+
+DescrHearing:
+Oltre al vento solo il passo di qualcuno su foglie secche... che sia il tuo?
+
+ShortNight: un intrico scuro 
+
+DescrNight:
+Ti trovi al centro dell'intrico, tutto intorno a te la siepe è bassa e giovane,
+probabilmente è stata messa in terra per ultima. Chi ha costruito l'intrico lo
+ha fatto stranamene partendo dalla parte esterna. Al centro una grossa quercia
+così antica, nodosa e bitorzoluta da poter essere salita senza quasi far uso delle
+$hands per tenersi.
+
+
+DescrHearingNight:
+Il vento sta cambiando.
+
+Extras:
+  Keywords: siepe siepi
+  Descr:
+	Tutta irta di foglioline oblunghe, molto strette e carnose.
+  DescrNight:
+	Tutta irta di foglioline piccine e carnose.
+End
+Extras:
+  Flags: EXTRA.DAY_ONLY
+  Keywords: luce 
+  Descr:
+	La luce filtra dalle fronde lontane colorandosi di verde e conferendo al panorama un aspetto
+	piuttosto monotono 
+End
+Extras:
+  Flags: EXTRA.NIGHT_ONLY
+  Keywords: ombre ombra 
+  Descr: Il movimento delle piantine dà l'impressione di un viavai continuo di piccoli animali
+End
+
+Width:	7m
+Depth:	7m
+Height: 15m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Sentieri imbrigliati da siepi
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Sentieri imbrigliati da siepi 
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Sentieri imbrigliati da siepi 
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Sentieri imbrigliati da siepi 
+End
+Exits:
+  Direction: DIR.UP
+  Descr: Verso la cima
+End

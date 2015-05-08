@@ -1,0 +1,30 @@
+Code: opekus_room_ofidian_02
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: Una Lastra Spezzata
+Short: una crepa
+
+Descr:
+Ti sei insinuat$o nella spaccatura di un possente masso nero come la pece.
+In direzione nord si sbuca oltre la crepa in qualcosa che fatichi a distinguere.
+DescrTouch:
+Ti sei insinuat$o nella spaccatura di un possente masso nero come la pece.
+Il masso è certo parte di un'opera muraria sotterranea, è un manufatto,
+forse una parte di fondamenta di qualche costruzione.
+DescrSixth:
+Stai passando attraverso ad una crepa aperta in un antico muro sommerso
+metri e metri sotto terra.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Il bordo della pietra
+End
+Exits:
+  Direction: DIR.SOUTHWEST
+  Descr: Fango e acqua
+End
+

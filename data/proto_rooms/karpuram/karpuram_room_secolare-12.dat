@@ -1,0 +1,35 @@
+Code: karpuram_room_secolare-12
+Sector: SECTOR.PLAIN
+Name: Una Piattaforma di Passaggio
+Short: una piattaforma di passaggio
+
+Descr:
+Semplice e lineare, questa piattaforma serve per collegare due stanze tra loro
+e presenta una pavimentazione di legno scuro, un corrimano di corda ben tesa
+sull'alto parapetto, una serie di lampade spente protette da un rivestimento di
+ferro sono disposte in modo sfalsato tra loro. Dalla posizione in cui ti trovi
+riesci a vedere verso ovest un ballatoio e verso nord un singolare slargo.
+
+DescrNight:
+Semplice e lineare, questa piattaforma serve per collegare due stanze tra loro
+e presenta una pavimentazione di legno scuro, un corrimano di corda ben tesa
+sull'alto parapetto, una serie di lampade protette da un rivestimento di
+ferro sono disposte in modo sfalsato tra loro, riuscendo ad illuminare ogni
+centimetro di questa piattaforma di transito quasi come fosse giorno. Dalla 
+posizione in cui ti trovi riesci a vedere verso ovest un ballatoio e verso 
+nord un singolare slargo.
+
+
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: Il terzo ballatoio
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Un posto di blocco
+End

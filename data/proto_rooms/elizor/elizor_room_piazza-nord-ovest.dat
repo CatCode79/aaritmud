@@ -1,0 +1,49 @@
+Code: elizor_room_piazza-nord-ovest
+Sector: SECTOR.CITY
+Name: La Piazza Centrale
+Short: la piazza centrale
+
+Descr:
+Lo spazio stesso che prima occupava il centro, verso la fontana, s'è spostato qui in un angolo nella vana ricerca di un alito di pace; l'entropico ordine delle cosa ha però deciso diversamente riversando qui folla brulicante punteggiata di negozi e venditori.
+Meno banale d'altri è la vetrina del negozietto qui a nord che espone, in netta controtendenza, oggetti d'uso comune.
+Per restituire degna banalità a questo scorcio di piazza, qualcuno ha aperto poco più in là un negozio di souvenir o qualcosa di simile.
+  
+DescrTouch: 
+no_send
+DescrSmell: 
+Come in altre parti della piazza qui sarebbe impossibile istruire un cane da tartufi.
+DescrHearing:
+Il rumore qui si fa meno distinguibile e più brusio.
+DescrTaste:
+no_send
+
+DescrSixth:
+no_send
+
+Extras:
+	Keywords:	vetrina
+	Descr:
+	A nord, la vetrina di una pelletteria espone borse, cinture, guanti, e alcuni pezzi d'armatura ma rigorosamente senza il cartellino dei prezzi.
+	DescrSixth:
+	Una scritta all'interno della vetrina di pelli, specifica che qui si fa vendita anche di materiali grezzi.
+End
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	La pelletteria
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	La piazza
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	La piazza
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	Il negozio di souvenir
+End

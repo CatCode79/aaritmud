@@ -1,0 +1,49 @@
+Comment: qui il grillo potrebbe essere un mob che si piglia e si mette in tasca ma si fa solo se si vede ascoltando il muschio, forse la proc potrebbe generare l'insetto
+Code: torreelementi_room_torre_4
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: la vista panoramica sul nulla
+Short: il cornicione della torre
+Descr:
+Uno stretto cornicione avvolge a tutto tondo la testa della torre; l'unica protezione
+è costituita dagli spioventi superiori. Sporgendosi troppo si può rischiare un bel volo.
+Una coltre muscosa riveste la superficie nord della parete. 
+È possibile scendere lungo l'interno della torre attraverso il piccolo pertugio che sta
+qui dietro. Quattro nicchie lungo il perimetro consentono di raggiungere il tetto tramite
+pochi bassi scalini.
+
+
+Extras:
+  Keywords: pertugio 
+  Descr: Una stretta scaletta a chiocciola scende verso il basso 
+End
+Extras:
+  Keywords: muscosa muschio muscoso
+  DescrTouch: Ti sei appena riempit$o la $hand di formiche
+  Descr: Processioni di formiche e ragnetti percorrono in senso verticale la parete
+  DescrHearing: Il muschio a quanto pare è folto quanto basta per ospitare diversi grilli
+End
+Extras:
+  Keywords: nicchia nicchie
+  DescrTouch: Fregando e grattando si toglie facilmente un pezzo di sughero
+  Descr: Un taglio irregolare nella parete della torre ne rivela la natura in sughero
+End
+Extras:
+  Keywords: panorama panoramica vista _key_room_name
+  Descr: Il nulla, una luminosità soffusa ed omogenea. La torre è ovattata e nascosta
+               al resto del mondo
+End
+
+
+Width:	7m
+Depth:	7m
+Height: 5m
+
+Exits:
+  Direction: DIR.DOWN
+  Descr: Il piano inferiore
+End
+Exits:
+  Direction: DIR.UP 
+  Descr: Il tetto 
+End

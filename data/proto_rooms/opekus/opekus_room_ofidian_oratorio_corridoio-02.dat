@@ -1,0 +1,35 @@
+Code:	opekus_room_ofidian_oratorio_corridoio-02
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il Corridoio dell'Oratorio
+Short:	il corridoio di pietra
+
+Descr:
+Il lungo tunnel prosegue per svariate lunghezze lugo la direzione est-ovest.
+A distanze fisse lungo tutto questo lato sono stati collocati numerosi accessi tutti identici.
+Sul lato opposto all'accesso, nel muro è stato ricavata una nicchia con annesso piccolo piedistallo.
+
+DescrTouch:
+Scavato nel ventre della roccia con metodi e tecniche dimenticate che hanno lasciato le superfici vetrificate;
+la nicchia invece sembra sia stata ricavata con tecniche più tradizionali a giudicare da quento è ruvida e grezza.
+
+DescrSixth:
+La nicchia curiosamente foggiata a foglia, con il picciolo allungato verso l'interno a fare da piccolo piedistallo.
+
+Width:	3m
+Depth:	2m
+Height: 2m
+
+Exits:
+	Direction:	DIR.WEST
+	Descr:	Un tunnel
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	Un tunnel
+End
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	Una celletta
+	Door:	opekus_item_door-oratorio-02
+End

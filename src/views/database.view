@@ -1,0 +1,19 @@
+<script type="text/javascript">
+function compute() {
+	if (!window.confirm("Sei sicuro di voler calcolare tutti i dati? Ci metterà un po' e laggherà il gioco.")) {
+		return;
+	}
+	window.location = "database.html?compute=True";
+}
+</script>
+<h3>Menù di Gestione del Database:</h3>
+<table border="1">
+<tr><th>Tabella</th><th>N° dati</th><th>Bytes</th><th>Azioni</th></tr>
+${database_rows}
+<tr align="center"><td>${number_of_tables}</td><td>${total_of_datas}</td><td>${total_dimension}</td><td>&nbsp;</td></tr>
+</table><br>
+
+<table border="1">
+<th>Area</th><th>Entità</th><th>N° dati</th><th>Bytes</th>
+${areas_rows}
+</table><br>

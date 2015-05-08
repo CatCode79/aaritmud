@@ -1,0 +1,85 @@
+﻿<script>
+function getFolderNames() {
+	var folder_names = []
+
+	var checkbox_elements = document.getElementsByTagName("input");
+	for (var c = 0; c < checkbox_elements.length; c += 1) {
+		if (checkbox_elements[c].type != "checkbox") {
+			continue;
+		}
+		if (checkbox_elements[c].checked) {
+			folder_names.push(checkbox_elements[c].name);
+		}
+	}
+
+	return folder_names;
+}
+
+function refreshButton() {
+	var rm_persistence_button = document.getElementById("rm_persistence_button");
+	if (!rm_persistence_button) {
+		log("[refreshButton] rm_persistence_button non è valido: " + rm_persistence_button);
+	}
+
+	var folder_names = getFolderNames()
+	if (folder_names.length == 0) {
+		rm_persistence_button.disabled = true;
+		$(rm_persistence_button).text("Rimuovi la Cartella");
+	} else if (folder_names.length == 1) {
+		rm_persistence_button.disabled = false;
+		$(rm_persistence_button).text("Rimuovi la Cartella");
+	} else {
+		rm_persistence_button.disabled = false;
+		$(rm_persistence_button).text("Rimuovi le Cartelle");
+	}
+}
+
+function confirmRmPersistence() {
+	var folder_names = getFolderNames()
+	if (!folder_names) {
+		log("[confirmRmPersistence] folder_names non è valido: " + folder_names);
+		return;
+	}
+
+	var message = "" + folder_names;
+	if (folder_names.length == 1) {
+		if (!window.confirm("Vuoi veramente rimuovere la cartella " + message + "?")) {
+			return;
+		}
+	} else {
+		message = message.replace(/,/g, ", ");
+		var last_comma_position = message.lastIndexOf(",");
+		if (last_comma_position != -1) {
+			message = message.slice(0, last_comma_position) + " e" + message.slice(last_comma_position+1);
+		}
+		if (!window.confirm("Vuoi veramente rimuovere le cartelle " + message + "?")) {
+			return;
+		}
+	}
+
+	var query = ""
+	for (n = 0; n < folder_names.length; n += 1) {
+		query += folder_names[n] + "=1&";
+	}
+
+	if (query) {
+		window.location = "rm_persistence.html?" + query + "message=" + encodeURIComponent(message);
+	} else {
+		log("[confirmRmPersistence] Inatteso, query non valida: " + query);
+	}
+
+	return false;
+}
+</script>
+<h3>Rm Persistence:</h3>
+<form>
+	<fieldset><legend>&nbsp;Scegli le cartelle che vuoi rimuovere:&nbsp;</legend>
+		<input type="checkbox" onclick="refreshButton(this);" name="rooms"> rooms</input><br>
+		<input type="checkbox" onclick="refreshButton(this);" name="items"> items</input><br>
+		<input type="checkbox" onclick="refreshButton(this);" name="mobs"> mobs</input><br>
+	</fieldset>
+	<input type="submit" id="rm_persistence_button" onclick="return confirmRmPersistence();" disabled="disabled" value="Rimuovi la Cartella" />
+</form>
+
+<br>Non vengono elencate come cartelle rimuovibili accounts e players per evitare che vengano cancellate per sbaglio.<br>
+<br>

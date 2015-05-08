@@ -1,0 +1,27 @@
+Code: deadcity_room_ns-trivio-macelleria
+Sector: SECTOR.CITY
+Name: La Via Polverosa
+Short: una strada polverosa
+
+Descr:
+Lungo la via della città abbandonata, un elemento di novità si contrappone alla monotonia
+del paesaggio; su un lato della strada spicca per pulizia e colore un sentierucolo che
+conduce ad un negozio con vetrina. Anche la sabbia senmbra meno aggressiva in questo tratto.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: In strada
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: In strada
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Una macelleria
+End
+

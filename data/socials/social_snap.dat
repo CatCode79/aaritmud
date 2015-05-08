@@ -1,0 +1,26 @@
+FunName:    social_snap
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Schiocchi le dita!
+  OthersNoArg: $n schiocca le dita!
+  EntityFound: Schiocchi le dita verso $N!
+  OthersFound: $n schiocca le dita verso $N!
+  TargetFound: $n schiocca le dita verso di te!
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Non è proprio così semplice schioccare due artigli ma provaci pur..
+  OthersNoArg: $n s'esercita nell'arte dello schiocco degli artigli.
+  EntityFound: Schiocchi due artigli verso $N, idea!
+  OthersFound: $n schiocca due artigli verso $N, come folgorat$o da una grande idea!
+  TargetFound: $n schiocca due artigli verso di te, deve esser$GLI venuta una grande idea!
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Non è proprio così semplice schioccare due artigli ma provaci pur..
+  OthersNoArg: $n s'esercita nell'arte dello schiocco degli artigli.
+  EntityFound: Schiocchi due artigli verso $N, idea!
+  OthersFound: $n schiocca due artigli verso $N, come folgorat$o da una grande idea!
+  TargetFound: $n schiocca due artigli verso di te, deve esser$GLI venuta una grande idea!
+End

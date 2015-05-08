@@ -1,0 +1,26 @@
+FunName:    social_curtsey
+Intention:  INTENTION.FRIENDLY
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Fai una riverenza verso i presenti.
+  OthersNoArg: $n rivolge una riverenza ai presenti.
+  EntityFound: Fai una riverenza verso $N.
+  OthersFound: $n fa una riverenza verso $N.
+  TargetFound: $n fa una riverenza verso di te.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Ti pieghi lievemente sulle zampe esibendo una leggiadra riverenza.
+  OthersNoArg: $n si esibisce in una graziosa riverenza piegandosi sulle zampe.
+  EntityFound: Riverisci $N piegandoti lievemente sulle zampe.
+  OthersFound: $n riverisce $N piegandosi lievemente sulle zampe.
+  TargetFound: $n ti riverisce piegandosi lievemente sulle zampette.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Ti pieghi lievemente sulle zampe esibendo una leggiadra riverenza.
+  OthersNoArg: $n si esibisce in una graziosa riverenza piegandosi sulle zampe.
+  EntityFound: Riverisci $N piegandoti lievemente sulle zampe.
+  OthersFound: $n riverisce $N piegandosi lievemente sulle zampe.
+  TargetFound: $n ti riverisce piegandosi lievemente sulle zampette.
+End

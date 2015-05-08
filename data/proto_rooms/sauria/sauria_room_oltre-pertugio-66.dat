@@ -1,0 +1,42 @@
+Comment: 85 1|8|256 0 3
+Code: sauria_room_oltre-pertugio-66
+Sector: SECTOR.CAVERN
+Name: Oltre Il Pertugio
+Short: oltre il pertugio
+
+Descr:
+Sei nell'ingresso di una piccola caverna che si snoda verso est piatta ed orizzontale. La via è larga appena da permettere il passaggio di 2 persone per volta. L'aria è calda e colma di uno sgradevole odore. 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21867
+  Descr:	Angusto passaggio
+  Direction:	DIR.EAST
+End
+Exits:
+  Comment:	1 0 21854
+rock roccia pertugio
+Vedi una roccia smossa.
+  Descr:	Un'immensa prateria
+  Direction:	DIR.WEST
+End
+Extras:
+  Comment:	EXTRA_COMMENT
+  Keywords:	odore
+  Descr: 
+	Dolciastro e opprimente come certe magie di fuoco dei maghi.
+End

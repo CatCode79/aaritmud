@@ -1,0 +1,33 @@
+Code: opekus_room_ofidian_temple_18
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Navata Inferiore 
+Short: nella cattedrale
+
+Descr:
+Il margine della navata laterale arriva sul bordo di quello che doveva essere un ciborio
+e del quale ora restano solo detriti. La parete laterale prosegue curvando ad arco fin alla
+cupola ed oltre.
+
+Extras:
+	Keywords: ciborio
+	Descr:
+	Doveva essere una struttura cilindrica disposta su diverse colonne.
+	Da questo lato si vede che è rimasto relativamente integro nella parte della cupola
+	DescrTouch:
+	L'umidità permeata nei detriti ha ridato massiccia consistenza al cumulo di
+	detriti
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: Lungo la navata inferiore
+End
+Exits:
+  Direction: DIR.SOUTHEAST
+  Descr: Verso la cupola
+End

@@ -1,0 +1,33 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<a name="wild"><h3>File della directory della wild</h3></a>
+<div>
+Questa cartella contiene tutto ciò che riguarda le informazioni wild in formato immagine e la loro gestione base.<br>
+L'immagine di wild non ha dei limiti minimi o massimi precisi, insomma più memoria potete utilizzare e più potete farla grande.<br>
+La wild implementata nel codice è a tre dimensioni, quindi i pg potranno, volando o scavando, andare realmente alle coordinate in aria o sottoterra; non è una implementazione AFKMud per chi ne sa.<br><br>
+
+File altitudes.bmp:<br>
+Rappresenta le altitudini della wild, ogni colore è un tipo di altitudine, per i mari, oceani e laghi indica la profondità.<br><br>
+
+File sectors.bmp:<br>
+Rappresenta i tipi di settori della wild, ogni colore è un tipo differente di settore.<br>
+In pratica si devono disegnare qui strade e altri tipi di settori per non andare a perdere le informazioni riguardanti le altitudini dell'altra immagine.<br><br>
+
+File count_wild_colors.py:<br>
+È uno script in python per contare quali e quanti colori vi sono nelle immagini di wild.<br><br>
+
+File create_wild_sectors.py:<br>
+Questo script in python invece serve a creare l'immagine dei settori partendo da quella delle altitudini, questo perchè io creo precedentemente quella delle altitudini da un programma di creazione mappe casuali di tipo frattale.<br><br>
+</div>
+
+<hr>
+</body>
+</html>

@@ -1,0 +1,26 @@
+Comment: stanza deputata al collegamento con altre o di accesso alla wild
+Code: torreelementi_room_link
+Sector: SECTOR.CAVERN
+Name: La fossa
+Short: Un'ampia buca
+Descr:
+Un'ampia buca si sviluppa scendendo a perpendicolo.
+Uno stretto sentiero scende a spirale fino al fondo.
+
+DescrSmell:
+Uhm... vaniglia? Forse...
+
+Width: 30m
+Depth: 30m
+Height: 100m
+
+Exits:
+  Direction: DIR.DOWN
+  Descr: Sotto si vede di sotto
+  DescrNight: Sotto non si vede nulla... è buio pesto.
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Uscire o non uscire?
+  Destination: 1 1 1 limbo
+End

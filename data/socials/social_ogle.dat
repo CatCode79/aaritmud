@@ -1,0 +1,26 @@
+FunName:    social_ogle
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Occhieggi languidamente osservando la scena..
+  OthersNoArg: $n occhieggia languidamente guardando la scena.
+  EntityFound: Guardi languidamente $N..
+  OthersFound: $n guarda $N languidamente..
+  TargetFound: $n ti guarda languidamente..
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Sbatti ripetutamente le palpebre per evitare che la polvere ti entri negli occhi.
+  OthersNoArg: $n sbatte ripetutamente le palpebre, occhieggiando ai presenti.
+  EntityFound: Socchiudi le palpebre in direzione di $N in segno di pace e tranquillità.
+  OthersFound: $n socchiude le palpebre vezzosamente verso $N.
+  TargetFound: $n socchiude le palpebre verso di te a mo' di languido occhieggiare.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Sbatti ripetutamente le palpebre per evitare che la polvere ti entri negli occhi.
+  OthersNoArg: $n sbatte ripetutamente le palpebre, occhieggiando ai presenti.
+  EntityFound: Socchiudi le palpebre in direzione di $N in segno di pace e tranquillità.
+  OthersFound: $n socchiude le palpebre vezzosamente verso $N.
+  TargetFound: $n socchiude le palpebre verso di te a mo' di languido occhieggiare.
+End

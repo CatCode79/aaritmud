@@ -1,0 +1,30 @@
+Code: torreelementi_room_strada_n
+Sector: SECTOR.PLAIN
+Name: All'Estremo Sud della Direttrice Principale 
+Short: una strada
+Descr:
+Uno scomodo ciottolato che molti chiamerebbero strada, procede in direzione nord
+senza il minimo indizio di una svolta o un cambio di pendenza.
+In direzione sud la strada termina verso un'alta torre.
+
+DescrSmell:
+Vaghi profumi di origine vegetale provengono da sud
+
+Extras:
+  Keywords: ciottolato
+  Descr: Ci si potrebbe azzoppare un cavallo già solo mandandolo al trotto
+End
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: La strada
+  Destination: 2 -7 0 opekus 
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: La torre
+End

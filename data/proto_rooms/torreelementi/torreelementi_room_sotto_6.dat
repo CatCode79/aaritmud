@@ -1,0 +1,33 @@
+Code: torreelementi_room_sotto_6
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Il passaggio umido
+Short: un corridoio umido
+Descr:
+Sei in un passaggio che per quanto sia ampio e largo è ugualmente segnato da numerosi
+graffi e sfregi orizzontali lungo le pareti. Sul pavimento qua e là tracce di terriccio
+umido e paglia ciancicata. La luminosità cresce man mano che si procede in direzione est.
+ 
+Extras:
+  Keywords: umido umidità
+  DescrSmell: Odore di muffa... ma non la muffa... uhm... boh...
+  Descr: Si fatica un po' a respirare con tutta questa umidità
+  DescrSixth: Questo è odore di funghi
+End
+Extras:
+  Keywords: graffi sfregi
+  Descr: Un tempo la parete era bianca a giudicare dalla parte alta delle pareti
+End 
+
+Width:	7m
+Depth:	4m
+Height: 2m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: Un trivio
+End
+Exits:
+  Direction: DIR.DOWN
+  Descr: Un pozzo
+End

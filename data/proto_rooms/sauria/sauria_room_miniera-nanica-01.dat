@@ -1,0 +1,26 @@
+Code: sauria_room_miniera-nanica-01
+Sector: SECTOR.UNDERGROUND
+Flags:	ROOM.INSIDE
+Name:	Una Frattura nella Roccia
+Short:	una frattura nella roccia
+
+Descr:
+Nel cunicolo roccioso si apre verso il basso una crepa sempre più ampia che rivela un accesso sotterraneo antecedente all'edificazione della miniera.
+DescrSmell: 
+Percepisci una vaga fragranza di vaniglia... 
+DescrHearing:
+Dal basso proviene un debole rumore d'acqua che scorre.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Descr:	Un accesso lungo la frattura
+  Direction:	DIR.DOWN
+End
+Exits:
+  Comment:	0 -1 21801
+  Descr:	Prosegue la miniera
+  Direction:	DIR.SOUTH
+End

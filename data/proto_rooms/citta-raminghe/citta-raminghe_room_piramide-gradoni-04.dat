@@ -1,0 +1,24 @@
+Code: citta-raminghe_room_piramide-gradoni-04
+Sector: SECTOR.CITY
+Name: [gold]La Sommità della Piramide[close]
+Short: [gold]in cima alla piramide[close]
+
+Descr:
+Sei arrivato in cima alla piramide. Noti una piccola costruzione di modeste dimensioni al centro di uno spazio abbastanza 
+esteso e piatto. Il sole illumina intorno un [lime]paesaggio[close] che si estende a perdita d'occhio e che ti lascia senza 
+fiato.
+DescrNight:
+Sei arrivato in cima alla piramide. Noti una piccola costruzione di modeste dimensioni al centro di uno spazio abbastanza 
+esteso e piatto. Da qui puoi osservare, come gli antichi sacerdoti, i [yellow]corpi celesti[close] e i loro movimenti per 
+intuirne le leggi o per trarne auspici e profezie. 
+ 
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.DOWN
+	Descr: Una lunghissima scalinata in pietra
+        Destination: 14 2 0 citta-raminghe
+End

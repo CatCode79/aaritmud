@@ -1,0 +1,62 @@
+Code: karpuram_room_secolare-26
+Sector: SECTOR.PLAIN
+Name: La Stanza Reale
+Short: la stanza reale
+
+Descr:
+Questa sala trasuda regalità da ogni oggetto e parte che la forma, sontuose e
+pregiate le tavole di legno che compongono il pavimento. Alle pareti vi sono
+degli arazzi con stemmi e disegni che raffigurano scene di vita dove sono sempre
+presenti due figure che si distinguono dalle altre. Al centro della sala vi sono
+due troni di legno chiarissimo, leggermente rialzati da terra grazie ad una
+pedana coperta totalmente da un [red]tappeto[close] di seta rosso. Due larghi
+bauli di legno scuro sono simmetricamente posizionati ai due lati della stanza
+e sono costantemente controllati da quattro elfi alti vestiti con abiti da
+cerimonia. L'unico modo per uscire da questo posto è di tornare in basso verso
+la sala del consiglio
+
+DescrNight:
+Questa sala trasuda regalità da ogni oggetto e parte che la forma, sontuose e
+pregiate le tavole di legno che compongono il pavimento. Alle pareti vi sono
+degli arazzi con stemmi e disegni che raffigurano scene di vita dove sono sempre
+presenti due figure che si distinguono dalle altre. Al centro della sala vi sono
+due troni di legno chiarissimo, leggermente rialzati da terra grazie ad una
+pedana coperta totalmente da un [red]tappeto[close] di seta rosso. Due larghi
+bauli di legno scuro sono simmetricamente posizionati ai due lati della stanza
+e sono costantemente controllati da quattro elfi alti vestiti con abiti da
+cerimonia. La sala è illuminata a giorno da una serie di lampade di ferro scuro
+poste lungo tutto il perimetro e dalla luce notturna che proviene dalla parte
+superiore della stanza attraverso una miriade di piccoli fori. L'unico modo per
+uscire da questo luogo è di tornare in basso alla sala del consiglio.
+
+DescrSixth:
+Osservando le figure riprodotte dagli arazzi, ti sembra di ricordare di averle
+già viste girare tra le piattaforme dell'albero e all'interno del bosco.
+
+Extras:
+	Keywords: primo baule, baule destra
+	Descr: 
+	Questo baule di legno scuro è bloccato da una lamina di ferro scuro che
+	percorre tutta la parte superiore dello stesso, all'estremità di questa
+	si trova un grosso lucchetto di bronzo privo di serratura
+End
+
+Extras:
+	Keywords: secondo baule, baule sinistra
+	Descr: 
+	Questo baule di legno scuro è fermato da una sottile lamina dorata che
+	percorre tutta la parte superiore dello stesso, all'estremità di questa
+	si trova un grosso lucchetto di bronzo privo di serratura
+End
+
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+
+Exits:
+  Direction: DIR.DOWN
+  Descr: La sala del consiglio
+  Door: karpuram_item_lampadario-secret
+End

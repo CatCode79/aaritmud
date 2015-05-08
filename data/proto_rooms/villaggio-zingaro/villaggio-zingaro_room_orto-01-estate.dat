@@ -1,0 +1,41 @@
+Code: villaggio-zingaro_room_orto-01-estate
+Sector: SECTOR.FARMLAND
+Name: L'Orto Comune 
+Short: un orto
+
+Descr:
+Un modesto campo recintato da uno [rosybrown]steccato[close] messo insieme alla bell'e meglio; è ordinatamente ripartito in piccoli settori separati tra loro da sentierini creati per potervi accedere comodamente. Rigogliosi ortaggi spuntano nella nella maggior parte dei [saddlebrown]riquadri[close] mentre alcuni sono vuoti e la terra sembra appena smossa.
+DescrTouch: 
+Affondi le $hands nella [saddlebrown]terra[close] scura insozzandole tutte.
+DescrSmell: 
+Una leggera brezza porta un lieve fetore di marciume.
+DescrSixth:
+Non visto potresti arrischiarti di sgraffignare qualcuno di questi invitanti ortaggi.
+DescrHearing:
+Avverti un lontano gracchiare di uccelli.
+DescrTaste:
+Porti alla bocca una manciata di terra e sa di..terra, strano vero?!
+
+Extras:
+	Keywords: steccato
+	Descr:
+	Un malridotto steccato formato da assi di legno, alcune sono marce e sembrano cedere da un momento all'altro. Il tutto è tenuto insieme da chiodi arrugginiti probabilmente recuperati per l'occasione.
+	DescrHearing:
+	Appena ti appoggi un allarmante scricchiolio ti intima di evitare pressioni.
+	DescrTouch:
+	Ogni toccata è una spina assicurata!
+	DescrSixth:
+	Date le condizioni precarie intuisci che non è stato di certo costruito per evitare l'ingresso ad individui indesiderati.
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+Exits:
+	Direction: DIR.NORTH
+	Descr: La strada
+End
+Exits:
+	Direction: DIR.EAST
+	Descr: Un orto
+End

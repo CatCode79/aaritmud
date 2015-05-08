@@ -1,0 +1,24 @@
+Code: villaggio-zingaro_room_accesso-miniera
+Sector: SECTOR.ROAD
+Name: Ai Piedi della Collina
+Short: ai piedi della collina
+
+Descr:
+La strada salendo le prime pendici della collina ad est, serpeggia svogliata fino ad un altezza risibile; l'ultima svolta s'incunea cruda dentro la collina in un apertura rocciosa che vedi poco oltre.
+DescrSmell: 
+Ancor non si fa sentire l'odore boschivo che qualche folata di trasudo fetido giunge da est.
+DescrSixth:
+La strada non sembra di frequentazione massiva tanto che l'erba riesce ancora a crescere non solo ai bordi ma anche a centro strada.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+Exits:
+	Direction: DIR.WEST
+	Descr: La via procede pianeggiante
+End
+Exits:
+	Direction: DIR.EAST
+	Descr: L'apertura nella collina
+	Destination: 0 0 0 miniere-kezaf
+End

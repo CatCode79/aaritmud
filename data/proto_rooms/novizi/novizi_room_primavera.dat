@@ -1,0 +1,41 @@
+Code: novizi_room_primavera
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: [lawngreen]La Primavera in Festa[close]
+Short: [lawngreen]la primavera in festa[close]
+
+Descr:
+Sei nell'ala dedicata alla [lawngreen]primavera[close], ove sono disposti in bella vista i simboli e i
+prodotti associati alla stagione. Il pavimento è stato coperto da un praticello d'[lawngreen]erba
+rasata[close], qui e là monticcioli di pietre bianco splendenti fanno da supporto a ceste di
+frutta e verdura. A copertura delle pareti c'è tutto un intreccio di [purple]convolvolo[close] in [purple]fiore[close].
+DescrSmell: 
+Il profumo del [purple]convolvolo[close] si spande ovunque. 
+
+Extras:
+	Keywords: convolvolo
+	Descr:
+	È così fitto e spesso che non si vede proprio la parete dove si è arrampicato.
+	DescrSmell:
+	Splendidamente floreale
+	DescrTouch:
+	Chissà quanti insetti attira
+End
+Extras:
+	Keywords: erba
+	Descr:
+	Guardando bene si riconoscono i tagli quadrati che son stati disposti a pavimentare
+	tutta la zona
+	DescrTouch:
+	Soffice soffice, sarebbe da collaudarla con un bel pisolino
+End
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: Alla stanza dei pilastri
+End

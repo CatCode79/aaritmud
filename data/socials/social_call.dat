@@ -1,0 +1,30 @@
+FunName:    social_call
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Chi dovresti richiamare?
+  OthersNoArg: $n cerca di richiamare l'attenzione dei presenti.
+  EntityFound: Richiami l'attenzione di $N sfiorando la sua spalla con le dita.
+  OthersFound: $n richiama l'attenzione di $N sfiorando la sua spalla con le dita.
+  TargetFound: $n ti richiama sfiorandoti la spalla con le dita.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Lanci un fischio cercando di attirare l'attenzione.
+  OthersNoArg: $n prorompe in un basso miagolio, cercando d'attirare l'attenzione.
+  EntityFound: Fai TAP TAP sulla spalla di $N con la zampa.
+  OthersFound: $n zampetta la spalla di $N cercando d'attirare la sua attenzione.
+  TargetFound: $n cerca di farsi notare picchiettandoti la spalla con la sua zampa.
+  EntityAuto:  Ti dai simpatiche pacche sulle spalle, per cercare d'ascoltarti.
+  OthersAuto:  $n si dà delle zampate sulle spalle.. A che pro?
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Lanci un fischio cercando di attirare l'attenzione.
+  OthersNoArg: $n prorompe in un basso miagolio, cercando d'attirare l'attenzione.
+  EntityFound: Fai TAP TAP sulla spalla di $N con la zampa.
+  OthersFound: $n zampetta la spalla di $N cercando d'attirare la sua attenzione.
+  TargetFound: $n cerca di farsi notare picchiettandoti la spalla con la sua zampa.
+  EntityAuto:  Ti dai simpatiche pacche sulle spalle, per cercare d'ascoltarti.
+  OthersAuto:  $n si dà delle zampate sulle spalle.. A che pro?
+End

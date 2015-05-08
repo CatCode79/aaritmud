@@ -1,0 +1,26 @@
+﻿<center><h3>CREAZIONE NUOVO ACCOUNT</h3></center>
+<div class="block" id="create_account" style="width:49%; float:left">
+	<div class="block_title">Crea un Account per poter giocare:</div>
+	<div class="block_text">
+		<img class="tag" src="tags/create_account.png">
+		Crea un nuovo account per poter giocare ad ${game_name}!<br>
+		Potrai così gestire più personaggi di razze fantasy differenti esplorando il mondo di [white]Nakilen[close].
+	</div>
+	<div class="block_submit">
+		<input type="submit" value="Crea l'Account" onclick="location.href='create_account.html'" />
+	</div>
+</div>
+<div class="block" id="lost_password" style="width:49%; float:right">
+	<div class="block_title">Se hai dimenticato Nome o Password:</div>
+	<div class="block_text">
+		<img class="tag" src="tags/lost_password.png">
+		Se ti sei dimenticato il nome di login del tuo Account o la relativa password allora puoi recuperare i dati cliccando qui sotto:
+	</div>
+	<div class="block_submit">
+		<input type="submit" value="Recupera i Dati" onclick="location.href='lost_password.html'" />
+	</div>
+</div>
+<script>
+$(document).ready(resizeBlocksInPairs("create_account", "lost_password"));
+$(document).resize(resizeBlocksInPairs("create_account", "lost_password"));
+</script>

@@ -1,0 +1,41 @@
+Code: elizor_room_piazza-sud
+Sector: SECTOR.CITY
+Name: La Piazza Centrale
+Short: la piazza centrale
+
+Descr:
+Poco lontano dalla fontana la piazza prosegue verso il suo estremo più meridionale congiungendosi con la direttrice sud.
+Il selciato consunto dal passaggio dei carri e dei convogli fa presumere che andando verso a sud vi siano le zone più ricche.
+DescrTouch: 
+no_send
+DescrSmell: 
+Arduo il mestiere di chi lavora con l'olfatto in questa piazza calderone e campionario disordinato di tutte le essenze, gli effluvi e le impronte pestilenziali della città.
+Di certo in questo snodo confluisce di tutto.
+DescrHearing:
+Di quando in quando lo scroscio della fontana fa sentire il suo diritto ad occupare uno parte del tuo specchio sonoro; non dura che un breve sprazzo di tempo che le contrattazioni s'infittiscono di nuovo.
+DescrTaste:
+La lingua che sporge per poco tempo qui e niente sarà più come prima.
+Un acre sublimato del sudore di ogni creatura arriva ai tuoi gangli più privati convincendoti ancor di più di non voler reiterare l'esperienza.
+DescrSixth:
+Viene alla mente l'immagini di qualcuno indispettito da quegli spazi fastidiosamente vuoti tutto teso a riempirli del brluicante bazar di negozi, ambulanti e ciarpame.
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	La piazza maggiore
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	L'angolo sud-est della piazza
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	La direttrice nord-sud
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	L'angolo sud-ovest della piazza
+End

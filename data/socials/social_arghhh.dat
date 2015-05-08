@@ -1,0 +1,26 @@
+FunName:    social_arghhh
+Intention:  INTENTION.AGGRESSIVE
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: ARRRRRRRRRRGH!!!!!
+  OthersNoArg: $n urla ad alta voce: AAARRRGHHHH!!!!
+  EntityFound: Urli rivolt$x a $N : ARRRRRRRRRRGH!!!!!
+  OthersFound: $n urla rivolt$x a $N : ARRRRRRRRRRGH!!!!!
+  TargetFound: $n ti urla in faccia: AAAAARRRGHHHH!!!
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: MIARRRRRRRRRRGH!!!!!
+  OthersNoArg: $n urla miagolando ad alta voce: MIAAARRRGHHHH!!!!
+  EntityFound: Urli miagolando rivolt$x a $N : MIARRRRRRRRRRGH!!!!!
+  OthersFound: $n urla miagolando rivolt$x a $N : MIARRRRRRRRRRGH!!!!!
+  TargetFound: $n ti urla miagolando in faccia: MIAAAAARRRGHHHH!!!
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: MIARRRRRRRRRRGH!!!!!
+  OthersNoArg: $n urla miagolando ad alta voce: MIAAARRRGHHHH!!!!
+  EntityFound: Urli miagolando rivolt$x a $N : MIARRRRRRRRRRGH!!!!!
+  OthersFound: $n urla miagolando rivolt$x a $N : MIARRRRRRRRRRGH!!!!!
+  TargetFound: $n ti urla miagolando in faccia: MIAAAAARRRGHHHH!!!
+End

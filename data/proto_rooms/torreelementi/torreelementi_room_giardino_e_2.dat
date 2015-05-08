@@ -1,0 +1,26 @@
+Code: torreelementi_room_giardino_e_2
+Sector: SECTOR.PLAIN
+Name: La Fratta
+Short: Una macchia naturale
+ShortNight: Una macchia tetra
+Descr:
+Trovi qui un avvallamento del terreno che, rotto scosceso e intricato di sterpi, rende
+poco agevole attraversarlo. Sembra che procedere verso est non porti da nessuna parte.
+A sudest piuttosto si apre un sentiero in salita che pare di buon auspicio.
+DescrNight:
+Il terreno digrada verso il basso e non ti fidi a procedere oltre a causa di sterpi, rami ed
+altre difficoltà. Procedere verso est non può che portare un sacco di fastidi.
+
+Extras:
+  Keywords: sterpi
+  Descr: Probabilmente tutti i rami scartati e i vari sfalci han sentito il desiderio di attecchire.
+End
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: Un campo coltivato
+End

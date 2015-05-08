@@ -1,0 +1,96 @@
+Comment:
+Qui l'evoluzione delle 4 uscite laterali è in fase di discussione e quindi temporaneamente ferma in termini di sviluppo
+FUOCO
+ACQUA immagine o asciiart di qualcosa di legato all'acqua, è l'ingresso della zona fatta di ruscelli
+ARIA qui sarebbe carino un albero sbatacchiato dal vento impresso sulla porta (zona dei venti [DersuUzala nella tormenta])
+TERRA montagna brulla (zona dei fiori, zone impervie massi con graniti coperti da licheni gialli)
+
+Code: torreelementi_room_torre_3
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: il bianco sentiero sul circolo d'acqua
+Short: Un corso d'acqua circolare
+Descr: 
+Un largo ballatoio a guisa di corridoio circolare descrive tutto il perimetro del piano.
+Un corso d'acqua trasparentissima percorre il perimetro; Numerosi sassi bianchi
+emergono dall'acqua, disegnando un articolato sentiero. Alle quattro finestre aperte
+sull'esterno si alternano quattro arcate. Possenti cardini in metallo sorreggono
+i relativi portali.
+Una balaustra di glicini è disposta circolarmente verso l'interno e consente di scorgere
+i piani sottostanti della torre e la zona superiore.
+
+Extras:
+  Keywords:	superiore zona
+  Descr: Superiormente il tetto ha un foro circolare che consente all'acqua piovana di entrare
+End
+Extras:
+  Keywords: piani sottostanti
+  Descr: Si vede fino al pavimento ove c'è una vasca di raccolta, c'è tanta vegetazione che pare
+               di essere all'esterno 
+End
+Extras:
+  Keywords: sassi bianchi
+  Descr: Piatti, stabili e disposti a breve distanza l'uno dall'altro
+End
+Extras:
+  Keywords: finestre
+  Descr: I sassi consentono di avvicinarsi a ciascuna delle finestre per poter vedere all'esterno
+End
+Extras:
+  Keywords: arcate portali
+  Descr: Portali a doppi battenti imperniati su cardini in metallo, ciascun portale reca iscrizioni
+End
+
+Width:	7 m
+Depth:	7 m
+Height: 5 m
+
+Exits:
+  Direction: DIR.DOWN
+  Descr: Il piano inferiore
+End
+Exits:
+  Direction: DIR.NORTH 
+  Descr: Rigurgiti di fiamma lambiscono impotenti la via d'accesso
+  Door: torreelementi_item_portale-torre-fuoco
+  Destination: 0 0 0 elementi
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Una fitta pioggia cerca di proteggere l'accesso
+  Door: torreelementi_item_portale-torre-acqua 
+  Destination: 0 0 0 elementi
+
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: La via misteriosa
+  Door: torreelementi_item_portale-torre-noce
+	Destination:	0 0 5 elementi
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Sprazzi giallognoli ammantano le immediate vicinanze
+  Door: torreelementi_item_portale-torre-zolfo
+  Destination: 0 0 0 elementi
+End
+Exits:
+  Direction: DIR.UP
+  Descr: Dovremmo essere quasi in cima oramai
+End
+Exits:
+  Direction: DIR.NORTHEAST 
+  Descr: Una terrazza circolare
+End
+Exits:
+  Direction: DIR.SOUTHEAST
+  Descr: Una terrazza circolare
+End
+Exits:
+  Direction: DIR.NORTHWEST
+  Descr: Una terrazza circolare
+End
+Exits:
+  Direction: DIR.SOUTHWEST
+  Descr: Una terrazza circolare
+End

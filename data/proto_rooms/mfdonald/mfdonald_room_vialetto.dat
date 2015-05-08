@@ -1,0 +1,51 @@
+Code: mfdonald_room_vialetto
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Il Vialetto di Casa Entropy
+Short: Il vialetto di casa Entropy
+
+Descr:
+Sei lungo il vialetto di casa dello zio, incrocia le dita e spera.
+Verso est si va in direzione del negozio. Verso ovest si va nella direzione sbagliata.
+prova ne è questa scritta sotto la freccia che indica l'ovest
+[yellow]if[close] $n != Entropy [yellow]then[close] nuke $n [yellow]else[close] greetings $n.
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Extras:
+	Keywords: chiave
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: Verso casa entropa
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Nella direzione del negozietto
+End
+

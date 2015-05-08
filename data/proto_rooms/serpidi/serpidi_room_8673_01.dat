@@ -1,0 +1,16 @@
+Code: serpidi_room_8673_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: Un sala mensa 
+Short: Un sala mensa 
+Descr: 
+Questa enorme sala deve essere il posto dove i serpidi consumano i loro pasti in comune. Ci sono moltissimi tavoli e sedie, armadi lungo le pareti che probabilmente contengono il vasellame. Il tutto è tenuto piuttosto pulito ed ordinato. 
+Exits:
+	Direction: DIR.SOUTH
+	Destination: -1 7 -2 serpidi
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

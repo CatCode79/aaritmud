@@ -1,0 +1,35 @@
+Code: mfdonald_room_oggetto_nascosto
+Sector: SECTOR.AIR
+Name: Stanza dell'Oggetto Nascosto
+Short: la stanza dell'oggetto nascosto
+Descr: 
+Questa è la stanza ove all'inizio son resettati degli oggetti con flag NO.LOOK_LIST.
+Gli oggetti sono un cavatappi a forma di farfalla e un apribottiglie a bruco nascosto
+nel vaso di fiori.
+CHK:
+#mfdonald_item_apribottiglie_farfalla#ok, @ è in terra#no, qualcuno ha tolto l'apribottiglie a bruco#
+#mfdonald_item_cavatappi_farfalla#ok, @ è in terra#no, qualcuno ha tolto il cavatappi a farfalla#
+
+<pre class="asciiart">
+.                    _
+.                  _(_)_                          [blue]wWWWw[close]   _
+.      @@@@       (_)[red]@[close](_)   vVVVv     _     @@@@  (___) _(_)_
+.     @@[yellow]()[close]@@ [blue]wWWWw[close]  (_)\    (___)   _(_)_  @@[yellow]()[close]@@   Y  (_)[red]@[close](_)
+.      @@@@  (___)     `|/    Y    (_)[red]@[close](_)  @@@@   \|/   (_)\
+.       /      Y       \|    \|/    /(_)    \|      |/      |
+.[green]    \ |     \ |/       | / \ | /  \|/       |/    \|      \|/[close]
+.[green]    \\|//   \\|///  \\\|//\\\|/// \|///  \\\|//  \\|//  \\\|//[close]
+.[maroon]^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[close]
+</pre>
+
+Width:	7m
+Depth:	7m
+Height: 5m
+
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Fuori di qui
+  Door:	mfdonald_mob_door-barbamamma
+End
+

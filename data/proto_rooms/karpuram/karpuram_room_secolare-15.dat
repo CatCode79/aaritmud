@@ -1,0 +1,41 @@
+Code: karpuram_room_secolare-15
+Sector: SECTOR.PLAIN
+Name: Un Secondo Magazzino
+Short: un secondo magazzino
+
+Descr:
+Accedi a questo ripostiglio dal varco naturale ad est, ricavato con cura 
+incidendo le assi di scuro legno. La stanza è semplice e disadorna, ma presenta
+sulla parete ovest un grande assembramento di archi di diverse misure e forme. 
+Da una cassa posizionata sulla tua destra, fuoriescono faretre e frecce dalle
+molteplici colorazioni. La parte centrale del tetto, formato da foglie e liane
+fermate tra loro con nodi di diversa forma, è forata e da essa trapela lieve
+la luce del giorno. Subito sotto l'apertura a cielo aperto si trova un grosso
+lupo nero in posizione di riposo che inizia ad osservarti non appena fai 
+capolino dall'ingresso, mentre un elfo molto alto e snello è intento a 
+controllare le armi e ti sta voltando le spalle.
+
+DescrNight:
+Accedi a questo ripostiglio dal varco naturale ad est, ricavato con cura 
+incidendo le assi di scuro legno. La stanza è semplice e disadorna, ma presenta
+sulla parete ovest un grande assembramento di archi di diverse misure e forme. 
+Da una cassa posizionata sulla tua destra, fuoriescono faretre e frecce dalle
+molteplici colorazioni. La parte centrale del tetto, formato da foglie e liane
+fermate tra loro con nodi di diversa forma, è forata e da essa trapela lieve
+la luce notturna. Subito sotto l'apertura a cielo aperto si trova un grosso
+lupo nero in posizione di riposo che inizia ad osservarti non appena fai 
+capolino dall'ingresso, mentre un elfo molto alto e snello è intento a 
+controllare le armi e ti sta voltando le spalle.
+
+DescrSixth:
+Percepisci una sorta di silenziosa comunicazione tra il lupo e l'elfo, anche se
+alle tue orecchie non sembra sia giunto alcun suono.
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Un posto di blocco
+End

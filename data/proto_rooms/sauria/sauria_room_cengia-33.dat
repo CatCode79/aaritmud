@@ -1,0 +1,32 @@
+Comment: 85 4 5
+Code: sauria_room_cengia-33
+Sector: SECTOR.ROCKY
+Name: Una Cengia
+Short: una cengia
+
+Descr:
+Ti trovi su una cornice di roccia a circa venti metri sulla pendice orientale del vulcano. Alcuni brandelli di cadavere suggeriscono che qualcuno o qualcosa abbia mangiato qui recentemente. La via prosegue in salita sul versante sud del vulcano. 
+DescrTouch: 
+Salire fin qui non è stato difficoltoso, chissà la discesa.
+DescrSmell: 
+Folate da ovest indicano che è stato sparso del sangue recentemente.
+DescrSixth:
+La discesa non dovrebbe essere difficoltosa se il vento non ti strappa dalla parete.
+DescrHearing:
+Il vento mugghia da ovest accarezzando come una lama la roccia dove cammini, a tratti pare che tu non gli vada a genio tanto da volerti strappare dall'appoggio per ributtarti in basso.
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21834
+  Descr:	Una cengia
+  Direction:	DIR.SOUTH
+End
+Exits:
+  Comment:	0 -1 21832
+  Descr:	Ai piedi del vulcano
+  Direction:	DIR.DOWN
+End

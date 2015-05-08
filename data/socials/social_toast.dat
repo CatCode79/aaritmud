@@ -1,0 +1,52 @@
+FunName:    social_toast
+Intention:  INTENTION.FRIENDLY
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Brindi con tutti.
+  OthersNoArg: $n brinda con tutti.
+  EntityFound: Brindi con $N.
+  OthersFound: $n e $N brindano assieme.
+  TargetFound: $n brinda con te.
+  EntityAuto:  Brindi alla tua salute.
+  OthersAuto:  $n brinda con tutti alla sua salute.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Proponi un brindisi.
+  OthersNoArg: $n vola al di sopra delle teste e propone un brindisi con entusiasmo.
+  EntityFound: Brindi con $N.
+  OthersFound: $n brinda con $N tra urletti di giubilio.
+  TargetFound: $n brinda con te lanciando urletti di giubilio.
+  EntityAuto:  Brindi alla tua!
+  OthersAuto:  $n propone un brindisi alla sua.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Sollevi il calice con la $hand.
+  OthersNoArg: $n solleva alto il calice.
+  EntityFound: Sollevi il calice verso $N fissandol$O negli occhi.
+  OthersFound: $n solleva il calice verso $N fissandol$O negli occhi.
+  TargetFound: $n alza il calice nella tua direzione fissandoti.
+  EntityAuto:  Alla tua salute!
+  OthersAuto:  $n esorta ad un brindisi alla sua salute.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Ti piacerebbe brindare con qualcuno..
+  OthersNoArg: $n cerca qualcuno con cui brindare.
+  EntityFound: Sollevi il tuo calice e brindi festosamente assieme a $N.
+  OthersFound: $n solleva il calice verso $N proponendo un brindisi.
+  TargetFound: $n brinda verso di te tenendo il calice fra le zampe.
+  EntityAuto:  Brindi a te stess$o e alla tua perfezione.
+  OthersAuto:  $n propone un brindisi a se stess$o.. Qualcuno partecipa?
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Ti piacerebbe brindare con qualcuno..
+  OthersNoArg: $n cerca qualcuno con cui brindare.
+  EntityFound: Sollevi il tuo calice e brindi festosamente assieme a $N.
+  OthersFound: $n solleva il calice verso $N proponendo un brindisi.
+  TargetFound: $n brinda verso di te tenendo il calice fra le zampe.
+  EntityAuto:  Brindi a te stess$o e alla tua perfezione.
+  OthersAuto:  $n propone un brindisi a se stess$o.. Qualcuno partecipa?
+End

@@ -1,0 +1,152 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<h2>Indice delle Etichette per i labirinti (Maze).</h2>
+<div>
+<a href='#Comment'><span class='label'>Comment</span>:</a><br>
+<a href='#DayWeek'><span class='label'>DayWeek</span>:</a><br>
+<a href='#RemakeHour'><span class='label'>RemakeHour</span>:</a><br>
+<a href='#RemakeMessage'><span class='label'>RemakeMessage</span>:</a><br>
+<a href='#Columns'><span class='label'>Columns</span>:</a><br>
+<a href='#Rows'><span class='label'>Rows</span>:</a><br>
+<a href='#CodePrefix'><span class='label'>CodePrefix</span>:</a><br>
+<a href='#DeadEntity'><span class='label'>DeadEntity</span>:</a><br>
+<a href='#Passages'><span class='label e Numero intero positivo'>Passages</span>:</a><br>
+</div>
+<br>
+
+<hr>
+<h2>Note Riguardo il Maze.</h2>
+<div>
+<span class="label">Maze</span> &egrave; un'etichetta che rappresenta una struttura di pi&ugrave; sottoetichette, e quindi abbisogna dell'etichetta <span class="label">End</span> per terminarne la definizione.<br>
+Il Maze consente di creare labirinti a pianta rettangolare costituiti da room inserite casualmente e che mutano nel tempo ad orari prefissati.<br>
+Per poter otenere il prprio maze &egrave; indispensabile per prima cosa realizzare le room prototipo necessarie. Esse sono 16:<br>
+quattro room con una sola uscita,<br>
+sei room con due uscite,<br>
+quattro room con tre uscite,<br>
+una room con quattro uscite,<br>
+una room priva di uscite.<br>
+una volta decise le misure del labirinto &egrave; possibile decidere quanti e quali accessi inserire.<br>
+Quali che siano gli accessi &egrave; garantito di poter accedere a qualunque room del labirinto partendo da un'altra sua room arbitraria.<br>
+La struttura <span class="label">Maze</span><br> va collocata in un file area; per quanto non sia obbligatorio &egrave; altamante consigliabile dedicare un'area a s&eacute; al labirinto per evitare subdole sovrapposizioni di coordinate fra le room collocate dallo script del maze e quelle collocate direttamente dal builder. Fanno eccezione gli accessi e le altre room dell'etichetta Passages.<br>
+Nel labirinto non &egrave; possibile resettare oggetti o mob; essi possono essere collocati tramite l'etichetta Passages ai bordi laterali, inferiori o superiori e se provvisti di opportuno Behaviour potranno girovagare per tutta l'area.<br>
+<br>
+
+</div>
+<br>
+
+<hr>
+<h2>Tabella di Riferimento Veloce.</h2>
+<div>
+<table border="1">
+<tr class="thref"><td>Etichetta</td><td>Tipologia</td><td>Utilizzo</td></tr>
+<tr><td class="label">Comment</td><td>Stringa, relativa ad un commento</td><td>Facoltativo, consigliato se c'&egrave; qualcosa di particolare</td></tr>
+<tr><td class="label">RemakeHour</td><td>Numero intero fra 0 e 23</td><td>Facoltativa</td></tr>
+<tr><td class="label">DayWeek</td><td>Element, relativo ai giorni della settimana</td><td>Facoltativa</td></tr>
+<tr><td class="label">Columns</td><td>Numero naturale maggiore uguale a 2</td><td>Obbligatoria</td></tr>
+<tr><td class="label">Rows</td><td>Numero naturale maggiore uguale a 2</td><td>Obbligatoria</td></tr>
+<tr><td class="label">CodePrefix</td><td>Stringa, codice parziale di stanza</td><td>Obbligatoriaa</td></tr>
+<tr><td class="label">Passages</td><td>coordinata_x coordinata_y coordinata_z codice_room</td><td>Obbligatorio</td></tr>
+<tr><td class="label">RemakeMessage</td><td>Stringa</td><td>Facoltativa</td></tr>
+</table>
+</div>
+<br>
+
+<hr>
+<h2>Struttura Tipica con le Etichette di Maggior Utilizzo (per copia e incolla).</h2>
+<div>
+<pre>
+Maze:
+    DayWeek:
+    RemakeHour:
+    RemakeMessage:
+    Columns:
+    Rows:
+    CodePrefix:
+    Passages:
+    Passages:
+End
+
+</pre>
+</div>
+<br>
+
+<hr>
+<h2>Spiegazione delle Etichette.</h2>
+<div>
+<a name='Comment'><h3 class='label'>Comment:</h3></a>
+Eventuale commento relativo all'entit&agrave;, per maggior informazioni leggere <a href="comment.htm">questa pagina</a>.<br>
+Non &egrave; obbligatoria, ma &egrave; comunque consigliato utilizzarla se la tipologia d'entit&agrave; &egrave; una cosa particolare o bisogna segnarsi qualcosa da ricordare.<br>
+<br>
+
+<a name='DayWeek'><h3 class='label'>DayWeek:</h3></a>
+Indica quale giorno della settimana rpg il labirinto verr&agrave; rimescolato e cambier&agrave; mappa; &egrave; un <a href="element.htm">Element</a> che fa capo alla <a href="elements_list.htm#DAYWEEK">lista dei giorni della settimana</a>.<br>
+L'etichetta &egrave; facoltativa ma se usata, deve essere accomagnata dall'etichetta RemakeHour.<br>
+<br> 
+
+<a name='RemakeHour'><h3 class='label'>RemakeHour:</h3></a>
+Indica l'ora del giorno rpg alla quale il labirinto verr&agrave; rimescolato e cambier&agrave; mappa.<br>
+L'etichetta &egrave; facoltativa ma diviene obbligatoria in presenza dell'etichetta DayWeek.<br>
+Di default il rimescolamento avverr&agrave; a mezzanotte (0).<br>
+<br>
+
+<a name='RemakeMessage'><h3 class='label'>RemakeMessage:</h3></a>
+Messaggio che compare a tutte le enti&agrave; presenti nel labirinto al momento del rimescolamento.<br>
+Nel caso non si utilizzi l'etichetta verr&agrave; visualizzato un messaggio di default. L'etichetta accetta anche il valore di no_send per evitare di visuliazzre messaggi.<br>
+L'etichetta &egrave; facoltativa.<br>
+<br>
+
+<a name='Columns'><h3 class='label'>Columns:</h3></a>
+Indica da quante colonne &egrave; costituito il labirinto. &Egrave; bene ricordare che le coordinate delle room partono dallo zero; pertanto impostando 5 colonne, la coordinata x spazier&agrave; da 0 a 4.
+L'etichetta &egrave; obbligatoria.<br>
+<br>
+
+<a name='Rows'><h3 class='label'>Rows:</h3></a>
+Indica da quante righe &egrave; costituito il labirinto. &Egrave; bene ricordare che le coordinate delle room partono dallo zero; pertanto impostando 5 colonne, la coordinata y spazier&agrave; da 0 a 4.<br>
+L'etichetta &egrave; obbligatoria.<br>
+<br>
+
+<a name='CodePrefix'><h3 class='label'>CodePrefix:</h3></a>
+La parte iniziale del codice delle room utilizzate per il labirinto; deve essere comune a tutte le room.<br>
+la parte terminale di codice consente di idenditificare room per room l'esatta posizione delle uscite al fine di ottenere un labirinto sensato. Per tale esigenza la parte terminale del codice delle room deve essere:<br>
+<br>
+<div>
+<table border="1">
+<tr class="thref"><td>Suffisso</td><td>Uscite</td><tr>
+<tr><td class="label">_no.dat</td><td>nessuna</td></tr>
+<tr><td class="label">_nord.dat</td><td>nord</td></tr>
+<tr><td class="label">_est.dat</td><td>est</td></tr>
+<tr><td class="label">_sud.dat</td><td>sud</td></tr>
+<tr><td class="label">_ovest.dat</td><td>ovest</td></tr>
+<tr><td class="label">_est-ovest.dat</td><td>est ovest</td></tr>
+<tr><td class="label">_nord-sud.dat</td><td>nord sud</td></tr>
+<tr><td class="label">_nord-est.dat</td><td>nord est</td></tr>
+<tr><td class="label">_nord-ovest.dat</td><td>nord ovest</td></tr>
+<tr><td class="label">_sud-est.dat</td><td>sud est</td></tr>
+<tr><td class="label">_sud-ovest.dat</td><td>sud ovest</td></tr>
+<tr><td class="label">_3no-est.dat</td><td>nord sud ovest</td></tr>
+<tr><td class="label">_3no-nord.dat</td><td>est sud ovest</td></tr>
+<tr><td class="label">_3no-ovest.dat</td><td>nord est sud</td></tr>
+<tr><td class="label">_3no-sud.dat</td><td>nord est ovest</td></tr>
+<tr><td class="label">_incrocio.dat</td><td>nord est sud ovest</td></tr>
+</table>
+</div>
+L'etichetta &egrave; obbligatoria.<br>
+<br>
+
+<a name='Passages'><h3 class='label'>Passages:</h3></a>
+L'etichetta consenti di collegare room ai bordi del labirinto, non solo per praticare degli accessi ma anche per poter mettere vicoli ciechi, portali, secret, illogiche, mob, item, ...<br>
+L'etichetta &egrave; facoltativa.<br>
+<br>
+
+</div>
+<hr>
+</body>
+</html>

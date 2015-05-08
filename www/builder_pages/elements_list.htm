@@ -1,0 +1,1481 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+<meta http-equiv="content-type" content="text/html;" charset="utf-8" />
+</head>
+<body>
+<hr>
+<a name='AFFECT'><h3 style='color:white'>Affect</h3></a>
+
+Enumerazione degli effetti (o chiamati anche affezioni).
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>AFFECT.SELF</td><td>Self</td><td></td></tr>
+<tr><td>AFFECT.CONTAINED_BY</td><td>ContainedBy</td><td></td></tr>
+<tr><td>AFFECT.ROOM</td><td>Room</td><td></td></tr>
+<tr><td>AFFECT.ENTITY</td><td>Entity</td><td></td></tr>
+<tr><td>AFFECT.ITEM</td><td>Item</td><td></td></tr>
+<tr><td>AFFECT.ACTOR</td><td>Actor</td><td></td></tr>
+<tr><td>AFFECT.MOB</td><td>Mob</td><td></td></tr>
+<tr><td>AFFECT.PLAYER</td><td>Player</td><td></td></tr>
+</table><br><br>
+<a name='AFFECTFLAG'><h3 style='color:white'>Affectflag</h3></a>
+
+Enumerazione degli effetti (o chiamati anche affezioni).
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>AFFECTFLAG.POSSESSION</td><td>Possession</td><td>Non serve indossare l'entit&agrave; per far scattare gli affects, basta possederlo</td></tr>
+<tr><td>AFFECTFLAG.LAST_WIN</td><td>LastWin</td><td>L'ultimo affect dello stesso tipo 'uccide' gli altri che devono essere 'chiusi' prima che questo affect venga.</td></tr>
+<tr><td>AFFECTFLAG.CUMULATIVE</td><td>Cumulative</td><td>Affect dello stesso tipo si accumulano nella durata anche se il valore utile &egrave; l'ultimo</td></tr>
+</table><br><br>
+<a name='APPLY'><h3 style='color:white'>Apply</h3></a>
+
+Enumerazione dei tipi d'intenzioni per social e skill.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>APPLY.RACE</td><td>Race</td><td>Apply che uno ha dalla nascita grazie alla sua razza</td></tr>
+<tr><td>APPLY.WAY</td><td>Way</td><td>Apply che uno possiede grazia alla scelta della classe</td></tr>
+<tr><td>APPLY.KNOWLEDGE</td><td>Knowledge</td><td>Apply a skill e spell e simili, mi sa che qui va bene il temporaneo, ma no.. mettiamo il nome della skill o spell che ha dato gli affect</td></tr>
+<tr><td>APPLY.ROOM</td><td>Room</td><td>Apply donato dalla stanza in cui si trova attualmente l'entit&agrave;</td></tr>
+<tr><td>APPLY.MORPH</td><td>Morph</td><td>Apply relativo alle metamorfosi, ci saranno skill apprendibili solo dai morpher</td></tr>
+<tr><td>APPLY.DISEASE</td><td>Disease</td><td>Apply relativo a malattie, il type qui &egrave; il nome della malattia</td></tr>
+</table><br><br>
+<a name='AREA'><h3 style='color:white'>Area</h3></a>
+
+Enumerazione delle flag di area.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>AREA.RENTABLE</td><td>Rentable</td><td>Nell'area si pu&ograve; rentare quittando</td></tr>
+<tr><td>AREA.DONT_LIST</td><td>DontList</td><td>L'area non viene visualizzata nella lista delle aree</td></tr>
+<tr><td>AREA.MAZE</td><td>Maze</td><td>L'area vienegenerata come labirinto</td></tr>
+<tr><td>AREA.WUMPUS</td><td>Wumpus</td><td>L'area viene wumpizzata</td></tr>
+</table><br><br>
+<a name='ATTR'><h3 style='color:white'>Attr</h3></a>
+
+Enumerazione degli attributi del gioco.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>ATTR.STRENGTH</td><td><span style='color:#FF0000;'>Forza</span></td><td>La forza del tuo personaggio, con essa potrai trasportare di pi&ugrave; ed avrai maggiori punti vita ad ogni passaggio di livello.</td></tr>
+<tr><td>ATTR.ENDURANCE</td><td><span style='color:#8B0000;'>Resistenza</span></td><td>La resistenza fisica del tuo personaggio, con essa riuscirai a resistere nelle situazioni pi&ugrave; difficili ed avrai maggiori punti di vigore ad ogni passaggio di livello.</td></tr>
+<tr><td>ATTR.AGILITY</td><td><span style='color:#008000;'>Agilit&agrave;</span></td><td>L'agilit&agrave; del tuo personaggio serve a sgusciare da situazioni pericolose o serve per utilizzare abilit&agrave; particolari come lo scassinare e molte altre.</td></tr>
+<tr><td>ATTR.SPEED</td><td><span style='color:#90EE90;'>Velocit&agrave;</span></td><td>La velocit&agrave; del tuo personaggio serve principalmente a calcolare il tempo dei turni di combattimento.</td></tr>
+<tr><td>ATTR.INTELLIGENCE</td><td><span style='color:#4169E1;'>Intelligenza</span></td><td>L'intelligenza serve per pronunciare correttamente incantesimi ed a imparare nuove abilit&agrave;.</td></tr>
+<tr><td>ATTR.WILLPOWER</td><td><span style='color:#0FF;'>Volont&agrave;</span></td><td>La volont&agrave; &egrave; la resistenza magica e con essa avrai inoltre maggiori punti mana ad ogni passaggio di livello</td></tr>
+<tr><td>ATTR.PERSONALITY</td><td><span style='color:#FFA500;'>Personalit&agrave;</span></td><td>La personalit&agrave; &egrave; la capacit&agrave; di presentarsi alle persone, &egrave; un misto di carisma, comando e bellezza, a seconda della situazione.</td></tr>
+<tr><td>ATTR.LUCK</td><td><span style='color:#FF0;'>Fortuna</span></td><td>La fortuna governa di un poco tutte le azioni che lo richiedono.</td></tr>
+</table><br><br>
+<a name='CHANNEL'><h3 style='color:white'>Channel</h3></a>
+
+Enumerazione delle tipologie di canale, sia rpg che non.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>CHANNEL.WHISPER</td><td><span style='color:#008000;'>sussurrare</span></td><td>Canale sussurrare, dal tono bassissimo</td></tr>
+<tr><td>CHANNEL.MURMUR</td><td><span style='color:#008000;'>mormorare</span></td><td>Canale per mormorare, dal tono basso</td></tr>
+<tr><td>CHANNEL.HISSING</td><td><span style='color:#696969;'>sibilare</span></td><td>Canale per sibilare qualcosa a qualcuno e impaurirlo</td></tr>
+<tr><td>CHANNEL.SAY</td><td><span style='color:#FFF;'>dire</span></td><td>Canale per parlare con tonalit&agrave; di default</td></tr>
+<tr><td>CHANNEL.THUNDERING</td><td><span style='color:#FF0000;'>tuonare</span></td><td>Canale per tuonare qualcosa a qualcuno e sorprenderlo</td></tr>
+<tr><td>CHANNEL.SING</td><td><span style='color:#90EE90;'>cantare</span></td><td>Canale per cantare, con tono abbastanza alto</td></tr>
+<tr><td>CHANNEL.YELL</td><td><span style='color:#FF0;'>urlare</span></td><td>Canale per urlare con tono alto</td></tr>
+<tr><td>CHANNEL.SHOUT</td><td><span style='color:#FF0;'>gridare</span></td><td>Canale per gridare con tono altissimo</td></tr>
+<tr><td>CHANNEL.TELL</td><td><span style='color:#008080;'>comunicare</span></td><td>Canale per comunicare con i pg in maniera off-gdr</td></tr>
+<tr><td>CHANNEL.GTELL</td><td><span style='color:#FFA500;'>gcomunicare</span></td><td>Canale per comunicare col gruppo in maniera off-gdr, alcuni gruppi lo utilizzano in maniera gdr</td></tr>
+<tr><td>CHANNEL.CHAT</td><td><span style='color:#DC143C;'>chattare</span></td><td>Canale per parlare con tutti i giocatori del Mud in maniera off-gdr</td></tr>
+<tr><td>CHANNEL.THINK</td><td><span style='color:#8A2BE2;'>pensare</span></td><td>Canale per comunicare pensieri agli amministratori, pu&ograve; essere usato come gdr o meno</td></tr>
+<tr><td>CHANNEL.ADMTALK</td><td><span style='color:#8A2BE2;'>admtalkare</span></td><td>Canale per comunicare tra amministratori</td></tr>
+</table><br><br>
+<a name='CMDFLAG'><h3 style='color:white'>Cmdflag</h3></a>
+
+Enumerazione delle flag di comando.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>CMDFLAG.GDR</td><td>Gdr</td><td>Relativo al gdr</td></tr>
+<tr><td>CMDFLAG.INTERACT</td><td>Interact</td><td>Interagisce con il mondo interrompendo eventuali altre azioni</td></tr>
+<tr><td>CMDFLAG.POSSESS</td><td>Possess</td><td>Non pu&ograve; essere inviato se il pg &egrave; posseduto da qualcun'altro</td></tr>
+<tr><td>CMDFLAG.TYPE_ALL</td><td>TypeAll</td><td>Deve essere digitato tutto per essere utilizzato</td></tr>
+<tr><td>CMDFLAG.LOG</td><td>Log</td><td>Logga l'avvenuta esecuzione del comando</td></tr>
+<tr><td>CMDFLAG.PRIVATE</td><td>Private</td><td>Evita di loggare in qualsiasi maniera il comando</td></tr>
+<tr><td>CMDFLAG.NO_LAST_INPUT</td><td>NoLastInput</td><td>Evita di salvare il comando come ultimo input inviato dal giocatore</td></tr>
+</table><br><br>
+<a name='CMDTYPE'><h3 style='color:white'>Cmdtype</h3></a>
+
+Enumerazione delle tipologie di comandi.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>CMDTYPE.MOVEMENT</td><td>Movimento</td><td>Comandi relativi ai movimenti e posizioni</td></tr>
+<tr><td>CMDTYPE.CHANNEL</td><td>Comunicazione</td><td>Comandi relativi ai canali di comunicazione</td></tr>
+<tr><td>CMDTYPE.INFORMATION</td><td>Informazione</td><td>Comandi relativi alle informazioni generiche o dell'avventuriero</td></tr>
+<tr><td>CMDTYPE.ITEM</td><td>Oggetti</td><td>Comandi relativi alla interazione con gli oggetti</td></tr>
+<tr><td>CMDTYPE.COMBAT</td><td>Combattimento</td><td>Comandi relativi al combattimento</td></tr>
+<tr><td>CMDTYPE.SKILL</td><td>Abilit&agrave;</td><td>Comandi relativi alle skill</td></tr>
+<tr><td>CMDTYPE.SOCIAL</td><td>Sociale</td><td>Comandi relativi ai social</td></tr>
+<tr><td>CMDTYPE.GROUPING</td><td>Gruppo</td><td>Comandi relativi al gruppo di avventurieri</td></tr>
+<tr><td>CMDTYPE.CLAN</td><td>Clan</td><td>Comandi relativi alla gestione e informazioni del Clan</td></tr>
+<tr><td>CMDTYPE.GAMING</td><td>Gioco</td><td>Comandi relativi al gioco in generale</td></tr>
+<tr><td>CMDTYPE.SETTING</td><td>Impostazioni</td><td>Comandi relativi alla configurazione e alle opzioni di gioco</td></tr>
+<tr><td>CMDTYPE.ADMIN</td><td>Admin</td><td>Comandi d'Amministratore relativi alla interazione con i giocatori</td></tr>
+<tr><td>CMDTYPE.BUILDING</td><td>Costruzione</td><td>Comandi d'Amministratore relativi alla creazione di aree</td></tr>
+</table><br><br>
+<a name='COLOR'><h3 style='color:white'>Color</h3></a>
+
+Enumerazione della lista dei colori.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>COLOR.WHITE</td><td><span style='color:#FFF;'>bianco</span></td><td></td></tr>
+<tr><td>COLOR.SNOW</td><td><span style='color:#FFFAFA;'>neve</span></td><td></td></tr>
+<tr><td>COLOR.GHOSTWHITE</td><td><span style='color:#F8F8FF;'>bianco fantasma</span></td><td></td></tr>
+<tr><td>COLOR.AZURE</td><td><span style='color:#F0FFFF;'>celeste</span></td><td></td></tr>
+<tr><td>COLOR.IVORY</td><td><span style='color:#FFFFF0;'>avorio</span></td><td></td></tr>
+<tr><td>COLOR.MINTCREAM</td><td><span style='color:#F5FFFA;'>crema di menta</span></td><td></td></tr>
+<tr><td>COLOR.FLORALWHITE</td><td><span style='color:#FFFAF0;'>fiore bianco</span></td><td></td></tr>
+<tr><td>COLOR.ALICEBLUE</td><td><span style='color:#F0F8FF;'>blu alice</span></td><td></td></tr>
+<tr><td>COLOR.LAVENDERBLUSH</td><td><span style='color:#FFF0F5;'>lavanda arrossita</span></td><td></td></tr>
+<tr><td>COLOR.SEASHELL</td><td><span style='color:#FFF5EE;'>conchiglia</span></td><td></td></tr>
+<tr><td>COLOR.HONEYDEW</td><td><span style='color:#F0FFF0;'>goccia di miele</span></td><td></td></tr>
+<tr><td>COLOR.WHITESMOKE</td><td><span style='color:#F5F5F5;'>bianco sporco</span></td><td></td></tr>
+<tr><td>COLOR.LIGHTCYAN</td><td><span style='color:#E0FFFF;'>ciano chiaro</span></td><td></td></tr>
+<tr><td>COLOR.LIGHTYELLOW</td><td><span style='color:#FFFFE0;'>giallo chiaro</span></td><td></td></tr>
+<tr><td>COLOR.OLDLACE</td><td><span style='color:#FDF5E6;'>pizzo antico</span></td><td></td></tr>
+<tr><td>COLOR.CORNSILK</td><td><span style='color:#FFF8DC;'>setola di mais</span></td><td></td></tr>
+<tr><td>COLOR.LINEN</td><td><span style='color:#FAF0E6;'>lino</span></td><td></td></tr>
+<tr><td>COLOR.LEMONCHIFFON</td><td><span style='color:#FFFACD;'>limone</span></td><td></td></tr>
+<tr><td>COLOR.LIGHTGOLDENRODYELLOW</td><td><span style='color:#FAFAD2;'>legno dorato giallo chiaro</span></td><td></td></tr>
+<tr><td>COLOR.BEIGE</td><td><span style='color:#F5F5DC;'>beige</span></td><td></td></tr>
+<tr><td>COLOR.LAVENDER</td><td><span style='color:#E6E6FA;'>lavanda</span></td><td></td></tr>
+<tr><td>COLOR.MISTYROSE</td><td><span style='color:#FFE4E1;'>rosa nebbioso</span></td><td></td></tr>
+<tr><td>COLOR.PAPAYAWHIP</td><td><span style='color:#FFEFD5;'>pesca pallido</span></td><td></td></tr>
+<tr><td>COLOR.ANTIQUEWHITE</td><td><span style='color:#FAEBD7;'>bianco antico</span></td><td></td></tr>
+<tr><td>COLOR.BLANCHEDALMOND</td><td><span style='color:#FFEBCD;'>blanche dalmond</span></td><td></td></tr>
+<tr><td>COLOR.BISQUE</td><td><span style='color:#FFE4C4;'>biscotto</span></td><td></td></tr>
+<tr><td>COLOR.QUARTZ</td><td><span style='color:#D9D9F3;'>quarzo</span></td><td></td></tr>
+<tr><td>COLOR.MOCASSIN</td><td><span style='color:#FFE4B5;'>mocassino</span></td><td></td></tr>
+<tr><td>COLOR.GAINSBORO</td><td><span style='color:#DCDCDC;'>gainsboro</span></td><td></td></tr>
+<tr><td>COLOR.PEACHPUFF</td><td><span style='color:#FFDAB9;'>pesca scuro</span></td><td></td></tr>
+<tr><td>COLOR.PALETURQUOISE</td><td><span style='color:#AFEEEE;'>turchese pallido</span></td><td></td></tr>
+<tr><td>COLOR.NAVAJOWHITE</td><td><span style='color:#FFDEAD;'>bianco navajo</span></td><td></td></tr>
+<tr><td>COLOR.PINK</td><td><span style='color:#FFC0CB;'>rosa</span></td><td></td></tr>
+<tr><td>COLOR.WHEAT</td><td><span style='color:#F5DEB3;'>grano</span></td><td></td></tr>
+<tr><td>COLOR.MEDIUMGOLDENROD</td><td><span style='color:#EAEAAE;'>legno dorato medio</span></td><td></td></tr>
+<tr><td>COLOR.PALEGOLDENROD</td><td><span style='color:#EEE8AA;'>legno dorato pallido</span></td><td></td></tr>
+<tr><td>COLOR.LIGHTGRAY</td><td><span style='color:#D3D3D3;'>grigio chiaro</span></td><td></td></tr>
+<tr><td>COLOR.LIGHTGREY</td><td><span style='color:#D3D3D3;'>grigio chiaro</span></td><td></td></tr>
+<tr><td>COLOR.POWDERBLUE</td><td><span style='color:#B0E0E6;'>blu polvere</span></td><td></td></tr>
+<tr><td>COLOR.LIGHTPINK</td><td><span style='color:#FFB6C1;'>rosa chiaro</span></td><td></td></tr>
+<tr><td>COLOR.FADEDBROWN</td><td><span style='color:#F5CCB0;'>marrone sbiadito</span></td><td></td></tr>
+<tr><td>COLOR.THISTLE</td><td><span style='color:#D8BFD8;'>cardo</span></td><td></td></tr>
+<tr><td>COLOR.LIGHTBLUE</td><td><span style='color:#ADD8E6;'>blu chiaro</span></td><td></td></tr>
+<tr><td>COLOR.VERYLIGHTGRAY</td><td><span style='color:#CDCDCD;'>grigio molto chiaro</span></td><td></td></tr>
+<tr><td>COLOR.VERYLIGHTGREY</td><td><span style='color:#CDCDCD;'>grigio molto chiaro</span></td><td></td></tr>
+<tr><td>COLOR.KHAKI</td><td><span style='color:#F0E68C;'>khaki</span></td><td></td></tr>
+<tr><td>COLOR.VIOLET</td><td><span style='color:#EE82EE;'>violetto</span></td><td></td></tr>
+<tr><td>COLOR.PLUM</td><td><span style='color:#DDA0DD;'>prugno</span></td><td></td></tr>
+<tr><td>COLOR.LIGHTSTEELBLUE</td><td><span style='color:#B0C4DE;'>blu acciaio chiaro</span></td><td></td></tr>
+<tr><td>COLOR.AQUAMARINE</td><td><span style='color:#7FFFD4;'>acquamarina</span></td><td></td></tr>
+<tr><td>COLOR.LIGHTWOOD</td><td><span style='color:#E9C2A6;'>legno chiaro</span></td><td></td></tr>
+<tr><td>COLOR.NEWTAN</td><td><span style='color:#EBC79E;'>fresca di abbronzatura</span></td><td></td></tr>
+<tr><td>COLOR.LIGHTSKYBLUE</td><td><span style='color:#87CEFA;'>blu cielo chiaro</span></td><td></td></tr>
+<tr><td>COLOR.SILVER</td><td><span style='color:#C0C0C0;'>argento</span></td><td></td></tr>
+<tr><td>COLOR.SKYBLUE</td><td><span style='color:#87CEEB;'>blu cielo</span></td><td></td></tr>
+<tr><td>COLOR.BRIGHTPINK</td><td><span style='color:#FF6EC7;'>rosa brillante</span></td><td></td></tr>
+<tr><td>COLOR.PALEGREEN</td><td><span style='color:#98FB98;'>verde pallido</span></td><td></td></tr>
+<tr><td>COLOR.ORCHID</td><td><span style='color:#DA70D6;'>orchidea</span></td><td></td></tr>
+<tr><td>COLOR.BURLYWOOD</td><td><span style='color:#DEB887;'>burly wood</span></td><td></td></tr>
+<tr><td>COLOR.HOTPINK</td><td><span style='color:#FF69B4;'>rosso acceso</span></td><td></td></tr>
+<tr><td>COLOR.LIGHTSALMON</td><td><span style='color:#FFA07A;'>salmone chiaro</span></td><td></td></tr>
+<tr><td>COLOR.TAN</td><td><span style='color:#D2B48C;'>abbronzatura</span></td><td></td></tr>
+<tr><td>COLOR.LIGHTGREEN</td><td><span style='color:#90EE90;'>verde chiaro</span></td><td></td></tr>
+<tr><td>COLOR.CYAN</td><td><span style='color:#0FF;'>ciano</span></td><td></td></tr>
+<tr><td>COLOR.MAGENTA</td><td><span style='color:#F0F;'>magenta</span></td><td></td></tr>
+<tr><td>COLOR.YELLOW</td><td><span style='color:#FF0;'>giallo</span></td><td></td></tr>
+<tr><td>COLOR.AQUA</td><td><span style='color:#0FF;'>acqua</span></td><td></td></tr>
+<tr><td>COLOR.FUCHSIA</td><td><span style='color:#F0F;'>fucsia</span></td><td></td></tr>
+<tr><td>COLOR.DARKGREY</td><td><span style='color:#A9A9A9;'>grigio scuro</span></td><td></td></tr>
+<tr><td>COLOR.DARKGRAY</td><td><span style='color:#A9A9A9;'>grigio scuro</span></td><td></td></tr>
+<tr><td>COLOR.DARKSALMON</td><td><span style='color:#E9967A;'>salmone scuro</span></td><td></td></tr>
+<tr><td>COLOR.SANDYBROWN</td><td><span style='color:#F4A460;'>marrone sabbia</span></td><td></td></tr>
+<tr><td>COLOR.LIGHTCORAL</td><td><span style='color:#F08080;'>corallo chiaro</span></td><td></td></tr>
+<tr><td>COLOR.TURQUOISE</td><td><span style='color:#40E0D0;'>turchese</span></td><td></td></tr>
+<tr><td>COLOR.SALMON</td><td><span style='color:#FA8072;'>salmone</span></td><td></td></tr>
+<tr><td>COLOR.CORNFLOWERBLUE</td><td><span style='color:#6495ED;'>fiordaliso</span></td><td></td></tr>
+<tr><td>COLOR.MEDIUMTURQUOISE</td><td><span style='color:#48D1CC;'>turchese medio</span></td><td></td></tr>
+<tr><td>COLOR.MEDIUMORCHID</td><td><span style='color:#BA55D3;'>orchidea medio</span></td><td></td></tr>
+<tr><td>COLOR.DARKKHAKI</td><td><span style='color:#BDB76B;'>khaki scuro</span></td><td></td></tr>
+<tr><td>COLOR.PALEVIOLETRED</td><td><span style='color:#DB7093;'>rosso violetto pallido</span></td><td></td></tr>
+<tr><td>COLOR.MEDIUMPURPLE</td><td><span style='color:#9370DB;'>porpora medio</span></td><td></td></tr>
+<tr><td>COLOR.MEDIUMAQUAMARINE</td><td><span style='color:#66CDAA;'>acquamarina medio</span></td><td></td></tr>
+<tr><td>COLOR.GREENYELLOW</td><td><span style='color:#ADFF2F;'>giallo-verde</span></td><td></td></tr>
+<tr><td>COLOR.DARKSEAGREEN</td><td><span style='color:#8FBC8F;'>verde mare scuro</span></td><td></td></tr>
+<tr><td>COLOR.ROSYBROWN</td><td><span style='color:#BC8F8F;'>marrone roseo</span></td><td></td></tr>
+<tr><td>COLOR.FELDSPAR</td><td><span style='color:#D19275;'>feldspato</span></td><td></td></tr>
+<tr><td>COLOR.GOLD</td><td><span style='color:#FFD700;'>oro</span></td><td></td></tr>
+<tr><td>COLOR.MEDIUMSLATEBLUE</td><td><span style='color:#7B68EE;'>ardesia blu medio</span></td><td></td></tr>
+<tr><td>COLOR.CORAL</td><td><span style='color:#FF7F50;'>corallo</span></td><td></td></tr>
+<tr><td>COLOR.BRIGHTGOLD</td><td><span style='color:#D9D919;'>oro brillante</span></td><td></td></tr>
+<tr><td>COLOR.SPICYPINK</td><td><span style='color:#FF1CAE;'>rosa piccante</span></td><td></td></tr>
+<tr><td>COLOR.SUMMERSKY</td><td><span style='color:#38B0DE;'>cieclo estivo</span></td><td></td></tr>
+<tr><td>COLOR.OLDGOLD</td><td><span style='color:#CFB53B;'>oro antico</span></td><td></td></tr>
+<tr><td>COLOR.DEEPSKYBLUE</td><td><span style='color:#00BFFF;'>blu cielo intenso</span></td><td></td></tr>
+<tr><td>COLOR.DODGERBLUE</td><td><span style='color:#1E90FF;'>blu furbo</span></td><td></td></tr>
+<tr><td>COLOR.TOMATO</td><td><span style='color:#FF6347;'>rosso pomodoro</span></td><td></td></tr>
+<tr><td>COLOR.DEEPPINK</td><td><span style='color:#FF1493;'>rosa intenso</span></td><td></td></tr>
+<tr><td>COLOR.ORANGE</td><td><span style='color:#FFA500;'>arancio</span></td><td></td></tr>
+<tr><td>COLOR.DARKTURQUOISE</td><td><span style='color:#00CED1;'>turchese scuro</span></td><td></td></tr>
+<tr><td>COLOR.GOLDENROD</td><td><span style='color:#DAA520;'>legno dorato</span></td><td></td></tr>
+<tr><td>COLOR.CADETBLUE</td><td><span style='color:#5F9EA0;'>blu cadetto</span></td><td></td></tr>
+<tr><td>COLOR.BRASS</td><td><span style='color:#B5A642;'>ottone</span></td><td></td></tr>
+<tr><td>COLOR.YELLOWGREEN</td><td><span style='color:#9ACD32;'>verde-giallo</span></td><td></td></tr>
+<tr><td>COLOR.MANABLUE</td><td><span style='color:#4D4DFF;'>blu mana</span></td><td></td></tr>
+<tr><td>COLOR.LIGHTSLATEGREY</td><td><span style='color:#778899;'>ardesia grigio chiaro</span></td><td></td></tr>
+<tr><td>COLOR.LIGHTSLATEGRAY</td><td><span style='color:#778899;'>ardesia grigio chiaro</span></td><td></td></tr>
+<tr><td>COLOR.DARKORCHID</td><td><span style='color:#9932CC;'>orchidea scuro</span></td><td></td></tr>
+<tr><td>COLOR.BLUEVIOLET</td><td><span style='color:#8A2BE2;'>blu-violetto</span></td><td></td></tr>
+<tr><td>COLOR.VIOLETRED</td><td><span style='color:#CC3299;'>rosso violetto</span></td><td></td></tr>
+<tr><td>COLOR.MEDIUMSPRINGGREEN</td><td><span style='color:#00FA9A;'>verde primavera medio</span></td><td></td></tr>
+<tr><td>COLOR.SLATEBLUE</td><td><span style='color:#6A5ACD;'>blu ardesia</span></td><td></td></tr>
+<tr><td>COLOR.PERU</td><td><span style='color:#CD853F;'>peru</span></td><td></td></tr>
+<tr><td>COLOR.MANDARIANORANGE</td><td><span style='color:#E47833;'>arancione medio</span></td><td></td></tr>
+<tr><td>COLOR.ROYALBLUE</td><td><span style='color:#4169E1;'>blu reale</span></td><td></td></tr>
+<tr><td>COLOR.DARKORANGE</td><td><span style='color:#FF8C00;'>arancio scuro</span></td><td></td></tr>
+<tr><td>COLOR.MEDIUMWOOD</td><td><span style='color:#A68064;'>legno medio</span></td><td></td></tr>
+<tr><td>COLOR.INDIANRED</td><td><span style='color:#CD5C5C;'>rosso indiano</span></td><td></td></tr>
+<tr><td>COLOR.GRAY</td><td><span style='color:#808080;'>grigio</span></td><td></td></tr>
+<tr><td>COLOR.SLATEGREY</td><td><span style='color:#708090;'>grigio ardesia</span></td><td></td></tr>
+<tr><td>COLOR.GREY</td><td><span style='color:#808080;'>grigio</span></td><td></td></tr>
+<tr><td>COLOR.SLATEGRAY</td><td><span style='color:#708090;'>grigio ardesia</span></td><td></td></tr>
+<tr><td>COLOR.CHARTREUSE</td><td><span style='color:#7FFF00;'>chartreuse</span></td><td></td></tr>
+<tr><td>COLOR.SPRINGGREEN</td><td><span style='color:#00FF7F;'>verde primavera</span></td><td></td></tr>
+<tr><td>COLOR.STEELBLUE</td><td><span style='color:#4682B4;'>blu acciaio</span></td><td></td></tr>
+<tr><td>COLOR.LIGHTSEAGREEN</td><td><span style='color:#20B2AA;'>verde mare chiaro</span></td><td></td></tr>
+<tr><td>COLOR.COOLCOPPER</td><td><span style='color:#D98719;'>rame freddo</span></td><td></td></tr>
+<tr><td>COLOR.LAWNGREEN</td><td><span style='color:#7CFC00;'>prato verde</span></td><td></td></tr>
+<tr><td>COLOR.DARKVIOLET</td><td><span style='color:#9400D3;'>violetto scuro</span></td><td></td></tr>
+<tr><td>COLOR.MEDIUMVIOLETRED</td><td><span style='color:#C71585;'>rosso violetto medio</span></td><td></td></tr>
+<tr><td>COLOR.LIGHTBRONZE</td><td><span style='color:#A67D3D;'>bronzo chiaro</span></td><td></td></tr>
+<tr><td>COLOR.MEDIUMSEAGREEN</td><td><span style='color:#3CB371;'>verde mare medio</span></td><td></td></tr>
+<tr><td>COLOR.COPPER</td><td><span style='color:#B87333;'>rame</span></td><td></td></tr>
+<tr><td>COLOR.RICHBLUE</td><td><span style='color:#5959AB;'>blu ricco</span></td><td></td></tr>
+<tr><td>COLOR.CHOCOLATE</td><td><span style='color:#D2691E;'>cioccolato</span></td><td></td></tr>
+<tr><td>COLOR.BRONZE</td><td><span style='color:#8C7853;'>bronzo</span></td><td></td></tr>
+<tr><td>COLOR.DARKTAN</td><td><span style='color:#97694F;'>abbronzatura scura</span></td><td></td></tr>
+<tr><td>COLOR.DUSTYROSE</td><td><span style='color:#856363;'>rosa polveroso</span></td><td></td></tr>
+<tr><td>COLOR.DARKGOLDENROD</td><td><span style='color:#B8860B;'>legno d'orato scuro</span></td><td></td></tr>
+<tr><td>COLOR.GREENCOPPER</td><td><span style='color:#527F76;'>verde rame</span></td><td></td></tr>
+<tr><td>COLOR.ORANGERED</td><td><span style='color:#FF4500;'>rosso arancio</span></td><td></td></tr>
+<tr><td>COLOR.DIMGRAY</td><td><span style='color:#696969;'>grigio pallido</span></td><td></td></tr>
+<tr><td>COLOR.DIMGREY</td><td><span style='color:#696969;'>grigio pallido</span></td><td></td></tr>
+<tr><td>COLOR.LIMEGREEN</td><td><span style='color:#32CD32;'>tiglio verde</span></td><td></td></tr>
+<tr><td>COLOR.DARKGREENCOPPER</td><td><span style='color:#4A766E;'>verde rame scuro</span></td><td></td></tr>
+<tr><td>COLOR.CRIMSON</td><td><span style='color:#DC143C;'>cremisi</span></td><td></td></tr>
+<tr><td>COLOR.DARKWOOD</td><td><span style='color:#855E42;'>legno scuro</span></td><td></td></tr>
+<tr><td>COLOR.SIENNA</td><td><span style='color:#A0522D;'>terra di siena</span></td><td></td></tr>
+<tr><td>COLOR.DARKPURPLE</td><td><span style='color:#871F78;'>viola scuro</span></td><td></td></tr>
+<tr><td>COLOR.OLIVEDRAB</td><td><span style='color:#6B8E23;'>oliva incolore</span></td><td></td></tr>
+<tr><td>COLOR.MEDIUMFORESTGREEN</td><td><span style='color:#6B8E23;'>verde foresta medio</span></td><td></td></tr>
+<tr><td>COLOR.DARKMAGENTA</td><td><span style='color:#8B008B;'>magenta scuro</span></td><td></td></tr>
+<tr><td>COLOR.DARKCYAN</td><td><span style='color:#008B8B;'>ciano scuro</span></td><td></td></tr>
+<tr><td>COLOR.SEAGREEN</td><td><span style='color:#2E8B57;'>verde mare</span></td><td></td></tr>
+<tr><td>COLOR.DARKSLATEBLUE</td><td><span style='color:#483D8B;'>ardesia blu scuro</span></td><td></td></tr>
+<tr><td>COLOR.OLIVE</td><td><span style='color:#808000;'>oliva</span></td><td></td></tr>
+<tr><td>COLOR.TEAL</td><td><span style='color:#008080;'>t&egrave; blu</span></td><td></td></tr>
+<tr><td>COLOR.PURPLE</td><td><span style='color:#800080;'>porpora</span></td><td></td></tr>
+<tr><td>COLOR.LIME</td><td><span style='color:#0F0;'>tiglio</span></td><td></td></tr>
+<tr><td>COLOR.BLUE</td><td><span style='color:#00F;'>blu</span></td><td></td></tr>
+<tr><td>COLOR.RED</td><td><span style='color:#FF0000;'>rosso</span></td><td></td></tr>
+<tr><td>COLOR.BROWN</td><td><span style='color:#A52A2A;'>marrone</span></td><td></td></tr>
+<tr><td>COLOR.FIREBRICK</td><td><span style='color:#B22222;'>rosso mattone</span></td><td></td></tr>
+<tr><td>COLOR.DARKOLIVEGREEN</td><td><span style='color:#556B2F;'>verde oliva scuro</span></td><td></td></tr>
+<tr><td>COLOR.SADDLEBROWN</td><td><span style='color:#8B4513;'>marrone cuoio</span></td><td></td></tr>
+<tr><td>COLOR.SWEETCHOCOLATE</td><td><span style='color:#6B4226;'>cioccolato dolce</span></td><td></td></tr>
+<tr><td>COLOR.VERYDARKBROWN</td><td><span style='color:#5C4033;'>marrone molto scuro</span></td><td></td></tr>
+<tr><td>COLOR.FORESTGREEN</td><td><span style='color:#228B22;'>verde foresta</span></td><td></td></tr>
+<tr><td>COLOR.DARKBROWN</td><td><span style='color:#5C4033;'>marrone scuro</span></td><td></td></tr>
+<tr><td>COLOR.MEDIUMBLUE</td><td><span style='color:#0000CD;'>blu medio</span></td><td></td></tr>
+<tr><td>COLOR.DARKSLATEGRAY</td><td><span style='color:#2F4F4F;'>ardesia grigio scuro</span></td><td></td></tr>
+<tr><td>COLOR.DARKSLATEGREY</td><td><span style='color:#2F4F4F;'>ardesia grigio scuro</span></td><td></td></tr>
+<tr><td>COLOR.INDIGO</td><td><span style='color:#4B0082;'>indigo</span></td><td></td></tr>
+<tr><td>COLOR.SCARLET</td><td><span style='color:#8C1717;'>scarlatto</span></td><td></td></tr>
+<tr><td>COLOR.MIDNIGHTBLUE</td><td><span style='color:#191970;'>blu di mezzanotte</span></td><td></td></tr>
+<tr><td>COLOR.HUNTERGREEN</td><td><span style='color:#215E21;'>verde cacciatore</span></td><td></td></tr>
+<tr><td>COLOR.NEWMIDNIGHTBLUE</td><td><span style='color:#00009C;'>blu di mezzanotte appena scoccata</span></td><td></td></tr>
+<tr><td>COLOR.DARKBLUE</td><td><span style='color:#00008B;'>blu scuro</span></td><td></td></tr>
+<tr><td>COLOR.DARKRED</td><td><span style='color:#8B0000;'>rosso scuro</span></td><td></td></tr>
+<tr><td>COLOR.GREEN</td><td><span style='color:#008000;'>verde</span></td><td></td></tr>
+<tr><td>COLOR.MAROON</td><td><span style='color:#800000;'>marrone</span></td><td></td></tr>
+<tr><td>COLOR.NAVY</td><td><span style='color:#000080;'>blu marina</span></td><td></td></tr>
+<tr><td>COLOR.DARKGREEN</td><td><span style='color:#006400;'>verde scuro</span></td><td></td></tr>
+<tr><td>COLOR.BLACK</td><td><span style='color:#2F2F2F;'>nero</span></td><td></td></tr>
+</table><br><br>
+<a name='CONSTELLATION'><h3 style='color:white'>Constellation</h3></a>
+
+Enumerazioni delle costellazioni visibili in cielo.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>CONSTELLATION.WARRIOR</td><td><span style='color:#FF0000;'>Guerriero</span></td><td>Bonus +10 a Forza e +10 alla Resistenza</td></tr>
+<tr><td>CONSTELLATION.RITUAL</td><td><span style='color:#0FF;'>Rituale</span></td><td>Guarisce 200 punti vita istantaneamente, utilizzabile una volta al giorno. Fa fuggire i non-morti per 30 secondi anch'essa utilizzabile una volta al giorno</td></tr>
+<tr><td>CONSTELLATION.STEED</td><td><span style='color:#A52A2A;'>Cavallo</span></td><td>Bonus +20 alla Velocit&agrave;</td></tr>
+<tr><td>CONSTELLATION.SHADOW</td><td><span style='color:#2F4F4F;'>Ombra</span></td><td>Invisibilit&agrave; per 60 secondi, utilizzabile una volta al giorno</td></tr>
+<tr><td>CONSTELLATION.TOWER</td><td><span style='color:#808080;'>Torre</span></td><td>Apri magicamente le serrature di media complessit&agrave;, utilizzabile una volta al giorno. Riflette il danno di 5 punti per colpo per 120 secondi, utilizzabile una volta al giorno.</td></tr>
+<tr><td>CONSTELLATION.LOVER</td><td><span style='color:#FF69B4;'>Amante</span></td><td>Paralizza il nemico per 10 secondi al costo di 120 di Fatica, utilizzabile una volta al giorno</td></tr>
+<tr><td>CONSTELLATION.THIEF</td><td><span style='color:#FFA500;'>Ladro</span></td><td>Bonus +10 all'Agilit&agrave;, +10 alla Velocit&agrave; e +10 alla Fortuna</td></tr>
+<tr><td>CONSTELLATION.MAGE</td><td><span style='color:#4169E1;'>Mago</span></td><td>Bonus di 50 punti di Mana</td></tr>
+<tr><td>CONSTELLATION.SERPENT</td><td><span style='color:#008000;'>Serpente</span></td><td>Infligge un veleno che toglie 3 punti Vita al secondo per 20 secondi, allo stesso tempo esegue un Dispel del 90% e cura dell'eventuale veleno su s&eacute; stessi, utilizzabile una volta al giorno al costo di 100 punti di Fatica.</td></tr>
+<tr><td>CONSTELLATION.LADY</td><td><span style='color:#8A2BE2;'>Regina</span></td><td>Bonus +10 a Volont&agrave; e +10 alla Resistenza</td></tr>
+<tr><td>CONSTELLATION.LORD</td><td><span style='color:#FF0;'>Re</span></td><td>Rigenera 6 punti Vita al secondo per 15 secondi una volta al giorno, ha una debolezza innata al fuoco del 25%</td></tr>
+<tr><td>CONSTELLATION.ATRONACH</td><td><span style='color:#FF4500;'>At</span><span style='color:#87CEEB;'>ro</span><span style='color:#A0522D;'>na</span><span style='color:#4169E1;'>ch</span></td><td>Bonus di 150 di Mana iniziali, ma non &egrave; possibile rigenerarli naturalmente o riposando, solo dormendo. Inoltre si ha un bonus innato di +50 all'incantesimo di 'Assorbi Mana'</td></tr>
+<tr><td>CONSTELLATION.APPRENTICE</td><td><span style='color:#808000;'>Apprendista</span></td><td>Bonus di 100 punti di Mana iniziali, debolezza del 100% al Mana</td></tr>
+</table><br><br>
+<a name='CONTAINER'><h3 style='color:white'>Container</h3></a>
+
+Enumerazione delle flag relative ai contenitori.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>CONTAINER.CLOSED</td><td>Closed</td><td>Il contenitore &egrave; chiusa</td></tr>
+<tr><td>CONTAINER.LOCKED</td><td>Locked</td><td>Il contenitore &egrave; chiusa a chiave</td></tr>
+<tr><td>CONTAINER.EATKEY</td><td>EatKey</td><td>Una volta che si apre il contenitore con la chiave quest'ultima viene distrutta</td></tr>
+<tr><td>CONTAINER.FORCE_KEY_ARG</td><td>ForceUsearg</td><td>Forza l'utilizzo dell'argomento chiave nel comando unlock e lock per poter aprire e chiudere la porta</td></tr>
+<tr><td>CONTAINER.BOLTED</td><td>Bolted</td><td>Il contenitore ha un catenaccio chiuso</td></tr>
+<tr><td>CONTAINER.BOLTABLE</td><td>Boltable</td><td>Il contenitore ha un catenaccio azionabile</td></tr>
+<tr><td>CONTAINER.CLOSABLE</td><td>Closable</td><td>Il contenitore si pu&ograve; aprire chiudere</td></tr>
+<tr><td>CONTAINER.SECRET</td><td>Secret</td><td>Non si capisce che &egrave; un contenitore fino a che non sia gi&agrave; stato aperto</td></tr>
+<tr><td>CONTAINER.OPEN_ONE_TIME</td><td>OpenOneTime</td><td>Il contenitore &egrave; apribile solo una volta, dopodich&eacute; perder&agrave; la sua flag closable</td></tr>
+</table><br><br>
+<a name='DAMAGE'><h3 style='color:white'>Damage</h3></a>
+
+Enumerazione delle tipologie di danno.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>DAMAGE.HUNGER</td><td>Hunger</td><td>Danno ricevuto per fame</td></tr>
+</table><br><br>
+<a name='DIR'><h3 style='color:white'>Dir</h3></a>
+
+Enumerazione delle direzioni.
+DIR_SOMEWHERE e DIR_PORTAL non esistono, vengono gestite tramite scripts.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>DIR.NORTH</td><td><span style='color:#008B8B;'>Nord</span></td><td></td></tr>
+<tr><td>DIR.NORTHEAST</td><td><span style='color:#90EE90;'>Nordest</span></td><td></td></tr>
+<tr><td>DIR.EAST</td><td><span style='color:#FF0;'>Est</span></td><td></td></tr>
+<tr><td>DIR.SOUTHEAST</td><td><span style='color:#ADD8E6;'>Sudest</span></td><td></td></tr>
+<tr><td>DIR.SOUTH</td><td><span style='color:#FFF;'>Sud</span></td><td></td></tr>
+<tr><td>DIR.SOUTHWEST</td><td><span style='color:#006400;'>Sudovest</span></td><td></td></tr>
+<tr><td>DIR.WEST</td><td><span style='color:#FF0000;'>Ovest</span></td><td></td></tr>
+<tr><td>DIR.NORTHWEST</td><td><span style='color:#00F;'>Nordovest</span></td><td></td></tr>
+<tr><td>DIR.UP</td><td><span style='color:#0FF;'>Alto</span></td><td></td></tr>
+<tr><td>DIR.DOWN</td><td><span style='color:#A52A2A;'>Basso</span></td><td></td></tr>
+</table><br><br>
+<a name='DOOR'><h3 style='color:white'>Door</h3></a>
+
+Enumerazione delle flag relative alle porte.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>DOOR.CLOSABLE</td><td>Closable</td><td>La porta si pu&ograve; chiudere</td></tr>
+<tr><td>DOOR.CLOSED</td><td>Closed</td><td>La porta &egrave; chiusa</td></tr>
+<tr><td>DOOR.LOCKED</td><td>Locked</td><td>La porta &egrave; chiusa a chiave</td></tr>
+<tr><td>DOOR.EATKEY</td><td>EatKey</td><td>Una volta che si apre la porta con la chiave quest'ultima viene distrutta</td></tr>
+<tr><td>DOOR.FORCE_USE_KEY</td><td>ForceUseKey</td><td>Forza l'utilizzo dell'argomento &lt;chiave da usare&gt; nel comando unlock e lock per poter aprire e chiudere la porta</td></tr>
+<tr><td>DOOR.NO_USE_DIR</td><td>NoUseDir</td><td>Indica che per questa porta non si possono utilizzare, ad esempio, il comando open nord</td></tr>
+<tr><td>DOOR.SECRET</td><td>Secret</td><td>La porta &egrave; nascosta</td></tr>
+<tr><td>DOOR.BOLTED</td><td>Bolted</td><td>La porta ha un catenaccio chiuso</td></tr>
+<tr><td>DOOR.BOLTABLE</td><td>Boltable</td><td>La porta ha un catenaccio chiudibile e apribile</td></tr>
+<tr><td>DOOR.NO_PASSDOOR</td><td>NoPassDoor</td><td>La porta non &egrave; passabile tramite incantesimo</td></tr>
+<tr><td>DOOR.ASYNCHRONOUS</td><td>Asynchronous</td><td>La porta installata su di un uscita di un lato &egrave; resa indipendente rispetto a quella installata nel lato apposto, sostanzialmente ci&ograve; permette di inserire due porte in una stesso collegamento tra due stanze.</td></tr>
+<tr><td>DOOR.BASHED</td><td>Bashed</td><td>La porta &egrave; sfondata</td></tr>
+<tr><td>DOOR.WINDOW</td><td>Transparent</td><td>Dalla porta vi si pu&ograve; vedere attraverso, come se fosse una finestra</td></tr>
+<tr><td>DOOR.OPEN_ONE_TIME</td><td>OpenOneTime</td><td>La porta si pu&ograve; aprire solo una volta, dopodich&eacute; perder&agrave; la sua flag closable</td></tr>
+</table><br><br>
+<a name='ENTITYPE'><h3 style='color:white'>Entitype</h3></a>
+
+Enumerazione delle tipologie degli oggetti.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>ENTITYPE.CONTAINER</td><td>Contenitore</td><td></td></tr>
+<tr><td>ENTITYPE.CORPSE</td><td>Cadavere</td><td></td></tr>
+<tr><td>ENTITYPE.DOOR</td><td>Porta</td><td></td></tr>
+<tr><td>ENTITYPE.DRINK</td><td>Bevanda</td><td></td></tr>
+<tr><td>ENTITYPE.FISHING</td><td>Pesca</td><td></td></tr>
+<tr><td>ENTITYPE.FOOD</td><td>Cibo</td><td></td></tr>
+<tr><td>ENTITYPE.FLOWER</td><td>Fiore</td><td></td></tr>
+<tr><td>ENTITYPE.FRUIT</td><td>Frutto</td><td></td></tr>
+<tr><td>ENTITYPE.GROUND</td><td>Terreno</td><td></td></tr>
+<tr><td>ENTITYPE.INSTRUMENT</td><td>Strumento</td><td></td></tr>
+<tr><td>ENTITYPE.KEY</td><td>Chiave</td><td></td></tr>
+<tr><td>ENTITYPE.KEYRING</td><td>Portachiavi</td><td></td></tr>
+<tr><td>ENTITYPE.MENHIR</td><td>Menhir</td><td></td></tr>
+<tr><td>ENTITYPE.MONEY</td><td>Moneta</td><td></td></tr>
+<tr><td>ENTITYPE.PLANT</td><td>Pianta</td><td></td></tr>
+<tr><td>ENTITYPE.PORTAL</td><td>Portale</td><td></td></tr>
+<tr><td>ENTITYPE.READABLE</td><td>Leggibile</td><td></td></tr>
+<tr><td>ENTITYPE.SEED</td><td>Seme</td><td></td></tr>
+<tr><td>ENTITYPE.WEAR</td><td>Abbigliamento</td><td></td></tr>
+<tr><td>ENTITYPE.WEAPON</td><td>Arma</td><td></td></tr>
+</table><br><br>
+<a name='EXIT'><h3 style='color:white'>Exit</h3></a>
+
+Enumerazione delle flag di uscita.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>EXIT.NO_LOOK_LIST</td><td>NoLookList</td><td>L'uscita non viene vista tra le altre</td></tr>
+<tr><td>EXIT.NO_MOB</td><td>NoMob</td><td>L'uscita non &egrave; praticabile dai mob</td></tr>
+<tr><td>EXIT.NO_ITEM</td><td>NoItem</td><td>L'uscita non &egrave; praticabile dagli oggetti</td></tr>
+<tr><td>EXIT.NO_ROOM</td><td>NoRoom</td><td>L'uscita non &egrave; praticabile dalle stanze</td></tr>
+<tr><td>EXIT.NO_PLAYER</td><td>NoPlayer</td><td>L'uscita non &egrave; praticabile dai giocatori, neppure da quelli che seguono un'altro tipo di entit&agrave;.</td></tr>
+<tr><td>EXIT.NO_FLEE</td><td>NoFlee</td><td>Per questa uscita non si pu&ograve; fuggire</td></tr>
+<tr><td>EXIT.DIGGABLE</td><td>Diggable</td><td>L'uscit&agrave; si rende agibile scavandovi</td></tr>
+<tr><td>EXIT.PIT</td><td>Pit</td><td>L'uscita non &egrave; agibile ed &egrave; un buco, solo con le corde si pu&ograve; scendervi (da non confondersi con la flag ROOM_NOFLOOR, qui il buco &egrave; solo parte del pavimento)</td></tr>
+<tr><td>EXIT.xCLIMB</td><td>xClimb</td><td>Uscita scavalcabile solo tramite il comando climb</td></tr>
+<tr><td>EXIT.xENTER</td><td>xEnter</td><td>Uscita in cui si pu&ograve; entrare solo con il comando enter</td></tr>
+<tr><td>EXIT.xLEAVE</td><td>xLeave</td><td>Uscita che si pu&ograve; lasciare solo con il comando leave</td></tr>
+<tr><td>EXIT.xAUTO</td><td>xAuto</td><td>Uscita utilizzabile solo se digitata come se fosse un comando</td></tr>
+<tr><td>EXIT.xSEARCH</td><td>xSearch</td><td>Uscita che si pu&ograve; trovare solo se cercata esplicitamente con il comando search</td></tr>
+<tr><td>EXIT.xLOOK</td><td>xLook</td><td>Uscita che permette di guardare nell'altra stanza con il comando look</td></tr>
+<tr><td>EXIT.xJUMP</td><td>xJump</td><td>Uscita raggiungibile solo saltandovi</td></tr>
+</table><br><br>
+<a name='EXTRA'><h3 style='color:white'>Extra</h3></a>
+
+Enumerazione delle flag per le descrizioni extra.
+(TD) possibilmente queste le abbandono integrandole nel sistema ad
+oggetti-al-posto-delle-extra che ho in mente
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>EXTRA.DAY_ONLY</td><td>DayOnly</td><td>La descrizione extra viene visualizza solo di giorno</td></tr>
+<tr><td>EXTRA.NIGHT_ONLY</td><td>NightOnly</td><td>La descrizione extra viene visualizza solo di notte</td></tr>
+<tr><td>EXTRA.READABLE</td><td>Readable</td><td>La descrizione extra viene mostrata ANCHE con il comando read (solo per oggetti e mob, per gli oggetti in alcuni casi &egrave; meglio creare un TypeBook)</td></tr>
+<tr><td>EXTRA.INSIDE_CONTAINER</td><td>InsideContainer</td><td>La descrizione &egrave; leggibile solo se il contenitore &egrave; aperto</td></tr>
+<tr><td>EXTRA.NO_LOOK_ACT</td><td>NoLookAct</td><td>La descrizione extra se chiamata con un comando sensoriale non produce messaggio alle altre persone nella stanza</td></tr>
+</table><br><br>
+<a name='FLAG'><h3 style='color:white'>Flag</h3></a>
+
+Enumerazione delle flag di entità.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>FLAG.NO_GET</td><td>NoGet</td><td>L'entit&agrave; non &egrave; raccoglibile (anche se leggera)</td></tr>
+<tr><td>FLAG.NO_DROP</td><td>NoDrop</td><td>L'entit&agrave; non &egrave; posabile</td></tr>
+<tr><td>FLAG.NO_GIVE</td><td>NoGive</td><td>L'entit&agrave; non pu&ograve; essere data ad altre entit&agrave; (solitamente se vuoi questa flag vuoi anche inserire NO_PUT)</td></tr>
+<tr><td>FLAG.NO_PUT</td><td>NoPut</td><td>L'entit&agrave; non pu&ograve; essere messa ad altre entit&agrave; (solitamente se vuoi questa flag vuoi anche inserire NO_GIVE)</td></tr>
+<tr><td>FLAG.NO_HOLD</td><td>NoHold</td><td>L'entit&agrave; non pu&ograve; essere essere afferrata in mano</td></tr>
+<tr><td>FLAG.NO_REMOVE</td><td>NoRemove</td><td>L'entit&agrave; non pu&ograve; essere rimossa una volta indossata</td></tr>
+<tr><td>FLAG.NO_LOOK_LIST</td><td>NoLookList</td><td>L'entit&agrave; non &egrave; visualizzabile nelle liste create dal comando look, ma sono comunque interagibili e lookabili con il comando</td></tr>
+<tr><td>FLAG.SPIRIT</td><td>Spirit</td><td>L'entit&agrave; &egrave; appena morta</td></tr>
+<tr><td>FLAG.AGGRESSIVE</td><td>Aggressive</td><td>L'entit&agrave; attaccher&agrave;, prima o poi, il personaggio o un altra entit&agrave;</td></tr>
+<tr><td>FLAG.SENTINEL</td><td>Sentinel</td><td>L'entit&agrave; rimane nella stanza e non insegue altre entit&agrave; ostili</td></tr>
+<tr><td>FLAG.AMBIDEXTROUS</td><td>Ambidextrous</td><td>L'entit&agrave; &egrave; ambidestra</td></tr>
+<tr><td>FLAG.CONVERSING</td><td>Conversing</td><td>L'entit&agrave; sta dialogando con un'altra entit&agrave;</td></tr>
+<tr><td>FLAG.BEATEN</td><td>Beaten</td><td>L'entit&agrave; &egrave; stata sconfitta in combattimento e attende il comando kill o spare</td></tr>
+<tr><td>FLAG.RANDOMIZABLE</td><td>Randomizable</td><td>L'entit&agrave; &egrave; considerata come utilizzabile in sistema di creazione casuale: per gli oggetti nei tesori casuali, reset per i mob nella wild oppure ancora per oggetti trovati casualmente scavando</td></tr>
+<tr><td>FLAG.NO_ROOM_BEHAVIOUR</td><td>NoRoomBehaviour</td><td>L'entit&agrave; non utilizza i behaviour della stanza, sia che ne abbia di propri che non</td></tr>
+<tr><td>FLAG.UNCLEANABLE</td><td>Uncleanable</td><td>L'entit&agrave; non viene rimossa dalla procedura di cleaning delle istanza in eccesso</td></tr>
+<tr><td>FLAG.VALUE_IS_ONLY_COST</td><td>ValueIsOnlyCost</td><td>L'etichetta Value dell'entit&agrave; non indica quanta moneta possiede con s&eacute; ma solo quanto costa nella lista di un negoziante, diversamente Value viene utilizzata per tutte e due le cose</td></tr>
+<tr><td>FLAG.NO_REMAINS</td><td>NoCorpse</td><td>L'entit&agrave; quando muore non produce cadavere</td></tr>
+<tr><td>FLAG.STAY_ON_DEATH</td><td>StayOnDeath</td><td>L'entit&agrave; rimarr&agrave; nell'inventario del personaggio anche se questi &egrave; morto e teletrasportato altrove, la flag ha senso solo per le entit&agrave; trasportate da un giocatore.</td></tr>
+<tr><td>FLAG.EXTRACT_ON_QUIT</td><td>ExtractOnQuit</td><td>Le entit&agrave; con tale flag trasportate dai giocatori verranno estratte quando questi ultimi eseguiranno il quit.</td></tr>
+<tr><td>FLAG.CAN_DAMAGING</td><td>CanDamaging</td><td>Le entit&agrave; con tale flag potranno utilizzare il comando destroy, kill e sinonimi. &Egrave; pensata per oggetti animati.</td></tr>
+<tr><td>FLAG.UNBREAKABLE</td><td>Unbreakable</td><td>Le entit&agrave; con tale flag non possono essere distrutte normalmente.</td></tr>
+<tr><td>FLAG.VAMPIRISM</td><td>Vampirism</td><td>L'entit&agrave; &egrave; sotto effetto del vamprismo</td></tr>
+<tr><td>FLAG.LICANTHROPY</td><td>Licantropia</td><td>L'entit&agrave; &egrave; sotto effetto della licantropia</td></tr>
+<tr><td>FLAG.THIEF</td><td>Thief</td><td>L'entit&agrave; &egrave; un ladro</td></tr>
+<tr><td>FLAG.ATTACKER</td><td>Attacker</td><td>L'entit&agrave; &egrave; un aggressore</td></tr>
+<tr><td>FLAG.KILLER</td><td>Killer</td><td>L'entit&agrave; &egrave; un pkiller</td></tr>
+<tr><td>FLAG.HEADHUNTER</td><td>Headhunter</td><td>L'entit&agrave; &egrave; un cacciatore di taglie</td></tr>
+<tr><td>FLAG.OUTCAST</td><td>Outcast</td><td>L'entit&agrave; &egrave; reietto da un clan</td></tr>
+<tr><td>FLAG.AFK</td><td>Afk</td><td>Il giocatore &egrave; lontano dalla tastiera</td></tr>
+<tr><td>FLAG.IDLE</td><td>Idle</td><td>Il giocatore &egrave; in idle</td></tr>
+<tr><td>FLAG.LINKDEATH</td><td>Linkdeath</td><td>Il giocatore &egrave; in link-death</td></tr>
+<tr><td>FLAG.EXTRACTED</td><td>Extracted</td><td>L'entit&agrave; &egrave; stata rimossa dal gioco tramite il metodo extract, serve per debug sui riferimenti</td></tr>
+<tr><td>FLAG.WEAKLY_EXTRACTED</td><td>WeaklyExtracted</td><td>L'entit&agrave; &egrave; stata rimossa dal gioco perch&egrave; raghgruppata fisicamente con un'altra entit&agrave; simile</td></tr>
+<tr><td>FLAG.HERBIVORE</td><td>Erbivoro</td><td>L'entit&agrave; si ciba prevalentemente di vegetali</td></tr>
+<tr><td>FLAG.CARNIVOROUS</td><td>Carnivoro</td><td>L'entit&agrave; si ciba prevalentemente di carne</td></tr>
+<tr><td>FLAG.INGESTED</td><td>Ingerito</td><td>L'entit&agrave; si trova nello stomaco di qualcuno</td></tr>
+<tr><td>FLAG.BURIED</td><td>Sepolto</td><td>L'entit&agrave; &egrave; stata sepolta, interrata o seminata nel terreno o da qualche altra parte</td></tr>
+<tr><td>FLAG.GROWING</td><td>Piantando</td><td>L'entit&agrave; sta attivamente crescendo (gli stati di SeedType o PlantType verranno eseguiti)</td></tr>
+<tr><td>FLAG.INTERACTABLE_FROM_OUTSIDE</td><td>Interagibile dall'esterno</td><td>L'entit&agrave; anche se si trova in un contenitore, &egrave; interagibile all'esterno, deve essere di norma utilizzato per entit&agrave; che effettivamente 'sporgono' dalla locazione in cui si trovano (serve soprattutto per le piante cresciute nei loro vasi)</td></tr>
+<tr><td>FLAG.NO_REPOP</td><td>NoRepop</td><td>L'entit&agrave; non viene repoppata se rimossa da dove &egrave; stata resettata</td></tr>
+<tr><td>FLAG.NO_CHECK_STATUS</td><td>NoCheckStatus</td><td>All'entit&agrave; non vengono controllate le flag di door e di container (e di wear) quando viene resettato o controllato tramite un repop</td></tr>
+<tr><td>FLAG.REPOP_ONLY_ON_EXTRACT</td><td>RepopOnlyOnExtract</td><td>Repoppa non quando si sposta dalla locazione di reset originaria, ma quando viene rimossa dal gioco</td></tr>
+<tr><td>FLAG.REPOP_ON_COORDS_AND_CODE</td><td>RepopOnCoordsAndCode</td><td>Repoppa non solo se le coordinate della room_reset sono quelle corrette ma anche se il codice della proto_room &egrave; identico</td></tr>
+</table><br><br>
+<a name='GRAMMAR'><h3 style='color:white'>Grammar</h3></a>
+
+Enumerazione delle flag per la gestione di alcune funzioni nel modulo grammar.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>GRAMMAR.MASCULINE</td><td>Maschile</td><td>Indica il genere maschile</td></tr>
+<tr><td>GRAMMAR.FEMININE</td><td>Femminile</td><td>Indica il genere femminile</td></tr>
+<tr><td>GRAMMAR.SINGULAR</td><td>Singolare</td><td>Indica il numero singolare</td></tr>
+<tr><td>GRAMMAR.PLURAL</td><td>Plurale</td><td>Indica il numero plurale plurale</td></tr>
+<tr><td>GRAMMAR.DETERMINATE</td><td>Determinato</td><td>Indica un articolo determinato</td></tr>
+<tr><td>GRAMMAR.INDETERMINATE</td><td>Indeterminativo</td><td>Indica un articolo indeterminato</td></tr>
+<tr><td>GRAMMAR.POSSESSIVE</td><td>Possessivo</td><td>Indica un aggettivo o un pronome possessivo</td></tr>
+<tr><td>GRAMMAR.PREPOSITION_IN</td><td>Preposizione In</td><td>Indica la preposizione articolata 'in'</td></tr>
+</table><br><br>
+<a name='HAIRTYPE'><h3 style='color:white'>Hairtype</h3></a>
+
+Enumerazione delle tipologie di capelli.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>HAIRTYPE.BALD</td><td>calvo</td><td></td></tr>
+<tr><td>HAIRTYPE.SLEEK</td><td>lisci</td><td></td></tr>
+<tr><td>HAIRTYPE.WAVY</td><td>mossi</td><td></td></tr>
+<tr><td>HAIRTYPE.CURLY</td><td>ricci</td><td></td></tr>
+<tr><td>HAIRTYPE.FRIZZY</td><td>crespi</td><td></td></tr>
+<tr><td>HAIRTYPE.RUFFLED</td><td>arruffati</td><td></td></tr>
+</table><br><br>
+<a name='HAND'><h3 style='color:white'>Hand</h3></a>
+
+Enumerazione delle tipologie di mano, cioè di quale mano un'entità utilizza
+piuttosto di un'altra.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>HAND.RIGHT</td><td>destra</td><td>Destra</td></tr>
+<tr><td>HAND.LEFT</td><td>sinistra</td><td>Sinistra</td></tr>
+</table><br><br>
+<a name='HELP'><h3 style='color:white'>Help</h3></a>
+
+Enumerazione delle tipologie di help.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>HELP.GENERIC</td><td>Generico</td><td>Aiuto di argomento generale</td></tr>
+<tr><td>HELP.MOVEMENT</td><td>Movimento</td><td>Tipologia di aiuto relativo il movimento e all'interazione con le uscite</td></tr>
+<tr><td>HELP.CHANNEL</td><td>Canali</td><td>Tipologia di aiuto relativo la comunicazione, rpg e non, e impostazione dei canali</td></tr>
+<tr><td>HELP.INFO</td><td>Informazione</td><td>Tipologia di aiuto relativo i comandi che danno informazioni su qualcosa</td></tr>
+<tr><td>HELP.ITEM</td><td>Oggetti</td><td>Tipologia di aiuto relativo ai comandi che manipolano o usano oggetti</td></tr>
+<tr><td>HELP.COMBAT</td><td>Combattimento</td><td>Tipologia di aiuto riguardante il combattimento</td></tr>
+<tr><td>HELP.GROUP</td><td>Gruppo</td><td>Tipologia di aiuto riguardante il gruppo</td></tr>
+<tr><td>HELP.SETTING</td><td>Impostazioni</td><td>Tipologia di aiuto relativa alle opzioni e impostazioni dell'account e del personaggio</td></tr>
+<tr><td>HELP.CLAN</td><td>Clan</td><td>Tipologia di aiuto riguardante i clan</td></tr>
+<tr><td>HELP.STAT</td><td>Statistiche</td><td>Tipologia di aiuto riguardante le statistiche e gli attributi del personaggio</td></tr>
+<tr><td>HELP.KIT</td><td>Classi</td><td>Tipologia di aiuto riguardante le classi</td></tr>
+<tr><td>HELP.SKILL</td><td>Abilit&agrave;</td><td>Tipologia di aiuto riguardante le skill</td></tr>
+<tr><td>HELP.SPELL</td><td>Incantesimi</td><td>Tipologia di aiuto riguardante gli spell</td></tr>
+<tr><td>HELP.ADMIN</td><td>Admin</td><td>Tipologia di aiuto per gli admin</td></tr>
+<tr><td>HELP.BUILD</td><td>Builder</td><td>Tipologia di aiuto relativa la costruzione di aree</td></tr>
+</table><br><br>
+<a name='INTENTION'><h3 style='color:white'>Intention</h3></a>
+
+Enumerazione delle intenzioni relativi ai social e alle skill.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>INTENTION.AGGRESSIVE</td><td>Aggressiva</td><td></td></tr>
+<tr><td>INTENTION.NEUTRAL</td><td>Neutrale</td><td></td></tr>
+<tr><td>INTENTION.FRIENDLY</td><td>Amichevole</td><td></td></tr>
+</table><br><br>
+<a name='LANGUAGE'><h3 style='color:white'>Language</h3></a>
+
+Enumerazione delle lingue.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>LANGUAGE.COMMON</td><td>comune</td><td>Lingua comune, quasi tutte le razze intelligenti conoscono questa lingua</td></tr>
+<tr><td>LANGUAGE.DWARVEN</td><td>nanica</td><td>Il nanico &egrave; opposto alla lingua degli Elfi grazie ai suoi suoni aspri e duri</td></tr>
+<tr><td>LANGUAGE.KHAJIT</td><td>khajit</td><td>Il linguaggio dei Felar, dalle molte rrr</td></tr>
+<tr><td>LANGUAGE.ARIAL</td><td>arial</td><td>L'incantevole lingua delle creature che popolano il cielo</td></tr>
+<tr><td>LANGUAGE.ARGONIAN</td><td>argoniano</td><td>La lingua dei Thepa, formata da esse sibilanti e da forti *click*, rumore che fa la loro lingua contro il palato superiore</td></tr>
+<tr><td>LANGUAGE.GNOME</td><td>gnomese</td><td>La veloce lingua degli Gnomi</td></tr>
+<tr><td>LANGUAGE.ORCISH</td><td>orchesca</td><td>L'orchesco &egrave; simile al linguaggio dei goblin, ma &egrave; ancora pi&ugrave; 'sporco'</td></tr>
+<tr><td>LANGUAGE.FRIJEN</td><td>frijen</td><td>Il frijen &egrave; la lingua parlata nelle Terre del Nord dalle Frijen</td></tr>
+<tr><td>LANGUAGE.GOBLIN</td><td>globin</td><td>La lingua dei Goblin &egrave; una versione imbastardita dell'elfico</td></tr>
+<tr><td>LANGUAGE.TROLLISH</td><td>trollese</td><td>Il trollese, simile all'orchesco, &egrave; assimilabile ai grugniti di queste creature</td></tr>
+<tr><td>LANGUAGE.OGRISH</td><td>ogrese</td><td>Il linguaggio degli Ogre, fatto essenzialmente di suoni aspri e gutturali</td></tr>
+<tr><td>LANGUAGE.TAUREN</td><td>tauren</td><td>Il linguaggio dei Minotauri, &egrave; simile per certi versi a quello nanico, tanto che alcuni pensano ad un antico legame di vicinato tra le due razze.</td></tr>
+<tr><td>LANGUAGE.PIXIE</td><td>pixie</td><td>Il linguaggio garrullo dei Pixie</td></tr>
+<tr><td>LANGUAGE.CENTAUR</td><td>centaurese</td><td>&Egrave; la lingua dei Centauri, dura ma pratica</td></tr>
+<tr><td>LANGUAGE.ELVEN</td><td>elfico</td><td>Il melodioso e delicato linguaggio elfico</td></tr>
+<tr><td>LANGUAGE.DROW</td><td>drow</td><td>Il linguaggio degli elfi scuri</td></tr>
+<tr><td>LANGUAGE.DRACONIAN</td><td>draconiano</td><td>Il linguaggio dei draghi e razze draconiane</td></tr>
+<tr><td>LANGUAGE.GITH</td><td>gith</td><td>Il linguaggio astrale dei Githyanki</td></tr>
+<tr><td>LANGUAGE.GNOLL</td><td>gnoll</td><td>Il linguaggio degli Gnoll</td></tr>
+<tr><td>LANGUAGE.DEMONIAC</td><td>demoniaco</td><td>&Egrave; la lingua che serve a comunicare coi Demoni ed altre creature evocate, questa lingua &egrave; molto ricca di consonanti</td></tr>
+<tr><td>LANGUAGE.ANCIENT</td><td>antico</td><td>L'antica lingua delle ere precedenti conosciuta solo da alcune creature millenarie</td></tr>
+<tr><td>LANGUAGE.MORTIS</td><td>mortis</td><td>La lingua mortis &egrave; il linguaggio delle anime dei morti. Consiste in un suono molto aereo</td></tr>
+<tr><td>LANGUAGE.DIVINE</td><td>divina</td><td>L'impescrutabile lingua degli Dei</td></tr>
+<tr><td>LANGUAGE.MAMMAL</td><td>mammiferi</td><td>Il linguaggio di comunicazione dei principali animali mammiferi</td></tr>
+<tr><td>LANGUAGE.CANINE</td><td>canidi</td><td>Il linguaggio di cani e lupi e simili</td></tr>
+<tr><td>LANGUAGE.FELINE</td><td>felini</td><td>Il linguaggio di tutti i felini, dai gatti alle tigri</td></tr>
+<tr><td>LANGUAGE.REPTILE</td><td>rettili</td><td>Il velenoso sibilare dei rettili e dei serpenti</td></tr>
+<tr><td>LANGUAGE.AVIS</td><td>uccelli</td><td>Il cinguettare degli uccelli</td></tr>
+<tr><td>LANGUAGE.MARINE</td><td>marini</td><td>Il silenzioso linguaggio dei pesci e di molte delle creature di mari, laghi e fiumi</td></tr>
+<tr><td>LANGUAGE.RODENT</td><td>roditori</td><td>Le semplice espressioni dei roditori sono sostanzialmente una serie di Eek in diverse forme.</td></tr>
+<tr><td>LANGUAGE.INSECTOID</td><td>insetti</td><td>Il silenzioso bisbigliare degli insetti</td></tr>
+<tr><td>LANGUAGE.TREELEAF</td><td>alberofoglia</td><td>&Egrave; il linguaggio di alberi, piante o creature vegetali (come gli Ent)</td></tr>
+<tr><td>LANGUAGE.MONSTER</td><td>mostri</td><td>L'incomprensibile lingua di alcuni mostri</td></tr>
+</table><br><br>
+<a name='LOCATION'><h3 style='color:white'>Location</h3></a>
+
+Enumerazione delle locazioni, solitamente utilizzate nel codice nelle funzioni
+di ricerca delle entità.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>LOCATION.HERE</td><td>Qui</td><td>Locazione attuale, potrebbe essere dentro un contenitore piuttosto che lo stomaco di una creatura oppure una semplice stanza</td></tr>
+<tr><td>LOCATION.ROOM</td><td>Stanza</td><td>Stanza in cui ci si trova attualmente</td></tr>
+<tr><td>LOCATION.AREA</td><td>Area</td><td>Area in cui ci si trova attualmente</td></tr>
+<tr><td>LOCATION.MUD</td><td>Mud</td><td>Tutto il Mud</td></tr>
+</table><br><br>
+<a name='LOG'><h3 style='color:white'>Log</h3></a>
+
+Enumerazione delle tipologie di log.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>LOG.ALWAYS</td><td>Always</td><td>Messaggi importanti che vengono visualizzati agli admin nonostante non abbiano l'opzione attiva</td></tr>
+<tr><td>LOG.BOOTING</td><td>Booting</td><td>Messaggi relativi al caricamento del database all'avvio del Mud</td></tr>
+<tr><td>LOG.BACKUP</td><td>Backup</td><td>Messaggi relativo al backup di tutto il database del Mud</td></tr>
+<tr><td>LOG.SAVE</td><td>Save</td><td>Messaggi relativo al salvataggio dei dati per la persistenza del mondo del Mud</td></tr>
+<tr><td>LOG.SHUTDOWN</td><td>Shutdown</td><td>Messaggi relativo allo shutdown del Mud</td></tr>
+<tr><td>LOG.FREAD</td><td>Fread</td><td>Messaggio relativo alla lettura dei dati su file testuali</td></tr>
+<tr><td>LOG.FWRITE</td><td>Fwrite</td><td>Messaggio relativo alla scrittura dei dati su file testuali</td></tr>
+<tr><td>LOG.CONN</td><td>Conn</td><td>Messaggio relativi alle connessioni</td></tr>
+<tr><td>LOG.WARNING</td><td>Warning</td><td>Informazioni di warning, tipo presunti bachi.</td></tr>
+<tr><td>LOG.ERROR</td><td>Error</td><td>Messaggi della get_error_message() e altri che non vogliono far scattare il tracking della send_log</td></tr>
+<tr><td>LOG.BUG</td><td>Bug</td><td>Messaggi riguardanti i bachi, di solito questa &egrave; la tipologia pi&ugrave; diffusa di log</td></tr>
+<tr><td>LOG.INPUT</td><td>Input</td><td>Messaggi riguardanti gli input digitati dai giocatori</td></tr>
+<tr><td>LOG.DELETE</td><td>Delete</td><td>Messaggi riguardanti la cancellazione di dati</td></tr>
+<tr><td>LOG.BADWORD</td><td>BadWord</td><td>Messaggi che indicano che in un canale rpg sono state dette parolacce</td></tr>
+<tr><td>LOG.OFFRPG</td><td>OffRpg</td><td>Messaggi che indicano che in un canale rpg sono state dette parole off-rpg o altre azioni non rpg</td></tr>
+<tr><td>LOG.HUH</td><td>Huh</td><td>Messaggi relativi a input digitato scorrettamente</td></tr>
+<tr><td>LOG.TIME</td><td>Time</td><td>Messaggi relativi agli input che ci mettono troppo tempo nell'esecuzione</td></tr>
+<tr><td>LOG.CONVERT</td><td>Convert</td><td>Messaggi relativi alla conversione delle aree</td></tr>
+<tr><td>LOG.COMMAND</td><td>Command</td><td>Messaggi relativi a comandi da loggare</td></tr>
+<tr><td>LOG.CHECK_RESET</td><td>CheckReset</td><td>Messaggi relativi al controllo degli eventi di reset</td></tr>
+<tr><td>LOG.RESET</td><td>Reset</td><td>Messaggi relativi al resetting delle stanze e delle entit&agrave;</td></tr>
+<tr><td>LOG.REPOP</td><td>Repop</td><td>Messaggi relativi al repopping delle entit&agrave;</td></tr>
+<tr><td>LOG.GAMESCRIPT</td><td>Gamescript</td><td>Messaggi relativi all'attivazione dei gamescript</td></tr>
+<tr><td>LOG.PLANT</td><td>Plant</td><td>Messaggi relativi ai differenti stadi di crescita</td></tr>
+<tr><td>LOG.HTTP</td><td>Http</td><td>Messaggi relativi alle richieste di risorse http</td></tr>
+<tr><td>LOG.ADMIN</td><td>Admin</td><td>Messaggi relativi alle azioni degli admin che &egrave; meglio monitorare</td></tr>
+<tr><td>LOG.MONITOR</td><td>Monitor</td><td>Messaggi di vario genere che servono a monitorare la situazione</td></tr>
+<tr><td>LOG.AUTORELOAD</td><td>Autoreload</td><td>Messaggi relativi al ricaricamento automatico di dati, moduli e pagine web</td></tr>
+</table><br><br>
+<a name='MATERIAL'><h3 style='color:white'>Material</h3></a>
+
+Enumerazione dei materiali.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>MATERIAL.SOFTWOOD</td><td>legno dolce</td><td></td></tr>
+<tr><td>MATERIAL.WOOD</td><td>legno</td><td></td></tr>
+<tr><td>MATERIAL.HARDWOOD</td><td>legno duro</td><td></td></tr>
+<tr><td>MATERIAL.TROPICALWOOD</td><td>legni tropicali</td><td></td></tr>
+<tr><td>MATERIAL.BAMBOO</td><td>bamboo</td><td></td></tr>
+<tr><td>MATERIAL.OAK</td><td>quercia</td><td></td></tr>
+<tr><td>MATERIAL.EBONY</td><td>ebano</td><td></td></tr>
+<tr><td>MATERIAL.CORK</td><td>sughero</td><td></td></tr>
+<tr><td>MATERIAL.WICKERS</td><td>vimini</td><td></td></tr>
+<tr><td>MATERIAL.STRAW</td><td>paglia</td><td></td></tr>
+<tr><td>MATERIAL.VEGETABLE</td><td>vegetale</td><td></td></tr>
+<tr><td>MATERIAL.PAPER</td><td>carta</td><td></td></tr>
+<tr><td>MATERIAL.PARCHMENT</td><td>pergamena</td><td></td></tr>
+<tr><td>MATERIAL.CARDBOARD</td><td>cartone</td><td></td></tr>
+<tr><td>MATERIAL.PAPYRUS</td><td>papiro</td><td></td></tr>
+<tr><td>MATERIAL.COTTON</td><td>cotone</td><td></td></tr>
+<tr><td>MATERIAL.SILK</td><td>seta</td><td></td></tr>
+<tr><td>MATERIAL.SATIN</td><td>raso</td><td></td></tr>
+<tr><td>MATERIAL.LACE</td><td>pizzo</td><td></td></tr>
+<tr><td>MATERIAL.WOOL</td><td>lana</td><td></td></tr>
+<tr><td>MATERIAL.LINE</td><td>lino</td><td></td></tr>
+<tr><td>MATERIAL.CANVAS</td><td>tela</td><td></td></tr>
+<tr><td>MATERIAL.CLOTH</td><td>tessuto</td><td></td></tr>
+<tr><td>MATERIAL.VELVET</td><td>velluto</td><td></td></tr>
+<tr><td>MATERIAL.FELT</td><td>feltro</td><td></td></tr>
+<tr><td>MATERIAL.HEMP</td><td>canapa</td><td></td></tr>
+<tr><td>MATERIAL.LEATHER</td><td>cuoio</td><td></td></tr>
+<tr><td>MATERIAL.FUR</td><td>pelliccia</td><td></td></tr>
+<tr><td>MATERIAL.SNAKESKIN</td><td>pelle di serpente</td><td></td></tr>
+<tr><td>MATERIAL.FEATHERS</td><td>penne</td><td></td></tr>
+<tr><td>MATERIAL.CELLULOSE</td><td>cellulosa</td><td></td></tr>
+<tr><td>MATERIAL.ALLOY</td><td>lega</td><td></td></tr>
+<tr><td>MATERIAL.METAL</td><td>metallo</td><td></td></tr>
+<tr><td>MATERIAL.STEEL</td><td>acciaio</td><td></td></tr>
+<tr><td>MATERIAL.GOLD</td><td>oro</td><td></td></tr>
+<tr><td>MATERIAL.SILVER</td><td>argento</td><td></td></tr>
+<tr><td>MATERIAL.ELECTRUM</td><td>electrum</td><td></td></tr>
+<tr><td>MATERIAL.MITHRIL</td><td>mithril</td><td></td></tr>
+<tr><td>MATERIAL.PLATINUM</td><td>platino</td><td></td></tr>
+<tr><td>MATERIAL.TITANIUM</td><td>titanio</td><td></td></tr>
+<tr><td>MATERIAL.ALUMINIUM</td><td>alluminio</td><td></td></tr>
+<tr><td>MATERIAL.IRON</td><td>ferro</td><td></td></tr>
+<tr><td>MATERIAL.LEAD</td><td>piombo</td><td></td></tr>
+<tr><td>MATERIAL.COPPER</td><td>rame</td><td></td></tr>
+<tr><td>MATERIAL.BRONZE</td><td>bronzo</td><td></td></tr>
+<tr><td>MATERIAL.BRASS</td><td>ottone</td><td></td></tr>
+<tr><td>MATERIAL.TIN</td><td>stagno</td><td></td></tr>
+<tr><td>MATERIAL.WIRE</td><td>filo metallico</td><td></td></tr>
+<tr><td>MATERIAL.PEWTER</td><td>peltro</td><td></td></tr>
+<tr><td>MATERIAL.ADAMANTITE</td><td>adamantio</td><td></td></tr>
+<tr><td>MATERIAL.MERCURY</td><td>mercurio</td><td></td></tr>
+<tr><td>MATERIAL.MARBLE</td><td>marmo</td><td></td></tr>
+<tr><td>MATERIAL.STONE</td><td>pietra</td><td></td></tr>
+<tr><td>MATERIAL.FLINT</td><td>selce</td><td></td></tr>
+<tr><td>MATERIAL.LODESTONE</td><td>magnetite</td><td></td></tr>
+<tr><td>MATERIAL.GRANITE</td><td>granito</td><td></td></tr>
+<tr><td>MATERIAL.QUARTZ</td><td>quarzo</td><td></td></tr>
+<tr><td>MATERIAL.SHELL</td><td>conchiglia</td><td></td></tr>
+<tr><td>MATERIAL.EARTH</td><td>terra</td><td></td></tr>
+<tr><td>MATERIAL.COAL</td><td>carbone</td><td></td></tr>
+<tr><td>MATERIAL.SAND</td><td>sabbia</td><td></td></tr>
+<tr><td>MATERIAL.CLAY</td><td>argilla</td><td></td></tr>
+<tr><td>MATERIAL.ASH</td><td>cenere</td><td></td></tr>
+<tr><td>MATERIAL.ACID</td><td>acido</td><td></td></tr>
+<tr><td>MATERIAL.ENAMEL</td><td>smalto</td><td></td></tr>
+<tr><td>MATERIAL.OBSIDIAN</td><td>ossidiana</td><td></td></tr>
+<tr><td>MATERIAL.AMBER</td><td>ambra</td><td></td></tr>
+<tr><td>MATERIAL.AGATE</td><td>agata</td><td></td></tr>
+<tr><td>MATERIAL.LAPISLAZULI</td><td>lapislazzuli</td><td></td></tr>
+<tr><td>MATERIAL.JADE</td><td>giada</td><td></td></tr>
+<tr><td>MATERIAL.DIAMOND</td><td>diamante</td><td></td></tr>
+<tr><td>MATERIAL.PEARL</td><td>perla</td><td></td></tr>
+<tr><td>MATERIAL.GEM</td><td>gemma</td><td></td></tr>
+<tr><td>MATERIAL.RUBY</td><td>rubino</td><td></td></tr>
+<tr><td>MATERIAL.CRISTAL</td><td>cristallo</td><td></td></tr>
+<tr><td>MATERIAL.IVORY</td><td>avorio</td><td></td></tr>
+<tr><td>MATERIAL.CORUNDUM</td><td>corindone</td><td></td></tr>
+<tr><td>MATERIAL.CORAL</td><td>corallo</td><td></td></tr>
+<tr><td>MATERIAL.EMERALD</td><td>smeraldo</td><td></td></tr>
+<tr><td>MATERIAL.AMETHYST</td><td>ametista</td><td></td></tr>
+<tr><td>MATERIAL.NACRE</td><td>madreperla</td><td></td></tr>
+<tr><td>MATERIAL.ONYX</td><td>onice</td><td></td></tr>
+<tr><td>MATERIAL.MOONSTONE</td><td>pietra della luna</td><td></td></tr>
+<tr><td>MATERIAL.SAPPHIR</td><td>zaffiro</td><td></td></tr>
+<tr><td>MATERIAL.OPAL</td><td>opale</td><td></td></tr>
+<tr><td>MATERIAL.HEMATITE</td><td>ematite</td><td></td></tr>
+<tr><td>MATERIAL.GARNET</td><td>granato mandarino</td><td></td></tr>
+<tr><td>MATERIAL.CREAM</td><td>crema</td><td></td></tr>
+<tr><td>MATERIAL.MEAT</td><td>carne</td><td></td></tr>
+<tr><td>MATERIAL.FISH</td><td>pesce</td><td></td></tr>
+<tr><td>MATERIAL.MILK</td><td>latte</td><td></td></tr>
+<tr><td>MATERIAL.CHEESE</td><td>formaggio</td><td></td></tr>
+<tr><td>MATERIAL.BUTTER</td><td>burro</td><td></td></tr>
+<tr><td>MATERIAL.MARGARINE</td><td>margarina</td><td></td></tr>
+<tr><td>MATERIAL.LEGUME</td><td>legumi</td><td></td></tr>
+<tr><td>MATERIAL.FLOUR</td><td>farina</td><td></td></tr>
+<tr><td>MATERIAL.RICE</td><td>riso</td><td></td></tr>
+<tr><td>MATERIAL.BREAD</td><td>pane</td><td></td></tr>
+<tr><td>MATERIAL.OIL</td><td>olio</td><td></td></tr>
+<tr><td>MATERIAL.PULP</td><td>polpa di frutta</td><td></td></tr>
+<tr><td>MATERIAL.CEREAL</td><td>cereale</td><td></td></tr>
+<tr><td>MATERIAL.FRUIT</td><td>frutta</td><td></td></tr>
+<tr><td>MATERIAL.VEGETABLES</td><td>verdura</td><td></td></tr>
+<tr><td>MATERIAL.SEED</td><td>sementi</td><td></td></tr>
+<tr><td>MATERIAL.HERB</td><td>erbe</td><td></td></tr>
+<tr><td>MATERIAL.ROOT</td><td>radice</td><td></td></tr>
+<tr><td>MATERIAL.CHOCOLATE</td><td>cioccolato</td><td></td></tr>
+<tr><td>MATERIAL.PEPPER</td><td>pepe</td><td></td></tr>
+<tr><td>MATERIAL.KERNEL</td><td>nocciola</td><td></td></tr>
+<tr><td>MATERIAL.MUSHROOM</td><td>fungo</td><td></td></tr>
+<tr><td>MATERIAL.CACAO</td><td>cacao</td><td></td></tr>
+<tr><td>MATERIAL.EGG</td><td>uova</td><td></td></tr>
+<tr><td>MATERIAL.SUGAR</td><td>zucchero</td><td></td></tr>
+<tr><td>MATERIAL.WATER</td><td>acqua</td><td></td></tr>
+<tr><td>MATERIAL.ALCOHOL</td><td>alcol</td><td></td></tr>
+<tr><td>MATERIAL.TILES</td><td>tegole</td><td></td></tr>
+<tr><td>MATERIAL.WEB</td><td>ragnatela</td><td></td></tr>
+<tr><td>MATERIAL.SLIME</td><td>melma</td><td></td></tr>
+<tr><td>MATERIAL.JELLY</td><td>gelatina</td><td></td></tr>
+<tr><td>MATERIAL.WAX</td><td>cera</td><td></td></tr>
+<tr><td>MATERIAL.RUBBER</td><td>gomma</td><td></td></tr>
+<tr><td>MATERIAL.BALM</td><td>balsamo</td><td></td></tr>
+<tr><td>MATERIAL.RUNE</td><td>runa</td><td></td></tr>
+<tr><td>MATERIAL.ESSENCE</td><td>essenza</td><td></td></tr>
+<tr><td>MATERIAL.LEAF</td><td>fogliame</td><td></td></tr>
+<tr><td>MATERIAL.SPONGE</td><td>spugna</td><td></td></tr>
+<tr><td>MATERIAL.ELASTIC</td><td>elastico</td><td></td></tr>
+<tr><td>MATERIAL.FLOWER</td><td>fiori</td><td></td></tr>
+<tr><td>MATERIAL.DUST</td><td>polvere</td><td></td></tr>
+<tr><td>MATERIAL.THORN</td><td>spine</td><td></td></tr>
+<tr><td>MATERIAL.SOAP</td><td>sapone</td><td></td></tr>
+<tr><td>MATERIAL.INCENSE</td><td>incenso</td><td></td></tr>
+<tr><td>MATERIAL.SPORE</td><td>spore</td><td></td></tr>
+<tr><td>MATERIAL.DRAGONSCALE</td><td>scaglie di drago</td><td></td></tr>
+<tr><td>MATERIAL.GLASS</td><td>vetro</td><td></td></tr>
+<tr><td>MATERIAL.POTTERY</td><td>ceramica</td><td></td></tr>
+<tr><td>MATERIAL.PORCELAIN</td><td>porcellana</td><td></td></tr>
+<tr><td>MATERIAL.ICE</td><td>ghiaccio</td><td></td></tr>
+<tr><td>MATERIAL.FLESH</td><td>carne</td><td></td></tr>
+<tr><td>MATERIAL.HAIR</td><td>capelli</td><td></td></tr>
+<tr><td>MATERIAL.GUT</td><td>budella</td><td></td></tr>
+<tr><td>MATERIAL.HORN</td><td>corno</td><td></td></tr>
+<tr><td>MATERIAL.BLOOD</td><td>sangue</td><td></td></tr>
+<tr><td>MATERIAL.NAIL</td><td>unghia</td><td></td></tr>
+<tr><td>MATERIAL.TOOTH</td><td>dente</td><td></td></tr>
+<tr><td>MATERIAL.BEAK</td><td>becco</td><td></td></tr>
+<tr><td>MATERIAL.PRICK</td><td>aculei</td><td></td></tr>
+<tr><td>MATERIAL.BONE</td><td>osso</td><td></td></tr>
+<tr><td>MATERIAL.ENERGY</td><td>energia</td><td></td></tr>
+<tr><td>MATERIAL.NOTHINGNESS</td><td>nulla</td><td></td></tr>
+<tr><td>MATERIAL.VOID</td><td>vuoto</td><td></td></tr>
+<tr><td>MATERIAL.AIR</td><td>aria</td><td></td></tr>
+<tr><td>MATERIAL.LIGHT</td><td>luce</td><td></td></tr>
+<tr><td>MATERIAL.SHADOW</td><td>ombra</td><td></td></tr>
+<tr><td>MATERIAL.SPIRIT</td><td>spirito</td><td></td></tr>
+<tr><td>MATERIAL.FIRE</td><td>fuoco</td><td></td></tr>
+<tr><td>MATERIAL.MANA</td><td>mana</td><td></td></tr>
+<tr><td>MATERIAL.UNKNOWN</td><td>sconosciuto</td><td></td></tr>
+</table><br><br>
+<a name='MONTH'><h3 style='color:white'>Month</h3></a>
+
+Enumerazione dei mesi di un anno rpg.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>MONTH.ONE</td><td><span style='color:#FFF;'>Inverno del Lupo</span></td><td>dell'<span style='color:#FFF;'>Inverno del Lupo</span></td></tr>
+<tr><td>MONTH.TWO</td><td><span style='color:#0FF;'>Gigante di Ghiaccio</span></td><td>del <span style='color:#0FF;'>Gigante di Ghiaccio</span></td></tr>
+<tr><td>MONTH.THREE</td><td><span style='color:#00F;'>Arcano Passato</span></td><td>dell'<span style='color:#00F;'>Arcano Passato</span></td></tr>
+<tr><td>MONTH.FOUR</td><td><span style='color:#008000;'>Natura</span></td><td>della <span style='color:#008000;'>Natura</span></td></tr>
+<tr><td>MONTH.FIVE</td><td><span style='color:#FF0000;'>Grande Lotta</span></td><td>della <span style='color:#FF0000;'>Grande Lotta</span></td></tr>
+<tr><td>MONTH.SIX</td><td><span style='color:#FF0000;'>Dragone</span></td><td>del <span style='color:#FF0000;'>Dragone</span></td></tr>
+<tr><td>MONTH.SEVEN</td><td><span style='color:#FF0000;'>Battaglia</span></td><td>della <span style='color:#FF0000;'>Battaglia</span></td></tr>
+<tr><td>MONTH.EIGHT</td><td><span style='color:#696969;'>Lunghe Ombre</span></td><td>delle <span style='color:#696969;'>Lunghe Ombre</span></td></tr>
+<tr><td>MONTH.NINE</td><td><span style='color:#00F;'>Antica Oscurit&agrave;</span></td><td>dell'<span style='color:#00F;'>Antica Oscurit&agrave;</span></td></tr>
+<tr><td>MONTH.TEN</td><td><span style='color:#696969;'>Grande Male</span></td><td>del <span style='color:#696969;'>Grande Male</span></td></tr>
+</table><br><br>
+<a name='NEW'><h3 style='color:white'>New</h3></a>
+
+Enumerazione delle tipologie di help.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>NEW.CODE</td><td>Codice</td><td>Notizia relativa al codice del motore di Aarit</td></tr>
+<tr><td>NEW.OPENING</td><td>Apertura</td><td>Aperture temporanee ai giocatori</td></tr>
+<tr><td>NEW.CLOSING</td><td>Chiusura</td><td>Chiusure delle aperture temporanee</td></tr>
+<tr><td>NEW.RELEASE</td><td>Release</td><td>Lista delle note di rilascio delle nuove versioni</td></tr>
+</table><br><br>
+<a name='OPTION'><h3 style='color:white'>Option</h3></a>
+
+Enumerazione delle flag di opzione dell'account.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>OPTION.NEWBIE</td><td>newbie</td><td>Se impostato qui e l&agrave; si verr&agrave; guidati con dei messaggi di aiuto</td></tr>
+<tr><td>OPTION.ITALIAN</td><td>italiano</td><td>Se impostato preferisci i comandi in italiano a quelli in inglese</td></tr>
+<tr><td>OPTION.DOUBLE_LANG</td><td>doppia lingua</td><td>Se impostato cerca il comando inviato sia tra quelli in italiano sia tra quelli in inglese, dando la precedenza alla lingua scelta con l'opzione sopra</td></tr>
+<tr><td>OPTION.AUTO_GOLD</td><td>auto monete</td><td>Se impostato le monete vengono raccolte automaticamente dai corpi dei mob uccisi</td></tr>
+<tr><td>OPTION.AUTO_SPLIT</td><td>auto dividi</td><td>Se impostato le monete raccolte nelle uccisioni vengono divise equamente col gruppo</td></tr>
+<tr><td>OPTION.AUTO_LOOT</td><td>auto saccheggia</td><td>Se impostato gli oggetti vengono automaticamente tolti dai corpi dei mob uccisi</td></tr>
+<tr><td>OPTION.AUTO_OPEN</td><td>auto apri</td><td>Se impostato, sia le uscite chiuse ma apribili nella direzione in cui stai andando verranno automaticamente aperte, sia i contenitori chiusi ma apribili dai quali si sa gi&agrave; cosa prelevare verranno automaticamente aperti</td></tr>
+<tr><td>OPTION.AUTO_FLEE</td><td>auto fuggi</td><td>Se impostato quando sarai in combattimento potrai utilizzare i comandi direzione per tentare di fuggire</td></tr>
+<tr><td>OPTION.COMET</td><td>comet</td><td>Se impostato utilizzerete il vecchio metodo di connessione al gioco, pi&ugrave; performante ma meno compatibile, disattivate quest'opzione se avete problemi di connessione!</td></tr>
+<tr><td>OPTION.MAP</td><td>mappa</td><td>Se impostato visualizzerete, accanto alla descrizione di ogni stanza, una mappa della zona in cui ti trovi</td></tr>
+<tr><td>OPTION.LESS_COLORS</td><td>meno colori</td><td>Se impostato vi verr&agrave; inviato testo con meno colore</td></tr>
+<tr><td>OPTION.COMPACT</td><td>compatto</td><td>Se impostato il teso inviato sar&agrave; pi&ugrave; compatto evitando di inviare una riga vuota prima del prompt</td></tr>
+<tr><td>OPTION.COURIER_FONT</td><td>courier font</td><td>Se impostato i caratteri della finestra di gioco del gioco saranno in Courier, solo per gli inguaribili nostalgici. (per rendere effettiva quest'opzione avrai bisogno di ricaricare la pagina di gioco nel qual caso fosse gi&agrave; aperta)</td></tr>
+<tr><td>OPTION.SOUND</td><td>sound</td><td>Se impostato potrai sentire il sonoro inviato dal gioco (in alcuni browser bisogner&agrave; installare un plugin apposito)</td></tr>
+<tr><td>OPTION.MUSIC</td><td>musica</td><td>Se impostato potrai sentire la musica inviata dal gioco (in alcuni browser bisogner&agrave; installare un plugin apposito)</td></tr>
+<tr><td>OPTION.LOOP</td><td>loop</td><td>Se impostato le sole musiche d'ambiente verranno ripetute in continuazione anzich&eacute; una volta sola</td></tr>
+</table><br><br>
+<a name='PART'><h3 style='color:white'>Part</h3></a>
+
+Enumerazione delle parti del corpo.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>PART.BODY</td><td>corpo</td><td>al corpo</td></tr>
+<tr><td>PART.FLOATING</td><td>fluttuante</td><td>che ti fluttua attorno</td></tr>
+<tr><td>PART.HEAD</td><td>testa</td><td>in testa</td></tr>
+<tr><td>PART.TORSO</td><td>torso</td><td>al torso</td></tr>
+<tr><td>PART.LEFT_UPPER_LIMB</td><td>braccio sinistro</td><td>sul braccio sinistro</td></tr>
+<tr><td>PART.RIGHT_UPPER_LIMB</td><td>braccio destro</td><td>sul braccio destro</td></tr>
+<tr><td>PART.LEFT_LOWER_LIMB</td><td>gamba sinistra</td><td>sulla gamba sinistra</td></tr>
+<tr><td>PART.RIGHT_LOWER_LIMB</td><td>gamba destra</td><td>sulla gamba destra</td></tr>
+<tr><td>PART.HAIR</td><td>capelli</td><td>ai capelli</td></tr>
+<tr><td>PART.FOREHEAD</td><td>fronte</td><td>sulla fronte</td></tr>
+<tr><td>PART.FACE</td><td>viso</td><td>sul viso</td></tr>
+<tr><td>PART.LEFT_EYEBROW</td><td>sopracciglio sinistro</td><td>al sopracciglio sinistro</td></tr>
+<tr><td>PART.RIGHT_EYEBROW</td><td>sopracciglio destro</td><td>al sopracciglio destro</td></tr>
+<tr><td>PART.LEFT_EYELASH</td><td>ciglia sinistra</td><td>sulla ciglia sinistra</td></tr>
+<tr><td>PART.RIGHT_EYELASH</td><td>ciglia destra</td><td>sulla ciglia destra</td></tr>
+<tr><td>PART.LEFT_EYE</td><td>occhio sinistro</td><td>all'occhio sinistro</td></tr>
+<tr><td>PART.RIGHT_EYE</td><td>occhio destro</td><td>all'occhio destro</td></tr>
+<tr><td>PART.LEFT_EAR</td><td>orecchia sinistra</td><td>all'orecchia sinistra</td></tr>
+<tr><td>PART.RIGHT_EAR</td><td>orecchia destra</td><td>all'orecchia destra</td></tr>
+<tr><td>PART.NOSE</td><td>naso</td><td>sul naso</td></tr>
+<tr><td>PART.MUSTACHE</td><td>baffi</td><td>ai baffi</td></tr>
+<tr><td>PART.LIP</td><td>labbra</td><td>sulle labbra</td></tr>
+<tr><td>PART.MOUTH</td><td>bocca</td><td>in bocca</td></tr>
+<tr><td>PART.CHIN</td><td>mento</td><td>al mento</td></tr>
+<tr><td>PART.BEARD</td><td>barba</td><td>alla barba</td></tr>
+<tr><td>PART.NAPE</td><td>nuca</td><td>alla nuca</td></tr>
+<tr><td>PART.NECK</td><td>collo</td><td>al collo</td></tr>
+<tr><td>PART.THROAT</td><td>gola</td><td>alla gola</td></tr>
+<tr><td>PART.BRAIN</td><td>cervello</td><td>al cervello</td></tr>
+<tr><td>PART.CHEST</td><td>torace</td><td>sul torace</td></tr>
+<tr><td>PART.BREAST</td><td>petto</td><td>al petto</td></tr>
+<tr><td>PART.BELLY</td><td>pancia</td><td>sulla pancia</td></tr>
+<tr><td>PART.BELLYBUTTON</td><td>ombelico</td><td>all'ombelico</td></tr>
+<tr><td>PART.WAIST</td><td>vita</td><td>alla vita</td></tr>
+<tr><td>PART.LEFT_HIP</td><td>fianco sinistro</td><td>al fianco sinistro</td></tr>
+<tr><td>PART.RIGHT_HIP</td><td>fianco destro</td><td>al fianco destro</td></tr>
+<tr><td>PART.BACK</td><td>schiena</td><td>sulla schiena</td></tr>
+<tr><td>PART.GROIN</td><td>inguine</td><td>all'inguine</td></tr>
+<tr><td>PART.ASS</td><td>sedere</td><td>al sedere</td></tr>
+<tr><td>PART.LEFT_LUNG</td><td>polmone sinistro</td><td>al polmone sinistro</td></tr>
+<tr><td>PART.RIGHT_LUNG</td><td>polmone destro</td><td>al polmone destro</td></tr>
+<tr><td>PART.HEART</td><td>cuore</td><td>al cuore</td></tr>
+<tr><td>PART.STOMACH</td><td>stomaco</td><td>allo stomaco</td></tr>
+<tr><td>PART.LIVER</td><td>fegato</td><td>al fegato</td></tr>
+<tr><td>PART.LEFT_KIDNEY</td><td>rene sinistro</td><td>al rene sinistro</td></tr>
+<tr><td>PART.RIGHT_KIDNEY</td><td>rene destro</td><td>al rene destro</td></tr>
+<tr><td>PART.GUTS</td><td>budella</td><td>alle budella</td></tr>
+<tr><td>PART.LEFT_SHOULDER</td><td>spalla sinistra</td><td>alla spalla sinistra</td></tr>
+<tr><td>PART.LEFT_BICEPS</td><td>bicipite sinistro</td><td>al bicipite sinistro</td></tr>
+<tr><td>PART.LEFT_ELBOW</td><td>gomito sinistro</td><td>sul gomito sinistro</td></tr>
+<tr><td>PART.LEFT_FOREARM</td><td>avambraccio sinistro</td><td>all'avambraccio sinistro</td></tr>
+<tr><td>PART.LEFT_WRIST</td><td>polso sinistro</td><td>sul polso sinistro</td></tr>
+<tr><td>PART.LEFT_HAND</td><td>mano sinistra</td><td>alla mano sinistra</td></tr>
+<tr><td>PART.RIGHT_SHOULDER</td><td>spalla destra</td><td>alla spalla destra</td></tr>
+<tr><td>PART.RIGHT_BICEPS</td><td>bicipite destro</td><td>al bicipite destro</td></tr>
+<tr><td>PART.RIGHT_ELBOW</td><td>gomito destro</td><td>sul gomito destro</td></tr>
+<tr><td>PART.RIGHT_FOREARM</td><td>avambraccio destro</td><td>all'avambraccio destro</td></tr>
+<tr><td>PART.RIGHT_WRIST</td><td>polso destro</td><td>sul polso destro</td></tr>
+<tr><td>PART.RIGHT_HAND</td><td>mano destra</td><td>alla mano destra</td></tr>
+<tr><td>PART.LEFT_BACKHAND</td><td>dorso della mano sinistra</td><td>sul dorso della mano sinistra</td></tr>
+<tr><td>PART.LEFT_PALM</td><td>palmo della mano sinistra</td><td>sul palmo della mano sinistra</td></tr>
+<tr><td>PART.LEFT_THUMB</td><td>pollice sinistro</td><td>al pollice sinistro</td></tr>
+<tr><td>PART.LEFT_FOREFINGER</td><td>indice sinistro</td><td>all'indice sinistro</td></tr>
+<tr><td>PART.LEFT_MIDDLE_FINGER</td><td>medio sinistro</td><td>al medio sinistro</td></tr>
+<tr><td>PART.LEFT_RING_FINGER</td><td>anulare sinistro</td><td>all'anulare sinistro</td></tr>
+<tr><td>PART.LEFT_LITTLE_FINGER</td><td>mignolo sinistro</td><td>al mignolo sinistro</td></tr>
+<tr><td>PART.LEFT_NAILS</td><td>unghie della mano sinistra</td><td>sulle unghie della mano sinistra</td></tr>
+<tr><td>PART.RIGHT_BACKHAND</td><td>dorso della mano destra</td><td>sul dorso della mano destra</td></tr>
+<tr><td>PART.RIGHT_PALM</td><td>palmo della mano destra</td><td>sul palmo della mano destra</td></tr>
+<tr><td>PART.RIGHT_THUMB</td><td>pollice destro</td><td>al pollice destro</td></tr>
+<tr><td>PART.RIGHT_FOREFINGER</td><td>indice destro</td><td>all'indice destro</td></tr>
+<tr><td>PART.RIGHT_MIDDLE_FINGER</td><td>medio destro</td><td>al medio destro</td></tr>
+<tr><td>PART.RIGHT_RING_FINGER</td><td>anulare destro</td><td>all'anulare destro</td></tr>
+<tr><td>PART.RIGHT_LITTLE_FINGER</td><td>mignolo destro</td><td>al mignolo destro</td></tr>
+<tr><td>PART.RIGHT_NAILS</td><td>unghie della mano destra</td><td>sulle unghie della mano destra</td></tr>
+<tr><td>PART.LEFT_THIGH</td><td>coscia sinistra</td><td>alla coscia sinistra</td></tr>
+<tr><td>PART.LEFT_KNEE</td><td>ginocchio sinistro</td><td>al ginocchio sinistro</td></tr>
+<tr><td>PART.LEFT_TIBIA</td><td>tibia sinistra</td><td>sulla tibia sinistra</td></tr>
+<tr><td>PART.LEFT_ANKLE</td><td>caviglia sinistra</td><td>sulla caviglia sinistra</td></tr>
+<tr><td>PART.LEFT_FOOT</td><td>piede sinistro</td><td>al piede sinistro</td></tr>
+<tr><td>PART.RIGHT_THIGH</td><td>coscia destra</td><td>alla coscia destra</td></tr>
+<tr><td>PART.RIGHT_KNEE</td><td>ginocchio destro</td><td>al ginocchio sinistro</td></tr>
+<tr><td>PART.RIGHT_TIBIA</td><td>tibia destra</td><td>sulla tibia destra</td></tr>
+<tr><td>PART.RIGHT_ANKLE</td><td>caviglia destra</td><td>sulla caviglia destra</td></tr>
+<tr><td>PART.RIGHT_FOOT</td><td>piede destro</td><td>al piede destro</td></tr>
+<tr><td>PART.LONGTONGUE</td><td>lingua lungua</td><td>sulla lingua lungua</td></tr>
+<tr><td>PART.TENTACLE</td><td>tentacolo</td><td>al tentacolo</td></tr>
+<tr><td>PART.EYESTALK</td><td>tentacolo oculare</td><td>al tentacolo oculare</td></tr>
+<tr><td>PART.FINS</td><td>pinna</td><td>sulla pinna</td></tr>
+<tr><td>PART.WINGS</td><td>ala</td><td>sull'ala</td></tr>
+<tr><td>PART.TAIL</td><td>coda</td><td>alla coda</td></tr>
+<tr><td>PART.SCALES</td><td>scaglie</td><td>sulle scaglie</td></tr>
+<tr><td>PART.CLAW</td><td>artiglio</td><td>all'artiglio</td></tr>
+<tr><td>PART.FANG</td><td>zanna avvelenata</td><td>alla zanna avvelenata</td></tr>
+<tr><td>PART.HORN</td><td>corno</td><td>sul corno</td></tr>
+<tr><td>PART.TUSKS</td><td>zanna</td><td>alla zanna</td></tr>
+<tr><td>PART.SHARPSCALES</td><td>scaglie ondulate</td><td>sulle scaglie ondulate</td></tr>
+<tr><td>PART.BEAK</td><td>becco</td><td>al becco</td></tr>
+<tr><td>PART.HOOVE</td><td>zoccolo</td><td>allo zoccolo</td></tr>
+<tr><td>PART.PAW</td><td>artiglio</td><td>sull'artiglio</td></tr>
+<tr><td>PART.FORELEG</td><td>zampa posteriore</td><td>alla zampa posteriore</td></tr>
+<tr><td>PART.FEATHERS</td><td>piume</td><td>sulle piume</td></tr>
+<tr><td>PART.WIELD</td><td>impugnata</td><td>impugnat$O con la $hand1</td></tr>
+<tr><td>PART.HOLD</td><td>tenuta</td><td>tenut$O nella $hand2</td></tr>
+</table><br><br>
+<a name='PARTFLAG'><h3 style='color:white'>Partflag</h3></a>
+
+Enumerazione delle parti del corpo.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>PARTFLAG.LEFT</td><td>Sinistra</td><td>Una parte del corpo simmetrica che si trova a sinistra</td></tr>
+<tr><td>PARTFLAG.RIGHT</td><td>Destra</td><td>Una parte del corpo simmetrica che si trova a destra</td></tr>
+<tr><td>PARTFLAG.INTERNAL</td><td>Internal</td><td>Serve alle parti del corpo relative agli organi interni</td></tr>
+<tr><td>PARTFLAG.NO_EQUIP_LIST</td><td>NoEquipList</td><td>Serve a non visualizzare nella lista di equip alcune parti del corpo speciali, come l'hold e il wield</td></tr>
+</table><br><br>
+<a name='POINTS'><h3 style='color:white'>Points</h3></a>
+
+Enumerazione relativa ai punteggi principali.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>POINTS.LIFE</td><td><span style='color:#FF0000;'>Vita</span></td><td>La vita rappresenta quanto sei 'vivo', se raggiungi lo zero allora muori, ma non permanentemente.</td></tr>
+<tr><td>POINTS.MANA</td><td><span style='color:#4169E1;'>Mana</span></td><td>Il mana rappresenta il deposito di magia in te da cui attingere per pronunciare incantesimi.</td></tr>
+<tr><td>POINTS.VIGOUR</td><td><span style='color:#32CD32;'>Vigore</span></td><td>Il vigore man a mano si abbassa se intraprendi azioni stancanti, quando raggiungono lo zero dovrai riposarti, per esempio sedendoti un certo tot di tempo.</td></tr>
+</table><br><br>
+<a name='PORTAL'><h3 style='color:white'>Portal</h3></a>
+
+Enumerazione delle flag di portale.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>PORTAL.NO_MOB</td><td>NoMob</td><td>Il portale non &egrave; praticabile dai mob</td></tr>
+<tr><td>PORTAL.NO_ITEM</td><td>NoItem</td><td>Il portale non &egrave; praticabile dagli oggetti</td></tr>
+<tr><td>PORTAL.NO_ROOM</td><td>NoRoom</td><td>Il portale non &egrave; praticabile dalle stanze</td></tr>
+<tr><td>PORTAL.NO_PLAYER</td><td>NoPlayer</td><td>Il portale non &egrave; praticabile dai giocatori, neppure da quelli che seguono un'altro tipo di entit&agrave;.</td></tr>
+</table><br><br>
+<a name='POSITION'><h3 style='color:white'>Position</h3></a>
+
+Enumerazione dele posizioni.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>POSITION.DEAD</td><td><span style='color:#2F4F4F;'>Mort$o</span></td><td><span style='color:#2F4F4F;'>&egrave; mort$O</span></td></tr>
+<tr><td>POSITION.MORTAL</td><td><span style='color:#8B0000;'>Quasi mort$o</span></td><td><span style='color:#8B0000;'>sta morendo</span></td></tr>
+<tr><td>POSITION.INCAP</td><td><span style='color:#00F;'>Incapacitat$o</span></td><td><span style='color:#00F;'>&egrave; incapacitat$O</span></td></tr>
+<tr><td>POSITION.STUN</td><td><span style='color:#008B8B;'>Stordit$o</span></td><td><span style='color:#008B8B;'>&egrave; stordit$O</span></td></tr>
+<tr><td>POSITION.SLEEP</td><td><span style='color:#0FF;'>Dormi</span></td><td><span style='color:#0FF;'>sta dormendo</span></td></tr>
+<tr><td>POSITION.REST</td><td><span style='color:#008000;'>Riposi</span></td><td><span style='color:#008000;'>sta riposando</span></td></tr>
+<tr><td>POSITION.SIT</td><td>Sedut$o</td><td>&egrave; sedut$O</td></tr>
+<tr><td>POSITION.KNEE</td><td><span style='color:#808080;'>Inginocchiat$o</span></td><td><span style='color:#808080;'>&egrave; inginocchiat$O</span></td></tr>
+<tr><td>POSITION.STAND</td><td>Alzat$o</td><td>&egrave; alzat$O</td></tr>
+<tr><td>POSITION.SHOVE</td><td><span style='color:#FF0;'>Spingi</span></td><td><span style='color:#FF0;'>sta spingendo</span></td></tr>
+<tr><td>POSITION.DRAG</td><td><span style='color:#FFA500;'>Trascini</span></td><td><span style='color:#FFA500;'>sta trascinando</span></td></tr>
+</table><br><br>
+<a name='RACE'><h3 style='color:white'>Race</h3></a>
+
+Enumerazione delle razze del gioco.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>RACE.HUMANOID</td><td>Umanoide</td><td>Razza che possiede la forma umana: braccia, gambe e camminano in posizione eretta o semi-eretta</td></tr>
+<tr><td>RACE.MAMMAL</td><td>Mammifero</td><td>Razza che si riferisce ad un generico mammifero</td></tr>
+<tr><td>RACE.BIRD</td><td>Uccello</td><td>Razza che si riferisce ad un generico uccello</td></tr>
+<tr><td>RACE.REPTILE</td><td>Rettile</td><td>Razza che si riferisce ad un generico rettile</td></tr>
+<tr><td>RACE.AMPHIBIAN</td><td>Anfibio</td><td>Razza che si riferisce ad un generico anfibio</td></tr>
+<tr><td>RACE.FISH</td><td>Pesce</td><td>Razza che si riferisce ad un generico pesce</td></tr>
+<tr><td>RACE.CRUSTACEAN</td><td>Crostaceo</td><td>Razza che si riferisce ad un generico crostaceo</td></tr>
+<tr><td>RACE.RODENT</td><td>Roditore</td><td>Razza che si riferisce ad un generico roditore</td></tr>
+<tr><td>RACE.INSECT</td><td>Insetto</td><td>Razza che si riferisce ad un generico insetto</td></tr>
+<tr><td>RACE.UNDEAD</td><td>Non-Morto</td><td>Razza che si riferisce ad un generico essere ritornato dall'oltretomba</td></tr>
+<tr><td>RACE.MAGICAL</td><td>Magica</td><td>Razza che si riferisce ad un generica creatura nata dalla magia</td></tr>
+<tr><td>RACE.MONSTER</td><td>Mostro</td><td>Razza che si riferisce ad un generico mostro</td></tr>
+<tr><td>RACE.ARIAL</td><td><span style='color:#87CEEB;'>Arial</span></td><td>Uccelli antropomorfi simili agli umani nella forma ma quasi completamente ricoperti di piume e provvisti di ali sulla schiena che gli permettono di volare.</td></tr>
+<tr><td>RACE.CELT</td><td><span style='color:#FFF;'>Celta</span></td><td>Il Celta &egrave; una razza umana che si &egrave; adattata al Lungo Inverno del Nord.</td></tr>
+<tr><td>RACE.CENTAUR</td><td><span style='color:#A52A2A;'>Centaur$o</span></td><td>Fiero e un po' arrogante il Centauro difficilmente ti far&agrave; salire in groppa 'per farti fare un giretto'.</td></tr>
+<tr><td>RACE.DROW</td><td><span style='color:#8A2BE2;'>Drow</span></td><td>Il Drow &egrave; l'antitesi dell'Elfo Alto e nemesi di molte razze su Nakilen, padroni del sottoterra e legati da una societ&agrave; matriarcale molto rigida e crudele.</td></tr>
+<tr><td>RACE.HIGHELF</td><td><span style='color:#4169E1;'>Elf$o Alt$o</span></td><td>L'Elfo Alto &egrave; la razza che si autodefinisce pi&ugrave; pura e nobile di qualsiasi altra.</td></tr>
+<tr><td>RACE.WOODELF</td><td><span style='color:#0F0;'>Elf$o Silvan$o</span></td><td>L'Elfo Silvano &egrave; la razza che maggiormente riesce a trovare un equilibrio con la Natura.</td></tr>
+<tr><td>RACE.FELAR</td><td><span style='color:#FFA500;'>Felar</span></td><td>Felini antropomorfi, flessuosi nei movimenti, agili nel salto e, a volte, dalla zampa 'troppo lesta' tesa ad alleggerire l'altrui borsa di denaro.</td></tr>
+<tr><td>RACE.FRIJEN</td><td><span style='color:#E0FFFF;'>Frijen</span></td><td>Sono creature dalle fattezze femminili e dagli occhi e il cuore freddo come il ghiaccio.</td></tr>
+<tr><td>RACE.GITH</td><td>Gith</td><td>Una razza particolare che ha il dono di viaggiare nei differenti piani, molto rara da incontrare. Non esistono trib&ugrave; o stanziamenti Gith su Nakilen.</td></tr>
+<tr><td>RACE.GNOME</td><td><span style='color:#FFC0CB;'>Gnom$o</span></td><td>Il pallino degli Gnomi &egrave; quello di ficcare il naso dappertutto e di costruire strumenti ingegnosi (preferibilmente rumorosi e che facciano qualche botto ogni tanto..)</td></tr>
+<tr><td>RACE.KENSAI</td><td><span style='color:#FF0000;'>Kensai</span></td><td>Il Kensai &egrave; un razza umana venuta da una lontana isola i cui guerrieri sono temuti in tutte le terre di Nakilen.</td></tr>
+<tr><td>RACE.HALFELF</td><td><span style='color:#008000;'>Mezzelf$o</span></td><td>Il Mezzelfo &egrave; spesso emarginato, nasce tra un umano ed un'altra razza elfica acquisendo pregi e difetti d'entrambe le razze.</td></tr>
+<tr><td>RACE.MINOTAUR</td><td><span style='color:#808080;'>Minotaur$o</span></td><td>Il Minotauro &egrave; una massa di muscoli provvista di corna, zoccoli, coda e tanta poca pazienza.</td></tr>
+<tr><td>RACE.DWARF</td><td><span style='color:#FF0;'>Nan$o</span></td><td>Abili guerrieri, minatori e bevitori si dice che un tempo potessero addirittura domare i Draghi.</td></tr>
+<tr><td>RACE.ORC</td><td><span style='color:#808000;'>Orc$o</span></td><td>L'Orco &egrave; un surrogato di caotiche azioni che portano spesso alla rottura di qualcosa.. o di qualcuno.</td></tr>
+<tr><td>RACE.PIXIE</td><td><span style='color:#0FF;'>Pixie</span></td><td>Dal corpo minuto e provvisti di ali questi velocissimi esseri allietano, almeno secondo loro, chi &egrave; loro vicino facendo loro scherzi in continuazione.</td></tr>
+<tr><td>RACE.SATYR</td><td>Satir$o</td><td></td></tr>
+<tr><td>RACE.THEPA</td><td><span style='color:#2E8B57;'>Thepa</span></td><td>Lucertole antropomorfe dalla pelle squamata, provvisti di coda e da lunghe zanne, riescono a nuotare molto bene sott'acqua potendo respirarvi liberamente.</td></tr>
+<tr><td>RACE.TUAREG</td><td><span style='color:#F4A460;'>Tuareg</span></td><td>Il Tuareg &egrave; una razza umana che si &egrave; adattata al Grand Deserto del Sud.</td></tr>
+<tr><td>RACE.HUMAN</td><td>Uman$o</td><td>L'Umano &egrave; la razza pi&ugrave; diffusa su Nakilen e con maggiori capacit&agrave; d'adattamento.</td></tr>
+<tr><td>RACE.HALFLING</td><td>Halfling</td><td>Gli halfling sono simili a esseri umani, ma alti la met&agrave; circa. Di norma sono molto socievoli e amano tranquillit&agrave; e il cibo</td></tr>
+<tr><td>RACE.BEAR</td><td>Ors$o</td><td></td></tr>
+<tr><td>RACE.BAT</td><td>Pipistrell$o</td><td></td></tr>
+<tr><td>RACE.BOAR</td><td>Cinghiale</td><td></td></tr>
+<tr><td>RACE.CAT</td><td><span style='color:#FFF;'>Gatt$o</span></td><td>Il gatto &egrave; la razza preferita da <span style='color:#32CD32;'>O</span><span style='color:#FFF;'>nirik</span></td></tr>
+<tr><td>RACE.DOG</td><td>Cane</td><td></td></tr>
+<tr><td>RACE.FERRET</td><td>Furetto</td><td></td></tr>
+<tr><td>RACE.HORSE</td><td>Cavall$o</td><td></td></tr>
+<tr><td>RACE.MONKEY</td><td>Scimmia</td><td></td></tr>
+<tr><td>RACE.MULE</td><td>Mul$o</td><td></td></tr>
+<tr><td>RACE.WOLF</td><td>Lup$o</td><td></td></tr>
+<tr><td>RACE.OX</td><td>Bue</td><td></td></tr>
+<tr><td>RACE.TIGER</td><td>Tigre</td><td></td></tr>
+<tr><td>RACE.PIG</td><td>Porc$o</td><td></td></tr>
+<tr><td>RACE.RABBIT</td><td>Conigli$o</td><td></td></tr>
+<tr><td>RACE.FOX</td><td>Volpe</td><td></td></tr>
+<tr><td>RACE.CROW</td><td>Corv$o</td><td></td></tr>
+<tr><td>RACE.EAGLE</td><td>Aquila</td><td></td></tr>
+<tr><td>RACE.HAWK</td><td>Falc$o</td><td></td></tr>
+<tr><td>RACE.NIGHTINGALE</td><td>Usignol$o</td><td></td></tr>
+<tr><td>RACE.SWAN</td><td>Cign$o</td><td></td></tr>
+<tr><td>RACE.DRAGON</td><td>Drag$o</td><td></td></tr>
+<tr><td>RACE.DRACONIAN</td><td>Draconian$o</td><td></td></tr>
+<tr><td>RACE.SNAKE</td><td>Serpente</td><td></td></tr>
+<tr><td>RACE.PYTHON</td><td>Pitone</td><td></td></tr>
+<tr><td>RACE.FROG</td><td>Rana</td><td></td></tr>
+<tr><td>RACE.DOLPHIN</td><td>Delfino</td><td></td></tr>
+<tr><td>RACE.CRAYFISH</td><td>Gambero</td><td></td></tr>
+<tr><td>RACE.RAT</td><td>Ratt$o</td><td></td></tr>
+<tr><td>RACE.ANT</td><td>Formica</td><td></td></tr>
+<tr><td>RACE.BEE</td><td>Ape</td><td></td></tr>
+<tr><td>RACE.BEETLE</td><td>Coleotter$o</td><td></td></tr>
+<tr><td>RACE.BUTTERFLY</td><td>Farfalla</td><td></td></tr>
+<tr><td>RACE.FLY</td><td>Mosca</td><td></td></tr>
+<tr><td>RACE.LOCUST</td><td>Locusta</td><td></td></tr>
+<tr><td>RACE.SPIDER</td><td>Ragn$o</td><td></td></tr>
+<tr><td>RACE.WORM</td><td>Verme</td><td></td></tr>
+<tr><td>RACE.CENTIPEDE</td><td>Centopiedi</td><td></td></tr>
+<tr><td>RACE.GHOUL</td><td>Ghoul</td><td></td></tr>
+<tr><td>RACE.SHADOW</td><td>Ombra</td><td></td></tr>
+<tr><td>RACE.SKELETON</td><td>Scheletro</td><td></td></tr>
+<tr><td>RACE.WIGHT</td><td>Wight</td><td></td></tr>
+<tr><td>RACE.ZOMBIE</td><td>Zombie</td><td></td></tr>
+<tr><td>RACE.SPIRIT</td><td>Spirito</td><td></td></tr>
+<tr><td>RACE.GHOST</td><td>Fantasma</td><td></td></tr>
+<tr><td>RACE.UNICORN</td><td>Unicorno</td><td></td></tr>
+<tr><td>RACE.BUGBEAR</td><td>Bugbear</td><td></td></tr>
+<tr><td>RACE.GARGOYLE</td><td>Gargoyle</td><td></td></tr>
+<tr><td>RACE.GNOLL</td><td>Gnoll</td><td></td></tr>
+<tr><td>RACE.GOBLIN</td><td>Goblin</td><td></td></tr>
+<tr><td>RACE.GOLEM</td><td>Golem</td><td></td></tr>
+<tr><td>RACE.GORGON</td><td>Gorgone</td><td></td></tr>
+<tr><td>RACE.HARPY</td><td>Arpia</td><td></td></tr>
+<tr><td>RACE.HOBGOBLIN</td><td>Hobgoblin</td><td></td></tr>
+<tr><td>RACE.KOBOLD</td><td>Koboldo</td><td></td></tr>
+<tr><td>RACE.TROLL</td><td>Troll</td><td>rigenerazione e suscettibile al fuoco, come i classici</td></tr>
+<tr><td>RACE.ILLITHID</td><td>Illithid</td><td>Mindflayer per gli amici..</td></tr>
+<tr><td>RACE.SLIME</td><td>Slime</td><td></td></tr>
+<tr><td>RACE.MIMIC</td><td>Mimic</td><td>Riesce ad ingannare le creature fingendo d'essere un oggetto comune attaccandole quando si avvicinano e cibandosene una volte sconfitte</td></tr>
+<tr><td>RACE.MOLD</td><td>Muffa</td><td></td></tr>
+<tr><td>RACE.RUSTMONSTER</td><td>Rustmonster</td><td></td></tr>
+<tr><td>RACE.SHRIEKER</td><td>Shrieker</td><td></td></tr>
+<tr><td>RACE.STIRGE</td><td>Stirge</td><td></td></tr>
+<tr><td>RACE.DEMON</td><td>Demone</td><td></td></tr>
+<tr><td>RACE.AIR_ELEMENTAL</td><td>Atronach dell'Aria</td><td></td></tr>
+<tr><td>RACE.EARTH_ELEMENTAL</td><td>Atronach della Terra</td><td></td></tr>
+<tr><td>RACE.FIRE_ELEMENTAL</td><td>Atronach del Fuoco</td><td></td></tr>
+<tr><td>RACE.WATER_ELEMENTAL</td><td>Atronach dell'Acqua</td><td></td></tr>
+</table><br><br>
+<a name='READABLE'><h3 style='color:white'>Readable</h3></a>
+
+Enumerazione delle flag relativi ai libri.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>READABLE.NUMBERS</td><td>Numbers</td><td>Indica se far visualizzare le pagine di un libro o altro oggetto leggibile</td></tr>
+<tr><td>READABLE.CENTER</td><td>Center</td><td>Indica di allineare l'output delle pagine in maniera centrata</td></tr>
+<tr><td>READABLE.RIGHT</td><td>Right</td><td>Indica di allineare l'output delle pagine verso destra</td></tr>
+</table><br><br>
+<a name='RESET'><h3 style='color:white'>Reset</h3></a>
+
+Enumerazione delle tipologie di reset.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>RESET.PUT</td><td>Put</td><td>Inserisce l'entit&agrave; nella locazione voluta, se l'entit&agrave; gi&agrave; esiste non ne inserisce una nuova</td></tr>
+<tr><td>RESET.ADD</td><td>Add</td><td>Viene aggiunta l'entit&agrave; in quella locazione</td></tr>
+<tr><td>RESET.REPLACE</td><td>Replace</td><td>Inserisce l'entit&agrave; nella locazione voluta, se l'entit&agrave; gi&agrave; esiste viene sostituita con una nuova istanza</td></tr>
+<tr><td>RESET.REMOVE</td><td>Remove</td><td>Rimuove un'entit&agrave; in quell'area, coordinate e locazione</td></tr>
+<tr><td>RESET.BURIED</td><td>Buried</td><td>Aggiunge un'entit&agrave; sepolta nella locazione</td></tr>
+<tr><td>RESET.GROWING</td><td>Planting</td><td>Aggiunge un'entit&agrave; come se fosse stato piantato nella locazione</td></tr>
+<tr><td>RESET.HIDE</td><td>Hide</td><td>Come put, ma nasconde l'entit&agrave; nel posto in cui viene resettato</td></tr>
+<tr><td>RESET.DOOR</td><td>Door</td><td>Come put per un oggetto, ma inserisce una porta nella location relativa ad una direzione (vedere la lista degli elementi DIR)</td></tr>
+<tr><td>RESET.TRAP</td><td>Trap</td><td>Come put per un oggetto, ma inserisce la trappola nell'oggetto stesso</td></tr>
+</table><br><br>
+<a name='ROOM'><h3 style='color:white'>Room</h3></a>
+
+Enumerazione delle flag delle stanze.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>ROOM.INSIDE</td><td>Inside</td><td>Flag utile per le case, caverne o altri luoghi interni, chiusi o abitati</td></tr>
+<tr><td>ROOM.UNDERWATER</td><td>Underwater</td><td>Tutte le stanze virtuali sotto al livello dell'acqua hanno questa flag</td></tr>
+<tr><td>ROOM.NO_MOB</td><td>NoMob</td><td>La stanza non &egrave; praticabile dai mob</td></tr>
+<tr><td>ROOM.NO_ITEM</td><td>NoItem</td><td>La stanza non &egrave; praticabile dagli oggetti</td></tr>
+<tr><td>ROOM.NO_ROOM</td><td>NoRoom</td><td>La stanza non &egrave; praticabile dalle stanze</td></tr>
+<tr><td>ROOM.NO_PLAYER</td><td>NoPlayer</td><td>La stanza non &egrave; praticabile dai giocatori, neppure da quelli che seguono un'altro tipo di entit&agrave;.</td></tr>
+<tr><td>ROOM.SAFE</td><td>Safe</td><td>Nella stanza non si pu&ograve; attaccare ed essere attaccati</td></tr>
+<tr><td>ROOM.NO_MAGIC</td><td>NoMagic</td><td>Nella stanza non si pu&ograve; castare</td></tr>
+<tr><td>ROOM.NO_RECALL</td><td>NoRecall</td><td>Dalla stanza non si pu&ograve; eseguire un recall</td></tr>
+<tr><td>ROOM.NO_SUMMON</td><td>NoSummon</td><td>Non si pu&ograve; utilizzare l'incantesimo di summon</td></tr>
+<tr><td>ROOM.NO_TELEPORT</td><td>NoTeleport</td><td>Non ci si pu&ograve; teletrasportare</td></tr>
+<tr><td>ROOM.STOREROOM</td><td>Storeroom</td><td>La stanza &egrave; adebita ad immagazzinare oggetti (vengono salvati anche quelli meno importanti)</td></tr>
+<tr><td>ROOM.NO_GET</td><td>NoGet</td><td>Nella stanza non &egrave; possibile utilizzare il comando get e neppure il get all</td></tr>
+<tr><td>ROOM.NO_GETALL</td><td>NoGetAll</td><td>Nella stanza non &egrave; possibile utilizzare il comando get all, mentre il get semplice s&igrave;</td></tr>
+<tr><td>ROOM.NO_DROP</td><td>NoDrop</td><td>Nella stanza non si possono lasciare entit&agrave;</td></tr>
+<tr><td>ROOM.NO_DROPALL</td><td>NoDropAll</td><td>Nella stanza non si possono lasciare entit&agrave; tutti in un volta</td></tr>
+<tr><td>ROOM.NO_PUT</td><td>NoPut</td><td>Nella stanza non si possono mettere entit&agrave; ad altre entit&agrave;</td></tr>
+<tr><td>ROOM.NO_GIVE</td><td>NoGive</td><td>Nella stanza non si possono dare entit&agrave; ad altre entit&agrave;</td></tr>
+<tr><td>ROOM.NO_HOLD</td><td>NoHold</td><td>Nella stanza non si possono afferrare oggetti in mano</td></tr>
+<tr><td>ROOM.SILENCE</td><td>Silence</td><td>Nella stanza non si pu&ograve; parlare</td></tr>
+<tr><td>ROOM.AMPLIFY</td><td>Amplify</td><td>La stanza amplifica i suoni e il parlato</td></tr>
+<tr><td>ROOM.ARENA</td><td>Arena</td><td>La stanza &egrave; una arena</td></tr>
+<tr><td>ROOM.TERRACE</td><td>Terrace</td><td>La stanza &egrave; una gradinata di un'arena</td></tr>
+<tr><td>ROOM.NO_MISSILE</td><td>NoMissile</td><td>Dalla (o nella) stanza non si possono utilizzare armi a distanza</td></tr>
+<tr><td>ROOM.NO_FLYING</td><td>NoFlying</td><td>Nella stanza non di pu&ograve; volare</td></tr>
+<tr><td>ROOM.NO_MOUNTFLYING</td><td>NoMountFlying</td><td>Nella stanza non di pu&ograve; volare su di un mezzo o su di una cavalcatura</td></tr>
+<tr><td>ROOM.NO_LANDING</td><td>NoLanding</td><td>Nella stanza non si pu&ograve; atterrare con un mezzo o con una cavalcatura</td></tr>
+<tr><td>ROOM.STICKY</td><td>Sticky</td><td>C'&egrave; una probabilit&agrave; che i piedi si incollano al pavimento della stanza</td></tr>
+<tr><td>ROOM.CREAKY</td><td>Creacky</td><td>C'&egrave; una probabilit&agrave; che camminando il pavimendo scricchioli, avvertendo i nemici della tua presenza</td></tr>
+<tr><td>ROOM.SPLIPPERY</td><td>Scivolosa</td><td>C'&egrave; una probabilit&agrave; di scivolare su pavimento andando a sbattere da qualche parte (oltre che col sedere) oppure finire in un'altra stanza</td></tr>
+<tr><td>ROOM.EXTRACTED</td><td>Extracted</td><td>La stanza &egrave; stata rimossa dal gioco tramite il metodo extract, serve per debug sui riferimenti</td></tr>
+<tr><td>ROOM.DEATH_TRAP</td><td>DeathTrap</td><td>Se un'entit&agrave; entra nella stanza questa muore all'istante, se l'entit&agrave; &egrave; un giocatore il suo cadavere viene teletrasportato con lui al Menhir della Vita pi&ugrave; vicino</td></tr>
+</table><br><br>
+<a name='SEASON'><h3 style='color:white'>Season</h3></a>
+
+Enumerazione delle stagioni.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>SEASON.SPRING</td><td><span style='color:#008000;'>Primavera</span></td><td>della <span style='color:#008000;'>primavera</span></td></tr>
+<tr><td>SEASON.SUMMER</td><td><span style='color:#FF0;'>Estate</span></td><td>dell'<span style='color:#FF0;'>estate</span></td></tr>
+<tr><td>SEASON.AUTUMN</td><td><span style='color:#FF0000;'>Autunno</span></td><td>dell'<span style='color:#FF0000;'>autunno</span></td></tr>
+<tr><td>SEASON.WINTER</td><td><span style='color:#FFF;'>Inverno</span></td><td>dell'<span style='color:#FFF;'>inverno</span></td></tr>
+</table><br><br>
+<a name='SECTOR'><h3 style='color:white'>Sector</h3></a>
+
+Enumerazione dei settori delle stanze.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th><th>Fertile</th></tr>
+<tr><td>SECTOR.PLAIN</td><td><span style='color:#90EE90;'>pianura</span></td><td>Settore della pianura</td><td>True</td></tr>
+<tr><td>SECTOR.SAVANNA</td><td><span style='color:#FF0;'>savana</span></td><td>Settore per la savana: ampie distese erbose, pi&ugrave; o meno alte, in zone tropicali, dove le temperature sono elevate e le pioggie hanno un andamento stagionale</td><td>True</td></tr>
+<tr><td>SECTOR.HILL</td><td><span style='color:#008000;'>collina</span></td><td>Settore per la collina</td><td>True</td></tr>
+<tr><td>SECTOR.MOUNTAIN</td><td><span style='color:#D3D3D3;'>montagna</span></td><td>Settore per la montagna</td><td>True</td></tr>
+<tr><td>SECTOR.PLATEAU</td><td>altopiano</td><td>Settore per gli altopiani</td><td>True</td></tr>
+<tr><td>SECTOR.HIGHMOUNTAIN</td><td><span style='color:#808080;'>alta montagna</span></td><td>Settore per l'alta montagna</td><td>False</td></tr>
+<tr><td>SECTOR.PEAK</td><td><span style='color:#A9A9A9;'>picco</span></td><td>Settore per i picchi, alte montagne con pareti sempre verticali e corpo della montagna stretto</td><td>False</td></tr>
+<tr><td>SECTOR.SHRUB</td><td><span style='color:#006400;'>macchia</span></td><td>Settore per la macchia</td><td>True</td></tr>
+<tr><td>SECTOR.WOOD</td><td><span style='color:#008000;'>bosco</span></td><td>Settore per il bosco</td><td>True</td></tr>
+<tr><td>SECTOR.FOREST</td><td><span style='color:#228B22;'>foresta</span></td><td>Settore per la foresta</td><td>True</td></tr>
+<tr><td>SECTOR.JUNGLE</td><td><span style='color:#008000;'>giungla</span></td><td>Settore per la giungla</td><td>True</td></tr>
+<tr><td>SECTOR.DESERT</td><td><span style='color:#B8860B;'>deserto</span></td><td>Settore per i deserti</td><td>False</td></tr>
+<tr><td>SECTOR.DUNNO</td><td><span style='color:#B8860B;'>duna</span></td><td>Settore per le colline nei deserti</td><td>False</td></tr>
+<tr><td>SECTOR.QUICKSAND</td><td><span style='color:#B8860B;'>sabbie mobili</span></td><td>Settore in cui la probabilit&agrave; di trovarsi invischiati in questa trappola &egrave; alta</td><td>False</td></tr>
+<tr><td>SECTOR.CAVERN</td><td><span style='color:#808080;'>caverna</span></td><td>Settore per caverne piene di stallatiti e stalagmiti</td><td>False</td></tr>
+<tr><td>SECTOR.UNDERGROUND</td><td><span style='color:#A9A9A9;'>sottoterra</span></td><td>Settore per tutte le zone sottoterra non simili a caverne o a dungeon</td><td>False</td></tr>
+<tr><td>SECTOR.VOLCANO</td><td><span style='color:#FF0000;'>vulcano</span></td><td>Settore per i vulcani</td><td>False</td></tr>
+<tr><td>SECTOR.LAVA</td><td><span style='color:#FF0000;'>lava</span></td><td>Settore per la lava vulcanica</td><td>False</td></tr>
+<tr><td>SECTOR.HEATH</td><td><span style='color:#006400;'>brughiera</span></td><td>Settore per la brughiera: temperature mediamente pi&ugrave; basse e maggiore umidit&agrave; che porta anche alla formazione di stagni, paludi e torbiere.</td><td>True</td></tr>
+<tr><td>SECTOR.SWAMP</td><td>palude</td><td>Settore per le paludi e fanghiglia simile</td><td>True</td></tr>
+<tr><td>SECTOR.TAIGA</td><td>taiga</td><td>Settore per la Taiga: La vegetazione &egrave; formata da abeti, larici e pini, con foglie aghiformi presenti tutto l'anno, possono raggiungere 40-50 metri di altezza, tuttavia con il calare della temperatura anche l'altezza degli alberi diminuisce; &egrave; spesso presente anche la betulla. Nella taiga si alternano alla foresta zone umide che formano acquitrini, paludi e torbiere.</td><td>True</td></tr>
+<tr><td>SECTOR.TUNDRA</td><td>tundra</td><td>Settore per le tundre: dove la crescita degli alberi &egrave; ostacolata dalle basse temperature e dalla breve stagione estiva. Vegetazione tipica: muschi e licheni e pochi arbusti. A volte arbusti nani sempreverdi.</td><td>True</td></tr>
+<tr><td>SECTOR.SNOW</td><td><span style='color:#FFF;'>neve</span></td><td>Settore per luoghi innevati</td><td>False</td></tr>
+<tr><td>SECTOR.ICE</td><td><span style='color:#FFF;'>ghiaccio</span></td><td>Settore per ghiacciai, laghi ghiacciati e simili</td><td>False</td></tr>
+<tr><td>SECTOR.STEPPE</td><td>steppa</td><td>Settore per la steppa: La steppa &egrave; un paesaggio naturale, caratterizzato dalla pressoch&eacute; totale assenza di alberi. La vegetazione &egrave; costituita unicamente da erba. Estati calde ed inverni freddi.</td><td>True</td></tr>
+<tr><td>SECTOR.ROCKY</td><td><span style='color:#808080;'>terreno roccioso</span></td><td>Settore pieno di pietre, pu&ograve; essere una pianura pietrosa come un deserto..</td><td>False</td></tr>
+<tr><td>SECTOR.RIVER</td><td><span style='color:#0FF;'>fiume</span></td><td>Settore per i fiumi</td><td>False</td></tr>
+<tr><td>SECTOR.RAPIDS</td><td><span style='color:#0FF;'>rapide</span></td><td>Settore per le rapide</td><td>False</td></tr>
+<tr><td>SECTOR.WATERFALL</td><td><span style='color:#0FF;'>cascata</span></td><td>Settore per una cascata</td><td>False</td></tr>
+<tr><td>SECTOR.LAKE</td><td><span style='color:#008B8B;'>lago</span></td><td>Settore per i laghi</td><td>False</td></tr>
+<tr><td>SECTOR.SEA</td><td><span style='color:#ADD8E6;'>mare</span></td><td>Settore del mare o dell'oceano</td><td>False</td></tr>
+<tr><td>SECTOR.OCEANFLOOR</td><td><span style='color:#2F4F4F;'>fondale</span></td><td>Il settore pi&ugrave; in basso di una serie di stanze con settori underwater</td><td>False</td></tr>
+<tr><td>SECTOR.REEF</td><td><span style='color:#2F4F4F;'>scogliera</span></td><td>Settore per scogliere</td><td>False</td></tr>
+<tr><td>SECTOR.SHORE</td><td><span style='color:#FFA500;'>spiaggia</span></td><td>Settore per le spiagge</td><td>True</td></tr>
+<tr><td>SECTOR.HOUSE</td><td>casa</td><td>Settore per le case</td><td>False</td></tr>
+<tr><td>SECTOR.SHOP</td><td>negozio</td><td>Settore per i negozi</td><td>False</td></tr>
+<tr><td>SECTOR.BLACKSMITH</td><td>fabbro</td><td>Settore per i fabbri e gli armaioli</td><td>False</td></tr>
+<tr><td>SECTOR.TAVERN</td><td>taverna</td><td>Settore per le taverne, ristoranti e alberghi</td><td>False</td></tr>
+<tr><td>SECTOR.VILLA</td><td>villa</td><td>Settore per le ville</td><td>False</td></tr>
+<tr><td>SECTOR.ESTATE</td><td>propriet&agrave;</td><td>Settore per le grosse case o ville signorili</td><td>False</td></tr>
+<tr><td>SECTOR.CASTLE</td><td>castello</td><td>Settore per i castelli</td><td>False</td></tr>
+<tr><td>SECTOR.VILLAGE</td><td>villaggio</td><td>Settore per i villaggi</td><td>False</td></tr>
+<tr><td>SECTOR.CITY</td><td>citt&agrave;</td><td>Settore per le aree di citt&agrave;</td><td>False</td></tr>
+<tr><td>SECTOR.WALL</td><td>muro</td><td>Mura difensive di una citt&agrave; o di un villaggio su cui camminare</td><td>False</td></tr>
+<tr><td>SECTOR.BRIDGE</td><td>ponte</td><td>Settore per un qualsiasi tipo di ponte</td><td>False</td></tr>
+<tr><td>SECTOR.TERRACE</td><td>gradinata</td><td>Settore per le gradinate degli spalti dell'arena</td><td>False</td></tr>
+<tr><td>SECTOR.PATH</td><td>sentiero</td><td>Settore per i sentiero</td><td>True</td></tr>
+<tr><td>SECTOR.ROAD</td><td>strada</td><td>Settore per le strade</td><td>False</td></tr>
+<tr><td>SECTOR.FARMLAND</td><td><span style='color:#008000;'>terreno coltivato</span></td><td>Settore che indica dei campi coltivati</td><td>True</td></tr>
+<tr><td>SECTOR.PORT</td><td>porto</td><td>Settore per i porti</td><td>False</td></tr>
+<tr><td>SECTOR.DOCK</td><td>attracco</td><td>Settore che indica dove le barche possono attraccare senza pericolo</td><td>False</td></tr>
+<tr><td>SECTOR.PASTURE</td><td><span style='color:#008000;'>pascolo</span></td><td>Settore in cui gli animali erbivori vengono attirati</td><td>True</td></tr>
+<tr><td>SECTOR.RUIN</td><td><span style='color:#A9A9A9;'>rovine</span></td><td>Rovine di qualsiasi tipo, di una casa, di una citt&agrave;..</td><td>False</td></tr>
+<tr><td>SECTOR.AIR</td><td><span style='color:#E0FFFF;'>Aria</span></td><td>Tutte le stanze virtualmente create su quelle dove ci si mette i piedi sono nell'aria</td><td>False</td></tr>
+<tr><td>SECTOR.VOID</td><td>Vuoto</td><td>Settore per il vuoto totale, spaziale o magico</td><td>False</td></tr>
+</table><br><br>
+<a name='SEX'><h3 style='color:white'>Sex</h3></a>
+
+Enumerazioni della sessualità.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>SEX.MALE</td><td><span style='color:#4169E1;'>Maschile</span></td><td><span style='color:#4169E1;'>Maschio</span></td></tr>
+<tr><td>SEX.FEMALE</td><td><span style='color:#FF1493;'>Femminile</span></td><td><span style='color:#FF1493;'>Femmina</span></td></tr>
+<tr><td>SEX.NEUTRAL</td><td>Neutrale</td><td>Neutrale</td></tr>
+</table><br><br>
+<a name='SHOP'><h3 style='color:white'>Shop</h3></a>
+
+Enumerazione delle tipologie di negozio.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>SHOP.NORMAL</td><td>Normal</td><td>Il negoziante normale, vende oggetti o creature</td></tr>
+<tr><td>SHOP.DISPENSER</td><td>Distributore</td><td>Il negoziante &egrave; in realt&agrave; un distributore, per il resto funziona come un venditore normale</td></tr>
+<tr><td>SHOP.REPAIR</td><td>Repair</td><td>Il negoziante ripara armi e armature o altri oggetti rovinati</td></tr>
+<tr><td>SHOP.RECHARGE</td><td>Recharge</td><td>Il negoziante ricarica oggetti magici scarichi</td></tr>
+</table><br><br>
+<a name='SKILL'><h3 style='color:white'>Skill</h3></a>
+
+Enumerazione delle skill.
+(TD) Non mi convince la struttura enumerativa , penso che debba fare una
+cartella tipo di data/socials
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>SKILL.KICK</td><td>calcio</td><td></td></tr>
+<tr><td>SKILL.HISSING_VOICE</td><td>voce tonante</td><td></td></tr>
+<tr><td>SKILL.THUNDERING_VOICE</td><td>voce sibilante</td><td></td></tr>
+</table><br><br>
+<a name='STAT'><h3 style='color:white'>Stat</h3></a>
+
+Enumerazione delle statistiche.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>STAT.STRENGTH</td><td><span style='color:#FF0000;'>Forza</span></td><td></td></tr>
+<tr><td>STAT.ENDURANCE</td><td><span style='color:#FF0000;'>Resistenza</span></td><td></td></tr>
+<tr><td>STAT.AGILITY</td><td><span style='color:#008000;'>Agilit&agrave;</span></td><td></td></tr>
+<tr><td>STAT.SPEED</td><td><span style='color:#008000;'>Velocit&agrave;</span></td><td></td></tr>
+<tr><td>STAT.INTELLIGENCE</td><td><span style='color:#4169E1;'>Intelligenza</span></td><td></td></tr>
+<tr><td>STAT.WILLPOWER</td><td><span style='color:#4169E1;'>Volont&agrave;</span></td><td></td></tr>
+<tr><td>STAT.PERSONALITY</td><td><span style='color:#FF0;'>Personalit&agrave;</span></td><td></td></tr>
+<tr><td>STAT.LUCK</td><td><span style='color:#FF0;'>Fortuna</span></td><td></td></tr>
+</table><br><br>
+<a name='STYLE'><h3 style='color:white'>Style</h3></a>
+
+Enumerazione degli stili di combattimento.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>STYLE.QUICK</td><td><span style='color:#FF0;'>Veloce</span></td><td>Sei pronto a combattere contro nemici veloci</td></tr>
+<tr><td>STYLE.DEFENSIVE</td><td><span style='color:#008000;'>Difensivo</span></td><td>Cos&igrave; ti difenderai dai colpi avversari</td></tr>
+<tr><td>STYLE.NORMAL</td><td>Normale</td><td>Non hai nessun stile di combattimento</td></tr>
+<tr><td>STYLE.AGGRESSIVE</td><td><span style='color:#FF0000;'>Aggressivo</span></td><td>Hai intenzione di picchiare duramente il nemico</td></tr>
+<tr><td>STYLE.HEAVY</td><td><span style='color:#4169E1;'>Pesante</span></td><td>Sei pronto a combattere contro nemici grossi</td></tr>
+</table><br><br>
+<a name='TO'><h3 style='color:white'>To</h3></a>
+
+Enumerazione riguardante gli obiettivi della funzione act.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>TO.ENTITY</td><td>Entity</td><td>Il messaggio di act viene inviato alla entit&agrave; soggetto</td></tr>
+<tr><td>TO.TARGET</td><td>Target</td><td>Il messaggio di act viene inviato al bersaglio dell'azione</td></tr>
+<tr><td>TO.OTHERS</td><td>Others</td><td>Il messaggio di act viene inviato a tutti tranne all'entit&agrave; soggetto</td></tr>
+<tr><td>TO.ADMINS</td><td>Admins</td><td>Il messaggio di act viene inviato a tutti gli amministratori nella stanza, tranne il soggetto</td></tr>
+<tr><td>TO.AREA</td><td>Area</td><td>Il messaggio di act viene inviato a tutti nell'area tranne l'entit&agrave; soggetto</td></tr>
+</table><br><br>
+<a name='TRUST'><h3 style='color:white'>Trust</h3></a>
+
+Enumerazione relativa alla tipologie di fiducia.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>TRUST.PLAYER</td><td>Giocatore</td><td>Fiducia concessa ai normali giocatori</td></tr>
+<tr><td>TRUST.MASTER</td><td><span style='color:#FF0;'>Master</span></td><td>Questa fiducia concede i comandi avanzati per gestire le quest e il GDR</td></tr>
+<tr><td>TRUST.BUILDER</td><td><span style='color:#008000;'>Builder</span></td><td>Questa fiducia concede i comandi per creare entit&agrave; delle aree</td></tr>
+<tr><td>TRUST.IMPLEMENTOR</td><td><span style='color:#FF0000;'>Implementor</span></td><td>Questa fiducia d&agrave; pieni poteri su tutti i comandi del Mud</td></tr>
+</table><br><br>
+<a name='VIRTUE'><h3 style='color:white'>Virtue</h3></a>
+
+Enumerazione delle virtù.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>VIRTUE.HONESTY</td><td><span style='color:#4169E1;'>Onest&agrave;</span></td><td></td></tr>
+<tr><td>VIRTUE.COMPASSION</td><td><span style='color:#FF0;'>Compassione</span></td><td></td></tr>
+<tr><td>VIRTUE.VALOR</td><td><span style='color:#FF0000;'>Valore</span></td><td></td></tr>
+<tr><td>VIRTUE.JUSTICE</td><td><span style='color:#008000;'>Giustizia</span></td><td></td></tr>
+<tr><td>VIRTUE.SACRIFICE</td><td><span style='color:#FFA500;'>Sacrificio</span></td><td></td></tr>
+<tr><td>VIRTUE.HONOR</td><td><span style='color:#800080;'>Onore</span></td><td></td></tr>
+<tr><td>VIRTUE.SPIRITUALITY</td><td><span style='color:#FFF;'>Spiritualit&agrave;</span></td><td></td></tr>
+<tr><td>VIRTUE.HUMILITY</td><td><span style='color:#2F4F4F;'>Umilt&agrave;</span></td><td></td></tr>
+</table><br><br>
+<a name='WAY'><h3 style='color:white'>Way</h3></a>
+
+Enumerazione dele vie (praticamente le solite classi, non ho potuto chiamarle
+class perché il termine fa conflitto con la keyword del linguaggio python).
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>WAY.GLADIATOR</td><td><span style='color:#FF0000;'>Gladiatore</span></td><td>&Egrave; la via della guerra: perfezionare ed imparare sempre pi&ugrave; nuove tecniche di combattimento e migliorare quelle antiche.</td></tr>
+<tr><td>WAY.RUNIC</td><td><span style='color:#4169E1;'>Runico</span></td><td>&Egrave; la via della magia: grazie al segreto delle rune e al Mana si possono rendere concrete cose altrimenti difficilmente realizzabili.</td></tr>
+<tr><td>WAY.WANDERING</td><td><span style='color:#008000;'>Ramingo</span></td><td>&Egrave; la via della sopravvivenza: eplorazione, caccia, conoscenza dei luoghi selvaggi e rispetto per gli animali sono i tratti pi&ugrave; conosciuti di questa vita.</td></tr>
+<tr><td>WAY.SHADOW</td><td><span style='color:#2F4F4F;'>Ombra</span></td><td>&Egrave; la via del sotterfugio: nascondersi nell'ombra, rubare senza essere visti, fuggire dalle guardie, tendere un'agguato alla propria vittima... C'&egrave; chi lo fa per denaro, chi per divertimento.</td></tr>
+</table><br><br>
+<a name='WEAPON'><h3 style='color:white'>Weapon</h3></a>
+
+Enumerazione delle categorie delle armi.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>WEAPON.KNIFE</td><td>Coltello</td><td></td></tr>
+<tr><td>WEAPON.DIRK</td><td>Pugnale</td><td></td></tr>
+<tr><td>WEAPON.DAGGER</td><td>Daga</td><td></td></tr>
+<tr><td>WEAPON.SHORTSWORD</td><td>Spada Corta</td><td></td></tr>
+<tr><td>WEAPON.SWORD</td><td>Spada</td><td></td></tr>
+<tr><td>WEAPON.LONGSWORD</td><td>Spada Lunga</td><td></td></tr>
+<tr><td>WEAPON.BASTARD</td><td>Bastarda</td><td></td></tr>
+<tr><td>WEAPON.FALCHION</td><td>Falchion</td><td></td></tr>
+<tr><td>WEAPON.SCIMITAR</td><td>Scimitarra</td><td></td></tr>
+<tr><td>WEAPON.SICKLE</td><td>Falce</td><td></td></tr>
+<tr><td>WEAPON.KATANA</td><td>Katana</td><td></td></tr>
+<tr><td>WEAPON.KNUCKLE_DUSTER</td><td>Pugno di Ferro</td><td></td></tr>
+<tr><td>WEAPON.AXE</td><td>Ascia</td><td></td></tr>
+<tr><td>WEAPON.BATTLEAXE</td><td>Ascia da Battaglia</td><td></td></tr>
+<tr><td>WEAPON.MACE</td><td>Mazza</td><td></td></tr>
+<tr><td>WEAPON.HAMMER</td><td>Martello</td><td></td></tr>
+<tr><td>WEAPON.STAFF</td><td>Bastone</td><td></td></tr>
+<tr><td>WEAPON.FLAIL</td><td>Flagello</td><td></td></tr>
+<tr><td>WEAPON.WHIP</td><td>Frusta</td><td></td></tr>
+<tr><td>WEAPON.EXOTIC</td><td>Esotica</td><td></td></tr>
+<tr><td>WEAPON.SPEAR</td><td>Lancia</td><td></td></tr>
+<tr><td>WEAPON.JAVELIN</td><td>Giavellotto</td><td></td></tr>
+<tr><td>WEAPON.PIKE</td><td>Picca</td><td></td></tr>
+<tr><td>WEAPON.POLEARM</td><td>Alabarda</td><td></td></tr>
+<tr><td>WEAPON.KNIGHT_LANCE</td><td>Lancia da Cavaliere</td><td></td></tr>
+<tr><td>WEAPON.SLING</td><td>Fionda</td><td></td></tr>
+<tr><td>WEAPON.LEATHER_STRAP</td><td>Cinghia da Lancio</td><td></td></tr>
+<tr><td>WEAPON.SHORTBOW</td><td>Arco Corto</td><td></td></tr>
+<tr><td>WEAPON.BOW</td><td>Arco</td><td></td></tr>
+<tr><td>WEAPON.LONGBOW</td><td>Arco Lungo</td><td></td></tr>
+<tr><td>WEAPON.COMPOSITEBOW</td><td>Arco Composito</td><td></td></tr>
+<tr><td>WEAPON.CROSSBOW</td><td>Balestra</td><td></td></tr>
+<tr><td>WEAPON.HEAVYCROSSBOW</td><td>Balestra Pesante</td><td></td></tr>
+<tr><td>WEAPON.BOLA</td><td>Bola</td><td></td></tr>
+<tr><td>WEAPON.SHURIKEN</td><td>Shuriken</td><td></td></tr>
+<tr><td>WEAPON.GUN</td><td>Fucile</td><td></td></tr>
+<tr><td>WEAPON.HANDGUN</td><td>Pistola</td><td></td></tr>
+</table><br><br>
+<a name='WEAPONFLAG'><h3 style='color:white'>Weaponflag</h3></a>
+
+Enumerazione delle flag relative le armi.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>WEAPONFLAG.ONE_HAND</td><td>ad una mano</td><td></td></tr>
+<tr><td>WEAPONFLAG.TWO_HANDS</td><td>a due mani</td><td></td></tr>
+</table><br><br>
+<a name='WEAR'><h3 style='color:white'>Wear</h3></a>
+
+Enumerazione delle flag relative alle flag dei vestiti.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>WEAR.LAYERABLE</td><td>Layerable</td><td>Indumento collocabile in uno slot gi&agrave; occupato</td></tr>
+</table><br><br>
+<a name='WEEKDAY'><h3 style='color:white'>Weekday</h3></a>
+
+Enumerazione dei giorni di una settimana nel calendario del Mud.
+
+<table class="mud" border='1' width="100%">
+<tr><th>Codice</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td>WEEKDAY.ONE</td><td><span style='color:#008B8B;'>Tuono</span></td><td>del <span style='color:#008B8B;'>Tuono</span></td></tr>
+<tr><td>WEEKDAY.TWO</td><td><span style='color:#FF0;'>Sole</span></td><td>del <span style='color:#FF0;'>Sole</span></td></tr>
+<tr><td>WEEKDAY.THREE</td><td><span style='color:#FF0000;'>Toro</span></td><td>del <span style='color:#FF0000;'>Toro</span></td></tr>
+<tr><td>WEEKDAY.FOUR</td><td><span style='color:#696969;'>Inganno</span></td><td>dell'<span style='color:#696969;'>Inganno</span></td></tr>
+<tr><td>WEEKDAY.FIVE</td><td><span style='color:#FFF;'>Luna</span></td><td>della <span style='color:#FFF;'>Luna</span></td></tr>
+<tr><td>WEEKDAY.SIX</td><td><span style='color:#0FF;'>Libert&agrave;</span></td><td>della <span style='color:#0FF;'>Libert&agrave;</span></td></tr>
+</table><br><br>
+<hr>
+<body>
+</html>

@@ -1,0 +1,31 @@
+Code: novizi_room_tempio-ritorno
+Sector: SECTOR.FARMLAND
+Name: Il Punto di Ritorno
+Short: la collina
+
+Descr:
+Una nuda collinetta è stata calpestata così tante volte che ora non vi cresce più nulla.
+DescrSixth:
+Il luogo in cui gli avventurieri giungono magicamente quando il pericolo incombe o la noia assale.
+
+Extras:
+	Keywords:	nuda
+	DescrSixth:
+	Nuda è un po' un'iperbole, è evidente che quella laggiù è certo erba.
+End
+Extras:
+	Keywords:	erba
+	Descr:
+	Una resilienza incredibile contraddistingue quest'erbaccia.
+	DescrSixth:
+	Merito della radice che continua a spingere da sotto con nuovi millimetri ogni giorno.
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: Il campo si apre su un piazzale
+End

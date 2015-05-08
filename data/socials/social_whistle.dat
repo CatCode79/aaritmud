@@ -1,0 +1,44 @@
+FunName:    social_whistle
+Intention:  INTENTION.NEUTRAL
+Expression: fischiettando
+Smiles:     :+ :-+
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Fischietti innocentemente..
+  OthersNoArg: $n fischietta un allegro motivetto innocentemente..
+  EntityFound: Fischietti innocentemente guardando $N.
+  OthersFound: $n fischietta un allegro motivetto guardando $N innocentemente.
+  TargetFound: $n fischietta un allegro motivetto guardandomi innocentemente.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Fischietti innocentemente. Nessuno può scoprirti!
+  OthersNoArg: $n fischietta con aria innocente ma ha una luce da bira negli occhi.
+  EntityFound: Fischietti nella speranza che $N non ti scopra.
+  OthersFound: $n indirizza a $N fischiettio dall'aria innocente.
+  TargetFound: $n cerca di distrarti fischiettando: nasconde qualcosa.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Emetti un fischio acuto.
+  OthersNoArg: $n emette un fischio acuto.
+  EntityFound: Lanci un fischio secco e breve come segnale a $N.
+  OthersFound: $n emette come segnale un secco fischio per $N.
+  TargetFound: $n ti fa un segnale con un secco fischio.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Stringi le labbra e fischietti allegramente.
+  OthersNoArg: $n fischietta come meglio può.
+  EntityFound: Fischietti fra le vibrisse mentre guardi $N.
+  OthersFound: $n si mette a fischiettare con aria sorniona mentre guarda $N.
+  TargetFound: $n ti guarda e fischietta con aria vagamente sorniona..
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Stringi le labbra e fischietti allegramente.
+  OthersNoArg: $n fischietta come meglio può.
+  EntityFound: Fischietti fra le vibrisse mentre guardi $N.
+  OthersFound: $n si mette a fischiettare con aria sorniona mentre guarda $N.
+  TargetFound: $n ti guarda e fischietta con aria vagamente sorniona..
+End

@@ -1,0 +1,42 @@
+FunName:    social_sly
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Sorridi furbamente.
+  OthersNoArg: $n ha un sorriso furbetto sulle labbra..
+  EntityFound: Sorridi furbamente a $N..
+  OthersFound: $n sorride furbamente a $N.
+  TargetFound: $n ti sorride furbamente..
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Sorridi furbescamente.
+  OthersNoArg: Sul volto di $n si dipinge un sorriso astuto foriero di seccature.
+  EntityFound: Rivolgi a $N un sorriso sagace.
+  OthersFound: $n sorride furbetto$o a $N. Sta macchinato qualche scherzo.
+  TargetFound: $n ti sorride furbetto$o. Cosa ti debbo aspettare?
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Pieghi le labbra in segno di compiaciuta soddisfazione.
+  OthersNoArg: Le labbra di $n si contraggono in una leggera smorfia di soddisfazione.
+  EntityFound: Sfreghi le $hands all'indirizzo di $N compiaciut$o e soddisfatt$o.
+  OthersFound: $n si sfrega le $hands con gli occhi su $N e pare compiaciut$o e soddisfatt$o.
+  TargetFound: $n ti preoccupa per il suo sguardo troppo soddisfatto e compiaciuto.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Assumi la tipica espressione della tua razza.
+  OthersNoArg: $n si guarda intorno con sguardo furbetto.
+  EntityFound: Osservi $N con aria furbetta e sorniona.
+  OthersFound: $n sta guardando $N con aria furbetta, chissà cosa sta macchinando.
+  TargetFound: $n ti sta osservando con aria furbetta.. Cosa vorrà?
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Assumi la tipica espressione della tua razza.
+  OthersNoArg: $n si guarda intorno con sguardo furbetto.
+  EntityFound: Osservi $N con aria furbetta e sorniona.
+  OthersFound: $n sta guardando $N con aria furbetta, chissà cosa sta macchinando.
+  TargetFound: $n ti sta osservando con aria furbetta.. Cosa vorrà?
+End

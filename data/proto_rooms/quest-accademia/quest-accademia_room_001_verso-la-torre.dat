@@ -1,0 +1,29 @@
+Code:	quest-accademia_room_001_verso-la-torre
+Sector:	SECTOR.WALL
+Name:	Verso la Torre
+Short:	verso la torre
+Descr:
+In questo punto le mura si allargano creando una sorta di bastione,
+verso est puoi vedere il ponte che conduce alla torre dei draghi, una 
+struttura ad arco singolo, snella, leggera, aggraziata. Si narra che 
+persino Mahakrim, il più possente drago blu che la storia ricordi non
+sia riuscito in un attacco d'ira ad abbattere la snella volta.
+
+
+Width:	50m
+Depth:	5m
+Height:	111m
+
+
+Exits:
+	Direction: DIR.EAST
+	Descr:	Il magico ponte porta verso la torre dei draghi
+End
+
+
+Exits:
+	Direction: DIR.WEST
+	Descr: Ad ovest puoi vedre i camminamenti dell'accademia
+End
+
+Comment: extra sotto

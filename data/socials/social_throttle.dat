@@ -1,0 +1,32 @@
+FunName:    social_throttle
+Intention:  INTENTION.AGGRESSIVE
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Umh.. chi puoi strozzare?
+  OthersNoArg: $n s'aggira con sguardo poco rassicurante..
+  EntityFound: Strozzi $N finché non diventa blu in volto!
+  OthersFound: $n strozza $N finché non diventa blu in volto!
+  TargetFound: $n ti strozza finché non ti manca il respiro! Aiut..!
+  EntityAuto:  Ti strozzi con le tue stesse $hands.. Ottimo direi!
+  OthersAuto:  $n cerca di strozzarsi con le sue stesse $hands.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Serri le zampe attorno ad un collo invisibile mimando uno strangolamento.
+  OthersNoArg: $n mima uno strangolamento serrando le zampe attorno ad un collo invisibile.
+  EntityFound: Cingi candidamente il collo di $N con le tue zampe e poi stringi senza pietà!
+  OthersFound: $n carezza il collo di $N con le sue zampe, serrandolo poi in una spietata morsa strangolatrice!
+  TargetFound: $n ti accarezza il collo.. Ma poi le sue zampe si stringono spietate attorno alla tua gola.. Soffochi!
+  EntityAuto:  Ti fasci la gola con le zampe proteggendola dal freddo della stagione.
+  OthersAuto:  $n si nasconde la gola con le zampe.. O forse si sta strozzando? In effetti è un po' paonazz$o.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Serri le zampe attorno ad un collo invisibile mimando uno strangolamento.
+  OthersNoArg: $n mima uno strangolamento serrando le zampe attorno ad un collo invisibile.
+  EntityFound: Cingi candidamente il collo di $N con le tue zampe e poi stringi senza pietà!
+  OthersFound: $n carezza il collo di $N con le sue zampe, serrandolo poi in una spietata morsa strangolatrice!
+  TargetFound: $n ti accarezza il collo.. Ma poi le sue zampe si stringono spietate attorno alla tua gola.. Soffochi!
+  EntityAuto:  Ti fasci la gola con le zampe proteggendola dal freddo della stagione.
+  OthersAuto:  $n si nasconde la gola con le zampe.. O forse si sta strozzando? In effetti è un po' paonazz$o.
+End

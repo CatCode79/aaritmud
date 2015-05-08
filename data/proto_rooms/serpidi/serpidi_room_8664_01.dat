@@ -1,0 +1,16 @@
+Code: serpidi_room_8664_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: Un Dormitorio 
+Short: Un dormitorio 
+Descr: 
+Questa grande stanza è evidentemente un dormitorio comune. Ci sono un gran numero di letti disposti ordinatamente lungo le pareti, a fianco di ogni letto c'è un piccolo armadietto e un comodino, mentre in fondo al letto c'è una cassapanca. Dalle dimensioni dei letti deduci che qui dormono serpidi adulti. 
+Exits:
+	Direction: DIR.NORTH
+	Destination: 5 7 -2 serpidi
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

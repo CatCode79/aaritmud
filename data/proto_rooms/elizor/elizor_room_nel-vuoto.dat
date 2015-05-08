@@ -1,0 +1,26 @@
+Code: elizor_room_nel-vuoto
+Sector: SECTOR.AIR
+Name: nel-vuoto
+Short: nel-vuoto
+
+Descr:
+Sei 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	L'interno
+End

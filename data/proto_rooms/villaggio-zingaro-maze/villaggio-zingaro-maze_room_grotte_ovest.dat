@@ -1,0 +1,19 @@
+Code: villaggio-zingaro-maze_room_grotte_ovest
+Sector: SECTOR.UNDERGROUND
+Flags: ROOM.INSIDE
+Name:	Nelle Viscere della Terra
+Short: uno sbarramento
+
+Descr:
+Un vicolo cieco; un masso d'incalcolabili dimensioni ti sbarra la strada, alcuni segni indicano che qualcuno prima di te ha tentato di aprirsi un varco nella roccia ma senza risultato, l'unica possibilità è fare dietro front.
+DescrSixth:
+Di certo un nugolo di cunicoli è un posto tranquillo, ma forse preferiresti trovare l'uscita..
+
+Width:	10m
+Depth:	2m
+Height: 2m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: Nei meandri rocciosi
+End

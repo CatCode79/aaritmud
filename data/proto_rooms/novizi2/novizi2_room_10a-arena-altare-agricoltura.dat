@@ -1,0 +1,21 @@
+Code: novizi2_room_10a-arena-altare-agricoltura
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	[gold]L'Altare all'Agricoltura[close]
+Short:	[gold]la scelta saggia[close]
+
+Descr:
+Piccola camera a pianta cilindrica a sviluppo affusolato verso l'alto interrotta da eleganti fregi per spezzare l'infinito e ricondurre i piedi a terra.
+I fregi policromi rappresentano scene agresti, di allevamento, di agricoltura e qualcosa di artigiano.
+
+DescrSixth:
+La piccola camera è qui a rappresentare la scelta saggia di chi preferisce una lunga vita di impegno tranquillo, dai campi all'allevamento, piuttosto cheuna scelta avventurosa di breve durata ad esito tragico ed a senso unico.
+
+Width:  10m
+Depth:  10m
+Height: 4m
+
+Exits:
+	Direction:	DIR.WEST
+	Descr: [lemonchiffon]L'arena[close]
+End

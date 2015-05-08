@@ -1,0 +1,43 @@
+Code: opekus_room_zero
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Develop Opekus
+Short: La stanzina del costruttore
+Descr:
+   Questa stanzina è un sunto per l'autore. Se non si vede bene la stanza è il caso di guardarla via editor.
+   Le coordinate sono le [red]42 42 42 opekus[close]
+   voglio una cittadina in rovina in cui vi sia ora il solito rigoglio di piante alberi ed erba
+   lago di loppio estremale (conca profonda umidiccia di qualche locazione piena di serpenti  bisce erba molto alta alberi)
+   magari stagionale.
+   
+   Qui potrebbe iniziare una zona a sud per i thepa  umidi
+
+<pre class="asciiart">
+|      |       |       |
+|    -----   -----   -----
+|   |     |_| via |_|     |  fondo lago Loppio
+|   |0,0  | |1,0  | |2,0  |
+|    -----   -----   -----
+|              |
+|            -----
+|           |via  | panchina - ultima parte terreno poi a nord digrada  
+|           |1,-1 |
+|            -----
+|              |                                        |
+|              |                                      -----
+|              |                                     |colon|
+|              |                                     |     | 
+|              |                                      ----- 
+|est illogica  | o attorno lago o nella wild    |       |       |       |
+|    -----   -----   -----   -----    -----   -----   -----   -----  -----
+|   |via  |_| via |_|via  |_|arco |_ |giù  |_|rovine|_|colle|_|   |_|    |_
+|   |0,-2 | |1,-2 | |2,-2 | |stone|  |4,-2 | |      | |     | |   | |    |
+|    -----   -----   -----   -----    -----   -----   -----   -----  -----
+|                      |              città     |       |       |       |
+|                    -----             in
+|                   |strad|            conca
+|                   |2,-3 |          con vista 
+|                    -----
+|                      |
+|                qui anche altra giunzione con
+|                wild o comunque stradone che dritto a sud

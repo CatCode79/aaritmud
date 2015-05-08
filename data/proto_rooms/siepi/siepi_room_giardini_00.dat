@@ -1,0 +1,21 @@
+Code: siepi_room_giardini_00
+Sector: SECTOR.WOOD
+Name: Il Sentiero Dorato
+Short: un sentierino
+Descr: 
+Il sentiero termina bruscamente davanti alla vegetazione che di botto diviene altissima
+e t'impedisce di vedere cosa c'è ad est, si vede solo un groviglio di verde obliato da
+alberi alti in forma di una possente siepe.
+Sull'altro lato la visione è sgombra e si riesce ad intravvedere quella pare la facciata
+di uno splendente palazzo.
+
+
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Sentieri imbrigliati da siepi 
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Il sentiero continua senza una piega
+End

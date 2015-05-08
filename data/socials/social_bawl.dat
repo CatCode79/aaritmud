@@ -1,0 +1,42 @@
+FunName:    social_bawl
+Intention:  INTENTION.AGGRESSIVE
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Cominci a sbraitare con rabbia..
+  OthersNoArg: $n comincia a sbraitare..
+  EntityFound: Cominci a sbraitare verso $N.
+  OthersFound: $n comincia a sbraitare verso $N.
+  TargetFound: $n comincia a sbraitare verso di te.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Esterni la rabbia violenta che è in te.
+  OthersNoArg: Gli occhi di sangue e le fauci spalancate, $n grida fino al parossismo!
+  EntityFound: Sputi rabbia e violenza verbale addosso a $N!
+  OthersFound: $n con occhi di sangue e fauci spalancate sommerge $N di grida.
+  TargetFound: $n con occhi di sangue e fauci spalancate ti sbraita addosso.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Mostri le zanne sbraitando il tuo furore.
+  OthersNoArg: $n mostra le zanne mentre sbraita forsennatamente.
+  EntityFound: Sbraiti con furore verso $N mostrando$GLI le zanne.
+  OthersFound: $n sbraita con furore verso $N mostrando$GLI le zanne.
+  TargetFound: $n ti sbraita contro furiosamente mostrandomi le zanne.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Mostri le zanne sbraitando il tuo furore.
+  OthersNoArg: $n mostra le zanne mentre sbraita forsennatamente.
+  EntityFound: Sbraiti con furore verso $N mostrando$GLI le zanne.
+  OthersFound: $n sbraita con furore verso $N mostrando$GLI le zanne.
+  TargetFound: $n ti sbraita contro furiosamente mostrandomi le zanne.
+End
+RacialMessages:
+  Race:        RACE.MINOTAUR
+  EntityNoArg: Esterni la tua rabbia scuotendo le corna con fare minaccioso.
+  OthersNoArg: $n esterna la sua rabbia scuotendo le corna con fare minaccioso.
+  EntityFound: Muggisci con rabbia verso $N scuotendo le corna.
+  OthersFound: $n muggisce con rabbia verso $N scuotendo le corna.
+  TargetFound: $n ti muggisce contro la sua rabbia scuotendo le corna.
+End

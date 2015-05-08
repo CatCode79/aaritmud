@@ -1,0 +1,19 @@
+Code: deadcity_room_negozio-macelleria
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Macelleria di Eufidia
+Short: la macelleria
+
+Descr:
+Sapendo che si tratta di una macelleria risulta piuttosto strano il senso di pulizia
+delle superfici e dei muri. Sul fondo della macelleria un bancone vetrina separa gli
+avventori dal grosso tavolaccio ingombro di coltellacci ed enormi masse di carne rossa.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: All'esterno
+End

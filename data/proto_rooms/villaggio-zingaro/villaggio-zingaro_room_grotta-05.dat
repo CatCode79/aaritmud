@@ -1,0 +1,48 @@
+Comment: Canne...Simpaticissime vamp mangiatrici di uomini, ti	mordono quando ti vedono dei vestiti addosso e a volte te li strappano...odorano di menta perché essendo amanti dell'igiene dopo ogni morso si lavano i denti.
+
+Code: villaggio-zingaro_room_grotta-05
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: Il Sentiero Intorno al Lago
+Short: intorno al lago
+
+Descr:
+Il sentiero digrada lentamente verso il lago, l'accesso all'acqua è però impedito da una cortina di [darkturquoise]canne[close]; intorno a te, in ogni direzione, pennacchi appuntiti si ergono verso la volta anch'essa costellata di sporgenze acuminate. Poco lontano un monumentale pilastro, accompagnato da due colonnine che s'avviluppano l'una sull'altra, sembra voler portare su di se tutto il peso del terreno sovrastante. 
+DescrSmell: 
+Aria calda e madida di umido; sei circondato da un'intenza fragranza di menta balsamica che sembra provenire dalle canne.
+DescrSixth:
+Capisci che farai bene a stare attent$o a dove metti i $feet, non vorresti mai cadere su una di queste stalagmiti appuntite.
+DescrHearing:
+La convinta brezza che t'investe, si muta in fischio passando fra interstizi di stalagmiti.
+
+Extras:
+	Keywords: canne cortina
+	Descr:
+	Numerose [darkturquoise]canne[close] costituiscono una fitta barriera. Dal [mediumaquamarine]gambo[close] flessuoso spuntano delle foglioline striminzite e sulla cima ondeggiano vistosi [palevioletred]pennacchi[close]. 
+	DescrSmell:
+	Un avvolgente aroma di menta balsamica.
+	DescrHearing:
+	Hai l'impressione di sentirle masticare.
+	DescrTouch:
+	Il piumino in vetta ha l'aria di essere incredibilmente soffice.
+	DescrTaste:
+	Non dev'essere piacevole sputare per ore soffici piumini rosa.. 
+	DescrSixth:
+	Veramente strano l'odore proveniente da questi vegetali ti ricorda tanto quello di dentifricio.
+End
+Width:	7m
+Depth:	2m
+Height: 10m
+Exits:
+	Direction: DIR.NORTHWEST
+	Descr: Intorno al lago
+End
+Exits:
+	Direction: DIR.EAST
+	Descr: Intorno al lago
+End
+
+RoomBehaviour:
+	RandomEcho:	3
+	RandomEchoTexts:	Una goccia cade dall'alto.
+End

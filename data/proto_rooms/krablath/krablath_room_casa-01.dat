@@ -1,0 +1,44 @@
+Code: krablath_room_casa-01
+Sector: SECTOR.HOUSE
+Flags: ROOM.INSIDE ROOM.NO_MOB		
+Name: 	[forestgreen]Nella Casa dell'Impollinatrice[close]
+Short: [forestgreen]l'ingresso[close]
+
+Descr:
+Una stanza di modeste dimensioni e quasi completamente disadorna ma non per questo spoglia; le [forestgreen]pareti[close] infatti, che paiono di natura vegetale anche se non ben definibile, creano una sorta di intricata decorazione lasciando di tanto in tanto dei varchi a mo' di [ghostwhite]finestre.[close] 
+Solo un [sienna]mobiletto[close], solitario, in quello che con molta fantasia può essere chiamato angolo. 
+A completare il tutto due aperture ad arco molto simili a quella d'entrata ma velate da lunghi rametti penduli.
+DescrSmell: 
+Un fragrante odore di pane tenta di attirarti verso la cucina facendo a gara con l'aroma della terra smossa che vorrebbe portarti dalla parte opposta.
+DescrSixth:
+Avverti un alone di magia aleggiare in tutto ciò che ti circonda.
+DescrHearing:
+Ti gusti per qualche attimo il disteso silenzio che regna in questa stanza.
+
+Extras:
+	Keywords: finestra
+	Descr:
+	Ti affacci alla finestra gustandoti la vista dell'intero giardino.
+	DescrNight:
+	Ti affacci alla finestra gustandoti la vista del giardino punteggiato di lucciole luminose.
+End
+
+Width:	3m
+Depth:	4m
+Height: 3m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Al semenzaio.
+  EntityMessage: [greenyellow]Attraversi l'arco scostando tomentosi rametti che ti solleticano appena.[close]
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: In cucina.
+  EntityMessage: [greenyellow]Attraversi l'arco scostando tomentosi rametti che ti solleticano appena.[close]
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Sul terrazzo.
+End
+

@@ -1,0 +1,28 @@
+FunName:    social_dreary
+Intention:  INTENTION.NEUTRAL
+Expression: tristemente
+Smiles:     :( :-(
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Socchiudi gli occhi malcelando la tua tristezza con un lieve sospiro.
+  OthersNoArg: $n china mestamente il capo con un lievissimo sospiro.
+  EntityFound: Guardi $N con occhi tristi.
+  OthersFound: $n guarda $N con la tristezza in volto.
+  TargetFound: $n ti guarda sospirando con tristezza.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Le tue orecchie basse avvertono i presenti della tua mestizia.
+  OthersNoArg: $n ciondola il capo con le orecchie basse, segno di mestizia.
+  EntityFound: Abbassi le orecchie ed il capo verso $N, mestamente.
+  OthersFound: $n abbassa le orecchie ed il capo verso $N, mestamente.
+  TargetFound: $n abbassa  mestamente le orecchie ed il capo verso te.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Le tue orecchie basse avvertono i presenti della tua mestizia.
+  OthersNoArg: $n ciondola il capo con le orecchie basse, segno di mestizia.
+  EntityFound: Abbassi le orecchie ed il capo verso $N, mestamente.
+  OthersFound: $n abbassa le orecchie ed il capo verso $N, mestamente.
+  TargetFound: $n abbassa  mestamente le orecchie ed il capo verso te.
+End

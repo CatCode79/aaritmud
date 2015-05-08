@@ -1,0 +1,36 @@
+Code: torreelementi_room_fungheria_04
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Parte Sud della Fungheria
+Short: un sentiero ingombro
+Descr: 
+La parte di strada ove ti trovi è parzialmente ostruita da pezzi di micelio come se
+uno o più dei fagottoni fosse scoppiato. Man mano che procedi verso sud c'è sempre
+meno spazio disponibile per muoversi e sempre più residui ad ostacolare la via.
+
+DescrSmell:
+L'odore è stantio come se il materiale depositato sia rimasto qui per troppo tempo.
+
+DescrTouch:
+Muoverti lungo la direzione sud diviene sempre più difficoltoso a causa del materiale
+morbido e friabile in cui stai cercando di arrancare.
+
+Extras:
+  Keywords: pezzi micelio materiale
+  DescrTouch: Consunti ulteriormente dal tempo si sfaldano facilmente
+  Descr: Pezzi di micelio e paglia che si sono sfatti e son finiti ovunque
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: La zona centrale
+End
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Scorie
+End

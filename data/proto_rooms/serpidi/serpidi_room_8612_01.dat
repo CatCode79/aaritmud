@@ -1,0 +1,39 @@
+Code: serpidi_room_8612_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: La parete nord del tempio 
+Short: La parete nord del tempio 
+Descr: 
+Il tempio ha una pianta quadrata ed è completamente immerso nel buio, puoi osservare le figure su questa parete, ma il resto del tempio rimane appena illuminato dalla tua luce. Da quando sei entrato qui dentro ti senti pervaso da una certa oppressione come se qualche oscura ed antica potenza interferisse con i tuoi stessi principi vitali. 
+Exits:
+	Direction: DIR.EAST
+	Destination: 1 6 0 serpidi
+End
+Exits:
+	Direction: DIR.SOUTH
+	Destination: 0 5 0 serpidi
+End
+Exits:
+	Direction: DIR.WEST
+	Destination: -1 6 0 serpidi
+End
+Extras:
+	Keywords: figure 
+Descr:
+Puoi vedere le figure su questa parete. Qui sono raffigurati i guerrieri neri che onorano un gruppo di umanoidi dalla testa piatta e dagli arti argigliati, simili a quello raffigurato nella statua nell'angolo nord est del tempio. Non riesci a vedere le altre pareti da qui. 
+End
+Extras:
+	Keywords: mosaico 
+Descr:
+Sei troppo lontano per vederlo bene, da qui distingui solo forme aggrovigliate in maniera insensata. Forse dal centro del tempio potresti cogliere la visione d'insieme. 
+End
+Extras:
+	Keywords: intarsi 
+Descr:
+Sei troppo lontano dal centro del tempio e vedi molto poco, ma gli intarsi potrebbero rappresentare una qualche divinità intenta a cibarsi. 
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

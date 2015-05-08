@@ -1,0 +1,35 @@
+Code: novizi2_room_11-seed-vaso
+Sector: SECTOR.HOUSE
+Name: 11-seed-vaso
+Short: 11-seed-vaso
+
+Descr:
+Un ambiente più ristretto è stato ricavato nel margine nord-ovest del giardino.
+Un acciottolato fitto fitto riveste tutta una porzione di terreno dalla forma di un quadtato un po' troppo smussato.
+[yellow]Il posto sarebbe deputato alla semina in vaso che per ora non funziona completamente a causa di un'arcana magia lanciata sulle sementi.[close]
+<br>
+Si procede mettendo un po' di terra in vaso...<br>
+- $tPUT terra vaso<br>
+e poi seminando nel vaso...<br>
+- $tSEED seme vaso<br>
+e poi si attende pazientemente.
+
+DescrTouch: 
+La sensazione al passo cambia repentina quando passi dal morbido terreno di prima ai ciottoli fitti e scomodi.
+DescrSmell: 
+Quello che ti arriva alle narici non è un odore, non è una fragranza... è solo sabbia.
+DescrSixth:
+Difficile pensare di seminare fra i ciotoli a meno di non avere qualche pianta esotico-magica.
+DescrHearing:
+Fievole giunge da laggiù il brusio indistinto d'insetti o altre piccole bestiole.
+DescrTaste:
+no_send
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.NORTHWEST
+	Descr:	Il giardino
+End

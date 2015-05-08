@@ -1,0 +1,31 @@
+Code: karpuram_room_city-torre-guardia-bottom-ne
+Sector: SECTOR.PLAIN
+Name: I Passaggi Attraverso [lime]Karpuram[close]
+Short: [lime]passaggi[close] a vista d'occhio
+Descr:
+La parte superiore del pendio consente una visuale privilegiata della zona circostante
+conferendo anche una piacevole visione d'insieme della propaggine nordest del villaggio.
+Un grande albero dai rami bassi pare cresciuto appositamente per favorirne la salita;
+si tratta evidentemente di una torre di guardia.
+
+DescrNight:
+La parte superiore del pendio, ad un ora meno [blue]notturna[close] potrebbe consentire certo
+un'ottima visuale della zona circostante. Un grande albero dai rami bassi pare cresciuto
+appositamente per favorirne la salita; si tratta evidentemente di una torre di guardia.
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Nel folto del bosco
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Nel folto del bosco
+End
+Exits:
+  Direction: DIR.UP
+  Descr: Salendo lungo i rami
+End

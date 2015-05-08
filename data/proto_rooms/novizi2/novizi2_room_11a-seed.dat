@@ -1,0 +1,42 @@
+Code: novizi2_room_11a-seed
+Sector: SECTOR.PLAIN
+Name: L'Ingresso del Giardino
+Short: l'ingresso del giardino
+
+Descr:
+Poco oltre il vialetto, inizia l'ampio ingresso del giardino ove sei immers$o. Ampie porzioni di terreno sono tuttavia lasciate incolte per consentire a tutti la possibilità di seminare e di fare le proprie prove con le sementi.
+le modalità di semina sono semplicissime:
+<br>
+- $tSEED<br>
+<br>
+E poi si deve solo attendere.
+DescrTouch: 
+no_send
+DescrSmell: 
+Il terreno smosso di recente emana il consueto odore marcato.
+DescrSixth:
+Una volta seminata una piantina chissà se farà frutti e se saranno commestibili...
+DescrHearing:
+no_send
+DescrTaste:
+no_send
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.EAST
+	Descr:	Il margine del giardino
+	Destination:    1 -3 0 novizi2
+End
+
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	La parte meridionale del giardino
+End
+
+Exits:
+	Direction:	DIR.SOUTHEAST
+	Descr:	La parte meridionale del giardino
+End

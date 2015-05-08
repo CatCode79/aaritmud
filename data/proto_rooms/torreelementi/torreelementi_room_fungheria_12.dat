@@ -1,0 +1,55 @@
+Code: torreelementi_room_fungheria_12
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Evocatorius
+Short: un luogo ameno
+Descr:
+Colonne spigolose in legno cupo con decorazioni argentate ad amplificarne le nervature:
+Questo il primo impatto con il luogo mistico ove ti trovi. Al centro, un pentacolo
+parzialmente cancellato e realizzato in polveri colorate. Piccole alcove nei colonnati
+ospitano ciotole livide colme di sostanze fosforescenti verdastre. Solo entro le colonne
+la luce si macchia di verdastro mentre tutto intorno la luminosità è innaturalmente
+bianca ma non ne vedi l'origine.
+
+DescrSmell:
+L'odore che si respira qui dentro ha un che di mistico e rituale come di spezie, odori
+aromatici e resine bruciate. Molta polvere dal saporaccio acre ti resta in gola.
+
+Extras:
+  Keywords: colonne spigolose colonna spigolosa
+  DescrTouch: Legno durissimo dal suono quasi cristallino già ad una piccola percussione
+  DescrSixth: Una voce sufficientemente potente potrebbe mettere in vibrazione tutte le colonne...
+  Descr: Alte fino al soffitto che trafiggono; degli spigoli vivi delle cinque colonne uno è sempre
+        rivolto al centro della figura disegnata nel mezzo del circolo. A diverse altezze sono praticati
+        grossi incavi nelle colonne e ciascuno contiene una ciotola
+End
+
+Extras:
+  Keywords: decorazioni argentate decorazione argento argentata
+  DescrTouch: Scotta!
+  Descr: Un singolare percorso di simboli sale spiraleggiando attorno a tutte e cinque le colonne
+End
+
+Extras:
+  Keywords: pentacolo
+  Descr: Cinque colori per cinque polveri diverse, ciascuna per una delle punte. Proprio la polvere
+         verde è la sola ed unica ad aver ceduto ed aperto il pentacolo
+End
+
+Extras:
+  Keywords: alcova alcove nicchia nicchie
+  Descr: Inserti larghi quanto un pugno praticati di taglio nelle colonne ad ospitare punti luce
+End
+Extras:
+  Keywords: luce verde verdastra
+  Descr: La luce si sprigiona pallida ed uniforme da ciotole colme di una sostanza untuosa
+End
+
+Width:	6m
+Depth:	6m
+Height: 3m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: Il laboratorio
+End

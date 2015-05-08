@@ -1,0 +1,30 @@
+Code: opekus_room_ofidian_common_09
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Il Corridoio d'Ardesia
+Short: un corridoio
+
+Descr:
+	L'ampio corridoio di pietra prosegue diritto e monotono come una precisa incisione nella
+	nera pietra. Non vi son segni di sorta fatta eccezione per gli anelli incuneati nella
+	roccia usati un tempo come alloggiamento per le torce.
+ 
+Extras:
+	Keywords: anelli alloggiamento
+	Descr:
+		Si tratta di perni metallici conficcati nella roccia con incredibile precisione,
+		l'unico segno del tempo è qualche rivolo di ruggine colato verso il basso. 
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: La gradinata
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Un corridoio
+End

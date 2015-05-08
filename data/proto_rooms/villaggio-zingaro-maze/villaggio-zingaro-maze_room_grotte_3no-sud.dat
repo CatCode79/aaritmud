@@ -1,0 +1,27 @@
+Code: villaggio-zingaro-maze_room_grotte_3no-sud
+Sector: SECTOR.UNDERGROUND
+Flags: ROOM.INSIDE
+Name:	Nelle Viscere della Terra
+Short:	nel labirinto di pietra
+
+Descr:
+I camminamenti ti sembrano tutti uguali e ti fanno perdere il senso dell'orientamento. Non riesci a scorgere neanche le tue impronte per capire se stai girando in tondo o meno; quel sasso ti sembra famigliare..o forse no.
+DescrSixth:
+Di certo un nugolo di cunicoli è un posto tranquillo, ma forse preferiresti trovare l'uscita.
+
+Width:	10m
+Depth:	2m
+Height: 2m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Nei meandri rocciosi
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Nei meandri rocciosi
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Nei meandri rocciosi
+End

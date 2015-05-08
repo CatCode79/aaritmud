@@ -1,0 +1,45 @@
+Comment: 0 1|8 0
+Code: sauria_room_grotta-naturale-76
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: Grotta Naturale
+Short: grotta naturale
+
+Descr:
+A dispetto dell'ingresso, questa zona è d'origine naturale; ti trovi in un'ampia grotta in cui il gocciolio dell'acqua rimbomba ovunque. 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 0 21875
+  Descr:	Le colonne disgregate
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 0 21879
+  Descr:	Grotta naturale
+  Direction:	DIR.EAST
+End
+Exits:
+  Comment:	0 0 21877
+  Descr:	Grotta naturale
+  Direction:	DIR.SOUTH
+End
+Exits:
+  Comment:	0 0 21873
+  Descr:	Grotta naturale
+  Direction:	DIR.WEST
+End

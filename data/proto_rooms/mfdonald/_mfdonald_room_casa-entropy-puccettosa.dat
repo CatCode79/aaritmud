@@ -1,0 +1,35 @@
+Code: mfdonald_room_casa-entropy-forse
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Stanza Forse
+Short: la stanza forse
+
+Descr:
+La via la virtù i colori del giovin signore;
+#mfdonald_item_tecia_01 invece della tecia.
+Ma poi mi passa.
+DescrTouch: 
+Guardare e non Toccare!
+DescrSmell: 
+Sconsigliabile come propensione qui dentro!
+DescrSixth:
+Il tuo intuito ti prega gentilmente di uscire.
+DescrHearing:
+Non si sente nulla nulla...
+
+Extras:
+	Keywords: zio
+	Descr:
+	Lo chiamano Zio ma non ha nipoti
+	DescrSixth:
+	Non si sa bene per quale motivo...
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.EAST
+	Descr: La stanza puccesstosa
+End

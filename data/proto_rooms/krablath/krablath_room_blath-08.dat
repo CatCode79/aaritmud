@@ -1,0 +1,33 @@
+Code: krablath_room_blath-08
+Sector: SECTOR.SHORE
+Name: [aquamarine]Lo Stagno[close]
+Short: [aquamarine]un suggestivo stagno[close]
+
+Descr:
+Rotonde foglie di ninfee affiorano sul pelo dell'[aquamarine]acqua[close] di un piccolo stagno; qua e là qualche [mediumpurple]bocciolo[close] pare aspettare solo un tuo sguardo per sbocciare. Nel mezzo dello specchio d'acqua una minuta isola accoglie un grazioso gazebo.
+Voltando lo sguardo dalla parte opposta puoi osservare l'arruffata distesa di bocche di leone in fiore.
+DescrTouch: 
+L'acqua lambisce appena i tuoi $feet posatisi sul candido acciottolato.
+DescrSmell: 
+L'odore di acqua stagnante che ci si potrebbe aspettare è del tutto assente e sostituito da inebrianti aromi floreali.
+DescrSixth:
+Un senso di mistero e magia permea tutto il giardino bloccato in una perenne stasi primaverile.
+DescrHearing:
+Qualche splash nell'acqua ti suggerisce la presenza di qualche pesce.
+DescrTaste:
+no_send
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Attorno allo stagno.
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Attorno allo stagno.
+End
+

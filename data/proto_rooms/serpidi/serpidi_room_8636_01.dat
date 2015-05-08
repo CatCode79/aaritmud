@@ -1,0 +1,20 @@
+Code: serpidi_room_8636_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: Un corridoio scuro 
+Short: Un corridoio scuro 
+Descr: 
+Avanzi in un corridoio completamente scavato nella pietra, come tutti gli ambienti in cui sei passato fino ad ora del resto. Uno strato di polvere copre il pavimento, ci sono ragnatele dovunque. La pietra dei muri è asciutta e solida, senza irregolarità. 
+Exits:
+	Direction: DIR.NORTH
+	Destination: 2 5 -2 serpidi
+End
+Exits:
+	Direction: DIR.SOUTH
+	Destination: 2 3 -2 serpidi
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

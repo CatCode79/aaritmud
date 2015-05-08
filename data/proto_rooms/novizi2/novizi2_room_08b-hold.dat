@@ -1,0 +1,26 @@
+Code: novizi2_room_08b-hold
+Sector: SECTOR.HOUSE
+Flags: ROOM.INSIDE
+Name: [gold]L'attrezzatura per la Sopravvivenza[close]
+Short: [gold]Il retrobottega[close]
+
+Descr:
+L'ambiente che sta dietro all'armeria ne tradisce il suo prosaico passato.
+Qua e là, sorprendentemente esenti da polvere ci sono scatoloni spalancati.
+Le quattro pareti sarebbero completamente anonime se non fosse per qualche
+bucolica chiazza di muffa nerastra dalle forme amene.
+DescrTouch: 
+La tua $hand indagatrice non può non notare alcune ragnatele che penzolano dal soffitto.
+DescrSmell: 
+Qualcuno ha usato qualcuno di quei prodotti tarmicidi per armadi.
+DescrSixth:
+Probabilmente non ci sarà nulla di eccezionale qui da raccattare, solo una massiccia dose di [white]meglio di nulla[close]
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.NORTHWEST
+	Descr: [lemonchiffon]L'armeria[close]
+End

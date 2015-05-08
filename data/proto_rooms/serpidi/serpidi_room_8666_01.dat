@@ -1,0 +1,16 @@
+Code: serpidi_room_8666_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: Un tempietto 
+Short: Un tempietto 
+Descr: 
+Sei in una piccola stanza ottagonale. In alto su ognuna delle pareti sta infissa un'asta con una palla che emette una tenue luce verdognola. Sotto le aste ci sono delle immagini, probabilmente di divinità e sotto ad ognuna delle immagini, per terra, sono disposti piccole lampade ad olio con le fiammelle tremolanti. Al centro della stanza c'è una grande statua. Senti la sua forza opprimente su di te. 
+Exits:
+	Direction: DIR.NORTH
+	Destination: 7 7 -2 serpidi
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

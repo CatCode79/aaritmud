@@ -1,0 +1,16 @@
+Code: serpidi_room_8675_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: Una latrina 
+Short: Una latrina 
+Descr: 
+Questa è la latrina della parte occidentale del quartiere dei serpidi e noti con piacere che non c'è cattivo odore. Sui due lati c'è una specie di lunga panca con vari buchi posti a distanza regolare. Sul davanti ci sono delle conche in cui affluisce acqua da un buco della parete. 
+Exits:
+	Direction: DIR.SOUTH
+	Destination: -3 7 -2 serpidi
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

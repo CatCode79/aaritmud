@@ -1,0 +1,61 @@
+Code: siepi_room_intrico_sw_01
+Sector: SECTOR.WOOD
+Name: Il Labirinto di Akh-Dara
+Short: un garbuglio intricato
+Descr: 
+Man mano che procedi si fanno sempre più frequenti gli arbusti veri e propri a
+sostituire piccoli tratti di siepe fino alla radura in cui sei giunt$o. In uno spazio
+di pochi metri di diametro sembra sia riunito un conclave di alberi diversi per stazza
+e tipologia; come unico segno d'uniformità... si tratta di sole conifere.
+
+DescrSmell:
+Inconfondibile l'odore di resina che riempie l'aria e ricorda che non è il caso di
+appoggiarsi a nessun albero
+
+Extras:
+  Keywords: albero alberi
+  Descr:
+	Riesci a riconoscere l'abete rosso, il pino nero, il larice, un cedro e... e beh alcuni giocano
+	a non farsi riconoscere, soprattutto quel coso fatto tutto a punte...
+  DescrNight:
+	Si riconosce l'abete rosso e forse un larice ma il buio certo non aiuta.
+End
+Extras:
+  Flags: EXTRA.DAY_ONLY
+  Keywords: luce 
+  Descr:
+	La luce che filtra nella radura illumina più di altri un mugo basso pieno di gemme
+End
+Extras:
+  Keywords: terreno aghi
+  Descr: 
+  Il terreno è bello morbido e costituito da uno spesso strato di aghi scuriti dal tempo e ingrigiti dalle muffe.
+End
+Extras:
+  Flags: EXTRA.NIGHT_ONLY
+  Keywords: ombre ombra 
+  Descr: L'ombra lunga delle siepi lontane rende il cammino più incerto 
+End
+
+Width:	7m
+Depth:	7m
+Height: 15m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Sentieri imbrigliati da siepi
+  Destination: -1 1 0 siepi
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Sentieri imbrigliati da siepi 
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Sentieri imbrigliati da siepi 
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Sentieri imbrigliati da siepi 
+  Destination: 1 -1 0 siepi
+End

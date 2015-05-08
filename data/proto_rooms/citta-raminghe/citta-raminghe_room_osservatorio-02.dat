@@ -1,0 +1,76 @@
+Code:	citta-raminghe_room_osservatorio-02
+Sector:	SECTOR.CITY
+Name:	[red]La Stanza degli Strumenti[close]
+Short:	[red]una sala circolare[close]
+
+Descr:
+La stanza è di forma circolare. Viene illuminata dalla luce che riceve
+attraverso tre [yellow]finestre[close] di forma quadrata chiuse da vetri 
+opalescenti.
+Addossati alla parete tre [sandybrown]tavoli di forma semicircolare[close] che si 
+adattano alla curvatura della parete stessa.
+Antistante la porta di ingresso una [tomato]scala in legno[close] dai gradini molto stretti 
+conduce verso la parte superiore della torre.
+Sopra due dei tre [sandybrown]tavoli[close] puoi osservare pregiati e complessi 
+[magenta]strumenti astronomici[close]:	una [deeppink]Sfera Armillare[close], un [deepskyblue]Astrolabio[close],
+un [yellow]Sestante[close], un [red]Teodolite[close] e un [orchid]Quadrante[close].
+Sopra il terzo tavolo sono poggiate un pò alla rinfusa diverse [lightblue]Mappe Celesti[close].
+ 
+DescrNight:
+La stanza è di forma circolare. Tre [mediumslateblue]finestre[close] di forma quadrata sono disposte a distanza regolare sulla parete.
+L'ambiente è illuminato da tre grandi [yellow]lampade ad olio[close] che pendono dal soffitto.
+Addossati alla parete tre [sandybrown]tavoli di forma semicircolare[close] che si adattano alla 
+curvatura della parete stessa. Su ognuno di essi puoi vedere un [lightcoral]lume[close] di forma 
+ovoidale che viene acceso al bisogno.
+Antistante la porta di ingresso una [tomato]scala in legno[close] dai gradini molto stretti 
+conduce verso la parte superiore della torre.
+Sopra due dei tre [sandybrown]tavoli[close] puoi osservare pregiati e complessi 
+[magenta]strumenti astronomici[close]:una [deeppink]Sfera Armillare[close], un [deepskyblue]Astrolabio[close], 
+un [yellow]Sestante[close], un [red]Teodolite[close] e un [orchid]Quadrante[close].
+Sopra il terzo tavolo sono poggiate un po' alla rinfusa diverse [lightblue]Mappe Celesti[close].  
+ 
+DescrTouch:
+Non ti è consentito toccare nulla se non sei espressamente invitato.
+
+DescrTouchNight:
+Semplicemente non puoi avvicinarti a nulla che ti sia consentito percepire con il tatto. Sono talmente preziosi gli oggetti che anche una variazione di [red]calore[close] provocata dal [cyan]tocco delle dita[close] potrebbe variare la taratura e rendere lo strumento inaffidabile.
+
+DescrSmell:
+Avverti un [deeppink]profumo[close] che però non sai definire. Ti sembra di riconoscerlo,ma non sai di cosa possa trattarsi.
+
+DescrSmellNight:
+Ti avvolge come un [lavender]mantello stellato[close] il [deeppink]profumo[close] di qualcosa che attraversa il tuo sistema olfattivo e raggiunge quelle aree della [crimson]mente[close] che rimandano a qualcosa di assolutamente nuovo. È gradevole, molto. Cerchi di ricordare dove puoi avere sentito quel [deeppink]profumo[close] che sa di [lightpink]spezie[close] e di [sandybrown]venti caldi[close].
+
+
+DescrSixth:
+Sei all'interno della Torre. È questa la stanza dell'[red]osservatorio[close] dove sono riposti gli strumenti 
+necessari per lo studio dei [mediumslateblue]corpi celesti[close] quindi per misurare e localizzare [yellow]stelle[close] e 
+[mediumslateblue]pianeti[close]. Strani strumenti complessi, tramandati di generazione in generazione, hanno guidato lo 
+sguardo di centinaia di [crimson]menti curiose[close] alla ricerca di qualcosa di ignoto.
+Hanno emozionato l'anima di individui inquieti. Già, [goldenrod]l'inquietudine[close], quella strana sensazione inesauribile che ti conduce verso l'altro e l'altrove, quella [goldenrod]fame di scoperta[close] destinata a non essere mai soddisfatta del tutto.
+
+DescrHearing:
+Nessun suono ti giunge ancora.
+
+DescrHearingNight:
+Avverti in lontananza una melodia dai toni caldi e avvolgenti.    
+
+DescrTaste:
+Non trovi nulla che possa soddisfare questo senso.
+
+DescrTasteNight:
+Non trovi nulla che possa soddisfare questo senso.
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Exits:
+	Direction:	DIR.EAST
+	Descr:	La torre
+	Door:	citta-raminghe_item_door-osservatorio
+End
+Exits:
+	Direction:	DIR.UP
+	Descr:	In cima alla torre
+End

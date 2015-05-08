@@ -1,0 +1,20 @@
+Code: serpidi_room_8644_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: I campi coltivati 
+Short: I campi coltivati 
+Descr: 
+Qui crescono piante utili a ricavare fibre vegetali per la tessitura di indumenti o altra biancheria. Riconosci il lino e la canapa, ma non avevi mai visto prima quella strana pianta con dei batuffoli bianchi attaccati. C'è una colonna con una sfera luminosissima in cima. 
+Exits:
+	Direction: DIR.SOUTH
+	Destination: 3 -1 0 serpidi
+End
+Exits:
+	Direction: DIR.WEST
+	Destination: 2 0 0 serpidi
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

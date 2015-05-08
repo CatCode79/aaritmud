@@ -1,0 +1,21 @@
+Code: deadcity_room_negozio-musica
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: [purple]Ur Zij[close] & Figli 
+Short: un negozio
+
+Descr:
+All'interno il vecchio edificio ha tutto un altro aspetto e non ha nulla a che fare con
+il guscio che si vede da fuori. Un trionfo di colori investe ogni parete e ogni scaffale
+di questo strano negozio. Non vi è anfratto che non sia riempito di eleganti cianfusaglie
+colorate e oggetti misteriosi. C'è solo un posto sgombro e con un po' di spazio libero:
+il bancone in fondo al negozio.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: L'uscita
+End

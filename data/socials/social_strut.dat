@@ -1,0 +1,26 @@
+FunName:    social_strut
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Tiri in fuori il petto ed avanzi tronfiamente!
+  OthersNoArg: $n tira in fuori il petto ed avanza tronfiamente!
+  EntityFound: Tiri in fuori il petto ed avanzi tronfiamente verso $N!
+  OthersFound: $n tira in fuori il petto ed avanza tronfiamente verso $N!
+  TargetFound: $n tira in fuori il petto ed avanza tronfiamente verso di te!
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Gonfi il petto con aria trionfante e sfoderi gli artigli.
+  OthersNoArg: $n, testa alta e petto in fuori, sfila davanti ai presenti con la coda ritta.
+  EntityFound: Sfili a coda ritta davanti a $N, pavoneggiandoti un po'.
+  OthersFound: $n sfila a coda ritta davanti a $N, pavoneggiandosi un po'.
+  TargetFound: $n sfila a coda ritta davanti a te, pavoneggiandosi un po'.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Gonfi il petto con aria trionfante e sfoderi gli artigli.
+  OthersNoArg: $n, testa alta e petto in fuori, sfila davanti ai presenti con la coda ritta.
+  EntityFound: Sfili a coda ritta davanti a $N, pavoneggiandoti un po'.
+  OthersFound: $n sfila a coda ritta davanti a $N, pavoneggiandosi un po'.
+  TargetFound: $n sfila a coda ritta davanti a te, pavoneggiandosi un po'.
+End

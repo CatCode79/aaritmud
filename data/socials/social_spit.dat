@@ -1,0 +1,34 @@
+FunName:    social_spit
+Intention:  INTENTION.AGGRESSIVE
+Expression: sputando
+Smiles:     :# :-#
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Chini sprezzantemente il capo e sputi in terra con rabbia.
+  OthersNoArg: $n china il capo e sputa sprezzantemente in terra.
+  EntityFound: Sputi sprezzantemente in terra vicino a $N.
+  OthersFound: $n sputa sprezzantemente in terra vicino a $N.
+  TargetFound: $n sputa sprezzantemente in terra vicino a te!
+  EntityAuto:  Con un moto di disprezzo sputi in terra.. E ti becchi un $foot!
+  OthersAuto:  $n si sputa su un $foot senza accorgersene!
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Marco il territorio con la mia saliva.
+  OthersNoArg: $n sta annaffiando la vegetazione con i suoi sputi.
+  EntityFound: Sputi addosso a $N digrignando i denti.
+  OthersFound: $n sputa addosso a $N digrignando i denti.
+  TargetFound: $n ti sputa addosso digrignando i denti.
+  EntityAuto:  Cerchi di sputare ma riesci solo a produrre un rivolo di bava.
+  OthersAuto:  $n cerca invano di sputare e invece si becca una zampa.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Marco il territorio con la mia saliva.
+  OthersNoArg: $n sta annaffiando la vegetazione con i suoi sputi.
+  EntityFound: Sputi addosso a $N digrignando i denti.
+  OthersFound: $n sputa addosso a $N digrignando i denti.
+  TargetFound: $n ti sputa addosso digrignando i denti.
+  EntityAuto:  Cerchi di sputare ma riesci solo a produrre un rivolo di bava.
+  OthersAuto:  $n cerca invano di sputare e invece si becca una zampa.
+End

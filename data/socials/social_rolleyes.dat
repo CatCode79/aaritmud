@@ -1,0 +1,26 @@
+FunName:    social_rolleyes
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Rotei gli occhi sconvolt$o.
+  OthersNoArg: $n rotea gli occhi sconvolt$o.
+  EntityFound: Rotei gli occhi verso $N, sconvolt$o.
+  OthersFound: $n rotea gli occhi verso $N, sconvolt$o.
+  TargetFound: $n rotea gli occhi verso di te, sconvolt$o.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Alzi gli occhi al cielo in cerca di qualche volatile da cacciare.
+  OthersNoArg: $n alza lo sguardo al cielo in segno di noia.
+  EntityFound: $n rotea gli occhi davanti a $N, per puro divertimento.
+  OthersFound: Ma come fa $n a ruotare gli occhi così velocemente davanti a $N?
+  TargetFound: $n rotea rapidamente gli occhi davanti a te.. Perché lo fa?
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Alzi gli occhi al cielo in cerca di qualche volatile da cacciare.
+  OthersNoArg: $n alza lo sguardo al cielo in segno di noia.
+  EntityFound: $n rotea gli occhi davanti a $N, per puro divertimento.
+  OthersFound: Ma come fa $n a ruotare gli occhi così velocemente davanti a $N?
+  TargetFound: $n rotea rapidamente gli occhi davanti a te.. Perché lo fa?
+End

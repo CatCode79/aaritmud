@@ -1,0 +1,34 @@
+FunName:    social_giggle
+Intention:  INTENTION.FRIENDLY
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Ridacchi allegramente.
+  OthersNoArg: $n ridacchia allegramente.
+  EntityFound: Ridacchi allegramente verso $N.
+  OthersFound: $n ridacchia allegramente verso $N.
+  TargetFound: $n ridacchia allegramente verso di te.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Ridacchi scoprendo un poco le zanne.
+  OthersNoArg: $n ridacchia scoprendo un poco le appuntite zanne..
+  EntityFound: Ridacchi guardando $N, mostrando$GLI le tue zanne.
+  OthersFound: $n ridacchia verso $N ma intanto $GLI mostra le zanne.
+  TargetFound: $n ti guarda e si mette a ridacchiare scoprendo un poco le zanne.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Ridacchi scoprendo un poco le zanne.
+  OthersNoArg: $n ridacchia scoprendo un poco le appuntite zanne..
+  EntityFound: Ridacchi guardando $N, mostrando$GLI le tue zanne.
+  OthersFound: $n ridacchia verso $N ma intanto $GLI mostra le zanne.
+  TargetFound: $n ti guarda e si mette a ridacchiare scoprendo un poco le zanne.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Ridacchi con malcelata allegria.
+  OthersNoArg: $n ridacchia con malcelata allegria.
+  EntityFound: Ridacchi verso $N con malcelata allegria.
+  OthersFound: $n ridacchia verso $N con malcelata allegria.
+  TargetFound: $n ridacchia verso te con malcelata allegria.
+End

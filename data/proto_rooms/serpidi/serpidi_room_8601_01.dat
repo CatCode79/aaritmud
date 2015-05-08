@@ -1,0 +1,28 @@
+Code: serpidi_room_8601_01
+Sector: SECTOR.PLATEAU
+Flags:	ROOM.SILENCE
+
+Name: Una Piccola Radura. 
+Short: Una piccola radura. 
+Descr: 
+È abbastanza grande per poter fare un pic-nic all'aperto. In lontananza verso nord si nota la parete ascendente di un monte mentre a destra e a sinistra, dove finisce la radura si notano gli ingressi di alcune caverne. 
+Exits:
+	Direction: DIR.NORTH
+	Destination: 0 2 0 serpidi
+End
+Exits:
+	Direction: DIR.EAST
+	Destination: 1 1 0 serpidi
+End
+Exits:
+	Direction: DIR.SOUTH
+	Destination: 0 0 0 serpidi
+End
+Exits:
+	Direction: DIR.WEST
+	Destination: -1 1 0 serpidi
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

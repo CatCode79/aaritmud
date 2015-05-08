@@ -1,0 +1,48 @@
+Comment: 85 1 9 0 0
+Code: sauria_room_nelle-profondita-lago-83
+Sector: SECTOR.LAKE
+Flags: ROOM.UNDERWATER
+Name: Nelle Profondità del Lago
+Short: nelle profondità del lago
+
+Descr:
+Sei nelle profondità del lago. L'acqua è così scura e torbida che non riesci a vedere oltre il tuo naso.
+DescrTouch:
+Sei nelle profondità del lago; l'acqua è fredda, colma di pulviscolo ed in un continuo turbinio.
+DescrSmell:
+Un forte odore di sangue ti dice che qui vicino ci deve essere stato un combattimento.
+DescrSixth:
+Hai l'impressione che la corrente ti stia trasportando di là.
+DescrHearing:
+I tonfi sordi provenienti dall'alto indicano che la superficie è vicina.
+DescrTaste:
+Acqua e tanto fango, troppo.
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21882
+  Descr:	Nelle profondità del lago
+  Direction:	DIR.NORTH
+  Destination:	5 4 -1 sauria
+End
+Exits:
+  Comment:	0 -1 21812
+  Descr:	Nelle profondità del lago
+  Direction:	DIR.EAST
+End
+Exits:
+  Comment:	0 -1 21880
+  Descr:	Nelle profondità del lago
+  Direction:	DIR.SOUTH
+  Destination:	5 2 -1 sauria
+End
+Exits:
+  Comment:	0 -1 21811
+  Descr:	In mezzo al lago
+  Direction:	DIR.UP
+  Destination:	5 3 0 sauria
+End

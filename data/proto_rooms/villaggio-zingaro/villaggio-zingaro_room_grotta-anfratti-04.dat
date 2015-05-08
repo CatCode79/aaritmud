@@ -1,0 +1,28 @@
+Code: villaggio-zingaro_room_grotta-anfratti-04
+Sector: SECTOR.UNDERGROUND
+Flags:	ROOM.INSIDE
+Name: Negli Anfratti
+Short: negli anfratti
+
+Descr:
+Un rugoso cammino costellato di insenature e protuberanze che ingannano l'occhio facendo sembrare ogni ombra come l'ingresso di un nuovo sentiero. Avanzi incerto cercando ti rimanere sulla via più larga, se così si può dire, prestando attenzione ad ogni particolare.
+DescrTouch: 
+Avanzi a tastoni appoggiandoti alla roccia irregolare.
+DescrHearing:
+Hai l'impressione di cogliere lo scorrere di un corso d'acqua.
+DescrSixth:
+Non sai dove ti stai dirigendo ma speri che qui da qualche parte vi sia un'uscita.
+
+Width:	2m
+Depth:	2m
+Height: 2m
+
+Exits:
+	Direction: DIR.WEST
+	Descr: Nella grotta
+End
+Exits:
+	Direction: DIR.EAST
+	Descr: Negli anfratti
+	Destination:	3 7 0 villaggio-zingaro-maze
+End

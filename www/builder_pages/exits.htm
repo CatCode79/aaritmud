@@ -1,0 +1,212 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<h2>Indice delle Etichette per un'Uscita.</h2>
+<div>
+<a href='#Comment'><span class='label'>Comment</span>:</a><br>
+<a href='#Icon'><span class='label'>Icon</span>:</a><br>
+<a href='#IconNight'><span class='label'>IconNight</span>:</a><br>
+<a href='#Direction'><span class='label'>Direction</span>:</a><br>
+<a href='#Descr'><span class='label'>Descr</span>:</a><br>
+<a href='#DescrNight'><span class='label'>DescrNight</span>:</a><br>
+<a href='#DescrHearing'><span class='label'>DescrHearing</span>:</a><br>
+<a href='#DescrHearingNight'><span class='label'>DescrHearingNight</span>:</a><br>
+<a href='#DescrSmell'><span class='label'>DescrSmell</span>:</a><br>
+<a href='#DescrSmellNight'><span class='label'>DescrSmellNight</span>:</a><br>
+<a href='#DescrTouch'><span class='label'>DescrTouch</span>:</a><br>
+<a href='#DescrTouchNight'><span class='label'>DescrTouchNight</span>:</a><br>
+<a href='#DescrTaste'><span class='label'>DescrTaste</span>:</a><br>
+<a href='#DescrTasteNight'><span class='label'>DescrTasteNight</span>:</a><br>
+<a href='#DescrSixth'><span class='label'>DescrSixth</span>:</a><br>
+<a href='#DescrSixthNight'><span class='label'>DescrSixthNight</span>:</a><br>
+<a href='#Flags'><span class='label'>Flags</span>:</a><br>
+<a href='#Door'><span class='label'>Door</span>:</a><br>
+<a href='#KeyCode'><span class='label'>KeyCode</span>:</a><br>
+<a href='#Destination'><span class='label'>Destination</span>:</a><br>
+<a href='#EntityMessage'><span class='label'>EntityMessage</span>:</a><br>
+<a href='#OthersInMessage'><span class='label'>OthersInMessage</span>:</a><br>
+<a href='#OthersOutMessage'><span class='label'>OthersOutMessage</span>:</a><br>
+</div>
+<br>
+
+<hr>
+<h2>Note Riguardo le Uscite.</h2>
+<div>
+<span class="label">Exits</span> &egrave; una di quelle etichetta che abbisogna della etichetta <span class="label">End</span> per chiudere la sotto-struttura e al cui interno vanno le etichette elencate di seguito indentandole di due o quattro spazi.<br>
+Una stanza non ha nessuna uscita di per s&egrave;, per aggiungerle bisogna utilizzare l'etichetta <span class="label">Exits</span>.<br>
+Per ogni uscita che si vuole inserire alla stanza dovete aprire una nuova etichetta <span class="label">Exits</span>, pu&ograve; esistere al massimo una sola uscita per direzione (se ne volete di pi&ugrave; lo potete fare tramite i gamescript).<br>
+Ricordatevi che non avete bisogno di inserire l'etichetta <span class="label">Destination</span> se l'uscita della stanza sbuca nella direzione voluta nella vostra griglia di coordinate.<br>
+Forse noterete che non vi &egrave; una etichetta per le parole chiavi dell'uscita, difatti esse ad Aarit non servono a meno che l'uscita non sia chiusa da una porta che per&ograve; essendo un oggetto ha gi&agrave; le sue parole chiavi ricavate dal nome o dalla short, quindi utilizzer&agrave; quelle per l'interazione con l'uscita.<br>
+</div>
+<br>
+
+<hr>
+<h2>Tabella di Riferimento Veloce.</h2>
+<div>
+<table border="1">
+<tr class="thref"><td>Etichetta</td><td>Tipologia</td><td>Utilizzo</td></tr>
+<tr><td class="label">Comment</td><td>Stringa, relativa ad un commento</td><td>Facoltativo, consigliato se c'&egrave; qualcosa di particolare</td></tr>
+<tr><td class="label">Direction</td><td>Element, relativo alle dir</td><td>Obbligatorio</td></tr>
+<tr><td class="label">Descr</td><td>Stringa, anche multi-linea</td><td>Facoltativo</td></tr>
+<tr><td class="label">DescrNight</td><td>Stringa, anche multi-linea</td><td>Facoltativo</td></tr>
+<tr><td class="label">DescrHearing</td><td>Stringa, anche multi-linea</td><td>Facoltativo</td></tr>
+<tr><td class="label">DescrHearingNight</td><td>Stringa, anche multi-linea</td><td>Facoltativo</td></tr>
+<tr><td class="label">DescrSmell</td><td>Stringa, anche multi-linea</td><td>Facoltativo</td></tr>
+<tr><td class="label">DescrSmellNight</td><td>Stringa, anche multi-linea</td><td>Facoltativo</td></tr>
+<tr><td class="label">DescrTouch</td><td>Stringa, anche multi-linea</td><td>Facoltativo</td></tr>
+<tr><td class="label">DescrTouchNight</td><td>Stringa, anche multi-linea</td><td>Facoltativo</td></tr>
+<tr><td class="label">DescrTaste</td><td>Stringa, anche multi-linea</td><td>Facoltativo</td></tr>
+<tr><td class="label">DescrTasteNight</td><td>Stringa, anche multi-linea</td><td>Facoltativo</td></tr>
+<tr><td class="label">DescrSixth</td><td>Stringa, anche multi-linea</td><td>Facoltativo</td></tr>
+<tr><td class="label">DescrSixthNight</td><td>Stringa, anche multi-linea</td><td>Facoltativo</td></tr>
+<tr><td class="label">Flags</td><td>Flags, relative alle exit</td><td>Facoltativo</td></tr>
+<tr><td class="label">Door</td><td>Codice di oggetto</td><td>Facoltativo</td></tr>
+<tr><td class="label">KeyCode</td><td>Codice di oggetto</td><td>Facoltativo</td></tr>
+<tr><td class="label">Destination</td><td>Destination</td><td>Facoltativo</td></tr>
+<tr><td class="label">EntityMessage</td><td>Stringa di Act</td><td>Facoltativo</td></tr>
+<tr><td class="label">OthersInMessage</td><td>Stringa di Act</td><td>Facoltativo</td></tr>
+<tr><td class="label">OthersOutMessage</td><td>Stringa di Act</td><td>Facoltativo</td></tr>
+</table>
+</div>
+<br>
+
+<hr>
+<h2>Struttura Tipica con le Etichette Obbligatorie (per copia e incolla).</h2>
+<div>
+<pre>
+Exits:
+  Direction: DIR.
+End
+</pre>
+</div>
+<br>
+
+<hr>
+<h2>Spiegazione delle Etichette.</h2>
+<div>
+<a name='Comment'><h3 class='label'>Comment:</h3></a>
+Eventuale commento relativo l'uscita, per maggior informazioni leggere <a href="comment.htm">questa pagina</a>.<br>
+Non &egrave; obbligatorio, ma &egrave; comunque consigliato utilizzarla se l'uscita &egrave; particolare o se c'&egrave; qualcosa da ricordarsi per il futuro.<br>
+<br>
+
+<a name='Icon'><h3 class='label'>Icon:</h3></a>
+<a name='IconNight'><h3 class='label'>IconNight:</h3></a>
+Serve a specificare l'icona da utilizzare per l'uscita o l'usicta di notte.<br>
+Nel caso vi sia una porta viene sempre visualizzata l'icona della porta, o quella di default o quella specificata nel file della porta stessa.<br>
+<br>
+
+<a name='Direction'><h3 class='label'>Direction:</h3></a>
+&Egrave; un <a href="element.htm">Element</a> relativo alla <a href="elements_list.htm#DIR">lista delle direzioni</a>.<br>
+Indica appunto in che direzione punta l'uscita.<br>
+L'etichetta &egrave; obbligatoria.<br>
+<br>
+
+<a name='Descr'><h3 class='label'>Descr:</h3></a>
+<a name='DescrNight'><h3 class='label'>DescrNight:</h3></a>
+<a name='DescrHearing'><h3 class='label'>DescrHearing:</h3></a>
+<a name='DescrHearingNight'><h3 class='label'>DescrHearingNight:</h3></a>
+<a name='DescrSmell'><h3 class='label'>DescrSmell:</h3></a>
+<a name='DescrSmellNight'><h3 class='label'>DescrSmellNight:</h3></a>
+<a name='DescrTouch'><h3 class='label'>DescrTouch:</h3></a>
+<a name='DescrTouchNight'><h3 class='label'>DescrTouchNight:</h3></a>
+<a name='DescrTaste'><h3 class='label'>DescrTaste:</h3></a>
+<a name='DescrTasteNight'><h3 class='label'>DescrTasteNight:</h3></a>
+<a name='DescrSixth'><h3 class='label'>DescrSixth:</h3></a>
+<a name='DescrSixthNight'><h3 class='label'>DescrSixthNight:</h3></a>
+Per l'utilizzo di queste etichette basta vedersi le medesime nella pagina riguardanti <a href="room.htm#Descr">le stanze</a>.
+Qui per&ograve; le descrizioni sono relative a ci&ograve; che si visualizza guardando nella relativa uscita.<br>
+Volendo le potete anche utilizzare per dare dei suggerimenti relativamente a cose che si vedono solo da un'altra stanza in quella direzione grazie al differente punto di vista (mi viene in mente uno dei films di Indiana Jones in cui lui entrato in una chiesa a Venezia e guarda dall'alto un pavimento e ne riesce a capire il segreto grazie alla visione globale, ecco cose del genere!).<br>
+Nel caso che l'uscita abbia una porta questa stringa descrive quello che si vede con la porta aperta, con la porta chiusa invece visualizzerebbe la descrizione della porta, visto che quest'ultima &egrave; un oggetto.<br>
+Tutte queste etichette sono facoltative, anche se &egrave; consigliato inserire almeno la <span class='label'>Descr</span>, per lo meno per le stanze pi&ugrave; importanti.<br>
+<br>
+
+<a name='Flags'><h3 class='label'>Flags:</h3></a>
+&Egrave; una <a href="flags.htm">Flags</a> che si rif&agrave; alla <a href="element.htm#exit">lista delle flag di uscita</a>.<br>
+(TD) Probabilmente alcune di queste flags, soprattutto quelle relative alla porta, verranno spostate alle flags dell'oggetto di tipo porta in futuro, utilizzatele comunque.<br>
+&Egrave; facoltativa inserirla, se non avete bisogno di inserire nessuna delle flag della lista.<br>
+<br>
+
+<a name='Door'><h3 class='label'>Door:</h3></a>
+Qui bisogna inserire il codice dell'oggetto che far&agrave; da porta (o da finestra, o da porta-finestra o da cancello.. quello che volete, dipender&agrave; dalle short e descrizioni dell'oggetto) in quella direzione.<br>
+Se utilizzate questa etichetta l'uscita avr&agrave; un oggetto-porta apribile, chiudibile, sfondabile (a seconda del peso e del materiale), incendiabile (se fatta di materiale infiammabile), distruttibile con esplosivi etc etc..<br>
+L'etichetta &egrave; facoltativa.<br>
+<br>
+
+<a name='KeyCode'><h3 class='label'>KeyCode:</h3></a>
+Se volete una porta chiudibile a chiave qui bisogna inserire il codice dell'oggetto chiave che pu&ograve; aprirne la serratura (o chiuderla), tutte le chiavi create sulla base di quel codice potranno aprire la porta.<br>
+L'etichetta &egrave; facoltativa e pu&ograve; esistere solamente se l'etichetta Door &egrave; presente.<br>
+<br>
+
+<a name='Destination'><h3 class='label'>Destination:</h3></a>
+Se eravate abituati a dover inserire per ogni uscita il codice (che chiamavate probabilmente vnum) della stanza di arrivo, dimenticatevene, grazie alla struttura a coordinate e i reset delle stanze nell'area le uscite per il 98% faranno sbucare i giocatori dove vorrete.<br>
+C'&egrave; per&ograve; il caso in cui l'uscita non arriva in maniera 'geograficamente corretta' ma &egrave; una specie di portale o qualche cosa di pi&ugrave; specifico (come le scale utilizzato nell'esempio all'inizio di questa pagina) ecco quindi che dovete utilizzare <a href="destination.htm">questa struttura qui</a>.<br>
+Un'altro caso comune in cui bisogna utilizzare Destination &egrave; quando bisogna legare l'scuita ad una stanza di un'altra area (e quindi anche per la wild).<br>
+Un caso particolare &egrave; se volete che l'uscita di arrivo sia differente dalla sua naturale opposta (per esempio se andando a nord volete far uscire da est) lo dovete chiedere e verr&agrave; fatto via gamescript.<br>
+L'etichetta &egrave; facoltativa.<br>
+<br>
+
+<a name='EntityMessage'><h3 class='label'>EntityMessage:</h3></a>
+Stringa di Act che viene visualizzata dal giocatore che supera questa uscita.<br>
+<br>
+$n = nome giocatore che sta attraversando l'uscita.<br>
+$N = nome della stanza che il giocatore sta raggiungendo superando l'uscita.<br>
+$a = nome della stanza che il giocatore sta lasciando dietro di s&eacute;.<br>
+$A = nome della direzione in cui il giocatore sta procedendo.<br>
+<br>
+<fieldset>
+<legend>Esempio:</legend>
+Ti dirigi $A lasciandoti dietro $a.<br>
+Il giocatore legger&agrave;:<br>
+Ti dirigi verso nord lasciandoti dietro una caverna buia.<br>
+</fieldset>
+<br>
+L'etichetta &egrave; facoltativa.<br>
+<br>
+
+<a name='OthersInMessage'><h3 class='label'>OthersInMessage:</h3></a>
+Stringa di Act descrivente colui che sta superando quest'uscita, la stringa &egrave; visualizzata dai giocatori che si trovano nella stanza di partenza.
+<br>
+$n = nome giocatore che sta attraversando l'uscita.<br>
+$N = nome della stanza che il giocatore sta raggiungendo superando l'uscita.<br>
+$a = nome della stanza che il giocatore sta lasciando dietro di s&eacute;.<br>
+$A = nome della direzione in cui il giocatore sta procedendo.<br>
+<br>
+<fieldset>
+<legend>Esempio:</legend>
+$n si dirige in pompa manga $A in $N.<br>
+I giocatori nella stanza di partenza leggeranno:<br>
+Pincopallo si dirige in pompa magna verso nord in una caverna buia.<br>
+</fieldset>
+<br>
+L'etichetta &egrave; facoltativa.<br>
+<br>
+
+<a name='OthersOutMessage'><h3 class='label'>OthersOutMessage:</h3></a>
+Stringa di Act descrivente colui che ha superato quest'uscita, la stringa &egrave; visualizzata dai giocatori che si trovano nella stanza d'arrivo.<br>
+<br>
+$n = nome giocatore che ha attraversato l'uscita.<br>
+$N = nome della stanza che il giocatore ha raggiunto superando l'uscita.<br>
+$a = nome della stanza che il giocatore ha lasciato dietro di s&eacute;.<br>
+$A = nome della direzione da cui il giocatore &egrave; arrivato.<br>
+<br>
+<fieldset>
+<legend>Esempio:</legend>
+$n entra in pompa magna $A.<br>
+I giocatori nella stanza d'arrivo leggeranno:<br>
+Pincopallo entra in pompa magna da sud.<br>
+</fieldset>
+<br>
+L'etichetta &egrave; facoltativa.<br>
+<br>
+
+</div>
+<hr>
+</body>
+</html>

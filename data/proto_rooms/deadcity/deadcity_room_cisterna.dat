@@ -1,0 +1,20 @@
+Code: deadcity_room_cisterna
+Sector: SECTOR.CITY
+Name: La Cisterna d'Acqua
+Short: La Cisterna
+
+Descr:
+Ti trovi sull'alta passerella che descrive tutt'intorno il perimetro di una grande
+cisterna metallica. Non sembra vi siano aperture visibili o altre scale per arrivare
+alla cima. Da qui la vista ti consente di verificare che tutta la città è ugualmente
+inerte ed ogni sua parte indistinguibile dalle altre.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.DOWN
+  Descr: La scala a pioli
+End
+

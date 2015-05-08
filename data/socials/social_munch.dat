@@ -1,0 +1,36 @@
+FunName:    social_munch
+Intention:  INTENTION.NEUTRAL
+Expression: masticando
+Smiles:     :& :-&
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Mastichi rumorosamente qualcosa tra i denti.
+  OthersNoArg: $n mastica rumorosamente qualcosa tra i denti.
+  EntityFound: Mordicchi con aria compiaciuta la $HAND di $N.
+  OthersFound: $n mordicchia con aria compiaciuta la $HAND di $N.
+  TargetFound: $n ti mordicchia la $HAND.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Rosicchi un sasso desiderando un saporito cristallo di quarzo.
+  OthersNoArg: $n sta rosicchiando un sasso trovato qui intorno.
+  EntityFound: Non credo che $N sia adatto ad essere masticat$O.
+  OthersFound: no_send
+  TargetFound: no_send
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Mastichi alcuni pezzi di cibo che ti son rimasti fra le zanne.
+  OthersNoArg: $n sta ciancicando qualcosa con le zanne.
+  EntityFound: Mastichi del cibo mentre guardi $N. Ha un'aria appetitosa.. Mhrr.
+  OthersFound: $n mastica un po' di cibo e fissa $N con aria affamata.
+  TargetFound: $n mastica un po' del suo cibo ma ti guarda con aria affamata. Meglio spostarsi?
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Mastichi alcuni pezzi di cibo che ti son rimasti fra le zanne.
+  OthersNoArg: $n sta ciancicando qualcosa con le zanne.
+  EntityFound: Mastichi del cibo mentre guardi $N. Ha un'aria appetitosa.. Mhrr.
+  OthersFound: $n mastica un po' di cibo e fissa $N con aria affamata.
+  TargetFound: $n mastica un po' del suo cibo ma ti guarda con aria affamata. Meglio spostarsi?
+End

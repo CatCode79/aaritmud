@@ -1,0 +1,35 @@
+Code: villaggio-zingaro_room_villaggio-08
+Sector: SECTOR.ROAD
+Name: La Pietraia Artificiale
+Short: una pietraia
+
+Descr:
+La starda si biforca in luogo di una pietraia. Un esteso cumulo di pietre, sassi, ghiaia smosso di recente incombe immoto.
+La via che procede verso sud fa una scomoda acrobazia per evitarlo e procedere poi spedita verso la parte sud del villaggio.
+Verso la collina si vede distintamente l'accesso verso una galleria mineraria.
+DescrTouch: 
+Una pietraia comoda fornitura di materiale per fortificazioni.
+DescrSmell: 
+Ci vuol davvero niente qui a muovere un polverone deleterio per le narici impossibile.
+DescrSixth:
+Pare che in molti vengano qui a frugare e passare i sassi già scavati nella speranza di trovare qualcosa sfuggito ai minatori.
+DescrHearing:
+Un misero venticello, a tratti ti scompiglia per quel che riesce.
+DescrTaste:
+Ci vuol davvero niente qui ad assaggiare la polvere anche senza chinarsi.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+Exits:
+	Direction: DIR.EAST
+	Descr: Verso la collina
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: Al centro del villaggio
+End
+Exits:
+	Direction: DIR.SOUTH
+	Descr: La parte sud del villaggio
+End

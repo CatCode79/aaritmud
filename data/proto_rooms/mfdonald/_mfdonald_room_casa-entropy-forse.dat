@@ -1,0 +1,45 @@
+Code: mfdonald_room_casa-entropy-puccettosa
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: [maroon]P[close]u[maroon]cc[close]e[maroon]tt[close]osit[maroon]à[close]
+Short: [maroon]p[close]u[maroon]cc[close]e[maroon]tt[close]osit[maroon]à[close]
+ 
+
+Descr:
+La psiche dello zio percepisce la [maroon]puccettosità[close] come concetto spaziale
+che lacera con un grido silenzioso la normalità ammorbande dell'ordine inamidato rigido
+e pulito.
+La porta puccettosa è una doppia porta qui sta la parte puccettosa mentre quella
+adiabatica sta dall'altra e sono sincronizzate.
+Si resetta e si chiude alle 16 lanciando un messaggio.
+Se non lo fa è colpa del Coder Maximus (coder.maximus@gmail.com ; cell:EGT.BEIOTOO).
+DescrTouch: 
+Guardare e non Toccare!
+DescrSmell: 
+Sconsigliabile come propensione qui dentro!
+DescrSixth:
+Il tuo intuito ti prega gentilmente di uscire.
+DescrHearing:
+Non si sente nulla nulla...
+
+Extras:
+	Keywords: zio
+	Descr:
+	Lo chiamano Zio ma non ha nipoti
+	DescrSixth:
+	Non si sa bene per quale motivo...
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.EAST
+	Descr: La stanza [lightgreen]blu[close]
+	Door:	mfdonald_item_door-ent-puccettosa
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: La stanza forse
+End

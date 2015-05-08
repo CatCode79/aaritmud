@@ -1,0 +1,17 @@
+<center><h3>TRUST E PERMISSIONS</h3></center>
+<table rules="rows">
+    <tr><th>Account</th><th>Trust</th></tr>
+    ${trusted_accounts}
+</table>
+<br>
+<br>
+<table rules="rows">
+    <tr><th>Giocatore</th><th>Trust</th><th>Account</th></tr>
+    ${trusted_players}
+</table>
+<br>
+<br>
+<table rules="rows">
+    <tr><th>Giocatore</th><th>Permissions</th><th>Account</th></tr>
+    ${permissions}
+</table>

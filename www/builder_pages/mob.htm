@@ -1,0 +1,320 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<h2>Indice delle Etichette per un Mob Prototipo</h2>
+<a href='#Comment'>Comment:</a><br>
+<a href='#Code'>Code:</a><br>
+<a href='#Icon'>Icon:</a><br>
+<a href='#Level'>Level:</a><br>
+<a href='#Race'>Race:</a><br>
+<a href='#Materials'>Materials:</a><br>
+<a href='#Sex'>Sex:</a><br>
+<a href='#MaxGlobalQuantity'>MaxGlobalQuantity:</a><br>
+<a href='#Strength'>Strength:</a><br>
+<a href='#Endurance'>Endurance:</a><br>
+<a href='#Agility'>Agility:</a><br>
+<a href='#Speed'>Speed:</a><br>
+<a href='#Intelligence'>Intelligence:</a><br>
+<a href='#Willpower'>Willpower:</a><br>
+<a href='#Personality'>Personality:</a><br>
+<a href='#Luck'>Luck:</a><br>
+<a href='#MaxLife'>MaxLife:</a><br>
+<a href='#Life'>Life:</a><br>
+<a href='#MaxMana'>MaxMana:</a><br>
+<a href='#Mana'>Mana:</a><br>
+<a href='#MaxVigour'>MaxVigour:</a><br>
+<a href='#Vigour'>Vigour:</a><br>
+<a href='#Entitype'>Entitype:</a><br>
+<a href='#Name'>Name:</a><br>
+<a href='#KeywordsName'>KeywordsName:</a><br>
+<a href='#Short'>Short:</a><br>
+<a href='#KeywordsShort'>KeywordsShort:</a><br>
+<a href='#ShortNight'>ShortNight:</a><br>
+<a href='#KeywordsShortNight'>KeywordsShort:</a><br>
+<a href='#Long'>Long:</a><br>
+<a href='#LongNight'>LongNight:</a><br>
+<a href='#Descr'>Descr:</a><br>
+<a href='#DescrNight'>DescrNight:</a><br>
+<a href='#DescrHearing'>DescrHearing:</a><br>
+<a href='#DescrHearingNight'>DescrHearingNight:</a><br>
+<a href='#DescrSmell'>DescrSmell:</a><br>
+<a href='#DescrSmellNight'>DescrSmellNight:</a><br>
+<a href='#DescrTouch'>DescrTouch:</a><br>
+<a href='#DescrTouchNight'>DescrTouchNight:</a><br>
+<a href='#DescrTaste'>DescrTaste:</a><br>
+<a href='#DescrTasteNight'>DescrTasteNight:</a><br>
+<a href='#DescrSixth'>DescrSixth:</a><br>
+<a href='#DescrSixthNight'>DescrSixthNight:</a><br>
+<a href='#Extras'>Extras:</a><br>
+<a href='#Weight'>Weight:</a><br>
+<a href='#BirthDay'>BirthDay:</a><br>
+<a href='#BirthMonth'>BirthMonth:</a><br>
+<a href='#Age'>Age:</a><br>
+<a href='#Flags'>Flags:</a><br>
+<a href='#Affects'>Affects:</a><br>
+<a href='#Walker'>Walker:</a><br>
+<a href='#ExtractTimeout'>ExtractTimeout:</a><br>
+<a href='#Remains'>Remains:</a><br>
+<a href='#RemainsNight'>RemainsNight:</a><br>
+<a href='#Behaviour'>Behaviour:</a><br>
+<a href='#Aggressivenesses'>Aggressivenesses:</a><br>
+<a href='#Shop'>Shop:</a><br>
+<!--
+<a href='#PersonalResets'>PersonalResets:</a><br>
+-->
+</table><br>
+<hr>
+<h2>Struttura Tipica con le Etichette pi&ugrave; Comuni (per copia e incolla)</h2>
+<pre>
+Code:
+Level:
+Race:
+Name:
+Short:
+Descr:
+Weight:
+
+BirthDay:
+BirthMonth:
+
+Strength:
+Endurance:
+Agility:
+Speed:
+Intelligence:
+Willpower:
+Personality:
+Luck:
+
+MaxLife:
+Life:
+MaxMana:
+Mana:
+MaxVigour:
+Vigour:
+
+</pre>
+
+<hr>
+<a name='Comment'><h3>Comment:</h3></a>
+Come per la stanza.<br>
+L'etichetta &egrave; facoltativa ma utile per i futuri builder o revisor<br><br>
+
+<a name='Code'><h3>Code:</h3></a>
+Come per la stanza.<br>
+Etichetta obbligatoria.<br><br>
+
+<a name='Icon'><h3>Icon:</h3></a>
+Come per la <a href="room.htm#Icon">stanza</a>.<br>
+Etichetta Facoltativa, se omessa e il mob &egrave; usato come porta tramite struttra DoorType (manie da builder) vedr&agrave; automaticamente assegnata l'icona di default della porta. Questo potrebbe non ssere in linea con l'intento del builder (per quanto malato).<br><br>
+
+<a name='Level'><h3>Level:</h3></a>
+Modificatore del livello rispetto al livello dell'area, quindi se si vuole un mob piu' grosso rispetto alla media dell'area basta inserire +N, dove N &egrave; un numero consigliato da 1 a 5. Ovviamente si pu&ograve; fare il contrario, stesse modalit&agrave; ma con l'operatore meno.<br>
+Etichetta facoltativa se il modificatore &egrave; 0.<br><br>
+
+<a name='Race'><h3>Race:</h3></a>
+Razza del mob.
+Etichetta obbligatoria.<br><br>
+
+<a name='Materials'><h3>Materials:</h3></a>
+Indica di che materiale &egrave; fatto il mob.<br>
+La sintassi &egrave; la seguente:<br>
+Materials: MATERIAL.FLESH 100%<br>
+Per scegliere un materiale basta andare alla lista dei <a href="builder_pages/elements_list.htm#MATERIAL" target="_blank" title="pagina delle enumerazioni, sezione materiali">lista dei materiali</a>.<br>
+Il totale della percentuale di tutti i materiale deve essere 100%, se il materiale &egrave; uno solo deve essere impostato a 100%.<br>
+Il materiale dei mob il pi&ugrave; delle volte sar&agrave; FLESH, &egrave; accettabile che venga inserito anche un solo materiale (nonostante la complessit&agrave; di un generico corpo di mob) volendo si pu&ograve; inserire la percentuale delle ossa, deprecato invece &egrave; l'inserimento in percentuale di liquidi (acqua e sangue per esempio) in un corpo di mob che non sia un contenitore (contenente appunto un liquido);<br>
+in generale vige la regola semplificativa: se &egrave; solido ha materiali solidi, se &egrave; liquido ha materiali liquidi.<br>
+Etichetta facoltativa.<br><br>
+
+<a name='Sex'><h3>Sex:</h3></a>
+Genere con il quale ci si riferisce al mob e con il quale si declinano i pronomi che vi si riferiscono.<br>
+Etichetta obbligatoria.<br><br>
+
+<a name='MaxGlobalQuantity'><h3>MaxGlobalQuantity:</h3></a>
+Etichetta che indica, per un mob, il numero massimo di esemplari presenti contemporaneamente sia in gioco che fuori.<br>
+Il valore 0 indica che non vi &egrave; un limite superiore e corrisponde al valore di default.<br>
+Etichetta facoltativa.<br><br>
+
+<a name='Strength'><h3>Strength:</h3></a>
+Forza del mob, ad essa sono legati diversi aspetti fra i quali: il massimo peso trasportabile, il danno dei colpi che infligge...<br>
+Il valore medio per un umano in buone condizioni &egrave; 33; il massimo per un umanoide in gran forma &egrave; 66; Un valore ragguardevole da drago di Platino pu&ograve; superare il centinaio.<br>
+Etichetta obbligatoria.<br><br>
+
+<a name='Endurance'><h3>Endurance:</h3></a>
+Recupero della fatica, potenza contro i veleni e malattie. Con i dovuti paralleli, i valori numerici possono rifarsi a quanto detto per l'etichetta Precedente.<br>
+Etichetta obbligatoria.<br><br>
+
+<a name='Agility'><h3>Agility:</h3></a>
+Agilit&agrave; nello scansare i colpi, destrezza nel furto e amenit&agrave; simili. Con i dovuti paralleli, i valori numerici possono rifarsi a quanto detto per l'etichetta Precedente.<br>
+Etichetta obbligatoria.<br><br>
+
+<a name='Speed'><h3>Speed:</h3></a>
+Velocit&agrave; nei turni di combattimento e negli spostamenti. Con i dovuti paralleli, i valori numerici possono rifarsi a quanto detto per l'etichetta Precedente.<br>
+Etichetta obbligatoria.<br><br>
+
+<a name='Intelligence'><h3>Intelligence:</h3></a>
+Capacit&agrave; di lanciare incantesimi difficili e potenti, inoltre consente di ottenere d&agrave; pi&ugrave; punti spendibili per migliorare le abilit&agrave;. Con i dovuti paralleli, i valori numerici possono rifarsi a quanto detto per l'etichetta Precedente.<br>
+Etichetta obbligatoria.<br><br>
+
+<a name='Willpower'><h3>Willpower:</h3></a>
+Consenti di avere maggior Mana per incantesimi o abilit&agrave;, migliora la protezione contro attacchi mentali (mindflayer). Con i dovuti paralleli, i valori numerici possono rifarsi a quanto detto per l'etichetta Precedente.<br>
+Etichetta obbligatoria.<br><br>
+
+<a name='Personality'><h3>Personality:</h3></a>
+Carisma, leadership e forza di persuasione. Con i dovuti paralleli, i valori numerici possono rifarsi a quanto detto per l'etichetta Precedente.<br>
+Etichetta obbligatoria.<br><br>
+
+<a name='Luck'><h3>Luck:</h3></a>
+Non &egrave; mai abbastanza. Con i dovuti paralleli, i valori numerici possono rifarsi a quanto detto per l'etichetta Precedente.<br>
+Etichetta obbligatoria.<br><br>
+
+
+<a name='MaxLife'><h3>MaxLife:</h3></a>
+Valore massimo dei punti vita. L'umanoide medio in buona salute arriva attorno a 100.<br>
+Etichetta obbligatoria.<br><br>
+
+<a name='Life'><h3>Life:</h3></a>
+Valore dei punti vita con cui viene caricato il mob. Pu&ograve; essere ovviamente minore di MaxLife oppure anche maggiore ad esempio nel caso il mob sia rispettivamente ferito oppure in stato di sovraeccitazione.<br>
+Etichetta obbligatoria.<br><br>
+
+<a name='MaxMana'><h3>MaxMana:</h3></a>
+Valore massimo dei punti mana. L'umanoide mediocremente preparato in campo magico arriva attorno a 100.<br>
+Etichetta obbligatoria.<br><br>
+
+<a name='Mana'><h3>Mana:</h3></a>
+Valore del mana con cui viene caricato il mob. Pu&ograve; essere ovviamente minore di MaxMana oppure anche maggiore ad esempio nel caso il mob abbia rispettivamente fatto uso recente d'incantesimi oppure abbia utilizzato incantesimi appositi per amplificare le capacit&agrave; magiche.<br>
+Etichetta obbligatoria.<br><br>
+
+<a name='MaxVigour'><h3>MaxVigour:</h3></a>
+Valore massimo del vigore. L'umanoide fresco e riposato, ristorato di tutto punto dalle fatiche arriva attorno a 100.<br>
+Etichetta obbligatoria.<br><br>
+
+<a name='Vigour'><h3>Vigour:</h3></a>
+Valore del vigore con il quale il mob viene caricato. Pu&ograve; essere minore o maggiore del valore di MaxVigour in relazione ad eventuale stanchezza o doping.<br>
+Etichetta obbligatoria.<br><br>
+
+<a name='Entitype'><h3>Entitype:</h3></a>
+Element che indica la tipologia d'impiego del mob, vedere la lista di ENTITYPE (si potrebbe ad esempio voler fare un mob indossabile oppure libro)<br>
+Etichetta facoltativa.<br><br>
+
+<a name='Name'><h3>Name:</h3></a>
+<a name='Short'><h3>Short:</h3></a>
+<a name='ShortNight'><h3>ShortNight:</h3></a>
+Come per le stanze.<br><br>
+<a name='KeywordsName'><h3>KeywordsName:</h3></a>
+L'etichetta consente di scegliere quali sono le keyword da usare per interagire con il mob. Per questioni di efficienza o per ridurre omonimie oppure per dare ad un mob una keyword diversa da quelle presenti nell'etichetta Name.<br>
+L'etichetta non &egrave; obbligatoria poich&eacute; in quel caso le keyword sono ricavate automaticamente dall'etichetta Name.<br><br>
+<br>
+<a name='KeywordsShort'><h3>KeywordsShort:</h3></a>
+L'etichetta omologa alla KeywordsName ma riferita alla Short.<br>
+Etichetta facoltativa.<br><br>
+
+<a name='KeywordsShortNight'><h3>KeywordsShortNight:</h3></a>
+L'etichetta omologa alla KeywordsShort ma riferita alla ShortNight.
+<br>
+Etichetta facoltativa.<br><br>
+
+<a name='Long'><h3>Long:</h3></a>
+L'etichetta consente di arricchire la Short o la Name con del testo che non si vuole mettere direttamente nella Short o nella Name.
+Aarit visualizza unicamente la Long, diventa quindi necessario inserire la short o name con la stringa di act $N all'interno.<br>
+<br>
+<fieldset>
+<legend>Esempio:</legend>
+<span class="label">Short</span>: un paesano</pre><br>
+<span class="label">Long</span>: Di tanto in tanto $N ti osserva annoiato.</pre><br>
+<br>
+Il giocatore legger&agrave;:<br>
+<br>
+Di tanto in tanto un paesano ti osserva annoiato.<br>
+</fieldset><br>
+<br>
+L'etichetta non &egrave; obbligatoria.
+
+<a name='LongNight'><h3>LongNight:</h3></a>
+Corrispettivo della Long ma questa funziona di notte.
+L'etichetta non &egrave; obbligatoria.
+<br><br>
+
+<a name='Descr'><h3>Descr:</h3></a>
+<a name='DescrNight'><h3>DescrNight:</h3></a>
+<a name='DescrHearing'><h3>DescrHearing:</h3></a>
+<a name='DescrHearingNight'><h3>DescrHearingNight:</h3></a>
+<a name='DescrSmell'><h3>DescrSmell:</h3></a>
+<a name='DescrSmellNight'><h3>DescrSmellNight:</h3></a>
+<a name='DescrTouch'><h3>DescrTouch:</h3></a>
+<a name='DescrTouchNight'><h3>DescrTouchNight:</h3></a>
+<a name='DescrTaste'><h3>DescrTaste:</h3></a>
+<a name='DescrTasteNight'><h3>DescrTasteNight:</h3></a>
+<a name='DescrSixth'><h3>DescrSixth:</h3></a>
+<a name='DescrSixthNight'><h3>DescrSixthNight:</h3></a>
+<a name='Extras'><h3>Extras:</h3></a>
+Come per le stanze.<br><br>
+
+<a name='Weight'><h3>Weight:</h3></a>
+Weight &egrave; una misura relativa ad un peso, ricordarsi dell'unit&agrave; di misura.<br>
+Etichetta obbligatoria.<br><br>
+
+<a name='BirthDay'><h3>BirthDay:</h3></a>
+<a name='BirthMonth'><h3>BirthMonth:</h3></a>
+Giorno, mese rpg in cui &egrave; nato il mob.<br>
+Facoltativo.<br><br>
+
+<a name='Age'><h3>Age:</h3></a>
+Et&agrave; del mob, da quest'etichetta e dalle due precedenti si pu&ograve; quindi ricavare la data di nascita del mob.<br>
+L'etichetta &egrave; facoltativa anche se consigliata.<br><br>
+
+<a name='Flags'><h3>Flags:</h3></a>
+Flags di oggetto relative alla lista di enumerazione FLAG.<br>
+L'etichetta &egrave; facoltativa.<br><br>
+
+<a name='Affects'><h3>Affects:</h3></a>
+Etichetta ancora in cantiere, come per le stanze.<br><br>
+
+<a name='Walker'><h3>Walker:</h3></a>
+Sottostruttura che consente di personalizzare i verbi di movimento che compaiono quando l'entit&agrave; si sposta di room in room.<br>
+Viene spiegata in una <a href="walker.htm">pagina a parte</a>.<br><br>
+
+<a name='ExtractTimeout'><h3>ExtractTimeout:</h3></a>
+&Egrave; una sotto-struttura che consente di far rimuovere automaticamente l'entit&agrave; dopo il numero desiderato di minuti rpg con una variazione casuale attorno al 10%.<br>
+Viene spiegata in una <a href="extracttimeout.htm">pagina a parte</a>.<br><br>
+
+<a name='Remains'><h3>Remains:</h3></a>
+<a name='RemainsNight'><h3>RemainsNight:</h3></a>
+Esse servono ad indicare il codice proto, di item o mob, relativo al cadavere da utilizzare al posto di quello di default.<br>
+&Egrave; possibile cio&egrave; utilizzare anche un prototipo di mob, questo significa che una volta morto &egrave; come se rinascesse e cos&igrave; a catena, dipende dal mob successivo.<br>
+Al limite &egrave; possibile che il mob ucciso venga sostituito da s&eacute; stesso di nuovo in forze.<br>
+L'etichetta Remains si attiva sempre a meno che non vi sia anche la RemainsNight che ne prende il posto per le ore notturne.<br>
+Se si imposta solo la notturna, essa verr&agrave; attivata solo in caso di uccisione notturna; l'uccisione diurna vedr&agrave; invece il cadavere di default.<br><br>
+
+<a name='Behaviour'><h3>Behaviour:</h3></a>
+La sotto-struttura comportamentale dei mob, essendo piuttosto estesa, viene spiegata in una <a href="behaviour.htm">pagina a parte</a>.<br><br>
+
+<a name='Aggressivenesses'><h3>Aggressivenesses:</h3></a>
+Tale etichetta &egrave; una lista di stringhe che possono essere degli echo o degli input inviati al giocatore nel Caso il mob abbia la flag FLAG.AGGRESSIVE.<br>
+Quindi dopo che la vittima sar&agrave; entrata nella stanza il mob invier&agrave; a caso, ogni 3-6 secondi uno di questi echo o input prima che l'aggressore attacchi.<br>
+Maggiore &egrave; il numero dei messaggi &egrave; minori sono le possibilit&agrave; d'attacco, comunque almeno un messaggio d'avviso viene sempre inviato dando cos&igrave; la possibilit&agrave; al giocatore di passare sotto al naso all'entit&agrave; aggressiva.<br>
+Ecco un esempio:<br>
+Aggressivenesses: Senti un brontolio lontano<br>
+Aggressivenesses: puke $k<br>
+Aggressivenesses: emote sta brontolando di brutto! ahi! ahi!<br><br>
+
+<a name='Shop'><h3>Shop:</h3></a>
+La sotto-struttura consente di creare un mob venditore/riparatore, essendo particolarmente articolata &egrave; sconsigliata a chi inizia ad intraprendere il building. Viene spiegata in una <a href="shop.htm">pagina a parte</a>.<br><br>
+
+<!--
+<a name='PersonalResets'><h3>PersonalResets:</h3></a>
+La sotto-struttura consente di far resettare entit&agrave; direttamente al mob stesso in luogo dei reset di area presenti nei file area. L'utilizzo maggiore consiste nel poter realizzare mob che vengono vestiti autonomamente all'atto della creazione: ad esempio far vendere un mob con equipment ed inventario.<br>
+Il trigger per interagirvi &egrave; il before_/after_inject.<br>
+La sotto-struttura viene spiegata in una <a href="personal_resets.htm">pagina a parte</a>.<br><br>
+-->
+<hr>
+</body>
+</html>
+

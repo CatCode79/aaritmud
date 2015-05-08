@@ -1,0 +1,25 @@
+Code:	opekus_room_ofidian_temple_sacello-01
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il Sacello Segreto
+Short:	la piccola cappella segreta
+
+Descr:
+Un grazioso ambiente a pianta circolare chiuso superiormente a volta.
+Le pareti decorate a mosaico illustrano temi e storie probabilmente a carattere religioso.
+
+DescrTouch:
+Un ambiente circolare con basso soffitto a volta,
+le pareti sono decorate a mosaico ed il pavimento è leggermente rialzato nella zona centrale.
+
+DescrSixth:
+Una piccola cappella risparmiata dal logorio del tempo e restituita.  
+
+Width:	5m
+Depth:	5m
+Height: 2m
+
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	La scalinata
+End

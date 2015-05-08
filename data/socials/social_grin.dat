@@ -1,0 +1,44 @@
+FunName:    social_grin
+Intention:  INTENTION.NEUTRAL
+Expression: malignamente
+Smiles:     >:) >:-)
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Senza farti notare troppo sorridi perfidamente.
+  OthersNoArg: $n senza destare troppa attenzione sorride malignamente.
+  EntityFound: Sorridi perfidamente a $N.
+  OthersFound: $n guarda $N in maniera perfida e inquietante.
+  TargetFound: $n ti guarda in maniera perfida e inquietante.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Sorrido malignamente.
+  OthersNoArg: Dall'espressione si può capire che $n sta tramando qualcosa.
+  EntityFound: Volgi a $N un sorriso da far gelare il sangue.
+  OthersFound: $n sorride a $N con aria vagamente dispettosa.
+  TargetFound: Da come ti guarda, credo che $n stia tramando qualche dispetto.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Sorridi al mondo, meditando sotto ai baffi la distruzione universale!
+  OthersNoArg: $n sorride con un candido sorriso che non convince nessuno.
+  EntityFound: Sogghigni guardando $N e sforzandomi di sembrare affabile.
+  OthersFound: $n sogghigna guardando $N e mostrando la punta delle zanne.
+  TargetFound: $n ti mostra la punta delle zanne sfoderando un candido sogghigno.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Sorridi al mondo, meditando sotto ai baffi la distruzione universale!
+  OthersNoArg: $n sorride con un candido sorriso che non convince nessuno.
+  EntityFound: Sogghigni guardando $N e sforzandomi di sembrare affabile.
+  OthersFound: $n sogghigna guardando $N e mostrando la punta delle zanne.
+  TargetFound: $n ti mostra la punta delle zanne sfoderando un candido sogghigno.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Sorridi con sottile perfidia.
+  OthersNoArg: Una sottile linea di perfidia s'impadronisce del volto di $n.
+  EntityFound: Sfoderi un sorriso di sottile perfidia tutto per $N.
+  OthersFound: $n sfodera un sorriso di sottile perfidia all'indirizzo di $N.
+  TargetFound: $n sfodera un sorriso di sottile perfidia tutto per te.
+End

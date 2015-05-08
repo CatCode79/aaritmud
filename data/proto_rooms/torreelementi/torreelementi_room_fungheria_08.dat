@@ -1,0 +1,32 @@
+Code: torreelementi_room_fungheria_08
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: L'Ala Nord della Fungheria
+Short: Una zona buia
+Descr:
+Il cunicolo ove ti trovi si stringe man mano che procedi verso nord ed al contempo
+pareti soffitto e pavimento mostrano sempre più consistenza rocciosa.
+Gli onnipresenti fagottoni qui fanno la loro presenza ordinati in file parallele
+alla via ma son completamente privi di funghi: o son stati già tolti o non son
+ancora maturati.
+DescrSmell:
+Perenne l'odore di funghi impregna ogni cosa in ogni anfratto ma ad annusar bene,
+da nord c'è un odore così poco invitante che forse il proseguire è sconsigliabile.
+
+Extras:
+  Keywords: funghi fungo
+  Descr: Qui intorno neppure l'ombra.
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: La zona centrale
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Ancora funghi 
+End

@@ -1,0 +1,21 @@
+Code: novizi_room_collegamento-02
+Sector: SECTOR.PATH
+Name: La Roccia Piatta
+Short: la roccia piatta
+Descr:
+Ai margini della vegetazione, collocata poco prima del pendio ad ovest, un alta pendice montuosa svetta verso l'alto persa oltre le nubi. Lungo il declivio s'apre un accesso verticale che conduce nelle profondità.
+ 
+Width:	200m
+Depth:	5m
+Height: 100m
+
+
+Exits:
+	Direction: DIR.EAST
+	Descr: Il principio d'un sentiero
+End
+Exits:
+	Direction: DIR.DOWN
+        Destination: 0 -1 2 sauria
+	Descr: Il fondo della buca
+End

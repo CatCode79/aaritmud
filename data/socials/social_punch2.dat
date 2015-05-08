@@ -1,0 +1,34 @@
+FunName:    social_punch2
+Intention:  INTENTION.AGGRESSIVE
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: A chi questo bel gesto di solidarietà?
+  OthersNoArg: $n stringe le $hands a pugno in cerca di qualche brutto muso da picchiare.
+  EntityFound: Tiri un pugno in pancia a $N!
+  OthersFound: $n tira un pugno in pancia a $N!
+  TargetFound: $n ti tira un pugno in pancia! OUCH!
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Stringi i pugni con fare minaccioso.
+  OthersNoArg: $n agita i pugni chiusi. Sembra un rituale magico.
+  EntityFound: Agiti il pugno chiuso davanti $N con fare minaccioso.
+  OthersFound: $n agita una manina chiusa davanti $N: vorrà che indovini cosa nasconde..
+  TargetFound: Non capisci cosa voglia $n agitandoti la $hand chiusa a pugno davanti.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Stringi la zampa, chiudendola a mo' di pugno.
+  OthersNoArg: $n stringe la zampa a mo' di pugno guardandosi intorno con aria schiva.
+  EntityFound: Mostri a $N la zampa chiusa a pugno, pronta a sferrare un attacco..
+  OthersFound: $n mostra a $N la zampa chiusa a pugno, pronta a sferrare un attacco..
+  TargetFound: $n ti mostra la zampa chiusa a pugno, pronta a sferrare un attacco..
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Stringi la zampa, chiudendola a mo' di pugno.
+  OthersNoArg: $n stringe la zampa a mo' di pugno guardandosi intorno con aria schiva.
+  EntityFound: Mostri a $N la zampa chiusa a pugno, pronta a sferrare un attacco..
+  OthersFound: $n mostra a $N la zampa chiusa a pugno, pronta a sferrare un attacco..
+  TargetFound: $n ti mostra la zampa chiusa a pugno, pronta a sferrare un attacco..
+End

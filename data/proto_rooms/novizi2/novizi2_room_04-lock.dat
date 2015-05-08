@@ -1,0 +1,50 @@
+Code: novizi2_room_04-lock
+Icon: icons/room/triskele-yellow.png
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il Salottino di Casa
+Short:	un piccolo salotto
+
+Descr:
+Un grazioso salottino si apre in una stanza semicircolare. Il pavimento è coperto da un tappeto rosso cupo circondato
+da due paffuti divani.
+Sull'unica parete libera c'è un tavolo con un ingombrante orologio al centro.
+Sulla destra c'è una [red]porta[close].
+
+Su di essa puoi usare i comandi:<br>
+- $tOPEN porticina<br>
+- $tCLOSE porticina<br>
+<br>
+Ugualmente si possono usare le direzioni anche se non sempre:<br>
+- $tOPEN $tWEST<br>
+- $tCLOSE $tWEST<br>
+
+DescrTouch: 
+Qualche ragno qui deve aver intessuto una ragnatela e l'hai appena presa in viso.
+Gesticoli inutilmente per rimuovere il fastidio e la seta invisibile.
+DescrSmell: 
+L'odore del profuma ambiente lentamente cede il passo ad un profumo più interessante e Mangereccio.
+DescrSixth:
+Fra le varie possibilità inerente le porte c'è anche quella di prendere strappandole dai cardini.
+In questo caso visti i precedenti ed i trascorsi si è deciso di mettere una porta molto pesante.
+DescrHearing:
+Un gocciolare lento e cadenzato.
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.NORTHEAST
+	Descr: [lemonchiffon]Un corridoio[close]
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr: [lemonchiffon]La stanza del cibo[close]
+End
+
+Exits:
+	Direction:	DIR.WEST
+	Descr:	Uno sgabuzzino
+	Door:	novizi2_item_porta-sgabuzzino
+End

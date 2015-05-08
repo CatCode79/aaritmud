@@ -1,0 +1,235 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<h2>Indice delle Etichette per i Contenitori.</h2>
+<div>
+<a href='#Comment'><span class='label'>Comment</span>:</a><br>
+<a href='#Flags'><span class='label'>Flags</span>:</a><br>
+<a href='#KeyCode'><span class='label'>KeyCode</span>:</a><br>
+<a href='#MaxWeight'><span class='label'>MaxWeight</span>:</a><br>
+<a href='#PickLockDifficulty'><span class='label'>PickLockDifficulty</span>:</a><br>
+<a href='#EntityOpenMessage'><span class='label'>EntityOpenMessage</span>:</a><br>
+<a href='#TargetOpenMessage'><span class='label'>TargetOpenMessage</span>:</a><br>
+<a href='#OthersOpenMessage'><span class='label'>OthersOpenMessage</span>:</a><br>
+<a href='#EntityCloseMessage'><span class='label'>EntityCloseMessage</span>:</a><br>
+<a href='#TargetCloseMessage'><span class='label'>TargetCloseMessage</span>:</a><br>
+<a href='#OthersCloseMessage'><span class='label'>OthersCloseMessage</span>:</a><br>
+<a href='#EntityLockMessage'><span class='label'>EntityLockMessage</span>:</a><br>
+<a href='#TargetLockMessage'><span class='label'>TargetLockMessage</span>:</a><br>
+<a href='#OthersLockMessage'><span class='label'>OthersLockMessage</span>:</a><br>
+<a href='#EntityUnlockMessage'><span class='label'>EntityUnlockMessage</span>:</a><br>
+<a href='#TargetUnlockMessage'><span class='label'>TargetUnlockMessage</span>:</a><br>
+<a href='#OthersUnlockMessage'><span class='label'>OthersUnlockMessage</span>:</a><br>
+<a href='#EntityEatkeyMessage'><span class='label'>EntityEatkeyMessage</span>:</a><br>
+<a href='#TargetEatkeyMessage'><span class='label'>TargetEatkeyMessage</span>:</a><br>
+<a href='#OthersEatkeyMessage'><span class='label'>OthersEatkeyMessage</span>:</a><br>
+</div>
+<br>
+
+<hr>
+<h2>Note Riguardo le Porte.</h2>
+<div>
+L'entit&agrave; contenitore &egrave; un'entit&agrave; di tipo <span class="label">ContainerType</span>.<br>
+</div>
+<br>
+
+<hr>
+<h2>Tabella di Riferimento Veloce.</h2>
+<div>
+<table border="1">
+<tr class="thref"><td>Etichetta</td><td>Tipologia</td><td>Utilizzo</td></tr>
+<tr><td class="label">MaxWeight</td><td>Numero con unit&agrave; di misura</td><td>Obbligatoria</td></tr>
+<tr><td class="label">Comment</td><td>Stringa, relativa ad un commento</td><td>Facoltativo, consigliato se c'&egrave; qualcosa di particolare</td></tr>
+<tr><td class="label">Flags</td><td>Flags di DOOR</td><td>Facoltativa</td></tr>
+<tr><td class="label">KeyCode</td><td>Codice Entit&agrave;</td><td>Facoltativa</td></tr>
+<tr><td class="label">PickLockDifficulty</td><td>Numero da 0 a 1000</td><td>Facoltativa</td></tr>
+<tr><td class="label">EntityOpenMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">TargetOpenMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">OthersOpenMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">EntityCloseMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">TargetCloseMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">OthersCloseMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">EntityLockMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">TargetLockMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">OthersLockMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">EntityUnlockMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">TargetUnlockMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">OthersUnlockMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">EntityEatkeyMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">TargetEatkeyMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+<tr><td class="label">OthersEatkeyMessage</td><td>Stringa di Act</td><td>Facoltativa</td></tr>
+</table>
+</div>
+<br>
+
+<hr>
+<h2>Strutture Tipiche con le Etichette di Maggior Utilizzo (per copia e incolla).</h2>
+<div>
+<pre>
+ContainerType:
+        KeyCode:
+        Flags:
+	MaxWeight: 
+End
+</pre>
+Per definire un contenitore aperto e non chiudibile potete benissimo dichiarare la struttura cos&igrave;:
+<pre>
+DoorType:
+	MaxWeight: 
+End
+</pre>
+Anche se &egrave; preferibile la forma pi&ugrave; esplicita:
+<pre>
+ContainerType:
+	Flags: CONTAINER.NONE
+	MaxWeight: 
+End
+</pre>
+</div>
+<br>
+
+<hr>
+<h2>Spiegazione delle Etichette.</h2>
+<div>
+<a name='Comment'><h3 class='label'>Comment:</h3></a>
+Eventuale commento relativo al contenitore, per maggior informazioni leggere <a href="comment.htm">questa pagina</a>.<br>
+Non &egrave; obbligatorio, ma &egrave; comunque consigliato utilizzarla se la tipologia di entit&agrave; &egrave; una cosa particolare o bisogna segnarsi qualcosa da ricordare.<br>
+<br>
+
+<a name='Flags'><h3 class='label'>Flags:</h3></a>
+&Egrave; una <a href="flags.htm">Flags</a> che si rif&agrave; alla <a href="elements_list.htm#CONTAINER">lista delle flag per CONTAINER</a>.<br>
+L'assenza di qualsiasi flag o l'inserimento della sola flag CONTAINER.NONE indicher&agrave; che si tratta di un contenitore aperto e non chiudibile/apribile con i comandi apri e chiudi.<br>
+L'utilizzo di quest'etichetta &egrave; facoltativo, solitamente la si utilizza per indicare quando una contenitore &egrave; chiudibile o apribile con la flag CONTAINER.CLOSABLE.<br>
+<br>
+
+<a name='MaxWeight'><h3 class='label'>MaxWeight:</h3></a>
+Valore numerico indicante <a href="weight.htm">il peso</a> massimo che si pu&ograve; mettere nel contenitore. Il valore deve essere maggiore o uguale a 0. (ricordare l'unit&agrave; di misura).<br>
+L'utilizzo di quest'etichetta &egrave; obbligatorio.<br>
+<br>
+
+<a name='KeyCode'><h3 class='label'>KeyCode:</h3></a>
+Codice identificativo dell'entit&agrave; da utilizzare per aprire o chiudere a chiave il contenitore, solitamente &egrave; un oggetto (ma pu&ograve; essere anche un mob).<br>
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+
+<a name='PickLockDifficulty'><h3 class='label'>PickLockDifficulty:</h3></a>
+Valore numerico, da 0 a 1000, che verr&agrave; sottratto al lacio di dado per la skill di Pick Lock sul successo o meno dell'apertura della serratura di un contenitore chiuso.<br>
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='EntityOpenMessage'><h3 class='label'>EntityOpenMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto dall'entit&agrave; che apre il contenitore.<br>
+I tag di act utilizzabili, oltre quelli di default, per questo messaggio sono:<br>
+$n = colui che apre il contenitore.<br>
+$N = il contenitore.<br>
+%verb = verbo di default nel codice per descrivere l'apertura.<br>
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='TargetOpenMessage'><h3 class='label'>TargetOpenMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto dall'entit&agrave; che viene aperta.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityOpenMessage</span>.
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='OthersOpenMessage'><h3 class='label'>OthersOpenMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto da tutti coloro che vedono aprirsi il contenitore.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityOpenMessage</span>.
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='EntityCloseMessage'><h3 class='label'>EntityCloseMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto dall'entit&agrave; che chiude un contenitore.<br>
+I tag di act utilizzabili, oltre quelli di default, per questo messaggio sono:<br>
+$n = colui che chiude il contenitore.<br>
+$N = il contenitore.<br>
+%verb = verbo di default nel codice per descrivere la chiusura.<br>
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='TargetCloseMessage'><h3 class='label'>TargetCloseMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto dall'entit&agrave; che viene chiusa.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityCloseMessage</span>.
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='OthersCloseMessage'><h3 class='label'>OthersCloseMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto da tutti coloro che vedono il contenitore chiudersi e che si trovano nel luogo del contenitore e di chi lo sta chiudendo.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityCloseMessage</span>.
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='EntityLockMessage'><h3 class='label'>EntityLockMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto dall'entit&agrave; che usa la chiave per bloccare un contenitore.<br>
+I tag di act utilizzabili, oltre quelli di default, per questo messaggio sono:<br>
+$n = colui che blocca il contenitore.<br>
+$N = il contenitore.<br>
+%verb = verbo di default nel codice per descrivere l'azione del bloccare.<br>
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='TargetLockMessage'><h3 class='label'>TargetLockMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto dall'entit&agrave; che viene bloccata.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityLockMessage</span>.
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='OthersLockMessage'><h3 class='label'>OthersLockMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto da tutti coloro che vedono il contenitore bloccarsi e che si trovano nel luogo del contenitore e di chi lo sta bloccando.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityLockMessage</span>.
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='EntityUnlockMessage'><h3 class='label'>EntityUnlockMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto dall'entit&agrave; che usa la chiave per sbloccare un contenitore.<br>
+I tag di act utilizzabili, oltre quelli di default, per questo messaggio sono:<br>
+$n = colui che sblocca il contenitore.<br>
+$N = il contenitore.<br>
+%verb = verbo di default nel codice per descrivere l'azione dello sbloccare.<br>
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='TargetUnlockMessage'><h3 class='label'>TargetUnlockMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto dall'entit&agrave; che viene sbloccata.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityUnlockMessage</span>.
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='OthersUnlockMessage'><h3 class='label'>OthersUnlockMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto da tutti coloro che vedono il contenitore sbloccarsi e che si trovano nel luogo del contenitore e di chi lo sta sbloccando.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityUnlockMessage</span>.
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='EntityEatkeyMessage'><h3 class='label'>EntityEatkeyMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto dall'entit&agrave; che, usata la chiave gli si sbriciola in mano.<br>
+I tag di act utilizzabili, oltre quelli di default, per questo messaggio sono:<br>
+$n = colui che sblocca il contenitore.<br>
+$N = il contenitore.<br>
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='TargetEatkeyMessage'><h3 class='label'>TargetEatkeyMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto dall'entit&agrave; che viene sbloccata quando vede sbriciolarsi la chiave.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityEatkeyMessage</span>.
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+<a name='OthersEatkeyMessage'><h3 class='label'>OthersEatkeyMessage:</h3></a>
+<a href="tag_act.htm">Messaggio di act</a> letto da tutti coloro che vedono sbriciolarsi la chiave allo sbloccare del contenitore e che si trovano nel luogo del contenitore e di chi lo sta sbloccando.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityEatkeyMessage</span>.
+L'utilizzo di quest'etichetta &egrave; facoltativo.<br>
+<br>
+
+</div>
+<hr>
+</body>
+</html>

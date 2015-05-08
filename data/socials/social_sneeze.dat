@@ -1,0 +1,26 @@
+FunName:    social_sneeze
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Starnutisci.
+  OthersNoArg: $n starnutisce.
+  EntityFound: Starnutisci verso $N.
+  OthersFound: $n starnutisce verso $N.
+  TargetFound: $n ti starnutisce addosso.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+   EntityNoArg: Starnì, starnì! Sei raffreddat$o..
+  OthersNoArg: $n starnutisce acutamente. Starnì!
+ EntityFound: Starnutisci drizzando le vibrisse verso $N.
+  OthersFound: $n starnutisce a vibrisse ritte verso $N.
+  TargetFound: $n starnutisce a vibrisse ritte verso di te..
+End
+RacialMessages:
+  Race:        RACE.CAT
+   EntityNoArg: Starnì, starnì! Sei raffreddat$o..
+  OthersNoArg: $n starnutisce acutamente. Starnì!
+ EntityFound: Starnutisci drizzando le vibrisse verso $N.
+  OthersFound: $n starnutisce a vibrisse ritte verso $N.
+  TargetFound: $n starnutisce a vibrisse ritte verso di te..
+End

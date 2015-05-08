@@ -1,0 +1,29 @@
+Code: conflitti_room_grotta-sauna
+Sector: SECTOR.CAVERN
+Name: La Grotta Sauna
+Short: la grotta sauna
+
+Descr:
+Percorrendo un breve sentiero si giunge ad una grotta naturale. Si accede, tramite una faglia della roccia, nel frigidarium che ne rappresenta la parte più esterna.. Addentrandosi ci si ritrova in una zona più ristretta dove, da una profonda spaccatura del terreno, escono ad intermittenza nuvole di vapore acqueo ad alte temperature. Accostate alle pareti alcune grosse pietre levigate invitano a sedersi per potere immergersi, comodamente seduti, nelle calde nuvole di vapore.
+DescrTouch: 
+Le pareti sono ruvide e molto calde, bagnate da goccioline di vapore acqueo che lì si è condensato.
+
+DescrSmell: 
+Avverti il profumo delle essenze aromatiche che il vapore acqueo, con la sua impalpabilità, trasporta sino alle tue terminazioni olfattive trascinandoti in una dimensione di benessere psicofisico.
+DescrSixth:
+È un luogo fuori dal tempo adatto a far rilassare le membra e la mente. Sei a contatto con fenomeni che ti ricordano la forza imponente della natura e lasciarsi trasportare dal tepore che ti sta regalando è molto piacevole. Il vapore ti avvolge rendendo l'atmosfera opaca e soffusa. Il corpo si ricopre di gocce di vapore e di sudore regalandoti una sensazione di indescrivibile benessere.
+DescrHearing:
+Senti il battito del tuo cuore e quello del silenzio. Ti sembra di sentire il vapore che, leggero, avvolge il tuo corpo come in una morbida carezza.
+DescrTaste:
+Assaggi il vapore che si accosta alle tue labbra condensato in minuscole goccioline tiepide e ti sembra di sentire il sapore delle erbe selvatiche che attorno alla grotta crescono rigogliose.
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.UP
+  Descr: La risalita in superficie
+End
+

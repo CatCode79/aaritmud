@@ -1,0 +1,20 @@
+Code: serpidi_room_8650_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: Gli allevamenti 
+Short: Gli allevamenti 
+Descr: 
+Sei accanto ad uno dei recinti degli animali. Qui sono allevati dei piccoli animali umanoidi, alti circa quaranta centimetri, incredibilmente grassi. Ognuno di loro è occupato a mangiare, i più grossi stanno adagiati sul dorso, sfiniti dal peso della loro pancia, ma con le lunghissime braccia continuano ad arraffare qualsiasi cosa gli capiti a tiro e a mangiare rumorosamente. C'è una colonna con una sfera luminosissima in cima. 
+Exits:
+	Direction: DIR.NORTH
+	Destination: -3 0 0 serpidi
+End
+Exits:
+	Direction: DIR.EAST
+	Destination: -2 -1 0 serpidi
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

@@ -1,0 +1,40 @@
+Comment: 85 1 3
+Code: sauria_room_amena-foresta-25
+Sector: SECTOR.FOREST
+Name: Un'Amena Foresta
+Short: un'amena foresta
+
+Descr:
+La foresta ti avvolge fitta e scura in queste stranissime lande. Un nugolo di insetti striscia lentamente sul cadavere di quello che sembra un piccolo rettile. 
+Un lento diradarsi ti accompagna procedendo verso nord.
+DescrTouch: 
+Noti che la vegetazione s'abbassa percettibilmente man mano che procedi verso nord.
+DescrSmell: 
+Una sfumatura diversa proviene da nord portandoti un odore più asciutto.
+DescrHearing:
+Una leggera brezza soffia da nord e ti accarezza le spalle.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21830
+  Descr:	Una radura
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 -1 21824
+  Descr:	Un'amena foresta
+  Direction:	DIR.EAST
+End
+Exits:
+  Comment:	0 -1 21819
+  Descr:	Un'amena foresta
+  Direction:	DIR.SOUTH
+End
+Exits:
+  Comment:	0 -1 21826
+  Descr:	Un'amena foresta
+  Direction:	DIR.WEST
+End

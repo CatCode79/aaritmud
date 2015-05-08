@@ -1,0 +1,42 @@
+FunName:    social_fart
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Ti esibisci nella danza dei venti.
+  OthersNoArg: $n appesta l'aria con le sue puzze..
+  EntityFound: Molli un puzzone addosso a $N.
+  OthersFound: $n intrattiene $N con un concerto di puzze.
+  TargetFound: $n ti impesta con le sue puzze.
+End
+RacialMessages:
+  Race:        RACE.HALFELF
+  EntityNoArg: Improvvisamente dei gas ti sfuggono dall'intestino.
+  OthersNoArg: D'un tratto $n vola diritt$o spint$o da un soffio profumato di fiori.
+  EntityFound: Dei gas ti sfuggono dall'intestino e ti spingono verso $N.
+  OthersFound: $n è improvvisamente spint$o verso $N da un soffio profumato di fiori.
+  TargetFound: $n ti viene incontro spint$o da un soffio profumato di fiori.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Ti mette di buonumore l'emissione di gas intestinali.
+  OthersNoArg: $n scoreggia soddisfatt$o.
+  EntityFound: Emetti una sonora scoreggia lasciando a $N la puzza e la colpa.
+  OthersFound: Sembra che $N abbia fatto un puzzone!
+  TargetFound: $n emette una sonora scoreggia lasciano a te la puzza e la colpa.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Sollevi un poco la coda deliziando l'aria circostante con i tuoi effluvi.
+  OthersNoArg: $n solleva un poco la coda e d'improvviso sembra d'essere in un letamaio.
+  EntityFound: T'avvicini silenzios$o a $N lasciando$GLI addosso un bel regalino odoroso.
+  OthersFound: $n s'avvicina silenzios$o a $N lasciando$GLI addosso un bel regalino odoroso.
+  TargetFound: $n ti si avvicina silenzios$o e dopo poco l'aria diventa irrespirabile.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Sollevi un poco la coda deliziando l'aria circostante con i tuoi effluvi.
+  OthersNoArg: $n solleva un poco la coda e d'improvviso sembra d'essere in un letamaio.
+  EntityFound: T'avvicini silenzios$o a $N lasciando$GLI addosso un bel regalino odoroso.
+  OthersFound: $n s'avvicina silenzios$o a $N lasciando$GLI addosso un bel regalino odoroso.
+  TargetFound: $n ti si avvicina silenzios$o e dopo poco l'aria diventa irrespirabile.
+End

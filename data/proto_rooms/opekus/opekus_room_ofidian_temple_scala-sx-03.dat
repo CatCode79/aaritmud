@@ -1,0 +1,26 @@
+Code:	opekus_room_ofidian_temple_scala-sx-03
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	L'Apice della Scala Est
+Short:	l'apice dell'erta scalinata
+
+Descr:
+Dei gradini di pietra chiusi tutto intorno dalla roccia viva consentono di scendere al fondo di un ambiente grandioso scavato nella nuda roccia.
+La visuale ostacolata dalla pietre consente di scorgere una serie di colonne massicce e tondeggianti. 
+
+DescrTouch:
+Un cunicolo verticale di origine naturale scavato e smussato in cui sono stati collocati gradini di pietra per poterlo ascendere.
+
+
+Width:	3m
+Depth:	2m
+Height: 2m
+
+Exits:
+	Direction:	DIR.EAST
+	Descr:	Un tunnel
+End
+Exits:
+	Direction:	DIR.DOWN
+	Descr:	Lungo la scalinata
+End

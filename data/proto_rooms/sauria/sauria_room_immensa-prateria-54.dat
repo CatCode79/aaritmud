@@ -1,0 +1,46 @@
+Comment: 85 0 2
+Code: sauria_room_immensa-prateria-54
+Sector: SECTOR.SAVANNA
+Name: Un'Immensa Prateria
+Short: un'immensa prateria
+
+Descr:
+L'immensa prateria si estende verso ovest; è una distesa omogenea di verde punteggiata di cespugli solitari. Ogni tuo movimento fa fuggire insetti e piccolo animali sconosciuti. Verso est il terreno è più arido e fan bella mostra di sè alcuni massi tondeggianti. Tutto termina in spesse pareti di roccia che si estendono a nord-est. 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Ti sembra di intravedere una grotta dietro a quei massi tondeggianti
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	8 0 21866
+  Descr:	Oltre il pertugio
+  Direction:	DIR.EAST
+  Door:	sauria_item_door-masso-01
+End
+Exits:
+  Comment:	0 -1 21850
+  Descr:	Un'immensa prateria
+  Direction:	DIR.SOUTH
+End
+Exits:
+  Comment:	0 -1 21855
+  Descr:	Un'immensa prateria
+  Direction:	DIR.WEST
+End
+Extras:
+  Comment:	EXTRA_COMMENT
+  Keywords:	massi masso tondeggiante tondeggianti
+  Descr: 
+	Questa roccia è stata certo movimentata di recente e avvicinandoti senti un odore acre.
+End

@@ -1,0 +1,44 @@
+FunName:    social_drowsy
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Sbadigli assopendoti vagamente..
+  OthersNoArg: Gli occhi di $n sembrano diventare pesanti mentre si assopisce lentamente..
+  EntityFound: Poggi il capo sulla spalla di $N e t'assopisi.
+  OthersFound: $n poggia il capo sulla spalla di $N e s'assopisce.
+  TargetFound: $n poggia il capo sulla tua spalla e s'assopisce.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Ti calano le palpebre.
+  OthersNoArg: Le palpebre di $n si chiudono lentamente mentre perde quota.
+  EntityFound: Ti appoggi dolcemente sulla spalla di $N e ti assopisci.
+  OthersFound: $n si appoggia dolcemente sulla spalla di $N e chiude gli occhi.
+  TargetFound: $n sta usando la tua spalla come letto!
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Abbassi le palpebre involontariamente assopendoti.
+  OthersNoArg: Gli occhi di $n divengono fessure sempre più strette mentre si assopisce.
+  EntityFound: Ti assopisci poggiandoti involontariamente a $N.
+  OthersFound: $n s'assopisce e reclina il capo sulla spalla di $N.
+  TargetFound: $n assopit$o reclina il capo sulla tua spalla.
+  EntityAuto:  Chini il capo e socchiudi gli occhi per un istante.
+  OthersAuto:  $n china il capo e socchiude gli occhi per un istante.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Chini il capo e t'assopisci.
+  OthersNoArg: $n socchiude gli occhi e sonnecchia.
+  EntityFound: T'assopisci mentre gli occhi ti si chiudono sulla figura di $N.
+  OthersFound: $n guarda $N per qualche istante poi s'assopisce.
+  TargetFound: Solo ora ti accorgi che $n sta sonnecchiando da un quarto d'ora..
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Chini il capo e t'assopisci.
+  OthersNoArg: $n socchiude gli occhi e sonnecchia.
+  EntityFound: T'assopisci mentre gli occhi ti si chiudono sulla figura di $N.
+  OthersFound: $n guarda $N per qualche istante poi s'assopisce.
+  TargetFound: Solo ora ti accorgi che $n sta sonnecchiando da un quarto d'ora..
+End

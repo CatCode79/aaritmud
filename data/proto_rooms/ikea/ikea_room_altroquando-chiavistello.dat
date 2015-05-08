@@ -1,0 +1,53 @@
+Code: ikea_room_altroquando-chiavistello
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Il Centro della Zona Mobbosa
+Short: il centro della zona mobbosa
+
+Descr:
+Il piano superiore dell'Ikea non è posto per compere... è più un'area di DOOM.
+Non è che sia un'illogica è solo estremamente tediosa.
+
+
+Width:	6m
+Depth:	6m
+Height: 10m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Altroquando
+  Door:	ikea_item_porta-chiavistello
+End
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Altroquando 
+End
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Altroquando 
+  DescrNight: Altranotte
+  DescrSmell: Mamma che puzza
+	Extras:
+		Keywords: chiave
+		Descr:
+		Un
+		DescrSmell:
+		Uno
+		DescrHearing:
+		Una
+		DescrTouch:
+		Une
+		DescrTaste:
+		Uni
+		DescrSixth:
+		Unu
+	End
+
+End
+
+Exits:
+  Direction: DIR.WEST
+  Descr: Altroquando 
+End

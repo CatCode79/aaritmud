@@ -1,0 +1,24 @@
+Code: novizi_room_buca
+Sector: SECTOR.UNDERGROUND
+Name: In Fondo alla Buca
+Short: il fondo della buca
+
+Descr:
+Un pregevolissimo fondo di buca come non ne fanno più.
+DescrTouch: 
+Terra umida e sporchevole...
+DescrSmell: 
+Anche l'odore della terra sembra voler far sapere al mondo tutto di essere umidiccia.
+DescrSixth:
+Scavare più di così potrebbe non portare a nulla di più che stupida terraccia.
+DescrTaste:
+Il sapore e la fragranza confermano si tratti di terraccia stupida.
+
+Width:	50cm
+Depth:	50cm
+Height: 50cm
+
+Exits:
+  Direction: DIR.UP
+  Descr: L'esterno dalla buca
+End

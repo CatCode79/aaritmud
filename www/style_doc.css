@@ -1,0 +1,24 @@
+body{
+	font-family:Verdana;
+	font-size: medium;
+}
+table{
+	font-family:Verdana;
+	font-size: medium;
+}
+div.main{
+	margin-left:3%;
+	margin-right:5%;
+}
+pre{
+	color:white;
+	margin-left:1%;
+	font-size:larger;
+}
+
+.label{
+	color:limegreen;
+}
+.thref{
+	color:white; font-size:larger;
+}

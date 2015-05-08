@@ -1,0 +1,35 @@
+Comment: 85 1|8|256 0 2
+Code: sauria_room_angusto-passaggio-67
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: Angusto Passaggio
+Short: angusto passaggio
+
+Descr:
+Il passaggio si stringe e ti devi insinuare di fianco fra le rocce. 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21868
+  Descr:	Uno slargo a gomito
+  Direction:	DIR.EAST
+End
+Exits:
+  Comment:	0 -1 21866
+  Descr:	Oltre il pertugio
+  Direction:	DIR.WEST
+End

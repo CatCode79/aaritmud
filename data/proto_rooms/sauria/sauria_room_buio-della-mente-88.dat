@@ -1,0 +1,62 @@
+Comment: 0 8388608 0
+Code: sauria_room_buio-della-mente-88
+Sector: SECTOR.UNDERGROUND
+Flags:	ROOM.INSIDE
+Name: Il Buio Della Mente
+Short: il buio della mente
+
+Descr:
+Un pensiero alieno s'insinua nella tua mente. 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Esploratore, avventuriero... Benvenuto. Noi siamo i custodi. la tua indole ha risposto al nostro appello più prontamente di quanto abbia fatto la tua mente. Sei qui perché a noi non è concesso interferire più di quanto già non si sia fatto. Il nostro scopo è preservare le forme di vita a sangue freddo che hai incontrato venendo qui. La loro importanza è vitale per motivi che ti sono estranei ed incomprensibili. Tutto ha proceduto come previsto per innumerevoli delle vostre brevi vite... ma anche noi siamo fallibili. Un'atto di fiducia è stato ripagato con la distruzione del nostro operare. L'oggetto in cui era infuso lo scorrere del tempo di tutta la valle si è frantumato su più piani. A noi è imposto di non reperire i frantumi nè di poterti aiutare nella loro ricerca. Riportaci quanto è nelle tue capacità e tutto forse potrà tornare come un tempo! Avventuriero, la tua mente si perde. Concentrati maggiormente!
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	8|16|32|512 0 21889
+feles
+La tua immagine riflessa ti scruta con cauto ottimismo.
+  Descr:	Cupola d'ingresso
+  Direction:	DIR.EAST
+End
+Exits:
+  Comment:	0 0 21806
+  Direction:	DIR.DOWN
+  Destination:	2 1 0 sauria
+  Descr:	La via del ritorno
+End
+Extras:
+  Comment:	EXTRA_COMMENT
+  Keywords:	mente pensiero aiuto
+  Descr: 
+	Esploratore, avventuriero... Benvenuto. Noi siamo i custodi. la tua indole ha risposto al nostro appello più prontamente di quanto abbia fatto la tua mente. Sei qui perché a noi non è concesso interferire più di quanto già non si sia fatto. Il nostro scopo è preservare le forme di vita a sangue freddo che hai incontrato venendo qui. La loro importanza è vitale per motivi che ti sono estranei ed incomprensibili. Tutto ha proceduto come previsto per innumerevoli delle vostre brevi vite... ma anche noi siamo fallibili. Un'atto di fiducia è stato ripagato con la distruzione del nostro operare. L'oggetto in cui era infuso lo scorrere del tempo di tutta la valle si è frantumato su più piani. A noi è imposto di non reperire i frantumi nè di poterti aiutare nella loro ricerca. Riportaci quanto è nelle tue capacità e tutto forse potrà tornare come un tempo! Avventuriero, la tua mente si perde. Concentrati maggiormente!
+End
+Extras:
+  Comment:	EXTRA_COMMENT
+  Keywords:	concentrati maggiormente concentrazione maggiore
+  Descr: 
+	Per tua maggiore praticità ti sono state preparate delle [red]note scritte[close] per soddisfare in parte la tua curiosità e per onestà verso il tuo aiuto.[close]
+End
+Extras:
+  Comment:	EXTRA_COMMENT
+  Keywords:	note nota scritte scritta documento
+  Descr: 
+	Nella tua mente s'insinua un esortazione risoluta: "varca il [red]feles[close].. e che la sorte ti sia propizia!" Se il tuo cuore non è ancora pronto scendi pure, ma tornerai![close]
+End
+Extras:
+  Comment:	EXTRA_COMMENT
+  Keywords:	feles
+  Descr: 
+	Ti senti attratto da qualcosa che senti verso est.
+End

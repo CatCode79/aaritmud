@@ -1,0 +1,20 @@
+Code: villaggio-zingaro_room_grotta-pozzo-01
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: In Volo a Perpendicolo
+Short: in volo a perpendicolo
+
+Descr:
+Vedi il fondo del pozzo avvicinarsi in modo inappropriatamente veloce!
+DescrTouch: 
+Voli verso il fondo del pozzo con l'aria che ti sferza in volto con inusitato cipiglio. 
+DescrSmell: 
+Anche gli odori in caduta libera sembrano sfrecciare indistinti.
+DescrSixth:
+Assumere una posizione comoda all'atterraggio potrebbe aiutare.
+DescrHearing:
+Voli verso il fondo del pozzo con l'aria che ti fischia nelle orecchie impedendoti d'ascoltare il battito del cuore.
+
+Width:	6m
+Depth:	6m
+Height: 2m

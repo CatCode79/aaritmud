@@ -1,0 +1,40 @@
+Code: opekus_room_ofidian_temple_17
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Navata Inferiore 
+Short: nella cattedrale
+
+Descr:
+All'estremo della navata inferiore il colonnato termina in quelli che sono i resti
+di un ciborio. Aggirando le macerie si arriva nello spazio comune ove è stata eretta
+una cupola che supera imperiosamente in altezza tutto il resto della cattedrale.
+Parallelamente all'interruzione del colonnato, anche la parete laterale s'interrompe
+per far spazio ad una galleria stretta ed alta.
+Extras:
+	Keywords: ciborio
+	Descr:
+	Doveva essere una struttura cilindrica disposta su almeno cinque colonne.
+	Da questo lato si vede la colonna spezzata che fuoriesce lateralmente da quella
+	che doveva essere la cupola superiore.
+	DescrTouch:
+	L'umidità permeata nei detriti ha ridato massiccia consistenza al cumulo di
+	detriti
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: Lungo la navata inferiore
+End
+
+Exits:
+  Direction: DIR.NORTHEAST
+  Descr: Verso la cupola
+End
+Exits:
+  Direction: DIR.SOUTHEAST
+  Descr: Una galleria
+End

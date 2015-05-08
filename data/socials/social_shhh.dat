@@ -1,0 +1,42 @@
+FunName:    social_shhh
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Aggrotti le ciglia e chiedo silenzio, "Shhhhhh"
+  OthersNoArg: $n aggrotta le ciglia e chiede un po' di silenzio con un : "Shhhhhh".
+  EntityFound: Guardi $N aggrottando le sopracciglia chiedendo un po' di silenzio.. Shhhh!
+  OthersFound: $n aggrotta le ciglia e chiede un po' di silenzio a $N.. Shhh!
+  TargetFound: $n ti chiede un po' di silenzio.. shhhhh!
+  EntityAuto:  Ti ammutolisci all'istante.
+  OthersAuto:  $n si chiude in religioso silenzio.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Esigi silenzio!
+  OthersNoArg: $n con tono severo e minaccioso intima silenzio!
+  EntityFound: Zittisci $N in tono minaccioso.
+  OthersFound: $n esige silenzio da $N con sguardo minaccioso.
+  TargetFound: $n esige silenzio da te con sguardo minaccioso.
+  EntityAuto:  Ti chiudi immediatamente in un silenzio riflessivo.
+  OthersAuto:  $n si chiude in un silenzio innaturale.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Sollevi una zampa chiedendo un attimo di silenzio.
+  OthersNoArg: $n solleva una zampa chiedendo un attimo di silenzio.
+  EntityFound: Sollevi una zampa verso $N chiedendo silenzio.
+  OthersFound: $n solleva una zampa verso $N chiedendo silenzio.
+  TargetFound: $n solleva una zampa verso di te chiedendo silenzio.
+  EntityAuto:  Serri la bocca in un sospettoso silenzio..
+  OthersAuto:  $n si zittisce tutto d'un colpo con aria sospettosa.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Sollevi una zampa chiedendo un attimo di silenzio.
+  OthersNoArg: $n solleva una zampa chiedendo un attimo di silenzio.
+  EntityFound: Sollevi una zampa verso $N chiedendo silenzio.
+  OthersFound: $n solleva una zampa verso $N chiedendo silenzio.
+  TargetFound: $n solleva una zampa verso di te chiedendo silenzio.
+  EntityAuto:  Serri la bocca in un sospettoso silenzio..
+  OthersAuto:  $n si zittisce tutto d'un colpo con aria sospettosa.
+End

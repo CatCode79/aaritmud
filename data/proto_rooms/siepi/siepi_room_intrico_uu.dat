@@ -1,0 +1,38 @@
+Code: siepi_room_intrico_uu
+Sector: SECTOR.WOOD
+Name: Sul Primo palco della Quercia
+Short: sull'albero
+Descr:
+Non appena metti piede entro il palco di rami ti rendi conto che non sarà per nulla
+agevole il percorso a ritroso. La parte di tronco su cui sei salit$o ora mostra un'ampia
+apertura che scende all'interno del tronco stesso. 
+
+DescrSmell:
+Una corrente d'aria fredda proviene dal tronco e spande intorno a te odore di
+terra fresca.
+
+DescrHearing:
+Le fronde della pianta ove ti trovi sono smosse di continuo da una fredde corrente d'aria.
+
+ShortNight: sull'albero
+
+DescrNight:
+Non appena metti piede entro il palco di rami ti rendi conto che sarà impossibile
+il percorso a ritroso. La parte di tronco su cui sei salit$o ora mostra un'ampia
+crepa che consente di scendere all'interno del tronco stesso. 
+
+DescrSmellNight:
+L'odore del fogliame richiama alla mente le querce di Murind.
+
+DescrHearingNight:
+Le fronde della pianta ove ti trovi si muovono di tanto in tanto da un'improvvisa brezza.
+
+Width:	7m
+Depth:	7m
+Height: 15m
+
+Exits:
+  Direction: DIR.DOWN
+  Descr: Nelle profondità del tronco
+  Destination: 0 0 -1 siepi
+End

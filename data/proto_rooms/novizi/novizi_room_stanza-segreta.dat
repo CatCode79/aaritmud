@@ -1,0 +1,23 @@
+Code: novizi_room_stanza-segreta
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Stanza Segreta
+Short: la stanza segreta
+
+Descr:
+Sei entrat$o nel vano nascosto dietro allo sgabuzzino. È uno scomparto segreto in cui #miniere-kezaf_item_weapon-almarada#è custodita l'arma che hai dinnanzi#era custodita un'arma, di cui resta ora solo la sagoma impressa sulla parete#.
+DescrSmell: 
+L'unico odore che si sente è odore di chiuso.
+DescrSixth:
+Qualcosa o qualcuno pare che ti stia osservando #looker is SEX.MALE#in modo malevolo inducendoti ad uscire in fretta#con curiosità#.
+DescrHearing:
+Ti par di sentire un lento sibilo.
+
+Width:	2m
+Depth:	2m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Verso lo sgabuzzino
+End

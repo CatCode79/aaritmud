@@ -1,0 +1,28 @@
+Code: home-chadyne_room_bagno-01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Il Bagno di Chadyne
+Short: Il Bagno di Chadyne
+
+Descr:
+Il locale è tutto piastrellato con mattonelle [violet]viola[close] dal pavimento al soffitto, senza finestre. Vedi di fronte a te un piccolo lavabo senza rubinetti e senza una brocca d'acqua lì vicino, sulle pareti laterali sono allineati una serie di water oguno di colore diverso, forse serviranno a seconda del giorno della settimana o forse per qualcosa di diverso. 
+DescrTouch: 
+È tutto perfettamente liscio tranne il lavabo.
+DescrSmell:
+C'è un forte odore ma è meglio non approfondire...
+
+Extras:
+	Keywords: lavabo
+	Descr:
+	Sembra che sia stato utilizzato per un certo periodo e poi non più, è rimasto tutto sporco incrostato ti fa senso solo ad avvicinarti
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.DOWN
+	Destination: 0 0 1 novizi
+	Descr: Scendi in strada
+End

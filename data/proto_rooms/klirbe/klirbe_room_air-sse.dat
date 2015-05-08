@@ -1,0 +1,40 @@
+Code: klirbe_room_air-sse
+Sector: SECTOR.AIR
+Name: In Volo
+Short: nell'aria
+
+Descr:
+	Nell'aria umida e fradicia l'unico appiglio possibile appare il bordo di una rupe
+	poco verso ovest. A nord lo spazio sconfinato e a sud una parete di roccia che inizia
+	diversi metri sotto e prosegue per molte lunghezze in alto.
+DescrSmell: 
+	Odore di salsedine ed aria madida.
+DescrHearing:
+	Dal basso giunge il rumore disturbato dell'oceano che s'infrange.
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.UP
+	Descr: Il cielo sconfinato e lontano
+End
+Exits:
+	Direction: DIR.DOWN
+	Descr: Il mare giù in lontananza
+End
+Exits:
+	Direction: DIR.NORTH
+	Descr: Ancora spazi sconfinati
+End
+Exits:
+	Direction: DIR.EAST
+	Descr: Ancora spazi sconfinati
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: Il bordo esterno d'un dirupo
+End
+

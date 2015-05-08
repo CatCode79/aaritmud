@@ -1,0 +1,23 @@
+Code: citta-raminghe_room_ii-10
+Sector: SECTOR.CITY
+Name: Un Passaggio
+Short: [red]un passaggio[close]
+
+Descr:
+Una stradina pavimentata con pietre dalla forma regolare e delimitata da aiuole con [lawngreen]piante sempreverdi[close] e 
+[deeppink]fiori variopinti[close].
+DescrSmell: 
+Avverti il profumo dei fiori.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.EAST
+	Descr: Una piazza
+End
+Exits:
+        Direction: DIR.NORTHWEST
+        Descr: Una piazzetta
+End

@@ -1,0 +1,44 @@
+Comment: qui l'ordalia dell'acqua è presa come bg. Era una pratica secondo la quale si facevan le peggio cose a qcuno ma se non era colpevole non ne traeva danno alcuno. L'ordalia d'acqua un po' in tutto occidente ed oltre era legata a toglier pietre da marmitte con acqua bollente / olio / piombo fuso.
+Qui il sacerdote del tempio è costretto all'ordalia dalla solita fazione influente. Per i Thepa l'idea potrebbe essere ttraversare il tunnel subacque che passa accanto al vulcano (zolo e bollore). POi c'è da decidere se il sacerdote non sia più affiorato o se sia morto o cosa. Fatto sta che il ciborio crolla tirandosi dietro l'altare come simbolo che gli dei hanno abbandonato la stirpe/tribù/comnità. Il luogo viene abbandonato. 
+
+Code: opekus_room_ofidian_temple_19
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Cupola dell'Ordalia
+Short: la cupola
+
+Descr:
+Il duplice colonnato che separa le tre navate termina a ridosso del ciborio infranto.
+Superiormente l'altissima cupola sovrasta l'ampio spazio in cui ti trovi. Come tutta
+la cattedrale, anche la cupola è Interamente scavata nella roccia ma rivestita di
+vetrate; nonostante l'età rifulge ancora della luce diafana dovuta alle misteriose
+sorgenti poste in punti accuratamente studiati. Molta parte delle vetrate ha ceduto
+lasciando scoperto sia il nero colore della pietra, sia le sfere di luce incastonate.
+
+Extras:
+	Keywords: ciborio
+	Descr:
+	Doveva essere una struttura cilindrica disposta su diverse colonne.
+	Da questo lato si vede solo un cumulo di detriti e lastre nere affusolate.
+	DescrTouch:
+	L'umidità permeata nei detriti ha ridato massiccia consistenza al cumulo di
+	detriti
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: L'abside
+End
+Exits:
+  Direction: DIR.SOUTHWEST
+  Descr: Verso la navata inferiore
+End
+Exits:
+  Direction: DIR.NORTHWEST
+  Descr: Verso la navata inferiore
+End
+

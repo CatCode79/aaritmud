@@ -1,0 +1,26 @@
+FunName:    social_cackle
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Tira la testa indietro e scoppia a ridere!
+  OthersNoArg: $n tira la testa indietro e scoppia a ridere!
+  EntityFound: Tiro la testa indietro e scoppia a ridere guardando $N.
+  OthersFound: $n tira la testa indietro e ride di cuore guardando $N.
+  TargetFound: $n tira la testa indietro e scoppia a ridere guardandomi!
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Ti tieni le $hands sulla pancia per il troppo ridere!
+  OthersNoArg: $n scoppia a ridere tenendosi la pancia con le $hands.
+  EntityFound: Scoppio a ridere verso $N, appoggiandomi alle zampe per non cadere.
+  OthersFound: $n ride così forte verso $N che deve tenersi in equilibrio sulle zampe per non cadere.
+  TargetFound: $n si mette a ridere così tanto che s'appoggia alle zampe per non cadere.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Ti tieni le $hands sulla pancia per il troppo ridere!
+  OthersNoArg: $n scoppia a ridere tenendosi la pancia con le $hands.
+  EntityFound: Scoppio a ridere verso $N, appoggiandomi alle zampe per non cadere.
+  OthersFound: $n ride così forte verso $N che deve tenersi in equilibrio sulle zampe per non cadere.
+  TargetFound: $n si mette a ridere così tanto che s'appoggia alle zampe per non cadere.
+End

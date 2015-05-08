@@ -1,0 +1,32 @@
+Code: novizi_room_giardini-a1
+Sector: SECTOR.PLAIN
+Name: I Giardini di Penelope
+Short: i giardini di Penelope
+Descr:
+	Giardini in divenire ed in eterna costruzione. Questo luogo è deputato alla crescita
+	ed alla coltivazione dei vegetali; è lasciato libero accesso a tutti e libero sfogo
+	alla creatività.
+	Una volta scelto il seme, si può provare ad interrarlo tramite $tSEED. 
+        Bisognerà attendere un po' per vedere i primi risultati di una semina...
+
+Width:	200m
+Depth:	5m
+Height: 100m
+
+
+Exits:
+	Direction: DIR.NORTHEAST
+	Descr: I sentieri
+End
+Exits:
+	Direction: DIR.EAST
+	Descr: Il centro dei giardini
+End
+Exits:
+	Direction: DIR.SOUTHEAST
+	Descr: I giardini sud
+End
+Exits:
+	Direction: DIR.SOUTH
+	Descr: I giardini sud
+End

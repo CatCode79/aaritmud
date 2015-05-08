@@ -1,0 +1,31 @@
+Code:	quest-accademia_room_002_ponte-draghi
+Sector:	SECTOR.BRIDGE
+Name:	Il Ponte dei Draghi
+Short:	il ponte dei draghi
+
+Descr:
+	Camminare sullo storico ponte dei draghi è tanto emozionante quanto inquietante, 
+	tre persone potrebbero camminare affiancate su questo passaggio, ma con molta 
+	attenzione, la larghezza del passaggio infatti non supera i due metri e la totale 
+	assenza di merlature o corrimani ti rende assai nervos$o. la pavimentazione è 
+	incredibilmente liscia, prodotta da mastri artigiani di impareggiabile abilità 
+	al punto da sembrare costruita con un singolo blocco di pietra bianca.
+	
+
+Width:	30m
+Depth:	2m
+Height:	111m
+
+
+Exits:
+	Direction: DIR.EAST
+	Descr:	Il ponte prosegue dirigendosi verso uno strano arco sospeso
+End
+
+
+Exits:
+	Direction: DIR.WEST
+	Descr: Ad ovest vedi il bastione e poco più in la i camminamenti dell'accademia
+End
+
+Comment: extra sotto

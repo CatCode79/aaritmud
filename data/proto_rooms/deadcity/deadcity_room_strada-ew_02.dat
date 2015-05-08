@@ -1,0 +1,31 @@
+Code: deadcity_room_strada-ew_02
+Sector: SECTOR.CITY
+Name: Un'Anonima Strada  
+Short: una strada
+
+Descr:
+	La strada principale continua imperterrita e dritta. Gli occhi indugiano in ogni dove
+	alla ricerca di qualche cosa per mettersi al riparo dalla monotonia. Forse ci si può
+	attendere qualcosa di diverso abbandonando la via principale e buttandosi magari lì a nord. 
+
+DescrSmell: 
+	Polvere, polvere nelle narici e sulla $tongue. Saporaccio orribile e scarsa possibilità
+	di sentire odori.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: In strada
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: In strada
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Una via più uguale delle altre
+End
+

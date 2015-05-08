@@ -1,0 +1,39 @@
+Comment: 85 1 3
+Code: sauria_room_amena-foresta-29
+Sector: SECTOR.FOREST
+Name: Un'Amena Foresta
+Short: un'amena foresta
+
+Descr:
+La foresta continua; fitta densa e scomoda. In ogni dove sentieri e varchi fra gli arbusti. Pare che verso ovest la vegetazione sia meno fitta. 
+DescrTouch: 
+Di quando in quando procedendo in direzione nord la vegetazione pare vagamente propendere per una disposizione più rada ma forse è solo una vana speranza.
+DescrSmell: 
+Ormai quasi assuefatto all'odore della foresta non riesci a far caso ai refoli variegati che provengono da nord.
+DescrHearing:
+Rumori meno vegetali e più qualcos'altro paiono provenire da nord.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21837
+  Descr:	Un'amena foresta
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 -1 21828
+  Descr:	Un'amena foresta
+  Direction:	DIR.EAST
+End
+Exits:
+  Comment:	0 -1 21824
+  Descr:	Un'amena foresta
+  Direction:	DIR.SOUTH
+End
+Exits:
+  Comment:	0 -1 21830
+  Descr:	Una radura
+  Direction:	DIR.WEST
+End

@@ -1,0 +1,24 @@
+Code: citta-raminghe_room_sentiero-rovi
+Sector: SECTOR.CITY
+Name: [mediumorchid]Sentiero di rovi[close]
+Short: [mediumorchid]Un sentiero di rovi[close]
+
+Descr:
+Una via molto stretta che si estende tra pietre rocciose e boschi, con il fondo sterrato e irregolare. Tracciata dal passaggio frequente di viandanti che da tempi immemorabili attraversano questi luoghi. Ai bordi del sentiero [green]piante arbustive perenni[close] ne costituiscono il limite. 
+
+DescrSmell: 
+Profumo di erbe selvatiche
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.NORTH
+	Descr: Una strada molto antica
+End
+Exits:
+	Direction: DIR.SOUTH
+	Descr: Un'antica necropoli
+End

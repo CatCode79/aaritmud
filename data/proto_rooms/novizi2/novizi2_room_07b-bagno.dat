@@ -1,0 +1,60 @@
+Code:	novizi2_room_07b-bagno 
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Ritirata
+Short: un bagno
+
+Descr:
+Un piccolo bagnetto semplicemente arredato e con il necessario e sufficiente per fare
+quel che serve. La pulizia del luogo sorprenderebbe qualunque avventuriero rotto
+all'esperienza delle dormite all'addiaccio. Su di un lato c'è una piccola finestra che
+dà sull'esterno.
+
+DescrSmell: 
+Ci dev'essere [violet]qualcosa[close] qui attorno che [violet]profuma[close] in modo innaturale di [violet]violetta[close].
+
+DescrSixth:
+C'è qualcosa di più di quel che si vede ad una prima occhiata in questa stanza...
+
+Extras:
+	Keywords: qualcosa violetta profuma profumo vaso
+	Descr:
+		Un misterioso artefatto somigliante ad un vaso è incassato dentro la parete. 	
+	DescrSmell:
+		Un misterioso artefatto somigliante ad un vaso è incassato dentro la parete;
+		ed è lui a profumare di violetta innaturale!
+        DescrSixth:
+                L'[purple]artefatto[close] nasconde un meccanismo d'apertura!
+End
+Extras:
+	Keywords: finestra lato estreno
+	Descr:
+		Un rotolo di carta sulla finestra? Colmo di misteri questo bagno!
+End
+
+Width:	6m
+Depth:	3m
+Height: 2m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: La camera
+End
+Exits:
+  Direction: DIR.DOWN
+  Descr: Il pavimento
+End
+
+Walls:
+  Direction:	DIR.NORTH
+  Depth:	20 cm
+  Height:	180 cm
+  MakedBy:	ikea_item_asse-olivo
+End
+
+Walls:
+  Direction:	DIR.WEST
+  Depth:	20 cm
+  Height:	180 cm
+  MakedBy:	ikea_item_asse-olivo
+End

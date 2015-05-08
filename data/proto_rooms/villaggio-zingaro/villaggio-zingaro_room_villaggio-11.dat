@@ -1,0 +1,24 @@
+Code: villaggio-zingaro_room_villaggio-11
+Sector: SECTOR.ROAD
+Name: La Zona Panoramica
+Short: la curva panoramica
+
+Descr:
+La strada piegando a gomito si dispone sul margine di un avvallamento. Lo sguardo sudest consente di abbracciare tutta la zona brulla che si ripropone instancabile fin dove l'occhio riesce a vedere. Pare di essere nel primo avamposto fertile in miglia e miglia.
+A proteggere senza troppa convinzione da un eventuale caduta c'è uno steccato che ha visto certo tempi migliori. 
+DescrTouch: 
+Poggi la mano sullo steccato e ti convinci che non è il caso di abbandonarcisi di peso.
+DescrSixth:
+Lo steccato a margine della strada per altezza pare eretto a protezione del bestiame ed in effetti vi è qualche crine.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+Exits:
+	Direction: DIR.NORTH
+	Descr: La piazza
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: Poco lontano un ampio caseggiato
+End

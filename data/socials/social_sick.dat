@@ -1,0 +1,28 @@
+FunName:    social_sick
+Intention:  INTENTION.NEUTRAL
+Expression: infelice
+Smiles:     :(( :-((
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Stringi gli occhi mentre il dolore ti segna il volto.
+  OthersNoArg: $n chiude gli occhi mentre il suo volto viene adombrato dal dolore.
+  EntityFound: Guardi $N con occhi pieni di dolore.
+  OthersFound: $n guarda $N con gli occhi pieni di dolore.
+  TargetFound: $n ti guarda, gli occhi pieni di dolore .
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Ti metti un po' in disparte nascondendo il tuo malessere.
+  OthersNoArg: $n si copre il corpo con la coda, ha un'aria malaticcia.
+  EntityFound: Eviti lo sguardo di $N, nascondendo$GLI il tuo malessere.
+  OthersFound: $n evita lo sguardo di $N, nascondendo$GLI il suo malessere.
+  TargetFound: $n evita il tuo sguardo ma si vede benissimo che sta male.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Ti metti un po' in disparte nascondendo il tuo malessere.
+  OthersNoArg: $n si copre il corpo con la coda, ha un'aria malaticcia.
+  EntityFound: Eviti lo sguardo di $N, nascondendo$GLI il tuo malessere.
+  OthersFound: $n evita lo sguardo di $N, nascondendo$GLI il suo malessere.
+  TargetFound: $n evita il tuo sguardo ma si vede benissimo che sta male.
+End

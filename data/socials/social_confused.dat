@@ -1,0 +1,44 @@
+FunName:    social_confused
+Intention:  INTENTION.NEUTRAL
+Expression: confuso
+Smiles:     :\ :-\
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Batti lentamente le palpebre guardandoti attorno smarrit$o.
+  OthersNoArg: $n batte lentamente le palpebre guardandosi attorno smarrit$o.
+  EntityFound: Batti lentamente le palpebre guardando smarrit$o $N.
+  OthersFound: $n batte lentamente le palpebre guardando smarrit$o $N.
+  TargetFound: $n smarrit$o batte lentamente le palpebre guardandoti.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Cosa? Come? Dove? Quando? Perché?
+  OthersNoArg: $n si agita tutt$o non capendo più nulla.
+  EntityFound: Cerchi di comunicare il tuo smarrimento a $N.
+  OthersFound: $n vortica intorno a $N lanciando fastidiosi urletti.
+  TargetFound: $n ti vortica intorno spaesat$o urlando. Che fastidio!
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: ti guardi attorno confus$o.
+  OthersNoArg: $n si guarda confusamente attorno.
+  EntityFound: Scruti $N con aria confusa.
+  OthersFound: $n scruta $N con fare confuso.
+  TargetFound: Gli occhi di $n ti scrutano confusi.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Allarghi le pupille guardandoti attorno con aria confusa.
+  OthersNoArg: $n si guarda intorno un po' agitat$o.. Sembra smarrit$o.
+  EntityFound: Guardi $N con aria smarrita, sei un po' confus$o.
+  OthersFound: $n fissa $N con aria decisamente confusa.
+  TargetFound: $n ti guarda con occhi smarriti e confusi.. Che $gli sarà successo?
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Allarghi le pupille guardandoti attorno con aria confusa.
+  OthersNoArg: $n si guarda intorno un po' agitat$o.. Sembra smarrit$o.
+  EntityFound: Guardi $N con aria smarrita, sei un po' confus$o.
+  OthersFound: $n fissa $N con aria decisamente confusa.
+  TargetFound: $n ti guarda con occhi smarriti e confusi.. Che $gli sarà successo?
+End

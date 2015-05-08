@@ -1,0 +1,29 @@
+Code: deadcity_room_strada-ew
+Sector: SECTOR.CITY
+Name: Una Strada Dimenticata
+Short: una strada
+
+Descr:
+Una lunga strada dritta senza nulla che voglia uscire dalla monotonia dello sguardo fin
+quasi all'orizzonte. Pur non sapendo di cosa sia morta la città, non deve essere stata
+affatto una morte violenta. È come se gli abitanti fossero spariti e nessuno si sia preso
+la briga neppure di venire a depredare o saccheggiare.
+DescrSmell: 
+Annusare qui non è che sia inutile, è proprio fastidioso per via della sabbia che
+s'insinua nelle narici
+DescrTaste:
+Anche se non vuoi riesci a percepire il saporaccio della sabbia fine che ti arriva in bocca
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: In strada
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: In strada
+End
+

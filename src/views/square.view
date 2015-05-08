@@ -1,0 +1,93 @@
+<style>
+	background-image:url(blank.gif);
+	background-color:trasparent;
+</style>
+<script>
+// (TD) Per ora questo script non si può inserire in uno square.js perché è una risorsa dinamica
+function showSquareError(message) {
+	var square_error = document.getElementById("square_error");
+	if (message) {
+		square_error.className = "";
+		square_error.style.marginBottom = "0.5em";
+	} else {
+		square_error.className = "invisible";
+		square_error.style.marginBottom = "";
+	}
+	$(square_error).text(message);
+}
+
+function postMessage(event, widget) {
+	var square_input = document.getElementById("square_input");
+	if (square_input.value && square_input.value.length > ${max_square_msg_len}) {
+		showSquareError("Messaggio troppo lungo (" + square_input.value.length + "/${max_square_msg_len})");
+	} else {
+		showSquareError("");
+	}
+	if (square_input.value == WATERMARK_MSG) {
+		return;
+	}
+	var key_code = event.keyCode || event.which;
+	if (key_code != 13 && square_input == widget) {
+		square_input.style.color = "black";
+		return true;
+	}
+
+	if (!square_input.value || square_input.disabled) {
+		// Evita di inserire gli a-capo
+		return false;
+	}
+
+	square_input.value = trim(square_input.value);
+	// Potrebbe non essere più così lungo il messaggio quindi rimuove il msg di errore
+	showSquareError("");
+	if (square_input.value.length > ${max_square_msg_len}) {
+		showSquareError("Non puoi inviare un messaggio più lungo di ${max_square_msg_len} caratteri")
+		return false;
+	}
+	square_input.disabled = true;
+	square_input.style.color = "gray";
+	return $.post("square.html", "msg=" + encodeURIComponent(square_input.value), function (error) {
+		if (error) {
+			// Può capitare quando la sessione di login scade
+			if (error.toLowerCase().startsWith("<?xml") || error.toLowerCase().startsWith("<html")) {
+				window.location.reload();
+			} else {
+				showSquareError(error);
+			}
+		}
+		square_input.disabled = false;
+		square_input.value = "";
+		// Per qualche motivo qui in Firefox bisogna eseguire un blur prima di un focus
+		square_input.onblur = null;
+		square_input.blur();
+		square_input.onblur = function () { blurWatermark(square_input.id); }
+		square_input.focus();
+	});
+}
+
+function addSquareMessage(square_message) {
+	var square_messages_element = document.getElementById("square_messages");
+	square_messages_element.innerHTML = decodeURIComponent(square_message) + square_messages_element.innerHTML;
+	var last_refresh_id = document.getElementById("last_refresh_id");
+	$(last_refresh_id).text(parseInt($(last_refresh_id).text()) + 1);
+}
+</script>
+<div id="square" class="block" style="width:16.3em;">
+	<img style="position:absolute; z-index:1; padding-top:5px; padding-left:4px" src="graphics/square.gif" />
+	<div style="text-align:center;">
+		<div class="block_title">La Piazzetta</div>
+		<div id="square_header">
+			<textarea id="square_input" onfocus="focusWatermark(this.id);" onblur="blurWatermark(this.id);" onkeydown="return postMessage(event, this);"></textarea>
+			<input id="square_submit" type="submit" value="Invia Messaggio" onclick="return postMessage(event, this);">
+			<div id='square_login'>Collegati al sito per inviare messaggi</div>
+			<script>blurWatermark("square_input"); document.getElementById("square_input").disabled=false; ${hide_watermark}</script>
+			<br><br class="demi">
+		</div>
+		<div id="square_error" class="invisible" style="color:red;"></div>
+		<div style="padding:5px; border-bottom:1px solid gray"><img src="graphics/arrow_down.gif" width="16px", height="16px"> Dall'ultimo messaggio: <img src="graphics/arrow_down.gif" width="16px", height="16px"></div>
+		<div id="square_messages">
+			${square_output}
+		</div>
+		<div id="last_refresh_id" class="invisible">${last_refresh_id}</div>
+	</div>
+</div>

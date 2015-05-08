@@ -1,0 +1,10 @@
+﻿	<br>
+	<hr width="95%">
+	<div class="footer">
+		Puoi contattare lo Staff di ${game_name} all'indirizzo email <a href="mailto:${email}">${email}</a><br>
+		Powered by ${engine_name} v${engine_version} on ${server_name}<br>
+		Copyright 2006-${year} by ${staff_name}<br>
+		Pagina generata in ${milliseconds} millisecondi e grande ${bytes} bytes<br>
+	</div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+Code: opekus_room_ofidian_common_04
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Il Corridoio d'Ardesia
+Short: un corridoio nero
+
+Descr:
+Un corridoio molto breve connette fra loro le due pietre rialzate che vedi ai suoi
+estremi. In alto, su una delle pareti si vedono un paio di anelli metallici troppo
+larghi per essere usati come sostegni alle torce.
+
+Extras:
+	Keywords:
+		anelli metallici anello metallico
+	Descr:
+		Sono due anelli ricavati da una fascia metallica e son provvisti di cerniera e fermi
+		per essere richiusi. Ci si potrebbe appendere qualcuno per i polsi.
+	DescrTouch:
+		Il meccanismo della cerniera è ancora funzionale ed ha solo bisogno di un filo di
+		lubrificante.
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Un'intersezione 
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Un'intersezione
+End
+

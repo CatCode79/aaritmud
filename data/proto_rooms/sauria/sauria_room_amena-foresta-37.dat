@@ -1,0 +1,39 @@
+Comment: 85 1 3
+Code: sauria_room_amena-foresta-37
+Sector: SECTOR.FOREST
+Name: Un'Amena Foresta
+Short: un'amena foresta
+
+Descr:
+Ad ovest la vegetazione si fa decisamente più rada, mentre nelle altre direzioni non vedi significativi mutamenti. Qui persino i moscerini si potrebbero sentire angustiati e oppressi. 
+DescrTouch: 
+Un tronco marcio crollato non troppo di recente è divenuto il nido per un mare di insettacci che ti corrono tutt'attorno senza sosta. Forse non è il caso di verificare quanto piaci agli insetti.
+DescrSmell: 
+Il legno marcescente ha un inconfondibile marcato accento.
+DescrHearing:
+Qualcosa o qualcuno sta masticando voracemente del legno.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21841
+  Descr:	Un'amena foresta
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 0 21886
+  Descr:	Un'amena foresta
+  Direction:	DIR.EAST
+End
+Exits:
+  Comment:	0 0 21829
+  Descr:	Un'amena foresta
+  Direction:	DIR.SOUTH
+End
+Exits:
+  Comment:	0 -1 21838
+  Descr:	Una radura
+  Direction:	DIR.WEST
+End

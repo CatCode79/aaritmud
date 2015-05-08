@@ -1,0 +1,49 @@
+Comment:	Isoletta al centro del giardino, è situata in uno stagno con ninfee giacinti dacqua e altre piante acquatiche insettini etc, insomma tutto un bel bucolicismo. Sull'isolatte c'è un ga zebo bianco descritto in room 00
+Code: krablath_room_blath-01
+Sector: SECTOR.PLAIN
+Flags:	ROOM.INSIDE
+Name: un
+Short: un
+
+Descr:
+un
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Extras:
+	Keywords: chiave
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: In strada
+End
+Exits:
+  Direction: DIR.SOUTHWEST
+  Descr: In strada
+End
+

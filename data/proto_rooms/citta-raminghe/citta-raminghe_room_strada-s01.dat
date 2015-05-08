@@ -1,0 +1,37 @@
+Code: citta-raminghe_room_strada-s01
+Sector: SECTOR.CITY
+Name: Una strada
+Short: [red]Una strada molto antica[close] 
+
+Descr:
+Una strada molto antica, prima un sentiero, poi ampliato dalle Raminghe per 
+consentire il passaggio di carri. Il basolato è realizzato con molta cura. Le pietre che lo costituiscono sono grandi e di 
+forma irregolare. Sembrano di origine vulcanica. 
+È abbellita lateralmente da alberi sempreverdi che la rendono molto 
+piacevole da percorrere.
+DescrSmell: 
+Avverti il profumo di erbe selvatiche
+
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.NORTH
+	Descr: In città
+End
+Exits:
+	Direction: DIR.EAST
+	Descr: In città
+End
+Exits:
+	Direction: DIR.SOUTH
+	Descr: In città
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: In città
+	Destination: 8 -1 0 opekus
+End

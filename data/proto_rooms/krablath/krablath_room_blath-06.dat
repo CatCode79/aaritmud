@@ -1,0 +1,53 @@
+Comment:	Sentiero attorno al laghetto, costeggia l'aiuola del bamboo, la room a fianco è quella del ponte.. Descrizione dell'anello laghetto con piante acquatiche, si vede l'isolina (my mother) con struttura. Si è praticmanete sulla riva.
+Code: krablath_room_blath-06
+Sector: SECTOR.SHORE	
+Name: [aquamarine]Lo Stagno[close]
+Short: [aquamarine]un suggestivo stagno[close]
+
+Descr:
+Sei 
+DescrTouch: 
+Un
+DescrSmell: 
+L'odore di acqua stagnante che ci si potrebbe aspettare è del tutto assente e sostituito da inebrianti aromi floreali.
+DescrSixth:
+Il
+DescrHearing:
+Il ronzio degli insetti accompagna il tuo incedere.
+DescrTaste:
+Un
+
+Extras:
+	Keywords: chiave
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: In strada
+End
+Exits:
+  Direction: DIR.SOUTHWEST
+  Descr: In strada
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: In strada
+End
+
+

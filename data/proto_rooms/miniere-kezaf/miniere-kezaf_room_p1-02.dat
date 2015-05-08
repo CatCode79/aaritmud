@@ -1,0 +1,27 @@
+Code: miniere-kezaf_room_p1-02
+Sector: SECTOR.UNDERGROUND
+Flags: ROOM.INSIDE
+Icon:	icons/item/rotaie-01.png
+Name: Al Primo Livello Delle Miniere
+Short: all'interno delle miniere
+
+Descr:
+In tutta la sua lunghezza questa parte della miniera pare non necessitare di puntello alcuno da quanto è dura e stabile la roccia. 
+Un lungo e malandato binario principia qui e prosegue in direzione est sprofondando nella miniera.
+DescrTouch: 
+Violenti graffi profondi scavati nella nuda roccia in senso orizzontale per un percorso interminabile.
+DescrSmell: 
+Molesta umidità e trasudo stantio che s'affievoliscono verso ovest.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: La nuda roccia
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: La nuda roccia
+End

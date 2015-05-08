@@ -1,0 +1,27 @@
+Code: elizor_room_guarnigione-sud-03
+Sector: SECTOR.HOUSE
+Flags: ROOM.INSIDE
+Name: guarnigione-sud-03
+Short: guarnigione-sud-03
+
+Descr:
+Sei 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	L'uscita
+End

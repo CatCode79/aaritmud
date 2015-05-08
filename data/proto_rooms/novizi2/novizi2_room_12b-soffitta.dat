@@ -1,0 +1,40 @@
+Code: novizi2_room_12b-soffitta
+Sector: SECTOR.HOUSE
+Flags: ROOM.INSIDE
+Name: [gold]La Soffitta Est[close]
+Short: [gold]una soffitta[close]
+
+Descr:
+Un tetto a spioventi come cappello conferisce una curiosa geometria a quella che è una lungo sottotetto.
+L'ambiente è sgombro e poco polveroso.
+Per l'occasione qui in soffitta è stata collocata una zona nascosta; se ti par di scorgere degli indizi di qualche tipo,
+puoi provare ad usare il comando:<br>
+$tOpen <br>
+ sull'oggetto che si frappone fra te e la zona nascosta.
+DescrTouch: 
+Un lungo corridoio circondato ai lati dagli spioventi del tetto che impediscono di trovare una parete cui appoggiarsi.
+DescrSmell: 
+Vago e flebile l'odore delle resina, figlio certo delle travi in legno della soffitta.
+DescrSixth:
+Non è detto che l'accesso alla stanza nascosta si trovi proprio qui; forse è ad est o forse a nord.
+DescrHearing:
+Ci deve essere un po' di vento all'esterno a giudicare dai sinistri cigolii provenienti dalle travature.
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.DOWN
+	Descr: [lemonchiffon]Un corridoio[close]
+End
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	L'estremità nord della soffitta
+	Destination:	-2 -2 1 novizi2
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	L'estremità est della soffitta
+	Destination:	1 -5 1 novizi2
+End

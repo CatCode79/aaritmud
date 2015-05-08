@@ -1,0 +1,23 @@
+Code: deadcity_room_edificio-abbandonato
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Una Casa Diroccata
+Short: una casa abbandonata
+
+Descr:
+	Una piccola abitazione che si sviluppa solo al pianterreno. Dallo stato in cui si
+	trovano muri e pavimenti, vien da pensare che non sia tutta opera degli anni di abbandono.
+	Probabilmente un'orda di troll ha tentato di accamparsi qui, desistendo solo dopo avere
+	demolito tutto il possibile. 
+DescrSmell: 
+	Se son passati dei troll, fra te e loro sono passati giorni più che sufficienti per non
+	sentirne traccia
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: In strada
+End

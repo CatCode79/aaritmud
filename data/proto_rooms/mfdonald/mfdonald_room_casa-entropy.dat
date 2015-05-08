@@ -1,0 +1,47 @@
+Code: mfdonald_room_casa-entropy
+Sector: SECTOR.HOUSE
+Name: La Casa dello Zio
+Short: la capanna dello zio Ent
+Icon:	icons/plant/tree.png
+
+Descr:
+Sei nella capanna dello zio. Approfittane per fare pipì in soggiorno! Ma attento alla $skin...
+Non dico alla $SKIN della room ma alla tua.
+DescrTouch: 
+Guardare e non Toccare!
+DescrSmell: 
+Sconsigliabile come propensione qui dentro!
+DescrSixth:
+Il tuo intuito ti prega gentilmente di uscire.
+DescrHearing:
+Non si sente nulla nulla...
+
+Extras:
+	Keywords: zio
+	Descr:
+	Lo chiamano Zio ma non ha nipoti
+	DescrSixth:
+	Non si sa bene per quale motivo...
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: In strada
+  Door: mfdonald_item_porta-rossa
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Verso dollaro
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Solo rogne
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: Di là
+End

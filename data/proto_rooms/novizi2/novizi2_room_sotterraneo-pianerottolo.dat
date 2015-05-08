@@ -1,0 +1,24 @@
+Code: novizi2_room_sotterraneo-pianerottolo
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Il Pianerottolo
+Short: un pianerottolo
+
+Descr:
+Un pianerottolo poco più ampio delle scale che si dipartono da qui. Poco spazio di manovra e poco di interessante da vedere. Anche le pareti lisce tutto intorno sono prive del minimo disegno o fronzolo.
+DescrTouch:
+Un pianerottolo chiuso fra lisce pareti prive della qualsivoglia asperità ove termina un'erta scalinata verticale.
+
+Width:	4m
+Depth:	4m
+Height: 5m
+
+Exits:
+  Direction: DIR.UP
+  Descr: Ripida scalinata
+End
+Exits:
+  Direction: DIR.DOWN
+  Descr: Un cubicolo
+  Door: novizi2_item_botola-01
+End

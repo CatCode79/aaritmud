@@ -1,0 +1,61 @@
+Code: villaggio-zingaro_room_villaggio-14-night
+Sector: SECTOR.ROAD
+Name: Il Piazzale dell'Oreficeria
+Short: un piazzale
+
+Descr:
+Il piazzale antistante la casa ti consente di metterti ad una certa distanza per averne una visione d'insieme.
+È un edificio a due piani in pietra nera massiccia, le finestre al piano terreno sono due, ai lati dell'ingresso
+ed entrambe montano un'inferriata poderosa. Al marcapiano, verso gli estremi sono poste delle lucerne.
+Il piano superiore è privo di finestre e termina in un tetto piatto dal quale sporgono due bandiere.
+
+DescrNight:
+Il piazzale antistante la casa ti consente di metterti ad una certa distanza per averne una visione d'insieme.
+È un edificio a due piani in pietra nera massiccia, le finestre al piano terreno sono due, ai lati dell'ingresso
+ed entrambe montano un'inferriata poderosa. Al marcapiano, verso gli estremi sono poste delle lucerne accese.
+Il piano superiore è privo di finestre e termina in un tetto piatto dal quale sporgono due bandiere illuminate
+dalle lucerne.
+
+DescrTouch: 
+Tocchi le inferriate alle finestre e decidi che sono ancor più solide di quanto poteva sembrare.
+DescrSmell: 
+Qualcuno nei paraggi deve aver bruciato qualcosa ma certo... non legname.
+DescrSixth:
+Uhm... sulle [yellow]bandiere[close] in cima. C'è uno stemma... 
+DescrHearing:
+Tang, tang  tang, tang, tang tang...
+Ma non sempre.
+
+DescrHearingNight:
+Giungono da nordest in rumori del bosco
+
+Extras:
+	Keywords: bandiere
+	Descr:
+	Uno scudo araldico con l'effige di martello ed anello
+	DescrSixth:
+	È il simbolo della Gilda degli Orefici
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.WEST
+	Descr: Il negozio
+        Door: villaggio-zingaro_item_door-porta-oreficeria-chiusa
+End
+Exits:
+	Direction: DIR.SOUTHEAST
+	Descr: La campagna coltivata
+End
+Exits:
+	Direction: DIR.SOUTH
+	Descr: La via per il labirinto
+	Destination: 11 12 0 maze
+End
+Exits:
+	Direction: DIR.NORTH
+	Descr: La strada
+End

@@ -1,0 +1,14 @@
+<h3>Supportaci!</h3>
+<ul>
+<li> La prima maniera per supportarci, quella più semplice, è quello di giocare. Siamo consapevoli che allo stadio attuale il gioco è incompleto e quindi arrivati ad un certo punto è normale mollarlo, ma saremo comunque felici di ricevere un qualsiasi commento da parte tua tramite il comando $tcomment o <a href="mailto:${email}">inviandoci un messaggio</a><br><br>
+<li> Oltre al comando $tcomment ricordo altri tre comandi che potrete utilizzare per aiutarci: $tidea, $ttypo e $tbug. Il primo serve ad inviarci delle vostre idee per migliorare Aarit, il secondo serve a segnalare eventuali errori ortografici e strafalcioni vari, mentre il terzo serve a segnalare eventuali anomalie che avete incontrato giocando.<br><br>
+<li> Un altro metodo è invitare i vostri amici a giocare!<br><br>
+<li> Se incontrate un giocatore nuovo al mondo dei Mud e voi invece siete degli appassionati veterani, aiutatelo almeno un poco, il nostro Staff purtroppo non è molto presente in gioco essendo principalmente focalizzato nella creazione di ${game_name}.<br><br>
+<li> Scrivere sul nostro Forum cosa ne pensate di Aarit e inviandoci altri consigli!<br><br>
+<li> Facci pubblicità! :D<br><br>
+<!--li> nuovi social o social razziali, se amate quella razza! (ci vuole l'apposito editor)<br><br>-->
+<!--li> aree<br><br>-->
+<!--li> area editor  (ci vuole l'apposito editor)<br><br>-->
+<li> Se volete addentrarvi nel mondo della costruzione di ${game_name} non abbiate timore, le conoscenze tecniche per creare stanze e altre entità dell'area che vorrete creare sono minime. Il nostro capo-builder vi insegnerà come fare: <a href="mailto:&#115;&#117;&#108;&#046;&#102;&#114;&#117;&#046;&#109;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">contattatelo per credere</a>! Nel Team di ${game_name} vige l'assoluta libertà: volete creare l'area mettendoci un anno intero o più? Va bene! Volete fare un'area per questo Mud ma volete giocare comunque anche ad un altro Mud? Ma certo, perché dovremmo impedirvelo?<br><br>
+<li> E infine l'ultimo modo per supportarci è quello di donare qualche euro alla causa, bastano anche solo 5 euro, se volete donare cifre maggiori sappiate che le investiamo tutte nello sviluppo di ${game_name} e nella sua comunità: i costi attuali sono relativi al server e al grafico che ci ha fatto le immagini delle razze ma non escludiamo il pagare un artista per della musica o tenere da parte i soldi per qualche futuro raduno speciale.<br><br>
+</ul>

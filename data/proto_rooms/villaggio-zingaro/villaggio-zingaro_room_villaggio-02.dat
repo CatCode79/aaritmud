@@ -1,0 +1,29 @@
+Code: villaggio-zingaro_room_villaggio-02
+Sector: SECTOR.ROAD
+Name: La Svolta sul Villaggio
+Short: una svolta
+
+Descr:
+La strada si lascia avvolgere lentamente da una bassa vegetazione al limite fra la bassa boscaglia e l'alta sterpaglia.
+Si nota che procedendo verso est, in prossimità dello snodo si fanno più frequenti alberelli sparuti e cespugli più superbi.
+DescrTouch: 
+La $hand protratta oltre il bordo strada scorre arruffando la bassa vegetazione e, di quando in quando, raccoglie qualche
+spina. Una leggera brezza tenta di scompigliarti con poco impegno.
+DescrSmell: 
+L'aria umida porta con sé qualche ricordo di terra smossa e il sentore di vegetazione.
+DescrHearing:
+Il rumore del vento fra le piante copre buona parte di quant'altro s'aggira qui attorno.
+
+
+
+Width:	20m
+Depth:	20m
+Height: 200m
+Exits:
+	Direction: DIR.NORTH
+	Descr: La vegetazione rarefà vieppiù
+End
+Exits:
+	Direction: DIR.EAST
+	Descr: Verso uno slargo
+End

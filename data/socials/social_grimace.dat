@@ -1,0 +1,34 @@
+FunName:    social_grimace
+Intention:  INTENTION.AGGRESSIVE
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Contorci il viso in una smorfia di disgusto.
+  OthersNoArg: $n contorce il viso in una smorfia di disgusto.
+  EntityFound: Contorci il viso in una smorfia di disgusto guardando $N.
+  OthersFound: $n contorce il viso in una smorfia di disgusto guardando $N.
+  TargetFound: $n contorce il viso in una smorfia di disgusto guardandoti.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Assolutamente disgustoso!
+  OthersNoArg: $n mostra un sincero e spassionato disgusto.
+  EntityFound: $N è più patetico del più patetico fra gli elfi alti.
+  OthersFound: $n mostra un sincero e spassionato disgusto per $N.
+  TargetFound: $n mostra un sincero e spassionato disgusto nei tuoi confronti.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Arricci il naso e soffio esprimendo disgusto.
+  OthersNoArg: $n soffia e arriccia il naso esprimendo il suo disgusto.
+  EntityFound: Soffi verso $N esprimendo$GLI il tuo disgusto.
+  OthersFound: $n soffia verso $N esprimendo$GLI il suo disgusto.
+  TargetFound: $n ti soffia contro esprimendo il suo disgusto.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Arricci il naso e soffio esprimendo disgusto.
+  OthersNoArg: $n soffia e arriccia il naso esprimendo il suo disgusto.
+  EntityFound: Soffi verso $N esprimendo$GLI il tuo disgusto.
+  OthersFound: $n soffia verso $N esprimendo$GLI il suo disgusto.
+  TargetFound: $n ti soffia contro esprimendo il suo disgusto.
+End

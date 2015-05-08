@@ -1,0 +1,35 @@
+Comment:
+In questa room va il lavatoio
+
+Code: elizor_room_strada-est-05
+Sector: SECTOR.PATH
+Name: La Via Verso Est
+Short: la via verso est
+
+Descr:
+Piccoli tasselli dai colori marini, somiglianti a tessere di un mosaico, sparsi attorno ad un irremovibile lavatoio decoravano un tempo 
+la pavimentazione ormai inesistente.
+Il canale scompare sotto la granitica fontana per ricomparire parecchi metri più avanti ai piedi di un piccolo edificio.
+DescrTouch: 
+no_send
+DescrSmell: 
+Fresco odore dell'acqua corrente.
+DescrSixth:
+Una strada apparentemente poco trafficata e forse addirittura in disuso.
+DescrHearing:
+Il vivace scorre dell'acqua nel lavatoio è un sottofondo onnipresente.
+DescrTaste:
+no_send
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.SOUTHWEST
+	Descr:	La via
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	La via verso est
+End

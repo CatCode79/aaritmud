@@ -1,0 +1,37 @@
+Code: novizi_room_autunno
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: [mediumvioletred]La Festa dell'Autunno[close]
+Short: [mediumvioletred]la festa dell'autunno[close]
+
+Descr:
+Sei nell'ala dedicata all'[mediumvioletred]autunno[close], ove sono disposti in bella vista i simboli e i
+prodotti associati alla stagione. Il pavimento è stato coperto con [yellow]foglie[close] dai tipici colori
+autunnali. Sui lati del camminamento sono stati disposti dei tavolacci grezzi con [mediumvioletred]grappoli d'uva[close]
+e bottiglie di vino. Accanto alle bottiglie, in modo poco bucolico c'è il prezzo!
+la via è stretta... anche troppo
+DescrSmell: 
+Il profumo del [mediumvioletred]mosto[close] e della [mediumvioletred]fermentazione[close] delle vinacce sono inconfondibili.
+
+Extras:
+	Keywords: foglie
+	Descr:
+	Foglie fra le quali riconosci senza indugio quelle di vite, di castagno e di tiglio.
+End
+Extras:
+	Keywords: grappoli uva
+	Descr:
+	Anche sulle cassette dei grappoli d'uva c'è il prezzo
+	DescrTouch:
+	Uva bianca ed uva nera, matura e grossa
+End
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: La stanza dei pilastri
+End

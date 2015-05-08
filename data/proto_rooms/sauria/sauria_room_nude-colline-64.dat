@@ -1,0 +1,45 @@
+Comment: 85 0 4
+Code: sauria_room_nude-colline-64
+Sector: SECTOR.HILL
+Name: Le Nude Colline
+Short: le nude colline
+
+Descr:
+Tutt'intorno vedi solo nude colline e la florida vegetazione della prateria pare ormai solo un ricordo. Verso sud-ovest ti pare di intravedere una foschia diffusa. 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21862
+  Descr:	Le nude colline
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 -1 21863
+  Descr:	Le nude colline
+  Direction:	DIR.EAST
+End
+Exits:
+  Comment:	0 -1 21865
+  Descr:	Le nude colline
+  Direction:	DIR.SOUTH
+End
+Exits:
+  Comment:	0 -1 21864
+  Descr:	Le nude colline
+  Direction:	DIR.WEST
+  Destination:	-4 7 0 sauria
+End

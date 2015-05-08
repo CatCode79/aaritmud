@@ -1,0 +1,35 @@
+Comment: Abbozzo
+Code: villaggio-zingaro_room_grotta-colonne-06
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: Il Loggiato
+Short: un loggiato
+
+Descr:
+Un'ingombrante stalagmite protesa fino a sfiorare la stalattite gemella obbliga il sentiero, che qui crea un dislivello non indifferente, ad una deviazione facendolo così costeggiare una fila di esili pilasti. Sporgendoti appena riesci ad intravedere una parte del lago.
+DescrSmell: 
+Aria calda e madida di umido.
+DescrSixth:
+I sentieri tracciati e molti altri piccoli elementi ti fanno pensare che questa grotta non dev'esser stata sempre deserta e silenziosa. 
+DescrHearing:
+Una brezza proveniente da chissà dove si muta in fischio passando fra interstizi di stalagmiti.
+DescrTouch:
+Una lieve brezza proveniente dall'alto ti accarezza la $skin. 
+
+Width:	3m
+Depth:	2m
+Height: 8m
+
+Exits:
+	Direction: DIR.SOUTHEAST
+	Descr: Verso la cima della grotta
+End
+Exits:
+	Direction: DIR.SOUTHWEST
+	Descr: Attorno alle colonne
+End
+
+RoomBehaviour:
+	RandomEcho:	3
+	RandomEchoTexts:	Una goccia cade dall'alto.
+End

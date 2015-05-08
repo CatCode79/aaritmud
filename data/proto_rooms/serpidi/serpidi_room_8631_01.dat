@@ -1,0 +1,16 @@
+Code: serpidi_room_8631_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: La tomba quadrata 
+Short: La tomba quadrata 
+Descr: 
+Ti trovi in un'ampia stanza quadrata dal soffitto basso. Sulle pareti la roccia è scolpita in figure simili a quelle che adornavano il tempio. In mezzo c'è un grande sarcofago, finemente decorato, che raffigura un guerriero. L'aria odora di muffe e marciume. L'umidità trasuda dalle pareti. Ragnatele sono ovunque, insieme ad escrementi di animali. 
+Exits:
+	Direction: DIR.UP
+	Destination: 0 4 -1 serpidi
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

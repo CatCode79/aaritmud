@@ -1,0 +1,24 @@
+<script>
+function movePlayer(event) {
+	event = event || window.event;
+	var key_code = event.keyCode || event.which;
+	if (alt_key_pressed || ctrl_key_pressed) {
+		return;
+	}
+alert(key_code);  // (TT)
+}
+
+function refreshOutput() {
+alert("1")
+	sendPostRequest("ocarina.html", "refresh=1", afterRefreshOutput);
+}
+function afterRefreshOutput(response) {
+alert(response)
+	var output = document.getElementById("output");
+	output.innerHTML = response
+}
+</script>
+
+<div id="output" onkeydown="movePlayer();" onclick="">
+</div>
+<script>refreshOutput();</script>

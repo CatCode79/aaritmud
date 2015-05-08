@@ -1,0 +1,34 @@
+Code: torreelementi_room_sotto_9
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: L'Ingresso della Serra
+Short: una strettoia
+Descr:
+Un corridoio stretto e basso si estende lungamente mettendo in collegamento la zona est,
+fredda e scarna, con un'ambientazione decisamente più rigogliosa pur se sotterranea.
+Tracce di terra e materiale organico bianco sono sparse un po' ovunque in terra.
+
+DescrSmell:
+Un distinto odore di funghi pervade tutta la zona e l'aria tradendo la sorpresa
+che potresti avere andando verso est
+
+Extras:
+  Keywords: terra organico
+  Descr: Si tratta di terra e di roba muffosa
+  DescrTouch: Muffosa morbida e fragile, almeno non sporca le $hands
+  DescrSixth: Si tratta di micelio
+End
+
+Width:	7m
+Depth:	2m
+Height: 1m
+
+Exits:
+  Direction: DIR.EAST
+  Destination: 4 5 -4 torreelementi
+  Descr: Un ampio salone
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: L'uscita
+End

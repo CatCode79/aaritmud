@@ -1,0 +1,26 @@
+Code: sauria_room_miniera-nanica-02
+Sector: SECTOR.UNDERGROUND
+Flags:	ROOM.INSIDE
+Name:	Una Frattura nella Roccia
+Short:	una frattura nella roccia
+
+Descr:
+Il cunicolo scavato nella roccia da mani abili è puntellato a brevi distanze ricevendone una grande stabilità. Anche la pavimentazione è scavata con inusitata cura.
+DescrSmell: 
+Percepisci una vaga fragranza di vaniglia... 
+DescrHearing:
+Dal nord proviene un debole rumore d'acqua che scorre.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Descr:	Prosegue la miniera
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 -1 21801
+  Descr:	Prosegue la miniera
+  Direction:	DIR.SOUTH
+End

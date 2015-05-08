@@ -1,0 +1,112 @@
+FunName:    social_caress
+Intention:  INTENTION.FRIENDLY
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Accarezzi una bella porzione d'aria.
+  OthersNoArg: $n muove le $hands con i palmi bene aperti.. Sta carezzando l'aria?
+  EntityFound: Accarezzi $N.
+  OthersFound: $n accarezza $N.
+  TargetFound: $n ti accarezza sul viso.
+  EntityAuto:  Ti accarezzi il viso tranquillizzando la tua epidermide.
+  OthersAuto:  $n si accarezza il viso in cerca di qualche imperfezione.
+End
+RacialMessages:
+  Race:        RACE.HIGHELF
+  EntityNoArg: Accarezzi gentilmente l'aria.
+  OthersNoArg: $n muove le $hands in aria, accarezzandola dolcemente.
+  EntityFound: Carezzi delicatamente il viso di $N.
+  OthersFound: $n accarezza delicatamente il viso di $N.
+  TargetFound: $n ti accarezza il viso delicatamente.
+  EntityAuto:  Ti accarezzi il viso tranquillizzando la tua epidermide.
+  OthersAuto:  $n si accarezza il viso in cerca di qualche imperfezione.
+End
+RacialMessages:
+  Race:        RACE.DWARF
+  EntityNoArg: Accarezzi una bella porzione d'aria.
+  OthersNoArg: $n muove le $hands con i palmi bene aperti.. Sta carezzando l'aria?
+  EntityFound: Strusci il dorso della $hand sul viso di $N.
+  OthersFound: $n struscia il dorso della $hand sul viso di $N.
+  TargetFound: $n ti accarezza il viso con la sua $hand.
+  EntityAuto:  Ti accarezzi per sentire se c'è ancora la barba.
+  OthersAuto:  $n si passa le $hands sul viso, grattandosi il mento.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Mimi d'accarezzare qualcuno.
+  OthersNoArg: $n sta accarezzando il suo amico immaginario.
+  EntityFound: Sfiori con le punte dei polpastrelli il viso di $N.
+  OthersFound: $n sfiora delicatamente il volto di $N.
+  TargetFound: $n ti sfiora il viso con le punte delle dita. Fa il solletico!
+  EntityAuto:  Passi la $hand sul viso perpless$o.
+  OthersAuto:  $n si passa una $hand sul viso: che gioco o scherzo sta architettando?
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Muovi le $hands in aria disegnando tetre figure.
+  OthersNoArg: $n muove le $hands nell'aria, disegnando inquietanti figure.
+  EntityFound: Accarezzi il viso di $N con un sorriso malizioso.
+  OthersFound: $n fissa $N maliziosamente, mentre accarezza il suo viso.
+  TargetFound: $n ti accarezza il viso, con un vago sorriso inquietante.
+  EntityAuto:  Ti accarezzi il viso pensieros$o.
+  OthersAuto:  $n si accarezza il viso in cerca di qualche imperfezione.
+End
+RacialMessages:
+  Race:        RACE.THEPA
+  EntityNoArg: Allunghi le braccia e fendi l'aria con le $hands.
+  OthersNoArg: $n accarezza l'aria con movimento sinuoso delle $hands.
+  EntityFound: Accarezzi $N con la tua $hand.
+  OthersFound: $n accarezza $N con la sua $hand.
+  TargetFound: $n ti accarezza sul viso, che strana sensazione di viscido.
+  EntityAuto:  Ti accarezzi il viso contando le squame.
+  OthersAuto:  $n si accarezza il viso controllando le squame.
+End
+RacialMessages:
+  Race:        RACE.MINOTAUR
+  EntityNoArg: Accarezzi una bella porzione d'aria.
+  OthersNoArg: $n muove le $hands in aria mugghiando qualcosa di indecifrabile.
+  EntityFound: Accarezzi $N con la tua $hand.
+  OthersFound: $n accarezza $N con la sua $hand.
+  TargetFound: $n ti accarezza il viso energicamente.
+  EntityAuto:  Ti accarezzi il muso scacciando una mosca.
+  OthersAuto:  $n si accarezza il muso, grattandosi vagamente il naso.
+End
+RacialMessages:
+  Race:        RACE.ORC
+  EntityNoArg: Ti accaparri una bella porzione d'aria sbracciando a destra e a manca.
+  OthersNoArg: $n muove le $hands con i palmi bene aperti, accarezzando una sagoma invisibile.
+  EntityFound: Accarezzi $N sporcandol$O con le tue $hands.
+  OthersFound: $n accarezza $N con le sue sudicie $hands.
+  TargetFound: $n ti accarezza il viso con $hands sudaticce.
+  EntityAuto:  Ti accarezzi il viso spandendo l'unguento naturale del palmo della $hand.
+  OthersAuto:  $n si accarezza il viso lustrandolo a modo.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Vedi una sagoma nel cielo e cerco di afferrarla..
+  OthersNoArg: $n muove le zampe nell'aria cercando di toccare un punto nel vuoto.
+  EntityFound: Accarezzi $N con le tue morbide zampe.
+  OthersFound: $n accarezza $N con le zampette.
+  TargetFound: $n ti accarezza il viso con le zampine.. Mmm, morbido.
+  EntityAuto:  Ti accarezzi il muso lisciando le vibrisse.
+  OthersAuto:  $n si accarezza il musetto lisciandosi le vibrisse.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Vedi una sagoma nel cielo e cerco di afferrarla..
+  OthersNoArg: $n muove le zampe nell'aria cercando di toccare un punto nel vuoto.
+  EntityFound: Accarezzi $N con le tue morbide zampe.
+  OthersFound: $n accarezza $N con le zampette.
+  TargetFound: $n ti accarezza il viso con le zampine.. Mmm, morbido.
+  EntityAuto:  Ti accarezzi il muso lisciando le vibrisse.
+  OthersAuto:  $n si accarezza il musetto lisciandosi le vibrisse.
+End
+RacialMessages:
+  Race:        RACE.ARIAL
+  EntityNoArg: Accarezzi una bella porzione d'aria con la punta delle ali.
+  OthersNoArg: $n muove le ali sollevando una leggera, carezzevole brezza.
+  EntityFound: Accarezzi $N delicatamente con le tue ali.
+  OthersFound: $n accarezza $N sfiorandol$O con le ali.
+  TargetFound: $n ti accarezza il viso sfiorandomi con le ali.
+  EntityAuto:  Ti accarezzi il viso circondandoti con le ali lievemente.
+  OthersAuto:  $n si accarezza il viso muovendo delicatamente le ali.
+End

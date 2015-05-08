@@ -1,0 +1,52 @@
+FunName:    social_cuddle
+Intention:  INTENTION.FRIENDLY
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Chi vuoi coccolare..?
+  OthersNoArg: $n sta cercando qualcuno da coccolare.
+  EntityFound: Coccoli teneramente $N.
+  OthersFound: $n coccola teneramente $N.
+  TargetFound: $n ti coccola teneramente.
+  EntityAuto:  Ti coccoli.
+  OthersAuto:  $n si coccola per qualche minuto, che tener$o.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Ti piacerebbe essere coccolat$o!
+  OthersNoArg: $n emette un gentile mugolio voglioso di coccole.
+  EntityFound: Manifesti il tuo affetto per $N con qualche discreta coccola.
+  OthersFound: $n si lascia andare ad indecorose moine con $N.
+  TargetFound: Sei oggetto delle scomposte smancerie di $n.
+  EntityAuto:  Ti lasci andare ad un momento di intimità con te stess$o.
+  OthersAuto:  $n si abbraccia e si accarezza rotolando tranquillamente a mezz'aria.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Accarezzi un piacevole ricordo.
+  OthersNoArg: $n sembra assaporare un piacevole ricordo.
+  EntityFound: Poggi la $hand sulla testa di $N.
+  OthersFound: $n poggia la $hand sulla testa di $N senza violenza.
+  TargetFound: $n appoggia la fredda $hand sulla tua testa facendola scorrer fin alla nuca.
+  EntityAuto:  Ti massaggi i muscoli contemplandoti.
+  OthersAuto:  $n si massaggia i muscoli in contemplazione di se stess$o.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Socchiudi gli occhi con beata aria pacifica.
+  OthersNoArg: $n strizza un poco gli occhi in cerca di coccole.
+  EntityFound: Socchiudo gli occhi verso $N comunicando$GLI la tua voglia di coccole.
+  OthersFound: $n guarda $N languidamente... E' in cerca di coccoline.
+  TargetFound: $n ti sorride teneramente e socchiude gli occhi verso di te.. Vuole essere coccolat$o.
+  EntityAuto:  Ti coccoli un po' carezzandoti il muso con le zampe.
+  OthersAuto:  $n si dedica alla quotidiana toeletta.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Socchiudi gli occhi con beata aria pacifica.
+  OthersNoArg: $n strizza un poco gli occhi in cerca di coccole.
+  EntityFound: Socchiudo gli occhi verso $N comunicando$GLI la tua voglia di coccole.
+  OthersFound: $n guarda $N languidamente... E' in cerca di coccoline.
+  TargetFound: $n ti sorride teneramente e socchiude gli occhi verso di te.. Vuole essere coccolat$o.
+  EntityAuto:  Ti coccoli un po' carezzandoti il muso con le zampe.
+  OthersAuto:  $n si dedica alla quotidiana toeletta.
+End

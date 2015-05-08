@@ -1,0 +1,29 @@
+Code: torreelementi_room_frutteto-ew
+Sector: SECTOR.PLAIN
+Name: Tra i Filari
+Short: tra i filari
+
+Descr:
+Una stradina più larga delle altre divide il frutteto a demarcare per tipologia gli
+aberi a nord da quelli a sud.
+
+Width:	50m
+Depth:	3m
+Height: 200m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Il frutteto
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Il frutteto
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: Una zona coltivata
+End
+Exits:
+	Direction: DIR.EAST
+	Descr: Una macchia tetra
+End

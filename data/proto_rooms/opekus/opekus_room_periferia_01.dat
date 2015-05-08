@@ -1,0 +1,19 @@
+Code: opekus_room_periferia_01
+Sector: SECTOR.PATH
+Name: Il Sentiero Monotono
+Short: un sentiero coperto
+Descr:
+Il sentiero procede senza fine in direzione est-ovest protetto dalla folta vegetazione.
+Qua e là alcuni rami cercano di impedirti il passaggio ma lo sterrato è piuttosto
+agevole e non presenta difficoltà. La direzione verso ovest è piuttosto monotona e ti
+senti maggiormente attratto dall'altra anche se non te ne sai dare una ragione razionale.
+
+Width:	10m
+Depth:	10m
+Height: 10m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Il sentiero
+End
+

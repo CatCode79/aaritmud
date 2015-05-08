@@ -1,0 +1,52 @@
+FunName:    social_pant
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Ansimi per la fatica.
+  OthersNoArg: $n ansima vistosamente riprendendo fiato.
+  EntityFound: Ansimi per la fatica guardando $N.
+  OthersFound: $n ansima vistosamente guardando $N.
+  TargetFound: $n ansima vistosamente guardandoti.
+End
+RacialMessages:
+  Race:        RACE.HIGHELF
+  EntityNoArg: Ti fermi un istante a riprendere fiato.
+  OthersNoArg: Il petto di $n si muove rapidamente, sta ansimando.
+  EntityFound: Guardi $N mentre cerchi di riprendere fiato.
+  OthersFound: $n respira affannosamente mentre guarda $N.
+  TargetFound: $n respira affannosamente, guardandoti.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Hai il fiatone.
+  OthersNoArg: $n emette un acuto ronzio ad ogni respiro.
+  EntityFound: Respiri a fatica rivolgendoti verso $N.
+  OthersFound: $n emette un acuto ronzio intermittente guardando $N.
+  TargetFound: $n emette un acuto ronzio ad ogni respiro guardandoti.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Ansimi per il grande sforzo.
+  OthersNoArg: Il respiro di $n si fa percettibile per il grande sforzo.
+  EntityFound: Osservi $N ansimando.
+  OthersFound: Ansimando lievemente, $n osserva $N.
+  TargetFound: Ansimando lievemente, $n ti osserva.
+  EntityAuto:  Chini il capo ansimando leggermente.
+  OthersAuto:  $n china il capo ansimando leggermente.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Il tuo respiro si fa via via più affannoso.
+  OthersNoArg: La bocca di $n si apre lievemente via via che il suo respiro diviene affannoso.
+  EntityFound: Un impercettibile affanno scuote le tue vibrisse mentre guardo $N..
+  OthersFound: $n guarda $N e le sue vibrisse vibrano affannate.
+  TargetFound: $n ti guarda stringendo le pupille, i movimenti del suo petto tradiscono un certo affanno.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Il tuo respiro si fa via via più affannoso.
+  OthersNoArg: La bocca di $n si apre lievemente via via che il suo respiro diviene affannoso.
+  EntityFound: Un impercettibile affanno scuote le tue vibrisse mentre guardo $N..
+  OthersFound: $n guarda $N e le sue vibrisse vibrano affannate.
+  TargetFound: $n ti guarda stringendo le pupille, i movimenti del suo petto tradiscono un certo affanno.
+End

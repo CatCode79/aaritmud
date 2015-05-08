@@ -1,0 +1,29 @@
+Code: krablath_room_terrazza-02
+Sector: SECTOR.PLAIN
+Name: [white]La Terrazza[close]
+Short: [white]la terrazza[close]
+
+Descr: 
+Su un [peru]graticcio[close] in legno chiaro stanno lentamente crescendo delle piccole piantine di vimini che ancora non precludono la vista della zona sottostante. Da questa posizione puoi ammirare il giardino cinto dall'invalicabile muraglia rocciosa.
+Sulla destra una scaletta in pietra scende e si collega ad un sentierino che aggira la casa.
+DescrSmell: 
+Una calda fragranza di pane fuoriesce dalla casa.	
+DescrHearing:
+Un incessante ronzio di operosi insetti.
+
+Width:	4m
+Depth:	3m
+Height: 200m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: Giù verso il giardino.
+End
+Exits:
+  Direction: DIR.NORTHWEST
+  Descr: Al terrazzo.
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	Aggirando la casa.
+End

@@ -1,0 +1,34 @@
+Code: torreelementi_room_torre_terrazza_ns
+Sector: SECTOR.HOUSE
+Name: Il Balconcino [green]Panoramico[close]
+Short: un balconcino panoramico
+Descr: 
+Una striscia di pietra e metallo larga poco più di un metro percorre il perimetro
+della torre. Il parapetto è orlato da merli irregolari di pietra che arrivano ad
+oltre i due metri di altezza ma nelle zone più basse non supera il metro.
+Ti trovi a metà fra due finestroni ed hai la certezza che la parete stia vibrando.
+DescrHearing:
+Man mano che avvicini la testa alla parete si fa più distinto un ronzio uniforme.
+
+Extras:
+  Keywords:	merli pietra
+  Descr: Tutta la merlatura è costellata di sferette metalliche piantate nella pietra
+End
+Extras:
+  Keywords: ronzio
+  Descr: Il ronzio accompagnato dalla vibrazione
+  DescrSixth: Ci deve essere qualcosa in fermento sull'altro lato del muro
+End
+
+Width:	7 m
+Depth:	7 m
+Height: 5 m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: Un finestrone
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Il balconcino
+End

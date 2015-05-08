@@ -1,0 +1,42 @@
+FunName:    social_stare
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Guardi fisso davanti a te, assort$o nei tuoi pensieri.
+  OthersNoArg: $n guarda fisso davanti a sé, assort$o nei suoi pensieri.
+  EntityFound: Guardi fisso $N, pers$o nei suoi occhi..
+  OthersFound: $n guarda fisso $N, pers$o nei suoi occhi..
+  TargetFound: $n ti guarda fisso, totalmente pers$o nei tuoi occhi.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Lasci il tuo sguardo perdersi nel vuoto.
+  OthersNoArg: Lo sguardo di $n è rivolto ad un lontano punto imprecisato.
+  EntityFound: I tuoi occhi sono attratti da quelli di $N.
+  OthersFound: $n sta cercando pagliuzze negli occhi di $N.
+  TargetFound: Lo sguardo di $n ti dona consapevolezza delle forze della natura.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Fissi attentamente quel particolare caratteristico e peculiare.
+  OthersNoArg: $n fissa attentamente un segno caratteristico e peculiare.
+  EntityFound: Pianti gli occhi addosso a $n senza tante cerimonie.
+  OthersFound: $n pianta gli occhi addosso a $N dimentico di tutto.
+  TargetFound: $n ti pianta gli occhi addosso come affilati pugnali.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Stringi le pupille fissando un punto imprecisato nel vuoto.
+  OthersNoArg: $n scruta i presenti stringendo le pupille fino a renderle un sottile filo nero.
+  EntityFound: Fissi intensamente $N meditando sul da farsi.
+  OthersFound: $n non stacca lo sguardo da $N, l$O sta proprio fissando.
+  TargetFound: $n ti segue con lo sguardo senza staccare gli occhi da te un solo istante.. Ma cosa vuole?
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Stringi le pupille fissando un punto imprecisato nel vuoto.
+  OthersNoArg: $n scruta i presenti stringendo le pupille fino a renderle un sottile filo nero.
+  EntityFound: Fissi intensamente $N meditando sul da farsi.
+  OthersFound: $n non stacca lo sguardo da $N, l$O sta proprio fissando.
+  TargetFound: $n ti segue con lo sguardo senza staccare gli occhi da te un solo istante.. Ma cosa vuole?
+End

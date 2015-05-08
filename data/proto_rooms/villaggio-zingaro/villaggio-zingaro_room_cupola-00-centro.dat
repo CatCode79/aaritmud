@@ -1,0 +1,54 @@
+Comment: qui non ho fatto differenziazioni stagionali, volevo mantenere la cupola immune dalle solite leggi naturali quindi si troverà verdeggiante anche in inverno..questo si noterà guardandola dall'esterno cioè dalla room 01 del bosco...qui c'è già troppo da vedere..
+
+Code: villaggio-zingaro_room_cupola-00-centro
+Sector: SECTOR.WOOD
+
+Name: La Cupola Vegetale
+Short: un'ampia cupola vegetale
+
+Descr:
+I rami flessuosi di decine di [olivedrab]alberi[close] si sono qui intrecciati a formare un'ampia cupola. Qualche sfacciata propaggine è tesa verso il terreno. Esattamente al centro della struttura vegetale alcune liane reggono, a pochi metri dal suolo, un'opalescente [floralwhite]pietra[close] dalle stupefacenti dimensioni.
+DescrNight: 
+Una [floralwhite]fulgida pietra[close] rischiara con la sua limpida [floralwhite]luce[close] quella che sembra essere una larga nicchia vegetale. Gli [olivedrab]alberi[close] dai quali è sostenuta le sono cresciuti intorno come a volerle fornire riparo e protezione da individui indesiderati.
+DescrHearing:
+Regna un silenzio quasi irreale, come se tutto il bosco fosse in muta contemplazione.
+DescrHearingNight: 
+Plic plic plic... solo un regolare gocciolio rompe l'innaturale silenzio che altrimenti regnerebbe in questo luogo.
+DescrSmell: 
+Le piante tutt'intorno emanano un forde odore [orange]agrumato[close] che ti stordisce.
+DescrSmellNight: 
+Il tuo naso si improvvisa igrometro per l'occasione; l'incredibile umidità dell'aria circostante scatena tutti i profumi del sottobosco che non riescono però a sovrastare l'odore [orange]agrumato[close] che ormai ti è penetrato anche nelle ossa..
+DescrSixth: 
+La gemma, gli alberi intrecciati... sembra improbabile che sia tutta un'opera nata spontaneamente, qualcosa o qualcuno deve aver contribuito alla creazione di questa meraviglia.
+ 
+
+
+Extras:
+ 	Keywords: rami liane alberi
+ 	Descr:
+	Slanciati alberi disposti ad anello sembrano tessuti da abili mani fino a formare una volta; le robuste 
+	appendici mantengono sospesa la grossa pietra inglobandola per almeno un terzo.
+End
+
+Extras:
+ 	Keywords: pietra gemma luce  
+ 	Descr: 
+	Una magnifica pietra madreperlacea inglobata in un sostegno vegetale; l'estremità visibile è sfaccettata e gli spigoli, come la punta, sono finemente smussati.
+	DescrNight:
+	Una rilucente pietra dalle notevoli dimensioni è sospesa a qualche metro da terra, alcuni insetti notturni le svolazzano intorno probabilmente attirati dall'ammaliante luce che emette.
+	DescrSixth:
+	Ti chiedi se sia stata lavorata da qualcuno per ottenere questa forma.
+	DescrTouch: 
+	Ti allunghi tentando di sfiorare l'enorme [floralwhite]gemma[close] ma la visione dei rami così avvinghiati ti fa desistere.
+	DescrTouchNight: 
+	Attratto come una falena dalla luce della pietra ti allunghi per sfiorarla ma questa comincia a pulsare, come avessi varcato un confine invisibile.
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+Exits:
+	Direction: DIR.SOUTHWEST
+	Descr: All'esterno
+	Door:	villaggio-zingaro_item_door-interna-cupola
+End

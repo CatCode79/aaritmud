@@ -1,0 +1,38 @@
+FunName:    social_nudge
+Intention:  INTENTION.FRIENDLY
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Tiri una gomitata.. nel vuoto.
+  OthersNoArg: $n si gira colpendo con il gomito.. assolutamente nulla.
+  EntityFound: Dai una gomitatina sul fianco a $N.
+  OthersFound: $n dà una gomitatina sul fianco a $N.
+  TargetFound: $n ti dà una gomitatina sul fianco.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Allenamento! Necessario alla sopravvivenza!
+  OthersNoArg: $n si allena a colpire di gomiti.
+  EntityFound: Pianti il gomito nella pancia di $N.
+  OthersFound: $n pianta il proprio gomito nella pancia di $N
+  TargetFound: $n ti pianta un gomito in pancia!
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Ti guardi intorno con fare dispettoso.
+  OthersNoArg: $n guarda i presenti con fare dispettoso.
+  EntityFound: Dai una gomitatina d'intesa a $N.
+  OthersFound: $n ridacchia sotto le vibrisse e dà una gomitatina a $N.
+  TargetFound: $n ti dà una gomitatina d'intesa ridacchiando fra sé.
+  EntityAuto:  Ti prendi a gomitate, comodo vero?
+  OthersAuto:  $n si prende a gomitate, sarà una nuova tecnica digestiva.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Ti guardi intorno con fare dispettoso.
+  OthersNoArg: $n guarda i presenti con fare dispettoso.
+  EntityFound: Dai una gomitatina d'intesa a $N.
+  OthersFound: $n ridacchia sotto le vibrisse e dà una gomitatina a $N.
+  TargetFound: $n ti dà una gomitatina d'intesa ridacchiando fra sé.
+  EntityAuto:  Ti prendi a gomitate, comodo vero?
+  OthersAuto:  $n si prende a gomitate, sarà una nuova tecnica digestiva.
+End

@@ -1,0 +1,34 @@
+FunName:    social_mad
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Uno sguardo totalmente INSANO ti pervade gli occhi!!!
+  OthersNoArg: Uno sguardo totalmente INSANO pervade gli occhi di $n!!!
+  EntityFound: Rivolgi a $N uno sguardo totalmente insano!
+  OthersFound: $n dedica a $N uno sguardo totalmente insano.
+  TargetFound: $n ti guarda con uno sguardo pericolosamente folle.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Lasci che le voci prendano il controllo della tua mente.
+  OthersNoArg: L'esperessione sul volto di $n è un chiaro sintomo di delirio.
+  EntityFound: Dai ascolto a quello che le voci ti dicono su $N.
+  OthersFound: Preda del delirio $n rivolge la sua attenzione a $N.
+  TargetFound: In preda al delirio $n se la prende con te.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Rotei gli occhi allargando e stringendo le pupille.. sei pazz$o!
+  OthersNoArg: $n allarga e stringe le pupille e miagola a vanvera.. E' impazzit$o?
+  EntityFound: Scuoti il capo e rotei le orecchie mentre guardi $N follemente.
+  OthersFound: $n fissa $N con aria da matt$o mentre rotea le orecchie.
+  TargetFound: $n è impazzit$o, ti guarda sorridendo come un folle mentre rotea le orecchie!
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Rotei gli occhi allargando e stringendo le pupille.. sei pazz$o!
+  OthersNoArg: $n allarga e stringe le pupille e miagola a vanvera.. E' impazzit$o?
+  EntityFound: Scuoti il capo e rotei le orecchie mentre guardi $N follemente.
+  OthersFound: $n fissa $N con aria da matt$o mentre rotea le orecchie.
+  TargetFound: $n è impazzit$o, ti guarda sorridendo come un folle mentre rotea le orecchie!
+End

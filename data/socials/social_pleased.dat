@@ -1,0 +1,48 @@
+FunName:    social_pleased
+Intention:  INTENTION.FRIENDLY
+Expression: compiaciuto
+Smiles:     :> :->
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Incroci le braccia sul petto e sorridi con soddisfazione.
+  OthersNoArg: $n incrocia le braccia sul petto e sorride con soddisfazione.
+  EntityFound: Sorrido a $N con soddisfazione.
+  OthersFound: $n sorride a $N con soddisfazione.
+  TargetFound: $n ti sorride con soddisfazione.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Manifesti, raggiante, la tua sodisfazione.
+  OthersNoArg: $n ronza tutt'intorno con espressione estasiata.
+  EntityFound: Dimostri a $N la tua soddisfazione.
+  OthersFound: $n ha un'espressione estasiata mentre ronza intorno a $N.
+  TargetFound: $n ti ronza intorno estasiat$o.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Incrocio le braccia sul petto con un ghigno compiaciuto.
+  OthersNoArg: $n incrocia le braccia sul petto con un ghigno compiaciuto.
+  EntityFound: Rivolgi un ghigno compiaciuto a $N.
+  OthersFound: $n rivolge un ghigno compiaciuto a $N.
+  TargetFound: $n ti rivolge un ghigno compiaciuto.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Sì, sei proprio soddisfatt$o.
+  OthersNoArg: $n è soddisfatt$o di come stiano le cose.
+  EntityFound: Guardi $N con aria compiaciuta.
+  OthersFound: $n sorride sotto le vibrisse, guardando $N con aria soddisfatta.
+  TargetFound: $n ti fissa con aria compiaciuta e intanto sorride sotto le vibrisse..
+  EntityAuto:  Sei molto soddisfatt$o del tuo operato.
+  OthersAuto:  $n è compiaciut$o di se stess$o.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Sì, sei proprio soddisfatt$o.
+  OthersNoArg: $n è soddisfatt$o di come stiano le cose.
+  EntityFound: Guardi $N con aria compiaciuta.
+  OthersFound: $n sorride sotto le vibrisse, guardando $N con aria soddisfatta.
+  TargetFound: $n ti fissa con aria compiaciuta e intanto sorride sotto le vibrisse..
+  EntityAuto:  Sei molto soddisfatt$o del tuo operato.
+  OthersAuto:  $n è compiaciut$o di se stess$o.
+End

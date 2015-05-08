@@ -1,0 +1,28 @@
+Code: karpuram_room_city-torre-guardia-bottom-se
+Sector: SECTOR.PLAIN
+Name: Ai Piedi dell'[lime]Osservatorio[close]
+Short: uno spuntone di [lime]roccia[close]
+Descr:
+Un tratto di sentiero erto e disagevole ti porta in cima ad uno spuntone di [yellow]roccia nuda[close]
+dove è stata edificata una costruzione a sezione tondeggiante ed alta almeno una decina
+di metri. L'impalcato che la sorregge è fatto di tronchi legati assieme da corde e
+rampicanti. Sulla cima, in una sorta di cabina avvolta da paglia e rami verdi sta una
+sorta di [lightgreen]postazione osservatorio[close].
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Giù nuovamente nella vegetazione
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Giù nuovamente nella vegetazione
+End
+Exits:
+  Direction: DIR.UP
+  Descr: La scala lungo l'impalcato
+End
+

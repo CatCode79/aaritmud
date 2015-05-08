@@ -1,0 +1,22 @@
+Code: mfdonald_room_dispensa_01
+Sector: SECTOR.AIR
+Name: Il Retrobottega
+Short: uno sgabuzzino
+Descr: 
+Da fuori non si sarebbe mai detto di poter disporre di tanto spazio. Il baracchino
+potrebbe andare avanti anche senza forniture per settimane intere da tutto il cibo
+stoccato qui dentro.
+Il senso della pulizia non è concetto che possa essere spiegato ad un mindflayer
+ma il fritto ammazza qualunque patogeno!
+
+
+DescrSmell: L'odore di fritto è ovunque anche nei tuoi abiti.
+
+Width:	7m
+Depth:	7m
+Height: 5m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: La friggitoria
+End

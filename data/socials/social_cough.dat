@@ -1,0 +1,48 @@
+FunName:    social_cough
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Tossisci discretamente..
+  OthersNoArg: $n tossisce discretamente..
+  EntityFound: Tossisci discretamente guardando $N.
+  OthersFound: $n tossisce discretamente guardando $N.
+  TargetFound: $n tossisce discretamente guardandomi.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Tossisci discretamente..
+  OthersNoArg: $n produce suoni acuti ed intermittenti. Sembra stia soffocando!
+  EntityFound: Tossisci discretamente per attirare l'attenzione di $N.
+  OthersFound: $n attira l'attenzione di $N con dei teatrali colpi di tosse.
+  TargetFound: La tua attenzione è attirata dai teatrali colpi di tosse di $n.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Tossisci.
+  OthersNoArg: $n tossisce.
+  EntityFound: Tossisci addosso a $N.
+  OthersFound: $n tossisce addosso a $N.
+  TargetFound: $n ti tossisce addosso.
+  EntityAuto:  Tossisci forte.. ma in modo preoccupante, che ti abbian avvelenat$o?
+  OthersAuto:  $n tossisce in modo preoccupante.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Tossisci ferinamente.
+  OthersNoArg: $n tossisce discretamente.
+  EntityFound: Tossisci verso $N.
+  OthersFound: $n guarda $N e d'improvviso tossisce.
+  TargetFound: $n tossisce del tutto inaspettatamente!
+  EntityAuto:  Tossisci senza tregua.. dev'esserti andata di traverso una palletta di pelo.
+  OthersAuto:  $n tossisce senza tregua.. che gli sia andata di traverso una palletta di pelo?
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Tossisci ferinamente.
+  OthersNoArg: $n tossisce discretamente.
+  EntityFound: Tossisci verso $N.
+  OthersFound: $n guarda $N e d'improvviso tossisce.
+  TargetFound: $n tossisce del tutto inaspettatamente!
+  EntityAuto:  Tossisci senza tregua.. dev'esserti andata di traverso una palletta di pelo.
+  OthersAuto:  $n tossisce senza tregua.. che gli sia andata di traverso una palletta di pelo?
+End

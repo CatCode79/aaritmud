@@ -1,0 +1,32 @@
+Comment:
+Decisamente inside :-P
+
+Code: novizi_room_stomaco-bovino
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: L'Accesso allo Stomaco
+Short: la via per lo stomaco
+
+Descr:
+Sei all'ingresso dello stomaco di Edo Bovino Mannaro! Esiste una sola via d'uscita ma
+non la consiglierei a nessuno!
+DescrTouch: 
+Plotch Plotch!
+DescrSmell: 
+Edo il Bovino mannaro è ghiotto di aglio, purtroppo.
+DescrSixth:
+Riesci ad intuire che a breve la situazione si farà piuttosto acida!
+DescrHearing:
+Riesci a sentire il tipico rumore vibrato e persistente della peristalsi bovina
+DescrTaste:
+Ha un che di vagamente acidulo ma con il tempo potrebbe migliorare.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+
+Exits:
+	Direction: DIR.SOUTHEAST
+	Descr: La via per il rumine
+End

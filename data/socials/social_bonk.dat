@@ -1,0 +1,50 @@
+FunName:    social_bonk
+Intention:  INTENTION.AGGRESSIVE
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: C'è qualcuno da picchiare?
+  OthersNoArg: $n cerca qualcuno da picchiare.
+  EntityFound: Dai una botta sulla testa di $N.
+  OthersFound: $n dà una botta sulla testa di $N, *TOCTOC*!!
+  TargetFound: $n ti dà una botta sulla testa, *AHHUCC*!!
+  EntityAuto:  ti dai una botta in testa.
+  OthersAuto:  $n si dà una botta in testa.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Chi può voler picchiare un esserino come te?
+  OthersNoArg: $n chiude i pugnetti cercando qualcuno da picchiare.
+  EntityFound: Martelli con i tuoi pugnetti la testa di $N.
+  OthersFound: $n investe la testa di $N con una grandine di pugnetti.
+  TargetFound: $n ti colpisce la testa con una scarica di pugnetti.
+  EntityAuto:  ti colpisci la testa con le nocche: suona di vuoto!
+  OthersAuto:  $n si colpisce la testa con le nocche producendo un suono di vuoto.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: ti vien voglia di un po' di sana violenza.
+  OthersNoArg: $n appare propens$o a menar le $hands.
+  EntityFound: Dai una botta in testa a $N.
+  OthersFound: $n dà una botta in testa a $N.
+  TargetFound: $n ti dà una botta in testa.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Agiti una zampa nell'aria cercando un capo su cui calarla.
+  OthersNoArg: $n cerca una testa da picchiare.
+  EntityFound: Cali la tua possente zampa sulla testa di $N!
+  OthersFound: $n cala una sonora zampata sulla testa di $N.
+  TargetFound: $n ti dà una sonora zampata in testa!
+  EntityAuto:  La tua zampa si rivolta contro di te picchiandomi in testa!
+  OthersAuto:  $n si prende a zampate sul capo..
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Agiti una zampa nell'aria cercando un capo su cui calarla.
+  OthersNoArg: $n cerca una testa da picchiare.
+  EntityFound: Cali la tua possente zampa sulla testa di $N!
+  OthersFound: $n cala una sonora zampata sulla testa di $N.
+  TargetFound: $n ti dà una sonora zampata in testa!
+  EntityAuto:  La tua zampa si rivolta contro di te picchiandomi in testa!
+  OthersAuto:  $n si prende a zampate sul capo..
+End

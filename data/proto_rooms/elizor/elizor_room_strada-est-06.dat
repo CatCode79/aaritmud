@@ -1,0 +1,48 @@
+Code: elizor_room_strada-est-06
+Sector: SECTOR.PATH
+Name: Il Sagarato della Chiesa
+Short: di fronte alla chiesetta
+
+Descr:
+La strada raggiunge il suo punto più ampio nello spazio prospiciente una piccola chiesetta.
+Da qui puoi osservare la facciata, semplice con solo il [sienna]ligneo[close] portone e una finestrella circolare e spezzarne il modesto prospetto.
+Sulla destra uno slanciato campanile affusto in conci di pietra grigia, sotto la cuspide [teal]embricata[close], attraverso delle bifore scorgi delle [goldenrod]campane.[close]
+La visuale sul lato opposto è completamente ostruita da un muretto a secco che prosegue per diversi metri.
+DescrTouch: 
+Ti avvicini al portone come per aprirlo.
+DescrSmell: 
+Profumo di campagna.
+DescrSixth:
+Nonostante l'apparente stato di abbandono la costruzione, di notevole fattura, pare esserci conservata bene.
+DescrHearing:
+Erano campane quelle che hai appena sentito? No...forse solo la tua immaginazione.
+DescrTaste:
+no_send
+
+Extras:
+	Keywords:	portone ligneo
+	Descr:
+	Un portone in legno massiccio diviso in tanti riquadri raffiguranti scene di devozione.
+End
+Extras:
+	Keywords:	cuspide embricata
+	Descr:
+	La cuspide del campanile è ricoperta di tante [teal]tegoline metalliche[close] a forma di petalo	
+End
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.WEST
+	Descr:	La via
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	La chiesetta
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	Il sagrato
+End

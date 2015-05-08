@@ -1,0 +1,48 @@
+Code: mfdonald_room_vialetto-est
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Il Vialetto di Casa Entropy
+Short: Il vialetto di casa Entropy
+
+Descr:
+Sei lungo il vialetto di casa dello zio, incrocia le dita e spera
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Extras:
+	Keywords: chiave
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: Il vialetto prosegue
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Il negozio
+End
+

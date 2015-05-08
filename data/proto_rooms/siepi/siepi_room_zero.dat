@@ -1,0 +1,63 @@
+Code: siepi_room_zero
+Sector: SECTOR.WOOD
+Name: Zero - Room di Presentazione
+Short: Zero - Room di Presentazione
+Descr:
+Stanzina foderata in legno scuro con lucine azzurrine.
+Al centro una scrivania con dietro una libreria a tutta parete; sulla libreria ci son
+sì tanti volumi da non ritener possibile che siano scritti anche dentro.
+
+[red]ZONA SIEPI[close] - descrizione sommaria:
+al solito le mie stanze di descrizione vivono in coordinate [red]42 42 42[close].
+ 
+Zona in forma di 3*3 semplice e con solo un'illogica semplice; uscendo ai lati si rientra sul lato opposto. Room all'aperto con vegetazione.
+Da portare avanti in modo semplice per poi corredare di oggetti.
+
+
+inizio del pezzo di area dell'intrico delle siepi, non si chiama labirinto per il
+ semplice fatto che un intrico serio se verrà fatto avrò maggior diritto di questo nome 
+QUEST IPOTETICA E SVILUPPO FUTURO
+La zona è pensata come una sorta di [red]bosco Atro[close] alla Tolkien in cui c'è solo un albero a comandare (Akh-Dara) e poi un circolo di "consiglieri" sempre alberi che stanno nella room che si resetta e ogni tanto pare vuota. Successivamente sarà il caso di dare seguito e migliorare la cosa come se gli alberi prendessero forma (animale?) per andare o volare via a farsi i fatti loro o osservazioni varie.
+Da qui il materiale per lo sviluppo della questa.
+Quando vi saranno anche dei mob, il consiglio dei guardiani (pare una repubblica islamica detto così) potrebbe esser costituito da alberi mob di cui magari si resetta la forma (uccelli/orsi/alberi/ent...)
+
+lo sviluppo dei una quest dovrebbe poter prevedere diversi esiti legati magari all'allign e al caso in modo che dia o meno punti in ragione anche di quanto si è allineato con il proprio bg l'esito quest.
+
+
+[green]p.s:[close] Ricordate di dar da magiare al gatto quando ve ne sarà uno qui in zona
+--- etimo di druido reperito in varie parti della rete per la scelta del nome dell'albero colossale
+etimologia da prendere con le pinze-ho trovato tanta di quella roba in più che non mi assumo la conoscenza dell'etimo druidico
+
+(from etymonline.com)
+1509, from O.Fr. druide, from L. Druidae (pl.), from Gaulish Druides, from O.Celt. *derwijes, representing O.Celt. derwos "true" and *dru- "tree" (especially oak) + *wid- "to know" (cf. vision). Hence, lit., perhaps, "they who know the oak." O.E., too, had the same word for "tree" and "truth" (treow). The Eng. form comes via L., not immediately from Celtic. The O.Ir. form was drui (dat. and acc. druid; pl. druad); Mod.Ir. and Gael. draoi, gen. druadh "magician, sorcerer." Not to be confused with United Ancient Order of Druids, secret benefit society founded in London 1781.
+
+(from wikipedia)
+The modern English word druid derives from Latin druides (pronounced dru_ides).
+The native Celtic word for "druid" is first attested in Latin texts as druides (plural)(5) and other texts also employ the form druidae, while the same term was used by Greek ethnographers as _______ (druid_s).(6) It is normally understood that Latin druides is a borrowing from Gaulish.(7)(5) Although no extant Romano-Celtic inscription is known to contain the form,(8) the word is cognate with the later insular Celtic words, Old Irish druí ("druid, sorcerer") and early Welsh dryw ("seer").(5) Based on all available forms, the hypothetical proto-Celtic word may then be reconstructed as *dru-wid-s (pl. *druwides) meaning "oak-knower". The two elements go back to the Proto-Indo-European roots *deru-(9) and *weid- "to see".(10) The sense of "oak-knower" is confirmed by Pliny the Elder,(5) who in his Natural History (incorrectly) etymologised the term as containing the Greek noun ____ ("oak-tree") and the Greek suffix -____.
+
+Incidentally, both Irish druí and Welsh dryw could also refer to the wren,(5) possibly connected with an association of this bird with augury bird in Irish and Welsh tradition (see also Wren Day).(5)(11)
+
+Ath-Dara
+l'ho trovato come nome di locazione che significa qcosa come "frm oak ford" ma lo modifico a cavolo restituendo fonia celtica in chiave alberosa
+Akh-Dru o Akh-Dara
+
+
+Width:	2m
+Depth:	2m
+Height: 2m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Inizia l'area 
+End
+Exits:
+  Direction: DIR.DOWN
+  Descr: Inizia l'area 
+  Destination: 0 0 0 siepi 
+End
+Exits:
+  Direction: DIR.UP
+  Descr: Inizia l'area 
+  Destination: 42 42 42 siepi 
+End
+

@@ -1,0 +1,36 @@
+Code: ikea_room_store-food-001
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Aarit Food Discount
+Short: aarit food discount
+
+Descr:
+Magazzino Ikea, Reparto [aqua]alimentari[close];
+arredamento in corso. Per soli 2 Euro ci scusiamo con la clientela; accorrete numerosi.
+La stanza viene rimessa in ordine al minuto 42 di ogni ora.
+Extras:
+	Keywords: chiave
+	Descr:
+	Nessuna chiave qui
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Al centro del magazzino
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Magazzino ikea
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Magazzino ikea
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Al reparto cibo con branchie
+End

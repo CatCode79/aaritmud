@@ -1,0 +1,24 @@
+Code: opekus_room_ofidian_temple_20
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: L'Abside
+Short: l'abside
+
+Descr:
+$hands possenti pare abbiano piegato e plasmato la roccia. L'effetto è un'unica parete
+foggiata ad onde tumultuose del mare in tempesta. Se non fosse per il colore nero come
+la pece, potrebbe sembrare una massa d'acqua nell'atto di infrangersi al suolo.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: La cupola
+End
+Exits:
+  Direction: DIR.NORTHEAST
+  Descr: Verso un onda più bassa di altre
+End
+

@@ -1,0 +1,37 @@
+Code: opekus_room_ofidian_common_06
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: I Gradini del Tempio
+Short: la scalinata
+
+Descr:
+La scalinata è ripida e stretta, scende da est e si biforca in due che continuano la
+discesa verso ovest. A biforcare la discesa è una statua che pare emergere dalla roccia
+come fosse una creatura che esce dall'acqua.
+
+Extras:
+	Keywords: statua
+	Descr:
+	Rappresenta un sciamano argoniano che innalza una mazza cerimoniale e volge lo sguardo
+	verso l'apice della scalinata.
+	DescrTouch:
+	È una statua ricavata scavando abilmente della pietra
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: In strada
+End
+Exits:
+  Direction: DIR.SOUTHWEST
+  Descr: In strada
+End
+Exits:
+  Direction: DIR.NORTHWEST
+  Descr: In strada
+End
+

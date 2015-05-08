@@ -1,0 +1,20 @@
+<div id="account_block" class="account_block">${account_block}</div>
+<div id="logo_title" class="logo_title"><a href="index.html" style="border-bottom-width:0;"><img src="graphics/title.gif" width="336" height="102" alt="${game_name_nocolor}" border="0" />${event_image}</a></div></div>
+<div id="search_block" class="search_block">
+	<br><br>
+</div><div style="clear:both;"></div>
+<br style="line-height:50%;">
+<table><tr>
+<td valign="top" style="line-height:1.4em;">
+	${menu}<br>
+	${seconds_to_shutdown}
+	<iframe id="below_menu" class="below_menu" src="below_menu.html" frameborder="0" scrolling="no" marginwidth="0"  marginheight="0">
+	</iframe>
+	<script>
+	$('#below_menu').load(function () {
+		$(this).height($(this).contents().height());
+	});
+	</script>
+</td>
+<td valign="top" width="100%">
+	<div id="on-bars" class="on-bars">

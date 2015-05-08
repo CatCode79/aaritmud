@@ -1,0 +1,12 @@
+FunName:    social_puke
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Poggi le mani sulle ginocchia e vomiti anche l'anima.
+  OthersNoArg: $n s'incurva con le mani alle ginocchia e vomita anche l'anima.
+  EntityFound: Metti la mano sulla spalla di $N per sorreggerti mentre vomiti.
+  OthersFound: $n sbianca, s'aggrappa alla spalla di $N e vomita.
+  TargetFound: $n ti s'appoggia alla spalla ed inizia a vomitare.
+  EntityAuto:  Ti infili le dita in gola per rivedere quello che hai ingurgitato.
+  OthersAuto:  $n si infila le dita in gola.
+End

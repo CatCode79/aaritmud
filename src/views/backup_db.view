@@ -1,0 +1,20 @@
+﻿<script>
+function backupDB() {
+	if (!window.confirm("Vuoi veramente eseguire il backup delle cartelle data e persistence?")) {
+		return;
+	}
+	$("#backup_submit").attr('disabled', 'disabled');
+	$("#backup_submit").fadeOut("slow");
+	$("#message").html("Backup del database in corso... <img src='graphics/wait.gif' width='16' height='16' /> ")
+	$.post("backup_db.html", {backup_db : 1}, afterBackupDB);
+}
+
+function afterBackupDB(response) {
+	$("#message").html(response);
+	$("#backup_submit").removeAttr('disabled');
+	$("#backup_submit").fadeIn("slow")
+}
+</script>
+<h3>Backup Database:</h3>
+<input type="submit" id="backup_submit" onclick="backupDB();" value="Esegui Backup" /><br><br>
+<span id="message"></span><br>

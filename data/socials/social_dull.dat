@@ -1,0 +1,42 @@
+FunName:    social_dull
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Assumi un'espressione alquanto ebete..
+  OthersNoArg: $n si guarda attorno in maniera ebete..
+  EntityFound: Guardi $N con aria da ebete..
+  OthersFound: $n guarda $N in modo ebete..
+  TargetFound: $n ti guarda con espressione particolarmente ebete..
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Sorridi stupidamente.
+  OthersNoArg: $n ha la tipica espressione vacua dei giovani pixie.
+  EntityFound: Guardi $N con un sorriso ebete stampato in volto.
+  OthersFound: $n guarda $N con un'espressione più ebete del solito.
+  TargetFound: Ti accorgi solo ora che ti guarda che $n ha un'aria davvero ebete.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Assumi un'espressione vuota ed assente.
+  OthersNoArg: $n assume un'espressione vuota ed assente.
+  EntityFound: Assumi un'espressione vuota ed assente, smettendo di vedere $N.
+  OthersFound: $n assume un'espressione vuota ed assente in direzione di $N.
+  TargetFound: Incroci lo sguardo vuoto e assente di $N.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Imiti un'espressione da cane.
+  OthersNoArg: $n sorride con aria ebete, forse sta imitando qualcuno.
+  EntityFound: Fissi $N simulando un'espressione da ebete.
+  OthersFound: $n fissa $N con aria da ebete, cosa starà pensando realmente?
+  TargetFound: $n ti fissa con aria da ebete ma è meglio non fidarsi troppo..
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Imiti un'espressione da cane.
+  OthersNoArg: $n sorride con aria ebete, forse sta imitando qualcuno.
+  EntityFound: Fissi $N simulando un'espressione da ebete.
+  OthersFound: $n fissa $N con aria da ebete, cosa starà pensando realmente?
+  TargetFound: $n ti fissa con aria da ebete ma è meglio non fidarsi troppo..
+End

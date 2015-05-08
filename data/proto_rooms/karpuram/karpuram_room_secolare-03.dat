@@ -1,0 +1,56 @@
+Code: karpuram_room_secolare-03
+Sector: SECTOR.PLAIN
+Name: La Prima Piattaforma
+Short: sulla prima piattaforma
+
+Descr:
+Posando i $feet sulla prima piattaforma ti rendi conto di quanto sia solida e 
+resistente, una dimostrazione della bravura indiscussa di questo clan elfico.
+Guardando verso il basso riesci a stimare di trovarti ad un'altezza di circa
+dieci metri dal suolo, muovendo lo sguardo attorno noti un corrimano di corda
+seguire perfettamente l'andamento della piattaforma che ruota attorno al tronco
+dell'albero. Verso sud noti un primo ballatoio con una piccola postazione di
+guardia, ad ovest invece noti una stanza ricavata con assi in legno, scuro
+come la corteccia dell'albero e con un tetto di foglie, larghe e [green]verdi[close].
+Alle tue spalle, una scala ti conduce a terra.
+
+DescrNight:
+Posando i $feet sulla prima piattaforma ti rendi conto di quanto sia solida e 
+resistente, una dimostrazione della bravura indiscussa di questo clan elfico.
+Guardando verso il basso non ti rende bene conto dell'altezza a causa della
+scarsa illuminazione notturna, muovendo lo sguardo attorno noti un corrimano di 
+corda seguire perfettamente l'andamento della piattaforma, l'illuminazione di
+quest'ultimo è ottenuta da una serie di piccole lanterne poste a distanze
+irregolari tra loro. Verso sud noti un primo ballatoio con una piccola 
+postazione di guardia, ad ovest invece noti una stanza ricavata con assi in 
+legno, scuro come la corteccia dell'albero e con un tetto di foglie.
+Alle tue spalle, una scala ti conduce a terra.
+
+DescrTouch:
+L'unica cosa abbastanza vicina che puoi toccare, anche per sporgerti ed evitare
+di perdere l'equilibrio, è il corrimano di corda che si presenta solido e 
+ruvido al tatto.
+
+DescrSixth:
+Hai la certezza di essere osservato e non unicamente dagli abitanti dalle
+caratteristiche umanoidi che abitano questi boschi, propriamente chiamati elfi,
+ma da una creatura diversamente potente e presente che ti sovrasta.
+
+
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.DOWN
+  Descr: Ai piedi di una scala
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Sul primo ballatoio 
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Un semplice magazzino
+End

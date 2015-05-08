@@ -1,0 +1,39 @@
+Code: villaggio-zingaro_room_grotta-nicchia
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: Una Nicchia Naturale
+Short: una nicchia	
+
+Descr:
+La roccia si flette formando un piccolo riparo dal soffitto frastagliato. #contained_by[northeast] is Exit#Su un lato della nicchia vi è un'apertura scavata nella roccia e circondata di massi delle più svariate dimensioni, per il resto la parete continua irremovibile e ricoperta di sporgenze calcaree.#La nicchia è chiusa su un lato da numerose pietre accatastate mentre le altre pareti sono ricoperte di sporgenze calcaree.#
+DescrTouch: 
+Passi una $hand sulle pareti fredde e umidicce.
+DescrSmell:
+Aria calda e madida di umido.
+DescrSixth:
+Essendo visibile solo da vicino, può risultate un ottimo riparo in caso di pericolo.
+DescrHearing:
+I rumori della grotta giungono qui ovattati.
+
+Extras:
+	Keywords: pietre
+	Descr:
+	Un cumulo di rocce di diverse dimensioni disposte in maniera casuale.
+	DescrSixth:
+        Sei incuriosito da questo cumulo di rocce che pare il risultato su di una frana, intuisci che potrebbero nascondere qualcosa ma è impensabile spostarle con la sola forza delle braccia!
+	DescrHearing:
+	Prestando particolare attenzione odi qualche scricchiolio provenire dai sassi. 
+End
+
+Width:	3m
+Depth:	3m
+Height: 2m
+Exits:
+	Direction: DIR.SOUTHWEST
+	Descr: Intorno al lago
+End
+
+RoomBehaviour:
+	RandomEcho:	5
+	RandomEchoTexts:	Un ovattato ronzio proviene dalle pareti.
+End

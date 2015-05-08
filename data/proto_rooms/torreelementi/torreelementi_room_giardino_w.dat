@@ -1,0 +1,39 @@
+Code: torreelementi_room_giardino_w
+Sector: SECTOR.PLAIN
+Name: Zampilli
+Short: un giardino di zampilli
+Descr:
+Il sentiero di ciottoli s'interrompe brusco per fare spazio ad uno slargo vagamente
+circolare. La via procede a nord ed a sud ove riprende l'arco di sentiero che circonda
+la torre, oppure ad ovest lungo un minuscolo corso d'acqua. 
+
+DescrHearing:
+L'inconfondibile rumore di zampilli d'acqua e il tracimar di lei tradiscono la presenza
+d'una fontana.
+
+Extras:
+	Keywords: corso acqua
+	Descr: 
+		Il letto che il piccolo ruscellino percorre non se lo è certo scavato da solo;
+		qualcuno o qualcosa lo ha realizzato
+	DescrTouch:
+		L'acqua è mossa quel poco da non permettere di vedere in profondità e con la $hand
+		verifichi che è profonda poco meno di quattro dita 
+End
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Il giardino prosegue
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Il giardino prosegue
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Il ruscello
+End

@@ -1,0 +1,24 @@
+Code: serpidi_room_8640_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: I campi coltivati 
+Short: I campi coltivati 
+Descr: 
+Non credi ai tuoi occhi ! In questa ampia caverna ci sono delle vere e proprie coltivazioni. Una serie di oggetti lungo la parete della caverna forniscono l'illuminazione necessaria alle piante per crescere. In questo punto c'è un capanno dove probabilmente vengono stipati gli attrezzi per lavorare la terra e le sementi. 
+Exits:
+	Direction: DIR.NORTH
+	Destination: 1 1 0 serpidi
+End
+Exits:
+	Direction: DIR.EAST
+	Destination: 2 0 0 serpidi
+End
+Exits:
+	Direction: DIR.SOUTH
+	Destination: 1 -1 0 serpidi
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

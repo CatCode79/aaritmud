@@ -1,0 +1,34 @@
+Code: elizor_room_strada-ovest-06
+Sector:	SECTOR.ROAD
+Name: strada-ovest-06
+Short: strada-ovest-06
+
+Descr:
+Sei 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.WEST
+	Descr:	La direttrice ovest
+End
+Exits:
+	Direction:	DIR.SOUTHEAST
+	Descr:	La direttrice ovest
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	Il boschetto
+End

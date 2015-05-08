@@ -1,0 +1,67 @@
+Code: torreelementi_room_fungheria_13
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Il Laboratorio Sotterraneo
+Short: una zona fumosa
+Descr:
+Un filo di fumo abbraccia ogni anfratto della stanza dove ti trovi. Giusto il tempo
+di abituare la vista e decidi che era meglio non vedere: un bancone ampio e semplice
+è collocato centralmente ad occupare gran parte dello spazio disponibile; sopra sono
+accatastati in rigoroso disordine oggetti innaturali delle forme più strampalate e
+dai colori più improbabili. Stralci di pergamena inchiostrati rabbiosamente conferiscono
+anche più l'idea di caos. Il perimetro della stanza è nascosto da armadi, scaffali e da
+una robusta libreria. Due porte collocate una al lato opposto dell'altra sono le uniche
+possibilità per trovare di meglio.
+
+DescrSixth:
+È il genere di disordine in cui potrebbe vivere un creativo mentalmente disturbato.
+ 
+DescrSmell:
+Odore di bruciato... non legno, arbusti o altro... piuttosto si direbbero zolfo e menta,
+però magari non così fastidioso lo zolfo come se non fosse proprio zolfo... la menta però
+molto fastidiosa. Forse qualcuno si diverte a sperimentare.
+
+Extras:
+  Keywords: bancone tavolo
+  DescrTouch: Duro e stabile, tutto a spigoli vivi e piuttosto pesante
+  Descr: A superficie bianca è segnata da numerosi tagli e bruciature sovrapposti segno che viene usato molto
+End
+
+Extras:
+  Keywords: scaffali scaffale
+  DescrTouch: Sono scaffalature in legno molto robuste e pesanti colme di scritti, libri e oggetti
+  Descr: Ripiani spessi e pesanti infissi nelle pareti e neppure una spanna libera. Tutto pieno di
+         oggetti, di scritti, tomi...
+End
+
+Extras:
+  Keywords: armadio
+  Descr: Un armadio alto fino al soffitto e chiuso da un pesante chiavistello
+End
+
+Extras:
+  Keywords: libreria
+  Descr: Si tratta di un mobile in legno con ante in legno e cristallo attraverso le quali vedi dei preziosi tomi rilegati
+  DescrSixth: Molto preziosi quei tomi, forse anche pericolosi
+End
+
+Extras:
+  Keywords: oggetti
+  Descr: Per lo più si tratta di vasi o contenitori in cristallo di tutte le forme; palla, spirale, elica, cilindro.
+         Alcuni sono collegati fra loro ed altri sono poggiati su supporti per tenervi sotto un lume o una candela.
+         Alcuni sono vuoti e puliti ma per la maggior parte sono sporchi di fuliggine e incrostati di non si sa cosa.
+End
+
+Width:	6m
+Depth:	6m
+Height: 250cm
+
+Exits:
+  Direction: DIR.EAST
+  Descr: La zona mistica
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: La cella
+End
+

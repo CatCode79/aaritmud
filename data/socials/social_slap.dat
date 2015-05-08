@@ -1,0 +1,40 @@
+FunName:    social_slap
+Intention:  INTENTION.AGGRESSIVE
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Chi puoi schiaffeggiare?
+  OthersNoArg: $n tira uno schiaffo a vuoto.
+  EntityFound: Schiaffeggi violentemente $N!
+  OthersFound: $n tira un ceffone a $N!
+  TargetFound: $n ti tira un ceffone proprio in faccia! AHI!
+  EntityAuto:  Ti schiaffeggi per essere stat$o così idiota.
+  OthersAuto:  $n si dà uno schiaffo per punirsi di qualche colpa.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Schiaffeggiare chi?
+  OthersNoArg: $n mima un violento schiaffone.
+  EntityFound: Elargisci gratuitamente un sonoro schiaffo a $N.
+  OthersFound: $n assegna uno schiaffo a $N!
+  TargetFound: $n ti porta uno schiaffo in piena faccia!
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Muovi le zampe mulinellandole in aria.
+  OthersNoArg: $n muove le zampe mulinellandole davanti a sé.
+  EntityFound: Schiaffeggi la guancia destra di $N con una zampata poderosa.
+  OthersFound: $n schiaffeggia $N con una poderosa zampata!
+  TargetFound: $n ti schiaffeggia con una sonora zampata: 'Ahie!'.
+  EntityAuto:  Testi la potenza delle tue zampe schiaffeggiandoti.
+  OthersAuto:  $n s'è bevuto il cervello.. Si sta dando numerose zampate sul muso.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Muovi le zampe mulinellandole in aria.
+  OthersNoArg: $n muove le zampe mulinellandole davanti a sé.
+  EntityFound: Schiaffeggi la guancia destra di $N con una zampata poderosa.
+  OthersFound: $n schiaffeggia $N con una poderosa zampata!
+  TargetFound: $n ti schiaffeggia con una sonora zampata: 'Ahie!'.
+  EntityAuto:  Testi la potenza delle tue zampe schiaffeggiandoti.
+  OthersAuto:  $n s'è bevuto il cervello.. Si sta dando numerose zampate sul muso.
+End

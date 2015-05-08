@@ -1,0 +1,33 @@
+Code: villaggio-zingaro_room_grotta-02
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: Il Passaggio Sommerso
+Short: un condotto sommerso
+
+Descr:
+Ti sei infilato in uno stretto passaggio sommerso, la roccia in alcuni punti si restringe dandoti l'impressione di non riuscire a passare. Il fondo è ricoperto di sabbia scura e detriti sui quali flebili forme di vita vegetale tentano di attecchire con scarsi risultati.
+DescrSmell: 
+#looker is RACE.THEPA#Inspiri profondamente ma non senti proprio nulla.#Tentare di respirare sott'acqua potrebbe non essere la migliore tra le scelte ..in ogni caso anche se lo potessi fare, non sentiresti assolutamente nulla.#
+DescrSixth:
+#looker is RACE.THEPA#Nonostante la tua confidenza con l'acqua capisci che è preferibile togliersi di torno il prima possibile#Il tuo intuito ti dice che potrebbe essere desiderabile uscire il prima possibile.# 
+DescrHearing:
+Le orecchie tappate dall'acqua ti impediscono di cogliere qualsiasi suono.
+DescrTaste:
+#looker is RACE.THEPA#Prendi una boccata d'acqua, è fresca e dolce..forse leggermente calcarea.#Potrai pensare di assaggiarla con calma quando sarai finalmente uscit$o di qui.#
+
+Width:	20m
+Depth:	2m
+Height: 150cm
+Exits:
+	Direction: DIR.EAST
+	Descr: La grotta sommersa
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: Al pozzo
+End
+
+RoomBehaviour:
+	RandomEcho:	3
+	RandomEchoTexts:	Un'ombra ti sfiora.
+End

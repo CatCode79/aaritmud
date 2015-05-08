@@ -1,0 +1,39 @@
+Code: novizi2_room_03-corridoio
+Icon: icons/room/triskele-yellow.png
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Un Corridoio
+Short: un corridoio
+
+Descr:
+La livida superficie delle pareti riflette a stento la tua immagine deformata. Ai lati del percorso due finestre consentono di guardare all'esterno.
+DescrTouch: 
+La $hand corre sulla piccola ringhiera sul lato destro.
+DescrSmell: 
+Il classico profumo d'ambiente al limone o qualcosa di piuttosto simile.
+DescrSixth:
+Ti accorgi che è possibile guardare dalle finestre tramite il comando $tLOOK finestra.
+DescrHearing:
+L'unico rumore apprezzabile è il lento cigolio del pavimento sul quale cammini.
+
+Extras:
+	Keywords:	finestra finestre esterno
+	Descr:
+	Una delle due finestre rivela la vista su di un cortile interno circondato dall'estensione della casa. L'altra invece dà su una zona boschiva che cela lo sguardo verso le zone più lontane.
+	DescrNight:
+	Una delle finestre rivela la vista su di un cortile illuminato a giorno e circondato dalla casa. L'altra finestra invece non consente di vedere nulla per via dell'ora tarda.
+End
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+
+Exits:
+	Direction:	DIR.NORTHEAST
+	Descr: [lemonchiffon]Un disbrigo[close]
+End
+Exits:
+	Direction:	DIR.SOUTHWEST
+	Descr: [lemonchiffon]Le prime porte[close]
+End

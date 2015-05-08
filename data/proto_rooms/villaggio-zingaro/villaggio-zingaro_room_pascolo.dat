@@ -1,0 +1,22 @@
+Code: villaggio-zingaro_room_pascolo
+Sector: SECTOR.PASTURE
+Flags:	ROOM.INSIDE
+Name: Il Pascolo
+Short: il pascolo
+
+Descr:
+Un'ampia distesa pianeggiante è racchiusa tra l'edificio della stalla e una fitta faggeta. L'erba cresce in modo discontinuo soprattutto in prossimità della costruzione probabilmente a causa del costante calpestio degli animali. 
+DescrSmell: 
+Le vivaci fragranze del sottobosco non possono nulla contro il prepotente puzzo di letame.
+DescrSixth:
+Delimitato in ogni direzione, intuisci che può essere un ottimo pascolo, a prova di fuga. 
+DescrHearing:
+Cogli dei nitriti di quando in quando.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+Exits:
+	Direction: DIR.EAST
+	Descr: La stalla
+End

@@ -1,0 +1,34 @@
+FunName:    social_bigsmile
+Intention:  INTENTION.FRIENDLY
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Sfoderi un sorriso abbagliante!
+  OthersNoArg: $n sfodera un sorriso abbagliante!
+  EntityFound: Sfoderi un sorriso abbagliante verso $N.
+  OthersFound: $n sfodera un sorriso abbagliante verso $N.
+  TargetFound: $n sfodera verso di te un abbagliante sorriso.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Sfoderi un sorriso tagliente.
+  OthersNoArg: $n sfodera un sinistro sorriso tagliente.
+  EntityFound: Sfoderi verso $N un sinistro sorriso tagliente.
+  OthersFound: $n sfodera verso $N un sinistro sorriso tagliente.
+  TargetFound: $n sfodera verso di te un sinstro sorriso tagliente.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Sorridi così tanto che ti si possono contare tutti i denti.
+  OthersNoArg: $n sfoggia un sorriso smagliante e zannuto!
+  EntityFound: Sorridi a $N con tutte le tue 7 anime!
+  OthersFound: $n sfoggia per $N un sorriso così grande che forse termina dietro le orecchie..
+  TargetFound: $n sfoggia per te un sorriso così grande che forse termina dietro le orecchie..
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Sorridi così tanto che ti si possono contare tutti i denti.
+  OthersNoArg: $n sfoggia un sorriso smagliante e zannuto!
+  EntityFound: Sorridi a $N con tutte le tue 7 anime!
+  OthersFound: $n sfoggia per $N un sorriso così grande che forse termina dietro le orecchie..
+  TargetFound: $n sfoggia per te un sorriso così grande che forse termina dietro le orecchie..
+End

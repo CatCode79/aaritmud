@@ -1,0 +1,92 @@
+FunName:    social_yawn
+Intention:  INTENTION.NEUTRAL
+Expression: sbadigliando
+Smiles:     :V :-V :v :-v
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Apri lentamente la bocca in un lungo sbadiglio annoiato..
+  OthersNoArg: $n sbadiglia lentamente mostrando la sua noia..
+  EntityFound: Sbadigli lentamente verso $N.
+  OthersFound: $n sbadiglia lentamente verso $N.
+  TargetFound: $n sbadiglia lentamente verso di te..
+End
+RacialMessages:
+  Race:        RACE.HIGHELF
+  EntityNoArg: Dischiudi le labbra in uno sbadiglio contenuto.
+  OthersNoArg: $n sbadiglia elegantemente.
+  EntityFound: Sbadigli colmo d'interesse davanti a $N.
+  OthersFound: $n guarda $N e sbadiglia.. Dev'essere proprio interessat$o..
+  TargetFound: $n nasconde le labbra dietro la $hand, sta sbadigliando.
+End
+RacialMessages:
+  Race:        RACE.DWARF
+  EntityNoArg: Eserciti la tua mandibola in un potente sbadiglio.
+  OthersNoArg: $n sbadiglia sonoramente.
+  EntityFound: Sbadigli in faccia a $N senza tanti complimenti.
+  OthersFound: $n sbadiglia in faccia a $N in modo perentorio.
+  TargetFound: $n ti sbadiglia in faccia senza tanti complimenti.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Sbadigli discretamente.
+  OthersNoArg: $n sbadiglia lasciandosi scappare un urletto.
+  EntityFound: Guardi $N cercando di trattenere uno sbadiglio.
+  OthersFound: $n guarda $N trattenendo a stento uno sbadiglio.
+  TargetFound: $n ti manifesta la sua stanchezza con uno sbadiglio.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Con uno sbadiglio comunichi la tua divertita partecipazione.
+  OthersNoArg: $n con uno sbadiglio comunica la sua sentita partecipazione.
+  EntityFound: Concedi a $N nulla più che uno sbadiglio.
+  OthersFound: $n sbadiglia annoiat$o davanti a $N.
+  TargetFound: $n ti comunica la sua parteciapzione sbadigliando.
+End
+RacialMessages:
+  Race:        RACE.THEPA
+  EntityNoArg: Sibili silenziosamente uno sbadiglio.
+  OthersNoArg: $n sssbadiglia sssibilando.
+  EntityFound: Sbadigli sibilando davanti a $N.
+  OthersFound: $n sibila e sbadiglia davanti a $N.
+  TargetFound: $n con un acuto sibilo ti sbadiglia nelle orecchie.
+End
+RacialMessages:
+  Race:        RACE.MINOTAUR
+  EntityNoArg: Muggisci uno sbadiglio di stanchezza.
+  OthersNoArg: $n sbadiglia con un sonoro muggito.
+  EntityFound: Guardi $N e muggisco uno sbadiglio.
+  OthersFound: $n guarda $N mentre muggisce uno sbadiglio.
+  TargetFound: $n ti sbadiglia in faccia tutta la sua stanchezza.
+End
+RacialMessages:
+  Race:        RACE.ORC
+  EntityNoArg: Spalanchi la bocca in un grasso sbadiglio.
+  OthersNoArg: $n mostra la sua dentatura con un solo sbadiglio!
+  EntityFound: Guardi $N mentre ti esercito in un potente sbadiglio.
+  OthersFound: $n sbadiglia addosso a $N con l'alito vecchio di tre giorni.
+  TargetFound: $n ti appesta con uno sbadiglio puzzolente.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Spalanchi le fauci in un felino sbadiglio.
+  OthersNoArg: $n sbadiglia facendo bella mostra delle sue zanne.
+  EntityFound: Sbadigli proprio mentre hai davanti $N..
+  OthersFound: $n sbadiglia tranquill&o, incurante della presenza di $N.
+  TargetFound: $n sbadiglia meravigliosamente in fronte a te.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Spalanchi le fauci in un felino sbadiglio.
+  OthersNoArg: $n sbadiglia facendo bella mostra delle sue zanne.
+  EntityFound: Sbadigli proprio mentre hai davanti $N..
+  OthersFound: $n sbadiglia tranquill&o, incurante della presenza di $N.
+  TargetFound: $n sbadiglia meravigliosamente in fronte a te.
+End
+RacialMessages:
+  Race:        RACE.ARIAL
+  EntityNoArg: In un sospiro si manifesta il tuo sbadiglio.
+  OthersNoArg: $n sbadiglia lievemente.
+  EntityFound: Sbadigli con delicatezza davanti a $N.
+  OthersFound: Un moto lieve dell'aria tradisce lo sbadiglio di $n mentre guarda $N.
+  TargetFound: $n sbadiglia lievemente davanti a te.
+End

@@ -1,0 +1,32 @@
+Code: torreelementi_room_pozzo_01
+Sector: SECTOR.CAVERN
+Flags: ROOM.UNDERWATER
+Name: Il [slategray]Pozzo[close] Termale
+Short: un pozzo
+
+Descr:
+Sei subito sotto la superficie dell'acqua in un cunicolo verticale che scende a tubo
+giù in profondità. Una soffusa luminosità proviene dal basso. Tutt'intorno solo alghe
+ad uniformare le pareti del pozzo.
+DescrTouch: 
+L'acqua è molto calda e ferma, le pareti viscide e prive di qualunque appiglio.
+DescrSmell: 
+L'odore è quello inconfondibile dell'acqua viva ed ossigenata.
+DescrTaste:
+Acqua dolce e priva di retrogusti strani
+
+End
+
+Width:	6m
+Depth:	6m
+Height: 4m
+
+Exits:
+  Direction: DIR.UP
+  Descr: Oltre la superficie
+End
+Exits:
+  Direction: DIR.DOWN
+  Descr: In strada
+End
+

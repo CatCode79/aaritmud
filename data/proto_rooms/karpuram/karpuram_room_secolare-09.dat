@@ -1,0 +1,39 @@
+Code: karpuram_room_secolare-09
+Sector: SECTOR.PLAIN
+Name: La Prima Torretta di Guardia
+Short: la prima torretta
+
+Descr:
+Sei giunto ad un vicolo cieco, questa stanza è predisposta per uno scopo molto
+semplice...difendere la piattaforma e l'albero che la sostiene! Ti trovi alla
+prima torretta di guardia e noti subito un certo allarmismo da parte degli
+elfi posti a difesa. La torretta è interamente rivestita da lamine di ferro, 
+sia in terra che ai lati e vi sono quattro punti di avvistamento che sporgono
+leggermente rispetto al quadrato centrale, all'interno dei quali altrettanti
+elfi arcieri sono in posizione di guardia. Come loro supervisore si muove
+centralmente un altro elfo armato di tutto punto. Da qui puoi solo tornare alla
+guardiola verso est.
+
+DescrNight:
+Sei giunto ad un vicolo cieco, questa stanza è predisposta per uno scopo molto
+semplice...difendere la piattaforma e l'albero che la sostiene! Ti trovi alla
+prima torretta di guardia e noti subito un certo allarmismo da parte degli
+elfi posti a difesa. La torretta è interamente rivestita da lamine di ferro, 
+sia in terra che ai lati e vi sono quattro punti di avvistamento che sporgono
+leggermente rispetto al quadrato centrale, all'interno dei quali altrettanti
+elfi arcieri sono in posizione di guardia. Come loro supervisore si muove
+centralmente un altro elfo armato di tutto punto. Da qui puoi solo tornare alla
+guardiola verso est.
+
+DescrSixth:
+La tua presenza in questo luogo non è gradita! Faresti meglio a comprendere
+cosa ti ha portato qui e decidere alla svelta il da farsi prima che sia tardi.
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Una guardiola
+End

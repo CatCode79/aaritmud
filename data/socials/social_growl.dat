@@ -1,0 +1,26 @@
+FunName:    social_growl
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Ti metti a ringhiare!
+  OthersNoArg: $n ringhia stizzit$o..
+  EntityFound: Ti metti a ringhiare verso $N.
+  OthersFound: $n ringhia stizzit$o verso $N.
+  TargetFound: $n ringhia stizzit$o di te.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Snudi le zanne e ti metti a ringhiare verso il cielo.
+  OthersNoArg: $n snuda le zanne e si mette a ringhiare rivolto verso il cielo.
+  EntityFound: Snudi le zanne e drizzi la coda ringhiando verso $N.
+  OthersFound: $n snuda le zanne e drizza la coda ringhiando verso $N.
+  TargetFound: $n snudando le zanne e drizzando la coda comincia a ringhiarti contro.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Snudi le zanne e ti metti a ringhiare verso il cielo.
+  OthersNoArg: $n snuda le zanne e si mette a ringhiare rivolto verso il cielo.
+  EntityFound: Snudi le zanne e drizzi la coda ringhiando verso $N.
+  OthersFound: $n snuda le zanne e drizza la coda ringhiando verso $N.
+  TargetFound: $n snudando le zanne e drizzando la coda comincia a ringhiarti contro.
+End

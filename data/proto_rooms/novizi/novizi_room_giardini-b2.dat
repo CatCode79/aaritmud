@@ -1,0 +1,37 @@
+Code: novizi_room_giardini-b2
+Sector: SECTOR.PLAIN
+Name: Il Vialone dei Giardini di Penelope
+Short: il vialone dei giardini di Penelope
+Descr:
+	Il [darkkhaki]Vialone[close] principale dei giardini in eterna costruzione. Questo luogo è deputato
+	alla crescita ed alla coltivazione dei vegetali; è lasciato libero accesso a tutti
+	e libero sfogo alla creatività.
+	Il vialone termina qui a sud  ma procede in direzione nord fino all'imbocco.
+	Una volta scelto il seme, si può provare ad interrarlo tramite $tSEED.
+        Bisognerà attendere un po' per vedere i primi risultati di una semina...
+
+Width:	200m
+Depth:	5m
+Height: 100m
+
+
+Exits:
+	Direction: DIR.NORTHEAST
+	Descr: Verso il bordo
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: Verso il bordo
+End
+Exits:
+	Direction: DIR.EAST
+	Descr: Verso il bordo
+End
+Exits:
+	Direction: DIR.NORTHWEST
+	Descr: Verso il bordo
+End
+Exits:
+	Direction: DIR.NORTH
+	Descr: L'uscita
+End

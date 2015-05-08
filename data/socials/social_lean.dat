@@ -1,0 +1,46 @@
+FunName:    social_lean
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Ti chini per terra.
+  OthersNoArg: $n si china per terra.
+  EntityFound: Ti chini verso $N.
+  OthersFound: $n si china verso $N.
+  TargetFound: $n si china verso di te.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Ti chini a scrutare per terra.
+  OthersNoArg: $n vola quasi a testa in giù per scrutare il terreno.
+  EntityFound: Ti chini su $N.
+  OthersFound: $n vola a testa in giù per scrutare $N più da vicino.
+  TargetFound: Hai il viso di $n a pochi centimetri dal tuo.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Ti chini per terra.
+  OthersNoArg: $n si china a terra silenzios$o.
+  EntityFound: Ti chini a terra accanto a $N.
+  OthersFound: $n si china silenziosamente a terra accanto a $N.
+  TargetFound: $n si china silenziosamente a terra accanto a te.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Ti chini piegandomi sulle zampe.
+  OthersNoArg: $n si china sulle zampe guardandosi intorno.
+  EntityFound: Ti pieghi sulle zampe avvicinandoti a $N.
+  OthersFound: $n si piega sulle zampe avvicinandosi a $N.
+  TargetFound: $n si piega sulle zampe avvicinandosi a te.
+  EntityAuto:  Pratichi esercizi ginnici piegandoti sulle zampe.
+  OthersAuto:  $n si sta allenando.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Ti chini piegandomi sulle zampe.
+  OthersNoArg: $n si china sulle zampe guardandosi intorno.
+  EntityFound: Ti pieghi sulle zampe avvicinandoti a $N.
+  OthersFound: $n si piega sulle zampe avvicinandosi a $N.
+  TargetFound: $n si piega sulle zampe avvicinandosi a te.
+  EntityAuto:  Pratichi esercizi ginnici piegandoti sulle zampe.
+  OthersAuto:  $n si sta allenando.
+End

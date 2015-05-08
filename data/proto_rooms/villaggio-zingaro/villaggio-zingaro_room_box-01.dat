@@ -1,0 +1,26 @@
+Comment: beh il box di fluffy è rosa confetto...un terrrrribilissimo colore che ti offusca la vista inibisce i sensi..
+
+Code: villaggio-zingaro_room_box-01
+Sector: SECTOR.VILLA
+Flags:	ROOM.INSIDE
+Name: Il Box di Fluffy
+Short: un box
+
+Descr:
+Un modesto spazio quadrangolare con un letto di paglia sul pavimento; per qualche strano motivo le assi di legno che ricoprono le pareti sono state dipinte di un acceso rosa confetto.
+DescrSmell: 
+Un forte odore equino penetra le narici.
+DescrHearing:
+Odi numerosi sbuffi e nitriti.
+DescrSixth:
+Hai l'impressione che questa parte della struttura sia precedente alla costruzione della stalla e che sia stata rimaneggiata in tempi più recenti.
+
+Width:	3m
+Depth:	2m
+Height: 2m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Al centro della stalla
+  Door: villaggio-zingaro_item_door-box-01
+End

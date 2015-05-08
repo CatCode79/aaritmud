@@ -1,0 +1,26 @@
+FunName:    social_burp
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Esprimi il tuo amore per la vita gaudente.
+  OthersNoArg: $n si esibisce in sonore eruttazioni.
+  EntityFound: Rutti in faccia a $N.
+  OthersFound: $n rutta in faccia a $N.
+  TargetFound: $n ti rutta in faccia.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Digerisci il tuo pasto, dandone notizia al mondo.
+  OthersNoArg: $n con una sonora eruttazione avverte i presenti che ha digerito il suo pasto. Utile informazione.
+  EntityFound: Dai sfogo alla naturale eruttazione felar, guarda caso in faccia a $N.
+  OthersFound: $n senza troppi problemi rutta in faccia a $N e poi si lecca le vibrisse.
+  TargetFound: $n ti rutta in faccia leccandosi le vibrisse subito dopo.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Digerisci il tuo pasto, dandone notizia al mondo.
+  OthersNoArg: $n con una sonora eruttazione avverte i presenti che ha digerito il suo pasto. Utile informazione.
+  EntityFound: Dai sfogo alla naturale eruttazione felina, guarda caso in faccia a $N.
+  OthersFound: $n senza troppi problemi rutta in faccia a $N e poi si lecca le vibrisse.
+  TargetFound: $n ti rutta in faccia leccandosi le vibrisse subito dopo.
+End

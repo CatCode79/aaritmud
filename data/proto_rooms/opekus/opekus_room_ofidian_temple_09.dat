@@ -1,0 +1,20 @@
+Code: opekus_room_ofidian_temple_09
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Una Stanza Disadorna
+Short: uno stanzino
+
+Descr:
+	Sei in una piccola stanzina con una sola uscita, all'interno vi è poco di più che
+	una panca in pietra scavata nella parete di fronte all'uscita. Nei muri laterali son
+	infissi sostegni metallici per torce o lanterne.
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Al portico
+End

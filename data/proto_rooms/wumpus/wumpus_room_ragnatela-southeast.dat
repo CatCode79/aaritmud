@@ -1,0 +1,33 @@
+Code: wumpus_room_ragnatela-southeast
+Sector: SECTOR.UNDERGROUND
+Flags: ROOM.INSIDE
+Name: Il Garbuglio di [darkseagreen]Ragnatele[close]
+Short: il garbuglio di [darkseagreen]ragnatele[close]
+
+Descr:
+Una [darkseagreen]chiazza[close] d'ombra ingombra parzialmente la via di cose che paiono fibre lunghe e robuste.
+S'intersecano e si sovrappongono in ogni dove come lacci ondeggianti.
+
+DescrTouch: 
+Qualcosa ti sta toccando, qualcosa che pare una fibra lunga e robusta ed appiccicosa.
+[darkseagreen]Ragnatele[close] che si sovrappongono e s'intersecano in ogni dove appiccicando fastidiosamente.
+
+Width:	3m
+Depth:	3m
+Height:	3m
+
+Exits:
+  Direction: DIR.SOUTHEAST
+  Destination:	 2 8 0 wumpus
+  Descr: Le [darkseagreen]ragnatele[close]
+End
+Exits:
+  Direction: DIR.NORTH
+  Destination:	 8 4 0 wumpus
+  Descr: La [orangered]colata lavica[close]
+End
+Exits:
+  Direction: DIR.WEST
+  Destination:	 6 2 0 wumpus
+  Descr: Il cunicolo [firebrick]argilloso[close]
+End

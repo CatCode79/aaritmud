@@ -1,0 +1,82 @@
+Comment: 85 1|8 0
+Code: sauria_room_covo-69
+Sector: SECTOR.UNDERGROUND
+Flags:	ROOM.INSIDE
+Name: Il Covo
+Short: il covo
+
+Descr:
+L'ultima fra tutte le stranezze che credevi poter vedere si dipana ai tuoi occhi. Una stanza a metà fra un laboratorio medico ed una camera di tortura. La stanza è stipata di bottiglie e provette disposte su due ampi banconi centrali collocati sopra un orribile tappeto. Pergamene appese alle pareti riportano con precisione e perizia l'anatomia di umani, nani, elfi, hobbit; persino troll e giganti. Nella parte sud, in teche di vetro piene di liquido, sono immersi diversi corpi, uno per razza. Il fumo denso nella stanza ostacola la visuale. 
+DescrSmell: 
+Il fumo denso nella stanza ti rende difficile respirare. 
+DescrSixth:
+Il tappeto a terra rende il covo ancora più bizzarro ed aghiacciante.
+DescrHearing:
+Un fosco ronzio ti riempie di niente le orecchie.
+DescrTaste:
+Un saporaccio orribile ti arriva alle papille per il solo atto di respirare. Qui deve essere bruciato qualcosa di innominabile.
+
+
+Width:	26m
+Depth:	26m
+Height: 4m
+
+Exits:
+  Comment:	0 -1 21868
+  Descr:	Uno slargo a gomito
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	1|8 -1 21870
+  Descr:	La cantina fetida
+  Direction:	DIR.DOWN
+  Door:	sauria_item_door-botola
+End
+Extras:
+  Comment:	EXTRA_COMMENT
+  Keywords:	tappeto orribile
+  Descr: 
+	L'unica scusante per un tappeto del genere è che serva a nascondere questa botola.
+End
+Extras:
+  Comment:	EXTRA_COMMENT
+  Keywords:	pergamena pergamene
+  Descr: 
+	Sono minuziosamente disegnate e corredate di quella che sembra una scrittura fatta di simboli e puntini sopra e sotto i simboli. Vi sono descritti umani, nani, elfi, hobbit, troll e giganti.
+End
+Extras:
+  Comment:	EXTRA_COMMENT
+  Keywords:	umano umana
+  Descr: 
+	È un maschio; più che un cadavere pare addormentato. Ha labbra livide blu e la pelle quasi biancastra.
+End
+Extras:
+  Comment:	EXTRA_COMMENT
+  Keywords:	elfo elfa
+  Descr: 
+	Un'elfa dorata immersa in una vasca di liquido azzurrino; gli occhi sono aperti e vacui. Se il corpo è ancora vivo, di certo la sua anima non è più qui. Sullo zigomo sinistro ha un tatuaggio rosso bruno e verde smeraldo.
+End
+Extras:
+  Comment:	EXTRA_COMMENT
+  Keywords:	nana nano
+  Descr: 
+	Una nana barbuta tozza e muscolosa adagiata sul fondo della vasca; sembra incredibilmente vecchia perché la pelle è incartapecorita all'inverosimmile. Una cicatrice sul fianco destro lunga una spanna. Probabilmente causata dalla cattura perché il taglio pare fresco, la sutura pulita e i lembi di carne non cicatrizzati.
+End
+Extras:
+  Comment:	EXTRA_COMMENT
+  Keywords:	hobbit
+  Descr: 
+	Una femmina hobbit con gli occhi aperti adagiata sul fondo della vasca, la schiena leggerente arcuata come a cercare di raggiungere laposizione fetale. Negli occhi è rimasta come incollato un frammento di sofferenza; pur non si notano ne ferite ne ematomi o abrasioni.
+End
+Extras:
+  Comment:	EXTRA_COMMENT
+  Keywords:	troll
+  Descr: 
+	Un esemplare di troll decisamente sotto la media, forse è stato più facile da catturare. La carne del muso è martoriata da anelli e simboli; il corpo è completamente copertoda orrendi e sgraziati tatuaggi. Probabilmente uno sciamano o qualcosa di simile. Stranamente è l'unico il cui viso sembri sereno. Qualunque cosa voglia dire per un troll essere sereno.
+End
+Extras:
+  Comment:	EXTRA_COMMENT
+  Keywords:	gigante gigantessa
+  Descr: 
+	Come abbiano fatto ad introdurre questa cosa ENORME qui dentro è un mistero; altro mistero è come la vasca regga un peso del genere. Meno misterioso è come abbiano fatto a catturarlo: è completamente ricoperto da barasioni, tagli, suture, cicatrici; Il braccio desto è monco; il collo in posizione innaturale.
+End

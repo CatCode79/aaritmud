@@ -1,0 +1,24 @@
+Code: opekus_room_periferia_04
+Sector: SECTOR.PATH
+Name: Sul Limitare del Vecchio Lago
+Short: sul limitare
+Descr:
+Il sentiero curva pigramente come a voler prendere le distanze dall'eccessivo rigoglio
+che sta a nord. Qui fa bella mostra di sé una vecchia panchina in legno che ha scordato
+da tempo il motivo della sua esistenza; sta triste e vuota rivolta verso l'avvallamento
+e volgendo lo schienale al sentiero.
+Verso sud il sentiero serpeggia più rilassato in direzioni limitatamente amene.
+
+Width:	10m
+Depth:	10m
+Height: 10m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Il sentiero prosegue
+End
+Exits:
+  Direction: DIR.NORTHEAST
+  Descr: Una piccola radura
+  Destination: 0 0 0 serpidi
+End

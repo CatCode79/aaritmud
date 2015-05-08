@@ -1,0 +1,30 @@
+FunName:    social_temple
+Intention:  INTENTION.FRIENDLY
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Ti massaggi le tempie.. ahh.. meglio ora..
+  OthersNoArg: $n si massaggia lentamente le tempie.
+  EntityFound: Massaggi lentamente le tempie a $N.. devi farti perdonare qualcosa eh?
+  OthersFound: $n massaggia lentamente le tempie a $N.. ne vorresti anche tu?
+  TargetFound: $n ti massaggia lentamente le tempie.. mmm.. che sollievo..
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Cerchi qualche tempia da massaggiare con le tue zampe.
+  OthersNoArg: $n fa cenno che è dispost$o ad elargire massaggi con le sue zampe.
+  EntityFound: Massaggi delicatamente le tempie di $N con le tue zampe.
+  OthersFound: $n massaggi delicatamente le tempie di $N con le sue zampe.
+  TargetFound: $n ti massaggia delicatamente le tempie con le sue zampe.
+  EntityAuto:  Ti massaggi delicatamente le tempie con le zampe.
+  OthersAuto:  $n si massaggia delicatamente le tempie con le zampe.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Cerchi qualche tempia da massaggiare con le tue zampe.
+  OthersNoArg: $n fa cenno che è dispost$o ad elargire massaggi con le sue zampe.
+  EntityFound: Massaggi delicatamente le tempie di $N con le tue zampe.
+  OthersFound: $n massaggi delicatamente le tempie di $N con le sue zampe.
+  TargetFound: $n ti massaggia delicatamente le tempie con le sue zampe.
+  EntityAuto:  Ti massaggi delicatamente le tempie con le zampe.
+  OthersAuto:  $n si massaggia delicatamente le tempie con le zampe.
+End

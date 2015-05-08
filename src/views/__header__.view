@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- in futuro dovrà essere sono doctype html per il 5-->
+<html>
+<head>
+	${cache}
+	<title>${game_name_nocolor}: ${title}</title>
+	<link type="image/x-icon" rel="Shortcut Icon" href="favicon.ico">
+	<link type="text/css" rel="stylesheet" href="style.css" />
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta name="author" content="Onirik" />
+	<meta name="description" content="Aarit è un mud giocabile via browser creato con il linguaggio Python." />
+	<meta name="keywords" content="aarit, mud, giochi, gioco gratis, gioco online, giochi per ragazze, giochi online gratuiti, fantasy, mmorpg, gdr, rpg, mud italiani, onirik" />
+	<meta name="language" content="it" scheme="ISO3166" />
+	${allow_web_robots}
+	<script type="text/javascript" src="site.js"></script>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="jquery/jquery.tools.js"></script>
+	<script type="text/javascript" src="addthis_widget.js"></script>
+	${additional_header}
+	${google_analytics}
+</head>
+<body class="site" onload="startRefreshInfos(false);" onfocus="startRefreshInfos(true);" onblur="stopRefreshInfos();">
+<div id="fb-root"></div>
+<script>
+	(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/it_IT/all.js#xfbml=1";
+	fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+</script>

@@ -1,0 +1,40 @@
+Code: opekus_room_ofidian_temple_12
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Navata Centrale
+Short: nella cattedrale
+
+Descr:
+Il centro della cattedrale, il punto dal quale se ne coglie tutta l'immensità e l'antica
+magnificenza. La doppia serie di colonne che parte dall'ingresso, s'interrompe poco oltre
+per far spazio all'antico ciborio ad est. Il Ciborio è collassato sotto al suo peso ed
+ora ne è impraticabile l'accesso.
+
+Extras:
+	Keywords: ciborio
+	Descr:
+	Doveva essere una struttura cilindrica disposta su almeno cinque colonne.
+	Da questo lato si vedon due delle colonne spezzate che fuoriescon da quella
+	che doveva essere la cupola superiore.
+	DescrTouch:
+	L'umidità permeata nei detriti ha ridato invidiabile consistenza al cumulo di
+	detriti
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: Lungo la navata centrale
+End
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Verso la navata inferiore
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Verso la navata inferiore
+End

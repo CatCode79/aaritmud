@@ -1,0 +1,54 @@
+FunName:    social_afflict
+Intention:  INTENTION.NEUTRAL
+Expression: afflitto
+Smiles:     :< :-<
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Stringi gli occhi mentre il dolore ti segna il volto.
+  OthersNoArg: $n stringe gli occhi con il volto segnato dal dolore.
+  EntityFound: Stringo gli occhi guardando $N mentre il tuo volto è segnato dal dolore.
+  OthersFound: $n stringe $N, con il volto straziato dal dolore.
+  TargetFound: $n ti guarda stringendo gli occhi mentre il suo volto è straziato dal dolore.
+End
+RacialMessages:
+  Race:        RACE.HIGHELF
+  EntityNoArg: Socchiudi gli occhi, celando al mondo il tuo dolore.
+  OthersNoArg: $n socchiude gli occhi aggrottando le sopracciglia.. Sta soffrendo.
+  EntityFound: Volgi lo sguardo su $N esprimendo$GLI il tuo dolore.
+  OthersFound: $n fissa $N con sguardo colmo di dolore ed afflizione.
+  TargetFound: Gli occhi di $n si fissano nei tuoi, $n sta soffrendo molto.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: La sofferenza ti rapisce il sorriso.
+  OthersNoArg: $n assume un'espressione particolarmente seria.
+  EntityFound: Il sorriso ti scivola via mentre guardi $N.
+  OthersFound: $n perde tutta l'allegria mentre guarda $N.
+  TargetFound: $n ti guarda e non sai se sarà più in grado di sorridere.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Stringi le labbra in una leggera smorfia di dolore.
+  OthersNoArg: $n stringe le labbra in una leggera smorfia di dolore.
+  EntityFound: Fissi $N stringendo le labbra in una leggera smorfia di dolore.
+  OthersFound: $n fissa $N stringendo le labbra in una leggera smorfia di dolore.
+  TargetFound: $n ti fissa stringendo le labbra in una leggera smorfia di dolore.
+  EntityAuto:  Chini lo sguardo per nascondere il dolore.
+  OthersAuto:  $n china lo sguardo per nascondere la smorfia di dolore.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Una lacrima di dolore scivola silenziosa sopra le tue vibrisse.
+  OthersNoArg: Un cupo ruggito svela il profondo dolore di $n.
+  EntityFound: Prendo le distanze da $N, non vuoi mostrar$GLI il tuo dolore.
+  OthersFound: $n si discosta da $N, celando un'espressione di muto dolore.
+  TargetFound: $n si discosta da te, nascondendo il muso.. Sta soffrendo..
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Una lacrima di dolore scivola silenziosa sopra le tue vibrisse.
+  OthersNoArg: Un cupo ruggito svela il profondo dolore di $n.
+  EntityFound: Prendo le distanze da $N, non vuoi mostrar$GLI il tuo dolore.
+  OthersFound: $n si discosta da $N, celando un'espressione di muto dolore.
+  TargetFound: $n si discosta da te, nascondendo il muso.. Sta soffrendo..
+End

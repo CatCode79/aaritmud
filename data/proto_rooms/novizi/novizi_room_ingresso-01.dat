@@ -1,0 +1,41 @@
+Code: novizi_room_ingresso-01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: L'Ingresso
+Short: la stanza d'ingresso
+
+Descr:
+Prode avventurier$o che hai scelto di entrare in [red]N[gold]akilen[close]; alcune informazioni che ti
+saranno utili per muoverti in questo mondo le troverai in questa Stanzina Iniziale.
+Il [white]Primo Passo[close] consiste nello spostarsi fra le varie stanze.
+In fondo alla descrizione di ciascuna stanza son specificate varie direzioni
+<br>
+- $tNORTH<br>
+- $tEAST<br>
+- $tSOUTH<br>
+- $tWEST<br>
+- $tUP<br>
+- $tDOWN<br>
+<br>
+- $tNORTHEAST<br>
+- $tNORTHWEST<br>
+- $tSOUTHEAST<br>
+- $tSOUTHWEST<br>
+<br>
+Questa stanza spoglia ha solo un'uscita... verso il basso, lungo quella
+scalinata là in fondo. Per raggiungerla puoi digitare $tDown e fare enter.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Extras:
+	Keywords: odore
+	DescrSmell:
+	Un vago odore di cibo cotto arriva fin quassù
+End
+
+Exits:
+  Direction: DIR.DOWN
+  Descr: La scalinata verso il basso
+End

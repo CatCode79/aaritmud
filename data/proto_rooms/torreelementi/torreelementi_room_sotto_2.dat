@@ -1,0 +1,54 @@
+Code: torreelementi_room_sotto_2
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Sala di Transito
+Short: una sala disordinata
+Descr:
+Questa pare una sala di transito a causa del disordine e dei resti organici che
+costellano il pavimento: paglia, cortecce, terra. Di buono c'è che si nota come
+la zona a sud sia la più frequentata.
+DescrSmell:
+La zona è un tripudio di odori di tutti i tipi, terra grassa, letame, legno e 
+paglia, materiale fermentato. Se non si tratta di una nave in decomposizione
+assieme a tutto il suo equipaggio è una sorta di zona di fervente lavoro.
+DescrSixth:
+Probabilmente tutti i materiali qui in zona sono usati per concime o come substrato
+per delle piante.
+
+Extras:
+  Keywords: paglia
+  DescrTouch: Spappolata e sfibrata da qualcosa che non è solo calpestìo
+  DescrSmell: è passata per una fermentazione
+  Descr: è semispappolata e consunta come fosse stata calpestata per giorni interi
+End
+Extras:
+  Keywords: terra
+  Descr: Terra grassa, potrebbe venir comoda per un orto o un giardino... forse anche troppo grassa
+  DescrSmell: Indubitabilmente terra concimata con roba forte
+End 
+Extras:
+  Keywords: corteccia cortecce
+  DescrTouch: Frantumate a pezzatura abbastanza uniforme
+  Descr: Qualcuno ha infierito lungamente su queste cortecce per pura perfidia 
+End 
+
+Width:	3m
+Depth:	4m
+Height: 4m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Un corridoio 
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Un magazzino
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Una stanza
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Una stanza
+End

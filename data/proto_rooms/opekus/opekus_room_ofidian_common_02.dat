@@ -1,0 +1,30 @@
+Code: opekus_room_ofidian_common_02
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Il Corridoio d'Ardesia
+Short: un corridoio nero
+
+Descr:
+Il corridoio è costruito con possenti lastroni neri disposti da abili $hands, così abili
+da rendere difficile notare le giunzioni fra lastra e lastra. Vedi dei sostegni per
+ torce disposti a distanze lungo le pareti.
+
+Extras:
+	Keywords: sostegno sostegni
+	Descr:
+	Sono anelli metallici infissi in fori della pietra; il tempo e l'umido hanno
+	formato rivoli di ruggine verticali sotto ciascun sostegno 
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Un'intersezione
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Un corridoio
+End

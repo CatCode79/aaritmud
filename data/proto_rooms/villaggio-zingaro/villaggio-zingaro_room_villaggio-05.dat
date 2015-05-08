@@ -1,0 +1,28 @@
+Comment: qui rimossa l'exit sud che non si potrà accedere alla locanda da questo lato
+Code: villaggio-zingaro_room_villaggio-05
+Sector: SECTOR.ROAD
+Name: La Via per la Miniera
+Short: una strada
+
+Descr:
+La strada costeggia un caseggiato anonimo in direzione est e poi prosegue monotona
+nella stessa direzione. Il fianco dell'alto edificio è separato dalla strada
+tramite vari tratti di un muricciolo. Sul fianco opposto le ultime propaggini
+ d'una collinetta che sale a nord.
+DescrSixth:
+Al pianterreno fra i lati del muricciolo si vede la sagoma di una porta che pare
+disposta appositamente per sembrare invisibile.
+
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+Exits:
+	Direction: DIR.EAST
+	Descr: La strada
+End
+Exits:
+	Direction: DIR.SOUTHWEST
+	Descr: La piazza
+End

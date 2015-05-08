@@ -1,0 +1,31 @@
+Code: wumpus_room_ruderi-west
+Sector: SECTOR.UNDERGROUND
+Flags: ROOM.INSIDE
+Name: I [white]Ruderi[close] di un Vecchio Nascondiglio
+Short: i [white]ruderi[close] di un vecchio nascondiglio
+
+Descr:
+Questo era un vecchio nascondiglio scavato nel sottosuolo; pareti e pavimenti lastricate di pietra [white]bianca[close], soffitti con volte a botte che reggono ancora degnamente il peso degli anni.
+Strano accostamento fra questi ambienti così lavorati e i rozzi cunicoli là fuori.
+ 
+DescrTouch: 
+Questo era un vecchio nascondiglio scavato nel sottosuolo; pareti e pavimenti lastricate di pietre levigate, soffitti con volte a botte che reggono superbamente il peso degli anni.
+Strano accostamento fra questi ambienti così lavorati e i rozzi cunicoli là fuori.
+
+Width:	7m
+Depth:	7m
+Height:	7m
+
+Exits:
+  Direction: DIR.WEST
+  Destination:	 9 5 0 wumpus
+  Descr: La [orangered]colata lavica[close]
+End
+Exits:
+  Direction: DIR.NORTHEAST
+  Descr: I [white]ruderi[close]
+End
+Exits:
+  Direction: DIR.SOUTHEAST
+  Descr: I [white]ruderi[close]
+End

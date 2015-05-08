@@ -1,0 +1,30 @@
+Code: villaggio-zingaro_room_grotta-06
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: Il Sentiero Intorno al Lago
+Short: intorno al lago
+
+Descr:
+Intorno a te, in ogni direzione, pennacchi appuntiti si ergono verso la volta anch'essa costellata di sporgenze acuminate. Il sentiero principale digrada lentamente verso il lago mentre un ramo secondario si allontana dallo specchio d'acqua aggirando un monumentale pilastro, accompagnato da due colonnine avviluppate l'una sull'altra, che sembra voler portare su di se tutto il peso del terreno sovrastante. 
+DescrSmell: 
+Aria calda e madida di umido, da est senti arrivare una fragranza di menta balsamica.
+DescrSixth:
+Capisci che farai bene a stare attent$o a dove metti i $feet, non vorresti mai cadere su una di queste stalagmiti appuntite.
+DescrHearing:
+La convinta brezza che t'investe, si muta in fischio passando fra interstizi di stalagmiti.
+
+Width:	7m
+Depth:	2m
+Height: 10m
+Exits:
+	Direction: DIR.EAST
+	Descr: Intorno al lago
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: Intorno al lago
+End
+Exits:
+	Direction: DIR.SOUTHEAST
+	Descr: Aggirando le colonne
+End

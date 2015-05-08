@@ -1,0 +1,31 @@
+<h4>Data Tree:</h4>
+Poiché la comunicazione richiede json, e la libreria json si trova compresa nel set di python 2.6 (potrei utilizzare la libreria com esterna ma.. uhmpf) attendo.<br>
+Inoltre purtroppo il datatree funziona sicuramente sotto google chrome, sotto Firefox NO!!<br><br>
+<ul id="datatree" class="filetree treeview-famfamfam">
+	${folders}
+	<!--li><span class="folder">Folder 1</span>
+		<ul>
+
+			<li><span class="file">Item 1.1</span></li>
+		</ul>
+	</li>
+	<li><span class="folder">Folder 2</span>
+		<ul>
+			<li><span class="folder">Subfolder 2.1</span>
+				<ul id="folder21">
+
+					<li><span class="file">File 2.1.1</span></li>
+					<li><span class="file">File 2.1.2</span></li>
+				</ul>
+			</li>
+			<li><span class="file">File 2.2</span></li>
+		</ul>
+	</li>
+
+	<li class="closed"><span class="folder">Folder 3 (closed at start)</span>
+		<ul>
+			<li><span class="file">File 3.1</span></li>
+		</ul>
+	</li>
+	<li><span class="file">File 4</span></li-->
+</ul>

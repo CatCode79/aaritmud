@@ -1,0 +1,30 @@
+Code: krablath_room_settori-12
+Sector: SECTOR.PLAIN
+Name: [forestgreen]L'Aiuola del Bamboo[close]
+Short: [forestgreen]una torre vegetale[close]
+
+Descr:
+Una smisurata canna troneggia al centro dell'aiuola rivendicando ed ottenendo il terreno prospiciente. 
+Alcune tacche incise nel legno paiono un invito all'ascesa.
+DescrTouch:
+Immota e imperitura, pare che nulla la possa smuovere.
+DescrSmell:
+no_send
+DescrSixth:
+L'ascesa pare lunga e forse anche rischiosa ma, chissà, forse ne varrà la pena.
+DescrHearing:
+Qualcuno o qualcosa di veramente piccolo fa frusciare le foglie al suo passaggio.
+
+Width:	6m
+Depth:	6m
+Height: 4m
+
+Exits:
+	Direction:	DIR.SOUTHEAST
+	Descr:	Verso il centro del giardino
+End
+Exits:
+	Direction:	DIR.UP
+	Descr:	In arrampicata
+End
+

@@ -1,0 +1,41 @@
+Code: novizi_room_oggetti
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Gli Oggetti
+Short: la stanza degli oggetti
+
+Descr:
+Sei ora giunt$o nella stanza dalla quale proveniva l'odore di spezzatino che si sente fin sopra.
+Il caro amico falegname Grozzy e sua moglie Faret hanno fornito il [blue]tavolo[close] e lo [blue]spezzatino[close] a puro
+scopo esplicativo e ti preghiamo di non rimuovere nulla da questa stanza.
+Sentiti però liber$o di sguinzagliare i tuoi sensi come hai fatto nella stanza superiore.
+<br>
+- $tLOOK spezzatino<br>
+- $tSMELL spezzatino<br>
+- $tLISTEN spezzatino<br>
+- $tTOUCH spezzatino<br>
+- $tTASTE spezzatino<br>
+- $tINTUITION spezzatino<br>
+<br>
+Le norme igieniche sono scrupolosamente rispettate ma non è ancora arrivata la documentazione.
+DescrSmell: 
+L'odore che pervade la stanza è un misto di spezzatino caldo e resina vinilica per falegname.
+DescrSixth:
+Il tuo sesto senso ti dice che Faret passa molto spesso a cambiare lo spezzatino.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.UP
+  Descr: La stanza di benvenuto
+End
+Exits:
+  Direction: DIR.DOWN
+  Descr: Il secondo capitolo
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: La stanza dei souvenir
+End

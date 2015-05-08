@@ -1,0 +1,35 @@
+Code: torreelementi_room_torre_terrazza_ne
+Sector: SECTOR.HOUSE
+Name: Il Balconcino [green]Panoramico[close]
+Short: un balconcino panoramico
+Descr: 
+Una striscia di pietra e metallo larga poco più di un metro percorre il perimetro
+della torre. Ciascun ingresso alla torre è costituito da un enorme finestrone.
+Il parapetto è orlato da merli irregolari di pietra che arrivano ad oltre i due
+metri di altezza ma nelle zone più basse non supera il metro.
+
+Extras:
+  Keywords:	merli pietra
+  Descr: Tutta la merlatura è costellata di sferette metalliche piantate nella pietra
+End
+Extras:
+  Keywords: sferette metalliche sferetta metallica sfera
+  Descr: Tutte saldamente ancorate e impossibili da sfilare... tranne forse questa qui!
+End
+
+Width:	7 m
+Depth:	7 m
+Height: 5 m
+
+Exits:
+  Direction: DIR.SOUTHWEST
+  Descr: Un finestrone
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Il balconcino
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Il balconcino
+End

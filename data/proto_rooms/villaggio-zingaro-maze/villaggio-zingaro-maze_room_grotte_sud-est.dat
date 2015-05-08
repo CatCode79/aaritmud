@@ -1,0 +1,23 @@
+Code: villaggio-zingaro-maze_room_grotte_sud-est
+Sector: SECTOR.UNDERGROUND
+Flags: ROOM.INSIDE
+Name:	Nelle Viscere della Terra
+Short: l'angusta via
+
+Descr:
+Il cunicolo si piega tortuosamente di lato cercando di aggirare un'ingombrante protuberanza nella roccia, assoggettandoti al suo volere potrai aggirarla facilmente.
+DescrSixth:
+Di certo un nugolo di cunicoli è un posto tranquillo, ma forse preferiresti trovare l'uscita.
+
+Width:	10m
+Depth:	2m
+Height: 2m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Nei meandri rocciosi
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Nei meandri rocciosi
+End

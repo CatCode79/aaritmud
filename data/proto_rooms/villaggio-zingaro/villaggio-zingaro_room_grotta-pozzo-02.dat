@@ -1,0 +1,25 @@
+Code: villaggio-zingaro_room_grotta-pozzo-02
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: La Base del Pozzo
+Short: la base del pozzo
+
+Descr:
+Immerso nell'oscurità ti sei arrampicato lungo i bordi del pozzo dirigendoti verso quello spiraglio di luce che è l'apertura del pozzo; ora però, non riesci a trovare nessun appiglio per poter proseguire la risalita.
+DescrTouch: 
+Le rocce alle quali ti sei aggrappato fin ora sono sostituite da lisci e viscidi massi. Salire pare sempre più impossibile.
+DescrSmell: 
+Aria calda e madida d'umido.
+DescrHearing:
+Lo scorrere di qualche rivoletto d'acqua lungo le pareti rompe timidamente il profondo silenzio.
+DescrSixth:
+Capisci che a questo punto l'unica possibilità che ti rimane è scendere.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.DOWN
+	Descr: Il fondo del pozzo
+End

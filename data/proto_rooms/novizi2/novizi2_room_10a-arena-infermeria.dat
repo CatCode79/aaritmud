@@ -1,0 +1,20 @@
+Code: novizi2_room_10a-arena-infermeria
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	[gold]L'infermeria[close]
+Short:	[gold]l'infermeria[close]
+
+Descr:
+Diversi pagliericci ingombrano i lati lunghi della specie di corridoio in cui è sita l'infermeria.
+
+DescrSixth:
+Dotati di opportuno senso pratico, gli artefici dell'arena le hanno garantito lunga vita dotandola d'infermeria.
+
+Width:  10m
+Depth:  10m
+Height: 4m
+
+Exits:
+	Direction:	DIR.SOUTH
+	Descr: [lemonchiffon]L'arena[close]
+End

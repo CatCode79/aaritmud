@@ -1,0 +1,34 @@
+Comment: 85 0 3
+Code: sauria_room_amena-foresta-48
+Sector: SECTOR.FOREST
+Name: Un'Amena Foresta
+Short: un'amena foresta
+
+Descr:
+La foresta si fa gradualmente meno fitta in direzione nord consentendoti una visuale migliore. La roccia ad ovest digrada repentinamente verso nord cedendo il passo ad una prateria di cui non scorgi il confine. 
+DescrTouch: 
+Questo è l'unico tratto di foresta in cui superi le fronde in altezza in diverse lunghezze.
+DescrSmell: 
+La vegetazione spande tutt'attorno fragranze piacevoli interrotte dal nulla che il vento porta da nord.
+DescrHearing:
+Il sommesso rumore del vento fra le fronde pare qui il saluto alla foresta che termina per lasciare il passo alla prateria.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21853
+  Descr:	Un'immensa prateria
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 -1 21847
+  Descr:	Un'amena foresta
+  Direction:	DIR.EAST
+End
+Exits:
+  Comment:	0 -1 21844
+  Descr:	Un'amena foresta
+  Direction:	DIR.SOUTH
+End

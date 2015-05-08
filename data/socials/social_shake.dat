@@ -1,0 +1,26 @@
+FunName:    social_shake
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Scuoti la testa.
+  OthersNoArg: $n scuote la testa.
+  EntityFound: Scuoti la testa verso $N.
+  OthersFound: $n scuote la testa in direzione di $N.
+  TargetFound: $n scuote la testa verso di te.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Quando dici no è no! Di solito..
+  OthersNoArg: $n scuote il capo in segno di diniego, già che c'è scuote anche la coda.
+  EntityFound: Scuoti il capo verso $N in segno di diniego.. E scuoto anche la coda.
+  OthersFound: $n scuote il capo verso $N in segno di diniego e già che c'è scuote anche la coda.
+  TargetFound: $n scuote il capo verso di te in segno di diniego e già che c'è scuote anche la coda.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Quando dici no è no! Di solito..
+  OthersNoArg: $n scuote il capo in segno di diniego, già che c'è scuote anche la coda.
+  EntityFound: Scuoti il capo verso $N in segno di diniego.. E scuoto anche la coda.
+  OthersFound: $n scuote il capo verso $N in segno di diniego e già che c'è scuote anche la coda.
+  TargetFound: $n scuote il capo verso di te in segno di diniego e già che c'è scuote anche la coda.
+End

@@ -1,0 +1,72 @@
+Code: siepi_room_intrico_ss
+Sector: SECTOR.WOOD
+Name: Il Labirinto di Akh-Dara
+Short: un garbuglio intricato
+Descr: 
+Questa deve essere la parte più vecchia dell'intrico; intrichi di siepi ipertrofiche
+in un immaginario lentissimo combattimento hanno segnato la vittoria sui sentieri.
+La prosaica conseguenza è la grossa difficoltà a procedere per l'esiguo spazio rimasto.
+
+DescrSmell:
+Molto poco prosaica è la puzza che arriva in questa zona come vi fosse una carcassa
+in via di decomposizione. Non è salubre star qui ad annusare.
+
+DescrHearing:
+Brusio d'insetti da qualche parte, qualcosa come piccole, numerose, fastidiosissime mosche.
+
+ShortNight: un intrico scuro 
+
+DescrNight:
+Questa deve essere la parte più vecchia dell'intrico; intrichi di siepi ipertrofiche
+in un immaginario lentissimo combattimento hanno segnato la vittoria sui sentieri.
+Come se già non bastasse il buio dovuto all'ora tarda ora anche la difficoltà a 
+procedere per l'esiguo spazio rimasto.
+
+DescrSmellNight:
+Molto poco prosaica è la puzza che arriva in questa zona come vi fosse una carcassa
+in via di decomposizione. Ora che il vento si è seduto è ancor meno salubre star qui
+ad annusare.
+
+DescrHearingNight:
+Qualche saltuario ronzio d'insetto da qualche parte.
+
+Extras:
+  Keywords: siepe siepi
+  Descr:
+	Con tutte queste foglie non si vede neppure il terreno, c'è da sperare di non
+	calpestare nulla di pericoloso
+
+End
+Extras:
+  Flags: EXTRA.DAY_ONLY
+  Keywords: luce 
+  Descr:
+	La luce filtra a fatica dalle fronde riducendo non poco la visuale
+End
+Extras:
+  Flags: EXTRA.NIGHT_ONLY
+  Keywords: ombre ombra 
+  Descr: Il movimento delle piantine dà l'impressione di un viavai continuo di piccoli animali
+End
+
+Width:	7m
+Depth:	7m
+Height: 15m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Un'apertura fra rami tagliati
+  Destination: -2 0 0 siepi
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Sentieri imbrigliati da siepi 
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Sentieri imbrigliati da siepi 
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Sentieri imbrigliati da siepi 
+End

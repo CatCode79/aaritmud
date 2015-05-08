@@ -1,0 +1,24 @@
+Code: opekus_room_ofidian_alcova_03
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: L'Alcova Lapidea
+Short: un'alcova
+
+Descr:
+Il corridoio scavato nella roccia arriva qui nella zona più profonda, poi piega ad U e
+torna indietro. Anche qui la roccia è scavata in modo poco preciso. Le lastre di pietra
+verde sul camminamento ora sono solo sul lato più largo. Sul lato più stretto c'è un
+unico basamento di colore chiaro.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTHEAST
+  Descr: Un camminamento
+End
+Exits:
+  Direction: DIR.NORTHWEST
+  Descr: Un camminamento
+End

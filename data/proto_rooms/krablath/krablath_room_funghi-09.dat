@@ -1,0 +1,46 @@
+Code: krablath_room_funghi-09
+Sector:	SECTOR.HEATH
+Name: [lightseagreen]Il Trivio sul Perimetro Interno[close]
+Short:  [lightseagreen]il trivio sul perimetro interno[close]
+
+Descr:
+La porzione di terreno ove calpesti è limitata a est da una parete rocciosa che innalzandosi va a coprire buona parte del tuo orizzonte;
+costeggiandola da nord a sud si segue un percorso anulare lungo una striscia di terra delimitata da un fossato sul lato opposto.
+Ai tuoi piedi il terreno è interamente ricoperto di [white]muffe biancastre[close] e [lightseagreen]funghi[close] di ogni dimensione. Per alcuni tratti si fa prima a fare slalom fra i grossi esemplari, per altri invece non si può che calpestare...
+DescrNight:
+La porzione di terreno ove calpesti è limitata a est da una parete rocciosa che innalzandosi va a coprire buona parte del tuo orizzonte;
+costeggiandola da nord a sud si segue un percorso anulare lungo una striscia di terra da un fossato sul lato opposto.
+Ai tuoi piedi il terreno è interamente ricoperto di muffe biancastre e [greenyellow]luminosi funghi[close] di ogni dimensione. Per alcuni tratti si fa prima a fare slalom fra i grossi esemplari, per altri invece non si può che calpestare...
+DescrTouch: 
+La morbida terra che calpesti è limitata a est da una parete rocciosa che innalzandosi va a coprire buona parte del tuo orizzonte.
+Ai tuoi piedi il morbido terreno è interamente ricoperto da funghi turgidi di ogni dimensione. Per alcuni tratti si fa prima a fare slalom fra i grossi esemplari, per altri invece non si può che calpestare...
+D'un tratto il tuo piede trova verso ovest, nel termine del fossato una via libera. 
+DescrSmell: 
+Nessuna brezza qui, tanto che il ristagno satura l'aria d'umido e dell'olezzo caratteristico di muffe e funghi.
+DescrSixth:
+L'impressione è che il fianco roccioso che ti avvolge prosegua in un enorme abbraccio circolare.
+DescrTaste:
+Anche l'aria madida d'umido porta con sé il sapore di muffa e di funghi ma speri d'abituartici prima possibile.
+
+Extras:
+        Keywords:       luminosi funghi
+	Flags: EXTRA.NIGHT_ONLY
+        Descr:
+        Una [greenyellow]pun[white]teg[greenyellow]gia[white]tu[greenyellow]ra[close] di luce decora tutto il cappello
+        DescrSixth:
+        La punteggiatura di luce che decora tutto il cappello suggerisce mutevoli simbologie aliene 
+End
+
+Width:	6m
+Depth:	6m
+Height:	4m
+
+Exits:
+  Direction: DIR.NORTHWEST
+  Descr: Il perimetro
+End
+Exits:
+  Direction: DIR.SOUTHWEST
+  Descr: Il perimetro
+End
+

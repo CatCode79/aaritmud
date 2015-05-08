@@ -1,0 +1,66 @@
+Comment:
+visvas il venditore con le dita da pianista
+cartello
+
+Code: elizor_room_shop-friggitoria
+Sector: SECTOR.SHOP
+Flags: ROOM.INSIDE
+Name: Il Paradiso della Pastella
+Short: la friggitoria
+
+Descr:
+Sotto al tendone, un baracchino vecchio ma ben tenuto ospita la più terribile fra le armi di seduzione: il fritto!
+Il tuo occhio viene salutato da una sterminata varietà di cibo impastellato e fritto che ti osserva dalla spessa lastra di vetro protettivo.
+Per ultimo vedi anche un lento spiedo ruotare verticalmente irradiato da un'alta fiamma laterale.
+La parte interna del telone riporta in più lingue sempre la solita amena scritta.
+DescrTouch: 
+Quale che sia la cosa che tocchi, ti unge e conferisce una buffa semitrasparenza agli oggetti.
+DescrSmell: 
+Solo la tua narice esperta e delicata ti consente di capire che qui qualcosa frigge in pentola.
+DescrSixth:
+La chiave di volta di tutta la cultura culinaria risiede in un unico grande insegnamento: "fritto è buono anche un sasso".
+DescrHearing:
+Una magica e mistica aura d'unto ti protegge dal rumoreggiare della piazza.
+DescrTaste:
+Ci vuole proprio poco perché anche le tue papille dimentichino il brutto incontro con la piazza per essere ipnotizzate dalla decisa spinta propulsiva del fritto.
+
+
+Extras:
+	Keywords:	scritta amena lingua lingue
+	Descr:
+	[rosybown]Il Paradiso della Pastella[close]
+	DescrTouch:
+	La scritta non è in rilievo, quello che invece è rilevante è che ti sei unt$o le $hands.
+	DescrTaste:
+	no_send
+	DescrSixth:
+	Il fatto che nella tua lingua si legga in un modo non vuol dire che abbia lo stesso significato anche nelle altre lingue.
+End
+Extras:
+	Keywords:	spiedo verticale verticalmente lento
+	Descr:
+	Somiglia a quel che si potrebbe ottenere infilzando una sopra l'altra carcasse d'animali diversi e strinandoli alla fiamma.
+        La fiamma che lo rosola proviene da un barilotto di sostanza fumosa e nerastra che solo per magia evita di insozzarlo ed avvelenarlo.
+	DescrHearing:
+        Discreta rotazione silente senza sbavature.
+	DescrSixth:
+	Impossibile che cigoli qualcosa in questo luogo, ogni giorno è una lubrificata a tutte le giunture.
+End
+Extras:
+	Keywords:	lastra vetro
+	Descr:
+	Al sicuro sotto il vetro ci sono tante vaschette contenenti tutto quello che di vivo si può friggere senza che sparisca.
+	DescrTouch:
+	Un vetro da intenditori, un flint ad elevato indice di rifrazione.
+	DescrSixth:
+	Non è certo che sian state fritte solo bestie vive qui...
+End
+Width:  6m
+Depth:  6m
+Height: 2m
+
+
+Exits:
+	Direction:	DIR.WEST
+	Descr:	All'esterno
+End

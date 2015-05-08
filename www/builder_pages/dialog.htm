@@ -1,0 +1,75 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<h2>Indice delle Etichette per un Dialogs</h2>
+<a href='#Code:'>Code:</a><br>
+<a href='#Introduction:'>Introduction:</a><br>
+<a href='#Questions:'>Questions:</a><br>
+
+<hr>
+<h2>Note Riguardo ai Dialog</h2>
+I dialoghi sono nati facendomi riferimento concettualmente a quelli di Baldur's Gate, tecnicamente a quelli di NWN aggiungendo poi qualcosina presa da quelli di KOTOR; anche se ritengo che il gioco migliore per capire quale tipologia di dialoghi voglia sia Planescape Torment (un pochino meno logorroici per&ograve; ci siamo).<br>
+Questo lo dico perch&eacute; se mai avete giocato uno di questi videogame (o simile) siete, secondo me, gi&agrave; a met&agrave; dell'opera per capire i dialoghi di Aarit e saperli scrivere.<br>
+I dialoghi sono una delle chicche pi&ugrave; belle di Aarit, difficile spiegarli senza averne visto uno in azione, inserisco un ipotetico output di un dialog in Aarit in cui il giocatore parla con un barista:<br><br>
+
+<pre>
+[input] parla barista
+[output]
+Vedi un barista panzottello e dalla pelata bella lustra con le mani sui fianchi
+che guarda attentamente, con occhietti neri e stretti, quella bolgia della sua
+clientela per urlare lesto a chi sporcasse pi&ugrave; del necessario.
+Il barista del luogo ti rivolge a te senza perdere d'occhio la ressa: "Hai
+bisogno di qualcosa?"
+1] Chiedi il nome del barista.
+2] Chiedi cosa offre come servizio questa taverna.
+3] Offendi il barista.
+4] Chiedi se ha bisogno di qualche lavoretto.
+5] Smetti di parlare col barista.
+
+[input] 1
+[output]
+Il barista si accende di orgoglio mentre tuona: "Il mio nome &egrave; Guttalax, come
+la mia bevanda migliore!"
+1] Ti presenti.
+3] Che lavoro fai?
+4] Offendi il barista
+5] Tenta di distrarlo per derubarlo
+0] Torniamo alle mie domande principali
+
+</pre>
+
+<hr>
+<h2>Tabella di Riferimento Veloce</h2>
+<table border="1">
+<tr class="thref"><td>Etichetta</td><td>Tipologia</td><td>Utilizzo</td></tr>
+<tr><td class="label">Code</td><td>Stringa, codice identificativo del dialogo</td><td>Obbligatorio</td></tr>
+<tr><td class="label">Introduction</td><td>Stringa, anche su pi&ugrave; linee</td><td>Facoltativo</td></tr>
+<tr><td class="label">Questions</td><td>Lista delle domande</td><td>Facoltativo</td></tr>
+</table><br>
+
+<hr>
+<h2>Struttura Tipica con le Etichette Obbligatorie (per copia e incolla)</h2>
+<pre>
+Dialogs:
+  Code:
+  Questions:
+  End
+End
+</pre><br>
+
+<hr>
+<a name='Code'><h3>Code:</h3></a>
+Il codice identifica un dialogo, questo serve perch&eacute; un'entit&agrave; ne pu&ograve; avere pi&ugrave; d'uno, ognuno del quale verr&agrave; attivato in maniera differente tramite gamescript<br><br>
+
+<a name='Introduction'><h3>Introduction:</h3></a>
+<br><br>
+
+<a name='Questions'><h3>Questions:</h3></a>
+<br><br>

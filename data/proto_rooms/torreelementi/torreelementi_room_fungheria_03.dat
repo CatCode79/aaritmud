@@ -1,0 +1,38 @@
+Comment: questa è la morchella che vorrei descrivere nella zona 
+http://it.wikipedia.org/wiki/Gyromitra_esculenta
+il principio attivo potrebbe essere una delle sostanze da ricavare come idea per mettere in acqua ed abbeverare piante da far mutare in qche modo
+
+
+Code: torreelementi_room_fungheria_03
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Zona delle Morchelle [silver]Nere[close]
+Short: i funghi [silver]neri[close]
+Descr:
+Percorri un breve tratto disadorno e spoglio per arrivare nella galleria; qui sono
+pochi i fagottoni in cui i funghi son riusciti a germinare ed anche in quei pochi
+vi sono pochi e piccoli esemplari tutti [silver]neri[close] amorfi e spugnosi.
+La via prosegue salendo leggermente e piegando ad ovest mentre ti allontani dal
+centro della fungheria.
+DescrSmell:
+Una fragranza aromatica e pungente acuisce allontanandosi dal centro della zona
+mettendoti cautamente in allarme.
+
+Extras:
+  Keywords: funghi fungo
+  DescrTouch: 
+  Ha consistenza durissima per essere un fungo! Opps.. non così dura..
+  Descr:
+  A guardarlo ricorda la forma di un cervello per quanto più irregolare in questa
+  sorta di costolature che lo percorrono, il colore è [darkgray]bruno-nerastro[close] tranne che
+  per il gambo [white]bianchissimo[close].
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTHEAST
+  Descr: La zona centrale
+End

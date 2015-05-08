@@ -1,0 +1,85 @@
+<script type="text/javascript">
+function changeCoordZ(symbol) {
+	var coord_z = parseInt($("#coord_z").text()));
+	if (symbol == "-") {
+		coord_z -= 1;
+	} else {
+		coord_z += 1;
+	}
+	changeArguments("coord_z", coord_z);
+}
+
+function changeArguments(argument_name, argument_value) {
+	arguments = location.href.split("?");
+	if (arguments[1].indexOf("&") == -1) {
+		location.href = location.href + "&" + argument_name + "=" + argument_value;
+	} else {
+		arguments = arguments[1].split("&");
+		var new_arguments = ""
+		for (i=0; i<arguments.length; i++) {
+			if (arguments[i].startsWith(argument_name + "=")) {
+				continue;
+			}
+			new_arguments += arguments[i] + "&";
+		}
+		location.href = "area_editor.html?" + new_arguments + argument_name + "=" + argument_value;
+	}
+}
+</script>
+
+<center>
+	<h3>Area: <select id="areas" onchange="location.href='area_editor.html?area_code=' + $('#areas option:selected').text();">${area_select_options}</select></h3>
+	<span id="error_message" style="color:red;">${error_message}</span>
+</center>
+
+<hr>
+<div style="text-align:center;">
+	<hr>
+	(coordinata z minima: ${min_coord_z})&nbsp;
+	<input type="submit" value="-" onclick="changeCoordZ('-');" /> Coordinata Z: <span id="coord_z">${coord_z}</span> <input type="submit" value="+" onclick="changeCoordZ('+');" />
+	&nbsp;(coordinata z massima: ${max_coord_z})
+	<table align="center">
+	${cells}
+	</table>
+</div>
+
+<hr>
+<h4><a id="legend_label" href="javascript:toggleLegend();">Legenda (mostra)</a>:</h4>
+<div id="legend_icons">
+	${legend_icons}
+</div>
+<script>
+$("#legend_icons").hide();
+function toggleLegend() {
+	$("#legend_icons").toggle();
+	if ($("#legend_label").text().indexOf("mostra") == -1) {
+		$("#legend_label").text("Legenda (mostra)");
+	} else {
+		$("#legend_label").text("Legenda (nascondi)");
+	}
+}
+</script>
+
+<hr>
+<div id="tabs">
+	<ul>
+		<li><a href="#proto_rooms" class="avoid_border_bottom">ProtoRooms</a></li>
+		<li><a href="#proto_items" class="avoid_border_bottom">ProtoItems</a></li>
+		<li><a href="#proto_mobs" class="avoid_border_bottom">ProtoMobs</a></li>
+	</ul>
+	<div id="proto_rooms">
+		${proto_rooms}<br class="demi">
+		<input type="submit" value="Crea una nuova stanza prototipo" onclick="location.href='edit_proto_room.html'" />
+	</div>
+	<div id="proto_items">
+		${proto_items}<br class="demi">
+		<input type="submit" value="Crea un nuovo oggetto prototipo" onclick="location.href='edit_proto_item.html'" />
+	</div>
+	<div id="proto_mobs">
+		${proto_mobs}<br class="demi">
+		<input type="submit" value="Crea un nuovo mob prototipo" onclick="location.href='edit_proto_mob.html'" />
+	</div>
+</div>
+
+<hr>
+${area_labels}

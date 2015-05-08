@@ -1,0 +1,17 @@
+Code: opekus_room_rovine_08
+Sector: SECTOR.PATH
+Name: L'Area Punteggiata
+Short: cumuli qua e là
+Descr:
+Un prato ampio e pianeggiante in cui bassi cumuli tondeggianti del diametro di poche
+spanne sono disposti a distanze regolare dagli altri. Il disegno ha proporzioni
+gigantesche e pare rappresentare una sorta di doppia croce. 
+
+Width:	10m
+Depth:	10m
+Height: 10m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: La via
+End

@@ -1,0 +1,47 @@
+Code: torreelementi_room_giardino_e
+Sector: SECTOR.PLAIN
+Name: Le Talee
+Short: terreno coltivato
+Descr:
+Il sentiero di ciottoli passa in mezzo ad un campo dissodato di recente. Parallelamente
+al sentiero son impiantati numerosi filari di talee alte poco più di un piede.
+Il terreno è stato bagnato di recente.
+
+Extras:
+  Keywords: filari filare
+  Descr: Questo parrebbe un filare di piante da frutto... uhm... mele? Pere? Albicocche?
+End
+Extras:
+  Keywords: frutto frutta
+  Descr: Forse sei solo affamat$o?
+  DescrSixth: Potrebbe essere interessante prelevare una talea direttamente
+End
+Extras:
+  Keywords: mele
+  Descr: Forse no...
+End
+Extras:
+  Keywords: pere
+  Descr: Chissà!
+End
+Extras:
+  Keywords: albicocche
+  Descr: Magari memorizzo il posto e ci passo fra un annetto per vedere...
+End
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Il giardino prosegue
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Il giardino prosegue
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Un campo coltitvato
+End

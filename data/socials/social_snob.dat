@@ -1,0 +1,36 @@
+FunName:    social_snob
+Intention:  INTENTION.NEUTRAL
+Expression: altezzosamente
+Smiles:     :" :-"
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Arricci il naso voltando il capo molto altezzosamente.
+  OthersNoArg: $n arriccia il naso voltando il capo altezzosamente.
+  EntityFound: Rivolgendo una rapida occhiata a $N arricci il naso e ti volti altrove altezzosamente.
+  OthersFound: $n rivolgendo una rapida occhiata a $N arriccia il naso per poi voltarsi altezzosamente.
+  TargetFound: $n ti rivolge una rapida occhiata prima di arricciare educatamente il naso e voltarsi altezzosamente.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: La tua bellezza ti pone al di sopra di tutti i presenti.
+  OthersNoArg: $n gonfia il petto e guarda i presenti con alterigia.
+  EntityFound: Mostri a $N cosa significhi essere veramente belli.
+  OthersFound: $n si presenta a $N come esempio di ogni virtù.
+  TargetFound: La superbia di $n $GLI fa credere di essere un campione di bellezza.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Guardi tutti altezzosamente; non tutti possono nascere felar dopotutto..
+  OthersNoArg: $n guarda i presenti con sguardo altezzoso, non siamo alla sua altezza?
+  EntityFound: Squadri $N dall'alto in basso arricciando le vibrisse altezzosamente.
+  OthersFound: $n squadra $N dall'alto in basso arricciando le vibrisse altezzosamente.
+  TargetFound: $n ti squadra dall'alto in basso arricciando le vibrisse altezzosamente.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Guardi tutti altezzosamente; non tutti possono nascere mici dopotutto..
+  OthersNoArg: $n guarda i presenti con sguardo altezzoso, non siamo alla sua altezza?
+  EntityFound: Squadri $N dall'alto in basso arricciando le vibrisse altezzosamente.
+  OthersFound: $n squadra $N dall'alto in basso arricciando le vibrisse altezzosamente.
+  TargetFound: $n ti squadra dall'alto in basso arricciando le vibrisse altezzosamente.
+End

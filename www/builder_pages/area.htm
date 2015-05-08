@@ -1,0 +1,246 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Area</title>
+</head>
+<body>
+
+<hr>
+<h2>Indice delle Etichette per il File di Area</h2>
+<a href='#Comment'>Comment:</a><br>
+<a href='#Creators'>Creators:</a><br>
+<a href='#Revisors'>Revisors:</a><br>
+<a href='#Code'>Code:</a><br>
+<a href='#Name'>Name:</a><br>
+<a href='#Short'>Short:</a><br>
+<a href='#ShortNight'>ShortNight:</a><br>
+<a href='#Descr'>Descr:</a><br>
+<a href='#Level'>Level:</a><br>
+<a href='#Flags'>Flags:</a><br>
+<!--a href='#Races'>Races:</a><br-->
+<a href='#Color'>Color:</a><br>
+<a href='#Music'>Music:</a><br>
+<a href='#MusicWild'>MusicWild:</a><br>
+<a href='#Climates'>Climates:</a><br>
+<!--a href='#Maze'>Maze:</a><br-->
+<a href='#RepopTime'>RepopTime:</a><br>
+<a href='#RoomResets'>RoomResets:</a><br>
+<a href='#EchoesDawn'>EchoesDawn:</a><br>
+<a href='#EchoesDawnNoSun'>EchoesDawnNoSun:</a><br>
+<a href='#EchoesSunrise'>EchoesSunrise:</a><br>
+<a href='#EchoesSunriseNoSun'>EchoesSunriseNoSun:</a><br>
+<a href='#EchoesNoon'>EchoesNoon:</a><br>
+<a href='#EchoesNoonNoSun'>EchoesNoonNoSun:</a><br>
+<a href='#EchoesSunset'>EchoesSunset:</a><br>
+<a href='#EchoesSunsetNoSun'>EchoesSunsetNoSun:</a><br>
+<a href='#EchoesDusk'>EchoesDusk:</a><br>
+<a href='#EchoesDuskNoMoon'>EchoesDuskNoMoon:</a><br>
+<a href='#EchoesDuskFullMoon'>EchoesDuskFullMoon:</a><br>
+<a href='#EchoesMidnight'>EchoesMidnight:</a><br>
+<a href='#EchoesMidnightNoMoon'>EchoesMidnightNoMoon:</a><br>
+<a href='#EchoesMidnightFullMoon'>EchoesMidnightFullMoon:</a><br><br>
+
+<hr>
+<h2>Note Riguardo l'Area</h2>
+Un'area pu&ograve; essere vista come un contenitore di stanze disposte su di una griglia di coordinate. A loro volta le stanze contengono entit&agrave; quali mob e oggetti.<br>
+Il file dato di area &egrave; uno solo e contiene tutte le caratteristiche base nonch&eacute;, sezione molto importante, quella di tutti i reset dell'area stessa.<br>
+Il nome del file &egrave; formato dal codice dell'area + l'estensione ".dat", per scegliere un codice addatto leggetevi l'etichetta <span class="label">Code</span> pi&ugrave; avanti in questa pagina.<br>
+Nel file di area non bisogna inserire le etichette relative a singole stanze, mob o oggetti, queste vanno su file *.dat separati.<br><br>
+
+<hr>
+<h2>Tabella di Riferimento Veloce</h2>
+<table border="1">
+<tr class="thref"><td>Etichetta</td><td>Tipologia</td><td>Utilizzo</td></tr>
+<tr><td class="label">Comment</td><td>Testo, anche su pi&ugrave; linee</td><td>Facoltativo anche se consigliato</td></tr>
+<tr><td class="label">Creators</td><td>Testo, su una linea sola</td><td>Obbligatorio</td></tr>
+<tr><td class="label">Revisors</td><td>Testo, su una linea sola</td><td>Facoltativo</td></tr>
+<tr><td class="label">Code</td><td>Testo, su una linea sola</td><td>Obbligatorio</td></tr>
+<tr><td class="label">Name</td><td>Testo, su una linea sola, in titoletto</td><td>Obbligatorio</td></tr>
+<tr><td class="label">Short</td><td>Testo, su una linea sola</td><td>Obbligatorio</td></tr>
+<tr><td class="label">ShortNight</td><td>Testo, su una linea sola</td><td>Facoltativo</td></tr>
+<tr><td class="label">Descr</td><td>Testo, anche su pi&ugrave; linee</td><td>Obbligatorio</td></tr>
+<tr><td class="label">Level</td><td>Numero, da 1 a 200</td><td>Obbligatorio</td></tr>
+<tr><td class="label">Flags</td><td>Flags, relative alla tipologia AREA</td><td>Facoltativo</td></tr>
+<!--tr><td class="label">Races</td><td>Flags, relative alla tipologia RACE</td><td>Non ancora definito</td></tr-->
+<tr><td class="label">Color</td><td>Element, relativo alla tipologia COLOR</td><td>Obbligatorio</td></tr>
+<tr><td class="label">Music</td><td>Nome di file midi</td><td>Facoltativo</td></tr>
+<tr><td class="label">MusicWild</td><td>Nome di file midi</td><td>Facoltativo</td></tr>
+<tr><td class="label">Climates</td><td>Climate</td><td>Facoltativo ma consigliato</td></tr>
+<!--tr><td class="label">Maze</td><td>Maze</td><td>Facoltativo</td></tr-->
+<tr><td class="label">RepopTime</td><td>Numero, minuti reali, maggiore o uguale a 0</td><td>Obbligatorio</td></tr>
+<tr><td class="label">RoomResets</td><td>RoomResets</td><td>Praticamente obbligatorio per aree normali</td></tr>
+<tr><td class="label">EchoesDawn</td><td>Lista di messaggi</td><td>Facoltativo</td></tr>
+<tr><td class="label">EchoesDawnNoSun</td><td>Lista di messaggi</td><td>Facoltativo</td></tr>
+<tr><td class="label">EchoesSunrise</td><td>Lista di messaggi</td><td>Facoltativo</td></tr>
+<tr><td class="label">EchoesSunriseNoSun</td><td>Lista di messaggi</td><td>Facoltativo</td></tr>
+<tr><td class="label">EchoesNoon</td><td>Lista di messaggi</td><td>Facoltativo</td></tr>
+<tr><td class="label">EchoesNoonNoSun</td><td>Lista di messaggi</td><td>Facoltativo</td></tr>
+<tr><td class="label">EchoesSunset</td><td>Lista di messaggi</td><td>Facoltativo</td></tr>
+<tr><td class="label">EchoesSunsetNoSun</td><td>Lista di messaggi</td><td>Facoltativo</td></tr>
+<tr><td class="label">EchoesDusk</td><td>Lista di messaggi</td><td>Facoltativo</td></tr>
+<tr><td class="label">EchoesDuskNoMoon</td><td>Lista di messaggi</td><td>Facoltativo</td></tr>
+<tr><td class="label">EchoesDuskFullMoon</td><td>Lista di messaggi</td><td>Facoltativo</td></tr>
+<tr><td class="label">EchoesMidnight</td><td>Lista di messaggi</td><td>Facoltativo</td></tr>
+<tr><td class="label">EchoesMidnightNoMoon</td><td>Lista di messaggi</td><td>Facoltativo</td></tr>
+<tr><td class="label">EchoesMidnightFullMoon</td><td>Lista di messaggi</td><td>Facoltativo</td></tr>
+</table><br>
+
+<hr>
+<h2>Struttura Tipica con le Etichette Obbligatorie (per copia e incolla)</h2>
+<pre>
+Code:
+Name:
+Short:
+Descr:
+Level:
+Color: COLOR.
+RepopTime:
+RoomResets:
+End
+</pre><br>
+
+<hr>
+<a name='Comment'><h3>Comment:</h3></a>
+Per saperne di pi&ugrave; riguardo a quest'etichetta <a href="comment.htm">dovete leggere qui</a>.<br>
+Inserite qualsiasi cosa relativa all'area in generale, anche un po' di background o sul perch&eacute; si &egrave; deciso di fare una cosa piuttosto che un'altra.<br>
+L'etichetta non &egrave; obbligatoria ma &egrave; fortemente consigliato utilizzarla, non tenetevi tutto a mente.<br><br>
+
+<a name='Creators'><h3>Creators:</h3></a>
+Qui bisogna inserire il nome del proprio account.<br>
+L'etichetta serve a ricavare i permessi di building per l'area oltre che a far visualizzare il proprio nick nella pagina della lista delle aree.<br>
+L'etichetta &egrave; obbligatoria.<br>
+
+<a name='Code'><h3>Code:</h3></a>
+Il codice di un'area &egrave; una parola (o due, preferibilmente corte e non separate da underscore) scritta in minuscolo che identifica l'area.<br>
+Per esempio se state creando un'area che volete chiamare: "Il Bosco Incantato", bosco potrebbe essere un codice identificativo valido (sempre che non ve ne sia gi&agrave; uno identico); anche boscoincantato pu&ograve; essere un codice valido, tutto dipende se sia stato o meno gi&agrave; utilizzato come codice di un'altra area, questa &egrave; una cosa da chiedere ai sviluppatori del Mud.<br>
+Il codice di un'area dar&agrave; anche il nome al file, seguito dall'estensione dat, che contiene le etichette descritte in questa pagina.<br>
+L'etichetta &egrave; obbligatoria.<br><br>
+
+<a name='Name'><h3>Name:</h3></a>
+Il nome dell'area &egrave; una breve frase descrivente il luogo, non credo ci sia bisogno di ulteriore spiegazione, visto che segue gli stessi "standard" di molti altri mud, compreso lo stile <a href="titoletto.htm">titoletto</a>.<br>
+Per esempio nella spiegazione del codice ho chiamato l'area "Il Bosco Incantato", ecco quello &egrave; il nome dell'area.<br>
+L'etichetta &egrave; obbligatoria.<br><br>
+
+<a name='Short'><h3>Short:</h3></a>
+&Egrave; una breve frase descrivente il luogo in modo pi&ugrave; generale per come potrebbe essere percepito dal giocatore che vi entra.
+Per esempio se l'area si chiama "Il Bosco Incantato", allora la short potrebbe essere "un rigoglioso bosco".<br>
+L'etichetta &egrave; obbligatoria.<br><br>
+
+<a name='Descr'><h3>Descr:</h3></a>
+Breve descrizione (5-10 righe) generale dell'area fatta tenendo presente che &egrave; una cosa che i giocatori possono leggere.<br>
+Le descrizioni di tutte le area infatti sono raggiungibili da un link della Biblioteca dal sito di Aarit.<br>
+L'etichetta &egrave; obbligatoria.<br><br>
+
+<a name='Color'><h3>Color:</h3></a>
+Color &egrave; un <a href="element.htm">Element</a>, ecco la <a href="elements_list.htm#COLOR">lista dei colori</a>.<br>
+Per la scelta del colore vera e propria per&ograve; &egrave; meglio utilizzare la pagina relativa alla <a href="colors.htm">formattazione del testo</a> in Aarit, troverete un prospetto con la lista dei colori ordinati per gradazione.<br>
+Essendo quest'etichetta un <a href="element.htm">Element</a> ricordatevi d'utilizzare un eventuale sinonimo oltre al codice di colore.<br>
+Il colore di un'area verr&agrave; utilizzato in vari modi, prima di tutto come colorazione del capolettera nelle descrizioni delle stanze ed anche in altre piccole cose: se l'area &egrave; una citt&agrave; il colore viene utilizzato come principale colore dello stemma della citt&agrave;.<br>
+L'etichetta &egrave; obbligatoria.<br><br>
+
+<a name='Level'><h3>Level:</h3></a>
+&Egrave; un numero che pu&ograve; variare tra 1 e 1000 e indica il livello base dei Mob e degli Oggetti che si trovano in quell'area, capirete meglio questa etichetta studiandovi l'etichetta <span class="label">Level</span> dei <a href="mob.htm#Level">mob</a> e degli <a href="item.htm#Level">oggetti</a>.<br>
+L'etichetta &egrave; obbligatoria.<br><br>
+
+<a name='Flags'><h3>Flags:</h3></a>
+&Egrave; una <a href="flags.htm">Flags</a> relativa alle <a href="elements_list.htm#AREA">flag di area</a>, vedere la lista per una scelta corretta.<br>
+L'etichetta non &egrave; obbligatoria.<br><br>
+
+<a name='Races'><h3>Races:</h3></a>
+&Egrave; una <a href="flags.htm">Flags</a>, relativa alla <a href="elements_list.htm#RACE">lista delle razze</a>, che indica quali razze di norma si possono trovare nell'area, perch&eacute; a volte ci saranno dei caricamenti casuali in masse di alcune razze per simulare migrazioni, scontri o altro in quell'area.<br>
+L'etichetta non &egrave; obbligatoria.<br>
+(TD) non &egrave; cos&igrave; facile com'&egrave; scritto, forse in futuro non esister&agrave;.. potete evitare di definirla per ora.<br><br>
+
+<a name='EchoesDawn'><h3>EchoesDawn:</h3></a>
+Il valore dell'etichetta funziona come una <a href="list.htm">List</a>, ogni valore &egrave; da considerarsi come stringa.<br>
+Difatti ogni occorrenza di questa etichetta verr&agrave; a formare una lista da cui attingere il messaggio che verr&agrave; visualizzato da tutti i personaggi che si troveranno nell'area nel momento in cui vi sar&agrave; l'aurora.<br>
+Esempio:<br>
+EchoesDawn Vedi un bagliore verso est, oltre le montagne: finalmente &egrave; l'aurora.<br>
+EchoesDawn Una luce soffusa annuncia la fine di tutto l'incubo che hai passato in questa zona.<br>
+Il messaggio verr&agrave; scelto a caso.<br>
+L'etichetta non &egrave; obbligatoria.<br><br>
+
+<a name='EchoesDawnNoSun'><h3>EchoesDawnNoSun:</h3></a>
+Come l'etichetta EchoesDawn, tuttavia qui bisogna inserirvi i messaggi visualizzati quando il sole &egrave; coperto da nuvole o altro.<br>
+Sostanzialmente &egrave; un sistema per differenziare i messaggi a seconda se vi sia bello o cattivo tempo.<br>
+L'etichetta non &egrave; obbligatoria.<br><br>
+
+<a name='EchoesSunrise'><h3>EchoesSunrise:</h3></a>
+Medesime considerazione della EchoesDawn, ma qui relativamente all'alba.<br>
+L'etichetta non &egrave; obbligatoria.<br><br>
+
+<a name='EchoesSunriseNoSun'><h3>EchoesSunriseNoSun:</h3></a>
+Come la EchoesDawnNoSun, ma qui relativamente all'alba.<br>
+L'etichetta non &egrave; obbligatoria.<br><br>
+
+<a name='EchoesNoon'><h3>EchoesNoon:</h3></a>
+Medesime considerazione della EchoesDawn, ma qui relativamente al mezzogiorno.<br>
+L'etichetta non &egrave; obbligatoria.<br><br>
+
+<a name='EchoesNoonNoSun'><h3>EchoesNoonNoSun:</h3></a>
+Come la EchoesDawnNoSun, ma qui relativamente al mezzogiorno.<br>
+L'etichetta non &egrave; obbligatoria.<br><br>
+
+<a name='EchoesSunset'><h3>EchoesSunset:</h3></a>
+Medesime considerazione della EchoesDawn, ma qui relativamente al tramonto.<br>
+L'etichetta non &egrave; obbligatoria.<br><br>
+
+<a name='EchoesSunsetNoSun'><h3>EchoesSunsetNoSun:</h3></a>
+Come la EchoesDawnNoSun, ma qui relativamente al tramonto.<br>
+L'etichetta non &egrave; obbligatoria.<br><br>
+
+<a name='EchoesDusk'><h3>EchoesDusk:</h3></a>
+Medesime considerazione della EchoesDawn, ma qui relativamente al crepuscolo.<br>
+L'etichetta non &egrave; obbligatoria.<br><br>
+
+<a name='EchoesDuskNoMoon'><h3>EchoesDuskNoMoon:</h3></a>
+Similmente alle etichette che finiscono con NoSun questa verr&agrave; visualizzata sia quando la luna &egrave; coperta dalle nuvole, sia quando non si trova in cielo la notte.<br>
+L'etichetta non &egrave; obbligatoria.<br><br>
+
+<a name='EchoesDuskFullMoon'><h3>EchoesDuskFullMoon:</h3></a>
+I messaggi inseriti in questa etichetta verranno visualizzati solo quando la luna &egrave; piena.<br>
+(Potrebbe essere utile in vista di una implementazione licantropesca in Aarit)<br>
+L'etichetta non &egrave; obbligatoria.<br><br>
+
+<a name='EchoesMidnight'><h3>EchoesMidnight:</h3></a>
+Medesime considerazione della EchoesDawn, ma qui relativamente alla mezzanotte.<br>
+L'etichetta non &egrave; obbligatoria.<br><br>
+
+<a name='EchoesMidnightNoMoon'><h3>EchoesMidnightNoMoon:</h3></a>
+Come la EchoesDuskNoMoon, ma relativamente alla mezzanotte.<br>
+L'etichetta non &egrave; obbligatoria.<br><br>
+
+<a name='EchoesMidnightFullMoon'><h3>EchoesMidnightFullMoon:</h3></a>
+Come la EchoesDuskFullMoon, ma relativamente alla mezzanotte.<br>
+L'etichetta non &egrave; obbligatoria.<br><br>
+
+<a name='Climates'><h3>Climates:</h3></a>
+Informazioni meteo dell'area che di norma si hanno in ogni stagione.<br>
+&Egrave; una sottostruttura (per cui deve essere chiusa con l'etichetta di chiusura <span class="label">End</span>) la cui spiegazione la trovate in <a href="climate.htm">questa pagina</a>.<br>
+L'etichetta non &egrave; obbligatoria ma consigliata, soprattutto se l'area si trova in una zona non temperata o con delle attivit&agrave; meteo fuori dalla norma.<br><br>
+
+<a name='RepopTime'><h3>RepopTime:</h3></a>
+Tempo, in minuti reali, tra un reset di area ed un altro. Ma attenzione! Non verranno resettate tutte le entit&agrave; dell'area assieme, bens&igrave; ognuna di essa verr&agrave; resettata ogni volta entro un certo range di tempo casuale tra il -20% o il +20% rispetto ai minuti dichiarati in questa etichetta.<br>
+Non so ancora dare un tempo medio da consigliare, ma penso che 15 minuti possano andare bene.<br>
+Le aree con RepopTime impostato a 0 non effetueranno repop.
+L'etichetta &egrave; obbligatoria.<br><br>
+
+<a name='RoomResets'><h3>RoomResets:</h3></a>
+La sottostruttura dei RoomResets, abbastanza particolare, &egrave; spiegata nel dettaglio in <a href="room_resets.htm">questa pagina</a>.<br>
+Direi proprio che questa etichetta &egrave; obbligatoria, altrimenti nell'area non vi sar&agrave; neppure una stanza!<br><br>
+
+<a name='Music'><h3>Music:</h3></a>
+Quest'etichetta contiene una stringa con il nome di un file midi (comprensivo di estensione *.mid) che si attiver&agrave; ogni volta che un giocatore entrer&agrave; nell'area.<br>
+L'etichetta non &egrave; obbligatoria.<br><br>
+
+<a name='MusicWild'><h3>MusicWild:</h3></a>
+Quest'etichetta contiene una stringa con il nome di un file midi (comprensivo di estensione *.mid) che si attiver&agrave; ogni volta che un giocatore uscir&agrave; da quest'area entrando nella wilderness.<br>
+Ci&ograve; serve a inviare musiche differenti a seconda della zona di wild in cui ci si trova.<br>
+Difatti l'alternativa sarebbe quella di andare a impostare l'etichetta Music di ogni stanza-wild che confina con l'area, ma poich&eacute; queste potrebbero essere veramente tante (un'area potrebbe occupare pi&ugrave; caselle di wild) sarebbe faticoso da gestire.<br>
+L'etichetta non &egrave; obbligatoria.<br><br>
+
+<hr>
+</body>
+</html>

@@ -1,0 +1,54 @@
+ï»¿# Template di base:
+class SiteXxxPage(WebResource):
+    '''
+    Pagina utilizzata per xxx.
+    '''
+    def render_GET(self, request, conn):
+        return self.create_page(request, conn)
+
+    def render_POST(self, request, conn):
+        # Ricava gli argomenti del form dalla richiesta
+        # (TD)
+        # Controlla la validità degli argomenti inseriti nel form
+        # (TD)
+        return self.create_page(request, conn)
+
+    def create_page(self, request, conn):
+        # Prepara il form
+        form = []
+        row = create_form_row(form)
+        # Crea la pagina html
+        page  = create_header(conn, "site")
+        page += ''''''
+        page += create_footer(conn, "site")
+        return page
+
+
+
+# Template tipico per una pagina web di building
+class BuildEnumPage(WebBuildResource):
+    '''
+    Pagina web utilizzata per creare una lista di enumerazioni.
+    '''
+    def render_GET(self, request, conn, db_name, enum):
+        if not enum:
+            enum = Enum()
+        return self.create_page(request, conn, db_name, enum)
+
+    def render_POST(self, request, conn, db_name, enum):
+        if not enum:
+            enum = Enum()
+        # Acquisisce i dati del form
+        # (TD)
+        return self.create_page(request, conn, db_name, enum)
+
+    def create_page(self, request, conn, db_name, enum):
+        # Prepara il form
+        form = []
+        row = create_form_row(form)
+        row.label   = ""
+        row.field   = '''<input />'''
+        row.message = create_tooltip(conn, "")
+        # (TD)
+        # Crea la pagina html
+        return self.create_build_page(request, conn, db_name, enum, enum.name, form)

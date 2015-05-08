@@ -1,0 +1,47 @@
+Code: novizi2_room_01-sensoriali
+Icon: icons/room/triskele-yellow.png
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	I Cinque Sensi più Uno
+Short: i cinque sensi più uno
+
+Descr:
+Ovunque nel [red]N[gold]akilen[close] si possono usare oltre agli occhi anche gli altri sensi
+per esplorare il mondo; molti sono gli aspetti nuovi ai quali potrai andare incontro. Ecco quali
+le [yellow]modalità principali[close] per investigare:<br>
+<br>
+- $tSMELL<br>
+- $tLISTEN<br>
+- $tTOUCH<br>
+- $tTASTE<br>
+- $tINTUITION<br>
+- $tLOOK<br>
+<br>
+Già in questa misera stanza troverai che c'è più di quanto non si veda con gli occhi.
+
+DescrTouch: 
+Bene, stai cercando di toccare l'aria per vedere se quelle sei scritte verdi sono
+sospese o appiccicate. Spiacente ma sono appiccicate al muro.
+DescrSmell: 
+Allarghi le narici e cominci ad inspirare lungamente fino a sentire un profumo di
+deodorante per ambienti.
+DescrSixth:
+Il tuo sesto senso ti fa intuire come [red]N[gold]akilen[close] nasconda più di quanto credevi inizialmente.
+DescrHearing:
+Ti metti in attento ascolto e senti il frinire delle cicale provenire dalla finestra.
+DescrTaste:
+Provi a dare una leccata alle sei scritte verdi sulla parete per verificare se la
+vernice è fresca. No, non è fresca.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: [lemonchiffon]L'ingresso[close]
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: [lemonchiffon]La stanza degli oggetti[close]
+End

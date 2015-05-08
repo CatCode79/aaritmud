@@ -1,0 +1,26 @@
+Code: karpuram_room_bosco_sud
+Sector: SECTOR.PLAIN
+Name: L'Estrema propaggine di [lime]Karpuram[close]
+Short: ai bordi del [lime]bosco[close]
+Descr:
+La vegetazione, come mossa ad una decisione repentina, fa in modo che tu abbia a vedere
+distintamente che pur se la via a nord è libera e sgombra; non è il caso di procedere
+oltre. Il bosco è un tripudio di bellezza tale che sei cert$o di non averne goduto
+appieno. Ti appresti a tornare sui tuoi passi.
+
+DescrNight:
+La vegetazione, come mossa ad una decisione repentina, fa in modo da oscurare la via a
+nord più della notte che già circonda. Non puoi fare altro che prender atto e constatare
+che la via qui termina. Ti appresti a tornare sui tuoi passi.
+
+DescrSixth:
+Un bosco è sempre un buon posto per qualcuno o qualcosa
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Nel folto del bosco
+End

@@ -1,0 +1,41 @@
+Code: elizor_room_strada-est-02
+Sector: SECTOR.PATH
+Name: La Via verso Est
+Short: la via verso est
+
+Descr:
+Nel giro di pochi metri il caotico centro si dirada lasciando solo poche sporadiche case a presidio dell'urbanizzazione; una di queste ospita un negozietto la cui presenza è rivelata da una modesta insegna in ferro battuto.
+La via, qui contesa tra un vivace corso d'acqua e la modesta lastricatura in pietre chiare, si dilata o si ritira secondo criteri a te ignoti. 
+DescrTouch: 
+no_send
+DescrSmell: 
+Fievoli ed indistinguibili odori giungono da ovest.
+DescrSixth:
+Il paesaggio rilassato accorda pace ai tuoi sensi che è meglio godersi finché si può.
+DescrHearing:
+Il caotico fracasso del centro è attenuato dallo scorrere della acque.
+DescrTaste:
+no_send
+
+Extras:
+	Keywords:	insegna
+	Descr:
+	Una graziosa insegna in ferro battuto rappresente delle forbici di notevoli dimensioni imperinate in modo da poter oscillare sospinte del vento.
+End
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.WEST
+	Descr:	La via verso la piazza
+End
+Exits:
+	Direction:	DIR.NORTHEAST
+	Descr:	La via verso est
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	La profumeria
+End

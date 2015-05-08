@@ -1,0 +1,38 @@
+Code: villaggio-zingaro_room_stalla-02
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Stalla
+Short: la stalla
+
+Descr:
+Uno largo corridoio su cui si aprono gli accessi dei box per gli animali; questa parte dell'edificio è più bassa rispetto al corpo principale della stalla e sul tetto a spiovente si apre un lungo lucernario che permetta alla luce di penetrare dall'esterno ed illuminare l'ambiente. 
+Il legno delle pareti è stato rimosso in alcuni punti e lascia scoperte le pietre del muro sottostante.  
+DescrNight:
+Uno largo corridoio su cui si aprono gli accessi ai box per gli animali; questa parte dell'edificio è più bassa rispetto al corpo principale della stalla e sul tetto a spiovente si apre un lungo lucernario attraverso il quale si può scorgere il cielo stellato in nottate serene. 
+DescrSmell: 
+Un'inconfondibile fragranza equina
+DescrHearing:
+Si sentono spesso nitriti e scalpiccii.
+DescrSixth:
+Hai l'impressione che questa parte della struttura sia precedente alla costruzione della stalla e che sia stata rimaneggiata in tempi più recenti.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.WEST
+	Descr: Un box
+End
+Exits:
+	Direction: DIR.NORTH
+	Descr: Verso l'uscita
+End
+Exits:
+	Direction: DIR.SOUTH
+	Descr: Al estremo sud della stalla
+End
+Exits:
+	Direction: DIR.EAST
+	Descr: Un box
+End

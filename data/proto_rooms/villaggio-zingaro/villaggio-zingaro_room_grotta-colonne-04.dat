@@ -1,0 +1,38 @@
+Comment: Abbozzo
+Code: villaggio-zingaro_room_grotta-colonne-04
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: Aggirando le Colonne
+Short: aggirando le colonne
+
+Descr:
+Il sentiero che prende respiro allargandosi e spianandosi appena è qui tripartito. Da un lato porta alla parte alta della grotta elevandosi quasi in verticale, le altre due vie invece abbracciano mollemente tre possenti colonne.
+DescrSmell: 
+Aria calda e madida di umido.
+DescrSixth:
+I sentieri tracciati e molti altri piccoli elementi ti fanno pensare che questa grotta non dev'esser stata sempre deserta e silenziosa. 
+DescrHearing:
+Una brezza proveniente da chissà dove si muta in fischio passando fra interstizi di stalagmiti.
+
+
+Width:	4m
+Depth:	6m
+Height: 10m
+
+Exits:
+	Direction: DIR.SOUTHWEST
+	Descr: Attorno alle colonne
+End
+Exits:
+	Direction: DIR.NORTH
+	Descr: Alla loggia
+End
+Exits:
+	Direction: DIR.NORTHEAST
+	Descr: Verso la cima della grotta
+End
+
+RoomBehaviour:
+	RandomEcho:	3
+	RandomEchoTexts:	Una goccia cade dall'alto.
+End

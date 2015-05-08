@@ -1,0 +1,27 @@
+Code: wumpus_room_cristallo-south
+Sector: SECTOR.UNDERGROUND
+Flags: ROOM.INSIDE
+Name: A Sud della Colonna di [aqua]Cristallo[close]
+Short: a sud della colonna di [aqua]cristallo[close]
+
+Descr:
+Il cunicolo pare aggirare a tutto tondo una colonna di [aqua]cristallo[close] naturale semitrasparente ma troppo spessa per poterci vedere attraverso.
+DescrTouch: 
+Il cunicolo pare aggirare a tutto tondo una colonna di pietra tutta d'un pezzo.
+
+Width:	7m
+Depth:	7m
+Height:	7m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: La zona [lawngreen]muscosa[close]
+End
+Exits:
+  Direction: DIR.NORTHWEST
+  Descr: Attorno alla colonna di [aqua]cristallo[close]
+End
+Exits:
+  Direction: DIR.NORTHEAST
+  Descr: Attorno alla colonna di [aqua]cristallo[close]
+End

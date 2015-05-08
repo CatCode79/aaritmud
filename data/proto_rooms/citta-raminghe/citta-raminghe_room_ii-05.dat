@@ -1,0 +1,37 @@
+Code: citta-raminghe_room_ii-05
+Sector: SECTOR.CITY
+Name: Una Piazzetta
+Short: [lime]una piazzetta[close]
+
+Descr:
+Una [lime]piazzetta[close] dalla forma circolare delimitata da un [salmon]portico a colonne[close] nel quale si aprono 
+numerose piccole botteghe artigianali.
+
+DescrSixth:
+Un luogo dove è possibile percepire l'operosità della gente che qui vive.
+DescrHearing:
+I suoni e i rumori provenienti dalle botteghe producono un caos sonoro in fondo piacevole.
+DescrHearingNight:
+Percepisci il silenzio delle botteghe artigiane chiuse per il riposo notturno.
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.EAST
+	Descr: Una locanda inconsueta
+End
+Exits:
+	Direction: DIR.SOUTH
+	Descr: Un anfiteatro
+End
+Exits:
+	Direction: DIR.SOUTHWEST
+	Descr: Una stradina
+End
+Exits:
+        Direction: DIR.SOUTHEAST
+        Descr: Un passaggio
+End 

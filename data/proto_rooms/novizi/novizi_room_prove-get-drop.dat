@@ -1,0 +1,64 @@
+Code: novizi_room_prove-get-drop
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Lo Stanzino delle Monete
+Short: la stanzina delle [green]monete[close]
+
+Descr:
+In questo piccolo stanzino puoi fare le prime prove di base raccogliendo monete
+per metterle e toglierle dal salvadanaio; tutto quello che serve è:<br>
+<br>
+- $tGET<br>
+- $tPUT<br>
+- $tGIVE<br>
+- $tDROP<br>
+#novizi_item_moneta_01#
+In verità la moneta non serve che rimanga, un nostro tecnico passa ogni mattina di
+buon ora a metterne qualcuna ogni volta che ve ne sarà necessità.
+#Ci sarebbe dovuta essere almeno una moneta qui a terra ma pare proprio che qualcuno
+sia passato prima di te. Considera che all'alba un nostro tecnico passerà a rimetterne.#
+Peraltro la moneta si rivela molto utile in caso di scelte optative...
+<br>
+Da ultimo, raccomandiamo di evitare la parete sud che è cedevole.
+
+DescrSixth:
+Ti sovviene che un modo potrebbe essere:
+$tGET [red]moneta[close]
+
+per poi metterla nel salvadanaio,
+$tPUT [red]moneta[close] salvadanaio
+
+poi riprenderla di nuovo,
+$tGET [red]moneta[close] salvadanaio
+
+per darla ad un passante,
+$tGIVE [red]moneta[close] passante
+
+oppure ributtarla qui...
+$tDROP [red]moneta[close]
+
+Extras:
+	Keywords: parete
+	Descr:
+	C'è proprio un buco che consente di arrivare in un piccolo sitarello
+	DescrSmell:
+	C'è odore di mistero...
+	DescrTouch:
+	Nulla da toccare... la $hand ci passa attraverso
+	DescrSixth:
+	Si tratta di un accesso a $tSOUTH bello e buono 
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.WEST
+	Descr: Alle coccarde omaggio
+End
+Exits:
+        Flags:	EXIT.NO_LOOK_LIST
+	Direction: DIR.SOUTH
+	Descr: Non sembra ci sia nulla
+End

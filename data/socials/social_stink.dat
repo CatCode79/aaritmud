@@ -1,0 +1,34 @@
+FunName:    social_stink
+Intention:  INTENTION.AGGRESSIVE
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Ti annusi e per poco non svieni dalla puzza!
+  OthersNoArg: $n si annusa e per poco non sviene dalla puzza!
+  EntityFound: Assali $N con la tua puzza!
+  OthersFound: $n assale $N con la sua puzza mefitica!
+  TargetFound: $n ti assale con la sua puzza mefitica!
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Orrore! Mandi un odore terribilmente innaturale!
+  OthersNoArg: $n appare sconvolt$o dal suo odore.
+  EntityFound: Investi $N con odori del tutto naturali anche se poco piacevoli.
+  OthersFound: $N è investit$O da zaffate di tanfo grazie a $n.
+  TargetFound: $n ti sta investendo con immondi miasmi.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Non è puzza questa, è il tipico odore dei felar.
+  OthersNoArg: Il manto di $n emana effluvi mefitici.
+  EntityFound: Ti strusci addosso a $N lasciando$GLI il tuo odore sul corpo.
+  OthersFound: $n regala un po' della sua puzza a $N, ne sarà sicuramente felice!
+  TargetFound: $n ti si struscia addosso impuzzandomi tutt$o!
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Non è puzza questa, è il tipico odore dei gatti.
+  OthersNoArg: Il manto di $n emana effluvi mefitici.
+  EntityFound: Ti strusci addosso a $N lasciando$GLI il tuo odore sul corpo.
+  OthersFound: $n regala un po' della sua puzza a $N, ne sarà sicuramente felice!
+  TargetFound: $n ti si struscia addosso impuzzandomi tutt$o!
+End

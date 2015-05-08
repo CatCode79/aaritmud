@@ -1,0 +1,41 @@
+Code: krablath_room_settori-02
+Sector: SECTOR.PLAIN
+Name: [darkred]L'aiuola dell'Amaranto[close]
+Short: [darkred]una foresta purpurea[close]
+
+Descr:
+Ondeggiano blandi tozzi piumini rossastri sospinti da un lieve brezza primaverile. Verso sud minuti funghetti, inframezzati da piccole pianticelle carnose, tentano di farsi strada verso il giardino attraversando uno stretto lembo di terra che conduce all'ombra di un'imponente parete rocciosa.
+DescrTouch:
+Ogni volta che sfiori uno dei pennacchi questo si piega elastico e rilascia una pioggia di semini.
+DescrSmell: 
+Un odore umido di muffa proviene dalla zona fungosa e si mescola con le delicate fragranze floreali del giardino.
+DescrSixth:
+Una vegetazione così rigogliosa dev'esser certo il frutto di un giardiniere operoso.
+DescrHearing:
+Tutto è così silenzioso da darti l'impressione di sentir i lombrichi scavare la terra.
+
+Extras:
+	Keywords: pianticella pianticelle
+	Descr:
+	Tanti cespuglietti erbacei allungano le loro propaggini cercando un po' di luce.
+	DescrSmell:
+	Senza avvicinarti troppo puoi avvertire il loro forte aroma.
+End
+
+Width:	6m
+Depth:	6m
+Height: 200m
+
+Exits:
+	Direction: DIR.NORTHWEST
+	Descr:	Grandi foglie e purpurei pennacchi
+End
+Exits:
+	Direction: DIR.NORTHEAST
+	Descr:	Grandi foglie e purpurei pennacchi
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	Nella fascia fungosa
+End
+

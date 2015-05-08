@@ -1,0 +1,30 @@
+Code:	opekus_room_ofidian_oratorio_corridoio-05
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il Corridoio dell'Oratorio
+Short:	il corridoio di pietra
+
+Descr:
+Il lungo tunnel prosegue per svariate lunghezze lugo la direzione est-ovest.
+A distanze fisse lungo tutto questo lato sono stati collocati numerosi accessi.
+Alcuni di essi hanno retto male la prova del tempo; quello dove ti trovi ora risulta infatti collassato e l'architrave spezzata.
+
+DescrTouch:
+Scavato nel ventre della roccia con metodi e tecniche dimenticate che hanno lasciato le superfici vetrificate.
+Meno tenace la tecnica costruttiva degli accessi, visto che l'architrave qui accanto non ha retto il peso degli anni.
+
+DescrSixth:
+A ben guardare l'architrave non ha ceduto per via del peso, infatti superiormente tutto è intatto.
+
+Width:	3m
+Depth:	2m
+Height: 2m
+
+Exits:
+	Direction:	DIR.WEST
+	Descr:	Un tunnel
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	Un tunnel
+End

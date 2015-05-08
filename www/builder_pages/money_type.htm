@@ -1,0 +1,77 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<h2>Indice delle Etichette per il Danaro in tutte le sue forme</h2>
+<div>
+<a href='#Comment'><span class='label'>Comment</span>:</a><br>
+<a href='#CopperValue'><span class='label'>CopperValue</span>:</a><br>
+<a href='#Races'><span class='label'>Races</span>:</a><br>
+</div>
+<br>
+
+<hr>
+<h2>Note Riguardo alla Valuta.</h2>
+<div>
+<span class="label">MoneyType</span> &egrave; un'etichetta che rappresenta una struttura di pi&ugrave; sottoetichette, e quindi abbisogna dell'etichetta <span class="label">End</span> per terminarne la definizione.<br>
+L'esigenza pi&ugrave; semplice per questa struttura &egrave; per la realizzazione della propria divisa valutaria. Presso gli scoiattoli si potrebbe avere la necessit&agrave; di insinuare il degrado occidentale assegnado un valore monetario ad esempio alle loro ghiande, noci e nocciole nei vari multipli e sottomultipli dell'unit&agrave; base.<br>
+Oltre ad un set base di monete di default per una razza, si possono creare varie altre monete; stampate in periodi differenti, antiche, nuove, spiattellate, di una razza, con il loro valore...<br>
+Date un peso di 1 grammo o poco pi&ugrave; alle monete, visto che il giocatore di solito ne porter&agrave; anche in gran quantit&agrave;.<br>
+Nel caso si vogliano utilizzare le monete come quelle degli umani (rame, argento, oro, mithril), &egrave; fondamentale mantenere le equivalenze usate su Aarit: rame con CopperValue ad 1, argento con CopperValue a 10, oro con CopperValue a 100 e mithril a 1000.<br>
+</div>
+<br>
+
+<hr>
+<h2>Tabella di Riferimento Veloce.</h2>
+<div>
+<table border="1">
+<tr class="thref"><td>Etichetta</td><td>Tipologia</td><td>Utilizzo</td></tr>
+<tr><td class="label">Comment</td><td>Stringa, relativa ad un commento</td><td>Facoltativo, consigliato se c'&egrave; qualcosa di particolare</td></tr>
+<tr><td class="label">CopperValue</td><td>Numero Intero</td><td>Obbligatoria</td></tr>
+<tr><td class="label">Races</td><td>Flags, relativa alla tipologia RACE</td><td>Facoltativo</td></tr>
+</table>
+</div>
+<br>
+
+<hr>
+<h2>Struttura Tipica con le Etichette di Maggior Utilizzo e Valori Random (per copia e incolla).</h2>
+<div>
+<pre>
+MoneyType:
+	CopperValue: 100
+	Races: RACE.HUMAN
+End
+</pre>
+</div>
+<br>
+
+<hr>
+<h2>Spiegazione delle Etichette.</h2>
+<div>
+<a name='Comment'><h3 class='label'>Comment:</h3></a>
+Eventuale commento relativo al vestito, per maggior informazioni leggere <a href="comment.htm">questa pagina</a>.<br>
+Non &egrave; obbligatoria, ma &egrave; comunque consigliato utilizzarla se la tipologia d'entit&agrave; &egrave; una cosa particolare o bisogna segnarsi qualcosa da ricordare.<br>
+<br>
+
+
+<a name='CopperValue'><h3 class='label'>CopperValue:</h3></a>
+Coppers indica quanti "monete di rame umane" vale quella moneta
+Praticamente 1 Copper (moneta di rame) &egrave; il valore minimo che si possa dare ad una moneta.
+<br>
+
+<a name='Races'><h3 class='label'>Races:</h3></a>
+Indica quali razze utilizzano normalmente quelle monete e che quindi la accetteranno nelle loro transizioni; se non viene utilizzata quest'etichetta sar&agrave; come dire che quel tipo di moneta &egrave; utilizzato in tutto il mondo di Nakilen (come di solito accade con le monete umane).
+Da non confondersi invece la fattura della moneta, indicata dall'etichetta dell'entit&agrave; Race.
+
+<br>
+
+</div>
+<hr>
+</body>
+</html>

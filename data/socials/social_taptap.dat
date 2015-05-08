@@ -1,0 +1,26 @@
+FunName:    social_taptap
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Incroci le braccia tamburellando impaziente.
+  OthersNoArg: $n incrocia le braccia e tamburella impaziente.
+  EntityFound: Incroci le braccia e tamburelli impaziente guardando $N.. allora?
+  OthersFound: $n incrocia le braccia e tamburella impaziente guardando $N.. allora?
+  TargetFound: $n incrocia le braccia  e tamburella impaziente guardandoti.. allora?
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Tamburelli gli artigli sul braccio, ti stai spazientendo.
+  OthersNoArg: $n tamburella gli artigli con aria impaziente.
+  EntityFound: Tamburelli gli artigli nervosamente.. $N ti sta proprio facendo spazientire.
+  OthersFound: $n tamburella gli artigli nervosamente.. $N l$o sta proprio facendo spazientire.
+  TargetFound: $n tamburella gli artigli nervosamente mentre ti guarda con aria spazientita.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Tamburelli gli artigli sul braccio, ti stai spazientendo.
+  OthersNoArg: $n tamburella gli artigli con aria impaziente.
+  EntityFound: Tamburelli gli artigli nervosamente.. $N ti sta proprio facendo spazientire.
+  OthersFound: $n tamburella gli artigli nervosamente.. $N l$o sta proprio facendo spazientire.
+  TargetFound: $n tamburella gli artigli nervosamente mentre ti guarda con aria spazientita.
+End

@@ -1,0 +1,30 @@
+Code: elizor_room_boschetto-04
+Sector: SECTOR.HOUSE
+Name: boschetto-04
+Short: boschetto-04
+
+Descr:
+Sei 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.WEST
+	Descr:	In strada
+End
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	Nel boschetto
+End

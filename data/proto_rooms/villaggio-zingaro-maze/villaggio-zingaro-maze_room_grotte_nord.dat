@@ -1,0 +1,19 @@
+Code: villaggio-zingaro-maze_room_grotte_nord
+Sector: SECTOR.UNDERGROUND
+Flags: ROOM.INSIDE
+Name:	Nelle Viscere della Terra
+Short:	uno sbarramento
+
+Descr:
+L'angusto budello che percorri si fa via via più stretto fino a sbarrarti la strada, davanti a te rimane solo un irrisorio pertugio che non permetterebbe l'ingresso a nulla di più grande di una formica.
+DescrSixth:
+Di certo un nugolo di cunicoli è un posto tranquillo, ma forse preferiresti trovare l'uscita.
+
+Width:	10m
+Depth:	2m
+Height: 2m
+
+Exits:
+        Direction: DIR.NORTH
+        Descr: Nei meandri rocciosi
+End

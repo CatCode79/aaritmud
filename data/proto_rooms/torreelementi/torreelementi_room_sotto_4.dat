@@ -1,0 +1,55 @@
+Code: torreelementi_room_sotto_4
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Sala della Bollitura
+Short: forse una cucina?
+
+Descr:
+Questo ambiente è pulitissimo, in terra c'è una grossa grata a maglie sottilissime e
+sotto scorre flaccida dell'acqua opalescente. Ai lati, innumerevoli calderoni sono
+disposti su altrettante fiamme azzurre. Il ribollire dei calderoni rivela a tratti dei
+fagottoni avvolti da foglie che riemergono dalla schiuma brunastra.  
+
+ShortNight: Una sala per Tintori?
+DescrNight:
+Questo ambiente è pulitissimo, in terra c'è una grossa grata a maglie sottilissime e
+sotto scorre flaccida dell'acqua scura. Ai lati, innumerevoli calderoni sono disposti
+su supporti in pietra. Tutto è fermo e immobile, i calderoni vuoti asciutti e puliti.
+
+Extras:
+  Keywords: calderoni calderone
+  Descr: Grosse marmitte da poter contenere comodamente un umano
+End
+Extras:
+  Flags: EXTRA.DAY_ONLY
+  Keywords: foglie
+  Descr: Per essere delle foglie sono un po' fuori formato, troppo grosse 
+End 
+Extras:
+  Keywords: grata
+  Descr: Un ottimo sistema per mantenere la pulizia del pavimento pur se non sempre praticabile 
+End 
+Extras:
+  Flags: EXTRA.DAY_ONLY
+  Keywords: acqua opalescente
+  Descr: Forse non è solo acqua
+End 
+Extras:
+  Flags: EXTRA.DAY_ONLY 
+  Keywords: fiamma fiamme
+  Descr: Pezzi di carbone o qualcosa di simile che brucia compostamente in silenzio
+End 
+Extras:
+  Flags: EXTRA.NIGHT_ONLY
+  Keywords: vuoto vuoti puliti
+  Descr: In questo è rimasto un rivolo d'acqua
+End 
+
+Width:	3m
+Depth:	4m
+Height: 4m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Una sala 
+End

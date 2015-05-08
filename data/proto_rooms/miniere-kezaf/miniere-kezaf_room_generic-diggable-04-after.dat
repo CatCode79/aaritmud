@@ -1,0 +1,27 @@
+Comment: room che si possono visitare solo scavando. Si tratta dei percorsi di collegamento fra tratti di miniera preesistenti
+Code: miniere-kezaf_room_generic-diggable-04-after
+Sector: SECTOR.UNDERGROUND
+Flags:	ROOM.INSIDE
+Name: Un Cunicolo Sotterraneo
+Short: un cunicolo sotterraneo
+
+Descr:
+Vi sono delle travi di legno che sorreggono il soffitto della stanza. 
+Su alcune di queste vi sono appese piccole lampade di rame, due delle quali 
+sono ancora in funzione. Sembra che questo cunicolo non sia stato abbandonato 
+da molto tempo, qualcuno potrebbe essere passato qui di recente e aver riacceso 
+le lampade. Noti dei segni di uno scavo sulle pareti e del terriccio misto a 
+sassi sul pavimento.
+
+DescrSmell: 
+Avverti un forte odore di petrolio provenire dalle lampade accese.
+
+DescrSixth:
+Ti sembra di essere già passato di qui.
+
+
+
+Width:	2m
+Depth:	2m
+Height: 150cm
+

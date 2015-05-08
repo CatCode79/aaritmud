@@ -1,0 +1,38 @@
+Code: karpuram_room_bosco_3no-sud
+Sector: SECTOR.PLAIN
+Name: Sperduti Dentro [lime]Karpuram[close]
+Short: le vie del [lime]bosco[close]
+Descr:
+La vegetazione s'infittisce tendendo a coprire tutta la zona superiore fino quasi
+ad impedirti di vedere il cielo, tutta l'atmosfera vira cromaticamente sul verde ed
+è l'unica cosa che vien concesso di fare al sole. Devi anche fare maggiore attenzione
+di prima perché il sottobosco pur di muoversi in controtendenza rispetto alle chiome
+degli alberi, si dirada. Invece del morbido cammino ti rimane terra più dura e
+radici dispettose.
+
+DescrNight:
+La vegetazione s'infittisce tendendo a coprire tutta la zona superiore fino quasi ad
+inglobarti in un bozzolo protettivo. Devi anche fare maggiore attenzione di prima perché
+il sottobosco, pur di muoversi in controtendenza rispetto alle chiome degli alberi si
+dirada. Invece del morbido cammino ti rimane terra più dura e radici dispettose in
+agguato nella notte.
+
+DescrSixth:
+Un bosco è sempre un buon posto per qualcuno o qualcosa
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Nel folto del bosco
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Nel folto del bosco
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Nel folto del bosco
+End

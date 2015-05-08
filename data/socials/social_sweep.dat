@@ -1,0 +1,32 @@
+FunName:    social_sweep
+Intention:  INTENTION.FRIENDLY
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Chi potresti stringere?
+  OthersNoArg: $n cammina a braccia aperte in cerca di qualcuno da stringere.
+  EntityFound: Stringi $N al petto con ogni forza.
+  OthersFound: $n stringe $N a sé.
+  TargetFound: $n ti stringe al petto con ogni forza.
+  EntityAuto:  Ti abbracci forte forte forte.. Che bello che sei nat$o.
+  OthersAuto:  $n si abbraccia forte dondolandosi anche un po'.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Abbracci il tuo amico invisibile, da quanto tempo non lo vedevi!
+  OthersNoArg: $n stringe una bella porzione d'aria fra le zampe, content$o $lui..
+  EntityFound: Stringi $N fra le tue zampe in un caloroso abbraccio.
+  OthersFound: $n stringe $N a sé, circondandol$O con le sue zampe.
+  TargetFound: $n ti stringe a sé, circondandomi con le sue zampe.
+  EntityAuto:  Ti stringi forte forte.. Come sei morbid$o e pelosott$o!
+  OthersAuto:  $n si stringe in un tenero abbraccio avvolgendosi con la coda.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Abbracci il tuo amico invisibile, da quanto tempo non lo vedevi!
+  OthersNoArg: $n stringe una bella porzione d'aria fra le zampe, content$o $lui..
+  EntityFound: Stringi $N fra le tue zampe in un caloroso abbraccio.
+  OthersFound: $n stringe $N a sé, circondandol$O con le sue zampe.
+  TargetFound: $n ti stringe a sé, circondandomi con le sue zampe.
+  EntityAuto:  Ti stringi forte forte.. Come sei morbid$o e pelosott$o!
+  OthersAuto:  $n si stringe in un tenero abbraccio avvolgendosi con la coda.
+End

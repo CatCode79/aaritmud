@@ -1,0 +1,17 @@
+Code: siepi_room_giardini_01
+Sector: SECTOR.WOOD
+Name: Il Sentiero Dorato
+Short: un sentierino
+Descr: 
+La via procede rapida e spedita per un un terreno compatto e sgombro da ostacoli. Ai lati
+le praterie sconfinate sembrano avvolgere qualunque cosa e l'unica via possibile pare
+essere verso l'enorme palazzo a nord oppure per l'infittirsi della vegetazione verso sud.
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Il sentiero prosegue
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Il sentiero continua senza una piega
+End

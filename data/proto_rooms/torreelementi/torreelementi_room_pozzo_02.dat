@@ -1,0 +1,34 @@
+Code: torreelementi_room_pozzo_02
+Sector: SECTOR.CAVERN
+Flags: ROOM.UNDERWATER
+Name: Il Fondo del [slategray]Pozzo[close]
+Short: sul fondo del pozzo
+
+Descr:
+Sei immerso nell'acqua ad una buona profondità, solo scrutando attentamente si vede
+un filo di luce provenire dall'alto. Tutta attorno le pareti sono ricoperte da
+abbondanti e floride alghe scure. Sul fondo è sparso del pietrame anch'esso ricoperto
+parzialmente da alghe. Una sorgente più intensa e diffusa di [lightgreen]luce[close] proviene da una
+profonda nicchia poco più avanti.
+DescrTouch: 
+L'acqua è piuttosto calda ed ha un lieve moto rotazionale che ti consente senza
+sforzo alcuno di avere una panoramica della monotonia algale.
+DescrSmell: 
+Percepisci chiaramente un piccola corrente di odore d'ossigenazione provenire da
+poco più avanti.
+DescrTaste:
+Acqua dolce e priva di altre sfumature
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.UP
+  Descr: Verso la bocca del pozzo
+End
+Exits:
+  Direction: DIR.NORTHEAST
+  Descr: Una nicchia
+End
+

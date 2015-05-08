@@ -1,0 +1,38 @@
+Comment: ok l'escremento nello smell...forse...beh vedi tu se vuoi toglierlo...
+
+Code: villaggio-zingaro_room_cupola-05-inverno
+Sector: SECTOR.WOOD
+Name: Nel Faggeto
+Short: nel faggeto
+
+Descr:
+Gli slanciati [darkseagreen]fusti[close] dei [darkseagreen]faggi[close], quello che rimane dello splendore estivo e autunnale, qui formano una sempre più fitta rete costringendo il già irrisorio sentiero a stringersi ulteriormente ed arrampicarsi tra le rocce.
+DescrNight:
+Immerso nelle tenebre fatichi a seguire con lo sguardo il sentiero che si inerpica tra massi scoscesi.
+DescrSmell:
+Il naso intorpidito dal freddo invernale ti impedisce di cogliere qualsiasi odore, se non quello di un considerevole escremento di animale che hai appena calpestato.
+DescrSixth:
+Capisci che un passo fuori dal sentiero potrebbe esserti fatale; la foresta sembra inghiottire qualsiasi cosa vi si addentri, anche per pochi metri.
+DescrSixthNight:
+Intuisci che girare di notte in un bosco potrebbe essere pericoloso, non solo per il rischio di perdersi, ma anche per la possibilità di incontrare qualche bestia sconosciuta per cui potresti essere un gradito spuntino di mezzanotte.
+DescrHearing:
+Il cupo fischio del vento porta con se il cinguettio di qualche uccellino stanziale.
+DescrHearingNight:
+Dato che la vista, con tutto questo buio, di certo non ti aiuta rizzi le orecchie nella ricerca anche del rumore più impercettibile.
+DescrTouch:
+Rischi di scivolare su di un masso ricoperto da uno [lightblue]strato[close] di [lightblue]ghiaccio[close], probabilmente risultato di piogge recenti. 
+
+
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+Exits:
+	Direction: DIR.EAST
+	Descr: Una radura 
+End
+Exits:
+	Direction: DIR.SOUTHWEST
+	Descr: Faggi a non finire
+End

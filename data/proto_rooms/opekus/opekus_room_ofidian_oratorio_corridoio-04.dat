@@ -1,0 +1,34 @@
+Code:	opekus_room_ofidian_oratorio_corridoio-04
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il Corridoio dell'Oratorio
+Short:	il corridoio di pietra
+
+Descr:
+Il lungo tunnel prosegue per svariate lunghezze lugo la direzione est-ovest.
+A distanze fisse lungo tutto questo lato sono stati collocati numerosi accessi molto simili;
+anche se questo risulta essere più largo dei precedenti.
+Dall'architrave parte una decorazione a mosaico fitoforme che s'inorgoglise di arrivare fino all'arco del soffitto. 
+
+DescrTouch:
+Questo tratto di passaggio differisce dai precedendi perché decorato parzialmente a mosaico tutto intorno all'accesso architravato.
+
+DescrSixth:
+Strano il fatto che in tutto il mosiaco non sia riportata una sola iscrizione oppure un simbolo.
+
+Width:	3m
+Depth:	2m
+Height: 2m
+
+Exits:
+	Direction:	DIR.WEST
+	Descr:	Un tunnel
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	Un tunnel
+End
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	Una celletta
+End

@@ -1,0 +1,32 @@
+Code: opekus_room_ofidian_temple_13
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Navata Laterale
+Short: nella cattedrale
+
+Descr:
+Ti trovi in fondo alla cattedrale sul suo lato sinistro, la posizione offre una visuale ridotta.
+Da qui si vede il fianco destro di tutto il colonnato.
+Dal fianco laterale della parte sporgono pietre squadrate a guisa di scalini che salgono erti verso l'alto.
+
+DescrSixth:
+Ti trovi in fondo alla cattedrale sul suo lato sinistro, la posizione pare studiata
+apposta per una visuale ridotta più che per un difetto di progettazione. Da qui si vede
+il fianco destro di tutto il colonnato.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.EAST
+	Descr: Lungo la navata laterale
+End
+Exits:
+	Direction: DIR.SOUTH
+	Descr: Verso la navata centrale
+End
+Exits:
+	Direction:	DIR.UP
+	Descr:	Sulla scalinata
+End

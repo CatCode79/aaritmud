@@ -1,0 +1,50 @@
+FunName:    social_sing
+Intention:  INTENTION.NEUTRAL
+Expression: cantando
+Smiles:     :x :-x
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Canti.
+  OthersNoArg: $n canta.
+  EntityFound: Canti verso $N.
+  OthersFound: $n canta guardando $N negli occhi.
+  TargetFound: $n rivolge a te il suo sguardo mentre canta..
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Canti.
+  OthersNoArg: $n produce un inarticolato suono ipnotico.
+  EntityFound: Rivolgi il tuo canto a $N.
+  OthersFound: $n canta una melodia ipnotica facendo piccole acrobazie intorno $N.
+  TargetFound: $n canta una melodia ipnotica facendoti piccole acrobazie intorno.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Intoni un canto.
+  OthersNoArg: $n intona un sinistro canto.
+  EntityFound: Intoni un canto con gli occhi su $N.
+  OthersFound: $n intona un sinistro canto all'indirizzo di $N.
+  TargetFound: $n intona un freddo canto sinistro al tuo indirizzo.
+  EntityAuto:  Prorompi in un canto di guerra.
+  OthersAuto:  $n prorompe in un sinistro canto di guerra.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Miagoli un melodioso motivetto.
+  OthersNoArg: $n si esibisce in un melodioso miagolio.
+  EntityFound: Miagoli una melodia guardando $N.
+  OthersFound: $n miagola una melodia all'indirizzo di $N.
+  TargetFound: $n canta per te una miagolosa melodia.
+  EntityAuto:  Decanti le tue virtù ed abilità.
+  OthersAuto:  $n si scalda la voce con miagolii di variegata intonazione.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Miagoli un melodioso motivetto.
+  OthersNoArg: $n si esibisce in un melodioso miagolio.
+  EntityFound: Miagoli una melodia guardando $N.
+  OthersFound: $n miagola una melodia all'indirizzo di $N.
+  TargetFound: $n canta per te una miagolosa melodia.
+  EntityAuto:  Decanti le tue virtù ed abilità.
+  OthersAuto:  $n si scalda la voce con miagolii di variegata intonazione.
+End

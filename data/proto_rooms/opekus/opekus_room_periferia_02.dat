@@ -1,0 +1,26 @@
+Code: opekus_room_periferia_02
+Sector: SECTOR.PATH
+Name: Il Trivio a NordOvest
+Short: un trivio
+Descr:
+Un piccolo spiazzo sgombro da vegetazione presenta tre possibili vie da seguire;
+verso nord e verso ovest prendon la via due sentieri che s'immergono quanto prima
+nella folta vegetazione. Verso est lo spiazzo diviene parte di una curva su una
+strada ampia.
+
+Width:	10m
+Depth:	10m
+Height: 10m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Un sentiero s'immerge nella vegetazione
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Un sentiero s'immerge nella vegetazione
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Una strada piega a gomito
+End

@@ -1,0 +1,40 @@
+Code: novizi2_room_10a-arena
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	[gold]Il Centro dell'Arena[close]
+Short: [gold]il centro dell'arena[close]
+
+Descr:
+La base esagonale di questo spazio costituisce l'arena di combattimento per impratichirsi a menare le mani ed ad approntare strategia difensive nonché a tenere sempre aperta una via di fuga.
+
+DescrTouch: 
+Millenni di riti apotropaici ti pesano in capo inducendoti a rivolgere il gesto alla tua persona onde garantirti una lunga vita. 
+
+DescrSixth:
+L'arena di combattimento è utile perché consente di prendere coscienza delle proprie abilità, consentendo una lunga vita da dignitosi contadini in alternativa ad uno sprazzo effimero di incoscienza spento in un rivolo di sangue.
+La parte migliore del valore è la discrezione, ed una vita lunga consente di apprezzarla appieno.
+
+Width:  10m
+Depth:  10m
+Height: 4m
+
+Exits:
+	Direction:	DIR.NORTHWEST
+	Descr: [lemonchiffon]L'uscita dall'arena[close]
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	La scelta più saggia
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	La scelta più comune
+End
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	L'infermeria
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	Il principio della fine
+End

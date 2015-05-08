@@ -1,0 +1,87 @@
+Code: karpuram_room_secolare-22
+Sector: SECTOR.PLAIN
+Name: La Sala del Consiglio
+Short: la sala del consiglio
+
+Descr:
+Questa stanza è particolarmente armoniosa e lucente, su ogni parete vi sono
+degli arazzi di seta finemente lavorati che raffigurano quattro distinte
+scene riguardanti questo affascinante popolo. Un tavolo di scuro legno è
+posizionato perfettamente al centro della sala e intorno ad esso vi sono sette
+comode sedie anch'esse molto pregiate. Dal soffitto si protendono una serie di
+foglie e fiori che, intrecciandosi tra loro, finiscono per posarsi sul tavolo e
+intorno alla sala. Un largo lampadario di cristallo sembra sia sospeso a 
+mezz'aria, sorretto unicamente dai rampicanti e dalle piante. Puoi uscire dalla
+sala andando verso sud e tornando sulla piattaforma.
+
+DescrNight:
+Questa stanza è particolarmente armoniosa e lucente, su ogni parete vi sono
+degli arazzi di seta finemente lavorati che raffigurano quattro distinte
+scene riguardanti questo affascinante popolo. Un tavolo di scuro legno è
+posizionato perfettamente al centro della sala e intorno ad esso vi sono sette
+comode sedie anch'esse molto pregiate. Dal soffitto si protendono una serie di
+foglie e fiori che, intrecciandosi tra loro, finiscono per posarsi sul tavolo e
+intorno alla sala. Un largo lampadario di cristallo sembra sia sospeso a 
+mezz'aria, sorretto unicamente dai rampicanti e dalle piante. Parallele ad ogni
+singola sedia, vi sono delle piccole lampade di ferro scuro che illuminano 
+una porzione di tavolo andando a formare sette cerchi di luce. Puoi uscire dalla
+sala andando verso sud e tornando sulla piattaforma.
+
+DescrSixth:
+Questa stanza ti appare come il fulcro centrale di tutta la struttura.
+
+Extras:
+	Keywords: primo arazzo
+	Descr: 
+	Vi sono una serie di elfi vestiti con abiti bianchi posti in
+	circolo attorno a un loro simile, quest'ultimo è inginocchiato e viene
+	illuminato da una luce che proviene dalla parte alta del disegno. Sullo
+	sfondo si trova un grande albero.
+End
+Extras:
+	Keywords: secondo arazzo
+	Descr: 
+	Sulla parte bassa del disegno vi sono una serie di piccole abitazioni di
+	legno nascoste tra gli alberi di un bosco, nella parte centrale è disegnato
+	il letto di un fiume che separa una seconda parte di bosco al centro della
+	quale si trova un grande prato che forma uno spiazzo erboso, al centro di
+	questo si trova un giovane albero.
+End
+Extras:
+	Keywords: terzo arazzo
+	Descr:
+	L'intero arazzo presenta uno sfondo scuro pieno di stelle, una serie di
+	pianeti sono posti in cerchio attorno a una stella luminosa molto grande.
+	Uno tra questi è di colore verde e presenta una folta e rigogliosa
+	vegetazione.
+End
+Extras:
+	Keywords: quarto arazzo
+	Descr:
+	Nella parte superiore del disegno è presente una forte e intensa luce che
+	estende i suoi raggi verso la parte centrale dell'arazzo, dove si trova
+	un enorme albero che prende tutta la parte centrale. L'albero è fortificato
+	e vi sono una serie di piattaforme costruite tutte attorno ad esso, decine
+	di elfi si trovano sopra e nei pressi di esso.
+End
+Extras:
+	Keywords: lampadario
+	Descr: 
+	Un lampadario di cristallo chiaro riflette con intensità ogni fonte di luce,
+	sia questa naturale che indotta artificialmente, trasmettendo calore nella 
+	sala. 
+End
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Sulla quarta piattaforma
+End
+Exits:
+  Comment:	SECRET
+  Direction: DIR.UP 
+  Descr: La stanza reale
+End

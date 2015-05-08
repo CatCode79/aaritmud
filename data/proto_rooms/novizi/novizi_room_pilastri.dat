@@ -1,0 +1,36 @@
+Code: novizi_room_pilastri
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: I Quattro Pilastri
+Short: i pilastri
+
+Descr:
+Il soffitto della stanza è sorretto da quattro pilastri disposti il più lontano
+possibile li uni dagli altri. Al centro della stanza un scala chiocciola consente
+di uscire dalla stanza tornando di sopra. Verso est c'è un arco che conduce ad un'ala
+in cui vi è un'esposizione promozionale. Sopra l'arco una [gold]targa[close] specifica
+di cosa si tratta.
+
+Extras:
+	Keywords: targa
+	Descr:
+	$season - $year
+	Ingresso Libero
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.UP
+  Descr: Verso l'alto
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: L'esposizione stagionale
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: L'ingresso
+End

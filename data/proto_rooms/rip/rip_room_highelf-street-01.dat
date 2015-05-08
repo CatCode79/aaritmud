@@ -1,0 +1,20 @@
+Code: rip_room_highelf-street-01
+Sector: SECTOR.PATH
+
+Name: Il Principio Elfico Alto
+Short: il principio elfico alto
+
+Descr:
+La via dove sono i cadaveri degli elfi alti.
+
+Width: 20m
+Depth: 20m
+Height: 10m
+Exits:
+  Direction: DIR.NORTH
+  Descr: Al margine
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Al centro
+End

@@ -1,0 +1,51 @@
+Code: conflitti_room_accesso-01
+Sector: SECTOR.VOID
+
+Name:	Vestibulum
+Short:	[dodgerblue]vestibulum[close]
+
+Descr:
+È un piccolo ambiente di forma trapezoidale. Le pareti alla base presentano una panchina ricoperta da un cuscino di colore rosso e sono ricoperte da affreschi dai colori accesi rappresentanti scene di vita onirica.
+
+
+DescrSixth:
+Sei all'alba di una nuova realtà. Stai per ritrovarti in un non-luogo sospeso tra una
+dimensione interna ed una esterna in cui sarà necessario entrare in contatto con parti
+di sé che riguardano la mente e l'attività del pensiero. Un pensiero libero conduce
+verso la libertà e l'unico modo per conquistarla è attivare  processi mentali per
+sottrarti a percorsi troppo semplici e prevedibili e non lasciarsi ingannare da
+soluzioni che conducono verso sentieri ciechi. 
+Non sempre ciò che sembra è! È saggio distinguere tra ciò che è apparente da
+ciò che, pur essendo nascosta, è l'essenza delle cose.
+
+
+DescrHearing:
+	Ascolti il rumore del tuo respiro ed il fluire dei tuoi pensieri.
+
+DescrSmell:
+	Senti l'odore delle esperienze passate.
+
+DescrTouch:
+	Le pareti di questo luogo sono impalpabili. 
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.NORTH
+	Descr: La via del ritorno
+End
+
+Exits:
+	Direction: DIR.DOWN
+	Descr: Una luce fioca
+	Door: conflitti_item_porta-nera
+End
+
+Exits:
+	Direction: DIR.UP
+	Descr: Altrove
+        Destination: 12 2 -1 citta-raminghe
+End

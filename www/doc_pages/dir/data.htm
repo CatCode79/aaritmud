@@ -1,0 +1,59 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<a name="data"><h3>File della directory dei dati</h3></a>
+<div>
+Contiene tutti i file che vengono caricati all'avvio del Mud, le informazioni sono (o andranno) su semplice file testuale, quindi sono molto semplici da modificare.<br>
+Vi sono varie sottocartelle ognuna della quale contiene altri file con dei dati caricati dal Mud e, alcuni di loro, salvati alla fine di una sessione del Mud.<br><br>
+
+File greetings.txt:<br>
+Contiene la schermata iniziale del Mud.<br><br>
+
+File newplayer.txt:<br>
+Contiene una descrizione inviata durante la creazione di un nuovo personaggio.<br><br>
+
+File calendar.rpg:<br>
+Contiene le informazioni del calendario del Mud.<br><br>
+
+File huh.lst:<br>
+Contiene la lista dei comandi digitati per errore, o non ancora supportati.<br><br>
+
+Cartella accounts:<br>
+Conterrà delle cartelle, una per ogni account di giocatore, queste ultime conterranno un file con i dati relativi all'account e a sua volta delle cartelle, una per ogni personaggio dell'account in queste ultime vi saranno tutte i dati relativi per ogni personaggio.<br><br>
+
+Cartella commands:<br>
+Contiene i file relativi alle informazioni dei comandi del gioco.<br><br>
+
+Cartella configs:<br>
+Contiene le configurazioni del mud, se hai intenzione di personalizzarne una è meglio invece aggiungere un nuovo file di configurazione per il proprio mud con i valori voluti seguendo lo schema di quelli già inseriti.<br>
+Il file di configurazione poi viene passato come argomento alla start_mud nel file start.py<br><br>
+
+Cartella enums:<br>
+Questa contiene in pratica tutte le tabelle con le informazioni principali del Mud, ogni file è una enumerazione di valori, ogni riga di questi file contiene un codice identificativo per la sua gestione nei sorgenti, una descrizione corta e una lunga, di solito nel Mud vengono visualizzati negli output le descrizioni corte e invece nei sorgenti vengono manipolati i valori in codice sotto forma di stringa.<br>
+Per chi ha dato un occhio al codice Bard riconoscerà in questo sistema quello che ho voluto fare con il file code.c, in pratica degli array potenziati.<br><br>
+
+Cartella inputs:<br>
+Gli input sono tutte quelle cose che vengono inserite da un giocatore e ricosciute dalle interprete del Mud, di solito vengono chiamati comandi, ma includono anche skill (non automatiche) e social.<br>
+I file contenuti in questa cartella permettono di creare delle liste di priorità degli input su altri input suddividendoli anche per tipi e linguaggi.<br>
+In pratica nel file inputs_cmd_it.input vi è la lista di tutti gli input in italiano per utilizzare i comandi; inputs_cms_en.input invece vi sono gli input in inglese; poi vi sono altri due file relativi agli input per chiamare i social, altri due relativi alle skill e uno solo per i comandi di admin (che utilizzano degli input solo in inglese).<br>
+Ogni lista di input è ordinata grosso modo così: all'inizio i comandi di direzione poi tutti i comandi sono suddivisi per lettera iniziale, prima tutti quelli con la A, poi tutti quelli con la B etc etc..<br>
+Inoltre in ogni mini lista della lettera i comandi sono inseriti o in ordine alfabetico oppure in ordine di utilizzo determinando quindi la priorità di certi input rispetto agli altri.<br>
+Per maggiori dettagli bisogna guardare il file intepret.py, ha un sistema ampiamente testato sul Bard con il mud di Terra Secunda e ottimo, minimizza il problema dei conflitti tra input con doppi comandi lasciando comunque la libertà di poter utilizzare sia quelli in italiano che quelli in inglese assieme.<br>
+
+Cartella skills:<br>
+Stessa cosa della cartella commands, ma qui vi sono ovviamente le informazioni relative alle skills.<br>
+
+Cartella socials:<br>
+Idem come le cartelle commands e skills, ma riguardanti i sociali.<br><br>
+</div>
+
+<hr>
+</body>
+</html>

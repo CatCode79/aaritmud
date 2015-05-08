@@ -1,0 +1,45 @@
+Code: torreelementi_room_giardino_n
+Sector: SECTOR.PLAIN
+Name: L'Ingresso della Torre
+Short: un trivio nel sentiero
+Descr:
+Dopo tutto lo spettacolo che ti trovi davanti, certo piangerebbe il cuore ad
+abbandonarlo per entrare nella torre; ma non si può mai dire.
+L'ingresso della torre sembra un'apertura in una siepe a causa della vegetazione
+che si è data da fare per edificare anche una veranda con ingresso annesso.
+Verso est e verso ovest un arco di sentiero pare circondare tutta la torre a cerchio.
+A nord si apre un sentiero dritto come un fuso.
+DescrSmell:
+Qui il profumo di caprifoglio sembra venire da sud
+Extras:
+  Keywords: terrazza
+  Descr: 
+  Sostenuta qua e là da sottili arbusti, una fitta rete di caprifoglio si
+  estende per diverse lunghezze come a coprire un ampio piazzale erboso.
+  DescrSmell: Profumatissimo caprifoglio
+End
+Extras:
+  Keywords: ingresso
+  Descr: Una doppia fila di carpini invita a salire i due scalini che ti conducono all'interno.
+End 
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: La strada
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Il giardino prosegue
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Il giardino prosegue
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: La torre
+End

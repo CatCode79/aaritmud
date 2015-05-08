@@ -1,0 +1,58 @@
+Code:	conflitti_room_interno-01
+Sector: SECTOR.VOID
+Name:	Labirinti Mentali
+Short:	[firebrick]labirinti mentali[close]
+
+Descr:
+Sei dentro. La stanza è buia, ma una luce fioca è come se attraversasse le [red]pareti[close] conferendo all'ambiente una luminosità lieve, di color rosso.
+Non è una stanza con una superficie particolarmente ampia, invece appare abbastanza estesa  in altezza tanto che il soffitto lo intravedi appena.
+La stanza non sembra avere altre aperture oltre quella che hai appena attraversato  anche se l'illuminazione molto debole non ti consente 
+di averne certezza assoluta. Le [red]pareti[close] hanno una superficie irregolare in cui si alternano parti più lisce, a parti in cui sembrano essere attraversate da  
+qualcosa di granuloso che cola verso il pavimento conferendo alle [red]pareti[close] stesse un aspetto "a macchia". Ti sembra che due delle pareti 
+della stanza non siano perfettamente parallele tra loro, ma che seguano un andamento obliquo tanto da determinare una differente grandezza 
+delle altre due: minore quella che hai di fronte, maggiore quella  in cui si apre la porta dalla quale sei appena entrato. Intravedi, appesi sulle due 
+[red]pareti[close] oblique in modo casuale, come dei fogli contenenti delle scritte.
+
+
+DescrTouch:
+Ti accosti ad una delle [red]pareti[close] della stanza con una certa diffidenza, la tua mano si
+avvicina ad essa e le dita toccano qualcosa di appiccicoso e freddo. La superficie è
+completamente liscia in alcuni tratti, ma in altri la senti come rugosa e  calda ed in quel punto
+è  come se una qualche sostanza lievemente granulosa fuoriuscisse da pori invisibili. 
+
+DescrSmell:
+Avverti all'inizio un certo odore simile alla  formalina che però gradualmente si attenua per lasciar posto ad un forte  odore
+acre e pungente simile allo zolfo come se ci si trovasse in un luogo in prossimità di
+un vulcano.
+
+DescrSixth:
+Avverti qualcosa di sinistro nell'aria, non sai cosa, pensi che ti stai lasciando suggestionare da alcune caratteristiche sensoriali. Ma è un brivido quello che ti percorre la mente e il corpo? Ti arriva immediatamente un odore forte di formalina  che tende in genere a sollecitare sensazioni di intensa nausea. Un rumore forte alle tue spalle. La porta si è chiusa all'improvviso..tenti di riaprirla, ma non è possibile, sei dentro, ma non sai neanche dentro cosa sei. Potrebbe essere una stanza, o anche qualcosa di vivo..o ancora dentro una parte della tua mente che vorrebbe catturarti  e  non lasciarti andare più via, come quei pensieri che ti arrivano all'improvviso, e non sai come cacciarli, anzi più tenti di cacciarli più si aggrappano alla tua anima tentando di  lacerarla in mille brandelli. Cerchi di ripensare a tutte quelle volte che ti sei trovato in una situazione simile a questa in cui ti sembra che nessuna via di uscita sia possibile o  immediatamente intuibile e visibile. In queste situazioni la paura ed il senso di impotenza rischiano di farti disorientare e di influenzare la  capacità di riflettere e razionalizzare. In tutte le situazioni in cui ci si sente intrappolati c'è sempre un modo di uscirne: bisogna forse intraprendere vie inconsuete, tracciare nuovi sentieri mentali e non limitarsi a ripercorrere quelli già fatti  che generalmente conducono verso soluzioni non adeguate. 
+
+DescrHearing:
+Senti come un respiro attorno a te, non sei tu, lo senti con un ritmo che è molto più
+lento di quello del tuo cuore che sta battendo con una rapidità inconsueta. Da che
+parte arriva questo respiro…?  Ti avvicini ancora di più alla [red]parete[close]. Arriva da lì...
+è come un soffio vitale  o forse mortale.
+
+DescrTaste:
+La pessima idea, quasi perversa, di assaggiare qualcosa di maleodorante ed appiccicoso
+per un momento ti sfiora la mente, ma alla fine decidi di rinunciare. 
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Extras:
+        Keywords: parete pareti
+        Descr:
+        Ti avvicini e cominci a leggere con estrema difficoltà poiché la luce non è sufficiente. In fondo intravedi una nicchia scavata nella [red]parete[close] dentro la quale è appoggiato un enorme libro antico con una  copertina spessa di pelle marrone.
+       
+       
+End
+
+Exits:
+	Direction: DIR.UP
+	Descr: Sai di non poter più uscire
+	Destination: 0 0 -1 conflitti
+End

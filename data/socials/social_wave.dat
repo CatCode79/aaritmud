@@ -1,0 +1,34 @@
+FunName:    social_wave
+Intention:  INTENTION.FRIENDLY
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Saluti allegramente.
+  OthersNoArg: $n saluta allegramente
+  EntityFound: Saluti allegramente $N.
+  OthersFound: $n saluta allegramente $N.
+  TargetFound: $n ti saluta allegramente.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Saluti i presenti.
+  OthersNoArg: $n volge lentamente lo sguardo a guisa di saluto.
+  EntityFound: Saluti $N.
+  OthersFound: $n volge lentamente lo sguardo verso $N a guisa di saluto.
+  TargetFound: $n volge freddamente lo sguardo verso te a guisa di saluto.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Agiti una zampa salutando i presenti.
+  OthersNoArg: $n saluta i presenti agitando una zampa.
+  EntityFound: Saluti $N con un gesto della zampa.
+  OthersFound: $n saluta $N con un gesto della zampa.
+  TargetFound: $n ti saluta con un gesto della zampa.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Agiti una zampa salutando i presenti.
+  OthersNoArg: $n saluta i presenti agitando una zampa.
+  EntityFound: Saluti $N con un gesto della zampa.
+  OthersFound: $n saluta $N con un gesto della zampa.
+  TargetFound: $n ti saluta con un gesto della zampa.
+End

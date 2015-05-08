@@ -1,0 +1,52 @@
+Code: villaggio-zingaro_room_stalla-01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Stalla
+Short: la stalla
+
+Descr:
+Il corpo principale della stalla è formato da un ampio ambiente con il pavimento in legno cosparso di ciuffetti di [khaki]paglia[close]. Una stretta scaletta porta al piano superiore mentre su gli altri lati vi sono l'accesso ai box e un'uscita secondaria sull'esterno.
+DescrSmell: 
+Respiri un fastidioso olezzo di sterco e fieno.
+DescrHearing:
+Arrivan fin qui sbuffi e frequenti nitriti.
+DescrSixth:
+Uhm.. qui il fondo è stranamente sconnesso.
+
+Extras:
+	Keywords:	paglia pavimento
+	Descr:
+	Osservando meglio ti accorgi che la paglia è assente in alcuni punti del pavimento che disegnano una sagoa quadrata...come una botola.
+	DescrHearing:
+	Batti le nocche sul pavimento..suona vuoto.
+	DescrSixth:
+	Pare che la paglia, in alcuni punti, sia caduta attraverso una fessura..come vi vosse uno spazio sotto il pavimento..
+End
+
+Width:	5m
+Depth:	5m
+Height: 4m
+
+Exits:
+	Direction: DIR.WEST
+	Descr: Il pascolo
+End
+Exits:
+	Direction: DIR.NORTH
+	Descr: La strada
+End
+Exits:
+	Direction: DIR.SOUTH
+	Descr: Ai box
+End
+Exits:
+	Direction: DIR.DOWN
+	Descr: Un passaggio nascosto
+	Door: villaggio-zingaro_item_botola-stalla
+	EntityMessage: [palegoldenrod]Non appena ti cali nella botola una candela si accende.[close]
+End
+Exits:
+	Direction: DIR.UP
+	Descr: Il fienile
+	EntityMessage: [palegoldenrod]Ti arrampichi con fatica sulla scaletta che porta al fienile.[close]
+End

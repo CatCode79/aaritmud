@@ -1,0 +1,38 @@
+Code: miniere-kezaf_room_p1-04
+Sector: SECTOR.UNDERGROUND
+Flags: ROOM.INSIDE
+Icon:	icons/item/rotaie-01.png
+Name: Al Primo Livello Delle Miniere
+Short: all'interno delle miniere
+
+Descr:
+Le pareti rocciose; dapprima squadrate, man mano che procedi, si trovano a formare una volta più morbida ed alta come ci si trovasse in una spaccatura naturale apertasi nelle viscere della collina.
+Qui i vecchi binari hanno un meccanismo di scambio che consente di scegliere una delle due vie.
+DescrTouch: 
+Le pareti rocciose; dapprima squadrate, man mano che procedi, si trovano a formare una volta più morbida che sale ben oltre la tua statura.
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: La nuda roccia
+End
+
+Exits:
+	Direction: DIR.NORTHEAST
+	Descr: Uno scavo in leggera discesa
+End
+Exits:
+	Direction: DIR.SOUTHEAST
+	Descr: Uno scavo
+End

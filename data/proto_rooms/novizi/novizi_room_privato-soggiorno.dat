@@ -1,0 +1,24 @@
+Code: novizi_room_privato-soggiorno
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Il Soggiorno
+Short: un ampio salone
+
+Descr:
+Una coltre di fumo ammanta il salone ove sono stipati almeno quattro divani e una miriade
+di cuscini. Le finestre sono ben serrate e le uniche luci provengono da pietre luminose
+poste negli angoli e poggiate su mobiletti di legno scuro.
+
+DescrSmell: 
+Discreto profumo di tabacco con retrogusti speziati ti arriva alle narici e sul momento
+non si sente nulla più. Dopo un po' cominciano a discernersi i tratti di menta.
+
+
+Width:	6m
+Depth:	3m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Il soggiorno
+End

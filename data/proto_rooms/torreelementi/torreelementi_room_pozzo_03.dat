@@ -1,0 +1,32 @@
+Code: torreelementi_room_pozzo_03
+Sector: SECTOR.CAVERN
+Flags: ROOM.UNDERWATER
+Name: Un Tunnel Subacqueo
+Short: Un tunnel
+
+Descr:
+Uno stretto cunicolo subacqueo si sviluppa per pochi metri facendo una stretta curva.
+Da nord la [lightgreen]luce[close] è molto intensa e si fatica a guardarla intensamente. Le pareti del
+cunicolo paiono scavate brutalmente e senza progettualità. Devi fare attenzione a non
+ferirti procedendo con lentezza. 
+DescrTouch: 
+L'acqua è piuttosto calda e si muove alternativamente nei due versi sconsigliandoti di
+permanere qui troppo a causa degli spuntoni acuminati delle pareti.
+DescrHearing:
+Si sente rumore sopito e sordo di tonfi radi ma sincronizzati.
+DescrTaste:
+Acqua dolce e priva di altre sfumature percepibili
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.SOUTHWEST
+  Descr: Uno slargo
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Luce
+End
+

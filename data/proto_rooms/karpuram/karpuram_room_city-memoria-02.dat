@@ -1,0 +1,29 @@
+Code: karpuram_room_city-memoria-02
+Sector: SECTOR.PLAIN
+Name: L'Accesso al Tempio di [violet]Kirys[close]
+Short: la via delle pietre [violet]viola[close]
+Descr:
+Un sentiero di [violet]ciottoli[close] monocromatici procede in una larga danza sinuosa.
+Un doppio filare di sophora centenaria proteggie la via ai lati forzandola ad un'ampia deviazione.
+
+DescrNight:
+Un sentiero di cupo [darkviolet]ciottolato[close] procede in una larga danza sinuosa.
+Un doppio filare di mesti rami avvinghiati accompagna la via ad una ampia deviazione.
+
+DescrSixth:
+Qualcosa o qualcuno proveniente da nord cerca d'infrangere il generale senso di benessere che il bosco emana.
+DescrSixthNight:
+Un senso cupo di cordoglio e smarrimento irrompe da nord frangendo quel che resta del gaio afflusso boschivo.
+
+Width:	5m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: L'apertura
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Verso il bosco
+End

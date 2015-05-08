@@ -1,0 +1,20 @@
+Code: deadcity_room_cortile-negozio
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Il Negozietto di Druklamar
+Short: un negozietto di indumenti
+
+Descr:
+Un salone foderato di velluto rosso attenta alla tua salute mentale ma sei fortunat$o
+che la maggior parte del negozio è ricoperta di vestiario di foggia e colori fra i più
+disparati.
+
+Width:	20m
+Depth:	20m
+Height: 4m
+
+Exits:
+  Door:	deadcity_item_door-negozio-vestiti
+  Direction: DIR.SOUTHEAST
+  Descr: L'uscita
+End

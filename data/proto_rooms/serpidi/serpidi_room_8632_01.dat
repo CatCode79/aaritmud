@@ -1,0 +1,16 @@
+Code: serpidi_room_8632_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: La tomba ovale 
+Short: La tomba ovale 
+Descr: 
+Ti trovi in un'ampia stanza ovale dal soffitto basso. La stanza è in buono stato e stranamente il pavimento è pulito, forse perché è rimasta ben sigillata. Le due pareti lunghe dell'ovale sono dipinte e raffigurano una le costellazioni conosciute, mentre l'altra rappresenta sempre un insieme di costellazioni, ma che tu non hai mai visto. Al centro della stanza c'è un sarcofago ovale. 
+Exits:
+	Direction: DIR.UP
+	Destination: 4 4 -1 serpidi
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

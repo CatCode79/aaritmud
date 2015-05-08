@@ -1,0 +1,21 @@
+Code: klirbe_room_sentiero-02
+Sector: SECTOR.MOUNTAIN
+Name: La Salita
+Short: un sentiero scosceso
+
+Descr:
+Il tratto di sentiero è stretto, ripido e fatto a tornanti. Lontano in alto si scorge la cima.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.NORTH
+	Descr: In strada
+End
+Exits:
+	Direction: DIR.SOUTHWEST
+	Descr: In strada
+End
+

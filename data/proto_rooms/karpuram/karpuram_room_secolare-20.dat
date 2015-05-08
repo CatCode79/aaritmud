@@ -1,0 +1,47 @@
+Code: karpuram_room_secolare-20
+Sector: SECTOR.PLAIN
+Name: Sulla Quarta Piattaforma
+Short: sulla quarta piattaforma
+
+Descr:
+Posando i $feet sulla quarta piattaforma ti rendi conto di quanto sia solida e 
+resistente, una dimostrazione della bravura indiscussa di questo clan elfico.
+Guardando verso il basso riesci a stimare di trovarti ad un'altezza di circa
+quaranta metri dal suolo, muovendo lo sguardo attorno noti un corrimano di corda
+seguire perfettamente l'andamento della piattaforma che ruota attorno al tronco
+dell'albero. In direzione nord noti una sala, verso est un angolo della
+piattaforma e verso ovest un passaggio.
+
+DescrNight:
+Posando i $feet sulla quarta piattaforma ti rendi conto di quanto sia solida e 
+resistente, una dimostrazione della bravura indiscussa di questo clan elfico.
+Guardando verso il basso non ti rende bene conto dell'altezza a causa della
+scarsa illuminazione notturna, muovendo lo sguardo attorno noti un corrimano di 
+corda seguire perfettamente l'andamento della piattaforma, l'illuminazione di
+quest'ultimo è ottenuta da una serie di piccole lanterne poste a distanze
+irregolari tra loro. In direzione nord noti una sala, verso est un angolo della
+piattaforma e verso ovest un passaggio.
+
+DescrTouch:
+L'unica cosa abbastanza vicina che puoi toccare, anche per sporgerti ed evitare
+di perdere l'aquilibrio, è il corrimano di corda che si presenta solido e 
+ruvido al tatto.
+
+
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: La sala del consiglio
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Un secondo angolo attrezzato
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Una piattaforma di transito
+End

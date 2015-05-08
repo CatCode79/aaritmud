@@ -1,0 +1,37 @@
+Code: novizi2_room_12c-soffitta
+Sector: SECTOR.HOUSE
+Flags: ROOM.INSIDE
+Name: [gold]La Soffitta Est[close]
+Short: [gold]una soffitta[close]
+
+Descr:
+Un tetto a spioventi come cappello conferisce una curiosa geometria a quella che è un lungo sottotetto.
+Ti trovi nella zona più periferica terminante a ridosso di una parete verticale realizzata in assi di legno.
+Una delle [maroon]assi[close] sembra più sporgente delle altre.
+DescrTouch: 
+Un lungo corridoio circondato ai lati dagli spioventi del tetto che impediscono di trovare una parete cui appoggiarsi.
+DescrSmell: 
+Vago e flebile l'odore delle resina, figlio certo delle travi in legno della soffitta.
+DescrSixth:
+L'ambiente è illuminato da alcuni lucernari, in alto e tutti collocati sullo stesso spiovente.
+DescrHearing:
+Ci deve essere un po' di vento all'esterno a giudicare dai sinistri cigolii provenienti dalle travature.
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.DOWN
+	Descr: [lemonchiffon]Un corridoio[close]
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	La soffitta
+	Destination:	-2 -5 1 novizi2
+End
+Exits:
+	Comment:	qui a nord è secret
+	Direction:	DIR.NORTH
+	Descr:	La soffitta
+End

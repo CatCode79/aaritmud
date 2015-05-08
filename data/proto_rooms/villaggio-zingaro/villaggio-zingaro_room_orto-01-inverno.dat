@@ -1,0 +1,30 @@
+Code: villaggio-zingaro_room_orto-01-inverno
+Sector: SECTOR.FARMLAND
+Name: L'Orto Comune 
+Short: un orto
+
+Descr:
+L'interno della serra; le pareti sono state realizzate unendo tra loro vari pezzi, di diverse forme e dimensioni, di un materiale flessibile e traslucido. Il tutto e stato eretto grazie a tubi metallici tenuti insieme con del robusto fil di ferro. Il terreno è ordinatamente ripartito in più [saddlebrown]settori[close] ed in alcuni noti rigogliosi vegetali.
+DescrTouch: 
+Affondi le $hands nella [saddlebrown]terra[close] scura insozzandole tutte.
+DescrSmell: 
+Una leggera brezza porta un lieve fetore di marciume.
+DescrHearing:
+Tutti i rumori esterni risultano ovattati qua dentro.
+DescrTaste:
+Porti alla bocca una manciata di terra e sa di..terra, strano vero?!
+DescrSixth:
+Nonostante sia piuttosto rudimentale questa serra sembra piuttosto stabile ed è un ottimo metodo per avere verdure fresche tutto l'anno!
+
+Width:	6m
+Depth:	6m
+Height: 2m
+Exits:
+	Direction: DIR.NORTH
+	Descr: La strada
+End
+Exits:
+	Direction: DIR.EAST
+	Descr: Un orto
+End
+

@@ -1,0 +1,34 @@
+Comment: 85 0 2
+Code: sauria_room_sponda-lago-09
+Sector: SECTOR.SHORE
+Name: Sponda Del Lago
+Short: sponda del lago
+
+Descr:
+Una bella spiaggia sabbiosa sulla sponda meridionale di un canneto. Piacevoli ricordi della tua giovinezza ti fanno prendere in cosiderazione di spogliarti dell'equipaggiamento per fare una nuotata. Certo ci fossero meno zanzare... 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Comment:	0 -1 21810
+  Descr:	Canneto
+  Direction:	DIR.NORTH
+End
+Exits:
+  Comment:	0 -1 21808
+  Descr:	Palude
+  Direction:	DIR.WEST
+End

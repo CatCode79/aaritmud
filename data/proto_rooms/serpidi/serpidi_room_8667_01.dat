@@ -1,0 +1,20 @@
+Code: serpidi_room_8667_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: Ingresso al quartiere occidentale 
+Short: Ingresso al quartiere occidentale 
+Descr: 
+È un corridoio decorato, e sulla parete est si apre una porta ad arco con false colonne e capitelli scolpiti nella roccia pura. Le figure rappresentano scene campestri, e ti chiedi cosa ne sappiano questi serpidi della vita all'aria aperta. 
+Exits:
+	Direction: DIR.EAST
+	Destination: 2 7 -2 serpidi
+End
+Exits:
+	Direction: DIR.WEST
+	Destination: 0 7 -2 serpidi
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

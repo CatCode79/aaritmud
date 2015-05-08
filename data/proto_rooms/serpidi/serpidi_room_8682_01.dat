@@ -1,0 +1,20 @@
+Code: serpidi_room_8682_01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: Un corridoio buio 
+Short: Un corridoio buio 
+Descr: 
+Sei in un corridoio buio come tanti dei precedenti. 
+Exits:
+	Direction: DIR.NORTH
+	Destination: 3 10 -2 serpidi
+End
+Exits:
+	Direction: DIR.WEST
+	Destination: 2 9 -2 serpidi
+End
+
+Width:	1m
+Depth:	2m
+Height:	2m

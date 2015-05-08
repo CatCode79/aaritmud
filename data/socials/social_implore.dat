@@ -1,0 +1,26 @@
+FunName:    social_implore
+Intention:  INTENTION.FRIENDLY
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Rivolgi una devota e silenziosa preghiera agli Dei.
+  OthersNoArg: $n socchiude gli occhi e rivolge una preghiera ai suoi Dei.
+  EntityFound: T'inginocchi ai $FEET di $N pregandol$O!
+  OthersFound: $n s'inginocchia ai $FEET di $N pregandol$O!
+  TargetFound: $n s'inginocchia ai tuoi $FEET pregandoti.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Mostri languidi occhioni in cerca di comprensione.
+  OthersNoArg: $n si tiene la coda con le zampe supplicando i presenti.
+  EntityFound: Guardi $N con aria supplichevole, tenendoti la coda con le zampe.
+  OthersFound: $n guarda $N con aria supplichevole, tenendosi la coda con le zampe.
+  TargetFound: $n ti guarda con aria supplichevole, tenendosi la coda con le zampe.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Mostri languidi occhioni in cerca di comprensione.
+  OthersNoArg: $n si tiene la coda con le zampe supplicando i presenti.
+  EntityFound: Guardi $N con aria supplichevole, tenendoti la coda con le zampe.
+  OthersFound: $n guarda $N con aria supplichevole, tenendosi la coda con le zampe.
+  TargetFound: $n ti guarda con aria supplichevole, tenendosi la coda con le zampe.
+End

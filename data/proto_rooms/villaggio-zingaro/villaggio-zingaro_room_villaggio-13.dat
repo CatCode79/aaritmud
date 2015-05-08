@@ -1,0 +1,35 @@
+Code: villaggio-zingaro_room_villaggio-13
+Sector: SECTOR.ROAD
+Name: Il Margine del Bosco
+Short: il margine del bosco
+
+Descr:
+Una macchia boschiva sul lato orientale costringe la via ad una leggera deviazione.
+Un sottile sentiero indisciplinato, non visto si porta bruscamente all'interno del bosco.
+La vegetazione non pare però disposta a ricambiare la cortesia, infatti il lastricato è
+tutto sconnesso dalle radici di chi vorrebbe prendere parte della strada.
+DescrTouch: 
+La mano mai ferma poggia spesso su foglie o rami d'albero, riconosci dei faggi.
+DescrSmell: 
+La presenza del bosco di faggi si dichiara in ogni modo che tu lo voglia o meno.
+DescrSixth:
+Una sensazione come di rispetto e di sacralità pare trapelare da qualcosa o qualcuno nei dintorni.
+DescrHearing:
+Il sottobosco nel sui incessante lavorio e il vento nelle fronde.
+
+Width:	4m
+Depth:	12m
+Height: 200m
+Exits:
+	Direction: DIR.EAST
+	Descr: Verso il bosco
+	Destination:	-1 1 0 villaggio-zingaro
+End
+Exits:
+	Direction: DIR.SOUTH
+	Descr: La strada
+End
+Exits:
+	Direction: DIR.NORTH
+	Descr: La piazza
+End

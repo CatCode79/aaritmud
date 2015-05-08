@@ -1,0 +1,29 @@
+Code: siepi_room_intrico_ww
+Sector: SECTOR.WOOD
+Name: Il Labirinto di Akh-Dara
+Short: un garbuglio intricato
+Descr: 
+Dentro all'intrico diventa difficile orientarsi per il fatto che la vegetazione è
+molto più alta di te. Hai la certezza che l'uscita si trovi verso ovest ma non sai
+dire se si tratti più di certezza o di speranza.
+
+DescrSmell:
+Si sente odore di vaniglia.
+
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Sentieri imbrigliati da siepi
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Sentieri imbrigliati da siepi 
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Sentieri imbrigliati da siepi 
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Sentieri imbrigliati da siepi 
+End

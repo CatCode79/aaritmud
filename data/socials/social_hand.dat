@@ -1,0 +1,32 @@
+FunName:    social_hand
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Stringi l'aria e te ne riempiamo le $hands.
+  OthersNoArg: $n stringe la mano ad una presenza invisibile..
+  EntityFound: Stringi la $HAND di $N.
+  OthersFound: $n stringe la $HAND a $N.
+  TargetFound: $n ti stringe la $HAND.
+  EntityAuto:  Ti stringi le $hands compiaciut$o.
+  OthersAuto:  $n si stringe le $hands compiaciut$o.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Apri e chiudi la $hand, ottimo esercizio contro l'artrite.
+  OthersNoArg: $n tiene allenati i tendini delle $handS aprendole e chiudendole ripetutamente.
+  EntityFound: Offri la $hand a $N sigillando un patto d'intesa.
+  OthersFound: $n offre la $hand a $N che la stringe con moto d'intesa.
+  TargetFound: Stringo la $hand di $n suggellando un patto fra noi due.
+  EntityAuto:  Una $hand lava l'altra, tutte e due lavano il muso.
+  OthersAuto:  $n si stringe le $hands l'una con l'altra, forse per scaldarsi.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Apri e chiudo la $hand, ottimo esercizio contro l'artrite.
+  OthersNoArg: $n tiene allenati i tendini delle $handS aprendole e chiudendole ripetutamente.
+  EntityFound: Offri la $hand a $N sigillando un patto d'intesa.
+  OthersFound: $n offre la $hand a $N che la stringe con moto d'intesa.
+  TargetFound: Stringo la $hand di $n suggellando un patto fra noi due.
+  EntityAuto:  Una $hand lava l'altra, tutte e due lavano il musetto.
+  OthersAuto:  $n si stringe le $hands l'una con l'altra, forse per scaldarsi.
+End

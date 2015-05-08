@@ -1,0 +1,38 @@
+Code: villaggio-zingaro_room_villaggio-15
+Sector: SECTOR.ROAD
+Name: L'Accesso all'Orto
+Short: uno slargo
+
+Descr:
+Uno slargo polveroso circondato ad qualche albero anticipa quella che sembra essere una zona coltivata. Ai lati di un [slategray]pozzo[close] si aprono due aperture in uno [rosybrown]steccato[close] malconcio.
+DescrSmell: 
+Un lieve fetore di marciume proviene da poco lontano da qui.
+
+
+Extras:
+	Keywords: steccato
+	Descr:
+	Un malridotto steccato formato da assi di legno, alcune sono marce e sembrano cedere da un momento all'altro. Il tutto è tenuto insieme da chiodi arrugginiti probabilmente recuperati per l'occasione.
+	DescrHearing:
+	Appena ti appoggi un allarmante scricchiolio ti intima di evitare pressioni.
+	DescrTouch:
+	Ogni toccata è una spina assicurata!
+	DescrSixth:
+	Date le condizioni precarie intuisci che non è stato di certo costruito per evitare l'ingresso ad individui indesiderati.
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+Exits:
+	Direction: DIR.SOUTHEAST
+	Descr: Una zona coltivata
+End
+Exits:
+	Direction: DIR.SOUTH
+	Descr: Una zona coltivata
+End
+Exits:
+	Direction: DIR.NORTHWEST
+	Descr: Un piazzale
+End

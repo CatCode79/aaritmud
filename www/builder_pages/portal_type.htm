@@ -1,0 +1,151 @@
+<html>
+<head>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico">
+<link rel="Stylesheet" type="text/css" href="../style.css">
+<link rel="Stylesheet" type="text/css" href="../style_doc.css">
+<title>Documentazione di Aarit, il Mud in Python</title>
+</head>
+<body>
+
+<hr>
+<h2>Indice delle Etichette per i Portali.</h2>
+<div>
+<a href="#Comment"><span class="label">Comment</span>:</a><br>
+<a href="#Destination"><span class="label">Destination</span>:</a><br>
+<a href="#TargetCode"><span class="label">TargetCode</span>:</a><br>
+<a href="#EntityNoRoomMessage"><span class="label">EntityNoRoomMessage</span>:</a><br>
+<a href="#TargetNoRoomMessage"><span class="label">TargetNoRoomMessage</span>:</a><br>
+<a href="#OthersNoRoomMessage"><span class="label">OthersNoRoomMessage</span>:</a><br>
+<a href="#EntityEnterMessage"><span class="label">EntityEnterMessage</span>:</a><br>
+<a href="#TargetEnterMessage"><span class="label">TargetEnterMessage</span>:</a><br>
+<a href="#OthersEnterMessage"><span class="label">OthersEnterMessage</span>:</a><br>
+<a href="#EntityExitMessage"><span class="label">EntityExitMessage</span>:</a><br>
+<a href="#TargetExitMessage"><span class="label">TargetExitMessage</span>:</a><br>
+<a href="#OthersExitMessage"><span class="label">OthersExitMessage</span>:</a><br>
+</div>
+<br>
+
+<hr>
+<h2>Note Riguardo ai Portali.</h2>
+<div>
+I portali sono quelle tipologie di entit&agrave; che, se utilizzate tramite il comando enter, teletrasportano nella locazione a cui puntano.<br>
+<br>
+</div>
+
+<hr>
+<h2>Tabella di Riferimento Veloce.</h2>
+<div>
+<table border="1">
+<tr class="thref"><td>Etichetta</td><td>Tipologia</td><td>Utilizzo</td></tr>
+<tr><td class="label">Comment</td><td>Stringa, relativa ad un commento</td><td>Facoltativo, consigliato se c'&egrave; qualcosa di particolare</td></tr>
+<tr><td class="label">Destination</td><td>Coordinate di destinazione</td><td>Facoltativo se viene utilizzato TargetCode</td></tr>
+<tr><td class="label">TargetCode</td><td>Codice identificativo un'entit&agrave;</td><td>Facoltativo se viene utilizzato Destination</td></tr>
+<tr><td class="label">EntityNoRoomMessage</td><td>Stringa su una linea</td><td>Facoltativo anche se viene utilizzato TargetCode e Destination assieme</td></tr>
+<tr><td class="label">TargetNoRoomMessage</td><td>Stringa su una linea</td><td>Facoltativo anche se viene utilizzato TargetCode e Destination assieme</td></tr>
+<tr><td class="label">OthersNoRoomMessage</td><td>Stringa su una linea</td><td>Facoltativo anche se viene utilizzato TargetCode e Destination assieme</td></tr>
+<tr><td class="label">EntityEnterMessage</td><td>Stringa su una linea</td><td>Facoltativo</td></tr>
+<tr><td class="label">TargetEnterMessage</td><td>Stringa su una linea</td><td>Facoltativo</td></tr>
+<tr><td class="label">OthersEnterMessage</td><td>Stringa su una linea</td><td>Facoltativo</td></tr>
+<tr><td class="label">EntityExitMessage</td><td>Stringa su una linea</td><td>Facoltativo</td></tr>
+<tr><td class="label">TargetExitMessage</td><td>Stringa su una linea</td><td>Facoltativo</td></tr>
+<tr><td class="label">OthersExitMessage</td><td>Stringa su una linea</td><td>Facoltativo</td></tr>
+</table>
+</div>
+<br>
+
+<hr>
+<h2>Struttura Tipica con le Etichette di Maggior Utilizzo (per copia e incolla).</h2>
+<div>
+<pre>
+PortalType:
+	Destination: 
+End
+</pre>
+</div>
+
+<hr>
+<h2>Spiegazione delle Etichette.</h2>
+<div>
+<a name="Comment"><h3 class="label">Comment:</h3></a>
+Eventuale commento relativo al portale, per maggior informazioni leggere <a href="comment.htm">questa pagina</a>.<br>
+Non &egrave; obbligatorio, ma &egrave; comunque consigliato utilizzarlo se la tipologia di entit&agrave; &egrave; una cosa particolare o bisogna segnarsi qualcosa da ricordare.<br>
+<br>
+
+<a name="Destination"><h3 class="label">Destination:</h3></a>
+Coordinate di destinazione a cui il portale punta. Leggere <a href="destination.htm">qui</a> su come impostarle.<br>
+Si pu&ograve; utilizzare quest'etichetta assieme a <span class="label">TargetCode</span>, come viene spiegata in quest'ultima.<br>
+Se si vuole utilizzare solamente <span class="label">TargetCode</span> al posto di quest'etichetta allora potete evitare di definirla.<br>
+<br>
+
+<a name="TargetCode"><h3 class="label">TargetCode:</h3></a>
+Codice di entit&agrave; a cui il portale punta. Se nel Mud esistono pi&ugrave; entit&agrave; create dallo stesso prototipo e quindi con lo stesso codice il portale sceglier&agrave; casualmente quella a cui puntare ogni volta che il personaggio utilizza il comand enter.<br>
+Se assieme a quest'etichetta viene inizializzata anche <span class="label">Destination</span> il portale funziona SOLO se l'entit&agrave; si trova anche nelle coordinate di destinazione.<br>
+Se si vuole utilizzare solamente Destination al posto di quest'etichetta allora potete evitare di definirla.<br>
+<br>
+
+<a name="EntityNoRoomMessage"><h3 class="label">EntityNoRoomMessage:</h3></a>
+&Egrave; un messaggio di act inviato al giocatore nel qual caso che non sia stato trovato una destinazione o un obiettivo valido per il portale.<br>
+Ci&ograve; accade quando alle coordinate di destinazione non esiste ancora una stanza (che forse esiste solo dopo un reset ad una certa ora) oppure quando l'entit&agrave; non esiste nel mud oppure alla destinazione voluta, a seconda di quale etichette avete definito.<br>
+I tag di act utilizzabili per questo messaggio sono:<br>
+%verb = verbo di default nel codice.<br>
+L'etichetta &egrave; facoltativa.<br>
+<br>
+
+<a name="TargetNoRoomMessage"><h3 class="label">TargetNoRoomMessage:</h3></a>
+&Egrave; un messaggio di act inviato al portale nel qual caso che non sia stato trovato una destinazione o un obiettivo valido.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityNoRoomMessage</span>.
+L'etichetta &egrave; facoltativa.<br>
+<br>
+
+<a name="OthersNoRoomMessage"><h3 class="label">OthersNoRoomMessage:</h3></a>
+&Egrave; un messaggio di act inviato a tutti gli altri nella stanza nel qual caso che non sia stato trovato una destinazione o un obiettivo valido.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityNoRoomMessage</span>.
+L'etichetta &egrave; facoltativa.<br>
+<br>
+
+<a name="EntityEnterMessage"><h3 class="label">EntityEnterMessage:</h3></a>
+&Egrave; un messaggio di act inviato al giocatore quando questo entra nel portale.<br>
+I tag di act utilizzabili per questo messaggio sono:<br>
+%verb = il verbo di default nel codice
+$a = la locazione attuale
+$A = la locazione precedente
+L'etichetta &egrave; facoltativa.<br>
+<br>
+
+<a name="TargetEnterMessage"><h3 class="label">TargetEnterMessage:</h3></a>
+&Egrave; un messaggio di act inviato al portale quando il personaggio entra nel portale.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityEnterMessage</span>.
+L'etichetta &egrave; facoltativa.<br>
+<br>
+
+<a name="OthersEnterMessage"><h3 class="label">OthersEnterMessage:</h3></a>
+&Egrave; un messaggio di act inviato a tutti gli altri nella stanza di partenza quando il personaggio entra nel portale.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityEnterMessage</span>.
+L'etichetta &egrave; facoltativa.<br>
+<br>
+
+<a name="EntityExitMessage"><h3 class="label">EntityExitMessage:</h3></a>
+&Egrave; un messaggio di act inviato al giocatore quando questo esce dal portale.<br>
+I tag di act utilizzabili per questo messaggio sono:<br>
+%verb = il verbo di default nel codice
+$a = la locazione attuale
+$A = la locazione precedente
+L'etichetta &egrave; facoltativa.<br>
+<br>
+
+<a name="TargetExitMessage"><h3 class="label">TargetExitMessage:</h3></a>
+&Egrave; un messaggio di act inviato al portale quando il personaggio esce dal portale.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityExitMessage</span>.
+L'etichetta &egrave; facoltativa.<br>
+<br>
+
+<a name="OthersExitMessage"><h3 class="label">OthersExitMessage:</h3></a>
+&Egrave; un messaggio di act inviato a tutti gli altri nella stanza di arrivo quando il personaggio esce dal portale.<br>
+I tag di act sono gli stessi descritti all'etichetta <span class='label'>EntityExitMessage</span>.
+L'etichetta &egrave; facoltativa.<br>
+<br>
+
+</div>
+<hr>
+</body>
+</html>

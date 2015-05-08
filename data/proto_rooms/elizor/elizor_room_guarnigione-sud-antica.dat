@@ -1,0 +1,26 @@
+Code: elizor_room_guarnigione-sud-antica
+Sector: SECTOR.RUIN
+Name: guarnigione-sud-antica
+Short: guarnigione-sud-antica
+
+Descr:
+Sei 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.WEST
+	Descr:	La strada
+End

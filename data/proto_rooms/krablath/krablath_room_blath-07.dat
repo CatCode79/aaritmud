@@ -1,0 +1,42 @@
+Code: krablath_room_blath-07
+Sector: SECTOR.SHORE	
+Name: [aquamarine]Lo Stagno[close]
+Short: [aquamarine]un suggestivo stagno[close]
+
+Descr:
+Cammini attorno ad uno stagno circolare dalle placide [aquamarine]acque[close] su cui galleggiano molteplici foglie e fiori di [blanchedalmond]ninfea[close]. Al centro dello stagno un'isoletta è quasi completamente occupata da un delizioso gazebo.
+Guardandoti intorno puoi ammirare buona parte del giardino nel pieno del rigoglio primaverile.
+DescrTouch: 
+Passi una $hand a terra smuovendo i piccoli ciottoli bianchi che costituiscono il sentiero.
+DescrSmell: 
+L'odore di acqua stagnante che ci si potrebbe aspettare è del tutto assente e sostituito da inebrianti aromi floreali.
+DescrSixth:
+Un senso di mistero e magia permea tutto il giardino bloccato in una perenne stasi primaverile.
+DescrHearing:
+Il ronzio degli insetti accompagna il tuo incedere.
+DescrTaste:
+no_send
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTHEAST
+  Descr: Attorno allo stagno.
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Attorno allo stagno.
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Tra esili fusti.
+End
+Exits:
+  Direction: DIR.SOUTHWEST
+  Descr: Tra esili fusti.
+End
+
+

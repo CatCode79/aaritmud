@@ -1,0 +1,44 @@
+Code: karpuram_room_secolare-05
+Sector: SECTOR.PLAIN
+Name: Sul Primo Ballatoio
+Short: sul primo ballatoio
+
+Descr:
+La piattaforma in questo punto presenta uno slargo circolare di legno, che può
+essere inteso come un primo punto di ristoro dal quale guardarsi intorno e
+ammirare il paesaggio del bosco. Osservando con attenzione ti rendi conto
+che questo ballatoio è controllato da una coppia di elfi che lo percorrono
+per tutto il suo diametro incontrandosi nel suo centro e ripartendo compiendo
+ampi passi lungo il perimetro. Dalla posizione in cui ti trovi puoi notare verso
+nord la piattaforma da cui sei salito, mentre verso ovest una scala che porta
+al secondo livello di questa grande struttura.
+
+DescrNight:
+La piattaforma in questo punto presenta uno slargo circolare di legno, che può
+essere inteso come un primo punto di ristoro dal quale guardarsi intorno e
+ammirare il paesaggio del bosco. Osservando con attenzione ti rendi conto
+che questo ballatoio è controllato da una coppia di elfi che lo percorrono
+per tutto il suo diametro incontrandosi nel suo centro e ripartendo compiendo
+ampi passi lungo il perimetro, di tanto in tanto questi si soffermano a
+ravvivare una serie di torce collocate ai bordi del ballatoio.
+Dalla posizione in cui ti trovi puoi notare verso nord la piattaforma da cui 
+sei salito, mentre verso ovest una scala che porta al secondo livello di questa 
+grande struttura.
+
+DescrSixth:
+Mantenendo lo sguardo sui movimenti dei due elfi, ti sembra di perderti e di
+cominciare a spaziare con la mente come se questa loro strana danza riuscisse
+a incantarti.
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: La prima piattaforma
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: La salita al secondo livello
+End

@@ -1,0 +1,51 @@
+Code: novizi_room_privato_corridoio-02
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Il Corridoio
+Short: un passaggio
+
+Descr:
+Il corridoio consente l'accesso alle stanze private di casa. Qui vivono i proprietari
+lontano dagli sguardi poco discreti degli avventori. L'arredamento è costituito da un
+paio di [maroon]portalanterne[close] ai due lati del corridoio e da una pesante [orange]specchiera[close].
+DescrSmell: 
+Il discreto e flebile odore di petrolio che pervade il corridoio indica che son
+state accese delle lanterne di recente.
+
+Extras:
+	Keywords: portalanterne
+	Descr:
+	Si tratta di un semplice sostegno in [gold]ottone[close] con gancetti per fermare la
+	lampada. Sporge dalla parete quanto basta per non incendiare casa durante le ore notturne
+	DescrSmell:
+	Odora marcatamente di petrolio
+	DescrTouch:
+	Lucidato a specchio ma soprattutto unto
+End
+Extras:
+	Keywords: specchiera
+	Descr:
+	In una cornice di legno massiccio è inserito uno specchio che ha visto giorni migliori;
+	nella parte inferiore la pellicola metallica sottostante si è tutta ossidata.
+End
+
+Width:	6m
+Depth:	3m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Lo studiolo
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Il soggiorno
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Il corridoio
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Il bagno
+End

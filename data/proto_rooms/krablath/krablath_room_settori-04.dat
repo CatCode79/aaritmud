@@ -1,0 +1,33 @@
+Code: krablath_room_settori-04
+Sector: SECTOR.PLAIN
+Name: [darkred]L'aiuola dell'Amaranto[close]
+Short: [darkred]una foresta purpurea[close]
+
+Descr:
+Proprio al centro dell'aiuola ti imbatti in un grosso tronco tagliato ormai da tempo, molto fibroso e quasi legnoso forma una grande coppa grazie alla cavità centrale; tutt'intorno vi cresce una bassa boscaglie di piantine erbacee.
+DescrTouch:
+Passi una $hand sul fondo dell'incavo e noti delle fessure circolari che corrono tutt'intorno.
+DescrSmell:
+Mille fragranze si susseguono senza sosta, così veloci da impedirti di soffermartici per troppo tempo. 
+DescrSixth:
+Hai l'impressione che qui vi molto più di ciò che salta subito all'occhio.
+DescrHearing:
+Tutto è così silenzioso da darti l'impressione di sentir i lombrichi scavare la terra.
+
+Extras:
+	Keywords: pianticella pianticelle
+	Descr:
+	Tanti cespuglietti erbacei allungano le loro propaggini cercando un po' di luce.
+	DescrSmell:
+	Senza avvicinarti troppo puoi avvertire il loro forte aroma.
+End
+
+Width:	6m
+Depth:	6m
+Height: 200m
+
+Exits:
+  Direction: DIR.NORTHWEST
+  Descr: Verso il centro del giardino
+End
+

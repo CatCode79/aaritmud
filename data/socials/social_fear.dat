@@ -1,0 +1,26 @@
+FunName:    social_fear
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: La paura ti si disegna sul volto.. sei pallid$o.
+  OthersNoArg: La paura disegna il volto di $n.. è pallid$o!
+  EntityFound: Guardo $N mentre la paura ti segna il volto.. comincio a sbiancare.
+  OthersFound: $n guarda $N mentre la paura segna il suo volto..
+  TargetFound: $n ti guarda mentre la paura segna il suo volto..
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Appiattisci le orecchie e ti guardi attorno spaventat$o.
+  OthersNoArg: $n appiattisce le orecchie e si guarda attorno spaventat$o.
+  EntityFound: Appiattisci le orecchie guardando $N impaurit$o.
+  OthersFound: $n appiattisce le orecchie fissando $N impaurit$o.
+  TargetFound: $n appiattisce le orecchie e ti fissa spaventat$o.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Appiattisci le orecchie e ti guardi attorno spaventat$o.
+  OthersNoArg: $n appiattisce le orecchie e si guarda attorno spaventat$o.
+  EntityFound: Appiattisci le orecchie guardando $N impaurit$o.
+  OthersFound: $n appiattisce le orecchie fissando $N impaurit$o.
+  TargetFound: $n appiattisce le orecchie e ti fissa spaventat$o.
+End

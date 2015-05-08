@@ -1,0 +1,47 @@
+Code: karpuram_room_secolare-24
+Sector: SECTOR.PLAIN
+Name: La Terza Torretta Reale
+Short: la terza torretta reale
+
+Descr:
+Questa torretta presenta una serie di stemmi e vessilli che la rendono unica e
+particolare, ideata appositamente per proteggere quest'ultimo piano della
+grande struttura che ruota attorno al secolare albero, riporta un simbolo
+elfico che puoi notare appena entri sul lato destro dell'ingresso. Protetta su
+ogni lato da lastre di ferro e legno di colore scuro, è vigilata da quattro elfi
+alti armati dalla testa ai piedi, mentre al centro si trova una larga torretta
+posta su una base marmorea sulla quale vi sono altri quattro elfi muniti di 
+archi lunghi che controllano i quattro lati della piattaforma. Alcune lampade
+lavorate e intarsiate con cura e precisione sono posizionate lungo tutto il
+perimetro della stanza. L'unica via percorribile si trova a nord dove la
+piattaforma crea un angolo.
+
+DescrNight:
+Questa torretta presenta una serie di stemmi e vessilli che la rendono unica e
+particolare, questi vengono messi in risalto da una serie di lampade lavorate
+e intarsiate con cura, le quali emanano una debole [orange]luce[close] color 
+arancio. Puoi notare appena entri un simbolo elfico sul lato destro 
+dell'ingresso. Protetta su ogni lato da lastre di ferro e legno di colore scuro,
+è vigilata da quattro elfi alti armati dalla testa ai piedi, mentre al centro si
+trova una larga torretta posta su una base marmorea sulla quale vi sono altri 
+quattro elfi muniti di archi lunghi che controllano i quattro lati della 
+piattaforma. L'unica via percorribile si trova a nord dove la piattaforma crea
+un angolo.
+
+DescrSixth:
+Ti sembra di aver già visto una stanza simile in giro.
+
+Extras:
+	Keywords: simbolo elfico, simbolo
+	Descr: Il simbolo sta a classificare questa torretta con un numero, 
+	nello specifico il numero "tre"
+End
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Un secondo angolo attrezzato
+End

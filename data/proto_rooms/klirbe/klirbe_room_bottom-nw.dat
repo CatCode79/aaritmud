@@ -1,0 +1,47 @@
+Code: klirbe_room_bottom-nw
+Sector: SECTOR.REEF
+Name: La Scogliera in Lotta
+Short: la scogliera
+
+Descr:
+	La scogliera combatte agguerrita contro l'invasiva violenza delle onde che, non paghe
+	schiumano di rabbiosa impotenza fino a distanze ragguardevoli. Nulla su questa
+	propaggine di roccia sfugge ai loro madidi commenti che giungono con insensata violenza
+	sia da nord che da ovest.
+DescrTouch: 
+	È più che una sensazione, il tocco che han su di te le onde lontane tramuta tutto in
+	un fallito tentativo di tenerti all'asciutto.
+DescrSmell: 
+	L'odore salmastro s'interrompe ad ogni schizzo sostituito dal sapore salato che le onde
+	ti schiaffeggiano fin sulle labbra.
+DescrHearing:
+	I sonori schiaffi e i colpi di maglio delle onde sulla roccia ti ottundono i
+	timpani in un unico basso fischio che è solo nelle tue orecchie.
+DescrTaste:
+	Schizzi salmastri portano con sé granelli di roccia che attendono vanamente di farsi
+	sciogliere nella tua saliva.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.UP
+	Descr: Il cielo più lontano di sempre
+End
+Exits:
+	Direction: DIR.SOUTH
+	Descr: La scogliera termina
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: L'oceano incombe
+End
+Exits:
+	Direction: DIR.EAST
+	Descr: La scogliera prosegue
+End
+Exits:
+	Direction: DIR.NORTH
+	Descr: L'oceano incombe
+End

@@ -1,0 +1,32 @@
+FunName:    social_innocent
+Intention:  INTENTION.NEUTRAL
+Expression: innocentemente
+Smiles:     0:) 0:-)
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Batti le palpebre fischiettando innocentemente.
+  OthersNoArg: $n batte le palpebre fischiettando innocentemente.
+  EntityFound: Batti le palpebre sorridendo innocentemente a $N.
+  OthersFound: $n batte le palpebre sorridendo innocentemente a $N.
+  TargetFound: $n batte le palpebre guardandoti innocentemente.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Simuli al meglio un'aria innocente, ridacchiando sotto le vibrisse.
+  OthersNoArg: $n assume un'aria da perfett$o innocente.. Qualcuno $gli crede?
+  EntityFound: Guardi $n fischiettando con sorniona innocenza.
+  OthersFound: $n fa lo gnorri e simula una vaga innocenza guardando $N.
+  TargetFound: $n ti guarda con aria innocente, deve averne combinata una delle sue.
+  EntityAuto:  Fai una posa da: 'Non sono stat$o io!!'
+  OthersAuto:  $n si autoconvince della propria innocenza facendo una posa da: 'Non sono stato io!!'
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Simuli al meglio un'aria innocente, ridacchiando sotto le vibrisse.
+  OthersNoArg: $n assume un'aria da perfett$o innocente.. Qualcuno $gli crede?
+  EntityFound: Guardi $n fischiettando con sorniona innocenza.
+  OthersFound: $n fa lo gnorri e simula una vaga innocenza guardando $N.
+  TargetFound: $n ti guarda con aria innocente, deve averne combinata una delle sue.
+  EntityAuto:  Fai una posa da: 'Non sono stat$o io!!'
+  OthersAuto:  $n si autoconvince della propria innocenza facendo una posa da: 'Non sono stato io!!'
+End

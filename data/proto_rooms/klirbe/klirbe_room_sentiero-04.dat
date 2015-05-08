@@ -1,0 +1,19 @@
+Comment: da qui ci si collega tramite wilderness, per ora ci metterei dei portali per attaccarsi da qualche parte (opekus west?)
+Code: klirbe_room_sentiero-04
+Sector: SECTOR.PASTURE
+Name: La Valle di Pirja
+Short: una valle lunga e stretta
+
+Descr:
+Dal fondovalle la visione d'insieme è preclusa da una lunga lingua che ti sovrasta e
+copre tutto il panorama a sudovest. Quel che si scorge è un continuo di colline che
+in lontananza si elevano a massiccio roccioso completando il giro dell'orizzonte.
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.EAST
+	Descr: Un sinuoso sentiero
+End
+

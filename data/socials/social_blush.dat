@@ -1,0 +1,44 @@
+FunName:    social_blush
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Hai le guance in fiamme!
+  OthersNoArg: $n arrossisce.
+  EntityFound: La vergogna t'infiamma le guance mentre guardi $N.
+  OthersFound: $n guarda $N, arrossendo in volto per l'imbarazzo.
+  TargetFound: $n ti guarda, arrossendo in volto per l'imbarazzo.
+End
+RacialMessages:
+  Race:        RACE.PIXIE
+  EntityNoArg: Sei travolt$o dall'imbarazzo.
+  OthersNoArg: $n arrossisce tanto da sembrare una fragola.
+  EntityFound: Al cospetto di $N non puoi impedire alle tue guance di arrossire.
+  OthersFound: Guardando $N, il viso di $n si accende dall'imbarazzo.
+  TargetFound: Guardandoti, il viso di $n si accende dall'imbarazzo.
+End
+RacialMessages:
+  Race:        RACE.DROW
+  EntityNoArg: Nascondi uno spiacevole imbarazzo.
+  OthersNoArg: $n rimane impassibile.
+  EntityFound: Nascondi uno spiacevole imbarazzo davanti a $N.
+  OthersFound: $n rimane impassibile.
+  TargetFound: $n ti guarda impassibile.
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Fischietti vagamente imbarazzat$o.
+  OthersNoArg: $n fischietta con aria sospettosamente innocente..
+  EntityFound: Cerco di evitare lo sguardo di $N.. ti imbarazza.
+  OthersFound: $n sembra imbarazzat$o.. Evita lo sguardo di $N.
+  TargetFound: $n evita il tuo sguardo e gira intorno con fare imbarazzato.
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Agiti una zampa nell'aria cercando un capo su cui calarla.
+  OthersNoArg: $n cerca una testa da picchiare.
+  EntityFound: Cali la tua possente zampa sulla testa di $N!
+  OthersFound: $n cala una sonora zampata sulla testa di $N.
+  TargetFound: $n ti dà una sonora zampata in testa!
+  EntityAuto:  La tua zampa si rivolta contro di te picchiandomi in testa!
+  OthersAuto:  $n si prende a zampate sul capo..
+End

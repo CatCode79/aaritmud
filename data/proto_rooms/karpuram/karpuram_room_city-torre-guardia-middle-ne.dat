@@ -1,0 +1,21 @@
+Code: karpuram_room_city-torre-guardia-middle-ne
+Sector: SECTOR.PLAIN
+Name: L'[lime]Albero[close] di Guardia NordEst
+Short: arrampicando sull'albero
+Descr:
+Girando attorno al tronco dell'albero, ramo dopo ramo, si passa agevolmente dal basso
+all'alto con grande comodità. Le fitte fronde proteggono dagli sguardi esterni ma son
+anche facilmente scostabili a consentire la visuale esterna. 
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.DOWN
+  Descr: Ai piedi del'albero
+End
+Exits:
+  Direction: DIR.UP
+  Descr: La cima dell'albero
+End

@@ -1,0 +1,29 @@
+Code: karpuram_room_city-gate-n
+Sector: SECTOR.PLAIN
+Name: Il [purple]Roseto[close] di Karpuram
+Short: il confine settentrionale
+Descr:
+Sei nella parte più a nord dell'insediamento elfico. Un'alta siepe di [purple]rose[close] in [purple]fiore[close]
+sbarra il passaggio tranne che per un piccolo pertugio. Ai due lati del varco sono
+cresciute delle siepi di bosso a ricoprire un antica costruzione: un posto di guardia.
+
+Width:	10m
+Depth:	10m
+Height: 100m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Il bosco prosegue
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Il bosco prosegue
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Il bosco prosegue
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Il bosco prosegue
+End

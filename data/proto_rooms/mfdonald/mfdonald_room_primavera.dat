@@ -1,0 +1,26 @@
+Code: mfdonald_room_primavera
+Sector: SECTOR.AIR
+Name: La Primavera
+Short: una generica primavera come ce ne sono tutti gli anni
+Descr: 
+La foglia ove ti trovi è grande tanto da poter contenere tutto il sorgente di Aarit
+stampato con carattere 14 su cartoncino. Fortuna vuole che essa sia chiamata ad un
+compito molto più bucolico: sostenere te. In stretta osservanza all'ambientazione ti
+renderai certo conto di essere tenuto ora ad agire in modo da preservare o deturpare lo splendido luogo.  
+
+DescrSmell:
+Come ogni primavera che si rispetti, questa porta con se un trionfo di odori e aromi
+anche se non tutti gradevoli.
+DescrSixth:
+Usando La Forza percepisci distintamente le pennellate di vernice fresca sul cartongesso
+del fondale e l'acqua di colonia scadente del cameraman. Occhio a non colpire la giraffa
+con la nuca.
+
+Width:	12m
+Depth:	12m
+Height: 4m
+
+Exits:
+  Direction: DIR.DOWN
+  Descr: La friggitoria
+End

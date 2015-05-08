@@ -1,0 +1,26 @@
+FunName:    social_rage
+Intention:  INTENTION.NEUTRAL
+RacialMessages:
+  Race:        RACE.HUMAN
+  EntityNoArg: Sei così nervos$o che le tue orecchie sembrano fumare!
+  OthersNoArg: $n è così nervos$o che le sue orecchie sembrano fumare!
+  EntityFound: Sei così in collera con $N che le tue orecchie sembrano fumare!
+  OthersFound: $n è così in collera con $N che le sue orecchie sembrano fumare!
+  TargetFound: $n è così in collera con te che le sue orecchie sembrano fumare!
+End
+RacialMessages:
+  Race:        RACE.FELAR
+  EntityNoArg: Ruggisci profondamente manifestando la tua rabbia!
+  OthersNoArg: $n dev'essere molto arrabbiat$o.. Sta ruggendo.
+  EntityFound: Ruggisci in faccia a $N tutta la tua collera!
+  OthersFound: $n ruggisce in faccia a $N la sua collera!
+  TargetFound: $n ti ruggisce addosso tutta la sua collera..
+End
+RacialMessages:
+  Race:        RACE.CAT
+  EntityNoArg: Ruggisci profondamente manifestando la tua rabbia!
+  OthersNoArg: $n dev'essere molto arrabbiat$o.. Sta ruggendo.
+  EntityFound: Ruggisci in faccia a $N tutta la tua collera!
+  OthersFound: $n ruggisce in faccia a $N la sua collera!
+  TargetFound: $n ti ruggisce addosso tutta la sua collera..
+End

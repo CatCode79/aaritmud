@@ -1,0 +1,15 @@
+<span style="font-size:larger; color:white">Forum: ${forum_name}</span><br>
+<span style="font-size:smaller">${forum_descr}<br></span>
+<br>
+<a href="forum.html">Forum di ${mud_name}</a> -&gt; ${forum_name}<br>
+<br>
+<input type="submit" value="Nuova Discussione" onclick="javascript:location.href='forum_thread.html?forum_code=${forum_code}'"><br>
+<br class="demi">
+<div class="half_block">
+	<table rules="rows" width="100%">
+		<tr class="block_title"><td colspan="2">Titolo / Autore Discussione</td><td>Risposte / Visite</td><td>Ultimo Messaggio Di...</td></tr>
+		${threads}
+	</table>
+</div>
+<br class="demi">
+<input type="submit" value="Nuova Discussione" onclick="javascript:location.href='forum_thread.html?forum_code=${forum_code}'"><br>

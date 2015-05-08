@@ -1,0 +1,36 @@
+Code: deadcity_room_cortile_01
+Sector: SECTOR.CITY
+Name: Un Cortile Interno
+Short: un cortile
+
+Descr:
+Sei finit$o in un ambiente che ricorda molto il centro di un borgo popolare; vorrebbe
+essere una piazza ma lo spazio è stato conquistato dalle propaggini degli edifici
+riducendo la zona a poco più di un ampio cortile senza vie d'uscita se non quella
+d'accesso. 
+La zona nord è parzialmente coperta da una veranda dell'edificio più magnificente.
+Tutto pare intonso come protetto dal timore reverenziale di certi luoghi sacri.
+
+DescrSixth:
+Hai la classica impressione che decine di occhi nascosti ti stiano osservando,
+tipica davvero di certi luoghi dimenticati.
+
+Extras:
+	Keywords: veranda
+	Descr:
+	Quattro paia di pilastrini anneriti fanno da sostegno ad una copertura semitrasparente
+	di materiale ignoto.
+End
+
+Width:	20m
+Depth:	20m
+Height: 4m
+
+Exits:
+	Direction: DIR.EAST
+	Descr: In strada
+End
+Exits:
+	Direction: DIR.NORTHWEST
+	Descr: Un negozietto
+End

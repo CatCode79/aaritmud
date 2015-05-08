@@ -1,0 +1,18 @@
+Code: novizi_room_sotterraneo-cubicolo
+Sector: SECTOR.UNDERGROUND
+Flags:	ROOM.INSIDE
+Name: Un Cubicolo Sotterraneo
+Short: un cubicolo
+
+Descr:
+Molto meno di una stanzetta e poco più di una buca. I muri e il pavimento sono fittamente lastricati di pietra bruna.
+
+Width:	4m
+Depth:	4m
+Height: 5m
+
+Exits:
+  Direction: DIR.UP
+  Descr: Verso l'alto
+End
+

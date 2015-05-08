@@ -1,0 +1,27 @@
+Code:	arena-drago_item_scudo-karrikko
+Level:	06
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.HARDWOOD 100%
+Sex:	SEX.MALE
+Name:	Lo Scudo di [red]k[gray]Arri[red]kK[gray]o[close]
+Short:	il piano di un tavolo
+Long:	$N in noce massello è abbandonato qui.
+Value:	0
+Weight: 500kg
+
+
+Descr:
+Il piano di un grosso tavolo in noce massello pieno di prepotenti ammaccature.
+
+
+WearType:
+   Modes: PART.HOLD
+End
+
+Comment:
+§27709
+
+Dati Obj
+9 16|128|512|2048|4096|8192|16384|131072|262144|8388608|16777216|33554432|67108864|134217728 1|512|81927 0 7 050 1000 5000A40 1
+
+

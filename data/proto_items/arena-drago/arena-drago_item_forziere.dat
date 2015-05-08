@@ -1,0 +1,34 @@
+Code:	arena-drago_item_forziere
+Level:	06
+Entitype:	ENTITYPE.CONTAINER
+MaterialPercentages:	MATERIAL.IRON 70%
+MaterialPercentages:	MATERIAL.STEEL 10%
+MaterialPercentages:	MATERIAL.HARDWOOD 20%
+Sex:	SEX.MALE
+Name:	Un Forziere
+Short:	un forziere
+
+Value:	0
+Weight: 100kg
+
+Descr:
+Un enorme forziere in metallo nero con cerniere rinforzate. 
+
+ContainerType:
+	EntityOpenMessage:	Apri $N usando ambo le $hands.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N usando ambo le $hands.
+	EntityCloseMessage:	Accompagni $N fino a chiuderl$O.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n accompagna $N fino a chiusura.
+	Flags:	CONTAINER.CLOSED CONTAINER.CLOSABLE
+        MaxWeight: 500kg
+End
+Comment:
+
+§27723
+
+Dati Obj
+15 262144 01000 15 27724 01 0 0
+
+

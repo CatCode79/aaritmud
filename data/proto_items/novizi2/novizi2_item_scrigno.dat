@@ -1,0 +1,57 @@
+Code: novizi2_item_scrigno
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+MaterialPercentages:	MATERIAL.GOLD	32%
+MaterialPercentages:	MATERIAL.COPPER	32%
+MaterialPercentages:	MATERIAL.SILVER	31%
+MaterialPercentages:	MATERIAL.GEM	5%
+Name:	Lo Scrigno
+Short:	uno scrigno
+Long:	$N tempestato di pietre
+
+Descr:
+Un scrigno di modeste dimensioni riccamente decorato e tempestato di pietre dure.
+La parte inferiore è percorsa da lamine di tre diversi colori metallici: [gold]oro[close], [orange]rame[close], [white]argento[close].
+Ai due lati sono fissate delle [white]maniglie[close] foggiate a muso di gatto dalle fauci spalancate.
+Frontalmente c'è una serratura dalle forme geometriche spigolose circondata da una scritta incomprensibile.
+
+DescrTouch: 
+Uno scrigno di modeste dimensioni finemente decorato e costellato di pietre dure.
+Le due [white]maniglie[close] metalliche sono foggiate a testa di felino con le fauci spalancate.
+La parte superiore del coperchio termina acuminata per una grossa [purple]pietra[close] incastonata.
+Frontalmente c'è una serratura dalle forme geometriche spigolose circondata da una scritta incomprensibile.
+Ti accorgi anche di un doppio fondo dello scrigno!
+DescrSixth:
+Le scritte che circondano la serratura sono in lingua comune ma dai caratteri camuffati, riflessi e tagliati. La scritta recita:
+[rosybrown]Dove più ricchezza abbonda, più di lei voglia s'affonda ed
+in opposta speme più tatto necessita la ricerca.[close]
+
+DescrTaste:
+La lingua sullo scrigno aiuta a capire bene quanto sporco e polvere si sono depositati ultimamente sullo scrigno.
+
+
+Extras:
+	Keywords:	scritta
+        Flags: EXTRA.READABLE
+	Descr:
+	[rosybrown]Dove più ricchezza abbonda, più di lei voglia s'affonda ed
+	in cotal timore, più saggezza e meno mammona son poste in questo scrigno[close]
+End
+
+Value:	0
+Weight: 30kg
+
+ContainerType:
+	EntityOpenMessage:	Apri $N usando ambo le $hands.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N usando ambo le $hands.
+	EntityCloseMessage:	Accompagni $N fino a chiuderla.
+	TargetCloseMessage:	Finalmente $n si è degnat$o di chiuderti.
+	OthersCloseMessage:	$n accompagna $N fino a chiusura.
+	KeyCode:	novizi2_item_chiave-scrigno
+	Flags:	 CONTAINER.CLOSED CONTAINER.LOCKED CONTAINER.EATKEY CONTAINER.CLOSABLE
+	MaxWeight:	100kg
+End

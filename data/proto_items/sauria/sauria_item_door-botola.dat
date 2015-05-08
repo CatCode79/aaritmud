@@ -1,0 +1,37 @@
+Code: sauria_item_door-botola
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.METAL	100%
+Name:	Una Botola
+Short:	una botola
+Long:	$N scardinata
+
+Descr:
+Una botola metallica incernierata in due punti su una cornice spessa e dall'aspetto pesante.
+DescrTouch: 
+Una botola metallica senza incisioni o segni particolari.
+DescrSixth:
+Sembra a tenuta stagna
+
+Value:	0
+Weight: 15kg
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Apri $N usando ambo le $hands.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N usando ambo le $hands.
+	EntityCloseMessage:	Accompagni $N fino a chiuderla.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n accompagna $N fino a chiusura.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE DOOR.SECRET DOOR.NO_USE_DIR
+	ResetCloseMessage: $N si richiude di botto
+	ResetOpenMessage: $N si apre misteriosamente da sola$o.
+End
+
+

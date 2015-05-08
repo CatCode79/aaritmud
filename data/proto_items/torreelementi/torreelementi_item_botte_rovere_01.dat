@@ -1,0 +1,32 @@
+Comment:
+Caratteristiche del barrique: Capacità : 225 litri
+Lunghezza : 94 cm
+Diametro testa : 57 cm
+Diametro pancia : 69 cm
+Spessore doghe: 3 cm
+Diametro foro tappo : 5 cm
+
+Code: torreelementi_item_botte_rovere_01
+Level: 1
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.WOOD	90%
+MaterialPercentages:	MATERIAL.METAL	10%
+Sex:	SEX.FEMALE
+Name: Una botte di [sandybrown]Rovere[close]
+Short: una botte
+Long:	$N è qui in piedi
+Descr:
+Una botte il legno chiaro con tre cerchi metallici per parte.
+Pare non sia mai stata usata ed è priva del tappo sul foro centrale.
+
+Value:	0
+Weight: 4100g
+
+DescrTouch: 
+Sembra ben fatta e funzionale
+DescrSmell: 
+Inconfondibile il forte profumo di rovere che emana
+
+
+
+

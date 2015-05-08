@@ -1,0 +1,77 @@
+Comment: questo piccolo equino va nel box 01
+Code:	villaggio-zingaro_mob_pony-fluffy
+Level:	1
+Sex:	SEX.NEUTRAL 
+Race:	RACE.HORSE
+Flags:	FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Fluffy
+Short:	un pony alato
+Long:	$N vive distrattamente.
+
+Descr:
+Uno scherzo della natura ha fatto nascere questo pony con delle ali di pollo sulla schiena. Goffo e ridicolo si aggira incurante della sua stranezza; il [saddlebrown]p[close][white]e[close][saddlebrown]l[close][white]o[close] lungo ed arruffato è pezzato come quello di una mucca mentre la a bruna criniera è paradossalmente intrecciata con [deeppink]nastri[close] e [hotpink]perline[close].
+DescrNight:
+Una sagoma alata dall'andamento goffo e ondeggiante, le ridicole ali che si porta sulla schiena emanano un [plum]bagliore[close] incerto.
+DescrTouch:
+Allunghi la $hand per accarezzarlo che quasi ti rimane incastrata tra i nodi del pelo.
+DescrSmell:
+Soave olezzo di..ehm..vividi fior.
+DescrHearing:
+Clopete clopete..hiiiiii..prrrrrrrr..
+DescrSixth:
+Ti chiedi se riesca a volare ma la cosa ti pare alquanto improbabile date le dimensioni delle ali.
+
+Weight: 120kg
+Height: 90cm
+
+BirthDay: 13
+BirthMonth: MONTH.TWO
+Age: 3
+
+
+Behaviour:
+       LookPlayer:	3
+       LookMob:	0
+       LookItem:	0
+       LookAtRacesFlags:	RACE.NONE
+       LookAtRaces:	0
+       LookAtEntitypesFlags:	ENTITYPE.NONE
+       LookAtEntitypes:	0
+       LookSelf:	0
+       LookDirection:	0
+       LookExit:	0
+       LookWall:	0
+       LookClosedDoor: 0
+       LookExtra:	0
+       WanderAtSectors:	SECTOR.PASTURE SECTOR.HOUSE SECTOR.VILLA
+       WanderDirection:	0
+       WanderExit:	60
+       WanderWall:	0
+       WanderClosedDoor:	30
+       WanderAtExitsFlags:	DIR.EAST DIR.WEST 
+       WanderAtExits:	50
+       WanderArea:	0
+       WanderPortal:	0
+       WanderEnterContainer:	0
+       WanderExitContainer:	0
+       WanderSelf:	0
+       RandomDo:	15
+       RandomDoInputs: 	emote sbatte le ali spiccando un saltello
+       RandomDoInputs:	emote passeggia mollemente
+End
+
+Strength:	33
+Endurance:	33
+Agility:	10
+Speed:		10
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:		10
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

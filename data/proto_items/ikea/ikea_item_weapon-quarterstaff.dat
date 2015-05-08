@@ -1,0 +1,32 @@
+Code: ikea_item_weapon-quarterstaff
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAPON
+MaterialPercentages:	MATERIAL.HARDWOOD	100
+Sex:	SEX.MALE
+Name:	Un bastone da Combattimento
+Short:	un bastone
+Long:	$N con virole agli estremi
+
+Descr:
+Un bastone in legno lungo un paio di metri, centralmente sono collocati dei segni che rendono più intuitiva la posizione d'impugnatura. 
+Agli estremi è cinto da due cerchi metallici fermati da borchie.
+DescrTouch: 
+Un bastone in legno compatto, lungo un paio di metri.
+Centralmente è sagomato per rendere più intuitiva l'impugnatura. 
+Agli estremi è cinto da due cerchi metallici fermati da borchie.
+DescrSixth:
+Un bastone in legno di ciliegio, di ottima durata e piuttosto buono in termini di offesa. Ma è pur sempre un bastone...
+DescrTaste:
+Tenti inutilmente di praticare delle tacche nel legno senza peraltro sentire alcun sapore di ciliegia.
+
+Value:	0
+Weight: 3kg
+
+WeaponType:
+	Category:	WEAPON.STAFF
+	Flags:	WEAPONFLAG.TWO_HANDS 
+End
+WearType:
+   Modes: PART.WIELD
+End

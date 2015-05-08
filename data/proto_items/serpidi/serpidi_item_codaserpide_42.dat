@@ -1,0 +1,22 @@
+Comment: da mettere come WEAPON
+Code:	serpidi_item_codaserpide_42
+Level:	1
+MaxGlobalQuantity: 2
+Entitype: ENTITYPE.WEAPON
+MaterialPercentages:	MATERIAL.FLESH	100%
+Name:	Coda di Serpide 
+Short:	coda di serpide 
+Descr: 
+È un qualcosa che si muove lanciando dei riflessi rossi tutto intorno.  
+Value:	0
+Weight: 8kg
+BirthDay: 1
+BirthMonth: MONTH.TEN
+WearType:
+        Modes: PART.WIELD
+End
+WeaponType:
+	Category: WEAPON.POLEARM
+	Damage:	4D4+5
+	Flags: WEAPONFLAG.ONE_HAND 
+End

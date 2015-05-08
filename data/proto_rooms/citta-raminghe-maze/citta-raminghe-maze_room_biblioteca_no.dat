@@ -1,0 +1,21 @@
+Code: citta-raminghe-maze_room_biblioteca_no
+Sector: SECTOR.HOUSE
+Flags:  ROOM.INSIDE
+Name: Luoghi Oscuri di una Biblioteca
+Short: una [red]oscura stanza polverosa[close]
+Descr:
+Il tuo girovagare ti ha condotto sin qui attraverso sale e corridoi che si incrociano ripetutamente. 
+Guardandoti intorno noti  che la strada è come se si fosse  qui interrotta. Scaffali in legno ricolmi di libri polverosi che una mano frettolosa ha messo qui un pò alla rinfusa. Sul pavimento  numerose impronte 
+di diverse dimensioni attirano la tua attenzione, ma, cercando di seguirne la direzione, ti accorgi  
+che non è possibile individuarne alcuna. Dal soffitto pendono numerose ragnatele, ma, ad un primo sguardo, 
+non ti sembra di scorgerne l'artefice. Forse l'unica via percorribile è l'attesa.
+
+DescrSixth:
+Polvere e ragnatele rendono questa stanza poco adatta a soste prolungate, ma sembra 
+che non sia possibile scegliere altrimenti. L'attesa a volte è l'unica possibilità anche se potrebbe esporti a 
+incontri inattesi non del tutto piacevoli.
+
+
+Width:  10m
+Depth:  10m
+Height: 100m

@@ -1,0 +1,6 @@
+FunName:    command_sit
+Type:       CMDTYPE.MOVEMENT
+Trust:      TRUST.PLAYER
+Position:   POSITION.SLEEP
+Flags:      CMDFLAG.INTERACT CMDFLAG.GDR
+MiniHelp:   Serve per far sedere il proprio personaggio per terra o su qualche mobile.

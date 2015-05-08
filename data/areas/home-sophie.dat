@@ -1,0 +1,106 @@
+Creators:	Valentina
+Code:	home-sophie
+Name:	La Casa di Sophie
+Short:	la casa di Sophie
+Descr:
+	Ad ogni collaboratore è offerto vitto e alloggio a condizione che se lo producano con le risorse della AAA (ACME Aarit Allianz).
+	Sophie è la prima raminga ad accettare l'incombenza.
+
+Color:	COLOR.DODGERBLUE blu di stelle fredde e lontane
+Level:	1
+Flags:	AREA.DONT_LIST
+
+RepopTime:	15
+LandfillCode:	home-sophie_room_dentro-casa-01
+
+RoomResets:
+  ProtoRoom:	home-sophie_room_dentro-casa-01
+	Destination:	0 1 0 home-sophie
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity:	conflitti_item_vassoio
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	ikea_item_pandolce-confezione
+			EntityResets:
+				Quantity:	9
+				Type: 	RESET.PUT
+				ProtoEntity:	ikea_item_food-vv01-pandolce
+			End
+		End
+		EntityResets:
+			Quantity: 2
+			Type: RESET.PUT
+			ProtoEntity: conflitti_item_dolce-speziato
+		End
+		EntityResets:
+			Quantity: 5
+			Type: RESET.PUT
+			ProtoEntity: conflitti_item_pane-aromi
+		End
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: conflitti_item_memo
+	End
+	EntityResets:
+		Quantity:	4
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_bustina-semi-pomodoro
+		EntityResets:
+			Quantity:	12
+			Type:		RESET.PUT
+			ProtoEntity:	flora_item_pomodoro-01-seme
+	                Probability:	80%
+		End
+		EntityResets:
+			Quantity:	5
+			Type:		RESET.PUT
+			ProtoEntity:	flora_item_pomodoro-02-seme-sterile
+	                Probability:	60%
+		End
+	End
+	EntityResets:
+		Quantity:	4
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_bustina-semi-peperoncino
+		EntityResets:
+			Quantity:	10
+			Type:		RESET.PUT
+			ProtoEntity:	flora_item_peperoncino-01-seme
+	                Probability:	70%
+		End
+		EntityResets:
+			Quantity:	5
+			Type:		RESET.PUT
+			ProtoEntity:	flora_item_peperoncino-02-seme-sterile
+	                Probability:	40%
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity:	opekus_item_anello-occhio-01
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	home-sophie_mob_gatto-pardo
+	End
+End
+RoomResets:
+  ProtoRoom:	home-sophie_room_esterno-casa
+	Destination:	0 0 0 home-sophie
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	home-sophie_item_fiamma-acqua
+	End
+End
+RoomResets:
+  ProtoRoom:	home-sophie_room_via-accesso-01
+	Destination:	1 0 0 home-sophie
+End

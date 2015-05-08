@@ -1,0 +1,6 @@
+FunName:     command_lock
+Type:        CMDTYPE.MOVEMENT
+Trust:       TRUST.PLAYER
+Position:    POSITION.REST
+Flags:       CMDFLAG.INTERACT CMDFLAG.GDR
+MiniHelp:    Serve per chiudere a chiave porte e contenitori

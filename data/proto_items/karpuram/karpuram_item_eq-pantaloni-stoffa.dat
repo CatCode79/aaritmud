@@ -1,0 +1,25 @@
+Code:	karpuram_item_eq-pantaloni-stoffa
+
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.COTTON	100
+Sex:	SEX.MALE
+Name:	Pantaloni di Stoffa
+Short:	paio di pantaloni di cotone colorati
+Long:	un sottile $N si trovano in terra.
+
+Descr:
+Sono un grazioso paio di [green]pantaloni[close] di cotone colorati di verde, 
+hanno due grosse toppe di colore marrone poste una all'altezza del ginocchio 
+destro e l'altra vicino ad una delle due piccole tasche laterali. La stoffa 
+seppur semplice non presenta cuciture grossolane mentre le toppe sembrano essere
+state applicate in un secondo momento da mani meno esperte e sono di un 
+materiale diverso e meno pregiato.
+
+Value:	0
+Weight:	550g
+
+WearType:
+   Modes: PART.RIGHT_THIGH PART.LEFT_THIGH
+End

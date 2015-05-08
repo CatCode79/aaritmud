@@ -1,0 +1,39 @@
+Code: ikea_item_calze-seta
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.SILK	100%
+Name:	Un Paio di Calze di Seta
+Short:	un paio di calze di seta
+Long:	$N ripiegate con cura.
+
+Descr:
+Un paio di pregiatissime calze bianche molto raffinate, la punta è leggermente rinforzata affinché resista meglio all'usura.
+DescrTouch: 
+Lisce e leggerissime.
+DescrSmell: 
+Emanano una gradevole aroma di pulito.
+DescrSixth:
+I fili che la compongono son così sottili da sembrare fatti di ragnatela.
+
+Value:	210
+Weight: 27g
+
+WearType:
+	Modes:	PART.LEFT_FOOT PART.RIGHT_FOOT PART.LEFT_LOWER_LIMB PART.RIGHT_LOWER_LIMB 
+        Flags:	WEAR.LAYERABLE
+	EntityWearMessage:	Infili $N %part con grande attenzione per non tirarne i fili.
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	$n infila $N %part quasi al rallentatore.
+	EntityRemoveMessage:	Sfili delicatamente $N.
+	TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+	OthersRemoveMessage:	$n sifla delicatamente $N.
+End
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

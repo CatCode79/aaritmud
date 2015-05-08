@@ -1,0 +1,31 @@
+Code: novizi2_item_eq-polsiera
+Level: 1
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.COTTON	100
+Sex:	SEX.FEMALE
+Name:	Una Polsiera
+Short:	una polsiera
+Long:	c'è qui $N elastica
+
+Descr:
+Un tubino di [purple]tessuto colorato[close] molto elastico da mettere ai polsi.
+In risalto c'è una strisciolina con un immagine.
+
+DescrTouch: 
+Un tubino elastico di tessuto che si allunga quasi a piacere.
+
+Extras:
+	Keywords: immagine
+	Descr: un giglio stilizzato cucito di colore nero 
+End
+	
+Value:	0
+Weight: 20g
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+	Modes:	PART.LEFT_WRIST
+	Modes:	PART.RIGHT_WRIST
+End
+
+

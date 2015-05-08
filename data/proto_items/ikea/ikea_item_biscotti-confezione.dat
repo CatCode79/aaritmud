@@ -1,0 +1,31 @@
+Code: ikea_item_biscotti-confezione
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.PAPER 100%
+Name:	Un Cartoccio di Biscotti
+Short:	una cartoccino di biscotti
+Long:	c'è qui $N in confezione [yellow]co[green]lo[yellow]ra[green]ta[close]
+
+Descr:
+Una confezione #self is CONTAINER.CLOSED#sigillata#tutta strappata# di biscotti.
+DescrTouch: 
+Una confezione #self is CONTAINER.CLOSED#sigillata#tutta strappata# semirigida.
+DescrSmell: 
+Biscotti al burro?
+DescrSixth:
+Non c'è il prezzo e neppure gli ingredienti o una sorta di etichetta.
+DescrTaste:
+no_send
+
+Value:	45
+Weight: 20g
+
+ContainerType:
+	Flags:	CONTAINER.CLOSED CONTAINER.CLOSABLE CONTAINER.OPEN_ONE_TIME
+	EntityOpenMessage:	Apri $N in modo definitivo ed irreversibile.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N in modo  definitvo ed irreversibile.
+        MaxWeight: 1g
+End

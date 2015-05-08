@@ -1,0 +1,23 @@
+Code: novizi2_item_cesto-vimini
+Level: 1
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+MaterialPercentages:	MATERIAL.SOFTWOOD	100%
+Name:	Un Cesto di Vimini
+Short:	un cesto di vimini
+Long:	$N stracolmo di coccarde omaggio
+
+Descr:
+Un cesto di vimini colmo debordante di coccarde colorate. Sono così gratis che se
+ne possono prendere più di ciascuna a testa.
+DescrTouch: 
+Un cesto di vimini colmo debordante di coccarde colorate. Sono così gratis che se
+ne possono prendere più di ciascuna a testa.
+
+Value:	0
+Weight: 900g
+
+ContainerType:
+	MaxWeight:	100kg
+End

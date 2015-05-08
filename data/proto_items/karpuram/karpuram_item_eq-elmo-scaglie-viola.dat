@@ -1,0 +1,44 @@
+Code:	karpuram_item_eq-elmo-scaglie-viola
+
+Level:	10
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.SNAKESKIN	55
+MaterialPercentages:	MATERIAL.CLOTH	15
+MaterialPercentages:	MATERIAL.LINE	15
+MaterialPercentages:	MATERIAL.COTTON	15
+Sex:	SEX.MALE
+Name:	L'Elmo di [violet]Scaglie Viola[close]
+Short:	un [violet]elmo[close] di scaglie violacee
+Long:	$N finemente lavorato è qui in terra.
+
+Descr:
+Rilucente e ben rifinito, quest'elmo è formato da una serie di scaglie di 
+serpente dal colore viola intenso. Le scaglie sono sovrapposte in modo da 
+garantire una protezione a strati di lunga durata. Sia sulla parte
+esterna che interna sono incise due rune di freddo molto potenti in grado di
+generare una leggera protezione dal freddo. 
+
+DescrHearing:
+Un sinistro sibilo sembra provenire dall'elmo, come se questo fosse
+vivo e animato. Il sibilo s'interrompe ogni volta che l'elmo viene indossato.
+
+DescrTouch:
+Liscio e morbido in superficie, le scaglie sono stratificate e sottili e non 
+presentano imperfezioni. Le rune sono incise con cura e in leggero rilievo.
+Al tocco l'elmo tende a rilasciare alcune gocce d'acqua fredda miste a un
+naturale colore viola che viene subito assorbito dalla pelle.
+
+DescrSixth:
+Hai la sensazione che questo pezzo sia parte integrante di qualcosa di più 
+grande e potente, oltre la tua immaginazione.
+
+
+Value:	0
+Weight:	1kg
+
+WearType:
+   Modes: PART.HEAD
+End
+
+

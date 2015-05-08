@@ -1,0 +1,24 @@
+Code: limbo_item_portal
+Level: 1
+
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.UNKNOWN	100%
+Name: Un Portale per il Comando Enter
+Short: un portale qualsiasi
+Descr:
+Enter Sandman!
+
+PortalType:
+    Destination:	1 1 1 limbo
+End
+
+Long:	$N qualsiasi
+
+Value:	0
+Weight: 1kg
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 1
+
+

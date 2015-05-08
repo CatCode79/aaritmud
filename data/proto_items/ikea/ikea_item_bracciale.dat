@@ -1,0 +1,43 @@
+Comment: Idea: bracciale che si illumina per un po' di tempo.
+Code: ikea_item_bracciale
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GOLD	100%
+Name:	Un Bracciale d'Oro Bianco
+Short:	un brillante bracciale
+Long:	$N è appoggiato qui.
+
+Descr: 
+Un bracciale dalla consueta forma ovale, composto da un unico pezzo in oro
+bianco, molto leggero e semplice da indossare. Non presenta incisioni di alcun
+tipo ma risulta comunque pregevole.
+DescrNight:
+Un bracciale dalla consueta forma ovale, composto da un unico pezzo in oro
+bianco, molto leggero e semplice da indossare. Non presenta incisioni di alcun
+tipo ma risulta decisamente brillante anche di notte.
+DescrTouch:
+Il bracciale è liscio e levigato, se lo si preme troppo o si sfiora con metodo
+la parte interessata si surriscalda molto.
+
+Value:	156
+Weight: 213g
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100
+
+WearType:
+        Flags:	WEAR.LAYERABLE
+        Modes: PART.RIGHT_WRIST
+        EntityWearMessage:      Infili $N %s.
+        TargetWearMessage:      Attento $N, $n ti ha indossato %s.
+        OthersWearMessage:      $n infila $N %s.
+        EntityRemoveMessage:    Sfili $N.
+        TargetRemoveMessage:    Attento $N, $n ti ha tolto %s.
+        OthersRemoveMessage:    $n sfila $N.
+End

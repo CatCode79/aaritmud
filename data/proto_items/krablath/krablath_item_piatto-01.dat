@@ -1,0 +1,29 @@
+Code: krablath_item_piatto-01
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.POTTERY	100%
+Name:	Un[springgreen] Pitto in Ceramica[close]
+Short:	un[springgreen] piatto[close] 
+Long:	$N pieno di gustosi fagottini.
+
+Descr:
+Un [springgreen]piatto[close] piano in ceramica colorata ricolmo di numerose [wheat]mezzelune[close] di pasta ripiene.
+DescrSmell: 
+Un intenso profumo di pasta e verdura si sprigiona dalla montagnola.
+DescrSixth:
+Ti fan venire l'acquolina in bocca, forse potresti prenderne uno.
+
+Value:	0
+Weight: 200g
+
+Extras:
+	Keywords: mezzelune mezzaluna fagottini fagottino
+	Descr:
+	Piccoli calzoncini di pasta chiusi sul bordo con delle forchettate. 
+	DescrSmell:
+	Un intenso profumo di pasta e verdura si sprigiona dalla montagnola.
+	DescrSixth:
+	Ti fan venire l'acquolina in bocca, forse potresti prenderne uno.
+End

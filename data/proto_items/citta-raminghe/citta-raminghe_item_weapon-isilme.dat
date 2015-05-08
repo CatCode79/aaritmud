@@ -1,0 +1,56 @@
+Code: citta-raminghe_item_weapon-isilme
+Level: 3
+Entitype: ENTITYPE.WEAPON
+MaterialPercentages:	MATERIAL.ENERGY	1
+MaterialPercentages:	MATERIAL.STEEL	39
+MaterialPercentages:	MATERIAL.BRONZE	20
+MaterialPercentages:	MATERIAL.BRASS	25
+MaterialPercentages:	MATERIAL.SILVER	10
+MaterialPercentages:	MATERIAL.GOLD	5
+Icon:	icons/weapon/weapon-isilme.png
+Sex: SEX.FEMALE
+MaxGlobalQuantity: 1
+Name: Isilme la Potente Spada
+Short: [red]uno scintillio[close]
+ShortNight: [red]una spada[close]
+Long: $N fiammeggiante come sangue che fuor di vena spiccia
+LongNight: $N potente e fiammeggiante.
+
+Descr:
+Uno sfavillio fiammeggiante la cui origine è ignota alla luce del sole.
+
+DescrNight:
+Una spada dalla lama sottile costruita con metalli resistenti che non ti sembra di riconoscere.
+È un'arma molto antica e l'impugnatura presenta delle scritte minute con dei simboli che non è facile decifrare. 
+La [yellow]luce della luna[close] la fa risplendere ed un  colore rosso porpora si accende sulla sua superficie come se  
+i suoi raggi stimolassero in essa un'energia che altrimenti rimarrebbe latente. 
+
+DescrTouch:
+Avverti un intenso calore come se fossero scintille ardenti.
+
+DescrTouchNight:
+La sua superficie diventa incandescente sotto i raggi della luna. 
+
+DescrSixth:
+Come scintille ardenti sospese nell'aria e vaganti in attesa di qualcosa che avverrà.
+
+Comment:
+questa la vecchia DescrSixth Night
+Sembra che agli albori del mondo conosciuto un meteorite di dimensioni notevoli si abbatté sulle terre abitate 
+dal vento e dai fuochi. Si narra che fosse costituito da una lega di metalli la cui resistenza era 
+superiore a qualunque materiale noto sino ad allora. 
+Quando sorgeva la luna rossa e con i suoi raggi lambiva la sua superficie, questo si trasformava in una massa incandescente 
+talmente potente da allontanare da sé qualunque cosa o individuo si trovasse nei pressi. 
+È così con quel meteorite, la cui natura ancor oggi rimane un mistero, venne realizzata [red]isilme[close] 
+spada fiammeggiante e oscura.
+
+Value:	0
+Weight: 3050g
+
+WearType:
+	Modes: PART.WIELD
+End
+WeaponType:
+	Category: WEAPON.SWORD
+	Flags: WEAPONFLAG.ONE_HAND 
+End

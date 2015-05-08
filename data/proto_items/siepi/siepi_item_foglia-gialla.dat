@@ -1,0 +1,43 @@
+Code: siepi_item_foglia-gialla
+Level: 1
+MaxGlobalQuantity:	6
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.LEAF	100%
+Name: Una [yellow]Foglia Gialla[close] 
+Short: una [yellow]foglia[close]
+Long:	$N fluttua facile preda dei turbini
+Descr:
+Una foglia di quercia ingiallita cerca senza tregua un posto in cui tornare alla terra.
+
+DescrTouch:
+Fragile e facile a finire in briciole.
+
+Value:	0
+Weight: 1g
+
+Behaviour:
+	LookPlayer:	1
+	LookMob:	1
+	LookItem:	1
+	LookAtRacesFlags:	RACE.NONE
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookSelf:	1
+	LookDirection:	1
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	1
+	WanderDirection:	1
+	WanderExit:	300
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+

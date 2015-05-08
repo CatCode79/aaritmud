@@ -1,0 +1,27 @@
+Code: novizi_item_cassetta-legno
+Level: 1
+Entitype:	ENTITYPE.CONTAINER
+MaterialPercentages:	MATERIAL.SOFTWOOD	100
+Sex:	SEX.FEMALE
+Flags:	FLAG.NO_GET
+Name:	Cassetta di Legno
+Short:	cassetta di legno
+Long:	una pesante $N chiaro sporca di terra
+
+Descr:
+Una cassetta di legno fatta di listelli di colore chiaro grossi e spessi.
+Il fondo è tutto rigato a causa dell'uso frequente.
+Qualche chiodo sporge più degli altri.
+DescrTouch: 
+Una cassetta di legno fatta di listelli grossi spessi e pesanti.
+Il fondo è consunto e rigato nella parte cetrale.
+Qualche chiodo sporgente rischia di far del male a qualcuno.
+
+Value:	0
+Weight: 5kg
+
+ContainerType:
+	MaxWeight:	10kg
+End
+
+

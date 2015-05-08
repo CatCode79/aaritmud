@@ -1,0 +1,34 @@
+Comment: area don't listata perché non si veda che è un'area separata
+Creators:	Valentina
+Code: citta-raminghe-maze
+Name: La Biblioteca nella Città delle Raminghe
+Short: la biblioteca nella città delle raminghe
+Descr:
+La grande biblioteca nata con l'intento di conservare e rendere disponibile non solo tutto lo scibile per preservarlo dal tempo,
+ma anche per consentire di lasciare i propri scritti e i propri documenti ritagliandosi un barlume d'eternità.
+Color: COLOR.BLUE
+Flags: AREA.DONT_LIST
+Level: 1
+RepopTime: 40
+LandfillCode:	citta-raminghe-maze_room_ingresso-sud
+
+Flags: AREA.MAZE
+
+Maze:
+	RemakeHour: 0
+	RemakeMessage: Non opporti al Labirinto, vortice di libri nel quale abbandonarti e perderti. Apprendi l'arte del vagare e del vagabondare. Le parole aleggiano nell'aria pronte a depositarsi sulla tua memoria.
+	Columns: 4
+	Rows: 4
+	CodePrefix: citta-raminghe-maze_room_biblioteca
+	Passages:  1 -1 0 citta-raminghe-maze_room_ingresso-sud
+End
+
+RoomResets:
+  ProtoRoom: citta-raminghe-maze_room_ingresso-sud
+	Destination:	1 -1 0 citta-raminghe-maze
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	citta-raminghe_mob_le-gemelle
+	End
+End

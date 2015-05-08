@@ -1,0 +1,38 @@
+Code: opekus_item_suite-ofidia-orecchino
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.SILVER	100%
+Name:	L'Orecchino di Ofidia
+Short:	un piccolo <span style="color:#ffd700;">gus</span><span style="color:#ffc606;">cio </span><span style="color:#ff9f06;">ar</span><span style="color:#ff6c06;">ge</span><span style="color:#ff2d06;">nt</span><span style="color:#ff0606;">eo</span>
+Long:	$N lungo stretto ed arcuato
+KeywordsShort: guscio argenteo
+
+Descr:
+Un orecchino disegnato per avvolgere la parte superiore dell'orecchio.
+Si fissa tramite un piccolo <span style="color:#ffd700;">gus</span><span style="color:#ffc606;">cio </span><span style="color:#ff9f06;">ar</span><span style="color:#ff6c06;">ge</span><span style="color:#ff2d06;">nt</span><span style="color:#ff0606;">eo</span>
+DescrSmell: 
+un
+DescrSixth:
+due
+DescrHearing:
+tre
+DescrTaste:
+quattro
+
+Weight: 3g
+Value:	89
+
+
+WearType:
+	Modes:	PART.LEFT_EAR
+        Modes:	PART.RIGHT_EAR
+	Flags:	WEAR.LAYERABLE
+	EntityWearMessage:	Sollevi con ambo le $hands $N e te l$O porti %part.
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	$n solleva $N con ambo le $hands e se l$O porta %part.
+	EntityRemoveMessage:	Porti le $hands %part e togli $N.
+	TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+	OthersRemoveMessage:	$n porta le $hands %part e si leva $N
+End

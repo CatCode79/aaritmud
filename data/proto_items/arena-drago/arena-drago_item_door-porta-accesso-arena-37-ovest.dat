@@ -1,0 +1,31 @@
+Code: arena-drago_item_door-porta-accesso-arena-37-ovest
+Level: 1
+Entitype:	ENTITYPE.DOOR
+MaterialPercentages:	MATERIAL.SOFTWOOD 100%
+Sex:	SEX.FEMALE
+Name:	Una porticina
+Short:	una porticina
+Long:	$N è a terra in frantumi.
+
+Descr:
+Una porticina in legno
+
+Value:	0
+Weight: 20kg
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Apri $N.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N.
+	EntityCloseMessage:	Richiudi $N.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n chiude $N.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE DOOR.LOCKED
+	KeyCode:	arena-drago_item_mazzo-arena
+End
+
+

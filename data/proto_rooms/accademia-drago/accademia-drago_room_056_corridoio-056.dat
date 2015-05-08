@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_056_corridoio-056
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Un Corridoio
+Short:	un corridoio
+	Descr:
+Il corridoio è modesto, la pietra scura della pavimentazione
+contrasta con le pareti bianche. Ad ovest un Portone d'avorio
+porta verso un androne mentre verso sud il corridoio prosegue
+dopo una svolta.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 0
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	un corridoio
+	Comment:	ExitStatus	0 0 057 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	l'androne [white]bianco[close]
+	Comment:	ExitStatus	1|128 0 055 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+Code:	karpuram_item_eq-mantello-mimetico
+
+Level:	4
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.STRAW	20
+MaterialPercentages:	MATERIAL.LEAF	20
+MaterialPercentages:	MATERIAL.FLOWER	30
+MaterialPercentages:	MATERIAL.LINE	30
+Sex:	SEX.MALE
+Name:	Mantello Mimetico da Caccia
+Short:	un drappo di protezione
+Long:	uno strano $N è quasi invisibile alla vista.
+
+Descr:
+Un mantello di stoffa verde con una serie di foglie, fiori e ramoscelli legati
+tra loro sulla parte esterna. Permette un'adeguata mimetizzazione nelle zone
+boscose e protegge anche dalle intemperie. Ha un modesto cappuccio che lo
+rende quasi perfetto, una serie di legacci di cuoio possono essere utilizzati
+per fissare il mantello in modo il più aderente possibile al $body aumentando
+la mimetizzazione con l'ambiente oppure per fermare piccoli utensili e
+accessori.
+
+
+Value:	0
+Weight:	600g
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+   Modes: PART.BACK
+End

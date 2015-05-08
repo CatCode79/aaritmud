@@ -1,0 +1,6 @@
+FunName:   command_eat
+Type:      CMDTYPE.INFORMATION
+Trust:     TRUST.PLAYER
+Position:  POSITION.REST
+Flags:     CMDFLAG.INTERACT CMDFLAG.GDR
+MiniHelp:  Permette di mangiare del cibo.

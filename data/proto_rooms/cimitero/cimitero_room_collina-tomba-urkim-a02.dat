@@ -1,0 +1,28 @@
+Code: cimitero_room_collina-tomba-urkim-a02
+Sector: SECTOR.HILL
+Name: La Tomba di Urkim
+Short: la tomba principale
+
+Descr:
+La tomba ove ti trovi conserva intonsi la maggior parte degli abbellimenti realizzati all'epoca della sua antica costruzione.
+Affreschi geometriche adornano tutte le pareti ed imponenti raffigurazioni di figure vagamanete umanoidi sono disposte ai quattro lati.
+Al centro della tomba un'angelica figura di statuaria bellezza contempla estatica un invisibile aldilà.
+DescrTouch:
+Al centro della tomba un'angelica figura di statuaria eleganza è tutta tesa rivolta verso l'alto.
+DescrSmell: 
+Un sentore stantio stratificato nel tempo, rischia di farti venir meno.
+
+Extras:
+	Keywords: statua
+	Descr:
+	Nelle mani della statua è collocata un'urna
+End
+
+Width:	6m
+Depth:	6m
+Height: 6m
+
+Exits:
+	Direction:	DIR.WEST
+	Descr:	la via d'ingresso
+End

@@ -1,0 +1,48 @@
+Comment: questa è la room di arrivo in caso di ingresso dentro al 
+Code: citta-raminghe_room_costellazioni-02
+Sector: SECTOR.VOID
+Name: La Costellazione del Miagolio
+Short: la costellazione del miagolio
+
+Descr:
+<pre class="asciiart">
+ [deeppink]   [white].[close]             ,    [close]
+ [deeppink]             '        [close]
+ [deeppink]             .        [close]
+ [deeppink]   [green]+[close]                  [close]
+</pre>
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Extras:
+	Keywords: topo
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: Altre stelle
+End

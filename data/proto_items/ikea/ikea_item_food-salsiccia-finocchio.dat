@@ -1,0 +1,36 @@
+Code: ikea_item_food-salsiccia-finocchio
+Level: 1
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.MEAT	98%
+MaterialPercentages:	MATERIAL.SEED	2%
+Flags:	FLAG.RANDOMIZABLE
+Name:	Una Salsiccia Stagionata al Finocchietto
+Short:	una salsiccia stagionata
+Value:	36
+Long:	$N  
+
+Descr:
+Una salsiccia stagionata piegata ad U. Le estremità erano legate con un pezzo di spago ma ora la salsiccia è tagliata ed ad uno dei due capi dello spago resta attaccato solo un cozzetto. Il budello è cosparso di polvere bianca. L'interno è a grana grossa con grandi chiazze bianche di grasso.
+DescrTouch: 
+Da quanto è morbida non deve essere particolarmente stagionata.
+DescrSmell:
+Manda un gradevole odore di finocchietto che si sposa con l'odore della carne e del grasso.
+DescrTaste:
+Il budello è un po' salato ma la polpa è saporita e, anche se un po' grassa, il finocchietto compensa egregiamente.
+DescrSixth:
+Probabilmente conviene rimuovere il budello prima di mangiarla.
+
+Weight: 200g
+
+FoodType:
+	Animal:		95
+	Vegetable:	5
+	CookingDamage:	5
+	Hours:	1
+	EntityMessage:	Togli $N da budello e la mangi. Non è molto stagionata ma è lo stesso saporita.
+	TargetMessage:	Oggi è un gran giorno per te: $n ti ha mangiato.
+	OthersMessage:	$n rimove il budello da $N e la mangia a grandi morsi. 
+End
+
+

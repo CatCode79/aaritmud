@@ -1,0 +1,28 @@
+Code: citta-raminghe_item_bracciale-pentesilea
+Level: 3
+Sex:	SEX.MALE
+Entitype: ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.SILVER	100%
+
+Value:	0
+Weight: 42g
+
+Name:	[deeppink]Il bracciale di Pentesilea[close] 
+Short:	[deeppink]un bracciale d'argento[close]
+Long:	$N con alcune incisioni
+
+Descr: 
+Un bracciale d'argento di ottima fattura decorato con incisioni che rappresentano un'antica simbologia: 
+il [lime]triskele[close] e la [deppink]tripla spirale[close]. 
+DescrSixth:
+Comprendi che colei che indossa questo oggetto deve avere un forte legame con la Grande Dea Madre. Il [lime]Triskele[close] simboleggia la polarità maschile e ha valore di talismano e protegge in viaggi e battaglie. 
+La [deppink]Tripla Spirale[close], se ne segui i percorsi, ti conduce verso un diverso stato di coscienza e libera la mente da pensieri non utili. È questa la polarità femminile, i cicli della vita, ma anche le tre dimensioni di mente, corpo e 
+spirito.
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+	Modes: PART.RIGHT_WRIST
+	Modes: PART.LEFT_WRIST
+End
+
+

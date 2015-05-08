@@ -1,0 +1,31 @@
+Code: villaggio-zingaro_item_contenitore-premio-cupola-02
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+MaterialPercentages:	MATERIAL.THORN	100%
+Name:	Lo [maroon]Scrigno[close] dei [maroon]Rovi[close]
+Short:	un [maroon]globo[close] di [maroon]rovi[close]
+Long:	$N pende immoto.
+
+Descr:
+Uno scomposta sfera di [maroon]rovi[close]; le spine, appuntite e pungenti, formano una cortina impenetrabile se non per una minuta apertura a forma di toppa.
+DescrTouch: 
+Si, pungono veramente.
+DescrSmell: 
+L'odore [orange]agrumato[close] ti colpisce fin quasi a stordirti.
+DescrSixth:
+Un globo di spine, sembra proteggere qualcosa... come fosse uno [gold]scrigno.[close]
+
+Value:	0
+Weight: 231g
+
+ContainerType:
+	EntityOpenMessage:	Stando attento a non pungerti riesci ad aprire $N.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	Non senza poco sforzo $n riesce ad aprire $N.
+	Flags:	 CONTAINER.CLOSED CONTAINER.LOCKED CONTAINER.EATKEY CONTAINER.CLOSABLE CONTAINER.OPEN_ONE_TIME
+        KeyCode:	villaggio-zingaro_item_chiave-premio-cupola
+	MaxWeight:	3kg
+End

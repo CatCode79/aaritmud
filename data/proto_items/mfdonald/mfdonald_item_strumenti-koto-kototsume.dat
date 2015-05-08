@@ -1,0 +1,19 @@
+Comment: STRUMENTO.AUSILIARIO 
+Code: mfdonald_item_strumenti-koto-kototsume
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.BAMBOO	100%
+Name:	Tre Kototsume
+Short:	tre kototsume
+Long:	$N sono legati assieme da una cordicella
+
+Descr:
+	Tre lamelle in bamboo foggiate a prolungamento d'unghia. All'estremità inferiori
+	si uniscono ciascuno alla propria fascetta elastica consentendo d'esser calzate alle dita.
+End
+
+Value:	0
+Weight: 86g
+
+

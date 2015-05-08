@@ -1,0 +1,6 @@
+FunName:   skill_hissing
+Type:      CMDTYPE.SKILL
+Trust:     TRUST.PLAYER
+Position:  POSITION.REST
+NoRaces:   RACE.NONE
+MiniHelp:  Serve a sibilare qualcosa a qualcuno, se fatto in combattimento al nemico potrebbe impaurirlo.

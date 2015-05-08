@@ -1,0 +1,17 @@
+Code: miniere-kezaf_item_gemma-tormalina-verde
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_tourmalinegreen.png
+Name:	Una [green]Tormalina[close] [green]Verde[close] Grezza
+Short:	una [green]gemma verdognola[close] grezza
+Long:	$N sta qui
+
+Descr:
+Una singolare conformazione cristallina spaccata lungo il lato corto da una frattura che ne evidenzia il colore verde.
+La vitrea permette di vedere in profondità tutto il profilo della spaccatura.
+
+Value:	0
+Weight: 180g

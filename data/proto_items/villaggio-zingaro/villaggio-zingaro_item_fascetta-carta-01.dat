@@ -1,0 +1,21 @@
+Code: villaggio-zingaro_item_fascetta-carta-01
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.PAPER 100%	
+Name:	Una [peru]Fascetta[close] di Carta
+Short:	una [peru]fascetta[close] di carta
+Long:	$N avvolge $i
+
+Descr:
+Una [peru]fascetta[close] di carta chiusa con un punto metallico.
+DescrTouch: 
+Una fascetta di carta ruvida.
+
+Value:	0
+Weight: 1g
+
+ContainerType:
+	MaxWeight:	500g
+End

@@ -1,0 +1,20 @@
+Code: miniere-kezaf_item_gemma-lapislazzuli
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_lapislazuli.png
+Name:	Un Lapislazuli
+Short:	un minerale blu intenso
+Long:	$N si trova conficcato qui in terra
+
+Descr:
+Un blu profondo costellato di luccicanti inclusioni dorate che nonostante il tratto grezzo riesce ad emergere in modo vivace.
+
+Value:	0
+Weight: 310g
+
+
+
+

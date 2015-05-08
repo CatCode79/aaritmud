@@ -1,0 +1,25 @@
+Code: deadcity_item_nastro-raso
+Level: 1
+Entitype: ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.SATIN	100%
+Name:	Un [fuchsia]Nastro[close] di  [fuchsia]Raso Fucsia[close]
+Short:	un nastro di [fuchsia]raso[close]
+Long:	$N arrotolato con cura
+
+Descr:
+Un elegante nastro di raso fucsia, arrotolato con cura. È piuttosto lungo e sembra
+vada maneggiato con attenzione, per non rovinarlo.
+DescrTouch:
+Una passamaneria molto liscia e di buona qualità.
+DescrSixth:
+Probabilmente qualcuno non l'ha risposto dopo averlo utilizzato,
+forse per legare qualcosa.
+
+Value:	75
+Weight: 10g
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+	Modes: PART.TAIL
+End

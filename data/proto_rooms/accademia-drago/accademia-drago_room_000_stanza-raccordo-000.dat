@@ -1,0 +1,113 @@
+Code:	accademia-drago_room_000_stanza-raccordo-000
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Stanza di Raccordo
+Short:	stanza di raccordo
+	Descr:
+	Stanza di raccordo
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 0
+Exits:
+	Direction:	DIR.DOWN
+	Descr:	Uscita
+	Comment:	ExitStatus	0 0 001 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

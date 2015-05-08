@@ -1,0 +1,33 @@
+Code: villaggio-zingaro_item_quest-palla-pelo
+Level: 1
+MaxGlobalQuantity:      0
+Entitype: ENTITYPE.NONE
+Sex:    SEX.FEMALE
+MaterialPercentages:	MATERIAL.FUR	100%
+Name:   Una [teal]Pallotta[close] di [teal]Pelo[close]
+Short:  una [teal]pallotta[close] di [teal]pelo[close] piena di nodi
+Long:   $N bagna ogni cosa tocchi.
+
+Descr:
+Una [teal]pallotta[close] di [teal]pelo[close] aggrovigliato e bavoso con pezzetti di qualcosa non ben definibile incastrati all'interno.
+DescrNight:
+Una [teal]pallotta[close] di [teal]pelo[close] aggrovigliato e bavoso pare muoversi non appena distogli lo sguardo.
+DescrTouch:
+Terribilmente appiccicaticcia e bagnaticcia.
+DescrSmell:
+Bleah, puzza di vomito.
+DescrTaste:
+Non ti va più di tanto di mettere in bocca il vomito di altri per quanto pallottoso e..ehm..carino possa apparire.
+DescrSixth:
+Intuisci, senza capirne il motivo, che potrebbe esserti utile in futuro..meglio non buttarla.
+
+Value:	0
+Weight: 4g
+
+MaxLife:        100
+Life:           100
+MaxMana:        100
+Mana:           100
+MaxVigour:      100
+Vigour:         100
+            

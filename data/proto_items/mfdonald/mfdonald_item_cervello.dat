@@ -1,0 +1,37 @@
+Code: mfdonald_item_cervello
+Level: 1
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.MEAT	60%
+MaterialPercentages:	MATERIAL.FLOUR	30%
+MaterialPercentages:	MATERIAL.OIL	5%
+MaterialPercentages:	MATERIAL.EGG	5%
+Name:	Un Frittellozzo di Cervello
+Short:	un cervello fritto
+Long:	$N lascia macchie oleose
+
+FoodType:
+	Comment:	carne di pixie
+	Animal:	80
+	Vegetable:	20
+	CookingDamage:	20
+	Hours:	0
+	EntityMessage:	Prendi $N fra le $hands e cerchi di non ungerti mentre mangi.	
+	TargetMessage:	Ora c'è una sola via d'uscita... $n t'ha mangiato.
+	OthersMessage:	$n prende fra le mani $N cercando di non ungersi mentre lo mangia.
+End
+
+Descr:
+Una frittellina ottenuta immergendo un cervello di pixie nella pastella d'uovo e
+passandolo poi in pane secco e farina. Dorata quanto basta.
+DescrTouch: 
+Fragrante fuori e morbido all'interno.
+DescrSmell: 
+Profuma vagamente di fiore di zucca
+DescrTaste:
+Squisito
+
+Value:	0
+Weight: 10g
+
+

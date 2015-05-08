@@ -1,0 +1,26 @@
+Code:	karpuram_item_eq-mantello-semplice
+
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.WOOL	90
+MaterialPercentages:	MATERIAL.LEATHER	10
+Sex:	SEX.MALE
+Name:	Mantello Semplice
+Short:	largo panno morbido
+Long:	un $N di lana è stato lasciato qui.
+
+Descr:
+Un pezzo di lana setosa e irregolare che può essere usato alla meno peggio anche
+come mantello. Le trame sono larghe e imprecise ma anche solide e dure. Su un
+lato presenta due vecchi e logori lacci di cuoio legati malamente al panno
+tanto da risultare distinti dallo stesso, fermati in un secondo momento per 
+permettere d'indossarlo.
+
+Value:	0
+Weight:	600g
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+   Modes: PART.BACK
+End

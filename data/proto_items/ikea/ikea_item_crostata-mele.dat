@@ -1,0 +1,30 @@
+Code: ikea_item_crostata-mele
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.FLOUR	40%
+MaterialPercentages:	MATERIAL.MILK	10%
+MaterialPercentages:	MATERIAL.EGG	10%
+MaterialPercentages:	MATERIAL.BUTTER	10%
+MaterialPercentages:	MATERIAL.SUGAR	10%
+MaterialPercentages:	MATERIAL.PULP	20%
+Name:	Una Crostata Di Mele
+Short:	una crostata di mele
+Long:	$N è qui
+
+Descr:
+Un involucro di pasta croccante con numerose fette sottili di mele disposte sulla superficie
+DescrTouch: 
+La superficie è ricoperta da una zuccherina patina appiccicosa
+DescrSmell: 
+L'odore della mela si miscela a quelo speziato della cannella
+DescrSixth:
+La buccia della mela non è stata tolta dal frutto, forse per dare maggiore aroma 
+DescrTaste:
+Al di sotto dello strato di mela caramellata avverti la dolcezza della confettura dello stesso frutto
+DescrHearing:
+no_send
+
+Value:	0
+Weight: 120g

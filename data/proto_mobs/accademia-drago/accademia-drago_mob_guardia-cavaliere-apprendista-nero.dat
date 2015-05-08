@@ -1,0 +1,70 @@
+Code:	accademia-drago_mob_guardia-cavaliere-apprendista-nero
+Level:	03
+Sex:	SEX.MALE
+Race:	RACE.HUMAN
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Un Apprendista Cavaliere
+Short:	un apprendista cavaliere
+Long:	$N pattuglia le mura con passo marziale.
+
+Descr:
+Questo  ragazzo  è  un apprendista cavaliere, sta pattugliando i
+camminamenti e ti sembra assai annoiato...
+Weight: 189kg
+Height: 160cm
+
+BirthDay: 22
+BirthMonth: MONTH.TWO
+Age: 9
+
+Behaviour:
+	LookPlayer:	0
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+Comment:
+1048576|4194304|8388608|16777216 8|32768|33554432 0 A 3
+35 -2 -6 200 1d3+10
+-1 1000 53 1
+8 8 4 16384|32768|65536 8192 0
+
+
+
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

@@ -1,0 +1,24 @@
+Code:	karpuram_item_eq-freccia-semplice
+
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.OAK	95
+MaterialPercentages:	MATERIAL.PAPYRUS	5
+Sex:	SEX.MALE
+Name:	Una Freccia di Legno
+Short:	una semplice freccia
+Long:	$N è qui in terra.
+
+Descr:
+La fattura di questa freccia è semplice e spartana, non presenta intagli o segni
+di alcun tipo e la superficie è liscia e compatta. La punta è affilata e
+bilanciata mentre la coda è formata da due piccole rientranze quasi invisibili
+da cui fuoriescono tre foglie sottili.
+
+Value:	0
+Weight:	20g
+
+WearType:
+   Modes: PART.HOLD
+End

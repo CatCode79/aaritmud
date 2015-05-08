@@ -1,0 +1,37 @@
+Code: ikea_item_calze-pelle
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.LEATHER	100%
+Name:	Un Paio di [sienna]Calzini[close] in Pelle
+Short:	un paio di [sienna]calzini[close] in pelle
+Long:	$N afflosciati.
+
+Descr:
+Un paio di curiosi [sienna]calzini[close] in pelle conciata di uno strano colore marrone scuro.
+DescrTouch: 
+Molto gradevoli e morbidi al tatto.
+DescrSmell: 
+Emanano un forte odore di pelle conciata.
+DescrTaste:
+Hanno un sapore amaro. 
+DescrSixth:
+Capisci subito che ci deve essere stata una grande lavorazione.
+
+Value:	99
+Weight: 67g
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+	Modes:	PART.LEFT_FOOT PART.RIGHT_FOOT
+	EntityWearMessage:	Infili con sicurezza $N %part.
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	$n indossa $N %part senza batter ciglio.
+	EntityRemoveMessage:	Sfili $N in un colpo solo.
+	TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+	OthersRemoveMessage:	$n sfila $N con gesto sicuro.
+End
+
+MaxLife:	10
+Life:		10

@@ -1,0 +1,30 @@
+Comment:	room in cui c'è la teca e il cadavere di Chrysantha Akelay
+Code:	cimitero_room_collina-a13
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il Mausoleo di Chrysantha Akelay
+Short:	un mausoleo
+
+Descr:
+Sei nel ricco mausoleo, nascosto al tempo ed agli intrusi da tempo inenarrabile. Su un
+lato della stanza c'è una teca di cristallo in cui giace il corpo mummificato di una
+misteriosa creatura agghindata in vesti femminili. Al centro della stanza, sopra un
+rialzo in pietra decorata c'è uno piedistallo riccamente ornato ma vuoto.
+
+DescrSmell: 
+La zona collinare è avvolta dagli abbracci languidi dell'odore di spezie e decomposizione.
+Per alcuni tratti si coglie però una scia che rimane la stessa per un certo tratto.
+DescrHearing:
+Il sibilo del vento produce un lugubre suono cupo sostenuto negli effetti lungo le
+lapidi frastagliate.
+
+Width:	6m
+Depth:	6m
+Height: 12m
+
+
+Exits:
+	Direction: DIR.NORTHWEST
+	Door:	cimitero_item_door-secret-cella-chrysantha
+	Descr: Una cella
+End

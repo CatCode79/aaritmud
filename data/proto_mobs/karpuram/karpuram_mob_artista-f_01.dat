@@ -1,0 +1,82 @@
+Code: karpuram_mob_artista-f_01
+Level: 07
+
+Sex:	SEX.FEMALE
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Un'Elfa Artista 
+Short: un'elfa eclettica
+Long:	$N sta disegnando qualcosa su una tela
+Race: RACE.WOODELF
+
+Descr:
+Sul corpo indossa una leggera veste di colore verde scuro, una cintura di cuoio
+e un paio di sandali di tela. Ti rendi conto che si tratta di una pittrice solo
+per via del [burlywood]cavalletto[close] e della tela sulla quale si sta 
+dilettando a disegnare. Un'elfa artista impugna con una mano un pennello e con 
+l'altra una tavolozza ricca di colori. Le sue movenze ricordano quelle di un 
+direttore d'orchestra, come se l'ispirazione le venisse da una musica interiore.
+
+Extras:
+	Keywords: tela, disegno
+	Descr:
+	Questa tela posizionata su un cavalletto di legno, rappresenta il bosco
+	circostante e osservando meglio riesci a scorgere anche l'elfa che lo sta
+	dipingendo e ancor più attentamente ti sembra di vedere anche...te stesso!
+
+End
+
+
+
+
+
+
+
+Behaviour:
+	LookPlayer:	10
+	LookMob:	10
+	LookItem:	10
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	5
+	LookDirection:	5
+	LookExit:	20
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE 
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+Weight: 50kg
+Height: 175cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 90
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

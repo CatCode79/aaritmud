@@ -1,0 +1,41 @@
+Code: miniere-kezaf_item_gemma-grezza-citrino
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Name:	Una Gemma di [orange]Quarzo Citrino[close] Grezza
+Short:	un [orange]cristallo[close] puntuto
+Long:	$N è qui
+
+Descr:
+Un pezzo di roccia dalla quale sporgono [orange]cristalli[close] prismatici di un bel giallo aranciato.
+DescrTouch: 
+Un pezzo di roccia dalla quale sporgono [orange]cristalli[close] prismatici puntuti.
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Value:	0
+Weight: 10g
+
+Extras:
+	Keywords: chiave
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End

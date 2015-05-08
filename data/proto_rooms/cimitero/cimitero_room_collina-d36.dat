@@ -1,0 +1,49 @@
+Code: cimitero_room_collina-d36
+Sector: SECTOR.SHRUB
+
+Name: Il Versante Alberato
+Short: la zona alberata
+
+Descr:
+Il versante della collina in leggero declivio è verdeggiante e fitto d'alberi giovani. Di quando in quando pare di vedere qualche lapide coperta d'erbe o malcelata dagli alberi.
+
+DescrSmell: 
+La zona collinare è qui ammantata da una persistente fragranza dolciastra.
+DescrHearing:
+Il sibilo del vento scuote le foglie degli alberi in un rumore rassicurante.
+
+Extras:
+	Keywords: scia
+	DescrSmell:
+	Lungo il tratto di sentiero che hai appena seguito l'odore più significativo è stato quello di #SMELL.
+End
+
+Extras:
+	Keywords: simboli
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+Width:	6m
+Depth:	6m
+Height: 113m
+
+
+Exits:
+	Direction: DIR.SOUTH
+	Descr: Ai margini della zona alberata
+End
+Exits:
+	Direction: DIR.NORTHEAST
+	Descr: Il fitto degli alberi
+End

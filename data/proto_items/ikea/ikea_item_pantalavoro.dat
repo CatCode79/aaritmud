@@ -1,0 +1,70 @@
+Code: ikea_item_pantalavoro
+Level: 1
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+Flags:	FLAG.RANDOMIZABLE
+MaterialPercentages:	MATERIAL.CLOTH	100%
+Name:	Un Paio di Pantaloni Neri da Lavoro
+Short:	un paio di rozzi pantaloni neri
+Long:	$N è qui buttato in un angolo.
+
+Descr:
+Un paio di pantaloni di cotone nero dall'aspetto robusto e dotati di
+molte tasche capienti. I passanti della cintura sono larghi ed è 
+possibile stringere la vita e le caviglie con dei cordoni. Ginocchia
+e cavallo sono rinforzati.
+DescrSixth:
+Non sono il tipo di pantaloni da indossare ad una cena di gala ma
+sicuramente sono adatti per fare attività all'aperto.
+DescrTouch: 
+La stoffa di cotone sembra particolarmente robusta e non è neppure
+troppo ruvida. Da l'impressione di essere abbastanza pesante da 
+renderli adatti anche alle mezze stagioni.
+
+Value:	0
+Weight: 1kg
+
+Extras:
+	Keywords: tasche
+	Descr:
+	una tasca per coscia, due sul sedere e due ai fianchi più un
+	taschino per monete o piccoli oggetti; tutte chiuse con patte
+	abbottonate
+	DescrTouch:
+	in tutte le tasche, meno quella per le monete, puoi infilare
+	senza problemi la tua $hand per intero e poi ancora un po'
+End
+
+Extras:
+	Keywords: stoffa
+	Descr:
+	stoffa di cotone nero tessuto a trama grossa ma fitta
+	DescrTouch:
+	la stoffa non è particolarmente ruvida anche se sembra abbastanza
+	robusta da sopportare graffi ed abrasioni. Probabilmente un tessuto
+	di questo tipo non troverebbe posto nel guardaroba di un nobile ma
+	è abbastanza buono da poter essere considerato un lusso da un
+	villico.
+End
+
+
+WearType:
+	Modes: PART.GROIN PART.RIGHT_THIGH PART.LEFT_THIGH PART.LEFT_LOWER_LIMB PART.RIGHT_LOWER_LIMB
+	EntityWearMessage:	Indossi $N.
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	$n indossa $N.
+	EntityRemoveMessage:	Togli $N.
+	TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+	OthersRemoveMessage:	$n si leva $N
+End
+
+ContainerType:
+	EntityOpenMessage:	Sbottoni la patta di una tasca di $N.
+	OthersOpenMessage:	$n sbottona la patta di una tasca di $N.
+	EntityCloseMessage:	Abbottoni con qualche difficoltà la patta di una tasca di $N.
+	OthersCloseMessage:	$n abbottona con qualche difficoltà la patta di una tasca di $N.
+	Flags:	CONTAINER.CLOSED CONTAINER.CLOSABLE
+        MaxWeight: 3kg
+End
+
+

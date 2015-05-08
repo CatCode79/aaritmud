@@ -1,0 +1,28 @@
+Code:	karpuram_item_eq-calzari-drago
+Level:	10
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.DRAGONSCALE	20
+MaterialPercentages:	MATERIAL.CLOTH	80
+Sex:	SEX.MALE
+Name:	calzari del drago
+Short:	calzari
+Long:	Un bellissimo paio di $N sono riposti qui in terra.
+
+Descr:
+Questi calzari potrebbero essere confusi per stivali da viaggio per via della
+loro fattura precisa e preziosa. Sono stati creati per comode camminate e non
+per combattimenti sfrenati, tuttavia presentano dei piccoli fori alternati in
+modo simmetrico su tutta la loro superficie per far respirare la pelle. Questa
+caratteristica aggiunge destrezza e velocità a chi li indossa.
+ 
+DescrSixth:
+Devono appartenere a qualcuno che conosce molto bene le antiche creature
+magiche citate spesso nei libri di magia
+
+Value:	0
+Weight:	300g
+
+WearType:
+   Modes: PART.RIGHT_FOOT PART.LEFT_FOOT
+End

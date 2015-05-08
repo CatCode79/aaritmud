@@ -1,0 +1,75 @@
+Code:	ikea_mob_mucca
+Level:	1
+MaxGlobalQuantity:	5
+Sex:	SEX.FEMALE
+Race:	RACE.MAMMAL
+Icon:	icons/animal/cow-01b.png
+Name:	Una Mucca
+Short:	una mucca
+Long:	$N rumina introspettiva dell'erba medica
+
+Descr:
+L'anello di congiunzione fra l'apatia rassegnata e l'introspezione psicologica più
+lungimirante è stato inserito degnamente nelle vestigia d'un bovino pezzato. L'unico
+gesto che trapela dinamismo è lo scudisciare della coda ad abbattere le mosche.
+DescrTouch: 
+Tocchi una placida mucca e solo con impegno certosino eviti le mosche che la tormentano.
+
+Weight: 791kg
+Height: 150cm
+
+Extras:
+	Keywords: coda
+	Descr:
+		La coda sferza qua e là
+End
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 1
+
+Behaviour:
+	LookPlayer:	30
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	10
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NORTHEAST DIR.SOUTHEAST DIR.NORTHWEST DIR.SOUTHWEST DIR.NORTH DIR.SOUTH DIR.WEST DIR.EAST
+	WanderAtExits:	50	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	50
+	RandomDoInputs:	emote alza la coda in un uno sfogo aulentissimo.
+	RandomDoInputs:	say Mukka Powwwa!
+End
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

@@ -1,0 +1,6 @@
+FunName:   skill_kick
+Type:      CMDTYPE.SKILL
+Trust:     TRUST.PLAYER
+Position:  POSITION.STAND
+Flags:     CMDFLAG.INTERACT CMDFLAG.GDR
+MiniHelp:  Permette di dare un calcio a qualcuno in combattimento.

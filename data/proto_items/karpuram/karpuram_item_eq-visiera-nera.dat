@@ -1,0 +1,29 @@
+Code:	karpuram_item_eq-visiera-nera
+
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.SOFTWOOD	98
+MaterialPercentages:	MATERIAL.ELASTIC	2
+Sex:	SEX.MALE
+Name:	Una Visiera Nera
+
+Short:	una scura protezione per il viso
+
+Long:	$N realizzata in legno è qui in terra.
+
+Descr:
+Una sottile protezione di legno nero che permette di coprire unicamente la 
+parte superiore del viso relativa agli occhi e parte del naso. Questa piccola
+visiera può servire per evitare di farsi riconoscere e il suo colore aiuta
+molto favorevolmente il fatto di passare inosservati. Un'elastico sempre di 
+colore nero permette di fermare saldamente la maschera al viso.
+
+Value:	0
+Weight:	200g
+
+WearType:
+   Modes: PART.FACE
+End
+
+

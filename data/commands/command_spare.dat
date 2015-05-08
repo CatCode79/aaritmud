@@ -1,0 +1,6 @@
+FunName:   command_spare
+Type:      CMDTYPE.COMBAT
+Trust:     TRUST.PLAYER
+Position:  POSITION.REST
+Flags:     CMDFLAG.GDR
+MiniHelp:  Serve a risparmiare una creatura o un giocatore già sconfitto.

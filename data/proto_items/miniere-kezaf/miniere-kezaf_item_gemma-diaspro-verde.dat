@@ -1,0 +1,27 @@
+Code: miniere-kezaf_item_gemma-diaspro-verde
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_jaspergreen.png
+Name:	Una Pietra di Diaspro Verde 
+Short:	una gemma di quarzo verde
+Long:	$N sta qui
+
+Descr:
+Un quarzo dalla colorazione verdognola.
+
+DescrSixth:
+La colorazione è dovuta alla presenza di ferro che ne [white]sporca[close] il cristallo.
+
+DescrTouch:
+Allo stadio attuale la gemma è ancora molto porosa e fragile, ma può essere 
+facilmente lavorata e tagliata.
+
+Value:	0
+Weight: 140g
+
+
+
+

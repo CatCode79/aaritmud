@@ -1,0 +1,82 @@
+Code:	citta-raminghe_mob_le-gemelle
+Level:	3
+Sex:	SEX.FEMALE
+Race:	RACE.HUMAN
+Flags:	FLAG.NO_REPOP FLAG.NO_GET
+Name:	Una Coppia di Gemelle
+Short:	una coppia di [yellow]gemelle[close] effimere
+Long:	$N ti osserva
+
+Descr:
+Due gemelle dall'aria sinistra, indistinguibili l'una all'altra, arrivate chissà da dove. Si muovono con una 
+notevole lentezza che all'improvviso dà spazio a gesti fulminei e inaspettati. Le due figure esili indossano 
+entrambe una lunga tunica bianca di stoffa molto leggera che ne lascia intuire le fattezze. 
+Lunghi capelli [red]fulvi[close] e ricci incorniciano i loro volti pallidi e inquieti come se stessero cercando 
+qualcosa di vitale. Non indossano calzature e i loro piedi nudi sembrano sfiorare il suolo in modo 
+leggero e silenzioso. 
+
+DescrSmell:
+Avverti un odore molto dolce e leggermente speziato che ti sembra di non aver mai sentito.
+DescrTouch:
+Non è un gesto che ti è consentito e che potrebbe essere causa di conseguenze impreviste.
+
+DescrSixth:
+Mentre le osservi muoversi all'unisono intuisci che debbano avere una storia singolare e inquietante. Sembra abbiano 
+una certa apprensione come se non avessero molto tempo per portare a termine una missione di importanza vitale. 
+Forse é il loro sguardo che a tratti e per un istante si illumina di un bagliore 
+inconsueto ed inaspettato che ti induce ad immaginare qualcosa di altro al di là delle apparenze.
+
+
+
+RemainsNight:	citta-raminghe_mob_fantasma-le-gemelle
+Remains:	citta-raminghe_mob_fantasma-le-gemelle
+Weight:	80kg
+Height:	170cm
+
+BirthDay:	1
+BirthMonth:	MONTH.ONE
+Age:	30
+
+MaxLife:	150
+Life:	150
+MaxMana:	100
+Mana:	100
+MaxVigour:	150
+Vigour:	150
+
+Strength:	33
+Endurance:	33
+Agility:	20
+Speed:	15
+Intelligence:	66
+Willpower:	50
+Personality:	50
+Luck:	50
+
+Behaviour:
+	LookPlayer:	20
+	LookMob:	10
+	LookItem:	20
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	TasteAtEntitypesFlags:	ENTITYPE.NONE
+	SmellItem:	5
+	WanderAtSectors: 	SECTOR.HOUSE
+	WanderDirection:	0
+	WanderExit:	20
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	10
+	RandomDoInputs:	emote ti guardano fissandoti in modo da farti percepire una certa inquietudine.
+	RandomDoInputs:	say Dovrebbe trovarsi da queste parti. Un antico manoscritto...
+	RandomDoInputs:	say Nessuno può trovare prima di noi quel manoscritto..sarebbe la fine...
+	RandomDoInputs:	emote ti passano accanto e i loro abiti sfiorano le tue mani lasciandoti una sensazione indefinita.
+End

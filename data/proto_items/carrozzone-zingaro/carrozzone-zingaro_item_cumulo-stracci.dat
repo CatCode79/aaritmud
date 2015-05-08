@@ -1,0 +1,33 @@
+Comment:
+-Stracci e garze usati per filtrare...sicuramente gli zingari hanno più tempo di noi!
+-Il meccanismo dovrebbe essere lo stesso dei fili appesi/matasse
+- non ricordo come coloravi i nomi...io ho messo solo [cumulo ] e [stracci] se non va bene estendilo anche a [di]
+-nella tintoria
+
+Code: carrozzone-zingaro_item_cumulo-stracci
+
+Level:	1
+Entitype: ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.CLOTH 100%
+Name:	Un [lemonchiffon]Cumulo[close] di  [lemonchiffon]Stracci[close]
+Short:	un alto [lemonchiffon]cumulo[close] di [lemonchiffon]stracci[close]
+Long:	devi fare attenzione a non incespicare in $N.
+KeywordsName: cumulo stracci straccio
+KeywordsShort: cumulo stracci straccio
+
+
+Descr:
+Una [lemonchiffon]pila[close] di [lemonchiffon]stracci[close] ben stirati e ripiegati oscilla in equilibrio precario.
+DescrTouch:
+Affondi la $hand tra i cenci, certamente cotone..cotone di dubbia qualità.
+DescrSmell:
+Un fresco profumo di sapone si arrampica nelle tue narici come a volersi svincolare dal tanfo che permea l'ambiente circostante.
+DescrSixth:
+Ti chiedi perché si sian presi la briga di lavarli così accuratamente se poi vengon lasciati su un pavimento sudicio.
+
+Value:	0
+Weight: 700g
+
+
+

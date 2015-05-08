@@ -1,0 +1,33 @@
+Code: flora_item_farnia-06-albero
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Flags: FLAG.NO_GET
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name: Un Giovane Arbusto di [forestgreen]Farnia[close]
+Short: una giovane [forestgreen]Farnia[close]
+Descr:
+Una quercetta di qualche anno, slanciata verso l'alto e dalla chioma ancora rada.
+I pochi rametti sono rivestiti di foglioline dall'apparenza liscia. Le poche gemme spiccano alle estremità dei rametti.
+Value:	0
+Weight: 30kg
+
+DescrTouch: 
+Una farnia dal fusto liscio e dalle fronde colme di foglie puntute.
+
+Extras:
+  Keywords: foglie foglia
+  Descr: delle foglie quasi senza picciolo
+  DescrTouch: delle foglie liscie e quasi senza picciolo
+End
+
+PlantType:
+    Sectors:	SECTOR.PLAIN SECTOR.HOUSE
+    RpgHours:	01
+    WorseEntity:	flora_item_farnia-07-albero
+    NormalEntity:	flora_item_farnia-07-albero
+    BetterEntity:	flora_item_farnia-07-albero
+End
+
+

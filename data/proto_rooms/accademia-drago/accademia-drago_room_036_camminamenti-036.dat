@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_036_camminamenti-036
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	I Camminamenti
+Short:	i camminamenti
+	Descr:
+L'angolo nord est di questi camminamenti ti apre una perfetta
+visuale sulla struttura circolare che avevi già notato
+passeggiando in altri punti delle mura, da qui riesci finalmente
+a vedere che si tratta di una struttura ovoidale compost da tre
+cerchie di mura concentriche, il fulcro sembra essere una grande
+area completamente sgombra. Sotto di te all'esterno delle mura
+sembra partire una strada rialzata e fortificata che porta fino
+alla struttura.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 1
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 035 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 037 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

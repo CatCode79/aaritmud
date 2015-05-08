@@ -1,0 +1,58 @@
+Comment: La casa di Batu
+
+Creators: Batu
+Code: home-batu
+Name: Casa di B.A.T.U.
+Short: casa di B.A.T.U.
+Descr:
+	Casa sperimentale di Batu
+Color: COLOR.VIOLET labbra intirizzite
+Level: 1
+Flags: AREA.DONT_LIST
+RepopTime: 15
+LandfillCode:	home-batu_room_01-pentacolo
+
+RoomResets:
+  ProtoRoom: home-batu_room_01-pentacolo
+	Destination:	0 0 0 home-batu
+	EntityResets:
+		Quantity: 4
+		Type: RESET.ADD
+		ProtoEntity: mfdonald_item_banana
+	End
+	EntityResets:
+		Quantity:	9
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_medaglione
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	villaggio-zingaro_item_unguento-01
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	home-batu_item_candelabri-coppia
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity:	home-batu_item_canederlo-radioattivo
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	home-batu_item_pallotta-pelo
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	home-batu_mob_esserini
+	End
+
+End
+RoomResets:
+  ProtoRoom: home-batu_room_miml-zone-01
+	Destination:	1 0 0 home-batu
+End

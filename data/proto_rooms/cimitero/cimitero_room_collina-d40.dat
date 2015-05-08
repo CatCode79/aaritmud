@@ -1,0 +1,49 @@
+Code: cimitero_room_collina-d40
+Sector: SECTOR.SHRUB
+Name: La Via dei Gelsi Sacri
+Short: gli alberi lanuginosi
+
+Descr:
+La via arriva qui al suo punto più basso. Partendo da sud un sentiero risale tutto intorno a una piccola collinetta isolata e ricoperta fittamente da vegetazione verde brillante. Gli alberi ai lati della via sono coperti da una lanugine biancastra.
+DescrSmell: 
+La zona collinare è avvolta dagli abbracci languidi dell'odore di spezie e decomposizione.
+Per alcuni tratti si coglie però una scia che rimane la stessa per un certo tratto.
+DescrHearing:
+Il sibilo del vento produce un lugubre suono cupo sostenuto negli effetti lungo le
+lapidi frastagliate.
+
+Extras:
+	Keywords: scia
+	DescrSmell:
+	Lungo il tratto di sentiero che hai appena seguito l'odore più significativo è stato quello di #SMELL.
+End
+
+Extras:
+	Keywords: simboli
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+Width:	6m
+Depth:	6m
+Height: 113m
+
+
+Exits:
+	Direction: DIR.SOUTH
+	Descr: Salendo la collinetta
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: Il paesaggio rado
+End

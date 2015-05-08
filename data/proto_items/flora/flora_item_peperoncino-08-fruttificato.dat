@@ -1,0 +1,42 @@
+Code: flora_item_peperoncino-08-fruttificato
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Flags:  FLAG.INTERACTABLE_FROM_OUTSIDE
+Name:	Una pianta di [red]Peperoncino[close] ricca di frutti
+Short:	una pianta di [red]peperoncino[close] colma di frutti
+Long:	$N cresce qui in terra.
+
+Descr:
+La tipica colorazione rosso-arancio dei frutti di questa pianta di peperoncino lascia
+intendere che sia giunta al massimo stadio produttivo.
+#flora_item_peperoncino-04-frutto#Delle bacche dalla forma affusolata e allungata spiccano sul verde intenso delle foglie.##
+#flora_item_peperoncino-05-frutto-marcio#Alcuni frutti sono però già marcescenti,##
+
+DescrTouch:
+#flora_item_peperoncino-04-frutto#I frutti hanno una superficie irregolare e morbida alla pressione#Non ci son frutti in buone condizioni#.
+#flora_item_peperoncino-05-fruttomarcio#Alcuni peperoncini sembran essere andati un po' troppo oltre.##
+
+DescrSmell:
+
+#flora_item_peperoncino-04-frutto#I frutti emanano un profumo fresco e intenso.#La pianta emana un profumo fresco e intenso.#
+
+DescrSixth:
+#flora_item_peperoncino-04-frutto#Sai che queste bacche portano con sè l'intenso potenziale di una piccantezza mordente.#Sei arrivato tardi per delle bacche di qualità.#
+
+Value:	0
+Weight: 12kg
+
+
+
+PlantType:
+    RpgHours:	001
+    WorseEntity:	flora_item_peperoncino-06-pianta
+    NormalEntity:	flora_item_peperoncino-06-pianta
+    BetterEntity:	flora_item_peperoncino-06-pianta
+    DeadEntity:	flora_item_peperoncino-09-pianta-secca
+End
+
+

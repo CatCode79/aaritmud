@@ -1,0 +1,25 @@
+Code:	karpuram_item_eq-pantaloni-comuni
+
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.CLOTH	100
+Sex:	SEX.MALE
+Name:	Pantaloni Comuni di stoffa
+Short:	pantaloni cuciti malamente
+Long:	un paio di $N e mal riposti qui
+
+Descr:
+Sono un semplice paio di pantaloni a vita bassa di stoffa, con vistose cuciture
+sui lati e sull'orlo delle due tasche. Una delle due tasche è strappata e quasi
+del tutto inutilizzabile mentre l'altra è stretta e corta. I pantaloni sono
+colorati di un verde scuro tendente al marrone.
+
+Value:	0
+Weight:	400g
+
+WearType:
+   Modes: PART.RIGHT_THIGH PART.LEFT_THIGH
+End
+
+

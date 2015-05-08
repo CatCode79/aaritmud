@@ -1,0 +1,18 @@
+Code: miniere-kezaf_item_gemma-tormalina-arcobaleno
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_tourmalinerainbow.png
+Name:	Una Tormalina [red]Ar[yellow]co[green]ba[blue]le[violet]no[close] 
+Short:	una pietra [red]mul[yellow]ti[green]co[blue]lo[violet]re[close]
+Long:	$N alterna riflessi cangianti
+
+Descr:
+Dalla grezza pietra, una colonna di cristallo multicolore, emerge obliquamente in tutta la
+traslucida lucentezza e vitrea trasparenza.
+Vi sono più gradazioni di colore che angoli per guardarla.
+
+Value:	0
+Weight: 210g

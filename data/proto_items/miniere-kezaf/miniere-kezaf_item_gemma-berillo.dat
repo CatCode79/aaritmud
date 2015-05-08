@@ -1,0 +1,25 @@
+Code: miniere-kezaf_item_gemma-berillo
+
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_beryl.png
+Name:	Una Gemma di Berillo 
+Short:	una pietra cilindrica
+Long:	$N è posata qui su un lato.
+
+Descr:
+Una pietra cilindrica riluce leggermente mostrando le sue venature dai colori
+verdi e gialli che si alternano a seconda della provenienza derivante dalla
+roccia dalla quale questa si trova spesso incastonata, può essere di forma 
+cilindrica o rettangolare a seconda della forte pressione subita dalla roccia 
+che il più delle volte la circonda nascondendola alla vista.
+
+Value:	0
+Weight: 200g
+
+
+
+

@@ -1,0 +1,68 @@
+Code:   citta-raminghe_mob_saggio
+Level:  3
+Sex:    SEX.MALE
+Race:   RACE.HUMAN
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:   Un Saggio
+Short:  un vecchio saggio
+Long:   $N sta consultando alcuni testi.
+
+Descr:
+Un uomo molto anziano si trova a suo agio in questo luogo traboccante di saggezza
+e cultura, indossa una lunga e comoda toga di colore bianco che non presenta ormanenti
+di alcun tipo, ha una fascia di seta color porpora che gli fa da cintura. Il tavolo
+dove si trova risulta pieno di tomi, libri e pergamene che consulta con attenzione
+e rispetto. Sull'occhio sinistro indossa una lente di cristallo bordata d'oro.
+
+DescrSmell:
+Odore di antico, stantio e muffa, legno e carta
+
+
+Weight: 70kg
+Height: 175cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 65
+
+MaxLife:        300
+Life:           300
+MaxMana:        200
+Mana:           200
+MaxVigour:      300
+Vigour:         300
+
+Strength:       15
+Endurance:      13
+Agility:        13
+Speed:          12
+Intelligence:   19
+Willpower:      19
+Personality:    18
+Luck:           12
+
+Behaviour:
+        LookPlayer:     0
+        LookMob:        0
+        LookItem:       0
+        LookAtRacesFlags:       RACE.NONE
+        LookAtRaces:    0
+        LookAtEntitypesFlags:   ENTITYPE.NONE
+        TasteAtEntitypesFlags:  ENTITYPE.NONE
+        WanderDirection:        0
+        WanderExit:     0
+        WanderWall:     0
+        WanderClosedDoor:       0
+        WanderAtExitsFlags:     DIR.NONE
+        WanderAtExits:  0       
+        WanderArea:     0
+        WanderPortal:   0
+        WanderEnterContainer:   0
+        WanderExitContainer:    0
+        WanderSelf:     0
+        RandomDo:       10
+        RandomDoInputs: emote alza lo sguardo molto raramente.
+        RandomDoInputs: say Il vero saggio è colui che ammette di non sapere.
+        RandomDoInputs: say L'arma più potente di tutte è la cultura.
+        RandomDoInputs: emote consulta con passione e pazienza ogni scritto.
+End

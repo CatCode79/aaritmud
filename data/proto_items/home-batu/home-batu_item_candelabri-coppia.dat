@@ -1,0 +1,54 @@
+Code: home-batu_item_candelabri-coppia
+
+MaxGlobalQuantity:	0
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.BRASS	100%
+Icon:	icons/item/tartarughe-candelabro.png
+Name:
+Una Coppia di Candelabri
+Short:
+una coppia di [darkgoldenrod]tartarughe[close] a candelabro
+Long:
+$N passeggia stancamente.
+
+Descr:
+Due simpatiche [darkgoldenrod]tararughe bronzee[close] con tanto di portacandele sul carapace, qualche 
+goccia di cera è rimasta incastrata sulla zampa di una delle due che ora zoppica vistosamente.
+DescrTouch: 
+A dispetto dell'artifificiosità, queste bestioline sono incredibilmente realistiche.
+DescrSmell: 
+lattuga fresca, forse hanno appena pasteggiato.
+DescrSixth:
+Qualosa o qualcuno deve aver dato vita a questo che altrimenti sarebbe un banale soprammobile.
+DescrHearing:
+Le zampine unghiate graffiando rumorosamente la superfice sulla quale camminano.
+DescrTaste:
+#looker is RACE.DROW#Fai per assaggiarne una ma tutto#Non ti trattieni e dai un bacetto al carapace di una di queste dolci tartarughine;# quel che ti resta sulle labbra è un insieme di cera, lucido per metalli e terriccio.
+
+
+Value:	88
+Weight: 80g
+
+Behaviour:
+	LookPlayer:	1
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	RandomDo:	3
+	RandomDoInputs:	emote si fermano a riposare
+	RandomDoInputs:	emote passeggiano mollemente
+	RandomDoInputs:	emote masticano qualcosa senza troppa convinzione
+End
+
+

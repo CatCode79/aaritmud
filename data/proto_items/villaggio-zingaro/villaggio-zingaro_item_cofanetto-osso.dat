@@ -1,0 +1,33 @@
+Code: villaggio-zingaro_item_cofanetto-osso
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.BONE 96%
+MaterialPercentages:	MATERIAL.BRASS 4%
+Name:	Un Cofanetto d'Osso
+Short:	un cofanetto 
+Long:	$N se ne sta qui sghembo. 
+
+Descr:
+Un minuto ed asimmetrico cofanetto d'osso con dei fori a losanga sul coperchio e sul lato frontale. Il coperchio è fissato sul retro tramite una cerniera in ottone mentre un gancio a fitoforme ne blocca l'apertura. 
+DescrTouch: 
+Passi le dita lungo tutto il cofanetto avvertendo le giunzioni asimmetriche.
+DescrSixth:
+Un pregevole oggettino, se solo fosse stato realizzato con maggiore cura.
+
+Value:	245
+Weight: 56g
+
+ContainerType:
+	EntityOpenMessage:	Apri il coperchio di $N scoprendo l'interno rivestito di [darkmagenta]velluto[close].
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O
+	OthersOpenMessage:	$n apre $N sollevando il coperchio traballante.
+	EntityCloseMessage:	Richiudi $N fissando il gancio con qualche difficoltà.
+	TargetCloseMessage:	Finalmente $n si è degnat$o di chiuderti.
+	OthersCloseMessage:	$n richiude $N fissando il gancio con qualche difficoltà.
+	Flags:	CONTAINER.CLOSED CONTAINER.CLOSABLE 
+        MaxWeight: 3kg
+End
+
+

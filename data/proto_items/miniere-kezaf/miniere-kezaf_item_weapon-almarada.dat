@@ -1,0 +1,44 @@
+Code: miniere-kezaf_item_weapon-almarada
+Level: 1
+MaxGlobalQuantity:		1
+Entitype: ENTITYPE.WEAPON
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.WOOD	35%
+MaterialPercentages:	MATERIAL.METAL	65%
+Icon:	icons/weapon/sword-little.png
+Name:	L'Almarada dell'Incoronazione
+Short:	un'almarada affilata
+Long:	$N di quasi due spanne
+
+Descr:
+	Una piccola lama dall'impugnatura in frassino, il corpo in ferro è lungo un paio di
+	spanne; la punta, acuminata, è a sezione triangolare.
+
+DescrTouch:
+	Maneggi l'arma. La senti subito tua, leggera e maneggevole. Percorri la lama col dito:
+	anche se sembra molto antica ha mantenuto il filo particolarmente tagliente.
+
+DescrSmell:
+	Par di sentire un vago odore di sangue ma forse è solo immaginazione.
+
+DescrSixth:
+	Ti torna alla mente un nome; [red]succhiasangue[close]... una ferita con un'arma del genere
+	rischia d'essere letale senza provocare vistose emorragie.
+
+DescrTaste:
+	Passi la punta della lingua sul corpo della lama alla ricerca di un'ebbrezza bellicosa.
+
+Value:	0
+Weight: 100g
+
+
+WearType:
+        Modes: PART.WIELD
+End
+WeaponType:
+        Category: WEAPON.SWORD
+	Damage:	6D2+2
+        Flags: WEAPONFLAG.ONE_HAND 
+End
+
+

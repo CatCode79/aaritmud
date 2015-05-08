@@ -1,0 +1,26 @@
+Code: siepi_item_lichene_01
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	50%
+MaterialPercentages:	MATERIAL.MUSHROOM	50%
+Name: Un Lichene
+Short: un lichene
+Descr:
+un'escrescenza bruno giallastra, secca brutta e insignificante
+
+
+Value:	0
+Weight: 1g
+
+DescrTouch: ruvido e fragile
+DescrTaste: e pensare che alcuni monaci vivono di 'ste cose
+DescrSixth: ingrediente segreto?
+
+Extras:
+  Keywords: bruno giallastro giallastra
+  Descr: è costellato da tanti lobi giallastri più consistenti del resto
+End
+
+
+

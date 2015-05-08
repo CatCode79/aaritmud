@@ -1,0 +1,5 @@
+FunName:    command_title
+Type:       CMDTYPE.INFORMATION
+Trust:      TRUST.PLAYER
+Position:   POSITION.DEAD
+MiniHelp:   Serve per impostare il proprio titolo.

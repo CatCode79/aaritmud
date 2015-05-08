@@ -1,0 +1,24 @@
+Code: miniere-kezaf_item_gemma-quarzo-rosa
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_quartzrose.png
+Name:	Un Quarzo Rosa
+Short:	un quarzo
+Long:	$N sta qui
+
+Descr:
+Un pezzo di [deeppink]quarzo[close] grezzo ancora da lavorare, presenta una
+colorazione tendente al marrone ed è grado di assorbire la luce
+circostante generando una serie di linee tendenti al rosa al suo interno.
+
+DescrSixth:
+Pare sia in grado di assorbire le energie negative.
+
+Value:	0
+Weight: 150g
+
+
+

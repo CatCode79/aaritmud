@@ -1,0 +1,20 @@
+Code: karpuram_item_cartello_sementi_bacate
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.SOFTWOOD	100
+
+Flags: FLAG.NO_GET
+
+Sex:	SEX.MALE
+Name: Un [orange]Cartello Indicatore[close]
+Short: un [orange]cartello indicatore[close]
+Long:	$N è infisso nel terreno
+Descr:
+La nota sul cartello dice:
+"[orange]Semi scartati[close]"
+
+Value:	0
+Weight: 2000g
+
+

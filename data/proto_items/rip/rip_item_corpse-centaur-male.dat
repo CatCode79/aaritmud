@@ -1,0 +1,25 @@
+Code:	rip_item_corpse-centaur-male
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CORPSE
+Sex:	SEX.MALE
+Race:	RACE.CENTAUR
+MaterialPercentages:	MATERIAL.FLESH	100%
+Name:	Un tuo Simile Mort$O 
+Short:	un centauro mort$O
+Long:	$N afflosciato qui definitivamente 
+
+Descr:
+I resti mortali e corruttibili di #looker is RACE.CENTAUR#un tuo simile.#un centauro.#
+
+DescrTouch:
+#looker is RACE.CENTAUR#Riconosci dal crine arruffato il cadavere di una tua simile.#Il cadavere di una centauro che non calpesterà mai più questa terra con i suoi forti zoccoli.#
+
+DescrSixth:
+#looker is RACE.CENTAUR#I quattro zoccoli riversi a terra stanno già cominciando ad annerirsi e presto diverranno polvere.#Dal mantello stanno affiorando degli strani simboli runici di saluto.#
+
+DescrSmell:
+#looker is RACE.CENTAUR#Chissà poi perché ma pare che l'odore della morte non copra gli altri odori ed a sua volta non sia coperto da altri.#Avverti un forte odore selvatico provenire ancora dal pelo della parte equina del suo corpo.#
+
+Value:	0
+Weight:	125kg

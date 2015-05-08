@@ -1,0 +1,67 @@
+Code: cimitero_item_cespuglio-rotolante-genuine
+Level: 1
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.VEGETABLE 100%
+Sex:	SEX.MALE
+Name:	Un Cespuglio
+Short:	un cespuglio
+Long:	$N rotolante.
+
+Descr: 
+Una sorta di [green]cespuglio[close] di medie dimensioni, rotolando lentamente ti passa
+davanti e si ferma a pochi metri da te. Si tratta di una singola pianta
+arricciata in modo fitto fitto.
+
+DescrNight:
+Un [green]cespuglio[close] semovente, ti passa davanti rotolando lentamente fino a fermarsi
+a pochi passi da te. Si tratta di una pianta arriciatasi seccando.
+
+DescrHearing:
+Riesci a sentire distintamente il fruscio del vento fra le fogli del [green]cespuglio[close]
+
+DescrTouch:
+La consistenza morbida del [green]cespuglio[close] ed il suo peso lasciano supporre che un po' d'aqua sia rimasta ancora nella pianta. Infilandoci le dita te le ritrovi inzaccherate.
+
+DescrTouchNight:
+Toccando il [green]cespuglio[close] ti accorgi che ha consistenza molto più morbida di quanto sospettassi.
+
+Extras:
+	Keywords: resina appiccicoso pianta linfa inzacchero inzaccherato inzaccherate 
+	Descr:
+	Pare proprio che il [green]cespuglio[close] sia carico di linfa vischiosa che gli consente
+	di essere così flessibile nonostante la carenza d'acqua.
+
+End
+
+Value:	0
+Weight: 2kg
+
+
+Behaviour:
+	LookPlayer:	0
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	30
+	WanderWall:	0
+	WanderClosedDoor:	100
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+

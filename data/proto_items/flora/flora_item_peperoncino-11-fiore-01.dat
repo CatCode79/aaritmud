@@ -1,0 +1,20 @@
+Code: flora_item_peperoncino-11-fiore-01
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.FLOWER
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.FLOWER	100%
+Flags:  FLAG.INTERACTABLE_FROM_OUTSIDE
+Name:	Un Fiore di Peperoncino
+Short:	un fiore
+Long:	Il vento deve aver strappato $N dalla sua pianta
+
+Descr:
+Un piccolo fiore bianco a cinque petali con un pistillo pronunciato.
+DescrTouch: 
+Un piccolo fiore liscio a cinque petali con pistillo pronunciato.
+DescrSixth:
+Un piccolo fiore di peperoncino.
+
+Value:	0
+Weight: 1g

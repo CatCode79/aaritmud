@@ -1,0 +1,45 @@
+Code: tana-vv_item_fiordilatte
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.SUGAR 10%
+MaterialPercentages:	MATERIAL.MILK 85%
+MaterialPercentages:	MATERIAL.SOFTWOOD 5%
+Name:	Un Gelato al Latte
+Short:	un gelato 
+Long:	$N cola latte e perde consistenza
+
+Descr:
+Un gelato al fior di latte attaccato intorno ad uno stecco di legno. 
+DescrTouch: 
+Freddo ma non ghiacciato. È un po' molliccio e lascia le dita appiccicose anche se si cerca di toccare solo lo stecco.
+DescrSmell: 
+Odora come un bicchiere di latte munto da poche ore.
+DescrSixth:
+Sembra un miracolo conservi abbastanza integrità da non cadere dallo stecco.
+DescrTaste:
+Non è molto dolce ma è lattosissimo! Un sapore che ti fa venire in mente un altro luogo ed un altro tempo.
+
+Value:	20
+Weight: 85g
+
+Extras:
+	Keywords: stecco legno
+	Descr:
+	Una strisciolina di legno con gli angoli arrotondati sporca di latte.
+	DescrSmell: 
+	Dal canto suo è completamente inodore; senti solo quello che resta dell'odore del gelato.
+	DescrTouch: 
+	Oltre ad imbrattarti le $HANDS di gelato sciolto noti che il legno è stato probabilmente incerato.
+End
+
+FoodType:
+	Animal:	80
+	Vegetable:	20
+	CookingDamage:	5
+	Hours:	0
+	EntityMessage:	Lecchi e mordi $N fino a che non ti resta solo lo stecco.
+	TargetMessage:	Ti sciogli piacevolmente al calore corporeo di $n assolvendo alla tua missione.
+	OthersMessage:	$n lecca $N fino a finirlo.
+End

@@ -1,0 +1,36 @@
+Comment:
+Diaspro sanguigno: la Gemma del martire
+
+Il diaspro sanguigno, diaspro verde con puntini brillanti rossi fatti di ossidi di ferro, furono tesaurizzati in tempi antichi ed erano la pietra dei nati in marzo. Questo attraente quarzo calcedonio è anche conosciuto come Eliotropio poicheè in tempi antichi, le pietre, una volta lucidate prevano riflettere il sole. forse l'aspetto della gemma ricordava agli antichi i raggi del sole riflessi nell'oceano.
+
+I cristiani del Medioevo usavano spesso in diaspro danguigno per descrivere scene di crocifissioni e martiri, essa è in eddetti anche nota come pietra del martire. la leggenda del'origine del diaspro sanguigno racconta che la prima di esse cadde dal sangue di Cristo e si infilò in un diaspro che si trovava ai piedi delle croce. Un bellissimo esempio di diaspro sanguigno tagliato con sigillo dell Imperatore germanico Rudolf II può essere ammirata al museo del Louvre a Parigi.
+
+Ancor oggi la polvere di diaspro danguigno è usata in India come medicina e afrodisiaco. Questo spiega forse perchè oggi è difficile trovare sul mercato esemplari naturali di diaspro sanguigno. Il diaspro sanguigno è estratto in India,Australia,e USA.
+
+Code: miniere-kezaf_item_gemma-diaspro-sanguigno
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_bloodstone.png
+Name:	Un Diaspro dal Colore Sanguigno
+Short:	un pezzo di roccia sanguigna
+Long:	$N sta qui
+
+Descr:
+Un quarzo dalla colorazione scura con screziature sanguigne su un corpo verdastro.
+
+DescrSixth:
+La colorazione è dovuta alla presenza di ferro che ne [white]sporca[close] il cristallo.
+
+DescrTouch:
+Allo stadio attuale la gemma è ancora molto porosa e fragile, ma può essere 
+facilmente lavorata e tagliata.
+
+Value:	0
+Weight: 230g
+
+
+
+

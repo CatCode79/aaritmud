@@ -1,0 +1,21 @@
+Code: citta-raminghe-maze_room_biblioteca_nord
+Sector: SECTOR.HOUSE
+Flags:  ROOM.INSIDE
+Name: Un Fitto Incrociarsi di Corridoi
+Short: [red]incroci di corridoi[close]
+Descr:
+Innumerevoli e labirintici corridoi che si incrociano tra loro. 
+
+DescrSixth:
+Potresti incontrare qualcuno, ma la cosa è molto improbabile.
+
+DescrHearing:
+Ti sembra di sentire il passo lento di qualcosa o di qualcuno, ma non sai perpcepirne la direzione.
+Width:  10m
+Depth:  10m
+Height: 100m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: in biblioteca
+End

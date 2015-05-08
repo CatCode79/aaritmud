@@ -1,0 +1,29 @@
+Code: novizi2_item_stagione_primula
+Level: 1
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.VEGETABLE	100
+Sex:	SEX.MALE
+Name: Un Vasetto di [yellow]P[lightgreen]rimule[close]
+Short: un vasetto di [yellow]primule[close]
+Long:	$N sbocciate da poco
+
+Descr:
+Un piccolo vasetto nero in cui una piantina di primule soffre di claustrofobia
+senza ombra di dubbio. Alla prima dimenticanza d'acqua le radici cuociono ed il
+venditore ne può vendere un'altra.
+DescrTouch: 
+Il vasetto è zuppo d'acqua segno che è stato perduto da un venditore.
+DescrSmell: 
+Mai capito quale sia il profumo di [yellow]p[lightgreen]rimula[close].
+DescrSixth:
+Una tratta degli schiavi in termini floreali.
+DescrHearing:
+Poggiando l'orecchio ti sembra proprio di sentir chiedere aiuto
+DescrTaste:
+Stacchi un fiorellino [yellow]giallo[close] a trombetta e ne suggi il nettare come
+facevi da bambin$o. Questa volta però ti ricordi di controllare che non vi siano formiche.
+
+Value:	0
+Weight: 120g
+
+

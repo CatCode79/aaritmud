@@ -1,0 +1,61 @@
+Code: mfdonald_mob_mindflayer_01
+Level: 12
+
+Sex:	SEX.MALE
+Race:	RACE.ILLITHID mindflayer
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name: R'Ham Esh
+Short: un mindflayer
+Descr:
+Un essere alto vagamente umanoide con due occhi tondi tondi quanto inespressivi,
+numerosi tentacoli pendono al posto della bocca muovendosi in continuazione;
+frequentemente fa il classico rumore irritante di chi tira su con il naso.
+
+Behaviour:
+	LookPlayer:	10
+	LookMob:	10
+	LookItem:	10
+	LookAtRacesFlags:	RACE.NONE
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookSelf:	10
+	LookDirection:	10
+	LookExit:	10
+	LookWall:	10
+	LookClosedDoor:	10
+	LookExtra:	10
+	WanderDirection:	0
+	WanderExit:	100
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	50
+	RandomDoInputs: say Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl, fhtagn!
+End
+
+Weight: 89kg
+Height: 170cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 54
+
+Strength:	100
+Endurance:	100
+Agility:	100
+Speed:	100
+Intelligence:	100
+Willpower:	100
+Personality:	100
+Luck:	100
+
+MaxLife:	300
+Life:		300
+MaxMana:	300
+Mana:		300
+MaxVigour:	300
+Vigour:		300

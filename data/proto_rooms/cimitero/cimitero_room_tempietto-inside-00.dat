@@ -1,0 +1,43 @@
+Code: cimitero_room_tempietto-inside-00
+Sector: SECTOR.RUIN
+Name: All'Altare
+Short: all'interno del tempietto
+
+Descr:
+	All'interno del piccolo tempio c'è un altare con diverse incisioni. L'altare giace sul
+	lato est e dietro, c'è uno scranno anch'esso in pietra ancorato alla parete.
+DescrTouch: 
+	L'altare è in pietra scura e lucida solo sulle zone più esterne ed in prossimità dello scranno.
+DescrSmell: 
+	Il vento porta con se l'odore della terra smossa di fresco e qualcosa di marcescente
+DescrSixth:
+	Numerose mani per altrettanti anni si sono avvicendate ad officiare riti su questo altare tanto
+	da ottenere di lucidarlo nelle parti più facili da toccare.
+DescrHearing:
+	Saltuariamente senti i morbidi suoni che accompagnano le vampe dei fuochi fatui.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: All'esterno
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: All'esterno
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: All'esterno
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: All'esterno
+End
+Exits:
+  Direction: DIR.DOWN
+  Descr: L'ultimo definitivo riposo
+  Door: cimitero_item_botola-pietra
+End

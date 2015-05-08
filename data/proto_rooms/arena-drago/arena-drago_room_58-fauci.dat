@@ -1,0 +1,66 @@
+Code:	arena-drago_room_58-fauci
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Le Fauci
+Short:	le fauci
+	Descr:
+Procedendo lungo il cunicolo giungi ad un impressionante arcata,
+la pura roccia della montagna è stata scolpita fino a prendere
+la forma delle fauci di un drago. ti mette un po' a disagio
+l'idea di passeggiare dentro una bocca di drago.... anche se di
+roccia... Il corridoio procede ad est mentre ad ovest ti adentri
+sotto le fauci.
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	1|64 0
+Exits:
+	Direction:	DIR.EAST
+	Descr:	il cunicolo
+	Comment:	ExitStatus	0 0 27757 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	un incrocio sotterraneo
+	Comment:	ExitStatus	0 0 27759 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

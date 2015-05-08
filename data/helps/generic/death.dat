@@ -1,0 +1,27 @@
+Code: death
+
+ItalianKeywords: morte morire
+EnglishKeywords: death
+
+Entitype: HELP.INFO
+
+Text:
+Quando il tuo personaggio muore, la tua anima si distacca dal tuo corpo e
+viene trasportata alla cattedrale, mentre le tue spoglie e tutti i tuoi
+averi restano sul luogo dove sei stato ucciso.
+
+Alla tua morte tutti gli incantesimi che avevi vengono cancellati e perdi
+anche una parte della tua esperienza accumulata, inoltre potresti perdere
+un po' di consocenza di abilità e incantesimi, puoi indebolirti fisicamente 
+o i tuoi sensi possono subire dei deterioramenti.
+
+Le tue spoglie mortali resteranno sul luogo della tua morte per un certo
+periodo di tempo, ma dopo questo tempo (30 minuti di tempo reale) il corpo
+si dissolverà nel nulla e con lui tutti i tuoi oggetti in esso conservati,
+per questo dovrai sbrigarti a cercare di recuperarlo se vuoi rientrare in
+possesso di tutti i tuoi averi.
+Solo TU, o un giocatore del tuo gruppo, puoi riprendere gli oggetti dal tuo
+cadavere.
+
+
+SeeAlso: deathtrap

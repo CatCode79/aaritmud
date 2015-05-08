@@ -1,0 +1,35 @@
+Code: flora_item_leccio-02-ghianda-morta
+Level: 1
+Icon:	icons/plant/ghianda-01.png
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.SEED
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name: Una [maroon]Ghianda[close] di [maroon]Leccio[close] 
+Short: una [maroon]ghianda[close]
+Descr:
+Una piccola [maroon]ghianda[close] 
+
+Value:	0
+Weight: 1g
+
+DescrTouch: 
+Una bella ghianda di colore castano rigida e forte. Ha la cupola ancora attaccata che la imbriglia fin quasi la metà.
+DescrHearing:
+Quando la batti suona vuota.
+DescrSixth:
+C'è ben poco da seminare qui.
+
+Extras:
+  Keywords: ghianda buco foro
+  Descr: una ghianda con un forellino laterale
+  DescrSixth: una ghianda di leccio apprezzata da qualche verme
+End
+
+SeedType:
+    Sectors:	SECTOR.PLAIN SECTOR.HOUSE
+    RpgHours:	120
+    WorseEntity:	flora_item_leccio-00-ghianda-marcia
+    NormalEntity:	flora_item_leccio-00-ghianda-marcia
+    BetterEntity:	flora_item_leccio-00-ghianda-marcia
+End

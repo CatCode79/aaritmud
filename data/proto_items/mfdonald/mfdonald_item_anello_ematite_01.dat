@@ -1,0 +1,25 @@
+Code: mfdonald_item_anello_ematite_01
+Level: 1
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.HEMATITE	100%
+Name: L'Anello inconcludente
+Short: un anello lucente
+Descr: Un piccolo anellino lucente, sembra metallico ma pesa troppo poco.
+Value:	0
+Weight: 20g
+
+WearType:
+	Modes:	PART.LEFT_RING_FINGER
+	Modes:	PART.RIGHT_RING_FINGER
+	Modes:	PART.LEFT_MIDDLE_FINGER
+	Modes:	PART.RIGHT_MIDDLE_FINGER
+	Modes:	PART.LEFT_FOREFINGER
+	Modes:	PART.RIGHT_FOREFINGER
+	Modes:	PART.LEFT_THUMB
+	Modes:	PART.RIGHT_THUMB
+	Modes:	PART.LEFT_LITTLE_FINGER
+	Modes:	PART.RIGHT_LITTLE_FINGER
+End
+
+

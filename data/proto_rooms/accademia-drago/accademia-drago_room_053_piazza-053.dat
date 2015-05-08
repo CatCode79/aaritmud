@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_053_piazza-053
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	La Piazza d'Armi
+Short:	la piazza d'armi
+	Descr:
+L'angolo sud ovest della piazza d'armi ospita le sbarre per poter
+legare i cavalli, sotto di esse si trovano delle vasche colme
+d'acqua per permettere alle bestie di abbeverarsi. La piazza
+d'armi prosegue ad est e nord
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 2
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	la piazza d'armi
+	Comment:	ExitStatus	0 0 052 -1
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	la piazza d'armi
+	Comment:	ExitStatus	0 0 046 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

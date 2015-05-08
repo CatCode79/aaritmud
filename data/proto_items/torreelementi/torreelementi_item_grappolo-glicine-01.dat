@@ -1,0 +1,17 @@
+Code: torreelementi_item_grappolo-glicine-01
+Level: 1
+Flags:	FLAG.NO_LOOK_LIST
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.FLOWER	100%
+Name: Un Grappolo Fiorito di [purple]Glicine[close]
+Short: un grappolo fiorito di [purple]glicine[close]
+Long:	$N adagiato in terra
+
+Descr: Un grappolo di fiori di glicine di un bellissimo [purple]fucsia[close]
+DescrTouch: Un molle grappolo di fiori morbidi
+DescrSmell: Un inebriante immagine di un glicine odoroso ti si palesa alla mente
+Value:	0
+Weight: 12g
+
+

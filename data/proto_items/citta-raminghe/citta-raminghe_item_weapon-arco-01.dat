@@ -1,0 +1,23 @@
+Code: citta-raminghe_item_weapon-arco-01
+Level: 3
+Entitype: ENTITYPE.WEAPON  
+MaterialPercentages:	MATERIAL.TROPICALWOOD	70
+MaterialPercentages:	MATERIAL.GUT	30
+Name: [crimson]Un Arco[close]
+Short: [crimson]un arco da combattimento di notevoli dimensioni[close]
+
+Descr: Un enorme arco ricurvo di legno. Un'arma semplice, ma molto potente in mani esperte.
+DescrSixth: Ne intuisci la potenza. 
+
+WearType:
+        Modes: PART.WIELD
+End
+
+
+WeaponType:
+        Category: WEAPON.BOW
+	Damage:	1D4+0
+        Flags: WEAPONFLAG.ONE_HAND 
+End
+Value:	0
+Weight: 1kg

@@ -1,0 +1,6 @@
+FunName:   social_sing
+Type:      CMDTYPE.SOCIAL
+Trust:     TRUST.PLAYER
+Position:  POSITION.REST
+Flags:     CMDFLAG.NONE
+NoRaces:   RACE.NONE

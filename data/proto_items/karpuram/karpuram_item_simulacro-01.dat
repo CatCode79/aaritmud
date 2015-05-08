@@ -1,0 +1,25 @@
+Code:	karpuram_item_simulacro-01
+Level:	4
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.METAL	100
+Sex:	SEX.MALE
+Name:	Il Simulacro di Kirys
+Short:	il [violet]s[close]imulacro [violet]e[close]lfico
+Long:	$N a grandezza naturale
+
+Descr:
+L'inesorabile logorio del tempo ha opacizzato ogni parte visibile della statua.
+La raffigurazione stilizzata è quella di elfo in posizione di comando che manda le sue truppe all'assalto.
+
+DescrTouch:
+Nella sua raffigurazione stilizzata, la statua rappresenta un elfo in posizione di comando che manda le sue truppe all'assalto.
+Le articolazioni risultano snodabili ma il materiale metallico con cui è realizzata rendono difficolosa qualunque operazione.
+
+DescrSixth:
+Curioso che non vi sia nessuna iscrizione visibile.
+
+Value:	0
+Weight:	420kg
+
+

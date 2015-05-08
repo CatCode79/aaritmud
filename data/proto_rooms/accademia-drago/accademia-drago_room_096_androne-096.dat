@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_096_androne-096
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	L'Androne [mediumblue]blu[close]
+Short:	l'androne [mediumblue]blu[close]
+	Descr:
+Ti addentri in un androne e senti come un'energia sfrigolarti
+intorno, qualche piccola scintilla scoppietta di tanto in tanto
+sulle pareti correndo su barre in metallo blu che formano un
+circuito lungo tutto il perimetro. A intervalli regolari due
+filamenti metallici escono dalle barre e tra di loro si genera un
+fulmine che tiene illuminato tutto l'androne. A nord si apre una
+porta mentre a sud puoi vedere la piazza d'armi.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 0
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	un corridoio
+	Comment:	ExitStatus	1 0 097 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	la piazza d'armi
+	Comment:	ExitStatus	0 0 050 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

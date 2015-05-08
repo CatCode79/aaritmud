@@ -1,0 +1,52 @@
+Code: villaggio-zingaro_item_bisteccona-pesce
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.FISH	100%
+Name:	bisteccona-pesce levigato
+Short:	bisteccona-pesce
+Long:	$N è qui
+
+Descr:
+Un
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Value:	0
+Weight: 5kg
+
+Extras:
+	Keywords: chiave
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+FoodType:
+	Comment:	cibo
+	Animal:	80
+	Vegetable:	20
+	CookingDamage:	20
+	Hours:	0
+	EntityMessage:	Prendi $N fra le $hands e cerchi di non ungerti mentre mangi.	
+	TargetMessage:	Ora c'è una sola via d'uscita... $n t'ha mangiato.
+	OthersMessage:	$n prende fra le $hands $N cercando di non ungersi mentre lo mangia.
+End

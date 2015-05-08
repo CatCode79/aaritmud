@@ -1,0 +1,20 @@
+Code: torreelementi_item_spore-faura
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.SPORE	100%
+Name:	Le spore di Faura Malevolo
+Short:	spore di fungo
+Long:	una striscia con $N.
+
+Descr:
+Spore minuscole dalle quali non potra venire nulla di buono.
+DescrTouch: 
+Impalpabile polvere
+DescrSmell: 
+Muffa invasiva
+
+Value:	0
+Weight: 1g
+
+

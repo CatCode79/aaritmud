@@ -1,0 +1,33 @@
+Code: cimitero_room_collina-a10
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Il Salone di Villa Akelay
+Short: all'interno della villa
+
+Descr:
+Al suo interno la villa mostra solo le mura perimetrali e macerie. Qualcosa o qualcuno
+si è accanito con brutalità scavando e strappando tutto ciò che si poteva artigliare.
+Persino i muri interni sono stati divelti ed abbattuti. Rimane come monumento alla
+distruzione una balaustra in pietra massiccia conficcata nella parete nord ove si è
+aperto uno stretto squarcio.
+
+DescrSmell: 
+La zona collinare è avvolta dagli abbracci languidi dell'odore di spezie e decomposizione.
+Per alcuni tratti si coglie però una scia che rimane la stessa per un certo tratto.
+DescrHearing:
+Il sibilo del vento produce un lugubre suono cupo sostenuto negli effetti lungo le
+lapidi frastagliate.
+
+Width:	6m
+Depth:	6m
+Height: 3m
+
+
+Exits:
+	Direction: DIR.NORTH
+	Descr: Attraverso uno squarcio
+End
+Exits:
+	Direction: DIR.SOUTHEAST
+	Descr: Il giardino antistante la villa
+End

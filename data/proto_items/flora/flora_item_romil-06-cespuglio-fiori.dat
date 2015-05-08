@@ -1,0 +1,27 @@
+Code: flora_item_romil-06-cespuglio-fiori
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name: Un Fitto [white]cespuglio[close] in [white]Fiore[close] di [white]Roselline[close]
+Short: un fitto [white]cespuglio[close] in [white]fiore[close] di [white]roselline[close]
+Long: $N tutto irto di spine
+
+Descr:
+Una cespuglio spinoso piccino dai rametti verdi ed irti di spine.
+
+DescrTouch: 
+Una rigoglio di spine s'irradiano sicure lungo tutto il cespuglio.
+
+Value:	0
+Weight: 22g
+
+PlantType:
+    Sectors:	SECTOR.PLAIN SECTOR.HOUSE
+    RpgHours:	01
+    WorseEntity:	flora_item_romil-07-cespuglio-semi
+    NormalEntity:	flora_item_romil-07-cespuglio-semi
+    BetterEntity:	flora_item_romil-07-cespuglio-semi
+    Contents:	flora_item_romil-01-seme-vivo	4
+End

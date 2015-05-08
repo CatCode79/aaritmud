@@ -1,0 +1,33 @@
+Code: torreelementi_item_fontana_01
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.MARBLE	100%
+Name: La [thistle]Fontana [close]Ottagonale
+Short: la [thistle]fontana[close] ottagonale
+Long:	$N riempie di zampilli lo spazio soprastante
+
+Flags: FLAG.NO_GET
+
+Descr:
+La fontana poggia su di un basamento circolare lievemente rialzato. È costituita da un
+unico blocco di pietra di forma ottagonale scavato all'interno. Uno de lati della
+fontana è ribassato a consentire il tracimare dell'acqua in direzione opposta alla torre.
+
+DescrTouch: 
+Si tratta effettivamente di un unico blocco di pietra scavato dell'altezza di un paio di cubiti
+DescrSixth:
+Un bel bagno potrebbe essere l'occasione per capire come riescano tutti quegli zampilli
+a lanciarsi così in alto senza ondeggiare. 
+
+Value:	0
+Weight: 5000kg
+
+Extras:
+  Keywords: cubito cubiti
+  Descr: saranno sei o sette palmi
+  DescrSixth: un cubito son circa 44 centimetri
+End
+
+
+

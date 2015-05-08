@@ -1,0 +1,6 @@
+FunName:   command_examine
+Type:      CMDTYPE.INFORMATION
+Trust:     TRUST.PLAYER
+Position:  POSITION.REST
+Flags:     CMDFLAG.GDR
+MiniHelp:  Permette di esaminare da vicino un oggetto, un mob o un altro giocatore.

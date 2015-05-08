@@ -1,0 +1,32 @@
+Code: ikea_item_scrigno
+Level: 1
+Entitype:	ENTITYPE.CONTAINER
+MaterialPercentages:	MATERIAL.LEAD	98
+MaterialPercentages:	MATERIAL.SILVER	2
+Sex:	SEX.MALE
+Name:	Un Piccolo Scrigno
+Short:	un piccolo scrigno
+Long:	$N color argento.
+
+Descr:
+Un piccolo scrigno argenteo cesellato a rilievo con decori floreali.
+DescrTouch: 
+Un piccolo scrigno metallico cesellato a rilievo con decori casuali.
+
+Value:	0
+Weight: 175g
+
+Extras:
+	Keywords: cesellato cesellatura
+	Descr:
+	sulla parte centrale del coperchio un anemone molto stilizzato.
+	DescrTouch:
+	sulla parte centrale del coperchio i decori son maggiormente in risalto.
+End
+
+ContainerType:
+	Flags:	CONTAINER.CLOSED CONTAINER.CLOSABLE
+        MaxWeight: 700g
+End
+
+

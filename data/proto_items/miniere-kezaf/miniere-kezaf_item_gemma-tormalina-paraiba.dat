@@ -1,0 +1,20 @@
+Code: miniere-kezaf_item_gemma-tormalina-paraiba
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_tourmalineparaiba.png
+Name:	Una [green]Tor[blue]ma[green]li[blue]na[close] [green]Para[blue]iba[close] Grezza
+Short:	una [green]g[blue]e[green]m[blue]m[green]a[close] [green]verde[close] e [blue]blu[close] da lavorare
+Long:	$N sta qui
+
+Descr:
+Quando la luce colpisce la gemma grezza, ecco che riflessi verdi e blu emergono dal corpo centrale rivelando uno stelo cristallino tozzo massiccio.
+
+Value:	0
+Weight: 170g
+
+
+
+

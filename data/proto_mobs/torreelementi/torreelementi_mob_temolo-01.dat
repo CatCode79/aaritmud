@@ -1,0 +1,48 @@
+Code:	torreelementi_mob_temolo-01
+Level:	1
+MaxGlobalQuantity:	5
+Sex:	SEX.MALE
+Race:	RACE.FISH
+Name:	Un Pesce Thymallus
+Short:	un pescetto insignificante
+Long:	$N si muove senza pace
+
+Descr:
+Un minuscolo pescetto dal corpo affusolato con la $SKIN argentea con piccoli punti neri. Quello che spicca è però la pinna dorsale eccessivamente vistosa.
+
+DescrTouch: 
+Un pesce, vivo.. viscido e con denti piccini e poco efficaci. Pinna dorsale molle molle e molta voglia di allontanarsi da te.
+DescrSmell: 
+L'acqua porta con sé i suoi ormoni e ti par di capire che stai disturbando un rito d'accoppiamento...
+DescrSixth:
+Il fatto che abbia un pinna dorsale così ampia e vistosa induce a ritenere che sia un maschio oppure sia un suicida alla ricerca di un predatore miope.
+
+Weight: 139g
+Height: 13cm
+
+Behaviour:
+	WanderDirection:	0
+	WanderAtExitsFlags:	DIR.EAST DIR.WEST DIR.NORTH DIR.SOUTH DIR.NORTHEAST DIR.NORTHWEST DIR.SOUTHWEST DIR.SOUTHEAST
+	WanderAtExits:	25
+	RandomDo:	5
+	RandomDoInputs:	emote muove le branchie al tuo indirizzo in modo interrogativo.
+End
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 3
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

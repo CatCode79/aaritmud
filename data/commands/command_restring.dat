@@ -1,0 +1,5 @@
+FunName:  command_restring
+Type:     CMDTYPE.ADMIN
+Trust:    TRUST.MASTER
+Position: POSITION.DEAD
+MiniHelp: Serve a rinominare nome, short e descrizioni relativi ad un'oggetto

@@ -1,0 +1,22 @@
+Code: ikea_item_uovo-finto
+Level: 1
+MaxGlobalQuantity:	100
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.SOFTWOOD	100
+Sex:	SEX.MALE
+Flags:	FLAG.RANDOMIZABLE
+Name:	Un Ovetto di Legno
+Short:	un uovo finto
+Long:	$N è rotolato laggiù.
+
+Descr:
+Un Uovo di legno per rammendare calzini
+DescrTouch: 
+Un oggetto ovoidale di medie dimensioni e materiale legnoso.
+DescrSmell: 
+Un oggetto di legno lavorato di recente.
+
+Value:	0
+Weight: 17g
+
+

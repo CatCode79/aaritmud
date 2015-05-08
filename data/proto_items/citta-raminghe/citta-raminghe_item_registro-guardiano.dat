@@ -1,0 +1,108 @@
+Comment: E' il registro dell'elfo guardiano che si trova all'ingresso della città nella room Casa del Guardiano. Vi segna il nome dei pg che passano da lì e qualche altra cosa.
+
+Code: citta-raminghe_item_registro-guardiano
+Level: 1
+MaxGlobalQuantity:	1
+Sex: SEX.MALE
+Entitype: ENTITYPE.READABLE
+MaterialPercentages:	MATERIAL.PAPER	90
+MaterialPercentages:	MATERIAL.LEATHER	10
+Flags: FLAG.NO_GET
+Name: Il Registro della Città delle Raminghe
+Short: [gold]un registro[close]
+Long: $N poggiato sullo scrittoio
+
+Descr:
+Un registro voluminoso dalle pagine in pergamena assottigliate dal tempo. E' stato qui scritto il nome dei viandanti
+ di passaggio in segno di ospitalità. 
+DescrTouch:
+La copertina di consistenza dura contrasta con le pagine interne che il tempo e l'uso hanno reso sottili e quasi trasparenti. Necessita una particolare cautela nello sfogliarle per evitare che possano strapparsi con un brusco movimento della mano.
+
+Value:	0
+Weight: 5kg
+
+ReadableType:
+	Title: Il Registro dei Visitatori Raminghi
+	Author: Elfo Guardiano
+	Summary: Il nome di coloro che  attraversano questi luoghi per sostarvi o anche solamente di passaggio, 
+                 verrà posto su fogli di pergamena in segno di ospitalità.
+	Language: LANGUAGE.COMMON
+	Flags: READABLE.NUMBERS
+	NumberDecorationLeft:  *><*
+	NumberDecorationRight: *><*
+	VisualWidth:          300px
+	VisualHeight:         400px
+	Padding:              15px
+	BorderTop: 3px outset silver
+	BorderRight: 3px outset silver
+	BorderBottom: 3px outset silver
+	BorderLeft: 3px outset silver
+	BorderInside: 1px solid silver
+        Pages: 
+<pre class="asciiart">
+.               [gold]Il Registro 
+.                         dei 
+.                   Visitatori Raminghi[close] 
+.     [deeppink]   +++++++++++               
+.               ++++++.    .+++++            
+.             ++++++           :+++          
+.            ++~ ++              +++         
+.           ++, .++    ++         .++        
+.          ++=  7++                .++       
+.         =++    ++.       .+++++~  ++,      
+.         ++      +++    +++++++++++ ++      
+.         ++       +++++++.       +++++      
+.         ++          .+++         .+++      
+.         ++            ++.   ++    +++      
+.         +++    +++    ++.   ++    ++,      
+.          +++          ++         .++       
+.           ++.        ++.        .++        
+.            +++++  .+++,        +++         
+.             ++++++++.        :+++          
+.               +++++,     .+++++            
+.                  +++++++++++ [close]             
+</pre>
+                 
+	Pages: 
+          [red]Nome[close]   [red]razza[close] 
+        
+         [gold]Entropy[close]     drow
+         [gold]Taklita[close]     tuareg
+         [gold]Wisdul[close]      mezzelfo
+         Pages: 
+          [red]Nome[close]   [red]razza[close] 
+        Pages: 
+          [red]Nome[close]   [red]razza[close] 
+        Pages: 
+          [red]Nome[close]   [red]razza[close] 
+        Pages: 
+<pre class="asciiart">
+.                    [gold] ......                 
+.                  ............              
+.                 ....      ....             
+.                ...          ...            
+.                ..  ......   ...           
+.                ..   ..   ...           
+.                ...      ...  ..           
+.                ....    ...   ...           
+.                  ........    ...           
+.                    ....*     ...            
+.                           ....             
+.         ....................              
+.       .....     ...........    ......      
+.      ....          .......   ..........    
+.     ...    .....   .....   ...      ...   
+.     ... *........   ....  ...        ...  
+.     ..   ...    ...   ...  ...   ...   ..  
+.     ..   .....   ..   ...   ...  ...   ..  
+.     ...   ....   ..    ...   ......   ...  
+.      ...        ...    ....          ....  
+.       ....~  .....      .....       ....   
+.        ,........          ............     
+.                              ......[close]
+.           [gold]Viandanti inquieti,
+.        che attraversate raminghi questi luoghi,
+.       che la curiosità vi spinga oltre il limite 
+.         del visibile e del già noto.[close]
+</pre>
+End

@@ -1,0 +1,33 @@
+Code: villaggio-zingaro_item_bustina-semi-pomodoro
+
+Level:	1
+Entitype: ENTITYPE.CONTAINER
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.PAPER 100%
+Name:	Una [seashell]Bustina[close] di Semi di Pomodoro
+Short:	una [seashell]bustina[close] di carta
+Long:	$N è posata qui.
+
+Descr:
+Una bustina di carta rettangolare con un grosso pomodoro invitante disegnato. Ad una delle estremità un lembo di carta le permette di rimanete ben sigillata dopo una eventuale apertura. Su retro è stampato qualcosa, forse delle avvertenze.
+DescrTouch:
+La passi tra le $hands #self.inventory_qty > 2#tentando di capire cosa contenga.#tentando di capire cosa contenga ma sembra vuota. 
+DescrHearing:
+La scuoti e #self.inventory_qty > 2#ne senti frusciare il contenuto#non senti proprio nulla, probabilmente è vuota o quasi.
+DescrSixth:
+L'evocativa immagine di un pomodoro che riporta sul davanti ti fa pensare che possa contenere dei semi di..pomodoro!
+
+Value:	0
+Weight: 2g
+
+Extras:
+	Keywords: qualcosa avvertenze retro
+	Descr:
+	Semina: primavera.
+	Esposizione: pieno sole.
+	Raccolta: estate.
+End
+
+ContainerType:
+       MaxWeight: 40g
+End

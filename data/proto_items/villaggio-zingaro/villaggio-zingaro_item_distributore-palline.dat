@@ -1,0 +1,36 @@
+Code: villaggio-zingaro_item_distributore-palline
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GLASS 21%
+MaterialPercentages:	MATERIAL.METAL 79%
+Name:	Un Distributore di Palline
+Short:	un distributore di palline
+Long:	$N attende le tue monete.
+
+Descr:
+Una [aliceblue]sfera[close] trasparente piena di [aliceblue]palline[close] è infissa su di un [firebrick]piedistallo[close] metallico.
+Un vano nella parte bassa accoglie la pallina acquistata dopo aver inserito la moneta nell'apposita feritoia verticale.
+DescrTouch: 
+Giri a vuoto la manovella per l'accettazione delle monete.
+DescrSixth:
+Ti scoccia un po' dover lasciare al caso la scelta dell'acquisto.
+DescrTaste:
+no_send
+
+Weight: 98kg
+
+Extras:
+	Keywords: sfera palline
+	Descr:
+	Una miriade di pallina trasparenti, all'interno premi più o meno allettanti.
+	DescrSixth:
+	Ti attardi a scegliere la tua pallina preferita ma invano, la scelta non sarà tua.
+End
+
+Shop:
+	Types:	SHOP.DISPENSER
+        ProtoStorages:	villaggio-zingaro_item_distributore-palline
+	Buyables:	villaggio-zingaro_item_pallina 100% 100
+End

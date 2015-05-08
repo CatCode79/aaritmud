@@ -1,0 +1,28 @@
+Code: ikea_item_pettine
+
+Level:	1
+Entitype:	ENTITYPE.NONE
+MaxGlobalQuantity: 0
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.IVORY	100%
+Name: 	Un Pettine d'Avorio
+Short:	un pettine
+Long:	$N è qui ben ripulito.
+
+Descr: 
+Un semplice pettine d'avorio di comune fattura con semplici intarsi sul manico, 
+la parte superiore è costituita da sette sottili denti dello stesso materiale.
+DescrTouch:
+Levigato e semplice, avverti appena le cesellature sul manico passandovi le dita.
+DescrSixth:
+Qualcosa non ti convince, non pare proprio vero avorio.
+
+Value:	76
+Weight: 57g
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

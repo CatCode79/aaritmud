@@ -1,0 +1,6 @@
+FunName:  command_destroy
+Type:     CMDTYPE.ITEM
+Trust:    TRUST.PLAYER
+Position: POSITION.REST
+Flags:    CMDFLAG.GDR CMDFLAG.INTERACT
+MiniHelp: Serve a distruggere un oggetto.

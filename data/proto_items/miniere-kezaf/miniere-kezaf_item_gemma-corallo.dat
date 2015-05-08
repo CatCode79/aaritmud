@@ -1,0 +1,25 @@
+Code: miniere-kezaf_item_gemma-corallo
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_coral.png
+Name:	Un Rametto di Corallo
+Short:	un bastoncino rosso frastagliato
+Long:	$N si nota con facilità
+
+Descr:
+Un ramettino rosso di [coral]corallo[close] si nota per la sua conforme rotondezza
+e per l'acceso colore rossastro. Una moltitudine di piccoli puntini biancastri ne 
+ricopre la superficie per intero caratterizzandone la colorazione generale. 
+
+DescrSixth:
+Se ben tagliata potrebbe accrescere di molto il suo valore.
+
+Value:	0
+Weight: 400g
+
+
+
+

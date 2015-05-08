@@ -1,0 +1,29 @@
+Code: carrozzone-zingaro_item_cavigliera
+Level: 1
+Entitype: ENTITYPE.WEAR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.GOLD 100%
+Name:	Una [gold]Cavigliera Dorata[close]
+Short:	una [gold]cavigliera[close]
+Long:	C'è $N pregevolissima qui.
+
+Descr:
+Una semplice [gold]cavigliera metallica[close] con cinque piccoli ciondoli distribuiti su tutta
+la lunghezza.
+DescrTouch:
+Piuttosto leggera e di buona fattura, la chiusura è finemente ornata da
+una foglia d'acanto in rilievo.
+DescrSixth:
+Il tuo intuito ti porta a ritenere che la cavigliera sia un po' troppo
+leggera per essere genuinamente d'oro puro.
+DescrHearing:
+Scuotendola tintinna allegra.
+
+Value:	320
+Weight: 4g
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+	Modes:	PART.LEFT_ANKLE
+	Modes:	PART.RIGHT_ANKLE
+End

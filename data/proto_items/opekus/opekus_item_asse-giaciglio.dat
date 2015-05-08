@@ -1,0 +1,31 @@
+Code:	opekus_item_asse-giaciglio
+Level:	1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.WOOD	100%
+Name:	Un'Asse per Dormire
+Short:	un'asse per dormire
+Long:	$N incatenata al muro
+
+KeywordsShort: asse assi giaciglio
+KeywordsName: asse assi giaciglio
+
+Flags:	FLAG.NO_GET FLAG.NO_LOOK_LIST
+
+Descr:
+Una specie di giaciglio sospeso e piantato nel muro.
+Un'asse di legno lunga e stretta, il lato lungo incassato nella parete;
+ai due estremi sono imperniate catene che arrivano fino al muro.
+
+DescrTouch:
+Una specie di giaciglio sospeso e piantato nel muro.
+Un'asse di legno lunga e stretta, il lato lungo incassato nella parete;
+ai due estremi sono imperniate delle catene tese che arrivano fino al muro.
+
+Value:	420
+Weight: 50kg
+
+ContainerType:
+	Flags:	CONTAINER.SECRET 
+	MaxWeight:	110kg
+End

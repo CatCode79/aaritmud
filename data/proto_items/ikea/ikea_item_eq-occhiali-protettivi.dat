@@ -1,0 +1,31 @@
+Code: ikea_item_eq-occhiali-protettivi
+Level: 1
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+Flags:	FLAG.RANDOMIZABLE
+MaterialPercentages:	MATERIAL.GLASS	60%
+MaterialPercentages:	MATERIAL.METAL	30%
+MaterialPercentages:	MATERIAL.UNKNOWN	10%
+Name:	Un Paio d'Occhiali Protettvi
+Short:	un paio d'occhiali protettivi
+Long:	$N con le stanghette richiuse
+
+Descr:
+Un paio d'occhiali protettivi avvolgenti con schermo frontale trasparente ma protezioni decisamente opache. 
+DescrSixth:
+Un ottimo sistema per non avere visione periferica procurandosi dei gran bozzi urtando di tutto. In alternativa possono salvare gli occhi di chi coltiva passioni alchemiche o sbuccia cipolle.
+DescrTouch: 
+Un paio d'occhiali protettivi avvolgenti con protezioni laterali morbide.
+
+Value:	0
+Weight: 1710g
+
+WearType:
+	Modes: PART.LEFT_EYE PART.RIGHT_EYE
+	EntityWearMessage:	Inforchi $N.
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	$n inforca $N.
+	EntityRemoveMessage:	Ti togli $N.
+	TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+	OthersRemoveMessage:	$n si toglie $N.
+End

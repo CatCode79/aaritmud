@@ -1,0 +1,91 @@
+Code:	villaggio-zingaro_mob_ragno-grotta
+Level:	1
+MaxGlobalQuantity: 1
+Sex:	SEX.MALE
+Icon:	icons/mob/spider.png
+Race:	RACE.SPIDER
+Flags:	FLAG.AGGRESSIVE
+Name:	Una Tegenaria Parietina
+Short:	un grosso [sienna]r[close][lightslategray]a[close][sienna]g[close][lightslategray]n[close][sienna]o[close]
+Long:	$N 
+
+Descr:
+Un ragno grigio-brunastro dalle lunghissime zampe ricoperte di setole. L'addome peloso è tondeggiante e sulla testa si scorgono otto occhietti neri e due prominenti mandibole.
+DescrTouch: 
+Pur essendo peloso non ti sembra il caso di accarezzarlo come si potrebbe fare con un micino.
+DescrSixth:
+Ti piacerebbe sapere se è velenoso oppure no.
+DescrHearing:
+Nonostante il continuo movimento della zampe è perfettamente silenzioso.
+
+Weight: 10g
+Height: 10cm
+
+BirthDay: 15
+BirthMonth: MONTH.ONE
+Age: 2
+
+Behaviour:
+	LookPlayer:	0
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	LookEquipment:	0
+	SmellPlayer:	0
+	ListenMob:	0
+	TouchItem:	0
+	IntuitionAtRacesFlags:	RACE.NONE
+	IntuitionAtRaces:	0
+	TasteAtEntitypesFlags:	ENTITYPE.NONE
+	TasteAtEntitypes:	0
+	WanderDirection:	0
+	WanderExit:	45
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	0
+	RandomDoInputs:	emote zampetta senza sosta.
+End
+Aggressivenesses: emote dilata le mandibole minaccios$o.
+Aggressivenesses: emote zampetta velocemente verso di te con aria ostile.
+
+
+MaxLife:	120
+Life:		120
+MaxMana:	0
+Mana:		0
+MaxVigour:	0
+Vigour:		0
+
+Strength:	10
+Endurance:	10
+Agility:	15
+Speed:		10
+Intelligence:	10
+Willpower:	10
+Personality:	10
+Luck:		15
+
+Walker:
+	GoVerbYou:	Zampetti
+	GoVerbIt:	zampetta
+	ComeVerbIt:	giunge
+	RunVerbYou:	Galoppi
+	RunVerbIt:	galoppa
+        RunnedVerbIt:	sopraggiunge
+End

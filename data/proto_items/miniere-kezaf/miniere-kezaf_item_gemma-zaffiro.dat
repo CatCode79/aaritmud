@@ -1,0 +1,23 @@
+Code: miniere-kezaf_item_gemma-zaffiro
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_sapphireblue.png
+Name:	Uno [blue]Zaffiro[close] Grezzo
+Short:	un [blue]cristallo[close] [blue]blu[close] intenso grezzo
+Long:	$N sta qui
+
+Descr:
+Una pesante massa minerale tutta rugosa scrziata d'argento a coprire il blu saturo che cerca di emergere in tutta la sua cromatica forza.
+
+DescrSixth:
+Pare sia in grado di conferire un maggior livello di saggezza.
+
+Value:	0
+Weight: 240g
+
+
+
+

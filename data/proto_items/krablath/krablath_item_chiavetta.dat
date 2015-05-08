@@ -1,0 +1,22 @@
+Code: krablath_item_chiavetta
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.KEY
+Flags: 	FLAG.NO_LOOK_LIST
+Sex:	SEX.FEMALE	
+MaterialPercentages:	MATERIAL.BRASS	90%
+MaterialPercentages:	MATERIAL.COTTON	10%
+Name:	[whitesmoke]La Chiavetta dell'Armadietto[close]
+Short:	una [whitesmoke]chiavetta[close]
+Long:	$N sta appesa alla sua nappina.
+
+Descr:
+Un graziosa [whitesmoke]chiavetta[close] alla quale per vezzo è stata attaccata una [cornflowerblue]nappina[close].
+DescrTouch: 
+Ti soffermi a giocherellare con i fili della nappina.
+DescrSixth:
+Beh, è una chiave, di certo qualcosa aprirà.
+
+Value:	0
+Weight: 8g
+

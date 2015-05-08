@@ -1,0 +1,78 @@
+Code:	accademia-drago_mob_scherzo-natura
+Level:	03
+Sex:	SEX.MALE
+Race:	RACE.MONSTER
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Uno Scherzo Della Natura
+Short:	un essere deforme
+Long:	$N si dimena emettendo suoni incomprensibili.
+
+Descr:
+un essere ripugnante, una puzza tremenda, ogni pezzo del corpo di
+questa  creatura  sembra  esser stato agganciato a casaccio agli
+altri...  sicuramente  però  i quattro tentacoli che ha al posto
+delle braccia non sono affatto rassicuranti...
+
+
+Weight: 189kg
+Height: 160cm
+
+BirthDay: 22
+BirthMonth: MONTH.TWO
+Age: 9
+
+Behaviour:
+	LookPlayer:	0
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+Comment:
+2|32|64|32768|262144|67108864 128|2048|32768|33554432 -1000 B 5
+52 -15 -16 1000 1d3+30
+-1 0 195 21
+8 8 3 2|4|8|16|32|64|128 1|256|512|1024|2048|4096|8192|16384|32768|65536|131072 0
+
+
+
+
+
+
+
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

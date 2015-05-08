@@ -1,0 +1,91 @@
+Code: villaggio-zingaro_item_book-indizi-cupola
+Level: 1
+MaxGlobalQuantity:	1
+Entitype:	ENTITYPE.READABLE
+Flags:	FLAG.EXTRACT_ON_QUIT
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.PAPER 100%
+Name:	Il Diario di Tefmeth
+Short:	un piccolo libercolo
+Long:	$N consunto e sdrucito
+
+Descr:
+Un libercolo sdrucito e consunto dalla copertina illeggibile ed il dorso tutto ingiallito; la rilegatura ormai cedevole è tenuta insieme da un pezzo di spago rosicchiato.
+DescrSixth:
+Un libercolo che non sembra così antico ma solo maltrattato lungamente.
+DescrTouch:
+Un libricino dalla vellutata copertina consunta; non contiene molte pagine, ma quelle poche son tutte spiegazzate.
+
+Value:	0
+Weight: 77g
+
+ReadableType:
+   Title: Qualcosa a caso
+   Author: Tefmeth
+   Summary:
+       Sommario
+   Language: LANGUAGE.COMMON
+   Flags: READABLE.NUMBERS
+   NumberDecorationLeft: **
+   NumberDecorationRight: **
+   VisualWidth: 250px
+   VisualHeight: 350px
+   Padding: 15px
+   BorderTop: 3px outset burlywood
+   BorderRight: 3px outset burlywood
+   BorderBottom: 3px outset burlywood
+   BorderLeft: 3px outset burlywood
+   BorderInside: 1px solid rosybrown
+   Pages:
+	[darkslateblue]-  - -- D|ar o - ----  -- --[close]
+   Pages:
+	Caro diario, oggi son andata con mamma a raccogliere delle erbe nel grande prato dietro la stalla. 
+Mi sono divertita moltissimo c'erano dei cavalloni morbidosi e uno piccino piccino tutto 
+arruffato che lo stalliere mi ha lasciato cavalcare.
+La mamma ha raccolto delle erbe per la vecchia strega del carrozzone, mi fa una pauuura e poi puzza 
+sempre di muffa...CHE SCHIFO!
+   Pages:
+	Oggi siamo andati a trovare la nonna, lei è vecchissima e mi racconta sempre tante storie..oggi mi 
+ha raccontato del bosco che c'è nel centro del villaggio, dove la mamma non mi lascia mai entrare, ma quando era piccola
+lei ci andava sempre!
+Mi ha detto che al centro del bosco ci sono un sacco di [olive]spine[close] che pungono e ti fanno male alle mani se non ti metti la crema magica. 
+Non vedo l'ora di essere grande per poter andare nel bosco!
+   Pages:
+	La signora locandiera mi ha regalato dei pastelli colorati siiiiii!
+<pre class="asciiart">
+
+
+                
+ [red]       ,.`,            [yellow]   \    /     [close]
+ [red]       '.@'`.          [yellow]    \__/      [close]
+ [green]        ,[red] `'           [yellow] ___/  \___   [close]
+ [green]      \'               [yellow]    \__/      [close]
+ [green]     \/                [yellow]    /  \      [close]
+ [green]      |/               [yellow]   /    \     [close]
+
+
+ 
+[orange]      *       [close][blue]    ______   [close]
+[orange]       *      [close][blue]   /  __  \  [close]
+[orange]   *          [close][blue]   | / _| |  [close]
+[orange]      *       [close][blue]   | \____/  [close]
+[orange]          *   [close][blue]   \_        [close]    
+</pre>
+    Pages:
+	~*---*~<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	~^---^~
+End
+
+ExtractTimeout:
+        Comment:	i minuti sono RPG (60  <- 1h : 720 <- 12h)
+        Minutes:	3600
+        EntityMessage: All'improvviso ti senti cedere e diventi polvere.
+        OthersMessage: All'improvviso $N si sgretola e diventa polvere.
+End

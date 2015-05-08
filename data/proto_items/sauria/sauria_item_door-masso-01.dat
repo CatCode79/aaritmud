@@ -1,0 +1,38 @@
+Code: sauria_item_door-masso-01
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.STONE	100%
+Name:	Un Masso Eroso dal Vento
+Short:	un pietrone
+Long:	$N poggia per il lungo qui a terra
+
+KeywordsShort:	masso massi pietrone pietra pietre
+KeywordsName:	masso massi pietrone pietra pietre
+
+Descr:
+Un masso di dimensioni consistenti
+DescrTouch: 
+Un masso liscio e di dimensioni consistenti
+
+Value:	0
+Weight: 35kg
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Apri $N usando ambo le $hands.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N usando ambo le $hands.
+	EntityCloseMessage:	Accompagni $N fino a chiuderl$o.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n accompagna $N fino a chiusura.
+	DestinationOpenMessage: $N viene apert$o dal lato opposto.
+	DestinationCloseMessage: $N viene chius$o dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE DOOR.SECRET DOOR.NO_USE_DIR
+	ResetCloseMessage: $N si ribalta su un lato occludendo il passaggio.
+	ResetOpenMessage: $N si ribalta su un lato rivelando il passaggio.
+End
+
+

@@ -1,0 +1,28 @@
+Code: antro-drow_room_grotta-05
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: Una Grotta Naturale
+Short: una grotta naturale
+
+Descr:
+La via sotterranea continua in lunghi arzigogoli e cambi di direzione e qui si biforca. Due le via che prende la grotta naturale; verso nord e verso ovest. In direzione sud invece c'è un accesso tuttaltro che naturale realizzato lavorando e scolpendo pietre portate qui appositamente.
+
+DescrTouch:
+Un filo di aria ti investe lieve proseguendo poi in direzione nord.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.NORTH
+	Descr: La grotta prosegue
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: La grotta prosegue
+End
+Exits:
+	Direction: DIR.SOUTHWEST
+	Descr: Un atrio
+End

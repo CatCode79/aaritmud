@@ -1,0 +1,29 @@
+Code: karpuram_item_canfora_seme_02
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.SEED
+MaterialPercentages:	MATERIAL.SEED	100
+
+Sex:	SEX.MALE
+Name: Un piccolo [khaki]Seme[close] di [khaki]Canfora[close]
+Short: un piccolo [khaki]seme[close] tondeggiante
+Descr:
+Una piccola pallina marroncina dall'aria innocua, di sicura origine vegetale
+
+DescrTouch:
+una pallina dura che però cede se pigi troppo
+DescrSmell: 
+non ha odore alcuno, forse un vago sentore di vaniglia?
+DescrSixth:
+questo seme però è buono solo come antitarme e non come semente
+
+Value:	0
+Weight: 1g
+
+Extras:
+  Keywords: pallina 
+  Descr: un seme di qualche tipo di pianta
+  DescrSixth: un seme di canfora ormai defunto
+End
+
+

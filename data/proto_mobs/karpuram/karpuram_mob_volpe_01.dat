@@ -1,0 +1,61 @@
+Code: karpuram_mob_volpe_01
+Level: 1
+MaxGlobalQuantity:	5
+Sex:	SEX.FEMALE
+Race:	RACE.FOX
+Name: Una Giovane Volpe
+Short: una volpe
+
+Descr:
+Il suo grazioso musetto e le orecchie leggermente tonde alla base, sono le prime
+cose che noti di questa giovane volpe. Il suo [orangered]manto[close] è 
+principalmente di color arancione scuro, se non fosse per la punta della coda 
+e per le zampette di un bianco intenso.
+
+
+
+Weight: 10kg
+Height: 50cm
+
+Behaviour:
+	LookPlayer:	0
+	LookMob:	0
+	LookItem:	40
+	LookAtRacesFlags:	RACE.NONE
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	10
+	WanderDirection:	0
+	WanderExit:	50
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 1
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

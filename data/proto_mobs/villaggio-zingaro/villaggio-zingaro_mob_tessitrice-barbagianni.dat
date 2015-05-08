@@ -1,0 +1,79 @@
+Comment: 
+E questa è la sua trasformazione notturna
+
+Code:	villaggio-zingaro_mob_tessitrice-barbagianni
+Level:	1
+Sex:	SEX.FEMALE
+Race:	RACE.BIRD
+Name:	Dilara Jhora la Tessitrice
+Short: un barbagianni
+Long: $N è posato su un telaio.
+
+Descr:
+Un fiero rapace di medie dimensioni dal dorso bruno ed ocra; le ali, dello stesso colore, sono costellate di puntini più scuri che le fanno sembrare orlate di pizzo. Gli occhi, come perle di ossidiana, sono incastonati in una maschera candida dalla quale sbuca appena il becco adunco.
+DescrTouch:
+Puoi solo immaginare la morbidezza del superbo piumaggio di questa creatura, avvicinarsi troppo infatti potrebbe essere controproducente.
+DescrSmell:
+Sbattendo le ali di tanto in tanto rilascia nell'aria #villaggio-zingaro_item_unguento-01#un acuta fragranza di resina e spezie che sembra provenire dal medaglione che ha al collo.# una lieve fragranza di resina e spezie.#
+DescrSixth:
+Alcuni comportamenti di questo barbagianni ti appaiono molto simili a quelli umani.
+DescrHearing:
+Lo senti emettere solo qualche bubbolìo sommesso.
+DescrTaste:
+Ma che ti salta in mente, non è mica un pollo!
+
+Weight: 345g
+Height: 34cm
+
+BirthDay: 14
+BirthMonth: MONTH.SEVEN
+
+
+Behaviour:
+       LookPlayer:	6
+       LookMob:	0
+       LookItem:	4
+       LookAtRacesFlags:	RACE.NONE
+       LookAtRaces:	0
+       LookAtEntitypesFlags:	ENTITYPE.NONE
+       LookAtEntitypes:	0
+       LookSelf:	0
+	TouchSelf:	0
+       LookDirection:	0
+       LookExit:	3
+       LookWall:	0
+       LookClosedDoor: 0
+       LookExtra:	0
+       WanderDirection:	0
+       WanderExit:	0
+       WanderWall:	0
+       WanderClosedDoor:	0
+       WanderAtExitsFlags:	DIR.NONE
+       WanderAtExits:	0
+       WanderArea:	0
+       WanderPortal:	0
+       WanderEnterContainer:	0
+       WanderExitContainer:	0
+       WanderSelf:	0
+       RandomDo:	10
+       RandomDoInputs: emote bubbola sommessamente.
+       RandomDoInputs: emote si rassetta le ali.
+       RandomDoInputs: emote dà qualche beccata ai fili del telaio.
+End
+
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

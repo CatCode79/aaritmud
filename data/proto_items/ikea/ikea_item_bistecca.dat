@@ -1,0 +1,42 @@
+Code: ikea_item_bistecca
+Level: 1
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.FEMALE
+Flags:	FLAG.RANDOMIZABLE
+MaterialPercentages:	MATERIAL.MEAT	97%
+MaterialPercentages:	MATERIAL.OIL	2%
+MaterialPercentages:	MATERIAL.UNKNOWN	1%
+Name:	Una Bistecca ben Cotta
+Short:	una bistecca ben cotta
+Long:	In un piatto troppo piccino si trova $N.
+
+Descr:
+Una fettina alta un dito guarnita con olio quanto basta e qualche spezia inconoscibile.
+DescrTouch: 
+Una bistecca calda e sanguinolenta.
+DescrSmell:
+Una bistecca al sapore di sangue di bovino.
+DescrTaste:
+Un sapore deciso di bovino ben cotto e sapientemente spezia s'irraggia fino al palato.
+
+Value:	0
+Weight: 150g
+
+Extras:
+	Keywords: spezia spezie
+	Descr:
+	Semini di finocchio
+End
+
+FoodType:
+	Comment:	cibo
+	Animal:	99
+	Vegetable:	1
+	CookingDamage:	20
+	Hours:	1
+	EntityMessage:	Prendi $N e l$O sbrani con garbo.	
+	TargetMessage:	Ora c'è una sola via d'uscita... $n t'ha mangiato.
+	OthersMessage:	$n sbrana $N con ben poco garbo.
+End
+
+

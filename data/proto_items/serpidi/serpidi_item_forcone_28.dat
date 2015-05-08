@@ -1,0 +1,24 @@
+Code:	serpidi_item_forcone_28
+Level:	1
+Entitype: ENTITYPE.WEAPON
+MaterialPercentages:	MATERIAL.WOOD	60%
+MaterialPercentages:	MATERIAL.METAL	40%
+Name:	Un Forcone 
+Short:	un forcone 
+Descr: 
+Un forcone è piantato in una balla di.. fieno?  
+Value:	0
+Weight: 1280g
+BirthDay: 1
+BirthMonth: MONTH.TEN
+
+WearType:
+        Modes: PART.WIELD
+End
+WeaponType:
+	Category: WEAPON.SPEAR
+	Damage:	1D5+0
+	Flags: WEAPONFLAG.ONE_HAND 
+End
+
+

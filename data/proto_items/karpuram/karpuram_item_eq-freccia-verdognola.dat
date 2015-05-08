@@ -1,0 +1,34 @@
+Code:	karpuram_item_eq-freccia-verdognola
+
+Level:	2
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.EBONY	85
+MaterialPercentages:	MATERIAL.FEATHERS	1
+MaterialPercentages:	MATERIAL.JADE	10
+MaterialPercentages:	MATERIAL.WAX	4
+Sex:	SEX.FEMALE
+Short:	una freccia [green]verdognola[close]
+Name:	Una freccia con punta in [green]pietra[close]
+Long:	$N è stata dimenticata qui.
+
+Descr:
+Una freccia di legno scuro leggermente più lunga del normale, con un diametro
+irregolare che tende ad aumentare verso l'apice. La parte posteriore è composta
+di quattro piume di colore verde scuro fissate alla base tramite una colla
+naturale simile alla resina degli alberi. La punta, modellata con cura e
+precisione, è composta da un raro pezzo di [green]pietra[close] di colore
+verde che risplende lievemente.
+
+DescrSixth:
+La parte interna della pietra che compone la punta della freccia, presenta uno 
+strano liquido verdognolo che la porta a brillare di luce propria.
+
+Value:	0
+Weight:	30g
+
+WearType:
+   Modes: PART.HOLD
+End
+
+

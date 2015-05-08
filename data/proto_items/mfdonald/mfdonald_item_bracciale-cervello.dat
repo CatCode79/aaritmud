@@ -1,0 +1,31 @@
+Code: mfdonald_item_bracciale-cervello
+Level: 1
+MaxGlobalQuantity:	1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.FLESH	100%
+Name:	Il Bracciale Vivo
+Short:	un bracciale vivo
+Long:	$N si avvolge su sé stesso
+
+Descr:
+Un bracciale tutto poliposo che si deforma plasticamente come stesse respirando.
+DescrTouch: 
+Un bracciale di carne viscida che cerca di attorcigliarsi alle tue $hands.
+DescrSmell: 
+Non ho un profumo davvero deciso, uhm...
+DescrSixth:
+È vivo e potrebbe aver fame.
+DescrTaste:
+Dai una leccata e ti resta un odiabile gusto di sapone in bocca.
+
+Value:	0
+Weight: 73g
+
+
+WearType:
+   Modes: PART.RIGHT_WRIST
+   Modes: PART.LEFT_WRIST
+End
+
+

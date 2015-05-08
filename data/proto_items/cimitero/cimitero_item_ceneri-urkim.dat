@@ -1,0 +1,23 @@
+Code: cimitero_item_ceneri-urkim
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.ASH 100%
+Sex:	SEX.MALE
+Name:	Ciò che resta di Urkim
+Short:	un inoffensivo pugnetto di cenere
+Long:	$N è destinato a non durare
+
+Descr:
+Un pugno di cenere.
+DescrTouch: 
+Un pugno impalpabile di cenere.
+DescrSmell: 
+Ne inspiri tuo malgrado una parte.
+DescrSixth:
+Un pugno di cenere è tutto ciò che resta di qualcuno.
+DescrTaste:
+Vagamente untuosa.
+
+Value:	0
+Weight: 45g

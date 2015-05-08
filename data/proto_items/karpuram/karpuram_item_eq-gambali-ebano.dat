@@ -1,0 +1,26 @@
+Code:	karpuram_item_eq-gambali-ebano
+
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.EBONY	75
+MaterialPercentages:	MATERIAL.LEATHER	25
+Sex:	SEX.MALE
+Name:	I [brown]G[close]ambali d'Ebano
+Short:	un paio di [brown]g[close]ambaletti di legno
+Long:	$N si trovano qui.
+
+Descr:
+Sono un paio di semplici gambali ricavati da duro [brown]legno[close] d'ebano e
+non presentano particolarità se non per il fatto che questo tipo di materiale
+sia molto utilizzato dalle popolazioni della zona e si trovi in grandi 
+quantità riprodotto in forme di ogni tipo. La precisione dell'intaglio è
+comunque notevole e si distinguono due paia di lacci di cuoio che permettono
+di stringere meglio i gambali al corpo.
+
+Value:	0
+Weight:	700g
+
+WearType:
+   Modes: PART.RIGHT_LOWER_LIMB PART.LEFT_LOWER_LIMB
+End

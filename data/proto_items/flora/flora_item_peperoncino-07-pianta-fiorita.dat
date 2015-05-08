@@ -1,0 +1,36 @@
+Code: flora_item_peperoncino-07-pianta-fiorita
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Flags:  FLAG.INTERACTABLE_FROM_OUTSIDE
+Name: Una Pianta di [red]Peperoncino[close] in Fiore
+Short:	una pianta di [red]peperoncino[close] tutta fiorita
+Long:	$N cresce qui
+
+Descr:
+Una pianta di [red]peperoncino[close] adulta, completamente cresciuta in ogni suo aspetto.
+Presenta una serie molteplice di diramazioni secondarie e terziarie dalle
+quali si dipanano foglie
+#flora_item_peperoncino-11-fiore-01#e germogli dei quali alcuni ancora in boccio e molti dei quali nel pieno del candido rigoglio floreale#ma con tutti i boccioli premturamente disseccati#.
+DescrTouch:
+Sia il gambo che le foglie sono abbastanza resistenti e ricoperte quasi
+totalmente da una [white]peluria[close] bianca setosa.
+
+DescrSixth:
+Solo i frutti di questa pianta sono commestibili.
+
+Value:	0
+Weight: 7kg
+
+PlantType:
+    RpgHours:	001
+    WorseEntity:	flora_item_peperoncino-08-fruttificato
+    NormalEntity:	flora_item_peperoncino-08-fruttificato
+    BetterEntity:	flora_item_peperoncino-08-fruttificato
+    Contents:	flora_item_peperoncino-04-frutto 2
+    Contents:	flora_item_peperoncino-03-frutto-marcio 1
+    Contents:	flora_item_peperoncino-01-seme 6
+    Contents:	flora_item_peperoncino-02-seme-sterile 4
+End

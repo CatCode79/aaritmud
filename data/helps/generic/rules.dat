@@ -1,0 +1,101 @@
+Code: rules
+
+ItalianKeywords: regole
+EnglishKeywords: rules
+
+Entitype: HELP.INFO
+
+Text:
+Il Mud è governato da un insieme di regole, la maggior parte delle quali sono
+semplici regole di cortesia e buon senso e tutte devono essere seguite per
+assicurare a tutti l'opportunità di divertirsi con il gioco.
+
+Come in ogni Mud la presenza del giocatore qui è un privilegio, non un diritto,
+ed è qualcosa che abbiamo il diritto di rifiutare in qualsiasi momento a nostra
+discrezione.
+
+Gli Amministratori sono responsabili di far osservare queste leggi e le loro
+decisioni devono essere accettate.
+
+Le decisioni in risposta alla tua mail saranno definitive.
+
+Per sapere quali Amministratori sono visibili usa il comando $twho.
+
+Lo [darkred]Spam[close] (ripetere lo stesso messaggio o fare altre cose che causano lo
+scorrimento eccessivo dello schermo) e i comportamenti molesti (anche sessuali)
+e abusivi non sono permessi in nessun canale (questo include anche il $ttell,
+$treply e $tgtell).
+
+Non continuare a parlare a qualcuno che ti ha chiesto di smettere.
+
+Le parolacce non sono permesse nei canali pubblici.
+
+Se usi parolacce in conversazioni private e altri ti chiedono di smettere,
+per favore rispetta questo desiderio.
+
+Se un Amministratore di qualsiasi livello ti chiede di smettere di parlare
+di un certo argomento o di spostare questo argomento su un canale più
+appropriato, fallo immediatamente. Continuare dopo una richiesta può causarti
+la perdita dell'accesso a tale canale o ad altro. Una decisione di un
+Amministratore su un argomento o canale deve essere osservata.
+
+Barare (cheating) è l'offesa più grave e comporta a TUTTI i personaggi
+coinvolti l'uccisione, la perdita di tutto l'equipaggiamento, un freeze,
+diminuzione di stat, infernamento o il ban.
+
+Cosa è considerato barare?
+ - sfruttamento (intenzionale) di un bug per guadagnare soldi o oggetti
+ - causare intenzionalmente il crash del sistema
+ - duplicare intenzionalmente oggetti o soldi
+ - accettare equipaggiamento illegale da altri
+ - provare a duplicare soldi o oggetti -- * anche se non hai successo *
+ - usare o trarre profitto da equipaggiamento accidentalmente duplicato
+ - usare soldi che sono stati accidentalmente duplicati
+
+Barare danneggia il gioco e anche i giocatori in gioco. Proteggi te stesso
+riportando qualsiasi bug se lo trovi e informa gli Amministratori se hai forti
+sospetti che qualcuno faccia una delle cose sopra elencate.
+
+Se ti accorgi di aver duplicato un oggetto per sbaglio, dai _immediatamente_
+l'oggetto ad un Amministratore o sacrifica l'oggetto.
+
+
+Il MultiPlaying è permesso in queste lande con le seguenti regole:
+
+- Puoi avere solo uno o più personaggi online ma essi non devono interagire
+  tra di loro, vietato quindi: il passaggio di oggetti, fare gruppo tra
+  propri personaggi, recuperare il cadavere di un personaggio con un altro,
+  utilizzare   più personaggi per uccidere-rubare-molestare un altro giocatore.
+  In generale è vietato l'utilizzo di 2 o più personaggi per accaparrarsi un
+  profitto personale o extrapersonale (sia in maniera nongdr che in maniera gdr)
+
+- E preferibile agli occhi degli Amministratori che utilizzi un solo
+  personaggio per volta nel gioco.
+  Nel caso che ne utilizzi due o più gli Amministratori si aspettarano da te
+  il doppio impegno o più nell'interpretare i tuoi personaggi.
+  Se tale impegno verrà a mancare gli Amministratori possono chiederti di
+  utilizzare un solo personaggio per volta per migliorare il vostro modo di
+  giocare e di interpretare il personaggio.
+
+NOTA: I personaggi in link death non sono considerati "online."
+
+E' possibile uccidere altri giocatori in qualcunque area, escluse le città e 
+particolari aree nopkill, è possibile uccidere un giocatore qualunque 
+differenza di livello ci sia tra voi, sono protetti dal pkill solo i newbie.
+
+I negozianti delle città sono protetti dalla legge del signore di tale città.
+Gli stessi negozianti hanno poteri dati dalla magia ed elargiti dalla Gilda
+dei Mercanti della città a loro per affrontare e dare una sonora lezione a
+coloro che infrangono tale legge.
+In pratica chiunque scelga di attaccare un negoziante della città morirà di
+una morte orrenda.
+
+Chiunque venga trovato a rubare ai negozianti sarà imprigionato dalle guardie
+della relativa città fino al tempo del loro rilascio deciso dalla
+giurisdizione locale.
+
+Un negoziante della città è un mob dal quale puoi utilizzare il comando
+$tlist.
+Se ti viene mostrata una lista di oggetti in vendita o ti viene detto di
+provare più tardi allora quello è un negoziante.
+Questo si applica anche ai negozianti delle gilde e ai fabbri.

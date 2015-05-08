@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_055_androne-bianco-055
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	L'Androne [white]Bianco[close]
+Short:	l'androne [white]bianco[close]
+	Descr:
+Sei all'interno di un androne le cui pareti brillano come
+specchi, il colore bianco purissimo riempie di luminosità il
+corridoio, un portone di medie dimensioni che sembra scolpito
+nell'avorio si apre ad est. La volta è affrescata e rappresenta
+un cielo notturno su cui si staglia una moltitudine di draghi
+bianchi.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 0
+Exits:
+	Direction:	DIR.EAST
+	Descr:	un corridoio
+	Comment:	ExitStatus	1|128 0 056 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	il cortile pubblico
+	Comment:	ExitStatus	0 0 005 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

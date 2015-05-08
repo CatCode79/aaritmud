@@ -1,0 +1,66 @@
+Code:	arena-drago_room_43-delle-scale
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	La Base Delle Scale
+Short:	la base delle scale
+	Descr:
+Ti trovi alla base di una ripida scaletta in pietra, a nord si
+dirama un lungo e buio corridoio in fondo al qual ti sembra di
+intravedere una luce mentre la scaletta risale verso l'alto così
+repentinamente da non permetterti di capire cosa i sia al piano
+superiore.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	64 0
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	il tunnel
+	Comment:	ExitStatus	0 0 27744 -1
+End
+Exits:
+	Direction:	DIR.UP
+	Descr:	gli spogliatoi
+	Comment:	ExitStatus	0 0 27742 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

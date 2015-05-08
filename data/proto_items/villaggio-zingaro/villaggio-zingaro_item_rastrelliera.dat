@@ -1,0 +1,24 @@
+Code:	villaggio-zingaro_item_rastrelliera
+Level:	1
+Flags:	FLAG.NO_GET
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.METAL	100%
+Name:	Una Rastrelliera
+Short:	una rastrelliera per armi
+Long:	$N è inchiodata al suolo
+
+Descr:
+Una pregevole rastrelliera da esposizione; realizzata in ferro battuto è decorata con volute e motivi fitoformi di certo poco pratici ma piacevoli alla vista.
+DescrTouch:
+Ti appoggi per saggiarne la robustezza e ne resti soddisfatt$o. 
+
+Value:	0
+Weight: 70kg
+
+ContainerType:
+        MaxWeight: 500kg
+End
+
+
+

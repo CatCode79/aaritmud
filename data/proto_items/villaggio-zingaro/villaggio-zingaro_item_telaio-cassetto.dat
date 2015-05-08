@@ -1,0 +1,33 @@
+Code: villaggio-zingaro_item_telaio-cassetto
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET FLAG.NO_LOOK_LIST
+MaterialPercentages:	MATERIAL.WOOD	97%
+MaterialPercentages:	MATERIAL.METAL	3%
+Name:	Il Cassetto del Telaio
+Short:	il cassetto del telaio
+Long:	$N è qui
+
+Descr:
+Un largo cassetto in legno che percorre tutta la lunghezza del telaio con un pomello rotondo.
+DescrTouch: 
+Un largo cassetto in legno con un pomello rotondo.
+
+Value:	0
+Weight: 3kg
+
+
+ContainerType:
+	EntityOpenMessage:	Apri $N facendolo scorrere nella sua guida.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N facendolo scorrere nella sua guida.
+	EntityCloseMessage:	Richiudi $N.
+	TargetCloseMessage:	Finalmente $n si è degnat$o di chiuderti.
+	OthersCloseMessage:	$n chiude $N.
+	Flags:	CONTAINER.CLOSED CONTAINER.CLOSABLE
+        MaxWeight: 10kg
+End
+
+

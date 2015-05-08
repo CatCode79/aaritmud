@@ -1,0 +1,26 @@
+Code: miniere-kezaf_item_gemma-agata
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_agate.png
+Name:	Un'Agata
+Short:	una pietra marrone e bianca
+Long:	$N riluce lievemente.
+
+Descr:
+Una pietra bicolore dalle modeste dimensioni.
+Quest'agata grezza presenta sui lati una serie di venature dai colori marrone e bianco che l'attraversano per intero ruotandole attorno.
+
+DescrTouch: 
+La gemma seppur grezza è levigata e gradevole al tatto pur presentando qualche imperfezione.
+
+DescrSixth:
+Bisogna conoscere il punto esatto di rottura prima di poter agire su questa
+pietra, per evitare che vada in mille pezzi.
+
+Value:	0
+Weight: 230g
+
+

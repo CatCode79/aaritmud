@@ -1,0 +1,26 @@
+Code: villaggio-zingaro_item_telaio-forbice
+
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.BRASS	100%
+Name:
+La Forbice da Cucito
+Short:
+una [goldenrod]forbice[close] bizzarra
+Long:
+$N con le lame chiuse.
+
+Descr:
+Una piccola [goldenrod]forbice[close] da cucito; è foggiata a cicogna, le zampe poggiano sui fori per le dita mentre il becco prosegue lungo le lame.
+DescrTouch: 
+Inserisci e dita nei buchi aprendo e chiudendo le lame che sembrano proprio un becco.
+DescrSixth:
+Un oggetto estremamente pregiato che intuisci venga usato per lavori di precisione.
+
+Value:	0
+Weight: 26g
+
+
+
+

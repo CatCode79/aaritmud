@@ -1,0 +1,50 @@
+Code: cimitero_room_collina-c30
+Sector: SECTOR.HILL
+Name: La Surgiva
+Short: una fonte copiosa
+
+Descr:
+Qui la collina cede il passo ad una zona rocciosa che pare sbucare come un enorme fungo dal fianco est. Dove ancora si toccano la parte pianeggiante e la dura roccia, si apre una fessura dalla quale sgorga copioso un [aqua]fiotto di acqua[close] energico ed impulsivo. 
+
+DescrSmell: 
+La zona collinare è avvolta dagli abbracci languidi dell'odore di spezie e decomposizione.
+Per alcuni tratti si coglie però una scia che rimane la stessa per un certo tratto.
+DescrHearing:
+Il sibilo del vento produce un lugubre suono cupo sostenuto negli effetti lungo le
+lapidi frastagliate.
+
+Extras:
+	Keywords: scia
+	DescrSmell:
+	Lungo il tratto di sentiero che hai appena seguito l'odore più significativo è stato quello di #SMELL.
+End
+
+Extras:
+	Keywords: simboli
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+Width:	6m
+Depth:	6m
+Height: 113m
+
+
+Exits:
+	Direction: DIR.NORTH
+	Descr: Lungo il corso d'acqua
+End
+Exits:
+	Direction: DIR.SOUTHEAST
+	Descr: Lungo la collina
+End

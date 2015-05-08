@@ -1,0 +1,14 @@
+Code: whisper
+
+ItalianKeywords: sussurro
+EnglishKeywords: whisper
+
+Entitype: HELP.CHANNEL
+
+Text:
+Magari non vogliamo farci sentire da tutti, ma sicuramente tutti sapranno
+che stiamo parlando sottovoce.
+$twhisper è un canale GDR.
+
+
+SeeAlso: channels murmur

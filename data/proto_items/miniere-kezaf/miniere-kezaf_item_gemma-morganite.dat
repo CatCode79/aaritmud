@@ -1,0 +1,31 @@
+Comment:
+La Morganite è una varietà del berillo, di un colore rosa delicato più o meno
+intenso. Il berillo rosa deve la sua colorazione alla presenza di minime 
+tracce di manganese, spesso associate ad impurità di cesio e di rubidio. 
+Ha un grado di durezza elevato che s'intensifica una volta lavorata.
+
+Code: miniere-kezaf_item_gemma-morganite
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_berylmorganite.png
+Name:	Una Morganite
+Short:	una pietra screziata di rosa
+Long:	$N si trova qui
+
+Descr:
+Una pietra dura grezza e con le screziature rosate che si uniformano ai graffi ed alle imperfezioni dei bordi.
+
+DescrTouch:
+Una pietra grezza di durezza significativa che fatica a farsi graffiare da altri materiali.
+
+DescrSixth:
+Era la pietra preferita dal celebre gnomo Morgan, grande collezionista 
+ed appassionato di gemme. In suo onore, il nano Kunz la battezzò Morganite.
+
+Value:	0
+Weight: 180g
+
+

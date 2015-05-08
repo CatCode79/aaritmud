@@ -1,0 +1,34 @@
+Code: flora_item_leccio-03-germoglio
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name: Un Timido [lightgreen]Germoglio[close] di [lightgreen]Leccio[close] 
+Short: un timido [lightgreen]germoglio[close]
+
+Descr:
+Un germoglio verde tutto pelosino con due fogline che guardano in su. 
+
+Value:	0
+Weight: 10g
+
+DescrTouch: 
+Una fragile germoglio dal fusto lungo e peloso, con un paio di foglie dalle venature
+in evidenza.
+
+Extras:
+  Keywords: piantina pianticella
+  Descr: difficile dire di che piantina si tratta
+  DescrSixth: un germoglio di leccio
+End
+
+PlantType:
+    Sectors:	SECTOR.PLAIN SECTOR.HOUSE
+    RpgHours:	240
+    WorseEntity:	flora_item_leccio-04-piantina
+    NormalEntity:	flora_item_leccio-04-piantina
+    BetterEntity:	flora_item_leccio-04-piantina
+End
+
+

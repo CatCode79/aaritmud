@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_024_camminamenti-024
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	I Camminamenti
+Short:	i camminamenti
+	Descr:
+Sei molto vicino all'angolo sud ovest dei camminamenti, sotto di
+te all'interno del cortile vedi la zona da cui si accede al
+museo, il baccano provocato dalle famiglie in visita si sente fin
+quassù...
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 1
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 022 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 025 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

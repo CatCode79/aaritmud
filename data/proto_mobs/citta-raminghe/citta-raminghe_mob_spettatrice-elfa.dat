@@ -1,0 +1,65 @@
+Code:   citta-raminghe_mob_spettatrice-elfa
+Level:  2
+Sex:    SEX.FEMALE
+Race:   RACE.WOODELF
+Name:   Una Spettatrice Elfica
+Short:  una spettatrice elfica
+Long:   $N si trova qui tra gli spalti.
+
+Descr:
+Una giovane elfa sta seduta qui ed è molto attenta ad osservare il palcoscenico dove
+si trovano gli attori. Ha lunghe orecchie che fanno capolino dalla folta [green]capigliatura[close]
+raccolta verso la fine da un [blue]nastro[close] di seta. La pelle è chiara e liscia e intuisci che si tratta di una femmina dai monili che porta. Indossa un abito semplice di seta e di ottima fattura.
+DescrSmell:
+Odori di muschio selvatico, sapone aromatico e tiglio ti colpiscono.
+DescrSixth:
+Potrebbe sorprenderti la sua destrezza in netto contrasto con la sua apparente fragilità.
+
+Weight: 45kg
+Height: 180cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 65
+
+MaxLife:        100
+Life:           100
+MaxMana:        200
+Mana:           200
+MaxVigour:      150
+Vigour:         150
+
+Strength:       10
+Endurance:      15
+Agility:        19
+Speed:          20
+Intelligence:   19
+Willpower:      19
+Personality:    18
+Luck:           18
+
+Behaviour:
+        LookPlayer:     0
+        LookMob:        0
+        LookItem:       0
+        LookAtRacesFlags:       RACE.DWARF
+        LookAtRaces:    30
+        LookAtEntitypesFlags:   ENTITYPE.NONE
+        TasteAtEntitypesFlags:  ENTITYPE.NONE
+        WanderDirection:        0
+        WanderExit:     0
+        WanderWall:     0
+        WanderClosedDoor:       0
+        WanderAtExitsFlags:     DIR.NONE
+        WanderAtExits:  0       
+        WanderArea:     0
+        WanderPortal:   0
+        WanderEnterContainer:   0
+        WanderExitContainer:    0
+        WanderSelf:     0
+        RandomDo:       10
+        RandomDoInputs: emote volge lo sguardo verso di te con fare incuriosito.
+        RandomDoInputs: say se state cosÃ¬ in piedi...non vedo nulla!
+        RandomDoInputs: say bravi! bravi!
+        RandomDoInputs: emote applaude lentamente di tanto in tanto.
+End

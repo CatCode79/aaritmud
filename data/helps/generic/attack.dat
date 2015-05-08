@@ -1,0 +1,14 @@
+Code: attack
+
+ItalianKeywords: attacker attackerflag attackerflags
+EnglishKeywords: attacker attackerflag attackerflags
+
+Entitype: HELP.COMBAT
+
+Text:
+Quando si vuole uccidere un mostro o cominciare un combattimento
+contro un avversario di un'altra razza ostile o personaggio che
+ha deciso di intraprendere la via del killer, il comando da utilizzare
+è $tattack.
+
+SeeAlso: kill

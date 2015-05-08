@@ -1,0 +1,26 @@
+Code: cimitero_item_cadavere-chrysantha
+Level: 1
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.FLESH 70%
+MaterialPercentages:	MATERIAL.CLOTH 30%
+Sex:	SEX.MALE
+Name:	La Salma Martoriata di Chrysantha Akelay
+Short:	il corpo martoriato di una donna
+Long:	$N ricomposto pietosamente.
+
+Descr:
+La spoglie mortali di Chrysantha Akelay sono composte nel pietoso quanto vano tentativo di coferirle dei lineamenti rilassati.
+DescrTouch:
+Le spoglie mortali di una figura femminile pietosamente composte ed indurite dal tempo in una sorta di mummia.
+DescrSixth: 
+Evidentissimo traspare il dolore inquieto e prolungato che deve aver segnato gli ultimi istanti della sua esistenza.
+
+Value:	0
+Weight: 37kg
+
+Extras:
+	Keywords: lineamenti lineamento viso
+	Descr:
+	Anche le palpebre contratte fanno pensare ad un incubo ancora in corso che pretende
+	un risveglio.
+End

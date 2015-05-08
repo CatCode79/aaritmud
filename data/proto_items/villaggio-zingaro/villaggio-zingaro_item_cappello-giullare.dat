@@ -1,0 +1,30 @@
+Code: villaggio-zingaro_item_cappello-giullare
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.CLOTH	98%
+MaterialPercentages:	MATERIAL.BRASS	2%
+Name:	Il Cappello a Tre [gold]P[darkturquoise]unte[close] del Giullare
+Short:	un cappello a tre [gold]p[darkturquoise]unte[close]
+Long:	$N è qui
+
+Descr:
+Un variopinto cappello a tre [gold]p[darkturquoise]unte[close] con dei sonagli appesi alle estremità.
+DescrTouch: 
+Molto morbido, pare imbottito.
+DescrHearing:
+Tintinna allegramente.
+
+Value:	0
+Weight: 10g
+
+WearType:
+	Modes:	PART.HEAD
+	EntityWearMessage:	Calchi per bene $N %part.
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	$n si calca per bene $N %part.
+	EntityRemoveMessage:	Togli $N.
+	TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+	OthersRemoveMessage:	$n si leva $N
+End

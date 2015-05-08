@@ -1,0 +1,28 @@
+Code:	arena-drago_room_05-corridoio
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Un Corridoio
+Short:	un corridoio
+	Descr:
+Passeggi sul morbido tappeto che ricopre il pavimento, la parete
+sud è un'enorme finestra da cui puoi osservare la piazza d'armi,
+le torce bruciano scoppiettando sulla parete opposta. Alla fine
+del corridoio un grosso portone ti blocca la via verso est.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	4 0
+Exits:
+	Direction:	DIR.EAST
+	Door:	arena-drago_item_door-portone-corridoio-05
+	Descr:	Un camminamento sopraelevato
+	Comment:	ExitStatus	1|128 0 27706 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	Il corridoio prosegue
+	Comment:	ExitStatus	0 0 27703 -1
+End

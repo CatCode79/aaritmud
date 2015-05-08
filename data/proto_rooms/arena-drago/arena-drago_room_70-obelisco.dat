@@ -1,0 +1,69 @@
+Code:	arena-drago_room_70-obelisco
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	[white]L'Obelisco[close]
+Short:	[white]L'obelisco[close]
+	Descr:
+Giungi sotto il maestoso obelisco bianco che troneggia al centro
+del giardino dei draghi. L'alta colonna di marmo bianco è
+poggiata su di una gigantesca piattaforma, anch'essa in marmo,
+che sembra di tutti i colori e di nessuno. Il corpo dell'obelisco
+è ricoperto di antiche rune che solo i draghi possono
+comprendere. Ai piedi dell'obelisco su di un piccolo altare in
+marmo rosso è poggiato un rotolo di papiro dall'aspetto antico.
+A sud il giardino dei draghi prosegue mentre ad est si apre
+un'enorme caverna.
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	1|64 2
+Exits:
+	Direction:	DIR.EAST
+	Descr:	l'enorme cunicolo
+	Comment:	ExitStatus	0 0 27771 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	il giardino dei draghi
+	Comment:	ExitStatus	0 0 27768 -1
+End
+Exits:
+	Direction:	DIR.DOWN
+	Descr:	sotto l'obelisco
+	Comment:	ExitStatus	1|8|16|32|128|256|512 0 27773 374
+	Door:	arena-drago_item_door-obelisco-70
+End
+Extras:
+	Keywords:	obelisco
+		Descr:
+Una scultura imponente, un unico blocco di marmo bianco come le
+irraggiungibili vette dei monti braghar. Nel punto esatto dove
+l'obelisco tocca la base embra sprigionarsi un'energia
+misteriosa, quasi che il potere voglia sprigionarsi da un momento
+all'altro. Le rune in bassorilievo sulla superficie della
+scultura ti sono incomprensibili, eppure emanano anch'esse un
+potere che trascende tutto ciò che per umani, nani ed elfi è
+possibile.
+End
+Extras:
+	Keywords:	papiro
+		Descr:
+Hai quasi paura mentre svolgi il rotolo di papiro, deve essere
+stato scritto migliaia di anni fa, con le mani tremanti inzi a
+leggere le parole lasciate dal fondatore dei cavalieri.
+
+Questo obelisco sia la difesa, la protezione e il custode dei
+draghi e dei cavalieri, cosi come dei loro tesori più
+importanti, che il suo potere possa tenerci uniti nei secoli a
+venire.
+End
+Extras:
+	Keywords:	piattaforma
+		Descr:
+Provi a fissare la piattaforma per qualche istante il tuo sguardo
+tenta una difficile messa a fuoco ma i colori sembrano muoversi
+in modo folle all'interno del marmo dandoti addirittura
+l'impressione che l'obelisco scivoli sulla loro superficie.
+End

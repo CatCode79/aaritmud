@@ -1,0 +1,21 @@
+Code: flora_item_leccio-00-ghianda-marcia
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name: Resti
+Short: resti
+Long:	I $N di una ghianda fan concime qui
+
+Descr:
+Era una piccola [maroon]ghianda[close] un tempo, ora è cibo per i vermi.
+DescrTouch: 
+Un composto rammollito e pastoso che conserva le sembianze d'una ghianda
+DescrSixth:
+C'è ben poco da seminare qui.
+
+Value:	0
+Weight:	1g
+
+

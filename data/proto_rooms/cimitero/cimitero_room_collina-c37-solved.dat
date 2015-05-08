@@ -1,0 +1,48 @@
+Code: cimitero_room_collina-c37-solved
+Sector: SECTOR.HILL
+Name: I Giardini Inferiori
+Short: il fondovalle
+
+Descr:
+Procedendo da nordovest, la via scende verso il fondovalle mentre le condutture in pietra si mantengono sempre più alte poggiando su una struttura di roccia larga e possente immobilizzata da contrafforti realizzati da muri di pietre. La tratta che segue la parte edificata è invasa da felci e muschi a causa dei continui schizzi d'acqua provenienti dall'alto. Giù, verso est le condutture entrano in un bosco fatto da un unico enorme rampicante verde.
+DescrSmell: 
+La zona collinare è avvolta dagli abbracci languidi dell'odore di spezie e decomposizione.
+Per alcuni tratti si coglie però una scia che rimane la stessa per un certo tratto.
+DescrHearing:
+Il sibilo del vento produce un lugubre suono cupo sostenuto negli effetti lungo le
+lapidi frastagliate.
+
+Extras:
+	Keywords: scia
+	DescrSmell:
+	Lungo il tratto di sentiero che hai appena seguito l'odore più significativo è stato quello di #SMELL.
+End
+
+Extras:
+	Keywords: simboli
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+Width:	6m
+Depth:	6m
+Height: 113m
+
+Exits:
+	Direction: DIR.NORTHWEST
+	Descr: La risalita in collina
+End
+Exits:
+	Direction: DIR.EAST
+	Descr: Il rampicante boschivo
+End

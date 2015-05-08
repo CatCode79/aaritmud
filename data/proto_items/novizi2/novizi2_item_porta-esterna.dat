@@ -1,0 +1,34 @@
+Code: novizi2_item_porta-esterna
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.WOOD	100%
+Name:	L'Uscio di casa Grozzy
+Short:	l'uscio
+Long:	$N è divelto a terra
+
+Descr:
+È la porta d'accesso alla casa; si tratta di una porta in legno massiccio scuro
+verniciata. Cardini battente e maniglia sono in metallo nero; uno spioncino coperto
+consente dall'interno di guardare fuori.
+DescrTouch: 
+Battendo con le nocche ci sono solo due rischi: che ci si faccia dal male o che
+qualcuno apra.
+
+Value:	0
+Weight: 54kg
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Con $hand convinta apri $N verso l'esterno.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre verso l'esterno $N con convinzione.
+	EntityCloseMessage:	Accosti $N senza troppa convinzione.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n accompagna $N chiudendola senza molta convinzione.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+End
+
+

@@ -1,0 +1,113 @@
+Code:	accademia-drago_room_070_magazzino-070
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il Magazzino
+Short:	il magazzino
+	Descr:
+Questo sembra essere un piccolo magazzino, è una stanza di circa
+10 metri per lato in cui sono ammassate casse, barili, sacchi e
+qualunque merce commestibile. Dalla puzza diresti che qualche
+barile di olive sta perdendo la salamoia, fortunatamente il
+rigagnolo appiccicoso si perde in un tombino...
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	1|8 0
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	le cucine
+	Comment:	ExitStatus	1 017 069 -1
+	Door:	ikea_item_porta
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

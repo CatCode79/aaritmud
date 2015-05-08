@@ -1,0 +1,61 @@
+Code: opekus_item_suite-ofidia-gingillo
+Level: 5
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.SILVER	100%
+Name:	Il Gingillo di Ofidia
+Short:	un piccolo <span style="color:#ffd700;">gin</span><span style="color:#ffc606;">gillo </span><span style="color:#ff9f06;">me</span><span style="color:#ff6c06;">tal</span><span style="color:#ff2d06;">li</span><span style="color:#ff0606;">co</span>
+Long:	$N di anelli e catenine
+KeywordsShort: gingillo metallico
+
+Descr:
+Tre anelli diversi per diametro ed un bracciale sono connessi fra loro tramite sottili fili argentei.
+
+DescrTouch: 
+Leggermente satinati gli anelli, resistente il filo che li tiene uniti.
+
+DescrHearing:
+Lo scorrere leggero dei fili negli anelli produce un ovattato suono metallico.
+
+DescrSixth:
+Non un simbolo o un riferimento su un oggetto che pare essere tanto antico quanto ben conservato.
+
+Value:	1000
+Weight: 50g
+
+Behaviour:
+	LookPlayer:	5
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+WearType:
+	Modes:	PART.LEFT_RING_FINGER PART.LEFT_THUMB PART.LEFT_LITTLE_FINGER PART.LEFT_WRIST
+	EntityWearMessage:	La $hand a becco guizza nel bracciale ed automaticamente aggiusti i tre anelli alle dita.
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	$n piega a becco la $hand sinistra e si accomoda $N al polso ed alle dita.
+	EntityRemoveMessage:	Sfili bracciale ed anelli tutto in un sol gesto.
+	TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+	OthersRemoveMessage:	$n si sfila $N dalla sinistra
+End

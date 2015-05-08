@@ -1,0 +1,22 @@
+Code: sleep
+
+ItalianKeywords: dormi 
+EnglishKeywords: sleep 
+
+Entitype: HELP.MOVEMENT
+
+Text:
+Se hai fatto un lungo viaggio, sei rimasto ferito dopo uno scontro o hai
+esaurito tutte le tue energie magiche, usando il comando $tsleep ti
+addormenterai e recupererai  più velocemente.
+Quando riposi sei più vulnerabile in caso di attacco e se stai dormendo non
+puoi accorgerti di quello che accade intorno a te e non sentirai se gli altri
+parlano.
+
+Dopo che avrai riposato usa il comando $tstand per alzarti in piedi, oppure usa
+il comando $twake per svegliarti dopo una bella dormita.
+Con il comando $twake puoi anche svegliare altri giocatori o mob che stanno 
+dormendo.
+
+
+SeeAlso: wake stand sit rest knee

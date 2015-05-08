@@ -1,0 +1,21 @@
+Code:	accademia-drago_item_straccio
+Level:	06
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.CLOTH 100%
+Flags:	FLAG.RANDOMIZABLE
+Name:	Uno Straccio Per la Polvere
+Short:	uno straccio per la polvere
+Long:	$N è abbandonato qui.
+
+Value:	0
+Weight:	100g
+
+Descr:
+uno straccio per la polvere.
+
+Comment:
+§27600
+
+Dati Obj
+18 0 10 0 0 01 0 -1

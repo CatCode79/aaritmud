@@ -1,0 +1,20 @@
+Code: antro-drow_item_statua-acefala
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.BRONZE 100%
+Sex:	SEX.FEMALE
+Name:	La Statua di Yholch
+Short:	una statua bronzea priva di testa
+Long:	$N realizzata in bronzo poggia su di un piedistallo.
+
+Descr:
+Una rappresentazione statuaria a grandezza poco più grande di quella naturale; fusa in bronzo, raffigura un essere umanoide privato della testa.
+In luogo del collo sono rappresentati quelli che probabilmente rappresentano dei fiotti di sangue.
+DescrTouch: 
+Una fredda rappresentazione statuaria metallica di un essere umanoide privato della testa.
+DescrSixth:
+Difficile si tratti di una divinità, a meno che non sia stata realizzata in spregio a qualcosa o qualcuno.
+
+Value:	0
+Weight: 10g

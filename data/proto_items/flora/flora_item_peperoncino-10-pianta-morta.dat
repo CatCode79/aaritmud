@@ -1,0 +1,33 @@
+Code: flora_item_peperoncino-10-pianta-morta
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Flags:  FLAG.INTERACTABLE_FROM_OUTSIDE
+Name:	Una Pianta di [red]Peperoncino[close] Deceduta
+Short:	una pianta di [red]peperoncino[close] priva di vita
+Long:	$N è qui ripiegata su se stessa.
+
+Descr:
+Quel che resta della pianta mostra delle foglie di colore giallo chiaro tendenti al marrone ambrato sui bordi. 
+ La forza mordente della piccantezza dei suoi frutti è solo un ricordo.
+
+DescrTouch:
+Le foglie ricurve su loro stesse sono aride e rinsecchite. 
+
+DescrSixth:
+Dell'arbusto di una volta è rimasto ben poco, ma continua a rilasciare sostanze nutritive alla terra dove è cresciuta, 
+rinnovandosi quindi in altre piante in una circolarità perenne.
+
+Value:	0
+Weight: 6kg
+
+PlantType:
+    RpgHours:	001
+    WorseEntity:	flora_item_peperoncino-09-pianta-secca
+    NormalEntity:	flora_item_peperoncino-09-pianta-secca
+    BetterEntity:	flora_item_peperoncino-09-pianta-secca
+End
+
+

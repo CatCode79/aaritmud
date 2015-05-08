@@ -1,0 +1,76 @@
+Comment: La locandiera in questione interagisce con gli avventori della locanda. Li accoglie con una frase di benvenuto nel momento in cui accedono alla locanda
+"Benvenuto... entra pure che preparo un tavolo per te! " Tiene in mano il menù.
+Code:	citta-raminghe_mob_locandiera-artemisia
+MaxGlobalQuantity:	1
+Level: 2
+Race: RACE.HUMAN
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name: Artemisia
+Short: [yellow]la locandiera[close] filosofa
+Long: $N si aggira per i tavoli conversando un pò con tutti
+LongNight: $N controlla che le pietanze siano perfette
+Descr:
+La riconosci dalla tunica bianca non molto lunga che indossa con molta eleganza e dal [red]grembiule[close] rosso fuoco. 
+I lunghi capelli di un nero profondo sono tenuti insieme da un [gold]fermaglio[close] di metallo a forma di spirale.
+DescrSixth:
+Molto affabile e gentile, adora chiacchierare e conversare di [gold]alchimie[close] gastronomiche ed [violet]enigmi[close] culinari. 
+Non è consueto per una locandiera ..ma non sempre il consueto è una strada che si sceglie di percorrere.
+ 
+Height: 120cm
+Weight: 54kg
+Extras:
+    Keywords: alchimie
+    Descr:	[red]V[close] [yellow]I[close] [deeppink]T[close] [lime]R[close] [red]I[close] [lightblue]O[close] 
+[orange]L[close]
+    DescrSixth: [deeppink]Visita Interiora Terrae Rettificando Inveniens Occultum Lapidem[close]. Un'antica ziqqurat la contiene nelle sue profondità. Una pietra radiosa e splendente per qualcosa di sublime che dà forza e vigore.
+End
+
+Extras:
+     Keywords: enigmi
+     Descr:	Trova [deeppink]mezzo minuto di raccoglimento[close] per le locandiera e lei ti farà un dono
+     DescrSixth: Non sempre tutto è come appare...e forse è in luoghi inconsueti...
+End
+
+
+BirthDay: 28
+BirthMonth: MONTH.NINE
+
+Strength:	100
+Endurance:	100
+Agility:	100
+Speed:	50
+Intelligence:	100
+Willpower:	100
+Personality:	100
+Luck:	100
+
+MaxLife:	300
+Life:	300
+MaxMana:	300
+Mana:	300
+MaxVigour:	300
+
+Behaviour:
+	LookPlayer: 30
+	LookMob:	30
+	LookItem:	50
+	LookSelf:	30
+	LookDirection:	20
+	LookExit:	20
+	LookClosedDoor:	10
+	LookEquipment:	10
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	50
+	RandomDoInputs:	emote ti guarda con aria sorniona aspettando che ti decida a scegliere una pietanza... non è così difficile...
+	RandomDoInputs:	emote ti dice:" Puoi consumare  una delle pietanze sublimi che qui vengono preparate con maestria e passione,cibi che danno forza e vigore alla mente e al corpo, ma devi lasciare in cambio qualcosa di prezioso... una pietra dai riflessi cangianti..."
+End

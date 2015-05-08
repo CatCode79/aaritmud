@@ -1,0 +1,16 @@
+Code: enter
+
+ItalianKeywords: entra
+EnglishKeywords: enter
+
+Entitype: HELP.MOVEMENT
+
+Text:
+Nelle stanze con uscite indicate con "da qualche parte" o altri tipi di uscita, puoi 
+scrivere $tenter &lt;[darkgreen]parola chiave[close]&gt;.
+
+L'uso più comune di questo comando è con i portali creati dai maghi.
+Per usare un portale semplicemente scrivi $tenter [darkgreen]portale[close] e ci passerai 
+attraverso.
+
+SeeAlso: leave

@@ -1,0 +1,6 @@
+FunName:   command_look
+Type:      CMDTYPE.INFORMATION
+Trust:     TRUST.PLAYER
+Position:  POSITION.REST
+Flags:     CMDFLAG.GDR
+MiniHelp:  Permette di vedere cosa c'è in una stanza o guardare un oggetto, un mob o un altro giocatore.

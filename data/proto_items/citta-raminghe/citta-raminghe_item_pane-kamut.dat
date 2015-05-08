@@ -1,0 +1,23 @@
+Comment: Tre pagnotte per ogni cesto di vimini
+
+Code: citta-raminghe_item_pane-kamut
+Level: 3
+Entitype: ENTITYPE.FOOD
+MaterialPercentages:	MATERIAL.BREAD	100
+Name: [darksalmondarksalmon]Pagnotta di Kamut[close]
+Short: una [darksalmon]pagnotta di kamut[close]
+Long: $N ti provoca una gran voglia di assaggiarla
+Descr: Una pagnotta di forma ovale dalla consistenza morbida 
+DescrSmell: Una scia di profumo di pane appena sfornato
+Value:	0
+Weight: 500g
+
+FoodType:
+	Comment:	cibo
+	Animal:	0
+	Vegetable:	100
+	CookingDamage:	20
+	Hours:	0
+End
+
+

@@ -1,0 +1,38 @@
+Code:	karpuram_item_eq-diadema-ambra
+
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.AMBER	10
+MaterialPercentages:	MATERIAL.GOLD	40
+MaterialPercentages:	MATERIAL.SILVER	50
+Sex:	SEX.MALE
+Name:	Il Diadema d'Ambra
+Short:	un piccolo fermacapelli
+Long:	$N risplende di una luce ambrata.
+
+Descr:
+Un piccolo diadema utilizzato come fermacapelli dalle dame del luogo, lavorato
+in argento e oro rosa, è formato da cinque piccoli fiori al centro di ognuno
+dei quali vi sono incastonate cinque gocce d'ambra che emanano un lucore fioco.
+DescrNight:
+Un piccolo diadema utilizzato come fermacapelli dalle dame del luogo, lavorato
+in argento e oro rosa, è formato da cinque piccoli fiori al centro di ognuno
+dei quali vi sono incastonate cinque gocce d'ambra che emanano una flebile e
+calda luce.
+
+DescrTouch:
+Il diadema è molto sottile e fragile, risulta molto freddo nelle zone dove non
+sono presenti le gemme.
+
+DescrSixth:
+Le cinque gocce d'ambra risplendono anche al buio, come se fossero esse stesse
+portatrici di una magica luce.
+
+Value:	0
+Weight:	100g
+
+WearType:
+        Flags:	WEAR.LAYERABLE
+   Modes: PART.HAIR
+End

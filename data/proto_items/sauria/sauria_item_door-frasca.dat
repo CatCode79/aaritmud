@@ -1,0 +1,39 @@
+Code: sauria_item_door-frasca
+Level: 1
+MaxGlobalQuantity:	0
+Flags:	FLAG.NO_GET
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.WOOD	100%
+Name:	Una frasca
+Short:	una frasca
+Long:	$N spezzata e gettata in terra
+
+KeywordsShort:	frasca arbusto ramo
+KeywordsName:	frasca arbusto ramo
+
+Descr:
+Una frasca della vegetazione lascia trasparire un passaggio.
+DescrTouch: 
+Una frasca della vegetazione dietro la quale pare vi sia dello spazio vuoto.
+
+Value:	0
+Weight: 1kg
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Scosti di lato $N svelando un accesso.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n scosta di lato $N liberando la via.
+	EntityCloseMessage:	Riaccomodi $N dalla brutta piega scomoda che aveva assunto.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n riaccomoda $N dalla brutta piega scomoda che aveva assunto.
+	DestinationOpenMessage: Qualcuno scosta $N dietro di te.
+	DestinationCloseMessage: Qualcuno o qualcosa dall'altra parte risistema $N.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE DOOR.SECRET DOOR.NO_USE_DIR
+	ResetCloseMessage: Di botto $N si raddrizza occludendo il passaggio.
+	ResetOpenMessage: Una folata di vento scosta $N svelando un accesso.
+End
+
+

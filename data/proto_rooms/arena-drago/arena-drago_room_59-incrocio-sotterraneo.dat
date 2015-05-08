@@ -1,0 +1,66 @@
+Code:	arena-drago_room_59-incrocio-sotterraneo
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Un Incrocio Sotterraneo
+Short:	un incrocio sotterraneo
+	Descr:
+Ti trovi ad un incrocio di cunicoli, il soffitto è alto più di
+quattro metri e sottili linee di magna magico illuminano
+debolmente l'ambiente. L'enorme caverna procede in tutte le
+direzioni.
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	1|64 0
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	il portale di cristallo
+	Comment:	ExitStatus	0 0 27766 -1
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	le fauci
+	Comment:	ExitStatus	0 0 27758 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	un cunicolo
+	Comment:	ExitStatus	0 0 27760 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	un cunicolo
+	Comment:	ExitStatus	0 0 27774 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

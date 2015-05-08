@@ -1,0 +1,78 @@
+Code:	torreelementi_mob_elementale-terra-01
+Level:	1
+Sex:	SEX.MALE
+Race:	RACE.EARTH_ELEMENTAL
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Anur l'Elementale
+
+Short:	un elementale di terra
+ShortNight: uno scuro ammasso di terra
+
+Long:	$N si muove lento
+LongNight: $N è piantato qui
+
+Descr:
+Una figura vagamente umanoide fatta di terra e tenuta insieme dalla magia sta osservando
+tutto intorno con le sue orbite vuote. Sulla fronte reca un simbolo misterioso.
+DescrNight:
+Una montagna  fatta di terra e tenuta insieme dalla magia torreggia immobile con lo
+sguardo fisso di lato.
+
+DescrHearing:
+Un rumore continuo come una cascata di ghiaia che si alterna di potenza e volume.
+DescrHearingNight:
+Di quando in quando, un vaghissimo e sottile rumore di un sassetto che cade.
+
+DescrSmell:
+Un forte odore di muschio e fango esala a zaffate regolari.
+DescrSmellNight:
+Emana un profumo flebile di bosco e di foglie secche.
+
+DescrTouch:
+Tocchi una scorza rocciosa impenetrabile e compatta.
+DescrTouchNight:
+Tocchi un sottile strato di terra friabile che copre una scorza rocciosa impenetrabile.
+
+DescrTaste:
+Quello che porti alla bocca è solo sabbia con qualche sassetto.
+DescrTasteNight:
+Porti alle labbra sabbia già umidiccia dal sapore terribile.
+
+DescrSixth:
+Il tuo intuito ti induce a stare alla larga dall'elementale di terra; essendo
+assolutamente dimentico ed incurante della tua presenza potrebbe calpestarti
+inavvertitamente.
+DescrSixthNight:
+Il tuo intuito ti induce a stare alla larga di giorno dall'elementale di terra.
+Ora che è notte però la sua attività è ridotta ed è molto meno pericoloso.
+
+Weight: 389kg
+Height: 250cm
+
+Extras:
+	Keywords: simboli simbolo misterioso mistero
+	Descr:
+	Una runa forse o una lettera in qualche alfabeto dimenticato 
+	DescrSixth:
+	Riconosci il simbolo mistico dell'appartenenza appartenente alla civiltà dei tuareg
+End
+
+BirthDay: 4
+BirthMonth: MONTH.THREE
+Age: 795
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

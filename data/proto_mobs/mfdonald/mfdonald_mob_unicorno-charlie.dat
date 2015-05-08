@@ -1,0 +1,72 @@
+Code: mfdonald_mob_unicorno-charlie
+Level: 1
+Icon:	icons/mob/unicorno_charlie.png
+Sex:	SEX.MALE
+Race:	RACE.UNICORN
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name: [white]Charlie[close] Burbero Unicorno
+Short: un burbero [white]unicorno[close]
+Long:	$N sta sulle sue.
+
+Descr:
+Un unicorno tanto bello ed aggraziato quanto burbero e maldisposto.
+DescrTouch: 
+Un unicorno burbero e decisamente poco propenso a lasciarsi toccare.
+DescrSmell: 
+A dispetto di quanto insegnano le fiabe su queste creature splendide... puzza di stallatico.
+DescrSixth:
+Anche senza un profondo acume intuisci che desidera essere lasciato in pace.
+DescrHearing:
+Un animale che sbuffa e bofonchia.
+
+Weight: 229kg
+Height: 170cm
+
+Behaviour:
+	LookPlayer:	5
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	10
+	LookExit:	10
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	100
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	5
+	RandomDoInputs:	say Thanks but no, thanks!
+End
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 34
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

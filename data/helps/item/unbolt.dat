@@ -1,0 +1,23 @@
+Code: unbolt
+
+ItalianKeywords: spranga spalanca
+EnglishKeywords: unbolt
+
+Entitype: HELP.ITEM
+
+Text:
+Durante la tua vita in queste terre ti troverai molte porte davanti, potranno
+essere aperte o chiuse od anche sbarrate.
+
+Per poter aprire una porta il comando che dovrai usare è $topen, mentre se
+la porta vuoi chiuderla alle tue spalle per lasciare fuori gli altri dovrai
+scrivere $tclose.
+
+Un'altra cosa che puoi fare è bloccare una porta con l'ausilio di un chiodo o
+di un oggetto simile, per poter fare questo (avendo un chiodo od un oggetto
+simile nell'inventario) puoi usare il comando $tbolt per bloccare la porta,
+se poi volessi successivamente  rimuovere il chiodo per sbloccarla il
+comando è $tunbolt.
+
+
+SeeAlso: bolt open close lock unlock

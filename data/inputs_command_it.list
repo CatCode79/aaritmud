@@ -1,0 +1,208 @@
+#- Direzioni ---------------
+  command_north           nord
+  command_northeast       nordest
+= command_northeast       ne
+  command_northwest       nordovest
+= command_northwest       no
+  command_east            est
+  command_south           sud
+  command_southeast       sudest
+= command_southeast       se
+  command_southwest       sudovest
+= command_southwest       so
+  command_west            ovest
+  command_up              alto
+  command_down            basso
+  command_sleep           dormi dormire dormita
+
+#- A ---------------
+  command_attack          attacca attacco attacchi attaccare
+= command_drop            abbandona abbandono abbandoni abbandonare
+  command_stand           alza
+  command_afk             afk
+  command_listen          ascolta ascolto ascolti ascoltare
+  command_skills          abilità
+  command_smell           annusa annuso annusi annusare
+  command_taste           assaggia assaggio assaggi assaggiare
+  command_open            apri apro apre aprire
+  command_help            aiuto
+  command_areas           aree area
+  command_aliases         alias
+
+#- B ---------------
+  command_lock            blocca
+  command_bug             bug
+
+#- C ---------------
+  command_chat            chat chatta chatti chatto chattare
+  command_who             chi
+  command_close           chiudi chiudo chiude chiudere
+  command_sing            canta canto canti cantare
+= command_date            calendario
+  command_buy             compra compro compri comprare
+= command_buy             compera compero comperi comperare
+  command_commands        comandi
+  command_comment         commento commenti commenta commentare
+  command_colors          colori colore colorare
+= command_speak           conversa converso conversi conversare
+= command_score           condizione condizioni
+  command_tell            comunica comunico comunichi comunicare
+= command_punch           colpisci colpisco colpire
+
+#- D ---------------
+  command_say             di
+= command_say             dici dico dice
+= command_say             dire
+= command_dig             dissotterri dissotterro dissotterra dissotterrare
+= command_destroy         distruggi distruggo distrugge distruggere
+= command_speak           dialoga dialogo dialoghi dialogare
+  command_give            dai da dà da' dare
+= command_money           danaro danari
+= command_money           denaro denari
+= command_give            do dò do'
+  command_ask             domanda domando domandi domandare
+  command_date            data
+  command_devours         divora divoro divori divorare
+
+#- E ---------------
+  command_equipment       equipaggiamento
+  command_emote           esprimi esprimo esprimere
+  command_enter           entra entro entri entrare
+  command_examine         esamina esamino esamini esaminare
+  command_exclaim         esclama esclamo esclami esclamare
+  command_quit            fine
+
+#- F ---------------
+  command_flee            fuggi fuggo fugge fuggire
+= command_quit            fine
+
+#- G ---------------
+  command_look            guarda guardo guardi guardare
+  command_shout           grida grido gridi gridare
+#  command_gtell          gcomunica
+= command_taste           gusta gusto gusti gustare
+
+#- H ---------------
+
+#- I ---------------
+  command_inventory       inventario
+  command_intuition       intuisci intuisco intuisce intuito intuire
+  command_idea            idea
+  command_swallow         ingoia
+  command_wear            indossa indosso indossi indossare
+  command_wield           impugna impugno impugni impugnare
+
+#- L ---------------
+  command_list            listino lista
+  command_read            leggi leggo legge leggere
+
+#- K ---------------
+  command_knee            inginocchio inginocchiarsi ginocchio ginocchia
+
+#- M ---------------
+  command_murmur          mormora mormoro mormori mormorare
+  command_money           moneta monete
+  command_put             metti metto mette mettere
+  command_eat             mangia mangio mangi mangiare
+
+#- N ---------------
+
+#- O ---------------
+= command_smell           odori odoro odora odorare
+  command_offer           offri offro offre offrire
+
+#- P ---------------
+  command_get             prendi prendo prende prendere
+  command_speak           parla parlo parli parlare
+  command_drop            posa poso posi posare
+  command_punch           pugno
+  command_plant           pianta pianto pianti piantare
+
+#- Q ---------------
+
+#- R ---------------
+= command_get             raccogli raccolgo raccoglie raccogliere
+  command_rest            riposa riposo riposare
+  command_remove          rimuovi rimuovo rimuove rimuovere
+  command_shut            richiudi richiudo richiude richiudere
+  command_spare           risparmia risparmio risparmi risparmiare
+  command_destroy         rompi rompo rompe rompere
+
+#- S ---------------
+  command_unlock          sblocca
+= command_shout           sbraita sbraito sbraiti sbraitare
+  command_bolt            sbarra sbarro sbarri sbarrare
+= command_bolt            spranga sprango spranghi sprangare
+  command_socials         sociali
+= command_money           soldo soldi
+  command_whisper         sussurri sussurro sussurra sussurrare
+= command_listen          senti sento sente sentire
+  command_follow          segui seguo segue seguire
+  command_seed            semina semino semini seminare
+= command_flee            scappa scappo scappi scappare
+  command_dig             scava scavo scavi scavare
+  command_disclose        schiudi schiudo schiude schiudere
+  command_sit             siedi siedo seduto
+  command_score           stato statistiche
+= command_remove          svesti svesto sveste svestire
+  command_unbolt          svincola svincolo svincoli svincolare
+  command_wake            sveglia svegliare svegliarsi svegliato
+
+#- T ---------------
+  command_hold            tieni tiene tenere
+= command_hold            tengo
+  command_talents         talenti talento
+  command_title           titolo
+  command_touch           tocca tocco tocchi toccare
+= command_remove          togli tolgo toglie togliere
+  command_typo            typo
+
+#- U ---------------
+  command_kill            uccidi uccido uccidere
+  command_yell            urla urlo urli urlare
+  command_use             usa uso usi usare
+
+#- V ---------------
+  command_sell            vendi vendo vende vendere
+
+#- Z ---------------
+
+
+#- Input Amministratori -
+  command_addexit         addexit
+  command_admtalk         admtalk admintalk
+  command_coords          coords
+  command_countraces      countraces
+  command_delexit         delexit
+  command_create          create
+  command_countflags      countflags
+  command_extract         extract
+  command_force           force
+  command_goto            goto
+  command_icreate         icreate
+  command_igoto           igoto
+  command_iinvoke         iinvoke
+  command_incognito       incognito
+  command_links           links
+  command_loop            loop
+  command_mcreate         mcreate
+  command_mgoto           mgoto
+  command_minvoke         minvoke
+= command_icreate         ocreate
+= command_igoto           ogoto
+= command_iinvoke         oinvoke
+  command_invoke          invoke
+  command_refresh         refresh
+  command_repaint         repaint
+  command_restore         restore
+  command_restring        restring
+  command_rcreate         rcreate
+  command_rgoto           rgoto
+  command_rinvoke         rinvoke
+  command_setrace         setrace
+  command_slay            slay
+  command_snoop           snoop
+  command_snoopers        snoopers
+  command_timemachine     timemachine
+  command_usedexits       usedexits
+  command_usedrooms       usedrooms

@@ -1,0 +1,21 @@
+Comment: conveniente negli oggetti rotti l'uso dell'etichetta %material
+Code: rip_item_broken-door
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.WOOD	100%
+Sex:	SEX.FEMALE
+Name:	Uno Scardinato pezzo di %material
+Short:	uno scardinato pezzo di %material
+Long:	c'è $N a terra
+
+Descr:
+Un modo alternativo di varcare la soglia prima di aprire la porta.
+L'effetto finale è qui ai tuoi piedi.
+DescrTouch: 
+Una porta aperta con incedere fin troppo deciso; o meglio, quel che resta di una porta.
+DescrSixth:
+Fra i metodi di varcare una soglia questo non brilla per acume, di certo però fa un certo effetto.
+L'unico inconveniente è la difficoltà a reiterare.
+
+Weight: 100g

@@ -1,0 +1,6 @@
+FunName:    command_coords
+Type:       CMDTYPE.ADMIN
+Trust:      TRUST.MASTER
+Position:   POSITION.DEAD
+MiniHelp:   Crea una lista delle coordinate attualmente riempite nell'area
+            attuale o passata come argomento.

@@ -1,0 +1,23 @@
+Code: novizi2_item_eq-mocassino-sx
+Level: 1
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.LEATHER	100
+Sex:	SEX.MALE
+Name:	Un mocassino sinistro
+Short:	un mocassino
+Long:	c'è $N abbandonato qui
+
+Descr:
+Un mocassino maschile sinistro in pelle rossa con un tacco appena accennato.
+
+DescrTouch: 
+Un mocassino sinistro in materiale duro e poco elastico con poco tacco.
+	
+Value:	0
+Weight: 200g
+
+WearType:
+   Modes: PART.LEFT_FOOT
+End
+
+

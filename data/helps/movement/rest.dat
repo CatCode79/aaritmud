@@ -1,0 +1,14 @@
+Code: rest
+
+ItalianKeywords: riposa
+EnglishKeywords: rest
+
+Entitype: HELP.MOVEMENT
+
+Text:
+Se hai fatto un lungo viaggio, sei rimasto ferito dopo uno scontro o hai
+esaurito tutte le tue energie magiche puoi sederti con il comando $trest. 
+
+Dopo che avrai riposato usa il comando $tstand per alzarti in piedi. 
+
+SeeAlso: sit stand sleep wake knee

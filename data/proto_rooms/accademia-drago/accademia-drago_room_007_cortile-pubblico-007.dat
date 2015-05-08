@@ -1,0 +1,111 @@
+Code:	accademia-drago_room_007_cortile-pubblico-007
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il Cortile Pubblico
+Short:	il cortile pubblico
+	Descr:
+La parte nord del cortile è forse l'unica perfettamente
+simmetrica, un vialetto circondato da una bassa siepe collega la
+zona della fontana con un'apertura ad arco che sembra condurre
+verso un secondo cortile. Intorno al vialetto diverse aiuole
+fanno bella mostra di se e accolgono alcune panche in pietra che
+permettono allo stanco viandante di riposare. Ad ovest vedi uno
+spiazzo erboso nel cortile su cui sorge un bel gazebo.
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 2
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	l'androne di passaggio
+	Comment:	ExitStatus	0 0 067 -1
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	il cortile pubblico
+	Comment:	ExitStatus	0 0 006 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	la fontana
+	Comment:	ExitStatus	0 0 008 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	il gazebo
+	Comment:	ExitStatus	0 0 009 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

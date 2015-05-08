@@ -1,0 +1,30 @@
+Comment: se esposta troppo alla luce/calore sbiadisce il colore, deve essere grossa 10ct per potersi vedere il colore
+Code: miniere-kezaf_item_gemma-kunzite
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_kunzite.png
+Name:	Una Kunzite 
+Short:	una pietra lilla chiaro
+Long:	$N si trova qui in terra.
+
+Descr:
+Una varietà che va dal rosa al violetto chiaro di una pietra dura inclusa in un pezzo di roccia calcarea.
+Il colore risulta più sbiadito su una frangia esposta lungo alcune striature.
+
+DescrTouch:
+Facendola scorrere tra le dita sembra al tatto saponosa e dagli spigoli frastagliati.
+
+DescrSixth:
+La kunzite appartiene ad una varietà di gemme con colorazioni che spaziano dal 
+rosa pallido al lilla e deve il suo nome al famoso Kunz, il leggendario studente,
+ gemmologo e commerciante di gemme, al servizio del Re dei nani. Il suo grado
+di durevolezza è abbastanza alto, ma dev'essere protetta dal calore e una
+prolungata esposizione alla luce può gradualmente far scomparire il colore.
+
+Value:	0
+Weight: 220g
+
+

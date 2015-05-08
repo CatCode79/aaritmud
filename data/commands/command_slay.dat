@@ -1,0 +1,5 @@
+FunName:  command_slay
+Type:     CMDTYPE.ADMIN
+Trust:    TRUST.MASTER
+Position: POSITION.DEAD
+MiniHelp: Poteva mai mancare? Eh? Eh?

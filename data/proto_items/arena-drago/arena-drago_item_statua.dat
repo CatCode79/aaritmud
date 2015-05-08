@@ -1,0 +1,26 @@
+Code:	arena-drago_item_statua
+Level:	06
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.MARBLE 90%
+MaterialPercentages:	MATERIAL.FLINT 5%
+MaterialPercentages:	MATERIAL.QUARTZ 4%
+MaterialPercentages:	MATERIAL.GARNET 1%
+Sex:	SEX.FEMALE
+Name:	Una Statua
+Short:	una statua
+
+Value:	0
+Weight: 100kg
+
+Descr:
+	La  statua  è  perfetta  in  ogni dettaglio al punto di sembrare
+	viva,  gli  occhi  del  più  grande  drago  di  tutti i tempi ti
+	scrutano e senti la tua anima messa a nudo quasi fossi davanti al
+	redivivo Lamreloc in persona.
+Comment:
+§27713
+
+Dati Obj
+15 262144 010000 0 -1 01 0 0
+
+

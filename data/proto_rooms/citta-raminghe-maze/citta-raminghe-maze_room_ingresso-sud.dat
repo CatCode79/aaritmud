@@ -1,0 +1,27 @@
+Code: citta-raminghe-maze_room_ingresso-sud
+Sector: SECTOR.HOUSE
+Flags:  ROOM.INSIDE
+Name: Per le Sale della Biblioteca
+Short: una [yellow]sala illuminata[red]
+Descr:
+Una sala rettangolare illuminata da [yellow]lampade ad olio[close] appese al soffitto. Sul pavimento e sugli scaffali 
+colmi di libri si formano ombre dalle forme strane. Ti accorgi con una certa inquietudine che sembrano
+oscillare come se fossero spinte da un lieve alito di vento.
+DescrSixth:
+Qualcuno o qualcosa sembra essere appena passato da qui.
+DescrSmell:
+Un odore intenso di olio bruciato
+
+Width:  10m
+Depth:  10m
+Height: 100m
+
+Exits:
+  Direction: DIR.UP
+  Destination:	9 3 0 citta-raminghe
+  Descr: in biblioteca
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: in biblioteca
+End

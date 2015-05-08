@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_097_corridoio-097
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Un Corridoio
+Short:	un corridoio
+	Descr:
+Cammini lungo un corridoio illuminato da fasci elettrici che
+corrono come travi a vista in movimento continuo, due barre di
+uno strano metallo blu permettono a questi "fulmini" di muoversi
+avanti e indietro subito sotto la volta del soffitto. Ad est e
+nord si aprono delle porte in uno strano materiale gommoso mentre
+ad ovest il corridoio prosegue.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 0
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	stanza di raccordo
+	Comment:	ExitStatus	1 0 000 -1
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	le camerate [mediumblue]blu[close]
+	Comment:	ExitStatus	1 0 099 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	l'androne [mediumblue]blu[close]
+	Comment:	ExitStatus	1 0 096 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	un corridoio
+	Comment:	ExitStatus	0 0 098 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

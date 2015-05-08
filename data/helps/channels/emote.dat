@@ -1,0 +1,20 @@
+Code: emote
+
+ItalianKeywords: esprimi esprimo esprimere emozione emozioni
+EnglishKeywords: emote
+
+Entitype: HELP.CHANNEL
+
+Text:
+Possiamo utilizzare dei comandi particolari che spesso permettono di
+rappresentare le nostre emozioni e pensieri senza dover parlare, oppure
+inserendo dei suoni particolari.
+$temote è un canale espressivo che deve seguire le regole di interpretazione
+GDR.
+
+Si possono aggiungere delle emozioni anche nei canali GDR attraverso questa
+sintassi:
+$tmurmur *con voce rauca* eccomi qui finalmente..
+
+
+SeeAlso: channels

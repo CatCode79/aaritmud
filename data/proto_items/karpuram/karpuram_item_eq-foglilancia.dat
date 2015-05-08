@@ -1,0 +1,51 @@
+Code:	karpuram_item_eq-foglilancia
+
+Level:	11
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAPON
+MaterialPercentages:	MATERIAL.MITHRIL	5
+MaterialPercentages:	MATERIAL.UNKNOWN	5
+MaterialPercentages:	MATERIAL.LEAD	20
+MaterialPercentages:	MATERIAL.IRON	40
+MaterialPercentages:	MATERIAL.LEATHER	30
+Sex:	SEX.MALE
+Name:	Foglilancia
+Short:	una lunga lancia di metallo dalla punta a forma di foglia
+Long:	$N è conficcata qui a terra
+
+Descr:
+Questa lancia è decisamente fuori standard e potrebbe essere scambiata per
+un'alabarda a causa della sua lunghezza e spessore. Nella parte bassa presenta
+un'impugnatura che funge anche da contrappeso, questa è di cuoio molto 
+resistente e dispone di due tasche all'interno delle quali vi sono due pesanti
+lastre di piombo. Nella parte centrale vi è una seconda impugnatura sempre
+in cuoio che dà la possibilità di sferrare la lancia a lunghe distanze. Due 
+foglie arcuate si uniscono sull'estremità fino a formare la punta della lancia.
+La foglia destra è di mithril e risplende di un'intensa luce argentea, mentre
+quella di sinistra è dorata ma stranamente non sembra riflettere alcun raggio
+di luce. 
+
+DescrHearing:
+La lancia irradia un debole suono ogni volta che viene afferrata e durante
+il suo utilizzo avverti delle seconde ondulazioni sonore provenire dalle due
+foglie che formano la punta.
+
+DescrSixth:
+Fendendo l'aria con la lancia ti sembra di notare uno strano movimento verso
+la punta, come se le due foglie che la compongono si alternassero tra loro
+creando strane figure concentriche.
+
+Value:	0
+Weight:	2kg
+
+WearType:
+   Modes: PART.WIELD
+End
+
+WeaponType:
+        Category: WEAPON.SPEAR
+	Damage:	2D5+0
+        Flags: WEAPONFLAG.ONE_HAND 
+End
+
+

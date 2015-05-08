@@ -1,0 +1,25 @@
+Code: ikea_item_asse-olivo
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages: MATERIAL.HARDWOOD 100%
+
+Name:	Un Asse d'Olivo
+Short:	un asse di legno duro
+Long:	$N è qui
+
+Descr:
+Un asse di legno piallata e lisciata.
+DescrTouch: 
+Un asse di legno piuttosto duro e pesante
+DescrSmell: 
+Esala ancora un certo profumo caratteristico e peculiare.
+DescrSixth:
+no_send
+DescrHearing:
+no_send
+DescrTaste:
+Non resta neppure il segno dei denti.
+
+Weight: 4kg

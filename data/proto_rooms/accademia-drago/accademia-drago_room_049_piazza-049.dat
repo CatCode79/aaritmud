@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_049_piazza-049
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	La Piazza d'Armi
+Short:	la piazza d'armi
+	Descr:
+In questa parte della piazza si innalzano due pennoni su cui
+sventolano le bandire dei cavalieri del drago e di Melborne,
+probabilmente si tratta del punto esatto in cui le reclute
+salutano tutte le mattine l'alzabandiera... non vorresti proprio
+essere al loro posto...
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 2
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	la piazza d'armi
+	Comment:	ExitStatus	0 0 048 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	la piazza d'armi
+	Comment:	ExitStatus	0 0 050 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,75 @@
+Code:	conflitti_mob_golem
+Level:	1
+Sex:	SEX.MALE
+Race:	RACE.GOLEM
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Un Golem
+Short:	un [greenyellow]Golem[close]
+Long:	$N t'impedisce di procedere oltre
+
+
+Descr:
+Un [greenyellow]Golem[close] alto tre metri, creato con l'argilla e i quattro elementi: fuoco, acqua, terra e aria. Ti impedisce di procedere oltre e di cercare una possibile via di fuga da quella situazione che rischia di diventare estremamente  inquietante e pericolosa. Ricordati sempre di prendere la sua pergamena affinchè lui possa star calmo e riposare. Se non lo farai la forza del [greenyellow]Golem[close] sfuggirà ad ogni possibile controllo.
+DescrTouch:
+un [greenyellow]Golem[close] è creato con l'argilla. La sua consistenza è dura e la superficie fredda  e sgradevole al tatto.
+DescrSmell:
+Emana l'odore della tua stessa paura.
+DescrSixth:
+I [greenyellow]Golem[close] non parlano... incutono timore proprio per la loro imprevedibile furia priva di linguaggio.
+DescrHearing:
+Nessun suono proviene dal [greenyellow]Golem[close].
+
+
+Weight: 789kg
+Height: 310cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 34
+
+
+Behaviour:
+        LookPlayer:	5
+        LookMob:	0
+        LookItem:	0
+        LookAtRacesFlags:	RACE.NONE
+        LookAtRaces:	0
+        LookAtEntitypesFlags:	ENTITYPE.NONE
+        LookAtEntitypes:	0
+        LookSelf:	0
+        LookDirection:	0
+        LookExit:	0
+        LookWall:	0
+        LookClosedDoor: 0
+        LookExtra:	0
+        WanderDirection:	0
+        WanderExit:	0
+        WanderWall:	0
+        WanderClosedDoor:	0
+        WanderAtExitsFlags:	DIR.NONE
+        WanderAtExits:	0
+        WanderArea:	0
+        WanderPortal:	0
+        WanderEnterContainer:	0
+        WanderExitContainer:	0
+        WanderSelf:	0
+        RandomDo:	5
+        RandomDoInputs:	emote ti guarda come sentisse il rumore del tuo battito.
+	RandomDoInputs:	emote si aspetta qualcosa da te, ma tu non sai ancora bene cosa sia.
+End
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

@@ -1,0 +1,65 @@
+Comment: Stanza di prova. L'idea è quella di utilizzare questa stanza per far prendere vita agli oggetti e ai mob costruiti da me oltre che essere la mia prima stanza costruita.
+Code: autoctonlab_room_laboratorio-01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+
+Name: Il Laboratorio di Autocton
+Short: un vasto ambiente ingombro di strani oggetti e strumenti alchemici
+ShortNight: un ambiente oscuro appena rischiarato da tenui bagliori colorati
+
+Descr:
+Il vasto ambiente è costituito solo da un'ampia cupola appoggiata nel terreno coperto da un robusto pavimento di pietra. Tutta la stanza è ingombrata, alla rinfusa, di oggetti di tutti i tipi e forme, appoggiati a terra o sopra lunghi banconi di legno. Strumenti alchemici, utensili da lavoro, barattoli con sostanze strane e patine di polvere a tratti, ricoprono il resto del poco spazio libero rimasto.
+Una tortuosa scala a spirale in metallo raggiunge la sommità della cupola e sembra terminare in un ulteriore ambiente illuminato. Il passaggio di forma rotonda sembra essere l'unica apertura verso l'esterno. L'illuminazione sembra garantita da una luce sulla volta della cupola che simula quella del sole e dal sole riprende il moto parabolico sulle pareti. Al centro della stanza, una cavità circolare larga alcuni metri ma non molto profonda, contiene una enorme [violet]sfera[close] avvolta da un intreccio di cerchi concentrici che domina la vista sull'ambiente.
+DescrNight: 
+Il buio permea pesantemente tutto il vasto ambiente. È possibile percepire solamente le pareti di una vasta cupola che costituiscono la struttura di un'unica stanza. Le sole fonti di luce sono gli innumerevoli e fiochi bagliori colorati che provengono da tutto l'ambiente, generati da piccole fiammelle o da oggetti dalle strane fattezze. La stanza e ingombra di oggetti e strumenti sopra a lunghi banconi di cui si può percepire solo vagamente il contorno. Attraversarla è difficoltoso a meno di inciampare e sbattere ovunque o su una scala a spirale che conduce verso l'alto e di cui non si vede la fine. La fiammella di un candela illumina fiocamente il passaggio rotondo, apparentemente l'unica apertura verso l'esterno. Al centro della stanza, una massa scura dai contorni di una enorme sfera.
+DescrHearing: La stanza emette un continuo rumore di sottofondo. Una cacofonia di piccoli suoni e ronzii come di piccoli ingranaggi meccanici in movimento o il gorgogliare di un liquido.
+DescrHearingNight: La stanza emette un continuo rumore di sottofondo che nell'oscurità risulta piuttosto inquietante. Una cacofonia di piccoli suoni e ronzii come di piccoli ingranaggi meccanici in movimento o il gorgogliare di un liquido.
+DescrSmell: Le tenui correnti d'aria dell'ambiente, portano alle narici un susseguirsi di odori innumerevoli e difficilmente distinguibili.
+DescrSmellNight: Le tenui correnti d'aria dell'ambiente, portano alle narici un susseguirsi di odori innumerevoli e difficilmente distinguibili. Nel buio aumentano il disorientamento provocato dal caotico ambiente.
+DescrTouch: La stanza induce una forte curiosità nel toccare gli innumerevoli oggetti presenti ma non sembrerebbe una idea saggia. Chissà cosa potrebbe succedere.
+DescrTouchNight: Nel buio, non sembra molto saggio mettere le mani nel caos di oggetti presenti nella stanza.
+DescrTaste: L'aria all'interno dell'ambiente lascia in bocca un vago sapore ferroso.
+DescrTasteNight: L'aria all'interno dell'ambiente lascia in bocca un vago sapore ferroso.
+DescrSixth: Tutto l'ambiente suggerisce una forte senso di potere e creatività, lasciando allo stesso tempo sconcertati per il caos che rappresenta.
+DescrSixthNight: Il buio pone un velo inquietante sul caos della stanza, lasciando percepire allo stesso tempo una sensazione di continuo moto e vitalità anche nel tepore della notte.
+
+Extras:
+  Comment: Extras di prova. Chissà che in futuro non possa diventare un oggetto dalle capacità incredibili.
+  Keywords: sfera "enorme sfera"
+  Descr: La sfera ha una diametro di circa due metri e sembra essere fatta di un denso materiale metallico che non assomiglia a nulla di noto. È circondata da un intrico di anelli concentrici di dimensione e forme variabili e di materiali l'uno diverso dagli altri. La struttura che funge da base e che appoggia sul fondo della cavità della stanza, è costituita da complessi fasci di tubi, valvole e manopole che suggeriscono essere gli astrusi comandi dell'oggetto. Nell'osservarla con attenzione ci si rende conto di come la sfera e i suoi cerchi, non siano sorretti da nessuna struttura, come galleggiassero immobili nell'aria, sfidando la forza di gravità.
+  DescrNight: L'oscurità nella stanza nasconde le complesse fattezze dell'oggetto. Un intrico di cerchi concentrici di materiali più disparati avvolgono l'enorme sfera. Difficile dire se questi appoggino il loro peso sulla struttura che fa da basamento. Quest'ultima, un intrico di fasci di tubi, valvole e manopole sembrano essere gli astrusi comandi dell'oggetto.
+  DescrHearing: La sfera sembra emettere un flebilissimo sibilo acuto, percepibile solamente da molto vicino.
+  DescrHearingNight: Difficile dire nell'oscurità se il flebilissimo sibilo acuto che si avverte nei pressi della sfera venga proprio dallo strano oggetto.
+  DescrTouch: Il gigantesco marchingegno appare freddo al tocco, si percepisce soltanto una lieve vibrazione.
+  DescrTouchNight: Il gigantesco marchingegno appare freddo al tocco, si percepisce soltanto una lieve vibrazione ma meglio togliere le mani da lì prima di combinare qualche guaio.
+  DescrSixth: Il marchingegno è pregno di un'aurea di mistero e complessità. L'elettricità statica che lo avvolge rende fastidioso restargli vicino.
+  DescrSixthNight: Con l'oscurità le fattezze del marchingegno e l'elettricità statica che produce nelle vicinanze, suggeriscono che è meglio lasciarlo lì dove sta.
+  Author: Autocton
+End
+
+Width: 20m
+Depth: 20m
+Height: 10m
+Flags: ROOM.STOREROOM
+Owner: Autocton
+ModTemperature: 130%
+ModLight: 70%
+Exits:
+  Comment: Mancano da completare le etichette Door, KeyCode e Destinastion, da mettere quando sarà pronta l'area.
+  Direction: DIR.SOUTH
+  Descr: L'unica apertura verso esterno dell'ampia cupola e una porta di forma circolare chiusa da due semicerchi di pietra che si congiungono dai due lati.
+  DescrNight: La fiammella di un candela illumina fiocamente il passaggio rotondo, apparentemente l'unica apertura verso l'esterno.
+  EntityMessage: Ti dirigi $A allontanandoti dal $a.
+  OthersInMessage: $n esce dal $a.
+  OthersOutMessage: $n entra $A.
+  
+End
+Exits:
+  Comment: Mancano da completare le etichette Door, KeyCode e Destinastion, da mettere quando sarà pronta l'area.
+  Direction: DIR.UP
+  Descr: La scala metallica a spirale collega la parte più alta del soffitto con il suolo. Finisce su una botola che suggerisce la presenza di un altro ambiente sulla cima della cupola.
+  DescrNight: Noti la scala metallica a spirale che dovrebbe condurre verso la cime della cupola. Con il buio sembra difficile da percorrere.
+  EntityMessage: Sali le scale $A lasciandoti sotto il $a.
+  OthersInMessage: $n esce dal $a salendo le scale $A.
+  OthersOutMessage: $n sale da  $a ed entra.
+End

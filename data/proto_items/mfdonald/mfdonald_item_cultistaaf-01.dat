@@ -1,0 +1,90 @@
+Code: mfdonald_item_cultistaaf-01
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.UNKNOWN	100%
+Name:	Il Pupazzetto Snodato di un Cultista
+Short:	uno strano pupazzetto snodato
+Long:	$N si guarda intorno con occhi spiritati
+
+Descr:
+Un pupazzetto alto circa una spanna con gambe e braccia articolate e posizionabili. Indossa una tunica rossa ed impugna una minuscola pergamena coperta di rune ed un minuscolo pugnale per sacrifici. Nel complesso risulta stranamente appetitoso.
+DescrTouch: 
+Il corpo è realizzato con resine dure mentre la tunica è di una stoffa stranamente fastidiosa al tatto. La finta pergamena è completamente rigida mentre il piccolo pugnale è stranamente affilato. Non pare molto solido: probabilmente dovresti essere in grado di staccargli un arto con un morso... anche se non sai perché mai dovresti morderlo.
+DescrSmell: 
+Ha un odore appetitoso.
+DescrTaste:
+Sa di pollo.
+DescrSixth:
+Finalmente anche tu potrai giocare ad essere il grande Cthulhu!
+DescrHearing:
+Ogni tanto un sonoro click anticipa una voce meccanica che declama qualche frase caratteristica in una lingua sconosciuta e sgradevole. Ah, ecco: "CLICK... Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl Cthulhu fhtagn... CLICK"
+
+Value:	0
+Weight: 50g
+
+Extras:
+	Keywords: pugnale
+	Descr:
+	Piccolo ma preciso in ogni dettaglio: un vero pugnale per sacrifici in miniatura.
+	DescrTouch:
+	Ouch! Troppo affilato ed appuntito per essere un giocattolo.
+	DescrSixth:
+	Prendi la vittima, immola la vittima. Chi non sacrifica diventa vittima.
+End
+
+Extras:
+	Keywords: tunica
+	Descr:
+	È di una stoffa rossa che non riesci a riconoscere. Macchie più scure qua e là sembrano schizzi molto realistici di sangue rappreso. Gli orli sono decorati con rune.
+	DescrTouch:
+	Al tatto la stoffa è sgradevole e sfiorandola fa venire la pelle d'oca.
+	DescrSmell: 
+	La tunica nel suo complesso non ha odore ma le finte macchie di sangue odorano veramente di sangue.
+End
+
+Extras:
+	Keywords: pergamena
+	Descr:
+	In realtà è un pezzetto di resina intagliato a forma di pergamena con gli estremi ancora arrotolati. Nella parte visibile sono state disegnati con grande perizia dei cerchi e dei complessi pentacoli circondati da rune.
+	DescrTouch:
+	Accuratamente levigata e completamente rigida.
+	DescrSixth:
+	Sembra fatto con perizia ma una mediana non è lo stesso che una bisettrice.
+End
+
+
+Behaviour:
+	LookPlayer:	1
+	LookMob:	5
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+        RandomDo:	1
+	RandomDoInputs:	emote ghigna follemente
+        RandomDoInputs: say CLICK... Ïa! Ïa! Zyblogh! CLICK
+        RandomDoInputs: say CLICK... Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl Cthulhu fhtagn... CLICK
+        RandomDoInputs: say CLICK... 
+        RandomDoInputs: grin
+End
+
+

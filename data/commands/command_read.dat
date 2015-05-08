@@ -1,0 +1,6 @@
+FunName:   command_read
+Type:      CMDTYPE.INFORMATION
+Trust:     TRUST.PLAYER
+Position:  POSITION.REST
+Flags:     CMDFLAG.GDR CMDFLAG.INTERACT
+MiniHelp:  Serve per leggere libri, lettere, pergamene ed altro...

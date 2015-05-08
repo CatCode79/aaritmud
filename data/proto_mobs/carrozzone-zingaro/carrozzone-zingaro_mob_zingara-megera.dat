@@ -1,0 +1,98 @@
+Comment: 
+Idee per le professioni future dei prossimi componenti del villaggio /carrozzone
+Targu Jiu. calderai, stagnini e incisori d'oro, come allevatori di cavalli e muli, artigiani del metallo, ammaestratori d'orsi, venditori di stoffe, artigiani di vimini e legno, acrobati, prestigiatori, danzatori e musicisti.
+Code:	carrozzone-zingaro_mob_zingara-megera
+Level:	1
+Sex:	SEX.FEMALE
+Race:	RACE.TUAREG
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Nijhor Jhora la Veggente
+Short:	la megera gitana
+Long:	$N riesce a metterti a disagio
+
+Descr:
+Un'anzianissima ed inquietante gitana ammantata nel tipico abbigliamento zingaro.
+Le lunghissime trecce grigie emergono dal copricapo sgargiante ed arrivano fin alla
+coloratissima gonna.
+DescrTouch:
+Non riesci a toccarla... una sorta di timore reverenziale ti blocca.
+DescrSmell:
+Da lei emana un'acuta fragranza di spezie aromatiche che non sai discernere.
+DescrSixth:
+L'aura che senti emanare dalla zingara dice che potresti pagare a caro prezzo anche il più piccolo sgarro.
+DescrHearing:
+Il respiro lento è vagamente percettibile e dice quanto sia imperturbabile.
+
+Weight: 61kg
+Height: 166cm
+
+Extras:
+       Keywords: treccia trecce
+       Descr:
+       Sono lunghe, spesse e crespe; sono realizzate intrecciando fra loro altre piccole
+       trecce con nastri argentei.
+       DescrSixth:
+       Sono lunghe, spesse e crespe; sono realizzate intrecciando fra loro altre piccole
+       trecce con fili di prezioso argento e perle nere.
+End
+
+BirthDay: 4
+BirthMonth: MONTH.FIVE
+Age: 104
+
+
+Behaviour:
+       LookPlayer:	0
+       LookMob:	0
+       LookItem:	4
+       LookAtRacesFlags:	RACE.NONE
+       LookAtRaces:	0
+       LookAtEntitypesFlags:	ENTITYPE.NONE
+       LookAtEntitypes:	0
+       LookSelf:	0
+       LookDirection:	0
+       LookExit:	3
+       LookWall:	0
+       LookClosedDoor: 0
+       LookExtra:	0
+       WanderDirection:	0
+       WanderExit:	0
+       WanderWall:	0
+       WanderClosedDoor:	0
+       WanderAtExitsFlags:	DIR.NONE
+       WanderAtExits:	0
+       WanderArea:	0
+       WanderPortal:	0
+       WanderEnterContainer:	0
+       WanderExitContainer:	0
+       WanderSelf:	0
+       RandomDo:	7
+       RandomDoInputs:	emote muove lente le mani in arcani rituali.
+       RandomDoInputs:	emote mormora una nenia incomprensibile.
+       RandomDoInputs:	murmur Shi naa'aash bi tooh `biih yiit'¡zh dah 'adiilk' 'ik
+End
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100
+
+Shop:
+	Types:	SHOP.NORMAL
+	ProtoLocations: carrozzone-zingaro_room_carrozzone-01
+	Buyables:	carrozzone-zingaro_item_cavigliera 100% 200
+	Buyables:	carrozzone-zingaro_item_gonna 100% 200
+	Buyables:	carrozzone-zingaro_item_orecchino-violino 100% 200
+	Buyables:	ikea_item_casseruola 100% 200
+End

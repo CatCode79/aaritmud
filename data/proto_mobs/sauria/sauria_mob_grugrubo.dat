@@ -1,0 +1,87 @@
+Comment: qui dal cadavere si dovrebbe poter ricavare la pelliccia (panciotto di pelo da carezzare solo nella direzione giusta e nell'altra punte acuminate
+Code:	sauria_mob_grugrubo
+MaxGlobalQuantity:	2
+Level:	1
+Sex:	SEX.MALE
+Race:	RACE.MAMMAL
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Un Grugrubo Tomentoso
+Short:	un bestione cornuto dal pelo ispido
+Long:	$N rumina mansueto
+
+Descr:
+Un ispida montagna di pelo dagli occhi tristi ed incorniciati da un paio di poderose corna avvolte su loro stesse.
+DescrTouch: 
+Il manto ispido è forte e carezzabile solo nella direzione del pelo altrimenti si rizza in punte acuminate.
+DescrSmell: 
+Necessità di una lavata lunga decisa e risolutiva!
+DescrSixth:
+La prima speranza è che sia di natura pacifica ma senti che il suo temperamento è mutevole e non facilmente prevedibile.
+DescrHearing:
+Fra uno sbuffo, una lenta masticazione da ruminante e qualche sommovimento intestinale e gli zoccoli che grattano... fa un effetto interessante.
+DescrTaste:
+Ecco magari... da morto, possibilmente cotto ma prima di tutto... LAVATO! 
+
+Weight: 789kg
+Height: 270cm
+
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 34
+
+MaxLife:	300
+Life:		300
+MaxMana:	0
+Mana:		0
+MaxVigour:	190
+Vigour:		190
+
+Strength:	30
+Endurance:	10
+Agility:	3
+Speed:		7
+Intelligence:	2
+Willpower:	10
+Personality:	2
+Luck:		30
+
+Behaviour:
+	LookPlayer:	5
+	LookMob:	5
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	LookEquipment:	0
+	SmellPlayer:	0
+	ListenMob:	0
+	TouchItem:	0
+	IntuitionAtRacesFlags:	RACE.NONE
+	IntuitionAtRaces:	0
+	TasteAtEntitypesFlags:	ENTITYPE.NONE
+	TasteAtEntitypes:	0
+	WanderDirection:	0
+        WanderAtSectors:	SECTOR.SAVANNA
+	WanderExit:	20
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	20
+	RandomDoInputs:	emote rumina mansueto.
+	RandomDoInputs:	emote rigurgita manciate d'[green]erba verdastra[close].
+        RandomDoInputs: emote libera generose quantità di gas intestinali.
+End

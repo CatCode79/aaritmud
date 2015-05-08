@@ -1,0 +1,32 @@
+Code: novizi2_item_rastrelliera-armi-01
+Level: 1
+MaxGlobalQuantity:	1
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.FEMALE
+Flags:	FLAG.NO_GET FLAG.NO_LOOK_LIST
+MaterialPercentages:	MATERIAL.WOOD	100%
+Name:	La Rastrelliera per Armi Economiche
+Short:	la rastrelliera per armi economiche
+Long:	$N è qui
+KeywordsShort: rastrelliera economiche economica prima
+KeywordsName: rastrelliera economiche economica prima
+
+
+Descr:
+Una rastrelliera in legno che un tempo fu chiaro ed ora mostra un interessante giallo ambrato.
+Le armi si possono infilare verticalmente dalla parte alta negli appositi fori.
+DescrTouch: 
+Una rastrelliera di legno porta orgogliosamente su di sé i segni dell'usura.
+Le armi si possono infilare verticalmente dalla parte alta negli appositi fori.
+DescrSixth:
+La rastrelliera pareva semplicemente appoggiata ed invece, ad un esame poco più che distratto, risulta ancorata a terra.
+DescrHearing:
+Il tuo orecchio esperto scorge fra mille il classico cigolio da struttura datata in legno economico.
+
+Value:	0
+Weight: 40kg
+
+ContainerType:
+	MaxWeight:	400kg
+        Flags:	CONTAINER.SECRET
+End

@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_078_paludi-morte-078
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	[gray]le Paludi Morte[close]
+Short:	[gray]le paludi morte[close]
+	Descr:
+Questo luogo è al contempo straordinario e spaventoso, oltre il
+cordone protettivo si stende una palude scura e gelida, una
+nebbiolina fitta si libra a circa cinquanta centimetri dal suolo.
+La vegetazione è smunta e cadente, alcuni alberi sono chini e
+toccano la melma con i rami. Al centro della scena l'acquitrino
+cede il passo ad una liscia superficie di cristallo nero che forma
+quello che sembra un enorme nido. Al centro di questo c'è un
+gigantesco drago ti guarda tutt'altro che amichevole.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 0
+Exits:
+	Direction:	DIR.WEST
+	Descr:	[mediumblue]i cinque picchi[close]
+	Comment:	ExitStatus	0 0 066 -1
+End
+Extras:
+	Keywords:	volumetto
+		Descr:
+Il più terribile tra i malvagi, ecco chi avete di fronte, Ghorm,
+il più grande drago nero che la storia possa ricordare. Dopo la
+sconfitta per mano di Lamreloc si autoesiliò in luoghi che a noi
+mortali non è dato conoscere... fortunatamente...
+
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+Code: villaggio-zingaro_item_quest-fermacapelli
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GOLD	90%
+MaterialPercentages:	MATERIAL.GEM	10%
+Name:	Un Fermaglio
+Short:	un prezioso [goldenrod]fermaglio[close]
+Long:	$N è finito qui.
+
+Descr:
+Una [goldenrod]barretta metallica[close] tripartita, nella parte centrale è incastonato un [firebrick]rubino[close] sfaccettato incorniciato da volute e trecce che si estendono fino alle estremità avviluppandosi in forme sinuose. Sul retro due spilloni paralleli si infilano in una chiusura che permette di bloccarli.
+DescrTouch: 
+Passi la $hand lungo tutti i decori tentando di coglierne le forme.  
+DescrSixth:
+La gemma sembra vera così come la struttura dorata, un oggetto di gran pregio da tenere con cura.
+
+Value:	0
+Weight: 75g
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+        Modes: PART.HAIR
+        EntityWearMessage:	Appunti $N %part richiudentolo con cura.
+        TargetWearMessage:	Attento $N, $n ti ha indossato %s.
+        OthersWearMessage:	$n appunta $N %part richiudendolo con cura.
+        EntityRemoveMessage:	Rimuovi $N sfilandolo %part dove si era impigliato.
+        TargetRemoveMessage:	Attento $N, $n ti ha tolto %s.
+        OthersRemoveMessage:	$n rimuove $N sfilandolo %part.
+End
+
+
+

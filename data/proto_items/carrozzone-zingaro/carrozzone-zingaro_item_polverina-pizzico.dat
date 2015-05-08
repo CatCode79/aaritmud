@@ -1,0 +1,27 @@
+Code: carrozzone-zingaro_item_polverina-pizzico
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.DUST 100%
+Name:	Un Pizzico di Polverina
+Short:	un pizzico di polverina
+Long:	$N senza speranza
+
+Descr:
+Un pizzico di polverina bianca.
+DescrTouch: 
+Un pizzico di polverina impalpabile.
+DescrSmell: 
+Ahhhhh... Aaaath... Chooo!
+DescrSixth:
+Un pizzico di cremor tartaro, evidente!
+DescrHearing:
+Decidi d'inzaccherarti le orecchie di polverina bianca.
+DescrTaste:
+Urgh...
+
+Value:	0
+Weight: 3g
+
+

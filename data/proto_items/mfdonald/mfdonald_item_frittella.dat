@@ -1,0 +1,24 @@
+Code: mfdonald_item_frittella
+Level: 1
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.MILK	33%
+MaterialPercentages:	MATERIAL.FLOUR	34%
+MaterialPercentages:	MATERIAL.EGG	33%
+Name:	Una [yellow]Frittella Generica[close]
+Short:	una frittella gialla
+Long:	$N unge dove tocca
+
+Descr:
+Una frittellina ottenuta friggendo  latte farina e pastella d'uovo. Dorata quanto basta.
+DescrTouch: 
+Fragrante fuori e morbida all'interno.
+DescrSmell: 
+Profuma di fritto
+DescrTaste:
+Squisita
+
+Value:	0
+Weight: 10g
+
+

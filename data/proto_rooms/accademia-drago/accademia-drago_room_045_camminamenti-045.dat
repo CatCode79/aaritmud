@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_045_camminamenti-045
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	I Camminamenti
+Short:	i camminamenti
+	Descr:
+Mentre prosegui sui camminamenti non riesci a staccare gli occhi
+dal vortice etereo che collega le due strutture, sicuramente i
+cavalieri sono stati supportati da qualche grande mago per creare
+questa meraviglia... il camminamento prosegue a est e ovest.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 1
+Exits:
+	Direction:	DIR.EAST
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 030 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 044 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

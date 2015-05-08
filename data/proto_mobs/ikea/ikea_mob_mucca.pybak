@@ -1,0 +1,39 @@
+# -*- coding: utf-8 -*-
+
+#= DESCRIZIONE =================================================================
+
+
+#= IMPORT ======================================================================
+
+from src.enums import TO
+
+
+#= CODE ====================================================================
+
+def before_kill(entity, target):
+    entity.act("$N ti guarda con occhio espressivo e ti convince a desistere dall'uccidere.", TO.ENTITY, target)
+    entity.act("Fai desistere $n dall'ucciderti!", TO.TARGET, target)
+    entity.act("$N redarguisce severamente $n.", TO.OTHERS, target)
+    return True 
+#- Fine Funzione -
+
+
+def before_destroy(entity, target):
+    entity.act("$N ti guarda con occhio espressivo e ti convince a desistere dal distruggere.", TO.ENTITY, target)
+    entity.act("Fai desistere $n dal distruggerti!", TO.TARGET, target)
+    entity.act("$N redarguisce severamente $n.", TO.OTHERS, target)
+    return True 
+#- Fine Funzione -
+
+
+def before_attack(entity, target):
+    entity.act("$N ti guarda con occhio espressivo e ti convince a desistere dall'attaccare.", TO.ENTITY, target)
+    entity.act("Fai desistere $n dall'attaccarti!", TO.TARGET, target)
+    entity.act("$N redarguisce severamente $n.", TO.OTHERS, target)
+    return True 
+#- Fine Funzione -
+
+
+def after_touch(player, mucca, detail, descr):
+    print mucca.position
+#- Fine Funzione -

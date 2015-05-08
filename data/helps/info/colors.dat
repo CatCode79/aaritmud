@@ -1,0 +1,10 @@
+Code: colors
+
+ItalianKeywords: colori colore colorare
+EnglishKeywords: colors color
+
+Entitype: HELP.INFO
+
+Text:
+Il comando $tcolors ritornerà il link a <a href="/builder_pages/colors.htm", target="colors"&gt;questa pagina</a&gt; ove vi è spiegato come
+colorare le parole e le frasi del gioco.

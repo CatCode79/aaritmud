@@ -1,0 +1,19 @@
+Code:	serpidi_item_chiaveforcina_26
+Level:	1
+Entitype: ENTITYPE.KEY
+MaterialPercentages:	MATERIAL.METAL	100%
+Name:	Forcina per Capelli 
+Short:	una forcina per capelli 
+Descr: 
+Una forcina per capelli è piegata in un modo particolare.  
+WearType:
+    Modes: PART.HAIR
+End
+Value:	0
+Weight: 80g
+BirthDay: 1
+BirthMonth: MONTH.TEN
+
+
+
+

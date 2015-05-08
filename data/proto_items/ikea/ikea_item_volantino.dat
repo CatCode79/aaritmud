@@ -1,0 +1,20 @@
+Code: ikea_item_volantino
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.PAPER	100
+Sex:	SEX.MALE
+Flags:	FLAG.RANDOMIZABLE
+Name:	Una Proposta Unica!
+Short:	una proposta irrinunciabile
+Long:	C'è $N stampigliata su un volantino
+
+Descr:
+4 scatole di cibo per cani a soli 4.99$!
+DescrTouch: 
+4 scatole di cibo per cani a soli 4.99$!
+
+Value:	0
+Weight: 10g
+
+

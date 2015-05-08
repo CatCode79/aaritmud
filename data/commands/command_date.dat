@@ -1,0 +1,6 @@
+FunName:    command_date
+Type:       CMDTYPE.INFORMATION
+Trust:      TRUST.PLAYER
+Position:   POSITION.DEAD
+Flags:      CMDFLAG.GDR
+MiniHelp:   E' il comando che conoscere la data rpg

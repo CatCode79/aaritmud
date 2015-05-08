@@ -1,0 +1,22 @@
+Code: novizi2_item_statua-guerra-fortuna
+Level: 1
+MaxGlobalQuantity:	1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+Flags:	FLAG.NO_GET FLAG.NO_LOOK_LIST
+MaterialPercentages:	MATERIAL.MARBLE	100%
+Name:	La Statua Simbolo della Fortuna
+Short:	la statua della Fortuna
+Long:	$N è qui
+
+Descr:
+Una figura femminile di razza umana con una benda a coprire quasi completamente lo sguardo.
+La fascia però lascia intravvedere uno sguardo inquisitorio.
+DescrTouch: 
+Una statua a dimensioni ridotte di una figura femminile umana con gli occhi parzialmente velati da una benda annodata poco sopra la nuca.
+
+DescrSixth:
+la fascia sugli occhi lascia intravvedere uno sguardo inquisitorio come cercasse di capire se sei adatto al mestiere delle armi.
+
+Value:	0
+Weight: 340kg

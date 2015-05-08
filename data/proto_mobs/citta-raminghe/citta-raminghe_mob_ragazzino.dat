@@ -1,0 +1,66 @@
+Code:   citta-raminghe_mob_ragazzino
+Level:  2
+Sex:    SEX.MALE
+Race:   RACE.HUMAN
+Name:   Un Ragazzino
+Short:  un ragazzino
+Long:   $N sta giocando nei pressi del palco.
+
+Descr:
+Un ragazzino è intento ad interpretare la parte di uno spadaccino e non sembra averti notato. 
+Impugna una piccola spada di legno  con la quale fende l'aria davanti a sè. 
+Ha un paio di calzoncini corti tenuti su da due
+bretelle di stoffa e una [white]camicia[close] bianca.
+DescrSmell:
+Sudore del divertimento, terriccio delle scarpe strusciate in terra e legno dell'arma giocattolo
+DescrSixth:
+Potrebbe non essere poi così semplice affrontarlo in combattimento.
+
+Weight: 35kg
+Height: 140cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 10
+
+MaxLife:        100
+Life:           100
+MaxMana:        100
+Mana:           100
+MaxVigour:      100
+Vigour:         100
+
+Strength:       10
+Endurance:      12
+Agility:        15
+Speed:          10
+Intelligence:   15
+Willpower:      10
+Personality:    10
+Luck:           12
+
+Behaviour:
+        LookPlayer:     0
+        LookMob:        0
+        LookItem:       0
+        LookAtRacesFlags:       RACE.NONE
+        LookAtRaces:    0
+        LookAtEntitypesFlags:   ENTITYPE.NONE
+        TasteAtEntitypesFlags:  ENTITYPE.NONE
+        WanderDirection:        0
+        WanderExit:     0
+        WanderWall:     0
+        WanderClosedDoor:       0
+        WanderAtExitsFlags:     DIR.NONE
+        WanderAtExits:  0       
+        WanderArea:     0
+        WanderPortal:   0
+        WanderEnterContainer:   0
+        WanderExitContainer:    0
+        WanderSelf:     0
+        RandomDo:       5
+        RandomDoInputs: emote sorride beffandosi di te.
+        RandomDoInputs: say Ti infilzerò come un pollo!
+        RandomDoInputs: say In guardia!
+        RandomDoInputs: emote si atteggia ad abile spadaccino.
+End

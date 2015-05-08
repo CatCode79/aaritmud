@@ -1,0 +1,25 @@
+Code:	rip_item_corpse-human-neutral
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CORPSE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.FLESH	100%
+Name:	I Resti Organici di Qualcosa che Era Viv$O
+Short:	i miseri resti di qualcosa che era vivo
+
+Long:	$N ora giace qui mort$O
+
+Descr:
+Il cadavere di qualcosa che un tempo era vivo.
+DescrTouch:
+Qualcosa di ormamai definitivamenmte immoto.
+
+DescrSixth:
+Davvero poche le speranze di rivederl$O muoversì di volontà propria.
+
+DescrSmell:
+Chissà poi perché ma pare che l'odore della morte non copra gli altri odori ed a sua volta non sia coperto da altri.
+
+Value:	0
+Weight:	50kg
+

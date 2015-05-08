@@ -1,0 +1,18 @@
+Code: citta-raminghe_item_bolas
+Level: 3
+Entitype: ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.LEATHER	100%
+Name: Una Coppia di [salmon]Bolas[close]
+Sex:	SEX.MALE
+Short: un paio di [salmon]bolas in cuoio[close] 
+ShortNight: un [lightgray]grosso topo[close] che si dimena
+Long:	$N attende di essere usato
+LongNight: $N medita vendetta
+Descr:
+Lacci di cuoio alle cui estremità son legate delle sfere di metallo.
+DescrNight: 
+Occhi furbi e coda lunga, pelo corto di un grigio lucente. Le sue condizioni non sono delle migliori, anzi sembrano 
+decisamente compromesse. Destino prevedibile...
+
+Value:	0
+Weight: 500g

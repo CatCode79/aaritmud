@@ -1,0 +1,17 @@
+Code: ikea_item_covone-paglia
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.STRAW	100%
+Name:	Un Covone di Paglia
+Short:	un covone di paglia
+Long:	$N mal accatastato
+
+Descr: 
+Della paglia così male in arnese da essere inadatta persino per farci un tetto.
+DescrTouch:
+Della paglia così male in arnese da essere di poca utilità per qualunue cosa.
+
+Value:	0
+Weight: 213g

@@ -1,0 +1,71 @@
+Code: cimitero_item_cespuglio-rotolante-fake
+Level: 1
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.VEGETABLE 100%
+Sex:	SEX.MALE
+Name:	Un Cespuglio
+Short:	un cespuglio
+Long:	$N rotolante.
+
+Descr: 
+Una sorta di [maroon]cespuglio[close] di medie dimensioni, rotolando lentamente ti passa
+davanti e si ferma a pochi metri da te. È Formato da un groviglio di rami
+secchi e spine di diverse piante, sicuramente questo [maroon]cespuglio[close] muovendosi
+all'interno del cimitero ne raccoglierà ancora altre durante il suo cammino.
+
+DescrNight:
+Un [maroon]cespuglio[close] semovente, formato da diversi tipi di arbusti secchi e spine, ti
+passa davanti rotolando lentamente fino a fermarsi a pochi passi da te.
+
+DescrHearing:
+Riesci a sentire distintamente il fruscio prodotto dalle foglie e dalle spine
+che provengono dal [maroon]cespuglio[close].
+
+DescrTouch:
+Facendo attenzione a non tagliarti le $hands, ti rendi conto che le spine del
+[maroon]cespuglio[close] sono molto appuntite e di diverse dimensioni.
+
+DescrTouchNight:
+Toccando il [maroon]cespuglio[close] ti accorgi che le sue spine potrebbero tranquillamente
+ferirti le $hands. Al tocco risulta ispido e abrasivo.
+
+Extras:
+	Keywords: spina spine
+	Descr:
+	Tra i vari ramoscelli e arbusti facenti parte del [maroon]cespuglio[close], noti in 
+	particolare una spina decisamente più grande e appuntita delle altre che
+	quasi sporge da un lato come se fosse un artiglio.	
+End
+
+Value:	0
+Weight: 1kg
+
+
+Behaviour:
+	LookPlayer:	0
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	30
+	WanderWall:	0
+	WanderClosedDoor:	100
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+

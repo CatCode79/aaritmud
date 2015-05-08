@@ -1,0 +1,20 @@
+Comment:
+	crisalide morta; è quella da caricare al posto di alcune vive per simulare
+	mortalità da muta.
+Code: cimitero_item_crisalide-morta
+Level: 1
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.BLOOD 70%
+MaterialPercentages:	MATERIAL.UNKNOWN 30%
+Sex:	SEX.FEMALE
+Name:	La [gray]Crisalide[close] di una [gray]Karpuridae[close]
+Short:	una [gray]Crisalide[close] tozza
+Long:	$N attaccata ad un ramo d'albero.
+
+Descr: 
+Un ciuffo peloso di sottilissimo filo bianco nasconde un bozzolotto ingrigito in cui stava mutando in farfalla un bruco.. probabilmente qualcosa è andato storto.
+
+Value:	0
+Weight: 8g
+
+

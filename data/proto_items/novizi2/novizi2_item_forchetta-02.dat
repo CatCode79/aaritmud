@@ -1,0 +1,52 @@
+Code: novizi2_item_forchetta-02
+Level: 1
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.ALUMINIUM	100
+Sex:	SEX.FEMALE
+Name:	La Forchetta del Novizio
+Short:	una [yellow]f[close]orchetta
+Long:	$N osserva i [yellow]m[close]ob che passano
+
+Descr:
+	Un oggetto metallico oblungo provvisto degli opportuni rebbi che lo rendono atto ad
+	inforcare cibo di consistenza sufficiente.
+DescrTouch: 
+	Appena sfiori la forchetta nella zona dell'impugnatura, l'adrenalina comincia a
+	scorrere potente!
+DescrSixth:
+	Percepisci distintamente le immutabili leggi dell'universo che ti conducono ad
+	allenarti con questo potente oggetto.
+DescrTaste:
+	Non ti è consentito profanare l'oggetto di tanta potenza.
+
+Value:	0
+Weight: 10g
+
+Behaviour:
+	LookPlayer:	0
+	LookMob:	100
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+

@@ -1,0 +1,51 @@
+Code: novizi2_item_cucchiaio-04
+Level: 1
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.ALUMINIUM	100
+Sex:	SEX.MALE
+Name:	Il Cucchiaino del Novizio
+Short:	un [gold]c[red]ucchiaino[close] da pesce
+Long:	$N pare attratto dalle porte
+
+Descr:
+	Un oggetto metallico di gran pregio è qui a mostrare voluttuosamente la sua parte
+	migliore: quella concava.
+DescrTouch: 
+	Non appena le tue $hands sfiorano l'impugnatura, la tua fronte ti s'imperla di sudore
+	e vieni percors$o da pensieri volitivi ed effimeri.
+DescrSixth:
+	Forze magico-mistiche ti inducono tenere per te questo misterioso artefatto.
+DescrTaste:
+	Non ti è ancora permesso l'utilizzo proprio di un artefatto così potente.
+
+Value:	0
+Weight: 10g
+
+Behaviour:
+	LookPlayer:	0
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	100
+	WanderWall:	0
+	WanderClosedDoor:	100
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+

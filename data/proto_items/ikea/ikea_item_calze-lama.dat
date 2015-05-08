@@ -1,0 +1,45 @@
+Code: ikea_item_calze-lama
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.WOOL	100%
+Name:	Un Paio di [lightslategray]Calzini[close] in [lightslategray]Lana[close] di Lama
+Short:	un paio di pregiati [lightslategray]calzini[close] in [lightslategray]lana[close]
+Long:	$N posati qui.
+
+Descr:
+Un paio di sofisticati [lightslategray]calzini[close] in [lightslategray]lana[close] di lama di colore grigio con l'orlo lavorato.
+DescrTouch: 
+Sono soffici e morbide. 
+DescrSmell: 
+Profumano di erba fresca.
+
+Value:	129
+Weight: 47g
+
+Extras:
+	Keywords:	orlo lavorato
+	Descr:
+	Osservi con attenzione la pregevole lavorazione traforata dell'orlo.
+	DescrSixth:
+	La regolarità dei punti suggeriscono sia stato prodotto da abili mani.
+End
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+	Modes:	PART.LEFT_FOOT PART.RIGHT_FOOT
+	EntityWearMessage:	Infili $N %part con grande grazie.
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	$n infila $N %part con aria sofisticata.
+	EntityRemoveMessage:	Sfili $N, peccato, eran così morbidi!
+	TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+	OthersRemoveMessage:	$n sfila $N quasi intristito.
+End
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

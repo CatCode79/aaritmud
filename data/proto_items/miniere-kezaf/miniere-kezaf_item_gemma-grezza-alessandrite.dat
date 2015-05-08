@@ -1,0 +1,41 @@
+Code: miniere-kezaf_item_gemma-grezza-alessandrite
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Name:	Una Gemma di Alessandrite Grezza
+Short:	una [violet]pietra[close] con  grossi [fuchsia]cristalli[close] squadrati
+Long:	$N è qui
+
+Descr:
+Un pezzo di roccia sul quale sono germinati dei grossi cristalli squadrati fra il viola e il fucsia.
+DescrTouch: 
+Un pezzo di roccia rivestio da un lato di cristali squadrati.
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Value:	0
+Weight: 10g
+
+Extras:
+	Keywords: chiave
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End

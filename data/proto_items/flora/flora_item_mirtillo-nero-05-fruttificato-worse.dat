@@ -1,0 +1,64 @@
+Code: flora_item_mirtillo-nero-05-fruttificato-worse
+Comment:
+	Qui c'è da capire se inserire ITEM mirtilli veri e bacati ( gli 01 e 02 ) dentro al presente ITEM a guisa di container oppure se verrà implementato uno script. In quest'ultimo caso servirà una variante del cespuglio svuotato dai mirtilli.
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name: Un [springgreen]Cespuglio[close] di [springgreen]Mirtilli[close] [blue]Neri[close]
+Short:	un [springgreen]cespuglio[close] di [springgreen]mirtilli[close] [blue]neri[close]
+Long:	$N è cresciuto qui
+
+Descr:
+Un folto e basso cespuglio appesantito dal ragguardevole carico di  mirtilli [blue]neri[close]. Anche il verde lucido delle foglie cede il passo all'esplosione di bacche.
+
+DescrTouch:
+Un folto cespuglio basso radicato in profondità nel terreno fitto tanto di foglie quanto di bacche morbide e succose.
+
+DescrTaste:
+Duro e stoppaccioso poiché fortemente lignificato ma addolcito dalle bacche.
+
+DescrSmell:
+Profumo che arriva a zaffate cariche di sentori zuccherini.
+
+DescrSixth:
+Poco utile come legna da ardere ma le foglie sono un ingrediente importante per unguenti per mantenere elastiche le pelli dopo conciatura.
+
+Value:	0
+Weight: 13kg
+
+Extras:
+  Keywords: foglie foglia fogliolina foglioline
+  Descr:	verdi foglioline alternate
+  DescrTouch:	lucide foglioline alternate
+  DescrTaste:	un forte amaro astringente
+  DescrSixth:	spezzettate e macerate posson mantenere elastica la pelle delle mani 
+End
+
+Extras:
+  Keywords: fusto stelo steli lignificato legno legni
+  Descr:	il fusto intricato e lignificato molto fitto e rivestito da foglioline scure e più giallastre verso l'interno.
+  DescrTouch:	per quanto intricato e legnoso il fusto mantiene una grande elasticità
+  DescrTaste:	un insipido sapore stoppaccioso
+End
+
+Extras:
+  Keywords: frutto frutti bacca bacche
+  Descr:	mirtilli neri maturi grossi e sugosi in attesa d'esser colti
+  DescrTouch:	bacche di piccola dimensione mature e sugose che si staccano al tocco poco meno che delicato
+  DescrTaste:	mirtillo maturo e dolce, molto dolce
+  DescrSixth:	potrebbero non durare moltissimo se non conservati opportunamente
+  DescrSmell:	effluvi zuccherini ti arrivano a folate decise per ogni refolo che inspiri 
+End
+
+PlantType:
+    Sectors:	SECTOR.PLAIN SECTOR.HOUSE
+    RpgHours:	120
+    WorseEntity:	flora_item_mirtillo-nero-03-pianta
+    NormalEntity:	flora_item_mirtillo-nero-03-pianta
+    BetterEntity:	flora_item_mirtillo-nero-03-pianta-better
+    DeadEntity:		flora_item_mirtillo-nero-06-cespuglio-morto
+End
+
+

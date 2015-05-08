@@ -1,0 +1,24 @@
+Code: torreelementi_item_portale_torre_01
+Level: 1
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.UNKNOWN	100%
+Name:	Il Portale del Regno d'[aqua]Acqua[close]
+Short:	un [aqua]portale[close]
+Long: 	 $N è stato strappato dalla parete e scaraventato qui a lato
+
+Descr:
+	Un [aqua]portale[close] stranissimo in continuo muovimento dalle superfici opache
+	che s'increspano in continuazione
+DescrTouch: 
+	È morbido al tocco e pare che le dita ci affondino, ma solo di un unghia o poco più.
+DescrSixth:
+	Potrebbe darsi che chi ha tolto di malagrazia il portale sia poco disposto al dialogo
+	e forse ancora nei dintorni.
+Value:	0
+Weight: 1102kg
+
+DoorType:
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE
+	KeyCode:	torreelementi_item_chiave_portale_torre_01
+End

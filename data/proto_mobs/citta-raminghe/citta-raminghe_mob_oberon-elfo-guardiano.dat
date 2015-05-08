@@ -1,0 +1,113 @@
+Comment:
+Mob stanziale nella room Casa del Guardiano-area Città delle Raminghe.
+INTERAZIONI:
+Dopo un  look sul guardiano compare una scritta:	Buongiorno Straniero/a qui un saluto è ben accetto!
+ Si suppone che il pg usi un social "saluta".
+L'elfo     guardiano dà allora al pg , solo dopo che ha salutato, una  pergamena che è un lasciapassare e scrive il nome
+del pg su un libro.
+Comandi touch e taste:	se a lanciarli è un pg maschile, si ritrova fuori dalla porta semplicemente dopo aver letto la
+descrizione. Se a lanciarli è un pg femminile si attiva una risposta dell'Elfo Guardiano che potrebbe essere in linea di
+massima così:	"Potresti forse accostarti a me con un gesto così intimo solo dopo che hai conosciuto la mia storia..."
+
+Code:	citta-raminghe_mob_oberon-elfo-guardiano
+Level:	1
+Sex:	SEX.MALE
+Race:	RACE.HIGHELF
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	[lightgreen]Oberon[close]
+Short:	[lightgreen]un Elfo Guardiano[close]
+Long:	$N ti accoglie
+
+
+Descr:
+Un elfo dall'espressione assorta e dai modi gentili. Gli occhi, di un turchese profondo, ti fissano intensamente e sembrano
+celare un segreto antico e doloroso.
+Le sue movenze, calme e pacate, indurrebbero ad accostarsi a lui con tranquillità. Il suo volto è di una bellezza assoluta,
+ ma non appariscente. Indossa un abbigliamento che mette in risalto un corpo asciutto e longilineo, ma anche muscoloso e
+forte.
+
+DescrTouch:
+Toccare un Elfo Guardiano non è un gesto veramente appropriato...richiede un grado di intimità che non possiedi.
+
+DescrSmell:
+Un intenso profumo di muschio stimola il tuo olfatto in modo persistente.
+
+
+DescrSixth:
+Perchè sia qui non lo sa quasi nessuno. La sua [red]storia[close] sembra sedimentata tra le pieghe della memoria di qualcuno che non ama raccontarla. Di certo quello sguardo assorto e pensieroso lascia intuire che giungere sin qui è stata una
+necessità più che una scelta. Il suo aspetto gradevole e i suoi modi caldi e accoglienti, insieme ad una intelligenza vivace e ad una sagace ironia  di cui fa buon uso, lo rendono più che solamente un Guardiano di questi luoghi, ma anche un attento
+conoscitore dell'animo umano e dei pensieri di chi gli si avvicina.
+
+DescrHearing:
+Ha una voce limpida e sicura con accenti che rimandano a melodie di  boschi lontani.
+
+DescrTaste:
+Assaggiare un Elfo Guardiano non è un gesto veramente appropriato... richiede un grado di intimità che non possiedi.
+
+Weight:	65kg
+Height:	178cm
+
+Extras:
+     Keywords:	storia_di_oberon
+     DescrSixth:
+Nessuno conosce con certezza la sua storia, ma si racconta che tutto ebbe inizio dopo che incautamente si innamorò,
+ricambiato, di una bellissima sacerdotessa di Lolth di nome Hirriel. Si dice che la divinità, in preda ad un'ira furiosa
+per quesa unione ritenuta sacrilega, abbia cercato di trasformarlo in [red]drider[close], essere mostruoso, metà elfo e metà ragno.
+Riuscì a sfuggire alla terribile maledizione con l'aiuto  di Hirriel.
+Si narra che la sacerdotessa venne punita per il suo gesto  con un castigo talmente terribile che nessuno
+ ebbe mai la forza di raccontarlo. L'Elfo per il dolore divenne ramingo e così fu che, giunto  in questi luoghi, vi rimase.
+
+End
+
+BirthDay:	10
+BirthMonth:	MONTH.EIGHT
+Age:	235
+
+
+
+Strength:	10
+Endurance:	10
+Agility:	10
+Speed:		10
+Intelligence:	10
+Willpower:	10
+Personality:	10
+Luck:		10
+
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100
+
+Behaviour:
+     LookPlayer:	30
+     LookMob:	10
+     LookItem:	10
+     LookAtRacesFlags:	RACE.NONE
+     LookAtRaces:	0
+     LookAtEntitypesFlags:	ENTITYPE.NONE
+     LookAtEntitypes:	0
+     LookSelf:	10
+     LookDirection:	10
+     LookExit:	10
+     LookWall:	0
+     LookClosedDoor:	10
+     LookExtra:	0
+     WanderDirection:	0
+     WanderExit:	0
+     WanderWall:	0
+     WanderClosedDoor:	0
+     WanderArea:	0
+     WanderPortal:	0
+     WanderEnterContainer:	0
+     WanderExitContainer:	0
+     WanderSelf:	0
+     RandomDo:	20
+     RandomDoInputs:	emote  ti guarda per intuire i tuoi pensieri
+     RandomDoInputs:	emote  osserva i tuoi gesti per conoscere le tue intenzioni.
+     RandomDoInputs:	emote  scrive qualcosa su un libro... forse qualcosa che ti riguarda.
+End
+

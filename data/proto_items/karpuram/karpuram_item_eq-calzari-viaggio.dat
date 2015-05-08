@@ -1,0 +1,39 @@
+Code:	karpuram_item_eq-calzari-viaggio
+
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.LINE	40
+MaterialPercentages:	MATERIAL.COTTON	60
+Sex:	SEX.MALE
+Name:	Dei Robusti Calzari da Viaggio
+Short:	dei calzari da viaggio
+Long:	ci sono $N, e devono aver viaggiato parecchio
+
+Descr:
+Sono due grossi calzari da viaggio, rovinati e luridi ma ancora in buono
+stato. Hanno una forma allungata e coprono gran parte della gamba fino quasi
+al ginocchio, il tessuto usato è resistente e leggermente elastico e permette
+di indossarli con scioltezza. La suola seppur impolverata non presenta fori o
+tagli, risultando ancora resistente. Verso la punta dei calzari vi è una
+leggera lamina di ferro scuro a protezione delle $finger
+
+DescrSmell:
+Avverti l'odore di terra e polvere provenire dalle suole di questi calzari
+
+DescrTouch:
+La suola presenta una particolare conformazione che si adatta ad ogni tipo di
+plantare, mentre la parte frontale ha una fodera ferrosa che protegge il piede
+da terreni scoscesi e impervi
+
+DescrSixth:
+Ti sembra di averli già visti durante i tuoi viaggi, ma non ricordi bene dove
+
+Value:	0
+Weight:	200g
+
+WearType:
+   Modes: PART.RIGHT_FOOT PART.LEFT_FOOT
+End
+
+

@@ -1,0 +1,17 @@
+Code: agility
+
+ItalianKeywords: agilità
+EnglishKeywords: agility
+
+Entitype: HELP.STAT
+
+Text:
+L'attributo agilità rappresenta la capacità di schivare gli attacchi e
+allo stesso tempo permette di colpire con maggior precisione un eventuale
+avversario.
+
+Abilità come rubare o disarmare potrebbero aumentare la loro
+efficacia attraverso questa caratteristica.
+
+
+SeeAlso: attributes, skills

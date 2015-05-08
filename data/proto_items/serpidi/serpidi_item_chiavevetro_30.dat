@@ -1,0 +1,16 @@
+Code:	serpidi_item_chiavevetro_30
+Level:	1
+Entitype: ENTITYPE.KEY
+MaterialPercentages:	MATERIAL.GLASS	100%
+Name:	Un Pezzo di Vetro Appuntito 
+Short:	un pezzo di vetro appuntito 
+Descr: 
+C'è un collo di bottiglia in un angolo.  
+Value:	0
+Weight: 80g
+BirthDay: 1
+BirthMonth: MONTH.TEN
+
+
+
+

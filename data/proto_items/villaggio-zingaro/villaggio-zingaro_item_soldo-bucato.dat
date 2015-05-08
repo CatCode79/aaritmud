@@ -1,0 +1,26 @@
+Code: villaggio-zingaro_item_soldo-bucato
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.METAL	100%
+Name:	Un Soldo Bucato
+Short:	un soldo
+Long:	$N forata al centro.
+
+Descr:
+Una piccola moneta con un foro proprio nel centro; attorno ad esso corrono esili ungulati in leggero rilievo.
+DescrTouch: 
+Tenti di infilare un dito nel buco che però è decisamente troppo piccolo.
+DescrSmell: 
+Pecunia non olet, forse non in questo caso però!
+DescrSixth:
+Un soldo bucato, intuisci che nessuno lo accetterebbe come pagamento.
+DescrHearing:
+Batti con l'unghia ricavando un leggero suono metallico.
+DescrTaste:
+Tenti di morderlo ma ne ricavi solo un gran mal di denti.
+
+Value:	0
+Weight: 4g
+

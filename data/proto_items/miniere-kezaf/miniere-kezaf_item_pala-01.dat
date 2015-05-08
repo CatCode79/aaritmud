@@ -1,0 +1,32 @@
+Code: miniere-kezaf_item_pala-01
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAPON
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.WOOD	45%
+MaterialPercentages:	MATERIAL.METAL	55%
+Icon:	icons/item/shovel.png
+Name:	Una Vecchia Pala
+Short:	una pala
+Long:	$N male in arnese
+
+Descr:
+Una vecchia pala dal manico di legno consunto dal tempo più che dall'uso. È anche un po storta.
+DescrTouch: 
+Una vecchia pala metallica un po' storta con il manico di legno e troppo leggera per essere un arnese serio.
+DescrSixth:
+Con un po' di attenzione si riesce a far durare almeno una mezza giornata.
+DescrTaste:
+Già... legno vecchio e metallo.
+
+Value:	0
+Weight: 2700g
+
+WeaponType:
+        Category: WEAPON.STAFF
+	Damage:	1D4+3
+        Flags: WEAPONFLAG.ONE_HAND 
+End
+
+MaxLife:	40
+Life:		22

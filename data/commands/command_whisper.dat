@@ -1,0 +1,6 @@
+FunName:    command_whisper
+Type:       CMDTYPE.CHANNEL
+Trust:      TRUST.PLAYER
+Position:   POSITION.REST
+Flags:      CMDFLAG.GDR
+MiniHelp:   Serve per sussurare un messaggio

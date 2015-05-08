@@ -1,0 +1,16 @@
+Code: mfdonald_item_apribottiglie_farfalla
+Level: 1
+
+Flags: FLAG.NO_LOOK_LIST 
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.STEEL	100%
+Name: l'Apribottiglie a Bruco
+Short: un apribottiglie a bruco
+Descr: l'utensile che serve a togliere le capsule metalliche (tappi a corona)
+delle bottiglie.
+
+Value:	0
+Weight: 30g
+
+

@@ -1,0 +1,27 @@
+Comment: Come un contenitore. Contiene non la lista delle pietanze, ma  le pietanze in sè. È tenuto dalle locandiere.
+
+Code: citta-raminghe_item_menu-locanda
+Level: 1
+Entitype: ENTITYPE.CONTAINER
+MaterialPercentages:	MATERIAL.PAPER	100
+Name: Menù
+Short: menù
+Descr:
+<pre class="asciiart">
+
+.                                        [red]***[close]
+.    [red]*       *   *****   **    *   *    *[close]  
+.    [red]* *   * *   *       * *   *   *    *[close]
+.    [red]*   *   *   *****   *   * *   *    *[close]
+.    [red]*       *   *       *    **   *    *[close]
+.    [red]*       *   *****   *     *   ******[close]
+
+</pre>
+
+Value:	0
+Weight: 248g
+
+ 
+ContainerType:
+        MaxWeight: 3kg
+End

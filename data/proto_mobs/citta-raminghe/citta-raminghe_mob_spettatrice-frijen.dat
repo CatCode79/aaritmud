@@ -1,0 +1,67 @@
+Code:   citta-raminghe_mob_spettatrice-frijen
+Level:  2
+Sex:    SEX.FEMALE
+Race:   RACE.FRIJEN
+Name:   Una Spettatrice Frijen
+Short:  una spettatrice di razza frijen
+Long:   $N guarda impassibile dagli spalti
+
+Descr:
+Una giovane dagli [lightblue]occhi[close] di ghiaccio sta seduta qui ed è molto presa a guardare 
+lo spettacolo senza lasciar trapelare una minima emozione. Ha i [white]capelli[close] molto corti e chiarissimi.
+La pelle è bianca e slavata e noti subito la sua appartenenza alla razza delle  frijen dall'espressione glaciale del viso.
+Ha i lineamenti molto femminili ed aggraziati, indossa una [turquoise]casacca[close] turchese e un 
+mantello bianco splendente che l'avvolge per intero.
+DescrSmell:
+Odore di antiche pergamene. Forse è  una delle custodi bibliotecarie
+DescrSixth:
+Si avverte una strana sensazione di disagio quando si incrocia il suo sguardo gelido
+
+Weight: 60kg
+Height: 175cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 30
+
+MaxLife:        150
+Life:           150
+MaxMana:        150
+Mana:           150
+MaxVigour:      150
+Vigour:         150
+
+Strength:       15
+Endurance:      12
+Agility:        19
+Speed:          19
+Intelligence:   10
+Willpower:      10
+Personality:    19
+Luck:           12
+
+Behaviour:
+        LookPlayer:     40
+        LookMob:        0
+        LookItem:       0
+        LookAtRacesFlags:       RACE.NONE
+        LookAtRaces:    0
+        LookAtEntitypesFlags:   ENTITYPE.NONE
+        TasteAtEntitypesFlags:  ENTITYPE.NONE
+        WanderDirection:        0
+        WanderExit:     0
+        WanderWall:     0
+        WanderClosedDoor:       0
+        WanderAtExitsFlags:     DIR.NONE
+        WanderAtExits:  0       
+        WanderArea:     0
+        WanderPortal:   0
+        WanderEnterContainer:   0
+        WanderExitContainer:    0
+        WanderSelf:     0
+        RandomDo:       5
+        RandomDoInputs: emote rimane impassibile  mentre applaude.
+        RandomDoInputs: say Sarebbe opportuno che vi sedeste per lasciarmi vedere lo spettacolo!
+        RandomDoInputs: say Bravi! Bravi!
+        RandomDoInputs: emote Sembra assorta in pensieri che non si riesce ad intuire
+End

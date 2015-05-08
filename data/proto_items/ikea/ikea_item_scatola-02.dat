@@ -1,0 +1,36 @@
+Code: ikea_item_scatola-02
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+MaterialPercentages:	MATERIAL.SOFTWOOD	90
+MaterialPercentages:	MATERIAL.BRASS	10
+Sex:	SEX.MALE
+Flags:	FLAG.RANDOMIZABLE
+Name:	Uno Scatolozzo di Legno
+Short:	uno scatolozzo di legno
+Long:	$N dall'aspetto sgangherato
+
+Descr:
+Una scatoletta di legno chiaro con il coperchietto scranificato in luogo della serratura.
+DescrTouch: 
+Una scatoletta di legno un po' grezzo e con alcuni tratti lisciati dall'uso. Il coperchio è profondamente segnato sull'attaccatura del meccanismo di blocco.
+DescrSixth:
+Deve essere stata forzata più di una volta.
+
+Value:	0
+Weight: 94g
+
+
+ContainerType:
+	EntityOpenMessage:	Apri $N usando ambo le $hands.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N usando ambo le $hands.
+	EntityCloseMessage:	Accompagni $N fino a chiuderla.
+	TargetCloseMessage:	Finalmente $n si è degnat$o di chiuderti.
+	OthersCloseMessage:	$n accompagna $N fino a chiusura.
+	KeyCode:	ikea_item_key-chiavetta-scatola
+	Flags:	CONTAINER.LOCKED  CONTAINER.CLOSABLE
+        MaxWeight: 350g
+End
+
+

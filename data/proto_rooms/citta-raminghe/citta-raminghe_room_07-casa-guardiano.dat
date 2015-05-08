@@ -1,0 +1,20 @@
+Code: citta-raminghe_room_07-casa-guardiano
+Sector: SECTOR.CITY
+Name: [red]La Casa del Guardiano[close]
+Short: [red]La Casa del Guardiano[close]
+
+Descr:
+Una casa dove trovi solo l'essenziale. Un tavolo, delle sedie, un camino abbastanza grande. È l'abitazione di un 
+ [yellow]elfo guardiano[close]. Si trova in una posizione favorevole per controllare chi entra nella città.
+
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.NORTH
+	Door:	ikea_item_porta
+	Descr: Un piazzale alberato
+End

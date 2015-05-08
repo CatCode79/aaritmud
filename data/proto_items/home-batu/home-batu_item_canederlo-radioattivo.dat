@@ -1,0 +1,38 @@
+Code: home-batu_item_canederlo-radioattivo
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+MaterialPercentages:	MATERIAL.MANA	10%
+MaterialPercentages:	MATERIAL.BREAD	80%
+MaterialPercentages:	MATERIAL.MILK	10%
+Name:	Un Canederlo del Ritorno
+Short:	un canederlo del ritorno
+Long:	il luccichio verdastro di $N lo certifica come radioattivo 
+
+Descr:
+Tipica specialità AltoAtesina arricchita dai ragazzi di via Panisperna.
+DescrTouch: 
+Allungando la $hand, te la vedi raggrinzire a causa delle radiazioni.
+DescrSmell: 
+Uhm... prezzemolo, pane bagnato, farina e qualcosa che non sapresti dire.
+DescrHearing:
+Il rumore dei nuclei di elio che scintillano sul solfuro di zinco producono un rumore accomodante.
+DescrTaste:
+Eh... si.. lo so, ma la mamma non vuole che mangi nuclei di elio.
+
+Value:	0
+Weight: 10g
+
+PortalType:
+	Destination: 0 0 1 novizi
+	EntityEnterMessage: $N pulsa di verde e ti irradia di sana speranza darwiniana!
+	TargetEnterMessage: $n decide d'attraversarti e l$o anticipi repentinamente.
+	OthersEnterMessage: $N pulso di verde e irradia $n di una sana speranza darwiniana..
+	EntityExitMessage: Il tuo accento è ora mutato e tutte le tue vocali chiuse.
+	TargetExitMessage: Ora $n è sparit$o da $T finendo in $t.
+	OthersExitMessage: $n appare in un bagliore verdastro.
+End
+
+

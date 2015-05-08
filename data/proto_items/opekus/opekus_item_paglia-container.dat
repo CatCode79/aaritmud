@@ -1,0 +1,22 @@
+Code:	opekus_item_paglia-container
+Level:	1
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.STRAW	100%
+Name:	Un po' di Paglia
+Short:	un po' di paglia
+Long:	$N sparsa qua e là
+
+Descr:
+Un po' di paglia schiacciata, stropicciata e maltrattata.
+DescrTouch:
+Un po' di paglia schiacciata, stropicciata e maltrattata.
+
+
+Value:	0
+Weight: 50g
+
+ContainerType:
+	Flags:	CONTAINER.SECRET
+	MaxWeight:	50g
+End

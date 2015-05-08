@@ -1,0 +1,21 @@
+Code:	arena-drago_item_runa-verde
+Level:	06
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.METAL 100%
+Sex:	SEX.FEMALE
+Name:	Una Runa [green]Verde[close]
+Short:	una runa [green]verde[close]
+Long:	$N è abbandonata qui come se fosse qualcosa di nessun valore...
+
+Value:	0
+Weight: 150g
+
+Descr:
+Una piccola runa [green]verde[close] di metallo.
+Comment:
+§27705
+
+Dati Obj
+8 262144 10 0 0 01 0 -1
+
+

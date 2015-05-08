@@ -1,0 +1,23 @@
+Code: antro-drow_room_grotta-02
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: Una Grotta Naturale
+Short: una grotta naturale
+
+Descr:
+L'estrema propaggine di una grotta di apparente origine naturale si adagiava anticamente a ridosso della parte nord. Ora su quella parete c'è un'ampia spaccatura che ne consente l'accesso. In terra la pavimentazione è stata collocata con un'attenzione ed un'arte che nulla ha a che vedere con i processi naturali. Qualcuno qui in epoche lontane ha deciso di realizzare una via lastricata di selce.
+DescrTouch:
+Un filo di aria ti investe lieve proseguendo poi in direzione della frattura.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.NORTH
+	Descr: Una frattura nella roccia
+End
+Exits:
+	Direction: DIR.EAST
+	Descr: La grotta prosegue
+End

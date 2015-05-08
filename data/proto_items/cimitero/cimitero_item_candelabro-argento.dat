@@ -1,0 +1,44 @@
+Code: cimitero_item_candelabro-argento
+Level: 1
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.SILVER 70%
+MaterialPercentages:	MATERIAL.IRON 30%
+Sex:	SEX.MALE
+Name:	Un Candelabro d'Argento
+Short:	un candelabro metallico
+Long:	$N usurato e sporco.
+
+
+Descr:
+Un austero candelabro in argento, potrebbe essere utilizzato in tempi migliori
+come centro tavola ad una cena di gran galà. Invece quasi non lo noti a causa
+dell'usura del tempo e le molteplici ragnatele che oramai quasi lo nascondono
+alla vista. Presenta una struttura a cinque braccia dove è possibile inserire
+fino a cinque candele. La base è abbastanza grande e di forma esagonale, ma non
+presenta rifiniture di altro materiale. 
+
+DescrNight:
+Un candelabro in argento quasi non si nota, il fulgore di un tempo è solo un
+ricordo, il pregiato materiale risulta opaco e spento e le molte ragnatele
+che lo circondano fanno il resto. La struttura a cinque braccia permette di
+inserire fino a cinque piccole candele, la base esagonale è molto semplice
+e per nulla rifinita.
+
+DescrSmell: 
+Un lontano e remoto odore di antico ti invade i sensi quando ti avvicini
+all'oggetto, l'odore delle ragnatele e di insetti morti prende poi subito
+il sopravvento.
+
+DescrSmellNight:
+L'operoso lavoro di un ragno sulle sue prede invade i tuoi sensi, l'odore di
+piccoli insetti morti misto a quello delle ragnatele non ti permette di
+sentire oltre.
+
+DescrTouch:
+Il candelabro risulta freddo al tatto ma decisamente pesante e ancora solido,
+il tempo non è riuscito a scalfirlo e se non fosse per le ragnatele e la 
+polvere presente si direbbe ancora perfettamente funzionante.
+
+
+Value:	0
+Weight: 200g

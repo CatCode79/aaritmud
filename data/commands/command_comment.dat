@@ -1,0 +1,5 @@
+FunName:  command_comment
+Type:     CMDTYPE.CHANNEL
+Trust:    TRUST.PLAYER
+Position: POSITION.DEAD
+MiniHelp: Serve per inviare commenti del gioco agli amministratori.

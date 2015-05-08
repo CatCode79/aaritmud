@@ -1,0 +1,24 @@
+Code:	arena-drago_item_mazzo-arena
+Level:	06
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.STEEL 60%
+MaterialPercentages:	MATERIAL.COPPER 10%
+MaterialPercentages:	MATERIAL.SILVER 10%
+MaterialPercentages:	MATERIAL.IRON 10%
+MaterialPercentages:	MATERIAL.BRONZE 10%
+Sex:	SEX.MALE
+Name:	Il Mazzo Dell'Arena
+Short:	il mazzo dell'arena
+
+Value:	0
+Weight: 3400g
+
+Descr:
+Un grosso anello metallico con infilate  chiavi di varia foggia e colore.
+Comment:
+§27707
+
+Dati Obj
+18 262144 10 0 0 01 0 -1
+
+

@@ -1,0 +1,68 @@
+Code:	arena-drago_room_17-livello
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il II Livello
+Short:	il II livello
+	Descr:
+In questo punto della strada una scalinata si apre verso est per
+congiungere questo livello con gli spalti dell'arena due piani
+più sotto, la normale camminata procede a nord e sud.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 1
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	il II livello
+	Comment:	ExitStatus	0 0 27716 -1
+	Destination:	3 8 0 arena-drago
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	una larga scalinata
+	Comment:	ExitStatus	0 0 27719 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	il II livello
+	Comment:	ExitStatus	0 0 27718 -1
+	Destination:	3 2 0 arena-drago
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

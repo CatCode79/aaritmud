@@ -1,0 +1,36 @@
+Code: villaggio-zingaro_item_altare-accesso
+
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.MARBLE 100%
+Name:	L'[white]Altare[close] d'[white]Accesso[close]
+Short:	un [white]altare marmoreo[close] 
+Long:	$N emerge dai rampicanti che tentano di obliarlo.
+
+Descr:
+Robusti rami d'[darkgreen]edera[close], come serpi flessuose, sono avvinghiati attorno ad un [white]altare[close] in marmo bianco dalle linee pulite ed eleganti.
+Rimani ammaliato per alcuni attimi dall'[lemonchiffon]etereo alone luminoso[close] che permea l'aria circostante.
+DescrTouch: 
+Allunghi le mani verso l'altare attirato da un misteriosa forza.
+DescrSmell: 
+Inspiri a pieni polmoni e vieni investito da un odore d'erba e di fiori certamente estraneo a questo luogo.
+DescrSixth:
+La presenza di quest'oggetto al centro di una grotta naturale..ti confonde.
+Intuisci immediatamente che non è stato posto qui come decoro. 
+DescrHearing:
+Un lieve ronzio pervade la tua mente.
+
+Value:	0
+Weight: 542kg
+
+Extras:
+	Keywords: linee pulite eleganti
+	DescrSixth:
+	Un senso di sicurezza ti pervade: è certamente un convinto neoclassico!	
+End
+
+ContainerType:
+        MaxWeight: 750kg
+End

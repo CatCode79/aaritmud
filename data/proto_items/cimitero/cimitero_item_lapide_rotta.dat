@@ -1,0 +1,78 @@
+Code: cimitero_item_lapide_rotta
+Level: 1
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.STONE 100%
+Sex:	SEX.FEMALE
+Name: Una Lapide Infranta
+Short: una lapide spaccata
+Long:	$N è infissa malamente nel terreno.
+
+Descr:
+Questa lapide è stata realizzata da mani inesperte o quasi sicuramente in modo
+approssimativo e veloce, presenta una palese asimmetria che la fa tendere 
+pericolosamente in avanti. Realizzata con diversi materiali di dubbia 
+provenienza, presenta una spaccatura molto grande sul lato sinistro e un foro
+circolare di discrete dimensioni appena sotto.
+
+DescrNight:
+La lapide è talmente malconcia che quasi non ti accorgi della sua presenza, 
+riuscendo a confondersi con i molti e diversi sassi che si trovano sparsi nel
+cimitero. Questa lapide deve appartenere sicuramente a qualche povero viandante
+che ha avuto la sfortuna di morire nelle vicinanze. Con la poca luce della notte
+riesci solo a percepirne la palese asimmetria e un foro circolare presente sul 
+lato sinistro della stessa.
+
+DescrHearing:
+Una famiglia di vespe pare abbia deciso di costruire la propria dimora nel foro
+di questa lapide, il costante ronzio delle stesse quasi rimbomba nelle tue
+$ears.
+
+DescrHearingNight:
+Un costante e deciso ronzio sembra provenire dal foro presente sulla parte
+in basso a sinistra della lapide, persino di notte questi piccoli insetti
+sembrano non trovare pace.
+
+DescrSmell:
+Un odore sgradevole di vecchio e antico proviene deciso dalla lapide e viene
+accentuato dalle folate di vento che talvolta vanno a scontrarsi verso la 
+lapide stessa.
+
+DescrSmellNight:
+La palese vecchiezza della costruzione e la pressante umidità della notte 
+riescono perfettamente ad impregnare l'aria con l'odore sgradevole della lapide.
+
+DescrTouch:
+Toccando la lapide un cumulo di granelli di roccia e sabbia cadono verso il 
+terreno andandosi a posare perpendicolarmente a terra a pochi centimetri da
+essa.
+
+DescrTouchNight:
+Una piccola parte di piccoli granelli di sabbia e roccia rimane attaccata alle
+tue dita a causa della forte umidità del luogo e della fragilità della struttura.
+
+DescrSixth:
+Percepisci una strana sensazione di vuoto, come se la lapide fosse stata
+posizionata qui per uno scopo diverso da quello che generalmente 
+contraddistingue l'oggetto.
+
+DescrSixthNight:
+Il foro presente nella parte bassa della lapide ti fa pensare che ci sia una
+motivazione diversa che contraddistingue questo evento, rispetto al semplice
+degrado della stessa.
+
+Value:	0
+Weight: 150kg
+
+Extras:
+	Keywords: foro
+	Descr
+	Piegandoti per osservarlo puoi notare abbastanza bene la collina che si
+	trova a poche centinaia di metri dalla lapide.
+End
+Extras:
+	Keywords: nido vespe
+	Descr 
+	due vespe decisamente grosse controllano i tuoi movimenti con sospetto.
+End	
+
+

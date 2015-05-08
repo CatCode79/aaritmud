@@ -1,0 +1,13 @@
+Code: drag
+
+ItalianKeywords: trascina
+EnglishKeywords: drag
+
+Entitype: HELP.MOVEMENT
+
+Text:
+Il comando $tdrag ti permette di spostare la vittima in una direzione 
+specificata se questa non è in piedi.
+
+Non puoi trascinare un giocatore in una trappola mortale oppure se tu o lui
+siete sotto attacco.

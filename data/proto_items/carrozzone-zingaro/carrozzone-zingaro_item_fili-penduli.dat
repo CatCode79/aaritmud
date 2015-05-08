@@ -1,0 +1,34 @@
+Code: carrozzone-zingaro_item_fili-penduli
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.WOOL 100%
+Name:	Filo Colorato
+Short:	filo colorato
+Long:	$N in grande quantità è appeso al soffitto
+
+Descr:
+Numerose matasse arruffate di filo colorato e gocciolante sono appese ad alti filari inchiodati al soffitto.
+DescrTouch: 
+Numerose matasse di filo fradicio e arruffato sono appese al soffitto ad asciugare.
+DescrSmell: 
+Troppi gli odori qui attorno per poter distinguerne uno in particolare.
+DescrSixth:
+Alcuni colori più di altri sono rari costosi e probabilmente guardati a vista.
+DescrHearing:
+Plic.. plic.. plic..
+DescrTaste:
+Urgh! Forse il risciacquo è la fase successiva della lavorazione.
+
+Value:	0
+Weight: 3500g
+
+
+Behaviour:
+	RandomDo:	4
+	RandomDoInputs:	emote gocciola a terra. 
+	RandomDoInputs:	emote oscilla mollemente sotto i blandi scossoni del carrozzone
+End
+
+

@@ -1,0 +1,113 @@
+Code:	accademia-drago_room_067_androne-passaggio-067
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	L'Androne di Passaggio
+Short:	l'androne di passaggio
+	Descr:
+Stai attraversando un grande androne dal soffitto a volta, questa
+zona funge da collegamento tra il primo e il secondo cortile
+dell'accademia. Ad est un portone a due battenti di grosse
+dimensioni reca un cartello mentre ad est un'ampissima scalinata
+dai gradini bianchisimi scende verso il basso. A nord si apre la
+piazza d'armi ed a sud il cortile pubblico.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 0
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	la piazza d'armi
+	Comment:	ExitStatus	0 0 046 -1
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	sala mensa
+	Comment:	ExitStatus	1 0 068 -1
+	Door:	ikea_item_porta
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	il cortile pubblico
+	Comment:	ExitStatus	0 0 007 -1
+End
+Extras:
+	Keywords:	cartello
+		Descr:
+MENSA
+
+Menu del giorno:
+
+-stufato di cinghiale
+-patate lesse
+-frutta di stagione
+
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

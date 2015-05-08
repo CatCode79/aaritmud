@@ -1,0 +1,42 @@
+Code: cimitero_item_coppia-altari
+Level: 1
+Entitype:	ENTITYPE.CONTAINER
+MaterialPercentages:	MATERIAL.STONE 100%
+Sex:	SEX.MALE
+Name:	Una Coppia d'Altari
+Short:	una coppia d'altari
+Long:	È stata edificata $N, ciascuno a ridosso di opposte pareti
+
+
+Descr:
+Due altari in calcare bianco, disadorni in fatto di fronzoli e dettagli ma al contempo estremamente decorati da fanghiglia ed alghe. Massicci quanto basta per potervi immolare alla bisogna qualche animale di media taglia.
+
+DescrTouch:
+Due altari in pietra lisci al tatto e resi viscidi da fanghiglie e muffe. Massicci quanto basta per potervi immolare alla bisogna qualche animale di media taglia.
+ 
+DescrSixth:
+Due copie speculari, ciascuna pare guardi l'altra ponendo nell'imbarazzante impossibilità di mettersi in preghiera di fronte all'uno senza mostrare le spalle all'altro. 
+
+Value:	0
+Weight: 540g
+
+
+Extras:
+	Keywords: imbarazzo preghiera
+	DescrSixth:
+		probabilmente manca qualcosa che in origine conferiva maggiore senso a tale disposizione.
+End
+
+
+ContainerType:
+	EntityOpenMessage:	Sollevi il pesante pianale dell'altare di pietra.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n solleva il pesante pianale dell'altare.
+	EntityCloseMessage:	Riabbassi il pianale richiudendo l'altare.
+	TargetCloseMessage:	Attent$O, $n ti ha apert$O.
+	OthersCloseMessage:	$n riabbassa il pesante pianale dell'altare.
+	Flags:	CONTAINER.CLOSED CONTAINER.CLOSABLE
+        MaxWeight: 100kg
+End
+
+

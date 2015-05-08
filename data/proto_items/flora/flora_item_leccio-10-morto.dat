@@ -1,0 +1,33 @@
+Code: flora_item_leccio-10-morto
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name:	Un Fusto Morto di [saddlebrown]Leccio[close]
+Short:	un fusto morto di [saddlebrown]leccio[close]
+Long:	$N
+
+Descr:
+Del leccio che doveva essere un tempo non resta ora che il fusto con pochi rami ormai spogli.
+
+DescrTouch: 
+Riconosci il fusto morto di leccio adulto per le asperità regolari come se uno spiritello l'avesse
+quadrettato per noia.
+
+Value:	0
+Weight: 40kg
+
+ExtractTimeout:
+	Minutes: 10080
+	EntityMessage: Cenere alla cenere, polvere alla povere
+        OthersMessage: Cenere alla cenere, polvere alla povere
+End
+
+Extras:
+  Keywords: corteccia quadretto quadretti screpolature screpolatura
+  Descr: tutto ricoperto da piccole placche persistenti di forma approssimativamente quadrata
+  DescrTouch: tutto ricoperto da placche persistenti che proprio non si voglion staccare
+End
+
+

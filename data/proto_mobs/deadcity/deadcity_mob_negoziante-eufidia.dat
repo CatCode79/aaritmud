@@ -1,0 +1,74 @@
+Code:	deadcity_mob_negoziante-eufidia
+Level:	1
+Sex:	SEX.FEMALE
+Race:	RACE.HUMAN
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Eufidia la macellaia
+Short:	la macellaia
+Long:	$N sorride soddisfatta.
+
+Descr:
+Una bella ragazzona in carne e dalle forme abbondanti.. anche il naso e le guance
+sono abbondanti. Probabilmente è una buona forchetta e se vende ciò che mangia non
+è poi così male.
+
+DescrSmell: 
+Viene il dubbio che l'odore di sangue sia il suo odore naturale o semplicemente
+ci fa anche il bagno.
+
+
+Weight: 110kg
+Height: 165cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 34
+
+Behaviour:
+	LookPlayer:	5
+	LookMob:	0
+	LookItem:	5
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	5
+	RandomDoInputs:	emote si pulisce le mani con fare poco cerimoniale in un grembiule sozzo.
+	RandomDoInputs:	emote afferra al volo una mosca giustiziandola sul posto.
+	RandomDoInputs:	emote raschia un tagliere grande quanto l'anta di un armadio con un coltellaccio.
+	RandomDoInputs:	emote dispone della carne appena tagliata in vetrina.
+	RandomDoInputs:	emote è alle prese con un quarto di una qualche bestia appetitosa.
+End
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

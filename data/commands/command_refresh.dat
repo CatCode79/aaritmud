@@ -1,0 +1,5 @@
+FunName:  command_refresh
+Type:     CMDTYPE.ADMIN
+Trust:    TRUST.IMPLEMENTOR
+Position: POSITION.DEAD
+MiniHelp: Serve ad aggiornare tutte le descrizioni delle entità di instanza con quelle delle entità prototipo, che di solito hanno delle correzioni e aggiornamenti vari

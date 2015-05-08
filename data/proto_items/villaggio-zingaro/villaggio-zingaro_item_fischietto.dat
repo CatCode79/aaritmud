@@ -1,0 +1,35 @@
+Comment: Nethack whistle
+
+Code: villaggio-zingaro_item_fischietto
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.INSTRUMENT
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.STEEL 100%	
+Name:	Un Grazioso Fischietto
+Short:	un [silver]fischietto[close]
+Long:	$N attende solo di essere usato.
+
+Descr:
+Un oblungo fischietto metallico legato ad un [palevioletred]nastrino[close] per poter essere appeso al collo.
+DescrTouch:
+Lo porti alla bocca facendo finta di fischiare.
+DescrSmell: 
+Avverti l'odore dell'alito dell'ultimo che l'ha provato.
+DescrSixth:
+Ti chiedi se sia un richiamo per uno specifico animale.
+DescrHearing:
+FIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+
+Value:	8
+Weight: 24g
+
+WearType:
+	Modes:	PART.NECK
+	EntityWearMessage:	Sollevi con ambo le $hands $N e te l$O porti %part.
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	$n solleva $N con ambo le $hands e se l$O porta %part.
+	EntityRemoveMessage:	Porti le $hands %part e togli $N.
+	TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+	OthersRemoveMessage:	$n porta le $hands %part e si leva $N
+End

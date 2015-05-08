@@ -1,0 +1,25 @@
+Code: citta-raminghe-maze_room_biblioteca_nord-est
+Sector: SECTOR.HOUSE
+Flags:  ROOM.INSIDE
+Name: La Galleria dei Manoscritti
+Short: una [red]galleria[close] poco illuminata
+Descr:
+Sei giunt$o in una stretta galleria poco illuminata e la penombra con la sua atmosfera ovattata ti avvolge. 
+Dinanzi a te numerosi manoscritti ben riposti su scaffali con un ordine quasi ossessivo. 
+
+DescrSixth:
+Soffermarsi per sfogliare gli antichi manoscritti e le antiche pergamene potrebbe portarti alla conoscenza di 
+misteriosi segreti che abitano questo luogo sospeso nel tempo, ma non è consentito.
+
+Width:  10m
+Depth:  10m
+Height: 100m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: in biblioteca
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: in biblioteca
+End

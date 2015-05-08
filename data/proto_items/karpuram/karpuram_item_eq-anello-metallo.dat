@@ -1,0 +1,32 @@
+Code:	karpuram_item_eq-anello-metallo
+MaxGlobalQuantity:	0
+Level:	1
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.METAL	100
+Sex:	SEX.MALE
+Name:	Un Anello di Metallo
+Short:	un anello di metallo
+Long:	$N piuttosto comune è qui in terra.
+
+Descr:
+Questo anello è in grado di dissuadere il peggiore e malfamato dei ladri, per
+la sua fattura estremamente semplice e povera. Il metallo che lo compone sembra
+però provenire da un'unica lastra forgiata appositamente per creare decine
+di questi oggetti, tutti uguali tra loro.
+
+DescrHearing:
+Tenendo l'anello in $hand e quindi non avendolo indosso sulle $finger, si può
+percepire un lieve suono provenire da quest'ultimo come una sorta di richiamo.
+
+
+
+
+Value:	0
+Weight:	100g
+
+WearType:
+   Modes: PART.RIGHT_RING_FINGER
+   Modes: PART.LEFT_RING_FINGER
+End
+
+

@@ -1,0 +1,32 @@
+Code: krablath_item_armadietto
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.MALE
+Flags:  FLAG.NO_GET
+MaterialPercentages:	MATERIAL.WOOD	100%
+Name:	[peru]L'Armadietto degli Intrugli[close]
+Short:	un[peru] armadietto[close]
+Long:	$N saldamente appeso al muro.
+
+Descr:
+Un [peru]armadietto[close] cubico in legno chiaro, sull'antina, ad una maniglia è appesa una [cornflowerblue]nappina[close].
+DescrTouch: 
+Passi una $hand sui semplici rilievi che ne decorano la superficie.
+DescrSmell: 
+Odora ancora di resina.
+
+Value:	0
+Weight: 56g
+
+ContainerType:
+	EntityOpenMessage:	Apri l'antina di $N.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre l'antina di $N.
+	EntityCloseMessage:	Accompagni l'anta di $N fino a chiuderla.
+	TargetCloseMessage:	Finalmente $n si è degnat$o di chiuderti.
+	OthersCloseMessage:	$n accompagna l'anta di $N fino a chiusura.
+	Flags:	 CONTAINER.CLOSED CONTAINER.LOCKED CONTAINER.EATKEY CONTAINER.CLOSABLE
+	KeyCode: krablath_item_chiavetta
+	MaxWeight:	40kg
+End

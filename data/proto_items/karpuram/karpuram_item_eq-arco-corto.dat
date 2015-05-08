@@ -1,0 +1,31 @@
+Code:	karpuram_item_eq-arco-corto
+MaxGlobalQuantity:	0
+Level:	1
+Entitype:	ENTITYPE.WEAPON
+MaterialPercentages:	MATERIAL.WOOD	100
+Sex:	SEX.MALE
+Name:	Un Piccolo Arco Corto
+Short:	un arco corto
+Long:	Un $N è posato sul lato.
+
+Descr:
+Un sottile arco dalle dimensioni modeste, non mostra segni di usura di alcun
+tipo, ma non si direbbe troppo resistente. La sua realizzazione non è di natura
+magica e non presenta rune o scritte di alcun genere. Ha un'impugnatura molto
+ergonomica e di facile presa.
+
+DescrSixth:
+Non permette di scagliare le frecce a lunga distanza, ma è ben bilanciato e preciso.
+
+Value:	0
+Weight:	2kg
+
+WearType:
+   Modes:	PART.WIELD
+End
+
+WeaponType:
+        Category: WEAPON.BOW
+	Damage:	1D4+0
+        Flags: WEAPONFLAG.ONE_HAND 
+End

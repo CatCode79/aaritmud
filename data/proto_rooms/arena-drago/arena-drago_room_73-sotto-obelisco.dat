@@ -1,0 +1,66 @@
+Code:	arena-drago_room_73-sotto-obelisco
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Sotto l'Obelisco
+Short:	sotto l'obelisco
+	Descr:
+Scendi una piccola scala a chiocciola ricavata scolpendo la dura
+roccia, quando arrivi in fondo ti rendi conto che draghi e
+cavalieri hanno protetto i loro tesori in modo esemplare, ma
+ormai è troppo tardi...
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	1|8|32|64|16384|16777216|33554432 0
+Exits:
+	Direction:	DIR.UP
+	Descr:	[white]L'obelisco[close]
+	Comment:	ExitStatus	1|8|16|32|128|256|512 0 27770 374
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

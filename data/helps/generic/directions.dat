@@ -1,0 +1,32 @@
+Code: directions
+
+ItalianKeywords: nord est sud ovest alto basso nordest nordovest sudest sudovest
+EnglishKeywords: north east south west up down northeast northwest southeast southwest
+
+Entitype: HELP.MOVEMENT
+
+Text:
+Usa questi comandi per spostarti nelle varie direzioni:
+    $tnorthwest   $tnorth       $tnortheast
+    $twest        $tup/$tdown   $teast
+    $tsouthwest   $tsouth       $tsoutheast
+
+Puoi abbreviare i comandi scrivendo:
+Al posto di $tnorth puoi scrivere [darkgreen]n[close].
+Al posto di $tsouth puoi scrivere [darkgreen]s[close].
+Al posto di $teast puoi scrivere [darkgreen]e[close]
+Al posto di $twest puoi scrivere [darkgreen]o[close] se usi i comandi in italiano oppure
+[darkgreen]w[close] se usi quelli in inglese.
+Al posto di $tup puoi scrivere [darkgreen]a[close] se usi i comandi in italiano oppure
+[darkgreen]u[close] se usi quelli in inglese.
+Al posto di $tdown puoi scrivere [darkgreen]b[close] se usi i comandi in italiano oppure
+[darkgreen]d[close] se usi quelli in inglese.
+Al posto di $tnortheast puoi scrivere [darkgreen]ne[close].
+Al posto di $tnorthwest puoi scrivere [darkgreen]no[close] se usi i comandi in italiano
+oppure [darkgreen]nw[close] se usi quelli in inglese.
+Al posto di $tsoutheast puoi scrivere [darkgreen]se[close].
+Al posto di $tsouthwest puoi scrivere [darkgreen]so[close] se usi i comandi in italiano
+oppure [darkgreen]sw[close] se usi quelli in inglese.
+
+
+SeeAlso: move

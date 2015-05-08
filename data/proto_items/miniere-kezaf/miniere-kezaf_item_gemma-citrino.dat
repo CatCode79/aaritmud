@@ -1,0 +1,34 @@
+Comment: qui si può valutare un cambio icona sulla lavorazione prendendo l'icona presistente e rendendola un po' + rosata
+oppure sono solo paranoie
+( si potrebbero ingrigire via script tutte le icone per assegnarle alle grezze)
+
+Code: miniere-kezaf_item_gemma-citrino
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_citrine.png
+Name:	Un Quarzo Citrino 
+Short:	una tozza pietra rosato-arancio
+Long:	$N si confonde facilmente tra altri gruppi di pietre.
+
+Descr:
+Questa gemma tozza e grezza di colore rosato opaco, può essere facilmente
+scambiata per un semplice sasso a causa proprio del suo colore iniziale.
+
+DescrTouch: 
+La pietra è smussata agli angoli e oblunga, ma al tatto è molto piacevole e
+seppur ancora grezza e di poco valore, può essere utilizzata come ornamento
+per alcuni utensili di minor pregio.
+
+DescrSixth:
+Riuscendo a lavorarla a dovere la stessa può risplendere di una luce calda e
+intensa dal colore arancio chiaro.
+
+Value:	0
+Weight: 300g
+
+
+
+

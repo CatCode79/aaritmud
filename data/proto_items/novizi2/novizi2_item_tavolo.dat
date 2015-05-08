@@ -1,0 +1,28 @@
+Code: novizi2_item_tavolo
+Icon:	icons/item/tavolo.png
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.SOFTWOOD	100%
+Name: Il Tavolo
+Short: il tavolo
+Long:	$N è stato messo qui al centro della stanza
+Flags: FLAG.NO_GET
+Descr:
+È un tavolo, non c'è che dire. Non ha nulla di particolare e non sembra neppure molto
+robusto. Se ha solo lo scopo di reggere uno spezzatino tutto sommato può andare.
+DescrTouch: 
+Non dà l'impressione di grossa stabilità però non traballa.
+DescrSmell: 
+Odora in modo indecente di colla da falegname.
+DescrSixth:
+Ti vien da pensare che il sentimento di amicizia per il costruttore non sia poi reciproco.
+DescrHearing:
+Appoggi un orecchio al tavolo e quasi ti resta incollato.
+DescrTaste:
+Provi l'irresistibile desiderio di leccare il collante perché non ti fidi dello spezzatino.
+
+Value:	0
+Weight: 7kg
+
+

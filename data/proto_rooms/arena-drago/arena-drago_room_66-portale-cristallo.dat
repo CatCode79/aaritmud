@@ -1,0 +1,68 @@
+Code:	arena-drago_room_66-portale-cristallo
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il Portale di Cristallo
+Short:	il portale di cristallo
+	Descr:
+Dopo aver camminato per una ventina di minuti giungi infine ad
+uno sbarramento anomalo quanto suggestivo, la pietra del cunicolo
+sembra fondersi per tramutarsi in un muro di cristallo purissimo
+e perfettamente puro. Al di la del muro due statue di drago
+sembrano fare la guardia al passaggio.
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	1|4|64 0
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	Portale
+	Comment:	ExitStatus	1|16|32|128|512 27722 27767 -1
+	Door:	arena-drago_item_door-cristallo-66
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	un incrocio sotterraneo
+	Comment:	ExitStatus	0 0 27759 -1
+
+End
+Extras:
+	Keywords:	muro
+		Descr:
+Ti avvicini al muro di cristallo lentamente e con qualche
+esitazione, ti pare incredibile che sia stato possibile creare
+qualcosa del genere. Dopo averlo osservato attentamente prendi
+coraggio e ci poggi opra una mano, appena entri in contatto con
+la ferdda superficie una voce risuona cavernosa nella tua mente
+
+"solo colui che i draghi chiamano [cyan]amico[close], avrà accesso alle loro 
+dimore"
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

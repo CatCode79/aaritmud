@@ -1,0 +1,113 @@
+Code:	accademia-drago_room_074_camerate-rosse-074
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Le Camerate [red]Rosse[close]
+Short:	le camerate [red]rosse[close]
+	Descr:
+Queste sono le camerate degli apprendisti cavalieri, i letti sono
+allineati sulle pareti nord e sud, tutto è in ordine e
+silenzioso, davanti ad ogni branda una cassapanca contiene gli
+averi dei ragazzi che spendono qui la loro giovinezza
+addestrandosi alla guerra ed alla magia.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 0
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	un corridoio
+	Comment:	ExitStatus	1 0 072 -1
+	Door:	ikea_item_porta
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

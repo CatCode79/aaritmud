@@ -1,0 +1,47 @@
+Code: torreelementi_item_fiamma
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.UNKNOWN	100%
+Name: La [cyan]Soglia[close] di [cyan]Fiamme[close]
+Short: una [cyan]fiamma azzurra[close]
+Long:	$N si muove irrequieta
+Flags: FLAG.NO_GET
+
+Descr:
+Il corno più alto della fiamma pare battuto da un vento tumultuoso che non percepisci.
+[cyan]Dentro[close] la fiamma si intravvede una piazza polverosa e deserta.
+
+DescrTouch:
+Quando protendi la $hand, il corno della fiamma te avvolge senza che tu abbia a percepire
+alcuna sensazione di calore.
+
+DescrSixth:
+Ti trovi ad un portale di collegamento, la fiamma è benigna e scrutarla potrebbe
+essere d'aiuto per capire quale sia la destinazione del portale stesso.
+
+Value:	0
+Weight: 100kg
+
+Extras:
+	Keywords: benigna scrutare portale destinazione
+	Descr:
+		È un invito ad entrare nella fiamma
+End
+
+PortalType:
+	Destination:	0 0 0 deadcity
+	EntityEnterMessage: Non fai in tempo a decider d'entrare che $N decide per te!
+	TargetEnterMessage: $n decide d'attraversarti e lo anticipi repentinamente.
+	OthersEnterMessage: $N si piega avvolgendo $n che sparisce consumat$o in una vampata.
+	EntityExitMessage: La vampa lucente sparisce e ti trovi catapultat$o altrove.
+	TargetExitMessage: Ora $n è sparit$o da $T finendo in $t.
+	OthersExitMessage: In una vampa di luce azzurra appare $n.
+End
+
+
+Behaviour:
+	RandomDo:	30
+	RandomDoInputs:	emote crepita.
+	RandomDoInputs:	emote s'affievolisce.
+End

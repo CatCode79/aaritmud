@@ -1,0 +1,23 @@
+Code: ikea_item_bastoni-mucchio
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.SOFTWOOD	33
+MaterialPercentages:	MATERIAL.WOOD	34
+MaterialPercentages:	MATERIAL.HARDWOOD	33
+Name:	Dei Bastoni da Combattimento
+Short:	dei bastoni da combattimento
+Long:	$N sono qui accatastati.
+
+Descr:
+Un mucchio di bastoni da combattimento per tutti i gusti e tutte le fogge, alcuni non sono nemmeno interi.
+DescrTouch: 
+Smuovi il mucchio con la $hand per cercare se vi sia qualcosa di interessante.
+DescrSmell: 
+Legno... ben stagionato.
+DescrSixth:
+Intuisci che qui dentro non vi è nulla che valga la bena di esser preso.
+
+Value:	0
+Weight: 532g

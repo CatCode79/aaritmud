@@ -1,0 +1,30 @@
+Comment: 
+ la linea bianca e formata da fibre di amianto
+
+Code: miniere-kezaf_item_gemma-crisoberillo
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_crysoberylcatseye.png
+Name:	Un Crisoberillo
+Short:	una pietra con una lucente linea bianca
+Long:	$N sta qui
+
+Descr:
+Questa pietra presenta scalfitture nella parte esterna frontale e laterale. 
+Nella parte centrale della gemma vi è una linea che tende al bianco  mentre
+verso i lati il colore del quarzo è più cupo, tendente al marrone chiaro.
+
+DescrSixth: 
+Deve essere rifinita e pulita per poter pretendere di acquistare valore agli
+occhi di un collezionista o mercante. 
+La gemma di crisoberillo viene spesso soprannominata [white]occhio di gatto[close].
+
+Value:	0
+Weight: 150g
+
+
+
+

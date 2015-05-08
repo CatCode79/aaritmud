@@ -1,0 +1,28 @@
+Code: novizi2_item_scaffalatura
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.FEMALE
+Flags:	FLAG.NO_GET
+MaterialPercentages:	MATERIAL.WOOD	100%
+Name:	Una Scaffalatura
+Short:	una scaffalatura
+Long:	$N ti circonda
+
+Descr:
+Abbondanza di ripiani a destra e a manca sopra e sotto per questa capiente ed inamovibile struttura.
+DescrTouch: 
+Abbondanza di ripiani in legno inchiodati a sostegno verticali infissi nelle pareti; massicci.
+DescrSmell: 
+Difficile capire quale sia l'odore proprio degli scaffali... si sente tutto il resto.
+DescrSixth:
+Qui per morire di fame serve una certa forza di volontà ed un sacco ti tempo.
+DescrTaste:
+Cominci a mordicchiare uno scaffale dove probabilmente anni fa è colata della polpa di pomodoro e forse dei funghi; uhm... forse i funghi son cresciuti di loro sponte solo successivamente.
+
+Value:	0
+Weight: 90kg
+
+ContainerType:
+	MaxWeight:	300kg
+End

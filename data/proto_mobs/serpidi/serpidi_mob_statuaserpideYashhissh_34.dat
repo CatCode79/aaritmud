@@ -1,0 +1,56 @@
+Code:	serpidi_mob_statuaserpideYashhissh_34
+Level:	1
+Race:	RACE.HUMAN
+Sex:	SEX.NEUTRAL
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	La Statua di Yashhissh 
+Short:	la statua di Yashhissh 
+Descr: 
+Rappresenta una figura umanoide con testa di serpente, piegata in avanti.  È  realizzata  comletamente  in  oro,  con tutto quello trovato  ai tempi degli scavi. Yashhissh fu il capo della rivolta con  cui  i  serpidi  posero  fine alla schiavitù e ai soldati oppressori.   
+Height: 270cm
+Weight: 376kg
+BirthDay: 1
+BirthMonth: MONTH.TEN
+
+Behaviour: 
+	LookPlayer:	0
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.HIGHELF RACE.WOODELF RACE.HALFELF
+	LookAtRaces:	30
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	10
+	RandomDo:	0
+End
+
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

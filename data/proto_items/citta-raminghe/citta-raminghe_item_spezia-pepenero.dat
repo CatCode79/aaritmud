@@ -1,0 +1,43 @@
+Code: citta-raminghe_item_spezia-pepenero
+Level: 1
+Icon:	icons/food/pepenero.png
+
+Entitype: ENTITYPE.FOOD
+MaterialPercentages:	MATERIAL.PEPPER 100
+Sex:	SEX.MALE
+Name:  [blueviolet]Pepenero[close]
+Short:  [blueviolet]pepenero[close] 
+Long:	un barattolo di $N 
+
+Descr:
+Piccoli grani di colore scuro.
+
+DescrTaste:
+Sapore abbastanza  piccante.
+DescrSixth:
+Rende le pietanze ricche di aromi avvolgenti e decisi.
+DescrSmell:
+Profuma di luoghi esotici.
+
+
+Value:	0
+Weight: 120g
+
+Behaviour:
+	LookPlayer:  25
+	TastePlayer: 25
+	SmellPlayer: 25
+	TouchPlayer: 25
+End
+
+FoodType:
+	Comment:	cibo
+	Animal:	0
+	Vegetable:	100
+	CookingDamage:	0
+	Hours:	0
+End
+
+ContainerType:
+        MaxWeight: 10g
+End

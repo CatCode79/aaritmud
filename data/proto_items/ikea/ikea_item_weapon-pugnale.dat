@@ -1,0 +1,29 @@
+Code: ikea_item_weapon-pugnale
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAPON
+MaterialPercentages:	MATERIAL.IRON	70
+MaterialPercentages:	MATERIAL.COTTON	10
+MaterialPercentages:	MATERIAL.LEATHER	20
+Sex:	SEX.MALE
+Name:	Un pugnaletto
+Short:	un pugnaletto
+Long:	$N dal manico scollato
+
+Descr:
+Un piccolo pugnale dalla lavorazione economica.
+DescrTouch: 
+Un piccolo pugnale dalla lavorazione economica e con la lama ballerina.
+DescrSixth:
+Un piccolo pugnale di modeste pretese e durata limitata.
+
+Value:	0
+Weight: 74g
+
+WeaponType:
+	Category:	WEAPON.DIRK
+	Flags:	WEAPONFLAG.ONE_HAND 
+End
+WearType:
+   Modes: PART.WIELD
+End

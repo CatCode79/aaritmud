@@ -1,0 +1,25 @@
+Code: ikea_item_schinieri
+Level: 1
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.LEATHER	100
+Sex:	SEX.MALE
+Flags:	FLAG.RANDOMIZABLE
+Name:	Un Paio di Schinieri
+Short:	un paio di schinieri
+Long:	$N accostati e messi orizzontali.
+
+Descr:
+Una copertura in cuoio bollito per la protezione della gamba dal ginocchio in giù.
+Sono piuttosto semplici e dei laccetti e relative fibbiette per fermarli in posizione.
+DescrTouch: 
+Due coperture protettive per le gambe dalla zona del ginocchio fin quasi al piede;
+sono in materiale flessibile e abbastanza robusto; lunghi lacci laterali per fermarli.
+
+Value:	0
+Weight: 200g
+
+WearType:
+   Modes: PART.LEFT_TIBIA PART.RIGHT_TIBIA
+End
+
+

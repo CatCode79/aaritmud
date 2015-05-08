@@ -1,0 +1,46 @@
+Code: ikea_item_carillon
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.WOOD	60%
+MaterialPercentages:	MATERIAL.METAL	40%
+Name:	Il Carillon di Irhil
+Short:	uno scatolino di legno
+Long:	una levetta sporge da $N
+
+Descr:
+#self is CONTAINER.CLOSED#Una scatoletta di legno scuro di forma pressapoco cubica, da un lato sporge una manovellina.#Un carillon di legno scuro con la sua manovellina da far girare per produrre chissà quale musica.#
+DescrTouch: 
+#self is CONTAINER.CLOSED#Una scatoletta di legno scuro di forma pressapoco cubica con un'invisibile cerniera ad imperniare il coperchio superiore, da un lato sporge una manovellina libera di girare.#Un carillon di legno scuro con la sua manovellina da far girare per produrre chissà quale musica, all'interno c'è un cilindretto rotante pieno di puntini sporgenti ed accanto c'è la sua tastierina fatta di lamelle.#
+DescrSixth:
+Un oggettino pregevole e dal costo significativo.
+DescrHearing:
+#self is CONTAINER.CLOSED#Al tocco suona vuota ma non del tutto.#Saltuarie note escono dal carillon quando la levetta di muove.#
+
+Value:	0
+Weight: 100g
+
+ContainerType:
+	EntityOpenMessage:	Apri $N usando ambo le $hands.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N usando ambo le $hands.
+	EntityCloseMessage:	Accompagni $N fino a chiuderla.
+	TargetCloseMessage:	Finalmente $n si è degnat$o di chiuderti.
+	OthersCloseMessage:	$n accompagna $N fino a chiusura.
+	Flags:	 CONTAINER.CLOSED CONTAINER.BOLTABLE CONTAINER.CLOSABLE CONTAINER.SECRET
+	MaxWeight:	0g
+End
+
+Extras:
+	Keywords: manovella manovellina
+	Descr:
+	Una manovella metallica imperniata di lato.
+	DescrTouch:
+	Una manovella metallica imperniata di lato e libera di ruotare.
+	DescrSixth:
+	Forzare troppo la $hand rischia di fare un danno definitivo.
+End
+
+MaxLife: 10
+Life: 9

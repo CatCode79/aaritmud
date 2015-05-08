@@ -1,0 +1,35 @@
+Code: cimitero_room_collina-a08
+Sector: SECTOR.HILL
+Name: La Collina dei Decaduti
+Short: nella crepa
+
+Descr:
+Il sentiero sprofonda leggermente fra i lati della roccia proseguendo riparato ai lati
+per un lungo tratto. Cammini sui resti di antiche lapidi in frantumi e resti ossei.
+Le uniche due direzioni fuoriescono salendo lungo la crepa.
+DescrSmell: 
+La zona collinare è avvolta dagli abbracci languidi dell'odore di spezie e decomposizione.
+Per alcuni tratti si coglie però una scia che rimane la stessa per un certo tratto.
+DescrHearing:
+Il sibilo del vento produce un lugubre suono cupo sostenuto negli effetti lungo le
+lapidi frastagliate.
+
+Extras:
+	Keywords: scia
+	DescrSmell:
+	Lungo il tratto di sentiero che hai appena seguito aleggia l'odore di aglio selvatico.
+End
+
+Width:	6m
+Depth:	6m
+Height: 113m
+
+
+Exits:
+	Direction: DIR.NORTHEAST
+	Descr: Verso la roccia nera
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: Par di scorgere dei cancelli
+End

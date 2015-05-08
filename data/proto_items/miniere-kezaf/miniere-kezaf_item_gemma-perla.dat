@@ -1,0 +1,26 @@
+Code: miniere-kezaf_item_gemma-perla
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Name:	Una Perla
+Short:	una perla
+Long:	$N perfettamente sferica
+
+Descr:
+Un gioiello più periforme che sferico dal colore sericeo di dimensioni modeste.
+Osservando con maggiore scrupolo si direbbe di color crema più che bianco sericeo.
+
+DescrSixth:
+Questo è un gioiello la cui artefice è la natura stessa: un granello di sabbia o 
+un parassita che si introduce in una conchiglia, dove le secrezioni del 
+mollusco, nel tempo, l'avvolgono con strati sottilissimi alternati da frammenti 
+inorganici, cristallini o madreperlati, creando la preziosa sfera.
+
+Value:	0
+Weight: 170g
+
+
+
+

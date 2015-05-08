@@ -1,0 +1,35 @@
+Code: cimitero_item_door-a03-lastra
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.DOOR
+MaterialPercentages:	MATERIAL.OBSIDIAN 100%
+Sex:	SEX.FEMALE
+Flags:	FLAG.NO_GET
+Name:	La Pietra Sigillo
+Short:	una lastra di pietra nera
+Long:	$N in frantumi è poggiata qui a lato
+KeywordsShort: lastra pietra sigillo
+KeywordsName: lastra pietra sigillo
+Descr:
+Una lastra nera oblunga usurata dal tempo ma solo sul lato esposto. In superficie forse era scritto qualcosa o forse si trattava di simboli.
+DescrTouch: 
+Una lastra oblunga e pesante usurata sul lato superiore. Portava incisi dei simboli un tempo che ora si discernono a malapena.
+DescrSixth:
+Il simbolo riportato ricorda vagamente un arbusto o forse una piantina.
+
+Value:	0
+Weight: 150kg
+
+DoorType:
+	EntityOpenMessage:	Trascini di lato $N rivelando un accesso.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n trascina di lato $N rivelando un accesso.
+	EntityCloseMessage:	Trascini $N a richiudere l'accesso.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n trascina $N a coprire l'accesso.
+
+	DestinationOpenMessage:	$N si sposta rivelando un accesso.
+	DestinationCloseMessage:	$N si sposta richiudendo l'accesso.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE DOOR.SECRET DOOR.NO_USE_DIR
+	ResetCloseMessage:	$N cade di botto a richiudere il passaggio.
+End

@@ -1,0 +1,38 @@
+Code: novizi2_item_porta-segreta-asse
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.FEMALE
+Flags: FLAG.NO_GET
+MaterialPercentages:	MATERIAL.WOOD	100%
+Name:	Un'Asse Scorrevole
+Short:	un'asse scorrevole
+Long:	$N è stata staccata dalla parete e gettata qui a terra
+KeywordsShort: asse assi assito scorrevole
+KeywordsName: asse assi scorrevole assito
+
+Descr:
+Un asse scorrevole in direzione verticale, un meccanismo semplice e ben nascosto per celare un nascondiglio.
+DescrTouch: 
+Un asse scorrevole in direzione verticale sporge leggermente rispetto alla altre rivelando un meccanismo curioso per celare un nascondiglio. 
+DescrSixth:
+Prima di andarsene è forse un'idea intelligente richiudere il passaggio.
+
+Value:	0
+Weight: 1500g
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Sollevi $N svelando un accesso.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n solleva $N svelando un accesso.
+	EntityCloseMessage:	Riabbassi $N richiudendo la via.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n abbassa $N richiudendo la via.
+	DestinationOpenMessage:	$N viene alzat$O dal lato opposto.
+	DestinationCloseMessage:	$N viene riabbassata$O dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.NO_USE_DIR DOOR.SECRET DOOR.CLOSABLE
+	ResetCloseMessage:	$N si abbassa.
+	ResetOpenMessage:	$N si solleva.
+End

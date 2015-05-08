@@ -1,0 +1,25 @@
+Code:	rip_item_corpse-golem-male
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CORPSE
+Sex:	SEX.MALE
+Race:	RACE.GOLEM
+MaterialPercentages:	MATERIAL.UNKNOWN	100%
+Name:	Un Mucchio di Roba
+Short:	un mucchio di roba
+
+Long:	$N sparso qua e là
+
+Descr:
+Una serie di oggetti privi di forma ben definita, sparsi un po' ovunque.
+
+DescrTouch:
+Una serie di oggetti privi di forma ben definita, sparsi un po' ovunque.
+
+DescrSixth:
+Quel che resta di un Golem, una volta privato della sua essenza.
+
+Value:	0
+Weight:	120kg
+
+

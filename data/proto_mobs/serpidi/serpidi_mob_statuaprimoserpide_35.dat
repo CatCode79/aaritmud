@@ -1,0 +1,57 @@
+Code:	serpidi_mob_statuaprimoserpide_35
+Level:	4
+Value:  1000
+Race:	RACE.HUMAN
+Sex:	SEX.NEUTRAL
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT FLAG.AGGRESSIVE
+Name:	Il Primo Serpide 
+Short:	il primo serpide 
+Descr: 
+Fu  il  primo nato dei serpidi, sua madre Aureliana sconvolta per l'orrore  non  gli  diede  neanche  un  nome  e  morì fra atroci rimpianti  per aver commesso quello che oggi è diventato normale fra umani, semi-umani, semi-serpidi e serpidi.  
+Height: 1100cm
+Weight: 222kg
+BirthDay: 1
+BirthMonth: MONTH.TEN
+
+Behaviour: 
+	LookPlayer:	10
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	10
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	0
+End
+
+
+Strength:	77
+Endurance:	77
+Agility:	33
+Speed:	33
+Intelligence:	10
+Willpower:	33
+Personality:	11
+Luck:	11
+
+MaxLife:	999
+Life:		990
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

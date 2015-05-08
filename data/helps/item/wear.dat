@@ -1,0 +1,22 @@
+Code: wear
+
+ItalianKeywords: indossa 
+EnglishKeywords: wear 
+
+Entitype: HELP.ITEM
+
+Text:
+Il comando $twear ti permette di indossare armature e capi di vestiario,
+cappelli, gioielli e calzature.
+
+Potresti non essere in grado di [cyan]impugnare[close], [cyan]afferrare[close], [cyan]indossare[close] un
+oggetto se:
+- il suo allineamento non coincide con il tuo
+- è troppo pesante per te
+- se non hai sufficente esperienza per poter usare quell'oggetto
+
+Con il comando $twear [darkgreen]tutto[close] il tuo personaggio proverà ad [cyan]impugnare[close],
+[cyan]afferrare[close] e [cyan]indossare[close] ogni oggetto nel tuo inventario. 
+
+
+SeeAlso: wield hold remove

@@ -1,0 +1,88 @@
+Comment:
+Inizio d'area drow in poche room
+Creators:	Sulfrum
+Code: antro-drow
+Name: La Reggia Dimenticata
+Short: un antro sotterraneo
+Descr:
+Si narra che in epoche non troppo remote, una sacerdotessa Drow abbia fatto edificare nel sottosuolo, lontano dalla sua città, una sua reggia per salmodiarvi arcani rituali il cui scopo sarebbe noto solo ad essa. In pochi conoscono questa storia, la maggior parte di questi la reputa leggenda ma solo per il timore di scoprire che qualcosa di reale c'è...
+Le voci maggiormente accreditate ne danno menzione nei dintorni del cimitero.
+
+Color: COLOR.DODGERBLUE blu di stelle fredde e lontane
+Level: 1
+RepopTime: 20
+LandfillCode: antro-drow_room_grotta-03
+
+
+RoomResets:
+  Comment: zona di collegamento
+  ProtoRoom: antro-drow_room_accesso
+	Destination:	4 6 0 antro-drow
+End
+RoomResets:
+  Comment: zona di collegamento (reset per chiusura porta secret)
+  ProtoRoom: antro-drow_room_accesso
+  Hour: 00
+	Destination:	4 6 0 antro-drow
+End
+
+RoomResets:
+  Comment: futura zona di sviluppo
+  ProtoRoom: antro-drow_room_viscere
+	Destination:	4 6 -1 antro-drow
+End
+RoomResets:
+  Comment: sistema di grotte d'acesso alla zona drow
+  ProtoRoom: antro-drow_room_grotta-01
+	Destination:	3 5 0 antro-drow
+End
+RoomResets:
+  Comment: sistema di grotte d'acesso alla zona drow
+  ProtoRoom: antro-drow_room_grotta-02
+	Destination:	3 4 0 antro-drow
+End
+RoomResets:
+  Comment: sistema di grotte d'acesso alla zona drow
+  ProtoRoom: antro-drow_room_grotta-03
+	Destination:	4 4 0 antro-drow
+End
+RoomResets:
+  Comment: sistema di grotte d'acesso alla zona drow
+  ProtoRoom: antro-drow_room_grotta-04
+	Destination:	3 3 0 antro-drow
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	antro-drow_item_piedistallo-statua
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	antro-drow_item_statua-acefala
+	End
+End
+RoomResets:
+  Comment: sistema di grotte d'acesso alla zona drow
+  ProtoRoom: antro-drow_room_grotta-05
+	Destination:	4 3 0 antro-drow
+End
+RoomResets:
+	ProtoRoom:	antro-drow_room_quellar-atrio
+	Destination:	3 2 0 antro-drow
+End
+RoomResets:
+	ProtoRoom:	antro-drow_room_quellar-altare
+	Destination:	3 1 0 antro-drow
+End
+RoomResets:
+	ProtoRoom:	antro-drow_room_quellar-camera
+	Destination:	2 1 0 antro-drow
+End
+RoomResets:
+	ProtoRoom:	antro-drow_room_quellar-sala-bagno
+	Destination:	2 0 0 antro-drow
+End
+RoomResets:
+	ProtoRoom:	antro-drow_room_quellar-corridoio
+	Destination:	1 2 0 antro-drow
+End

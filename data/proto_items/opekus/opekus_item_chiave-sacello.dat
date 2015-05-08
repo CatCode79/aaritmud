@@ -1,0 +1,23 @@
+Code: opekus_item_chiave-sacello
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.KEY
+Flags:	FLAG.EXTRACT_ON_QUIT 
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.METAL	70%
+MaterialPercentages:	MATERIAL.QUARTZ	30%
+Name:	Una Chiave Occhiuta
+Short:	una chiave occhiuta
+Long:	$N ti osserva
+
+KeywordsName: occhiuta
+KeywordsShort: occhiuta
+
+Descr:
+Una chiave metallica sulla quale è incastonata un occhio di pietra.
+DescrTouch: 
+Una chiave metallica sulla quale è incastonata una pietra.
+DescrSixth:
+Forse c'è qualche indizio qui in zona che aiuta a capire cosa apre.
+
+Weight: 10g

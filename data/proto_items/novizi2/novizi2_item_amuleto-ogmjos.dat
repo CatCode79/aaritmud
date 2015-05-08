@@ -1,0 +1,35 @@
+Code: novizi2_item_amuleto-ogmjos
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.FEATHERS	100%
+Name:	Un A[blue]mu[gray]le[blue]to[close] con Piume d'Ogmios
+Short:	un a[blue]mu[gray]le[blue]to[close] di piume
+Long:	$N a tre colori
+
+Descr:
+Un minuscolo disco di legno porta cucita su di sé una coppia di piume.
+Le due piume sono accostate dalla parte di vessillo marrone e sfoggiano all'esterno delle righe azzurre sullo sfondo nero.
+DescrTouch: 
+Un amuleto composto da due piume fissate ad un disco di legno.
+Al disco s'annoda un morbida striscia di pelle a guisa di collana. 
+DescrSixth:
+La piuma di Ogmios è la preferita dai bardi perché scioglie la lingua ed conferisce un eloquenza indispensabile al mestiere di bardo.
+L'Ogmios è anche colui che guida verso la dimora delle ombre coloro che dipartono da questa vita.
+DescrHearing:
+Anche un piccolo refolo d'aria basta alle piume per arricciare il silenzio in un frullo d'ali.
+
+Value:	113
+Weight: 10g
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+	Modes:	PART.NECK
+	EntityWearMessage:	Annodi %part la striscia di pelle di $N.
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	$n annoda %part la striscia di pelledi $N.
+	EntityRemoveMessage:	Sciogli il nodo di $N e lo togli.
+	TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+	OthersRemoveMessage:	$n scioglie il nodo di $N e lo toglie.
+End

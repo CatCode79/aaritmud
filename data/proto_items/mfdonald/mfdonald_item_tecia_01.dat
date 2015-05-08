@@ -1,0 +1,18 @@
+Code:	mfdonald_item_tecia_01
+Level:	1
+Entitype:	ENTITYPE.NONE
+BirthDay:	11
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.ALUMINIUM	100%
+Flags:	FLAG.AGGRESSIVE
+Name:	The Superior Tecia of Power
+Short:	una tecia 
+Long:	$N la ghe xe stada trata en tera
+Descr:
+	esta la se una tecia par cosinarghe rentro anca si non si capise miga ben an che modo la ga le tendine
+Value:	0
+Weight:	500g
+
+Aggressivenesses:	Senti un brontolio lontano
+Aggressivenesses:	puke $k
+Aggressivenesses:	emote sta brontolando di brutto! ahi! ahi!

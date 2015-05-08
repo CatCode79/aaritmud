@@ -1,0 +1,95 @@
+Code: cimitero_item_pozzo_rotondo
+Level: 1
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.IRON 20%
+MaterialPercentages:	MATERIAL.CLAY 30%
+MaterialPercentages:	MATERIAL.GRANITE 20%
+MaterialPercentages:	MATERIAL.QUARTZ 20%
+MaterialPercentages:	MATERIAL.ONYX 10%
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+Name:	Un Vecchio Pozzo
+Short:	un pozzo
+Long:	Al centro si erige $N.
+
+
+Descr:
+Ti trovi davanti a un vecchio pozzo, costruito con pietre tutte diverse tra 
+loro, ma adeguatamente modellate per formare una specie di cerchio. Rialzato da 
+terra di circa un metro e mezzo non presenta difficoltà nell'affacciarsi. 
+Un lurido secchio di legno è appoggiato su una sorta di asse che sporge da un
+lato. Guardando dentro al pozzo ti accorgi con stupore della presenza di una
+spessa e robusta grata di ferro che sembra essere stata posta a chiusura del
+pozzo per renderlo più sicuro.
+
+DescrNight:
+Un vecchio pozzo costruito con diverse pietre e assi di legno si nota appena
+all'interno del cimitero. Su di un lato si nota un secchio di legno vuoto e
+da molto tempo inutilizzato. Guardando nel pozzo non riesci a fare a meno
+di notare una grata che blocca l'accesso.
+
+DescrHearing:
+Verso la parte più profonda del pozzo riesci a sentire il lieve movimento
+dell'acqua che s'infrange sulle pareti di pietra dello stesso.
+
+DescrHearingNight:
+Oltre al rumore dell'acqua che si muove lentamente all'interno del pozzo, di 
+tanto in tanto riesci a sentire lo squittio sommesso di alcuni roditori.
+
+DescrSmellNight:
+L'olfatto non può essere ingannato, avverti con decisione l'odore nauseante
+di una fogna provenire dalle profondità del pozzo.
+
+DescrTouch:
+Toccando il pozzo percepisci che le rocce sono spesso friabili ma appuntite e
+vi sono molti piccoli arbusti che fuoriescono dalle pareti interne fino a
+raggiungere la sommità del pozzo.
+
+DescrTouchNight:
+Le rocce che compongono la parte interna del pozzo sono molto deteriorate e 
+presentano arbusti e rampicanti, la grata di ferro è molto fredda e solida.
+
+DescrSixth:
+Pensi che il secchio di legno e l'asse su cui si trova non appartengano a questo
+pozzo ma siano stati adeguatamente inseriti sulla scena per farlo sembrare 
+un pozzo come tanti.
+
+DescrSixthNight:
+Hai ragione di credere che la grata posizionata all'interno del pozzo non serva
+ad evitare che qualcuno vi cada dentro, ma piuttosto che nessuno ne possa 
+uscire.
+
+Value:	0
+Weight: 150kg
+
+Extras:
+	Keywords: grata 
+	Descr
+	Una spessa grata di ferro battuto, presenta un cerchio nel centro sul quale
+	riesci a notare una sorta di serratura, come se la grata da sola
+	non bastasse a bloccare il passaggio.
+End
+Extras:
+	Keywords: secchio
+	Descr
+	Un vecchio e consunto secchio di legno, presenta due paia di ganci ai
+	lati che in passato saranno serviti per attingere acqua dal pozzo tramite
+	una corda.
+End
+Extras:
+	Keywords: asse
+	Descr
+	Quest'asse non sembra che si possa muovere in alcuna direzione o che si
+	possa prendere, serve sicuramente come piano per appoggiarci sopra
+	qualcosa.
+End
+Extras:
+	Keywords: serratura
+	Descr
+	Questa serratura risulta composta da due parti, la prima delle due
+	è fissata alla grata mentre la seconda è stata sicuramente inserita in 
+	seguito per permettere ad una chiave di azionare un meccanismo di
+	blocco.
+End
+
+

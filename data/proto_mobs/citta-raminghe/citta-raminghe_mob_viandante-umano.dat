@@ -1,0 +1,72 @@
+Code:   citta-raminghe_mob_viandante-umano
+Level:  2
+Sex:    SEX.MALE
+Race:   RACE.HUMAN
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:   Un Viandante Umano
+Short:  un viandante umano
+Long:   $N sta riposando sotto un albero.
+
+Descr:
+Sembra che quest'uomo provenga da molto lontano, indossa un [maroon]turbante[close] di stoffa
+che gli protegge il capo e non ti è facile vedere il colore dei suo capelli.
+Indossa una mantellina molto ampia che gli protegge il busto, un paio di pantaloni
+sgualciti e stivali di cuoio rinforzati. Impugnato con ambo le mani tiene un lungo
+[goldenrod]bastone[close] di legno chiaro che riporta una serie d'intarsi realizzati 
+con molta probabilità dallo stesso. Ha il viso solcato da rughe e due occhi neri 
+apparentemente stanchi.
+
+DescrSmell:
+Odore di sabbia, sudore e legno. Terriccio sotto le scarpe e odore di fieno dai vestiti.
+
+DescrSixth:
+I segni sul bastone del viandante presentano i nomi delle diverse città visitate.
+
+Weight: 65kg
+Height: 180cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 25
+
+MaxLife:        200
+Life:           200
+MaxMana:        100
+Mana:           100
+MaxVigour:      200
+Vigour:         200
+
+Strength:       15
+Endurance:      18
+Agility:        15
+Speed:          12
+Intelligence:   12
+Willpower:      12
+Personality:    18
+Luck:           15
+
+Behaviour:
+        LookPlayer:     20
+        LookMob:        0
+        LookItem:       0
+        LookAtRacesFlags:       RACE.NONE
+        LookAtRaces:    0
+        LookAtEntitypesFlags:   ENTITYPE.NONE
+        TasteAtEntitypesFlags:  ENTITYPE.NONE
+        WanderDirection:        0
+        WanderExit:     0
+        WanderWall:     0
+        WanderClosedDoor:       0
+        WanderAtExitsFlags:     DIR.NONE
+        WanderAtExits:  0       
+        WanderArea:     0
+        WanderPortal:   0
+        WanderEnterContainer:   0
+        WanderExitContainer:    0
+        WanderSelf:     0
+        RandomDo:       10
+        RandomDoInputs: emote si alza e si stiracchia la schiena per poi risedersi.
+        RandomDoInputs: say Spero di trovare un lavoro o dovrò ripartire.
+        RandomDoInputs: say Dovrò sistemarmi e mettere su famiglia prima o poi.
+        RandomDoInputs: emote giocherella con il bastone creando cerchi in terra.
+End

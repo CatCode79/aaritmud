@@ -1,0 +1,25 @@
+Code: citta-raminghe_room_cortile
+Sector: SECTOR.CITY
+Name: Un Cortile
+Short: un [salmon]cortile[close]
+
+Descr:
+Una [salmon]loggia percorribile[close] delimita una zona centrale coltivata a giardino. Una fontana è posta al centro ed è 
+decorata con motivi floreali. 
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.EAST
+	Descr: Un forno per il pane
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: Una locanda
+End
+Exits:
+	Direction: DIR.NORTH
+	Descr: Una cinta muraria
+End

@@ -1,0 +1,28 @@
+Code:	karpuram_item_eq-guanti-seta
+
+Level:	3
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.SILK	100
+Sex:	SEX.MALE
+Name:	Guanti di Seta
+Short:	guanti pregiati
+Long:	Un paio di sontuosi $N si trovano qui.
+
+Descr:
+Sono un paio di guanti molto delicati, appartengono sicuramente a una dama
+del luogo. Di seta purissima dal colore perlato, presentano solo due semplici
+cuciture esterne risaltate da fili dorati per unire la parte superiore con
+quella inferiore. Sono molto fragili e se utilizzati per impugnare oggetti o
+armi di qualunque tipo potrebbero rovinarsi seriamente.
+
+DescrTouch:
+Morbidi e comodi, molto pregiati e rifiniti con cura all'esterno e all'interno.
+
+Value:	0
+Weight:	200g
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+   Modes: PART.RIGHT_HAND PART.LEFT_HAND
+End

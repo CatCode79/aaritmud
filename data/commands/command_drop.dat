@@ -1,0 +1,6 @@
+FunName:    command_drop
+Type:       CMDTYPE.ITEM
+Trust:      TRUST.PLAYER
+Position:   POSITION.REST
+Flags:      CMDFLAG.GDR CMDFLAG.INTERACT
+MiniHelp:   Serve a posare per terra, o in un luogo preciso, degli oggetti.

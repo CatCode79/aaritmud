@@ -1,0 +1,26 @@
+Code:	karpuram_item_eq-armatura-corteccia
+
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.CORK	100
+Sex:	SEX.MALE
+Name:	Un pettorale di Corteccia
+Short:	un ampio pezzo di corteccia
+Long:	C'è $N qui a lato
+
+Descr:
+Un largo strato di legno ricavato dalla corteccia di una sughera.
+Foggiato manualmente a pettorale costituisce un leggero supporto all'armatura.
+Quest'armatura di corteccia è lavorata solo all'interno per farle mantenere all'esterno un aspetto maggiormente mimetico.
+
+DescrTouch:
+Un largo strato di legno leggerissimo ricavato probabilmente dalla corteccia di una sughera.
+Foggiato manualmente a pettorale costituisce un leggero supporto all'armatura anche se dà una certa impressione di fragilità.
+
+Value:	0
+Weight:	1kg
+
+WearType:
+   Modes: PART.TORSO
+End

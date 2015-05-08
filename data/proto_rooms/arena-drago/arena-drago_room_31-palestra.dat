@@ -1,0 +1,66 @@
+Code:	arena-drago_room_31-palestra
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Palestra
+Short:	palestra
+	Descr:
+Entri in una stanza molto spaziosa, il suolo è ricoperto di
+paglia pressata, le pareti in semplice pietra nera sono colme di
+ogni genere di arma. L'ambiente è perfettamente illuminato da
+diversi bracieri che emettono un aroma rinfrescante. Un uomo
+sottile dallo sguardo severo sta tirando di scherma al centro
+della stanza spiegando i suoi movimenti a due giovani cavalieri
+che lo osservano allibiti.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	64 0
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	Porta
+	Comment:	ExitStatus	1 0 27729 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

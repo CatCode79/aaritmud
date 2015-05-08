@@ -1,0 +1,71 @@
+Code:   citta-raminghe_mob_viandante-elfo
+Level:  2
+Sex:    SEX.MALE
+Race:   RACE.WOODELF
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:   Un Viandante Elfo
+Short:  un viandante elfo
+Long:   $N sta riposando vicino ad una fontana.
+
+Descr:
+Un elfo dei boschi si trova qui a riposare vicino ad una delle fontane presenti nel
+piazzale. Indossa una [green]mantella[close] verde che lo protegge dalle intemperie, un paio di
+pantaloni anch'essi di colore verde e [brown]scarponi[close] leggeri da viaggio.
+Un corto arco e una faretra con le frecce gli pendono dalla spalla destra.
+Una borsa da viaggio si trova a pochi passi da lui, vicino alla fontana.
+
+DescrSmell:
+Odore di foglie, erba, natura e l'inconfondibile odore di terra e polvere tipico di un
+viaggiatore
+
+DescrSixth:
+Ha un modo di fare distaccato, quasi come se tutto il mondo circostante non esistesse.
+
+Weight: 55kg
+Height: 190cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 75
+
+MaxLife:        200
+Life:           200
+MaxMana:        100
+Mana:           100
+MaxVigour:      200
+Vigour:         200
+
+Strength:       15
+Endurance:      13
+Agility:        18
+Speed:          18
+Intelligence:   15
+Willpower:      12
+Personality:    18
+Luck:           15
+
+Behaviour:
+        LookPlayer:     0
+        LookMob:        0
+        LookItem:       0
+        LookAtRacesFlags:       RACE.NONE
+        LookAtRaces:    0
+        LookAtEntitypesFlags:   ENTITYPE.NONE
+        TasteAtEntitypesFlags:  ENTITYPE.NONE
+        WanderDirection:        0
+        WanderExit:     0
+        WanderWall:     0
+        WanderClosedDoor:       0
+        WanderAtExitsFlags:     DIR.NONE
+        WanderAtExits:  0       
+        WanderArea:     0
+        WanderPortal:   0
+        WanderEnterContainer:   0
+        WanderExitContainer:    0
+        WanderSelf:     0
+        RandomDo:       10
+        RandomDoInputs: emote cerca in ogni modo di evitare di essere notato.
+        RandomDoInputs: say Il mio viaggio non è ancora finito...
+        RandomDoInputs: say Non vedo l'ora di ripartire per terre lontane.
+        RandomDoInputs: emote sta in disparte e cerca di non attirare l'attenzione.
+End

@@ -1,0 +1,15 @@
+Code: sit
+
+ItalianKeywords: siedi 
+EnglishKeywords: sit 
+
+Entitype: HELP.MOVEMENT
+
+Text:
+Se hai fatto un lungo viaggio, sei rimasto ferito dopo uno scontro o hai
+esaurito tutte le tue energie magiche puoi sederti con il comando $tsit. 
+È meno sconveniente di un $trest se sei in presenza di un altro dignitario.
+
+Dopo che avrai riposato usa il comando $tstand per alzarti in piedi. 
+
+SeeAlso: rest stand sleep wake knee

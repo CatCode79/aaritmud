@@ -1,0 +1,28 @@
+Code: villaggio-zingaro_item_scaffale-01
+
+Level:	1
+Entitype: ENTITYPE.CONTAINER
+Sex:	SEX.MALE
+Flags:	FLAG.NO_LOOK_LIST FLAG.NO_GET 
+MaterialPercentages:	MATERIAL.WOOD	100%
+Name:	Uno Scaffale
+Short:	uno scaffale
+Long:	$N è qui.
+KeywordsShort: scaffale scaffalatura scaffalature
+KeywordsName: scaffale scaffalatura scaffalature
+
+Descr:
+Un imponente scaffale in legno massiccio che ricopre un'intera parete. Ha l'aria di essere di recente fattura infatti i ripiani sono ancora tutti lucidi e ben allineati.
+DescrTouch:
+Ben verniciato e solido, la $hand scorre sulle mensole senza intoppi.
+
+Value:	0
+Weight: 140kg
+
+ContainerType:
+       MaxWeight: 90kg
+End
+
+
+
+

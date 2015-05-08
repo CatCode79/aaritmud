@@ -1,0 +1,37 @@
+Code: flora_item_leccio-06-albero
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Flags: FLAG.NO_GET
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name: Un Giovane [darkgreen]Leccio[close] 
+Short: un [darkgreen]leccio[close]
+
+Descr:
+Un leccio dalla chioma ovaleggiante e con il fusto che pare cresciuto indeciso tanto
+da non trovare un tratto che sia dritto per più di un palmo.
+I rametti sono grigi e ricoperti di foglie lucide puntute e robuste; anche la corteccia
+è grigia.
+
+DescrTouch: 
+Un leccetto giovane, dal fusto liscio e dalle fronde colme di foglie puntute.
+
+Value:	0
+Weight: 30kg
+
+Extras:
+  Keywords: foglie foglia
+  Descr: hanno un picciolo corto corto
+  DescrTouch: hanno un picciolo pelosissimo 
+End
+
+PlantType:
+    Sectors:	SECTOR.PLAIN SECTOR.HOUSE
+    RpgHours:	220
+    WorseEntity:	flora_item_leccio-07-albero
+    NormalEntity:	flora_item_leccio-07-albero
+    BetterEntity:	flora_item_leccio-07-albero
+End
+
+

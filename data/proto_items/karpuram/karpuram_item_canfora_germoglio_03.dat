@@ -1,0 +1,26 @@
+Code: karpuram_item_canfora_germoglio_03
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+MaterialPercentages:	MATERIAL.VEGETABLE	100
+
+Sex:	SEX.MALE
+Name: Un Germoglio di [springgreen]Canfora[close]
+Short: un germoglio piuttosto [springgreen]delicato[close]
+Descr:
+Un gracile germoglino verde chiaro poco degno di menzione
+
+DescrTouch:
+C'è ben poco da toccare, un erbetta piccola e gracile
+DescrSixth:
+è decismanete prematuro cercar di capire di vegetale si tratta
+
+Value:	0
+Weight: 4g
+Extras:
+  Keywords: gracile
+  Descr: impossibile capire cosa sia
+  DescrSixth: ancor presto per sapere che tipo di pianta è
+End
+
+

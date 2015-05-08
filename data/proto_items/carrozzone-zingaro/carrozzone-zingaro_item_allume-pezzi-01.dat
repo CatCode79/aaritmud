@@ -1,0 +1,23 @@
+Code: carrozzone-zingaro_item_allume-pezzi-01
+
+Level:	1
+Entitype: ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.CRISTAL 100%
+Name:	Un Pietruzza d'Allume Scheggiata
+Short:	un sassetto spigoloso
+Long:	$N vagamente opalescente.
+
+Descr:
+Un pezzo di cristallo traslucido; le venature più bianche che si intravedono lo fanno assomigliare ad un pezzo di ghiaccio.
+DescrTouch:
+Un pezzo di sostanza amorfa, dura e scheggiata in più punti.
+DescrTaste:
+Ignorando le più elementari norme di prudenza, dai una leggera leccatina; il gusto non ti ricorda nulla di noto e lega la lingua meglio di un limone acerbo..
+DescrSixth:
+Forse utilizzabile per preparati alchemici, magari si scioglie in acqua o alcool... forse una medicina?
+
+Value:	0
+Weight: 40g
+
+

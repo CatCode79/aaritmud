@@ -1,0 +1,26 @@
+Code:	karpuram_item_eq-guanti-lavoro
+
+Level:	2
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.LINE	25
+MaterialPercentages:	MATERIAL.COTTON	50
+MaterialPercentages:	MATERIAL.LEATHER	25
+Sex:	SEX.MALE
+Name:	Guanti da Lavoro
+Short:	guanti molto robusti
+Long:	Un paio di $N si trova in questa stanza.
+
+Descr:
+Sono un paio di guanti molto robusti, hanno una forma rigida e la stoffa con cui
+sono lavorati è ruvida e setosa. Nella parte superiore sopra le nocche delle
+$hands è stata sovrapposta una seconda striscia di cotone per rinforzarli.
+Il palmo presenta anch'esso uno strato di pelle leggermente rialzato per 
+esercitare una maggiore presa quando si spostano oggetti pesanti.
+
+Value:	0
+Weight:	200g
+
+WearType:
+   Modes: PART.RIGHT_HAND PART.LEFT_HAND
+End

@@ -1,0 +1,18 @@
+Code: compare
+
+ItalianKeywords: confronta compara
+EnglishKeywords: compare
+
+Entitype: HELP.ITEM
+
+Text:
+Il comando $tcompare serve per vedere quale oggetto è migliore tra due nel 
+tuo inventario.
+Se sono entrambe armi ti dirà quale ha il danno migliore in media. Se sono
+entrambe armature ti dirà quale ha la migliore classe armatura.
+
+Se scrivi $tcompare seguito da solo un argomento, avrai un confronto tra 
+quell'oggetto ed un oggetto dello stesso tipo che stai indossando.
+
+
+SeeAlso: consider

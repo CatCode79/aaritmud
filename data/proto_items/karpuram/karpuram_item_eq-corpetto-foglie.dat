@@ -1,0 +1,27 @@
+Code:	karpuram_item_eq-corpetto-foglie
+
+Level:	2
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.BAMBOO	70
+MaterialPercentages:	MATERIAL.LEAF	25
+MaterialPercentages:	MATERIAL.FLOWER	5
+Sex:	SEX.MALE
+Name:	Un Corpetto di Bambù e Foglie
+Short:	un corpetto di foglie
+Long:	$N leggero è qui.
+
+Descr:
+Questo semplice corpetto è formato da canne di bambù essiccate unite tra loro 
+da corde e liane. Lo ricoprono quasi totalmente, una moltitudine di foglie
+di diverse piante fissate tra loro. La protezione di quest'oggetto viene
+amplificata unicamente in zone boscose come questa per via del lieve mimetismo
+che riesce a generare agli occhi di un nemico inesperto.
+
+Value:	0
+Weight:	900g
+
+WearType:
+        Flags:	WEAR.LAYERABLE
+   Modes: PART.TORSO
+End

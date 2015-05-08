@@ -1,0 +1,76 @@
+Code:   citta-raminghe_mob_viandante-nano
+Level:  2
+Sex:    SEX.MALE
+Race:   RACE.DWARF
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:   Un Viandante Nano
+Short:  un viandante nano
+Long:   $N sta riposando vicino ad un albero.
+
+Descr:
+Sembra che questo nano provenga da molto lontano, indossa un elmo di cuoio con due
+grosse corna di bue fissate ai lati in prossimità delle orecchie.
+Indossa un pesante maglione di lana che lo avvolge quasi per intero, un paio di pantaloni
+sgualciti e stivali di cuoio rinforzati. Su un fianco ha una piccola faretra da dove
+sbucano le code di alcuni dardi e imbraccia una grossa balestra di ferro e legno. 
+Una lunga chioma di capelli biondi raccolti in una treccia fanno capolino da
+sotto l'elmo e una barba rossiccia quasi non ti permette di capirne i tratti
+somatici.
+
+DescrHear:
+Senti il rumore sordo delle piccole mani del nano mentre giocherella con la barba.
+
+DescrSmell:
+Ferro e legno proveniente dall'arma, sudore e sabbia e odore di cuoio.
+
+DescrSixth:
+La balestra che quasi non riesce a sollevare da terra potrebbe essere letale.
+
+Weight: 45kg
+Height: 120cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 55
+
+MaxLife:        200
+Life:           200
+MaxMana:        100
+Mana:           100
+MaxVigour:      200
+Vigour:         200
+
+Strength:       12
+Endurance:      18
+Agility:        12
+Speed:          12
+Intelligence:   13
+Willpower:      12
+Personality:    18
+Luck:           12
+
+Behaviour:
+        LookPlayer:     20
+        LookMob:        0
+        LookItem:       0
+        LookAtRacesFlags:       RACE.NONE
+        LookAtRaces:    0
+        LookAtEntitypesFlags:   ENTITYPE.NONE
+        TasteAtEntitypesFlags:  ENTITYPE.NONE
+        WanderDirection:        0
+        WanderExit:     0
+        WanderWall:     0
+        WanderClosedDoor:       0
+        WanderAtExitsFlags:     DIR.NONE
+        WanderAtExits:  0       
+        WanderArea:     0
+        WanderPortal:   0
+        WanderEnterContainer:   0
+        WanderExitContainer:    0
+        WanderSelf:     0
+        RandomDo:       10
+        RandomDoInputs: emote stende le gambette corte una per volta e torna a sedere.
+        RandomDoInputs: say Spero di trovare un lavoro o dovrò ripartire.
+        RandomDoInputs: say Finalmente un pò di riposo dopo il lungo cammino.
+        RandomDoInputs: emote passa il tempo a intrecciare la barba in nodi per poi scioglierla.
+End

@@ -1,0 +1,43 @@
+Code: villaggio-zingaro_item_door-porta-laterale-locanda
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.WOOD 83%	
+MaterialPercentages:	MATERIAL.IRON 17%	
+Name:	La Porticina Laterale della Locanda
+Short:	la porticina laterale della locanda
+Long:	$N è finita qui.
+
+Descr:
+Una modesta porticina senza troppe pretese; legno chiaro, non troppo pregiato non troppo scadente, larghe bande in ferro battuto senza decori e una maniglia arricciata.
+DescrTouch: 
+Ci passi una $hand per saggiare la qualità del legno che è discretamente levigato e senza schegge pericolose.
+DescrSixth:
+Un'anonima porticina che sembra far di tutto per non essere notata.
+
+Value:	0
+Weight: 70g
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Apri $N usando ambo le $hands.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N usando ambo le $hands.
+	EntityCloseMessage:	Accompagni $N fino a chiuderla.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n accompagna $N fino a chiusura.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE
+	ResetCloseMessage: $N si chiude.
+	ResetOpenMessage: $N si apre.
+End

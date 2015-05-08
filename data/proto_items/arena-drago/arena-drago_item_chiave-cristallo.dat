@@ -1,0 +1,21 @@
+Code:	arena-drago_item_chiave-cristallo
+Level:	06
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.CRISTAL 100%
+Sex:	SEX.FEMALE
+Name:	Una Chiave di Cristallo
+Short:	una chiave di cristallo
+
+Value:	0
+Weight: 10g
+
+Descr:
+Una piccola chiave in finissimo cristallo e dall'aspetto delicato.
+Comment:
+§27704
+
+Dati Obj
+A40 4A2 3
+18 262144 1|163840 0 0 01 0 -1
+
+

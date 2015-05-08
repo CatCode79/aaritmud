@@ -1,0 +1,14 @@
+Code: siepi_item_ceppo
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.WOOD	100%
+Name: Un Ceppo
+Short: un brutto ceppo
+Descr:
+È La parte inferiore del tronco di un frassino, da cui si diramano le radici.
+
+Value:	0
+Weight: 1g
+
+

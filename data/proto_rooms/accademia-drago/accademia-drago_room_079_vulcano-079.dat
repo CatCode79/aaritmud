@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_079_vulcano-079
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	[red]il Vulcano[close]
+Short:	[red]il vulcano[close]
+	Descr:
+Intorno a te l'aria diventa calda e secca come non mai, il suolo
+trema in continuazione e piccole fessure si aprono in
+continuazione rigurgitando magma talmente rovente che impiega
+qualche minuto a solidificarsi al contatto con l'aria. A pochi
+metri da te la voragine si apre e un enorme lago di lava ribolle.
+Al centro di questo paesaggio apocalittico, su di un'isola in
+magma solidificato, riposa un enorme e stupendo drago rosso.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 0
+Exits:
+	Direction:	DIR.EAST
+	Descr:	[mediumblue]i cinque picchi[close]
+	Comment:	ExitStatus	0 0 066 -1
+End
+Extras:
+	Keywords:	volumetto
+		Descr:
+[red]Lamreloc[close], signore dei draghi, famoso in primis per aver sconfitto
+Ghorm e sigillato il patto di alleanza con i cavalieri. Le sue
+imprese sono memorabili, dalla cacciata delle viverne del deserto
+alla liberazione delle terre del mare.
+
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

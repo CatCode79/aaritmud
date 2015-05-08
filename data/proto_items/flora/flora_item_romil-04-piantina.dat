@@ -1,0 +1,25 @@
+Code: flora_item_romil-04-piantina
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name: Un Giovane [white]cespuglio[close] di [white]Roselline[close]
+Short: una giovane [white]cespuglio[close] di [white]rosellina[close]
+Long: $N irto di spine
+
+Descr:
+Un cespuglietto spinoso piccino dai rametti verdi ed irti di spine.
+DescrTouch: 
+Un rigoglio di spine s'irradiano sicure lungo tutto il cespuglio.
+
+Value:	0
+Weight: 22g
+
+PlantType:
+    Sectors:	SECTOR.PLAIN SECTOR.HOUSE
+    RpgHours:	01
+    WorseEntity:	flora_item_romil-05-cespuglio-boccioli
+    NormalEntity:	flora_item_romil-05-cespuglio-boccioli
+    BetterEntity:	flora_item_romil-05-cespuglio-boccioli
+End

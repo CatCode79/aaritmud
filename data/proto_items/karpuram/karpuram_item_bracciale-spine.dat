@@ -1,0 +1,50 @@
+Code: karpuram_item_bracciale-spine
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.THORN	100
+Sex:	SEX.MALE
+Name:
+	Il [maroon]Bracciale[close] di Spine
+Short:
+	un [maroon]bracciale[close] puntuto 
+Long:
+	$N tutto intrecciato
+
+Descr:
+Realizzato con un gran numero di fili di piante e arbusti, legati tra loro 
+a formare un solido bracciale. La caratteristica particolare di quest'ultimo 
+però sta in una serie di grosse spine rivolte verso l'esterno 
+con fare minaccioso. Le spine sembrano essere parte integrante del bracciale e 
+pare appartengano alla stessa pianta che lo compone.
+
+DescrHearingNight:
+Ti accorgi che le spine che fino a prima del tramonto sembravano secche e
+immobili, lentamente si stanno muovendo come animate da qualcosa, come alla
+ricerca di qualcosa. Ma forse è solo una tua impressione.
+
+DescrTouch:
+Facendo molta attenzione a non toccare le spine presenti nella parte esterna
+del bracciale, ti rendi conto che questo è molto solido e risulta formato da
+un'unica lunghissima pianta.
+
+DescrSixthNight:
+Avverti un brivido di paura percorrerti la schiena quando osservi con attenzione
+questo bracciale di spine. Come se di notte quasi si animasse.
+
+Extras:
+	Keywords: spine
+	Descr:
+	Sono delle grosse spine molto appuntite che sembrano parte integrante
+	del bracciale ed è come se lo stessero proteggendo.
+End
+
+WearType:
+   Modes: PART.LEFT_WRIST
+   Modes: PART.RIGHT_WRIST
+End
+
+Value:	0
+Weight: 70g
+
+

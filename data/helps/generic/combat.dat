@@ -1,0 +1,39 @@
+Code: combat
+
+ItalianKeywords: combattimento
+EnglishKeywords: combat
+
+Entitype: HELP.COMBAT
+
+Text:
+Durante la tua vita in questo mondo, ti capiterà spesso di dover sostenere
+dei combattimenti, potrai batterti contro dei mob o anche contro altri
+giocatori.
+
+Scegli sempre con cura l'avversario da affrontare, prima di accingerti a
+combattere è saggio che valuti il tuo avversario se non desideri incorrere
+in amare sconfitte.
+Per valutare un avversario puoi guardarlo con il comando $tlook &lt;[darkgreen]mob[close]&gt;
+per vedere la sua descrizione e l'equipaggiamento che indossa e farti una
+prima idea su chi ti accingi ad affrontare, se invece vuoi una valutazione
+delle tue possibilità contro il tuo avversario puoi valutarlo con il comando
+$tconsider &lt;[darkgreen]mob[close]&gt; per sapere se è alla tua portata.
+Puoi anche usare l'incantesimo di [darkgreen]identificazione[close] tramite il comando
+$tcast [darkgreen]identify[close] &lt;[darkgreen]mob[close]&gt; per avere informaizoni più dettagliate sul mob.
+
+Puoi iniziare un combattimento usando: $tkill, $tmurder, o molti degli
+incantesimi o abilità che hai a tua disposizione. Il modo più semplice di
+iniziare uno scontro è $tkill &lt;[darkgreen]mob[close]&gt;.
+
+Durante un combattimento potresti trovarti in difficoltà e desiderarre di
+toglierti dai guai, puoi farlo usando i comandi $tflee o $trecall.
+Puoi fuggire da uno scontro usando il comando $tflee oppure ritornare in un
+luogo sicuro usando l'incantesimo '[darkgreen]word of recall[close]' o recitando
+[darkgreen]una pergamena di ritorno[close] ($thelp $trecite). Puoi anche impostare la fuga
+automatica (vedi $thelp $twimpy) che farà si che cerchi di scappare
+automaticamente quando la tua salute raggiungerà un certo livello.
+Fuggire da uno scontro comporta una perdita di esperienza, se fuggi usando i
+metodi per tornare ad un luogo sicuro ($trecall) la perdita sarà maggiore.
+
+
+SeeAlso: kill look consider

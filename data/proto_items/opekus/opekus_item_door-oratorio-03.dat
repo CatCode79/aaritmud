@@ -1,0 +1,24 @@
+Code:	opekus_item_door-oratorio-03
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.SOFTWOOD	100%
+Name:	Una [mocassin]Porticina[close]
+Short:	una [mocassin]porticina[close]
+Long:	$N staccata dallo stipite
+
+Descr:
+Artigiani pragmatici hanno realizzato con lavoro accurato questa spessa porta di legno chiaro.
+Priva di fronzoli e dettagli è una semplice porta funzionale.
+
+DescrTouch: 
+Artigiani pragmatici hanno realizzato con lavoro accurato questa spessa porta in legno grezzo.
+
+Weight: 20kg
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE 
+End

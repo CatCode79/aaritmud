@@ -1,0 +1,32 @@
+Code: flora_item_mirtillo-nero-06-cespuglio-morto
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name:	Un Cespuglio di Mirtilli
+Short:	un cespuglio
+Long:	Le vestigia rinsecchite di $N non hanno più nulla da dire.
+
+Descr:
+Un basso cespuglio scarnificato dal tempo e dalle piogge privato anche dell'ultimo verde vessillo.
+
+DescrTouch:
+Un basso cespuglio legnoso scarnificato e lisciato dal vento.
+
+DescrTaste:
+Duro e stoppaccioso.
+
+DescrSixth:
+Poco utile anche come legna da ardere.
+
+Value:	0
+Weight: 7kg
+
+
+ExtractTimeout:
+	Minutes: 10080
+	EntityMessage: Cenere alla cenere, polvere alla povere
+        OthersMessage: Cenere alla cenere, polvere alla povere
+End
+

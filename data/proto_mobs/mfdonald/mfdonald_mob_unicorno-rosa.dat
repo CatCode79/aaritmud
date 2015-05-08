@@ -1,0 +1,81 @@
+Code: mfdonald_mob_unicorno-rosa
+Level: 1
+Icon:	icons/mob/unicorno_rosa.png
+Sex:	SEX.MALE
+Race:	RACE.UNICORN
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	L'Unicorno Odiabilmente [peachpuff]Sorridente[close]
+Short:	un terribile [peachpuff]unicorno[close] sorridente
+Long:	$N ti trascina in un turbine di felicità, tuo malgrado.
+
+Descr:
+Un unicorno [peachpuff]bello[close], aggraziato, gentile, disponibile, sorridente, gaio, gioioso e tutte
+quelle caratteristiche che posson indurre qualunque creatura senziente e ragionevole a
+starne alla larga.
+DescrTouch: 
+Un unicorno gentile, disponibile, condiscendente alle carezze, gaio, gioioso e con tutte
+quelle caratteristiche che posson indurre qualunque creatura senziente e ragionevole a
+starne alla larga.
+DescrSmell: 
+A conferma delle più terribili leggende... profuma di caramelle.
+DescrSixth:
+Il tuo sesto senso geme terribilmente inducendoti alla fuga.
+DescrHearing:
+Una lieta e dolce cantilena è inestricabilmente congiunta al suo respiro
+
+Weight: 209kg
+Height: 168cm
+
+Behaviour:
+	LookPlayer:	15
+	LookMob:	5
+	LookItem:	11
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	30
+	WanderWall:	0
+	WanderClosedDoor:	100
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	35
+	RandomDoInputs: say Ring ring...
+	RandomDoInputs: say Hallooo!
+	RandomDoInputs: say Hey, Charlieeeeeee!
+	RandomDoInputs: say Chaaaarlieeeeeee!
+	RandomDoInputs: say Shhh! You'll wake the Umu!
+	RandomDoInputs: say Look out for the Yum-Yums...
+End
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 34
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

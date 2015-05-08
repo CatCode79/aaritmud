@@ -1,0 +1,32 @@
+Code: arena-drago_item_door-portone-gladiatori-45
+Level: 1
+Entitype:	ENTITYPE.DOOR
+MaterialPercentages:	MATERIAL.HARDWOOD 60%
+MaterialPercentages:	MATERIAL.IRON 40%
+Sex:	SEX.MALE
+Name:	Il Portone per i Gladiatori
+Short:	un portone
+Long:	$N è a terra in frantumi.
+
+Descr:
+Un enorme portone in legno massello rinforzato con inserti in ferro.
+
+Value:	0
+Weight: 70kg
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Apri $N spingendo con forza.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N spingendo con forza.
+	EntityCloseMessage:	Richiudi $N.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n chiude $N.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE DOOR.LOCKED
+	KeyCode:	arena-drago_item_mazzo-arena
+End
+
+

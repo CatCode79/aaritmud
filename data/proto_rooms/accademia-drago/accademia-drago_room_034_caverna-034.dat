@@ -1,0 +1,114 @@
+Code:	accademia-drago_room_034_caverna-034
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	[yellowgreen]la Caverna[close]
+Short:	[yellowgreen]la caverna[close]
+	Descr:
+È incredibile... in questo museo sono riusciti a riprodurre
+persino la puzza... e non sei affatto felice della cosa... sei
+finito dritto in una caverna enorme, buia ed umida, in un angolo
+vedi una donna nuda abbandonata, probabilmente svenuta. Una
+carcassa di montone sta marcendo sul fondo della cavità. Al
+centro della caverna un enorme troll sghignazza mentre tormenta
+un nano legato colpendolo sulle ginocchia con una grossa clava.
+Hai quasi paura di leggere il volumetto abbinato a questa
+scena...
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 0
+Exits:
+	Direction:	DIR.NORTH
+	Destination:	2 -1 0 accademia-drago
+	Descr:	[gray]il[close] [gray]laboratorio oscuro[close]
+	Comment:	ExitStatus	0 0 023 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Destination:	0 -3 0 accademia-drago
+	Descr:	[gray]la[close] [cyan]t[gray]orre[close] [cyan]d[gray]ella[close] [cyan]v[gray]eggenza[close]
+	Comment:	ExitStatus	0 0 064 -1
+End
+Extras:
+	Keywords:	volumetto
+		Descr:
+Il male, la sua pura impersonificazione, stupido, fedele e
+spietato. Ecco a voi Grark, Capotribù dei troll di caverna,
+irretito con promesse di potere e ricchezza da Arialko perché
+portasse il suo popolo in guerra contro umani e nani e aprisse la
+strada alle forze congiunte del mago e di Ghorm.
+
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,89 @@
+Code: novizi2_item_sportello-yendorian
+Level: 1
+MaxGlobalQuantity:	1
+Entitype:	ENTITYPE.CONTAINER
+Flags:	FLAG.NO_GET
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.METAL	100%
+Name:	Lo Sportello di Finanziamento Novizi
+Short:	uno sportello automatico
+Long:	$N è qui attivo e collegato
+
+Descr:
+Un acrocchio blindato e rinforzato riporta in lettere luminose la scritta:
+[red]SFN[close]<br>
+Su uno schermo retroilluminato c'è una scritta tranquillizzante in grosse lettere amichevoli.
+L'inconfondibile fessura per l'inserimento della tessera è collocata inferiormente sul lato destro.
+DescrTouch: 
+Un acrocchio blindato con uno schermo, una fessura ed un tastierino alfanumerico.
+DescrSmell: 
+no_send
+DescrSixth:
+Lo sportello automatico del circuito Yendorian garantisce sicurezza nel trattamento dei dati personali e fornisce ottime garanzie per quanto concerne le transazioni in denaro.
+Questo almeno è ciò che si legge sullo schermo sotto la scritta tranquilliizzante.
+DescrHearing:
+Un buffo ronzio è saltuariamente posto in secondo piano da un click egocentrico e sprezzante.
+DescrTaste:
+no_send
+
+Weight: 150kg
+
+Extras:
+	Keywords:	SFN
+	Descr:
+	Esse Effe Enne
+	DescrSixth:
+	Uhm.. Sportello Finanziamento Novizi?
+End
+
+Extras:
+	Keywords: schermo scritta scritta luminosa luminose lettere lettera amicevoli amichevole
+	Descr:
+<pre class="asciiart">
+.          __ _            _       
+.       /\ \ (_) ___ _ __ | |_ ___ 
+.      /  \/ / |/ _ \ '_ \| __/ _ \
+.     / /\  /| |  __/ | | | ||  __/
+.     \_\ \/ |_|\___|_| |_|\__\___|
+.        ___            _
+.       / _ \__ _ _ __ (_) ___ ___
+.      / /_)/ _` | '_ \| |/ __/ _ \
+.     / ___/ (_| | | | | | (_| (_) |
+.     \/    \__,_|_| |_|_|\___\___/
+</pre>
+	DescrTouch:
+Curioso che li leggano al tatto!
+<pre class="asciiart">
+.          __ _            _       
+.       /\ \ (_) ___ _ __ | |_ ___ 
+.      /  \/ / |/ _ \ '_ \| __/ _ \
+.     / /\  /| |  __/ | | | ||  __/
+.     \_\ \/ |_|\___|_| |_|\__\___|
+.        ___            _
+.       / _ \__ _ _ __ (_) ___ ___
+.      / /_)/ _` | '_ \| |/ __/ _ \
+.     / ___/ (_| | | | | | (_| (_) |
+.     \/    \__,_|_| |_|_|\___\___/
+</pre>
+	DescrSixth:
+Riconosci la citazione ancora prima di guardare.
+<pre class="asciiart">
+.          __ _            _       
+.       /\ \ (_) ___ _ __ | |_ ___ 
+.      /  \/ / |/ _ \ '_ \| __/ _ \
+.     / /\  /| |  __/ | | | ||  __/
+.     \_\ \/ |_|\___|_| |_|\__\___|
+.        ___            _
+.       / _ \__ _ _ __ (_) ___ ___
+.      / /_)/ _` | '_ \| |/ __/ _ \
+.     / ___/ (_| | | | | | (_| (_) |
+.     \/    \__,_|_| |_|_|\___\___/
+</pre>
+End
+
+
+ContainerType:
+	Flags:	 CONTAINER.SECRET 
+	MaxWeight:	10kg
+End
+

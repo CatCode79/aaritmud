@@ -1,0 +1,36 @@
+Code: villaggio-zingaro_item_pugnale-01
+
+MaxGlobalQuantity:	0
+Level: 1
+Entitype:	ENTITYPE.WEAPON
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.METAL	90%
+MaterialPercentages:	MATERIAL.GEM	10%
+Name:
+Un Pugnale
+Short:
+un pugnale
+Long:
+$N dall'aspetto prezioso. 
+
+Descr:
+Un pugnale di medie dimensioni con la lama leggermente ricurva e appuntita. L'impugnatura dorata è tempestata di piccole [firebrick]pietre rosse[close] e rifinito sulla cima da una [forestgreen]gemma[close] più grande.
+DescrTouch: 
+Passi un dito sulla lama che è veramente molto affilata. 
+DescrSixth:
+Un oggetto pregevole, forse un cimelio di famiglia o bottino di una saccheggio.
+
+Value:	0
+Weight: 150g
+
+
+WearType:
+        Modes: PART.WIELD
+End
+WeaponType:
+        Category: WEAPON.DIRK
+	Damage:	1D4+0
+        Flags: WEAPONFLAG.ONE_HAND 
+End
+
+

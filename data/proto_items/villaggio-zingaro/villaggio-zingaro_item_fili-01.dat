@@ -1,0 +1,23 @@
+Code: villaggio-zingaro_item_fili-01
+
+Level:	1
+Entitype: ENTITYPE.NONE
+Sex:	SEX.MALE
+Flags:	FLAG.NO_LOOK_LIST 
+MaterialPercentages:	MATERIAL.HEMP	100%
+Name:	Dei Fili 
+Short:	dei fili 
+Long:	$N sono appesi qui.
+
+KeywordsName: fili oggetto oggetti
+KeywordsShort: fili oggetto oggetti
+
+Descr:
+Numerosi fili pendono dalle travi del soffitto, ognuno ha appeso un oggetto che non riesci ad identificare fissato con un piccolo fiocco.
+DescrTouch:
+Infili la $hand nella selva di fili che ondeggiano ritmicamente.
+
+Value:	0
+Weight: 3kg
+
+

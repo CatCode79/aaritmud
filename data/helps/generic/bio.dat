@@ -1,0 +1,27 @@
+Code: bio
+
+ItalianKeywords: descrizione biografia
+EnglishKeywords: description bio
+
+Entitype: HELP.INFO
+
+Text:
+Il comando $tdescription ti farà entrare in un editor per modificare la
+descrizione lunga del tuo personaggio (quello che le persone vedono quando
+ti guardano).
+
+Il comando $tbio ti farà entrare in un editor per modificare la tua
+biografia personale, questa sarà visibile soltanto a te come giocatore e ti
+servirà per creare un background per una maggior caratterizzazione ed 
+interpretazione del tuo personaggio.
+Se è tuo desiderio che tutti possano leggere la tua storia puoi pubblicarla
+sul sito nella sezione dei racconti.
+
+Un Amministratore può richiederti di cambiare la tua descrizione o biografia
+se contiene materiale inappropriato. Non usare linguaggi blasfemi, insulti
+razziali, commenti sessuali e nomi di altri giocatori (senza il loro permesso).
+Rifiutarsi di cambiare la descrizione o la biografia, su richiesta di un 
+Amministratore può far incorrere in punizioni.
+
+
+SeeAlso: description

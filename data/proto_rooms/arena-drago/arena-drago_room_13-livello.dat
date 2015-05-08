@@ -1,0 +1,68 @@
+Code:	arena-drago_room_13-livello
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il II Livello
+Short:	il II livello
+	Descr:
+Ti trovi a quello che pare essere l'ingresso pubblico dell'arena,
+ad est due enormi statue di cavalieri sono poste quali colonne di
+una grande arcata formata alle loro spade incrociate, oltre vedi
+una scalinata che scende verso una strada diretta nei campi. Ad
+ovest invece una scalinata scende passando come un ponte sopra
+il primo livello dell'arena e giungendo direttamente agli spalti,
+è la via per il pubblico, libera nei giorni normali ed a
+pagamento durante i tornei e le giostre più importanti.
+La strada ricavata su questo livello prosegue invece a nord e sud.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 1
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	il II livello
+	Comment:	ExitStatus	0 0 27714 -1
+	Destination:	9 8 0 arena-drago
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	la scalinata d'accesso
+	Comment:	ExitStatus	0 0 27725 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	il II livello
+	Comment:	ExitStatus	0 0 27712 -1
+	Destination:	9 2 0 arena-drago
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	una larga scalinata
+	Comment:	ExitStatus	0 0 27720 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

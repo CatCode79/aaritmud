@@ -1,0 +1,71 @@
+Code:   villaggio-zingaro_mob_artista
+Level:  5
+Sex:    SEX.MALE
+Race:   RACE.TUAREG
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:   Un Artista di Strada
+Short:  un artista di strada
+Long:   $N sta eseguendo un numero di prestigio.
+
+Descr:
+Un uomo si sta dilettando a lanciare delle sfere di cuoio in aria, è vestito
+con un [brown]abito[close] marrone molto semplice se non fosse per una serie di
+[yellow]frange[close] colorate di giallo che si dipartono dalle spalle e dalle 
+ginocchia e che seguono i suoi movimenti. Ha gli occhi scuri come la notte ed i
+capelli ricci ed arruffati tenuti legati da una [red]bandana[close].
+DescrSmell:
+Odore di cuoio e sudore colpiscono subito i tuoi sensi.
+DescrSixth:
+Nonostante l'artista stia cercando di distrarti con le sue evoluzioni, ti accorgi
+che i suoi occhi in realtà sono puntati proprio su di te!
+DescrHearing:
+Senti il rumore dell'aria che viene spostata durante l'esibizione dell'artista.
+
+Weight: 60kg
+Height: 175cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 25
+
+MaxLife:        200
+Life:           200
+MaxMana:        100
+Mana:           100
+MaxVigour:      200
+Vigour:         200
+
+Strength:       10
+Endurance:      13
+Agility:        18
+Speed:          15
+Intelligence:   12
+Willpower:      13
+Personality:    18
+Luck:           18
+
+Behaviour:
+        LookPlayer:     0
+        LookMob:        0
+        LookItem:       0
+        LookAtRacesFlags:       RACE.NONE
+        LookAtRaces:    0
+        LookAtEntitypesFlags:   ENTITYPE.NONE
+        TasteAtEntitypesFlags:  ENTITYPE.NONE
+        WanderDirection:        0
+        WanderExit:     0
+        WanderWall:     0
+        WanderClosedDoor:       0
+        WanderAtExitsFlags:     DIR.NONE
+        WanderAtExits:  0       
+        WanderArea:     0
+        WanderPortal:   0
+        WanderEnterContainer:   0
+        WanderExitContainer:    0
+        WanderSelf:     0
+        RandomDo:       10
+        RandomDoInputs: emote lancia in aria tre sfere di cuoio facendole roteare.
+        RandomDoInputs: say vuoi sapere cosa nasconde il futuro?
+        RandomDoInputs: say per poche monete ti svelerò il futuro.
+        RandomDoInputs: emote ti sorride con allegria.
+End

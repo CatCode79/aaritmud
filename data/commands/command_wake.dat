@@ -1,0 +1,6 @@
+FunName:    command_wake
+Type:       CMDTYPE.MOVEMENT
+Trust:      TRUST.PLAYER
+Position:   POSITION.SLEEP
+Flags:      CMDFLAG.INTERACT CMDFLAG.GDR
+MiniHelp:   Serve per svegliare un mob, un pg o sé stessi.

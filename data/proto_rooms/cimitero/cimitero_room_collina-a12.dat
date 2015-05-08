@@ -1,0 +1,42 @@
+Code: cimitero_room_collina-a12
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Prigione di Chrysantha
+Short: una cella
+
+Descr:
+Una cella di prigionia con ancora le catene infisse nelle pareti. Una decina di anelli
+in cattive condizioni fanno pensare che all'epoca la piccola stanza potesse essere stipata
+di prigionieri. La muffa sulle pareti è un tappeto omogeneo quasi quanto il fango sul
+pavimento, eccezion fatta per quella specie di porta torce.
+DescrSmell: 
+La zona collinare è avvolta dagli abbracci languidi dell'odore di spezie e decomposizione.
+Per alcuni tratti si coglie però una scia che rimane la stessa per un certo tratto.
+DescrHearing:
+Il sibilo del vento produce un lugubre suono cupo sostenuto negli effetti lungo le
+lapidi frastagliate.
+DescrSixth:
+L'unico [magenta]supporto[close] per illuminazione si trova nell'angolo fra la parete sud e quella ad est; un'immagine balugina nella tua mente ardendo come torcia fiammeggiante e ti lascia interdett$o e confus$o.
+
+
+Extras:
+	Keywords: supporto
+	DescrTouch:
+	È un [magenta]meccanismo[close] nascosto!
+	DescrSixth:
+	Qualcosa si cela dietro al [magenta]meccanismo[close] che senti collegato al supporto
+End
+
+Width:	2m
+Depth:	4m
+Height: 3m
+
+
+Exits:
+	Direction: DIR.WEST
+	Descr: L'uscita 
+End
+Exits:
+	Direction: DIR.SOUTHEAST
+	Descr: una stanza segreta
+End

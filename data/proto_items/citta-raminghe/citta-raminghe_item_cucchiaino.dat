@@ -1,0 +1,28 @@
+Comment: Un cucchiaino d'argento- alias mezzo minuto di raccoglimento- a cui fa riferimento l'extras della locandiera 
+(enigmi). Dovrei nasconderlo in un luogo 
+inconsueto, ma che possa essere trovato con il ragionamento. Deciso: nella stanza dell'accademia quella con la porta gialla.
+
+Code: citta-raminghe_item_cucchiaino
+Level: 2
+Entitype: ENTITYPE.NONE
+Flags:	FLAG.NO_LOOK_LIST
+MaterialPercentages:	MATERIAL.SILVER	100%
+Name: Un Cucchiaino d'Argento
+Short: [silver]un cucchiaino d'argento[close]
+Long: $N si trova proprio qui
+
+KeywordsShort: cucchiaino argento raccoglimento minuto
+
+Descr:
+Un [silver]cucchiaino in argento[close] a forma di freccia. Ha una decorazione che raffigura
+ [red]la luna[close] e [yellow]le stelle[close]. 
+DescrSixth:
+Intuisci che questo [gold]]mezzo minuto di raccoglimento[close] potrà darti forza, potenza e vigore, nella mente e nel corpo, se saprai farne buon uso. 
+Value:	0
+Weight: 35g
+
+Behaviour:
+	RandomDo:	10
+	RandomDoInputs:	gli eventi t'invitano qui a prenderti mezzo minuto di raccoglimento
+	RandomDoInputs:	avverti qui lievi riflessi d'enigmatico raccoglimento
+End

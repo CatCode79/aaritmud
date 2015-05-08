@@ -1,0 +1,52 @@
+Comment: il medaglione tyto quando si rompe viene sostituito con questo
+
+
+Code: villaggio-zingaro_item_medaglione-rotto
+
+Level:	1
+Entitype: ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GOLD 91%	
+MaterialPercentages:	MATERIAL.AMETHYST 9%	
+Name:	Un Medaglione Rotto
+Short:	un medaglione rotto
+Long:	$N ed inutile.
+
+Descr:
+Un medaglione circolare appeso ad una leggera catena dorata. Una cavità semisferica e scentrata è quello che resta di un vecchio castone perduto chissà dove. Nella parte inferiore resta appeso un bubbolo e altri quattro anellini che un tempo dovevano avere qualche tipo di pendente.
+DescrTouch:
+Passi la $hand sul retro cogliendo delle piccole asperità.
+DescrSixth:
+Un medaglione piuttosto particolare, probabilmente tramandato di generazione in generazione, che sembra racchiudere in se indicibili segreti.
+DescrHearing:
+Ad ogni movimento il campanellini emettono un suono sordo e breve.
+DescrSmell:
+Annusi i residui di quella che pare una fragranza d'[orange]agrume.[close] 
+
+Value:	0
+Weight: 57g
+
+Extras: 
+	Keywords: asperità
+	Descr: 
+	Ti accorgi che in realtà si tratta di una scritta dai caratteri irregolari: Tyto.
+End
+
+
+ContainerType:
+       MaxWeight: 1g
+End
+
+
+WearType:
+	Modes: PART.NECK
+	Flags:	WEAR.LAYERABLE
+	EntityWearMessage:	Sollevi con ambo le $hands $N e te l$O porti %part.
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	$n solleva $N con ambo le $hands e se l$O porta %part.
+	EntityRemoveMessage:	Porti le $hands %part e togli $N.
+	TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+	OthersRemoveMessage:	$n porta le $hands %part e si leva $N
+End
+
+

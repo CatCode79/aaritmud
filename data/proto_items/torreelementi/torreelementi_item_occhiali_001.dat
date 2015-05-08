@@ -1,0 +1,20 @@
+Code: torreelementi_item_occhiali_001
+Level: 1
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GLASS	90%
+MaterialPercentages:	MATERIAL.METAL	10%
+Name: Gli Occhialetti a forbice
+Short: uno strano paio di forbici con lenti
+Long:	$N sbucano dal loro fodero
+Descr:
+Un oggettino metallico delicato con la possibilità d'essere aperto come forbici,
+terminante in un paio di [aquamarine]lenti rosse[close].
+Value:	0
+Weight: 50g
+
+WearType:
+   Modes: PART.LEFT_EYE PART.RIGHT_EYE
+End
+
+

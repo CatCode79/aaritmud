@@ -1,0 +1,30 @@
+Code: flora_item_pomodoro-09-pianta-secca
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Flags:	FLAG.INTERACTABLE_FROM_OUTSIDE 
+Name:	I Resti di una Pianta di Pomodoro
+Short:	i resti di una pianta
+Long:	$N sopraffatta dal tempo.
+
+Descr:
+Sul corpo della pianta hanno infierito il tempo e forse anche una mandria di 
+giumente inviperite. Tutto quel che si riesce a dire è che si trattava di una
+pianta di... uhm.. pianta.
+
+DescrTouch:
+Ha subito il trattamento tipico delle piante impiegate per fabbricare filati.
+
+DescrSixth:
+È solo una perdita di tempo.
+
+Value:	0
+Weight: 1kg
+
+ExtractTimeout:
+	Minutes: 10080
+	EntityMessage: Cenere alla cenere, polvere alla povere
+        OthersMessage: Cenere alla cenere, polvere alla povere
+End

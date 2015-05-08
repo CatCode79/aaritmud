@@ -1,0 +1,19 @@
+Code: miniere-kezaf_item_gemma-tanzanite
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_tanzanite.png
+Name:	Una Tanzanite da Lavorare
+Short:	una pietra blu scuro dai riflessi rossi
+
+Descr:
+Questo splendido minerale si presenta, allo stato grezzo, di colore blu con 
+riflessi rossastri.
+
+DescrSixth: Una volta lavorato potrà prendere una colorazione più
+netta tendente al viola acceso.
+
+Value:	0
+Weight: 210g

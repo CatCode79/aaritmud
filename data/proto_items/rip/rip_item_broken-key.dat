@@ -1,0 +1,19 @@
+Comment: conveniente negli oggetti rotti l'uso dell'etichetta %material
+Code: rip_item_broken-key
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.METAL	100%
+Sex:	SEX.FEMALE
+Name:	Quel che Resta di una Chiave
+Short:	quel che resta di una chiave
+Long:	ecco $N
+
+Descr:
+Infierendo con violenza su questo piccolo oggetto tanto da renderlo inutilizzabile ed irriconoscibile. 
+DescrTouch: 
+Così scomposta potrebbe anche non essere stata una chiave.
+DescrSixth:
+Evidentemente qualcuno ha voluto mettere un po' più al sicuro qualcosa. 
+
+Weight: 100g

@@ -1,0 +1,34 @@
+Code: carrozzone-zingaro_item_canovaccio-02-pulito
+
+Level: 1
+Entitype: ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.CLOTH 100%
+Name:	Un [lemonchiffon]Canovaccio[close]
+Short: un [lemonchiffon]canovaccio[close]
+Long:	$N è qui piegato.
+
+Descr:
+Un lindo [lemonchiffon]canovaccio[close] sfilacciato sui bordi e ripiegato in modo impeccabile
+DescrTouch:
+La tua $hand scorre sulla ruvida trama, fitta ma non troppo.
+DescrSmell:
+Il profumo è fresco e pulito, come appena lavato.
+DescrSixth:
+Sembra sia stato ricavato strappando un qualcosa di più esteso come..un lenzuolo o una tenda.
+
+Value:	0
+Weight: 75g
+
+Extras:
+  Keywords: trama fitta
+Descr:
+Spiegandolo ti accorgi che in realtà presenta delle accurate cuciture che gli conferiscono una forma a cono.  
+DescrSixth:
+Ti chiedi a cosa possa servire un pezzo di stoffa ripiegato in questa maniera,
+certamente non ad asciugare stoviglie.  
+  
+End
+
+
+

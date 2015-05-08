@@ -1,0 +1,20 @@
+Code:	serpidi_item_pettoraleossidiana_12
+Level:	1
+Entitype: ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.OBSIDIAN	100%
+Name:	Un Pettorale di Ossidiana 
+Short:	un pettorale di ossidiana 
+Descr: un pettorale di pietra nera lucida
+
+Value:	0
+Weight: 80g
+BirthDay: 1
+BirthMonth: MONTH.TEN
+WearType:
+        Modes: PART.BREAST
+        Modes: PART.CHEST
+End
+
+
+
+

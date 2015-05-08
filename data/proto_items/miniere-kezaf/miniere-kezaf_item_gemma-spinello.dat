@@ -1,0 +1,24 @@
+Code: miniere-kezaf_item_gemma-spinello
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_spinel.png
+Name:	Una Gemma Ancora Grezza di [violet]Spinello[close] 
+Short:	una pietra scura e violacea
+Long:	$N affiora qui da un lato.
+
+Descr:
+Una misteriosa pietra preziosa dalla vitrea lucentezza a riflessi violacei.
+
+DescrSixth:
+Una delle pietre maggiormente utilizzata per essere spacciata come rubino,
+tanta è la somiglianza anche per occhi avvezzi alle gemme.
+
+Value:	0
+Weight: 310g
+
+
+
+

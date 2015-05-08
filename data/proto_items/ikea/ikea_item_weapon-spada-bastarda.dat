@@ -1,0 +1,38 @@
+Code:	ikea_item_weapon-spada-bastarda
+
+Level:	2
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAPON
+MaterialPercentages:	MATERIAL.IRON	100
+Sex:	SEX.FEMALE
+Name:	Una Spada Bastarda
+Short:	una spada a due mani
+
+Long:	$N è parzialmente infilata nel suo fodero.
+
+Descr:
+Una spada molto affilata può essere impugnata a due mani, l'elsa ha la
+forma di un becco e termina in modo ricurvo verso il basso. L'impugnatura è
+larga e comoda e permette una facile presa.
+
+DescrTouch:
+Una spada molto affilata può essere impugnata a due mani, l'elsa ha la
+forma di un becco e termina in modo ricurvo verso il basso. L'impugnatura è
+larga e comoda e permette una facile presa. La lama è filante e il suo peso 
+risulta ben distribuito su tutta la sua lunghezza.
+
+DescrSixth:
+La lama è filante e il materiale ferroso che la
+compone è ancora in ottimo stato anche se appare forgiata da molto tempo.
+
+Value:	0
+Weight:	4kg
+
+WeaponType:
+        Category: WEAPON.BASTARD
+        Flags: WEAPONFLAG.TWO_HANDS 
+End
+
+WearType:
+   Modes: PART.WIELD
+End

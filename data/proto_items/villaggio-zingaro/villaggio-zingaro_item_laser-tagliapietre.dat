@@ -1,0 +1,30 @@
+Code: villaggio-zingaro_item_laser-tagliapietre
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+MaterialPercentages:	MATERIAL.UNKNOWN	100%
+Name:	Un Misterioso Strumento
+Short:	un misterioso arnese
+Long:	$N ben fissato al tavolo.
+
+Descr:
+Un curioso aggeggio composto da un globo metallico fissato a una base rettangolare a un intrico di tubi e ferraglia; una mezza dozzina di levette e fermi permettono di regolarne angolatura e posizione.
+DescrTouch: 
+Il metallo emana un certo calore che pare provenire dalla sfera metallica.
+DescrSmell: 
+Inodore, l'olfatto non ti aiuta nel capire cosa sia.
+DescrSixth:
+Vedendone l'aspetto non ti è parso particolarmente robusto ma hai l'impressione che sia un oggetto molto prezioso e unico nel suo genere.
+DescrHearing:
+Anche senza avvicinarti troppo lo senti come sfrigolare.
+
+Value:	0
+Weight: 5kg
+
+Behaviour:
+	RandomDo:	 8
+	RandomDoInputs:	emote emette un sottilissimo [springgreen]raggio luminoso[close].
+	RandomDoInputs:	Avverti un sottile suono che si fa sempre più acuto e si perde.
+End

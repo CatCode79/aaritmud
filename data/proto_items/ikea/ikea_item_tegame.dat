@@ -1,0 +1,29 @@
+Code: ikea_item_tegame
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+MaterialPercentages:	MATERIAL.ALUMINIUM	100
+Sex:	SEX.MALE
+Name:	Un Tegame
+Short:	un tegame
+Long:	$N è qui
+
+Descr:
+Un tipo di pentola di forma rotonda, poco profondo e con uno o due manici
+DescrTouch: 
+Noti una patina diffusa su tutto lo strumento, probabilmente dovuta dall'usura.
+DescrSmell: 
+Il suo odore ti ricorda quello di una spada appena lucidata.
+DescrSixth:
+Indicato per la cottura di sughi, condimenti, carne e verdure.
+DescrTaste:
+no_send
+DescrHearing:
+no_send
+
+Value:	29
+Weight: 1720g
+
+ContainerType:
+	MaxWeight:	5kg
+End

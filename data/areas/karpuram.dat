@@ -1,0 +1,2506 @@
+Comment: questa è una zona di prove legate agli alberi
+Creators:	Sulfrum Jaroddd
+Code: karpuram
+Name: Il Ventre di Karpuram
+Short: una distesa boschiva
+Descr:
+La terra boscosa di Karpuram è la vittoria del regno vegetale sugli incendi che secoli fa devastarono le colline.
+Un'area totalmente vegetale, benigna ed accogliente dove nascono alberi portentosi protetti dall'antica stirpe di elfi che giunsero in aiuto secoli or sono.
+Il centro dell'intricatissima zona è accessibile con non poca difficoltà; la sua propaggine più accessibile si trova ad est della Torre Elementale. 
+Color: COLOR.FORESTGREEN
+Level: 5
+RepopTime: 20
+LandfillCode:	karpuram_room_city-gate-s
+
+RoomResets:
+	ProtoRoom: karpuram_room_sentiero_01
+	Destination:	-2 2 0 karpuram
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: karpuram_item_stagno
+	End
+	EntityResets:
+		ProtoEntity: karpuram_mob_farfalla_01
+	End
+End
+RoomResets: 
+	ProtoRoom: karpuram_room_spianata_01
+	Destination:	-1 1 0 karpuram
+	EntityResets:
+		ProtoEntity: karpuram_item_fossile_trilobite
+	End
+End
+RoomResets: 
+	ProtoRoom: karpuram_room_ingresso
+	Destination:	0 1 0 karpuram
+End
+RoomResets:
+	ProtoRoom: karpuram_room_bosco_incrocio
+	Destination:	1 1 0 karpuram
+	EntityResets:
+		ProtoEntity: karpuram_item_vasetto_01
+		Quantity: 4
+	End
+	EntityResets:
+		ProtoEntity: karpuram_item_vasetto_02
+		Quantity: 3
+	End
+	EntityResets:
+		ProtoEntity: karpuram_item_vasetto_03
+		Quantity: 1
+	End
+End
+RoomResets:
+	Comment: Ghiande e sementi buone - Prima Sezione (x=1)
+	ProtoRoom: karpuram_room_bosco_nord-sud
+	Destination:	1 2 0 karpuram
+	EntityResets:
+		ProtoEntity: karpuram_item_cartello_sementi_buone
+	End
+	EntityResets:
+		ProtoEntity: flora_item_mirtillo-nero-01-frutto
+	End
+	EntityResets:
+		ProtoEntity: flora_item_mirtillo-rosso-01-frutto
+	End
+	EntityResets:
+		ProtoEntity: flora_item_farnia-01-ghianda-viva
+	End
+	EntityResets:
+		ProtoEntity: flora_item_leccio-01-ghianda-viva
+	End
+	EntityResets:
+		ProtoEntity: karpuram_item_sughera_ghianda_01
+	End
+	EntityResets:
+		ProtoEntity: karpuram_item_canfora_seme_01
+	End
+End
+RoomResets:
+	Comment: Ghiande e sementi guaste
+	ProtoRoom: karpuram_room_bosco_nord-sud
+	Destination:	1 3 0 karpuram
+	EntityResets:
+		ProtoEntity: karpuram_item_cartello_sementi_bacate
+	End
+	EntityResets:
+		ProtoEntity: flora_item_mirtillo-nero-00-frutto-sterile
+	End
+	EntityResets:
+		ProtoEntity: flora_item_mirtillo-rosso-00-frutto-sterile
+	End
+	EntityResets:
+		ProtoEntity: flora_item_farnia-02-ghianda-morta
+	End
+	EntityResets:
+		ProtoEntity: flora_item_leccio-02-ghianda-morta
+	End
+	EntityResets:
+		ProtoEntity: karpuram_item_sughera_ghianda_02
+	End
+	EntityResets:
+		ProtoEntity: karpuram_item_canfora_seme_02
+	End
+End
+RoomResets:
+	ProtoRoom: karpuram_room_bosco_sud
+	Destination:	1 4 0 karpuram
+End
+RoomResets:
+	ProtoRoom: karpuram_room_bosco_nord-sud
+	Destination:	1 0 0 karpuram
+	EntityResets:
+		ProtoEntity: flora_item_leccio-03-germoglio
+	End
+	EntityResets:
+		ProtoEntity: karpuram_item_canfora_germoglio_03
+	End
+	EntityResets:
+		ProtoEntity: flora_item_farnia-03-germoglio
+	End
+	EntityResets:
+		ProtoEntity: karpuram_item_sughera_germoglio_03
+	End
+End
+RoomResets:
+	ProtoRoom: karpuram_room_bosco_nord-sud
+	Destination:	1 -1 0 karpuram
+	EntityResets:
+		ProtoEntity: flora_item_leccio-04-piantina
+	End
+	EntityResets:
+		ProtoEntity: karpuram_item_canfora_piantina_04
+	End
+	EntityResets:
+		ProtoEntity: flora_item_farnia-04-piantina
+	End
+	EntityResets:
+		ProtoEntity: karpuram_item_sughera_piantina_04
+	End
+End
+RoomResets:
+	ProtoRoom: karpuram_room_bosco_nord-sud
+	Destination:	1 -2 0 karpuram
+	EntityResets:
+		ProtoEntity: flora_item_leccio-05-cespuglio
+	End
+End
+RoomResets:
+	ProtoRoom: karpuram_room_bosco_nord-sud
+	Destination:	1 -3 0 karpuram
+	EntityResets:
+		ProtoEntity: flora_item_leccio-06-albero
+	End
+End
+RoomResets:
+	ProtoRoom: karpuram_room_bosco_nord-sud
+	Destination:	1 -4 0 karpuram
+	EntityResets:
+		ProtoEntity: flora_item_leccio-07-albero
+	End
+End
+RoomResets:
+	ProtoRoom: karpuram_room_bosco_nord-sud
+	Destination:	1 -5 0 karpuram
+	EntityResets:
+		ProtoEntity: flora_item_leccio-08-fiorito
+	End
+End
+RoomResets:
+	ProtoRoom: karpuram_room_bosco_nord-sud
+	Destination:	1 -6 0 karpuram
+	EntityResets:
+		ProtoEntity: flora_item_leccio-09-maturo
+	End
+End
+RoomResets:
+	ProtoRoom: karpuram_room_bosco_nord
+	Destination:	1 -7 0 karpuram
+End
+RoomResets:
+	Comment: seconda sezione (x=2)
+	ProtoRoom: karpuram_room_bosco_incrocio
+	Destination:	2 1 0 karpuram
+End
+RoomResets:
+	ProtoRoom: karpuram_room_bosco_nord-sud
+	Destination:	2 2 0 karpuram
+End
+RoomResets:
+	ProtoRoom: karpuram_room_bosco_sud
+	Destination:	2 3 0 karpuram
+End
+RoomResets:
+	ProtoRoom: karpuram_room_bosco_nord-sud
+	Destination:	2 0 0 karpuram
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: flora_item_mirtillo-nero-02-germoglio
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: flora_item_mirtillo-rosso-02-germoglio
+	End
+End
+RoomResets:
+	ProtoRoom: karpuram_room_bosco_nord-sud
+	Destination:	2 -1 0 karpuram
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: flora_item_mirtillo-nero-03-pianta
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: flora_item_mirtillo-rosso-03-pianta
+	End
+End
+RoomResets:
+	ProtoRoom: karpuram_room_bosco_nord-sud
+	Destination:	2 -2 0 karpuram
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: flora_item_mirtillo-nero-04-fiore
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: flora_item_mirtillo-rosso-04-fiore
+	End
+End
+RoomResets:
+	ProtoRoom: karpuram_room_bosco_nord-sud
+	Destination:	2 -3 0 karpuram
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: flora_item_mirtillo-nero-05-fruttificato
+		EntityResets:
+			Quantity:	2
+			Type: 	RESET.PUT
+			ProtoEntity: flora_item_mirtillo-nero-01-frutto
+		End
+		EntityResets:
+			Quantity:	2
+			Type: 	RESET.PUT
+			ProtoEntity: flora_item_mirtillo-nero-00-frutto-sterile
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: flora_item_mirtillo-rosso-05-fruttificato
+		EntityResets:
+			Quantity:	2
+			Type: 	RESET.PUT
+			ProtoEntity: flora_item_mirtillo-rosso-01-frutto
+		End
+		EntityResets:
+			Quantity:	2
+			Type: 	RESET.PUT
+			ProtoEntity: flora_item_mirtillo-rosso-00-frutto-sterile
+		End
+	End
+End
+RoomResets:
+	ProtoRoom: karpuram_room_bosco_nord-sud
+	Destination:	2 -4 0 karpuram
+End
+RoomResets:
+	ProtoRoom: karpuram_room_bosco_nord-sud
+	Destination:	2 -5 0 karpuram
+End
+RoomResets:
+	ProtoRoom: karpuram_room_bosco_nord
+	Destination:	2 -6 0 karpuram
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: karpuram_mob_allievo_01
+		EntityResets:
+		       WearMode:       PART.WIELD
+		       Quantity:       1
+		       Type:   RESET.PUT
+		       ProtoEntity:    karpuram_item_eq-lancia-elfica
+	       End
+	       EntityResets:
+		       WearMode:       PART.LEFT_FOOT PART.RIGHT_FOOT
+		       Quantity:       1
+		       Type:   RESET.PUT
+		       ProtoEntity:    karpuram_item_eq-calzari-passeggio
+	       End
+	End
+
+End
+
+RoomResets:
+	Comment: terza sezione (x=3)
+	ProtoRoom: karpuram_room_bosco_incrocio
+	Destination:	3 1 0 karpuram
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity:	karpuram_mob_panettiere_01
+		EntityResets:
+		       WearMode:       PART.LEFT_FOOT PART.RIGHT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-passeggio
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_HAND PART.RIGHT_HAND
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-guanti-stoffa
+		End
+	End
+End
+
+
+RoomResets:
+	ProtoRoom: karpuram_room_bosco_est
+	Destination:	1 6 0 karpuram
+End
+RoomResets:
+	ProtoRoom: karpuram_room_bosco_sud-ovest
+	Destination:	2 6 0 karpuram
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	karpuram_mob_arciere_01
+		EntityResets:
+			WearMode:	PART.WIELD
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-arco-lungo
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_FOOT PART.RIGHT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-passeggio
+		End
+		EntityResets:
+			WearMode:	PART.BACK
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-mantello-mimetico
+		End
+	End
+End
+RoomResets:
+	ProtoRoom: karpuram_room_bosco_nord-est
+	Destination:	2 5 0 karpuram
+End
+
+
+RoomResets:
+	ProtoRoom: karpuram_room_bosco_est-ovest
+	Destination:	5 6 0 karpuram
+	EntityResets:
+		ProtoEntity: karpuram_item_tronco_cavo
+	End
+End
+RoomResets:
+	ProtoRoom: karpuram_room_bosco_sud-est
+	Destination:	4 6 0 karpuram
+	EntityResets:
+		ProtoEntity: torreelementi_mob_coccinella_01
+	End
+End
+RoomResets:
+	ProtoRoom: karpuram_room_bosco_nord-ovest
+	Destination:	4 5 0 karpuram
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity:	karpuram_mob_arciere-f_01
+		EntityResets:
+			WearMode:	PART.WIELD
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-arco-lungo
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_FOOT PART.RIGHT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-passeggio
+		End
+		EntityResets:
+			WearMode:	PART.BACK
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-mantello-mimetico
+		End
+	End
+End
+
+
+RoomResets:
+	ProtoRoom: karpuram_room_bosco_sud
+	Destination:	3 6 0 karpuram
+End
+RoomResets:
+	ProtoRoom: karpuram_room_bosco_incrocio
+	Destination:	3 5 0 karpuram
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	karpuram_mob_botanico_01
+	End
+End
+RoomResets:
+	ProtoRoom: karpuram_room_bosco_nord-sud
+	Destination:	3 2 0 karpuram
+	EntityResets:
+		ProtoEntity: karpuram_item_manto_terra
+	End
+	EntityResets:
+		ProtoEntity: karpuram_item_torba-mucchio
+	End
+End
+RoomResets:
+	ProtoRoom: karpuram_room_bosco_nord-sud
+	Destination:	3 3 0 karpuram
+	EntityResets:
+	ProtoEntity: karpuram_item_mucchio_argilla
+	End
+End
+RoomResets:
+	ProtoRoom: karpuram_room_bosco_nord-sud
+	Destination:	3 4 0 karpuram
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	karpuram_mob_cuoco_01
+		EntityResets:
+			WearMode:	PART.LEFT_FOOT PART.RIGHT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-passeggio
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_LOWER_LIMB PART.RIGHT_LOWER_LIMB
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-pantaloni-stoffa
+		End
+	End
+End
+RoomResets:
+	ProtoRoom: karpuram_room_bosco_nord-sud
+	Destination:	3 0 0 karpuram
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity:	karpuram_mob_guida_01
+		EntityResets:
+			WearMode:	PART.WAIST
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-gonna-foglie
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_FOOT PART.RIGHT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-passeggio
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_HAND PART.RIGHT_HAND
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-guanti-lavoro
+		End
+	End
+End
+RoomResets:
+	ProtoRoom: karpuram_room_bosco_nord
+	Destination:	3 -1 0 karpuram
+	EntityResets:
+		ProtoEntity: torreelementi_mob_coccinella_01
+	End
+End
+
+RoomResets:
+	ProtoRoom: karpuram_room_bosco_est-ovest
+	Destination:	4 1 0 karpuram
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity:	karpuram_mob_ragazzino-01
+		EntityResets:
+			WearMode:	PART.WIELD
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-arco-corto
+		End
+		EntityResets:
+			WearMode:	PART.HOLD
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-freccia-semplice
+		End
+		EntityResets:
+			WearMode:	PART.RIGHT_SHOULDER
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-faretra-fibra-vegetale
+		End
+	End
+End
+RoomResets:
+	ProtoRoom: karpuram_room_bosco_ovest
+	Destination:	5 1 0 karpuram
+	EntityResets:
+		ProtoEntity: flora_item_mirtillo-nero-01-frutto
+	End
+	EntityResets:
+		ProtoEntity: flora_item_mirtillo-rosso-01-frutto
+	End
+	EntityResets:
+		ProtoEntity: flora_item_farnia-01-ghianda-viva
+	End
+	EntityResets:
+		ProtoEntity: flora_item_leccio-01-ghianda-viva
+	End
+	EntityResets:
+		ProtoEntity: karpuram_item_sughera_ghianda_01
+	End
+	EntityResets:
+		ProtoEntity: karpuram_item_canfora_seme_01
+	End
+	EntityResets:
+		ProtoEntity: flora_item_mirtillo-nero-00-frutto-sterile
+	End
+	EntityResets:
+		ProtoEntity: flora_item_mirtillo-rosso-00-frutto-sterile
+	End
+	EntityResets:
+		ProtoEntity: flora_item_farnia-02-ghianda-morta
+	End
+	EntityResets:
+		ProtoEntity: flora_item_leccio-02-ghianda-morta
+	End
+	EntityResets:
+		ProtoEntity: karpuram_item_sughera_ghianda_02
+	End
+	EntityResets:
+		ProtoEntity: karpuram_item_canfora_seme_02
+	End
+	EntityResets:
+		ProtoEntity: flora_item_leccio-03-germoglio
+	End
+	EntityResets:
+		ProtoEntity: karpuram_item_canfora_germoglio_03
+	End
+	EntityResets:
+		ProtoEntity: flora_item_leccio-04-piantina
+	End
+	EntityResets:
+		ProtoEntity: karpuram_item_canfora_piantina_04
+	End
+	EntityResets:
+		ProtoEntity: flora_item_leccio-05-cespuglio
+	End
+End
+
+
+RoomResets:
+	Comment: inizio della propaggine nord est [7x7](di cui questo è lo spigolo nord ovest) DISPONGO TUTTO PER COORDINATA Y (righe)
+	ProtoRoom: karpuram_room_bosco_3no-nord
+	Destination:	6 6 0 karpuram
+	EntityResets:
+		ProtoEntity: karpuram_item_canfora_germoglio_03
+	End
+End
+RoomResets:
+	Comment: riga 6
+	ProtoRoom: karpuram_room_bosco_est-ovest
+	Destination:	7 6 0 karpuram
+	EntityResets:
+		ProtoEntity: flora_item_leccio-04-piantina
+	End
+End
+RoomResets:
+	Comment: riga 6
+	ProtoRoom: karpuram_room_bosco_est-ovest
+	Destination:	8 6 0 karpuram
+End
+RoomResets:
+	Comment: riga 6
+	ProtoRoom: karpuram_room_city-gate-n
+	Destination:	9 6 0 karpuram
+End
+RoomResets:
+	Comment: zona nord
+	ProtoRoom: karpuram_room_bosco_nord-sud
+	Destination:	9 7 0 karpuram
+	EntityResets:
+		ProtoEntity: karpuram_mob_ragazzino-01
+		EntityResets:
+			WearMode:	PART.WIELD
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	karpuram_item_eq-arco-corto
+		End
+		EntityResets:
+			WearMode:	PART.HOLD
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	karpuram_item_eq-freccia-semplice
+		End
+		EntityResets:
+			WearMode:	PART.RIGHT_SHOULDER
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	karpuram_item_eq-faretra-fibra-vegetale
+		End
+	End
+End
+RoomResets:
+	Comment: zona nord
+	ProtoRoom: karpuram_room_bosco_incrocio
+	Destination:	9 8 0 karpuram
+End
+
+RoomResets:
+	Comment: riga 6
+	ProtoRoom: karpuram_room_bosco_est-ovest
+	Destination:	10 6 0 karpuram
+	EntityResets:
+		ProtoEntity: flora_item_farnia-02-ghianda-morta
+	End
+End
+RoomResets:
+	Comment: riga 6
+	ProtoRoom: karpuram_room_bosco_est-ovest
+	Destination:	11 6 0 karpuram
+End
+RoomResets:
+	Comment: riga 6 - base torre di guardia NE
+	ProtoRoom: karpuram_room_city-torre-guardia-bottom-ne
+	Destination:	12 6 0 karpuram
+End
+RoomResets:
+	Comment: riga 6 - torre di guardia NE
+	ProtoRoom: karpuram_room_city-torre-guardia-middle-ne
+	Destination:	12 6 1 karpuram
+End
+RoomResets:
+	Comment: riga 6 - cima torre di guardia NE
+	ProtoRoom: karpuram_room_city-torre-guardia-top-ne
+	Destination:	12 6 2 karpuram
+End
+
+
+RoomResets:
+	Comment: riga 5 - INIZIO RIGA
+	ProtoRoom: karpuram_room_bosco_nord-sud
+	Destination:	6 5 0 karpuram
+	EntityResets:
+		ProtoEntity: flora_item_leccio-06-albero
+	End
+End
+RoomResets:
+	Comment: riga 5
+	ProtoRoom: karpuram_room_bosco_sud-est
+	Destination:	7 5 0 karpuram
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity:	karpuram_mob_volpe_01
+	End
+End
+RoomResets:
+	Comment: riga 5
+	ProtoRoom: karpuram_room_bosco_sud-ovest
+	Destination:	8 5 0 karpuram
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity:	karpuram_mob_scout_01
+	End
+End
+RoomResets:
+	Comment: riga 5
+	ProtoRoom: karpuram_room_bosco_nord-sud
+	Destination:	9 5 0 karpuram
+	EntityResets:
+		ProtoEntity: flora_item_mirtillo-rosso-02-germoglio
+	End
+End
+RoomResets:
+	Comment: riga 5
+	ProtoRoom: karpuram_room_city-memoria-04
+	Destination:	10 5 0 karpuram
+	EntityResets:
+		Quantity:	1
+		Type:	RESET.PUT
+		ProtoEntity:	karpuram_mob_arcano_01
+		EntityResets:
+			WearMode:	PART.LEFT_FOREFINGER
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-anello-metallo
+		End
+		EntityResets:
+			WearMode:	PART.RIGHT_WRIST
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-bracciale-nero
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_FOOT PART.RIGHT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-passeggio
+		End
+	End
+End
+RoomResets:
+	Comment: riga 5
+	ProtoRoom: karpuram_room_city-memoria-03
+	Destination:	11 5 0 karpuram
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity:	karpuram_mob_elfo_imperiale_01
+		EntityResets:
+			WearMode:	PART.WIELD
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	ikea_item_weapon-spada-bastarda
+		End
+		EntityResets:
+			WearMode:	PART.BODY
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-cotta-elfica
+		End
+		EntityResets:
+			WearMode:	PART.BREAST
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-armatura-bande
+		End
+		EntityResets:
+			WearMode:	PART.BACK
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-mantello-scaglie-viola
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: karpuram_item_simulacro-01
+		EntityResets:
+			WearMode:	PART.RIGHT_LOWER_LIMB PART.LEFT_LOWER_LIMB
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	karpuram_item_eq-gambali-scaglie-viola
+		End
+		EntityResets:
+			WearMode:	PART.RIGHT_HAND PART.LEFT_HAND
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	karpuram_item_eq-guanti-scaglie-viola
+		End
+		EntityResets:
+			WearMode:	PART.RIGHT_UPPER_LIMB PART.LEFT_UPPER_LIMB
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	karpuram_item_eq-guardiabraccia-scaglie-viola
+		End
+		EntityResets:
+			WearMode:	PART.RIGHT_FOREARM PART.LEFT_FOREARM
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	karpuram_item_eq-parapolsi-scaglie-viola
+		End
+		EntityResets:
+			WearMode:	PART.RIGHT_FOOT PART.LEFT_FOOT
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	karpuram_item_eq-stivali-scaglie-viola
+		End
+		EntityResets:
+			WearMode:	PART.TORSO
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	karpuram_item_eq-armatura-scaglie-viola
+		End
+		EntityResets:
+			WearMode:	PART.HEAD
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	karpuram_item_eq-elmo-scaglie-viola
+		End
+		EntityResets:
+			WearMode:	PART.HOLD
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	karpuram_item_eq-scudo-scaglie-viola
+		End
+		EntityResets:
+			WearMode:	PART.BACK
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	karpuram_item_eq-mantello-scaglie-viola
+		End
+	End
+End
+RoomResets:
+	Comment: riga 5 - FINE RIGA 
+	ProtoRoom: karpuram_room_city-cinta-est-rovi-ns
+	Destination:	12 5 0 karpuram
+	EntityResets:
+		ProtoEntity: flora_item_leccio-02-ghianda-morta
+	End
+	EntityResets:
+		ProtoEntity: karpuram_item_sughera_germoglio_03
+	End
+End
+
+
+RoomResets:
+	Comment: riga 4 - INIZIO RIGA
+	ProtoRoom: karpuram_room_bosco_nord-sud
+	Destination:	6 4 0 karpuram
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity:	karpuram_mob_volpe_01
+	End
+End
+RoomResets:
+	Comment: riga 4
+	ProtoRoom: karpuram_room_bosco_nord-est
+	Destination:	7 4 0 karpuram
+	EntityResets:
+		ProtoEntity: karpuram_item_sughera_ghianda_01
+	End
+End
+RoomResets:
+	Comment: riga 4
+	ProtoRoom: karpuram_room_bosco_3no-est
+	Destination:	8 4 0 karpuram
+	EntityResets:
+		ProtoEntity: flora_item_mirtillo-nero-00-frutto-sterile
+	End
+	EntityResets:
+		ProtoEntity: flora_item_leccio-07-albero
+	End
+End
+RoomResets:
+	Comment: riga 4
+	ProtoRoom: karpuram_room_city-memoria-00
+	Destination:	9 4 0 karpuram
+	EntityResets:
+		ProtoEntity: flora_item_farnia-01-ghianda-viva
+	End
+End
+RoomResets:
+	Comment: riga 4
+	ProtoRoom: karpuram_room_city-memoria-01
+	Destination:	10 4 0 karpuram
+	EntityResets:
+		ProtoEntity: karpuram_item_sughera_piantina_04
+	End
+End
+RoomResets:
+	Comment: riga 4
+	ProtoRoom: karpuram_room_city-memoria-02
+	Destination:	11 4 0 karpuram
+
+End
+RoomResets:
+	Comment: riga 4 - FINE RIGA 
+	ProtoRoom: karpuram_room_city-cinta-est-rovi-ns
+	Destination:	12 4 0 karpuram
+	EntityResets:
+		ProtoEntity: karpuram_item_sughera_ghianda_02
+	End
+	EntityResets:
+		ProtoEntity: flora_item_leccio-01-ghianda-viva
+	End
+End
+
+RoomResets:
+	Comment: riga 3 - INIZIO RIGA
+	ProtoRoom: karpuram_room_bosco_3no-ovest
+	Destination:	6 3 0 karpuram
+End
+RoomResets:
+	Comment: riga 3
+	ProtoRoom: karpuram_room_bosco_est-ovest
+	Destination:	7 3 0 karpuram
+	EntityResets:
+		ProtoEntity: flora_item_farnia-04-piantina
+	End
+End
+RoomResets:
+	Comment: riga 3
+	ProtoRoom: karpuram_room_bosco_3no-sud
+	Destination:	8 3 0 karpuram
+	EntityResets:
+		ProtoEntity: flora_item_mirtillo-nero-02-germoglio
+	End
+End
+RoomResets:
+	Comment: riga 3 - Centro del labirinto (reset di default)
+	ProtoRoom: karpuram_room_bosco_incrocio
+	Destination:	9 3 0 karpuram
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	karpuram_item_pelle-orso
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	karpuram_item_anello-legno
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	karpuram_item_bracciale-spine
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	karpuram_item_collare-pelle
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	karpuram_item_elmo-quercia
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	karpuram_item_guanti-borchiati
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	karpuram_item_orecchino-spine
+	End
+	EntityResets:
+		ProtoEntity: karpuram_item_cofanetto_01
+	End
+	EntityResets:
+		ProtoEntity:	karpuram_item_braccialetto-onice
+		Type:   RESET.PUT
+		Quantity:       1
+	End
+	EntityResets:
+		ProtoEntity:	karpuram_item_infuso-grigio
+		Type:   RESET.PUT
+		Quantity:       1
+	End
+	EntityResets:
+		ProtoEntity:	karpuram_item_sandali-corteccia
+		Type:   RESET.PUT
+		Quantity:       1
+	End
+	EntityResets:
+		ProtoEntity:	karpuram_item_gambali-frassino
+		Type:   RESET.PUT
+		Quantity:       1
+	End
+	EntityResets:
+		ProtoEntity:	karpuram_item_infuso-paglierino
+		Type:   RESET.PUT
+		Quantity:       1
+	End
+	EntityResets:
+		ProtoEntity:	karpuram_item_scarponi-chiodati
+		Type:   RESET.PUT
+		Quantity:       1
+	End
+	EntityResets:
+		ProtoEntity:	karpuram_item_infuso-ambrato
+		Type:   RESET.PUT
+		Quantity:       1
+	End
+	EntityResets:
+		ProtoEntity:	karpuram_item_liana-intrecciata
+		Type:   RESET.PUT
+		Quantity:       1
+	End
+	EntityResets:
+		ProtoEntity:	karpuram_item_scudo-quercia
+		Type:   RESET.PUT
+		Quantity:       1
+	End
+
+End
+RoomResets:
+	Comment: riga 3 - Centro del labirinto (resetta e carica l'invasione delle locuste)
+	ProtoRoom: karpuram_room_city-piazza
+	Destination:	9 3 0 karpuram
+	Hour: 07
+	EntityResets:
+		Messages: scrat scrat, frin frin..
+		Type: RESET.PUT
+		Quantity: 1
+		ProtoEntity: karpuram_mob_locusta
+	End
+End
+
+RoomResets:
+	Comment: riga 3
+	ProtoRoom: karpuram_room_bosco_3no-nord
+	Destination:	10 3 0 karpuram
+	EntityResets:
+		ProtoEntity:	karpuram_mob_albero_01
+		Type:   RESET.PUT
+		Quantity:       1
+	End
+	EntityResets:
+		ProtoEntity:	karpuram_mob_allievo_01
+		Type:   RESET.PUT
+		Quantity:       1
+		EntityResets:
+		       WearMode:       PART.WIELD
+		       Quantity:       1
+		       Type:   RESET.PUT
+		       ProtoEntity:    karpuram_item_eq-lancia-elfica
+	       End
+	       EntityResets:
+		       WearMode:       PART.LEFT_FOOT PART.RIGHT_FOOT
+		       Quantity:       1
+		       Type:   RESET.PUT
+		       ProtoEntity:    karpuram_item_eq-calzari-passeggio
+	       End
+	End
+	EntityResets:
+		ProtoEntity:	karpuram_mob_arciere_01
+		Type:   RESET.PUT
+		Quantity:       1
+		EntityResets:
+			WearMode:	PART.WIELD
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-arco-lungo
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_FOOT PART.RIGHT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-passeggio
+		End
+		EntityResets:
+			WearMode:	PART.BACK
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-mantello-mimetico
+		End
+	End
+	EntityResets:
+		ProtoEntity:	karpuram_mob_arciere-f_01
+		Type:   RESET.PUT
+		Quantity:       1
+		EntityResets:
+			WearMode:	PART.WIELD
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-arco-lungo
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_FOOT PART.RIGHT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-passeggio
+		End
+		EntityResets:
+			WearMode:	PART.BACK
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-mantello-mimetico
+		End
+	End
+	EntityResets:
+		ProtoEntity:	karpuram_mob_artista-f_01
+		Type:   RESET.PUT
+		Quantity:       1
+		EntityResets:
+			WearMode:	PART.HAIR
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-diadema-ambra
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_FOOT PART.RIGHT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-fico
+		End
+	End
+	EntityResets:
+		ProtoEntity:	karpuram_mob_astrologa_01
+		Type:   RESET.PUT
+		Quantity:       1
+		EntityResets:
+			WearMode:	PART.LEFT_FOOT PART.RIGHT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-passeggio
+		End
+		EntityResets:
+			WearMode:	PART.WAIST
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-gonna-foglie
+		End
+	End
+	EntityResets:
+		ProtoEntity:	karpuram_mob_botanico_01
+		Type:   RESET.PUT
+		Quantity:       1
+		EntityResets:
+			WearMode:	PART.LEFT_FOOT PART.RIGHT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-passeggio
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_HAND PART.RIGHT_HAND
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-guanti-lavoro
+		End
+	End
+	EntityResets:
+		ProtoEntity:	karpuram_mob_cuoco_01
+		Type:   RESET.PUT
+		Quantity:       1
+		EntityResets:
+			WearMode:	PART.LEFT_FOOT PART.RIGHT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-passeggio
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_LOWER_LIMB PART.RIGHT_LOWER_LIMB
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-pantaloni-stoffa
+		End
+	End
+	EntityResets:
+		ProtoEntity:	karpuram_mob_fastidiosa-pixie
+		Type:   RESET.PUT
+		Quantity:       1
+	End
+	EntityResets:
+		ProtoEntity:	karpuram_mob_fastidioso-pixie
+		Type:   RESET.PUT
+		Quantity:       1
+	End
+	EntityResets:
+		ProtoEntity:	karpuram_mob_guerriero_01
+		Type:   RESET.PUT
+		Quantity:       1
+		EntityResets:
+			WearMode:	PART.WIELD
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-spada-corta
+		End
+		EntityResets:
+			WearMode:	PART.BODY
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-cotta-elfica
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_FOOT PART.RIGHT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-drago
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_HAND PART.RIGHT_HAND
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-guanti-stoffa
+		End
+	End
+
+	EntityResets:
+		ProtoEntity:	karpuram_mob_guerriero-f_01
+		Type:   RESET.PUT
+		Quantity:       1
+		EntityResets:
+			WearMode:	PART.WIELD
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-spada-corta
+		End
+		EntityResets:
+			WearMode:	PART.BODY
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-armatura-corteccia
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_FOOT PART.RIGHT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-drago
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_HAND PART.RIGHT_HAND
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-guanti-stoffa
+		End
+	End
+	EntityResets:
+		ProtoEntity:	karpuram_mob_guida_01
+		Type:   RESET.PUT
+		Quantity:       1
+		EntityResets:
+			WearMode:	PART.WAIST
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-gonna-foglie
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_FOOT PART.RIGHT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-passeggio
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_HAND PART.RIGHT_HAND
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-guanti-lavoro
+		End
+
+	End
+	EntityResets:
+		ProtoEntity:	karpuram_mob_locusta
+		Type:   RESET.PUT
+		Quantity:       1
+	End
+	EntityResets:
+		ProtoEntity:	karpuram_mob_luposcout_01
+		Type:   RESET.PUT
+		Quantity:       1
+	End
+
+	EntityResets:
+		ProtoEntity:	karpuram_mob_musico_01
+		Type:   RESET.PUT
+		Quantity:       1
+		EntityResets:
+			WearMode:	PART.LEFT_FOOT PART.RIGHT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-passeggio
+		End
+
+		EntityResets:
+			WearMode:	PART.LEFT_HAND PART.RIGHT_HAND
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-guanti-stoffa
+		End
+	End
+	EntityResets:
+		ProtoEntity:	karpuram_mob_panettiere_01
+		Type:   RESET.PUT
+		Quantity:       1
+	End
+	EntityResets:
+		ProtoEntity:	karpuram_mob_ragazzino-01
+		Type:   RESET.PUT
+		Quantity:       1
+		EntityResets:
+			WearMode:	PART.RIGHT_FOOT PART.LEFT_FOOT
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	karpuram_item_eq-calzari-fico
+		End
+		EntityResets:
+			WearMode:	PART.BACK
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	karpuram_item_eq-mantello-semplice
+		End
+		EntityResets:
+			WearMode:	PART.RIGHT_HAND PART.LEFT_HAND
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	karpuram_item_eq-guanti-edera
+		End
+	End
+	EntityResets:
+		ProtoEntity:	karpuram_mob_sciamano_01
+		Type:   RESET.PUT
+		Quantity:       1
+		EntityResets:
+			WearMode:	PART.WAIST
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-bracciale-edera
+		End
+			EntityResets:
+			WearMode:	PART.LEFT_RING_FINGER
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-anello-cera
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_FOOT PART.RIGHT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-passeggio
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_HAND PART.RIGHT_HAND
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-guanti-stoffa
+		End
+		EntityResets:
+			WearMode:	PART.BACK
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-mantello-semplice
+		End
+	End
+	EntityResets:
+		ProtoEntity:	karpuram_mob_scout_01
+		Type:   RESET.PUT
+		Quantity:       1
+		EntityResets:
+			WearMode:	PART.WIELD
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-arco-ferreo
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_FOOT PART.RIGHT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-viaggio
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_HAND PART.RIGHT_HAND
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-guanti-edera
+		End
+		EntityResets:
+			WearMode:	PART.BACK
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-mantello-mimetico
+		End
+	End
+	EntityResets:
+		ProtoEntity:	karpuram_mob_sovrana_01
+		Type:   RESET.PUT
+		Quantity:       1
+		EntityResets:
+			WearMode:	PART.HEAD
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-visiera-bianca
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_MIDDLE_FINGER
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-anello-cera
+		End
+		EntityResets:
+			WearMode:	PART.RIGHT_WRIST
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-bracciale-bianco
+		End
+		EntityResets:
+			WearMode:	PART.BODY
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-cotta-elfica
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_FOOT PART.RIGHT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-passeggio
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_HAND PART.RIGHT_HAND
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-guanti-seta
+		End
+		EntityResets:
+			WearMode:	PART.BACK
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-mantello-seta
+		End
+	End
+	EntityResets:
+		ProtoEntity:	karpuram_mob_sovrano_01
+		Type:   RESET.PUT
+		Quantity:       1
+		EntityResets:
+			WearMode:	PART.HEAD
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-visiera-nera
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_WRIST
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-bracciale-nero
+		End
+		EntityResets:
+			WearMode:	PART.WIELD
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-foglilancia
+		End
+		EntityResets:
+			WearMode:	PART.BODY
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-cotta-elfica
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_FOOT PART.RIGHT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-drago
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_HAND PART.RIGHT_HAND
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-guanti-seta
+		End
+		EntityResets:
+			WearMode:	PART.BACK
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-mantello-seta
+		End
+	End
+
+End
+RoomResets:
+	Comment: riga 3
+	ProtoRoom: karpuram_room_bosco_est-ovest
+	Destination:	11 3 0 karpuram
+	EntityResets:
+		ProtoEntity: flora_item_leccio-03-germoglio
+	End
+End
+RoomResets:
+	Comment: riga 3 - FINE RIGA 
+	ProtoRoom: karpuram_room_bosco_3no-est
+	Destination:	12 3 0 karpuram
+	EntityResets:
+		ProtoEntity: flora_item_leccio-05-cespuglio
+	End
+End
+
+RoomResets:
+	Comment: riga 2 - INIZIO RIGA
+	ProtoRoom: karpuram_room_bosco_nord-sud
+	Destination:	6 2 0 karpuram
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity:	karpuram_mob_volpe_01
+	End
+End
+RoomResets:
+	Comment: riga 2
+	ProtoRoom: karpuram_room_bosco_sud-est
+	Destination:	7 2 0 karpuram
+	EntityResets:
+		ProtoEntity: karpuram_item_canfora_seme_02
+	End
+End
+RoomResets:
+	Comment: riga 2
+	ProtoRoom: karpuram_room_bosco_est-ovest
+	Destination:	8 2 0 karpuram
+	EntityResets:
+		ProtoEntity: karpuram_mob_ragazzino-01
+		EntityResets:
+			WearMode:	PART.RIGHT_FOOT PART.LEFT_FOOT
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	karpuram_item_eq-calzari-fico
+		End
+		EntityResets:
+			WearMode:	PART.BACK
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	karpuram_item_eq-mantello-semplice
+		End
+		EntityResets:
+			WearMode:	PART.RIGHT_HAND PART.LEFT_HAND
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	karpuram_item_eq-guanti-edera
+		End
+		EntityResets:
+			WearMode:	PART.BACK
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	karpuram_item_eq-mantello-semplice
+		End
+		EntityResets:
+			WearMode:	PART.RIGHT_HAND PART.LEFT_HAND
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	karpuram_item_eq-guanti-edera
+		End
+	End
+End
+RoomResets:
+	Comment: riga 2
+	ProtoRoom: karpuram_room_bosco_3no-est
+	Destination:	9 2 0 karpuram
+	EntityResets:
+		ProtoEntity: karpuram_mob_formica_rossa_01
+	End
+End
+RoomResets:
+	Comment: riga 2 - FINE RIGA 
+	ProtoRoom: karpuram_room_bosco_nord-sud
+	Destination:	12 2 0 karpuram
+	EntityResets:
+		ProtoEntity: karpuram_item_canfora_seme_01
+	End
+End
+
+RoomResets:
+	Comment: riga 1 - INIZIO RIGA
+	ProtoRoom: karpuram_room_bosco_nord-sud
+	Destination:	6 1 0 karpuram
+	EntityResets:
+		ProtoEntity: karpuram_item_vasetto_01
+	End
+	EntityResets:
+		ProtoEntity: karpuram_item_vasetto_02
+	End
+	EntityResets:
+		ProtoEntity: karpuram_item_vasetto_03
+	End
+End
+RoomResets:
+	Comment: riga 1
+	ProtoRoom: karpuram_room_bosco_nord-est
+	Destination:	7 1 0 karpuram
+	EntityResets:
+		ProtoEntity: karpuram_item_mucchio_argilla
+	End
+End
+RoomResets:
+	Comment: Accesso a/e GAIA
+	ProtoRoom: karpuram_room_negozio_00
+	Destination:	8 1 0 karpuram
+End
+RoomResets:
+	Comment: Gaia UP (palco delle quercia)
+	ProtoRoom: karpuram_room_negozio_01
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: karpuram_item_varco
+	End
+	Destination:	8 1 1 karpuram
+End
+RoomResets:
+	Comment: Negozio vero e proprio
+	ProtoRoom: karpuram_room_negozio_02
+	Destination:	9 1 1 karpuram
+	EntityResets:
+		ProtoEntity:	karpuram_mob_negoziante_01
+		Type:   RESET.PUT
+		Quantity:       1
+		EntityResets:
+			WearMode:	PART.LEFT_FOOT PART.RIGHT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-passeggio
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_HAND PART.RIGHT_HAND
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-guanti-stoffa
+		End
+		EntityResets:
+			Quantity:	4
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_biscotti-confezione
+			EntityResets:
+				Quantity:	8
+				Type:		RESET.PUT
+				ProtoEntity:	ikea_item_biscotto
+			End
+		End
+		EntityResets:
+			Quantity:	4
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_food-carota
+		End
+		EntityResets:
+			Quantity:	4
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_food-fragola
+		End
+		EntityResets:
+			Quantity:	4
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_food-paneraffermo
+		End
+		EntityResets:
+			Quantity:	4
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_food-pomodoro
+		End
+		EntityResets:
+			Quantity:	4
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_food-salsiccia-finocchio
+		End
+		EntityResets:
+			Quantity:	4
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_food-torta-semi
+		End
+		EntityResets:
+			Quantity:	4
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_food-vv01-pandolce
+		End
+	End
+End
+
+RoomResets:
+	Comment: riga 1
+	ProtoRoom: karpuram_room_bosco_nord-sud
+	Destination:	9 1 0 karpuram
+End
+RoomResets:
+	Comment: riga 1 - FINE RIGA 
+	ProtoRoom: karpuram_room_city-cinta-est-rovi-ns
+	Destination:	12 1 0 karpuram
+End
+
+RoomResets:
+	Comment: riga 0 - INIZIO RIGA
+	ProtoRoom: karpuram_room_bosco_nord-est
+	Destination:	6 0 0 karpuram
+	EntityResets:
+		ProtoEntity: flora_item_mirtillo-rosso-01-frutto
+	End
+End
+RoomResets:
+	Comment: riga 0
+	ProtoRoom: karpuram_room_bosco_est-ovest
+	Destination:	7 0 0 karpuram
+End
+RoomResets:
+	Comment: riga 0
+	ProtoRoom: karpuram_room_bosco_est-ovest
+	Destination:	8 0 0 karpuram
+	EntityResets:
+		ProtoEntity: karpuram_item_mucchio_argilla
+	End
+End
+RoomResets:
+	Comment: riga 0
+	ProtoRoom: karpuram_room_city-gate-s
+	Destination:	9 0 0 karpuram
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: karpuram_mob_guardia-f
+		EntityResets:
+			WearMode:	PART.WIELD
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-spada-corta
+		End
+		EntityResets:
+			WearMode:	PART.BODY
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-armatura-corteccia
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_FOOT PART.RIGHT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-drago
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_HAND PART.RIGHT_HAND
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-guanti-stoffa
+		End
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: karpuram_mob_guardia-m
+		EntityResets:
+			WearMode:	PART.WIELD
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-spada-corta
+		End
+		EntityResets:
+			WearMode:	PART.BODY
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-armatura-corteccia
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_FOOT PART.RIGHT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-drago
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_HAND PART.RIGHT_HAND
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-guanti-stoffa
+		End
+	End
+
+End
+
+RoomResets:
+	Comment: fuori dalla città
+	ProtoRoom: karpuram_room_bosco_nord-sud
+	Destination:	9 -1 0 karpuram
+End
+RoomResets:
+	Comment: fuori dalla città
+	ProtoRoom: karpuram_room_bosco_nord-est
+	Destination:	9 -2 0 karpuram
+End
+RoomResets:
+	Comment: fuori dalla città
+	ProtoRoom: karpuram_room_bosco_sud-ovest
+	Destination:	10 -2 0 karpuram
+End
+RoomResets:
+	Comment: fuori dalla città
+	ProtoRoom: karpuram_room_bosco_nord-est
+	Destination:	10 -3 0 karpuram
+End
+RoomResets:
+	Comment: fuori dalla città
+	ProtoRoom: karpuram_room_bosco_ovest
+	Destination:	11 -3 0 karpuram
+End
+RoomResets:
+	Comment: fuori dalla città
+	ProtoRoom: karpuram_room_bosco_ovest
+	Destination:	11 -3 0 karpuram
+        Hour:	12
+	EntityResets:
+		Messages: Bzzzzz Bzzzzzzzz Bz Bzz Bzzzzzzzzzzzzzzzzzz
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: karpuram_mob_fastidiosa-pixie
+	End
+	EntityResets:
+		Messages: Bzzzzz Bzzzzzzzz Bz Bzz Bzzzzzzzzzzzzzzzzzz
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: karpuram_mob_fastidioso-pixie
+	End
+End
+
+RoomResets:
+	Comment: riga 0
+	ProtoRoom: karpuram_room_bosco_est-ovest
+	Destination:	10 0 0 karpuram
+End
+RoomResets:
+	Comment: riga 0
+	ProtoRoom: karpuram_room_bosco_est-ovest
+	Destination:	11 0 0 karpuram
+End
+RoomResets:
+	Comment: riga 0 - FINE RIGA - TORRE GUARDIA SE 
+	ProtoRoom: karpuram_room_city-torre-guardia-bottom-se
+	Destination:	12 0 0 karpuram
+End
+RoomResets:
+	Comment: TORRE GUARDIA SE
+	ProtoRoom: karpuram_room_city-torre-guardia-middle-se
+	Destination:	12 0 1 karpuram
+End
+RoomResets:
+	Comment: TORRE GUARDIA SE
+	ProtoRoom: karpuram_room_city-torre-guardia-top-se
+	Destination:	12 0 2 karpuram
+End
+
+
+RoomResets:
+	Comment: Quercia secolare
+	ProtoRoom: karpuram_room_secolare-s1
+	Destination:	11 1 -1 karpuram
+End
+RoomResets:
+	Comment: Quercia secolare
+	ProtoRoom: karpuram_room_secolare-00
+	Destination:	10 2 0 karpuram
+End
+RoomResets:
+	Comment: Quercia secolare
+	ProtoRoom: karpuram_room_secolare-01
+	Destination:	11 2 0 karpuram
+End
+RoomResets:
+	Comment: Quercia secolare
+	ProtoRoom: karpuram_room_secolare-02
+	Destination:	11 1 0 karpuram
+End
+RoomResets:
+	Comment: Quercia secolare
+	ProtoRoom: karpuram_room_secolare-03
+	Destination:	11 1 1 karpuram
+End
+RoomResets:
+	Comment: Quercia secolare
+	ProtoRoom: karpuram_room_secolare-04
+	Destination:	10 1 1 karpuram
+End
+RoomResets:
+	Comment: Quercia secolare
+	ProtoRoom: karpuram_room_secolare-05
+	Destination:	11 0 1 karpuram
+End
+RoomResets:
+	Comment: Quercia secolare
+	ProtoRoom: karpuram_room_secolare-06
+	Destination:	10 0 1 karpuram
+End
+RoomResets:
+	Comment: Quercia secolare
+	ProtoRoom: karpuram_room_secolare-07
+	Destination:	10 0 2 karpuram
+	EntityResets:
+		Quantity:	4
+		Type: 	RESET.PUT
+		ProtoEntity: 	karpuram_mob_guardiano_01
+		EntityResets:
+			WearMode:	PART.BODY
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-armatura-corteccia
+		End
+		EntityResets:
+			WearMode:	PART.RIGHT_FOOT PART.LEFT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-fico
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_HAND PART.RIGHT_HAND
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-guanti-edera
+		End
+	End
+End
+RoomResets:
+	Comment: Quercia secolare
+	ProtoRoom: karpuram_room_secolare-08
+	Destination:	9 0 2 karpuram
+	EntityResets:
+		Quantity:	2
+		Type: 	RESET.PUT
+		ProtoEntity:	karpuram_mob_elfo_imperiale_01
+		EntityResets:
+			WearMode:	PART.WIELD
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	ikea_item_weapon-spada-bastarda
+		End
+		EntityResets:
+			WearMode:	PART.BODY
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-cotta-elfica
+		End
+		EntityResets:
+			WearMode:	PART.BREAST
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-armatura-bande
+		End
+		EntityResets:
+			WearMode:	PART.BACK
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-mantello-scaglie-viola
+		End
+	End
+End
+RoomResets:
+	Comment: Quercia secolare
+	ProtoRoom: karpuram_room_secolare-09
+	Destination:	8 0 2 karpuram
+	EntityResets:
+		ProtoEntity:	karpuram_mob_maestro-armi_01
+		Type:   RESET.PUT
+		Quantity:       1
+		EntityResets:
+			WearMode:	PART.HEAD
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-elmo-scaglie-viola
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_ELBOW
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-vecchio-paragomito
+		End
+		EntityResets:
+			WearMode:	PART.WIELD
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-spada-uruk
+		End
+		EntityResets:
+			WearMode:	PART.BODY
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-armatura-scaglie-viola
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_FOOT PART.RIGHT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-drago
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_HAND
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-guanto-kirys
+                End
+		EntityResets:
+			WearMode:	PART.BACK
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-mantello-scaglie-viola
+		End
+	End
+	EntityResets:
+		Quantity:	2
+		Type: 	RESET.PUT
+		ProtoEntity: 	karpuram_mob_guardiano_01
+		EntityResets:
+			WearMode:	PART.BODY
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-armatura-corteccia
+		End
+		EntityResets:
+			WearMode:	PART.RIGHT_FOOT PART.LEFT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-fico
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_HAND PART.RIGHT_HAND
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-guanti-edera
+		End
+	End
+End
+RoomResets:
+	Comment: Quercia secolare
+	ProtoRoom: karpuram_room_secolare-10
+	Destination:	10 -1 2 karpuram
+	EntityResets:
+		Quantity:	10
+		Type: 	RESET.PUT
+		ProtoEntity: 	karpuram_mob_guardiano_01
+		EntityResets:
+			WearMode:	PART.BODY
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-armatura-corteccia
+		End
+		EntityResets:
+			WearMode:	PART.RIGHT_FOOT PART.LEFT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-fico
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_HAND PART.RIGHT_HAND
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-guanti-edera
+		End
+	End
+End
+RoomResets:
+	Comment: Quercia secolare
+	ProtoRoom: karpuram_room_secolare-11
+	Destination:	10 -1 3 karpuram
+	EntityResets:
+		Quantity:	6
+		Type: 	RESET.PUT
+		ProtoEntity: 	karpuram_mob_guardiano_01
+		EntityResets:
+			WearMode:	PART.BODY
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-armatura-corteccia
+		End
+		EntityResets:
+			WearMode:	PART.RIGHT_FOOT PART.LEFT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-fico
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_HAND PART.RIGHT_HAND
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-guanti-edera
+		End
+	End
+End
+RoomResets:
+	Comment: Quercia secolare
+	ProtoRoom: karpuram_room_secolare-12
+	Destination:	11 -1 3 karpuram
+End
+RoomResets:
+	Comment: Quercia secolare
+	ProtoRoom: karpuram_room_secolare-13
+	Destination:	10 -2 3 karpuram
+	EntityResets:
+		Quantity:	2
+		Type: 	RESET.PUT
+		ProtoEntity: 	karpuram_mob_guardiano_01
+		EntityResets:
+			WearMode:	PART.BODY
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-armatura-corteccia
+		End
+		EntityResets:
+			WearMode:	PART.RIGHT_FOOT PART.LEFT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-fico
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_HAND PART.RIGHT_HAND
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-guanti-edera
+		End
+	End
+	EntityResets:
+		ProtoEntity:	karpuram_mob_maestro-armi_01
+		Type:   RESET.PUT
+		Quantity:       1
+		EntityResets:
+			WearMode:	PART.HEAD
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-elmo-scaglie-viola
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_ELBOW
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-vecchio-paragomito
+		End
+		EntityResets:
+			WearMode:	PART.WIELD
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-spada-uruk
+		End
+		EntityResets:
+			WearMode:	PART.BODY
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-armatura-scaglie-viola
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_FOOT PART.RIGHT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-drago
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_HAND
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-guanto-kirys
+                End
+		EntityResets:
+			WearMode:	PART.BACK
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-mantello-scaglie-viola
+		End
+	End
+End
+RoomResets:
+	Comment: Quercia secolare
+	ProtoRoom: karpuram_room_secolare-14
+	Destination:	11 0 3 karpuram
+	EntityResets:
+		Quantity:	4
+		Type: 	RESET.PUT
+		ProtoEntity: 	karpuram_mob_guardiano_01
+		EntityResets:
+			WearMode:	PART.BODY
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-armatura-corteccia
+		End
+		EntityResets:
+			WearMode:	PART.RIGHT_FOOT PART.LEFT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-fico
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_HAND PART.RIGHT_HAND
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-guanti-edera
+		End
+	End
+End
+RoomResets:
+	Comment: Quercia secolare
+	ProtoRoom: karpuram_room_secolare-15
+	Destination:	10 0 3 karpuram
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	karpuram_mob_guardiano_01
+		EntityResets:
+			WearMode:	PART.BODY
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-armatura-corteccia
+		End
+		EntityResets:
+			WearMode:	PART.RIGHT_FOOT PART.LEFT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-fico
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_HAND PART.RIGHT_HAND
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-guanti-edera
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	karpuram_mob_lupo-guardia_01
+	End
+
+End
+RoomResets:
+	Comment: Quercia secolare
+	ProtoRoom: karpuram_room_secolare-16
+	Destination:	11 0 4 karpuram
+End
+RoomResets:
+	Comment: Quercia secolare
+	ProtoRoom: karpuram_room_secolare-17
+	Destination:	12 0 4 karpuram
+End
+RoomResets:
+	Comment: Quercia secolare
+	ProtoRoom: karpuram_room_secolare-18
+	Destination:	13 0 4 karpuram
+End
+RoomResets:
+	Comment: Quercia secolare
+	ProtoRoom: karpuram_room_secolare-19
+	Destination:	13 -2 4 karpuram
+End
+RoomResets:
+	Comment: Quercia secolare
+	ProtoRoom: karpuram_room_secolare-20
+	Destination:	12 -2 4 karpuram
+End
+RoomResets:
+	Comment: Quercia secolare
+	ProtoRoom: karpuram_room_secolare-21
+	Destination:	11 -2 4 karpuram
+End
+RoomResets:
+	Comment: Quercia secolare
+	ProtoRoom: karpuram_room_secolare-22
+	Destination:	12 -1 4 karpuram
+End
+RoomResets:
+	Comment: Quercia secolare
+	ProtoRoom: karpuram_room_secolare-26
+	Destination:	12 -1 5 karpuram
+	EntityResets:
+		Quantity:	4
+		Type: 	RESET.PUT
+		ProtoEntity:	karpuram_mob_elfo_imperiale_01
+		EntityResets:
+			WearMode:	PART.WIELD
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	ikea_item_weapon-spada-bastarda
+		End
+		EntityResets:
+			WearMode:	PART.BODY
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-cotta-elfica
+		End
+		EntityResets:
+			WearMode:	PART.BREAST
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-armatura-bande
+		End
+		EntityResets:
+			WearMode:	PART.BACK
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-mantello-scaglie-viola
+		End
+	End
+End
+RoomResets:
+	Comment: Quercia secolare
+	ProtoRoom: karpuram_room_secolare-23
+	Destination:	11 1 4 karpuram
+	EntityResets:
+		Quantity:	4
+		Type: 	RESET.PUT
+		ProtoEntity: 	karpuram_mob_arciere_01
+		EntityResets:
+			WearMode:	PART.WIELD
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-arco-lungo
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_FOOT PART.RIGHT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-passeggio
+		End
+		EntityResets:
+			WearMode:	PART.BACK
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-mantello-mimetico
+		End
+	End
+	EntityResets:
+		Quantity:	4
+		Type: 	RESET.PUT
+		ProtoEntity:	karpuram_mob_elfo_imperiale_01
+		EntityResets:
+			WearMode:	PART.WIELD
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	ikea_item_weapon-spada-bastarda
+		End
+		EntityResets:
+			WearMode:	PART.BODY
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-cotta-elfica
+		End
+		EntityResets:
+			WearMode:	PART.BREAST
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-armatura-bande
+		End
+		EntityResets:
+			WearMode:	PART.BACK
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-mantello-scaglie-viola
+		End
+	End
+End
+RoomResets:
+	Comment: Quercia secolare
+	ProtoRoom: karpuram_room_secolare-24
+	Destination:	13 -3 4 karpuram
+	EntityResets:
+		Quantity:	4
+		Type: 	RESET.PUT
+		ProtoEntity: 	karpuram_mob_arciere_01
+		EntityResets:
+			WearMode:	PART.WIELD
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-arco-lungo
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_FOOT PART.RIGHT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-passeggio
+		End
+		EntityResets:
+			WearMode:	PART.BACK
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-mantello-mimetico
+		End
+	End
+	EntityResets:
+		Quantity:	4
+		Type: 	RESET.PUT
+		ProtoEntity:	karpuram_mob_elfo_imperiale_01
+		EntityResets:
+			WearMode:	PART.WIELD
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	ikea_item_weapon-spada-bastarda
+		End
+		EntityResets:
+			WearMode:	PART.BODY
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-cotta-elfica
+		End
+		EntityResets:
+			WearMode:	PART.BREAST
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-armatura-bande
+		End
+		EntityResets:
+			WearMode:	PART.BACK
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-mantello-scaglie-viola
+		End
+	End
+End
+RoomResets:
+	Comment: Quercia secolare
+	ProtoRoom: karpuram_room_secolare-25
+	Destination:	14 0 4 karpuram
+	EntityResets:
+		Quantity:	4
+		Type: 	RESET.PUT
+		ProtoEntity: 	karpuram_mob_arciere_01
+		EntityResets:
+			WearMode:	PART.WIELD
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-arco-lungo
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_FOOT PART.RIGHT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-passeggio
+		End
+		EntityResets:
+			WearMode:	PART.BACK
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-mantello-mimetico
+		End
+	End
+	EntityResets:
+		Quantity:	4
+		Type: 	RESET.PUT
+		ProtoEntity:	karpuram_mob_elfo_imperiale_01
+		EntityResets:
+			WearMode:	PART.WIELD
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	ikea_item_weapon-spada-bastarda
+		End
+		EntityResets:
+			WearMode:	PART.BODY
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-cotta-elfica
+		End
+		EntityResets:
+			WearMode:	PART.BREAST
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-armatura-bande
+		End
+		EntityResets:
+			WearMode:	PART.BACK
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-mantello-scaglie-viola
+		End
+	End
+End
+RoomResets:
+	Comment: Quercia secolare
+	ProtoRoom: karpuram_room_secolare-27
+	Destination:	10 -2 4 karpuram
+	EntityResets:
+		Quantity:	4
+		Type: 	RESET.PUT
+		ProtoEntity: 	karpuram_mob_arciere_01
+		EntityResets:
+			WearMode:	PART.WIELD
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-arco-lungo
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_FOOT PART.RIGHT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-passeggio
+		End
+		EntityResets:
+			WearMode:	PART.BACK
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-mantello-mimetico
+		End
+	End
+	EntityResets:
+		Quantity:	4
+		Type: 	RESET.PUT
+		ProtoEntity:	karpuram_mob_elfo_imperiale_01
+		EntityResets:
+			WearMode:	PART.WIELD
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	ikea_item_weapon-spada-bastarda
+		End
+		EntityResets:
+			WearMode:	PART.BODY
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-cotta-elfica
+		End
+		EntityResets:
+			WearMode:	PART.BREAST
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-armatura-bande
+		End
+		EntityResets:
+			WearMode:	PART.BACK
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-mantello-scaglie-viola
+		End
+	End
+End
+
+EchoesNoon Tutta la vegetazione vibra all'unisono
+EchoesNoon L'energia vitale delle piante irradia tutto intorno

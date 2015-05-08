@@ -1,0 +1,28 @@
+Code: flora_item_peperoncino-09-pianta-secca
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Flags:  FLAG.INTERACTABLE_FROM_OUTSIDE
+Name:	I Resti di una Pianta di [red]Peperoncino[close]
+Short:	i resti di una pianta di [red]peperoncino[close]
+Long:	$N sopraffatta dal tempo.
+
+Descr:
+Una pianta di peperoncino che è arrivata alla fine del suo ciclo vitale.
+
+DescrTouch:
+Le foglie sono aride e fragili.
+
+DescrSixth:
+Ripiegata su se stessa come se volesse ritornare verso la terra che l'ha generata.
+
+Value:	0
+Weight: 1kg
+
+ExtractTimeout:
+	Minutes: 10080
+	EntityMessage: Panta rei
+        OthersMessage: Panta rei
+End

@@ -1,0 +1,35 @@
+Code: novizi_item_menhir-vita
+Level: 1
+MaxGlobalQuantity:	1
+Entitype:	ENTITYPE.MENHIR
+MaterialPercentages:	MATERIAL.STONE	100
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+Name:	Il Menhir della Vita
+Short:	un menhir
+Long:	$N ben saldo nel terreno.
+
+Descr:
+Un alto e massiccio pietrone la cui estremità superiore termina con una punta appena accennata. 
+Grandi [mediumturquoise]simboli luminosi[close] sono incise nella roccia.
+DescrTouch: 
+Testi la solidità del menhir dandogli qualche pacca ma questo non si smuove di un millimetro.
+DescrSmell:
+Forse un vago odore di muschio sul lato esposto a nord.
+DescrSixth:
+Intuisci che questa roccia riveste un ruolo vitale.
+DescrHearing:
+Nulla, silenzio.
+DescrTaste:
+Dai una leccata alla roccia... si, sa proprio di roccia.
+
+Value:	0
+Weight: 100kg
+
+Extras:
+	Keywords: simboli simbolo luminosi
+	Descr:
+	Dei simboli, in una lingua che non conosci, incisi a caratteri cubitali nella roccia. Per qualche strana ragione emettono una [mediumturquoise]luce azzurrognola.[close]
+	DescrSixth:
+	Standoci vicino ti senti come rivitalizzato.
+End

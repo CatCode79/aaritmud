@@ -1,0 +1,26 @@
+Comment: pietra difficile da tagliare, se tagliata male non vale molto. cambia colore a seconda del punto di ossrvazione (polaizza)
+ma tagliata male attenua questa caratteristica.
+
+Code: miniere-kezaf_item_gemma-iolite
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_iolite.png
+Name:	Una'Iolite 
+Short:	una pietra grezza blu-violacea
+Long:	$N quasi non si nota.
+
+Descr:
+Una gemma grezza e misteriosa di un colore cangiante e intenso; talvolta pare più blu, talvolta più violetta, addirittura a tratti pare abbia riflessi sul giallo.
+
+DescrSixth:
+Una gemma importante ma difficoltosa da tagliare; sin troppo facile vanificarne il ritrovamento.
+
+Value:	0
+Weight: 240g
+
+
+
+

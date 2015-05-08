@@ -1,0 +1,49 @@
+Code: cimitero_room_collina-c35
+Sector: SECTOR.HILL
+Name: Le Antiche Condotte
+Short: il corso asciutto
+
+Descr:
+La via passa per un ponticello di pietra costruito sul corso ormai asciutto dell'antico torrente. Guardando verso il basso si notano le antiche condutture procedere parallele al vecchio corso d'acqua.
+DescrSmell: 
+La zona collinare è avvolta dagli abbracci languidi dell'odore di spezie e decomposizione.
+Per alcuni tratti si coglie però una scia che rimane la stessa per un certo tratto.
+DescrHearing:
+Il sibilo del vento produce un lugubre suono cupo sostenuto negli effetti lungo le
+lapidi frastagliate.
+
+Extras:
+	Keywords: scia
+	DescrSmell:
+	Lungo il tratto di sentiero che hai appena seguito l'odore più significativo è stato quello di #SMELL.
+End
+
+Extras:
+	Keywords: simboli
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+Width:	6m
+Depth:	6m
+Height: 113m
+
+
+Exits:
+	Direction: DIR.SOUTHWEST
+	Descr: Gli alti argini
+End
+Exits:
+	Direction: DIR.SOUTH
+	Descr: Sopra la cascata
+End

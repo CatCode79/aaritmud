@@ -1,0 +1,37 @@
+Code: villaggio-zingaro_item_espositore-oreficeria-01
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.MALE
+Flags:	FLAG.NO_LOOK_LIST
+MaterialPercentages:	MATERIAL.WOOD 26%	
+MaterialPercentages:	MATERIAL.GLASS 74%	
+Name:	Un Espositore
+Short:	un espositore
+Long:	$N è qui
+
+Descr:
+Un robusto espositore in legno massiccio e con cerniere in metallo. Le parti trasparenti sono in robusto cristallo.
+È posto appena sull'ingresso entrando a sinistra e pare il più recente.
+Attraverso il vetro vedi $I.
+DescrTouch: 
+Inamovibile e solido forse più della casa stessa.
+DescrSixth:
+Solo l'espositore rischia di costare più di tutto il suo contenuto. Il proprietario deve aver avuto qualche problema con gli espositori più tradizionali...
+
+Value:	0
+Weight: 200g
+
+
+ContainerType:
+	EntityOpenMessage:	Apri $N usando ambo le $hands.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N usando ambo le $hands.
+	EntityCloseMessage:	Accompagni la lastra di cristallo di $N fino a chiuderl$O.
+	TargetCloseMessage:	Finalmente $n si è degnat$o di chiuderti.
+	OthersCloseMessage:	$n accompagna la lastra di cristallo di $N fino a chiusura.
+	Flags:	CONTAINER.CLOSED CONTAINER.CLOSABLE CONTAINER.LOCKED
+        MaxWeight: 100kg
+End
+
+

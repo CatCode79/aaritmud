@@ -1,0 +1,28 @@
+Code:	karpuram_item_eq-bracciale-edera
+
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.LEAF	80
+MaterialPercentages:	MATERIAL.SOFTWOOD	20
+Sex:	SEX.MALE
+Name:	Un Bracciale in Foglie d'Edera
+Short:	un braccialetto di foglie
+Long:	leggerissimo e delicato,  $N magistralmente intrecciate.
+
+Descr:
+Un dedalo di intricate radici e foglie di edera unite tra loro, ecco cosa noti
+osservando con attenzione questo leggero braccialetto utilizzato come oggetto
+ornamentale dalle donne presenti in queste terre. Le radici e le foglie sono
+legate tra di loro come si tenessero le une alle altre senza corde o aggiunte
+di alcun tipo, per loro scelta.
+
+Value:	0
+Weight:	150g
+
+WearType:
+   Modes: PART.RIGHT_WRIST
+   Modes: PART.LEFT_WRIST
+End
+
+

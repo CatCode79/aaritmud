@@ -1,0 +1,24 @@
+Code: citta-raminghe-maze_room_biblioteca_sud-ovest
+Sector: SECTOR.HOUSE
+Flags:  ROOM.INSIDE
+Name: La Sala Blu delle Costellazioni
+Short: una [blue]sala[close] blu
+Descr:
+Una [blue]stanza piccola e raccolta[close]  le cui pareti sono interamente tappezzate di un tessuto di colore blu. 
+Vi sono disegnate, da una mano abile ed esperta, le [yellow]costellazioni[close] come se si trattasse quasi di un planetario un pò rudimentale. I libri che vi si trovano trattano d pianeti, di stelle, di galassie e di mondi sconosciuti e lontani.
+
+DescrSixth:
+Soffermarsi qui non è male, ma non sai chi potresti incontrarvi.
+
+Width:  10m
+Depth:  10m
+Height: 100m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: in biblioteca
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: in biblioteca
+End

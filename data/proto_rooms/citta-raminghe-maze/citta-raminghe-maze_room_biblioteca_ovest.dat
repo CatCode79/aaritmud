@@ -1,0 +1,20 @@
+Code: citta-raminghe-maze_room_biblioteca_ovest
+Sector: SECTOR.HOUSE
+Flags:  ROOM.INSIDE
+Name: La Sala della Lettura
+Short: una [red]sala da lettura[close]
+Descr:
+Una sala molto ampia sia in altezza che in lunghezza tanto che  guardare l'infinita quantità  di libri disposti 
+su ripiani potrebbe far venire le vertigini. Poltrone dall'aspetto comodo e piccoli tavoli quadrati 
+occupano tutta la parte centrale. 
+
+DescrSixth:
+L'essenza di migliaia di parole fluttua nell'aria.
+Width:  10m
+Depth:  10m
+Height: 100m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: in biblioteca
+End

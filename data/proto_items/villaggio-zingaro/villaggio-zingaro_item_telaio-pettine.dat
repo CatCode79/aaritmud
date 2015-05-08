@@ -1,0 +1,30 @@
+Code: villaggio-zingaro_item_telaio-pettine
+
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.WOOD	45%
+MaterialPercentages:	MATERIAL.METAL	55%
+Name:
+Il Pettine del Telaio
+Short:
+un pettine
+Long:
+$N è riposto qui.
+
+Descr:
+Un pettine da telaio con fitti denti metallici. L'impugnatura è un legno ed è intagliata lungo tutta la lunghezza con motivi geometrici.
+DescrSixth:
+Questo oggetto viene probabilmente utilizzato per compattare il lavoro e renderlo più regolare.
+
+Extras:
+	Keywords: motivi geometrici 
+	Descr: Osservandolo meglio noti che su un lato sono riportate due lettere in caratteri svolazzanti: D.J.
+End
+
+Value:	0
+Weight: 26g
+
+
+
+

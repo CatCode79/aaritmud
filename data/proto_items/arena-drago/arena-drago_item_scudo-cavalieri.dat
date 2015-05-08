@@ -1,0 +1,30 @@
+Code:	arena-drago_item_scudo-cavalieri
+Level:	06
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.LEATHER 5%
+MaterialPercentages:	MATERIAL.BRONZE 25%
+MaterialPercentages:	MATERIAL.HARDWOOD 70%
+Sex:	SEX.MALE
+Name:	Lo Scudo dei Cavalieri
+Short:	uno scudo
+
+Value:	0
+Weight: 10g
+
+Descr:
+Un bello scudo che porta l'emblema dei cavalieri dei Draghi.
+
+
+
+WearType:
+   Modes: PART.HOLD
+End
+
+Comment:
+§27720
+
+Dati Obj
+A40 2
+9 0 1|51210 10 0 030 15000 0A17 -20A25 -1
+
+

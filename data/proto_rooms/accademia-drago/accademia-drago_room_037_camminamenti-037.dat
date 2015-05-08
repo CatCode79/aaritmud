@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_037_camminamenti-037
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	I Camminamenti
+Short:	i camminamenti
+	Descr:
+I camminamenti proseguono, questa cerchia più alta ha una
+pavimentazione che sembra essere maggiormente usurata a
+testimonianza del fatto che ti trovi sulla struttura più antica
+dell'accademia. A nord il tuo sguardo spazia sulla vegetazione
+dell'isola per poi perdersi sul blu orizzonte del mare. Il
+camminamento prosegue a est e ovest.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 1
+Exits:
+	Direction:	DIR.EAST
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 036 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 038 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

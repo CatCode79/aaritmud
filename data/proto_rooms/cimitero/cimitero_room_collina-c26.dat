@@ -1,0 +1,63 @@
+Code: cimitero_room_collina-c26
+Sector: SECTOR.HILL
+Name: Il Cortile di Palazzo Oskof
+Short: il cortile di un palazzo
+
+Descr:
+Il sentiero si fa pianeggiante e s'allarga assai. Ad un certo punto s'accosta la facciata
+di un edificio ad un piano. L'accesso è rappresentato da una coppia di colonne sporgenti
+sovrastate da un timpano decorato da uno scudo sporgente.
+
+DescrSmell: 
+La zona collinare è avvolta dagli abbracci languidi dell'odore di spezie e decomposizione.
+Per alcuni tratti si coglie però una scia che rimane la stessa per un certo tratto.
+DescrHearing:
+Il sibilo del vento produce un lugubre suono cupo sostenuto negli effetti lungo le
+lapidi frastagliate.
+
+Extras:
+	Keywords: scudo timpano
+	Descr:
+	Nel timpano sopra le colonne lo scudo in pietra perfettamente coservato rappresenta certamente il simbolo di un'antica casata.
+	DescrSixth:
+	Nello scudo le lettere si confondono con i simboli ma in breve è evidente si tratti del simbolo della casata Oskof.
+End
+Extras:
+	Keywords: scia
+	DescrSmell:
+	Lungo il tratto di sentiero che hai appena seguito l'odore più significativo è stato quello di #SMELL.
+End
+
+Extras:
+	Keywords: simboli
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+Width:	6m
+Depth:	6m
+Height: 113m
+
+
+Exits:
+	Direction: DIR.NORTH
+	Descr: Uno slargo
+End
+Exits:
+	Direction: DIR.SOUTHWEST
+	Descr: Salendo lungo il versante
+End
+Exits:
+	Direction: DIR.EAST
+	Descr: Una scalinata
+End

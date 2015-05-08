@@ -1,0 +1,21 @@
+Code: wimpy
+
+ItalianKeywords: autofuga
+EnglishKeywords: wimpy
+
+Entitype: HELP.COMBAT
+
+Text:
+Questo comando serve ad impostare la modalità $twimpy, cioè il limite
+di punti ferita  sotto i quali puoi scendere prima di tentare di scappare
+automaticamente da uno scontro.
+
+Scrivendo $twimpy il valore verrà settato a circa il 20% dei tuoi massimi
+punti ferita, mentre scrivendo $twimpy &lt;[darkgreen]valore[close]&gt; potrai impostare 
+l'autofuga a quanto desideri (non puoi superare l'85% dei tuoi punti
+ferita), mentre se setterai l'autofuga a 0 (zero) in pratica la disattiverai.
+
+Alcune creature possono avere l'autofuga impostata.
+
+
+SeeAlso: flee

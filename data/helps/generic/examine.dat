@@ -1,0 +1,17 @@
+Code: examine
+
+ItalianKeywords: esamina guarda
+EnglishKeywords: examine look
+
+Entitype: HELP.GENERIC
+
+Text:
+Il comando $texamine ti permette:
+ - di esaminare il contenuto di un [darkgreen]contenitore[close] o di un [darkgreen]cadavere[close]
+ - di esaminare un personaggio per vedere la sua descrizione ed eventualmente
+    l'equipaggiamento se hai configurato l'apposita opzione (vedi $tconfig)
+ - di esaminare particolari di oggetti o descrizioni dando una determinata
+    [darkgreen]parola chiave[close].
+
+
+SeeAlso: look

@@ -1,0 +1,28 @@
+Code: miniere-kezaf_item_carrello-minatori-01
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.HARDWOOD	40%
+MaterialPercentages:	MATERIAL.IRON	60%
+Name:	Un Vetusto Carrello
+Short:	un carrello
+Long:	$N da miniera in disuso
+
+Descr:
+Un massiccio carrello in legno con fasci metallici borchiati. È munito di quattro ruote metalliche e ad un estremo ha imperniato un anello per il traino o il collegamento.
+DescrTouch: 
+Un pesantissimo carrello di legno e metallo con ruote adattate per scorrere sui binari. Sufficientemente capiente da consentire di starci seduti.
+DescrSixth:
+Viene voglia di salirci e farsi trasportare in discesa a velocità sempre crescente fino a finire... NO, meglio di no...
+
+Value:	0
+Weight: 390kg
+
+ContainerType:
+        MaxWeight: 1000kg
+End
+
+MaxLife:	500
+Life:		400
+

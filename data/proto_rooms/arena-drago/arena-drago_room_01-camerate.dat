@@ -1,0 +1,67 @@
+Code:	arena-drago_room_01-camerate
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Le Camerate [mediumblue]blu[close]
+Short:	le camerate [mediumblue]blu[close]
+	Descr:
+Queste sono le camerate degli apprendisti cavalieri, i letti sono
+allineati sulle pareti nord e sud, tutto è in ordine e
+silenzioso, davanti ad ogni branda una cassapanca contiene gli
+averi dei ragazzi che spendono qui la loro giovinezza
+addestrandosi alla guerra ed alla magia.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 0
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	I corridoi
+	Comment:	ExitStatus	1 0 27698 -1
+	Door:	ikea_item_porta
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

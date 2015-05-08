@@ -1,0 +1,34 @@
+Code: novizi2_item_amuleto-condylura
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.NAIL	100%
+Name:	Un [maroon]amuleto[close] con Unghia di Condylura
+Short:	un [maroon]amuleto[close] con unghione
+Long:	$N semitrasparente
+
+Descr:
+Un lungo [maroon]unghione[close] uniforme semitrasparente forato ad una delle estremita per farci passare una [blue]cordicella[close] nera.
+DescrTouch: 
+Un lungo [maroon]unghione[close] affusolato dall'estremita tagliente; dalla parte opposta c'è un foro con una [blue]cordicella[close].
+DescrSmell: 
+Un leggero odore di terra si libera quando poggi il naso sull'unghione.
+DescrSixth:
+Un amuleto di condylura, una bestiola affine ai cercatori di cimeli. Il migliore degli auspici per un esploratore.
+DescrTaste:
+Terra, terra... indubbiamente terra.
+
+Value:	60
+Weight: 10g
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+	Modes:	PART.NECK
+	EntityWearMessage:	Allarghi il cordino di $N e te l$O porti %part.
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	$n allarga il cordino di $N e se l$O porta %part.
+	EntityRemoveMessage:	Ti sfili $N.
+	TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+	OthersRemoveMessage:	$n si sfila $N
+End

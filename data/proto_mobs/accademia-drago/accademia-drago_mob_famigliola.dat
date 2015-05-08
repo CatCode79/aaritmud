@@ -1,0 +1,71 @@
+Code:	accademia-drago_mob_famigliola
+Level:	03
+Sex:	SEX.MALE
+Race:	RACE.HUMAN
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Una Pacifica Famigliola
+Short:	una pacifica famigliola
+Long:	$N si rilassa con un bel pic nic sul prato.
+
+Descr:
+Mamma,  papà, due figli e un bel cagnolino peloso.... simpatici,
+ma  riescono  a  generare  lo  stesso  baccano  di  una forgia in
+attività... 
+Weight: 189kg
+Height: 160cm
+
+BirthDay: 22
+BirthMonth: MONTH.TWO
+Age: 9
+
+Behaviour:
+	LookPlayer:	0
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+Comment:
+64|1048576 0 1000 A 5
+25 4 -2 200 1d3+3
+-1 0 47 1
+8 8 0
+
+
+
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

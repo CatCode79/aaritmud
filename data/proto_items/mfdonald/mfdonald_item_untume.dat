@@ -1,0 +1,25 @@
+Code: mfdonald_item_untume
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages: MATERIAL.OIL 100%
+Flags:	FLAG.INTERACTABLE_FROM_OUTSIDE FLAG.NO_LOOK_LIST
+Name:	Un [sandybrown]Untume[close]
+Short:	un [sandybrown]untume[close] primario
+
+Descr:
+Qualcosa unge ed inzacchera tutto quanto.
+DescrTouch: 
+Qualcosa unge ed inzacchera tutto quanto.
+DescrSmell: 
+Un untuoso senso d'umidiccio algale.
+DescrSixth:
+Questa non è solo olio è un ungente untume che inpregna con efficacia.
+DescrTaste:
+Urgghh... Bleah...
+DescrHearing:
+no_send
+
+Value:	16
+Weight: 120g

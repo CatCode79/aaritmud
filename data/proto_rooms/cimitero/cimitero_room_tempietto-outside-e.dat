@@ -1,0 +1,39 @@
+Code: cimitero_room_tempietto-outside-e
+Sector: SECTOR.RUIN
+Name: Il Perimetro del Tempietto
+Short: al margine di una piccola costruzione
+
+Descr:
+	Il tratto di sentiero serpeggia salendo in direzione est verso le pendici di una
+	collinetta ingombra da costruzioni in pietra diseguali. Verso ovest si entra invece
+	dentro ad un tempietto di pietra con molti ingressi sui lati.
+DescrSmell: 
+	Il vento porta con se l'odore della terra smossa di fresco e qualcosa di marcescente
+DescrSixth:
+	Giacché sei qui potrebbe essere un'idea andare a vedere quale è il posto migliore per
+	farsi seppellire, anche solo per evitare la ressa di quando il fenomeno diverrà modaiolo.
+DescrHearing:
+	L'aria provenente da ovest porta con sé il rumore indistinto di vampate perse nei
+	mulinelli d'aria.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.WEST
+  Descr: All'interno del tempietto
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Verso la collina
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Ai lati del tempietto
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Ai lati del tempietto
+End
+

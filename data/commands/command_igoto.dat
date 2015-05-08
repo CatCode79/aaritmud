@@ -1,0 +1,5 @@
+FunName:    command_igoto
+Type:       CMDTYPE.ADMIN
+Trust:      TRUST.MASTER
+Position:   POSITION.DEAD
+MiniHelp:   Serve agli Admin per raggiungere oggetti lontani

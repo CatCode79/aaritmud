@@ -1,0 +1,69 @@
+Code:   citta-raminghe_mob_scriba
+Level:  3
+Sex:    SEX.MALE
+Race:   RACE.HUMAN
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:   Uno Scriba
+Short:  uno scriba
+Long:   $N sta ricopiando un antico testo.
+
+Descr:
+Un uomo visibilmente attempato sta ricopiando con attenzione un antico testo. Indossa
+un abito di lino bianco molto comodo e poco vistoso, un paio di pantaloni di
+tessuto dello stesso colore e dei sandali di cuoio. Impugnata nella mano destra ha
+una vistosa piuma d'oca con la quale lavora alacremente. Con l'altra mano tiene ben
+ferma una pergamena.
+
+DescrSmell:
+Odori di carta, polvere e china 
+
+
+
+Weight: 65kg
+Height: 180cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 55
+
+MaxLife:        300
+Life:           300
+MaxMana:        200
+Mana:           200
+MaxVigour:      300
+Vigour:         300
+
+Strength:       15
+Endurance:      13
+Agility:        13
+Speed:          12
+Intelligence:   19
+Willpower:      19
+Personality:    18
+Luck:           12
+
+Behaviour:
+        LookPlayer:     0
+        LookMob:        0
+        LookItem:       0
+        LookAtRacesFlags:       RACE.NONE
+        LookAtRaces:    0
+        LookAtEntitypesFlags:   ENTITYPE.NONE
+        TasteAtEntitypesFlags:  ENTITYPE.NONE
+        WanderDirection:        0
+        WanderExit:     0
+        WanderWall:     0
+        WanderClosedDoor:       0
+        WanderAtExitsFlags:     DIR.NONE
+        WanderAtExits:  0       
+        WanderArea:     0
+        WanderPortal:   0
+        WanderEnterContainer:   0
+        WanderExitContainer:    0
+        WanderSelf:     0
+        RandomDo:       10
+        RandomDoInputs: emote alza lo sguardo solo per osservare il testo che sta copiando.
+        RandomDoInputs: say Fate silenzio, per favore.
+        RandomDoInputs: say L'accademia è un luogo di cultura...
+        RandomDoInputs: emote è molto preso dal suo lavoro e non si cura di nessuno.
+End

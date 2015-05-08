@@ -1,0 +1,30 @@
+Code: villaggio-zingaro_item_scaffale-03
+
+Level:	1
+Entitype: ENTITYPE.CONTAINER
+Sex:	SEX.MALE
+Flags:	FLAG.NO_LOOK_LIST FLAG.NO_GET 
+MaterialPercentages:	MATERIAL.WOOD	100%
+Name:	Uno Scaffale
+Short:	uno scaffale cilindrico
+Long:	$N è qui.
+KeywordsShort: scaffale scaffalatura scaffalature
+KeywordsName: scaffale scaffalatura scaffalature
+
+Descr:
+Uno scaffale alto e stretto con ripiani circolari e dall'aria antica. Molto elegante e longilineo è poggiato su quattro piedini che sembrano zampe di un rapace.  
+DescrTouch:
+Le $hands si soffermano sul preciso lavoro di intarsio compiuto dai tarli nel corso del tempo.
+DescrSixth: 
+Intuisci che in origine dev'esser stato un oggetto piuttosto pregevole.
+
+Value:	0
+Weight: 140kg
+
+ContainerType:
+       MaxWeight: 90kg
+End
+
+
+
+

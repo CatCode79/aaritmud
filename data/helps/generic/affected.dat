@@ -1,0 +1,26 @@
+Code: affected
+
+ItalianKeywords: affetto 'affetto da' effetti effetto
+EnglishKeywords: affected 'affected by' effects effect
+
+Entitype: HELP.INFO
+
+Text:
+Il comando $taffected ti mostra tutti gli incantesimi (e gli effetti delle
+abilità) a cui è sottoposto il tuo personaggio.
+Di ogni incantesimo ti verrà mostrato solo il nome, se vuoi sapere cosa fa
+un incantesimo digita $thelp '[darkgreen]nome incantesimo[close]'.
+
+Quando il tuo personaggio raggiungerà un certo livello di esperienza avrai
+modo di vedere anche il tempo di durata dell'incantesimo e a cosa è
+suscettibile, resistente o immune.
+
+Il comando $taffected [darkgreen]da[close] mostra gli incantesimi dati dall'equipaggiamento
+sul proprio personaggio separandoli dalla normale lista, questo è utile per
+assicurarsi che questi incantesimi stiano funzionando in quel momento.
+Per esempio, se stai indossando un visore che riesce a scovare l'invisibile
+ma $taffected [darkgreen]da[close] non lo mostra, il tuo personaggio non sta vedendo
+l'invisibile.
+
+
+SeeAlso: spells

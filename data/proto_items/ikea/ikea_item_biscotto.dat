@@ -1,0 +1,40 @@
+Code: ikea_item_biscotto
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.MALE
+
+
+Name:	Un Biscotto Frollino
+Short:	un biscotto frollino
+Long:	$N alla mercè di tutti
+
+Descr:
+Un frollino di farina bianca e dalla forma piatta e tondeggiante.
+DescrTouch: 
+Un fragile biscottino dalla forma piatta e tondeggiante.
+DescrSmell: 
+Biscotti Burroso.
+DescrSixth:
+Uhm.. colesterolo oltre la soglia di tolleranza.
+DescrTaste:
+Ne manduchi cautamente un piccolo pezzo per scoprire quel che già intuivi.
+Non male comunque.
+
+Value:	5
+Weight: 5g
+
+MaterialPercentages: MATERIAL.EGG 10%
+MaterialPercentages: MATERIAL.SUGAR 40%
+MaterialPercentages: MATERIAL.FLOUR 50% 
+
+FoodType:
+	Comment:	cibo
+	Animal:	10
+	Vegetable:	90
+	CookingDamage:	5
+	Hours:	0
+	EntityMessage:	Accogli $N fra le fauci, consumandolo avidamente.	
+	TargetMessage:	Ora c'è una sola via d'uscita... $n t'ha mangiato.
+	OthersMessage:	$n prende fra fauci gustandolo per un certo tempo.
+End

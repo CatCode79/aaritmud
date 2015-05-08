@@ -1,0 +1,6 @@
+FunName:    command_quit
+Type:       CMDTYPE.GAMING
+Trust:      TRUST.PLAYER
+Position:   POSITION.SLEEP
+Flags:      CMDFLAG.TYPE_ALL CMDFLAG.NO_LAST_INPUT
+MiniHelp:   Serve per uscire dal Mud.

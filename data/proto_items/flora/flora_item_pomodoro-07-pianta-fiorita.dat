@@ -1,0 +1,39 @@
+Code: flora_item_pomodoro-07-pianta-fiorita
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.FLOWER
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Flags:	FLAG.INTERACTABLE_FROM_OUTSIDE 
+Name: Una Pianta di [red]Pomodoro[close] in Fiore
+Short:	una pianta di pomodoro tutta fiorita
+Long:	$N cresce qui
+
+Descr:
+Una pianta di pomodoro adulta, completamente cresciuta in ogni suo aspetto.
+Presenta una serie molteplice di diramazioni secondarie e terziarie dalle
+quali si dipanano foglie e germogli dei quali alcuni ancora in  boccio e
+molti dei quali nel pieno del candido rigoglio floreale.
+
+DescrTouch:
+Sia il gambo che le foglie sono molto resistenti, solide e ricoperte quasi
+totalmente da una [white]peluria[close] bianca setosa.
+
+DescrSixth:
+Solo i frutti di questa pianta sono commestibili.
+
+Value:	0
+Weight: 7kg
+
+
+
+PlantType:
+    RpgHours:	1
+    WorseEntity:	flora_item_pomodoro-08-fruttificato
+    NormalEntity:	flora_item_pomodoro-08-fruttificato
+    BetterEntity:	flora_item_pomodoro-08-fruttificato
+    Contents:	 flora_item_pomodoro-04-frutto 4
+    Contents:	 flora_item_pomodoro-03-frutto-marcio 2
+End
+
+

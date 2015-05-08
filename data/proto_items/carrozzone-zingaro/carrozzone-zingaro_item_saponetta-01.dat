@@ -1,0 +1,38 @@
+Comment:
+-non si è capito immagino che mi ispiro ad esperienze relamente vissute.
+-in alcune descrizioni c'è come un 'dialogo' con il lettore (es: Che ti aspettavi?!) adesso..io penso spesso così insomma me le dico da sola..credo che sia una cosa comune a molti esseri umani..quindi ci può state un ammonimento o simile no?!
+
+Code: carrozzone-zingaro_item_saponetta-01
+
+Level:	1
+Entitype: ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.SOAP 100%
+Name: [palegoldenrod]Una Saponetta[close]
+Short:	una [palegoldenrod]saponetta[close] completamente asciutta
+Long:	$N è posata qui.
+
+Descr:
+Una [palegoldenrod]saponetta[close] rettangolare con gli angoli smussati e un colorino giallo spento; un lato è stato abbondantemente raschiato con un oggetto contundente.
+DescrTouch:
+La rigiri tra le $hands come se ti volessi insaponare ed avverti sotto le dita dei rilievi, forse quel che rimane di un decoro o una scritta.
+DescrTaste:
+Un disgustoso sapore di..sapone. Che ti aspettavi?!
+DescrSmell:
+Anche da asciutta il penetrante odore di marsiglia ti fa prudere le narici.
+DescrSixth:
+Il tuo intuito, o forse la prudenza, ti sconsiglia di lavartici le mani; è ben vero che il sapone è fatto per lavare ma non si sa mai dove può essere stato.
+
+Value:	0
+Weight: 120g
+
+Extras:
+   Keywords: raschiato contundente oggetto
+Descr:
+I segni sembrano quelli lasciati da un cucchiaino oppure dal dorso di posate.
+DescrSixth:
+Sembra sia stato raschiato per ottenere delle scaglie.
+End
+
+
+

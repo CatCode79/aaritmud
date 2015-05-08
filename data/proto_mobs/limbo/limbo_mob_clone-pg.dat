@@ -1,0 +1,42 @@
+Code:	limbo_mob_clone-pg
+Level:	1
+Sex:	SEX.MALE
+Race:	RACE.HUMAN
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Un Clone Perfetto
+Short:	un clone
+Long:	$N appena realizzato
+
+Descr:
+Il clone di un avventurier$O ma con lo sguardo ancora piuttosto molle ed ottuso.
+DescrTouch: 
+Le fattezze del clone sono tale e quali l'originale eccettuato che per una certo difetto tonico e dinamico.
+DescrSmell: 
+L'odore è come di imballaggio e vaniglia.
+DescrSixth:
+Qualcuno qui da qualche parte ha abusato del suo potere per fare una copia identica di sé stesso.
+DescrHearing:
+Il respiro stranamente profondo e cautelativo di questo essere denotano una strana scarsa attitudine alla respirazione.
+
+Weight: 79kg
+Height: 170cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 0
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

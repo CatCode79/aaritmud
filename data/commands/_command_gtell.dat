@@ -1,0 +1,6 @@
+FunName:    command_gtell
+Type:       CMDTYPE.CHANNEL
+Trust:      TRUST.PLAYER
+Position:   POSITION.DEAD
+Flags:      CMDFLAG.POSSESS
+MiniHelp:   Serve per parlare offgdr con i membri del proprio gruppo.

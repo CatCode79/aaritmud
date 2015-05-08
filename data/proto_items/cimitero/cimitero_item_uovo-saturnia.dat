@@ -1,0 +1,23 @@
+Code: cimitero_item_uovo-saturnia
+Level: 1
+MaxGlobalQuantity: 3
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.EGG	100%
+Sex:	SEX.MALE
+Name:	L'uovo di una [lightgreen]Karpuridae[close]
+Short:	un [lightgreen]oggettino[close] ovaleggiante piccinissimo
+Long:	$N, forse è un uovo
+
+Descr: 
+Una [lightgreen]cosa[close] più piccola di un grano di pepe, verde e guardando bene si vede che è percorsa da nervature più chire.
+DescrTouch:
+Una cosina piccola piccola e piuttoto fragile che probabilmente hai appena schiacciato in modo definitivo.
+DescrTaste:
+Non sa di nulla.
+DescrSixth:
+Riconosci senza esitazione che si tratta di un uovo di qualche cosa di piuttosto piccino...
+
+Value:	0
+Weight: 1g
+
+

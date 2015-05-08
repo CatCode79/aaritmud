@@ -1,0 +1,29 @@
+Code:	rip_item_corpse-orc-female
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CORPSE
+Sex:	SEX.FEMALE
+Race:	RACE.ORC
+MaterialPercentages:	MATERIAL.FLESH	100%
+Name:	Una tua Simile Mort$O 
+Short:	un' orchessa mort$O
+Long:	$N afflosciato qui definitivamente 
+
+Descr:
+I resti mortali e corruttibili di #looker is RACE.ORC#un tuo simile.#un appartenente alla razza orco.#
+
+DescrTouch:
+Il cadavere di #looker is RACE.ORC#una tua simile è grossa e sporca, la sua pelle è piena di protuberanze e piaghe.#
+
+DescrSixth:
+#looker is RACE.ORC#Rimane davvero poco da percepire da questo cadavere, sicuramente guardando il ventre gonfio
+deve aver fatto un ultimo lauto pasto!#
+
+DescrSmell:
+#looker is RACE.ORC#Un fortissimo fetore di lurido, lerciume di varia natura e fango raggiunge le tue narici.#
+
+DescrTaste:
+#looker is RACE.ORC#Sudore, sangue raggrumato e fango ti fanno quasi vomitare.#
+
+Value:	0
+Weight:	105kg

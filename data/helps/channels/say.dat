@@ -1,0 +1,16 @@
+Code: say
+
+ItalianKeywords: parlo
+EnglishKeywords: say
+
+Entitype: HELP.CHANNEL
+
+Text:
+Cerchiamo di parlare seguendo il nostro modo d'essere, il nostro profilo e
+la nostra storia, giocando di ruolo.
+Difatti il canale $tsay è GDR.
+
+Esempio: say al gruppo ciao gente!
+
+
+SeeAlso: channels

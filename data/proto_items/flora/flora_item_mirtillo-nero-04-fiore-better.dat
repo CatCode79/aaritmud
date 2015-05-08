@@ -1,0 +1,75 @@
+Code: flora_item_mirtillo-nero-04-fiore-better
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.FLOWER
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name: Un [springgreen]Cespuglio[close] di [springgreen]Mirtillo[close] in fiore
+Short:	un basso [springgreen]cespuglio[close] in fiore
+Long:	$N cresce qui
+
+Descr:
+Un folto cespuglio nano puntinato d'innumerevoli [red]fiorellini rossi[close]. Le infiorescenze 
+sono particolarmente evidenti a causa dello sfondo di foglie lucide.
+L'ampia superficie che il cespuglio occupa rende difficile poterlo abbracciare in
+tutta la sua estensione.
+
+DescrTouch:
+Un folto cespuglio nano fortemente radicato e fitto di foglioline lucide intramezzate di delicati fiorellini tondi.
+L'ampia superficie che occupa rende difficile poterlo abbracciare in tutta la sua estensione.
+
+DescrTaste:
+Duro stoppaccioso poiché fortemente lignificato ma a basso effetto astringente.
+
+DescrSmell:
+Profumo vagamente fruttato al limite del percettibile. 
+
+DescrSixth:
+Poco utile come legna da ardere ma le foglie sono un ingrediente importante per unguenti per mantenere elastiche le pelli dopo conciatura. 
+
+Value:	0
+Weight: 13kg
+
+Extras:
+  Keywords: foglie foglia fogliolina foglioline
+  Descr:	verdi foglioline alternate
+  DescrTouch:	lucide foglioline alternate
+  DescrTaste:	un forte amaro astringente
+  DescrSixth:	spezzettate e macerate posson mantenere elastica la pelle delle mani 
+End
+
+Extras:
+  Keywords: fusto stelo steli lignificato legno legni
+  Descr:	il fusto intricato e lignificato molto fitto e rivestito da foglioline scure e più giallastre verso l'interno.
+  DescrTouch:	per quanto intricato e legnoso il fusto mantiene una grande elasticità
+  DescrTaste:	un insipido sapore stoppaccioso
+End
+
+Extras:
+  Keywords: fiore fiori infiorescenza infiorescenze capolino capolini
+  Descr:	i [red]rossi fiori[close] penduli ricordano dei piccoli vasi bassi e panciuti
+  DescrTouch:	i piccoli e delicati fiori penduli ricordano dei vasi panciuti
+  DescrTaste:	più che delicati... insipidi; anzi insapori
+  DescrSmell:	vagamente profumati al limite del percettibile
+  DescrSixth:	
+	si narra che se raccolti e portati a re Klirbe, in talune occasioni possano essere
+	forieri di magnifici doni
+End
+
+Extras:
+  Keywords:	segreto mistero
+  DescrSixth:	si narra che ohhhh! Prrrrt! :-) eh eh! Vuoi mica che sia cosi facile sapere no?
+End
+
+
+PlantType:
+    Sectors:	SECTOR.PLAIN SECTOR.HOUSE
+    RpgHours:	120
+    WorseEntity:	flora_item_mirtillo-nero-05-fruttificato-worse
+    NormalEntity:	flora_item_mirtillo-nero-05-fruttificato
+    BetterEntity:	flora_item_mirtillo-nero-05-fruttificato-better
+    Contents:	 flora_item_mirtillo-nero-01-frutto 6
+    Contents:	 flora_item_mirtillo-nero-00-frutto-sterile 2
+End
+
+

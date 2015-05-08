@@ -1,0 +1,26 @@
+Code: carrozzone-zingaro_item_gonna
+Level: 1
+Entitype: ENTITYPE.WEAR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.CLOTH 100%
+Name:	Una [blue]Gonna Blu[close]
+Short:	una gonna [blue]Blu[close]
+Long:	Han ripiegato con cura $N.
+
+Descr:
+Una [blue]gonna[close] di cotone in tinta unita. È piuttosto ampia e lascia intravedere le caviglie. Il colore [blue]blu[close] è
+valorizzato dal pregevole [gold]decoro dorato[close] della parte inferiore.
+DescrTouch:
+Il tessuto è leggero ma di qualità e le robuste cuciture sono ben nascoste sulla parte interna.
+
+
+Value:	45
+Weight: 310g
+
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+	Modes:	PART.LEFT_HIP PART.RIGHT_HIP
+End
+
+

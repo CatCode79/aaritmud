@@ -1,0 +1,18 @@
+Code: citta-raminghe_item_faretra-01
+Level: 3
+Entitype: ENTITYPE.CONTAINER   
+MaterialPercentages:	MATERIAL.COTTON	100%
+Name: [gold]Una Faretra[close]
+Short: [gold]una faretra a forma di sacco[close]
+
+Descr: Una faretra che può contenere un numero incredibile di [red]frecce[close]  
+ 
+Value:	0
+Weight: 3kg
+
+ContainerType:
+        MaxWeight: 10kg
+End
+
+
+

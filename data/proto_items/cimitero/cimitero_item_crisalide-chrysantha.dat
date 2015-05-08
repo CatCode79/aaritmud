@@ -1,0 +1,51 @@
+Comment:
+	crisalide contenente la polvere di chrysantha. Si origina quando viene messo
+	un bruco dentro alla teca dove si è decomposto il cadavere. 
+Code: cimitero_item_crisalide-chrysantha
+Level: 1
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.BLOOD 60%
+MaterialPercentages:	MATERIAL.ENERGY 20%
+MaterialPercentages:	MATERIAL.UNKNOWN 20%
+Sex:	SEX.FEMALE
+Name:	[aqua]Chrysantha[close]	nella [aqua]Crisalide[close]
+Short:	la [aqua]crisalide[close] di Chrysantha
+Long:	$N rifulge di luce diafana.
+
+Descr: 
+Il bruco che s'è nutrito della polvere di Chrysantha si è imbozzolato producendo
+un intreccio di fili sericei di un misterioso color azzurro brillante.
+
+Value:	0
+Weight: 18g
+
+Behaviour:
+	LookPlayer:	0
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	5
+	RandomDoInputs:	emote pulsa di [aqua]luce[close].
+End
+
+

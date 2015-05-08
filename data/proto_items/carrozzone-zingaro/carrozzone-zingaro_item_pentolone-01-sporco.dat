@@ -1,0 +1,43 @@
+Comment:
+- ho messo calderone al posto di pentolone perchè nella room dove andranno a finire ho infilato un Extra, forse inutile, sui pentoloni. Non volevo creare confuasione per quanto possibile. Nella Descr allora ho rimesso pentolone tanto lì non dovrebbero esserci problemi se non sbaglio.
+-nella tintoria
+Code: carrozzone-zingaro_item_pentolone-01-sporco
+
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+MaterialPercentages:	MATERIAL.PEWTER 100%
+Name:
+	Un Calderone Sudicio
+Short:
+	un panciuto calderone
+Long:
+	$N giace abbandonato in un angolo.
+
+Descr:
+	Un capiente pentolone in peltro con ancora del [darkorange]liquido[close] sul fondo.
+DescrTouch: 
+	Allunghi la $hand per toccare quel che è rimasto ma riesci a malapena ad avvertirne la fredda viscosità.
+DescrSmell: 
+	Mmmmmhh cipolla!
+DescrSixth:
+	Lo stato della sostanza residua ti suggerisce che potrebbe essere lì già da qualche giorno.
+DescrHearing:
+	Ting tong ting... tamburelli con le unghie emettendo tintinnii metallici.
+DescrTaste:
+	D'accordo la fame ma, assaggiare i rimasugli potrebbe non essere un'ottima idea.
+
+Value:	0
+Weight: 3680g
+
+Extras:
+   Keywords: liquido fondo residua sostanza
+   Descr:
+   Ti avvicini per osservare la torbida brodaglia e noti affiorare dei pezzetti di un qualche vegetale.
+   DescrSixth:
+   Il tuo primo pensiero va ad un ricco minestrone ma l'ambiente circostante ti suggerisce qualcosa di un po' meno scontato.
+End
+
+
+

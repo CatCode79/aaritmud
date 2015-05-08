@@ -1,0 +1,30 @@
+Code: novizi_item_cuscino-01
+Level: 1
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.LINE	50
+MaterialPercentages:	MATERIAL.COTTON	50
+Sex:	SEX.MALE
+Name:	Un Cuscino [purple]Porpora[close]
+Short:	un [purple]cuscino[close]
+ShortNight: un [red]cuscinotto[close]
+Long:	$N sgualcito
+
+Descr:
+Un rettangolo oblungo di tessuto [purple]colorato[close] dai bordi ricamati di perline.
+Dagli estremi penzolano tante pallottine di lana tutte dello stesso colore.
+DescrTouch: 
+Un cuscinotto morbido ed invitante che potrebbe stare bene con chi lo può apprezzare
+DescrSmell: 
+L'odore non è dei migliori, ci hanno fumato in molti su questo cuscino oppure è
+semplicemente scampato ad un incendio.
+
+Value:	0
+Weight: 250g
+
+Extras:
+	Keywords: pallottina pallottine
+	Descr:
+	Tanti pon pon morbidi
+End
+
+

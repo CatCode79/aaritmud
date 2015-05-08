@@ -1,0 +1,29 @@
+Code:	arena-drago_room_06-strada-rialzata
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	La Strada Rialzata
+Short:	la strada rialzata
+	Descr:
+Questa è la strada rialzata che avevi potuto osservare dai
+camminamenti dell'accademia, si tratta in pratica di una muraglia
+che connette il corpo centrale della scuola con la zona
+dell'arena e delle aule di addestramento. Ad ovest un portone
+permette di accedere alla struttura principale mentre la strada
+rialzata si snoda verso est.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 1
+Exits:
+	Direction:	DIR.EAST
+	Descr:	La strada prosegue in questa direzione
+	Comment:	ExitStatus	0 0 27707 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	L'estremità d'un corridoio
+	Comment:	ExitStatus	1|128 0 27705 -1
+End

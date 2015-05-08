@@ -1,0 +1,470 @@
+Comment: area novizi
+Creators:	Sulfrum
+Code: sauria
+Name: Sprazzi di Passato
+Short: la via tropicale
+Descr:
+	Diversi decenni or sono, una tribù di nani reietti si dispose nelle lande dell'est per ricostruire una città sotterranea. Poco successivamente all'inizio degli scavi una delle galleria ebbe a cedere rivelando l'accesso ad un canion abitato da animali rettiloidi abnormi. Questo è quanto si è risaputo dagli unici due nani superstiti. Da lì in poi si son succedute solo voci confuse di sparizioni misteriose ed animali enormi.
+
+Color: COLOR.GRAY
+Level: 5
+RepopTime: 30
+LandfillCode:	sauria_room_amena-foresta-23-secret
+
+RoomResets:
+	ProtoRoom: sauria_room_miniera-nanica-03-accesso
+	Destination:	0 -1 2 sauria
+End
+RoomResets:
+	ProtoRoom: sauria_room_miniera-nanica-02
+	Destination:	0 0 2 sauria
+End
+RoomResets:
+	ProtoRoom: sauria_room_miniera-nanica-01
+	Destination:	0 1 2 sauria
+End
+RoomResets:
+	ProtoRoom: sauria_room_fiume-impetuoso-01
+	Destination:	0 1 1 sauria
+End
+RoomResets:
+	ProtoRoom: sauria_room_fiume-impetuoso-00
+	Destination:	0 0 1 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_cascata-01
+	Destination:	0 -1 1 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_galleria-fangosa-02
+	Destination:	1 -1 1 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_slargo-viscido-03
+	Destination:	1 0 1 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_galleria-fangosa-04
+	Destination:	2 0 1 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_galleria-fangosa-05
+	Destination:	2 0 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_ingresso-della-caverna-06
+	Destination:	2 1 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_palude-07
+	Destination:	3 1 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_amena-foresta-15
+	Destination:	2 2 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_amena-foresta-16
+	Destination:	1 1 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_palude-08
+	Destination:	4 1 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_palude-14
+	Destination:	3 2 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_palude-13
+	Destination:	4 2 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_palude-22
+	Destination:	4 3 0 sauria
+End
+RoomResets:
+	Comment:	death trap (sabbie mobili)
+	ProtoRoom:	sauria_room_palude-49
+	Destination:	4 4 0 sauria
+End
+
+RoomResets:
+	Comment:	corridoio est verso sotto acqua
+	ProtoRoom:	sauria_room_sponda-lago-09
+	Destination:	5 1 0 sauria
+End
+RoomResets:
+	Comment:	corridoio est verso sotto acqua
+	ProtoRoom:	sauria_room_canneto-10
+	Destination:	5 2 0 sauria
+End
+RoomResets:
+	Comment:	corridoio est verso sotto acqua
+	ProtoRoom:	sauria_room_mezzo-lago-11
+	Destination:	5 3 0 sauria
+End
+RoomResets:
+	Comment:	sotto acqua
+	ProtoRoom:	sauria_room_nelle-profondita-lago-12
+	Destination:	5 3 -1 sauria
+End
+RoomResets:
+	Comment:	sotto acqua
+	ProtoRoom:	sauria_room_nelle-profondita-lago-80
+	Destination:	5 2 -1 sauria
+End
+RoomResets:
+	Comment:	sotto acqua
+	ProtoRoom:	sauria_room_nelle-profondita-lago-81
+	Destination:	6 3 -1 sauria
+End
+RoomResets:
+	Comment:	sotto acqua
+	ProtoRoom:	sauria_room_nelle-profondita-lago-82
+	Destination:	5 4 -1 sauria
+End
+RoomResets:
+	Comment:	sotto acqua
+	ProtoRoom:	sauria_room_nelle-profondita-lago-83
+	Destination:	4 3 -1 sauria
+End
+RoomResets:
+	Comment:	sotto acqua
+	ProtoRoom:	sauria_room_nelle-profondita-lago-84
+	Destination:	6 3 -2 sauria
+End
+RoomResets:
+	Comment:	caverna 
+	ProtoRoom:	sauria_room_caverna-oscura-85
+	Destination:	5 3 -2 sauria
+End
+
+RoomResets:
+	ProtoRoom:	sauria_room_amena-foresta-23
+	Destination:	3 3 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_amena-foresta-23-secret
+	Destination:	3 3 -1 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_amena-foresta-24
+	Destination:	2 3 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_amena-foresta-28
+	Destination:	3 4 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_amena-foresta-25
+	Destination:	1 3 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_amena-foresta-29
+	Destination:	2 4 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_amena-foresta-19
+	Destination:	1 2 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_amena-foresta-26
+	Destination:	0 3 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_radura-30
+	Destination:	1 4 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_amena-foresta-17
+	Destination:	0 1 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_amena-foresta-18
+	Destination:	-1 1 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_amena-foresta-20
+	Destination:	0 2 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_amena-foresta-21
+	Destination:	-1 2 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_amena-foresta-27
+	Destination:	-1 3 0 sauria
+End
+
+RoomResets:
+	ProtoRoom:	sauria_room_amena-foresta-37
+	Destination:	2 5 0 sauria
+End
+
+RoomResets:
+	ProtoRoom:	sauria_room_amena-foresta-41
+	Destination:	2 6 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_amena-foresta-42
+	Destination:	1 6 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_amena-foresta-43
+	Destination:	0 6 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_amena-foresta-44
+	Destination:	-1 6 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_amena-foresta-45
+	Destination:	2 7 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_amena-foresta-46
+	Destination:	1 7 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_amena-foresta-47
+	Destination:	0 7 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_amena-foresta-48
+	Destination:	-1 7 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_amena-foresta-40
+	Destination:	-1 5 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_amena-foresta-86
+	Destination:	3 5 0 sauria
+End
+
+
+RoomResets:
+	ProtoRoom:	sauria_room_immensa-prateria-50
+	Destination:	2 8 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_immensa-prateria-51
+	Destination:	1 8 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_immensa-prateria-52
+	Destination:	0 8 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_immensa-prateria-53
+	Destination:	-1 8 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_immensa-prateria-54
+	Destination:	2 9 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_immensa-prateria-55
+	Destination:	1 9 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_immensa-prateria-56
+	Destination:	0 9 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_immensa-prateria-57
+	Destination:	-1 9 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_immensa-prateria-58
+	Destination:	-2 9 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_immensa-prateria-59
+	Destination:	-2 8 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_immensa-prateria-60
+	Destination:	-3 9 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_immensa-prateria-61
+	Destination:	-3 8 0 sauria
+End
+
+
+
+
+
+RoomResets:
+	ProtoRoom:	sauria_room_nude-colline-62
+	Destination:	-4 8 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_nude-colline-63
+	Destination:	-3 7 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_nude-colline-64
+	Destination:	-4 7 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_nude-colline-65
+	Destination:	-4 6 0 sauria
+End
+
+RoomResets:
+	Comment:	zona medaglione archeopterix
+	ProtoRoom:	sauria_room_oltre-pertugio-66
+	Destination:	3 9 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_angusto-passaggio-67
+	Destination:	4 9 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_slargo-gomito-68
+	Destination:	5 9 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_covo-69
+	Destination:	5 8 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_cantina-fetida-70
+	Destination:	5 8 -1 sauria
+End
+
+RoomResets:
+	ProtoRoom:	sauria_room_piedi-vulcano-32
+	Destination:	-1 4 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_radura-31
+	Destination:	0 4 0 sauria
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	sauria_mob_grugrubo
+	End
+End
+RoomResets:
+	ProtoRoom:	sauria_room_radura-38
+	Destination:	1 5 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_radura-39
+	Destination:	0 5 0 sauria
+End
+
+RoomResets:
+	Comment:	inizio zona golem
+	ProtoRoom:	sauria_room_specchio-nero-87
+	Destination:	4 5 0 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_buio-della-mente-88
+	Destination:	0 0 10 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_cupola-ingresso-89
+	Destination:	1 0 10 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_studio-ottagonale-92
+	Destination:	2 0 10 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_cubicolo-vuoto-71
+	Destination:	3 0 10 sauria
+End
+
+RoomResets:
+	ProtoRoom:	sauria_room_sprazzi-memoria-90
+	Destination:	1 1 10 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_sprazzi-memoria-91
+	Destination:	1 -1 10 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_area-passaggio-74
+	Destination:	3 1 10 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_area-passaggio-96
+	Destination:	3 -1 10 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_colonne-disgregate-75
+	Destination:	5 2 10 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_colonne-disgregate-98
+	Destination:	5 -2 10 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_grotta-naturale-99
+	Destination:	4 0 10 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_grotta-naturale-77
+	Destination:	5 0 10 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_falda-acquifera-72
+	Destination:	6 0 10 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_grotta-naturale-73
+	Destination:	4 1 10 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_grotta-naturale-76
+	Destination:	5 1 10 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_grotta-naturale-78
+	Destination:	5 -1 10 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_grotta-naturale-79
+	Destination:	6 1 10 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_grotta-naturale-93
+	Destination:	6 -1 10 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_grotta-naturale-97
+	Destination:	4 -1 10 sauria
+End
+
+RoomResets:
+	ProtoRoom:	sauria_room_mente-riposa-94
+	Destination:	2 1 10 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_mente-riposa-95
+	Destination:	2 -1 10 sauria
+End
+
+
+RoomResets:
+	Comment:	zona tirannosauro
+	ProtoRoom:	sauria_room_cengia-33
+	Destination:	-1 4 1 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_cengia-34
+	Destination:	-1 3 1 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_cengia-35
+	Destination:	-2 3 1 sauria
+End
+RoomResets:
+	ProtoRoom:	sauria_room_burrone-36
+	Destination:	-2 3 0 sauria
+End

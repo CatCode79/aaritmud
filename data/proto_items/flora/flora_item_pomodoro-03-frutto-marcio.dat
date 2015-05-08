@@ -1,0 +1,43 @@
+Code: flora_item_pomodoro-03-frutto-marcio
+Level: 1
+MaxGlobalQuantity:	0
+Entitype: ENTITYPE.FOOD
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name: Un [red]Pomodoro[close] Ormai Marcio
+Short: un [yellow]pomodoro[close] sta marcendo
+Long:	$N qui in terra. 
+
+Descr:
+Questo pomodoro principalmente [red]rosso[close], presenta una serie di diverse
+colorazioni giallognole che ne denotano uno stato di marcescenza avanzata.
+Anche le piccole foglie nella parte estremale del picciolo, sono scure e
+rinsecchite. 
+
+DescrTouch:
+Il pomodoro ha perso la sua consistenza e si sfalda facilmente al tocco.
+
+DescrSmell: 
+Il tanfo di marcio e decomposizione si distingue nettamente arrivando a colpire
+con forza i tuoi sensi.
+
+DescrSixth:
+Non pensi sia il caso di mangiarlo.
+
+Value:	0
+Weight: 40g
+
+
+FoodType:
+	Comment:	cibo
+	Animal:	0
+	Vegetable:	100
+	CookingDamage:	0
+	Hours:	0
+End
+
+ContainerType:
+        MaxWeight: 10g
+End
+
+

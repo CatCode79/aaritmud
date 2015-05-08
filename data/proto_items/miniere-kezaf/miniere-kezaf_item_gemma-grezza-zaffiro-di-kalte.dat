@@ -1,0 +1,34 @@
+Code:	miniere-kezaf_item_gemma-grezza-zaffiro-di-kalte
+Level:	1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE 
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/crude_gem.png
+Name:	Uno [indianred]Zaffiro di Kalte[close] Grezzo
+Short:	un sassetto
+Long:	$N si nasconde qui in basso
+
+Descr:
+Una pietruzza grezza ed informe che spicca per la sua spigolosa personalità e
+l'indomito tentativo di mimetizzarsi con il resto.
+Buffi giochi di luce ne accarezzano uno spigolo rivelando un [indianred]grosso gristallo irregolare[close]. 
+
+DescrTouch: 
+Stringi in mano una pietra anonima vagamente spigolosa.
+Estratta a viva forza dal ventre della terra che l'ha tenuta celata per tutta la sua genesi.
+
+DescrSixth:
+Bisognerebbe pulire questa pietra e lavorarla per capire se si tratta di qualcosa di prezioso.
+
+DescrHearing:
+no_send
+
+DescrTaste:
+no_send
+
+DescrSmell:
+no_send
+
+Value:	0
+Weight: 210g

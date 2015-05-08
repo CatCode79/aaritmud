@@ -1,0 +1,18 @@
+Comment: Tre cesti di vimini sul tavolo ciascuno contenente pagnotte differenti 
+
+Code: citta-raminghe_item_cesto-vimini-pane-03
+Level: 3
+Entitype: ENTITYPE.CONTAINER
+MaterialPercentages:	MATERIAL.WICKERS	100%
+Name: [khaki]Cesto ovale di vimini[close]
+Short: un grande [khaki]cesto di vimini[close] di forma ovale
+Long:	$N contiene qualcosa di molto profumato
+Descr: Un cesto di vimini di forma ovale e abbastanza profondo.
+Value:	0
+Weight: 2kg
+
+ContainerType:
+        MaxWeight: 10kg
+End
+
+

@@ -1,0 +1,40 @@
+Code: karpuram_item_elmo-quercia
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.OAK	100
+Sex:	SEX.MALE
+Name:
+	L'[darkorchid]Elmo[close] di Quercia
+Short:
+	un [darkorchid]elmo[close] di legno
+Long:
+	Appoggiato sottosopra, $N è qui apposta per esser raccolto.
+
+Descr:
+Questo elmo è molto particolare, ricavato infatti da una parte di tronco
+di quercia. Si nota che è un pezzo unico realizzato appositamente da un
+falegname esperto perchè non presenta attaccature di altri materiali 
+in nessuna sua parte. L'elmo oltre a coprire permette di proteggere 
+anche il naso tramite un leggero ma deciso prolungamento.
+Dalla parte superiore dell'elmo si dipanano cinque linee di colore più chiaro
+volte a formare una strana figura geometrica. Queste sono incise con
+precisione nel legno.
+
+DescrTouch:
+Il legno volto a realizzare questo strano elmo è levigato in ogni sua parte,
+sia nella parte interna che in quella esterna. La strana figura realizzata nella
+parte superiore non presenta scalanature di alcun tipo.
+
+Extras:
+	Keywords: figura
+	Descr:
+	La figura rappresentata una stella a sette punte.
+End
+
+WearType:
+   Modes: PART.HEAD
+End
+
+Value:	0
+Weight: 410g

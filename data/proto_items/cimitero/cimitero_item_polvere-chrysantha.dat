@@ -1,0 +1,24 @@
+Code: cimitero_item_polvere-chrysantha
+Level: 1
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.DUST 100%
+Sex:	SEX.MALE
+Name:	Quel Che Ne Resta
+Short:	quel che ne resta
+Long:	$N del cadavere
+KeywordsName: polvere
+KeywordsShort: polvere
+
+Descr:
+L'opera del tempo pareva essersi fermata dinnanzi al dolore dipinto vivo sul corpo di
+Chrysantha. Forze che trascendono anche il tempo stesso hanno voluto ripristinare il
+corso del tutto. Ora di lei non resta che polvere.
+DescrTouch: 
+L'opera del tempo pareva essersi fermata dinnanzi alla salma di Chrysantha. Forze che
+trascendono anche il tempo stesso hanno voluto ripristinare il corso del tutto. Ora di
+lei non resta che polvere finissima che non bagna e scorre via.
+
+Value:	0
+Weight: 75g
+
+

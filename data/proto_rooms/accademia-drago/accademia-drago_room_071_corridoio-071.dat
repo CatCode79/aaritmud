@@ -1,0 +1,113 @@
+Code:	accademia-drago_room_071_corridoio-071
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Un Corridoio
+Short:	un corridoio
+	Descr:
+Sei entrato in un modesto corridoio, la pavimentazione è grigio
+scuro, le pareti sono ricoperte di drappi rossi fuoco mentre il
+soffitto a volta è affrescato con un paesaggio inquietante, il
+cratere di un vulcano...attivo...
+Ad ovest si trova una porta mentre ad est il corridoio prosegue.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 0
+Exits:
+	Direction:	DIR.EAST
+	Descr:	un corridoio
+	Comment:	ExitStatus	0 0 072 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	la piazza d'armi
+	Comment:	ExitStatus	1 0 048 -1
+	Door:	ikea_item_porta
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

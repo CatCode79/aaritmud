@@ -1,0 +1,36 @@
+Comment: piccolo cerchiolino di funghi che cresce proprio sotto al pietruzzone..propabilamente aiutato dallo sgocciolamento notturno. L'idea qui è Come quella delle matasse o del cumulo di stracci. Tu raccogli i funghetti dal cerchio te li pappi e muori :P no dai scherzo.
+Questo va nella room 0 del faggeto...all'interno della cupola.
+
+Code: villaggio-zingaro_item_fungo-02
+Icon:	icons/item/farinaccio.png
+
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.MUSHROOM 100%	
+Name:
+Un Creoptus Extenti
+Short:
+un farinaccio gemmato
+Long:
+$N è stato raccolto e posato qui.
+
+Descr:
+Un massiccio [darkturquoise]f[close][orangered]ung[close][darkturquoise]o[close] dall'improbabile colore. Dalla cappella tondeggiante e ripiegata verso l'interno, tra le lamelle, spunta un grosso gambo leggermente sporco di terra all'estremità inferiore. 
+DescrTouch: 
+Ti impiastricci le $hands toccando viscida cappella ricoperta di [darkturquoise]squame[close]. 
+DescrSmell: 
+Uhm..l'odore emanato è estremamente insolito per dei funghi, agrumato e resinoso. 
+DescrSixth:
+Intuisci che potrebbe avere delle proprietà benefiche, o più facilmente venefiche.
+DescrHearing:
+Ti pare di sentirlo borbottare, ma probabilmente è solo un'impressione.
+DescrTaste:
+In natura, solitamente, i colori vivaci sono indice di velenosità e pericolo..sei proprio sicur$O di voler rischiare? 
+
+Value:	0
+Weight: 85g
+
+
+
+

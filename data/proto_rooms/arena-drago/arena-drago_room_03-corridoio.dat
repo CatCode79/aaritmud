@@ -1,0 +1,60 @@
+Code:	arena-drago_room_03-corridoio
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Un Corridoio
+Short:	un corridoio
+	Descr:
+Ti trovi al secondo piano della struttura, un lungo corridoio
+procede verso est mentre a nord si apre una porta, a sud un'altra
+porticina conduce verso l'esterno. Qui l'ambiente sembra caldo e
+accogliente, un tappeto rosso attraversa tutto il corridoio e
+parecchie torce illuminano a giorno l'ambiente. Sulla porta a
+nord noti un cartello.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 0
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	Un'ampia stanza rettangolare
+	Comment:	ExitStatus	1 0 27704 -1
+	Door:	arena-drago_item_door-aula-magna
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	Un corridoio
+	Comment:	ExitStatus	0 0 27705 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	Porta
+	Comment:	ExitStatus	1 0 27658 -1
+	Destination:	3 10 0 accademia-drago
+End
+Extras:
+	Keywords:	cartello
+		Descr:
+------------------------------
+
+Orari Lezioni:
+
+7:00 - galateo
+8:00 - lettura del magico
+9:00 - storia dei cavalieri
+
+13:00 - anatomia del drago
+15:00 - finanza
+
+------------------------------
+
+Si ricorda a tutti gli studenti
+che le lezioni pratiche e gli
+esami si tengono nelle aule 
+dell'arena.
+
+------------------------------
+
+End

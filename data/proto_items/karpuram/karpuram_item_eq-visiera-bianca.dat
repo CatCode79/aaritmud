@@ -1,0 +1,30 @@
+Code:	karpuram_item_eq-visiera-bianca
+
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.SOFTWOOD	98
+MaterialPercentages:	MATERIAL.ELASTIC	2
+
+Sex:	SEX.MALE
+Name:	Una Visiera di legno [white]Bianca[close]
+
+Short:	una protezione di [white]legno[close] per il viso
+
+Long:	$N è qui in terra. 
+
+Descr:
+Una sottile protezione di legno bianco che permette di coprire unicamente la 
+parte superiore del viso relativa agli occhi e parte del naso. Questa piccola
+visiera può servire per evitare di farsi riconoscere anche se il suo colore
+non vi farà di certo passare inosservati. Un'elastico sempre di colore bianco
+permette di fermare saldamente la maschera al viso.
+
+Value:	0
+Weight:	50g
+
+WearType:
+   Modes: PART.FACE
+End
+
+

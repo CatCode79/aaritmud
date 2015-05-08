@@ -1,0 +1,46 @@
+Code: carrozzone-zingaro_room_tintoria-02
+Sector: SECTOR.HOUSE
+Flags: ROOM.INSIDE
+Name: L'Asciugatoria
+Short: uno stretto passaggio
+
+Descr:
+Lo stretto passaggio appare ingombro non tanto sul pavimento quando dal soffitto
+da dove pendono innumerevoli fili dai più disparati colori appesi ad asciugare.
+In un cantuccio c'è qualcosa che pare sia un topo morto annegato in una tinozza fucsia. 
+
+DescrNight:
+L'angusto passaggio appare ingombro non tanto sul pavimento quando sul soffitto da dove
+pendono innumerevoli fili appesi ad asciugare. In un cantuccio c'è qualcosa ma non si capisce bene cosa sia.
+DescrTouch:
+Innumerevoli fili dai colori più disparati sono appesi a gocciolare e ti strisciano sulla faccia.
+DescrSmell:
+Il sottile effulvio mette a disagio le tue narici ma è preferibile a quello che si respira in altre parti del carrozzone.
+
+DescrSixth:
+I gocciolii che ti carezzano con l'impatto della loro caduta potrebbero non essere solo acqua pura e cristallina.
+
+DescrHearing:
+Plic, plic, plic; saltuariamente intervallati dagli ansiti pigri dei cavalli che trainano il carrozzone
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Verso la testa del carrozzone
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Sbuffi di vapore celano la zona
+  DescrNight: Si vedono dei fornelli e dei pentoloni
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Pare una specie di laboratorio
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: In fondo al carrozzone
+End

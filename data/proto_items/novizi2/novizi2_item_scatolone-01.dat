@@ -1,0 +1,30 @@
+Code: novizi2_item_scatolone-01
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+MaterialPercentages:	MATERIAL.PAPER	100%
+Name:	Uno Scatolone
+Short:	uno scatolone
+Long:	$N rinforzato con del nastro
+
+Descr:
+Uno scatolone basso, ampio, rinforzato agli spigoli con del nastro adesivo.
+DescrTouch: 
+Uno scatolone basso, ampio e rinforzato agli spigoli.
+DescrSmell: 
+Uno scatolone rinforzato recentemente con del nastro adesivo scadente. 
+DescrSixth:
+C'è un modo piuttosto sterile pomposo ed inutilmente complicato di chiamare uno scatolone: "simplesso retto"...
+No, forse non era retto ma ortogonale? Bah...
+Chissà cosa induce a pensieri tanto assurdi.
+
+Value:	0
+Weight: 400g
+
+
+ContainerType:
+	Flags:	 CONTAINER.CLOSABLE 
+	MaxWeight:	10kg
+End

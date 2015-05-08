@@ -1,0 +1,51 @@
+Code: ikea_item_coin-human-copper
+Level: 1
+MaxGlobalQuantity:	0
+Icon: icons/money/human-copper.png
+Entitype:	ENTITYPE.MONEY
+Sex:	SEX.FEMALE
+Flags:	FLAG.RANDOMIZABLE
+MaterialPercentages:	MATERIAL.COPPER	100%
+Name:	Una Moneta di [tomato]Rame[close]
+Short:	una moneta di [tomato]rame[close]
+Long:	$N è qui facile preda dei più lesti
+
+Descr:
+Un piccolo [tomato]spicciolo[close] tondo e sottile in colore rosso scuro e con qualche sbavatura verde. 
+DescrTouch: 
+Un piccolo disco sottile con figure sulle due facce.
+DescrSmell: 
+Pecunia non olet, diceva qualcuno.
+DescrSixth:
+Piccolo il valore intriseco, piccolo quello estrinseco... insomma uno spicciolo.
+Ti sfugge l'occhio su dei [tomato]numeri[close] riportati sulla moneta.
+DescrHearing:
+Suono metallico esile quando la fai volare in aria con uno scatto delle dita. 
+DescrTaste:
+L'addenti per essere sicuro di... di..
+Beh, un motivo l'avarai di certo no?
+
+Value:	0
+Weight: 1g
+
+Extras:
+	Keywords:	data numeri
+        Comment: 1.0.3 è la rella che ha visto introdotta l'entitype money.
+	Descr:
+	uno zero tre 3009
+	DescrTouch:
+	È in rilievo in basso.
+	DescrSixth:
+	3009 è certo la data, uno zero tre invece...
+End
+Extras:
+	Keywords: iscrizione scritta motto
+	Descr:
+	[tomato]Sii tu, esecranda brama di ricchezze a regger l’appetito di noi mortali![close]
+	DescrTouch:
+	Scritte in rilievo ma troppo piccine per essere lette al tatto.
+End
+
+MoneyType:
+	CopperValue: 1
+End

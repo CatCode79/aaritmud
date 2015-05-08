@@ -1,0 +1,34 @@
+Code: ikea_item_pane
+Level: 1
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.FEMALE
+Flags:	FLAG.RANDOMIZABLE
+MaterialPercentages:	MATERIAL.FLOUR	75%
+MaterialPercentages:	MATERIAL.WATER	23%
+MaterialPercentages:	MATERIAL.SUGAR	2%
+Name:	Una Pagnotta
+Short:	una pagnotta
+Long:	Hanno lasciato qui $N.
+
+Descr:
+Una pagnottella di farina di frumento. Colore chiaro e ben cotta.
+DescrTouch: 
+Fragrante e di recente lavorazione.
+DescrSmell:
+Profuma ancora di fresco
+
+Value:	0
+Weight: 40g
+
+FoodType:
+	Comment:	cibo
+	Animal:	5
+	Vegetable:	95
+	CookingDamage:	5
+	Hours:	1
+	EntityMessage:	Briciole ovunque mentre ti gusti $N.
+	TargetMessage:	Ora c'è una sola via d'uscita... $n t'ha mangiato.
+	OthersMessage:	$n consuma $N distribuendo un sacco di briciole.
+End
+
+

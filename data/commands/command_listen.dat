@@ -1,0 +1,6 @@
+FunName:   command_listen
+Type:      CMDTYPE.INFORMATION
+Trust:     TRUST.PLAYER
+Position:  POSITION.REST
+Flags:     CMDFLAG.GDR
+MiniHelp:  Permette di ascoltare cosa c'è in una stanza o qualcosa in particolare.

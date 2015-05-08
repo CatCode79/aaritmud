@@ -1,0 +1,462 @@
+Comment: Questa è un'area scherzo messa lì per poi essere sviluppata in modo migliore successivamente
+
+Creators:	Sulfrum
+Code: mfdonald
+Name: Mfdonald
+Short: Mfdonald
+Descr:
+Gli esperimenti di un dissennato alchimista han creato un regno ove son messe a dura prova le leggi del creato. Gli Dei benigni, mossi a pietà per la sorte del folle alchimista lo hanno esiliato nel suo stesso mondo sigillandone la connessione con il nostro mondo.
+Color: COLOR.WHITE
+Level: 1
+Flags: AREA.DONT_LIST
+
+RepopTime: 20
+LandfillCode:	mfdonald_room_casa-entropy-verde
+
+RoomResets:
+  ProtoRoom: mfdonald_room_rogne_default
+	Destination:	-4 1 0 mfdonald
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity:	mfdonald_mob_tofano
+	End
+	EntityResets:
+		Quantity: 4
+		Type: RESET.ADD
+		ProtoEntity: mfdonald_item_banana
+	End
+End
+RoomResets:
+  ProtoRoom: mfdonald_room_casa-entropy-forse
+	Destination:	-8 0 0 mfdonald
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	mfdonald_item_tecia_01
+	End
+End
+RoomResets:
+  Comment: stanza con la porta puccettosa
+  ProtoRoom: mfdonald_room_casa-entropy-puccettosa
+	Destination:	-7 0 0 mfdonald
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: mfdonald_mob_unicorno-charlie
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: mfdonald_mob_unicorno-azzurro
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: mfdonald_mob_unicorno-rosa
+	End
+End
+RoomResets:
+  Comment: stanza con la porta adiabatica
+  ProtoRoom: mfdonald_room_casa-entropy-blu
+	Destination:	-6 0 0 mfdonald
+End
+RoomResets:
+  Comment: stanza con la porta verde
+  ProtoRoom: mfdonald_room_casa-entropy-verde
+	Destination:	-5 0 0 mfdonald
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.ADD
+		ProtoEntity:	mfdonald_mob_cucciolo-rugmet-14
+	End
+End
+RoomResets:
+  ProtoRoom: mfdonald_room_casa-entropy
+	Destination:	-4 0 0 mfdonald
+  EntityResets:
+    ProtoEntity: mfdonald_item_sabbietta
+    Quantity: 1
+  End
+
+  EntityResets:
+    ProtoEntity: mfdonald_item_rosa_01
+    Quantity: 1
+  End
+  EntityResets:
+    ProtoEntity: mfdonald_item_rosa_02
+    Quantity: 1
+  End
+  EntityResets:
+    ProtoEntity: mfdonald_item_rosa_03
+    Quantity: 1
+  End
+  EntityResets:
+    ProtoEntity: mfdonald_item_rosa_04
+    Quantity: 1
+  End
+  EntityResets:
+    ProtoEntity: mfdonald_item_rosa_05
+    Quantity: 1
+  End
+  EntityResets:
+    ProtoEntity: mfdonald_item_rosa_06
+    Quantity: 1
+  End
+  EntityResets:
+    ProtoEntity: mfdonald_item_rosa_07
+    Quantity: 1
+  End
+  EntityResets:
+    ProtoEntity: mfdonald_item_rosa_08
+    Quantity: 1
+  End
+  EntityResets:
+    ProtoEntity: mfdonald_item_rosa_09
+    Quantity: 1
+  End
+  EntityResets:
+    ProtoEntity: mfdonald_item_rosa_10
+    Quantity: 1
+  End
+  EntityResets:
+    ProtoEntity: mfdonald_item_rosa_11
+    Quantity: 1
+  End
+  EntityResets:
+    ProtoEntity: mfdonald_item_rosa_12
+    Quantity: 1
+  End
+  EntityResets:
+    ProtoEntity: mfdonald_item_rosa_13
+    Quantity: 1
+  End
+  EntityResets:
+    ProtoEntity: mfdonald_item_rosa_14
+    Quantity: 1
+  End
+  EntityResets:
+    ProtoEntity: mfdonald_item_rosa_15
+    Quantity: 1
+  End
+  EntityResets:
+    ProtoEntity: mfdonald_item_rosa_16
+    Quantity: 1
+  End
+  EntityResets:
+    ProtoEntity: mfdonald_item_rosa_17
+    Quantity: 1
+  End
+  EntityResets:
+    ProtoEntity: mfdonald_item_rosa_18
+    Quantity: 1
+  End
+  EntityResets:
+    ProtoEntity: mfdonald_item_rosa_19
+    Quantity: 1
+  End
+  EntityResets:
+    ProtoEntity: mfdonald_item_rosa_20
+    Quantity: 1
+  End
+  EntityResets:
+    ProtoEntity: karpuram_item_cofanetto_01
+    Quantity: 2
+  End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: mfdonald_mob_elefante
+  		EntityResets:
+    			ProtoEntity: mfdonald_item_strumenti-armonica
+    			Quantity: 1
+  		End
+	End
+End
+
+RoomResets:
+  Comment: qui resetto per provare le door
+  Month: MONTH.ONE
+  ProtoRoom: mfdonald_room_casa-entropy
+	Destination:	-4 0 0 mfdonald
+End
+
+RoomResets:
+  ProtoRoom: mfdonald_room_one
+  Month: MONTH.ONE
+
+	Destination:	-4 -1 0 mfdonald
+End
+RoomResets:
+  ProtoRoom: mfdonald_room_two
+  Month: MONTH.TWO
+	Destination:	-4 -1 0 mfdonald
+End
+RoomResets:
+  ProtoRoom: mfdonald_room_three
+  Month: MONTH.THREE
+	Destination:	-4 -1 0 mfdonald
+End
+RoomResets:
+  ProtoRoom: mfdonald_room_four
+  Month: MONTH.FOUR
+	Destination:	-4 -1 0 mfdonald
+End
+RoomResets:
+  ProtoRoom: mfdonald_room_five
+  Month: MONTH.FIVE
+	Destination:	-4 -1 0 mfdonald
+End
+RoomResets:
+  ProtoRoom: mfdonald_room_six
+  Month: MONTH.SIX
+	Destination:	-4 -1 0 mfdonald
+End
+RoomResets:
+  ProtoRoom: mfdonald_room_seven
+  Month: MONTH.SEVEN
+	Destination:	-4 -1 0 mfdonald
+End
+RoomResets:
+  ProtoRoom: mfdonald_room_eight
+  Month: MONTH.EIGHT
+	Destination:	-4 -1 0 mfdonald
+End
+RoomResets:
+  ProtoRoom: mfdonald_room_nine
+  Month: MONTH.NINE
+	Destination:	-4 -1 0 mfdonald
+End
+RoomResets:
+  ProtoRoom: mfdonald_room_ten
+  Month: MONTH.TEN
+	Destination:	-4 -1 0 mfdonald
+End
+RoomResets:
+  ProtoRoom: mfdonald_room_dollaro
+	Destination:	-4 -2 0 mfdonald
+  EntityResets:
+    ProtoEntity: karpuram_item_cofanetto_01
+    Quantity: 2
+  End
+End
+RoomResets:
+  ProtoRoom: mfdonald_room_vialetto
+	Destination:	-3 0 0 mfdonald
+  EntityResets:
+    ProtoEntity: mfdonald_item_rosa_01
+    Quantity: 1
+  End
+End
+RoomResets:
+  ProtoRoom: mfdonald_room_vialetto
+	Destination:	-2 0 0 mfdonald
+  EntityResets:
+    ProtoEntity: mfdonald_item_rosa_01
+    Quantity: 2
+  End
+End
+RoomResets:
+  ProtoRoom: mfdonald_room_vialetto-est
+	Destination:	-1 0 0 mfdonald
+  EntityResets:
+    ProtoEntity: mfdonald_item_voi-siete-qui
+    Quantity: 1
+  End
+End
+
+
+
+
+
+
+RoomResets:
+  ProtoRoom: mfdonald_room_negozio
+	Destination:	0 0 0 mfdonald
+  EntityResets:
+    ProtoEntity: mfdonald_item_rosa_01
+    Quantity: 5
+  End
+  EntityResets:
+    ProtoEntity: mfdonald_mob_mindflayer_01
+    Quantity: 1
+	EntityResets:
+		WearMode:	PART.RIGHT_WRIST
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	mfdonald_item_bracciale-cervello
+	End
+  	EntityResets:
+  		ProtoEntity: mfdonald_item_cervello
+  		Quantity: 20
+  	End
+  End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	mfdonald_item_cultistaaf-01
+	End
+  EntityResets:
+    ProtoEntity: mfdonald_item_spremuta
+    Quantity: 1
+  End
+  EntityResets:
+    ProtoEntity: mfdonald_item_frittella
+    Quantity: 1
+  End
+  EntityResets:
+    ProtoEntity: mfdonald_item_cervello
+    Quantity: 1
+  End
+  EntityResets:
+    ProtoEntity: mfdonald_item_flag_01
+    Quantity: 1
+  End
+  EntityResets:
+    ProtoEntity: mfdonald_item_anellino_ferro_01
+    Quantity: 1
+  End
+  EntityResets:
+    ProtoEntity: mfdonald_item_tecia_01
+    Quantity: 1
+  End
+
+	EntityResets:
+		Type: RESET.PUT
+		ProtoEntity: novizi2_item_moneta_01
+		Quantity: 4
+	End
+End
+RoomResets:
+  ProtoRoom: mfdonald_room_oggetto_nascosto
+	Destination:	0 -1 0 mfdonald
+  EntityResets:
+    ProtoEntity: mfdonald_item_cavatappi_farfalla
+    Quantity: 1
+  End
+  EntityResets:
+    ProtoEntity: mfdonald_item_apribottiglie_farfalla
+    Quantity: 1
+  End
+End
+
+RoomResets:
+  ProtoRoom: mfdonald_room_dispensa_01
+	Destination:	0 1 0 mfdonald
+End
+RoomResets:
+  Comment: Season : SEASON.AUTUMN
+  Month: MONTH.FOUR
+  Hour: 1
+  ProtoRoom: mfdonald_room_dispensa_01
+	Destination:	0 1 0 mfdonald
+End
+RoomResets:
+  Comment: Season : SEASON.SUMMER
+  Month: MONTH.FIVE
+  Hour: 1
+  ProtoRoom: mfdonald_room_dispensa_02
+	Destination:	0 1 0 mfdonald
+End
+
+RoomResets:
+  ProtoRoom: mfdonald_room_altro
+	Destination:	0 0 1 mfdonald
+End
+RoomResets:
+  Comment: Season: SEASON.SPRING
+  Month: MONTH.TWO
+  ProtoRoom: mfdonald_room_primavera
+	Destination:	0 0 1 mfdonald
+End
+RoomResets:
+  Comment: Season: SEASON.SUMMER
+  Month: MONTH.FIVE
+  ProtoRoom: mfdonald_room_estate
+	Destination:	0 0 1 mfdonald
+End
+RoomResets:
+  ProtoRoom: mfdonald_room_01
+	Destination:	1 0 0 mfdonald
+End
+RoomResets:
+  ProtoRoom: mfdonald_room_miml-zone-01
+	Destination:	2 0 0 mfdonald
+	EntityResets:
+		Quantity:	10
+		Type: 	RESET.PUT
+		ProtoEntity: 	ikea_item_volantino
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	ikea_item_espositore
+	End
+End
+
+RoomResets:
+  ProtoRoom: mfdonald_room_prima-stanza
+	Destination:	1 2 0 mfdonald
+End
+RoomResets:
+  ProtoRoom: mfdonald_room_ingresso
+	Destination:	1 1 0 mfdonald
+End
+RoomResets:
+  ProtoRoom: mfdonald_room_ingresso-bis
+	Destination:	1 -1 0 mfdonald
+End
+
+
+
+
+
+RoomResets:
+  ProtoRoom: mfdonald_room_transport_mfdonald
+	Destination:	1 0 1 mfdonald
+  EntityResets:
+    ProtoEntity: mfdonald_item_fetta_torta_01
+    Quantity: 2
+  End
+End
+RoomResets:
+  Hour: 2
+  Minute: 10
+  ProtoRoom: mfdonald_room_transport_torreelementi
+	Destination:	1 0 1 mfdonald
+  EntityResets:
+    Type: RESET.REMOVE
+    ProtoEntity: mfdonald_item_matita_01
+    Quantity: 2
+  End
+  EntityResets:
+    Type: RESET.PUT
+    ProtoEntity: mfdonald_item_anello_ematite_01
+    Quantity: 1
+  End
+End
+RoomResets:
+  Hour: 4
+  ProtoRoom: mfdonald_room_transport_opekus
+	Destination:	1 0 1 mfdonald
+  EntityResets:
+    Type: RESET.REMOVE
+    ProtoEntity: mfdonald_item_anello_ematite_01
+    Quantity: 3
+  End
+  EntityResets:
+    Type: RESET.PUT
+    ProtoEntity: mfdonald_item_matita_01
+    Quantity: 1
+  End
+End
+RoomResets:
+  Hour: 6
+  ProtoRoom: mfdonald_room_transport_siepi
+	Destination:	1 0 1 mfdonald
+End
+RoomResets:
+  ProtoRoom: mfdonald_room_transport_mfdonald
+  Hour: 8
+	Destination:	1 0 1 mfdonald
+End

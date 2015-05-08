@@ -1,0 +1,19 @@
+Code: cimitero_item_chiave-sarcofago-mirna
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.KEY
+MaterialPercentages:	MATERIAL.BRASS 100%
+Sex:	SEX.FEMALE
+Name:	La Chiave del Sarcofago di Mirna
+Short:	una statuina a riccio
+Long:	$N riluce qui
+
+Descr:
+La miniatura di un animale con un muso troppo affusolato che termina a forma di chiave.
+DescrTouch: 
+Una miniatura d'un animale con il muso puntuto ed un terminale a guisa di chiave.
+DescrSixth:
+Una chiave metallica che sembra sia stata usata pochissimo.
+
+Value:	0
+Weight: 75g

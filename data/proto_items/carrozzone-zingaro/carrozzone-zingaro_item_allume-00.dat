@@ -1,0 +1,28 @@
+Comment:
+-anche questa si prende a pezzetti...ma se si prende a pezzetti dovrei fare il singolo pezzetto..
+-questo è inchiodato al suo contenitore, come la polverina, quindi posso fare dei riferimenti al vasetto...vabbè io ci provo al massimo cambierai.
+-nel vasetto 1
+
+Code: carrozzone-zingaro_item_allume-00
+
+Level:	1
+Entitype: ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.CRISTAL 100%
+Name:	Dei Cristalli d'Allume
+Short:	delle schegge di pietruzze
+Long:	$N sono state versate qui.
+
+Descr:
+Dei cristalli frantumati e traslucidi a pezzatura disomogenea; le venature più bianche che si intravedono li fanno assomigliare a pezzi di ghiaccio.
+DescrTouch:
+Infili la $hand nel vasetto dove sono contenuti questi invitanti blocchetti e per un pelo non ci resti incastrat$o.
+DescrTaste:
+Ignorando le più elementari norme di prudenza, dai una leggera leccatina a questi sassetti; il gusto non ti ricorda nulla di noto ma è decisamente astringente.
+DescrSixth:
+Tanto affascinanti quanto ignote, cerchi di immaginarti a cosa possano servire ma ti riesce difficile... che si sciolgano in acqua?
+
+Value:	0
+Weight: 130g
+
+

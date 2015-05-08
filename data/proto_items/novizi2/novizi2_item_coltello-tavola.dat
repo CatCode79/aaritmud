@@ -1,0 +1,29 @@
+Code: novizi2_item_coltello-tavola
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAPON
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.STEEL	100%
+Name:	Un Piccolo Coltello da Tavola
+Short:	un coltello da tavola
+Long:	$N senza filo qui a lato.
+
+Descr:
+Un coltello da tavola fatto apposta per non tagliare e per far desistere qualunque utilizzo che non sia da arma contundente
+DescrTouch: 
+Uno dei classici coltelli da tavola usati nelle mense che talvolta tagliano di più se impugnati dalla parte della lama.
+DescrSixth:
+Abile artigiano di esperienza si deve essere rifiutato di eseguire un lavoro del genere; quindi deve essere stato realizzato
+da qualcun'altro.
+DescrTaste:
+Ti atteggi a killer psicopatic$o leccando la lama di un oggetto che potrebbe trasmetterti tutte le malattie conosciute e sconosciute mai apparse su questa terra.
+
+Value:	0
+Weight: 70g
+
+
+WeaponType:
+	Category:	WEAPON.DAGGER
+	Damage:	1D2+0
+	Flags:	WEAPONFLAG.ONE_HAND 
+End

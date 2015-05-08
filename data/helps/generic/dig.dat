@@ -1,0 +1,23 @@
+Code: dig
+
+ItalianKeywords: scava sotterra
+EnglishKeywords: dig bury
+
+Entitype: HELP.GENERIC
+
+Text:
+Puoi scavare e sotterrare oggetti mediante l'uso dei comandi $tdig e 
+$tbury. Gli oggetti sotterrati non sono visibili ai giocatori, anche
+se usano incantesimi come 'locate object'. Per dissotterrare un oggetto
+scrivi $tdig senza argomenti, mentre se scavi in una certa direzione proverai 
+ad aprire un'uscita. Avere una pala aumenta la tua possibilità di successo.
+
+Per seppellire un oggetto (o un corpo), posa l'oggetto a terra e scrivi
+$tbury &lt;[darkgreen]oggetto[close]&gt;, a seconda delle dimensioni e del peso dell'oggetto 
+puoi aver bisogno di una pala.
+
+NB: I giocatori assassini possono seppellirsi e dissotterrarsi i corpi a 
+vicenda.
+
+Gli oggetti sotterrati non resteranno li dopo un crash o un riavvio. Non 
+provare ad usare questa abilità per immagazzinare oggetti che vuoi conservare.

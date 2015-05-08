@@ -1,0 +1,39 @@
+Code: flora_item_leccio-08-fiorito
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Flags: FLAG.NO_GET
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name: Un Bel [saddlebrown]Leccio[close] Adulto [lightgreen]in fiore[close]
+Short: un [saddlebrown]leccio[lightgreen] in fiore[close]
+
+Descr:
+Un leccio dalla chioma ovaleggiante e con il fusto che pare cresciuto indeciso tanto
+da non trovare un tratto che sia dritto per più di un palmo.
+La chioma è fitta di folte infiorescenze pendule che paion bianche a causa del contrasto con le foglie
+
+DescrTouch: 
+Un leccio adulto, dal fusto percorso da asperità regolari come se uno spiritello l'avesse
+quadrettato per noia.
+
+Extras:
+  Keywords: corteccia quadretto quadretti screpolature screpolatura
+  Descr: tutto ricoperto da piccole placche persistenti di forma approssimativamente quadrata
+  DescrTouch: tutto ricoperto da placche persistenti che proprio non si voglion staccare
+End
+
+Value:	0
+Weight: 150kg
+
+PlantType:
+    Sectors:	SECTOR.PLAIN SECTOR.HOUSE
+    RpgHours:	100
+    WorseEntity:	flora_item_leccio-09-maturo
+    NormalEntity:	flora_item_leccio-09-maturo
+    BetterEntity:	flora_item_leccio-09-maturo
+    Contents:	flora_item_leccio-01-ghianda-viva 4
+    Contents:	flora_item_leccio-02-ghianda-morta 1
+End
+
+

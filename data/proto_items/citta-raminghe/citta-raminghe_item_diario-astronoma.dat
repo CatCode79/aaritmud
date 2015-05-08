@@ -1,0 +1,31 @@
+Code: citta-raminghe_item_diario-astronoma
+Level: 3
+Sex:	SEX.MALE
+Entitype: ENTITYPE.READABLE
+MaterialPercentages:	MATERIAL.LEATHER	10%
+MaterialPercentages:	MATERIAL.PAPER	90%
+
+Name:	[deeppink]Il diario delle memorie di Betelgeuse L'Astronoma[close] 
+Short:	[deeppink]un diario di memorie[close]
+Long:	$N richiuso e tenuto con cura
+
+Descr: 
+Vergato ad inchiostro splendente nelle prime pagine riesci a leggere:[white]
+
+Vivevo in una città ricca e fiorente abitata da uomini e donne di indole pacifica. Un giorno la mia città venne 
+assalita da un esercito di [brown]orchi[white], [purple]nani[white], [green]thepa[white] e [darkslategray]drow[white] 
+che distrussero buona parte della città e  fecero prigionieri numerosi abitanti.
+Ero allora una giovane ragazza che studiava all’[yellow]Accademia dei Saperi Universali[white] e mi piaceva molto. Dicevano
+ che mostravo  buone doti di intuizione e osservazione. Studiavo il moto degli astri e osservavo le stelle per comprendere le leggi che regolano i loro meccanismi. Sono stata rapita dagli [brown]orchi[white] e costretta a vivere come schiava presso 
+la loro comunità. Non potevo resistere a lungo in quella situazione di dolore e sofferenza. Grazie alla mia  grande determinazione, dopo qualche tempo sono riuscita a fuggire. Gli Elfi e le Frijen mi aiutarono nell'impresa e queste mi  ospitarono 
+sino a che  divenni forte abbastanza per riprendere il cammino alla ricerca di un luogo 
+che potesse accogliermi per sempre, dove stabilire la mia dimora.
+Raminga girai a lungo per contrade e villaggi prima di giungere qui dove fui attratta dalla 
+grande [yellow]Torre per guardare le Stelle[white]. E divenne la mia casa.[close]
+    
+
+Value:	0
+Weight: 447g
+
+
+

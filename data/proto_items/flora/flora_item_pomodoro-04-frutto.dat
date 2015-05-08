@@ -1,0 +1,40 @@
+Code: flora_item_pomodoro-04-frutto
+Level: 1
+Icon:	icons/food/tomato.png
+MaxGlobalQuantity:	0
+Entitype: ENTITYPE.FOOD
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.FRUIT	100%
+Name: Un [red]Pomodoro[close]
+Short: un bel [red]pomodoro[close] maturo
+Long:	$N si trova qui.
+
+Descr:
+Un frutto di pomodoro presenta la giusta colorazione rossastra, ha una forma
+tondeggiante leggermente irregolare alla base e un picciolo centrale di colore
+verde dal quale si dipanano cinque piccole foglie quasi filiformi.
+
+DescrTouch:
+Al tatto si presenta piuttosto solido e compatto, potrebbe cedere e sfaldarsi
+se pressato troppo, specialmente ai lati.
+
+DescrSmell:
+Emana un profumo intenso e fresco che ti stimola l'appetito.
+
+Value:	0
+Weight: 50g
+
+
+FoodType:
+	Comment:	cibo
+	Animal:	0
+	Vegetable:	100
+	CookingDamage:	0
+	Hours:	0
+End
+
+ContainerType:
+        MaxWeight: 10g
+End
+
+

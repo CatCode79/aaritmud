@@ -1,0 +1,45 @@
+Code: novizi2_item_barattolo
+Level: 2
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+Flags:	FLAG.NO_GET
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.METAL	100%
+Name:	Un Barattolo di Vernice
+Short:	un barattolo
+Long:	$N incollato a terra
+
+Descr:
+Un barattolone cilindrico alto oltre una spanna disposto in un angolo.
+La chiusura del barattolo è fatta con un collare metallico azionabile tramite una sorta di levetta.
+DescrTouch: 
+Un barattolone appiccicoso alto oltre una spanna in un angolo della stanza.
+DescrSmell: 
+Un olezzo aromatico persistente e pesante sempre più intenso man mano che ti chini ad annusare.
+DescrSixth:
+Non è certamente cibo, quantomeno non per la tua razza.
+DescrHearing:
+I tuoi $feet appiccicano al pavimento e quando li muovi fanno il caratteristico rumore dell'adesivo che si stacca.
+DescrTaste:
+#self is CONTAINER.CLOSED#Difficile tentare un assaggio di un barattolo chiuso ma forse basta aprirlo.#Atroce e terribile saporaccio e forse è anche velenoso.#
+
+Value:	0
+Weight: 3kg
+
+ContainerType:
+	EntityOpenMessage:	Apri con cautela $N usando due dita della $hand.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre con cautela $N usando solo due dita della $hand.
+	EntityCloseMessage:	Appoggi il coperchio di $N e premi per chiuderlo.
+	TargetCloseMessage:	Finalmente $n si è degnat$o di chiuderti.
+	OthersCloseMessage:	$n appoggia il coperchio di $N e preme un po' per chiuderlo.
+
+	EntityUnboltMessage:	Azioni la levetta e allarghi il collare di $N.
+	TargetUnboltMessage:	Attent$O, $n ti ha unboltat$O.
+	OthersUnboltMessage:	$n aziona la levetta e allarga il collare di $N.
+	EntityBoltMessage:	Afferri la levetta del collare e sigilli $N.
+	TargetBoltMessage:	Finalmente $n si è degnat$o di boltarti.
+	OthersBoltMessage:	$n afferra la levetta del collare e sigilla $N.
+	Flags:	 CONTAINER.CLOSED CONTAINER.EATKEY  CONTAINER.BOLTED CONTAINER.BOLTABLE CONTAINER.CLOSABLE
+	MaxWeight:	10kg
+End

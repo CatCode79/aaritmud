@@ -1,0 +1,20 @@
+Code:	arena-drago_item_chiave-acciaio
+Level:	06
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.STEEL 100%
+Sex:	SEX.FEMALE
+Name:	Una Semplice Chiave in Acciaio
+Short:	una semplice chiave in acciaio
+
+Value:	0
+Weight: 30g
+
+Descr:
+Una semplice chiave in acciaio senza alcun segno particolare.
+Comment:
+§27724
+
+Dati Obj
+18 262144 1|163840 0 0 01 0 -1
+
+

@@ -1,0 +1,25 @@
+Code: citta-raminghe_item_food-bistecca-pepe
+Level: 2
+Entitype: ENTITYPE.FOOD
+MaterialPercentages:	MATERIAL.MEAT	100%
+Name: Una Bistecca al Pepe Verde
+Short: una bistecca al pepe verde
+Descr: 
+Una succulenta, enorme, gustosa [coral]bistecca[close] che attende di essere assaporata.Il suo aspetto invitante ti sollecita a non indugiare oltre.
+Grani di [lightgreen]pepe verde[close] la rendono sublime.
+DescrTaste: 
+Un po' speziata e indiscutibilmente ottima da mangiare.
+DescrSixth:
+Senti come  la tua forza fisica e mentale si stia rinvigorendo.
+
+Value:	0
+Weight: 358g
+
+
+FoodType:
+	Comment:	cibo
+	Animal:	80
+	Vegetable:	20
+	CookingDamage:	20
+	Hours:	0
+End

@@ -1,0 +1,24 @@
+Code: miniere-kezaf_item_gemma-opale
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_opal.png
+Name:	Un Opale
+Short:	una pietra blu da lavorare
+Long:	$N si trova qui
+
+Descr:
+Una particolare iridescenza interna attraversa la pietra grezza come a cercare di farsi
+largo e a volersi mostrare nel suo puro splendore. All'attuale però ci vuole un esperto per lavorarla.
+
+DescrSixth:
+Un opale, che opportunamente lavorato può consentire di infrangere lo spettro della luce per saminarne i puri colori in un turbinio di punteggiature.
+
+Value:	0
+Weight: 210g
+
+
+
+

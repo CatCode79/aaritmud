@@ -1,0 +1,41 @@
+Code:	karpuram_item_eq-spada-uruk
+
+Level:	10
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAPON
+MaterialPercentages:	MATERIAL.IRON	80
+MaterialPercentages:	MATERIAL.BRASS	15
+MaterialPercentages:	MATERIAL.BRONZE	5
+Sex:	SEX.FEMALE
+Name:	La spada di Uruk il Domatore
+
+Short:	uno strano oggetto simile a una frusta
+
+Long:	$N riluce sinistramente qui in terra.
+
+Descr:
+La lunga impugnatura di ferro e l'elsa sono le sole parti realmente solide di 
+questo strano oggetto, una lama molto lunga e nera caratterizza questa specie
+di spada frusta. La lama è composta da diverse parti unite tra loro e semoventi,
+quando la spada viene impugnata risulta solida e compatta e queste diversità
+s'irrigidiscono andando a formare un'unico pezzo. Su quattro dei numerosi pezzi
+che compongono la lama vi sono incise delle lettere che unite formano la parola
+"URUK".
+
+Extras:
+	Keywords:	pezzi numerosi
+	Descr:
+	Si contano quattordici pezzi in totale.
+End
+Value:	0
+Weight:	1kg
+
+WeaponType:
+        Category: WEAPON.WHIP
+	Damage:	3D4+0
+        Flags: WEAPONFLAG.ONE_HAND 
+End
+
+WearType:
+   Modes: PART.WIELD
+End

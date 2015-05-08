@@ -1,0 +1,17 @@
+Code: socials
+
+ItalianKeywords: sociali 
+EnglishKeywords: socials 
+
+Entitype: HELP.INFO
+
+Text:
+Il comando $tsocials mostra l'elenco completo dei sociali disponibili.
+Con $tsocials [darkgreen]italiano[close] avrai l'elenco dei sociali in italiano, mentre per
+la lista in inglese usa $tsocials [darkgreen]inglese[close], il comando $tsocials [darkgreen]traduzione[close]
+mostra la lista dei sociali nella tua lingua con accanto la traduzione.
+
+Se vuoi cercare un sociale particolare usa $tsocials &lt;[darkgreen]sociale cercato[close]&gt; e
+ti saranno mostrati tutti i sociali con la parola che hai inserito.
+
+SeeAlso: emote

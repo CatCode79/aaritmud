@@ -1,0 +1,5 @@
+FunName:  command_bug
+Type:     CMDTYPE.CHANNEL
+Trust:    TRUST.PLAYER
+Position: POSITION.DEAD
+MiniHelp: Serve per segnalare agli amministratori la presenza di un bug.

@@ -1,0 +1,80 @@
+Code: karpuram_mob_musico_01
+Level: 07
+
+Sex:	SEX.MALE
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Un Elfo Musico
+Short: un elfo musico
+Long:	$N sta suonando una melodia
+Race: RACE.WOODELF
+
+Descr:
+Ha un semplice abito verde scuro, una cintura di cuoio leggero e una piccola
+sacca di tela dalla quale spunta un sottile flauto. Impugna con entrambe le
+mani uno strumento a corda di modeste dimensioni lavorato interamente a mano.
+Oltre alle caratteristiche tipiche della sua razza, in testa porta con molta
+fierezza un [lightyellow]cappello[close] di paglia con una [midnightblue]piuma[close].
+
+
+DescrHearing:
+Un soave e intenso suono si diffonde dallo strumento suonato dall'elfo.
+
+Extras:
+	Keywords: strumento
+	Descr:
+	Si tratta di una Viella, molto simile nelle forme ad una chitarra, ma
+	decisamente più maneggevole e dal suono delicato.
+End
+
+
+
+
+Behaviour:
+	LookPlayer:	10
+	LookMob:	10
+	LookItem:	10
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	5
+	LookDirection:	5
+	LookExit:	20
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	50
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NORTH DIR.NORTHEAST DIR.EAST DIR.SOUTHEAST DIR.SOUTH DIR.SOUTHWEST DIR.WEST DIR.NORTHWEST DIR.DOWN DIR.UP
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+Weight: 55kg
+Height: 180cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 90
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

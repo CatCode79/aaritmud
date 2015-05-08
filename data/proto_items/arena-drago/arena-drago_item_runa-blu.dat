@@ -1,0 +1,19 @@
+Code:	arena-drago_item_runa-blu
+Level:	06
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.METAL 100%
+Sex:	SEX.FEMALE
+Name:	Una Runa [mediumblue]blu[close]
+Short:	una runa [mediumblue]blu[close]
+Long:	$N è abbandonata qui come se fosse qualcosa di nessun valore...
+
+Value:	0
+Weight: 150g
+
+Descr:
+Una piccola runa di metallo [mediumblue]blu[close].
+Comment:
+§27710
+
+Dati Obj
+8 262144 10 0 0 01 0 -1

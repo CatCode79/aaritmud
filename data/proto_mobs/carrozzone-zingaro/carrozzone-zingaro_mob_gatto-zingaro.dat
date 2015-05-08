@@ -1,0 +1,94 @@
+Code:	carrozzone-zingaro_mob_gatto-zingaro
+Level:	1
+Sex:	SEX.FEMALE
+Race:	RACE.CAT
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT FLAG.NO_GET
+Icon:	icons/mob/cat-01.png
+Name:	Uriel la Gatta
+Short:	una gatta
+Long:	$N consacra la propria esistenza al torpore
+
+Descr:
+Una torpidissima gatta portatrice di sbadigli estremamente contagiosi. All'orecchio
+sinistro ha un foro o forse una lacerazione.
+DescrTouch:
+Appena tenti di avvicinare la $hand, le zampine della bestia sfoderano artigli che
+farebbero desistere un goblin masochista.
+DescrSmell:
+Come ogni buon gatto è pulitissimo. È il mondo esterno che puzza.
+DescrHearing:
+Pare che stia facendo le fusa ma quando tendi l'orecchio... smette...
+DescrTaste:
+Vorresti leccare e lisciare il pelo ad un gatto? Oltre che grave scortesia è anche un buon
+sistema per rimetterci un occhio.
+
+Weight: 4430g
+Height: 30cm
+
+Extras:
+       Keywords: orecchie orecchio orecchia lacerazione foro
+       Descr:
+       Noti che si tratta invece di un simbolo tatuato oppure
+       un marchio impresso o non si capisce bene cosa...
+       DescrSixth:
+       Noti che si tratta di una voglia bordeaux di forma runica.
+End
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 7
+
+Behaviour:
+	LookPlayer: 4
+	LookMob: 4
+	LookItem: 4
+	LookAtRacesFlags: RACE.NONE
+	LookAtRaces: 0
+	LookAtEntitypesFlags: ENTITYPE.NONE
+	LookAtEntitypes: 0
+	LookSelf: 0
+	LookDirection: 4
+	LookExit: 0
+	LookWall: 0
+	LookClosedDoor: 0
+	LookExtra: 0
+	WanderDirection: 0
+	WanderExit: 0
+	WanderWall: 0
+	WanderClosedDoor: 0
+	WanderAtExitsFlags: DIR.NONE
+	WanderAtExits: 0
+	WanderArea: 0
+	WanderPortal: 0
+	WanderEnterContainer: 0
+	WanderExitContainer: 0
+	WanderSelf: 0
+	RandomDo: 4
+	RandomDoInputs: emote si lava dietro le orecchie.
+	RandomDoInputs: emote si lecca.
+	RandomDoInputs: emote muove la coda con aria stizzita.
+	RandomDoInputs: emote segue una mosca con lo sguardo.
+	RandomDoInputs: emote cambia posizione.
+	RandomDoInputs: emote si stiracchia.
+	RandomDoInputs: emote si stiracchia e cambia posizione.
+	RandomDoInputs: emote sbadiglia stirando le zampe ed arricciando la lingua.
+	RandomDoInputs: say mewh.. mewh..
+	RandomDoInputs: emote appare immersa in profonda... meditazione.
+	RandomDoInputs: emote si affila le unghie sul qualcosa che non vedi.
+End
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

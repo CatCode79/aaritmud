@@ -1,0 +1,49 @@
+Code: cimitero_room_collina-c33-solved
+Sector: SECTOR.HILL
+Name: Sopra la Cascata
+Short: al dirupo
+
+Descr:
+La strada digrada un po' in questa zona affossandosi fino ad arrivare ad una sorta di acquitrino basso e melmoso. Verso nord la strada termina di brusco con un precipizio. Verso la parte ovest, oltre l'acquitrino, si vede un'apertura che emerge dall'acqua.
+DescrSmell: 
+La zona collinare è avvolta dagli abbracci languidi dell'odore di spezie e decomposizione.
+Per alcuni tratti si coglie però una scia che rimane la stessa per un certo tratto.
+DescrHearing:
+Il sibilo del vento produce un lugubre suono cupo sostenuto negli effetti lungo le
+lapidi frastagliate.
+
+Extras:
+	Keywords: scia
+	DescrSmell:
+	Lungo il tratto di sentiero che hai appena seguito l'odore più significativo è stato quello di #SMELL.
+End
+
+Extras:
+	Keywords: simboli
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+Width:	6m
+Depth:	6m
+Height: 113m
+
+
+Exits:
+	Direction: DIR.SOUTHEAST
+	Descr: Il sentiero bagnato
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: Non si scorge nulla oltre l'apertura
+End

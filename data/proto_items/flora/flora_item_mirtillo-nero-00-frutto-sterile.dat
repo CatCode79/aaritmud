@@ -1,0 +1,43 @@
+Code: flora_item_mirtillo-nero-00-frutto-sterile
+Level: 1
+Icon:	icons/plant/mirtillo-nero.png
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.SEED
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.FRUIT	100%
+Name: Un Mirtillo [darkslateblue]Nero[close]
+Short: un [darkslateblue]mirtillo[close]
+Long:	c'è $N qui
+Descr:
+Un piccolo frutto globoso nero-bluastro, dalla parte opposta del picciolo ha una
+parte appiattita in luogo di una cicatrice circolare. 
+
+
+DescrTouch:
+è maturo e turgido quanto basta per essere conservato senza grosse precauzioni.
+
+Value:	0
+Weight: 1g
+
+Extras:
+  Keywords: nero
+  Descr: nero con ancora ombre rosse ed una puntina di verde, forse è ancora un po' acerbo.
+End
+
+FoodType:
+	Comment:	cibo
+	Animal:	0
+	Vegetable:	100
+	CookingDamage:	0
+	Hours:	0
+End
+
+SeedType:
+    Sectors:	SECTOR.PLAIN SECTOR.HOUSE
+    RpgHours:	100
+    WorseEntity:	flora_item_mirtillo-nero-00-frutto-marcio
+    NormalEntity:	flora_item_mirtillo-nero-00-frutto-marcio
+    BetterEntity:	flora_item_mirtillo-nero-00-frutto-marcio
+End
+
+

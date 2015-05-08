@@ -1,0 +1,31 @@
+Code: siepi_item_lanterna_01
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.BRASS	100%
+Name: Una Lanterna Ammaccata
+Short: una vecchia lanterna
+Long:	$N è appoggiata qui in piedi
+Descr:
+Una piccola lanterna ad olio in ottone completamente traforata e con la curiosa forma
+di un torrione. Sul fianco c'è uno sportellino dal quale si intravvede il vano per la
+candela.
+
+Value:	0
+Weight: 225g
+
+DescrTouch:
+La lanterna ha lo sportellino che non si riesce a tenere chiuso per via di un'ammaccatura.
+
+
+Extras:
+  Keywords: sportello sportellino  
+  Descr: uno sportellino dalla forma di porticina tutta traforata
+End
+
+Extras:
+  Keywords: ammaccatura
+  Descr: l'ammaccatura ha deformato il gancetto per la chiusura dello sportellino, peccato
+End
+
+

@@ -1,0 +1,25 @@
+Code: novizi2_item_semi-frutta
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.FRUIT	100%
+Name:	Un Misto di Semi e Frutta
+Short:	un misto di semi e frutta
+Long:	$N non dovrebbe essere qui
+
+Descr:
+Un mix di frutta e sementi varie fra cui distingui ghiande e mirtilli.
+DescrTouch: 
+Un mix di frutta e sementi varie fra cui distingui ghiande e mirtilli, ad anche roba troppa matura...
+DescrSmell: 
+Un mix di frutta varia ma l'odore più forte è certo il mirtillo.
+DescrSixth:
+Plausibilmente alcune cose saran più buone come cibo che come semente e forse alcune solo come concime.
+DescrTaste:
+Indecis$o... sei indecis$o su cosa assaggiare nello specifico.
+
+Value:	0
+Weight: 7kg
+
+

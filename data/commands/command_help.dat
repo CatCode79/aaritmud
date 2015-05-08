@@ -1,0 +1,5 @@
+FunName:  command_help
+Type:     CMDTYPE.INFORMATION
+Trust:    TRUST.PLAYER
+Position: POSITION.DEAD
+MiniHelp: Serve a cercare e leggere argomenti di aiuto.

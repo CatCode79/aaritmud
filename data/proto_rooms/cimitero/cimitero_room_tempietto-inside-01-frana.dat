@@ -1,0 +1,25 @@
+Code: cimitero_room_tempietto-inside-01-frana
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Solo Terra
+Short: una frana
+
+Descr:
+	Arranchi sulla terra che è franata ostruendo parzialmente il cunicolo arrivando ad
+	un vicolo cieco. Dove non arriva la terra vedi nuda roccia scavata rozzamente. Qua
+	e là ossa in frantumi sulle quali il tempo ha avuto la meglio.
+DescrSmell: 
+	L'odore d'umido è ai limiti dell'insopportabile.
+DescrSixth:
+	L'odore dell'umidità che ristagna su un fondo d'ossa antiche e stanche, offre notevoli
+	spunti di riflessione sulla caducità della vita ma prima di tutto sulla possibilità che
+	tale odore possa essere nefasto.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Un incrocio
+End

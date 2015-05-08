@@ -1,0 +1,25 @@
+Code: siepi_item_timo_01
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name: Una Pianticella di Timo
+Short: una pianticella
+Descr:
+Una piccola pianticella che pare un cespuglio in miniatura, con foglie strette e
+rametti legnosi
+
+Value:	0
+Weight: 89g
+
+DescrTouch: pure i rametti piccini so già legnosi 
+DescrSmell: Woah! che aroma! Questo è timo selvatico
+
+Extras:
+  Keywords: timo
+  Descr: anche gli arcimaghi lo usano, ma non si sa bene per cosa
+  DescrSmell: odore gradevole ed aromatico
+End
+
+
+

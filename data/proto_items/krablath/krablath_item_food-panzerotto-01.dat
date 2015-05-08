@@ -1,0 +1,34 @@
+Code: krablath_item_food-panzerotto-01
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.FLOUR	60%
+MaterialPercentages:	MATERIAL.WATER	10%
+MaterialPercentages:	MATERIAL.VEGETABLES	15%
+MaterialPercentages:	MATERIAL.EGG 5%
+MaterialPercentages:	MATERIAL.CHEESE	10%
+Name:	Un Panzerotto alla Borragine
+Short:	un [sandybrown]panzerotto[close]
+Long:	$N è qui ancora fumante.
+
+Descr:
+Una mezzaluna di pasta ripiena cotta al forno, lungo tutto il bordo sono impressi segni di forchetta.
+DescrTouch: 
+Una mezzaluna di pasta ripiena cotta al forno croccante e ben calda.
+DescrSmell: 
+Un intenso aroma di verdura cotta.
+
+Value:	0
+Weight: 97g
+
+FoodType:
+	Comment:	cibo
+	Animal:	0
+	Vegetable:	100
+	CookingDamage:	7
+	Hours:	0
+	EntityMessage:	Prendi $N fra le $hands e lo addenti con gusto.	
+	TargetMessage:	Ora c'è una sola via d'uscita... $n t'ha mangiato.
+	OthersMessage:	$n prende fra le $hands $N e lo addenta.
+End

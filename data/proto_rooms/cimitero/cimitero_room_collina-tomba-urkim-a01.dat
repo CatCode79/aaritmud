@@ -1,0 +1,64 @@
+Code: cimitero_room_collina-tomba-urkim-a01
+Sector: SECTOR.HILL
+Name: Una Tomba
+Short: una tomba
+
+Descr:
+La camera sepolcrale è spoglia, disadorna, depredata o forse profanata.
+I decori e le pitture che la arricchivano sono consunti dal tempo e dove il tempo non è arrivato ci ha pensato qualcun altro.
+L'altare centrale è ancora intatto ma privato dei simboli e dei doni che dovevano pur essere presenti.
+Su uno dei lati sono stati accumulate le macerie originate dal saccheggio.
+DescrTouch:
+La camera sepolcrale è spoglia, disadorna, depredata o forse profanata;
+le decorazioni alla pareti sono state abrase e rimosse grossolanamente.
+L'altare centrale è ancora intatto pur se provato da scalfitture importanti.
+Un cumulo di macerie è stato accatastato sul lato sud.
+
+DescrSmell: 
+Un sentore stantio stratificato nel tempo, rischia di farti venir meno.
+
+DescrSixth:
+Ti metti dietro l'altare e la visione d'insieme ti convince che non può essere tutto qui... questa pare essere tutto sommato la zona d'accesso a delle cappelle o qualcosa di simile.
+
+
+Extras:
+	Keywords:	cumulo macerie sud
+	Descr:
+	Un cumulo di macerie addossato alla parete sud.
+	DescrSixth:
+	Dietro al cumulo di macerie sulla parete sud c'è evidentemente un accesso; ci sarà un po' da scavare...
+End
+Extras:
+	Keywords:	east est
+	Descr:
+	Quello che sembrava uno dei tanti segni di degrado si rivela essere in verità il fermo di una specie di lapide.
+	DescrTouch:
+	La $hand scorre su una sporgenza, un fermo che consente di aprire qui dietro.
+	DescrSixth:
+	Evidentemente questo è un fermo che consente di aprire qui dietro.
+End
+Extras:
+	Keywords: altare
+	Descr:
+	Un pianale in pietra porfidica poggia su una coppia di stilofori a forma di pesce
+End
+
+Width:	6m
+Depth:	6m
+Height: 6m
+
+
+Exits:
+	Direction:	DIR.UP
+	Descr:	L'esterno
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	La tomba principale
+	Door:	cimitero_item_door-a01-fermo
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	La tomba minore
+        Flags:	EXIT.DIGGABLE
+End

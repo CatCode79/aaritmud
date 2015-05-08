@@ -1,0 +1,38 @@
+Code: sauria_item_door-roccia-01
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.STONE	100%
+Name:	Una Roccia Tufica
+Short:	una roccia tufica
+Long:	$N smossa di recente
+
+KeywordsShort:	roccia pietra pietre rocce sasso sassi
+KeywordsName:	roccia pietra pietre rocce sasso sassi
+
+Descr:
+Una roccia tufica parzialmente smossa.
+DescrTouch: 
+Una roccia porosa parzialmente smossa.
+
+Value:	0
+Weight: 20kg
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Apri $N usando ambo le $hands.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N usando ambo le $hands.
+	EntityCloseMessage:	Accompagni $N fino a chiuderla.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n accompagna $N fino a chiusura.
+	DestinationOpenMessage: $N viene apert$o dal lato opposto.
+	DestinationCloseMessage: $N viene chius$o dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE DOOR.SECRET DOOR.NO_USE_DIR
+	ResetCloseMessage: $N si ribalta su un lato occludendo il passaggio.
+	ResetOpenMessage: $N si ribalta su un lato rivelando il passaggio.
+End
+
+

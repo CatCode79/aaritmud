@@ -1,0 +1,48 @@
+Code: citta-raminghe_room_01-piazzale-alberato
+Sector: SECTOR.CITY
+Name:	[springgreen]Un piazzale alberato[close]
+Short: [springgreen]Un piazzale alberato[close]
+
+Descr:
+Si trova proprio all'ingresso della città. Abbellito da [lime]aiuole fiorite[close], [green]alberi maestosi[close] e da 
+[yellow]fontane zampillanti[close]. Chi giunge dopo un lungo viaggio può trovarvi ristoro. 
+Comode [lawngreen]panchine[close] consentono di riposarsi. Un [red]chiosco[close] proprio al centro del 
+piazzale vende cibo e bevande. Molta gente l'attaversa da una parte all'altra, molti si soffermano come se aspettassero 
+qualcosa o qualcuno, altri ancora conversano animatamente. C'è chi si guarda intorno con aria smarrita cercando di orientarsi e di decidere che direzione prendere.
+DescrNight:
+Si trova proprio all'ingresso della città. Abbellito da [lime]aiuole fiorite[close] e da 
+[yellow]fontane zampillanti[close]. Chi giunge dopo un lungo viaggio può trovarvi ristoro. 
+Comode [lawngreen]panchine[close] consentono di riposarsi. Un [red]chiosco[close] proprio al centro del 
+piazzale vende cibo e bevande. Non c'è anima viva adesso, se non qualche [orangered]gatto[close] di passaggio o qualcuno che 
+ama andare in giro di notte immerso nel silenzio della città dormiente, almeno in apparenza.
+
+  
+DescrSmell: 
+Profumi di una città operosa e vivace.
+DescrSmellNight:
+Profumi di una città notturna. 
+DescrSixth:
+Sei giunto in un luogo dove nulla è ciò che sembra, potrai scoprire molte cose e stupirti solo se avrai
+ [yellow]occhi[close] abbastanza aperti per poterle vedere, uno sguardo che saprà andare al di là delle apparenze..
+DescrHearing:
+Avverti i suoni e i rumori di una città in attività
+DescrHearingNight:
+Avverti i suoni e i rumori di una città che riposa in apparenza.
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.EAST
+	Descr: In città
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: In città
+End
+Exits:
+	Direction: DIR.SOUTH
+	Descr: La Casa del Guardiano
+End

@@ -1,0 +1,23 @@
+Comment: Tre pagnotte per ogni cesto di vimini
+
+Code: citta-raminghe_item_pane-farro
+Level: 3
+Entitype: ENTITYPE.FOOD
+MaterialPercentages:	MATERIAL.BREAD	100
+Name: [burlywood]Pagnotta di Farro[close]
+Short: una [burlywood]pagnotta di farro[close]
+Long: $N dal profumo inebriante
+Descr: Una pagnotta di forma ovale dalla crosta morbida 
+DescrSmell: Una scia di profumo di pane appena sfornato
+Value:	0
+Weight: 500g
+
+FoodType:
+	Comment:	cibo
+	Animal:	0
+	Vegetable:	100
+	CookingDamage:	20
+	Hours:	0
+End
+
+

@@ -1,0 +1,21 @@
+Code: villaggio-zingaro_item_fascetta-carta-03
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.PAPER 100%	
+Name:	Una [chocolate]Fascetta[close] di Carta
+Short:	una [chocolate]fascetta[close] di carta
+Long:	$N avvolge $i
+
+Descr:
+Una [chocolate]fascetta[close] di carta chiusa con un punto metallico, qua e là noti il disegno di un [yellow]limone[close].
+DescrTouch: 
+Una fascetta di carta ruvida.
+
+Value:	0
+Weight: 1g
+
+ContainerType:
+	MaxWeight:	500g
+End

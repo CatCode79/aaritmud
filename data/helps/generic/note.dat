@@ -1,0 +1,32 @@
+Code: note
+
+ItalianKeywords: nota 
+EnglishKeywords: note 
+
+Entitype: HELP.INFO
+
+Text:
+I [darkgreen]comandi[close] che si possono utilizzare sono i seguenti:
+      $tlist, $tread, $twrite, $tsubject, $tto, $tshow, 
+      $tpost, $tremove, $ttake, $tdate
+
+Il comando $tlist ti mostra tutte le note che possono essere lette, se invece
+scrivi $tlist &lt;[darkgreen]numero[close]&gt; avrai la lista di tutte le note da quel numero in
+avanti.
+Devi essere vicino ad una bacheca per vedere la lista delle note.
+
+Esempio:  $tnote $tlist      mostra tutte le note di una bacheca.
+          $tnote $tlist 10   mostra la nota 10 e le successive di una bacheca.
+
+Il comando $tread serve per leggere il contenuto di una nota, per farlo dovrete
+far seguire al comando il numero della nota che vi interessa.
+Per leggere una nota dovete trovarvi vicino alla bacheca che la contiene.
+
+Esempio:  $tnota $tread 5    mostra la nota numero 5.
+
+Il comando $twrite ti apre un editor con cui puoi scrivere il testo di una 
+nota, per poterla scrivere devi tenere in mano un foglio ed avere una penna 
+od una matita in inventario.
+(Per l'utilizzo dell'[darkgreen]editor[close] vedi $thelp [darkgreen]editor[close])
+
+SeeAlso: mail

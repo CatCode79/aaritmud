@@ -1,0 +1,25 @@
+Code: citta-raminghe_item_food-dolce-vaniglia
+Level: 2
+Entitype: ENTITYPE.FOOD
+MaterialPercentages:	MATERIAL.FLOUR	20%
+MaterialPercentages:	MATERIAL.MILK	50%
+MaterialPercentages:	MATERIAL.SUGAR	30%
+Name: Un Dolce alla Vaniglia
+Short: un dolce alla vaniglia
+Descr: 
+L'estasi gustativa qui raggiunge livelli inimmaginabili. Una [khaki]crema densa e morbida[close] che sprigiona essenze quando affondi il cucchiaio e l'avvicini al tuo palato.
+DescrTaste:
+Il sapore dolce e intenso della [khaki]vaniglia[close] ti sollecita esperienze meditative inaspettate.
+DescrSixth:
+Un'[khaki]essenza[close] che conduce verso le strade del pensiero aumenta la forza della tua concentrazione.
+Value:	0
+Weight: 53g
+
+
+FoodType:
+	Comment:	cibo
+	Animal:	80
+	Vegetable:	20
+	CookingDamage:	20
+	Hours:	0
+End

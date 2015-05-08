@@ -1,0 +1,69 @@
+Code:   citta-raminghe_mob_spettatore-elfo
+Level:  2
+Sex:    SEX.MALE
+Race:   RACE.WOODELF
+Name:   Uno Spettatore Elfico
+Short:  uno spettatore dai tratti d'elfo
+Long:   $N volge lo sguardo su qualcosa
+
+Descr:
+Un giovane elfo segue lo spettacolo con molto interesse anche se a volte il suo sguardo vaga 
+per gli spalti alla ricerca di qualcosa o di qualcuno. Ha lunghe orecchie che fanno capolino 
+dalla folta [green]capigliatura[close] verdognola. La pelle è chiara e liscia e 
+non si intuisce facilmente se si tratti di un maschio o di una femmina. 
+Indossa un abito marrone molto semplice di seta lucida.
+
+
+DescrSmell:
+Odori di muschio selvatico, sapone aromatico e tiglio ti colpiscono.
+DescrSixth:
+Potrebbe sorprenderti la sua destrezza in netto contrasto con la sua fragilità .
+
+Weight: 50kg
+Height: 185cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 65
+
+MaxLife:        100
+Life:           100
+MaxMana:        200
+Mana:           200
+MaxVigour:      150
+Vigour:         150
+
+Strength:       10
+Endurance:      15
+Agility:        19
+Speed:          20
+Intelligence:   19
+Willpower:      19
+Personality:    18
+Luck:           18
+
+Behaviour:
+        LookPlayer:     0
+        LookMob:        0
+        LookItem:       0
+        LookAtRacesFlags:       RACE.DWARF
+        LookAtRaces:    30
+        LookAtEntitypesFlags:   ENTITYPE.NONE
+        TasteAtEntitypesFlags:  ENTITYPE.NONE
+        WanderDirection:        0
+        WanderExit:     0
+        WanderWall:     0
+        WanderClosedDoor:       0
+        WanderAtExitsFlags:     DIR.NONE
+        WanderAtExits:  0       
+        WanderArea:     0
+        WanderPortal:   0
+        WanderEnterContainer:   0
+        WanderExitContainer:    0
+        WanderSelf:     0
+        RandomDo:       5
+        RandomDoInputs: emote sorride lievemente mentre applaude.
+        RandomDoInputs: say Se state così in piedi...non vedo nulla!
+        RandomDoInputs: say Bravi! Bravi!
+        RandomDoInputs: emote si muove con il busto per vedere meglio.
+End

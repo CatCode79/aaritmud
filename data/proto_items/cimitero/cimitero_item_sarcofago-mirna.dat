@@ -1,0 +1,48 @@
+Code: cimitero_item_sarcofago-mirna
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+MaterialPercentages:	MATERIAL.MARBLE 33%
+MaterialPercentages:	MATERIAL.ONYX 33%
+MaterialPercentages:	MATERIAL.OBSIDIAN 34%
+Flags:	FLAG.NO_GET
+Sex:	SEX.MALE
+Name:	Il Sarcofago di Mirna
+Short:	un sarcofago di pietra
+Long:	$N sostenuto da un basamento policromo
+
+Descr:
+La tua immagine cupa ti osserva nel riflesso di un sarcofago lucido come uno specchio e nero come la notte.
+Solo ai bordi inferiori uno zoccolo decorato da una zigrinatura nera sul nero che si vede solo in controluce.
+DescrTouch: 
+Una struttura ampia a sufficienza per consentirgli di custodire la salma in tutta comodità.
+Con la $hand sul bordo riesci a scovare un'invisibile serratura
+DescrSmell: 
+L'odore dell'ambiente circostante è troppo intenso per poter discernere qualcosa.
+DescrSixth:
+Dentro a questo pesante sarcofago riposa la salma di un dignitario o di una personalità importante.
+
+DescrHearing:
+Saltuariamente si sente un tonfo provenire dall'interno.
+
+Value:	0
+Weight: 1000kg
+
+Extras:
+	Keywords: zoccolo zigrinatura bordo bordi
+	Descr:
+	Un'iscrizione percorre a giro l'intero perimetro.
+	DescrTouch:
+	Un'iscrizione percorre a giro l'intero perimetro.
+	DescrSixth:
+	Un'iscrizione recita: sit tibi terra levis
+End
+
+ContainerType:
+	KeyCode:	cimitero_item_chiave-sarcofago-mirna
+	EntityOpenMessage:	Alzi la pietra superiore di $N.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n alza la pietra superiore di $N.
+	Flags:	 CONTAINER.CLOSED CONTAINER.LOCKED CONTAINER.CLOSABLE
+	MaxWeight:	2000kg
+End

@@ -1,0 +1,37 @@
+Code: torreelementi_item_fungo_gabbia_01
+Level: 1
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name: Un Cuore di Strega Maturo
+Short: un piccolo fungo [red]rubescente[close] a [red]gabbia[close]
+Long:	$N fa bella mostra di sé qui
+Descr:
+Un fungo dalla forma improbabile; si tratta di una sorta di gabbia rosso scarlatta
+a maglie molto larghe con vaga forma di pallottina.
+
+Value:	0
+Weight: 500g
+
+DescrTouch: 
+Morbida al tatto ma al suo interno è piena di mucillagine zaccherosa e putrescente
+DescrSmell: 
+Non è che ci sia scappato il morto, è proprio questo fungo che olezza di cadavere
+in modo imbarazzante!
+DescrTaste:
+Con che coraggio? Ha il sapore peggiore di cui hai memoria e ti dà l'assoluta certezza
+di non volerci riprovare neppure sotto tortura
+DescrSixth:
+Da quanto senti e vedi ti vien istintivo associarne il nome ai rari [orange]Cuori di
+Strega[close], dei racconti uditi da fanciullo.
+
+
+FoodType:
+	Comment:	cibo
+	Animal:	80
+	Vegetable:	20
+	CookingDamage:	20
+	Hours:	0
+End
+
+

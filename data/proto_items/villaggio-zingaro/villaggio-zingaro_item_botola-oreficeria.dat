@@ -1,0 +1,38 @@
+Code: villaggio-zingaro_item_botola-oreficeria
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.HARDWOOD 90%
+MaterialPercentages:	MATERIAL.METAL 10%
+Name:	La Botola dell'oreficeria
+Short:	una botola nascosta 
+Long:	$N è qui
+
+Descr:
+Una botola in legno realizzata in modo che quando è chiusa diventi invisibile alla vista. Le assi sono in legno massiccio come il resto del pavimento.
+DescrTouch: 
+Le assi sono perfettamente levigate e passandoci la mano sembra che vi abbiano appena passato la cera.
+DescrSixth:
+Se non è stata cambiata di recente di certo si è mantenuta in ottime condizioni. Se non si fosse a conoscenza della sua esistenza difficilmente si riuscirebbe a scorgerla.
+
+Value:	0
+Weight: 200g
+
+DoorType:
+PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Infilando a fatica le dita in uno strettissimo spiraglio riesci ad aprire $N.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n infila a fatica le dita in uno strettissimo spiraglio riesce da aprire $N.
+	EntityCloseMessage:	Chiudi $N con un tonfo sordo.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n chiude $N con un tonfo sordo.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE DOOR.SECRET DOOR.NO_USE_DIR
+	ResetCloseMessage: $N si chiude con un tonfo sordo.
+	ResetOpenMessage: $N si apre senza emettere alcun rumore.
+End
+
+

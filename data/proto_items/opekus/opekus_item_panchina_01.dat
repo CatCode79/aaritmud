@@ -1,0 +1,32 @@
+Code: opekus_item_panchina_01
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.WOOD	70%
+MaterialPercentages:	MATERIAL.METAL	30%
+Name: La Panchina del Ricordo
+Short: una panchina
+Long:	$N aspetta tempi migliori
+
+Flags: FLAG.NO_GET
+
+Descr:
+	Ben conservata tanto da esser ancora utilizzabile, dalla linea morbida e con quel tipo
+	di schienale a listelli orizzontali per i quali è preferibile sedersi a terra
+
+Value:	0
+Weight: 60kg
+
+DescrTouch: 
+	Scomoda a meno di non avere dei motivi per sedercisi
+
+
+Extras:
+ 	Keywords: ricordo
+ 	Descr:
+		È un gran bel ricordo
+	DescrSixth:
+		È un ricordo che lento sbiadisce definitivamente
+End
+
+

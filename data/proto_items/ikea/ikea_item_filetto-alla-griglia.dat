@@ -1,0 +1,36 @@
+Code: ikea_item_filetto-alla-griglia
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.MEAT	100%
+Name:	Un Filetto Alla Griglia
+Short:	un filetto alla griglia
+Long:	$N in un piatto da portata
+
+Descr:
+Un pezzo di carne cotto da entrambi i lati coperto da una leggera patina di grasso sciolto
+DescrTouch: 
+La carne di questo animale è morbida e compatta
+DescrSmell: 
+Il profumo di carne cotta ti fa venire l'acquolina in bocca
+DescrSixth:
+Pare che quel povero animale non se la sia passata troppo bene
+DescrTaste:
+Senti l'inconfondibile pizzicore di pepe macinato
+DescrHearing:
+Si sente ancora lo sfrigolio del grasso che si scioglie
+
+Value:	98
+Weight: 120g
+
+FoodType:
+	Comment:	cibo
+	Animal:	99
+	Vegetable:	1
+	CookingDamage:	1
+	Hours:	0
+	EntityMessage:	Mangi tutto voracemente liberandoti del piatto.	
+	TargetMessage:	Ora c'è una sola via d'uscita... $n t'ha mangiato.
+	OthersMessage:	$n Ripulisce $N come se non mangiasse da mesi.
+End

@@ -1,0 +1,5 @@
+FunName:  command_countflags
+Type:     CMDTYPE.ADMIN
+Trust:    TRUST.MASTER
+Position: POSITION.DEAD
+MiniHelp: Elenca il numero di entità presenti nel gioco con una determinata flag

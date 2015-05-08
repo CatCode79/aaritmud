@@ -1,0 +1,25 @@
+Code: cimitero_room_collina-c-interno-palazzo
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Il Palazzo Akelay
+Short: un basso palazzo
+
+Descr:
+Un pavimento tesserato [red]rosso[close] e [gray]nero[close] parzialmente obliato dalla
+polvere e nulla più. Il grigiore uniforme del tempo appiattisce tutto quello che resta.
+La luce che filtra dalle finestre risulta ingrigita anch'essa in osservanza all'ambiente circostante.
+
+DescrNight:
+Un pavimento tesserato [red]rosso[close] e [gray]nero[close] parzialmente obliato dalla polvere e nulla più. Il grigiore uniforme del tempo appiattisce tutto quello che resta.
+
+
+
+
+Width:	6m
+Depth:	6m
+Height: 4m
+
+Exits:
+	Direction: DIR.WEST
+	Descr: All'esterno
+End

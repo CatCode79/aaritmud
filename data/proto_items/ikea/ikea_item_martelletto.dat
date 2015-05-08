@@ -1,0 +1,37 @@
+Code: ikea_item_martelletto
+
+Level:	1
+MaxGlobalQuantity:	0
+Entitype: ENTITYPE.NONE
+Sex:	SEX.MALE
+Flags:	FLAG.RANDOMIZABLE
+MaterialPercentages:	MATERIAL.WOOD	30%
+MaterialPercentages:	MATERIAL.METAL	70%
+Name:	Un Martelletto
+Short:	un  martello da lavoro
+
+Descr: 
+Un normale martello da lavoro, presenta un'impugnatura di legno levigato e leggermente consunto versoi il centro dove sicuramente viene impugnato, 
+all'estremità si trova un cilindro di ferro smussato agli angoli e molto consumato simmetricamente sui due lati.
+
+DescrSmell:
+L'odore del ferro e del legno si mescolano a quello meno intenso di sudore.
+
+DescrTouch:
+La parte ferrosa è smussata e calda, mentre la parte relativa all'impugnatura
+in legno è ben levigata.
+
+DescrSixth:
+Un normale martello da lavoro, può essere usato per la lavorazione di pelli e 
+cuoio, oppure assieme ad uno scalpello per lavorare il legno e talvolta pietre
+e marmi. Presenta un'impugnatura di legno levigato e leggermente consunto verso
+
+Value:	0
+Weight: 2kg
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

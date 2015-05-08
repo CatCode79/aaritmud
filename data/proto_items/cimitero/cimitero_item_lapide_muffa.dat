@@ -1,0 +1,65 @@
+Code: cimitero_item_lapide_muffa
+Level: 1
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.STONE 100%
+Sex:	SEX.FEMALE
+Flags:	FLAG.NO_GET
+Name: Una Lapide Obliata
+Short: una lapide nascosta
+Long:	$N e infissa nel terreno.
+
+Descr:
+Non riesci a comprendere di che materiale sia effettivamente fatta questa
+lapide, uno strato di muffa e piante rampicanti ricopre per intero tutta la 
+costruzione. Una moltitudine di insetti sembra gradire questa sorta di 
+protezione naturale che le piante hanno creato attorno alla lapide.
+
+DescrNight:
+Completamente ricoperta di muffa e piante, fai molta fatica a riconoscere in 
+questo piccolo montarozzo, una lapide tra le altre. Insetti di ogni tipo e
+fattezza sembrano non gradire la tua presenza, ma si sentono protetti dalle
+piante che circondano la lapide.
+
+DescrHearing:
+Una moltitudine di suoni e rumori proviene dalla lapide, insetti e piccoli
+animaletti si muovono da e verso questa piccola struttura che sembra ormai
+dedicata ad uso di abitazione.
+
+DescrSmell:
+Il tanfo di muffa e morte è davvero nauseante, corpi di insetti morti e piccoli
+animali non fanno che aumentare la puzza proveniente da questa lapide.
+
+DescrSmellNight:
+L'odore di muffa e sporcizia è davvero nauseante, l'umidità della sera aumenta
+poi a dismisura questo tanfo, tanto da farti desistere dall'avvicinarti oltre.
+
+DescrTouch:
+Tocchi la lapide cercando di capire dove finiscano le piante rampicanti e dove
+inizi la reale struttura marmorea della lapide, ma anche spostando le foglie
+con le dita non ti riesce di vedere altro che piante e muffa.
+
+DescrSixth:
+Il tuo intuito ti sconsiglia vivamente di avvicinarti troppo all'intrico di
+foglie e piante che sembrano porsi a protezione della lapide.
+
+DescrSixthNight:
+Sembra che oltre ai soliti insetti, all'interno dell'intrico di piante e muffa
+presenti intorno a questa lapide, viva qualcosa di molto più pericoloso.
+
+Value:	0
+Weight: 150kg
+
+Extras:
+	Keywords: insetti
+	Descr
+	Di varie dimensioni e forma, un gran numero di insetti ha costruito la 
+	propria dimora tra le foglie dei rampicanti cresciuti su questa lapide.
+End
+Extras:
+	Keywords: rampicanti
+	Descr 
+	Tutti intorno alla lapide formano una sorta di scudo di foglie che gli 
+	insetti del luogo usano come protezione e dimora
+End	
+
+

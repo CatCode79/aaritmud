@@ -1,0 +1,22 @@
+Code: novizi2_item_statua-guerra-strategia
+Level: 1
+MaxGlobalQuantity:	1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+Flags:	FLAG.NO_GET FLAG.NO_LOOK_LIST
+MaterialPercentages:	MATERIAL.MARBLE	100%
+Name:	La Statua Simbolo della Strategia
+Short:	la statua della Strategia
+Long:	$N è qui
+
+Descr:
+Un vecchio seduto su un panchetto lucida una spada dedicandoti parte del suo sguardo.
+
+DescrTouch: 
+Un vecchio seduto su di un panchetto che ha smesso di lucidare una spada ti osserva facendoti presagire che non ha gradito le tue mani addosso alla sua arma.
+
+DescrSixth:
+Un ottima strategia consentirà alfine di poter arrivare in vecchiaia.
+
+Value:	0
+Weight: 430kg

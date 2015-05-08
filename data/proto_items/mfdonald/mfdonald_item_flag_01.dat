@@ -1,0 +1,29 @@
+Code: mfdonald_item_flag_01
+Level: 1
+Entitype:	ENTITYPE.CONTAINER
+BirthDay: 11
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.UNKNOWN	100%
+Name: La flag Preferita dal Gatto
+Short: la flag preferita dal gatto
+Descr:
+Con il suo scintillio metallico, i cerchi in lega e le corde in nylon riconosci
+ immediatamente la flag più mnemonica che il gatto abbia mai concepito:
+[red]REMOVE_NO_LOOK_LIST_ON_ACTION_BUT_ONLY_IF_IT_S_RAINING_ENOUGH_AND_IF_TODAY_IS_MONDAY_PLEASE_GIVE_UP[close].
+
+
+Value:	0
+Weight: 500g
+
+ContainerType:
+	EntityOpenMessage:	Apri $N usando ambo le $hands.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N usando ambo le $hands.
+	EntityCloseMessage:	Accompagni $N fino a chiuderl$O.
+	TargetCloseMessage:	Finalmente $n si è degnat$o di chiuderti.
+	OthersCloseMessage:	$n accompagna $N fino a chiusura.
+	Flags:	CONTAINER.CLOSED CONTAINER.CLOSABLE
+        MaxWeight: 10kg
+End
+
+

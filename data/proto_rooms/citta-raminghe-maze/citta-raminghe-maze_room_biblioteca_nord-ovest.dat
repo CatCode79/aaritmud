@@ -1,0 +1,26 @@
+Code: citta-raminghe-maze_room_biblioteca_nord-ovest
+Sector: SECTOR.HOUSE
+Flags:  ROOM.INSIDE
+Name: Un Misterioso Passaggio 
+Short: un [red]oscuro passaggio[close]
+Descr:
+Ti pieghi per poterlo attraversare tanto è bassa la volta. Qualcosa ti sfiora sul viso creando in te una certa inquietudine. 
+Sarà solo una ragnatela o qualcosa o qualcuno che vaga, allo stesso tuo modo, alla ricerca di un significato 
+per questo girovagare.
+
+
+DescrSixth:
+Tanti vagano per questi luoghi provenienti da un passato antico o recente.
+
+Width:  10m
+Depth:  10m
+Height: 100m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: in biblioteca
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: in biblioteca
+End

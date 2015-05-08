@@ -1,0 +1,26 @@
+Code: ikea_item_camicia
+Level: 1
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.FEMALE
+Flags:	FLAG.RANDOMIZABLE
+MaterialPercentages:	MATERIAL.CLOTH	100%
+Name:	Una Camicia da Paesano
+Short:	una camicia a tunica senza bottoni
+Long:	$N giace qui abbandonata
+
+Descr:
+Una camicia di stoffa di medio spessore tessuta al telaio. Le maniche finiscono senza polsi ed è priva di colletto. È aperta sul davanti fino a meta sterno e si chiude con un laccio che passa in tre coppie di asole.
+DescrTouch: 
+La stoffa è spessa e ogni tanto presenta dei nodini dovuti ad imprecisioni della lavorazione al telaio. 
+DescrSmell: 
+Profuma di bucato.
+DescrSixth:
+Una semplice camicia da villico. Orientata alla praticità più che all'apparenza può essere utile anche all'avventuriero novizio. È abbastanza pesante da fare la sua parte nel riparare dal freddo.
+
+Value:	0
+Weight: 210g
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+	Modes: PART.TORSO
+End

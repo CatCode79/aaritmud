@@ -1,0 +1,62 @@
+Code:	villaggio-zingaro_mob_millepiedi-ciambella
+
+Level:	1
+Sex:	SEX.MALE
+Race:	RACE.CENTIPEDE
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Un Millepiedi
+Short:	un millepiedi
+Long:	$N si è acciambellato qui.
+
+Descr:
+Un placido millepiedi acciambellato dorme profondamente. Le zampe esterne sono allungate e disposte a raggiera tutt'intorno al corpo formato da scaglie a mezzaluna. 
+DescrTouch:
+Picchietti le scaglie del corpo tentando di destarlo ma, non lo sveglierebbero neanche le cannonate.
+DescrSixth:
+Ti chiedi come possa essere comodo in quella posizione..mah..contento lui..
+DescrHearing:
+Russa!
+
+Extras:
+	Keywords: zampe zampa
+	Descr:
+	Approfittando dell'assopimento cominci a contarne le zampe per verificare che siano veramente mille..cinquecentotrentasei, cinquecentotrentasette..e..ma quella è una zampa di legno!
+	DescrTouch:
+	Toc toc, è si quella è proprio una gamba di legno.
+	DescrSixth:
+	Ti chiedi come possa aver perso la zampa vera, forse un combattimento illegale tra millepiedi.
+End
+
+Weight: 30g 
+Height: 1m
+
+BirthDay: 04
+BirthMonth: MONTH.FOUR
+Age: 4
+
+
+Behaviour:
+	RandomDo:	20
+	RandomDoInputs:	emote russa profondamente.
+	RandomDoInputs:	emote sistema la quattrocentocinquantaseiesima gamba senza però svegliarsi.
+	RandomDoInputs:	emote sistema la settantanovesima zampa senza però svegliarsi.
+	RandomDoInputs:	emote sistema la ottocentoteesima zampa senza però svegliarsi.
+	RandomDoInputs:	emote sistema la duecentodiciottesima zampa senza però svegliarsi.
+	RandomDoInputs:	emote sistema la cinquecentotrentunesima zampa senza però svegliarsi.
+End
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:		33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:		33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

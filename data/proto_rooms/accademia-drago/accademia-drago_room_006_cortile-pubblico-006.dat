@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_006_cortile-pubblico-006
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il Cortile Pubblico
+Short:	il cortile pubblico
+	Descr:
+Le dimensioni e la cura di questo cortile ti stupiscono sempre di
+più, i vialetti continuano a diramarsi tra il verde mentre
+arrivi nella zona nord est, qui la struttura dell'accademia
+lambisce l'erba e dei cespugli d'edera risalgono nell'angolo
+delle mura fino al camminamento parecchi metri più in alto. In
+questo angolo, tranquillo e riparato, si sono stabilite alcune
+famiglie a conversare con i figli che probabilmente frequentano
+l'accademia. Il cortile prosegue a sud e ad ovest.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 2
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	il cortile pubblico
+	Comment:	ExitStatus	0 0 005 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	il cortile pubblico
+	Comment:	ExitStatus	0 0 007 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

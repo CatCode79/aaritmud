@@ -1,0 +1,28 @@
+Code: ikea_item_weapon-ascia-battaglia
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAPON
+MaterialPercentages:	MATERIAL.BRONZE	70 
+MaterialPercentages:	MATERIAL.HARDWOOD	30
+Sex:	SEX.FEMALE
+Name:	Una Grezza e Massiccia Ascia da Battaglia
+Short:	una grezza ascia da battaglia
+Long:	$N bipenne
+
+Descr:
+Un'asta robusta di legno munita all'estremità di un rude pezzo di metallo con la vaga forma di ascia bipenne.
+DescrTouch: 
+Un'asta robusta di legno munita all'estremità di un pesante pezzo di metallo con la vaga forma di ascia bipenne.
+DescrSixth:
+I danni che può fare non saranno esattamente da taglio, ma pur sempre danni.
+
+Value:	0
+Weight: 7kg
+
+WeaponType:
+	Category:	WEAPON.BATTLEAXE
+	Flags:	WEAPONFLAG.ONE_HAND 
+End
+WearType:
+   Modes: PART.WIELD
+End

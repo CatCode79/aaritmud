@@ -1,0 +1,30 @@
+Code:	rip_item_corpse-thepa-male
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CORPSE
+Sex:	SEX.MALE
+Race:	RACE.THEPA
+MaterialPercentages:	MATERIAL.FLESH	100%
+Name:	Un tuo Simile Morto
+Short:	il corpo di un lucertoloide
+Long:	Qui giace $N
+
+Descr:
+#looker is RACE.THEPA#Il cadavere di un thepa #Un cadavere di un lucertolone thepa#, decisamente mort$O. È messo su di un fianco con la coda contratta.
+
+DescrTouch:
+#looker is RACE.THEPA#Un corpo di un thepa#Il cadavere di un lucertolone thepa#, definitivamente immoto con la coda rigidamente contratta.
+
+DescrSixth:
+Davvero poche le speranze di rivederl$O in piedi a sibilare per spiegare l' accaduto.
+
+DescrSmell:
+#looker is RACE.THEPA#Chissà poi perché ma pare che l'odore della morte non copra gli altri odori ed a sua volta non sia coperto da altri.#Odore di morte.#
+
+DescrTaste:
+#looker is RACE.THEPA#Porti le fauci al collo del cadavere per porgergli l'estremo saluto.#L$O azzanni al collo per accertarti che sia davvero mort$O#
+
+Value:	0
+Weight:	90kg
+
+

@@ -1,0 +1,46 @@
+Code: carrozzone-zingaro_room_tintoria-01
+
+Sector: SECTOR.HOUSE
+Flags: ROOM.INSIDE
+Name: La Tintoria
+Short: un ambiente malsano
+
+Descr:
+Un ambiente piuttosto stretto e lungo interamente rivestito di uno strano materiale dall'apparenza metallica.
+La parete rivolta all'esterno è percorsa per tutta la sua lunghezza da tre stufe a legna, ciascuna con doppia piastra adatte a grandiosi pentoloni.
+DescrSmell:
+L'odore mefitico è al limite del sopportabile è certamente proveniente dai pentoloni.
+DescrSixth:
+Del fuoco acceso con tutto questo legno, nessuno sfiato per i vapori; ti chiedi quante altre elementari norme di sicurezza siano state ignorate in questo luogo e soprattutto chi è l'incosciente che osa lavorarvici.
+DescrHearing:
+Il lento ribollire dei pentoloni è accompagnato dal crepitio delle fiamme che covano nelle stufe.
+DescrTaste:
+Già leccarsi le labbra qui rischia di essere una scommessa con la morte.
+
+Width:	2m
+Depth:	6m
+Height: 230cm
+
+Extras:
+       Keywords: pentoloni
+       Descr:
+       Questi imponenti pentoloni ribollono rumorosi emettendo densi vapori soffocanti.
+       DescrTouch:
+       Rischi di scottarti con gli ustionanti schizzi che fuoriescono di tanto in tanto.
+       DescrSmell:
+       I diversi odori, provenienti dai pentoloni, si fondono tra loro impedendoti di distinguerli l'uno dall'altro.
+       DescrTaste:
+       L'idea di assaggiare una delle brodaglie non ti passa nemmeno per l'anticamera del cervello.
+       DescrSixth:
+       Sicuramente ci vorrà non poca forza per riuscire a sollevarne uno, soprattutto se pieno.
+End
+
+Exits:
+ Direction: DIR.EAST
+ Descr: Uno stretto passaggio
+End
+Exits:
+ Direction: DIR.SOUTHEAST
+ Descr: Verso l'uscita dal carrozzone
+End
+

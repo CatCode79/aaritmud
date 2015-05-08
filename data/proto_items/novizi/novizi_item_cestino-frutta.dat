@@ -1,0 +1,23 @@
+Code: novizi_item_cestino-frutta
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+MaterialPercentages:	MATERIAL.SOFTWOOD	100
+Sex:	SEX.MALE
+Name:	Un Cestino Semirigido
+Short:	un cestino semirigido
+Long:	$N con un nastro largo al centro
+
+Descr:
+Un cestellino piccolo sormontato da un nastro [red]rosso[close] che è fissato agli estremi superiori.
+DescrTouch: 
+Un cestellino semirigido con attaccato un nastro nella parte superiore.
+DescrHearing:
+Fa un rumoraccio fastidioso manipolandolo per accartocciarlo.
+
+Value:	0
+Weight: 75g
+
+ContainerType:
+        MaxWeight: 200kg
+End

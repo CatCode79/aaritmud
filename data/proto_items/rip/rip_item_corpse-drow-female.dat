@@ -1,0 +1,28 @@
+Code:	rip_item_corpse-drow-female
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CORPSE
+Sex:	SEX.FEMALE
+Race:	RACE.DROW
+MaterialPercentages:	MATERIAL.FLESH	100%
+Name:	Una tua Simile Mort$O 
+Short:	un'elfa scura mort$O
+Long:	$N afflosciata qui definitivamente 
+
+Descr:
+I resti mortali e corruttibili di #looker is RACE.DROW#una tua simile.#un'elfa nera.#
+
+DescrTouch:
+Il cadavere di #looker is RACE.DROW#una tua simile che riconosci dalla pelle levigata.#un'elfa scura non calpesterà mai più gli oscuri cunicoli e territori tipici della sua razza.#
+
+DescrSixth:
+#looker is RACE.DROW#Il destino dei più... placare la sete di sangue con il proprio.#La morte s'è portata via qualcosa di più del suo soffio vitale.#
+
+DescrSmell:
+#looker is RACE.DROW#Chissà poi perché ma pare che l'odore della morte non copra gli altri odori ed a sua volta non sia coperto da altri.#L'odore della morte lascia comunque avvertire un vago odore di muffe.#
+
+DescrTaste:
+#looker is RACE.DROW#Una sensazione di freddo ameno si estende a tutto il corpo.#L$O azzanni per accertarti che sia davvero mort$O#
+
+Value:	0
+Weight:	45kg

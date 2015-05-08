@@ -1,0 +1,69 @@
+Code:   villaggio-zingaro_mob_ragazzino
+Level:  2
+Sex:    SEX.MALE
+Race:   RACE.TUAREG
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:   Un Giovane Ragazzo
+Short:  un giovane ragazzetto
+Long:   $N è qui a giocare.
+
+Descr:
+Un giovane ragazzino sta giocando da solo, immaginando chissà quale combattimento
+nella sua mente. Ha un semplice [brown]abito[close] marrone e gira scalzo. Impugnato tiene un
+bastoncino di legno con il quale si diletta a fendere l'aria. Ha capelli ed occhi
+scuri e ti osserva sorridente.
+DescrTouch:
+Allunghi la $hand e riesci a sfiorare i soffici capelli del ragazzino.
+DescrSmell:
+Ha le mani sporche di fango, le ginocchia insabbiate per lo stare in terra
+DescrSixth:
+Il ragazzo continua a segnare strani simboli nel terreno...
+DescrHearing:
+Senti che il giovanotto sta canticchiando una filastrocca a mezza bocca.
+
+Weight: 35kg
+Height: 130cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 11
+
+MaxLife:        100
+Life:           100
+MaxMana:        100
+Mana:           100
+MaxVigour:      100
+Vigour:         100
+
+Strength:       10
+Endurance:      10
+Agility:        15
+Speed:          15
+Intelligence:   10
+Willpower:      10
+Personality:    10
+Luck:           15
+
+Behaviour:
+        LookPlayer:     0
+        LookMob:        0
+        LookItem:       0
+        LookAtRacesFlags:       RACE.NONE
+        LookAtRaces:    0
+        LookAtEntitypesFlags:   ENTITYPE.NONE
+        TasteAtEntitypesFlags:  ENTITYPE.NONE
+        WanderDirection:        0
+        WanderExit:     0
+        WanderWall:     0
+        WanderClosedDoor:       0
+        WanderAtExitsFlags:     DIR.NONE
+        WanderAtExits:  0       
+        WanderArea:     0
+        WanderPortal:   0
+        WanderEnterContainer:   0
+        WanderExitContainer:    0
+        WanderSelf:     0
+        RandomDo:       10
+        RandomDoInputs: emote sta giocherellando con un bastoncino.
+        RandomDoInputs: emote saltella sul posto facendo roteare un bastoncino.
+End

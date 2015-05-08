@@ -1,0 +1,27 @@
+Code: citta-raminghe_item_food-zuppa-fagioli-peperoncino
+Level: 2
+Entitype: ENTITYPE.FOOD
+MaterialPercentages:	MATERIAL.LEGUME	80
+MaterialPercentages:	MATERIAL.SEED	10
+MaterialPercentages:	MATERIAL.HERB	10
+Name: Una Zuppa di Fagioli al Peperoncino
+Short: una zuppa di fagioli al peperoncino
+Descr: 
+Una profumata [salmon]zuppa di legumi[close] proteici che ti danno forza e saziano il tuo 
+appetito. Il [red]peperoncino[close] aggiunge una carica supplementare.
+Pezzetti di [pink]pancetta[close] la rendono assolutamente ineguagliabile.
+DescrTaste:
+I sapori miscelati tra loro assumono una connotazione tra il dolce e il piccante.
+DescrSixth:
+Un cibo che ti nutre e rafforza il tuo vigore fisico e mentale.
+Value:	0
+Weight: 240g
+
+
+FoodType:
+	Comment:	cibo
+	Animal:	0
+	Vegetable:	100
+	CookingDamage:	20
+	Hours:	0
+End

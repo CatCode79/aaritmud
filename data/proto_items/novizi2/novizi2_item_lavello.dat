@@ -1,0 +1,29 @@
+Code: novizi2_item_lavello
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.PORCELAIN	100%
+Name:	Un Enorme Lavello
+Short:	un enorme lavello
+Long:	$N sopraffatto di piatti
+
+Descr:
+Un'immonda concrezione di sozzume pare costituire parte integrante della struttura del lavello. 
+DescrTouch: 
+Un'immonda concrezione indurita di natura esogena, protegge le pareti del lavello da ulteriore sozzume.
+DescrSmell: 
+Indubbiamente di natura organica l'olezzo che proviene dal lavello.
+DescrSixth:
+L'intento ultimo qui appare evidente, non è la trascurata inedia di un cuoco ma la consapevole ricerca di un negromante per ottenere un golem fetido.
+DescrTaste:
+Addenti la vecchia concrezione di sozzume per scoprire se sei mortale.
+
+Value:	0
+Weight: 140kg
+
+ContainerType:
+        MaxWeight: 300kg
+End
+
+

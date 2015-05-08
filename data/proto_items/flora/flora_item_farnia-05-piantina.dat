@@ -1,0 +1,27 @@
+Code: flora_item_farnia-05-piantina
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name: Una Giovane[forestgreen]Pianta[close] di [forestgreen]Farnia[close] 
+Short: una giovane [forestgreen]piantina[close] alta e slanciata
+Descr:
+Un arbusto alto e rado con tronco chiaro
+
+Value:	0
+Weight: 5kg
+
+DescrTouch: 
+Una pianta elastica con poche foglioline dure e resistenti.
+
+
+PlantType:
+    Sectors:	SECTOR.PLAIN SECTOR.HOUSE
+    RpgHours:	01
+    WorseEntity:	flora_item_farnia-06-albero
+    NormalEntity:	flora_item_farnia-06-albero
+    BetterEntity:	flora_item_farnia-06-albero
+End
+
+

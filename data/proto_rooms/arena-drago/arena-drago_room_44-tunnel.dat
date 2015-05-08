@@ -1,0 +1,66 @@
+Code:	arena-drago_room_44-tunnel
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il Tunnel
+Short:	il tunnel
+	Descr:
+Sei nel bel mezzo di un tunnel buio umido e puzzolente quanto
+basta da farti desiderare di uscire al più presto, alcune
+goccioline di acqua melmosa ti tormentano cadendo dal soffito. Il
+tunnel prosegue a nord e sud.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	1|64 0
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	la fine del tunnel
+	Comment:	ExitStatus	0 0 27745 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	la base delle scale
+	Comment:	ExitStatus	0 0 27743 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+Code: cimitero_room_collina-b24
+Sector: SECTOR.HILL
+Name: All'Interno di #NOME
+Short: ingoiat$o ds #NOME_COSO
+
+Descr:
+Protetto dall'esterno o forse prigioniero oppure ancora ingerito dall'essere vegetale;
+ti trovi in uno spazio angusto ed amorfo in cui vi sono solo foglie secche, rami, radici
+e una sostanza che non sembra terra ma non sapresti dire di più.
+
+DescrSmell: 
+La zona collinare è avvolta dagli abbracci languidi dell'odore di spezie e decomposizione.
+Per alcuni tratti si coglie però una scia che rimane la stessa per un certo tratto.
+DescrHearing:
+Il sibilo del vento produce un lugubre suono cupo sostenuto negli effetti lungo le
+lapidi frastagliate.
+
+Extras:
+	Keywords: scia
+	DescrSmell:
+	Lungo il tratto di sentiero che hai appena seguito l'odore più significativo è stato quello di #SMELL.
+End
+
+Extras:
+	Keywords: simboli
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+Width:	6m
+Depth:	6m
+Height: 113m
+

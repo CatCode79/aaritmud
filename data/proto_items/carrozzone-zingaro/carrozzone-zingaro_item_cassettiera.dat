@@ -1,0 +1,40 @@
+Code: carrozzone-zingaro_item_cassettiera
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+MaterialPercentages:	MATERIAL.HARDWOOD 92%
+MaterialPercentages:	MATERIAL.METAL 8%
+Name:	Un Muro Tassellato a Cassetti
+Short:	un tripudio di cassetti
+Long:	$N a rivestire l'intera parete
+
+Descr:
+Un mare magnum di cassetti e cassettini di misure e forme diverse raccolte in file orizzontali.
+DescrTouch: 
+Un mobile a tutta parete costituito da un innumerevole numero di cassetti di forme e dimensioni diverse organizzati su file orizzontali.
+DescrSmell: 
+Ogni spanna di mobilio che indaghi porta con se un odore diverso tanto da confondere in breve dopo poche annusate.
+DescrSixth:
+Chi ha riempito i cassetti senza corredarli d'etichetta deve avere una gran bella memoria oppure dev'essere un gran casinista.
+DescrHearing:
+I tarli pasteggiano rumorosamente nella sicurezza e nell'abbondanza.
+DescrTaste:
+Come i tarli anche tu ti cimenti nella degustazione di noce nero con intarsi in betulla...
+
+Value:	0
+Weight: 300kg
+
+ContainerType:
+	EntityOpenMessage:	Apri uno dei tanti vani di $N.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre uno dei tanti vani di $N.
+	EntityCloseMessage:	Spingi uno dei cassetti fino a chiuderl$O.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n accompagna fino a chiusura uno dei tanti cassetti.
+	Flags:	CONTAINER.CLOSED CONTAINER.CLOSABLE
+        MaxWeight: 10kg
+End
+
+

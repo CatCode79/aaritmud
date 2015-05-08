@@ -1,0 +1,24 @@
+Code: miniere-kezaf_item_gemma-alessandrite
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_alexandrite.png
+Name:	Un'Alessandrite
+Short:	una gemma blu
+Long:	$N si trova qui.
+
+Descr:
+Questa pietra sporge da un più grande pezzo di roccia; si fa subito notare per
+la sua radiosità e splendore che irradia. Una serie di distinti riflessi ti si
+mostrano a seconda di come la luce la colpisce:
+verde se la luce proviene dal retro, blu se dall'alto verso il basso e violaceo
+se dal basso verso l'alto.
+
+Value:	0
+Weight: 230g
+
+
+
+

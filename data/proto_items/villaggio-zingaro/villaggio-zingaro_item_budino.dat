@@ -1,0 +1,44 @@
+Code: villaggio-zingaro_item_budino
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.SUGAR 80%
+MaterialPercentages:	MATERIAL.MILK 15%
+MaterialPercentages:	MATERIAL.ESSENCE 1%
+MaterialPercentages:	MATERIAL.PULP 4%
+Icon:	icons/food/pudding.png
+Name:	Un Budino all'Uvetta
+Short:	un budino
+Long:	$N tremola incerto.
+
+Descr:
+Un budinetto chiaro vibra gelatinoso su un piattino decorato; in trasparenza si può vedere dell'uvetta ed è servito su dello sciroppo scuro.
+DescrTouch: 
+Dai un colpetto al budino che traballa in modo sempre più vistoso.
+DescrSmell: 
+Profuma di vino.
+DescrSixth:
+Ha un aspetto veramente invitante!
+DescrTaste:
+Tocchi un dito nella salsa brunastra che sembra un concentrato di vino.
+
+Value:	15
+Weight: 50g
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100
+
+FoodType:
+	Animal:	10
+	Vegetable:	90
+	CookingDamage:	5
+	Hours:	0
+	EntityMessage:	Mangi $N impiastricciandoti le dita di sciroppo.	
+	TargetMessage:	Ora c'è una sola via d'uscita... $n t'ha mangiato.
+	OthersMessage:	$n mangia $N goffamente sporcandosi tutte le $HANDS.
+End

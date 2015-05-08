@@ -1,0 +1,53 @@
+Code: cimitero_room_collina-c31
+Sector: SECTOR.HILL
+Name: Lungo il Corso d'[aqua]Acqua[close]
+Short: lungo il torrente
+
+Descr:
+La via costeggia un impetuoso torrente che proviene da sud. Ad un certo punto il corso viene incanalato fra argini di pietra che lo forzano in direzione ovest in un'armonica piega. In luogo delle sinuosità dell'argine si trova una lastra in pietra nera a guisa di chiusa. La misteriosa pietra somiglia tutta ad una possente lapide posta a deviazione del corso d'acqua.
+DescrSmell: 
+La zona collinare è avvolta dagli abbracci languidi dell'odore di spezie e decomposizione.
+Per alcuni tratti si coglie però una scia che rimane la stessa per un certo tratto.
+DescrHearing:
+Il sibilo del vento produce un lugubre suono cupo sostenuto negli effetti lungo le
+lapidi frastagliate.
+
+Extras:
+	Keywords: scia
+	DescrSmell:
+	Lungo il tratto di sentiero che hai appena seguito l'odore più significativo è stato quello di #SMELL.
+End
+
+Extras:
+	Keywords: simboli
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+Width:	6m
+Depth:	6m
+Height: 113m
+
+
+Exits:
+	Direction: DIR.NORTHEAST
+	Descr: L'antico corso
+End
+Exits:
+	Direction: DIR.SOUTH
+	Descr: Verso la sorgente
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: Lungo il corso d'acqua
+End

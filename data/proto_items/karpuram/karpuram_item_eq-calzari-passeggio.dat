@@ -1,0 +1,32 @@
+Code:	karpuram_item_eq-calzari-passeggio
+
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.CLOTH	100
+Sex:	SEX.MALE
+Name:	Calzari da Passeggio
+Short:	sandali di stoffa
+Long:	Un paio di semplici $N
+
+Descr:
+Questo tipo di scarpe è di uso comune e si trova in tutto il regno conosciuto,
+in questi luoghi i calzari sono realizzati con tessuti resistenti e durevoli.
+Sono adatti per lunghe percorrenze e un utilizzo giornaliero. Composti da
+materiali leggeri e di semplice manutenzione, tendono a comsumarsi notevolmente
+lungo la suola, ma possono essere al contempo riparati con velocità.
+
+
+DescrTouch:
+Il tessuto utilizzato risulta setoso con trame ampie e irregolari, la base dei
+calzari è ruvida e consumata
+
+
+Value:	0
+Weight:	400g
+
+WearType:
+   Modes: PART.LEFT_FOOT PART.RIGHT_FOOT
+End
+
+

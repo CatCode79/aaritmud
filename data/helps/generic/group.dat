@@ -1,0 +1,47 @@
+Code: group
+
+ItalianKeywords: gruppo 
+EnglishKeywords: group 
+
+Entitype: HELP.GROUP
+
+Text:
+Il comando $tgroup &lt;[darkgreen]giocatore[close]&gt; aggiunge qualcuno che ti sta seguendo al
+tuo gruppo, mentre se il giocatore è già parte del tuo gruppo con questo
+comando lo toglierai dal gruppo. Quando togli qualcuno dal tuo gruppo questo
+non smetterà però di seguirti.
+Un giocatore può anche lasciare un gruppo seguendo se stesso, nel qual caso 
+smetterà anche di seguirti.
+
+I membri di un gruppo dividono l'esperienza dalle uccisioni e possono spartirsi
+le ricchezze acquisite dopo uno scontro (per saperne di più $thelp $tsplit).
+
+Il comando $tgroup senza argomenti mostra le statistiche di ogni personaggio
+che appartiene al gruppo:
+Il gruppo avrà il nome di colui che guida e il suo personaggio sarà sempre
+il primo della lista.
+
+La riga di ogni giocatore riporta le seguenti informazioni:
+- Nome del personaggio
+- Razza di appartenenza
+- Stile di combattimento adottato
+- Stato mentale
+- Percentuale di vita
+- Percentuale di movimento
+- Percentuale del mana
+
+[darkgreen]Gruppo di Lucrezia      Razza          Stile         Mente      Vita      Movi     Mana[close]
+[green]Lucrezia[close]            [red]Umana[close]      [cyan]Evasivo[close]      ==      [red]100[close]%  [green]100[close]%  [cyan]88[close]%
+
+E' sempre buona cosa controllare lo stato del gruppo per accertarsi che i
+propri compagni stiano bene, così da sapere se qualcuno necessita di cure o
+di un po' di riposo prima di proseguire nella propria avventura
+
+Il comando $tgroup [darkgreen]tutti[close] gruppa tutti i giocatori che ti stanno seguendo 
+nella  stanza.
+
+Il comando $tgroup [darkgreen]sciogliere[close] permette al capogruppo di congedare il
+gruppo (i membri smetteranno di seguire e saranno sgruppati).
+
+
+SeeAlso: split follow

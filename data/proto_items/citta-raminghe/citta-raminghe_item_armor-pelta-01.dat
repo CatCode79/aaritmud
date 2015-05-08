@@ -1,0 +1,20 @@
+Code: citta-raminghe_item_armor-pelta-01
+Level: 3
+MaxGlobalQuantity:	0
+Sex:	SEX.MALE
+Entitype: ENTITYPE.WEAR  
+MaterialPercentages:	MATERIAL.HARDWOOD	80%
+MaterialPercentages:	MATERIAL.LEATHER	20%
+Name: [skyblue]Un Pelta[close]
+Short: [skyblue]un pelta a forma di mezzaluna[close]
+
+Descr: Un piccolo scudo leggero di legno, ricoperto di cuoio, incavato in alto e a forma di mezzaluna
+ 
+Value:	0
+Weight: 2kg
+
+WearType:
+        Modes: PART.HOLD
+End
+
+

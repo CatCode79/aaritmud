@@ -1,0 +1,34 @@
+Code: ikea_item_weapon-frusta
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAPON
+MaterialPercentages:	MATERIAL.LEATHER	100
+Sex:	SEX.FEMALE
+Name:	Una Frusta in Pelle d'Asino
+Short:	una frusta in pelle
+Long:	$N è arrotolata qui
+
+Descr:
+Quattro strisce di pelle intrecciate fra loro in una sorta di motivo a lisca di pesce.
+L'impugnatura è più grossolana e cinta da alcune borchie metalliche che ne fermano le pieghe e gli avvolgimenti.
+DescrTouch: 
+Quattro strisce di pelle intrecciate fra loro in una sorta di motivo a lisca di pesce.
+L'impugnatura è più grossolana e cinta da alcune borchie metalliche che ne fermano le pieghe e gli avvolgimenti.
+Una frusta piuttosto elastica ed oliata di fresco.
+DescrSmell: 
+Una frusta oliata di fresco con qualcosa di origine animale.
+DescrSixth:
+Una frusta in pelle deve sempre essere tenuta morbida... o si usa oppure si unge.
+DescrTaste:
+Grasso di qualche animale frammisto ad escrementi... Ottima qualità
+
+Value:	0
+Weight: 350g
+
+WeaponType:
+	Category:	WEAPON.WHIP
+	Flags:	WEAPONFLAG.ONE_HAND 
+End
+WearType:
+   Modes: PART.WIELD
+End

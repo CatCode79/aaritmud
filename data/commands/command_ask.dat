@@ -1,0 +1,6 @@
+FunName:   command_ask
+Type:      CMDTYPE.CHANNEL
+Trust:     TRUST.PLAYER
+Position:  POSITION.REST
+Flags:     CMDFLAG.GDR
+MiniHelp:  Serve per domandare qualcosa, quello che viene detto è sentito da tutti coloro nella stanza.

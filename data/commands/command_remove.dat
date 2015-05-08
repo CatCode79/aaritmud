@@ -1,0 +1,6 @@
+FunName:    command_remove
+Type:       CMDTYPE.ITEM
+Trust:      TRUST.PLAYER
+Position:   POSITION.SIT
+Flags:      CMDFLAG.INTERACT CMDFLAG.GDR
+MiniHelp:   Serve per rimuovere il proprio equipaggiamento indossato.

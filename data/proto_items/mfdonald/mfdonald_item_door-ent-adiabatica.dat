@@ -1,0 +1,41 @@
+Code:	mfdonald_item_door-ent-adiabatica
+Level:	1
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.UNKNOWN	100%
+Name:	La Porta [blue]Adiabatica[close]
+Short:	una [blue]adiabatica porta[close]
+Long:	Ora $N lascia passare anche la materia
+
+Descr:
+	È una porta in un polimero [blue]brutto[close]; Vi sono disegnate le venature del legno ma in
+	modo un po naif.
+DescrTouch: 
+	Una porta liscia con delle scritte in [yellow]braille[close].
+
+Extras:
+	Keywords: braille blu
+	Descr:
+	[blue]dG = dH - TdS[close]
+	DescrTouch:
+	[blue]dG = dH - TdS[close]
+End
+DoorType:
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE
+	ResetCloseMessage: Un'entità invisibile chiude la porta senza scambi di calore con l'esterno.
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	apri $N con circospezione
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n con delicatezza cerca di aprire $N.
+	EntityCloseMessage:	Accompagni $N facendo attenzione a non rompere nulla.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n accompagna $N fino a richiudere l'accesso.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+End
+
+Value:	0
+Weight: 4kg
+
+

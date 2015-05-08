@@ -1,0 +1,56 @@
+Comment: questo coso non so ancora cosa sia
+Code: carrozzone-zingaro_item_orecchino-violino
+Level: 1
+Entitype: ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.SILVER 100%
+Name:	L'Orecchino di Shin
+Short:	un orecchino a forma di violino
+Long:	$N è appuntato in bella mostra qui di lato
+Descr:
+Un orecchino d'argento foggiato a violino; dalla cassa pendono numerose frangette
+luccicanti. Sul retro è riportata una scritta. La parte che è a vista ha degli inserti
+in un qualche materiale ruvido.
+
+DescrTouch:
+L'orecchino sembra piuttosto delicato e fragile a causa delle frangette pendule.
+
+
+DescrSmell:
+Dall'odore si arguisce che il vecchio proprietario non è più in grado di potersi
+lamentarsi del furto.
+DescrSixth:
+Un orecchino usato, ancora in perfette condizioni. Il precedente proprietario non deve
+aver manifestato neppure un debole diniego.
+
+Value:	54
+Weight: 1g
+
+Extras:
+    Comment: qui ci metto in tengwar la parola Shin
+       Keywords: scritta scritte retro
+       Descr:
+       La scritta è parzialmente visibile e pare interrotta a metà:
+<pre class="asciiart">
+[yellow]|[close]	       `Yb.                                    [yellow]|[close]
+[yellow]|[close]	          `Yb         db                       [yellow]|[close]
+[yellow]|[close]	            Yb                                 [yellow]|[close]
+[yellow]|[close]	.d888b.       Yb      'Yb `Yb d88b d88b        [yellow]|[close]
+[yellow]|[close]	8'   `Yb     dPYb      88  88P   8Y   8b       [yellow]|[close]
+[yellow]|[close]	Yb.   88   ,dP  Yb     88  88    8P   88       [yellow]|[close]
+[yellow]|[close]	   .dP  .dP'    `Yb. .8P .8P  bdP  bdP        [yellow]|[close]
+[yellow]|[close]	.dP'                                          [yellow]|[close]
+[yellow]|[close]	.dP'                                           [yellow]|[close]
+</pre>
+
+       DescrSixth:
+       Qualche rudimento di simbolismo arcaico ti consente di tradurre [yellow]Shin[close]. Il suo significato rimane però un mistero.
+End
+
+
+WearType:
+   Modes: PART.RIGHT_EAR
+   Modes: PART.LEFT_EAR
+End
+
+

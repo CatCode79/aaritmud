@@ -1,0 +1,77 @@
+Code:	villaggio-zingaro_mob_caldarrostaio-maro-prajita
+Level:	1
+Sex:	SEX.MALE
+Race:	RACE.TUAREG
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Maro Prajita il Caldarrostaio 
+Short:	il caldarrostaio
+Long:	$N è intento a non bruciar castagne
+
+Descr:
+Un uomo di mezza età con un prominente addome; i folti baffoni incolti e le innumerevoli rughe che gli segnano il viso lo fanno apparire più vecchio di quando non sia. Le due grandi mani sono completamente annerite dalla castagne abbrustolite.
+DescrTouch:
+Eviti di toccarlo per non sporcarti tutt$O di fuliggine. 
+DescrSmell:
+Anche dopo poco tempo l'acre odore del fumo avvolge qualsiasi cosa e da quello che senti quest'uomo cuoce castagne da molto tempo.
+
+
+Weight: 97kg
+Height: 179cm
+
+BirthDay: 14
+BirthMonth: MONTH.NINE
+Age: 52
+
+
+Behaviour:
+       LookPlayer:	0
+       LookMob:	0
+       LookItem:	4
+       LookAtRacesFlags:	RACE.NONE
+       LookAtRaces:	0
+       LookAtEntitypesFlags:	ENTITYPE.NONE
+       LookAtEntitypes:	0
+       LookSelf:	0
+       LookDirection:	0
+       LookExit:	3
+       LookWall:	0
+       LookClosedDoor: 0
+       LookExtra:	0
+       WanderDirection:	0
+       WanderExit:	30
+       WanderAtSectors:	SECTOR.ROAD
+       WanderWall:	0
+       WanderClosedDoor:	0
+       WanderArea:	0
+       WanderPortal:	0
+       WanderEnterContainer:	0
+       WanderExitContainer:	0
+       WanderSelf:	0
+       RandomDo:	15
+       RandomDoInputs:	emote rimesta le castagne
+       RandomDoInputs:	yell Avvicinatevi, ottime castagne appena abbrustolite! Avvicinatevi!
+       RandomDoInputs:	yell Ottime castagne abbrustolite!
+End
+
+MaxLife:	100
+Life:		100
+MaxMana:	50
+Mana:		50
+MaxVigour:	120
+Vigour:		120
+
+Strength:	40
+Endurance:	40
+Agility:	12
+Speed:		8
+Intelligence:	20
+Willpower:	10
+Personality:	33
+Luck:		10
+
+Shop:
+	Types:	SHOP.NORMAL
+	Buyables:	villaggio-zingaro_item_sacchetto-castagne	120% 50
+	Buyables:	villaggio-zingaro_item_sacchetto-castagne-02	120% 50
+	Buyables:	villaggio-zingaro_item_sacchetto-castagne-03	120% 50
+End

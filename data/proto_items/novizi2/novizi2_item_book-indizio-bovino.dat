@@ -1,0 +1,76 @@
+Code: novizi2_item_book-indizio-bovino
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.READABLE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.PAPER	100%
+Name:	Uno Scarno Libricino
+Short:	uno scarno libricino
+Long:	$N pieno di graffi e macchie
+
+Descr:
+Un libro dalla copertina tutta rovinata e macchiata che copre anche il titolo. Dentro non può che esserci poco testo.
+DescrTouch: 
+Un libro di poca consistenza e floscio anche nella copertina. All'interno si sente la mano marcata che ha vergato il poco [yellow]testo[close] presente.
+
+Value:	0
+Weight: 5kg
+
+Extras:
+	Keywords: testo dentro
+        Flags: EXTRA.READABLE
+	Descr:
+        Delle esperienze mistiche ed inenarrabili che mi sono successe, una meriterebbe d'esser messa per
+        iscritto e divulgata se non temessi d'esser presa per pazza.
+
+        Non so ben come fu... fatto sta che il bovide circolante per le vie della casa dei novizi è magico,
+        mistico, forse maledetto...
+        D'impulso ho sentito il desiderio d'entrarvi... nel bovino! Suona patologico ogni volta che lo rileggo.
+        Eppure la volontà d'entrare nel bovino è stata assecondata da lui stesso e son finita... dentro.
+        La via d'uscita evidentemente c'è ma non la narrerò qui.
+
+
+        In Fede
+
+        Ecco.. no, meglio se non lo firmo, meglio anzi se distruggo questa pagina...         
+End
+
+
+ReadableType:
+   Title:	Il diario di Mag
+   Author:	Mag
+   Summary:
+       Poco testo vergato a mano con una calligrafia che doveva essere molto bello prima che qualcosa la facesse divenire così tremolante.
+   Language:	LANGUAGE.COMMON
+   Flags:	READABLE.NUMBERS
+   NumberDecorationLeft:	~-><-~ 
+   NumberDecorationRight:	~-><-~
+   VisualWidth:	250px
+   VisualHeight:	350px
+   Padding:	15px
+   BorderTop:	3px outset silver
+   BorderRight:	3px outset silver
+   BorderBottom:	3px outset silver
+   BorderLeft:	3px outset silver
+   BorderInside:	1px solid silver
+   Pages:
+       Diario di
+       E nere|d. Mc |oone
+   Pages:
+        Delle esperienze mistiche ed inenarrabili che mi sono successe, una meriterebbe d'esser messa per
+        iscritto e divulgata se non temessi d'esser presa per pazza.
+   Pages:
+        Non so ben come fu... fatto sta che il bovide circolante per le vie della casa dei novizi è magico,
+        mistico, forse maledetto...
+        D'impulso ho sentito il desiderio d'entrarvi... nel bovino! Suona patologico ogni volta che lo rileggo.
+        Eppure la volontà d'entrare nel bovino è stata assecondata da lui stesso e son finita... dentro.
+        La via d'uscita evidentemente c'è ma non la narrerò qui.
+        In Fede
+
+        Ecco.. no, meglio se non lo firmo, meglio anzi se distruggo questa pagina...         
+
+   Pages:
+	-\---/-<br>
+	<br>
+	_^---^_
+End

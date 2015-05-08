@@ -1,0 +1,43 @@
+Code: klirbe_item_cascata
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+Flags:	FLAG.NO_GET
+MaterialPercentages:	MATERIAL.STONE	90%
+MaterialPercentages:	MATERIAL.VEGETABLE	10%
+Name:	La Cascata Asciutta
+Short:	una cascata secca
+Long:	$N bagna a malapena il muschio sotto di lei
+
+Descr:
+Due massi diseguali accostati mostrano strisce di muschio in luogo dei punti di
+contatto. Si comprende come, un tempo di lì passasse una cascata imponente a giudicare
+dall'estensione del muschio. Ora i pochi rivoletti solitari proseguono la solinga via
+tristi ed increduli.
+DescrTouch: 
+Il muschio offre poca possibilità d'esser spremuto per ricavarne acqua pur se non
+ne è del tutto privo.
+DescrSmell: 
+L'odore del muschio fresco è offuscato sporadicamente da tratti di menta selvatica
+DescrHearing:
+Poche gocce d'acqua cadono con riservatezza, nascoste dalla roccia
+DescrTaste:
+Lecchi il muschio per scoprire che non ha alcun sapore l'acqua che vi scorre.
+DescrSixth:
+Percepisci distintamente d'essere davanti ad un portale per altri lidi.
+
+Value:	0
+Weight: 1000kg
+
+
+PortalType:
+	Destination:	0 -2 0 opekus
+	EntityEnterMessage: Appoggi le $hands al muschio di $N affondando più del dovuto
+	TargetEnterMessage: $n decide d'attraversarti e lo anticipi repentinamente.
+	OthersEnterMessage: $N con un innaturale fiotto d'acqua avvolge $n defintivamente.
+	EntityExitMessage: La luce s'attenua sempre più finché riemergi altrove.
+	TargetExitMessage: Ora $n è sparit$o da $T finendo in $t.
+	OthersExitMessage: $n compare qui con le $hands protese in avanti come a proteggersi da qualcosa.
+End
+
+

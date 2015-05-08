@@ -1,0 +1,33 @@
+Code: villaggio-zingaro_item_premio-cupola-03
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.MALE 
+MaterialPercentages:	MATERIAL.GLASS	100%
+Name:	Una [greenyellow]Pozione[close] Effervescente
+Short:	una [greenyellow]pozione[close] effervescente
+Long:	$N contenuta in una piccola bottiglietta.
+
+Descr:
+Una snella bottiglietta in vetro con un grazioso tappo di sughero contene una [greenyellow]pozione[close] frizzantina e spumeggiante che si agita all'interno.
+DescrSmell: 
+Gnum, pare all'arancia.
+DescrSixth:
+Ogni pozione ha il suo effetto..
+DescrHearing:
+La senti spumeggiare irrequieta nella bottiglia.
+
+Value:	0
+Weight: 120g
+
+FoodType:
+	Comment:	cibo
+	Animal:	0
+	Vegetable:	100
+	CookingDamage:	0
+	Hours:	0
+	EntityMessage:	Stappi una la bottiglietta e ne bevi il contenuto tutto d'un sorso... ora vedi le cose sotto una nuova luce.	
+	TargetMessage:	Ora c'è una sola via d'uscita... $n t'ha mangiato.
+	OthersMessage:	$n tracanna $N tutta d'un sorso..
+End
+

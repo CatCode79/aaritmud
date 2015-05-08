@@ -1,0 +1,18 @@
+Code: citta-raminghe_item_scrittoio-guardiano
+Level: 3
+Entitype: ENTITYPE.CONTAINER
+MaterialPercentages:	MATERIAL.OAK	100
+Flags:	FLAG.NO_GET
+Name: Un Antico [sandybrown]Scrittoio[close] 
+Short: un antico [sandybrown]scrittoio[close] 
+Long: $N al centro della stanza
+
+Descr: Un piccolo scrittoio di forma rettangolare decorato sui lati con motivi di forma geometrica. Il piano sembra essere 
+consunto e logorato dall'uso e dal tempo.
+
+Value:	0
+Weight: 35kg
+
+ContainerType:
+        MaxWeight: 10kg
+End

@@ -1,0 +1,41 @@
+Code: accademia-drago_room_zoo
+Sector: SECTOR.VOID
+Name: Lo Zoo dell'accademia
+Short: lo zoo dell'accademia
+
+Descr:
+Questo è uno zoo in cui tutti i mob dell'accademia sono clonati e dopati in modo da
+non danneggiarsi vicendevolmente. Ricordiamo che è vietato scattare foto effettuare
+registrazioni audiovisive. Nel ringraziare per la collaborazione cogliamo lo spunto
+di farvi notare che i trasgressori saranno da considerare cibo per [gold]P[lightgreen]hane [gold]C[lightgreen]ello
+il Rozzo.
+DescrTouch: 
+'un si tocca! È vietato!
+DescrSmell: 
+'un si annusa! Fa male!
+DescrSixth:
+Intuisci che qui c'è gente che lavora... mica come certa gente!
+DescrHearing:
+Senti il suono di mille builder che battono la testa in preda a crisi creativa.
+
+Extras:
+	Keywords: cello phane
+	Descr:
+	È anche l'autore originale della zona
+	DescrSmell:
+	Infatti rolla solo troll per nascondere il suo proprio olezzo
+End
+
+Width:	100m
+Depth:	100m
+Height: 500m
+
+Exits:
+ Direction: DIR.NORTH
+ Descr: In strada
+End
+Exits:
+ Direction: DIR.EAST
+ Descr: In strada
+ Destination: 42 42 42 arena-drago
+End

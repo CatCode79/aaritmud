@@ -1,0 +1,24 @@
+Code:	arena-drago_room_04-magna
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Aula Magna
+Short:	aula magna
+	Descr:
+Una grossa stanza di forma rettangolare sembrerebbe esser stata
+adibita ad aula, la parete nord è completamente occupata da
+finestre, quella ovest mette in bella mostra una grossa lavagna e
+diverse mappe appese dietro una grossa cattedra in legno
+massello, in file ordinate di fronte ad essa sono piazzati
+tantissimi banchi per gli studenti.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 0
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	Un corridoio
+	Comment:	ExitStatus	1 0 27703 -1
+End

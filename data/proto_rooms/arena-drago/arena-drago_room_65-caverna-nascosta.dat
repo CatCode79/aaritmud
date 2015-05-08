@@ -1,0 +1,66 @@
+Code:	arena-drago_room_65-caverna-nascosta
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	La Caverna Nascosta
+Short:	la caverna nascosta
+	Descr:
+Appena entrato in questa piccola caverna la luminosità colpisce
+i tuoi occhi obbligandoti a socchiuderli. Qui tutto il soffitto
+è ricoperto di magma freddo in grado di donare un'innaturale
+luce alle profondità della terra. Solo la magia può aver creato
+una lava così stabile e fredda, e deve essere stato un
+sortilegio antico e potente a trasformare quest'immenso labirinto
+di cunicoli in questo modo. Al centro della stanza si trova un
+piccolo altare in pietra.
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	1|64 0
+Exits:
+	Direction:	DIR.EAST
+	Descr:	un vicolo cieco
+	Comment:	ExitStatus	1|8|16|32|128|256|512 0 27764 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

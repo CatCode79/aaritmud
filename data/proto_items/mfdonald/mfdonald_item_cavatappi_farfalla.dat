@@ -1,0 +1,18 @@
+Code: mfdonald_item_cavatappi_farfalla
+Level: 1
+
+Flags: FLAG.NO_LOOK_LIST 
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.STEEL	100%
+Name: Il Cavatappi a Farfalla
+Short: un cavatappi a farfalla
+Descr: Il cavatappi, cavaturaccioli o levatappi è un utensile utilizzato per estrarre
+dal collo delle bottiglie, in genere di vino, un tappo di sughero o plastica, aprendo
+quindi il contenitore. È chiamato anche tirabusciò o tirabusciòn, italianizzazione
+del termine francese tire bouchon.
+
+Value:	0
+Weight: 30g
+
+

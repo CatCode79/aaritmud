@@ -1,0 +1,29 @@
+Code: karpuram_item_sughera_ghianda_01
+Level: 1
+Icon:	icons/plant/ghianda-02.png
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+MaterialPercentages:	MATERIAL.SEED	100
+Sex:	SEX.FEMALE
+Name: Una [saddlebrown]Ghianda[close] di [saddlebrown]Sughera[close] 
+Short: una [saddlebrown]ghianda[close]
+Descr:
+Una piccola [saddlebrown]ghianda[close] 
+
+Value:	0
+Weight: 6g
+
+DescrTouch: 
+Una grossa ghianda ovale allungata e bruna con cupola vagamente a cono.
+DescrHearing:
+Quando la batti non suona vuota.
+DescrSixth:
+Se la si vuol seminare conviene prima lasciarla in acqua per un po'.
+
+Extras:
+  Keywords: ghianda
+  Descr: una ghianda di una qualche tipo di quercia.
+  DescrSixth: una ghianda di sughera
+End
+
+

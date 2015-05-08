@@ -1,0 +1,36 @@
+Comment:
+Oggetto di test realizzato per una vecchia struttura non più esistente
+(PersonalReset) rimossa con la r112
+
+
+Code: ikea_item_scatola-crash
+Level: 1
+MaxGlobalQuantity:	100
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.PAPER 100%
+Name:	Una Scatola Cinese
+Short:	una scatola cinese
+Long:	$N decide di farti impazzire
+
+Descr:
+Una scatola cinese #self is CONTAINER.CLOSED#sigillata#tutta strappata#.
+DescrTouch: 
+Una scatola leggera #self is CONTAINER.CLOSED#sigillata#tutta strappata#.
+DescrSmell: 
+no_send
+DescrSixth:
+C'è un prezzo per tutto ed un valore per molto meno di tutto.
+DescrTaste:
+no_send
+
+Value:	45
+Weight: 20g
+
+ContainerType:
+	Flags:	CONTAINER.CLOSED CONTAINER.CLOSABLE CONTAINER.OPEN_ONE_TIME
+	EntityOpenMessage:	Laceri $N.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n lacera $N.
+        MaxWeight: 1g
+End

@@ -1,0 +1,25 @@
+Code: miniere-kezaf_item_gemma-pietra-di-luna
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_moonstone-2.png
+Name:	Una Pietra di Luna
+Short:	una pietra biancastra
+Long:	$N si distingue qui in terra.
+
+
+Descr:
+Una pietra azzurro biancastra ruvida e priva di caratteristiche salienti.
+DescrSixth:
+Una pietra questa che una volta lavorata perde ogni precedente colorazione e
+risulta trasparente e incolore. La pietra della luna assume una tonalità di 
+colore leggermente biancastro, con trasparenza leggermente intorpidita, 
+spesso con tendenza perlacea, morbida. Ha [blue]riflessi[close] bianchi e 
+azzurri che ondeggiano alla luce provocando l'impressione di movimento.
+
+Value:	0
+Weight: 210g
+
+

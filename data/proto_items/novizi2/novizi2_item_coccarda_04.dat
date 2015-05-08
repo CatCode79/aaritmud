@@ -1,0 +1,27 @@
+Code: novizi2_item_coccarda_04
+Level: 1
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.SILK	100%
+Icon:	icons/item/coccarda-indaco.png
+Name: La [indigo]Coccarda[close] di [indigo]Benvenuto [red]A[gold]aritiana[close] 
+Short: una [indigo]coccarda[close] di [indigo]benvenuto[close]
+Long:	$N fluttua gentile e silenziosa nell'aria
+
+Descr:
+Una coccarda di velluto [indigo]violetto[close] per ricordo.
+DescrTouch: 
+Una morbidissima coccarda in velluto liscio.
+DescrSmell: 
+La coccarda profuma vagamente di [lightgreen]menta[close] selvatica.
+DescrSixth:
+È un oggettino ricordo di pochissimo valore intrinseco.
+
+Value:	0
+Weight: 10g
+
+WearType:
+   Modes: PART.LEFT_LITTLE_FINGER
+End
+
+

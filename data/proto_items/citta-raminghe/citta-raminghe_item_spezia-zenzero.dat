@@ -1,0 +1,41 @@
+Code: citta-raminghe_item_spezia-zenzero
+Level: 1
+Icon:	icons/food/zenzero.png
+
+Entitype: ENTITYPE.FOOD
+MaterialPercentages:	MATERIAL.ROOT	100
+Sex:	SEX.MALE
+Name:  [gold]Zenzero[close]
+Short:  [gold]zenzero[close] 
+Long:	un barattolo di $N 
+
+Descr:
+Polvere di zenzero da radice essiccata e macinata.
+DescrTaste:
+Sapore moderatamente piccante.
+DescrSixth:
+Il sapore lievemente piccante rimanda ad atmosfere orientali e sembra donare energia e vitalità.
+DescrSmell:
+Profuma di luoghi esotici.
+
+Value:	0
+Weight: 120g
+
+Behaviour:
+	LookPlayer:  25
+	TastePlayer: 25
+	SmellPlayer: 25
+	TouchPlayer: 25
+End
+
+FoodType:
+	Comment:	cibo
+	Animal:	0
+	Vegetable:	100
+	CookingDamage:	0
+	Hours:	0
+End
+
+ContainerType:
+        MaxWeight: 10g
+End

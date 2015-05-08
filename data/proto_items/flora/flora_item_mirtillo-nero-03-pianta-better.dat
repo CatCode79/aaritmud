@@ -1,0 +1,51 @@
+Code: flora_item_mirtillo-nero-03-pianta-better
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name: Un Basso [springgreen]Cespuglio[close] di [springgreen]Mirtillo[close]
+Short:	un basso [springgreen]cespuglio[close]
+Long:	$N cresce qui
+
+Descr:
+Un folto e florido cespuglio nano fortemente lignificato dalle foglioline verdi scuro e e belle lucide.
+L'ampia superficie che occupa rende difficile poterlo abbracciare in tutta la sua estensione.
+
+DescrTouch:
+Un folto e florido cespuglio nano fortemente radicato e fitto di foglioline lucide.
+L'ampia superficie che occupa rende difficile poterlo abbracciare in tutta la sua estensione.
+
+DescrTaste:
+Duro stoppaccioso poiché fortemente lignificato ma a basso effetto astringente.
+
+DescrSixth:
+Poco utile come legna da ardere ma le foglie sono un ingrediente importante per unguenti per mantenere elastiche le pelli dopo conciatura. 
+
+Value:	0
+Weight: 13kg
+
+Extras:
+  Keywords: foglie foglia fogliolina foglioline
+  Descr:	[springgreen]verdi foglioline[close] alternate
+  DescrTouch:	[springgreen]lucide foglioline[close] alternate
+  DescrTaste:	un forte amaro astringente
+  DescrSixth:	spezzettate e macerate posson mantenere elastica la pelle delle mani 
+End
+
+Extras:
+  Keywords: fusto stelo steli lignificato legno legni
+  Descr:	il fusto intricato e lignificato molto fitto e rivestito da [springgreen]foglioline scure[close].
+  DescrTouch:	per quanto intricato e legnoso il fusto mantiene una grande elasticità
+  DescrTaste:	un insipido sapore stoppaccioso
+End
+
+PlantType:
+    Sectors:	SECTOR.PLAIN SECTOR.HOUSE
+    RpgHours:	120
+    WorseEntity:	flora_item_mirtillo-nero-04-fiore-worse
+    NormalEntity:	flora_item_mirtillo-nero-04-fiore
+    BetterEntity:	flora_item_mirtillo-nero-04-fiore-better
+End
+
+

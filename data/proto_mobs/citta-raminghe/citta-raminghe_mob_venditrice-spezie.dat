@@ -1,0 +1,82 @@
+Code:   citta-raminghe_mob_venditrice-spezie
+Level:  3
+Sex:    SEX.FEMALE
+Race:   RACE.HUMAN
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:   La Venditrice di Spezie
+Short:  [red]una venditrice di spezie[close]
+Long:   $N ti osserva
+
+Descr:
+Una donna dal viso solcato da rughe profonde con due  due grandi [green]occhi[close] verdi splendenti che lasciano
+trasparire una vitalità inattesa nonostante l'età. Le mani rattrappite e raggrinzite si muovono con una certa agilità solo
+quando devono occuparsi delle [red]spezie[close] come se il passare del tempo non avesse influenzato questa sua abilità.
+Si muove all'interno della bottega con una estrema lentezza anche a causa della  schiena ricurva che
+la fa sembrare ancora più minuta e piccola di quanto sia in realtà. I capelli radi e bianchi sono raccolti dietro la nuca.
+Indossa un [blue]abito[close] di colore blu scuro di ottima fattura.
+DescrNight:
+Una donna bellissima dalla pelle levigata bianca come la luna si muove con grazia tra le spezie.
+I suoi [green]occhi[close] verdi splendenti sembrano emettere scintille attraverso l'intensità dello sguardo.
+Lunghi capelli lucidi e corvini le scendono giù lungo le spalle.
+Indossa un [darkred]abito[close] rosso scuro di ottima fattura che delinea le sue forme gradevoli.
+Sembra assorta in pensieri densi di nostalgia che la conducono verso luoghi lontani.
+
+DescrSmell:
+Emana un profumo intenso e pungente di spezie.
+
+DescrSixth:
+Non è come sembra, non lo è per nulla. Ciò che vedi è solo la proiezione di tue aspettative
+o la conseguenza di un sortilegio compiuto in luoghi e tempi lontani?
+Come in una dimensione surreale  i sensi colgono solamente una parte della verità.
+
+
+Weight: 70kg
+Height: 170cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 30
+
+MaxLife:        150
+Life:           150
+MaxMana:        100
+Mana:           100
+MaxVigour:      150
+Vigour:         150
+
+Strength:       33
+Endurance:      33
+Agility:        20
+Speed:          15
+Intelligence:   66
+Willpower:      50
+Personality:    50
+Luck:           50
+
+Behaviour:
+        LookPlayer:     20
+        LookMob:        10
+        LookItem:       20
+        LookAtRacesFlags:       RACE.NONE
+        LookAtRaces:    0
+        LookAtEntitypesFlags:   ENTITYPE.NONE
+        TasteAtEntitypesFlags:  ENTITYPE.NONE
+        SmellItem:      5
+        WanderDirection:        0
+        WanderExit:     0
+        WanderWall:     0
+        WanderClosedDoor:       0
+        WanderAtExitsFlags:     DIR.NONE
+        WanderAtExits:  0
+        WanderArea:     0
+        WanderPortal:   0
+        WanderEnterContainer:   0
+        WanderExitContainer:    0
+        WanderSelf:     0
+        RandomDo:       5
+        RandomDoInputs: emote controlla che le spezie stiano al loro posto.
+        RandomDoInputs: say Spezie fate piano!
+        RandomDoInputs: say Quale spezia desideri ?
+        RandomDoInputs: emote ti sorride mentre sceglie la spezia adatta a te.
+End
+

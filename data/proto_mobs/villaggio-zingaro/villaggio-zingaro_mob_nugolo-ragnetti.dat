@@ -1,0 +1,44 @@
+Code:	villaggio-zingaro_mob_nugolo-ragnetti
+Level:	1
+Sex:	SEX.MALE
+Race:	RACE.SPIDER
+Name:	Un [sienna]Nugolo di Ragnetti[close]
+Short:	un [sienna]nugolo[close] di [sienna]ragnetti[close]
+Long:	$N aggressivi
+
+Descr:
+Un nugolo di ragnetti microscopici che si muove come fosse una fanghiglia dotata di vita propria
+DescrTouch: 
+un nugolo di ragnetti ti avvolge la $hand.
+DescrSixth:
+Appena usciti dal bozzolo, curiosi ed affamati.
+DescrHearing:
+Producono un rumore come di sciame ma con volume molto basso.
+DescrTaste:
+Ti prendi una rivincita e ne mangi una manciata.
+
+Weight: 10kg
+Height: 5cm
+
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 1
+
+
+
+MaxLife:	400
+Life:		400
+MaxMana:	0
+Mana:		0
+MaxVigour:	0
+Vigour:		0
+
+Strength:	3
+Endurance:	5
+Agility:	15
+Speed:		5
+Intelligence:	5
+Willpower:	5
+Personality:	5
+Luck:		30

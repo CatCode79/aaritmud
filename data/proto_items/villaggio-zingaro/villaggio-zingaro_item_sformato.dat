@@ -1,0 +1,40 @@
+Code: villaggio-zingaro_item_sformato
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.WOOD	90%
+MaterialPercentages:	MATERIAL.EGG	5%
+MaterialPercentages:	MATERIAL.BUTTER	5%
+Name:	Una Fetta di Sformato di Verze e Patate
+Short:	una fetta di sformato
+Long:	$N tagliata con cura.
+
+Descr:
+Un piatto contente un'abbondante fetta di sformato, è composto da un rivestimento esterno di spinaci o verze che avvolge pezzetti di patata impastati con uova e riso.
+DescrTouch: 
+Tocchicci la fetta molliccia e dei pezzetti vegetale ti restano appiccicati alle dita.
+DescrSmell:
+Verza, con una puzza del genere non può che essere verza!
+DescrTaste:
+Ne assaggi una briciolina, troppo piccola per capire se ti piace o no.
+
+Value:	19
+Weight: 120g
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100
+
+FoodType:
+	Animal:	5
+	Vegetable:	95
+	CookingDamage:	20
+	Hours:	0
+	EntityMessage:	Pilucchi lentamente $N fino a finirla e ti liberi del piatto.
+	TargetMessage:	Ora c'è una sola via d'uscita... $n t'ha mangiato.
+	OthersMessage:	$n smangiucchia $N poco convint$O ma senza avanzarne una sola briciola.
+End

@@ -1,0 +1,16 @@
+Code: miniere-kezaf_item_gemma-tormalina-rubellite
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_tourmalinered.png
+Name:	Una [red]Tormalina[close] [red]Rubellite[close] Grezza
+Short:	una [red]pietra[close] dal marcato colore rossastro
+Long:	$N sta qui
+
+Descr:
+La luminosità che la pietra emette di rimando a ciò che l'illumina, dà l'impressione di una pozza rossa di luce propria. I suoi riflessi arrossano qualunque cosa nel raggio di uno o due palmi.
+
+Value:	0
+Weight: 210g

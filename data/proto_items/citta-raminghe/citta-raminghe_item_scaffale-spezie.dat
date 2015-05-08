@@ -1,0 +1,67 @@
+Comment: 
+l'idea è quella di uno scaffale che sia in qualche modo dinamico. Che interagisca con il suo contenuto. Penso di chiamare il contenuto dello scaffale "vaniglia" "peperoncino" etc piuttosto che "un barattolo si vaniglia" o "un barattolo di peperoncino"perché vorrei evitare al generalizzazione del termine barattolo, a meno che la keyword non possa essere, in quest'ultimo caso, quella relativa al nome della spezia contenuta. Relativamente alla behaviour dell'item "scaffale" a avrei voluto dinamizzarla ulteriormente, ma non so come sia la resa. Potrebbe essere utile per me un test che verifichi la corrispondenza tra il file, e ciò che ho in mente: uno scaffale che prenda le spezie , ma anche le butti giù, che possa fare un po' di confusione. 
+
+Code: citta-raminghe_item_scaffale-spezie
+Level: 3
+Entitype: ENTITYPE.CONTAINER   
+MaterialPercentages:	MATERIAL.EBONY	100
+Flags: FLAG.NO_GET
+Name: [gold]Uno Scaffale per le Spezie[close]
+Short: [gold]uno scaffale per le spezie[close]
+Long:	C'è $N che occupa tutto lo spazio
+
+Descr: 
+Talmente imponente che la stanza lo contiene appena. Lo scaffale delle meraviglie...lo scaffale delle spezie....Sei colpito
+ da tutti i barattoli che riesce a contenere. Barattoli di vetro, di ceramica, di latta, di legno, dai color vivaci e dai 
+disegni floreali e geometrici. Ti sembra che si muova! Una illusione percettiva?
+DescrSixth:
+Un semplice scaffale in apparenza...ma sai che a volte nulla è come sembra. Sembra avere una personalità decisa, indisponente e dispettosa...ed una certa tendenza all'impulsività...
+DescrSmell:
+Avverti l'odore di ciò che contiene...spezie.
+DescrTouch:
+Toccare uno scaffale che reagisce impulsivamente è un vero atto di coraggio...
+DescrTouch:
+Non crediamo sia una buona idea...
+ 
+Value:	0
+Weight: 180kg
+
+ContainerType:
+        MaxWeight: 357kg
+End
+
+Behaviour:
+       LookPlayer:     100
+       LookItem:       100
+       SmellItem:      100
+       SmellPlayer:    100
+       TasteItem:      100
+       WanderSelf:     100
+       
+       RandomDo:       10
+       RandomDoInputs: get peperoncino
+       RandomDoInputs: get curcuma
+
+       RandomDoInputs: get vaniglia
+
+       RandomDoInputs: get zenzero
+ 
+       RandomDoInputs: get cardamomo
+       RandomDoInputs: get pepenero
+      
+       RandomDoInputs: drop peperoncino
+       RandomDoInputs: drop curcuma
+
+       RandomDoInputs: drop vaniglia
+
+       RandomDoInputs: drop zenzero
+ 
+       RandomDoInputs: drop cardamomo
+       RandomDoInputs: drop pepenero
+       RandomDoInputs: say Queste spezie sono troppo rumorose!
+       RandomDoInputs: say Allontanati da qui!
+
+       RandomDoInputs: emote Cerca di scrollarsi di dosso tutti i barattoli delle spezie
+
+       RandomDoInputs: say Troppa gente circola qui dentro... via via.
+End

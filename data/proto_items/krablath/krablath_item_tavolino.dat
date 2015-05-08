@@ -1,0 +1,21 @@
+Code: krablath_item_tavolino
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.WOOD	100%
+Name:	Un [brown]Tavolino Rotondo[close]
+Short:	un [brown]tavolino[close]
+Long:	$N poggia su quattro gambine.
+
+Descr:
+Un [brown]tavolinetto[close] rotondo di modeste dimensioni con quattro gambe nodose.
+DescrTouch: 
+Passi una $hand sul legno ruvido.
+
+Value:	0
+Weight: 50kg
+
+ContainerType:
+	MaxWeight:	30kg
+End

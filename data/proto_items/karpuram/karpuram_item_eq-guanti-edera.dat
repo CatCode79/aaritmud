@@ -1,0 +1,28 @@
+Code:	karpuram_item_eq-guanti-edera
+
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.LEAF	80
+MaterialPercentages:	MATERIAL.SOFTWOOD	20
+Sex:	SEX.MALE
+Name:	Guanti d'Edera
+Short:	guanti coperti di foglie
+Long:	Un delicato paio di $N sono posati qui in terra.
+
+Descr:
+Una folta coltre di foglie di edera li ricopre, la base è
+formata da una stoffa colorata di verde dalle cui estremità si diramano cinque
+sottili rametti ricolmi di foglie. La pianta gira attorno al palmo e a parte
+del polso che ricopre i guanti. Se non fossero coperti dalle foglie, questi
+guanti non risulterebbero poi così strani e diversi da altri.
+
+DescrSmell:
+Una fragranza di terra e clorofilla diffonde delicata dalle foglie.
+
+Value:	0
+Weight:	300g
+
+WearType:
+   Modes: PART.RIGHT_HAND PART.LEFT_HAND
+End

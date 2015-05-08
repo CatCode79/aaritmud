@@ -1,0 +1,36 @@
+Code: cimitero_room_collina-a07
+Sector: SECTOR.HILL
+Name: Il Dardo di Pietra
+Short: attorno alla roccia
+
+Descr:
+Il sentiero gira attorno ad una pietra nera enorme, oblunga ed altissima che pare
+conficcata nel terreno anche se da tempo immemore. Verso sudovest il sentiero scende in
+quella che ha tutta l'aria di essere la frattura nella roccia originata dalla pietra nera. 
+
+DescrSmell: 
+La zona collinare è avvolta dagli abbracci languidi dell'odore di spezie e decomposizione.
+Per alcuni tratti si coglie però una scia che rimane la stessa per un certo tratto.
+DescrHearing:
+Il sibilo del vento produce un lugubre suono cupo sostenuto negli effetti lungo le
+lapidi frastagliate.
+
+Extras:
+	Keywords: scia
+	DescrSmell:
+	Lungo il tratto di sentiero che hai appena seguito aleggia l'odore di aglio selvatico.
+End
+
+Width:	6m
+Depth:	6m
+Height: 113m
+
+
+Exits:
+	Direction: DIR.NORTH
+	Descr: Un trivio nel sentiero
+End
+Exits:
+	Direction: DIR.SOUTHWEST
+	Descr: Lungo l'antica frattura
+End

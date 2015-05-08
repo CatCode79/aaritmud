@@ -1,0 +1,28 @@
+Code: ikea_item_lanterna
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.COTTON	5%
+MaterialPercentages:	MATERIAL.BRASS	85%
+MaterialPercentages:	MATERIAL.OIL	10%
+Sex:	SEX.FEMALE
+Name:	Una Lanterna
+Short:	una lanterna
+Long:	$N in ottone
+
+Descr:
+Una lanterna in metallo color ottone, all'interno si vede lo stoppino bianco.
+Alla base c'è il tappo per riempirla di olio.
+DescrTouch: 
+Una lanterna in metallo con una chiusura inferiore per ricaricarla.
+DescrSmell: 
+Caricata a petrolio.
+DescrSixth:
+Una fonte di luce.
+
+Value:	0
+Weight: 150g
+
+WearType:
+	Modes:	PART.HOLD
+End

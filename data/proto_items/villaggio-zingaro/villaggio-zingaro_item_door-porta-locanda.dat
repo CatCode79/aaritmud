@@ -1,0 +1,47 @@
+Code: villaggio-zingaro_item_door-porta-locanda
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.HARDWOOD 81%	
+MaterialPercentages:	MATERIAL.IRON 19%	
+Name:	La Porta della Locanda
+Short:	la porta della locanda
+Long:	$N giace qui rimossa dai cardini.
+
+Descr:
+Una porta in legno massiccio di medie dimensioni; fasce metalliche orizzontali fermamente inchiodate tentano di tenere insieme le assi che la compongono ormai stanche e crepate. I cardini su cui è fissata appaiono altrettanto incerti, come se tante volte fosse stata divelta da una forza incontenibile.
+DescrTouch: 
+Passi una $hand sulla porta cogliendone le venature del legno, le crepe e qualche scheggia sollevata.
+DescrSmell: 
+Odori $N che anche dopo tanti anni conserva ancora una pungente fragranza resinosa. 
+DescrSixth:	
+Immagini che gli avventori della locanda non debbano essere individui troppo tranquilli a giudicare dalle condizioni in cui e ridotta questa porta.
+DescrHearing:
+Ogni asse scricchiola in un suono caratteristico componendo con le altre una stridula sinfonia di cigolii.
+
+Value:	0
+Weight: 170g
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Apri $N con decisione.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N con decisione.
+	EntityCloseMessage:	Accompagni $N fino a chiuderla senza sbatterla troppo.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n accompagna $N fino a chiusura.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE
+	ResetCloseMessage: $N si chiude.
+	ResetOpenMessage: $N si apre.
+End
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

@@ -1,0 +1,84 @@
+Code: karpuram_mob_arcano_01
+Level: 35
+
+Sex:	SEX.MALE
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Race: RACE.HIGHELF
+Name:	Un Elfo Arcano
+Short: un elfo misterioso
+Long:	$N sta consultando un papiro.
+
+Descr:
+Questo elfo si distingue totalmente dagli altri elfi della foresta. Risulta
+decisamente più alto e magrissimo, fiero e nobile il suo sguardo, rimane preso
+e assorto nella lettura di una consunta pergamena e sembra non averti notato.
+Indossa un leggero abito di seta e cotone tendente al viola. Alla cinta, due 
+lacci di cuoio tengono ben ferma una custodia cilindrica dalla quale fa capolino
+un'asta di metallo nero e opaco.
+
+Extras:
+	Keywords: pergamena
+	Descr:
+	Un singolo rotolo di una consunta e scolorita pergamena.
+End
+
+Extras:
+	Keywords: asta, bacchetta
+	Descr:
+	Un perfetto cilindro dal colore nero e gelido al tatto.
+End
+
+
+
+
+
+
+Behaviour:
+	LookPlayer:	10
+	LookMob:	10
+	LookItem:	10
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	5
+	LookDirection:	5
+	LookExit:	20
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NORTH DIR.NORTHEAST DIR.EAST DIR.SOUTHEAST DIR.SOUTH DIR.SOUTHWEST DIR.WEST DIR.NORTHWEST DIR.DOWN DIR.UP 
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+Weight: 55kg
+Height: 190cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 90
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

@@ -1,0 +1,75 @@
+Code: citta-raminghe_mob_ippotoe
+MaxGlobalQuantity:	1
+Level:	5
+Sex:	SEX.FEMALE
+Race:	RACE.HUMAN
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	[aqua]I[close]ppotoe La Fulminea
+Short:	una [aqua]veloce guerriera amazzone[close]
+Long:	$N corre come il vento
+
+Descr:
+Una delle amazzoni. La più veloce delle guerriere. Anche il suo nome lo dice. 
+DescrTouch:
+Non ti è consentito a meno che non vuoi ritrovarti disteso per terra dolorante senza nemmeno capire come sia successo.
+
+DescrSmell:
+Senti l'odore della forza e della potenza
+
+DescrSixth:
+Combatte insieme alle altre amazzoni contro le ingiustizie. Paladina dei deboli contro i forti prepotenti e malvagi.
+ 
+Weight: 53kg
+Height: 171cm
+
+BirthMonth: MONTH.EIGHT
+BirthDay:	18
+
+Age: 252
+Behaviour:
+     LookPlayer:	30
+     LookMob:	10
+     LookItem:	10
+     LookAtRacesFlags:	RACE.NONE   
+     LookAtRaces:	0
+     LookAtEntitypesFlags:	ENTITYPE.NONE
+     LookAtEntitypes:	0
+     LookSelf:	10
+     LookDirection:	10
+     LookExit:	10
+     LookWall:	0
+     LookClosedDoor: 10
+     LookExtra:	0
+     WanderDirection:	0
+     WanderExit:	30
+     WanderWall:	0
+     WanderClosedDoor:	70
+     WanderAtExitsFlags:	DIR.NONE
+     WanderAtExits:	0
+     WanderArea:	0
+     WanderPortal:	100
+     WanderEnterContainer:	0
+     WanderExitContainer:	0
+     WanderSelf:	0
+     RandomDo:	10
+     RandomDoInputs:	emote ti guarda con l'aria di chi sta per sfidarti.
+     RandomDoInputs:	emote si guarda in giro per trovare qualcuno con cui valga la pena confrontarsi nella corsa, ma non vede nessuno che possa avere questo privilegio.
+End
+
+
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	110
+Life:		110
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

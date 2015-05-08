@@ -1,0 +1,26 @@
+Code: flora_item_farnia-09-matura
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Flags: FLAG.NO_GET
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name: Una Imponente [saddlebrown]Farnia[close]
+Short: una imponente [saddlebrown]farnia[close]
+Long: $N punteggiata di [sienna]ghiande[close] mature
+Descr:
+Una quercia dal portamento maestoso e di cospicue dimensioni; la chioma è vagamente
+regolare e riccamente addobbata di [sienna]ghiande[close] mature.
+Il fusto dritto come un fuso svetta nel cielo nonostante sia carico del peso di grandi e nodosi rami bitorzoluti.
+
+Value:	0
+Weight: 250kg
+
+PlantType:
+    Sectors:	SECTOR.PLAIN SECTOR.HOUSE
+    RpgHours:	01
+    WorseEntity:	flora_item_farnia-07-albero
+    NormalEntity:	flora_item_farnia-07-albero
+    BetterEntity:	flora_item_farnia-07-albero
+    DeadEntity:	flora_item_farnia-10-morta
+End

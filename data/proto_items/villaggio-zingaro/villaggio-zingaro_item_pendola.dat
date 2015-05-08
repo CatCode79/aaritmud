@@ -1,0 +1,45 @@
+Code: villaggio-zingaro_item_pendola
+
+Level:	1
+Entitype: ENTITYPE.CONTAINER
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.METAL	19%
+MaterialPercentages:	MATERIAL.GLASS	8%
+MaterialPercentages:	MATERIAL.WOOD	73%
+Name:	L'Orologio a Pendolo
+Short:	un orologio a pendolo
+Long:	$N ben ritto e imponente.
+
+
+Descr:
+Un'elegante pendola in legno verniciato fa bella mostra di se. Volute barocche serpeggiano intorno al quadrante circolare facendosi via via più sobrie scendendo lungo il corpo dell'oggetto. Un'[lightblue]anta[close] di vetro lascia intravedere un grosso pendolo che oscilla ritmicamente.
+Le lancette appuntite segnalo le [coral]$hour[close] e [coral]$minute[close].
+DescrTouch:
+Un'alta pendola in legno verniciato.
+DescrHearing:
+Il pendolo oscillando emette un lugubre e ritmico suono che pervade l'aria circostante.
+DescrSixth:
+Intuisci che questo orologio, invenduto da tempo immemore, è ormai diventato parte integrante dell'arredamento.
+
+Value:	0
+Weight: 50kg
+
+Extras: 
+	Keywords: quadrante
+	Descr: 
+	Un quadrante circolare con numeri romani che percorrono tutta circonferenza. Dal centro si dipartono tre lancette metalliche appuntite.
+End
+
+ContainerType:
+       EntityOpenMessage:	Apri l'anta di vetro di $N. 
+       TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+       OthersOpenMessage:	$n apre l'anta di vetro di $N.
+       EntityCloseMessage:	Chiudi l'anta di vetro di $N.
+       TargetCloseMessage:	Finalmente $n si è degnat$o di chiuderti.
+       OthersCloseMessage:	$n chiude l'anta di vetro di $N.
+       Flags:	CONTAINER.CLOSED CONTAINER.CLOSABLE
+       MaxWeight: 200g
+End
+
+
+

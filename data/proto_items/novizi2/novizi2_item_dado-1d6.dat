@@ -1,0 +1,30 @@
+Comment:
+la Long qui sotto non dovrebbe mai comparire a causa dello script che la muta.
+Se la si vede c'è un problema nello script
+
+Code: novizi2_item_dado-1d6
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.IVORY	100%
+Name: Un Dado a Sei Facce
+Short: un dado da gioco
+Long:	$N non ha funzionato
+
+Descr:
+	Un dado da gioco di un bel bianco latteo. Le facce hanno i classici incavi puntiformi per indicare i valori da Uno a Sei.
+DescrTouch: 
+	Un dado da gioco ben bilanciato e sufficientemente pesante da non essere una carabattola.
+DescrSixth:
+	La somma delle facce opposte è sempre sette; Magia? Matematica? Caso?
+
+Value:	0
+Weight: 95g
+
+Extras:
+	Keywords: bilanciato pesante carabattola
+	Descr:
+	Sarebbe da fare un po' di statistica.. chissà se è poi davvero un buon dado.
+End
+
+

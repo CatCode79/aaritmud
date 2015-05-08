@@ -1,0 +1,67 @@
+Code:	arena-drago_room_45-tunnel
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	La Fine del Tunnel
+Short:	la fine del tunnel
+	Descr:
+Sei alla fine di un tunnel scuro e puzzolente, a nord un enorme
+portone in legno massello rinforzato con inserti in ferro, deve
+essere l'accesso per i gladiatori che non fanno parte
+dell'accademia. A sud il tunnel prosegue.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	64 0
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	Portone
+	Comment:	ExitStatus	1|16|32|512 27707 27756 -1
+	Door:	arena-drago_item_door-portone-gladiatori-45
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	il tunnel
+	Comment:	ExitStatus	0 0 27744 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

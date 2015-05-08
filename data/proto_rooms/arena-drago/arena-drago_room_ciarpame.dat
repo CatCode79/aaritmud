@@ -1,0 +1,39 @@
+Code: arena-drago_room_ciarpame
+Sector: SECTOR.VOID
+Name: Il Ciarpame dell'Arena
+Short: il ciarpame dell'[gold]arena[close]
+
+Descr:
+Questo è l zona dell'immenso ciarpame che costella la zona di [gold]P[lightgreen]hane [gold]C[lightgreen]ello il Rozzo.
+Ogni oggetto quivi raccolto resterà come segno d'infamia per il furto agli dei.
+
+DescrTouch: 
+'un si tocca! È vietato!
+DescrSmell: 
+'un si annusa! Fa male!
+DescrSixth:
+Intuisci che qui c'è gente che lavora... mica come certa gente!
+DescrHearing:
+Senti il suono di mille builder che battono la testa in preda a crisi creativa.
+
+Extras:
+	Keywords: cello phane
+	Descr:
+	È anche l'autore originale della zona
+	DescrSmell:
+	Infatti rolla solo troll per nascondere il suo proprio olezzo
+End
+
+Width:	100m
+Depth:	100m
+Height: 500m
+
+Exits:
+ Direction: DIR.SOUTH
+ Descr: In strada
+End
+Exits:
+ Direction: DIR.WEST
+ Descr: In strada
+ Destination: 42 43 42 accademia-drago
+End

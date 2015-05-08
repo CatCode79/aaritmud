@@ -1,0 +1,81 @@
+Comment: L'apprendista del tagliapietre, del tutto diverso rispetto al padrone. È lui che ci svelerà il segrato della pietra della cupola..forse.
+Code:	villaggio-zingaro_mob_apprendista-tp-vizor-incheia
+Level:	1
+Sex:	SEX.MALE
+Race:	RACE.SATYR
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Vizor Incheia l'Apprendista Tagliapietre
+Short:	un giovane apprendista 
+Long:	$N sorride ilare.
+
+Descr:
+Un baldo giovine con una barbetta caprina che penzola dal mento. Il fisico asciutto ed i muscoli tonici indicano che, diversamente dal suo padrone, passa anche del tempo all'aria aperta e pare che nulla possa sfuggire ai suoi vispi occhi ambrati.  
+DescrTouch:
+Sfiori appena la sua pelle liscissima.
+DescrSmell: 
+Sniff..sniff..caprifoglio.
+DescrSixth:
+Hai l'impressione che potrebbe abbindolare chiunque volendolo.
+DescrHearing:
+Di tanto in tanto fischietta.
+
+Weight: 80kg
+Height: 183cm
+
+BirthDay: 25
+BirthMonth: MONTH.EIGHT
+Age: 33
+
+Behaviour:
+	LookPlayer:	3
+	LookMob:	3
+	LookItem:	3
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	7
+	LookWall:	0
+	LookClosedDoor:	7
+	LookExtra:	0
+	LookEquipment:	7
+	SmellPlayer:	0
+	ListenMob:	0
+	TouchItem:	0
+	IntuitionAtRacesFlags:	RACE.NONE
+	IntuitionAtRaces:	0
+	TasteAtEntitypesFlags:	ENTITYPE.NONE
+	TasteAtEntitypes:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	5
+	RandomDoInputs:	emote sorride in modo affascinate.
+	RandomDoInputs:	emote si sfrega la barbetta.
+End
+
+MaxLife:	150
+Life:		150
+MaxMana:	80
+Mana:		10
+MaxVigour:	100
+Vigour:		100
+
+Strength:	50
+Endurance:	20
+Agility:	55
+Speed:		34
+Intelligence:	54
+Willpower:	10
+Personality:	61
+Luck:		10

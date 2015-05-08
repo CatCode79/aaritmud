@@ -1,0 +1,34 @@
+Code:	serpidi_item_sarcofago_16
+Level:	1
+Entitype: ENTITYPE.CONTAINER
+MaterialPercentages:	MATERIAL.MARBLE	100%
+Name:	Un Grande Sarcofago Ovale 
+Short:	un grande sarcofago ovale 
+Descr: 
+C'è un contenitore della stessa forma della stanza.  
+Extras:
+	Keywords:	 simbolo 
+	Descr:
+ \  / 
+  \/ 
+  /\ 
+ /  \
+(    )
+ \  /
+  \/ 
+End
+Extras:
+	Keywords:	 sarcofago 
+	Descr:
+IL sarcofago è ovale, anzi a guardarlo bene assomiglia molto ad un uovo oblungo.
+End
+
+Value:	0
+Weight: 80g
+BirthDay: 1
+BirthMonth: MONTH.TEN
+
+ContainerType:
+	Flags:	 CONTAINER.CLOSED CONTAINER.CLOSABLE 
+	MaxWeight:	100kg
+End

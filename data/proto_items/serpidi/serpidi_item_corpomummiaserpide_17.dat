@@ -1,0 +1,23 @@
+Code:	serpidi_item_corpomummiaserpide_17
+Level:	1
+Entitype: ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.FLESH	90%
+MaterialPercentages:	MATERIAL.CLOTH	10%
+Name:	Il Corpo Mummificato di un Serpide 
+Short:	il corpo mummificato di un serpide 
+Descr: 
+È una specie di mummia dalle strane forme.  
+Extras:
+	Keywords:	corpo mummia 
+	Descr:
+Anche se mummificato puoi riconoscere lo strano essere umanoide con la testa di serpente che era raffigurato dalla statua del tempio superiore. 
+End
+Value:	0
+Weight: 80g
+BirthDay: 1
+BirthMonth: MONTH.TEN
+
+
+
+
+

@@ -1,0 +1,42 @@
+Code: villaggio-zingaro_item_pinza-fabbro 
+Level: 1
+Entitype: ENTITYPE.WEAPON
+Sex:    SEX.FEMALE
+MaterialPercentages:	MATERIAL.STEEL	100%
+Name:   Una Pinza da Fabbro 
+Short:  una pinza da fabbro 
+Long:   $N è appesa ad un gancio
+
+
+Descr: 
+		Due pezzi di ferro identici posti in modo speculare tra loro e fermati
+		da un cardine nella parte finale dello strumento, formano questa 
+		rudimentale ma utile pinza. Quest'oggetto serve principalmente ad
+		evitare al fabbro pesanti bruciature e abrasioni. Le due [lightgray]parti[close]
+		che fanno presa con i materiali da modellare sono molto consumate e chiare
+		rispetto al resto.
+
+DescrTouch:
+		La superficie è dura e rozza, lo strumento viene usato spesso e presenta
+		punti molto rovinati, sostanzialmente è ancora in buone condizioni.
+
+DescrSmell:
+		Forte l'odore del ferro con cui quest'oggetto è fatto, ma anche del
+		materiale che lo stesso ha manovrato e spostato. 
+
+
+
+
+Value:	0
+Weight: 3kg
+
+
+WearType:
+       Modes: PART.WIELD 
+End
+
+WeaponType:
+       Category: WEAPON.HAMMER
+       Damage: 1D4
+       Flags: WEAPONFLAG.ONE_HAND
+End

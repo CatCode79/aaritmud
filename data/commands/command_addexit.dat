@@ -1,0 +1,5 @@
+FunName:  command_addexit
+Type:     CMDTYPE.ADMIN
+Trust:    TRUST.BUILDER
+Position: POSITION.DEAD
+MiniHelp: Serve a creare una nuova uscita in una direzione desiderata

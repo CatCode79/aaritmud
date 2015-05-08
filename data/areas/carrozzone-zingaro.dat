@@ -1,0 +1,142 @@
+Comment:
+Nasce come interno del carrozzone degli zingari che si muove per Aarit
+
+Creators:	Batu Sulfrum
+Code: carrozzone-zingaro
+Name: Il Carrozzone Itinerante
+Short: un carrozzone gitano
+Descr:
+Un carrozzone viaggia senza sosta per il Nakilen consentendone la visita a tutti coloro che sono abbastanza curiosi per entrarvi.
+Di quando in quando interrompe il suo viaggio per fare ritorno al natio Villaggio Zingaro e rimpinguare le scorte.
+Color: COLOR.GOLD oro che fa luccicare gli occhi dei gitani
+Level: 1
+RepopTime: 20
+LandfillCode:	villaggio-zingaro_room_grotta-03
+
+RoomResets:
+  ProtoRoom: carrozzone-zingaro_room_carrozzone-01 
+	Destination:	0 0 0 carrozzone-zingaro
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	carrozzone-zingaro_mob_zingara-megera
+		EntityResets:
+			WearMode:	PART.LEFT_ANKLE
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	carrozzone-zingaro_item_cavigliera
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_HIP PART.RIGHT_HIP
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	carrozzone-zingaro_item_gonna
+		End
+		EntityResets:
+			Quantity:	4
+			Type:		RESET.PUT
+			ProtoEntity:	carrozzone-zingaro_item_cavigliera
+		End
+		EntityResets:
+			Quantity:	4
+			Type:		RESET.PUT
+			ProtoEntity:	carrozzone-zingaro_item_gonna
+		End
+		EntityResets:
+			Quantity:	4
+			Type:		RESET.PUT
+			ProtoEntity:	carrozzone-zingaro_item_orecchino-violino
+		End
+		EntityResets:
+			Quantity:	4
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_casseruola
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	carrozzone-zingaro_item_turibolo-incenso
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	carrozzone-zingaro_mob_gatto-zingaro
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	carrozzone-zingaro_mob_specchio
+	End
+End
+RoomResets:
+  ProtoRoom: carrozzone-zingaro_room_carrozzone-02
+	Destination:	0 1 0 carrozzone-zingaro
+End
+RoomResets:
+  ProtoRoom: carrozzone-zingaro_room_tintoria-01
+	Destination:	-1 2 0 carrozzone-zingaro
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	carrozzone-zingaro_item_cumulo-stracci
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	carrozzone-zingaro_item_librone-01
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	carrozzone-zingaro_item_pentolone-01-pulito
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	carrozzone-zingaro_item_pentolone-01-sporco
+	End
+End
+RoomResets:
+  ProtoRoom: carrozzone-zingaro_room_tintoria-02
+	Destination:	0 2 0 carrozzone-zingaro
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: carrozzone-zingaro_item_fili-penduli
+	End
+End
+RoomResets:
+  ProtoRoom: carrozzone-zingaro_room_tintoria-03
+	Destination:	1 2 0 carrozzone-zingaro
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	carrozzone-zingaro_item_saponetta-01
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	carrozzone-zingaro_item_cassettiera
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	carrozzone-zingaro_item_vasetto-01
+			EntityResets:
+				Quantity:	1
+				Type: 	RESET.PUT
+				ProtoEntity: 	carrozzone-zingaro_item_allume-00
+			End
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	carrozzone-zingaro_item_scatoletta-01
+			EntityResets:
+				Quantity:	1
+				Type: 	RESET.PUT
+				ProtoEntity: 	carrozzone-zingaro_item_polverina-01
+			End
+		End
+	End
+End

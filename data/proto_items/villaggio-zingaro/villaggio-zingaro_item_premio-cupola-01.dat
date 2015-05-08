@@ -1,0 +1,28 @@
+Code: villaggio-zingaro_item_premio-cupola-01
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GLASS	90%
+MaterialPercentages:	MATERIAL.CLOTH	10%
+Name:	Un [lightsalmon]Nebulizzatore[close] per Profumo
+Short:	un [lightsalmon]nebulizzatore[close] per profumo
+Long:	$N è qui posato.
+
+Descr:
+Un prezioso [lightsalmon]nebulizzatore[close] in cristallo collegato tramite un lungo tubicino ad una pompetta ellittica.
+La lavorazione spigolosa della bottiglietta dona al complesso un notevole gioco di riflessi sotto la luce del sole; il tutto termina con un cappuccetto metallico forato da cui esce l'essenza.
+DescrNight:
+Un prezioso [lightsalmon]nebulizzatore[close] in cristallo squadrato collegato tramite un lungo tubicino ad una pompetta ellittica.
+DescrTouch: 
+La tua $hand scorre sulla pompetta rivestita in tessuto vellutato.
+DescrSmell: 
+Una fragranza morbida ma leggermente asprigna.
+DescrSixth:
+Beh qualcosa conterrà, l'unica è provare a spruzzare.
+DescrTaste:
+Un sapore insaponato ti lega la bocca.
+
+Value:	0
+Weight: 210g
+

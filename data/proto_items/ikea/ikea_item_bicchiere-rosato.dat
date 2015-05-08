@@ -1,0 +1,21 @@
+Code: ikea_item_bicchiere-rosato
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GLASS	100%
+Name:	Un Bicchiere da Vino Rosato
+Short:	un aggraziato bicchiere
+Long:	$N con $I
+
+Descr:
+Un bicchiere in vetro trasparente#self.inventory_qty < 1#con qualche alone rosato sul fondo.# colmo di $i.#
+DescrHearing:
+Lo fai tinitinnare.
+
+Value:	34
+Weight: 10g
+
+ContainerType:
+	MaxWeight:	200g
+End

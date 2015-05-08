@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_018_camminamenti-018
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	I Camminamenti
+Short:	i camminamenti
+	Descr:
+Il camminamento prosegue, da dove ti trovi ora vedi in lontananza
+ad ovest la struttura di una roccaforte, è situata a circa
+duecento metri dall'accademia e sembra comunque essere parte
+integrante del complesso. La cosa strana è che sembrano non
+esserci strade che la collegano al corpo della struttura dove ti
+trovi ora.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 1
+Exits:
+	Direction:	DIR.EAST
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 017 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 019 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

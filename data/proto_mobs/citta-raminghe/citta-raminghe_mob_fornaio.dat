@@ -1,0 +1,64 @@
+Code: citta-raminghe_mob_fornaio
+MaxGlobalQuantity:	1
+Level: 3
+Sex: SEX.MALE 
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Race: RACE.DWARF
+Name: Il Fornaio
+Short: [yellow]un fornaio[close]
+Long: $N dalle guance arrossate accende il fuoco
+Descr: Un esemplare di maschio rotondeggiante di razza nanica dalle guance arrossate dal calore del fuoco.
+DescrSixth: Intuisci che devi decidere in fretta ciò che vuoi dato che ti guarda con una certa insofferenza.
+
+Weight: 258kg
+Height: 137cm
+
+BirthDay:	12
+BirthMonth:	MONTH.EIGHT
+Age: 157
+
+Behaviour:
+     LookPlayer:	60
+     LookMob:	100
+     LookItem:	100
+     LookAtRacesFlags:	RACE.NONE   
+     LookAtRaces:	0
+     LookAtEntitypesFlags:	ENTITYPE.NONE
+     LookAtEntitypes:	0
+     LookSelf:	10
+     LookDirection:	10
+     LookExit:	10
+     LookWall:	0
+     LookClosedDoor: 10
+     LookExtra:	0
+     WanderDirection:	0
+     WanderExit:	0
+     WanderWall:	0
+     WanderClosedDoor:	0
+     WanderAtExitsFlags:	DIR.NONE
+     WanderAtExits:	0
+     WanderArea:	0
+     WanderPortal:	0
+     WanderEnterContainer:	0
+     WanderExitContainer:	0
+     WanderSelf:	0
+     RandomDo:	100
+     RandomDoInputs:	emote tira nel forno le pagnotte con una destrezza inaudita
+     RandomDoInputs:	emote ti guarda dal basso verso l'alto con una certa irritazione facendoti intuire che devi fare in fretta
+ End
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

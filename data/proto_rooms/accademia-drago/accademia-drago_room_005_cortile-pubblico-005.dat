@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_005_cortile-pubblico-005
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il Cortile Pubblico
+Short:	il cortile pubblico
+	Descr:
+Stai girovagando per l'enorme cortile pubblico dell'accademia,
+qui gli studenti possono ricevere parenti ed amici, vialetti in
+porfido zigzagano tra aiuole rigogliose dove erba e fiori
+convivono in modo casuale donando naturalezza all'ambiente che ti
+circonda. Alcune panche in pietra costeggiano i sentieri
+permettendo ai visitatori di rilassarsi e conversare in
+tranquillità. Ad est noti un arco che si addentra nella
+struttura dell'accademia.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 2
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	il cortile pubblico
+	Comment:	ExitStatus	0 0 006 -1
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	l'androne [white]bianco[close]
+	Comment:	ExitStatus	0 0 055 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	il cortile pubblico
+	Comment:	ExitStatus	0 0 004 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	la fontana
+	Comment:	ExitStatus	0 0 008 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

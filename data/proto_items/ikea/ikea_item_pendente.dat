@@ -1,0 +1,55 @@
+Code: ikea_item_pendente
+
+Level:	1
+MaxGlobalQuantity: 1
+Entitype: ENTITYPE.WEAR
+Sex:	SEX.MALE
+Icon:	icons/gem/stones_turquoise.png
+MaterialPercentages:	MATERIAL.GOLD	50%
+MaterialPercentages:	MATERIAL.SILVER	30%
+MaterialPercentages:	MATERIAL.GEM	20%
+Name:	Un [lightblue]Pendente con Acquamarina[close]
+Short:	un [lightblue]meraviglioso pendente[close]
+Long:	$N si fa desiderare da chiunque lo osservi.
+
+Descr: 
+Un oggetto di pregiata fattura; una catenina con maglie intrecciate in oro e argento
+sostiene una goccia di acquamarina adagiata su di un basamento in puro oro bianco.
+La pietra non sembra sia stata in alcun modo levigata infatti s'incastra perfettamente
+al di sopra della base che pare creata appositamente per essa.
+DescrTouch:
+Passando la catenina tra le $hand si avverte la perfezione dell'onda creata
+dalla maglia.
+DescrHearing:
+Avverti un lieve rumore non costante provenire dalla gemma, come delle onde.
+DescrSixth:
+La pietra non è semplicemente quello che sembra...
+DescrSmell:
+Avverti un sentore remoto d'acqua provenire dalla pietra.
+
+Extras:
+	Keywords: gemma acquamarina acqua onde
+	Descr:
+	Osservandole meglio ti accorgi che emana un lieve [lightcyan]bagliore[close] scaturito da un liquido che scorre all'interno.
+End
+
+Value:	700
+Weight: 89g
+
+WearType:
+        Modes:	PART.NECK
+	Flags:	WEAR.LAYERABLE
+        EntityWearMessage:      Sollevi $N e te l$O porti %s.
+        TargetWearMessage:      Attento $N, $n ti ha indossato %s.
+        OthersWearMessage:      $n solleva $N  e se l$O porta %s.
+        EntityRemoveMessage:    Porti le $hands %s e togli $N.
+        TargetRemoveMessage:    Attento $N, $n ti ha tolto %s.
+        OthersRemoveMessage:    $n porta le $hands %s e si leva $N
+End
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

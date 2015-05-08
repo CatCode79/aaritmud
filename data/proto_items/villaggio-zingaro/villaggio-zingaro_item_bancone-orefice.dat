@@ -1,0 +1,22 @@
+Code: villaggio-zingaro_item_bancone-orefice
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+Flags:	FLAG.NO_LOOK_LIST FLAG.NO_GET
+MaterialPercentages:	MATERIAL.HARDWOOD 80%
+MaterialPercentages:	MATERIAL.MARBLE 20%
+Name:	Un Bancone da Lavoro
+Short:	un bancone da lavoro
+Long:	$N è qui
+
+Descr:
+Un bancone da lavoro in legno con incastrato nella parte superiore un pianale di marmo colmo di macchie.
+La parte frontale è sgombra centralmente per potersi mettere al lavoro da una sedia ed ai lati vi sono alcuni [slategray]cassetti[close].
+DescrTouch: 
+Un bancone da lavoro in legno con un pianale in marmo liscio. Il bancone possiede sulla sezione frontale una doppia fila di [slategray]cassetti[close] disposti ai lati.
+
+Value:	0
+Weight: 49kg
+
+

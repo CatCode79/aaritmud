@@ -1,0 +1,74 @@
+Code:	villaggio-zingaro_mob_fioraia-margareta
+Level:	1
+Sex:	SEX.FEMALE
+Race:	RACE.TUAREG
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Margareta la Fioraia
+Short:	una venditrice di fiori
+Long:	$N sorride a chiunque le s'accosti.
+
+Descr:
+Un'incantevole signora dal portamento aggraziato gira per le strade con un cesto colmo di fiorisotto braccio.
+Dedliziosi boccoli ricadono sul  collo lasciato scoperto dai capelli acconciati in uno chignon.
+Una mano dalle flessuose dita finisce spesso per posarsi sull'affusolta vita stretta in un corsetto riccamente decorato.
+DescrTouch: 
+no_send
+DescrSmell: 
+la fragranza dei suo fiori la avvolgono completamente.
+DescrSixth:
+Pensi che un fiore lo potresti anche comprare, non costerà poi tanto.
+DescrHearing:
+La sua voce armoniosa si spande tutt'attorno 
+DescrTaste:
+no_sena
+
+Weight: 64kg
+Height: 172cm
+
+BirthDay: 15
+BirthMonth: MONTH.NINE
+Age: 43
+
+Behaviour:
+	LookPlayer:	7
+	LookMob:	4
+	LookAtEntitypesFlags:	ENTITYPE.SEED ENTITYPE.FLOWER
+	LookAtEntitypes:	10
+	SmellPlayer:	2
+	WanderDirection:	0
+	WanderExit:	30
+	WanderAtSectors: 	SECTOR.ROAD
+	RandomDo:	15
+	RandomDoInputs:	emote ti porge un fiore.
+	RandomDoInputs:	emote ondeggia leggera al ritmo di uno danza che solo lei pare sentire.
+End
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100
+
+Strength:	20
+Endurance:	10
+Agility:	10
+Speed:		30
+Intelligence:	10
+Willpower:	10
+Personality:	10
+Luck:		80
+
+Shop:
+	Types:	SHOP.NORMAL
+	Buyables:	mfdonald_item_rosa_01 160% 50
+	Buyables:	mfdonald_item_rosa_19 180% 50
+	Buyables:	mfdonald_item_rosa_03 130% 50
+	Buyables:	mfdonald_item_rosa_17 170% 50
+	Buyables:	mfdonald_item_rosa_05 110% 50
+	Buyables:	mfdonald_item_rosa_15 120% 50
+	Buyables:	mfdonald_item_rosa_07 150% 50
+	Buyables:	mfdonald_item_rosa_13 140% 50
+	Buyables:	mfdonald_item_rosa_09 190% 50
+	Buyables:	mfdonald_item_rosa_10 100% 50
+End

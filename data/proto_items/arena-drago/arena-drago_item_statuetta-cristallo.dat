@@ -1,0 +1,21 @@
+Code:	arena-drago_item_statuetta-cristallo
+Level:	06
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.CRISTAL 100%
+Sex:	SEX.MALE
+Name:	Una Statuetta in Cristallo
+Short:	una statuetta in cristallo
+
+Value:	0
+Weight: 310g
+
+Descr:
+una statuetta di cristallo purissimo rappresentante due draghi intrecciati.
+Comment:
+§27722
+
+Dati Obj
+
+18 262144 1|163840 0 0 01 0 -1
+
+

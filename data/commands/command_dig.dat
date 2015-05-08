@@ -1,0 +1,6 @@
+FunName:  command_dig
+Type:     CMDTYPE.ITEM
+Trust:    TRUST.PLAYER
+Position: POSITION.SIT
+Flags:    CMDFLAG.INTERACT CMDFLAG.GDR
+MiniHelp: Serve a scavare una buca nel terreno o per dissotterrare oggetti.

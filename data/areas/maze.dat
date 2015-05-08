@@ -1,0 +1,55 @@
+Comment: questa è una zona di prove legate al labirinto
+	le coordinate di accesso sono a sud della 0 0 0 maze
+	e l'altra dipende dalla grandezza del labirinto ed è a sud di (columnns -1) (rows -1) 0 maze
+Creators:	Sulfrum
+Code: maze
+Name: Il Labirinto
+Short: Il Labirinto
+Descr:
+	La verde via dell'illusione in un ambiente mutevole ma ospitale in cui il fine è raggiunto nello stesso modo in cui si percorre e si esplora. Chi ha scritto mappe o indicato sentieri ha assistito personalmente alla vacuità  del proprio operare.
+	Chi si vuole cimentare con il labirinto può cercarne uno degli estremi a sud del Villaggio Zingaro.
+Color: COLOR.FORESTGREEN
+Level: 5
+RepopTime: 1440
+
+Flags: AREA.MAZE
+LandfillCode:	maze_room_accesso-sw
+
+
+Maze:
+    RemakeHour: 17
+    RemakeWeekday: WEEKDAY.ONE
+    Columns: 12
+    Rows:    12
+    CodePrefix: karpuram_room_bosco
+    Passages: 11 12 0 maze_room_accesso-ne
+    Passages: 0 -1 0 maze_room_accesso-sw
+End
+
+
+RoomResets:
+	Comment: room di collegamento al labirinto
+	ProtoRoom: maze_room_accesso-ne
+	Destination:	11 12 0 maze
+End
+RoomResets:
+	Comment: room di collegamento al labirinto
+	ProtoRoom: maze_room_accesso-sw
+	Destination:	0 -1 0 maze
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	maze_item_certificato-uscita
+	End
+End
+RoomResets:
+	Comment: room di collegamento al labirinto
+	ProtoRoom: maze_room_accesso-sw
+	Minute:	42
+	Destination:	0 -1 0 maze
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	maze_item_certificato-uscita
+	End
+End

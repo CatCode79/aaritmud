@@ -1,0 +1,25 @@
+Code: mfdonald_item_fradiciume
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages: MATERIAL.WATER 100%
+Flags:	FLAG.INTERACTABLE_FROM_OUTSIDE
+Name:	Un [sandybrown]Fradiciume[close]
+Short:	un [sandybrown]fradiciume[close] primario
+
+Descr:
+Qualcosa infradicia ed inzacchera tutto quanto.
+DescrTouch: 
+Qualcosa infradicia ed inzacchera tutto quanto.
+DescrSmell: 
+Un infradiciante senso d'umidiccio algale.
+DescrSixth:
+Questa non è solo acqua è un infradiciante fradiciume che inpregna con efficacia.
+DescrTaste:
+Urgghh... Bleah...
+DescrHearing:
+no_send
+
+Value:	16
+Weight: 120g

@@ -1,0 +1,34 @@
+Comment:
+-questo quello bello pulito ma rimovibile...o anche no vediamo dai...
+-l'aceto può dare qualche problema al peltro?
+-nella tintoria
+
+Code: carrozzone-zingaro_item_pentolone-01-pulito
+
+Level:	1
+Entitype: ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.PEWTER 100%
+Name:	Un Calderone
+Short:	un lucido pentolone
+Long:	$N è stato sistemato qui.
+
+Descr:
+Un lucente calderone in peltro dalle notevoli dimensioni con due robusti manici ai lati.
+DescrTouch:
+Gelido metallo; appena sotto la bocca il calderone è cinto da uno sporgente fregio geometrico.
+DescrHearing:
+Ting tong ting..tamburelli con le unghie emettendo tintinnii metallici.
+DescrSmell:
+Solo servendoti di tutti i tuoi recettori olfattivi riesci a cogliere ancora il vago aroma di aceto che vi aleggia intorno.
+DescrSixth:
+Lo spesso fondo leggermente bruciacchiato ti fa pensare ad cuoco un tantino distratto.
+
+Value:	0
+Weight: 3670g
+
+Extras:
+   Keywords: fregio geometrico sporgente
+   Descr:
+  Si tratta di una spigolosa treccia a quattro capi terminante in un pentagono in cui è impressa un upupa dalla cresta spiegata.
+End

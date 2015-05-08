@@ -1,0 +1,36 @@
+Code: novizi2_item_rastrelliera-armi-04
+Level: 1
+MaxGlobalQuantity:	1
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.FEMALE
+Flags:	FLAG.NO_GET FLAG.NO_LOOK_LIST
+MaterialPercentages:	MATERIAL.WOOD	80%
+MaterialPercentages:	MATERIAL.METAL	20%
+Name:	La Rastrelliera per Armi Utili
+Short:	la rastrelliera per armi utili
+Long:	$N è qui
+KeywordsShort: rastrelliera utili utile prima
+KeywordsName: rastrelliera utili utile prima
+
+
+Descr:
+L'ultima rastrelliera è un mobile di pregio dotato di due ante.
+Le ante, in legno come il mobile, hanno al centro una grata di metallo che consente di vederne il contenuto anche quando è chiusa.
+DescrTouch: 
+L'ultima rastrelliera è un mobile di pregio dotato di due ante che si muovono senza un cigolio.
+DescrSixth:
+L'ultima rastrelliera è forse la più interessante per via del contenuto più vario e utile.
+
+Value:	0
+Weight: 40kg
+
+ContainerType:
+	EntityOpenMessage:	Apri entrambe le ante di una rastrelliera.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre entrambe le ante di una rastrelliera.
+	EntityCloseMessage:	Chiudi le ante di una rastrelliera.
+	TargetCloseMessage:	Finalmente $n si è degnat$o di chiuderti.
+	OthersCloseMessage:	$n chiude le ante di una rastrelliera.
+	Flags:	 CONTAINER.CLOSABLE 
+	MaxWeight:	400kg
+End

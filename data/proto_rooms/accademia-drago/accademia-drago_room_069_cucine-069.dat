@@ -1,0 +1,114 @@
+Code:	accademia-drago_room_069_cucine-069
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Cucine
+Short:	cucine
+	Descr:
+Appena entri in questa stanza vieni avvolto dall'aroma di
+stufato, la parete est è completamente occupata da un gigantesco
+camino su cui girano contemporaneamente tre spiedi enormi e al
+contempo bollono 4 pentoloni. Al centro della stanza due tavoli
+servono ai cuochi per preparare i pasti.
+Due porte si aprono ad ovest e nord.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 0
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	il magazzino
+	Comment:	ExitStatus	1 017 070 -1
+	Door:	ikea_item_porta
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	sala mensa
+	Comment:	ExitStatus	1 0 068 -1
+	Door:	ikea_item_porta
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

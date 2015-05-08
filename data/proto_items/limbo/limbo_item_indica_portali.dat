@@ -1,0 +1,24 @@
+Code: limbo_item_indica_portali
+Level: 1
+
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.UNKNOWN	 100%
+Name: Un Oggetto IndicaPortali
+Short: un oggetto indicaportali
+Descr: un oggetto indicaportali
+
+Long:	$N non sa cosa indicare
+
+Value:	0
+Weight: 1g
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 1
+
+Behaviour:
+	LookAtEntitypesFlags:	ENTITYPE.PORTAL
+	LookAtEntitypes:	100
+End
+
+

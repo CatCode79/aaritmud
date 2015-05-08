@@ -1,0 +1,24 @@
+Code: citta-raminghe-maze_room_biblioteca_est-ovest
+Sector: SECTOR.HOUSE
+Flags:  ROOM.INSIDE
+Name: La Sala degli Specchi
+Short: una [red]sala di specchi[close]
+Descr:
+La tua immagine riflessa é ovunque in questa stanza. Specchi deformanti a forma di libro son disposti sulle 
+pareti in posizione obliqua. 
+
+DescrSixth:
+Una stupefacente sensazione di molteplicità che dà le vertigini.
+
+Width:  10m
+Depth:  10m
+Height: 100m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: in biblioteca
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: in biblioteca
+End

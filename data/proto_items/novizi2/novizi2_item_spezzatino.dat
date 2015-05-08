@@ -1,0 +1,43 @@
+Code: novizi2_item_spezzatino
+Level: 1
+Icon:	icons/food/pot.png
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.MEAT	50%
+MaterialPercentages:	MATERIAL.VEGETABLES	47%
+MaterialPercentages:	MATERIAL.OIL	3%
+Name: Lo Spezzatino
+Short: lo Spezzatino
+Long:	$N cucinato dalle abili mani di Faret è posto in una padella sopra al tavolo
+Flags: FLAG.NO_GET 
+Descr:
+L'aspetto è quello di un manicaretto da non farsi sfuggire. Forse, non visto,
+ne puoi assaggiare un po'. Nel sugo galleggiano delle [gold]cose[close] invitanti.
+DescrTouch: 
+Senza molte cerimonia ficchi l'indice dentro ad un pezzettone di carne per saggiarne la consistenza;
+la carne appare tenera, sugosa e ben frollata.
+DescrSmell: 
+Il profumo tradisce la predilezione di Faret per il ginepro e i cibi speziati.
+DescrSixth:
+Il tuo istinto di sopravvivenza ti sconsiglia di provare del cibo che certamente hanno leccato,
+toccato, annusato orde intere di avventurieri sporchi e sudaticci.
+DescrHearing:
+Poggi l'orecchio nel sugo per mostrare a te stess$o che il senso di pulizia non è cosa prioritaria.
+DescrTaste:
+Ha il sapore dell'avventura; è come se mille altri avventurieri lo stessero assaggiando con te!
+
+
+Extras:
+	Keywords: cose
+	Descr:
+	Sono delle patate che emergono dal sugo. Se ne possono prendere quasi a volontà.
+End
+
+Value:	0
+Weight: 310g
+
+ContainerType:
+	MaxWeight: 10g
+End
+
+

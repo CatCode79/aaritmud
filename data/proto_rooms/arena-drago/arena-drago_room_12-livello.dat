@@ -1,0 +1,68 @@
+Code:	arena-drago_room_12-livello
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il II Livello
+Short:	il II livello
+	Descr:
+Ti muovi in una discreta calca di gente, le urla dei mercanti,
+scandite nel classico dialetto dell'isola, ti fanno rimbombare la
+testa. La strada curva seguendo la forma dell'arena, addossati al
+muro esterno i banchi dei mercanti mostrano la merce a
+disposizione.
+La strada prosegue a nord e ad ovest.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 1
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	il II livello
+	Comment:	ExitStatus	0 0 27713 -1
+	Destination:	9 5 0 arena-drago
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	il II livello
+	Comment:	ExitStatus	0 0 27711 -1
+	Destination:	6 2 0 arena-drago
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

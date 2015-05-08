@@ -1,0 +1,18 @@
+Code: knee
+
+ItalianKeywords: ginocchia
+EnglishKeywords: knee
+
+Entitype: HELP.MOVEMENT
+
+Text:
+Senti il profondo desiderio di raccoglierti in preghiera per la quotidiana
+venerazione del divino?
+Non vorrai certo farlo in posizioni troppo comode!
+Ecco che la posizione inginocchiata diventa la più consona per la maggior
+parte delle religioni, e si raggiunge facilmente con $tknee.
+
+Dopo che avrai ottemperato a quanto il tuo culto prevede,  il comando $tstand
+consente di rialzarti in piedi. 
+
+SeeAlso: rest stand sleep wake

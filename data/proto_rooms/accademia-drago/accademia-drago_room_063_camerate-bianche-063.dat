@@ -1,0 +1,113 @@
+Code:	accademia-drago_room_063_camerate-bianche-063
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Le Camerate [white]Bianche[close]
+Short:	le camerate [white]bianche[close]
+	Descr:
+Queste sono le camerate degli apprendisti cavalieri, i letti sono
+allineati sulle pareti nord e sud, tutto è in ordine e
+silenzioso, davanti ad ogni branda una cassapanca contiene gli
+averi dei ragazzi che spendono qui la loro giovinezza
+addestrandosi alla guerra ed alla magia.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 0
+Exits:
+	Direction:	DIR.WEST
+	Descr:	un corridoio
+	Comment:	ExitStatus	1 0 059 -1
+	Door:		ikea_item_porta
+End
+Extras:
+	Keywords:	cassapanca
+		Descr:
+Si tratta di semplicei casspanche in legno, gli studenti le usano
+come armadi... dentro ci puoi trovare le solite cose, brache,
+giacche, mutande calzini e tutto ciò che può servire per non
+andarsene a spasso nudi...
+
+End
+Extras:
+	Keywords:	calzini
+		Descr:
+Sei veramente un fticista... ma non ti vergogni??? comunque a
+quanto pare il tuo vizio ti ha premiato... un calzino sembra
+essere rigonfio... chiaa cosa c'è dentro...
+
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

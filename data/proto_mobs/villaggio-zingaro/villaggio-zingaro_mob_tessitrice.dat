@@ -1,0 +1,86 @@
+Comment: 
+Qui la bella fanciulla, Tessy la solitaria per gli amici.. abilissima tessitrice cieca. Non si sa ancora quale sia il suo ruolo nella vicenda ma intanto la piazziamo nella radura con il suo telaio.
+Leggi gli Extras...non credo sia necessario scrivere esplicitamente che è cieca.
+va nella radura cioè la room 04 del faggeto.
+
+
+Code:	villaggio-zingaro_mob_tessitrice
+Level:	1
+Sex:	SEX.FEMALE
+Race:	RACE.TUAREG
+Name:	Dilara Jhora la Tessitrice
+Short:	una giovane tessitrice
+Long:	$N tesse senza sosta.
+
+Descr:
+Una giovane ragazza dai morbidi lineamenti se ne sta seduta e tesse con grande maestria; gli [lightcyan]occhi[close] sembrano guardare altrove come se non avesse bisogno di prestare attenzione a quello che sta facendo. Agghindata in perfetto stile gitano ha ornato i capelli corvini con catene dorate fermate ai lobi con un orecchino a cerchio.
+DescrTouch:
+L'idea di distrarla dal suo lavoro non ti sfiora nemmeno.
+DescrSmell:
+Non ti serve avvicinarti troppo per avvertire #villaggio-zingaro_item_unguento-01#un acuta fragranza di resina e spezie che sembra provenire dal medaglione che ha al collo.# una lieve fragranza di resina e spezie.#
+DescrSixth:
+Ti chiedi che ci faccia questa ragazza sola nel bel mezzo del bosco.
+DescrHearing:
+Canta una dolce melodia in una lingua sconosciuta che ti impedisce di coglierne il significato.
+
+Weight: 58kg
+Height: 168cm
+
+Extras:
+       Flags: EXTRA.DAY_ONLY
+       Keywords: occhi altrove
+       Descr: 
+       Osservandola attentamente ti rendi conto che i suoi occhi son ricoperti da una patina biancastra che li rende cerulei.
+End
+
+BirthDay: 14
+BirthMonth: MONTH.SEVEN
+Age: 24
+
+
+Behaviour:
+       LookPlayer:	2
+       LookMob:	0
+       LookItem:	4
+       LookAtRacesFlags:	RACE.NONE
+       LookAtRaces:	0
+       LookAtEntitypesFlags:	ENTITYPE.NONE
+       LookAtEntitypes:	0
+       LookSelf:	0
+       TouchSelf:	0
+       LookDirection:	0
+       LookExit:	3
+       LookWall:	0
+       LookClosedDoor: 0
+       LookExtra:	0
+       WanderDirection:	0
+       WanderExit:	0
+       WanderWall:	0
+       WanderClosedDoor:	0
+       WanderAtExitsFlags:	DIR.NONE
+       WanderAtExits:	0
+       WanderArea:	0
+       WanderPortal:	0
+       WanderEnterContainer:	0
+       WanderExitContainer:	0
+       WanderSelf:	0
+       RandomDo:	0
+       RandomDoInputs: emote canta dolcemente.
+       RandomDoInputs: emote si ferma un attimo per sistemare la folta chioma.
+End
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

@@ -1,0 +1,50 @@
+Code: elizor_item_pezzo-mosaico-01
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.POTTERY	100%
+Icon:	icons/gem/stones_tourmalinemulti.png
+Name:	Un Pezzo di Mosaico
+Short:	un pezzo di mosaico
+Long:	$N è qui
+KeywordsName: pezzo
+KeywordsShort: pezzo
+
+
+Descr:
+<pre class="asciiart">
+Lug
+Rea
+jir
+</pre>
+
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Value:	0
+Weight: 10g
+
+Extras:
+	Keywords: chiave
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End

@@ -1,0 +1,21 @@
+Code:	serpidi_item_guantiossidiana_43
+Level:	1
+Entitype: ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.OBSIDIAN	100%
+Name:	Un Guanto di Ossidiana 
+Short:	un guanto di ossidiana 
+Descr: 
+Sono dieci coltelli legati in due gruppi di cinque.
+Value:	0
+Weight: 80g
+BirthDay: 1
+BirthMonth: MONTH.TEN
+Extras:
+	Keywords:	 coltello
+	descr: 	Certo se legati, in qualche modo, sulle dita delle mani sarebbero un arma micidiale.
+End
+WearType:
+        Modes: PART.LEFT_HAND
+        Modes: PART.RIGHT_HAND
+End
+

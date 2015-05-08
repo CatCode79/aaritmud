@@ -1,0 +1,22 @@
+Code: cimitero_item_menhir-vita
+Level: 1
+MaxGlobalQuantity:	1
+Entitype:	ENTITYPE.MENHIR
+MaterialPercentages:	MATERIAL.STONE 100%
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+Name:	Il Menhir della Vita
+Short:	un menhir
+Long:	$N poggia sulla nuda pietra
+
+Descr:
+Un pietrone squadrato ed oblungo ma con la parte superiore più irregolare e stretta come se fosse consunta per un qualche uso ignoto. 
+DescrTouch: 
+Testi la solidità del menhir dandogli qualche pacca nella speranza che lui non ricambi il gesto.
+DescrSixth:
+Intuisci che questa roccia riveste un ruolo vitale.
+DescrHearing:
+Nulla, silenzio.
+
+Value:	0
+Weight: 100kg

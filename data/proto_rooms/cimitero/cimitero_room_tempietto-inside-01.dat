@@ -1,0 +1,44 @@
+Code: cimitero_room_tempietto-inside-01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: L'Ossario
+Short: le gallerie sotterranee
+
+Descr:
+	Sei sul fondo d'un pozzo ricavato scavando nelle profondità della roccia. Le pareti
+	sono ruvide e recano  gravosi gli ineguali segni dello scavo martirizzati dal tempo.
+	Sul fondo, da più parti si allargano cunicoli di diversa forma e profondità.
+DescrSmell: 
+	L'odore d'umido è ai limiti dell'insopportabile.
+DescrSixth:
+	L'odore dell'umidità che ristagna su un fondo d'ossa antiche e stanche, offre notevoli
+	spunti di riflessione sulla caducità della vita ma prima di tutto sulla possibilità che
+	tale odore possa essere nefasto.
+DescrHearing:
+	Qualcosa gocciola... 
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.UP
+  Descr: L'uscita
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Un stretto cunicolo 
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Un cunicolo
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Una frana ha parzialmente ostruito un cunicolo
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Un cunicolo
+End
+

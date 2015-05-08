@@ -1,0 +1,13 @@
+Code: wake
+
+ItalianKeywords: sveglia
+EnglishKeywords: wake
+
+Entitype: HELP.MOVEMENT
+
+Text:
+Usa il comando $twake per svegliarti dopo una bella dormita.
+Con il comando $twake puoi anche svegliare altri giocatori o mob che stanno 
+dormendo.
+
+SeeAlso: sleep rest sit knee

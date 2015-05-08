@@ -1,0 +1,22 @@
+Code: objects
+
+ItalianKeywords: oggetti oggetto
+EnglishKeywords: items item objects object 
+
+Entitype: HELP.ITEM
+
+Text:
+Per vedere gli oggetti in tuo possesso scrivi $tinventory ed $tequipment:
+$tinventory mostra gli oggetti che stai trasportando, ma non indossando,
+$tequipment mostra gli oggetti che stai indossando.
+
+Puoi indossare, impugnare e afferrare gli oggetti per usarli con i 
+comandi $twear, $twield e $thold. Per smettere di usare un oggetto scrivi 
+$tremove &lt;[darkgreen]oggetto[close]&gt;. Prima di impugnare una nuova arma devi rimuovere quella 
+che stai usando.
+
+Puoi avere più informazioni su un oggetto usando $tlook ed $texamine. [darkgreen]Esamina[close]
+ti dice la condizione dell'oggetto in modo più dettagliato di [darkgreen]guarda[close].
+
+
+SeeAlso: equipment inventory 

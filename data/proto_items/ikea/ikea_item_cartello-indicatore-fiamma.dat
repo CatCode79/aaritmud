@@ -1,0 +1,75 @@
+Comment: Carattere utilizzato: Threepoint (figletfont) con sostituzione della ~ (tilde) con _ (underscore)
+Colori da utilizzare: N [teal]teal[close], NE [lightgreen]lightgreen[close], E [yellow]yellow[close], SE [lightblue]lightblue[close], S [white]white[close], SW [blue]blue[close], W [red]red[close], NW [darkgreen]darkgreen[close], D [brown]brown[close], U [cyan]cyan[close].
+Il colore della destinazione a piacere, magari non lo stesso colore della direzione ecco.
+
+Code: ikea_item_cartello-indicatore-fiamma
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Flags:	FLAG.NO_GET
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.WOOD	100%
+Name:	Un [chocolate]Cartello Indicatore[close]
+Short:	un [chocolate]cartello indicatore[close]
+Long:	$N ben piantato a terra.
+
+Descr:
+<pre class="asciiart">
+[chocolate]*-----------*-----------------------------------------\[close]
+[chocolate]|[close][white]  _      [close]  [chocolate]|[close][purple]                       _                  [close][chocolate]\[close] 
+[chocolate]|[close][white] (     _|[close]  [chocolate]|[close][purple] \  /.|| _  _   _. _    /. _  _  _  _ _    [close][chocolate]\[close] 
+[chocolate]|[close][white] _)|_|(_|[close]  [chocolate]|[close][purple]  \/ |||(_|(_|(_||(_)  /_|| |(_|(_|| (_)   [close][chocolate]/[close]  
+[chocolate]|[close][white]         [close]  [chocolate]|[close][purple]            _| _|             _|          [close][chocolate]/[close]   
+[chocolate]*-----------*-----------------------------------------/[close] 
+.            
+.
+.                                    
+.[chocolate]  /-----------*-----------------------*[close]
+.[chocolate] /[close][white]   _      [close][chocolate]  | [close][purple]                     [close][chocolate] |[close]
+.[chocolate]/ [close][white]  (     _|[close][chocolate]  | [close][purple]|  _ | _. _. _ _|_ _ [close][chocolate] |[close]
+.[chocolate]\ [close][white]  _)|_|(_|[close][chocolate]  | [close][purple]|_(_||_)|| || | | (_)[close][chocolate] |[close]
+.[chocolate] \[close][white]          [close][chocolate]  | [close][purple]                     [close][chocolate] |[close]
+.[chocolate]  \-----------*-----------------------*[close]
+.
+.
+.
+[chocolate]*=-=-=-=-=-=-=-=-=-=-=*=-=-=-=-=-=-=-=-=-=-=-=-=-=-\[close]
+[chocolate]|[close][darkcyan]  _                 [close] [chocolate]|[close][purple]  _                _         [close][chocolate]\[close]
+[chocolate]|[close][darkcyan] |_. _  _ _  _ _  _ [close] [chocolate]|[close][purple] | \ _  _ _|_|_   / `._|_     [close][chocolate]\[close]
+[chocolate]|[close][darkcyan] | |(_|| | || | |(_|[close] [chocolate]|[close][purple] |_/(/_(_| | | |  \_,| | \/   [close][chocolate]/[close]
+[chocolate]|[close][darkcyan]                    [close] [chocolate]|[close][purple]                         /   [close][chocolate]/[close]
+[chocolate]*=-=-=-=-=-=-=-=-=-=-=*=-=-=-=-=-=-=-=-=-=-=-=-=-=-/[close]
+</pre>
+
+DescrTouch: 
+<pre class="asciiart">
+[chocolate]*-----------*-----------------------------------------\[close]
+[chocolate]|[close][white]  _      [close]  [chocolate]|[close][purple]                       _                  [close][chocolate]\[close] 
+[chocolate]|[close][white] (     _|[close]  [chocolate]|[close][purple] \  /.|| _  _  _ . _    /. _  _  _  _ _    [close][chocolate]\[close] 
+[chocolate]|[close][white] _)|_|(_|[close]  [chocolate]|[close][purple]  \/ |||(_|(_|(_||(_)  /_|| |(_|(_|| (_)   [close][chocolate]/[close]  
+[chocolate]|[close][white]         [close]  [chocolate]|[close][purple]            _| _|             _|          [close][chocolate]/[close]   
+[chocolate]*-----------*-----------------------------------------/[close] 
+.            
+.
+.                                    
+.[chocolate]  /-----------*-----------------------*[close]
+.[chocolate] /[close][white]   _      [close][chocolate]  | [close][purple]                     [close][chocolate] |[close]
+.[chocolate]/ [close][white]  (     _|[close][chocolate]  | [close][purple]|  _ |_ . _. _ _|_ _ [close][chocolate] |[close]
+.[chocolate]\ [close][white]  _)|_|(_|[close][chocolate]  | [close][purple]|_(_||_)|| || | | (_)[close][chocolate] |[close]
+.[chocolate] \[close][white]          [close][chocolate]  | [close][purple]                     [close][chocolate] |[close]
+.[chocolate]  \-----------*-----------------------*[close]
+.
+.
+.
+[chocolate]*=-=-=-=-=-=-=-=-=-=-=*=-=-=-=-=-=-=-=-=-=-=-=-=-=-\[close]
+[chocolate]|[close][darkcyan]  _                 [close] [chocolate]|[close][purple]  _                _         [close][chocolate]\[close]
+[chocolate]|[close][darkcyan] |_. _  _ _  _ _  _ [close] [chocolate]|[close][purple] | \ _  _ _|_|_   / `._|_     [close][chocolate]\[close]
+[chocolate]|[close][darkcyan] | |(_|| | || | |(_|[close] [chocolate]|[close][purple] |_/(/_(_| | | |  \_,| | \/   [close][chocolate]/[close]
+[chocolate]|[close][darkcyan]                    [close] [chocolate]|[close][purple]                         /   [close][chocolate]/[close]
+[chocolate]*=-=-=-=-=-=-=-=-=-=-=*=-=-=-=-=-=-=-=-=-=-=-=-=-=-/[close]
+</pre>
+
+Value:	0
+Weight: 10kg
+
+

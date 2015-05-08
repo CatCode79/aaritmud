@@ -1,0 +1,26 @@
+Code: torreelementi_item_portale-torre-noce
+Level: 1
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.MALE
+
+MaterialPercentages:	MATERIAL.UNKNOWN	100%
+Name:	Il Portale Interno della Torre
+Short:	un [indigo]maestoso[close] [indigo]portale[close]
+Long:	$N giace qui in frantumi
+KeywordsName: portale noce
+KeywordsShort: portale noce
+
+Descr:
+	La  [indigo]Maestosa[close] [indigo]Porta[close] è realizzata in legno nero cupo; gli intarsi
+	praticati in tutta la superficie rappresentano segni simboli e figure che mutano in
+	continuo senza prendere mai un percorso definitivo come incerte e titubanti. 
+DescrTouch: 
+	Durissimo il legno e ragguardevole lo spessore.
+Value:	0
+Weight: 1102kg
+
+DoorType:
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE
+End
+
+

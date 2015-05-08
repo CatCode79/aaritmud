@@ -1,0 +1,26 @@
+Code:	accademia-drago_item_stendardo-cavalieri-drago
+Level:	06
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.IRON 10%
+MaterialPercentages:	MATERIAL.WOOD 20%
+MaterialPercentages:	MATERIAL.CLOTH 70%
+Sex:	SEX.MALE
+Name:	Lo Stendardo dei [red]Cavalieri[close]
+Short:	lo stendardo dei [red]cavalieri[close]
+Long:	Piantato nel terreno vedi $N del drago.
+
+Value:	0
+Weight:	100g
+
+Descr:
+Lo stendardo dei cavalieri del drago.
+
+WearType:
+   Modes: PART.HOLD
+End
+
+Comment:
+§27604
+
+Dati Obj
+8 1|2|64|2048|4096|8192|131072|4194304|8388608|134217728|2147483648 1|163844 4 0 01 25000 1000A40 1A13 5A51 10

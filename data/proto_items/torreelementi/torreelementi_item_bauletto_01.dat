@@ -1,0 +1,31 @@
+Code: torreelementi_item_bauletto_01
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.BRASS	100%
+Name: Un Bauletto in [goldenrod]Ottone[close] Finemente Cesellato 
+Short: un bauletto
+Long:	$N è riposto con cura
+Descr:
+Un piccolo baulettino con fine cesellatura e decori; delicate cerniere a scomparsa
+e apertura a scatto con fessura per la chiave. Le modeste dimensioni lo possono rendere
+utile per riporvi oggetti o materiali preziosi. 
+
+Value:	0
+Weight: 2300g
+
+DescrTouch: 
+Robusto di ottima fattura, questo bauletto dà una certa qual affidabilità
+DescrSmell: 
+Odora ancor delle sostanze utilzzate per verniciarlo, deve essere di
+realizzazione recente
+DescrSixth:
+Difficile pensare di ottenerlo per poco prezzo
+
+
+ContainerType:
+	Flags:	CONTAINER.CLOSED CONTAINER.CLOSABLE
+        MaxWeight: 10kg
+End
+
+

@@ -1,0 +1,19 @@
+Code: flee
+
+ItalianKeywords: fuggi scappa
+EnglishKeywords: flee
+
+Entitype: HELP.COMBAT
+
+Text:
+Una volta che hai iniziato un combattimento non puoi semplicemente
+andartene. Se il combattimento non sta andando bene puoi provare a scappare
+con il comando $tflee, o se sei in gruppo un altro giocatore che abbia 
+l'abilità può provare a sostituirti durante lo scontro (vedi $thelp $trescue).
+
+Se perdi la connessione durante un combattimento il tuo giocatore continuerà
+a lottare e proverà a fare ritorno di volta in volta. Le tue possibilità
+di riuscire a ritornare sono ridotte e perdi molta più esperienza.
+
+
+SeeAlso: rescue

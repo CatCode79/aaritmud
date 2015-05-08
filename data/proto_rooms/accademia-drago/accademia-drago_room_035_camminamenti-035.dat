@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_035_camminamenti-035
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	I Camminamenti
+Short:	i camminamenti
+	Descr:
+Dalla posizione in cui ti trovi vedi a sud l'ingresso di uno
+stupendo ponte che si dirige verso una torre, a nord est in
+lontananza puoi vedere una grossa struttura circolare, forse più
+a nord riusciresti a capire meglio di cosa si tratta; sicuramente
+da qui ti rendi conto che per raggiungerla è stata costruita una
+strada rialzata che comincia un po' più a nord e almeno un piano
+più in basso rispetto alla tua attuale posizione.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 1
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 036 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 033 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

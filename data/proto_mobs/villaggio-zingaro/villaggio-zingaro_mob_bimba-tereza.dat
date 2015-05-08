@@ -1,0 +1,85 @@
+Comment: Trovatella cresciuta dagli abitanti del villaggio di giorno sta con la locandiera..
+Code:	villaggio-zingaro_mob_bimba-tereza
+Level:	1
+Sex:	SEX.FEMALE
+Race:	RACE.CELT
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Tereza
+Short:	una bimba
+Long:	$N sonnecchia placidamente.
+
+Descr:
+Una bimbetta con due occhietti assonnati che riescono appena a stare aperti incorniciati di una miriade di efelidi; tiene la testolina, ricoperta da un cespuglio di boccoli fulvi, appoggiata ad un tavolino della locanda. 
+DescrSmell: 
+Odora di talco.
+DescrSixth:
+Il suo aspetto la fa risultare fuori luogo come se fosse stata catapultata qui da non sai dove.
+DescrHearing:
+Respira piano, pare stia ancora sonnecchiando.
+
+Weight: 35kg
+Height: 125cm
+
+BirthDay: 9
+BirthMonth: MONTH.FIVE
+Age: 4
+
+ExtractTimeout:
+        Minutes:	780
+        EntityMessage: È tardi, meglio tornare a casa ed andare a dormire.
+	OthersMessage: $n zampetta stancamente fuori dalla locanda per tornarsene a casa.
+End
+
+Behaviour:
+	LookPlayer:	10
+	LookMob:	10
+	LookItem:	5
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	7
+	LookDirection:	0
+	LookExit:	9
+	LookWall:	0
+	LookClosedDoor:	7
+	LookExtra:	7
+	LookEquipment:	0
+	SmellPlayer:	10
+	ListenMob:	0
+	TouchItem:	10
+	IntuitionAtRacesFlags:	RACE.NONE
+	IntuitionAtRaces:	0
+	TasteAtEntitypesFlags:	ENTITYPE.NONE
+	TasteAtEntitypes:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	0
+	RandomDoInputs:	emote gioca con le sue mani.
+	RandomDoInputs:	emote si infila un dito nel naso.
+End
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100
+
+Strength:	5
+Endurance:	5
+Agility:	30
+Speed:		30
+Intelligence:	9
+Willpower:	5
+Personality:	10
+Luck:		60

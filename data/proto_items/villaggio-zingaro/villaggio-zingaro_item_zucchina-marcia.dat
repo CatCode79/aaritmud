@@ -1,0 +1,30 @@
+Code: villaggio-zingaro_item_zucchina-marcia
+
+Level: 1
+Entitype:	ENTITYPE.FOOD	
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name:
+Una Zucchina Marcia
+Short:
+una mezza zucchina
+Long:
+$N sta marcendo qui.
+
+Descr:
+Una mezza zucchina con il fiore ancora attaccato è in evidente stato di decomposizione. 
+DescrTouch: 
+Ha perso il suo naturale turgore e la polpa fuoriesce molliccia dall'estremità aperta.
+DescrTaste:
+Non è proprio il caso di assaggiarlo, a meno che non si voglia andare incontro a gravi problemi intestinali!
+DescrSixth:
+Sembra che la parte mancante sia stata smangiucchiata, forse da qualche insetto di passaggio.
+DescrSmell:
+Quello che un tempo era il suo aroma caratteristico è ormai coperto dal puzzo di putridume e letame.
+
+Value:	0
+Weight: 10g
+
+
+
+

@@ -1,0 +1,67 @@
+Code:	cimitero_mob_demone-mirna
+Level:	1
+Sex:	SEX.MALE
+Race:	RACE.DEMON
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Talj Gler
+Short:	un demone protettore
+Long:	$N aleggia senza tregua
+
+Descr:
+Una presenza semitrasparente difficile da individuare nella sua interezza
+DescrSmell: 
+L'oppressione dei sensi cagionata dal demone ti ottunde anche le narici.
+DescrSixth:
+Una presenza malevola ed aggressiva che non concede né tregua né respiro.
+DescrHearing:
+Non sei del tutto convinto che il salmodiare che senti i arrivi tramite le orecchie.
+
+Weight: 191kg
+Height: 110cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 2101
+
+MaxLife:	300
+Life:		300
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100
+
+Strength:	39
+Endurance:	33
+Agility:	33
+Speed:		33
+Intelligence:	10
+Willpower:	33
+Personality:	10
+Luck:		13
+
+
+Behaviour:
+	LookPlayer:	10
+	LookMob:	0
+	LookItem:	20
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	LookEquipment:	0
+	SmellPlayer:	0
+	ListenMob:	0
+	TouchItem:	0
+	IntuitionAtRacesFlags:	RACE.NONE
+	IntuitionAtRaces:	0
+	TasteAtEntitypesFlags:	ENTITYPE.NONE
+	WanderExitContainer:	300
+	RandomDo:	20
+	RandomDoInputs:	yell Hhhhhhhhhhhhhhhhh!
+End

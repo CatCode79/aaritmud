@@ -1,0 +1,19 @@
+Code: order
+
+ItalianKeywords: ordina
+EnglishKeywords: order
+
+Entitype: HELP.GROUP
+
+Text:
+Il comando $torder serve per ordinare ad uno (o a tutti con [darkgreen]tutto[close]) dei tuoi
+seguaci di fare una determinata cosa impartendogli il comando da te desiderato.
+Ricordati che [cyan]sei responsabile[close] delle azioni dei tuoi seguaci e se altri
+dovessero attaccare i tuoi seguaci incorrerano nella stessa penalità come se
+attaccassero te direttamente.
+
+La maggior parte delle creature perdono la loro natura aggressiva finchè
+sono incantate.
+
+Se una delle tue creature incantate inizia a combattere con te questo
+interromperà l'incanto.

@@ -1,0 +1,76 @@
+Code: citta-raminghe_mob_antadra
+MaxGlobalQuantity:	1
+Level:	5
+Sex:	SEX.FEMALE
+Race:	RACE.HUMAN
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	[red]A[close]ntadra La Ribelle
+Short:	[red]una guerriera amazzone dall'espressione ribelle e combattiva[close]
+Long:	$N combatte le ingiustizie e le razze che le 
+        incoraggiano.
+
+
+Descr:
+Tra le amazzoni è quella che più di altre protesta e si ribella a tutte le forme di sopraffazione. 
+DescrTouch:
+Non ti è consentito a meno che non vuoi ritrovarti disteso per terra dolorante senza nemmeno capire come sia successo.
+
+DescrSmell:
+Senti l'odore della forza e della potenza
+
+DescrSixth:
+Combatte insieme alle altre amazzoni contro le ingiustizie. Paladina dei deboli contro i forti prepotenti e malvagi.
+ 
+Weight: 57kg
+Height: 178cm
+
+
+BirthDay:	7
+BirthMonth: MONTH.EIGHT
+Age: 32
+
+Behaviour:
+     LookPlayer:	30
+     LookMob:	10
+     LookItem:	10
+     LookAtRacesFlags:	RACE.NONE   
+     LookAtRaces:	0
+     LookAtEntitypesFlags:	ENTITYPE.NONE
+     LookAtEntitypes:	0
+     LookSelf:	10
+     LookDirection:	10
+     LookExit:	10
+     LookWall:	0
+     LookClosedDoor: 10
+     LookExtra:	0
+     WanderDirection:	0
+     WanderExit:	40
+     WanderWall:	0
+     WanderClosedDoor:	70
+     WanderAtExitsFlags:	DIR.NONE
+     WanderAtExits:	0
+     WanderArea:	0
+     WanderPortal:	100
+     WanderEnterContainer:	0
+     WanderExitContainer:	0
+     WanderSelf:	0
+     RandomDo:	10
+     RandomDoInputs:	emote ride apertamente sfidando il tuo sguardo.
+     RandomDoInputs:	emote ti guarda negli occhi per vedere se hai intenzioni malevole... se è così stai lontano da qui... molto
+End
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	160
+Life:		160
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

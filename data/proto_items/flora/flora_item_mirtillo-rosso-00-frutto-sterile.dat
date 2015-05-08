@@ -1,0 +1,41 @@
+Code: flora_item_mirtillo-rosso-00-frutto-sterile
+Level: 1
+Icon:	icons/plant/mirtillo-rosso.png
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.SEED
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.FRUIT	100%
+Name: Un Mirtillo [palevioletred]Rosso[close]
+Short: un [palevioletred]mirtillo[close]
+Long:	c'è $N qui
+Descr:
+Un piccolo frutto globoso rosso carminio, dalla parte opposta del picciolo ha una
+coroncina circolare.
+
+DescrTouch:
+È maturo e turgido quanto basta per essere conservato senza grosse precauzioni.
+
+Value:	0
+Weight: 1g
+
+Extras:
+  Keywords: rosso
+  Descr: rosso con ancora chiazze biancastre, forse è ancora un po' acerbo.
+End
+
+FoodType:
+	Comment:	cibo
+	Animal:	0
+	Vegetable:	100
+	CookingDamage:	0
+	Hours:	0
+End
+
+SeedType:
+    RpgHours:	100
+    WorseEntity:	flora_item_mirtillo-rosso-00-frutto-marcio
+    NormalEntity:	flora_item_mirtillo-rosso-00-frutto-marcio
+    BetterEntity:	flora_item_mirtillo-rosso-00-frutto-marcio
+End
+
+

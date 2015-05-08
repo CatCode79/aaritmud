@@ -1,0 +1,66 @@
+Code:	arena-drago_room_32-studio-lusianos
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Lo Studio di Lusianos
+Short:	uno studio
+	Descr:
+Accedi ad una stanza non troppo grande, l'ambiente è caldo e
+accogliente, un caminetto sulla parete est scoppietta vivace e fa
+brillare l'azzurro con cui sono state tinteggiate le pareti. La
+pelle di un grosso animale è sistemata come tappeto e due comode
+poltrone permettono probabilmente di sorseggiare il cognac che
+vedi sulla mensola sovrastante il camino. Nella zona sud è
+invece posta una grossa scrivania tenuta perfettamente in ordine.
+Dietro questa una teca in cristallo purissimo contiene un raro
+esempio di forgiatura elfica.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	64 0
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	Porta
+	Comment:	ExitStatus	1 0 27730 -1
+End
+Extras:
+	Keywords:	scrivania
+		Descr:
+La scrivania è molto ordinata, non ci sono fogli sparsi e libri
+abbandonati, solo un cassetto è leggermente socchiuso.
+
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

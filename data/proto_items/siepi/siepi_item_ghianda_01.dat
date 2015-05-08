@@ -1,0 +1,27 @@
+Code: siepi_item_ghianda_01
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.FRUIT	100%
+Name: Ghianda
+Short: una ghianda
+Descr:
+un fruttino di una quercia vagamente oblungo e con il caratteristico cappellino rugoso.
+
+Value:	0
+Weight: 7g
+
+DescrTouch:
+bella liscia nella parte inferiore, il cappuccio è ancora saldamente ancorato alla ghianda
+DescrTaste:
+qualche animale passando deve averle dato una sostanziosa concimata
+DescrSixth:
+è ancora viva!
+
+Extras:
+  Keywords: cappuccio cappello
+  Descr: dalla cupola che la ricopre la riconosci come ghianda di leccio
+End
+
+
+

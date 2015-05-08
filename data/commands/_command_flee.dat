@@ -1,0 +1,6 @@
+FunName:    command_flee
+Type:       CMDTYPE.COMBAT
+Trust:      TRUST.PLAYER
+Position:   POSITION.STAND
+Flags:      CMDFLAG.INTERACT CMDFLAG.GDR
+MiniHelp:   Serve per scappare da un combattimento che ha preso una brutta piega.

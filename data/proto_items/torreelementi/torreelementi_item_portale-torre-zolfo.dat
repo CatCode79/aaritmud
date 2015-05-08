@@ -1,0 +1,24 @@
+Code: torreelementi_item_portale-torre-zolfo
+Level: 1
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.UNKNOWN	100%
+
+Name:	Il Portale Sulfrureo
+Short:	un [greenyellow]lastrone[close] ribollente di [greenyellow]zolfo[close]
+Long:	$N divelto e spezzato s'agita fluttuando a mezz'aria
+KeywordsName: zolfo sulfureo
+KeywordsShort: zolfo sulfureo
+
+Descr:
+	Una [greenyellow]lastra[close] di [greenyellow]zolfo[close] liquido posta verticalmente a guisa di porta
+DescrTouch: 
+	Una repellenza improvvisa t'induce ad allontanara la mano prima che puoi.
+Value:	0
+Weight: 1102kg
+
+DoorType:
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE
+End
+
+

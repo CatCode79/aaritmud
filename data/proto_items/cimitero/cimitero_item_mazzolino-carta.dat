@@ -1,0 +1,26 @@
+Code: cimitero_item_mazzolino-carta
+Level: 1
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.PAPER 80%
+MaterialPercentages:	MATERIAL.WIRE 20%
+Sex:	SEX.MALE
+Name:	Un Mazzolino di Fiori di Carta
+Short:	un mazzolino di fiori
+Long:	Posato in un angolo $N è stranamente preservato
+
+Descr:
+Un piccolo mazzetto di fiori misti. I fiori sono piccoli e di colori sgargianti ma non tutti riconoscibili. È stranamente preservato: a giudicare dalla polvere che lo ricopre non è per nulla recente.
+DescrTouch: 
+I petali e le foglie sono ruvidi e sembrano dello stesso materiale. Gli steli sono robusti ma manleabili come fil di ferro.
+DescrSmell:
+A parte l'odore di polvere null'altro.
+DescrSixth: 
+Tutti gli indizi fanno pensare siano fiori di carta crespa con steli di fil di ferro.
+
+Value:	0
+Weight: 50g
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+	Modes:	PART.HEAD
+End

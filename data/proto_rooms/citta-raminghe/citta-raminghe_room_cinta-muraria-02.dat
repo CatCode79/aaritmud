@@ -1,0 +1,34 @@
+Code: citta-raminghe_room_cinta-muraria-02
+Sector: SECTOR.WALL
+Name: Cinta Muraria
+Short: [lightgray]una cinta muraria imponente[close]
+
+
+Descr:
+La cinta è costituita da [lightgray]mura poligonali[close] e la tecnica di costruzione è molto antica: grandi massi 
+sono lavorati sino ad ottenere forme poligonali, per essere giustapposte a incastro con cunei che riempiono i 
+rari spazi vuoti. Le mura sono alte alcuni metri e sono percorse in cima da uno 
+[lawngreen]stretto camminamento[close] da dove è possibile osservare in lontananza chi si appresta ad entrare nella città.
+DescrSixth:
+Delimita la città e la protegge al tempo stesso da intrusioni poco desiderate.
+
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.WEST
+	Descr: In città
+	Destination: 7 6 0 citta-raminghe
+End
+Exits:
+	Direction: DIR.SOUTH
+	Descr: In città
+End
+Exits:
+	Direction: DIR.SOUTHEAST
+	Descr: In città
+	Destination: 4 4 0 citta-raminghe
+End

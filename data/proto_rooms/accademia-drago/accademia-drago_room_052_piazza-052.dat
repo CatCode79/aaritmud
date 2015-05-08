@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_052_piazza-052
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	La Piazza d'Armi
+Short:	la piazza d'armi
+	Descr:
+La zona ovest della piazza d'armi è spoglia e desolata come il
+resto del cortile, a differenza dell'atmosfera che trovavi nel
+cortile pubblico qui ti rendi conto di trovarti in una scuola che
+è prima di tutto una caserma. Ad ovest un piccolo arco con una
+semplice porta in legno permette di inoltrarsi nella struttura.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 2
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	la piazza d'armi
+	Comment:	ExitStatus	0 0 051 -1
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	la piazza d'armi
+	Comment:	ExitStatus	0 0 054 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	la piazza d'armi
+	Comment:	ExitStatus	0 0 053 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	un corridoio
+	Comment:	ExitStatus	1 0 089 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+Code: pause
+
+ItalianKeywords: pausa 
+EnglishKeywords: pause 
+
+Entitype: HELP.GENERIC
+
+Text:
+Il comando $tpause crea una configurazione che farà fermare lo schermo nello 
+scorrimento alla lunghezza specificata dall'utente. Per impostarlo si deve
+scrivere $tpause &lt;[darkgreen]numero di linee[close]&gt;.
+
+Inizialmente la lunghezza della pagina è al massimo di 80 linee, per attivarla
+o disattivarla scrivi $tpause.
+
+I comandi disponibili quando si ferma lo schermo sono:
+
+[cyan](C)ontinua, (N)on-stop, (E)sci: [C][close].
+
+- Continua: continua nella visualizzazione della schermata
+- Non-stop: mostra l'intera schermata senza interruzioni
+- Esci: fa uscire dalla schermata
+- Tra le parentesi quadre è riportata l'iniziale dell'opzione di default, che
+   è Continua, quindi battendo semplicemnte invio continuerà la visualizzazione
+   della schermata. 
+
+
+Per disattivare la pausa digitare $tpause [darkgreen]off[close]
+Per riattivarlo digiate $tpause [darkgreen]on[close]
+Per cambiare lo stato di attivo/disattivo basta digitare $tpause

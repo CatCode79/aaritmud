@@ -1,0 +1,11 @@
+Code: loyal
+
+ItalianKeywords: fedele fedeltà
+EnglishKeywords: loyal loyalty
+
+Entitype: HELP.INFO
+
+Text:
+La flag [darkgreen]fedele-loyal[close] rispecchia lo stato di fedeltà di un'arma verso il
+suo possessore pkiller, tale arma ritornerà nell'inventario del giocatore 
+disarmato da un altro giocatore pkiller.

@@ -1,0 +1,26 @@
+Code: novizi2_item_eq-gilet-scacchi
+Level: 1
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.CLOTH	100
+Sex:	SEX.MALE
+Name:	Un Gilet Quadrettato
+Short:	un gilet quadrettato
+Long:	c'è $N di singolare fattura
+
+Descr:
+Una sorta di corpettino di raso nero con [gold]bottoni dorati[close] ed una striscia
+di tessuto sulla schiena alla quale è cucito un fiocco. 
+
+DescrTouch: 
+Una sorta di corpettino di tessuto morbido e liscio. Sulla schiena c'è un fiocco fissato
+ad una striscia orizzontale.
+	
+Value:	0
+Weight: 150g
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+   Modes: PART.TORSO
+End
+
+

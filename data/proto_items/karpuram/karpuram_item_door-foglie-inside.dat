@@ -1,0 +1,34 @@
+Code: karpuram_item_door-foglie-inside
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.DOOR
+MaterialPercentages:	MATERIAL.SOFTWOOD	45
+MaterialPercentages:	MATERIAL.LEAF	55
+Sex:	SEX.MALE
+Name:	Un Pesante strato di Foglie
+Short:	un [violet]pesante[close] strato di [violet]foglie[close] 
+Long:	$N è sparso tutto attorno
+
+Descr:
+Una coltre di foglie tanto fitte da celare anche i rami.
+DescrTouch: 
+Una nugolo di foglie fitte e frastagliate.
+
+Value:	0
+Weight: 5kg
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	[violet]P[close]rotendi le $hands spingendo $N.
+	TargetOpenMessage:	[violet]A[close]ttent$O, $n ti ha apert$O.
+	OthersOpenMessage:	[violet]A[close]lfine $n protende le $hand spingendo $N.
+	EntityCloseMessage:	[violet]T[close]rascini verso te $N coprendo l'uscita.
+	TargetCloseMessage:	[violet]F[close]inalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	[violet]A[close]lfine $n protende le $hands spingendo $N.
+	DestinationOpenMessage: [violet]Q[close]ualcuno dall'altro lato scosta $N.
+	DestinationCloseMessage: [violet]Q[close]ualcuno sull'altro lato riaccomoda $N fino a coprire l'accesso.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE DOOR.NO_USE_DIR
+	ResetCloseMessage: [violet]A[close]$N si chiude.
+	ResetOpenMessage: [violet]A[close]$N si apre.
+End

@@ -1,0 +1,33 @@
+Comment: STRUMENTO.CORDOFONO.PIZZICATO
+Code: mfdonald_item_strumenti-arpa
+Level: 1
+Entitype:	ENTITYPE.INSTRUMENT
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.WOOD	97%
+MaterialPercentages:	MATERIAL.HAIR	3%
+Icon:	icons/instrument/arpa.png
+Name:	Un'[gold]Arpa Lucente[close]
+Short:	un'arpa
+Long:	$N troneggia imponente
+
+Descr:
+Un imponente strumento musicale a corde. Su un telaio triangolare sono imperniate
+numerose corde; talune son di colore [blue]blu[close] e talune [red]rosse[close]. Il telaio è riccamente decorato
+di fantasie marine.
+DescrTouch: 
+Passi lieve la $hand1 sulle corde producendo un suono inomogeneo, sgraziato e privo di fantasia
+
+Value:	0
+Weight: 29kg
+
+Extras:
+	Keywords: blu rosse corde
+	Descr:
+	le corde rosse si differenziano dalle blu per... uhm... il colore!
+	DescrTouch:
+	pling plong pling...
+	DescrSixth:
+	dev'essere piuttosto comodo un riferimento colorato dovendo suonare così tante corde
+End
+
+

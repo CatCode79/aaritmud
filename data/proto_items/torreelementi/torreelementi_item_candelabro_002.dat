@@ -1,0 +1,16 @@
+Code: torreelementi_item_candelabro_002
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.METAL	100%
+Name: Un Candelabro a otto bracci
+Short: un massiccio candelabro
+Long:	$N è posto su di un fianco qui in terra
+Descr:
+Un candelabro metallico brunito e riccamente decorato. I suoi otto bracci sono disposti
+su di un'unica fila ed alla medesima altezza.
+
+Value:	0
+Weight: 6500g
+
+

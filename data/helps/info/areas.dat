@@ -1,0 +1,10 @@
+Code: areas
+
+ItalianKeywords: aree
+EnglishKeywords: areas
+
+Entitype: HELP.INFO
+
+Text:
+Il comando $tareas ritornerà il link a <a href="/areas.html", target="areas"&gt;questa pagina</a&gt;, che contiene una lista
+delle aree che puoi visitare nel gioco e una breve decrizione di ognuna di esse.

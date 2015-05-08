@@ -1,0 +1,23 @@
+Code: move
+
+ItalianKeywords: movimento muoversi
+EnglishKeywords: move movement
+
+Entitype: HELP.MOVEMENT
+
+Text:
+Questo aiuto ti spiega come muovere il tuo personaggio da un posto nel Mud
+ad un'altro. I movimenti comuni sono [darkcyan]nord[close], &Wsud[close], [red]ovest[close], [yellow]est[close], [cyan]alto[close],
+[orange]basso[close], [darkgreen]nordest[close], [green]nordovest[close], &Bsudest[close] e [darkpurple]sudovest[close]. Puoi anche muoverti
+in queste direzioni usando n, s, o, e, a, b, ne, no, se e so. Se devi passare
+attraverso una porta deve essere sbloccata e aperta. Per sbloccare una porta
+scrivi $tunlock &lt;[darkgreen]nome della porta o direzione[darkgreen]&gt;. Per aprire una porta scrivi
+$topen &lt;[darkgreen]nome della porta o direzione[close]&gt;.
+
+A volte puoi finire i punti movimento o aver bisogno di cure. Per permettere
+un recupero più veloce puoi sederti, ripostare o dormire. Quando hai
+finito di recuperare i punti e vuoi continuare le tue avventure devi
+svegliarti e alzarti.
+
+
+SeeAlso: directions unlock open

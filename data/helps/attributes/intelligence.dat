@@ -1,0 +1,21 @@
+Code: intelligence
+
+ItalianKeywords: intelligenza
+EnglishKeywords: intelligence
+
+Entitype: HELP.STAT
+
+Text:
+L'attributo intelligenza rappresenta la capacità di risolvere problemi,
+ragionare e apprendere. Sviluppando questa caratteristica il personaggio
+è in grado di comprendere linguaggi diversi, pergamene magiche e rune.
+
+All'aumentare di questa caratteristica aumenta il numero di $tskills che si
+possono imparare di base, la preparazione di incanti e pozioni.
+
+Il livello e la potenza del potere magico (mana) del personaggio
+viene molto influenzato dall'intelligenza.
+
+
+
+SeeAlso: attributes, skills, spells

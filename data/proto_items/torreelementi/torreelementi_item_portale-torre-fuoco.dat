@@ -1,0 +1,25 @@
+Code: torreelementi_item_portale-torre-fuoco
+Level: 1
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.UNKNOWN	100%
+Name:	Il Portale del Regno di [crimson]Fuoco[close]
+Short:	uno [crimson]scudo[close] di [crimson]fiamma[close]
+Long:	$N divelto e spezzato arde fluttuando a mezz'aria
+KeywordsName: fuoco
+KeywordsShort: fuoco
+
+Descr:
+	Un [crimson]muro[close] di [crimson]fuoco[close] mantiene sommariamente la forma di un portale; due battenti guizzano
+	di luce bianca a sprazzi tanto da offuscare persino il bagliore del fuoco.
+DescrTouch: 
+	La temperatura sale d'improvviso e la tua $hand1 brucia come non mai avvolta da un
+	abbraccio di [crimson]fiamma[close].
+Value:	0
+Weight: 1102kg
+
+DoorType:
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE
+End
+
+

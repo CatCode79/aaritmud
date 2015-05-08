@@ -1,0 +1,46 @@
+Comment:
+- riprendo anche qui il simbolo riportato sul calderona pulito, cioè l'upupa nel pentagono...non so appunto se anche questo abbia qualche utilità ma mi piace l'idea che il 'clan 'di questi zingari abbia un proprio simbolo distintivo. Se vedi nella DescrSixth degli Extras ho messo che probabilmente è stato visto da qualche altra parte..e qui salta fuori il pentolone...se uno non l'hai già visto capisce che c'è anche da qualche altra parte (tra l'altro è negli Extras anche nel Calderone). Si potrebbe tatuare lo stesso simbolo al vecchio che potrebbe essere messo in laboratorio, oppure potrebbe essere il segno sull'orecchia del gatto (orecchia o orecchio...non mi ricordo com'era finita la disputa) anche se lo vedo problematico date le dimensioni.
+- ok...qui provo ad abbozzare un librone..
+
+Code: carrozzone-zingaro_item_librone-01
+Level:	1
+Icon:	icons/book/book-red.png
+Entitype: ENTITYPE.NONE
+Flags:	FLAG.NO_GET
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.PAPER 90%
+MaterialPercentages:	MATERIAL.LEATHER 10%
+Name: Un Libro Massiccio
+Short:	un consunto libro
+Long:	$N è posato qui.
+
+Descr:
+Un voluminoso librone rilegato in [saddlebrown]pelle scura[close]; gli angoli sono rinforzati da [darkgoldenrod]placche metalliche[close] ormai ossidate.
+Neanche il [peru]dorso[close] ti può aiutare a capire di cosa si tratti, non è rimasto nessun segno di quel che poteva essere
+il titolo o l'autore di questo volume.
+DescrTouch:
+Apri la robusta copertina e dopo un paio di [khaki]pagine giallognole[close] scorgi in purpuree lettere, certamente
+manoscritte la parola: [darkmagenta]Indice[close]
+DescrTaste:
+Lo spesso strato di polvere che ti è rimasto sul dito che stai per portare alla bocca ti fa cambiare idea..forse meglio
+non assaggiare.
+DescrSmell:
+L'intensa fragranza cartacea e polverosa che si libra ad ogni pagina che volti riporta la tua mente a maestose biblioteche e scaffali ricolmi di libri a perdita d'occhio che forse hai visitato in altre vite.
+DescrSixth:
+Intuisci che questo libro potrebbe essere stato scritto da più mani, o addirittura passato di generazione in generazione.
+
+Value:	0
+Weight: 1340g
+
+Extras:
+   Keywords: dorso autore titolo
+   Descr:
+   Osservando più attentamente scorgi sul dorso un simbolo che sembra essere stato impresso a caldo ma consumato poi dallo sfregamento;
+   un upupa circondata da un pentagono.
+   DescrSixth:
+   Hai l'impressione di aver già visto questo simbolo da qualche altra parte.
+End
+
+
+
+

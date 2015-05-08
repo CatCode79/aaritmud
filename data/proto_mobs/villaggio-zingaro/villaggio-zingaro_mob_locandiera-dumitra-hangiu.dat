@@ -1,0 +1,94 @@
+Code:	villaggio-zingaro_mob_locandiera-dumitra-hangiu
+Level:	1
+Sex:	SEX.MALE
+Race:	RACE.TUAREG
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Dumitra Hangiu la Locandiera
+Short:	la locandiera
+Long:	$N troneggia imponente.
+
+Descr:
+Una poderosa matrona dalla considerevole stazza e dal portamento pachidermico. I lunghi capelli intrecciati sono raccolti in una crocchia e decorati da una retina di perle; poche rughe attorno agli occhi le conferiscono un'aria gioviale. Nonostante le dimensioni è ben proporzionata sembra infatti che tutto il suo corpo sia stato espanso in egual misura per uno strano scherzo della natura.   
+DescrTouch: 
+Veramente vuoi azzardarti a toccarla?
+DescrSmell: 
+Un odore di cibo non ben identificato anche se appare gustoso.
+DescrSixth:
+Nonostante l'aspetto cordiale i suoi modi di fare un po' bruschi ti fanno intuire che non ti lascerà passare il mimino errore.
+DescrHearing:
+La senti borbottare tra sè e sè.
+
+Weight: 115kg
+Height: 192cm
+
+BirthDay: 19
+BirthMonth: MONTH.ONE
+Age: 51
+
+Behaviour:
+	LookPlayer:	15
+	LookMob:	10
+	LookItem:	5
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	3
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	LookEquipment:	0
+	SmellPlayer:	0
+	ListenMob:	0
+	TouchItem:	0
+	IntuitionAtRacesFlags:	RACE.NONE
+	IntuitionAtRaces:	0
+	TasteAtEntitypesFlags:	ENTITYPE.NONE
+	TasteAtEntitypes:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	5
+	RandomDoInputs:	emote conta i soldi della cassa.
+	RandomDoInputs:	emote scruta la clientela.
+End
+
+MaxLife:	150
+Life:		150
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100
+
+Strength:	50
+Endurance:	50
+Agility:	10
+Speed:		10
+Intelligence:	10
+Willpower:	10
+Personality:	50
+Luck:		30
+
+Shop:
+	Types:	SHOP.NORMAL
+	ProtoLocations:	villaggio-zingaro_room_locanda
+	Buyables:	villaggio-zingaro_item_zuppa 100% 20
+	Buyables:	villaggio-zingaro_item_polpette 100% 20
+	Buyables:	ikea_item_filetto-alla-griglia 100% 20
+	Buyables:	villaggio-zingaro_item_sformato 100% 20
+	Buyables:	villaggio-zingaro_item_budino 100% 20
+	Buyables:	ikea_item_bicchiere-rosso 100% 20
+	Buyables:	ikea_item_bicchiere-bianco 100% 20
+	Buyables:	ikea_item_bicchiere-rosato 100% 20
+	Buyables:	ikea_item_bicchiere-liquori 100% 20
+End

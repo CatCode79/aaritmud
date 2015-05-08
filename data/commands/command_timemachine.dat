@@ -1,0 +1,5 @@
+FunName:    command_timemachine
+Type:       CMDTYPE.ADMIN
+Trust:      TRUST.IMPLEMENTOR
+Position:   POSITION.DEAD
+MiniHelp:   E' il comando che permette di modificare il flusso temporale del Mud

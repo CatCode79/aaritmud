@@ -1,0 +1,19 @@
+Comment: conveniente negli oggetti rotti l'uso dell'etichetta %material
+Code: rip_item_broken-corpse
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.BONE	100%
+Sex:	SEX.MALE
+Name:	Un Cadavere dal quale hanno Orrendamente Straziato Pezzi di %material
+Short:	un cadavere dal quale hanno straziato pezzi di %material
+Long:	c'è $N 
+
+Descr:
+Non è un bello spettacolo, davvero...
+DescrTouch: 
+Urgh! Ci son andati giù pesante.
+DescrSixth:
+DOvevan odiare parecchio questa creatura per fare un lavoro così faticoso ed inutile anche sul cadavere.
+
+Weight: 100g

@@ -1,0 +1,29 @@
+Code: cimitero_item_chiave-urna-urkim
+Level: 1
+MaxGlobalQuantity:	3
+Entitype:	ENTITYPE.KEY
+MaterialPercentages:	MATERIAL.SILVER	10%
+MaterialPercentages:	MATERIAL.COPPER	81%
+MaterialPercentages:	MATERIAL.GLASS	6%
+MaterialPercentages:	MATERIAL.LAPISLAZULI	3%
+Sex:	SEX.MALE
+Name:	Il Fiore Chiave per l'Urna di Urkim
+Short:	un fiore metallico
+Long:	$N finemente cesellato
+
+Descr:
+L'artigiano chiamato a realizzare questo capolavoro di miniatura non si è risparmiato.
+Per quanto lo stelo argentato sia lavorato semplicemente senza grosse peculiarità, è l'infiorescenza il capolavoro:
+una pallottina in cui sono incastonate innumerevoli pietre azzurre.
+Ciascuna pietra è coronata da un sottilissimo bordo argenteo ed il disegno globale dà un assurdo senso di prospettiva impossibile.
+La parte terminale opposta identifica inequivocabilmente l'oggetto come una chiave.
+
+DescrTouch: 
+Una piccola chiave metallica con l'altra estremità terminante a pallottina incastonata di pietre.
+
+DescrSixth:
+L'artigiano chiamato a realizzare questo piccolo capolavoro non si è risparmiato.
+Certamente un oggetto del genere aprirà uno scrigno altrettanto peculiare.
+
+Value:	0
+Weight: 10g

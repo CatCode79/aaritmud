@@ -1,0 +1,35 @@
+Code: flora_item_farnia-02-ghianda-morta
+Level: 1
+Icon:	icons/plant/ghianda-02.png
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.SEED
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name: Una [sienna]Ghianda[close] di [sienna]Farnia[close] 
+Short: una [sienna]ghianda[close]
+Descr:
+Una piccola [sienna]ghianda[close] 
+
+Value:	0
+Weight: 1g
+
+DescrTouch: 
+Una bella ghianda ovale allungata con la cupola piccina che vien via a guardarla. 
+DescrHearing:
+Quando la batti suona vuota.
+DescrSixth:
+A seminarla forse fa concime..
+
+Extras:
+  Keywords: ghianda buco foro
+  Descr: una ghianda di quercia bucata
+  DescrSixth: una ghianda di farnia che un verme pare abbia gradito
+End
+
+SeedType:
+    Sectors:	SECTOR.PLAIN SECTOR.HOUSE
+    RpgHours:	01
+    WorseEntity:	flora_item_farnia-00-ghianda-marcia
+    NormalEntity:	flora_item_farnia-00-ghianda-marcia
+    BetterEntity:	flora_item_farnia-00-ghianda-marcia
+End

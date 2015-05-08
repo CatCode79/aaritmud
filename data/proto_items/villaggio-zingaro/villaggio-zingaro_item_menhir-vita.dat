@@ -1,0 +1,35 @@
+Code: villaggio-zingaro_item_menhir-vita
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.MENHIR
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+MaterialPercentages:	MATERIAL.STONE	100%
+Name:	Il Menhir della Vita
+Short:	un masso
+Long:	$N pientata nel terreno.
+
+Descr:
+Un masso di modeste dimensioni, tozzo alla base e leggermente appuntino all'estremità opposta.
+Alcuni simboli luminosi son incisi nella roccia.
+DescrTouch: 
+Ti ci appoggi avvertendo una forte vibrazione.
+DescrSmell: 
+Un leggero aroma di fango.
+DescrSixth:
+Intuisci che questa roccia rivesta un ruolo vitale.
+DescrHearing:
+Avverti un ronzio sommesso che forse però è solo nella tua testa.
+DescrTaste:
+Assaggi la roccia che sa di sasso.
+
+Value:	0
+Weight: 100kg
+
+Extras:
+	Keywords: simboli simbolo luminosi
+	Descr:
+	Dei simboli, in una lingua che non conosci, incisi a caratteri cubitali nella roccia. Per qualche strana ragione emettono una [mediumturquoise]luce azzurrognola.[close]
+	DescrSixth:
+	Standoci vicino ti senti come rivitalizzato.
+End

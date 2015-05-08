@@ -1,0 +1,25 @@
+Code:	serpidi_item_bastoneosso_38
+Level:	1
+Entitype: ENTITYPE.WEAPON
+MaterialPercentages:	MATERIAL.BONE	100%
+Name:	Un Bastone d'Osso 
+Short:	un bastone d'osso 
+Descr: 
+Qualcuno ha perso questo bastone viola e qualcun altro lo ha trovato :-).  
+Value:	0
+Weight: 340g
+BirthDay: 1
+BirthMonth: MONTH.TEN
+
+WearType:
+        Modes: PART.WIELD
+        Modes: PART.HOLD
+End
+
+WeaponType:
+        Category: WEAPON.STAFF
+	Damage:	1D4+1
+        Flags: WEAPONFLAG.ONE_HAND 
+End
+
+

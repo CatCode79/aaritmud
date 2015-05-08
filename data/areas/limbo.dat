@@ -1,0 +1,45 @@
+Comment:
+Questa è l'area del limbo, qui ci sono tutte le stanze, mob e oggetti relativi
+alla gestione in generale del Mud.
+Inoltre ci sono anche delle stanze che fanno da base per il testing e
+l'organizzazione degli amministratori.
+Creators:	Sulfrum
+Code: limbo
+Name: Limbo
+Short: Limbo
+Descr:
+Neppure la morte ti consentirà di uscire di qui, condannato per tutte le eternità ad attendere la successiva.
+Color: COLOR.DODGERBLUE blu di stelle fredde e lontane
+Level: 1
+Flags: AREA.DONT_LIST
+RepopTime: 15
+LandfillCode:	limbo_room_gatto_1
+
+RoomResets:
+  ProtoRoom: limbo_room_gatto_1
+	Destination:	1 1 1 limbo
+End
+RoomResets:
+  ProtoRoom: limbo_room_void_1
+	Destination:	1 1 1 limbo
+  Hour: 2
+End
+RoomResets:
+  ProtoRoom: limbo_room_gatto_1
+	Destination:	1 1 1 limbo
+  Hour: 4
+End
+RoomResets:
+  ProtoRoom: limbo_room_void_1
+	Destination:	1 0 1 limbo
+  EntityResets:
+    Quantity: 4
+    ProtoEntity: limbo_item_random
+  End
+  EntityResets:
+    ProtoEntity: limbo_item_random2
+  End
+  EntityResets:
+    ProtoEntity: limbo_item_portal
+  End
+End

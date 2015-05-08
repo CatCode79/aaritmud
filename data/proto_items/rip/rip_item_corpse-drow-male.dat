@@ -1,0 +1,28 @@
+Code:	rip_item_corpse-drow-male
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CORPSE
+Sex:	SEX.MALE
+Race:	RACE.DROW
+MaterialPercentages:	MATERIAL.FLESH	100%
+Name:	Un tuo Simile Mort$O 
+Short:	un elfo scuro mort$O
+Long:	$N afflosciato qui definitivamente 
+
+Descr:
+I resti mortali e corruttibili di #looker is RACE.DROW#un tuo simile.#un elfo nero.#
+
+DescrTouch:
+Il cadavere di #looker is RACE.DROW#un tuo simile che riconosci dalla pelle levigata.#un elfo scura non calpesterà mai più gli oscuri cunicoli e territori tipici della sua razza.#
+
+DescrSixth:
+#looker is RACE.DROW#Il destino dei più... placare la sete di sangue con il proprio.#La morte s'è portata via qualcosa di più del suo soffio vitale.#
+
+DescrSmell:
+#looker is RACE.DROW#Chissà poi perché ma pare che l'odore della morte non copra gli altri odori ed a sua volta non sia coperto da altri.#L'odore della morte lascia comunque avvertire un vago odore di muffe.#
+
+DescrTaste:
+#looker is RACE.DROW#Una sensazione di freddo ameno si estende a tutto il corpo.#L$O azzanni per accertarti che sia davvero mort$O#
+
+Value:	0
+Weight:	55kg

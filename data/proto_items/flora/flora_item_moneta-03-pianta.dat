@@ -1,0 +1,29 @@
+Code: flora_item_moneta-03-pianta
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name:	Un [goldenrod]Albero[close] di [goldenrod]Monete[close]
+Short:	una [goldenrod]pianta[close]
+Long:	$N è cresciuta ben salda qui.
+
+Descr:
+Una slanciata [goldenrod]pianta[close] con un sottile fusto e una chioma dalla forma sferica; le [goldenrod]foglie metalliche[close] danzano leggere sotto la spinta del più flebile alito di vento. 
+DescrTouch: 
+Nonostante l'apparente fragilità ti puoi appoggiare al freddo fusto senza rischiare di sradicare la pianta.
+DescrSixth:
+Di certo un vegetale insolito, sempre che lo sia.
+DescrHearing:
+Le foglie toccandosi l'una con l'altra producono un piacevole armonia metallica.
+
+Value:	224
+Weight: 30kg
+
+PlantType:
+    RpgHours:	003
+    WorseEntity:	flora_item_moneta-06-pianta-morta
+    NormalEntity:	flora_item_moneta-04-pianta-fiorita
+    BetterEntity:	flora_item_moneta-04a-pianta-fiorita-super
+    Contents:	 flora_item_moneta-04b-fiore 16
+End

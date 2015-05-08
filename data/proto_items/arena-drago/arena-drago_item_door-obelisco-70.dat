@@ -1,0 +1,30 @@
+Code: arena-drago_item_door-obelisco-70
+Level: 1
+Entitype:	ENTITYPE.DOOR
+MaterialPercentages:	MATERIAL.MARBLE 100%
+Sex:	SEX.MALE
+Name:	Un Obelisco
+Short:	un obelisco
+Long:	$N è a terra in frantumi.
+
+Descr:
+Una porta di [red]pietra rossa[close].
+
+Value:	0
+Weight: 179kg
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Apri $N.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N.
+	EntityCloseMessage:	Richiudi $N.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n chiude $N.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE DOOR.SECRET
+End
+
+

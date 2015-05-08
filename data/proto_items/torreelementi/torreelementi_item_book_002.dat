@@ -1,0 +1,18 @@
+Code: torreelementi_item_book_002
+Level: 1
+Entitype:	ENTITYPE.READABLE
+Sex:	SEX.MALE
+Icon:	icons/book/book-open.png
+MaterialPercentages:	MATERIAL.PAPER	85%
+MaterialPercentages:	MATERIAL.LEATHER	15%
+Name: Il [green]Tomo Dimenticato[close]
+Short: un grosso [green]tomo[close] polveroso
+Long:	$N è stato riposto qui con cura
+Descr:
+Un librone voluminoso dalla copertina spessa e rigida; all'esterno non c'è alcun simbolo,
+forse all'interno andiamo meglio...
+
+Value:	0
+Weight: 500g
+
+

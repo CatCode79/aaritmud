@@ -1,0 +1,29 @@
+Code: cimitero_room_collina-a11
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Stanza Murata
+Short: l'intercapedine segreta
+
+Descr:
+Oltre lo squarcio del muro c'è una microscopica stanza priva di finestre. Muri e soffitto sono cosparsi di muffa alta e nera che ricopre quasi totalmente antiche figure. Uno stretto passaggio invaso da detriti conduce ad est.
+DescrSmell: 
+La zona collinare è avvolta dagli abbracci languidi dell'odore di spezie e decomposizione.
+Per alcuni tratti si coglie però una scia che rimane la stessa per un certo tratto.
+DescrHearing:
+Il sibilo del vento produce un lugubre suono cupo sostenuto negli effetti lungo le
+lapidi frastagliate.
+
+
+Width:	2m
+Depth:	2m
+Height: 3m
+
+
+Exits:
+	Direction: DIR.SOUTH
+	Descr: Il salone della villa
+End
+Exits:
+	Direction: DIR.EAST
+	Descr: Una cella
+End

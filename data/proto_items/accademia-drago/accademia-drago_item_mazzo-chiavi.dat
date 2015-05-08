@@ -1,0 +1,19 @@
+Code:	accademia-drago_item_mazzo-chiavi
+Level:	06
+Entitype:	ENTITYPE.KEY
+MaterialPercentages:	MATERIAL.IRON 100%
+Sex:	SEX.MALE
+Name:	Un Mazzo di Chiavi
+Short:	un mazzo di chiavi
+Long:	$N è abbandonato qui nella polvere
+
+Value:	0
+Weight:	100g
+
+Descr:
+Un grosso mazzo di chiavi.
+Comment:
+§27619
+
+Dati Obj
+18 262144 10 0 0 01 0 -1

@@ -1,0 +1,98 @@
+Comment:
+È solo una sintesi della sua storia...:P
+Code:	home-sophie_mob_gatto-pardo
+Level:	3
+Sex:	SEX.MALE
+Race:	RACE.CAT
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	[orangered]Gatto_Pardo[close] Felino Ramingo
+Short: [orangered]Gatto_Pardo[close] felino ramingo
+Long:	$N di superiore intelligenza ti scruta intuendo più di quanto tu possa immaginare
+
+Descr:
+Di antica stirpe nobiliare, fuggito agli agi di una vita comoda, ma noiosa, inizia il suo viaggio per il mondo conosciuto accompagnato da pochi libri ed una fervida intelligenza. Ramingo lo è sempre stato nell'animo, Guerriero nel temperamento.
+Il suo aspetto tigrato e il pelo rosso vivo lo rendono riconoscibile, ma lui, avendo il dono dell'invisibilità, si mimetizza facilmente ovunque. Arriva alla casa di [red]S[gold]ophie[close] per caso in un giorno di pioggia attratto dal profumo di spezie.
+Per diversi giorni [red]S[gold]ophie[close] e [orangered]Gatto_Pardo[close] si ignorano apparentemente, ma si scrutano da lontano! Sino a quando il felino, dopo essersi intrufolato in casa un giorno che [red]S[gold]ophie[close] si trovava nel suo Giardino degli Aromi, assaggia un dolce speziato che lo rende Ramingo Virtuale (non chiamatelo stanziale se volete sopravvivere!!!).
+Legge di tutto e sa argomentare su qualsiasi cosa tu gli proponga.
+Pensa quindi è! Unico essere vivente che può circolare liberamente qui (a parte Sophie ovviamente!).
+A volte sparisce per giorni, ma poi torna stanco ed affamato! Porta al collo un [midnightblue]filo intrecciato[close], regalo di Sophie,dal quale non si separa mai.
+
+DescrTouch:
+Non è opportuno accarezzare [orangered]Gatto_Pardo[close] poiché felino di razza suscettibile e permalosa. Ciò è permesso a volte solamente a Sophie.
+DescrSmell
+Emana un odore di felino selvatico
+
+DescrSixth:
+La sua personalità complessa lo rende a volte oscuro ed inquietante, altre invece solare e gioioso. Non sai mai quale sia il suo umore se non quando ti avvicini. Ma allora sarà troppo tardi per poterlo evitare!
+
+DescrHearing:
+Soffia e miagola, ma solo se è di buon umore. Se non avverti nessun suono provenire da lui stai in guardia!!!
+
+Weight: 12 kg
+Height: 32 cm
+
+Extras:
+     Keywords: filo intrecciato
+        Descr: 
+	È un regalo di [red]S[gold]ophie[close]. Un oggetto che [orangered]Gatto_Pardo[close] tiene
+	al collo da quando lo ha ricevuto. È di colore blu intenso e lui pensa che sia un
+	portafortuna (e forse lo è!)
+        DescrSixth:
+        Se un giorno dovesse perderlo è meglio non trovarsi nei paraggi!
+    End
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 35
+
+
+Behaviour:
+     LookPlayer:	0
+     LookMob:	25
+     LookItem:	4
+     LookAtRacesFlags:	RACE.CAT
+     LookAtRaces:	12
+     LookAtEntitypesFlags:	ENTITYPE.NONE
+     LookAtEntitypes:	0
+     LookSelf:	3
+     LookDirection:	3
+     LookExit:	3
+     LookWall:	0
+     LookClosedDoor: 3
+     LookExtra:	0
+     WanderDirection:	3
+     WanderExit:	3
+     WanderWall:	0
+     WanderClosedDoor:	3
+     WanderAtExitsFlags:	DIR.NONE
+     WanderAtExits:	3
+     WanderArea:	12
+     WanderPortal:	0
+     WanderEnterContainer:	7
+     WanderExitContainer:	7
+     WanderSelf:	6
+     RandomDo:	3
+     RandomDoInputs:	emote soffia mentre cerca di risolvere un enigma.
+     RandomDoInputs:	emote si stiracchia miagolando allegramente godendosi il calore del fuoco del camino.
+     RandomDoInputs:	emote fa le fusa a Sophie cercando di ottenere un po' di dolce speziato.
+     RandomDoInputs:	emote ti guarda in silenzio in posizione di attacco!    
+     RandomDoInputs:	emote si affila le unghia con molta lentezza.
+
+
+End
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

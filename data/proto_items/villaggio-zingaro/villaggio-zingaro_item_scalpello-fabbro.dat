@@ -1,0 +1,45 @@
+Code: villaggio-zingaro_item_scalpello-fabbro
+Level: 1
+Entitype: ENTITYPE.WEAPON
+Sex:    SEX.MALE
+MaterialPercentages:	MATERIAL.WOOD	55%
+MaterialPercentages:	MATERIAL.METAL	45%
+Name:   Uno Scalpello da Fabbro
+Short:  uno scalpello da fabbro
+Long:   $N è posato qui sul bancone
+
+
+Descr: 
+		Uno strumento questo che può essere utilizzato per abbellire un'arma o
+		renderla unica, lo scalpello viene adoperato sul ferro quando è molto
+		caldo e dev'essere maneggiato con cura e maestria per evitare sfregi
+		difficilmente sanabili. Questo scalpello presenta una punta a forma di
+		rombo ed è molto appuntito, è interamente di ferro.
+
+DescrTouch:
+		La superficie è levigata e fredda, nella parte della punta è molto
+		affilato e dev'essere maneggiato con cura, il terminale è quadrato e 
+		tozzo.
+
+DescrSmell:
+		Si avverte forte l'odore ferroso dell'oggetto, con una punta di ruggine
+		nella parte laterale dello stesso, sembra non venga usato moltissimo.
+
+DescrSixth:
+		Affilato e letale può essere utilizzato anche come arma a meno che il
+		vostro avversario non indossi del ferro, in tal caso potreste al massimo
+		incidere un ghirigoro!
+
+
+Value:	0
+Weight: 2kg
+
+WearType:
+       Modes: PART.WIELD 
+End
+
+WeaponType:
+       Category: WEAPON.DAGGER
+       Damage: 1D3+1
+       Flags: WEAPONFLAG.ONE_HAND
+End

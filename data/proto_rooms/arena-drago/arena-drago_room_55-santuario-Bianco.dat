@@ -1,0 +1,66 @@
+Code:	arena-drago_room_55-santuario-Bianco
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il Santuario [white]Bianco[close]
+Short:	il santuario [white]Bianco[close]
+	Descr:
+Un gigantesco bassorilievo è scolpito lungo tutte le pareti a
+formare l'illusione di un'enorme catena montuosa che racchiude il
+santuario. Nella zona sud della stanza un altare in purissimo
+cristallo cattura la luce di alcune candele creando arcobaleni di
+colori. Ai piedi dell'altare sono posati alcuni fiori bianchi su
+cui sono deposti una lettera ed un libricino.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	64|16777216 0
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	Porta
+	Comment:	ExitStatus	1 0 27752 -1
+End
+Extras:
+	Keywords:	lettera
+		Descr:
+Sliat,
+
+ti ricorderemo sempre, la tua voglia di superare le avversitàha
+aiutato ognuno di noi, qui ai piedi dell'altare sacro al possente
+Storm deponiamo il tuo diario così che i tuoi pensieri possano
+giungere fino a lui.
+
+sarai sempre con noi,
+
+i tuoi amici
+
+End
+Extras:
+	Keywords:	diario
+		Descr:
+Sfogli per qulche tempo il diario dell'aprendista defunto senza
+trovare nulla di interessante,infine ti imbatti in un passaggio
+che ti sembra possa avereuna qualche utilità:
+
+Finalmente ho superato la prova della montagna, ora sono a tutti
+gli effetti un novizio, ad un passo dal poter divenire un vero
+cavaliere. Ho persino ricevuto la chiave che mi darà l'accesso
+alle bianche stanze della torre, la nasconderò in un calzino
+nella mia stanza in modo che sia li ad aspettarmi al ritorno
+dalla licenza.
+
+End
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+Code: ikea_item_eq-grembiule-cerato
+Level: 1
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+Flags:	FLAG.RANDOMIZABLE
+MaterialPercentages:	MATERIAL.LEATHER	90%
+MaterialPercentages:	MATERIAL.UNKNOWN	10%
+Name:	Un [maroon]Grembiule Cerato[close] Protettivo
+Short:	un grembiule unto 
+Long:	$N penzola qui, appeso
+
+Descr:
+Un grembiule di pelle rivestito di qualche sostanza traslucida.
+DescrTouch: 
+Un grembiule di pelle rivestito di cera protettiva, comodo in laboratorio per non andare a fuoco o ustionarso con oscuri preparati.
+
+Value:	0
+Weight: 1710g
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+	Modes: PART.TORSO PART.LEFT_LOWER_LIMB PART.RIGHT_LOWER_LIMB
+	EntityWearMessage:	Indossi e ti allacci $N.
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	$n indossa e si allaccia $N.
+	EntityRemoveMessage:	Slacci e ti togli $N.
+	TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+	OthersRemoveMessage:	$n slaccia e si toglie $N.
+End

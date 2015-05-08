@@ -1,0 +1,6 @@
+FunName:  command_plant
+Type:     CMDTYPE.ITEM
+Trust:    TRUST.PLAYER
+Position: POSITION.REST
+Flags:    CMDFLAG.INTERACT CMDFLAG.GDR
+MiniHelp: Serve a piantare in un terreno fertile un qualche tipo di vegetale.

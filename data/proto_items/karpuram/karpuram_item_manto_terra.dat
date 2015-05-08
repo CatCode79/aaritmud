@@ -1,0 +1,17 @@
+Code: karpuram_item_manto_terra
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.EARTH	100
+Sex:	SEX.MALE
+Name: Un Manto di Terra 
+Short: un manto di terra
+Long:	$N livella e ricopre, cancellandolo, tutto quel che vi è sotto
+Descr:
+[maroon]Del comune terriccio umido e grasso quanto basta per poterci seminare qualcosa[close] 
+
+Value:	0
+Weight: 22000g
+
+DescrTouch: 
+Friabile e grasso, con pezzatura omogenea. Ottimo.

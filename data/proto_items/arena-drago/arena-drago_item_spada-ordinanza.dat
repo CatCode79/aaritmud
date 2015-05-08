@@ -1,0 +1,41 @@
+Code:	arena-drago_item_spada-ordinanza
+Level:	06
+Entitype:	ENTITYPE.WEAPON
+MaterialPercentages:	MATERIAL.BRONZE 70%
+MaterialPercentages:	MATERIAL.SOFTWOOD 10%
+MaterialPercentages:	MATERIAL.CLOTH 20%
+Sex:	SEX.FEMALE
+Name:	Una Spada d'Ordinanza
+Short:	una spada d'ordinanza
+
+Value:	0
+Weight: 1kg
+
+Descr:
+Una spada d'ordinanza d'acciaio lucente è abbandonata qui.
+
+WearType:
+   Modes: PART.WIELD
+End
+
+WeaponType:
+        Category: WEAPON.SWORD
+	Damage:	2D4+0
+        Flags: WEAPONFLAG.ONE_HAND 
+End
+
+Comment:
+§27719
+
+Dati Obj
+A17 -20A18 1
+5 4194304|8388608|16777216 1|81920 2 7 35 1000 0
+Extras:
+	Keywords:	spada
+	Descr:
+		è  una  semplice  spada  d'ordinanza  dei  cavalieri  del drago,
+		sull'elsa il simbolo dell'ordine è ben visibile in bassorilievo.
+End
+
+
+

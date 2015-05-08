@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_004_cortile-pubblico-004
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il Cortile Pubblico
+Short:	il cortile pubblico
+	Descr:
+Ti trovi nella parte sud est del cortile pubblico, qui alcune
+famiglie conversano con gli allievi dell'accademia, nonostante
+sia molto lontana puoi vedere in modo netto la fontana sita al
+centro del cortile da cui zampilla acqua pura e fresca. Come in
+tutta la zona l'erba è ben tenuta e dona tranquillità
+all'ambiente, i sentieri si snodano precisi e puliti costeggiati
+da panche in pietra. Avvicinandoti alla struttura osservi le
+finestre dell'accademia, resti stupito di fronte a tanta
+maestria, le vetrate sono composte da una moltitudine di vetrini
+tondi incastonati in una struttura di ferro battuto. Il tutto
+crea magnifici giochi di luce che catturano l'attenzione di tutti
+i passanti. Nell'angolo formato dalla struttura noti una scala che
+sale verso il camminamento sovrastante l'accademia.
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 2
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	il cortile pubblico
+	Comment:	ExitStatus	0 0 005 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	il cortile pubblico
+	Comment:	ExitStatus	0 0 003 -1
+End
+Exits:
+	Direction:	DIR.UP
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 012 -1
+	Destination:	6 2 1 accademia-drago
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

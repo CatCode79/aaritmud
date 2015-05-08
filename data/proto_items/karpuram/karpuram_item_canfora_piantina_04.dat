@@ -1,0 +1,23 @@
+Code: karpuram_item_canfora_piantina_04
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+MaterialPercentages:	MATERIAL.VEGETABLE	100
+Sex:	SEX.FEMALE
+Name: Una piantina di [lawngreen]Canfora[close]
+Short: una piantina [lawngreen]insignificante[close]
+Descr:
+Una piantina insulsa simile a tante altre; è ancora piuutosto piccina e fragile.
+
+DescrTouch:
+Poco più di un filo d'erba, basta un nulla per sfilarla dal terreno
+
+Value:	0
+Weight: 6g
+Extras:
+  Keywords: piantina
+  Descr: difficile dire che pianta sia
+  DescrSixth: forse una piantina di canfora
+End
+
+

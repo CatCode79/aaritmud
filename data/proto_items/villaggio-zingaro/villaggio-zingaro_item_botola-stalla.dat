@@ -1,0 +1,39 @@
+Code: villaggio-zingaro_item_botola-stalla
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.HARDWOOD 90%
+MaterialPercentages:	MATERIAL.METAL 10%
+Name:	La Botola della Stalla
+Short:	una botola nascosta 
+Long:	$N è qui
+
+Descr:
+Una botola in legno realizzata in modo che quando è chiusa diventi invisibile alla vista. Le assi sono leggermente tarmate come il resto del pavimento.
+DescrTouch: 
+Con la $hand avverti tutte le venature sporgenti del legno.
+DescrSixth:
+Sembra sia stata cambiata di recente nonostante l'aspetto usurato che le permette di non spiccare nel mezzo del pavimento che di certo nuovo non è. Se non si fosse a conoscenza della sua esistenza difficilmente si riuscirebbe a scorgerla.
+DescrHearing:
+Hai l'impressione di avvertire dei tarli masticare.
+
+Value:	0
+Weight: 200g
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Infilando a fatica le dita in uno strettissimo spiraglio riesci ad aprire $N.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n infila a fatica le dita in uno strettissimo spiraglio riesce da aprire $N.
+	EntityCloseMessage:	Chiudi $N con un tonfo sordo.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n chiude $N con un tonfo sordo.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE DOOR.SECRET DOOR.NO_USE_DIR
+	ResetCloseMessage: $N si chiude con un tonfo sordo.
+	ResetOpenMessage: $N si apre cigolando appena.
+End
+
+

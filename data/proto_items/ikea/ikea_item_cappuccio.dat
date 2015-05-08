@@ -1,0 +1,32 @@
+Code: ikea_item_cappuccio
+Level: 1
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+Flags:	FLAG.RANDOMIZABLE
+MaterialPercentages:	MATERIAL.LEATHER	100%
+Name:	Un Capuccio in Cuoio
+Short:	un cappuccio in cuoio
+Long:	$N tutto sgualcito
+
+Descr:
+Una cappuccio in cuoio bollito e cucito poi a freddo. Un ottima alternativa al capo scoperto.
+DescrTouch: 
+Una copertura per il capo in spesso cuoio bollito con rinforzi in altro materiale
+più duro inserito nel doppio strato interno.
+
+Value:	25
+Weight: 150g
+
+Extras:
+	Keywords: cuciture
+	Descr:
+	Le cuciture sono fitte e decenti
+	DescrTouch:
+	Le cuciture sembran forti quanto basta
+End
+
+WearType:
+   Modes: PART.HEAD
+End
+
+

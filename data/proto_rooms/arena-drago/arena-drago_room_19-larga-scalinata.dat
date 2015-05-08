@@ -1,0 +1,67 @@
+Code:	arena-drago_room_19-larga-scalinata
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Una Larga Scalinata
+Short:	una larga scalinata
+	Descr:
+Ti trovi su un'ampia scalinata che serve a congiungere gli spalti
+dell'arena con il secondo livello, durante le giostre queste
+scalinate sono piene di gente che va e che viene mentre nei
+giorni comuni sono solo la meta di quache gruppo di ragazzotti che
+vogliono passare il tempo oziando. Ad ovest vedi il secondo
+livello mentre scendendo la scalinata puoi raggiungere gli spalti.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	4 1
+Exits:
+	Direction:	DIR.WEST
+	Descr:	il II livello
+	Comment:	ExitStatus	0 0 27717 -1
+End
+Exits:
+	Direction:	DIR.DOWN
+	Descr:	gli spalti
+	Comment:	ExitStatus	0 0 27723 -1
+	Destination:	5 4 0 arena-drago
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

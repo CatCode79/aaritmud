@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_022_camminamenti-022
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	I Camminamenti
+Short:	i camminamenti
+	Descr:
+Il camminamento prosegue, sempre la stessa pavimentazione, sempre
+le stesse statue, di tanto in tanto un apprendista cavaliere che
+passeggia perso nei suoi pensieri...
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 1
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 021 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 024 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

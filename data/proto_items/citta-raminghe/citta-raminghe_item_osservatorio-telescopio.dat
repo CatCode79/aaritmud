@@ -1,0 +1,63 @@
+Comment:
+Telescopio
+
+Si trova nella stanza dell'osservatorio più in alto quella definita appunto "deltelescopio".
+È un portale attraverso cui si accede nello spazio tra costellazioni, pianeti, meteore etc.
+Funziona come portale solamente durante la notte.
+
+
+Code:	citta-raminghe_item_osservatorio-telescopio
+MaxGlobalQuantity:	1 
+Level:	3
+Entitype:	ENTITYPE.PORTAL
+MaterialPercentages:	MATERIAL.BRASS	60
+MaterialPercentages:	MATERIAL.POTTERY	10
+MaterialPercentages:	MATERIAL.QUARTZ	10
+MaterialPercentages:	MATERIAL.GLASS	10
+MaterialPercentages:	MATERIAL.BONE	10
+Sex:	SEX.MALE
+
+Name:	[goldenrod]Un Telescopio[close]
+Short:	[goldenrod]un telescopio per guardare il cielo[close]
+Long:	C'è $N di ottone che può essere usato se ti accosterai nel giusto modo.
+
+Descr:	Un imponente [goldenrod]telescopio[close] di dimensioni tali che la stanza lo contiene appena. È in ottone lucidato con estrema cura. Osservandolo da vicino noti che si tratta di un telescopio ottico rifrattore che attraverso un sistema 
+di [yellow]lenti[close] sfrutta il fenomeno della rifrazione per focalizzare l'immagine. È sostenuto da una montatura 
+[greenyellow]altazimutale[close] che permette di seguire movimenti paralleli all'orizzonte e perpendicolari ad esso.
+  
+DescrTouch:	La superficie è molto liscia e fredda.
+  
+DescrSmell:	Nessun odore particolare.
+  
+DescrSixth:	Essere trasportati attraverso uno strumento ottico in un luogo 
+che sentiamo contemporaneamente come [cornflowerblue]ignoto[close] e come 
+[cornflowerblue]intimo e familiare[close] è un'esperienza intensamente 
+coinvolgente. Seduce emotivamente chi è affamato di sapere e attraversato 
+da una sana inquietudine che attiva una voglia intensa di esplorare l'altrove. 
+Perdersi con la mente negli [violet]infiniti spazi stellari[close] è come una 
+sensazione di piacevole ebbrezza. Non tutti i tempi sono adatti per questa esperienza. 
+C'è un tempo in cui sarà possibile soddisfare la tua curiosità, un altro in cui ti sarà preclusa e dovrai assaporare 
+il [cornflowerblue]gusto dell'attesa[close].
+  
+  
+DescrHearing:	Ti sembra di sentire il battito emozionato del tuo
+[red]cuore[close].
+
+DescrTaste:	Non trovi nulla da assaggiare qui.
+ 
+
+Value:	0
+Weight:	247kg
+
+
+PortalType:
+	Destination: 2 7 10 citta-raminghe
+	EntityEnterMessage: Non fai in tempo a decider d'entrare che $N decide per te!
+	TargetEnterMessage: $n decide d'attraversarti e lo anticipi repentinamente.
+	OthersEnterMessage: $N si piega avvolgendo $n che sparisce consumat$o in una vampata.
+	EntityExitMessage: La vampa lucente sparisce e ti trovi catapultat$o altrove.
+	TargetExitMessage: Ora $n è sparit$o da $T finendo in $t.
+	OthersExitMessage: In una vampa di luce azzurra appare $n.
+End
+
+

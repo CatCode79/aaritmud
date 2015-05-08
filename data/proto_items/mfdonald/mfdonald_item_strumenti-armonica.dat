@@ -1,0 +1,34 @@
+Comment: STRUMENTO.AEROFONO
+Code: mfdonald_item_strumenti-armonica
+Level: 1
+Entitype:	ENTITYPE.INSTRUMENT
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.METAL	20%
+MaterialPercentages:	MATERIAL.SOFTWOOD	80%
+Icon:	icons/instrument/armonica.png
+Name:	Un'[blue]Armonica[close] a Bocca
+Short:	un'armonica a bocca
+Long:	$N in legno e metallo riposa nella sua scatolina
+
+Descr:
+Apparentemente è un oggettino ben realizzato; le due guance metalliche serrate sul
+corpo in legno, riportano un arcano simbolo. Oltre l'imboccatura si scorgono le ance.
+DescrTouch: 
+Sagomata nelle estremità e rinforzata centralmente; proprio un bell'oggettino.
+DescrTaste:
+La porti alle labbra modulando un suono prolungato
+
+Value:	0
+Weight: 145g
+
+Extras:
+	Keywords: arcano simbolo
+	Descr:
+	È davvero un simbolo arcano
+	DescrTouch:
+	È impresso a viva forza e si fa percorrere distintamente con la $hand
+	DescrSixth:
+	Probabilmente ne indica la tonalità ma lo fa in una lingua ignota
+End
+
+

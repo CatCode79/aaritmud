@@ -1,0 +1,22 @@
+Code: novizi2_item_chiave-scrigno
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.KEY
+Sex:	SEX.FEMALE
+Flags:	FLAG.NO_LOOK_LIST
+MaterialPercentages:	MATERIAL.METAL 100%
+Name:	La Chiave dello Scrigno
+Short:	una chiave metallica
+Long:	$N è appesa alla parete qui a destra
+
+Descr:
+Una chiave metallica ricoperta da lamine di tre doversi colori:[gold]oro[close], [orange]rame[close], [white]argento[close].
+DescrTouch: 
+Una chiave metallica con due incisioni che la percorrono in tutta la sua lunghezza.
+DescrSixth:
+L'occhiello libero si rivela come la cavità coronata che fingeva da castone per una gemma ora perduta.
+DescrTaste:
+L'addenti sperando di ottenere chissà quale effetto...
+
+Value:	0
+Weight: 10g

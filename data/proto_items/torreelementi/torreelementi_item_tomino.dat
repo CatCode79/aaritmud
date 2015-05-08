@@ -1,0 +1,26 @@
+Code: torreelementi_item_tomino
+Level: 1
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.CHEESE	100%
+Name: Il [green]Piccolo Tomo[close] al latte
+Short: un piccolo tomo, [green]un tomino[close]
+Long:	$N galleggia qui in aria
+Descr:
+Il formaggio preferito da Malva e da Onirik
+
+Value:	0
+Weight: 50g
+
+FoodType:
+	Comment:	cibo
+	Animal:	90
+	Vegetable:	10
+	CookingDamage:	10
+	Hours:	0
+	EntityMessage:	Prendi $N fra le $hands e cerchi di non ungerti mentre mangi.	
+	TargetMessage:	Ora c'è una sola via d'uscita... $n t'ha mangiato.
+	OthersMessage:	$n prende fra le $hands $N cercando di non ungersi mentre lo mangia.
+End
+
+

@@ -1,0 +1,32 @@
+Code: ikea_item_pandolce-confezione
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.PAPER	100%
+Name:	Una Confezione di Dolcetti
+Short:	una confezione di dolcetti
+Long:	c'è qui $N in cartoncino colorato
+
+Descr:
+Un piccola confezione di dolcetti in cartoncino colorato con alcune scritte ai lati.
+Nella parte superiore è raffigurato il panorama dall'alto di un piccolo borgo di mare.
+DescrTouch: 
+Una scatolina di materiale non troppo rigido come potrebbe essere del cartoncino.
+In rilievo si sentono i tagli laterali praticati per aprirla con coperchio a sportellino fissato per il lato lungo.
+DescrSmell: 
+Si direbbe un vago sentore di vaniglia.
+DescrSixth:
+Non c'è il prezzo e neppure gli ingredienti o una sorta di etichetta.
+DescrTaste:
+Il sapore è quello del cartoncino
+
+Value:	0
+Weight: 20g
+
+ContainerType:
+	Flags:	CONTAINER.CLOSED CONTAINER.CLOSABLE
+        MaxWeight: 10kg
+End
+
+

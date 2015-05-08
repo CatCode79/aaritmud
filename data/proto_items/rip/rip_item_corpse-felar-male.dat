@@ -1,0 +1,30 @@
+Code:	rip_item_corpse-felar-male
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CORPSE
+Sex:	SEX.MALE
+Race:	RACE.FELAR
+MaterialPercentages:	MATERIAL.FLESH	100%
+Name:	Un tuo Simile Morto
+Short:	un felar mort$O
+Long:	$N riposa qui definitivamente 
+
+Descr:
+I miseri resti mortali e corruttibili di #looker is RACE.FELAR#un tuo simile.#un appartenente alla razza felar.#
+
+DescrTouch:
+Dalla $SKIN si direbbe il cadavere di #looker is RACE.FELAR#un tuo simile con la coda tutta ciancicata.#un felar con la pelliccia rigida e la coda immota.#
+
+DescrSixth:
+#looker is RACE.FELAR#L'anima immortale delle sue innumerevoli vite saltella ora altrove.#La morte s'è portata via qualcosa di più che il suo respiro di vita.#
+
+DescrSmell:
+#looker is RACE.FELAR#Chissà poi perché ma pare che l'odore della morte non copra gli altri odori ed a sua volta non sia coperto da altri.#Odore di morte.#
+
+DescrTaste:
+#looker is RACE.FELAR#Porti le vibrisse sul muso del cadavere per porgergli l'estremo saluto.#L$O azzanni per accertarti che sia davvero mort$O#
+
+Value:	0
+Weight:	75kg
+
+

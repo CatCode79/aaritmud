@@ -1,0 +1,40 @@
+Code:	mfdonald_item_door-ent-puccettosa
+Level:	1
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.UNKNOWN	100%
+Name:	La Porta [maroon]Puccettosa[close]
+Short:	una [maroon]puccettosa porta[close]
+Long:	$N è morbidamente accasciata al suolo
+
+Descr:
+	È una porta [maroon]morbida[close]; Vi sono ricamate figure puccettosissima.
+DescrTouch: 
+	Una porta liscia con delle scritte in [yellow]braille[close].
+
+Extras:
+	Keywords: braille marrone
+	Descr:
+	[maroon]zuccherini unicorni ed arcobaleni[close]
+	DescrTouch:
+	[maroon]zuccherini unicorni ed arcobaleni[close]
+End
+DoorType:
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE
+	ResetCloseMessage: Un'entità invisibile chiude la porta ma in modo puccettoso.
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	apri $N con circospezione
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n con delicatezza cerca di aprire $N.
+	EntityCloseMessage:	Accompagni $N facendo attenzione a non rompere nulla.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n accompagna $N fino a richiudere l'accesso.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+End
+
+Value:	0
+Weight: 4kg
+
+

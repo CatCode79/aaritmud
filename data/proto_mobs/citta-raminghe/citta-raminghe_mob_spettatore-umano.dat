@@ -1,0 +1,67 @@
+Code:   citta-raminghe_mob_spettatore-umano
+Level:  2
+Sex:    SEX.MALE
+Race:   RACE.HUMAN
+Name:   Uno Spettatore Umano
+Short:  uno spettatore umanoide
+Long:   $N si aggira tra gli spalti.
+
+Descr:
+Un giovane uomo sembra molto interessato allo spettacolo.  Ha lunghi capelli e una folta [red]barba[close] rossiccia, 
+la pelle è scura e abbronzata. 
+La sua appartenenza alla razza degli umani si intuisce 
+soprattutto dal suo modo di vestire. Indossa una camicia di stoffa leggera e un 
+paio di pantaloni tenuti su da una cinta di cuoio.
+DescrSmell:
+Paglia mista a fieno ti fanno arricciare il naso, avverti anche odori di fango e terra.
+DescrSixth:
+Ti appare nervoso, impaziente per qualcosa, forse ha fretta.
+
+Weight: 70kg
+Height: 170cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 30
+
+MaxLife:        150
+Life:           150
+MaxMana:        100
+Mana:           100
+MaxVigour:      150
+Vigour:         150
+
+Strength:       17
+Endurance:      15
+Agility:        12
+Speed:          10
+Intelligence:   10
+Willpower:      10
+Personality:    10
+Luck:           12
+
+Behaviour:
+        LookPlayer:     0
+        LookMob:        0
+        LookItem:       0
+        LookAtRacesFlags:       RACE.NONE
+        LookAtRaces:    0
+        LookAtEntitypesFlags:   ENTITYPE.NONE
+        TasteAtEntitypesFlags:  ENTITYPE.NONE
+        WanderDirection:        0
+        WanderExit:     0
+        WanderWall:     0
+        WanderClosedDoor:       0
+        WanderAtExitsFlags:     DIR.NORTH
+        WanderAtExits:  0       
+        WanderArea:     0
+        WanderPortal:   0
+        WanderEnterContainer:   0
+        WanderExitContainer:    0
+        WanderSelf:     0
+        RandomDo:       5
+        RandomDoInputs: emote sorride sonoramente mentre applaude.
+        RandomDoInputs: say Se state così in piedi...non vedo nulla!
+        RandomDoInputs: say Bravi! Bravi!
+        RandomDoInputs: emote sembra nervoso per qualcosa.
+End

@@ -1,0 +1,31 @@
+Code: citta-raminghe-maze_room_biblioteca_3no-ovest
+Sector: SECTOR.HOUSE
+Flags:  ROOM.INSIDE
+Name: La Sala dei Saperi Filosofici
+Short: una [red]piccola sala quadrata[close]
+Descr:
+Sei giunt$o in una piccola  sala dalla forma quadrata. Ma non ti inganni la dimensione di questo luogo. 
+Contiene più di ciò che ad un primo sguardo distratto puoi percepire. Libri disposti con cura ne ricoprono 
+interamente le pareti. Una scaletta a pioli consente di accedere alle file più elevate. Le scritte che 
+intravedi sul dorso dei libri lasciano intuire che si tratti di filosofia antica.
+
+
+DescrSixth:
+Questo è un ottimo posto dove perdersi.
+
+Width:  10m
+Depth:  10m
+Height: 100m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: in biblioteca
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: in biblioteca
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: in biblioteca
+End

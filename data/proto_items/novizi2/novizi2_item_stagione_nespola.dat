@@ -1,0 +1,44 @@
+Code: novizi2_item_stagione_nespola
+Level: 1
+Entitype:	ENTITYPE.FOOD
+MaterialPercentages:	MATERIAL.VEGETABLE	100
+Sex:	SEX.FEMALE
+Name: La [gold]Nespola[close] d'[gold]Oro[close] 
+Short: una [maroon]nespola[close] matura
+Long:	$N rotola verso di te
+
+Descr:
+Una nespola bella grossa con le chiazze scure che ne annunciano la raggiunta maturità.
+DescrTouch: 
+Sembrava una nespola più morbida ad occhio.
+DescrSmell: 
+L'odore è il loro solito odore da foglie secche, nulla di che.
+DescrSixth:
+Qualcosa ti dice che non è il caso di assaggiarla.
+DescrTaste:
+Rischi quasi di perderci un dente da quanto è dura... ha qualcosa di molto strano
+
+Value:	0
+Weight: 12g
+
+Extras:
+	Keywords: oro
+	Descr:
+	È una pallotta d'oro camuffata da nespola, chi mai potrebbe aver pensato ad una fesseria simile?
+	DescrSmell:
+	L'odore è comunque quello delle foglie secche.
+	DescrTouch:
+	Pigiando forte lo senti che si ostina proprio a non cedere
+	DescrSixth:
+	Una fortuna trovare in terra un oggetto del genere
+End
+
+FoodType:
+	Comment:	cibo
+	Animal:	0
+	Vegetable:	100
+	CookingDamage:	0
+	Hours:	0
+End
+
+

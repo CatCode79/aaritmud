@@ -1,0 +1,34 @@
+Code: cimitero_item_door-tomba-mirna
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.DOOR
+MaterialPercentages:	MATERIAL.STONE 100%
+Sex:	SEX.FEMALE
+Flags:	FLAG.NO_GET
+Name:	Una Lapide
+Short:	una lapide
+Long:	$N spezzata e gettata a terra
+
+Descr:
+	una lapide liscia priva d'iscrizioni
+DescrTouch:
+	La $hand scorre sulla pietra liscia.
+DescrSixth:
+	Sembra un accesso segreto.
+
+Value:	0
+Weight: 150kg
+
+DoorType:
+	EntityOpenMessage:	Alzi $N in uno sfozo immane per aprire un passaggio.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n alza $N in uno sforzo immane per aprire un passaggio.
+	EntityCloseMessage:	Trascini $N per richiudere l'accesso.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n trascina $N per richiudere l'accesso.
+
+	DestinationOpenMessage:	$N si alza rivelando un accesso.
+	DestinationCloseMessage:	$N si abbassa richiudendo l'accesso.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE DOOR.SECRET DOOR.NO_USE_DIR
+	ResetCloseMessage:	$N scivola in basso a richiudere il passaggio.
+End

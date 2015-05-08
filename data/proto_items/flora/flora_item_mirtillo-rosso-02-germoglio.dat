@@ -1,0 +1,38 @@
+Code: flora_item_mirtillo-rosso-02-germoglio
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name: Un Robusto [springgreen]Germoglio[close] di [springgreen]Mirtillo[close]
+Short:	un robusto [springgreen]germoglio[close]
+Long:	$N è riuscito ad attecchire
+
+Descr:
+Un basso germoglio vigoroso e robusto con numerose piccole foglioline lucide di un verde chiaro. 
+
+DescrTouch:
+Uno stelo è a suo modo resistente ma a questo stadio non ci vuol nulla a sfilarlo
+dal terreno. Numerose foglioline alternate e carnose.
+
+DescrTaste:
+Le foglioline tenere e piccine hanno un sapore insipido e poco interessante.
+
+Value:	0
+Weight: 11g
+
+Extras:
+  Keywords: foglie foglia fogliolina foglioline
+  Descr:	verdi foglioline alternate
+  DescrTouch:	lucide foglioline alternate
+  DescrTaste:	nessun sapore apprezzabile
+End
+
+PlantType:
+    RpgHours:	120
+    WorseEntity:	flora_item_mirtillo-rosso-03-pianta
+    NormalEntity:	flora_item_mirtillo-rosso-03-pianta
+    BetterEntity:	flora_item_mirtillo-rosso-03-pianta
+End
+
+

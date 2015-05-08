@@ -1,0 +1,77 @@
+Comment: nulla da dichiarare (pietre preziose)
+Creators:	Sulfrum Jaroddd
+Code:	miniere-kezaf
+Name: Le Miniere di Kezaf
+Short: le miniere
+Descr:
+Una collina immediatamente ad est del Villaggio Zingaro dalla quale gli abitanti estraggono pietre preziose.
+Pur se adiacente al villaggio la miniera è liberamente scavabile da tutti; solo la pazienza però ricompensa i cercatori. 
+Color: COLOR.DODGERBLUE blu di stelle fredde e lontane
+Level: 1
+RepopTime: 20
+LandfillCode:	miniere-kezaf_room_p1-06
+
+RoomResets:
+  ProtoRoom:	miniere-kezaf_room_p1-01
+	Destination:	0 0 0 miniere-kezaf
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	miniere-kezaf_item_cartello-minerario
+	End
+End
+RoomResets:
+  ProtoRoom:	miniere-kezaf_room_p1-02
+	Destination:	1 0 0 miniere-kezaf
+End
+RoomResets:
+  ProtoRoom:	miniere-kezaf_room_p1-03
+	Destination:	2 0 0 miniere-kezaf
+End
+RoomResets:
+  ProtoRoom:	miniere-kezaf_room_p1-04
+	Destination:	3 0 0 miniere-kezaf
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	miniere-kezaf_item_piccone-01
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	miniere-kezaf_item_piccone-02
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	miniere-kezaf_item_piccone-03
+	End
+	EntityResets:
+		Quantity:	2
+		Type: 	RESET.PUT
+		ProtoEntity: 	miniere-kezaf_item_pala-01
+	End
+End
+RoomResets:
+  ProtoRoom:	miniere-kezaf_room_p1-05
+	Destination:	4 1 0 miniere-kezaf
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	miniere-kezaf_item_carrello-minatori-01
+		EntityResets:
+			Quantity:	2
+			Type: 	RESET.PUT
+			ProtoEntity: 	miniere-kezaf_item_pala-01
+		End
+		EntityResets:
+			Quantity:	2
+			Type: 	RESET.PUT
+			ProtoEntity: 	miniere-kezaf_item_piccone-01
+		End
+	End
+End
+RoomResets:
+  ProtoRoom:	miniere-kezaf_room_p1-06
+	Destination:	4 -1 0 miniere-kezaf
+End

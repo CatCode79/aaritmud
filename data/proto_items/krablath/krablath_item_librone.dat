@@ -1,0 +1,108 @@
+
+Code: krablath_item_librone
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.READABLE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.PAPER	85%
+MaterialPercentages:	MATERIAL.LEATHER	15%
+Name:	Il [burlywood]Libro dell'Impollinatrice[close]
+Short:	un [burlywood]librone[close]
+Long:	$N ti invita alla lettura.
+
+Descr:
+Un voluminoso volume foderato con [darkolivegreen]fo[olive]gl[darkolivegreen]ie [olive]in[darkolivegreen]tr[olive]ec[darkolivegreen]ci[olive]ate[close] fissata al dorso da [peru]sca[chocolate]gl[burlywood]ie[close] di [chocolate]cort[sienna]e[burlywood]cc[peru]ia[close]; le [palegoldenrod]pagine[close] dal borto irregolare, come fosse strappato, concorrono a conferire a quest'oggetto un aspetto piuttosto selvatico selvatico.
+
+Incuriosit$o apri la prima pagina.
+<pre class="asciiart">
+.[darkorchid]      .----.          .[close]       
+.[darkorchid]        /   `        /    .-.[close]
+.[darkorchid]       /.  .-.  .-../     `-'.-.    .-.[close]
+.[darkorchid]      /  )/   )(   /     /  (     ./.-'_[close]
+.[darkorchid]     /  '/   (  `-'-.._.(__. `---'(__.'[close]
+.[darkorchid].---------'   `-[close]
+.
+.       _
+. /|   (  _  _ _ . _  _
+.  |.  _)(/_| | ||| |(/_
+.
+.  _     _
+. ' )   |_    _  _ |_ .
+.  /_.  | |_|| |(_|| ||
+.                _|    
+.  _     _
+. '_)   |_). _ _ _|__|_ _
+. ._).  | \|(_(/_ |  | (/_
+..    
+..      
+. |_|
+.   |.
+
+</pre>
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Value:	0
+Weight: 10g
+
+Extras:
+	Keywords:	1 1. semine
+	Descr:
+	Sfogli velocemente na decine di pagine, tutte riportano tabelle di semina, in alto sono riportati mese di semina e nome della varietà seminata.
+        Qua e là anche qualche schizzo di una mappa, forse quella del giardino.
+End
+
+Extras:
+	Keywords:	2 2. funghi
+	Descr:
+	"Sono preoccupata, oggi uscendo in giardino per il solito giro mattutino ho trovato alcune delle piante ricoperte da una [lightseagreen]lanugine[close] appiccicosa e di certo non avevano un bell'aspetto. Sono riuscita ad eliminare la peluria grazie ad un decotto di ortica bagnata dalla rugiada del mattino, ma le piante colpite non si sono riprese."
+
+	"La cosa ormai si protrae ormai da tempo, non tutte le piante vengono colpite da questa specie di parassita ma, quelle che vengono infettate piombano in una sorta di stasi..non muoiono..ma non progrediscono nella crescita.
+
+	"Corro a casa, sono scossa..scrivo questa righe per riordinare i pensieri..stamani decido di alzarmi prima dell'alba per tentare di scoprire qualcosa di più su questo morbo sconosciuto. Mi aggiro nell'oscurita di una notte senza luna quando d'un tratto sento qualosa muoversi alle mie spalle, essndo nella losanga delle bocche di leone decido di nascondermi dietro una foglia della Grande Antirr ed ecco che poco lontano vedo sbucare un enorme fungo. Questo si aggirava tra le mie piante lanciando spore a destra e a manca. Alcune delle piante colpite dalle spore venefiche si ricoprivano dopo pochi secondi di quella sostanza appiccicosa trovata nei giorni precedenti.
+	Devo trovare un rimedio..."
+<pre class="asciiart">
+.
+.             *
+.              *     	     *
+.               ,,--**--,,   * *
+.	*   _''          ''_     
+.	  ,*                *、  *
+.	 (,,(,i,i,,,,,i,,i,),)  *
+.	      ) \   /  (
+.        Vv/ (  '__'    ) \vV/ 
+.                    
+</pre>
+	DescrSixth:
+	Capisci che una terribile piaga minaccia il giardino, forse tu potresti fare qualcosa.
+End
+
+Extras:
+	Keywords:	3 3. ricette
+	Descr:
+	Sfogli le pagine di questo capitolo, su ognuna è riportata una ricetta diversa corredata da un grazioso disegno.
+End
+
+Extras:
+	Keywords:	4 4.
+	Descr:
+	Scorri il resto del libro senza troppa attenzione, che pare non contere altro, ti soffermi solamente su una pagina che in un angolo ha infilato un[mistyrose]foglietto[close].
+End
+
+Extras:
+	Keywords:	foglio
+	Descr:
+	Un pezzetto di [mistyrose]foglio[close] che pare strappato da uno più grande. Riporta solamente un'annotazione, o forse un messaggio:
+
+	[mistyrose]Al gattaccio piace il pesce![close]
+	DescrSixth:
+	Un curioso appunto, megio tenerlo a mente, potrebbe essere utile.
+End

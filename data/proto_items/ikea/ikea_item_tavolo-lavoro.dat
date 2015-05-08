@@ -1,0 +1,28 @@
+Code: ikea_item_tavolo-lavoro
+
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+MaterialPercentages:	MATERIAL.WOOD	90
+MaterialPercentages:	MATERIAL.LEATHER	10
+Sex:	SEX.MALE
+Name:	Un Tavolo da Lavoro
+Short:	un largo tavolo da lavoro
+Long:	$N ben piantato sulle gambe.
+
+Descr: 
+Un singolo pezzo di legno costituisce il pianale di un tozzo tavolo da lavoro; quattro gambe, altrettanto tarchiate e leggermente ricurva completano la struttura.
+Nella parte centrale, probabilmente in un secondo momento, è stato applicato uno straccio di pelle, ormai consunto; poco sotto il bordo noti un piccolo cassetto.
+DescrSmell:
+Avverti forte l'odore del legno lavorato, di segatura e di cuoio
+DescrTouch:
+Molto ruvido in ogni sua parte, presenta dei buchi sparsi sul pianale dovuti a
+qualche strumento utilizzato per crearlo o per altro.
+
+Value:	0
+Weight: 95kg
+
+ContainerType:
+        MaxWeight: 120kg
+End
+

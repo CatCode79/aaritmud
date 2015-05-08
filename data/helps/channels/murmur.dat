@@ -1,0 +1,15 @@
+Code: murmur
+
+ItalianKeywords: mormoro
+EnglishKeywords: murmur
+
+Entitype: HELP.CHANNEL
+
+Text:
+Con questo comando possiamo mormorare parole o brevi frasi senza farci
+accorgere, se non da chi ci sta ascoltando con molto attenzione,
+concentrandosi su ogni suono.
+$tMurmur è un canale GDR.
+
+
+SeeAlso: channels whisper

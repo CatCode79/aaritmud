@@ -1,0 +1,20 @@
+Comment: conveniente negli oggetti rotti l'uso dell'etichetta %material
+Code: rip_item_broken-plant
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Sex:	SEX.MALE
+Name:	Un Brandello di %material
+Short:	una pianta male in arnese
+
+Long:	c'è qui $N
+
+Descr:
+Una pianta morta di morte tutt'altro che naturale.
+DescrTouch:
+Una pianta morta di morte tutt'altro che naturale.
+DescrSixth:
+O non piaceva o qualcuno voleva proporio passare di qui.
+
+Weight: 100g

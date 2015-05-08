@@ -1,0 +1,27 @@
+Code: karpuram_item_canfora_seme_01
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.SEED
+MaterialPercentages:	MATERIAL.SEED	100
+Sex:	SEX.MALE
+Name: Un piccolo [khaki]Seme[close] di [khaki]Canfora[close]
+Short: un piccolo [khaki]seme[close] tondeggiante
+Descr:
+Una piccola pallina marroncina dall'aria innocua, di sicura origine vegetale
+Value:	0
+Weight: 2g
+
+DescrTouch:
+una pallina dura
+DescrSmell: 
+una fragranza aromatica e decisa ti induce a credere che non vi sia nulla di
+naturale in questa cosa.
+
+
+Extras:
+  Keywords: pallina 
+  Descr: un seme di qualche tipo di pianta
+  DescrSixth: un seme di canfora
+End
+
+

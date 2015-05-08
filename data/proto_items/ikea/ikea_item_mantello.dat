@@ -1,0 +1,33 @@
+Code: ikea_item_mantello
+Level: 1
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+Flags:	FLAG.RANDOMIZABLE
+MaterialPercentages:	MATERIAL.CLOTH	100%
+Name:	Un Mantello
+Short:	un mantello
+Long:	$N è stato appallottolato in un angolo.
+
+Descr:
+Un mantello lungo e leggero tessuto in iuta grezza e tinto in modo sommariamente
+omogeneo. Il risultato finale è un [maroon]marrone chiaro[close]
+DescrTouch: 
+Un mantello lungo e leggero tessuto grezzo; la doppia fila di cuciture sull'estremità
+superiore è parzialmente consunta dall'uso.
+
+Value:	0
+Weight: 300g
+
+Extras:
+	Keywords: cuciture
+	Descr:
+	Le cuciture sono fitte e decenti
+	DescrTouch:
+	Le cuciture sembran forti quanto basta
+End
+WearType:
+        Flags:	WEAR.LAYERABLE
+   Modes: PART.BACK
+End
+
+

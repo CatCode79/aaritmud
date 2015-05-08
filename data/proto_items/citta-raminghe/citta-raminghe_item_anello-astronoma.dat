@@ -1,0 +1,65 @@
+Comment:
+"Isil venne fabbricato e approntato per primo, e per primo si levò nel reame 
+delle stelle, e fu il più anziano dei nuovi luminari, come Telperion lo era stato degli Alberi."
+(J.R.R. Tolkien, Il Silmarillion)
+
+"Il Sole è stato posto come un simbolo del sorgere degli Uomini e del declino 
+degli Elfi, ma la Luna serba amorosamente la loro memoria"
+(J.R.R. Tolkien, Il Silmarillion)
+
+Un anello indossato dall'astronoma. Il rubino che vi è incastonato ha la forma della Luna e ne segue le fasi (creare tre anelli con forma lunare diversa: Luna 
+crescente, Luna piena, Luna calante) Ha il potere di dare l'invisibilità a chi
+ lo indossa.
+Penso che non debba uscire dall'area delle Raminghe e non tutti dovrebbero poterlo prendere. Si potrebbe ipotizzare che solo quando l'anello ha la forma di Luna piena sia possibile per un pg indossarlo oppure che solo l'anello in cui il rubino ha forma di Luna piena, abbia il potere dell'invisibilità.
+
+Code: citta-raminghe_item_anello-astronoma
+Level: 3
+Sex: SEX.MALE
+Entitype: ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.GOLD	80%
+MaterialPercentages:	MATERIAL.RUBY	20%
+Name: L'Anello dell'Astronoma
+Short: un anello misterioso
+Long: $N [gold]brilla[close] di luce
+
+Value:	0
+Weight: 12g
+
+Descr: 
+Un prezioso [gold]anello d'oro[close] con un [crimson]rubino[close] dal colore 
+intenso la cui forma richiama quella della [lightpink]Luna[close] piena nella fase di massimo splendore e  luminosità. 
+
+DescrHearing:
+Non avverti alcun suono.
+
+DescrSmell:
+Non avverti alcun odore.
+
+DescrTouch:
+La superficie è liscia e  in alcuni momenti sprigiona un intenso calore.
+
+DescrTaste:
+Non è da assaggiare.
+
+DescrSixth:
+È un [gold]anello[close], ma non solo. È un oggetto dalle misteriose qualità. Appartiene all'osservatorio e 
+[red]l'Astronoma[close] ne è quindi la custode, così come è anche depositaria dei segreti che l'[gold]anello[close]
+conserva in sé. Non può allontanarsi mai troppo da questo luogo poiché un antico incantesimo lo protegge da chi vuole sottrarlo e farlo proprio.
+Molti infatti lo desiderano intuendo che sia la porta per accedere ad una condizione di [darkmagenta]potenza[close] e 
+[crimson]forza[close].
+
+
+WearType:
+	Modes:	PART.LEFT_RING_FINGER
+	Modes:	PART.RIGHT_RING_FINGER
+	Modes:	PART.LEFT_MIDDLE_FINGER
+	Modes:	PART.RIGHT_MIDDLE_FINGER
+	Modes:	PART.LEFT_FOREFINGER
+	Modes:	PART.RIGHT_FOREFINGER
+	Modes:	PART.LEFT_THUMB
+	Modes:	PART.RIGHT_THUMB
+	Modes:	PART.LEFT_LITTLE_FINGER
+	Modes:	PART.RIGHT_LITTLE_FINGER
+End
+
+

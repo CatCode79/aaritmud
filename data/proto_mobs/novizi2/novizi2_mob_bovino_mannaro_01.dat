@@ -1,0 +1,75 @@
+Code: novizi2_mob_bovino_mannaro_01
+Level: 12
+
+Sex:	SEX.MALE
+Race:	RACE.MAMMAL bovino
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name: Edo Bovino Mannaro
+Short: un bovide dallo sguardo arcigno
+Long:	$N barcolla inquieto  
+
+Descr:
+La naturale paciosità bovina è sostituita da uno sguardo iniettato di sangue e poco
+rassicurante. Le fauci spalancate e lo zoccolo che martella impaziente inducono ad
+una celere fuga oppure ad un combattimento senza tregua.
+
+Weight: 189kg
+Height: 160cm
+
+BirthDay: 22
+BirthMonth: MONTH.TWO
+Age: 9
+
+
+Behaviour:
+	LookPlayer:	25
+	LookMob:	5
+	LookItem:	5
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	5
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	5
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+PortalType:
+	Destination:	100 100 100 novizi
+	EntityEnterMessage: Non è per volontà tua, è $N che ti ha ipnotizzato ed indotto a farti ingoiare!
+	TargetEnterMessage: $n cede alla tua forza psichica e si fa ingoiare.
+	OthersEnterMessage: $N divora in un sol boccone $n stupit$O ed inerme.
+	EntityExitMessage: Hai appena schivato la dentatura di $N e scivoli sino a...
+	TargetExitMessage: Ora $n è giunt$o ove merita!
+	OthersExitMessage: Con un orribile gorgoglio $n scivola fin qui.
+End
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

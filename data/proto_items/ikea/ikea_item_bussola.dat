@@ -1,0 +1,25 @@
+Code: ikea_item_bussola
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.GLASS	20%
+MaterialPercentages:	MATERIAL.METAL	80%
+Name:	Una Bussola
+Short:	una bussola
+Long:	$N trasparente
+
+Descr:
+Un dischetto trasparente con una sorta di ampolla al centro in cui naviga un ago.
+Misteriosamente la punta rossa dell'ago punta sempre a nord anche se ti giri.
+DescrTouch: 
+Un dischetto leggero con una srta di ampolla fissata al centro.
+DescrSixth:
+Un oggetto di utilità modesta in queste lande ove il nord spicca come un incendio.
+
+Value:	175
+Weight: 10g
+
+WearType:
+	Modes:	PART.HOLD
+End

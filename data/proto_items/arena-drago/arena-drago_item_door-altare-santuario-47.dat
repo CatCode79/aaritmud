@@ -1,0 +1,32 @@
+Code: arena-drago_item_door-altare-santuario-47
+Level: 1
+Entitype:	ENTITYPE.DOOR
+MaterialPercentages:	MATERIAL.SAPPHIR 100%
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+Name:	L'Altare di Azkraoth
+Short:	un altare scintillante
+Long:	$N è a terra in frantumi.
+
+Descr:
+Un'incredibile  esempio  di scultura delle pietre dure, un enorme
+zaffiro  probabilmente  creato  con  mezzi  magici  è  stato poi
+scolpito  a  forma di un bellissimo altare. Completamente bordato
+da immagini di draghi porta al centro il simbolo del fulmine.
+
+Value:	0
+Weight: 20kg
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Un lampo di luce improvviso si sprigiona da $N rivelando un passaggio.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n armeggia con $N finché un lampo di luce si sprigiona rivelando un passaggio.
+	EntityCloseMessage:	Un manto nero si sprigiona da $N richiudendo un passaggio.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n guarda $N mentre un Un manto nero si sprigiona richiudendo un passaggio.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE DOOR.SECRET DOOR.NO_USE_DIR
+End

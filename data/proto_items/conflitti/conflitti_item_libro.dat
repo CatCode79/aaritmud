@@ -1,0 +1,45 @@
+Code: conflitti_item_libro
+Level: 1
+Entitype: ENTITYPE.READABLE
+MaterialPercentages:	MATERIAL.PAPER	50
+MaterialPercentages:	MATERIAL.PARCHMENT	40
+MaterialPercentages:	MATERIAL.SOFTWOOD	10
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+Name:	Un Libro
+Short:	un libro
+Long:	$N molto pesante posto in una nicchia
+
+Descr:
+Il libro è molto pesante e in realtà prenderlo non ti è veramente possibile. Ti richiama alla memoria tutti quei luoghi del sapere a volte proibiti, a volte inaccessibili e sospesi in un tempo circolare non definito. Potrebbe essere una risorsa. Tratta di  filosofia antica, di paradossi filosofici e di concetti relativi alla verità e alla falsità delle cose.
+
+DescrTouch:
+Il libro è molto pesante e in realtà prenderlo non ti è veramente possibile. Riesci però ad aprire la prima pagina ed a leggere una scritta molto sbiadita “Serapeum”. La superficie delle pagine è sostanzialamente ruvida. Ma ciò non ti dà molte informazioni utili.
+DescrSmell:
+        L'odore è quello della cenere, ma un pò più intenso.
+DescrHearing:
+        Voltando le pagine sottili e fragili senti uno scricchiolio simile a  quello delle foglie secche.
+DescrTaste:
+        Nutrirsi di libri dovresti sapere che è solo una metafora.
+DescrSixth:
+Il libro rappresenta il sapere, ma la soluzione non viene propriamente da qui. Nonostante la situazione alquanto problematica, ti emoziona l'idea di avere davanti a te un libro di saperi antichi e misteriosi.
+
+Extras:
+        Keywords: serapeum
+        Descr:	
+		serapeum
+End
+
+Extras:
+        Keywords: soluzione
+        Descr:	
+                la soluzione è lì ma non ti arriva alla mente
+     
+        DescrSixth:
+              Tutto qui sta per nutrirsi di me
+End
+
+Value:	0
+Weight: 321kg
+
+

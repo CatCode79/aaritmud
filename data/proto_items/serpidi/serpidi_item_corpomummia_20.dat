@@ -1,0 +1,22 @@
+Code:	serpidi_item_corpomummia_20
+Level:	1
+Entitype: ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.FLESH	70%
+MaterialPercentages:	MATERIAL.CLOTH	30%
+Name:	Indescrivibile Corpo Mummificato 
+Short:	un indescrivibile corpo mummificato 
+Descr: 
+Delle fasce di cotone svolazzano.  
+Extras:
+	Keywords:	corpo mummia 
+	Descr:
+Quello che vedi è probabilmente ciò che resta dellostrano essere incappucciato raffigurato da una statuadel tempio superiore.Da quello che puoi vedere ha gambe, braccia, testa,una coda corta e due appendici ossee sulla schiena.Il teschio è oblungo e stretto. Mani e piedi dovevanoavere solo quattro dita. 
+End
+Value:	0
+Weight: 80g
+BirthDay: 1
+BirthMonth: MONTH.TEN
+
+
+
+

@@ -1,0 +1,35 @@
+Code: flora_item_pomodoro-05-germoglio
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Flags:	FLAG.INTERACTABLE_FROM_OUTSIDE 
+Name:	Un Germoglio di [red]Pomodoro[close]
+Short:	un piccolo germoglio di pomodoro
+Long:	$N sta spuntando da terra.
+
+Descr:
+Un piccolo [green]germoglio[close] si sta facendo strada verso la luce. 
+Presenta la caratteristica forma romboidale, è di colore verde acceso ed è 
+ancora completamente chiuso e protetto da cinque foglioline esterne.
+
+DescrTouch:
+Morbido e leggero, la superficie delle foglioline che lo proteggono è ricca di
+una sorta di peluria di colore bianco... anche se lascia la mani di colore giallino.
+
+DescrSmell:
+Inconfondibie fragranza intensa epungente ma di nessuna persistenza.
+
+Value:	0
+Weight: 11g
+
+
+PlantType:
+    RpgHours:	1
+    WorseEntity:	flora_item_pomodoro-06-pianta
+    NormalEntity:	flora_item_pomodoro-06-pianta
+    BetterEntity:	flora_item_pomodoro-06-pianta
+End
+
+

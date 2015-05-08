@@ -1,0 +1,66 @@
+Code:	arena-drago_room_25-scalinata-accesso
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	La Scalinata d'Accesso
+Short:	la scalinata d'accesso
+	Descr:
+Una perfatta scalinata in marmo porta fino allo stupendo arco di
+accesso all'arena, due statue sono poste ai piedi della
+scalinata, rappresentano i gladiatori che combattono per il
+pubblico e per la gloria, anche solo le loro rappresentazioni
+riescono ad imprimere timore e rispetto... devono essere
+eccezionali avversari, assolutamente da non sottovalutare...
+All'apice della scalinata due cavalieri controllano l'ingreso per
+evitare che qualche malintenzionato possa sgattaiolare
+all'interno. Ad est una strada lastricata si dirige verso il
+villaggio di Roccia Aguzza mentre ad ovest, oltre la scalinata,
+si accede all'arena.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	4 1
+Exits:
+	Direction:	DIR.WEST
+	Descr:	il II livello
+	Comment:	ExitStatus	0 0 27713 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

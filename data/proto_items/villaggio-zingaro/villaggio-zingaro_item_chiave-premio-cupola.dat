@@ -1,0 +1,19 @@
+Code: villaggio-zingaro_item_chiave-premio-cupola
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.KEY
+Sex:	SEX.FEMALE
+Flags:	FLAG.NO_LOOK_LIST
+MaterialPercentages:	MATERIAL.SOFTWOOD 100%
+Name:	La [peru]Chiave[close] degli Scrigni
+Short:	una modesta [peru]chiavetta[close]
+Descr:
+Una minuta [peru]chiavetta[close] un legno con la parte dell'impugnatura irregolare e nodosa.
+DescrTouch: 
+Di certo non è stata levigata ne lavorata da mano umana.
+DescrSmell: 
+Un aroma leggero ma pungente.
+
+Value:	0
+Weight: 15g
+

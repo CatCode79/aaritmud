@@ -1,0 +1,6 @@
+FunName:   command_punch
+Type:      CMDTYPE.COMBAT
+Trust:     TRUST.PLAYER
+Position:  POSITION.REST
+Flags:     CMDFLAG.GDR
+MiniHelp:  Serve per dare un pugno a qualcuno, in maniera scherzosa oppure con intenzione di far male.

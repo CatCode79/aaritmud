@@ -1,0 +1,30 @@
+Code: cimitero_item_bracciale-mirna
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.WIRE 50%
+MaterialPercentages:	MATERIAL.CLOTH 50%
+Sex:	SEX.MALE
+Name:	Il Bracciale di Mirna
+Short:	un intreccio di fili colorati
+Long:	c'è qui $N adagiato mollemente
+
+Descr:
+Una innumerevole quantità di trecce intrecciate a loro volta, formano un bracciale colorato. 
+DescrTouch: 
+Un morbido tessuto di trecce intrecciate a loro volta, forma un bracciale piuttosto elastico. 
+
+Value:	0
+Weight: 15g
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+	Modes:	PART.LEFT_WRIST
+	Modes:	PART.RIGHT_WRIST
+	EntityWearMessage:	Allarghi $N con la $hand e te l$O infili %part.
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	$n allarga $N con la $hand e se l$O infila %part.
+	EntityRemoveMessage:	Ti sfili $N dal braccio.
+	TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+	OthersRemoveMessage:	$n si sfila $N dal braccio.
+End

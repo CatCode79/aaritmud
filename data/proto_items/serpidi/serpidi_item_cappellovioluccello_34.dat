@@ -1,0 +1,19 @@
+Code:	serpidi_item_cappellovioluccello_34
+Level:	1
+Entitype: ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.FEATHERS	100%
+Name:	Un Cappello di Violuccello 
+Short:	un cappello di violuccello 
+Descr: 
+È un soffice cappello viola.  
+WearType:
+    Modes: PART.HEAD
+End
+Value:	0
+Weight: 80g
+BirthDay: 1
+BirthMonth: MONTH.TEN
+
+
+
+

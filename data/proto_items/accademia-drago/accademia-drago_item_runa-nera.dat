@@ -1,0 +1,19 @@
+Code:	accademia-drago_item_runa-nera
+Level:	06
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.METAL 100%
+Sex:	SEX.MALE
+Name:	Una Runa [gray]Nera[close]
+Short:	una runa [gray]nera[close]
+Long:	$N è abbandonata qui come se fosse un qualcosa di nessun valore...
+
+Value:	0
+Weight:	100g
+
+Descr:
+una piccola runa in metallo [gray]nero [close].
+Comment:
+§27613
+
+Dati Obj
+8 262144 10 0 0 01 0 -1

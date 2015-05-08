@@ -1,0 +1,29 @@
+Code:	rip_item_corpse-tuareg-female
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CORPSE
+Sex:	SEX.FEMALE
+Race:	RACE.TUAREG
+MaterialPercentages:	MATERIAL.FLESH	100%
+Name:	Una tua Simile Mort$O 
+Short:	una tuareg mort$O
+Long:	$N afflosciato qui definitivamente 
+
+Descr:
+I resti mortali e corruttibili di #looker is RACE.TUAREG#una tua simile.#un appartenente alla razza tuareg.#
+
+DescrTouch:
+Il cadavere di #looker is RACE.TUAREG#una tua simile non si sta decomponendo come previsto, la pelle è ruvida e
+resistente, sembra riesca a conservarsi.#
+
+DescrSixth:
+#looker is RACE.TUAREG#Percepisci un grande senso di pace e serenità.#
+
+DescrSmell:
+#looker is RACE.TUAREG#Avverti spezie di diverso genere, un odore secco.#
+
+DescrTaste:
+#looker is RACE.TUAREG#La pelle è secca e impregnata di uno strato di sabbia.#
+
+Value:	0
+Weight:	65kg

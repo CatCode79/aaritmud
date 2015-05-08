@@ -1,0 +1,21 @@
+Code: karpuram_item_vasetto_02
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+MaterialPercentages:	MATERIAL.CLAY	100
+Sex:	SEX.MALE
+Name: Un [tan]Vasetto[close] di terracotta
+Short: un [tan]vasetto[close]
+Long:	$N è poggiato qui a terra
+
+Descr:
+Un vasetto in terracotta di dimensioni piccole dimensioni.
+
+Value:	0
+Weight: 200g
+
+ContainerType:
+        MaxWeight: 600g
+End
+
+

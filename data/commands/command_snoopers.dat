@@ -1,0 +1,5 @@
+FunName:  command_snoopers
+Type:     CMDTYPE.ADMIN
+Trust:    TRUST.IMPLEMENTOR
+Position: POSITION.DEAD
+MiniHelp: Serve a sapere quali amministratori, con la tua trust o minore, snoopano chi

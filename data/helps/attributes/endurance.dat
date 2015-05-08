@@ -1,0 +1,24 @@
+Code: endurance
+
+ItalianKeywords: resistenza
+EnglishKeywords: endurance
+
+Entitype: HELP.STAT
+
+Text:
+L'attributo resistenza permette di resistere maggiormente a 
+sforzi fisici, fatica e dolore determinando il livello di
+robustezza del corpo.
+
+Camminare, correre ed esplorare è meno stancante se il punteggio 
+di questa caratteristica viene aumentato.
+
+Anche la capacità di reagire contro veleni, maledizioni e ustioni
+aumenta con l'aumentare di questo attributo.
+
+I punti vigore e di vita iniziali e progressivi sono influenzati
+dalla resistenza.
+
+
+
+SeeAlso: attributes

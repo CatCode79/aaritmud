@@ -1,0 +1,54 @@
+Comment: questa è la room di arrivo in caso di ingresso dentro al 
+Code: citta-raminghe_room_costellazioni-01
+Sector: SECTOR.VOID
+Name: La Costellazione del Topo
+Short: la costellazione del topo
+
+Descr:
+<pre class="asciiart">
+ [deeppink]   [white].[close]             ,    [close]
+ [deeppink]             '        [close]
+ [deeppink]      [red]*[close]  - [pink].[close]    [green],[close]     [close]
+ [deeppink]             .        [close]
+ [deeppink]   +                  [close]
+</pre>
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Extras:
+	Keywords: topo
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: Un turbine
+End
+Exits:
+	Direction: DIR.DOWN
+	Descr: Il ritorno
+	Destination: 2 7 1 citta-raminghe
+End

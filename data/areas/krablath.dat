@@ -1,0 +1,400 @@
+Comment:
+Il giardino dell'impollinatrice, ben curato sempre verde ma perennemente minacciato da brutti fungoni cattivi!
+
+Creators:	Batu
+Code: krablath
+Name: Karblath il Giardino di Magrathea
+Short: un rigoglioso giardino
+Descr:
+Lo custodisce uno spirito senza tempo...
+un giardino lussureggiante relegato ad un difficile accesso. Il brulichio fatato di vita che lo pervade l'ha trasformata in leggenda e mito tanto che non molti si sanno pronunciare sulla sua reale esistenza.
+I pochi che spergiurano d'esserci stati e di aver ricevuto benefici duraturi però non sanno indicare la via per l'accesso e ne spiegano il motivo come il tributo di memoria alla quale si son assoggettati per poter uscire ebbri di vita dal giardino.
+
+Color: COLOR.DARKMAGENTA
+Level: 1
+RepopTime: 20
+LandfillCode:	 krablath_room_funghi-01
+
+RoomResets:
+  ProtoRoom: krablath_room_funghi-01
+	Destination:	-1 -4 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_funghi-02
+	Destination:	-4 -1 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_funghi-03
+	Destination:	-5 0 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_funghi-04
+	Destination:	-4 1 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_funghi-05
+	Destination:	-1 4 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_funghi-06
+	Destination:	0 5 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_funghi-07
+	Destination:	1 4 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_funghi-08
+	Destination:	4 1 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_funghi-09
+	Destination:	5 0 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_funghi-10
+	Destination:	4 -1 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_funghi-11
+	Destination:	1 -4 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_funghi-12
+	Destination:	0 -5 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_settori-01
+	Destination:	-1 -3 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_settori-02
+	Destination:	0 -4 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_settori-03
+	Destination:	1 -3 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_settori-04
+	Destination:	0 -3 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_settori-05
+	Destination:	-3 -1 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_settori-06
+	Destination:	-4 0 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_settori-07
+	Destination:	-3 1 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_settori-08
+	Destination:	-3 0 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_bocca-leone-01
+	Destination:	-3 0 1 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_bocca-leone-02
+	Destination:	-3 0 2 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_bocca-leone-02-n
+	Destination:	-3 1 2 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_bocca-leone-02-ne
+	Destination:	-2 1 2 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_bocca-leone-02-e
+	Destination:	-2 0 2 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_bocca-leone-02-se
+	Destination:	-2 -1 2 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_bocca-leone-02-s
+	Destination:	-3 -1 2 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_bocca-leone-02-sw
+	Destination:	-4 -1 2 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_bocca-leone-02-w
+	Destination:	-4 0 2 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_bocca-leone-02-nw
+	Destination:	-4 1 2 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_bocca-leone-03
+	Destination:	-3 0 3 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_bocca-leone-03-n
+	Destination:	-3 1 3 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_bocca-leone-03-ne
+	Destination:	-2 1 3 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_bocca-leone-03-e
+	Destination:	-2 0 3 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_bocca-leone-03-se
+	Destination:	-2 -1 3 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_bocca-leone-03-s
+	Destination:	-3 -1 3 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_bocca-leone-03-sw
+	Destination:	-4 -1 3 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_bocca-leone-03-w
+	Destination:	-4 0 3 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_bocca-leone-03-nw
+	Destination:	-4 1 3 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_settori-09
+	Destination:	-1 3 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_settori-10
+	Destination:	0 4 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_settori-11
+	Destination:	1 3 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_settori-12
+	Destination:	0 3 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_bamboo-01
+	Destination:	0 0 1 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_bamboo-02
+	Destination:	0 3 2 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_bamboo-03
+	Destination:	0 3 3 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_settori-13
+	Destination:	3 1 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_settori-14
+	Destination:	4 0 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_settori-15
+	Destination:	3 -1 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_settori-16
+	Destination:	3 0 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_blath-00
+	Destination:	0 0 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_blath-01
+	Destination:	1 0 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_blath-02
+	Destination:	0 -1 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_blath-03
+	Destination:	-1 0 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_blath-04
+	Destination:	0 1 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_blath-05
+	Destination:	0 2 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_blath-06
+	Destination:	-1 2 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_blath-07
+	Destination:	-2 1 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_blath-08
+	Destination:	-2 0 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_blath-09
+	Destination:	-2 -1 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_blath-10
+	Destination:	-1 -2 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_blath-11
+	Destination:	0 -2 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_blath-12
+	Destination:	1 -2 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_blath-13
+	Destination:	2 -1 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_blath-14
+	Destination:	2 0 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_blath-15
+	Destination:	2 1 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_blath-16
+	Destination:	1 2 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_scalinata-primavera
+  Comment:    default
+	Destination:	2 2 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_scalinata-primavera
+  Comment:    Primavera
+  Month:      MONTH.TWO
+	Destination:	2 2 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_scalinata-estate
+  Comment:    Estate
+  Month:      MONTH.FIVE
+	Destination:	2 2 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_scalinata-autunno-inverno
+  Comment:    Autunno-Inverno
+  Month:      MONTH.SEVEN
+	Destination:	2 2 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_terrazza-01
+	Destination:	2 3 0 krablath
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	krablath_mob_pavone-bianco
+		End
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	krablath_mob_pavone-blu
+		End
+End
+RoomResets:
+  ProtoRoom: krablath_room_terrazza-02
+	Destination:	3 2 0 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_casa-01
+	Destination:	3 3 0 krablath
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	krablath_mob_impollinatrice
+	End
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	krablath_item_libreria
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	krablath_item_librone
+		End
+	End
+End
+RoomResets:
+  ProtoRoom: krablath_room_casa-02
+	Destination:	3 4 0 krablath
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	krablath_item_armadietto
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	krablath_item_quest-intruglio
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	villaggio-zingaro_item_rastrello-small-01
+	End
+End
+RoomResets:
+  ProtoRoom: krablath_room_casa-03
+	Destination:	4 3 0 krablath
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	krablath_item_chiavetta
+	End
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	krablath_item_tavolino
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	krablath_item_piatto-01
+		End
+	End
+End
+RoomResets:
+  ProtoRoom: krablath_room_casa-04
+	Destination:	3 3 1 krablath
+End
+RoomResets:
+  ProtoRoom: krablath_room_blath-17
+	Destination:	4 2 0 krablath
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	villaggio-zingaro_item_rastrello-01
+	End
+End
+RoomResets:
+  ProtoRoom: krablath_room_blath-18
+	Destination:	4 5 0 krablath
+End

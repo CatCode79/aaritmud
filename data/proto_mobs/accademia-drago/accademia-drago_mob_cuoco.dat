@@ -1,0 +1,71 @@
+Code:	accademia-drago_mob_cuoco
+Level:	03
+Sex:	SEX.MALE
+Race:	RACE.HUMAN
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Il Cuoco dell'Accademia
+Short:	il cuoco dell'accademia
+Long:	$N spadella canticchiando melodie scurrili.
+
+Descr:
+Un  omone  enorme,  sporco di un grassi sudicio che sembra antico
+quanto le mura della sua cucina... non credi che riuscirai più a
+mangiare qualcosa in questo posto dopo questa visione...
+Weight: 149kg
+Height: 190cm
+
+BirthDay: 22
+BirthMonth: MONTH.TWO
+Age: 9
+
+Behaviour:
+	LookPlayer:	0
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+Comment:
+2|134217728 0 0 A 3
+38 -5 -10 200 1d3+8
+-1 0 24 1
+8 8 4 16|32|32768|65536 1|256|512|1024|2048|4096|8192 0
+
+
+
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

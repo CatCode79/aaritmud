@@ -1,0 +1,37 @@
+Code: cimitero_room_tempietto-outside-n
+Sector: SECTOR.RUIN
+Name: Il Perimetro del Tempietto
+Short: al margine di una piccola costruzione
+
+Descr:
+	Una vera e propria strada in lastre di pietra parte da un tempietto qui a sud e procede
+	in direzione nord per un bel tratto. In fondo si vede solo un'ampia costruzione.
+DescrSmell: 
+	Il vento porta con se l'odore della terra smossa di fresco e qualcosa di marcescente
+DescrSixth:
+	Giacché sei qui potrebbe essere un'idea andare a vedere quale è il posto migliore per
+	farsi seppellire, anche solo per evitare la ressa di quando il fenomeno diverrà modaiolo.
+DescrHearing:
+	Saltuariamente senti i morbidi suoni che accompagnano le vampe dei fuochi fatui.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: All'interno del tempietto
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Lungo la strada interna
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Ai lati del tempietto
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Ai lati del tempietto
+End
+

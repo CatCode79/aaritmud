@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_041_camminamenti-041
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	I Camminamenti
+Short:	i camminamenti
+	Descr:
+Le mura sono ampie ed antiche, ormai è un po' che ci passeggi e
+ti rendi conto che si tratta di una struttura veramente
+impressionante, se dovesse esserci un attacco questi camminamenti
+potrebbero ospitare cavalieri a migliaia... Non ti piacerebbe
+essere al posto degli aggressori...
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 1
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 040 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 043 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

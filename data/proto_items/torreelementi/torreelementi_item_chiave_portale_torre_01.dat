@@ -1,0 +1,20 @@
+Code: torreelementi_item_chiave_portale_torre_01
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.WATER	100%
+Name:	La [aqua]Chiave[close] Liquida 
+Short:	una strana [aqua]pozza d'acqua[close]
+Long:	$N sfida la natura e sta in piedi da sola.
+
+Descr:
+	Una pozzanghera vagamente oblunga larga poco più di due dita pare si disinteressi delle
+	leggi della natura e sta cercando di alzarsi.
+DescrTouch: 
+	La pozzanghera ostacola i tuoi tentativi di toccarla ritirandosi quel poco che basta
+	in direzione opposta.
+
+Value:	0
+Weight: 75g
+
+

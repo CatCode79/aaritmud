@@ -1,0 +1,26 @@
+Code: opekus_item_scudo-01
+Level: 1
+Entitype: ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.METAL	100%
+Name: Lo Scudo Crestato
+Short: un massiccio scudo
+Long:	$N davvero enorme
+Descr:
+	Uno scudo poderoso a forma circolare. Al centro, l'immagine di due mazze ferrate
+	incrociate sporge tanto da formare una pericolosa doppia cresta. 
+
+Value:	0
+Weight: 17kg
+
+WearType:
+        Modes: PART.HOLD
+        EntityWearMessage:	Sollevi con ambo le $hands $N e te l$O porti %part.
+        TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+        OthersWearMessage:	$n solleva $N con ambo le $hands e se l$O porta %part.
+        EntityRemoveMessage:	Porti le $hands %part e togli $N.
+        TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+        OthersRemoveMessage:	$n porta le $hands %part e si leva $N
+End
+
+

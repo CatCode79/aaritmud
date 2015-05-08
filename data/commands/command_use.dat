@@ -1,0 +1,6 @@
+FunName:    command_use
+Type:       CMDTYPE.ITEM
+Trust:      TRUST.PLAYER
+Position:   POSITION.REST
+Flags:      CMDFLAG.GDR CMDFLAG.INTERACT
+MiniHelp:   Serve per poter usare alcuni oggetti.

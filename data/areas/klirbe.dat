@@ -1,0 +1,311 @@
+Comment:
+	area di prova, l'idea qui è di una rupe e sopra un area nuvoliforme, l'accesso è solo di fly arduo oppure si attende che una piantina di fagioli possa crescere fin sulla cima.
+Creators:	Sulfrum
+Code: klirbe 
+Name: Il sommo Klirbe dominia indiscusso
+Short: il picco sul mare
+Descr:
+	Talvolta le nubi estive più nere del nero incombono da vicino sul Nakilen portando distruzione ed allagamenti; È il segno che Klirbe stesso si è scomodato di persona per dirimere gravi situazioni terrene che neppure i suoi araldi han saputo dirimere.
+	Qualche mortale è riuscito ad accedere al nebuloso regno, in circostanze rare e con gli astri favorevoli. Per tutti la prova iniziale passa attraverso l'impetuosa Idrusa, unica custode dell'accesso.
+La rupe d'accesso si colloca a nordovest della Torre elementale.
+Color: COLOR.DODGERBLUE blu di stelle fredde e lontane
+Level: 1
+RepopTime: 20
+LandfillCode:	klirbe_room_sentiero-01
+
+
+RoomResets:
+	Comment: oceano e scogli (procedono a raggera attorno alla parte rocciosa)
+	ProtoRoom: klirbe_room_sea-wr
+	Destination:	-2 0 -1 klirbe
+End
+RoomResets:
+	Comment: oceano e scogli
+	ProtoRoom: klirbe_room_sea-w
+	Destination:	-2 1 -1 klirbe
+End
+RoomResets:
+	Comment: oceano e scogli
+	ProtoRoom: klirbe_room_sea-nw
+	Destination:	-2 2 -1 klirbe
+End
+RoomResets:
+	Comment: oceano e scogli
+	ProtoRoom: klirbe_room_sea-n
+	Destination:	-1 2 -1 klirbe
+End
+RoomResets:
+	Comment: oceano e scogli
+	ProtoRoom: klirbe_room_sea-n
+	Destination:	0 2 -1 klirbe
+End
+RoomResets:
+	Comment: oceano e scogli
+	ProtoRoom: klirbe_room_sea-n
+	Destination:	1 2 -1 klirbe
+End
+RoomResets:
+	Comment: oceano e scogli
+	ProtoRoom: klirbe_room_sea-er
+	Destination:	2 0 -1 klirbe
+End
+RoomResets:
+	Comment: oceano e scogli
+	ProtoRoom: klirbe_room_sea-e
+	Destination:	2 1 -1 klirbe
+End
+RoomResets:
+	Comment: oceano e scogli
+	ProtoRoom: klirbe_room_sea-ne
+	Destination:	2 2 -1 klirbe
+End
+
+RoomResets:
+	Comment: oceano e scogli (da qui la parte di scogli terra-ferma)
+	ProtoRoom: klirbe_room_bottom-w
+	Destination:	-1 0 -1 klirbe
+End
+RoomResets:
+	Comment: oceano e scogli
+	ProtoRoom: klirbe_room_bottom-nw
+	Destination:	-1 1 -1 klirbe
+End
+RoomResets:
+	Comment: oceano e scogli
+	ProtoRoom: klirbe_room_bottom-n
+	Destination:	0 1 -1 klirbe
+End
+RoomResets:
+	Comment: oceano e scogli
+	ProtoRoom: klirbe_room_bottom-ne
+	Destination:	1 1 -1 klirbe
+End
+RoomResets:
+	Comment: oceano e scogli
+	ProtoRoom: klirbe_room_bottom-e
+	Destination:	1 0 -1 klirbe
+End
+
+RoomResets:
+	Comment: air (z=0)
+	ProtoRoom: klirbe_room_air-bottom-n
+	Destination:	-2 2 0 klirbe
+End
+RoomResets:
+	Comment: air (z=0)
+	ProtoRoom: klirbe_room_air-bottom-n
+	Destination:	-1 2 0 klirbe
+End
+RoomResets:
+	Comment: air (z=0)
+	ProtoRoom: klirbe_room_air-bottom-n
+	Destination:	0 2 0 klirbe
+End
+RoomResets:
+	Comment: air (z=0)
+	ProtoRoom: klirbe_room_air-bottom-n
+	Destination:	1 2 0 klirbe
+End
+RoomResets:
+	Comment: air (z=0)
+	ProtoRoom: klirbe_room_air-bottom-n
+	Destination:	2 2 0 klirbe
+End
+
+
+
+RoomResets:
+	Comment: air (z=0)
+	ProtoRoom: klirbe_room_air-bottom-n
+	Destination:	-2 1 0 klirbe
+End
+RoomResets:
+	Comment: air (z=0)
+	ProtoRoom: klirbe_room_air-bottom-n
+	Destination:	-1 1 0 klirbe
+End
+RoomResets:
+	Comment: air (z=0)
+	ProtoRoom: klirbe_room_air-bottom-s
+	Destination:	0 1 0 klirbe
+End
+RoomResets:
+	Comment: air (z=0)
+	ProtoRoom: klirbe_room_air-bottom-n
+	Destination:	1 1 0 klirbe
+End
+RoomResets:
+	Comment: air (z=0)
+	ProtoRoom: klirbe_room_air-bottom-n
+	Destination:	2 1 0 klirbe
+End
+
+RoomResets:
+	Comment: air (z=0)
+	ProtoRoom: klirbe_room_air-bottom-s
+	Destination:	-2 0 0 klirbe
+End
+RoomResets:
+	Comment: air (z=0)
+	ProtoRoom: klirbe_room_air-bottom-ssw
+	Destination:	-1 0 0 klirbe
+End
+RoomResets:
+	Comment: air (z=0)
+	ProtoRoom: klirbe_room_air-bottom-sse
+	Destination:	1 0 0 klirbe
+End
+
+RoomResets:
+	Comment: air (z=0)
+	ProtoRoom: klirbe_room_air-bottom-s
+	Destination:	2 0 0 klirbe
+End
+
+
+RoomResets:
+	Comment: air (piano di base ingresso area z=1)
+	ProtoRoom: klirbe_room_air-bottom-n
+	Destination:	-2 2 1 klirbe
+End
+RoomResets:
+	Comment: air (piano di base ingresso area z=1)
+	ProtoRoom: klirbe_room_air-bottom-n
+	Destination:	-1 2 1 klirbe
+End
+RoomResets:
+	Comment: air (piano di base ingresso area z=1)
+	ProtoRoom: klirbe_room_air-bottom-n
+	Destination:	0 2 1 klirbe
+End
+RoomResets:
+	Comment: air (piano di base ingresso area z=1)
+	ProtoRoom: klirbe_room_air-bottom-n
+	Destination:	1 2 1 klirbe
+End
+RoomResets:
+	Comment: air (piano di base ingresso area z=1)
+	ProtoRoom: klirbe_room_air-bottom-n
+	Destination:	2 2 1 klirbe
+End
+
+
+
+RoomResets:
+	Comment: air (piano di base ingresso area z=1)
+	ProtoRoom: klirbe_room_air-bottom-n
+	Destination:	-2 1 1 klirbe
+End
+RoomResets:
+	Comment: air (piano di base ingresso area z=1)
+	ProtoRoom: klirbe_room_air-bottom-n
+	Destination:	-1 1 1 klirbe
+End
+RoomResets:
+	Comment: air (piano di base ingresso area z=1)
+	ProtoRoom: klirbe_room_air-s
+	Destination:	0 1 1 klirbe
+End
+RoomResets:
+	Comment: air (piano di base ingresso area z=1)
+	ProtoRoom: klirbe_room_air-bottom-n
+	Destination:	1 1 1 klirbe
+End
+RoomResets:
+	Comment: air (piano di base ingresso area z=1)
+	ProtoRoom: klirbe_room_air-bottom-n
+	Destination:	2 1 1 klirbe
+End
+
+RoomResets:
+	Comment: air (piano di base ingresso area z=1)
+	ProtoRoom: klirbe_room_air-bottom-s
+	Destination:	-2 0 1 klirbe
+End
+RoomResets:
+	Comment: air (piano di base ingresso area z=1)
+	ProtoRoom: klirbe_room_air-ssw
+	Destination:	-1 0 1 klirbe
+End
+RoomResets:
+	Comment: air (piano di base ingresso area z=1) Bordo del precipizio
+	ProtoRoom: klirbe_room_precipizio-00
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity:	klirbe_mob_guardiano-idrusa
+	End
+	Destination:	0 0 1 klirbe
+End
+RoomResets:
+	Comment: primo reset per la crescita della piantina
+	Messages: Durante la notte son germogliati alcuni semi...
+	Day:	01
+	ProtoRoom: klirbe_room_precipizio-01
+	Destination:	0 0 1 klirbe
+End
+RoomResets:
+	Comment: secondo reset per la crescita della piantina
+	Messages: Alcuni germogli nella notte hanno cominciato a prendere il sopravvento...
+	Day:	02
+	ProtoRoom: klirbe_room_precipizio-02
+	Destination:	0 0 1 klirbe
+End
+RoomResets:
+	Comment: terzo reset per la crescita della piantina
+	Messages: Alcuni germogli hanno cominciato a prendere il sopravvento...
+	Day:	03
+	ProtoRoom: klirbe_room_precipizio-03
+	Destination:	0 0 1 klirbe
+End
+RoomResets:
+	Comment: quarto reset reset per la crescita della piantina (compare il primo up)
+	Messages: Alcuni germogli hanno cominciato a prendere il sopravvento...
+	Day:	04
+	ProtoRoom: klirbe_room_precipizio-04
+	Destination:	0 0 1 klirbe
+End
+RoomResets:
+	Comment: crescita della piantina (il primo up)
+	Day:	04
+	ProtoRoom: klirbe_room_rampicante-04
+	Destination:	0 0 2 klirbe
+End
+RoomResets:
+	Comment: air (piano di base ingresso area z=1)
+	ProtoRoom: klirbe_room_air-sse
+	Destination:	1 0 1 klirbe
+End
+
+RoomResets:
+	Comment: air (piano di base ingresso area z=1)
+	ProtoRoom: klirbe_room_air-bottom-s
+	Destination:	2 0 1 klirbe
+End
+
+
+RoomResets:
+	Comment: accesso al precipizio da sentiero
+	ProtoRoom: klirbe_room_sentiero-01
+	Destination:	1 -1 1 klirbe
+End
+RoomResets:
+	Comment: (piano di base ingresso area z=1) Bordo del precipizio
+	ProtoRoom: klirbe_room_sentiero-02
+	Destination:	1 -2 1 klirbe
+End
+RoomResets:
+	Comment: (piano di base ingresso area z=1) Bordo del precipizio
+	ProtoRoom: klirbe_room_sentiero-03
+	Destination:	0 -3 1 klirbe
+End
+RoomResets:
+	Comment: (piano di base ingresso area z=1) Bordo del precipizio
+	ProtoRoom: klirbe_room_sentiero-04
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: klirbe_item_cascata
+	End
+	Destination:	-1 -3 1 klirbe
+End

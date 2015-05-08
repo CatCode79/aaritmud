@@ -1,0 +1,44 @@
+Comment: STRUMENTO.AEROFONO
+    - ancia (musotto) in canna, molto delicata
+    - canna conica con 8 fori
+    - il padiglione o campana
+    - ci possono essere delle vere in ottone come rinforzo a abbellimento
+
+Code: mfdonald_item_strumenti-piffero
+Level: 1
+Entitype:	ENTITYPE.INSTRUMENT
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.EBONY	89%
+MaterialPercentages:	MATERIAL.FEATHERS	4%
+MaterialPercentages:	MATERIAL.GOLD	7%
+Icon:	icons/instrument/piffero.png
+Name:	Un Piffero
+Short:	un piffero
+Long:	$N in legno d'ebano
+
+Descr:
+	Un pregevole piffero d'ebano piuttosto lungo ed affusolato con sette fori.
+	Dall'estremità inferiore penzolano una piuma di gallo variopinta.
+	Le [gold]vere[close] lucide poste come rinforzo lungo la struttura dello strumento
+	gli conferiscono un veste piuttosto elegante. 
+ 
+DescrTouch:
+	Chiudi i fori con le dita, i polpastrelli li tappano perfettamente come se fosse fatto su misura.
+DescrHearing:
+	Porti alle labbra l'ancia di canna facendo attenzione a non stringere troppo ed emetti qualche suono scomposto.
+DescrSixth:
+	Non ti viene in mente alcuna motivata ragione per cui ti sia giunta alla memoria una paperella...
+
+Value:	0
+Weight: 110g
+ 	  
+Extras:
+	Keywords: vere lucide
+	Descr:
+	Le due vere agli estremi dello strumento sono di dimensione maggiore delle altre.
+	DescrTouch:
+	Scorrendo le dita lungo il corpo dello strumento ti avvedi che le due vere agli estremi
+        sono di dimensione maggiore rispetto alla altre.
+End
+
+

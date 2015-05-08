@@ -1,0 +1,68 @@
+Code:	arena-drago_room_27-vicolo-cieco
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Un Vicolo Cieco
+Short:	un vicolo cieco
+	Descr:
+In fondo alla scaletta ti trovi in una stanzetta se possibile
+più piccola e puzzolente di quella al piano superiore, a parte
+una cassa piena solo di ragnatele questo posto è totalmente
+vuoto.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	1|64 0
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	Cassa
+	Comment:	ExitStatus	1|8|256 0 27728 224
+	Door:	arena-drago_item_door-cassa-27
+End
+Exits:
+	Direction:	DIR.UP
+	Descr:	una stanzetta
+	Comment:	ExitStatus	0 0 27726 -1
+	Destination:	6 9 0 arena-drago
+End
+Extras:
+	Keywords:	cassa
+		Descr:
+La cassa è vecchia e malridotta, da dietro di questa ti pare di
+sentire un leggero alito di vento
+
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

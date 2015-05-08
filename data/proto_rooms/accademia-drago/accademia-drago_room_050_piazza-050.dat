@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_050_piazza-050
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	La Piazza d'Armi
+Short:	la piazza d'armi
+	Descr:
+La zona nord della piazza d'armi non riserba grosse sorprese, la
+pavimentazione prosegue immutata e lo stesso fanno le mura della
+struttura, il silenzio è quasi totale e riesci persino a seguire
+il sibilo del vento che si insinua all'interno della struttura da
+un arco a nord.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 2
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	l'androne [mediumblue]blu[close]
+	Comment:	ExitStatus	0 0 096 -1
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	la piazza d'armi
+	Comment:	ExitStatus	0 0 049 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	la piazza d'armi
+	Comment:	ExitStatus	0 0 054 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	la piazza d'armi
+	Comment:	ExitStatus	0 0 051 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

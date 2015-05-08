@@ -1,0 +1,6 @@
+FunName:   command_taste
+Type:      CMDTYPE.INFORMATION
+Trust:     TRUST.PLAYER
+Position:  POSITION.REST
+Flags:     CMDFLAG.GDR CMDFLAG.INTERACT
+MiniHelp:  Permette di assaggiare cose e sentirne il gusto.

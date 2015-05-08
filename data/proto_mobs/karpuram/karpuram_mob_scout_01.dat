@@ -1,0 +1,76 @@
+Code: karpuram_mob_scout_01
+Level: 18
+MaxGlobalQuantity:	4
+Sex:	SEX.MALE
+Name:	Un Elfo Scout
+Short: un elfo scout
+Long:	$N sta seguendo una traccia
+Race: RACE.WOODELF
+
+Descr:
+Si aggira guardingo e silenzioso per il bosco, portando con sé un arco corto e
+una piccola faretra per le frecce. Un elfo scout si distingue per i suoi
+abiti di pelle leggera e per un tatuaggio ben in vista sulla spalla destra.
+Al suo fianco lo segue un fedele e protettivo compagno d'avventure, un
+grosso lupo.
+
+DescrSixth:
+Avverti un senso d'inquietudine irrompere nel tuo animo.
+
+Extras:
+	Keywords: tatuaggio
+	Descr:
+	Una pittura inusuale per un elfo, raffigura la testa di un grande lupo.
+End
+
+
+
+Behaviour:
+	LookPlayer:	10
+	LookMob:	10
+	LookItem:	10
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	5
+	LookDirection:	5
+	LookExit:	20
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	50
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NORTH DIR.NORTHEAST DIR.EAST DIR.SOUTHEAST DIR.SOUTH DIR.SOUTHWEST DIR.WEST DIR.NORTHWEST DIR.DOWN DIR.UP
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+Weight: 65kg
+Height: 190cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 110
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

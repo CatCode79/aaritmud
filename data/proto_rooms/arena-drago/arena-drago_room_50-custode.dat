@@ -1,0 +1,66 @@
+Code:	arena-drago_room_50-custode
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	La Sala del Custode
+Short:	la sala del custode
+	Descr:
+L'atmosfera che ti accoglie è calda e familiare, il pavimento è
+ricoperto di pelli d'orso ed un caminetto scoppietta allegro
+sulla parete est. Al centro della stanza due comode poltrone sono
+rivolte verso il tepore del fuoco, dietro queste noti una bella
+scrivania mantre verso il fondo è sistemato un letto a
+baldacchino. Sembra proprio che questa stanza sia utilizzata a mo
+di abitazione. l'unica uscita è la porta a nord.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	32|64|33554432 0
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	Porta
+	Comment:	ExitStatus	1 0 27749 -1
+End
+Extras:
+	Keywords:	scrivania
+		Descr:
+Per quanto non sia di fattura eccelsa come altre viste
+all'interno dell'accademia si tratta comunque di un ottimo banco
+da studio, innumerevoli fregi percorrono tutto il suo perimetro
+con un rilassante motivo geometrico.
+
+End
+Extras:
+	Keywords:	fregi
+		Descr:
+Uno in particolare ti salta all'occhio, sembra un po' più
+rialzato degli altri.
+
+End
+Extras:
+	Keywords:	fregio
+		Descr:
+Analizzi meglio il fregio che ti sembrava strano, forse potresti
+riuscire addirittura ad aprirlo.
+
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

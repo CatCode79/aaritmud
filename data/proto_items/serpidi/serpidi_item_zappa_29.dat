@@ -1,0 +1,27 @@
+Code:	serpidi_item_zappa_29
+Level:	1
+Entitype: ENTITYPE.WEAPON
+MaterialPercentages:	MATERIAL.METAL	60%
+MaterialPercentages:	MATERIAL.WOOD	40%
+Name:	una zappa 
+Short:	una zappa 
+Descr: 
+Una zappa arrugginita è appoggiata al muro.  
+Value:	0
+Weight: 80g
+BirthDay: 1
+BirthMonth: MONTH.TEN
+
+
+WearType:
+        Modes: PART.WIELD
+End
+
+
+WeaponType:
+	Category: WEAPON.FALCHION
+	Damage:	1D0+0
+	Flags: WEAPONFLAG.ONE_HAND 
+End
+
+

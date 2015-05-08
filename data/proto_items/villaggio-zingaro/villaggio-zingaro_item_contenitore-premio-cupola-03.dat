@@ -1,0 +1,31 @@
+Code: villaggio-zingaro_item_contenitore-premio-cupola-03
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+MaterialPercentages:	MATERIAL.VEGETABLE 100%
+Name:	Lo [olive]Scrigno[close] delle [olive]Liane[close]
+Short:	un [olive]groviglio[close] di [olive]liane[close]
+Long:	$N ciondola mollemente.
+
+Descr:
+Un globo di [olive]liane[close] annodate penzolano dalla volta della cupola; qua e là spuntano tenere foglioline intrise di resina alcune addirittura sono disposte a foggia di toppa.
+DescrTouch: 
+Morbidi ma anche viscosi questi budelli vegetali ti appiccicano tutte le mani.
+DescrSmell: 
+Un lezioso aroma [orange]agrumato[close] ti si insinua nella narici. 
+DescrSixth:
+Un parola ti si materializza nella mente... [gold]scrigno[close], chissà perché poi.
+
+Value:	0
+Weight: 231g
+
+ContainerType:
+	EntityOpenMessage:	I serpentini rami di $N di districano lentamente non appena tenti di aprirlo.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N che si districa lentamente.
+	Flags:	 CONTAINER.CLOSED CONTAINER.LOCKED CONTAINER.EATKEY CONTAINER.CLOSABLE CONTAINER.OPEN_ONE_TIME
+        KeyCode:	villaggio-zingaro_item_chiave-premio-cupola
+	MaxWeight:	2kg
+End

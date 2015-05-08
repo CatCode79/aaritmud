@@ -1,0 +1,7 @@
+FunName:    command_usedrooms
+Type:       CMDTYPE.ADMIN
+Trust:      TRUST.BUILDER
+Position:   POSITION.DEAD
+MiniHelp:   Serve ai Builder per elencare il numero di volte che una stanza
+            prototipi è stata resettata, così da ricercare eventuali
+            stanze proto-zombie.

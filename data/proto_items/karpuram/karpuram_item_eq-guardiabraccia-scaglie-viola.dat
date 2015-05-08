@@ -1,0 +1,44 @@
+Code:	karpuram_item_eq-guardiabraccia-scaglie-viola
+
+Level:	9
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.SNAKESKIN	55
+MaterialPercentages:	MATERIAL.CLOTH	15
+MaterialPercentages:	MATERIAL.LINE	15
+MaterialPercentages:	MATERIAL.COTTON	15
+Sex:	SEX.MALE
+Name:	Guardiabraccia di [violet]Scaglie Viola[close]
+Short:	[violet]guardiabraccia[close] di scaglie violacee
+Long:	Un pregiato paio di $N finemente lavorati sono riposto qui.
+
+Descr:
+Rilucenti e ben rifiniti, questo paio di guardiabraccia sono formati da una 
+serie di scaglie di serpente dal colore viola intenso. Le scaglie sono 
+sovrapposte in modo tale da garantire una protezione a strati di lunga durata. 
+Due serie di lacci esterni permettono di regolare i guardiabraccia a seconda 
+della grandezza delle braccia di chi avrà l'onore di indossarli.
+
+DescrHearing:
+Un sinistro sibilo sembra provenire dai due guardiabraccia, come se gli stessi 
+fossero vivi e animati. Il sibilo s'interrompe ogni volta che questi vengono 
+indossati.
+
+DescrTouch:
+Lisci e morbidi in superficie, le scaglie sono stratificate e sottili e non 
+presentano imperfezioni. Al tocco i guardiabraccia tendono a rilasciare alcune 
+gocce di una specie di inchiostro naturale di colore viola che viene subito 
+assorbito dalla pelle.
+
+DescrSixth:
+Hai la sensazione che questo pezzo di armatura sia parte integrante di qualcosa
+di più grande e potente, oltre la tua immaginazione.
+
+Value:	0
+Weight:	1kg
+
+WearType:
+   Modes: PART.RIGHT_UPPER_LIMB PART.LEFT_UPPER_LIMB
+End
+
+

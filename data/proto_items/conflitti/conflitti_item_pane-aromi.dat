@@ -1,0 +1,37 @@
+Code: conflitti_item_pane-aromi
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.FOOD
+MaterialPercentages:	MATERIAL.BREAD	100
+Sex:	SEX.MALE
+Name:	Un Pane Aromatico
+Short:	un pane aromatico
+Long:	$N ti esorta all'assaggio
+
+Descr:
+Una forma tondotta e panciuta per del pane cotto in forno a legna.
+DescrTouch: 
+Una fragrante pagnotta
+DescrSmell: 
+Non può che essere molto recente come pane.
+DescrSixth:
+Conservarlo o finirlo?
+DescrTaste:
+Le papille si ribellano a tutto quanto hai mangiato in vita tua prima di scoprire tanta mistica fragranza.
+
+Value:	0
+Weight: 150g
+
+
+FoodType:
+	Comment:	cibo
+	Animal:	0
+	Vegetable:	100
+	CookingDamage:	5
+	Hours:	0
+	EntityMessage:	Prendi $N fra le $hands e l$O consumi centellinandol$o.	
+	TargetMessage:	Ora c'è una sola via d'uscita... $n t'ha mangiato.
+	OthersMessage:	$n prende fra le $hands $N e l$O consuma centellinandol$O.
+End
+
+

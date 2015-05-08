@@ -1,0 +1,28 @@
+Code: citta-raminghe-maze_room_biblioteca_3no-nord
+Sector: SECTOR.HOUSE
+Flags:  ROOM.INSIDE
+Name: Persi nel Vortice
+Short: [red]corridoi a spirale[close]
+Descr:
+Infiniti, innumerevoli corridoi si intrecciano  senza che nulla possa darti un'idea di come sia  giunto sin qui. 
+
+DescrSixth:
+Così come puoi perderti nelle pagine non numerate di un libro, così vaghi senza meta in una perfetta e infinita 
+spirale aurea di corridoi tutti uguali.
+
+Width:  10m
+Depth:  10m
+Height: 100m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: in biblioteca
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: in biblioteca
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: in biblioteca
+End

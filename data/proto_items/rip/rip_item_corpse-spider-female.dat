@@ -1,0 +1,30 @@
+Code:	rip_item_corpse-spider-female
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CORPSE
+Sex:	SEX.FEMALE
+Race:	RACE.SPIDER
+MaterialPercentages:	MATERIAL.FLESH	100%
+Name:	Una Femmina di Ragno Mort$O
+Short:	una femmina di ragno mort$O
+Long:	$N immobile ed accartocciat$O
+
+Descr:
+I miseri resti mortali e corruttibili di #looker is RACE.SPIDER#un tuo simile.#una femmina di ragno ragno.#
+
+DescrTouch:
+Dalla $SKIN si direbbe il cadavere di #looker is RACE.SPIDER#un tuo simile immobile e  accartocciato.#un ragno rigido ed accartocciato.#
+
+DescrSixth:
+#looker is RACE.SPIDER#L'anima immortale delle sue innumerevoli vite tesse ora altrove.#La morte s'è portata via qualcosa di più che il suo respiro di vita.#
+
+DescrSmell:
+#looker is RACE.SPIDER#Chissà poi perché ma pare che l'odore della morte non copra gli altri odori ed a sua volta non sia coperto da altri.#Odore di morte.#
+
+DescrTaste:
+no_send
+
+Value:	0
+Weight:	500g
+
+

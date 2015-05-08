@@ -1,0 +1,36 @@
+Code: flora_item_farnia-01-ghianda-viva
+Level: 1
+Icon:	icons/plant/ghianda-02.png
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.SEED
+MaterialPercentages:	MATERIAL.SEED	100%
+Sex:	SEX.FEMALE
+Name: Una [sienna]Ghianda[close] di [sienna]Farnia[close] 
+Short: una [sienna]ghianda[close]
+Descr:
+Una piccola [sienna]ghianda[close] 
+
+Value:	0
+Weight: 6g
+
+DescrTouch: 
+Una bella ghianda ovale allungata con la cupola piccina che vien via a guardarla. 
+DescrHearing:
+Quando la scuoti non produce alcun suono.
+DescrSixth:
+Se la si vuol seminare conviene prima lasciarla in acqua per un po'.
+
+Extras:
+  Keywords: ghianda
+  Descr: una ghianda di una qualche tipo di quercia.
+  DescrSixth: una ghianda di farnia
+End
+
+SeedType:
+    Sectors:	SECTOR.PLAIN SECTOR.HOUSE
+    RpgHours:	001
+    WorseEntity:	flora_item_farnia-03-germoglio
+    NormalEntity:	flora_item_farnia-03-germoglio
+    BetterEntity:	flora_item_farnia-03-germoglio
+    RemainingLife:	003
+End

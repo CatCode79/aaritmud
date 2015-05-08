@@ -1,0 +1,6 @@
+FunName:     command_unlock
+Type:        CMDTYPE.MOVEMENT
+Trust:       TRUST.PLAYER
+Position:    POSITION.REST
+Flags:       CMDFLAG.INTERACT CMDFLAG.GDR
+MiniHelp:    Serve per sbloccare, tramite chiave, porte e contenitori.

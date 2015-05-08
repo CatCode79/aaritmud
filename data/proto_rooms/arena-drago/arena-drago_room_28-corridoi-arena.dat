@@ -1,0 +1,66 @@
+Code:	arena-drago_room_28-corridoi-arena
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	I Corridoi Dell'Arena
+Short:	i corridoi dell'arena
+	Descr:
+Ti trovi in un lungo corridoio, sobrio e senza finestre,
+l'illuminazione è affidata ad una moltitudine di candelabri
+disposti ad una decina di passi l'uno dall'altro. il cunicolo
+prosegue ad est e ad ovest.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	64 0
+Exits:
+	Direction:	DIR.EAST
+	Descr:	i corridoi dell'arena
+	Comment:	ExitStatus	0 0 27729 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	una svolta
+	Comment:	ExitStatus	0 0 27733 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

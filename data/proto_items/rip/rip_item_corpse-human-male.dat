@@ -1,0 +1,31 @@
+Code:	rip_item_corpse-human-male
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CORPSE
+Sex:	SEX.MALE
+Race:	RACE.HUMAN
+MaterialPercentages:	MATERIAL.FLESH	100%
+Name:	Un Uomo Mort$O
+Short:	un maschio uman$O morto
+
+Long:	$N giace in una posizione innaturale
+
+Descr:
+#looker is RACE.HUMAN#Il cadavere di un uomo #Un cadavere di razza umana#, decisamente mort$O. Giace in posizione scomposta e con gli occhi chiusi. 
+
+DescrTouch:
+#looker is RACE.HUMAN#Un corpo di un uomo#Il cadavere di un umano#, rigidamente scomposto e definitivamente immoto.
+
+DescrSixth:
+Davvero poche le speranze di rivederl$O in piedi a conversare e spiegare che cosa sia accaduto.
+
+DescrSmell:
+#looker is RACE.HUMAN#Chissà poi perché ma pare che l'odore della morte non copra gli altri odori ed a sua volta non sia coperto da altri.#Odore di morte.#
+
+DescrTaste:
+#looker is RACE.HUMAN#Porti le labbra sul volto del cadavere per porgergli l'estremo saluto.#L$O azzanni per accertarti che sia davvero mort$O#
+
+Value:	0
+Weight:	70kg
+
+

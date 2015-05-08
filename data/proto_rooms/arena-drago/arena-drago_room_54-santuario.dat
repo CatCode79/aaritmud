@@ -1,0 +1,66 @@
+Code:	arena-drago_room_54-santuario
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il Santuario [gray]Nero[close]
+Short:	il santuario [gray]Nero[close]
+	Descr:
+Il buio più assoluto ti avvolge, la stanza sembra completamente
+vuota. Nonostante l'oscurità riesci a percepire nella tua mente
+l'enorme forma di un muso di drago completamente nero scolpito
+nella parete di fronte a te, ti fissa con occhi bianchi incutendo
+un inaudito terrore nel profondo della tua anima.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	1|64|1024|16777216|33554432 0
+Exits:
+	Direction:	DIR.EAST
+	Descr:	Porta
+	Comment:	ExitStatus	1 0 27752 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

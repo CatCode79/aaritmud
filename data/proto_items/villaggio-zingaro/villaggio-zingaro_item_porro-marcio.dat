@@ -1,0 +1,28 @@
+Code: villaggio-zingaro_item_porro-marcio
+
+Level: 1
+Entitype:	ENTITYPE.FOOD	
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLES	100%
+Name:
+Un Pezzo di Porro Marcio
+Short:
+un fondo di porro
+Long:
+$N sta marcendo qui.
+
+Descr:
+Un rimasuglio della parte finale di un porro con ancora le radichette attaccate in evidente stato di decomposizione.
+DescrTouch: 
+le foglie, un tempo aderenti le une alle altre, sono completamente afflosciate. 
+DescrTaste:
+Non è proprio il caso di assaggiarlo, a meno che non si voglia andare incontro a gravi problemi intestinali!
+DescrSmell:
+Quello che un tempo era il suo aroma caratteristico è ormai coperto dal puzzo di putridume e letame.
+
+Value:	0
+Weight: 10g
+
+
+
+

@@ -1,0 +1,12 @@
+Code: money
+
+ItalianKeywords: monete
+EnglishKeywords: money
+
+Entitype: HELP.INFO
+
+Text:
+Mostra quante monete stai trasportando.
+
+
+SeeAlso: bank

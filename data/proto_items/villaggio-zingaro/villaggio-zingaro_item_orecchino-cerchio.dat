@@ -1,0 +1,31 @@
+Code: villaggio-zingaro_item_orecchino-cerchio
+
+Level:	1
+Entitype: ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GOLD	100%
+Name:	Un Orecchino a Cerchio
+Short:	un orecchino a cerchio
+Long:	$N è posato qui.
+
+Descr:
+Un piccolo [goldenrod]orecchino[close] a cerchio, una delle due estremità è mobile e leggermente piegata per potersi inserire nell'altra.
+DescrTouch:
+Liscio e freddo metallo.
+DescrSixth:
+Intuisci che potrebbe essere d'oro, ma non ne sei cert$O.
+
+Value:	108
+Weight: 3g
+
+WearType:
+	Modes: PART.LEFT_EAR
+	EntityWearMessage:	Indossi $N centrando il buco al primo colpo.
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	$n indossa $N con sicurezza.
+	EntityRemoveMessage:	Sfili $N dal buco con cautela.
+	TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+	OthersRemoveMessage:	Toglie $N con cautela.
+End
+
+

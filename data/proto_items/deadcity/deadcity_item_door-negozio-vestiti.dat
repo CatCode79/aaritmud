@@ -1,0 +1,38 @@
+Code: deadcity_item_door-negozio-vestiti
+Level: 1
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.HARDWOOD	100%
+Name:	La Porta d'Ingresso
+Short:	una porta
+Long:	qualcosa o qualcuno ha scaraventato $N là in terra
+
+Descr:
+Una robusta porta in legno massiccio e di spessore ragguardevole. Potrebbe ammazzare
+qualcuno anche solo cadendogli addosso.
+DescrTouch: 
+Una robusta porta massiccia e di spessore ragguardevole. Potrebbe ammazzare qualcuno
+anche solo cadendogli addosso.
+
+
+Value:	0
+Weight: 120kg
+
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Apri $N usando ambo le $hands.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N usando ambo le $hands.
+	EntityCloseMessage:	Accompagni $N fino a chiuderla.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n accompagna $N fino a chiusura.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE
+	ResetCloseMessage: $N si chiude.
+	ResetOpenMessage: $N si apre.
+End
+
+

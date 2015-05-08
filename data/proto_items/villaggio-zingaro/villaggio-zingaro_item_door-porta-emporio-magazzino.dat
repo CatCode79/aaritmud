@@ -1,0 +1,36 @@
+Code: villaggio-zingaro_item_door-porta-emporio-magazzino
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.WOOD 86%	
+MaterialPercentages:	MATERIAL.GLASS 14%	
+Name:	La Porta del Magazzino
+Short:	la porta del magazzino
+Long:	$N finemente decorata.
+
+Descr:
+Una porticina assolutamente identica al quella dell'entrata ma in miniatura. Stessa forma, stesse [lavender]f[close][palegoldenrod]i[close][pink]n[close][aquamarine]e[close][powderblue]s[close][pink]t[close][palegoldenrod]r[close][lavender]e[close] in vetro colorato, anche le venature del legno ti sembrano le stesse ma forse è solo un'impressione.
+DescrTouch: 
+Una porta in legno ben levigata e decorata da pregevoli finestre in vetro.
+
+Value:	0
+Weight: 250kg
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Apri $N facendola cigolare appena.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N facendola cigolare appena.
+	EntityCloseMessage:	Chiudi $N con delicatezza.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n chiude $N con delicatezza.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE 
+	ResetCloseMessage: $N si chiude lentamente.
+	ResetOpenMessage: $N si apre.
+End
+
+

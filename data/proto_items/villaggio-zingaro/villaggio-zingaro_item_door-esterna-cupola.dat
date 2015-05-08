@@ -1,0 +1,48 @@
+Code: villaggio-zingaro_item_door-esterna-cupola
+Comment:	qui la porta non nasce locked e la chiave è in realtà usata tramite scritp. la porta non si apre se non si ha l'unguento.
+		Resta il problema che qualcuno potrebbe provare un lock ed unlock. Si potrebbe inibire via script oppure più semplicemente
+		togliere il keyCode (in questo caso c'è da modificare lo script).
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.THORN	100%
+Name:	I Rovi
+Short:	un groviglio di rovi
+Long:	$N dall'aspetto dissuasivo.
+KeywordsShort: rovi groviglio spine parete
+
+Descr:
+Un caotico groviglio di spine impenetrabili chiude quello che sembra essere un passaggio.
+DescrTouch: 
+Una miriade di spine si rizza improvvisamente come se volessero tenerti lontano.
+DescrSmell: 
+Come il resto della barriera emana un'ingombrante fragranza di agrume e resina.
+DescrSixth:
+Intuisci che entrare potrebbe essere più difficile del previsto.
+DescrHearing:
+Anche senza avvicinarti troppo avverti il lento contorcersi dei rami. 
+DescrTaste:
+A meno che non si desideri un buco alla lingua assaggiare questi rovi e sconsigliabile.
+
+Value:	0
+Weight: 10g
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Apri $N usando ambo le $hands.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N usando ambo le $hands.
+	EntityCloseMessage:	Accompagni $N fino a chiuderla.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n accompagna $N fino a chiusura.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE DOOR.SECRET DOOR.NO_USE_DIR
+        KeyCode:	villaggio-zingaro_item_unguento-01
+	ResetCloseMessage: $N si chiude.
+	ResetOpenMessage: $N si apre.
+End
+
+

@@ -1,0 +1,37 @@
+Code: elementi
+Creators:	Sulfrum
+Name: Elementi
+Short: elementi
+Descr:
+Zona d'intersezione con il mondo elementale, in pochi sanno dove si trova. Nessuno di quei pochi ci tornerebbe spontaneamente anche ammesso di riuscirvi.
+Color: COLOR.DODGERBLUE
+Level: 1
+LandfillCode:	elementi_room_lotta
+
+RepopTime: 15
+RoomResets:
+  ProtoRoom: elementi_room_lotta
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	mfdonald_item_anellino_ferro_01
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	mfdonald_item_anello_ematite_01
+	End
+	Destination:	0 0 0 elementi
+End
+
+
+
+RoomResets:
+  ProtoRoom: elementi_room_torre-accesso-area-west
+	Destination:	0 0 5 elementi
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	novizi_item_portale-accademia-drago
+	End
+End

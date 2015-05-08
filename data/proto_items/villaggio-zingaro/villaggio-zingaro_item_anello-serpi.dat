@@ -1,0 +1,38 @@
+Code: villaggio-zingaro_item_anello-serpi
+Level: 1
+MaxGlobalQuantity:      0
+Entitype: ENTITYPE.WEAR
+Sex:    SEX.MALE
+MaterialPercentages:	MATERIAL.GOLD 90%
+MaterialPercentages:	MATERIAL.EMERALD 10%
+Name:   Un [goldenrod]Anello Sanpa[close]
+Short:  un [goldenrod]anello[close] sinuoso
+Long:   $N è poggiato qui.
+
+Descr:
+Due serpenti dal corpo ricoperto di scaglie sporgenti si avvinghiano tra loro formando un [goldenrod]anello[close]. Le due teste con le bocche spalancate inglobano una [darkgreen]pietra[close] dal taglio raffinato.
+DescrTouch: 
+Con un dito segui il sinuoso corpo dei due serpenti.
+DescrSixth: 
+Per un attimo rimani ipnotizzato seguendo il percorso tracciato dai corpi dei rettili.
+
+Value:	498
+Weight: 15g
+
+MaxLife:        100
+Life:           100
+MaxMana:        100
+Mana:           100
+MaxVigour:      100
+Vigour:         100
+        
+WearType:
+        Modes: PART.RIGHT_RING_FINGER
+        EntityWearMessage:      I due serpenti di $N si avvolgono attorno ad %part non appena lo infili.
+        TargetWearMessage:      Attento $N, $n ti ha indossato %part.
+        OthersWearMessage:      $n infila $N con inaudito agio.
+        EntityRemoveMessage:    Dopo lungo armeggiare le serpi si convincono ad allentare la presa e lasciarsi sfilare.
+        TargetRemoveMessage:    Attento $N, $n ti ha tolto %part.
+        OthersRemoveMessage:    $n si esibisce in un goffo balletto tentando di togliersi $N.
+End
+

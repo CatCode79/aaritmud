@@ -1,0 +1,40 @@
+Code: citta-raminghe_room_biblioteca
+Sector: SECTOR.CITY
+Name: La Torre Libraria delle Raminghe
+Short: una [red]biblioteca[close]
+
+Descr:
+Sei giunto al cuore pulsante del sapere.  Una [yellow]torre libraria[close] che con la sua imponenza ti toglie il respiro.
+Questa è la sala più grande, quella che ti accoglie dopo il lungo viaggio. Le pareti ricoperte per intero da infinite
+librerie  di legno scuro contengono migliaia di volumi. Numerose scalette a [deeppink]chiocciola[close] consentono di accedere ai ripiani più alti senza difficoltà.
+DescrSmell:
+Avverti odore di inchiostro e pergamena.
+DescrSixth:
+Il cuore pulsante del sapere, il luogo che abita la fantasia di molti avventurieri e viaggiatori di passaggio.
+Una torre che nella sua spirale fatta di libri ti avvolge come in un vortice di desiderio di conoscenza.
+Il meraviglioso e l'inconsueto, il piacevole  e l'orrifico, lo straordinario e l'appassionante qui trovano,
+attraverso le parole scritte  su carta, un luogo in cui potere sostare.
+Questa è la stanza più grande, quella che accoglie lo stupore di chi giunge sin qui
+dopo un lungo viaggio per poterne iniziare uno nuovo verso luoghi in cui lo spazio e il tempo sono sospesi in una dimensione infinitamente circolare.
+DescrHearing:
+Percepisci il battito del tuo cuore.
+
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+        Direction: DIR.WEST
+        Descr: accademia
+End
+
+Exits:
+        Direction: DIR.DOWN
+        Descr: in biblioteca
+	Destination:	1 -1 0 citta-raminghe-maze
+End
+Exits:
+        Direction: DIR.UP
+        Descr: in biblioteca
+End

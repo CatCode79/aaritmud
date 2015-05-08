@@ -1,0 +1,36 @@
+Code: commands
+
+ItalianKeywords: comandi
+EnglishKeywords: commands
+
+Entitype: HELP.GENERIC
+
+Text:
+Il comando $tcommands mostra una lista di tutti i comandi (non sociali) che 
+hai a disposizione.
+Se scrivi $tcommands [darkgreen]italiano[close] vedrai i comandi in italiano.
+Se scrivi $tcommands [darkgreen]inglese[close] vedrai i comandi in inglese.
+Se scrivi $tcommands [darkgreen]traduzione[close] vedrai il set di comandi che stai
+utilizzando seguito dalla rispettiva traduzione nell'altro set di lingua.
+Se scrivi $tcommands [darkgreen]tipi[close] vedrai i comandi divisi per tipologia.
+Se dopo $tcommands scrivi un qualsiasi comando che cerchi, vedrai tutti i 
+comandi disponibili che iniziano con quella parola.
+
+Puoi anche aggiungere in fondo l'opzione [darkgreen]minihelp[close] per avere una piccola
+spiegazione di cosa fanno i vari comandi.
+Ad esempio:
+$tcommands [darkgreen]italiano[close] [darkgreen]minihelp[close]
+
+Il comando $tconfig ti permette di utilizzare uno dei due set di lingua con
+cui si possono inviare i comandi.
+Per impostare i comandi in italiano:
+$tconfig [darkgreen]+ italiano[close]
+Per impostare invece i comandi in inglese:
+$tconfig [darkgreen]+ inglese[close]
+
+Se vuoi inviare sia con un set che con un altro allora bisogna attivare
+l'opzione di config &Wdoppialingua[close]:
+$tconfig [darkgreen]+ doppialingua[close]
+
+
+SeeAlso: socials skills

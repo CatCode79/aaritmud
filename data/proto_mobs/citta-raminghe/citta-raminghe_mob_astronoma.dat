@@ -1,0 +1,101 @@
+Comment:
+[red]Betelgeuse[close] viveva in una città ricca e fiorente abitata da uomini e donne di indole pacifica. Un giorno venne 
+assalita da un esercito di [brown]orchi[close], [purple]nani[close], [green]thepa[close] e [darkslategray]drow[close] 
+che distrussero buona parte della città e fecero prigionieri numerosi abitanti.
+[red]Betelgeuse[close] era una giovane ragazza che studiava all'[yellow]Accademia dei Saperi Universali[close] e aveva mostrato buone doti di intuizione e osservazione. Studiava il moto degli astri e osservava le stelle per comprendere le 
+leggi che regolano i loro meccanismi. Venne rapita dagli [brown]orchi[close] e costretta a vivere come schiava presso 
+la loro comunità. Ma era dotata di una grande determinazione e dopo qualche tempo riuscì a fuggire anche grazie all'aiuto di Elfi e Frijen che la ospitarono sino a che divenne forte abbastanza per riprendere il cammino alla ricerca di un luogo che potesse accoglierla per sempre.
+Raminga girò a lungo prima di giungere qui dove fu attratta dalla grande [yellow]Torre per guardare le Stelle[close]. E divenne la sua casa.
+
+Level:	1
+MaxGlobalQuantity:	1
+Code:	citta-raminghe_mob_astronoma
+Sex:	SEX.FEMALE
+Race:	RACE.HUMAN
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Betelgeuse l'Astronoma
+Short:	l'astronoma
+Long:	Di giorno $N consulta i libri delle stelle e dei pianeti.
+LongNight: Di notte $N osserva il cielo.
+
+Descr:
+Una figura fiera e longilinea. Indossa una [red]tunica[close] color rosso intenso che mette in risalto la sua
+lunga capigliatura corvina. Gli [darkgreen]occhi[close] sono di un verde profondo con riflessi scintillanti come 
+[yellow]stelle[close]. Indossa un [darkred]anello[close] con una pietra color rubino dalla forma lunare.
+Dall'espressione del volto traspare [darkorchid]determinazione[close] e [deeppink]dolcezza[close] nel medesimo tempo.
+Ti guarda come in attesa di un gesto di cortesia... forse un inchino.
+DescrTouch:
+Ti avvicini pensando di poter sfiorare [red]Betelgeuse[close], ma...
+
+DescrSmell:
+Emana un profumo di [lime]anice stellato[close] che si diffonde tutto intorno.
+
+DescrSixth:
+Ha il nome di un'antica astronoma leggendaria la cui anima si pensa vaghi ancora in questi luoghi durante la notte. 
+È la custode della [yellow]Torre per Guardare le Stelle[close] e dei [mediumblue]segreti del cielo[close]. Distingue ogni 
+elemento della volta celeste. Esige rispetto e cortesia. Solo così soddisferà la curiosità di chi desidera sapere come brilla una stella o come si muove la Luna.
+Potrebbe raccontarti miti e leggende o la [red]storia[close] della sua vita...
+ 
+DescrHearing:
+Ti sembra di udire una voce calda e intensamente armoniosa assieme a già quel poco che mi pare già ci sia.
+
+DescrTaste:
+Un gesto troppo intimo che non ti è consentito...
+
+
+Weight: 49kg
+Height: 168cm
+
+
+
+BirthDay: 10
+BirthMonth: MONTH.EIGHT
+Age: 38
+
+
+Behaviour:
+     LookPlayer:	5
+     LookMob:	10
+     LookItem:	10
+     LookAtRacesFlags:	RACE.NONE   
+     LookAtRaces:	0
+     LookAtEntitypesFlags:	ENTITYPE.NONE
+     LookAtEntitypes:	0
+     LookSelf:	10
+     LookDirection:	10
+     LookExit:	10
+     LookWall:	0
+     LookClosedDoor: 10
+     LookExtra:	0
+     WanderDirection:	0
+     WanderExit:	0
+     WanderWall:	0
+     WanderClosedDoor:	0
+     WanderAtExitsFlags:	DIR.NONE
+     WanderAtExits:	0
+     WanderArea:	0
+     WanderPortal:	0
+     WanderEnterContainer:	0
+     WanderExitContainer:	0
+     WanderSelf:	0
+     RandomDo:	30
+     RandomDoInputs:	emote si guarda intorno cercando in giro qualcosa di buono, forse un dolce speziato!
+     RandomDoInputs:	emote ha sul volto l'espressione di chi vuol fare qualcosa di speciale.
+End
+
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

@@ -1,0 +1,5 @@
+FunName:    command_who
+Type:       CMDTYPE.INFORMATION
+Trust:      TRUST.PLAYER
+Position:   POSITION.DEAD
+MiniHelp:   Visualizza una lista dei giocatori nel Mud

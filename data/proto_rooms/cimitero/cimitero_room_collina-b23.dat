@@ -1,0 +1,50 @@
+Comment: qui ci va un portale per la stanza ove sarebbe riposto il cofanetto.
+
+Code: cimitero_room_collina-b23
+Sector: SECTOR.HILL
+Name: Il Segno della Fine
+Short: la zona dell'altare
+
+Descr:
+Verso il centro della piattaforma semicircolare dove sei, si trovano centinaia di scalini
+che scendono all'interno di una specie di vasca larga e schiacciata. Al centro una
+visione al limite del soprannaturale: Un qualcosa di grosso e certamente vegetale è
+proteso verso quel che resta di un altare come se volesse divorarlo. Tronco, foglie e
+radici sono mescolati in una statica forma innaturale.
+DescrSmell: 
+La zona collinare è avvolta dagli abbracci languidi dell'odore di spezie e decomposizione.
+Per alcuni tratti si coglie però una scia che rimane la stessa per un certo tratto.
+DescrHearing:
+Il sibilo del vento produce un lugubre suono cupo sostenuto negli effetti lungo le
+lapidi frastagliate.
+
+Extras:
+	Keywords: scia
+	DescrSmell:
+	Lungo il tratto di sentiero che hai appena seguito l'odore più significativo è stato quello di #SMELL.
+End
+
+Extras:
+	Keywords: simboli
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+Width:	6m
+Depth:	6m
+Height: 113m
+
+Exits:
+	Direction: DIR.SOUTH
+	Descr: Lungo il vecchio colonnato
+End

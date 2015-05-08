@@ -1,0 +1,38 @@
+Comment: STRUMENTO.CORDOFONO.STROFINATO
+    - 16/20 tasti spostabili per eseguire tutti i raga--> melodie.
+    - Una ventina di corde 3 si usano per la melodia le altre per l'accompagnamento.
+    - cassa armonica realizzata con una mezza zucca svuotata con coperchio di legno di teak o mogano
+ 
+Code: mfdonald_item_strumenti-sitar
+Level: 1
+Entitype:	ENTITYPE.INSTRUMENT
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.WOOD	80%
+MaterialPercentages:	MATERIAL.BONE	12%
+MaterialPercentages:	MATERIAL.HAIR	8%
+Icon:	icons/instrument/sitar.png
+Name:	Un Sitar di Media Fattura 
+Short:	uno slanciato sitar
+Long:	$N è sistemato sul suo supporto  
+
+Descr:
+Un alto strumento a corde con un'ampia gobba oblunga. Una ventina di tasti ricurvi sono
+allineati sul lato sinistro del manico ed altrettante corde lo percorrono per tutta la lunghezza.
+DescrTouch:
+Lo scorrere placido delle tue dita sulla cassa armonica dello strumento è disturbato di quando in quando da sottili asperità.
+DescrHearing:
+Imbracci lo strumento e pizzichi le corde cavandone note sbilenche.
+
+Value:	0
+Weight: 1000g
+
+Extras:
+	Keywords: gobba oblunga
+	Descr:
+	Osservendola bene ti accorgi che la forma non è del tutto regolare e che nonostante
+	sia stata legivata la superficie presenta ancora qualche imperfezione.
+	DescrSixth:
+	Ti sembra la pancia di una zucca scavata.    
+End
+
+

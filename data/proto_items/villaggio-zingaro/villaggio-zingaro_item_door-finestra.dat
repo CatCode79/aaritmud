@@ -1,0 +1,38 @@
+Code: villaggio-zingaro_item_door-finestra
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.FEMALE
+Flags:	FLAG.NO_GET
+MaterialPercentages:	MATERIAL.GLASS 75%	
+MaterialPercentages:	MATERIAL.WOOD 25%	
+Name:	Una Finestrella Quadrata
+Short:	una finestrella
+Long:	$N uscita dagli infissi.
+KeywordsShort:	finestrella finestra
+
+Descr:
+La finestrella doveva essere estremamente graziosa un tempo.
+DescrTouch: 
+Una finetrella che sarebbe stata anche carina se non fosse vecchia e tutta scrostata.
+DescrSixth:
+Mostra evidenti segni d'effrazione, forse... non proprio evidenti, solo appena accennati.
+
+Value:	0
+Weight: 1281g
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Apri $N usando ambo le $hands.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N usando ambo le $hands.
+	EntityCloseMessage:	Accompagni $N fino a chiuderla.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n accompagna $N fino a chiusura.
+	DestinationOpenMessage:	$N viene apert$O dal lato opposto.
+	DestinationCloseMessage:	$N viene chius$O dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.SECRET DOOR.CLOSABLE
+	ResetCloseMessage:	$N si chiude.
+	ResetOpenMessage:	$N si apre.
+End

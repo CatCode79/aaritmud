@@ -1,0 +1,28 @@
+Code:	arena-drago_room_09-strada-rialzata
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	La Strada Rialzata
+Short:	la strada rialzata
+	Descr:
+La strada rialzata continua, ti trovi nelle vicinanze dell'arena
+dei cavalieri, ad nord vedi chiaramente il grande arco che entra
+nella struttura. Da qui la osservi come qualcosa di veramente
+mastodontico, un'enorme cerchia di mura a forma ovoidale che
+racchiude i campi di addestramento dei cavalieri.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 1
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	Un imponente arcata
+	Comment:	ExitStatus	0 0 27710 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	Strada e ancora strada
+	Comment:	ExitStatus	0 0 27708 -1
+End

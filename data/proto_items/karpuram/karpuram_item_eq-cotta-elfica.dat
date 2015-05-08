@@ -1,0 +1,47 @@
+Code:	karpuram_item_eq-cotta-elfica
+
+Level:	2
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.IRON	40
+MaterialPercentages:	MATERIAL.SILVER	15
+MaterialPercentages:	MATERIAL.CLOTH	40
+MaterialPercentages:	MATERIAL.MITHRIL	5
+Sex:	SEX.MALE
+Name:	La Cotta Elfica di Karpuram
+Short:	una splendida cotta di maglia
+Long:	$N riluce qui in terra.
+
+Descr:
+Le trame sono rifinite e sottili, unite tra loro come facenti parte di un 
+unico pezzo. La cotta pur essendo completa di cappuccio e maniche risulta molto
+leggera e aggiunge destrezza a chi la indossa. Il livello di protezione contro
+armi a punta o da lancio è elevato. Le maglie sono disposte a strati alternati
+e si congiungono alla fila successiva tramite piccoli ganci d'oro bianco.
+Sulla parte frontale si riesce a distinguere l'immagine di una freccia, il 
+simbolo è stato composto durante la creazione della cotta e si distingue 
+unicamente in controluce.
+
+DescrHearing:
+Avvicinando l'orecchio all'oggetto si ha la sensazione di stare ascoltando
+una lieve cantilena, muovendosi con la cotta indossata questo suono a tratti
+aumenta d'intensità.
+
+DescrTouch:
+La cotta è sottile ma priva di imperfezioni, sembra come se si stesse toccando
+morbida seta e non un'armatura di protezione.
+
+DescrSixth: 
+Hai l'impressione che questa cotta sia stata creata appositamente per qualcuno
+d'importante e siano state utilizzate formule magiche oltre che argento e oro
+per renderla unica.
+
+
+Value:	0
+Weight:	500g
+
+WearType:
+   Modes: PART.BODY
+End
+
+

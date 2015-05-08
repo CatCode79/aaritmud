@@ -1,0 +1,30 @@
+Code:	rip_item_corpse-dwarf-male
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CORPSE
+Sex:	SEX.MALE
+Race:	RACE.DWARF
+MaterialPercentages:	MATERIAL.FLESH	100%
+Name:	Un tuo Simile Morto
+Short:	un nan$O mort$O
+Long:	$N riposa qui definitivamente 
+
+Descr:
+I resti mortali e corruttibili di #looker is RACE.DWARF#un tuo simile.#un appartenente alla razza dei nani.#
+
+DescrTouch:
+Il cadavere di #looker is RACE.DWARF#un tuo simile che cerchi di comporre in posizione più gloriosa.#un barbut$O nano$O, privo della gemma dell'anima immortale, risponde mollemente al tuo tocco.#
+
+DescrSixth:
+#looker is RACE.DWARF#Il bagliore del puro cristallo che vi risiedeva s'è alfine spento.#La morte s'è portata via qualcosa di più che il suo respiro di vita.#
+
+DescrSmell:
+#looker is RACE.DWARF#Chissà poi perché ma pare che l'odore della morte non copra gli altri odori ed a sua volta non sia coperto da altri.#Odore di morte.#
+
+DescrTaste:
+#looker is RACE.DWARF#Porti le labbra sul volto del cadavere per porgergli l'estremo saluto.#L$O azzanni per accertarti che sia davvero mort$O#
+
+Value:	0
+Weight:	99kg
+
+

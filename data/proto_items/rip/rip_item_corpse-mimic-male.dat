@@ -1,0 +1,29 @@
+Code:	rip_item_corpse-mimic-male
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CORPSE
+Sex:	SEX.MALE
+Race:	RACE.MIMIC
+MaterialPercentages:	MATERIAL.FLESH	100%
+Name:	Un tuo Simile Mort$O 
+Short:	un mimic mort$O
+Long:	$N afflosciato qui definitivamente 
+
+Descr:
+I resti mortali e corruttibili di #looker is RACE.MIMIC#un tuo simile.#un appartenente alla razza mimic.#
+
+DescrTouch:
+Il cadavere di #looker is RACE.MIMIC#un tuo simile muta colore e forma ogni volta che viene toccato.#
+
+DescrSixth:
+#looker is RACE.MIMIC#Non riesci a comprendere il tipo di conformazione fisica di questo cadavere,
+sta ancora mutando.#
+
+DescrSmell:
+#looker is RACE.MIMIC#Non riesci a percepire nessun odore in particolare, forse ne percepisci anche troppi.#
+
+DescrTaste:
+#looker is RACE.MIMIC#Mille sapori di diversa natura ti confondono.#
+
+Value:	0
+Weight:	55kg

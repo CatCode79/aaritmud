@@ -1,0 +1,25 @@
+Code: novizi_item_portale-accademia-drago-ritorno
+Level: 1
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.UNKNOWN	100
+Sex:	SEX.FEMALE
+Flags:	FLAG.NO_GET
+Name:	Il Portale del ritorno
+Short:	un portale mistico
+Long:	$N splende di luce [white]bianca[close]
+
+Descr:
+Uno splendido portale di pura luce oscilla e splende maestoso
+
+DescrSixth:
+Percepisci distintamente d'essere davanti ad un portale per altri lidi.
+
+Value:	0
+Weight: 10g
+
+
+PortalType:
+	TargetCode:	novizi_item_portale-accademia-drago
+End
+
+

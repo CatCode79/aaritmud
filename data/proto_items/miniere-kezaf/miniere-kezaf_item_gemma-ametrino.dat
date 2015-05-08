@@ -1,0 +1,20 @@
+Code: miniere-kezaf_item_gemma-ametrino
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_ametrine.png
+Name:	Un'Ametrino Levigato
+Short:	una pietra color rosa e arancio
+Long:	$N sta qui.
+
+Descr:
+Un'ametrino grezzo, si nota questo particolare per la sua forma
+irregolare e per i due colori simmetrici che la caratterizzano: un rosa spento
+nella parte superiore e un giallo misto all'arancio in quella inferiore.
+
+Value:	0
+Weight: 380g
+
+

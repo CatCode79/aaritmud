@@ -1,0 +1,22 @@
+Comment: 
+Lo splendido colore azzurro, dovuto al rame, ne ha fatto una pietra sacra. 
+Il suo colore è azzurro cielo, non è molto dura e si può lavorare con facilità 
+producendone una pasta con la quale si possono realizzare diverse lavorazioni, 
+si abbina molto bene con l'argento.
+
+Code: miniere-kezaf_item_gemma-turchese
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_turquoise.png
+Name:	Un Turchese Grezzo
+Short:	una gemma turchese
+Long:	$N sta qui
+
+Descr:
+Una goccia di cielo pare sia caduta nella roccia... e dalla roccia sta cercando di uscire forse per recuperare il tempo perduto ad assurgere di nuovo al suo azzurro rango.
+
+Value:	0
+Weight: 210g

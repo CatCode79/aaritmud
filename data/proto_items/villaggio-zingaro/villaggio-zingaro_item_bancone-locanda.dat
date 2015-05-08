@@ -1,0 +1,50 @@
+Code: villaggio-zingaro_item_bancone-locanda
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Flags: FLAG.NO_LOOK_LIST FLAG.NO_GET	
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.HARDWOOD 100%
+Name:	Il Bancone della Locanda
+Short:	un ingombrante bancone
+Long:	$N è qui
+
+Descr:
+Un poderoso bancone in legno è coperto sulla parte superiore da una lastra di granito grigio. Frontalmente riporta dei ricercati intarsi raffiguranti uccelli e ceste di melograni parzialmente coperti da un [darkred]menù[close]. 
+DescrTouch: 
+Sfiori con la punta delle dita il gelido granito.
+DescrSixth:
+Dà l'idea di essere l'oggetto più pregiato della stanza e che la locanda sia gli sia stata costruita intorno.
+
+Value:	0
+Weight: 230kg
+
+Extras:
+	Keywords: menù
+	Descr:
+<pre class:"asciiart">
+[darkred]      _
+|\/| |_ |\ | | |`
+|  | |_ | \| |_|[close]
+</pre>
+- POLPETTINE DI CARNE IN UMIDO
+- FILETTO ALLA GRIGLIA
+- ZUPPA BIANCA
+- SFORMATO DI PATATE E VERZE
+- BUDINO ALL'UVETTA 
+
+I prodotti sono stati gentilmente offerti dalla cooperativa "L'orto".
+
+End
+
+ContainerType:
+        MaxWeight: 10kg
+End
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100
+

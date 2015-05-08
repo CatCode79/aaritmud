@@ -1,0 +1,20 @@
+Code:	serpidi_item_scarpecracsoide_36
+Level:	1
+Entitype: ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.LEATHER	100%
+Name:	Scarpe di Cracsoide 
+Short:	delle scarpe di cracsoide 
+Descr: 
+Sono un paio di scarpe unte senza lacci ma non sono mocassini.  
+Value:	0
+Weight: 76kg
+BirthDay: 1
+BirthMonth: MONTH.TEN
+WearType:
+        Modes: PART.LEFT_FOOT
+        Modes: PART.RIGHT_FOOT
+End
+
+
+
+

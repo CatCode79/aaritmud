@@ -1,0 +1,60 @@
+Code: villaggio-zingaro_item_cadavere-grotta
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CORPSE
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+MaterialPercentages:	MATERIAL.MEAT 100%
+Name:	Un Cadavere
+Short:	un qualche essere
+Long:	$N ha lasciato qui le sue membra.
+
+Descr:
+Un bipede dall'aria mascolina deve aver spirato qui non troppo tempo fa. La maggior parte della carne è ancora sulle ossa che sono disposte in maniera innaturale; i pochi [darkseagreen]vestiti[close] che gli sono rimasti indosso sono ridotti così male che non varrebbe nemmeno la pena trafugarli.
+DescrTouch: 
+Gli dai qualche colpetto con un piede per essere del tutto sicuro che sia morto.
+DescrSmell: 
+Puzza proprio di morto, ma che schifo!
+DescrSixth:
+Ti chiedi quale sia la causa della morte, sperando che non colpisca anche te.
+DescrHearing:
+Hai l'impressione di udire grasse larve cibarsi dei resti.
+DescrTaste:
+Decidi di non rubare del cibo alle larve.
+
+Value:	0
+Weight: 90kg
+
+Extras:
+	Keywords: vestiti
+	Descr:
+	Osservando meglio ti accorgi che da una tasca dei pantaloni spunta un bigliettino.
+End
+
+Extras:
+	Keywords: biglietto bigliettino
+	Descr:
+	Un bigliettino spiegazzato su cui leggi:
+	[red]A[close] [gold]rit[close]: Imm   nat on fr   t e Other S  e
+	ww . a it.o g
+	DescrSixth:
+	Mmmmmm qualcosa ti dice sia un builder che ha fatto un brutta fine. 	
+End
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100
+
+ContainerType:
+	EntityOpenMessage:	Apri $N usando ambo le $hands.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N usando ambo le $hands.
+	EntityCloseMessage:	Accompagni $N fino a chiuderla.
+	TargetCloseMessage:	Finalmente $n si è degnat$o di chiuderti.
+	OthersCloseMessage:	$n accompagna $N fino a chiusura.
+	Flags:	 CONTAINER.SECRET
+	MaxWeight:	10kg
+End

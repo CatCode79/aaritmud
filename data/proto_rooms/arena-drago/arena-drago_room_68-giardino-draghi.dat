@@ -1,0 +1,66 @@
+Code:	arena-drago_room_68-giardino-draghi
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il Giardino dei Draghi
+Short:	il giardino dei draghi
+	Descr:
+Sei impietrito, la mascella ti ricade senza forza, davanti ai
+tuoi occhi si apre un luogo che credevi fosse solo leggenda. Una
+caverna di dimensioni mastodontiche ti si para dinnanzi in tutto
+il suo splendore, qui, parecchi metri sotto la montagna, un
+enorme giardino. Alberi, erba, ruscelli, quando alzi la testa ti
+accorgi che persino la volta celeste è stata ricreata in questo
+luogo. L'unica indicazione del fatto che ti trovi ancora sotto
+terra sono alcune alcove che si aprono qua e la nelle pareti
+lontane di questa caverna che sarebbe probabilmente in grado di
+contenere un'intera città. 
+A nord il giardino prosegue fino ad un obelisco bianco, un
+rumore proveniente da una grossa apertura ad ovest attira la 
+tua attenzione, forse è meglio non indagare oltre...
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	1|64 0
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	[white]L'obelisco[close]
+	Comment:	ExitStatus	0 0 27770 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	un cunicolo
+	Comment:	ExitStatus	0 0 27767 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	la tana
+	Comment:	ExitStatus	0 0 27769 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

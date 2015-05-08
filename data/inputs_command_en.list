@@ -1,0 +1,193 @@
+#- Direzioni ---------------
+  command_north           north
+  command_northeast       northeast
+= command_northeast       ne
+  command_northwest       northwest
+= command_northwest       nw
+  command_east            east
+  command_south           south
+  command_southeast       southeast
+= command_southeast       se
+  command_southwest       southwest
+= command_southwest       sw
+  command_west            west
+  command_up              up
+  command_down            down
+
+#- A ---------------
+  command_attack          attack
+  command_afk             afk
+  command_ask             ask asks
+  command_areas           areas area
+  command_aliases         aliases alias
+
+#- B ---------------
+  command_buy             buy
+  command_destroy         break
+  command_bolt            bolt
+  command_bug             bug
+
+#- C ---------------
+  command_chat            chat
+= command_date            calendar
+  command_commands        commands
+  command_comment         comment comments
+  command_close           close
+  command_colors          color colors
+
+#- D ---------------
+  command_drop            drop
+  command_date            date
+  command_dig             dig digs
+  command_disclose        disclose
+  command_devours         devours devour
+= command_destroy         destroy
+
+#- E ---------------
+  command_emote           emote
+  command_equipment       equipment
+  command_eat             eat
+  command_enter           enter
+  command_examine         examine examines examination
+  command_exclaim         exclaim exclaims exclamation
+
+#- F ---------------
+  command_flee            flee
+  command_follow          follow following
+
+#- G ---------------
+  command_get             get
+  command_give            give
+#  command_gtell          gtell
+
+#- H ---------------
+  command_help            help
+  command_hold            hold
+
+#- I ---------------
+  command_inventory       inventory
+  command_intuition       intuition
+  command_idea            idea
+
+#- L ---------------
+  command_look            look
+  command_listen          listen
+  command_list            list
+  command_lock            lock
+
+#- K ---------------
+  command_kill            kill
+  command_knee            knee
+
+#- M ---------------
+  command_murmur          murmur
+  command_money           money moneys
+
+#- N ---------------
+
+#- O ---------------
+  command_open            open
+  command_offer           offer
+
+#- P ---------------
+  command_put             put
+  command_punch           punch
+  command_plant           plant
+
+#- Q ---------------
+  command_quit            quit
+
+#- R ---------------
+  command_rest            rest
+  command_read            read
+  command_remove          remove
+
+#- S ---------------
+  command_say             say
+  command_stand           stand
+  command_spare           spare
+  command_shout           shout
+  command_shut            shut
+  command_score           score
+  command_sell            sell
+  command_seed            seed
+  command_sit             sit
+  command_sing            sing
+  command_skills          skills
+  command_sleep           sleep
+  command_socials         socials
+  command_speak           speak
+  command_smell           smell
+  command_swallow         swallow
+
+#- T ---------------
+  command_taste           taste
+= command_get             take
+  command_talents         talents talent
+  command_tell            tell
+  command_title           title
+  command_touch           touch
+  command_typo            typo
+
+#- U ---------------
+  command_unlock          unlock
+  command_unbolt          unbolt
+  command_use             use
+= command_dig             unearth
+
+#- V ---------------
+= command_remove          undress
+
+#- W ---------------
+  command_wear            wear
+  command_whisper         whisper
+  command_wield           wield
+  command_who             who
+  command_wake            wake
+
+#- X ---------------
+
+#- Y ---------------
+  command_yell            yell
+
+#- Z ---------------
+
+
+#- Input Amministratori -
+  command_addexit         addexit
+  command_admtalk         admtalk admintalk
+  command_coords          coords
+  command_countraces      countraces
+  command_delexit         delexit
+  command_create          create
+  command_countflags      countflags
+  command_extract         extract
+  command_force           force
+  command_goto            goto
+  command_icreate         icreate
+  command_igoto           igoto
+  command_iinvoke         iinvoke
+  command_incognito       incognito
+  command_links           links
+  command_loop            loop
+  command_mcreate         mcreate
+  command_mgoto           mgoto
+  command_minvoke         minvoke
+= command_icreate         ocreate
+= command_igoto           ogoto
+= command_iinvoke         oinvoke
+  command_invoke          invoke
+  command_refresh         refresh
+  command_repaint         repaint
+  command_restore         restore
+  command_restring        restring
+  command_rcreate         rcreate
+  command_rgoto           rgoto
+  command_rinvoke         rinvoke
+  command_setrace         setrace
+  command_slay            slay
+  command_snoop           snoop
+  command_snoopers        snoopers
+  command_timemachine     timemachine
+  command_usedexits       usedexits
+  command_usedrooms       usedrooms

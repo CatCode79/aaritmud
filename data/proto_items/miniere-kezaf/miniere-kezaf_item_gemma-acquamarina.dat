@@ -1,0 +1,27 @@
+Code: miniere-kezaf_item_gemma-acquamarina
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_aquamarine.png
+Name:	Un'Acquamarina Grezza
+Short:	una pietra azzurra
+Long:	$N affiora dal terreno.
+
+Descr:
+Un pezzo di roccia dalla imprecisa forma di mano spunta dal terreno, vi sono
+quattro cilindri che sporgono da un basamento più largo e levigato. Ognuna di 
+queste forme è sfalsata rispetto alle altre e si distingue per lunghezza e
+diametro, risultano considerevolmente piccole rispetto alla base, ma decisamente
+più brillanti, emettendo una caratteristica [azure]luce[close] azzurra.
+
+DescrTouch: 
+Le quattro protuberanze della pietra sono particolarmente grezze e presentano
+striature venose che si protendono verticalmente dalla punta verso la base della
+pietra che risulta leggermente levigata.
+
+Value:	0
+Weight: 210g
+
+

@@ -1,0 +1,37 @@
+Code: flora_item_leccio-01-ghianda-viva
+Level: 1
+Icon:	icons/plant/ghianda-01.png
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.SEED
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.SEED	100%
+Name: Una [maroon]Ghianda[close] di [maroon]Leccio[close] 
+Short: una [maroon]ghianda[close]
+
+Descr:
+Una piccola [maroon]ghianda[close] 
+DescrTouch: 
+Una bella ghianda di colore castano rigida e forte, non sembra bacata. Ha la  cupola ancora attaccata che la imbriglia fin quasi la metà.
+DescrHearing:
+Quando la scuoti non fa alcun suono
+DescrSixth:
+Se la si vuol seminare conviene prima lasciarla in acqua per un po'.
+
+Value:	0
+Weight: 6g
+
+Extras:
+  Keywords: ghianda
+  Descr: una ghianda di una qualche tipo di quercia.
+  DescrSixth: una ghianda di leccio
+End
+
+SeedType:
+    Sectors:	SECTOR.PLAIN SECTOR.HOUSE
+    RpgHours:	170
+    WorseEntity:	flora_item_leccio-03-germoglio
+    NormalEntity:	flora_item_leccio-03-germoglio
+    BetterEntity:	flora_item_leccio-03-germoglio
+End
+
+

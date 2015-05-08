@@ -1,0 +1,5 @@
+FunName:    command_create
+Type:       CMDTYPE.ADMIN
+Trust:      TRUST.MASTER
+Position:   POSITION.DEAD
+MiniHelp:   Serve a creare un mob-clone di un personaggio giocante.

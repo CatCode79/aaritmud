@@ -1,0 +1,14 @@
+Code: stand
+
+ItalianKeywords: alzati 
+EnglishKeywords: stand 
+
+Entitype: HELP.MOVEMENT
+
+Text:
+Dopo che avrai riposato usa il comando $tstand per alzarti in piedi, oppure usa
+il comando $twake per svegliarti dopo una bella dormita.
+Con il comando $twake puoi anche svegliare altri giocatori o mob che stanno 
+dormendo.
+
+SeeAlso: wake sleep rest sit knee

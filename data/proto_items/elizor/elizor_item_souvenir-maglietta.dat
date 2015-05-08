@@ -1,0 +1,41 @@
+Code: elizor_item_souvenir-maglietta
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.CLOTH	100%
+Name:	souvenir-maglietta levigato
+Short:	souvenir-maglietta
+Long:	$N è qui
+
+Descr:
+Un
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Value:	0
+Weight: 10g
+
+Extras:
+	Keywords: chiave
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End

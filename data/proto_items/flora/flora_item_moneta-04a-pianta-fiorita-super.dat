@@ -1,0 +1,34 @@
+Code: flora_item_moneta-04a-pianta-fiorita-super
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name:	Una [goldenrod]Pianta[close] di [goldenrod]Monete[close] Fiorita
+Short:	una [goldenrod]pianta[close] tutta fiorita
+Long:	$N verdeggia qui.
+
+Descr:
+Una slanciata [goldenrod]pianta[close] con un robusto fusto ed una rigogliosa chioma di forma sferica; 
+le [goldenrod]foglie metalliche[close] sono intramezzate da una miriade di [lightgray]fiorellini argentati[close]. 
+DescrTouch: 
+Nonostante l'apparente fragilità ti puoi appoggiare al freddo fusto senza rischiare di sradicare la pianta.
+DescrSixth:
+Attendi con impazienza di vederne i frutti..
+DescrHearing:
+Le foglie toccandosi l'una con l'altra producono un piacevole armonia metallica.
+
+Value:	1000
+Weight: 30kg
+
+PlantType:
+    RpgHours:	003
+    WorseEntity:	flora_item_moneta-06-pianta-morta
+    NormalEntity:	flora_item_moneta-05-pianta-fruttificata
+    BetterEntity:	flora_item_moneta-05-pianta-fruttificata
+    Contents:	 flora_item_moneta-00-seme 1
+    Contents:	 ikea_item_coin-human-silver 8
+    Contents:	 ikea_item_coin-human-gold 5
+    Contents:	 ikea_item_coin-human-mithril 2
+    DecompositionRpgHours: 005
+End

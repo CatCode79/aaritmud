@@ -1,0 +1,54 @@
+Code: cimitero_item_boccetta_cristallo
+Level: 1
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.CRISTAL 70%
+MaterialPercentages:	MATERIAL.BALM 30%
+Sex:	SEX.FEMALE
+Name:	Una Boccetta di Cristallo
+Short:	una boccettina trasparente
+Long:	$N poggia malamente qui.
+
+Descr:
+Rispecchia fedelmente una comune boccetta di vetro pur essendo interamente
+realizzata con un prezioso cristallo. Questa boccetta riflette con decisione
+la poca luce del luogo riuscendo a ravvivarlo. Una scritta posta alla base
+è appena leggibile. La boccetta presenta una sostanza bluastra, molto densa,
+al suo interno. Un delicato coperchio anch'esso di cristallo avente come
+estremità superiore una piccola stella, richiude la boccetta perfettamente.
+
+DescrNight:
+Una boccetta di cristallo risplende leggermente persino nella fioca luce della
+sera. Noti una strana scritta posizionata alla base e una sostanza molto densa
+e dal colore blu intenso al suo interno. Un coperchio a forma di stella non
+permette alla sostanza di uscire.
+
+DescrTouch:
+La boccetta è molto delicata e leggera, presenta un leggero strato di polvere.
+La superficie è liscia e scevra di imperfezioni.
+
+DescrSixthNight:
+Avverti che la sostanza contenuta nella boccetta non è velenosa e che
+la boccetta può essere aperta, volendo.
+
+Value:	0
+Weight: 150g
+
+Extras:
+	Keywords: scritta
+	Descr
+	La scritta è quasi completamente corrosa dal tempo e forse anche dalla
+	sostanza presente nella boccetta, riesci però a leggere "p...co.o"
+End
+Extras:
+	Keywords: sostanza blu
+	Descr
+	Una sostanza molto densa e dall'aspetto apparentemente inoffensivo, pur
+	muovendo la boccetta con forza non si sposta di molto al suo interno.
+End
+Extras:
+	Keywords: coperchio stella
+	Descr
+	Il coperchio è a forma di stella, una stella a cinque punte.
+End
+
+

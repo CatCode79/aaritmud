@@ -1,0 +1,37 @@
+Code: karpuram_item_laminetta-oro
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.GOLD	100
+Sex:	SEX.FEMALE
+Name:	Una Sottile Lamina d'Oro
+Short:	una laminetta dorata
+Long:	poco meno che visibile $N appare poca cosa
+
+KeywordsName: laminetta lamina
+KeywordsShort: laminetta lamina
+
+Descr:
+Una sottilissima lamina d'oro d'insignificante valore.
+DescrTouch: 
+Malleabile e sottile; d'indubbia utilità nel caso si abbia necessità di.. una lamina?
+DescrSixth:
+Reconditi pensieri t'inducono a credere d'aver trovato l'indizio chiave d'un giacimento.
+DescrTaste:
+Insapore anche se dà un po' di scossa se tenuta sulle gengive.
+
+Value:	0
+Weight: 10g
+
+Extras:
+	Keywords: oro dorata dorato
+	Descr:
+	Che sia realmente oro?
+	DescrTouch:
+	Malleabile e sottile come solo l'oro.
+	DescrSixth:
+	Dove ce n'è una...
+	Ce ne saranno anche altre...
+End
+
+

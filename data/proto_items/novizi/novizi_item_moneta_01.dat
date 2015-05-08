@@ -1,0 +1,32 @@
+Code: novizi_item_moneta_01
+Level: 1
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.BRASS	100
+Sex:	SEX.FEMALE
+Name: Una Moneta d'Oro Fasulla
+Short: una moneta fasulla
+Long:	$N cadendo ha segnato croce 
+
+Descr:
+	La monetina è piuttosto tozza e almeno finché le teneva lo smalto poteva sembrare d'oro.
+	Ora quel che resta dello smalto non ne ricopre neppure la metà. 
+DescrTouch: 
+	Grattando questa monetina si riesce a scrostarla un po'.
+DescrSixth:
+	Chissà se a lasciarla cadere esce più spesso testa o più spesso croce.
+DescrTaste:
+	Prendendola in bocca si possono ottenere due informazioni: la conferma che è fasulla
+	e che ha un saporaccio infame.
+
+Value:	0
+Weight: 8g
+
+Extras:
+	Keywords: smalto
+	Descr:
+	La prima parte di smalto venuta via ha parzialmente rimosso la vecchia scritta
+	DescrSixth:
+	Di tutta la scritta che lo smalto ha rovinato resta: [lightgreen]la for_una a_u__ gli a_____[close]
+End
+
+

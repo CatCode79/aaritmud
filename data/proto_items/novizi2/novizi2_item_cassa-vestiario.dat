@@ -1,0 +1,44 @@
+Code: novizi2_item_cassa-vestiario
+Level: 1
+Icon:	icons/container/cassa.png
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+MaterialPercentages:	MATERIAL.SOFTWOOD	100
+Sex:	SEX.FEMALE
+Name:	Una Cassa di Legno
+Short:	una cassa di legno
+Long:	C'è in mezzo alla stanza $N colma di vestiario
+
+Descr:
+Una cassa di legno di forma cubica aperta e sprovvista del coperchio.
+Un cartello è appiccicato su di un lato.
+DescrTouch: 
+Una cassa di legno di forma cubica aperta e senza coperchio. Il legno è grezzo
+e non ci vuol nulla a conficcarsi una spina nella $hand.
+Su di un lato è posto un foglio o un cartello.
+DescrSmell: 
+Il legno è fresco di taglio ma non troppo resinoso.
+DescrSixth:
+una cassa da trasporto piuttosto economica.
+DescrTaste:
+Passi la lingua sul legno ruvido cercando a tutti i costi di procurarti un'infezione
+infilzandoti delle schegge.
+
+Value:	0
+Weight: 70kg
+
+Extras:
+	Keywords: cartello
+	Descr:
+	Destinatario: Fam. Grozzy
+        Mittente: AAA. ACME - abbigliamento per tutti gli usi
+	DescrSixth:
+	il mittente ricorda qualcosa di piuttosto conosciuto..
+End
+
+
+ContainerType:
+        MaxWeight: 700kg
+End
+
+

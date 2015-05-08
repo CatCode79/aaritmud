@@ -1,0 +1,29 @@
+Comment:
+-qui quelle che non vanno son la Touch e Smell...che poi son le stesse di sopra.
+
+Code: carrozzone-zingaro_item_canovaccio-01-macchiato
+
+Level:	1
+Entitype: ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.CLOTH 100%
+Name:	Un [mocassin]Canovaccio[close]
+Short:	un [mocassin]canovaccio[close]
+Long:	$N è qui piegato.
+
+Descr:
+Uno sfilacciato [mocassin]canovaccio[close] ripiegato in modo impeccabile con
+numerose macchie di vari colori.
+DescrTouch:
+La tua $hand scorre sulla ruvida trama, fitta ma non troppo.
+DescrSmell:
+Il profumo è fresco e pulito, come appena lavato.
+DescrSixth:
+Neanche il profondo lavaggio, al quale sembra esser stato sottoposto, è riuscito
+a rimuovere le macchie colorate che ora si porta appresso.
+
+Value:	0
+Weight: 75g
+
+
+

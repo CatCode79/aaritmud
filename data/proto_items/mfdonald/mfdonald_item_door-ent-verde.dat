@@ -1,0 +1,34 @@
+Code:	mfdonald_item_door-ent-verde
+Level:	1
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.UNKNOWN	100%
+Name:	La Porta [lightgreen]Verde[close]
+Short:	una [lightgreen]verde porta[close]
+Long:	$N ha fatto una brutta fine
+
+Descr:
+	È una porta in un polimero [lightgreen]brutto[close]; Vi sono disegnate le venature del legno ma in
+	modo un po naif.
+DescrTouch: 
+	Una porta liscia con delle scritte in [yellow]braille[close].
+
+DoorType:
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE
+	ResetCloseMessage: Un'entità invisibile (la corrente d'aria) chiude la porta.
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	apri $N con circospezione
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n con delicatezza cerca di aprire $N.
+	EntityCloseMessage:	Accompagni $N facendo attenzione a non rompere nulla.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n accompagna $N fino a richiudere l'accesso.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+End
+
+Value:	0
+Weight: 4kg
+
+

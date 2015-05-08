@@ -1,0 +1,28 @@
+Code:	rip_item_corpse-arial-female
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CORPSE
+Sex:	SEX.FEMALE
+Race:	RACE.ARIAL
+MaterialPercentages:	MATERIAL.FLESH	100%
+Name:	Una tu$O Simile Mort$O 
+Short:	un arial mort$O
+Long:	$N afflosciat$O qui definitivamente 
+
+Descr:
+I resti mortali e corruttibili di #looker is RACE.ARIAL#una tua simile.#una appartenente alla razza arial.#
+
+DescrTouch:
+Il cadavere di #looker is RACE.ARIAL#una tuo simile per il quale il vento è perduto per sempre.#una arial che non cavalcherà mai più il vento.#
+
+DescrSixth:
+#looker is RACE.ARIAL#L'alito di vento immortale che vi risiedeva si è ricongiunto alfine con il tutto, l'ultimo nostro volo non sarà con il piumaggio.#La morte s'è portata via qualcosa di più che il suo respiro di vita.#
+
+DescrSmell:
+#looker is RACE.ARIAL#Chissà poi perché ma pare che l'odore della morte non copra gli altri odori ma volteggi in cupe volute senza offuscare gli altri sentori.#Odore di morte.#
+
+DescrTaste:
+#looker is RACE.ARIAL#Porti le labbra sul volto del cadavere per porgergli l'estremo saluto.#L$O azzanni per accertarti che sia davvero mort$O#
+
+Value:	0
+Weight:	47kg

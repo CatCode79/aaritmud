@@ -1,0 +1,20 @@
+Code:	serpidi_item_scudoossidiana_13
+Level:	1
+Entitype: ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.OBSIDIAN	100%
+Name:	Uno Scudo di Ossidiana 
+Short:	uno scudo di ossidiana 
+Descr: 
+l'ossidiana usato per questo elemento è di un rosso rubino fantastico. È difficile comprendere come i serpidi siano riusciti a forgiare armi e scudi.
+Value:	0
+Weight: 80g
+BirthDay: 1
+BirthMonth: MONTH.TEN
+WearType:
+        Modes: PART.LEFT_FOREARM
+End
+
+
+
+
+

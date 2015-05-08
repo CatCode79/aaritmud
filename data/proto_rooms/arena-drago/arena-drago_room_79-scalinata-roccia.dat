@@ -1,0 +1,66 @@
+Code:	arena-drago_room_79-scalinata-roccia
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	La Scalinata di Roccia
+Short:	la scalinata di roccia
+	Descr:
+Scalinata.
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	1|64 0
+Exits:
+	Direction:	DIR.DOWN
+	Descr:	un cunicolo
+	Comment:	ExitStatus	0 0 27778 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

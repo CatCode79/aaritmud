@@ -1,0 +1,37 @@
+Comment:
+come faccio a far apparire frasi diverse a  seconda di cosa estraggo,
+la frase deve essere legata ai vari volantini in modo da poterli riporre in contenitori diversi.
+
+Code: novizi_item_portabrouchures
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.METAL	100
+Sex:	SEX.MALE
+Name:	Un Portabrouchures
+Short:	un portabrouchures
+Long:	$N è qui
+
+Descr:
+Un semplice oggetto in metallo chiaro atto ad accolgiere volantini e brochures nei numerosi vani che si dipartono a raggera dal corpo centrale. Sulla cima un cartello porta la scritta "qualcosa che dice che ci son le brochures"."
+DescrTouch: 
+Con una $hand fai ruotare il portabrocures per scorrere i vari contenuti.
+DescrSixth:
+Sembra offra comode guide per visitare i posti che ci sono insomma.
+DescrHearing:
+Fa ting ting mentre  batti le nocche sugli scomparti 
+
+Value:	0
+Weight: 10g
+
+ContainerType:
+	EntityOpenMessage:	Apri $N usando ambo le $hands.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N usando ambo le $hands.
+	EntityCloseMessage:	Accompagni $N fino a chiuderla.
+	TargetCloseMessage:	Finalmente $n si è degnat$o di chiuderti.
+	OthersCloseMessage:	$n accompagna $N fino a chiusura.
+        MaxWeight: 10kg
+End
+
+

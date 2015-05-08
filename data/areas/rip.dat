@@ -1,0 +1,92 @@
+Comment:
+Cadaverificio di prototipi
+Creators:	Sulfrum Jaroddd
+Code: rip
+Name: Requiescat in Pace
+Short: requiescat in pace
+Descr:
+Soltanto la morte ti potrà portare qui, e con una buona carta di credito avrai anche diritto al cadavere migliore, più forte, più veloce!
+Color: COLOR.DODGERBLUE blu di stelle fredde e lontane
+Level: 1
+Flags: AREA.DONT_LIST
+RepopTime: 15
+LandfillCode:	rip_room_centro-del-camposanto-01
+
+
+RoomResets:
+  ProtoRoom: rip_room_centro-del-camposanto-01
+	Destination:	0 0 0 rip
+End
+RoomResets:
+  ProtoRoom: rip_room_arial-street-01
+	Destination:	-1 0 0 rip
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity:	rip_item_corpse-arial-male
+	End
+End
+RoomResets:
+  ProtoRoom: rip_room_arial-street-02
+	Destination:	-2 0 0 rip
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity:	rip_item_corpse-arial-female
+	End
+End
+RoomResets:
+  ProtoRoom: rip_room_human-street-01
+	Destination:	0 -1 0 rip
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity:	rip_item_corpse-human-male
+	End
+End
+RoomResets:
+  ProtoRoom: rip_room_human-street-02
+	Destination:	0 -2 0 rip
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity:	rip_item_corpse-human-female
+	End
+End
+RoomResets:
+  ProtoRoom: rip_room_highelf-street-01
+	Destination:	0 1 0 rip
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity:	rip_item_corpse-highelf-male
+	End
+End
+RoomResets:
+  ProtoRoom: rip_room_highelf-street-02
+	Destination:	0 2 0 rip
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity:	rip_item_corpse-highelf-female
+	End
+End
+RoomResets:
+  ProtoRoom: rip_room_thepa-street-01
+	Destination:	1 0 0 rip
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity:	rip_item_corpse-thepa-male
+	End
+End
+RoomResets:
+  ProtoRoom: rip_room_thepa-street-02
+	Destination:	2 0 0 rip
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity:	rip_item_corpse-thepa-female
+	End
+End
+EchoesNoon La campana dei monatti batte i dodici rintocchi

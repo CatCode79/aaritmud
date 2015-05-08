@@ -1,0 +1,32 @@
+Code: ikea_item_uovo-gallina
+Level: 1
+MaxGlobalQuantity:	3
+Entitype:	ENTITYPE.FOOD
+MaterialPercentages:	MATERIAL.EGG	100
+Sex:	SEX.MALE
+Name:	Un Ovetto di Gallina
+Short:	un uovo
+Long:	qui appoggiato c'è $N non ancora rotto 
+
+Descr:
+Un Uovo di gallina di medie dimensioni.
+DescrTouch: 
+Un Uovo di gallina di medie dimensioni e di forma canonica.
+DescrSmell: 
+Un uovo di galline, per uscire dalla gallina attraversa zone incaute.
+DescrHearing:
+Dall'interno nessun segno di vita.
+
+Value:	0
+Weight: 17g
+
+FoodType:
+	Comment:	cibo
+	Animal:	100
+	Vegetable:	0
+	CookingDamage:	0
+	Hours:	0
+	EntityMessage:	Incrini $N contro la fronte, lo porti alle labbra bevendo.
+	TargetMessage:	Ora c'è una sola via d'uscita... $n t'ha mangiato.
+	OthersMessage:	$n incrina $N battendolo contro la fronte, lo porta alle labbra e se lo beve.
+End

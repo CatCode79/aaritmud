@@ -1,0 +1,32 @@
+Code: mfdonald_item_rosa_16
+Level: 1
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.FLOWER	80%
+MaterialPercentages:	MATERIAL.VEGETABLE	20%
+Sex:	SEX.FEMALE
+Name: [plum]@[lime])}--^----[close] 
+Short: [plum]@[lime])}--^----[close]
+Long:	$N [lime]-[close]
+KeywordsName: rosa
+
+KeywordsShort: rosa
+
+
+Descr:
+Una rosa color prugna chiaro recisa di netto con un'arma da taglio.
+
+Value:	8
+Weight: 50g
+
+DescrTouch: 
+Una $hand attenta ha privato la rosa di quasi tutti i suoi aculei
+DescrSmell: 
+Profuma di gatto bagnato
+DescrSixth:
+Che sia stato un felar a reciderla?
+
+WearType:
+   Modes: PART.BREAST
+End
+
+

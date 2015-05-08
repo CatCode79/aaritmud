@@ -1,0 +1,12 @@
+Code: mfdonald_item_matita_01
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaxGlobalQuantity: 0
+MaterialPercentages:	MATERIAL.WOOD	90%
+MaterialPercentages:	MATERIAL.UNKNOWN	10%
+Name: La Matita dei Power Ranger
+Short: la matita dei Power Ranger
+Descr: La matita che tutti volevano fino a pochi anni fa e che ora ingombra magazzini interi in Cina.
+Value:	0
+Weight: 30g

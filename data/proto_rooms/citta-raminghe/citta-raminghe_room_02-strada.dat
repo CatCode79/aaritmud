@@ -1,0 +1,34 @@
+Code: citta-raminghe_room_02-strada
+Sector: SECTOR.CITY
+Name: [red]Una strada tortuosa[close]
+Short: [red]una strada tortuosa[close] 
+
+Descr:
+Una strada abbastanza stretta e tortuosa conduce verso la parte più interna della [gold]città[close]. È pavimentata con pietre poligonali di basalto perfettamente incastrate tra loro.  
+
+DescrSixth:
+Senti che ti stai avvicinando al [red]cuore[close] della città.
+
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.EAST
+	Descr:	[lightsalmon]Una stretta via in salita[close]
+
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: [springgreen]Un piazzale alberato[close]
+End
+Exits:
+	Direction: DIR.SOUTH
+	Descr: [deeppink]La Casa delle Amazzoni[close]
+End
+Exits:
+	Direction: DIR.NORTHEAST
+	Descr: In città
+End

@@ -1,0 +1,31 @@
+Code:	karpuram_item_eq-elmo-alto
+
+Level:	3
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.STEEL	99
+MaterialPercentages:	MATERIAL.FEATHERS	1
+Sex:	SEX.MALE
+Name:	Un Elmo Alto Corazzato
+Short:	un elmo corazzato
+Long:	riposto qui a terra c'è un oggetto pregevole: $N
+
+Descr:
+Il livello di protezione di quest'oggetto rasenta quasi la perfezione, ma va
+a discapito della maneggevolezza e della visibilità. L'elmo ha una sottile
+foratura all'altezza degli occhi che permette a chi lo indossa di vedere e 
+allo stesso tempo di respirare. Esso è composto da due sezioni, una base 
+occipitale che difende la nuca e l'altra frontale che può anche essere sollevata
+per avere una visione più ampia. Due lame sottili, poste simmetricamente ai lati
+dell'elmo, s'innalzano verso il cielo.
+
+DescrSixth:
+Indossando l'elmo avverti una sensazione di dominio e ti senti più forte e
+coraggioso del solito.
+
+Value:	0
+Weight:	2kg
+
+WearType:
+   Modes: PART.HEAD
+End

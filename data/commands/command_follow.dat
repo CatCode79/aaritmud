@@ -1,0 +1,6 @@
+FunName:    command_follow
+Type:       CMDTYPE.MOVEMENT
+Trust:      TRUST.PLAYER
+Position:   POSITION.REST
+Flags:      CMDFLAG.INTERACT CMDFLAG.GDR
+MiniHelp:   Serve per seguire una determinata persona o creatura.

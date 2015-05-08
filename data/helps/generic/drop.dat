@@ -1,0 +1,25 @@
+Code: drop
+
+ItalianKeywords: posa abbandona
+EnglishKeywords: drop
+
+Entitype: HELP.ITEM
+
+Text:
+Per lasciare un oggetto o alcune monete a terra usa il comando $tdrop
+
+Esempi:
+- $tdrop 1000 monete
+- $tdrop elmo
+- $tget/$tdrop 10 fungo
+
+Se vuoi prendere/mettere/posare tutti gli oggetti presenti usa [darkgreen]tutto[close], se
+invece ti interessano tutti gli oggetti di un determinato tipo usa
+[darkgreen]tutto.oggetto[close].
+
+Esempi: 
+- $tget/$tdrop [darkgreen]tutto[close]
+- $tget/$tdrop [darkgreen]tutto[close].[darkgreen]mappa[close]
+
+
+SeeAlso: get give put

@@ -1,0 +1,20 @@
+Comment: conveniente negli oggetti rotti l'uso dell'etichetta %material
+Code: rip_item_broken-wear
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.CLOTH	100%
+Sex:	SEX.MALE
+Name:	Un Indumento Malconcio
+Short:	un indumento malconcio
+Long:	Qui a terra c'è $N fatto di %material che sembra sia stato in bocca ad un lupo affamato
+
+Descr:
+Disfare fino a renderlo irriconoscibile rispetto all'originale.
+Ecco un lavro ben fatto in questo senso.
+DescrTouch: 
+Per come è stato ridotto non si capisce neppure cosa doveva essere.
+DescrSixth:
+Si deve esser trattato di qualcosa che non piaceva e che vestiva malissimo.
+
+Weight: 10g

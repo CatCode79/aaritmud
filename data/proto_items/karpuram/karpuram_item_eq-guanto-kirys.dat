@@ -1,0 +1,36 @@
+Code:	karpuram_item_eq-guanto-kirys
+
+Level:	10
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.LEATHER	65
+MaterialPercentages:	MATERIAL.COTTON	30
+MaterialPercentages:	MATERIAL.SILVER	5
+Sex:	SEX.MALE
+Name:	Il Guanto di Kirys
+Short:	un guanto singolo dalla pregiata forma e fattura
+Long:	$N è qui in terra.
+
+Descr:
+Un raffinato guanto di cuoio, un pezzo unico lavorato con grande maestria.
+Presenta una serie di scaglie di cuoio livellate tra loro su ogni singolo 
+$finger, queste si vanno poi a ricongiungere alla base del guanto che protegge 
+la $hand con il cuoio nero sul dorso fino quasi a tutto il polso. Il palmo viene
+protetto da una fitta trama di cotone sempre nero lavorato con cura e tenuto 
+fermo da cinque lacci di cuoio legati anch'essi alle $fingers del guanto.
+Una decina di borchie argentate oltre a contribuire a tenere unito il cuoio,
+formano la lettera "K".
+
+DescrSixth:
+Ti rendi conto che è inutile cercare di trovare l'altro guanto, perchè questo
+pezzo è unico e raro ed è stato creato per stare da solo.
+
+
+Value:	0
+Weight:	900g
+
+WearType:
+   Modes: PART.LEFT_HAND
+End
+
+

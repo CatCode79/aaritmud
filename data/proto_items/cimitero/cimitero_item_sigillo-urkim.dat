@@ -1,0 +1,30 @@
+Code: cimitero_item_sigillo-urkim
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.AGATE 50%
+MaterialPercentages:	MATERIAL.BRASS 50%
+Sex:	SEX.MALE
+Name:	Il Sigillo di Urkim
+Short:	un antico diadema
+Long:	$N usurato dall'età
+
+Descr:
+Una sottile striscia metallica avvolta a semicerchio e sulla quale sono collocati i simboli di un'antica casata.
+Centralmente sporge un'agata multicolore.
+DescrTouch: 
+Una sottile striscia metallica avvolta a semicerchio e dalla quale sporge centralmente un'agata multicolore.
+
+Value:	0
+Weight: 170g
+
+
+WearType:
+	Modes:	PART.HEAD
+	EntityWearMessage:	Sollevi con ambo le $hands $N e te l$O porti %part.
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	$n solleva $N con ambo le $hands e se l$O porta %part.
+	EntityRemoveMessage:	Porti le $hands %part e togli $N.
+	TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+	OthersRemoveMessage:	$n porta le $hands %part e si leva $N
+End

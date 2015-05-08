@@ -1,0 +1,120 @@
+Comment: Un cantastorie che sta nella via degli Affabulatori. 
+
+MaxGlobalQuantity:	1
+Code:	citta-raminghe_mob_cantastorie
+Level:  5
+Flags: FLAG.NO_ROOM_BEHAVIOUR
+Sex:    SEX.MALE
+Race:   RACE.HUMAN
+Name:  Un [red]Cantastorie[close] 
+Short: un [red]cantastorie[close] 
+ShortNight: un [red]cantastorie[close] dall'aria sinistra
+Long: $N suona la fisarmonica.
+LongNight: $N attende.
+
+Descr:
+Figura magra e longilinea. Ha le guance scavate e la voce forte e tonante che contrasta con il suo aspetto fisico e  la sua 
+corporatura. Indossa un gilè di colore verde che un tempo doveva essere di buona fattura, adesso i segni del tempo e diverse toppe lasciano solo intuire l'antica eleganza. Indossa pantaloni di velluto  di colore nero tenuto su da una cinta 
+anch'essa di colore nero ben stretta in vita che segnala l'eccessiva magrezza di quest'uomo.
+Ma il suo sguardo penetrante cattura il tuo e la sua voce  magnetizza la tua attenzione con il racconto di storie 
+fantastiche e inverosimili dai risvolti inattesi. 
+Accompagna le sue storie con la fisarmonica che suona in modo eccellente. Accanto noti un cartellone dove sono
+rappresentate le storie che sta per raccontare ed un baule in legno scuro di cui adesso non riesci ad intuire il contenuto.
+
+DescrNight:
+E' notte. Ma il cantastorie è qui sempre circondato da un gruppo di appassionati ascoltatori. Puoi sostare anche tu ad 
+ascoltarlo. La sua cadenza affabulatoria è cambiata. Il tono è più sommesso, una lampada ad olio poggiata per terra illumina il suo viso con un gioco di luci ed ombre che gli conferisce un'espressione dura e spigolosa. La fisarmonica, muta, è
+poggiata su di uno sgabello di legno.
+Lui è seduto per terra a gambe incrociate così come tutti quelli che lo stanno ascoltando in silenzio. 
+
+DescrSmell:
+Profuma di [brown]tabacco[close] di qualità eccellente regalatogli da avventurieri e viaggiatori come ricompensa per le sue 
+storie.
+
+DescrHearing:
+La sua voce tonante risuona per tutta la strada e sembra sovrastare quella degli altri.
+
+DescrHearingNight:
+La notte ha un pò svuotato la strada e molti degli avventurieri e dei viaggiatori di passaggio sono andati via. Ma alcuni, 
+come te, son rimasti qui ad ascoltare la sua voce  che acquista un tono sempre più sommesso e profondo. Sembra vibrare 
+intensamente quando il racconto, la storia, sono giunti ad un punto cruciale di notevole pathos.
+
+DescrSixth:
+Come un antico aedo o rapsodo è il depositario delle storie della comunità. In lui i miti e le leggende acquistano colore, si arricchiscono di versioni sempre diverse e sempre più complesse. Mentre racconta le storie è come se si astraesse da ciò
+che gli sta intorno, cieco e insensibile, concentrato sul suo mondo interno, voce delle 
+divinità che ispirano i suoi racconti.
+
+Height: 178cm
+Weight: 68kg
+
+BirthDay:	3
+BirthMonth:	MONTH.FOUR 
+Age: 35
+
+Behaviour:
+	LookPlayer: 25
+	LookMob:     10
+	LookItem:   20
+	LookSelf:   5
+	LookAtEntitypesFlags: ENTITYPE.NONE
+	LookDirection: 10
+	LookExit:       10
+	LookWall:       10
+	LookClosedDoor:  10
+	LookExtra:       50
+	LookEquipment:   10
+	ListenPlayer:    50
+	ListenMob:       10
+	ListenItem:      10
+	ListenSelf:      100
+	ListenAtEntitypes:   10
+	ListenAtEntitypesFlags: ENTITYPE.NONE
+	ListenDirection:    50
+	ListenExtra:         50
+	IntuitionPlayer:     50
+	IntuitionMob: 50
+	IntuitionItem: 50
+	IntuitionSelf: 50
+	IntuitionAtRaces: 50
+	IntuitionAtRacesFlags: RACE.NONE
+	IntuitionAtEntitypes: 50
+	IntuitionAtEntitypesFlags: ENTITYPE.NONE
+	IntuitionDirection: 50
+	IntuitionExit:      50
+
+	WanderDirection: 0
+	WanderExit:      0
+	WanderWall:      0
+	WanderClosedDoor: 0
+	WanderArea:       0
+	WanderAtExits:    0
+	WanderAtExitsFlags: DIR.NONE
+	WanderPortal:    0
+	WanderEnterContainer: 0
+	WanderExitContainer:  0
+	WanderSelf:  0
+	RandomDo: 30
+	RandomDoInputs: emote apre il baule, vi mette dentro qualcosa e lo richiude...
+	RandomDoInputs: emote si avvicina al banco dei dolci speziati e mangia una crema alla vaniglia...
+	RandomDoInputs: emote si ferma ad ascoltare uno strano tizio che racconta storie inverosimili...
+	RandomDoInputs: emote prende un manoscritto da una bancarella e lo sfoglia...
+	RandomDoInputs: emote scrive sul suo taccuino una storia che pensa di raccontare all'imbrunire ai viaggiatori di passaggio...
+	RandomDoInputs: emote ti racconta una storia raccapricciante.
+End
+
+MaxLife:        100
+Life:           100
+MaxMana:        100
+Mana:           100
+MaxVigour:      100
+Vigour:         100
+
+Strength:       33
+Endurance:      50
+Agility:        33
+Speed:          33
+Intelligence:   33
+Willpower:      33
+Personality:    80
+Luck:           60
+

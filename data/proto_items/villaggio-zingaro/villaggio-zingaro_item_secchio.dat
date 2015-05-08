@@ -1,0 +1,26 @@
+Code: villaggio-zingaro_item_secchio
+
+Level:	1
+Entitype: ENTITYPE.CONTAINER
+Sex:	SEX.MALE
+Flags:	FLAG.REPOP_ONLY_ON_EXTRACT
+MaterialPercentages:	MATERIAL.WOOD	95%
+MaterialPercentages:	MATERIAL.METAL	5%
+Name:	Il Secchio
+Short:	un secchio di legno
+Long:	$N è appoggiato qui.
+
+Descr:
+Un secchio di legno tenuto insieme da viti e anelli metallici un poco arrugginiti. Ha un sottile manico, anch'esso in metallo, con un cilindro consunto nel punto in cui viene tenuto.
+DescrTouch:
+Un secchio in legno di medie dimensioni che ha visto giorni migliori.
+DescrSixth:
+Un tempo si trattava di un oggetto piuttosto ben fatto, ma poi gli deve essere accaduto un incidente..
+
+
+Value:	0
+Weight: 106g
+
+ContainerType:
+       MaxWeight: 95g
+End

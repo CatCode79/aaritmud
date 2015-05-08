@@ -1,0 +1,52 @@
+Code:	serpidi_item_corpomummia_10
+Level:	1
+Entitype: ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.FLESH	90%
+MaterialPercentages:	MATERIAL.CLOTH	10%
+Name:	Un Corpo Mummificato 
+Short:	un corpo mummificato 
+Descr: 
+In terra c'è un corpo fasciato.  
+Extras:
+	Keywords:	corpo mummia 
+	Descr:	uno dei più importanti guerrieri visto l'onore con cui è stato sepolto.
+
+End
+Extras:
+	Keywords:	dei più importanti visto l'onore con cui è stato sepolto.
+	Descr:
+ 
+End
+Value:	0
+Weight: 80g
+BirthDay: 1
+BirthMonth: MONTH.TEN
+
+Behaviour: 
+	LookPlayer:	300
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.WEAR
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	10
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	0
+End
+
+
+

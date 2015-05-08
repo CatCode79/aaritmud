@@ -1,0 +1,68 @@
+Code:	arena-drago_room_37-accesso-arena
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	L'Accesso all'Arena
+Short:	l'accesso all'arena
+	Descr:
+Sei all'interno di un lungo tunnel, pareti e volta sono in pietra
+grigio scuro ed ogni cinque metri una torcia illumina il
+passaggio. Ad ovest si apre una porta mentre ad est puoi vedere
+un'inferriata che da su una zona molto luminosa. Nella parete nord
+un arco aperto conduce in una grossa stanza dal soffito a volta.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	64 0
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	gli spogliatoi
+	Comment:	ExitStatus	0 0 27742 -1
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	L'accesso all'arena
+	Comment:	ExitStatus	1|16|32|512 27707 27746 373
+	Door:	arena-drago_item_door-inferriata-accesso-arena-37-est
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	Un corridoio
+	Comment:	ExitStatus	1 27707 27736 -1
+	Door:	arena-drago_item_door-porta-accesso-arena-37-ovest
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

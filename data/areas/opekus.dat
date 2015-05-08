@@ -1,0 +1,757 @@
+Comment:
+Città di Opekus, città devastata dal tempo di cui rimangono tumuli e rovine avvinghiati dal rigoglio
+Creators:	Sulfrum
+Code: opekus
+Name: La Cattedrale di Opekus
+Short: la cattedrale sepolta
+Descr:
+Il vasto spazio ove si estendeva l'antica città di Opekus, capitale di un antico regno obliato ormai persino dalla mente dei più anziani. 
+Si narra che vi sia chi ha trovato l'accesso ad una cattedrale sotterranea ma pare che la via non sempre sia accessibile.
+Si estende a nord della Torre Elementale e si congiunge con il vecchio cimitero e con la Città delle Raminghe.
+
+Color: COLOR.WHITE  bianco del foglio in cui non riesci a scrivere nulla
+Level: 1
+
+RepopTime: 25
+LandfillCode:	opekus_room_rovine_13
+
+RoomResets:
+  ProtoRoom: opekus_room_zero
+	Destination:	42 42 42 opekus
+  EntityResets:
+    ProtoEntity: opekus_item_ciotola_01
+  End
+  EntityResets:
+    ProtoEntity: opekus_item_peluche_gatto
+  End
+End
+
+RoomResets:
+  ProtoRoom: opekus_room_periferia_01
+	Destination:	0 -2 0 opekus
+  EntityResets:
+    ProtoEntity: opekus_item_sentiero-portale
+  End
+End
+RoomResets:
+  ProtoRoom: opekus_room_periferia_02
+	Destination:	1 -2 0 opekus
+End
+RoomResets:
+  ProtoRoom: opekus_room_periferia_03
+	Destination:	2 -2 0 opekus
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity:	ikea_item_cartello-indicatore-generale-nord
+	End
+End
+RoomResets:
+  ProtoRoom: opekus_room_periferia_04
+	Destination:	1 -1 0 opekus
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: opekus_mob_thepa-wa-m-normal
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: opekus_mob_thepa-wa-m-rogue
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: opekus_mob_thepa-wa-m-strong
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: opekus_mob_thepa-wa-m-vstrong
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: opekus_mob_thepa-wa-f-normal
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: opekus_mob_thepa-wa-f-strong
+	End
+  EntityResets:
+    ProtoEntity: opekus_item_panchina_01
+  End
+End
+RoomResets:
+  ProtoRoom: opekus_room_periferia_05
+	Destination:	2 -3 0 opekus
+End
+RoomResets:
+  ProtoRoom: opekus_room_periferia_06
+	Destination:	2 -4 0 opekus
+End
+RoomResets:
+  ProtoRoom: opekus_room_periferia_06
+	Destination:	2 -5 0 opekus
+  EntityResets:
+    ProtoEntity: opekus_item_ciottoli_01
+  End
+End
+RoomResets:
+  Comment: collegamento a novizi
+  ProtoRoom: opekus_room_periferia_08
+	Destination:	2 -6 0 opekus
+End
+RoomResets:
+  ProtoRoom: opekus_room_periferia_07
+	Destination:	2 -7 0 opekus
+  EntityResets:
+    ProtoEntity: flora_item_leccio-05-cespuglio
+  End
+End
+RoomResets:
+  ProtoRoom: opekus_room_rovine_01
+	Destination:	3 -2 0 opekus
+End
+RoomResets:
+  ProtoRoom: opekus_room_rovine_02
+	Destination:	4 -2 0 opekus
+End
+RoomResets:
+  ProtoRoom: opekus_room_rovine_03
+	Destination:	5 -2 0 opekus
+End
+RoomResets:
+  ProtoRoom: opekus_room_rovine_04
+	Destination:	5 -1 0 opekus
+End
+RoomResets:
+  ProtoRoom: opekus_room_rovine_05
+	Destination:	5 -3 0 opekus
+End
+RoomResets:
+  ProtoRoom: opekus_room_rovine_03
+	Destination:	6 -2 0 opekus
+End
+RoomResets:
+  ProtoRoom: opekus_room_rovine_07
+	Destination:	6 -1 0 opekus
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	opekus_item_stele-hint-accesso-cattedrale
+	End
+End
+RoomResets:
+  ProtoRoom: opekus_room_rovine_08
+	Destination:	6 -3 0 opekus
+End
+RoomResets:
+  ProtoRoom: opekus_room_rovine_06
+	Destination:	7 -2 0 opekus
+End
+RoomResets:
+  ProtoRoom: opekus_room_rovine_09
+	Destination:	7 -3 0 opekus
+End
+RoomResets:
+  ProtoRoom: opekus_room_rovine_10
+	Destination:	8 -2 0 opekus
+End
+
+RoomResets:
+  ProtoRoom: opekus_room_rovine_12
+	Destination:	9 -2 0 opekus
+End
+RoomResets:
+  Comment: dead end da sviluppare poi (sotterraneo nascosto o scavabile FEATURE needed)
+  ProtoRoom: opekus_room_rovine_13
+	Destination:	9 -2 -1 opekus
+End
+RoomResets:
+  ProtoRoom: opekus_room_rovine_14
+	Destination:	8 -1 0 opekus
+End
+RoomResets:
+  Comment: stanza di default. Qui di seguito le stanze che si alternano a simulare il livello dell'acqua che scende e sale consentendo il passaggi solo se l'acqua è bassa (4 le room)
+  ProtoRoom: opekus_room_rovine_11_aperta
+	Destination:	6 -1 -1 opekus
+End
+RoomResets:
+  Comment: ******** inizio PRIMO ciclo *************
+  Messages: l'acqua si placa
+  Hour: 0
+  ProtoRoom: opekus_room_rovine_11_chiusa
+	Destination:	6 -1 -1 opekus
+End
+RoomResets:
+  Comment: scende il livello dell'acqua
+  Messages: il livello dell'acqua si fa instabile
+  Hour: 1
+  ProtoRoom: opekus_room_rovine_11_scende
+	Destination:	6 -1 -1 opekus
+End
+RoomResets:
+  Comment: passaggio aperto
+  Messages: una corrente d'aria ti spira addosso
+  Hour: 2
+  ProtoRoom: opekus_room_rovine_11_aperta
+	Destination:	6 -1 -1 opekus
+End
+RoomResets:
+  Comment: risale il livello dell'acqua
+  Messages: il timido refolo d'aria che t'investiva ora cessa del tutto
+  Hour: 5
+  ProtoRoom: opekus_room_rovine_11_sale
+	Destination:	6 -1 -1 opekus
+End
+RoomResets:
+  Comment: ******** inizio SECONDO ciclo *********
+  Messages: l'acqua si placa
+  Hour: 6
+  ProtoRoom: opekus_room_rovine_11_chiusa
+	Destination:	6 -1 -1 opekus
+End
+RoomResets:
+  Comment: scende il livello dell'acqua
+  Messages: il livello dell'acqua si fa instabile
+  Hour: 7
+  ProtoRoom: opekus_room_rovine_11_scende
+	Destination:	6 -1 -1 opekus
+End
+RoomResets:
+  Comment: passaggio aperto
+  Messages: una corrente d'aria ti spira addosso
+  Hour: 8
+  ProtoRoom: opekus_room_rovine_11_aperta
+	Destination:	6 -1 -1 opekus
+End
+RoomResets:
+  Comment: risale il livello dell'acqua
+  Messages: il timido refolo d'aria che t'investiva ora cessa del tutto
+  Hour: 11
+  ProtoRoom: opekus_room_rovine_11_sale
+	Destination:	6 -1 -1 opekus
+End
+RoomResets:
+  Comment: ******** inizio TERZO ciclo *********
+  Messages: l'acqua si placa
+  Hour: 12
+  ProtoRoom: opekus_room_rovine_11_chiusa
+	Destination:	6 -1 -1 opekus
+End
+RoomResets:
+  Comment: scende il livello dell'acqua
+  Messages: il livello dell'acqua si fa instabile
+  Hour: 13
+  ProtoRoom: opekus_room_rovine_11_scende
+	Destination:	6 -1 -1 opekus
+End
+RoomResets:
+  Comment: passaggio aperto
+  Messages: una corrente d'aria ti spira addosso
+  Hour: 14
+  ProtoRoom: opekus_room_rovine_11_aperta
+	Destination:	6 -1 -1 opekus
+End
+RoomResets:
+  Comment: risale il livello dell'acqua
+  Messages: il timido refolo d'aria che t'investiva ora cessa del tutto
+  Hour: 17
+  ProtoRoom: opekus_room_rovine_11_sale
+	Destination:	6 -1 -1 opekus
+End
+RoomResets:
+  Comment: ******** inizio QUARTO ciclo *********
+  Messages: l'acqua si placa
+  Hour: 18
+  ProtoRoom: opekus_room_rovine_11_chiusa
+	Destination:	6 -1 -1 opekus
+End
+RoomResets:
+  Comment: scende il livello dell'acqua
+  Messages: il livello dell'acqua si fa instabile
+  Hour: 19
+  ProtoRoom: opekus_room_rovine_11_scende
+	Destination:	6 -1 -1 opekus
+End
+RoomResets:
+  Comment: passaggio aperto
+  Messages: una corrente d'aria ti spira addosso
+  Hour: 20
+  ProtoRoom: opekus_room_rovine_11_aperta
+	Destination:	6 -1 -1 opekus
+End
+RoomResets:
+  Comment: risale il livello dell'acqua
+************* TERMINE SEQUENZA ***********
+  Messages: il timido refolo d'aria che t'investiva ora cessa del tutto
+  Hour: 23
+  ProtoRoom: opekus_room_rovine_11_sale
+	Destination:	6 -1 -1 opekus
+End
+
+
+
+RoomResets:
+  Comment: stanza di default. Qui di seguito le stanze che si alternano a simulare il livello dell'acqua che scende e sale consentendo il passaggi solo se l'acqua è bassa (4 le room)
+  ProtoRoom: opekus_room_ofidian_01_aperta
+	Destination:	6 0 -1 opekus
+End
+RoomResets:
+  Comment: ******** inizio PRIMO ciclo *************
+  Messages: la pozza si cheta
+  Hour: 0
+  ProtoRoom: opekus_room_ofidian_01_chiusa
+	Destination:	6 0 -1 opekus
+End
+RoomResets:
+  Comment: scende il livello dell'acqua
+  Messages: si alza un leggero movimento d'aria
+  Hour: 1
+  ProtoRoom: opekus_room_ofidian_01_scende
+	Destination:	6 0 -1 opekus
+End
+RoomResets:
+  Comment: passaggio aperto
+  Messages: il flusso d'aria si fa più significativo
+  Hour: 2
+  ProtoRoom: opekus_room_ofidian_01_aperta
+	Destination:	6 0 -1 opekus
+End
+RoomResets:
+  Comment: risale il livello dell'acqua
+  Messages: la corrente d'aria ora si siede a tratti
+  Hour: 5
+  ProtoRoom: opekus_room_ofidian_01_sale
+	Destination:	6 0 -1 opekus
+End
+RoomResets:
+  Comment: ******** inizio SECONDO ciclo *********
+  Messages: la pozza si cheta
+  Hour: 6
+  ProtoRoom: opekus_room_ofidian_01_chiusa
+	Destination:	6 0 -1 opekus
+End
+RoomResets:
+  Comment: scende il livello dell'acqua
+  Messages: si alza un leggero movimento d'aria
+  Hour: 7
+  ProtoRoom: opekus_room_ofidian_01_scende
+	Destination:	6 0 -1 opekus
+End
+RoomResets:
+  Comment: passaggio aperto
+  Messages: il flusso d'aria si fa più significativo
+  Hour: 8
+  ProtoRoom: opekus_room_ofidian_01_aperta
+	Destination:	6 0 -1 opekus
+End
+RoomResets:
+  Comment: risale il livello dell'acqua
+  Messages: la corrente d'aria ora si siede a tratti
+  Hour: 11
+  ProtoRoom: opekus_room_ofidian_01_sale
+	Destination:	6 0 -1 opekus
+End
+RoomResets:
+  Comment: ******** inizio TERZO ciclo *********
+  Messages: la pozza si cheta
+  Hour: 12
+  ProtoRoom: opekus_room_ofidian_01_chiusa
+	Destination:	6 0 -1 opekus
+End
+RoomResets:
+  Comment: scende il livello dell'acqua
+  Messages: si alza un leggero movimento d'aria
+  Hour: 13
+  ProtoRoom: opekus_room_ofidian_01_scende
+	Destination:	6 0 -1 opekus
+End
+RoomResets:
+  Comment: passaggio aperto
+  Messages: il flusso d'aria si fa più significativo
+  Hour: 14
+  ProtoRoom: opekus_room_ofidian_01_aperta
+	Destination:	6 0 -1 opekus
+End
+RoomResets:
+  Comment: risale il livello dell'acqua
+  Messages: la corrente d'aria ora si siede a tratti
+  Hour: 17
+  ProtoRoom: opekus_room_ofidian_01_sale
+	Destination:	6 0 -1 opekus
+End
+RoomResets:
+  Comment: ******** inizio QUARTO ciclo *********
+  Messages: la pozza si cheta
+  Hour: 18
+  ProtoRoom: opekus_room_ofidian_01_chiusa
+	Destination:	6 0 -1 opekus
+End
+RoomResets:
+  Comment: scende il livello dell'acqua
+  Messages: si alza un leggero movimento d'aria
+  Hour: 19
+  ProtoRoom: opekus_room_ofidian_01_scende
+	Destination:	6 0 -1 opekus
+End
+RoomResets:
+  Comment: passaggio aperto
+  Messages: il flusso d'aria si fa più significativo
+  Hour: 20
+  ProtoRoom: opekus_room_ofidian_01_aperta
+	Destination:	6 0 -1 opekus
+End
+RoomResets:
+  Comment: risale il livello dell'acqua
+************* TERMINE SEQUENZA ***********
+  Messages: la corrente d'aria ora si siede a tratti
+  Hour: 23
+  ProtoRoom: opekus_room_ofidian_01_sale
+	Destination:	6 0 -1 opekus
+End
+
+RoomResets:
+  Comment: Collegamento con la zona del tempio degli OFIDI
+  ProtoRoom: opekus_room_ofidian_02
+	Destination:	7 1 -1 opekus
+End
+
+RoomResets:
+  Comment: zone comuni ofidi (accesso sala delle armi)
+  ProtoRoom: opekus_room_ofidian_common_10
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: opekus_item_porta-sala-armi
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	opekus_item_scudo-bronzo
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: opekus_item_scudo-01
+	End
+	Destination:	5 2 -1 opekus
+End
+RoomResets:
+  Comment: zone comuni ofidi
+  ProtoRoom: opekus_room_ofidian_common_11
+	Destination:	6 2 -1 opekus
+End
+RoomResets:
+  Comment: zone comuni ofidi
+  ProtoRoom: opekus_room_ofidian_common_01
+	Destination:	7 2 -1 opekus
+End
+RoomResets:
+  Comment: zone comuni ofidi
+  ProtoRoom: opekus_room_ofidian_common_02
+	Destination:	8 2 -1 opekus
+End
+RoomResets:
+  Comment: zone comuni ofidi
+  ProtoRoom: opekus_room_ofidian_common_03
+	Destination:	9 2 -1 opekus
+End
+RoomResets:
+  Comment: zone comuni ofidi
+  ProtoRoom: opekus_room_ofidian_common_04
+	Destination:	9 3 -1 opekus
+End
+RoomResets:
+  Comment: zone comuni ofidi (trivio corridoi scalinata)
+  ProtoRoom: opekus_room_ofidian_common_05
+	Destination:	9 4 -1 opekus
+End
+RoomResets:
+  Comment: zone comuni ofidi
+  ProtoRoom: opekus_room_ofidian_common_06
+	Destination:	10 3 -1 opekus
+End
+RoomResets:
+  Comment: zone comuni ofidi
+  ProtoRoom: opekus_room_ofidian_common_07
+	Destination:	11 3 -1 opekus
+End
+RoomResets:
+  Comment: davanti all'ingresso del tempio (fra i 2 stanzini)
+  ProtoRoom: opekus_room_ofidian_common_08
+	Destination:	12 3 -1 opekus
+End
+RoomResets:
+  Comment: zone comuni ofidi (secondo corridoio da common_05)
+  ProtoRoom: opekus_room_ofidian_common_09
+	Destination:	8 4 -1 opekus
+End
+
+
+
+RoomResets:
+  Comment: stanzino nord prima dell'accesso al tempio
+  ProtoRoom: opekus_room_ofidian_temple_09
+	Destination:	12 4 -1 opekus
+End
+RoomResets:
+  Comment: stanzino crollato a sud prima dell'accesso al tempio
+  ProtoRoom: opekus_room_ofidian_temple_10
+	Destination:	12 2 -1 opekus
+End
+RoomResets:
+  Comment: navata centrale dentro al tempio (lato ingresso)
+  ProtoRoom: opekus_room_ofidian_temple_11
+	Destination:	13 3 -1 opekus
+End
+RoomResets:
+  Comment: navata centrale dentro al tempio (lato est)
+  ProtoRoom: opekus_room_ofidian_temple_12
+	Destination:	14 3 -1 opekus
+End
+RoomResets:
+  Comment: navata laterale sx dentro al tempio (lato west)
+  ProtoRoom: opekus_room_ofidian_temple_13
+	Destination:	13 4 -1 opekus
+End
+RoomResets:
+  Comment: navata laterale dx dentro al tempio (lato west)
+  ProtoRoom: opekus_room_ofidian_temple_14
+	Destination:	13 2 -1 opekus
+End
+
+RoomResets:
+  Comment: alcova corridoio a sud della temple_14
+  ProtoRoom: opekus_room_ofidian_alcova_02
+	Destination:	13 1 -1 opekus
+End
+RoomResets:
+  Comment: alcova corridoio U
+  ProtoRoom: opekus_room_ofidian_alcova_03
+	Destination:	14 0 -1 opekus
+End
+RoomResets:
+  Comment: alcova corridoio a sud della temple_17
+  ProtoRoom: opekus_room_ofidian_alcova_04
+	Destination:	15 1 -1 opekus
+End
+RoomResets:
+  Comment: navata laterale dx dentro al tempio (lato est)
+  ProtoRoom: opekus_room_ofidian_temple_15
+	Destination:	14 2 -1 opekus
+End
+RoomResets:
+  Comment: alcova del sacerdote a sud della temple_15
+  ProtoRoom: opekus_room_ofidian_alcova_01
+	Destination:	14 1 -1 opekus
+End
+RoomResets:
+  ProtoRoom: opekus_room_ofidian_alcova_01-sarcofago
+	Destination:	14 1 -2 opekus
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: opekus_item_anello-occhio-01
+	End
+End
+RoomResets:
+  Comment: navata laterale sx dentro al tempio (lato est)
+  ProtoRoom: opekus_room_ofidian_temple_16
+	Destination:	14 4 -1 opekus
+End
+RoomResets:
+  Comment: navata laterale a sud del ciborio (accesso al tunnel subacqueo ed all'alcova)
+  ProtoRoom: opekus_room_ofidian_temple_17
+	Destination:	15 2 -1 opekus
+End
+RoomResets:
+  Comment: tunnel subacqueo
+  ProtoRoom: opekus_room_ofidian_immersa_01
+	Destination:	16 1 -1 opekus
+End
+RoomResets:
+  Comment: tunnel subacqueo
+  ProtoRoom: opekus_room_ofidian_immersa_02
+	Destination:	17 1 -1 opekus
+End
+RoomResets:
+  Comment: tunnel subacqueo
+  ProtoRoom: opekus_room_ofidian_immersa_03
+	Destination:	17 0 -1 opekus
+End
+
+RoomResets:
+  Comment: navata laterale a nord del ciborio
+  ProtoRoom: opekus_room_ofidian_temple_18
+	Destination:	15 4 -1 opekus
+End
+RoomResets:
+  Comment: la cupola dell'ordalia
+  ProtoRoom: opekus_room_ofidian_temple_19
+	Destination:	16 3 -1 opekus
+End
+RoomResets:
+  Comment: la cupola dell'ordalia
+  ProtoRoom: opekus_room_ofidian_temple_20
+	Destination:	17 3 -1 opekus
+End
+RoomResets:
+  Comment: flutti finti
+  ProtoRoom: opekus_room_ofidian_onde_01
+	Destination:	18 4 -1 opekus
+End
+RoomResets:
+  Comment: crollo
+  ProtoRoom: opekus_room_ofidian_onde_02
+	Destination:	19 4 -1 opekus
+End
+
+RoomResets:
+  Comment: scala navata laterale sx dentro al tempio (lato west)
+  ProtoRoom: opekus_room_ofidian_temple_scala-sx-01
+	Destination:	13 4 0 opekus
+End
+RoomResets:
+  Comment: scala navata laterale sx dentro al tempio (lato west)
+  ProtoRoom: opekus_room_ofidian_temple_scala-sx-02
+	Destination:	13 4 1 opekus
+End
+RoomResets:
+  Comment: scala navata laterale sx dentro al tempio (lato west)
+  ProtoRoom: opekus_room_ofidian_temple_scala-sx-03
+	Destination:	13 4 2 opekus
+End
+
+RoomResets:
+  Comment: secret sulla scala
+  ProtoRoom: opekus_room_ofidian_temple_secret-01
+	Destination:	13 5 1 opekus
+End
+RoomResets:
+  Comment: secret sulla scala
+  ProtoRoom: opekus_room_ofidian_temple_sacello-01
+	Destination:	13 6 1 opekus
+End
+
+RoomResets:
+  Comment: oratorio lato nord
+  ProtoRoom: opekus_room_ofidian_oratorio_corridoio-01
+	Destination:	14 4 2 opekus
+End
+RoomResets:
+  Comment: oratorio lato nord
+  ProtoRoom: opekus_room_ofidian_oratorio_cella-01
+	Destination:	14 5 2 opekus
+	EntityResets:
+		Quantity:	2
+		Type:		RESET.PUT
+		ProtoEntity:	opekus_item_asse-giaciglio
+                Probability:	80%
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	opekus_item_paglia
+		End
+	End
+End
+
+RoomResets:
+  Comment: oratorio lato nord
+  ProtoRoom: opekus_room_ofidian_oratorio_corridoio-02
+	Destination:	15 4 2 opekus
+End
+RoomResets:
+  Comment: oratorio lato nord
+  ProtoRoom: opekus_room_ofidian_oratorio_cella-02
+	Destination:	15 5 2 opekus
+	EntityResets:
+		Quantity:	3
+		Type:		RESET.PUT
+		ProtoEntity:	opekus_item_asse-giaciglio
+                Probability:	80%
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	opekus_item_paglia
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	opekus_item_asse-giaciglio
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	opekus_item_paglia-container
+			EntityResets:
+				Quantity:	1
+				Type:		RESET.PUT
+				ProtoEntity:	opekus_item_chiave-sacello
+			End
+		End
+	End
+End
+
+RoomResets:
+  Comment: oratorio lato nord
+  ProtoRoom: opekus_room_ofidian_oratorio_corridoio-03
+	Destination:	16 4 2 opekus
+End
+RoomResets:
+  Comment: oratorio lato nord
+  ProtoRoom: opekus_room_ofidian_oratorio_cella-03
+	Destination:	16 5 2 opekus
+	EntityResets:
+		Quantity:	2
+		Type:		RESET.PUT
+		ProtoEntity:	opekus_item_asse-giaciglio
+                Probability:	80%
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	opekus_item_paglia
+		End
+	End
+End
+
+RoomResets:
+  Comment: oratorio lato nord
+  ProtoRoom: opekus_room_ofidian_oratorio_corridoio-04
+	Destination:	17 4 2 opekus
+End
+RoomResets:
+  Comment: oratorio lato nord
+  ProtoRoom: opekus_room_ofidian_oratorio_cella-04
+	Destination:	17 5 2 opekus
+	EntityResets:
+		Quantity:	2
+		Type:		RESET.PUT
+		ProtoEntity:	opekus_item_asse-giaciglio
+                Probability:	80%
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	opekus_item_paglia
+		End
+	End
+End
+RoomResets:
+  Comment: oratorio lato nord
+  ProtoRoom: opekus_room_ofidian_oratorio_tempio
+	Destination:	17 6 2 opekus
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	opekus_item_altare-tempio-oratorio
+	End
+End
+
+RoomResets:
+  Comment: oratorio lato nord
+  ProtoRoom: opekus_room_ofidian_oratorio_corridoio-05
+	Destination:	18 4 2 opekus
+End
+

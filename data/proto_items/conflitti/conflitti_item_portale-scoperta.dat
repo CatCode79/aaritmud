@@ -1,0 +1,66 @@
+Code: conflitti_item_portale-scoperta
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.VOID	80
+MaterialPercentages:	MATERIAL.ENERGY	20
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+Name:	Un Desiderio di Scoperta
+Short:	un desiderio di scoperta
+Long:	Ti senti nell'anima $N, vorresti entrare per assecondarlo
+
+KeywordsName: scoperta
+KeywordsShort: scoperta
+
+
+Descr:
+Un intenso desiderio di scoperta, di conoscere cosa ci sta oltre, ti spinge ad intraprendere questa strada. Senti un'inquietudine che proviene non sai da dove che ti spinge verso l'ignoto. Stupenda via sconosciuta, ma percorsa con curiosità e piacere, verso possibili luoghi inesplorati che provocano stupore e meraviglia.
+DescrTouch:
+Il piacere della scoperta ha una morbidezza che avvolge la mente. 
+
+DescrSmell:
+Il profumo dell'ignoto e della meraviglia è irresistibile.
+
+DescrSixth:
+L'idea che ti invade la mente è quella del viaggio, un lungo viaggio su rotte sconosciute di cui non conosci le coordinate e attraverso territori di cui non hai le mappe. Un gioco continuo in cui perdersi e ritrovarsi diventa l'essenza stessa della vita. 
+DescrHearing:
+Suoni che provengono da luoghi lontani e inesplorati come canti di [red]sirene incantatrici[close]
+
+DescrTaste:
+Assaggi il gusto dolce del piacere della scoperta.
+
+Value:	0
+Weight: 10g
+
+Extras: 
+	Keywords: Sirene incantatrici
+	Descr:
+ Creature marine che conquistano con il loro canto; metà donne e metà pesci dalla lunga coda ricoperta di squame di colore verde. Guardandole da lontano appaiono bellissime e dai tratti delicati; man mano che ti avvicini si delineano dei volti la cui rudezza è paragonabile a quella degli scogli che sono la loro dimora. Ma se sei arrivato così vicino non avrai modo di raccontare a nessuno di questa tua scoperta. 
+ 
+	DescrSmell:
+ Un odore intenso di mare ti fa mancare il respiro.
+ 
+	DescrHearing:
+ Un canto dolce che incanta proviene da queste particolari creature
+ 
+	DescrTouch:
+ Non avrai modo di toccare le Sirene se non rischiando di provocare una loro inaspettata 
+ reazione. 
+	DescrTaste:
+ Assaggiare una Sirena non è opportuno
+	DescrSixth:
+ Giungendo in prossimità delle Sirene incantatrici, che ammaliano uomini e donne con il loro canto melodioso, sei ignaro del fatto che colui che vi si accosta difficilmente potrà tornare alle familiari dimore. Affascinano con il loro limpido canto distese su di uno scoglio e tutto intorno a loro mucchi di ossa.
+End
+
+PortalType:
+	Destination: 2 7 1 citta-raminghe
+	EntityEnterMessage: Non fai in tempo a decider d'entrare che $N decide per te!
+	TargetEnterMessage: $n decide d'attraversarti e lo anticipi repentinamente.
+	OthersEnterMessage: $N si piega avvolgendo $n che sparisce consumat$o in una vampata.
+	EntityExitMessage: La vampa lucente sparisce e ti trovi catapultat$o altrove.
+	TargetExitMessage: Ora $n è sparit$o da $T finendo in $t.
+	OthersExitMessage: In una vampa di luce azzurra appare $n.
+End
+
+

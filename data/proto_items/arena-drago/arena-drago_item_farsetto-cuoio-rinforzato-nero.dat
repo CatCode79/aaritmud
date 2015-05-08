@@ -1,0 +1,32 @@
+Code:	arena-drago_item_farsetto-cuoio-rinforzato-nero
+Level:	06
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.LEATHER 90%
+MaterialPercentages:	MATERIAL.CLOTH 10%
+Sex:	SEX.MALE
+Name:	Un Farsetto di [gray]Cuoio[close]
+Short:	un farsetto di [gray]cuoio[close]
+
+Value:	0
+Weight: 10g
+
+Descr:
+Un semplice farsetto di cuoio [gray]nero[close] leggero e senza maniche.
+
+WearType:
+   Modes: PART.BODY
+End
+
+Comment:
+§27716
+
+Dati Obj
+A17 -20A50 5
+9 16|512|4194304|8388608|16777216|67108864|134217728|2147483648 1|89 4 5 01 15000 2000
+Extras:
+	Keywords:	farsetto
+	Descr:
+		quello  che  da  lontano poteva sembrare un rarissimo farsetto inpelle  di [gray]drago
+		nero[close] risulta, una volta analizzato da vicino, un semplice  farsetto  in  cuoio
+		tinto  in  colore  [gray]nero[close] con molta maestria. 
+End

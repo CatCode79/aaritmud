@@ -1,0 +1,33 @@
+Code: novizi2_item_amuleto-vasuki
+
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.LEATHER	100%
+Name:	Un [darkolivegreen]Amuleto[close] di Pelle di Vasuki 
+Short:	un [darkolivegreen]amuleto[close] in pelle
+Long:	$N appeso ad un conrdoncino.
+
+Descr:
+Una striscia di [darkolivegreen]pelle[close] rigida e squamosa con dipinti dei [darkred]simboli[close] geometrici; ad una delle estremità è collegata un nastrino, anch'esso di pelle, ma sottile e flessibile.
+DescrTouch: 
+Un pezzo di pelle rigida ed estremamente liscia, coglia appena le squame in rilievo sotto le dita.
+DescrSmell: 
+Puzza di serpente.
+DescrSixth:
+Il Vasuki è un rettile dal metabolismo molto lento tanto da poter rimanere a digiuno per molti mesi. Si dice che indossare un pezzo della sua pelle conferisca le stesse proprietà.
+
+Value:	117
+Weight: 10g
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+	Modes:	PART.NECK
+	EntityWearMessage:	Sollevi con ambo le $hands $N e te l$O porti %part.
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	$n solleva $N con ambo le $hands e se l$O porta %part.
+	EntityRemoveMessage:	Sfili $N facendolo passare per la testa.
+	TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+	OthersRemoveMessage:	$n sfila $N dalla testa.
+End

@@ -1,0 +1,35 @@
+Code: cimitero_room_collina-tomba-urkim-a04
+Sector: SECTOR.HILL
+Name: La tomba di Mirna
+Short: una piccola tomba inviolata
+
+Descr:
+Ti accoglie un ambiente a metà scavato nella nuda roccia ed a metà realizzato in conci argentati. Soffitto e pavimentazione sono specularmente decorati con un mosaico colorato; la figura rappresentata è una pianta verde e blu con ai lati i simboli della casata.
+
+Al centro della camera un basamento in pietra policroma sostiene il pesante sarcofago.
+
+DescrTouch:
+La camera a pianta quadrata alterna pareti rocciose a pareti in conci lisci e ordinatamente disposti.
+La pavimentazione realizzata in mosaico gira attorno sarcofago centrale posto su di una piattaforma.
+
+DescrSmell: 
+Un sentore stantio stratificato nel tempo, rischia di farti venir meno.
+
+DescrSixth:
+Il simbolo della casate è un pianta di aglio selvatico riportato nei mosaici e stilizzato in uno dei simboli.
+
+Extras:
+	Keywords:	basamento piattaforma
+	Descr:
+	Edificato al centro della camera, si tratta di un basamento in pietra policorma.
+End
+
+Width:	6m
+Depth:	6m
+Height: 6m
+
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	Il corridoio
+	Door:	cimitero_item_door-tomba-mirna
+End

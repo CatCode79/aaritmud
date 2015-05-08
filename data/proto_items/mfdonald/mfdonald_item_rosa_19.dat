@@ -1,0 +1,32 @@
+Code: mfdonald_item_rosa_19
+Level: 1
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.FLOWER	80%
+MaterialPercentages:	MATERIAL.VEGETABLE	20%
+Name: [white]@[lime])}--^----[close] 
+Short: [white]@[lime])}--^----[close]
+Long:	$N [lime]-[close]
+KeywordsName: rosa
+
+KeywordsShort: rosa
+
+
+Descr:
+Una rosa bianca recisa di netto con un'arma da taglio.
+
+Value:	8
+Weight: 50g
+
+DescrTouch: 
+Una $hand attenta ha privato la rosa di quasi tutti i suoi aculei
+DescrSmell: 
+Profuma di gatto bagnato
+DescrSixth:
+Che sia stato un felar a reciderla?
+
+WearType:
+   Modes: PART.BREAST
+End
+
+

@@ -1,0 +1,35 @@
+Code: villaggio-zingaro_item_cartello-01
+
+Level:	1
+Entitype: ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.PAPER 100%
+Name:	Un Cartello Giallo con una Scritta Nera
+Short:	un cartello ripiegato
+Long:	$N esposto in bella vista.
+
+Descr:
+Un [yellow]foglio[close] piegato a metà per poter stare in piedi. Sulla parte esposta vi è una scritta in grandi caratteri neri
+DescrTouch:
+Un foglio di carta piegato a metà devi stare attento a non tagliarti toccandone i bordi con le dita.
+
+Extras:
+	Keywords: scritta
+	Descr:
+<pre class="asciiart">
+[yellow]*---------------------------------------------------------*[close]
+[yellow]|[close] _  _ ____ _  _    ___ ____ ____ ____ ____ ____ ____   / [yellow]|[close]
+[yellow]|[close] |\ | |  | |\ |     |  |  | |    |    |__| |__/ |___  /  [yellow]|[close]
+[yellow]|[close] | \| |__| | \|     |  |__| |___ |___ |  | |  \ |___.   [yellow]|[close]
+[yellow]|[close]                                                         [yellow]|[close]
+[yellow]*---------------------------------------------------------*[close]                                                      
+</pre>
+End
+
+Value:	0
+Weight: 2g
+
+
+
+
+

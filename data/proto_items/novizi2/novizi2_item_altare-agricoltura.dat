@@ -1,0 +1,23 @@
+Code: novizi2_item_altare-agricoltura
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+MaterialPercentages:	MATERIAL.STONE	100%
+Name:	L'Altare all'Agricoltura
+Short:	un altare
+Long:	$N in pietra
+
+Descr:
+Diverse pietre sono state utlizzate per scolpire i pezzi che costituiscono nel suo insieme uno spaccato di vita contadina.
+Inserti policromi ocra e rossi su pietra bianca sono a rappresentare campi lavorati e greggi al pascolo
+Nucleo centrale superiore è una magione in altorilievo, centro nevralgico e punto focale della rappresentazione.
+
+DescrTouch:
+Diverse pietre sono state utlizzate per scolpire i pezzi che costituiscono nel suo insieme uno spaccato di vita contadina.
+Inserti leggermente in riliev sono a rappresentare, con tratto schematico, campi lavorati e greggi al pascolo.
+Nucleo centrale superiore è una magione in altorilievo, centro nevralgico e punto focale della rappresentazione.
+
+Value:	0
+Weight: 700kg

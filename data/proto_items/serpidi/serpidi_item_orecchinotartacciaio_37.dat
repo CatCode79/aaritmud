@@ -1,0 +1,22 @@
+Code:	serpidi_item_orecchinotartacciaio_37
+Level:	1
+Entitype: ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.STEEL	100%
+Name:	Un Orecchino di Tartacciaio 
+Short:	un orecchino di tartacciaio 
+Descr: 
+è un cerchietto irregolare d'acciaio opaco.  
+Value:	0
+Weight: 80g
+BirthDay: 1
+BirthMonth: MONTH.TEN
+WearType:
+        Modes: PART.LEFT_EAR
+        Modes: PART.RIGHT_EAR
+		Modes: PART.BELLYBUTTON
+		Modes: PART.NOSE
+End
+
+
+
+

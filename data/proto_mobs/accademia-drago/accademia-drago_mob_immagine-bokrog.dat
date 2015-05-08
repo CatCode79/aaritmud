@@ -1,0 +1,71 @@
+Code:	accademia-drago_mob_immagine-bokrog
+Level:	03
+Sex:	SEX.MALE
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT FLAG.NO_GET
+Race:	RACE.DWARF
+Name:	Il Generale Bokrog
+Short:	un nano
+Long:	$N corre a destra e manca sulle mura sbraitando improperi.
+
+Descr:
+Questo  nano  sembra  un  pazzo furioso, stacorrendo per tutte le
+mura  urlando e sbraitando cose irripetili, dirette sia ai nemici
+che ai suoi uomini.....
+Weight: 1kg
+Height: 160cm
+
+BirthDay: 22
+BirthMonth: MONTH.TWO
+Age: 9
+
+Behaviour:
+	LookPlayer:	0
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+Comment:
+2|4194304|8388608 128|33554432 0 A 3
+37 -6 -10 200 1d1+10
+-1 0 60 29
+8 8 4 32 8192 0
+
+
+
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

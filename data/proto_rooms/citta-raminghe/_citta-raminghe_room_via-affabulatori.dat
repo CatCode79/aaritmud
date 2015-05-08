@@ -1,0 +1,65 @@
+Comment:	Room 11
+
+Code:	citta-raminghe_room_via-affabulatori
+Sector:	SECTOR.CITY
+Flags:	ROOM.SAFE ROOM.AMPLIFY ROOM.NO_GETALL
+Name:	[red]Via degli Affabulatori[close]
+Short:	[red]una strada letteraria[close] rumorosa
+ShortNight:	[red]una strada letteraria[close] sussurrante
+
+Descr:
+Gruppi di persone ad ascoltare qualcuno che racconta delle storie o attratti dalle rime cadenzate di un
+ [yellow]poeta[close]. Bancarelle ricolme di libri e di antiche pergamene. Qualcuno è seduto sulle panchine disposte ai lati
+della strada a consultare  preziosi [gold]manoscritti[close].
+C'è chi comincia a raccontarti una storia, forse la propria o forse solamente inventata, dalla trama
+avvincente e che ti tiene con il fiato sospeso.... Avventure, ricordi e leggende si librano nell'aria alla
+ricerca di un luogo dove depositarsi e prender forma, per poi riprendere il volo verso altre menti ed altre
+memorie sedimentate nel tempo.
+DescrNight:
+La strada è animata, nonostante l'ora. È illuminata da poche lampade ad olio. Seduti, ad ascoltare il cantastorie, piccoli
+ gruppi di nottambuli letterari. Le storie, con le loro ombre sinistre, volteggiano nell'aria e si accostano suscitando
+sobbalzi di sorpresa.
+DescrSmell:
+Da dove proviene questo profumo intensissimo di cannella e cardamomo che aleggia nell'aria? Noti un banco vicino a te dove
+una giovane fanciulla prepara dolci speziati.
+DescrSmellNight:
+Avverti un vago e leggero profumo di dolci speziati preparati durante il giorno da una giovane fanciulla.
+
+DescrTaste:
+Ti avvicini al banco dei dolci speziati e ne assaggi qualcuno: una crema che sa di vaniglia, un dolce che ti seduce con il
+sapore della cannella, una fetta di torta che sa di anice stellato.
+DescrTasteNight:
+Un banco di dolci speziati attira la tua attenzione. Ma adesso è chiuso, non c'è la fanciulla che li vende. Avresti il
+desiderio di assaggiare un dolce alla cannella o una crema alla vaniglia... Dovrai rimandare a quando si farà giorno,subito dopo che l'alba colorerà di rosso il cielo. Forse l'attesa aumenterà il tuo desiderio.
+DescrSixth:
+Da tempo questo luogo accoglie le storie di avventurieri, viaggiatori, gente di passaggio.
+Alcuni pensano che si abbia sempre una possibilità di salvezza se si ha da parte una buona storia e qualcuno disposto ad
+ascoltarla. Ripensi alle tue di storie, alle tue avventure, alle tue esperienze. Non avevi mai preso in considerazione forse l'idea di poterle raccontare a qualcuno. Ma forse sì... ed ecco che questo pensiero si insinua nella tua mente,
+scavi nella tua memoria, ripercorri i tuoi ricordi, quelle volte in cui emozioni intense ti hanno attraversato la mente e
+il cuore e che avrebbero desiderato parole per essere contenute.
+DescrHearing:
+Cantilene, storie, versi ritmici. È ciò che percepisci adesso. Suoni che arrivano al tuo orecchio,
+che raggiungono la tua mente, che a volte seducono la tua anima.
+
+MobBehaviour:
+RandomDo:	100
+RandomDoInputs:	emote apre il baule, vi mette dentro qualcosa e lo richiude...
+RandomDoInputs:	emote si avvicina al banco dei dolci speziati e mangia una crema alla vaniglia...
+RandomDoInputs:	emote si ferma ad ascoltare uno strano tizio che racconta storie inverosimili...
+RandomDoInputs:	emote prende un manoscritto da una bancarella e lo sfoglia...
+RandomDoInputs:	scrive sul suo taccuino una storia che pensa di raccontare all'imbrunire ai viaggiatori di passaggio...
+RandomDoInputs:	ti racconta una storia raccapricciante.
+End
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Exits:
+	Direction:	DIR.EAST
+	Descr:	cinta muraria
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	una piazza
+End

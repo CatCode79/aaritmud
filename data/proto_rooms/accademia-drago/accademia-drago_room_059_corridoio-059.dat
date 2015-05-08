@@ -1,0 +1,114 @@
+Code:	accademia-drago_room_059_corridoio-059
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Un Corridoio
+Short:	un corridoio
+	Descr:
+Sei arrivat$o alla fine del corridoio, ad est ed ovest si aprono
+ancora porte in legno chiaro mentre a sud la via è chiusa.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 0
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	un corridoio
+	Comment:	ExitStatus	0 0 057 -1
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	le camerate [white]bianche[close]
+	Comment:	ExitStatus	1 0 063 -1
+	Door:		ikea_item_porta
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	le camerate [white]bianche[close]
+	Comment:	ExitStatus	1 0 060 -1
+	Door:		ikea_item_porta
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

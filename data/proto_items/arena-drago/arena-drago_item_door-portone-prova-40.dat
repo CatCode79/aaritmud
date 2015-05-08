@@ -1,0 +1,31 @@
+Code: arena-drago_item_door-portone-prova-40
+Level: 1
+Entitype:	ENTITYPE.DOOR
+MaterialPercentages:	MATERIAL.HARDWOOD 100%
+Sex:	SEX.MALE
+Name:	Il Portone d'Accesso 
+Short:	un portone
+Long:	$N è a terra in frantumi.
+
+Descr:
+Un grosso portone in legno con cerniere metalliche. 
+
+Value:	0
+Weight: 70kg
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Apri $N spingendo con forza.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N spingendo con forza.
+	EntityCloseMessage:	Richiudi $N.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n chiude $N.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE DOOR.LOCKED
+	KeyCode:	arena-drago_item_chiave-pietra
+End
+
+

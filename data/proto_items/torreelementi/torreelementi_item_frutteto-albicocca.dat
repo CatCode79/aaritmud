@@ -1,0 +1,33 @@
+Code: torreelementi_item_frutteto-albicocca
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.FRUIT	100%
+Name:	Una Succosa Albicocca
+Short:	un'albicocca
+Long:	$N è caduta qui senza apparenti ammaccature.
+
+Descr:
+Un'albicocca con ancora quella parvenza di picciolo a peduncolo.
+DescrTouch: 
+Un'albicocca morbida e pelosina.
+DescrSmell: 
+Un vago profumo che sai discernere solo in virtù di ciò che vedi.
+DescrSixth:
+Un profondo desiderio d'essere mangiato trasuda da questa albicocca.
+DescrTaste:
+Un'albicocca dolce dolce.
+
+Value:	0
+Weight: 20g
+
+FoodType:
+	Comment:	cibo
+	Animal:	0
+	Vegetable:	100
+	CookingDamage:	20
+	Hours:	0
+End
+
+

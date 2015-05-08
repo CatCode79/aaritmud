@@ -1,0 +1,66 @@
+Code:	arena-drago_room_56-ingresso-gladiatori
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	L'Ingresso dei Gladiatori
+Short:	l'ingresso dei gladiatori
+	Descr:
+Un piccolo sentiero sterrato giunge fino ad un grosso portone
+rinforzato, sembrerebbe trattarsi di un ingresso secondario
+dell'arena, probabilmente utilizzato dai gladiatori non facenti
+parte dei cavalieri. il sentiero si muove verso nord.
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 2
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	Portone
+	Comment:	ExitStatus	1|16|32|512 27707 27745 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

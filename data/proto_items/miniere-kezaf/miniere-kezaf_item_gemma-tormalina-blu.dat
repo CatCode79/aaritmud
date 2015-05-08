@@ -1,0 +1,20 @@
+Code: miniere-kezaf_item_gemma-tormalina-blu
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_tourmalineblue.png
+Name:	Una [blue]Tormalina Blu[close] 
+Short:	una pietra [blue]grigiastra[close] tendente al [blue]blu[close] [blue]intenso[close]
+Long:	$N sta qui
+
+Descr:
+Sporge con vitrea lucentezza da un pezzo d'anonima roccia che la include parzialmente ma non ne offusca il colore blu intenso.
+
+Value:	0
+Weight: 160g
+
+
+
+

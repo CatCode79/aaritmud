@@ -1,0 +1,41 @@
+Code: citta-raminghe_room_03-salita
+Sector: SECTOR.CITY
+Name: [lightsalmon]Una stretta via in salita[close]
+Short: [lightsalmon]una stretta via in salita[close]
+
+Descr:
+Una stradina che procede in salita verso la cima di un colle.
+Lateralmente numerose costruzioni basse dalle facciate colorate si susseguono senza interruzione. Qualche pianta ornamentale è posta davanti la porta d'ingresso di alcune abitazioni e i balconi delle case sono arricchiti con fiori variopinti che
+ ricadono giù rendendo molto piacevole il percorso.
+DescrSixth:
+Alcune porte delle case sono socchiuse ed allora è piacevole notare che oltre la soglia è possibile scorgere
+un giardino inatteso ricco di piante e fiori. Un luogo nascosto alla vista e di cui non immagini l'esistenza.
+Altre porte sono invece chiuse e, osservandole, ti accorgi che ciascuna di esse è decorata con un oggetto che probabilmente
+dà significato alla stessa abitazione lasciandotene intuire la funzione: un [green]caduceo[close] con uno strano meccanismo
+di apertura e chiusura, una [red]mappa[close] della città rovinata dal tempo, un [lime]bassorilievo[close]
+raffigurante un [salmon]falco in volo[close].
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+        Direction: DIR.EAST
+        Descr:  [gold]Un teatro a semicerchio[close]
+End
+Exits:
+        Direction: DIR.WEST
+        Descr: [red]Una strada tortuosa[close]
+End
+Exits:
+        Direction: DIR.SOUTH
+        Descr: Una strada
+End
+Exits:
+        Direction: DIR.NORTHEAST
+        Descr: Una piazzetta
+End
+Exits:
+        Direction: DIR.SOUTHEAST
+        Descr: [gold]Accademia[close]
+End

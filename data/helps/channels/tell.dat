@@ -1,0 +1,14 @@
+Code: tell
+
+ItalianKeywords: comunica
+EnglishKeywords: tell
+
+Entitype: HELP.CHANNEL
+
+Text:
+Questo comando serve a parlare con un altro giocatore senza aver bisogno di
+seguire le regole dell'interpretazione del personaggio (il GDR).
+Il canale non è quindi GDR.
+
+
+SeeAlso: channels gtell

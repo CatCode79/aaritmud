@@ -1,0 +1,59 @@
+Code: cimitero_item_altare_pietra
+Level: 1
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.MARBLE 100%
+Sex:	SEX.FEMALE
+Name:	Un Altare di Pietra
+Short:	un altare di pietra
+Long:	$N è qui infisso a terra
+
+
+Descr:
+Imponente e austero, formato da un unico blocco di pietra dura molto simile 
+al marmo, meno luminosa ma con un suo fascino. Questo altare è leggermente
+rovinato sui lati e gli angoli sono tutti smussati. La base presenta una 
+scanalatura sempre in pietra che gira tutta intorno andando poi a perdersi
+su un lato della stanza fino quasi a scomparire. Sui lati vi sono due
+incisioni raffiguranti due strani animali, queste sono contrapposte come se 
+si stessero affrontando.
+
+DescrNight:
+Questo imponente e austero altare padroneggia interamente la scena all'interno
+della stanza. Noti i quattro angoli usurati e smussati forse a causa
+dell'incedere del tempo. Alla base una scanalatura gira tutta intorno ad esso.
+Riesci a intravvedere due strane incisioni su due lati, l'una in opposizione
+all'altra.
+
+DescrSmellNight:
+Un forte e nauseante odore di sangue rappreso colpisce subito il tuo olfatto!
+L'odore sembra essere concentrato nella parte superiore dell'altare e lungo
+tutto il percorso della scanalatura.
+
+DescrTouch:
+Toccando l'altare ti accorgi che non presenta scalfiture, se non ai quattro
+angoli che risultano completamente smussati. Sulla lastra che costituisce la
+parte superiore, presenta psoradiche gocce di sangue raggrumato, molto 
+appiccicose.
+
+DescrSixthNight:
+Avverti subito che la maggiore sensazione di morte non proviene dal cimitero, 
+ma decisamente da questo altare.
+
+Value:	0
+Weight: 150kg
+
+Extras:
+	Keywords: scanalatura
+	Descr
+	Questa rientranza nel pavimento passa tutta attorno all'altare, serve 
+	sicuramente per far defluire dell'acqua o altre sostanze liquide verso
+	l'esterno della camera.
+End
+Extras:
+	Keywords: incisione incisioni
+	Descr
+	Sono due incisioni raffiguranti due fiere molto feroci in procinto di 
+	scagliarsi l'una contro l'altra.
+End
+
+

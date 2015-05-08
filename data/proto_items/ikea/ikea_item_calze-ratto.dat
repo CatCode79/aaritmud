@@ -1,0 +1,34 @@
+Code: ikea_item_calze-ratto
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.FUR	100%
+Name:	Un Paio di [saddlebrown]Calzini[close] in Pelo di Ratto.
+Short:	un paio di insoliti [saddlebrown]calzini[close]
+Long:	$N ripiegati alla bell'e meglio.
+
+Descr:
+Un paio di pelosi e curiosi [saddlebrown]calzini marrone scuro[close] di buona fattura.
+DescrTouch: 
+Sono ruvide e sgradevoli al tatto, piuttosto pelose.
+DescrSmell: 
+Non emanano alcun odore particolare.
+DescrTaste:
+Inizi a sputacchiare peli ovunque.
+DescrSixth:
+Pensandoci meglio quei peli ti paiono famigliari ma tenti di scacciare l'idea che possano essere di topo.
+
+Value:	68
+Weight: 39g
+
+WearType:
+        Flags:	WEAR.LAYERABLE
+	Modes:	PART.LEFT_FOOT PART.RIGHT_FOOT
+	EntityWearMessage:	Infili $N %part con un certo fastidio.
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	$n infila $N %part con aria poco convinta.
+	EntityRemoveMessage:	Finalmente ti togli $N.
+	TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+	OthersRemoveMessage:	$n Pare tirare un sospiro di sollievo togliendo $N.
+End

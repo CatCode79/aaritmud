@@ -1,0 +1,35 @@
+Code: brandish
+
+ItalianKeywords: brandisci punta
+EnglishKeywords: brandish zap
+
+Entitype: HELP.GENERIC
+
+Text:
+Il comando $tbrandish serve ad invocare il potere insito in un bastone magico.
+
+Il comando $tquaff permette di bere pozioni (diverso da $tdrink, che serve
+per bere liquidi normali).
+
+Il comando $trecite serve a recitare pergamene magiche; l'inserimento
+ dell'obiettivo può essere opzionale, a seconda della natura dell'incantesimo
+ scritto nella pergamena.
+
+Il comando $tzap spara un incantesimo con una bacchetta magica verso un
+ obiettivo. Se l'obiettivo non è specificato e stai combattendo con qualcuno
+ quest'ultimo sarà usato come obiettivo.
+
+Devi star afferrando una bacchetta o un bastone per $tbrandish o $tzap.
+
+Per tutti questi comandi serve la tipologia di oggetto corretta.
+
+Pozioni e pergamene hanno una singola carica, mentre bacchette e bastoni
+hanno cariche multiple.
+Quando consumi tutte le cariche dell'oggetto magico, questo si consumerà tra
+le tue mani sparendo.
+Usa l'incantesimo '[darkgreen]identify[close]' per vedere quante cariche rimangono, o, se non
+conosci l'incantesimo o non puoi usare la magia, rivolgiti ad un negoziante
+mago che dietro congruo compenso ti darà le informazioni richieste.
+
+
+SeeAlso: recharge

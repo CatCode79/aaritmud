@@ -1,0 +1,66 @@
+Code:	arena-drago_room_57-cunicolo
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il Cunicolo
+Short:	il cunicolo
+	Descr:
+Ti trovi in fondo a delle scale che si muovono rasenti ad una
+parete, la prima parte di discesa in pietra e legno, poi dopo
+cinque o sei metri di dislivello le scale divengono un vero e
+proprio lavoro di scavo nella roccia. davanti a te si apre un
+cunicolo scuro e misterioso che prosegue verso ovest.
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	1|64 0
+Exits:
+	Direction:	DIR.WEST
+	Descr:	le fauci
+	Comment:	ExitStatus	0 0 27758 -1
+End
+Exits:
+	Direction:	DIR.UP
+	Descr:	un corridoio
+	Comment:	ExitStatus	0 0 27751 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

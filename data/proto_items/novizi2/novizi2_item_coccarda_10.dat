@@ -1,0 +1,28 @@
+Code: novizi2_item_coccarda_10
+Level: 1
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.SILK	100%
+Icon:	icons/item/coccarda-blu.png
+Name: La [powderblue]Coccarda[close] di [powderblue]Benvenuto [red]A[gold]aritiana[close] 
+Short: una [powderblue]coccarda[close] di [powderblue]benvenuto[close]
+Long:	$N fluttua gentile e silenziosa nell'aria
+
+Descr:
+Una coccarda di velluto [powderblue]sbiadita[close], probabilmente è un difetto.
+DescrTouch: 
+Una morbidissima coccarda in velluto liscio.
+DescrSmell: 
+La coccarda puzza un po' di [brown]stantio[close].
+DescrSixth:
+È la gioia dei collezionisti, un oggetto non riuscito secondo le specifiche e
+probabilmente raro perché verrà ritirato.
+
+Value:	0
+Weight: 10g
+
+WearType:
+   Modes: PART.LEFT_LITTLE_FINGER
+End
+
+

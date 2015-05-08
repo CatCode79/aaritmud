@@ -1,0 +1,114 @@
+Code:	accademia-drago_room_023_laboratorio-oscuro-023
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	[gray]Il[close] [gray]Laboratorio Oscuro[close]
+Short:	[gray]il[close] [gray]laboratorio oscuro[close]
+	Descr:
+Metti piede in un luogo tetro ed oscuro, vapori nefasti si alzano
+da una miriade di alambicchi, enormi tomi dall'aria antica sono
+sparsi su una grossa scrivania o riposti su scaffalature che
+sembrano essere sospese nel nulla. Al centro di un pentacolo
+disegnato sul pavimento siede un uomo che indossa una tunica
+porpora. Sei proprio curioso di leggere chi sia, e il solito
+volumetto è li per darti tutte le risposte...
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 0
+Exits:
+	Direction:	DIR.SOUTH
+	Destination:	2 -3 0 accademia-drago
+	Descr:	[yellowgreen]la caverna[close]
+	Comment:	ExitStatus	0 0 034 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Destination:	0 -1 0 accademia-drago
+	Descr:	l'accesso al museo
+	Comment:	ExitStatus	0 0 013 -1
+End
+Extras:
+	Keywords:	volumetto
+		Descr:
+Siate cauti o visitatori, siete appena entrati nel laboratorio
+del grande mago Arialko, quest'uomo fu il primo sostenitore della
+causa di Ghorm, e la sconfitta del drago nero fu anche la sua.
+Dopo la caduta, quando tutto per le forze dei troll cominciò a
+sfaldarsi, la sua torre fu trovata deserta... solo un'incisione
+nel suo laboratorio era stata lasciata:
+
+ "le porte del tempo sono tante, tremate"
+
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

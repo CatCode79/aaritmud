@@ -1,0 +1,74 @@
+Code: karpuram_mob_guerriero_01
+Level: 18
+
+Sex:	SEX.MALE
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Un Elfo Guerriero
+Short: un elfo guerriero
+Long:	$N è di pattuglia
+Race: RACE.WOODELF
+
+Descr:
+La [silver]cotta di maglia[close] di fattura elfica indossata con orgoglio da 
+questo elfo attira subito la tua attenzione, sul fianco noti anche un fodero 
+legato a una cinta di cuoio scuro nel quale fuoriesce l'elsa di una corta spada.
+Un elfo guerriero si distingue oltre che per il suo abbigliamento improntato al
+combattimento, anche per i lineamenti duri e fieri. Lo sguardo vigile e gli
+[navy]occhi[close] di un blu intenso.
+
+DescrSixth:
+Avverti una grande forza d'animo e determinazione nell'agire
+
+
+
+
+
+Behaviour:
+	LookPlayer:	10
+	LookMob:	10
+	LookItem:	10
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	5
+	LookDirection:	5
+	LookExit:	20
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	50
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NORTH DIR.NORTHEAST DIR.EAST DIR.SOUTHEAST DIR.SOUTH DIR.SOUTHWEST DIR.WEST DIR.NORTHWEST DIR.DOWN DIR.UP
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+Weight: 60kg
+Height: 180cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 134
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

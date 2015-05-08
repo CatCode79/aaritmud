@@ -1,0 +1,6 @@
+FunName:   skill_thundering
+Type:      CMDTYPE.SKILL
+Trust:     TRUST.PLAYER
+Position:  POSITION.REST
+Flags:     CMDFLAG.INTERACT
+MiniHelp:  Permette di tuonare qualcosa a qualcuno, se fatto in combattimento la voce tonante potrebbe intontire l'avversario.

@@ -1,0 +1,323 @@
+# -*- coding: utf-8 -*-
+
+# Fonte della quest:
+# http://www.youtube.com/watch?v=MOmyIHhew-A
+
+
+#= IMPORT ======================================================================
+
+import re
+
+from twisted.internet import reactor
+
+from src.enums import ENTITYPE
+from src.game import game
+from src.utility import is_same, myrandint
+
+from src.commands.command_drop import command_drop
+from src.commands.command_eat import command_eat
+from src.commands.command_emote import command_emote
+from src.commands.command_look import command_look
+from src.commands.command_murmur import command_murmur
+from src.commands.command_say import command_say
+from src.commands.command_yell import command_yell
+
+
+#= COSTANTI ====================================================================
+
+# Questo regex pattern serve a rimuovere tutti i caratteri non alfabetici
+# o spazi da una stringa, e la volcale accentata di "sì"
+ALFA_ONLY_PATTERN = re.compile("[^a-zA-Zì ]+")
+
+
+#= FUNZIONI ====================================================================
+
+def start_charlie_banana_quest(player, to_room):
+    # Charlieeee! Evita i non player, Charlieeee!
+    if not player.IS_PLAYER:
+        return
+
+    # Charlieeee! Fatti cercare, Charlieeee!
+    for charlie in to_room.mobs:
+        if charlie.code.startswith("mfdonald_mob_unicorno-charlie"):
+            break
+    else:
+        # Charlieeee! Non sei stato trovato, Charlieeee!
+        return
+
+    # Charlieeee! Ignora il giocatore ogni tanto, Charlieee!
+    if myrandint(1, 3) == 1:
+        return
+
+    # Charlie tra qualche secondo implorerà il giocatore di aiutarlo
+    reactor.callLater(myrandint(2, 4), beg_the_player, charlie, player)
+#- Fine Funzione -
+
+
+def beg_the_player(charlie, player):
+    # Se charlie e il giocatore non si trovano più nella stessa zona allora esce
+    if charlie.contained_by != player.contained_by:
+        return
+
+    to_say = "a %s *disperatamente* ti prego.. devi aiutarmi! Dimmi di sì!" % player.code
+    command_say(charlie, to_say)
+
+    # Charlieee! Entra in modalità Questor, Charlieee!
+    # Ok, basta..
+    # Ecco qui una chicca, a volte serve salvarsi delle informazioni relative
+    # allo stato dei mudscript in corso, per esempio in questo caso ad una
+    # quest.
+    # Le parole chiave per identificare le differenti informazioni devono avere
+    # lo stile che vedi sotto, una parte prefissa e unica preferibilmente per
+    # tutti gli special (questo perché alcuni specials potrebbero essere salvati
+    # tra gli specials del giocatore, creando conflitti se hanno la stessa
+    # parola chiave).
+    # Il valore da inserire alla parola chiave dello special è sempre una
+    # stringa nel qual caso si voglia salvare il valore tra un boot ed un altro;
+    # se serve inserire un valore numerico basta inserirlo come string
+    # stringa e poi convertirlo successivamente in numero.
+    # Vedremo un'eccezione alla fine di questa funzione... mh meglio che ne
+    # parli poi
+    # Nell'esempio vengono salvate due informazioni:
+    # - lo status di sviluppo della quest
+    # - il giocatore che è riuscito a prenotare la quest
+    # - il conto delle banane da recuperare per charlie
+    # Hai notato l'underscore dopo i due punti? Bravo! Però lo spiegherò dopo.
+    charlie.specials["charlie_banana_quest:status"] = "domanda"
+    charlie.specials["charlie_banana_quest:player"] = player.code
+    charlie.specials["charlie_banana_quest:counter"] = "0"
+
+    # Dopo un po' chiede nuovamente al giocatore di rispondere alla sua
+    # richiesta di aiuto nel qual caso che il giocatore non abbia afferrato
+    # l'indizio di quello che deve fare
+    reactor.callLater(myrandint(15, 30), ask_for_answer, charlie, player)
+
+    # Charlie non starà ad aspettare in eterno che il giocatore si decida a
+    # iniziare la quest, se dopo un po' di tempo lo status della quest non
+    # è cambiato allora gli specials vengono azzerati
+    charlie.specials["charlie_banana_quest:reset_call"] = reactor.callLater(myrandint(60, 90), reset_banana_quest, charlie)
+#- Fine Funzione -
+
+
+def ask_for_answer(charlie, player):
+    # Controlla se la quest non sia già stata resettata oppure avanzata
+    if ("charlie_banana_quest:status" not in charlie.specials
+    or charlie.specials["charlie_banana_quest:status"] != "domanda"):
+        return
+
+    if charlie.contained_by != player.contained_by:
+        return
+
+    suffix = ""
+    if myrandint(1, 4) == 1:
+        suffix = " Ti prego!"
+
+    to_say = "a %s *disperato* Dimmi di sì!%s" % (player.code, suffix)
+    command_say(charlie, to_say)
+
+    # Glielo richiede a ruota fino a che il giocatore risponde sì!
+    # Che fastidiosoooo... non molto differente dagli altri due insomma...
+    reactor.callLater(myrandint(15, 30), ask_for_answer, charlie, player)
+#- Fine Funzione -
+
+
+# Da notare che qui non è stato utilizzato after_rpg_channel, che invece funziona
+# per tutti i canali rpg, questo funziona ovviamente solo con il canale say
+# Il sistema è abbastanza grezzo, in futuro ci sarà il sistema dei dialoghi che
+# permetterà un discorso più approfondito con la scelta di voci già precompilate
+# come risposta, tuttavia per quello che ci serve direi che va' bene così
+def after_say(charlie, speaker, target, phrase, ask, exclaim):
+    if not speaker.IS_PLAYER:
+        return
+
+    # Controlla se la quest non sia già stata resettata oppure avanzata
+    if ("charlie_banana_quest:status" not in charlie.specials
+    or charlie.specials["charlie_banana_quest:status"] != "domanda"):
+        return
+
+    # Ricava la frase ripulita dalla punteggiatura
+    phrase = ALFA_ONLY_PATTERN.sub("", phrase)
+
+    # Non continua la quest fino a che il giocatore non dice: sì
+    if not is_same(phrase, "si"):
+        return
+
+    # Guarda il giocatore che ha risposto, brrrr, fa sempre senso vedere i mob
+    # così "intelligenti"
+    command_look(charlie, speaker.code)
+
+    # Ignora coloro che hanno risposto ma che non sono stati scelti per la quest
+    quest_player_code = charlie.specials["charlie_banana_quest:player"]
+    if speaker.code != quest_player_code:
+        quest_player = game.db["players"][quest_player_code]
+        # Ricava il nome o la short per come lo vede charlie
+        quest_player_name = quest_player.get_name(charlie)
+        to_say = "a %s *concentrato* Grazie, ma no, grazie! Sto aspettando la risposta da %s." % (speaker.code, quest_player_name)
+        command_say(charlie, to_say)
+        return
+
+    # Visto che il secondo stadio della missione si sta attivando cancella il
+    # precedente reset che è meglio che sia reimpostato a fine funzione
+    reset_call = charlie.specials["charlie_banana_quest:reset_call"]
+    if reset_call:
+        reset_call.cancel()
+        reset_call=None
+
+    # Ecco un nuovo pollo da spennare! Finalmente il giocatore si è deciso a
+    # rispondere!
+    # Facciamo avanzare lo stato della quest e descriviamo quello che vogliamo
+    charlie.specials["charlie_banana_quest:status"] = "cerca"
+
+    to_say = "a %s *esasperato* Non ce la faccio più! Questi due unicorni mi stanno facendo impazzire!" % quest_player_code
+    reactor.callLater(myrandint(1, 2), command_say, charlie, to_say)
+
+    to_say = "a %s Portami due banane, cosicché io possa sopportarli almeno per un po'.." % quest_player_code
+    reactor.callLater(myrandint(4, 6), command_say, charlie, to_say)
+
+    # (TT) questo è da snoopare.. forse non funziona il self say con parole chiave del nome
+    to_murmur = "a self *pensieroso* Già! Con due banane potrei..."
+    reactor.callLater(myrandint(20, 40), command_murmur, charlie, to_murmur)
+
+    # Ecco qui, qui viene impostata la durata media della quest, ovvero quanto
+    # charlie attenderà che il giocatore gli porti due banane
+    reset_call = reactor.callLater(myrandint(200, 300), reset_banana_quest, charlie)
+    charlie.specials["charlie_banana_quest:reset_call"] = reset_call
+#- Fine Funzione -
+
+
+# Da notare i return True per evitare di accettare qualsiasi cosa
+def before_give(player, banana, charlie):
+    if not player.IS_PLAYER:
+        to_say = "a %s *concentrato* Grazie, ma no, grazie! Non accetto nulla da chicchessia." % player.get_keywords().split()[0]
+        reactor.callLater(myrandint(1, 2), command_say, charlie, to_say)
+        return True
+
+    command_look(charlie, player.code)
+
+    # Charlie non ha iniziato a dare nessun quest
+    if "charlie_banana_quest:status" not in charlie.specials:
+        to_say = "a %s *concentrato* Grazie, ma no, grazie! Non accetto mai caramelle da sconosciuti; sa, da quanto ho perso il rene..." % (player.code)
+        reactor.callLater(myrandint(1, 2), command_say, charlie, to_say)
+        return True
+
+    quest_player_code = charlie.specials["charlie_banana_quest:player"]
+    quest_player = game.db["players"][quest_player_code]
+    quest_player_name = quest_player.get_name(charlie)
+
+    quest_status = charlie.specials["charlie_banana_quest:status"]
+    if quest_status == "domanda":
+        to_say = "a %s *concentrato* Grazie, ma no, grazie! Sto attendendo che %s si decida a rispondermi." % (player.code, quest_player_name)
+        reactor.callLater(myrandint(1, 2), command_say, charlie, to_say)
+        return True
+
+    # Controlla che l'entità che dà sia il giocatore della quest
+    if player.code != quest_player_code:
+        to_say = "a %s Grazie, ma no, grazie! Sto aspettando delle banane da parte di %s." % (player.code, quest_player_name)
+        reactor.callLater(myrandint(1, 2), command_say, charlie, to_say)
+        return True
+
+    # Controlla se l'oggetto dato sia una banana, lo fa in maniera grezza, prima
+    # di tutto controlla se sia un cibo, e poi ne controlla la short
+    if not banana.used_as == ENTITYPE.FOOD:
+        to_say = "a %s *critico* Questa cosa non mi sembra del cibo, figuriamoci una banana!" % quest_player_code
+        reactor.callLater(myrandint(1, 2), command_say, charlie, to_say)
+        return True
+        
+    if not is_same(("banana", "banane"), banana.short.split()) and not is_same(("banana", "banane"), banana.short_night.split()):
+        to_say = "a %s *disinteressato* Sono convinto che sia buono, ma ora non ho fame, ho bisogno di banane!" % quest_player_code
+        reactor.callLater(myrandint(1, 2), command_say, charlie, to_say)
+        return True
+
+    # Charlie decide che l'oggetto dato è abbastanza bananoso e lo accetta
+    if charlie.specials["charlie_banana_quest:counter"] == "0" and is_same("banana", banana.short.split()):
+        to_yell = "a %s *sorpreso* Eccone una! Ora mi serve anche l'altra!" % quest_player_code
+        reactor.callLater(myrandint(1, 2), command_yell, charlie, to_yell)
+        charlie.specials["charlie_banana_quest:counter"] = "1"
+    else:
+        charlie.specials["charlie_banana_quest:status"] = "completa"
+        # Ora che la quest è completa ne blocca un eventuale reset, fino a
+        # quando le banane non si sciolgono
+        reset_call = charlie.specials["charlie_banana_quest:reset_call"]
+        if reset_call:
+            reset_call.cancel()
+            reset_call=None
+
+        to_yell = "a %s *al settimo cielo* Sei il mio salvatore! Finalmente con queste banane potrò sopportare questi due!" % quest_player_code
+        reactor.callLater(myrandint(1, 2), command_yell, charlie, to_yell)
+        to_emote = "con la $hand destra si mette una banana nell'orecchia destra"
+        reactor.callLater(myrandint(4, 6), command_emote, charlie, to_emote)
+        to_emote = "con la $hand sinistra si mette una banana nell'orecchia sinistra"
+        reactor.callLater(myrandint(7, 9), command_emote, charlie, to_emote)
+        to_say = "a self *sollevato* finalmente non li sento più..."
+        reactor.callLater(myrandint(10, 13), command_say, charlie, to_say)
+
+        # Tra un po' di tempo le banane si squaglieranno e quindi charlie
+        # dovrà di nuovo affidarsi a qualche alla bontà di qualche player
+        reactor.callLater(myrandint(3600, 4800), you_are_not_the_banana_king, charlie)
+#- Fine Funzione -
+
+
+def you_are_not_the_banana_king(charlie):
+    command_say(charlie, "*disperato mentre le banane nelle sue orecchie si sciolgono* Oh no! Non ancora!")
+    reset_banana_quest(charlie)
+#- Fine Funzione -
+
+
+def reset_banana_quest(charlie):
+    print
+    print "attivazione reset_banana_quest"
+    print
+
+    quest_player_code = charlie.specials["charlie_banana_quest:player"]
+    quest_player = game.db["players"][quest_player_code]
+    quest_player_name = quest_player.get_name(charlie)
+
+    player_is_here = None
+    for player in charlie.contained_by.players:
+        if player.code == quest_player_code:
+            player_is_here = True
+            break
+
+    quest_status = charlie.specials["charlie_banana_quest:status"]
+    if quest_status == "domanda":
+        if player_is_here:
+            to_say = "a %s *sconsolato* O beh, chiederò a qualchedun altro." % quest_player_code
+        else:
+            to_say = "a self *sconsolato* O beh, chiederò a qualchedun altro."
+        command_say(charlie, to_say)
+    elif quest_status == "cerca":
+        if player_is_here:
+            to_say = "a %s *impaziente* Ci stai mettendo troppo tempo, lasciamo perdere le banane.." % quest_player_code
+        else:
+            to_say = "a self *impaziente* %s ci sta mettendo troppo tempo, lasciamo perdere le banane.." % quest_player_code
+        command_say(charlie, to_say)
+        choice = myrandint(1, 6)
+        if choice == 1:
+            reactor.callLater(myrandint(2, 4), command_drop, charlie, "banan")
+        elif choice <= 3:
+            reactor.callLater(myrandint(2, 4), command_eat, charlie, "banan")
+
+    # Cancelliamo anche le variabili speciali della quest
+    del(charlie.specials["charlie_banana_quest:status"])
+    del(charlie.specials["charlie_banana_quest:player"])
+    del(charlie.specials["charlie_banana_quest:counter"])
+#- Fine Funzione -
+
+
+# (TD) questi due trigger dovranno essere implementati per:
+
+# poter gestire la pulizia forzata delle variabili speciali, nel qual caso non
+# si vogliano  rendere persistenti, ora come ora lo shutdown di charlie non
+# variabili speciali porta ad un errore nella scrittura della persistenza
+def before_shutdown_mud(charlie):
+    pass
+    #reset_call.getTime()
+#- Fine Funzione -
+
+# oppure per riavviare la quest ad uno stadio preciso, per esempio riavviare
+# il reset cosicché charlie non rimanga per sbaglio ad attendere per sempre
+# il giocatore, questo server perchè sembra essere impossibile ricavare la
+# funzione 'delayed_call' creata dalla callLater
+def after_booting_mud(charlie):
+    pass
+#- Fine Funzione -

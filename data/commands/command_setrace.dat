@@ -1,0 +1,5 @@
+FunName:    command_setrace
+Type:       CMDTYPE.ADMIN
+Trust:      TRUST.BUILDER
+Position:   POSITION.DEAD
+MiniHelp:   E' il comando che permette di modificare la razza a mob, oggetti e giocatori

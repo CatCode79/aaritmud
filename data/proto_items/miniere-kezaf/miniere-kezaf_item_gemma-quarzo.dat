@@ -1,0 +1,25 @@
+Code: miniere-kezaf_item_gemma-quarzo
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_quartz.png
+Name:	Un Quarzo
+Short:	un quarzo
+Long:	$N sta qui
+
+Descr:
+Un pezzo di [brown]quarzo[close] grezzo ancora da lavorare, presenta una 
+colorazione scura tendente al marrone ed è grado di assorbire la luce 
+circostante generando una serie di linee tendenti al bianco al suo interno.
+
+DescrSixth:
+Può essere usato per creare particolari rune di protezione, ma dev'essere
+lavorato con attenzione.
+
+Value:	0
+Weight: 129g
+
+
+

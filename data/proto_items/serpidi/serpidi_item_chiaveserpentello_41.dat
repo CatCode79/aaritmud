@@ -1,0 +1,16 @@
+Code:	serpidi_item_chiaveserpentello_41
+Level:	1
+Entitype: ENTITYPE.KEY
+MaterialPercentages:	MATERIAL.IRON	100%
+Name:	Un Serpentello Sagomato 
+Short:	un serpentello sagomato 
+Descr: 
+è un pezzo di ferro lavorato con tagli e scanalature che rispecchiano un certo disegno.  
+Value:	0
+Weight: 80g
+BirthDay: 1
+BirthMonth: MONTH.TEN
+
+
+
+

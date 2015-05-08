@@ -1,0 +1,5 @@
+FunName:  command_delexit
+Type:     CMDTYPE.ADMIN
+Trust:    TRUST.BUILDER
+Position: POSITION.DEAD
+MiniHelp: Serve a cancellare un'uscita già esistente alla direzione desiderata

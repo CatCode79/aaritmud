@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_044_camminamenti-044
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	I Camminamenti
+Short:	i camminamenti
+	Descr:
+Sei nell'angolo sud ovest dei camminamenti superiori, a sud lo
+spettacolo del baratro che separa le due strutture dell'accademia
+ti lascia senza fiato, un rivolo di sudore freddo ti corre sulla
+schiena mentre pensi all'eventualità di una caduta senza fine in
+quei meandri oscuri...
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 1
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 043 -1
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 045 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

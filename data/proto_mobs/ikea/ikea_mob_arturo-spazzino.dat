@@ -1,0 +1,78 @@
+Code:	ikea_mob_arturo-spazzino
+Level:	1
+Sex:	SEX.MALE
+Race:	RACE.HUMAN
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Arturo lo Spazzino
+Short:	uno spazzino
+Long:	$N si guarda attorno con placida verve
+
+Descr:
+Il classico spazzino dell'immaginario collettivo ridotto di alcune zone subtropicali del mondo. Sigaretta in bocca, scarsa attenzione verso il mondo; sguardo sempre basso e mani occupate da scopa e palettina.
+DescrSmell: 
+Il classico olezzo di rumenta stagionata sapientemente miscelata a sudore e tabacco d'infma qualità fumato senza filtro.
+DescrSixth:
+La paga non deve essere poi buonissima visto il tabacco economico che fuma.
+DescrHearing:
+Probabilmente ha una dentiera non perfetta che continua a scendere e salire facendo un suono caratteristico e sgradevole.
+
+Weight: 70kg
+Height: 1650cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 34
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100
+
+Strength:	10
+Endurance:	10
+Agility:	10
+Speed:		10
+Intelligence:	10
+Willpower:	10
+Personality:	10
+Luck:		10
+
+Behaviour:
+	LookPlayer:	0
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	LookEquipment:	0
+	SmellPlayer:	0
+	ListenMob:	0
+	TouchItem:	0
+	IntuitionAtRacesFlags:	RACE.NONE
+	IntuitionAtRaces:	0
+	TasteAtEntitypesFlags:	ENTITYPE.NONE
+	TasteAtEntitypes:	0
+	WanderDirection:	0
+	WanderExit:	10
+	WanderWall:	0
+	WanderAtSectors: 	SECTOR.WOOD
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	40
+	RandomDoInputs:	smell
+End

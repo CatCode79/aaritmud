@@ -1,0 +1,19 @@
+Code: villaggio-zingaro_item_sacchetto-castagne-03
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.PAPER	100%
+Name:	Un Sacchettino in Carta di Riso
+Short:	un sacchettino in carta di riso
+Long:	$N leggermente annerito.
+
+Descr:
+Un sacchettino in carta di risocon il bordo superiore ondulato, gli angoli sono un po' anneriti e bruciacchiati.
+
+Value:	3
+Weight: 10g
+
+ContainerType:
+	MaxWeight:	400g
+End

@@ -1,0 +1,36 @@
+Code: villaggio-zingaro_item_castagna-abbrustolita
+
+Level:	1
+Entitype: ENTITYPE.FOOD
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.FRUIT 100%
+Icon:	icons/food/castagna-abbrustolita.png
+Name:	Una Castagna Abbrustolita
+Short:	una castagna abbrustolita
+Long:	$N dall'aroma invitante.
+KeywordsShort: castagna castagne abbrustolita abbrustolite caldarrosta caldarroste
+KeywordsName: castagna castagne abbrustolita abbrustolite caldarrosta caldarroste
+
+Descr:
+Una castagna con la buccia tutta bruciacchiata e un taglio aperto su uno dei lati.
+DescrTouch:
+Passi la castagna tra le $hands che si sporcano tutte di nero.
+DescrTaste:
+Dai una leccatina alla buccia annerita che ti lega la bocca.
+DescrSixth:
+Mmmmmmmm..sembra proprio cotta al punto giusto, già ne pregusti il sapore!
+
+Value:	2
+Weight: 20g
+
+
+FoodType:
+	Comment:	cibo
+	Animal:	0
+	Vegetable:	100
+	CookingDamage:	10
+	Hours:	0
+	EntityMessage:	Prendi $N e la sbucci prima di mangiarla.	
+	TargetMessage:	Ora c'è una sola via d'uscita... $n t'ha mangiato.
+	OthersMessage:	$n prende $N e la sbuccia prima di mangiarla.
+End

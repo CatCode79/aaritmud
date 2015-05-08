@@ -1,0 +1,69 @@
+Comment: da mettere al collo della tessitrice e anche del barbagianni.
+Tyto è il genere dei barbagianni nel nostro caso è un Tyto alba.
+
+
+Code: villaggio-zingaro_item_medaglione
+Icon:	icons/item/medaglione.png
+
+Level:	1
+Entitype: ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GOLD 91%	
+MaterialPercentages:	MATERIAL.AMETHYST 9%	
+Name:	Il Medaglione Tyto
+Short:	un medaglione
+Long:	$N rifulge colpito dalla luce.
+LongNight: intravedi $N che tenta di farsi notare nel buio della notte.
+
+Descr:
+Un [goldenrod]medaglione[close] circolare appeso ad una leggera catena dorata. La [mediumslateblue]gemma centrale[close] semisferica e scentrata è circondata da numerose [mediumorchid]pietre affusolate[close] di diverse lunghezze che si dipartono dal centro come raggi. Il tutto è completato da cinque bubboli pendenti nella parte inferiore.
+DescrNight:
+Un medaglione circolare appeso ad una leggera catena dorata #villaggio-zingaro_item_unguento-01#con una preziosa gemma nel centro che emana un timido bagliore; il medaglione è completato da cinque bubboli pendenti nella parte inferiore.# del quale non riesci a cogliere i particolari se non cinque bubboli pendenti nella parte inferiore.# 
+DescrTouch:
+Passi la $hand sul retro cogliendo delle piccole asperità.
+DescrSixth:
+Un medaglione piuttosto particolare, probabilmente tramandato di generazione in generazione, che sembra racchiudere in se indicibili segreti.
+DescrHearing:
+Ad ogni movimento i campanellini emettono un tintinnio sinistro. 
+DescrSmell:
+Un aroma di [orange]agrume[close] resinoso proviene dalla pietra centrale.
+
+Value:	0
+Weight: 76g
+
+Extras: 
+	Keywords: asperità
+	Descr: 
+	Ti accorgi che in realtà si tratta di una scritta dai caratteri irregolari: Tyto.
+End
+
+Extras: 
+	Keywords: gemma centrale "gemma centrale"
+	Descr: 
+	Osservando meglio questa pietra ti sembra di intravedere#self.inventory_qty > 0# qualcosa# una cavità# al suo interno.
+End
+
+ContainerType:
+       EntityOpenMessage:	Apri $N sollevando delicatamente la pietra centrale.
+       TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+       OthersOpenMessage:	$n apre $N sollevando la pietra centrale.
+       EntityCloseMessage:	Chiudi $N abbassando la gemma centrale.
+       TargetCloseMessage:	Finalmente $n si è degnat$o di chiuderti.
+       OthersCloseMessage:	$n chiude $N abbassando la gemma centrale.
+       Flags:	CONTAINER.CLOSED CONTAINER.CLOSABLE
+       MaxWeight: 50g
+End
+
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+	Modes: PART.NECK
+	EntityWearMessage:	Sollevi con ambo le $hands $N e te l$O porti %part.
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	$n solleva $N con ambo le $hands e se l$O porta %part.
+	EntityRemoveMessage:	Porti le $hands %part e togli $N.
+	TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+	OthersRemoveMessage:	$n porta le $hands %part e si leva $N
+End
+
+

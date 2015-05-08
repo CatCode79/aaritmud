@@ -1,0 +1,5 @@
+FunName:  command_extract
+Type:     CMDTYPE.ADMIN
+Trust:    TRUST.MASTER
+Position: POSITION.DEAD
+MiniHelp: Serve a rimuovere dal gioco le entità (solo mob e item)

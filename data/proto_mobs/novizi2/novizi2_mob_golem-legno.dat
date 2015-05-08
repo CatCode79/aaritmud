@@ -1,0 +1,89 @@
+Comment:
+I golem in ordine di forza crescente
+
+paglia
+carta
+legno
+cuoio
+legno
+carne
+argilla
+pietra
+Code:	novizi2_mob_golem-legno
+Level:	1
+Sex:	SEX.MALE
+Race:	RACE.GOLEM
+Name:	Un [olive]Golem[close] di [olive]Legno[close]
+Short:	un [olive]golem[close] di [olive]legno[close]
+Long:	$N incede in modo statico
+
+Descr:
+Alcuni [olive]bastoni[close] da combattimento sono stati magicamente animati in una entità unica.
+
+DescrHearing: 
+Il cigolio dei bastoni con i quali è costituito è lancinante e sembra che da un momento all'altro si debbano spezzare.
+
+DescrSixth:
+Per quanto il movimento si rigido e quasi statico, i suo attacco rischia comunque di essere piuttosto pericoloso.
+
+Weight: 90kg
+Height: 170cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 1
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100
+
+Strength:	10
+Endurance:	10
+Agility:	10
+Speed:		10
+Intelligence:	10
+Willpower:	10
+Personality:	10
+Luck:		10
+
+Behaviour:
+	LookPlayer:	0
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	LookEquipment:	0
+	SmellPlayer:	0
+	ListenMob:	0
+	TouchItem:	0
+	IntuitionAtRacesFlags:	RACE.NONE
+	IntuitionAtRaces:	0
+	TasteAtEntitypesFlags:	ENTITYPE.NONE
+	TasteAtEntitypes:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderAtSectors: 	SECTOR.WOOD
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	10
+	RandomDoInputs:	emote emette un suono metallico quando i puntali sbattono l'uno sull'altro
+	RandomDoInputs:	emote oscilla paurosamente
+End

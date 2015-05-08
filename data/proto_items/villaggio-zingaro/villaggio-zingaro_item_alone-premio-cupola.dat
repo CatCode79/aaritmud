@@ -1,0 +1,28 @@
+Code: villaggio-zingaro_item_alone-premio-cupola
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.ESSENCE 100%
+Flags:	FLAG.NO_REMOVE
+Name:	Un [plum]Alone Rosato[close]
+Short:	un [plum]alone rosato[close]
+
+Descr:
+Un [plum]alone roseo[close] e luccicherrimo flutta leggero. 
+DescrTouch: 
+Sventoli le $hands a vuoto.
+DescrSmell: 
+#looker is SEX.FEMALE#Sei completamente immers$o nell'aroma floreale e ti lasci trasportare per qualche secondo.#Un aroma inconfondibilmente femminile ti contamina e proprio non riesci a liberartene#
+DescrSixth:
+Che la sua unica qualità sia il profumo?
+
+Value:	0
+Weight: 1g
+
+WearType:
+	Modes:	PART.FLOATING
+	EntityWearMessage:	[plum]$N t'avvolge e comincia a fluttuare attorno al tuo corpo.[close]
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	$n viene avvolto da $N.
+End

@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_054_piazza-054
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	La Piazza d'Armi
+Short:	la piazza d'armi
+	Descr:
+Ti trovi esattamente al centro della piazza d'armi posta nella
+struttura nord dell'accademia, di fronte a te si innalza la
+statua di un maestoso drago scolpito in quello che potrebbe
+essere quarzo rosso.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 2
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	la piazza d'armi
+	Comment:	ExitStatus	0 0 050 -1
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	la piazza d'armi
+	Comment:	ExitStatus	0 0 048 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	la piazza d'armi
+	Comment:	ExitStatus	0 0 046 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	la piazza d'armi
+	Comment:	ExitStatus	0 0 052 -1
+End
+Extras:
+	Keywords:	statua
+		Descr:
+Il drago si innalza in tutta la sua potenza, l'espressione
+intelligente non riesce a mitigare il terrore che le zanne
+scoperte e i muscoli rigonfi riescono a imprimere. Il quarzo
+rosso in cui la statua è stata scolpita cattura la luce e la
+incanala nelle pieghe che l'artista ha sapientemente modellato
+per dar vita alla statua, ad ogni leggero cambiamento di luci il
+drago sembra quasi respirare... sul piedistallo sono state
+scolpite alcune parole...
+
+End
+Extras:
+	Keywords:	iscrizione
+		Descr:
+In onore del grande [red]Lamreloc[close], Signore dei Draghi, colui che
+sconfisse [gray]Ghorm[close], colui che uni Uomini e Draghi, colui che anche
+la morte può fermare. 
+
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

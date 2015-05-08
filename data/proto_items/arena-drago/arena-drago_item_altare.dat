@@ -1,0 +1,29 @@
+Code:	arena-drago_item_altare
+Level:	06
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.STONE 100%
+Sex:	SEX.MALE
+Name:	Un Altare
+Short:	un altare
+
+Value:	0
+Weight: 100kg
+
+Descr:
+Un altare.
+
+Comment:
+§27721
+
+Dati Obj
+15 262144 010000 0 -1 01 0 0
+Extras:
+	Keywords:	statua
+	Descr:
+		La  statua  è  perfetta  in  ogni dettaglio al punto di sembrare viva,  gli  occhi
+		del  più  grande  drago  di  tutti i tempi tiscrutano e senti la tua anima messa a
+		nudo quasi fossi davanti al redivivo Lamreloc in persona.
+
+End
+
+

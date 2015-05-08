@@ -1,0 +1,43 @@
+Code:	karpuram_item_eq-parapolsi-scaglie-viola
+
+Level:	6
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.SNAKESKIN	55
+MaterialPercentages:	MATERIAL.CLOTH	15
+MaterialPercentages:	MATERIAL.LINE	15
+MaterialPercentages:	MATERIAL.COTTON	15
+Sex:	SEX.MALE
+Name:	Un Paio di Parapolsi di [violet]Scaglie Viola[close]
+Short:	un paio di guardiabraccia di [violet]scaglie[close] violacee 
+Long:	$N raffinati si trova in questo luogo.
+
+Descr:
+Rilucenti e ben rifiniti, questo paio di parapolsi sono formati da una 
+serie di scaglie di serpente dal colore viola intenso. Le scaglie sono 
+sovrapposte in modo tale da garantire una protezione a strati di lunga durata. 
+Due serie di lacci esterni permettono di regolarli.
+
+DescrHearing:
+Un sinistro sibilo sembra provenire dai due parapolsi, come se gli stessi 
+fossero vivi e animati. Il sibilo s'interrompe ogni volta che questi vengono 
+indossati.
+
+DescrTouch:
+Lisci e morbidi in superficie, le scaglie sono stratificate e sottili e non 
+presentano imperfezioni. Al tocco i parapolsi tendono a rilasciare alcune 
+gocce di una specie di inchiostro naturale di colore viola che viene subito 
+assorbito dalla pelle.
+
+DescrSixth:
+Hai la sensazione che questo pezzo di armatura sia parte integrante di qualcosa
+di più grande e potente, oltre la tua immaginazione.
+
+Value:	0
+Weight:	800g
+
+WearType:
+   Modes: PART.LEFT_FOREARM PART.RIGHT_FOREARM
+End
+
+

@@ -1,0 +1,25 @@
+Code: miniere-kezaf_item_gemma-giada
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_jade.png
+Name:	Un Frammento di Giada
+Short:	una gemma verde brillante
+Long:	$N sta qui
+
+Descr:
+Un framento di giada reso verdastro dal tempo e dalle intemperie.
+Il tono verdastro è difforme, disomogeneo ed a tratti livido.
+
+DescrTouch:
+La superficie della pietra presenta una continua serie di asperità e schegge,
+la durezza complessiva della pietra pare piuttosto buona.
+
+Value:	0
+Weight: 200g
+
+
+
+

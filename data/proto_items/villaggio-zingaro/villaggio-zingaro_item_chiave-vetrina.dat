@@ -1,0 +1,26 @@
+Code: villaggio-zingaro_item_chiave-vetrina
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+Icon:	icons/item/chiave.png
+MaterialPercentages:	MATERIAL.BRASS 100%
+Name:
+La Chiave della Vetrina
+Short:
+una [goldenrod]chiavetta[close]
+Long:
+$N appesa alla sua nappina.
+
+Descr:
+Una piccola [goldenrod]chiave[close] dentellata, su una delle estremità è posizionata [mediumslateblue]gemma[close] attorno alla quale sono stati ricamati ghirigori in filigrana. 
+DescrTouch: 
+Sfiori con le dita l'intricato intreccio di filigrana cogliendone l'irrisorio spessore.
+DescrSixth:
+Una chiave..di certo da qualche parte ci sarà la sua serratura.
+
+Value:	0
+Weight: 21g
+
+
+
+

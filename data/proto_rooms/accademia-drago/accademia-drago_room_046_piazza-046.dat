@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_046_piazza-046
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	La Piazza d'Armi
+Short:	la piazza d'armi
+	Descr:
+Sei all'ingresso principale del cortiletto privato dei cavalieri,
+sembra trattarsi di una sorta di piazza d'armi, probabilmente qui
+le reclute si riuniscono per le adunate... la pavimentazione è
+di pietra grigia, nelle fughe saltuariamente spunta qualche filo
+d'erba o un po' di muschio. Al centro del cortile vedi l'enorme
+statua di un drago.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 2
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	la piazza d'armi
+	Comment:	ExitStatus	0 0 054 -1
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	la piazza d'armi
+	Comment:	ExitStatus	0 0 047 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	l'androne di passaggio
+	Comment:	ExitStatus	0 0 067 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	la piazza d'armi
+	Comment:	ExitStatus	0 0 053 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

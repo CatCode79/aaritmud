@@ -1,0 +1,114 @@
+Code:	accademia-drago_room_057_corridoio-057
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Un Corridoio
+Short:	un corridoio
+	Descr:
+Il corridoio prosegue verso sud e nord, ad est ed ovest delle
+porte in legno chiaro portano verso quelle che potrebbero essere
+le stanze degli apprendisti.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 0
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	un corridoio
+	Comment:	ExitStatus	0 0 056 -1
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	le camerate [white]bianche[close]
+	Comment:	ExitStatus	1 0 062 -1
+	Door:	ikea_item_porta
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	un corridoio
+	Comment:	ExitStatus	0 0 059 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	le camerate [white]bianche[close]
+	Comment:	ExitStatus	1 0 061 -1
+	Door:	ikea_item_porta
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

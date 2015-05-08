@@ -1,0 +1,38 @@
+Code: novizi2_item_eq-maglietta-ap-3
+Comment: la maglietta è fatta noget perché è una vecchia apertura e non vi è
+	alcun titolo a possederla essendo trascorsa la terza apertura.
+Level: 1
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.CLOTH	100
+Sex:	SEX.FEMALE
+Flags:	FLAG.NO_GET
+Icon:	icons/equipment/shirt-purple.png
+Name:	La [purple]Felpa[close] Commemorativa
+Short:	la [purple]felpa[close] commemorativa
+Long:	$N per la [yellow]III[close] apertura
+
+Descr:
+Una felpina [purple]colorata[close] a manica lunga in fibra sintetica.
+Un logo misterioso spicca con inusitata foga.
+Stampato sul retro è scritto:
+Terza apertura - Beta Tester
+
+DescrTouch: 
+Felpina in polimero sintetico ma di buona qualità. In rilievo sulla parte superiore un simbolo misterioso
+
+DescrSixth:
+Il tuo sesto senso ti induce a collezionarle tutte!
+
+Extras:
+	Keywords:	logo
+	Descr:	Una tigre ed un dragone che si fronteggiano
+End
+	
+Value:	0
+Weight: 85g
+
+WearType:
+   Modes: PART.TORSO
+End
+
+

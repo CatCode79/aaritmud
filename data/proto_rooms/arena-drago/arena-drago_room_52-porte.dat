@@ -1,0 +1,70 @@
+Code:	arena-drago_room_52-porte
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Le Tre Porte
+Short:	le tre porte
+	Descr:
+Giungi in fondo al lungo corridoio e ti trovi la strada sbarrata
+da tre porte identiche,o ne apri una o dovrai tornare verso nord. 
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	64|16777216 0
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	un corridoio
+	Comment:	ExitStatus	0 0 27751 -1
+	Destination:	12 5 0 arena-drago
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	Riflessi sanguigni provengono da est.
+	Comment:	ExitStatus	1 0 27753 -1
+	Door:	arena-drago_item_door-porta-santuario-rosso-52
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	Un enorme salone splendente di luce.
+	Comment:	ExitStatus	1 0 27755 -1
+	Door:	arena-drago_item_door-porta-santuario-bianco-52
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	Densa oscurità
+	Comment:	ExitStatus	1 0 27754 -1
+	Door:	arena-drago_item_door-porta-santuario-nero-52
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+Code: novizi2_item_amuleto-bottiglietta-setaria
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GLASS	80%
+MaterialPercentages:	MATERIAL.SEED	20%
+Name:	Un [yellow]Amuleto[close] a Bottiglietta con semi di [yellow]Setaria[close]
+Short:	un amuleto a bottiglietta
+Long:	$N legato ad un cordoncino
+
+Descr:
+Una bottiglietta semitrasparente sigillata con della cera o qualcosa di simile, al suo interno ci sono decine di [yellow]semi[close].
+DescrTouch: 
+Una bottiglietta sigillata attaccata ad un cordoncino da mettere a tracolla.
+DescrSixth:
+Forse ha solo un significato simbolico oppure quelle cosine all'interno hanno una precisa funzione...
+DescrHearing:
+Dal rumore che fa scuotendola si sente che è colma di granelli.
+
+Value:	9
+Weight: 10g
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+	Modes:	PART.NECK
+	EntityWearMessage:	Allarghi il cordoncino di $N e te l$O porti %part.
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	$n allarga il cordoncino di $N e se l$O porta %part.
+	EntityRemoveMessage:	Ti sfili $N.
+	TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+	OthersRemoveMessage:	$n si sfila $N
+End

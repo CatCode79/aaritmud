@@ -1,0 +1,14 @@
+Code: equipment
+
+ItalianKeywords: equipaggiamento 
+EnglishKeywords: equipment 
+
+Entitype: HELP.INFO
+
+Text:
+Con il comando $tequipment puoi vedere quello che stai indossando (armi,
+armature e oggetti indossati),oppure usando $tequipment &lt;[darkgreen]giocatore[close]&gt; 
+quello che indossa un'altro giocatore.
+
+
+SeeAlso: inventory

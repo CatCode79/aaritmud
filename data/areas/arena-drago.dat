@@ -1,0 +1,890 @@
+Comment: Cello Phane
+Creators:	Cellogt
+Code: arena-drago
+Name: L'Arena del Drago
+Short: l'arena del drago
+Descr:
+	L'arena del drago
+Color: COLOR.DODGERBLUE blu di stelle fredde e lontane
+Level: 1
+RepopTime: 20
+LandfillCode:	arena-drago_room_ciarpame
+Flags: AREA.DONT_LIST
+
+RoomResets:
+	ProtoRoom:	arena-drago_room_03-corridoio
+	Destination:	0 1 0 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_04-magna
+	Destination:	0 2 0 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_05-corridoio
+	Destination:	1 1 0 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_06-strada-rialzata
+	Destination:	2 1 0 arena-drago
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_cavaliere-verde
+		EntityResets:
+			WearMode:	PART.BODY
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity:	arena-drago_item_farsetto-cuoio-rinforzato-verde
+		End
+		EntityResets:
+			WearMode:	PART.WIELD
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity:	arena-drago_item_spada-ordinanza
+		End
+		EntityResets:
+			WearMode:	PART.HOLD
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity:	arena-drago_item_scudo-cavalieri
+		End
+	End
+
+
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_07-strada-rialzata
+	Destination:	3 1 0 arena-drago
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_cavaliere-bianco
+		EntityResets:
+			WearMode:	PART.BODY
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity:	arena-drago_item_farsetto-cuoio-rinforzato-bianco
+		End
+		EntityResets:
+			WearMode:	PART.WIELD
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity:	arena-drago_item_spada-ordinanza
+		End
+		EntityResets:
+			WearMode:	PART.HOLD
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity:	arena-drago_item_scudo-cavalieri
+		End
+	End
+
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_08-strada-rialzata
+	Destination:	4 1 0 arena-drago
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_cavaliere-blu
+		EntityResets:
+			WearMode:	PART.BODY
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity:	arena-drago_item_farsetto-cuoio-rinforzato-blu
+		End
+		EntityResets:
+			WearMode:	PART.WIELD
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity:	arena-drago_item_spada-ordinanza
+		End
+		EntityResets:
+			WearMode:	PART.HOLD
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity:	arena-drago_item_scudo-cavalieri
+		End
+	End
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_09-strada-rialzata
+	Destination:	5 1 0 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_10-dragone
+	Destination:	6 1 0 arena-drago
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_cavaliere-rosso-01
+		EntityResets:
+			WearMode:	PART.BODY
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity:	arena-drago_item_farsetto-cuoio-rinforzato-rosso
+		End
+		EntityResets:
+			WearMode:	PART.WIELD
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity:	arena-drago_item_spada-ordinanza
+		End
+		EntityResets:
+			WearMode:	PART.HOLD
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity:	arena-drago_item_scudo-cavalieri
+		End
+	End
+
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_cavaliere-nero-01
+		EntityResets:
+			WearMode:	PART.BODY
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity:	arena-drago_item_farsetto-cuoio-rinforzato-nero
+		End
+		EntityResets:
+			WearMode:	PART.WIELD
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity:	arena-drago_item_spada-ordinanza
+		End
+		EntityResets:
+			WearMode:	PART.HOLD
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity:	arena-drago_item_scudo-cavalieri
+		End
+	End
+
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_11-livello
+	Destination:	6 2 0 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_12-livello
+	Destination:	9 2 0 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_13-livello
+	Destination:	9 5 0 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_14-livello
+	Destination:	9 8 0 arena-drago
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_abitante
+	End
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_15-livello
+	Destination:	6 8 0 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_16-livello
+	Destination:	3 8 0 arena-drago
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_abitante
+	End
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_17-livello
+	Destination:	3 5 0 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_18-livello
+	Destination:	3 2 0 arena-drago
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_abitante
+	End
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_19-larga-scalinata
+	Destination:	4 5 0 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_20-larga-scalinata
+	Destination:	8 5 0 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_21-spalti
+	Destination:	7 6 0 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_22-spalti
+	Destination:	5 6 0 arena-drago
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_spettatore
+	End
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_23-spalti
+	Destination:	5 4 0 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_24-spalti
+	Destination:	7 4 0 arena-drago
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_spettatore
+	End
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_25-scalinata-accesso
+	Destination:	10 5 0 arena-drago
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_cavaliere-rosso-02
+		EntityResets:
+			WearMode:	PART.BODY
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity:	arena-drago_item_farsetto-cuoio-rinforzato-rosso
+		End
+		EntityResets:
+			WearMode:	PART.WIELD
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity:	arena-drago_item_spada-ordinanza
+		End
+		EntityResets:
+			WearMode:	PART.HOLD
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity:	arena-drago_item_scudo-cavalieri
+		End
+	End
+
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_cavaliere-nero-02
+		EntityResets:
+			WearMode:	PART.BODY
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity:	arena-drago_item_farsetto-cuoio-rinforzato-nero
+		End
+		EntityResets:
+			WearMode:	PART.WIELD
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity:	arena-drago_item_spada-ordinanza
+		End
+		EntityResets:
+			WearMode:	PART.HOLD
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity:	arena-drago_item_scudo-cavalieri
+		End
+	End
+
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_26-stanzetta
+	Destination:	6 9 0 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_27-vicolo-cieco
+	Destination:	15 9 0 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_28-corridoi-arena
+	Destination:	15 8 0 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_29-corridoi-arena
+	Destination:	16 8 0 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_30-corridoio
+	Destination:	17 8 0 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_31-palestra
+	Destination:	16 7 0 arena-drago
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_rastrelliera
+	End
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_lusianos
+		EntityResets:
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity:	arena-drago_item_chiave-cristallo
+		End
+	End
+
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_32-studio-lusianos
+	Destination:	17 7 0 arena-drago
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_teca
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_talia
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_cassetto
+	End
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_33-svolta
+	Destination:	14 8 0 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_34-corridoio
+	Destination:	14 7 0 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_35-corridoio
+	Destination:	14 6 0 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_36-corridoio
+	Destination:	14 5 0 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_37-accesso-arena
+	Destination:	15 5 0 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_38-santuario-verde
+	Destination:	13 7 0 arena-drago
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: arena-drago_item_portal-stele-38
+	End
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_39-limbo
+	Destination:	12 7 0 arena-drago
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: arena-drago_item_portal-limbo-39
+	End
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_40-della-prova
+	Destination:	11 7 0 arena-drago
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_gigante
+		EntityResets:
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity:	arena-drago_item_chiave-pietra
+		End
+		EntityResets:
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity:	arena-drago_item_runa-verde
+		End
+	End
+
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_41-limbo
+	Destination:	10 7 0 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_42-spogliatoi
+	Destination:	15 6 0 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_43-delle-scale
+	Destination:	15 6 -1 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_44-tunnel
+	Destination:	15 7 -1 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_45-tunnel
+	Destination:	15 8 -1 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_46-arena
+	Destination:	16 5 0 arena-drago
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_karrikko
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_mazza-karrikko
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_scudo-karrikko
+	End
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_47-santuario
+	Destination:	13 6 0 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_48-alcova-segreta
+	Destination:	12 6 0 arena-drago
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_runa-blu
+	End
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_49-corridoio
+	Destination:	13 5 0 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_50-custode
+	Destination:	13 4 0 arena-drago
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_fregio
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_drago-pietra
+	End
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_erik
+		EntityResets:
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity:	arena-drago_item_mazzo-arena
+		End
+	End
+
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_51-corridoio
+	Destination:	12 5 0 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_52-porte
+	Destination:	12 3 0 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_53-santuario-Rosso
+	Destination:	13 3 0 arena-drago
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_statua
+	End
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_54-santuario
+	Destination:	11 3 0 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_55-santuario-Bianco
+	Destination:	12 2 0 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_56-ingresso-gladiatori
+	Destination:	15 9 -1 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_57-cunicolo
+	Destination:	12 5 -1 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_58-fauci
+	Destination:	11 5 -1 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_59-incrocio-sotterraneo
+	Destination:	10 5 -1 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_60-cunicolo
+	Destination:	10 4 -1 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_61-cunicolo
+	Destination:	10 3 -1 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_62-cunicolo
+	Destination:	9 3 -1 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_63-cunicolo
+	Destination:	9 2 -1 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_64-vicolo-cieco
+	Destination:	8 2 -1 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_65-caverna-nascosta
+	Destination:	7 2 -1 arena-drago
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_altare
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_statuetta-cristallo
+	End
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_66-portale-cristallo
+	Destination:	10 6 -1 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_67-cunicolo
+	Destination:	10 7 -1 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_68-giardino-draghi
+	Destination:	10 8 -1 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_69-tana
+	Destination:	9 8 -1 arena-drago
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_drago-bianco
+	End
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_70-obelisco
+	Destination:	10 9 -1 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_71-enorme-cunicolo
+	Destination:	11 9 -1 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_72-scogliera
+	Destination:	12 9 -1 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_73-sotto-obelisco
+	Destination:	10 9 -2 arena-drago
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_forziere
+		EntityResets:
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity:	arena-drago_item_sacco
+		End
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_cofanetto
+		EntityResets:
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity:	arena-drago_item_runa-rossa
+		End
+	End
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_guardiano
+		EntityResets:
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity:	arena-drago_item_chiave-acciaio
+		End
+	End
+
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_74-cunicolo
+	Destination:	9 5 -1 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_75-cunicolo
+	Destination:	8 5 -1 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_76-arena-sotterranea
+	Destination:	7 5 -1 arena-drago
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_apprendista-cavaliere
+		EntityResets:
+			WearMode:	PART.BODY
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity:	arena-drago_item_armatura-addestramento
+		End
+	End
+
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_scudo-cavalieri
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_spada-ordinanza
+	End
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_apprendista-cavaliere
+		EntityResets:
+			WearMode:	PART.BODY
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity:	arena-drago_item_armatura-addestramento
+		End
+	End
+
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_scudo-cavalieri
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_spada-ordinanza
+	End
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_cavaliere-giovane
+		EntityResets:
+			WearMode:	PART.BODY
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity:	arena-drago_item_farsetto-cuoio-rinforzato-verde
+		End
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_lancia-drago
+	End
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_77-cunicolo
+	Destination:	6 5 -1 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_78-cunicolo
+	Destination:	5 5 -1 arena-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_79-scalinata-roccia
+	Destination:	5 5 0 arena-drago
+End
+RoomResets:
+ 	ProtoRoom: arena-drago_room_ciarpame
+	Destination:	42 43 42 arena-drago
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_altare
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_armatura-addestramento
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_cassetto
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_chiave-acciaio
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_chiave-cristallo
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_chiave-pietra
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_cofanetto
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_drago-pietra
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_farsetto-cuoio-rinforzato-bianco
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_farsetto-cuoio-rinforzato-blu
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_farsetto-cuoio-rinforzato-nero
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_farsetto-cuoio-rinforzato-rosso
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_farsetto-cuoio-rinforzato-verde
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_forziere
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_fregio
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_lancia-drago
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_mazza-karrikko
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_mazzo-arena
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_rastrelliera
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_runa-blu
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_runa-rossa
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_runa-verde
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_sacco
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_scudo-cavalieri
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_scudo-karrikko
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_spada-ordinanza
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_statua
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_statuetta-cristallo
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_talia
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity:	arena-drago_item_teca
+	End
+End
+RoomResets:
+ 	ProtoRoom: arena-drago_room_zoo
+	Destination:	42 42 42 arena-drago
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_abitante
+	End
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_apprendista-cavaliere
+	End
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_cavaliere-bianco
+	End
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_cavaliere-blu
+	End
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_cavaliere-giovane
+	End
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_cavaliere-nero-01
+	End
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_cavaliere-nero-02
+	End
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_cavaliere-rosso-01
+	End
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_cavaliere-rosso-02
+	End
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_cavaliere-verde
+	End
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_drago-bianco
+	End
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_erik
+	End
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_gigante
+	End
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_guardiano
+	End
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_karrikko
+	End
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_lusianos
+	End
+	EntityResets:
+		ProtoEntity:	arena-drago_mob_spettatore
+	End
+End

@@ -1,0 +1,6 @@
+FunName     command_shut
+Type        CMDTYPE.MOVEMENT
+Trust       TRUST.PLAYER
+Position    POSITION.REST
+Flags       CMDFLAG.INTERACT CMDFLAG.GDR
+MiniHelp    Serve per chiudere casse, zaini e contenitori in generale.

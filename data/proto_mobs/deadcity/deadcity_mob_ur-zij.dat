@@ -1,0 +1,63 @@
+Code: deadcity_mob_ur-zij
+Level: 1
+Sex:	SEX.MALE
+Race:	RACE.GNOME
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name: L'Anziano Ur zij
+Short: uno gnomo anziano
+Long:	$N ti osserva con occhi avidamente speranzosi
+
+Descr:
+L'abbigliamento sembra sia stato confezionato da persone diverse in perenne disaccordo.
+Lo gnomo veste dei corti [olive]pantaloni di flanella[close] color oliva abbinati a calze a righe [red]tri[lightgreen]col[yellow]ori[close];
+una [lime]casacca nuova[close] verde brillante a coprire parzialmente un [salmon]camiciotto[close] rosa salmone. 
+
+
+
+Behaviour:
+	LookPlayer:	20
+	LookMob:	0
+	LookItem:	30
+	LookAtRacesFlags:	RACE.NONE
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookSelf:	0
+	LookDirection:	1
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	1
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+
+Weight: 89kg
+Height: 70cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 94
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

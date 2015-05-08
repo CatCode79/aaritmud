@@ -1,0 +1,55 @@
+Comment:	L'asciugamano della H2G2item per le emergenze dai 1001 usi.
+
+Code: villaggio-zingaro_item_asciugamano
+Level: 1
+MaxGlobalQuantity:	0
+MaterialPercentages:	MATERIAL.COTTON 100%
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+
+Name:	Un Utilissimo [darkmagenta]A[lightseagreen]s[darkmagenta]c[lightseagreen]i[darkmagenta]ugamano[close]
+Short:	un [darkmagenta]a[lightseagreen]s[darkmagenta]c[lightseagreen]i[darkmagenta]ugamano[close]
+Long:	$N è approssimativamente piegato qui.
+
+Descr:
+Un [darkmagenta]a[lightseagreen]s[darkmagenta]c[lightseagreen]i[darkmagenta]ugamano[close] rettangolare di medie dimensioni, gli angoli sono stropicciati e in alcuni punti ti sembra un tantino consumato o forse è solo un ricamo.
+DescrTouch: 
+Un morbido asciugamano in spugna.
+DescrSmell: 
+Non ne sei proprio certo ma hai l'impressione odori di pollo arrosto.
+DescrSixth:
+Intuisci che l'aspetto assolutamente innocuo di questo oggetto banale in realtà nasconda proprietà decisamente interessanti.
+DescrHearing:
+Avvicinando l'orecchio hai l'impressione di cogliere un brusio indistinto.
+DescrTaste:
+Gnum, pollo arrosto.
+
+Value:	420
+Weight: 134g
+
+Extras:
+	Keywords: punti consumato ricamo
+	Descr:
+	Osservi da vicino e noti una scritta in piccoli caratteri lampeggianti: DON'T PANIC.
+End
+
+WearType:
+	Modes:	PART.BACK
+	EntityWearMessage:	Annodi sommariamente $N %part e lo porti a mo' di mantello.
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	$n lega $N %part.
+	EntityRemoveMessage:	Porti la $hand %part e togli con eleganza $N.
+	TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+	OthersRemoveMessage:	$n porta impacciat$o la $hand %part e si leva $N.
+	Modes:	PART.WAIST
+End
+
+ContainerType:
+	MaxWeight:	6kg
+End
+
+WeaponType:
+	Category:	WEAPON.WHIP
+	Flags:	WEAPONFLAG.ONE_HAND
+	Damage:	1D4+1 
+End

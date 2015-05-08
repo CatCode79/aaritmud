@@ -1,0 +1,37 @@
+Code: attributes
+
+ItalianKeywords: attributi
+EnglishKeywords: attributes
+
+Entitype: HELP.STAT
+
+Text:
+Gli attributi sono 8
+
+agilità, resistenza, intelligenza, fortuna, personalità, velocità, forza, volontà
+
+La tabella che segue vuole suggerire alcune caratteristiche fondamentali
+per determinare l'essenza di ogni classe
+
+____________________________________________________________________
+Guerriero | Forza        | Resistenza  | Volontà      | Agilità     |
+Runico    | Intelligenza | Volontà     | Personalità  | Fortuna     |
+Ramingo   | Resistenza   | Volontà     | Agilità      | Personalità |
+Druido    | Volontà      | Personalità | Intelligenza | Resistenza  |
+Ombra     | Agilità      | Velocità    | Fortuna      | Personalità |
+
+Gli attributi rimanenti servono a determinare l'unicità di ogni personaggio
+e possono essere valorizzati o meno da ogni giocatore
+
+
+AdminText:
+Eventuali classe future:
+Bardo     | Personalità  | Fortuna     | Resistenza   | Volontà     |    
+
+
+
+SeeAlso: willpower, agility, intelligence, endurance, speed, strenght, personality, luck
+
+
+
+

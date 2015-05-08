@@ -1,0 +1,48 @@
+Code: villaggio-zingaro_item_unguento-01
+Level: 1
+Entitype:	ENTITYPE.NONE
+Flags:	FLAG.NO_REMOVE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.BALM	100%
+Name:
+L'Unguento è la Chiave
+Short:
+una [darkkhaki]pomata[close] repellente
+Long:
+$N tremola ad ogni movimento.
+
+Descr:
+Un [darkkhaki]balsamo[close] gelatinoso e traslucido dall'aspetto tutt'altro che invitante, il [darkkhaki]colore[close] ed i [tan]pezzetti[close] che scorgi galleggiare all'interno lo fanno sembrare in putrefazione.
+DescrNight:
+Un [darkkhaki]balsamo[close] gelatinoso e traslucido dall'aspetto tutt'altro che invitante emana un bagliore incerto.
+DescrTouch: 
+Vincendo il ribrezzo lo sfiori con un dico cogliendone l'abbondante viscosità.
+DescrSmell: 
+Aspettandoti un odore marcescente resti stupito quando cogli solo una piacevole fragranza di resina a [orange]agrume.[close]
+DescrSixth:
+Ti chiedi a che cosa possa servire, forse contro i reumatismi?
+DescrTaste:
+Anche se l'idea non ti invoglia molto, assaggi appena appena l'unguento per scoprire che sembra di leccare una saponetta.
+
+Value:	0
+Weight: 7g
+
+Extras:
+	Keywords:	agrume
+	DescrSmell:
+	Sì, proprio agrume..con una punta di resina.
+	DescrSixth:
+	Probabilmente l'odore deriva dalla pianta usata per produrre quest'unguento.
+End
+
+WearType:
+        Modes: PART.LEFT_HAND PART.RIGHT_HAND
+        EntityWearMessage:	Con gesti decisi ti spalmi $N sulle $hands.
+        TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+        OthersWearMessage:	$n con gesti decisi si spalma $N sulle $hands.
+        EntityRemoveMessage:	Rimuovi $N che avevi %part.
+        TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+        OthersRemoveMessage:	$n rimuove $N che aveva %part $N
+End
+
+

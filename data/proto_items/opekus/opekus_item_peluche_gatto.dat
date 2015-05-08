@@ -1,0 +1,56 @@
+Code: opekus_item_peluche_gatto
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.CLOTH	100%
+Name: Una Copia 1:1 del Gatto
+Short: un grosso peluche
+Descr:
+Un adorabile pelosissimo peluche a forma di gattone pacioso.
+
+Value:	0
+Weight: 3050g
+
+DescrTouch: 
+Morbidissimo, come la seta; sotto le zampe sembra invece velluto a coste
+DescrSmell: 
+Uhm... ok però... avrà certo dei pregi.
+DescrTaste:
+Che bello mordicchiare i peluche e sputacchiare peli per una giornata intera.
+
+Extras:
+  Keywords: peluche
+  Descr: ha pure un bel po' di panciottona
+  DescrSixth: A questo punto sai che non vale la pena guardare il cartellino con il prezzo
+End
+Extras:
+  Keywords: prezzo 
+  Descr: [red]240[yellow] Euro[close], sticazzi...
+  DescrSixth: Varrà 35 Euro al massimo!
+End
+
+Behaviour:
+	LookPlayer:	1
+	LookMob:	1
+	LookItem:	1
+	LookAtRacesFlags:	RACE.NONE
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookSelf:	1
+	LookDirection:	1
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	1
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+

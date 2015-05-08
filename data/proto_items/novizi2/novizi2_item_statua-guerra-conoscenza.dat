@@ -1,0 +1,23 @@
+Code: novizi2_item_statua-guerra-conoscenza
+Level: 1
+MaxGlobalQuantity:	1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+Flags:	FLAG.NO_GET FLAG.NO_LOOK_LIST
+MaterialPercentages:	MATERIAL.MARBLE	100%
+Name:	La Statua Simbolo della Conoscenza
+Short:	la statua della Conoscenza
+Long:	$N è qui
+
+Descr:
+Una figura bassa e tarchiata che, distolto lo sguardo da un cartiglio, te lo punta addosso con freddo acume e profondissima insoddisfazione.
+
+DescrTouch: 
+Una fredda statua di pietra che ti volge il volto appena distolto da un rotolo che ancora tiene davanti a sé con ambo le mani
+
+DescrSixth:
+La statua di un dignitario nanico disturbato nel suo atto di apprendere informazioni sul nemico.
+
+Value:	0
+Weight: 300kg
+

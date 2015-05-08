@@ -1,0 +1,47 @@
+Comment:
+-nella DescrSmell 'abbia ormai perso il suo scopo originario' non mi convince, dovrebbe comunque essere qualcosa per dire che ormai dopo tanto tempo non dovrebbe esserci più perché non contiene liquirizia da un sacco di tempo
+-nella DescrSixth: appartiene ormai ad un altra epoca....volevo dire che è vecchia senza dire che è vecchia...è molto brutto?
+-nel laboratorio, nel mobile.
+
+Code: carrozzone-zingaro_item_scatoletta-01
+
+Level:	1
+Entitype: ENTITYPE.CONTAINER
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.ALUMINIUM 100%
+Name:	Una Scatoletta
+Short:	una scatoletta rettangolare
+Long:	$N è appoggiata qui.
+
+Descr:
+Una scatoletta metallica di medie dimensioni incernierata sul lato lungo. Sul coperchio sono riportate scene bucoliche mentre su di un lato si intravede ancora una scritta arzigogolata.
+DescrTouch:
+Giocherelli con il coperchio bombato e ti soffermi a saggiare le figure in rilievo.
+DescrSmell:
+Un vigoroso effluvio di liquirizia si fa largo nelle tue narici ricordandoti quello che poteva essere l'utilizzo originario di questo contenitore.
+DescrSixth:
+Dalle evidenti ammaccature sugli angoli capisci che questa scatola appartiene ormai ad un'altra epoca.
+
+Value:	0
+Weight: 120g
+
+Extras:
+   Keywords: scritta coperchio scene figure
+Descr:
+Una dolce pastorella con tanto di bastone, cuffietta di pizzo e fiocchi alla trecce conduce al pascolo un mite gregge di candide pecorelle.
+A fatica riesci a decifrare la scritta consumata dal tempo: [cornflowerblue]Réglisse Amère[close]
+End
+
+ContainerType:
+       EntityOpenMessage:	Apri a fatica il cigolante coperchio di $N.
+       TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+       OthersOpenMessage:	$n apre a fatica il cigolante coperchio di $N.
+       EntityCloseMessage:	Serri il coperchio di $N che si chiude con uno scatto.
+       TargetCloseMessage:	Finalmente $n si è degnat$o di chiuderti.
+       OthersCloseMessage:	$n serra il coperchio di $N che si chiude con un scatto.
+       Flags:	CONTAINER.CLOSED CONTAINER.CLOSABLE
+       MaxWeight: 50g
+End
+
+
+

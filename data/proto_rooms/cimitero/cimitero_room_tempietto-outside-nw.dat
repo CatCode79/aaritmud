@@ -1,0 +1,27 @@
+Code: cimitero_room_tempietto-outside-nw
+Sector: SECTOR.RUIN
+Name: Intorno al Tempio
+Short: attorno ad una costruzione
+
+Descr:
+Un selciato particolarmente scomodo e dissestato qui prende una brutta piega girando
+attorno al tempietto. Questo lato del tempietto mostra solo una parte muraria priva di
+decori. La parte superiore è priva di copertura. Al bordo esterno trovi dei cippi che
+non si comprende se anche loro voglian sembrare delle lapidi.
+DescrSmell: 
+Vago odore di terra smossa e putrefazione si mescolano assieme per arrivare ad un
+miscuglio discutibile
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Attorno all'edificio
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Attorno all'edificio
+End

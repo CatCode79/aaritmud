@@ -1,0 +1,24 @@
+Code: eqdamage
+
+ItalianKeywords: eqdamage
+EnglishKeywords: eqdamage
+
+Entitype: HELP.INFO
+
+Text:
+Durante i combattimenti potresti notare che il tuo equipaggiamento viene
+danneggiato, per esempio potresti leggere "Il tuo elmo è stato danneggiato".
+Se l'oggetto è in buone condizioni può reggere un certo numero di danni, ma
+se fosse già in pessime condizioni potrebbe anche rompersi.
+
+Se non desideri vedere parti del tuo equipaggiamento a terra irrimediabilmente
+danneggiate, ricordati di far visita al fabbro, ne potrai trovare uno in
+quasi tutte le città. 
+
+Potresti combattere anche contro creature che usano attacchi con acido (acid 
+breath e simili), in questo caso se il tuo equipaggiamento dovesse essere
+colpito da questi acidi, il danno subito sarà permanente.
+(NOTA: Non tutti i tipi di equipaggiamento sono riparabili)
+
+
+SeeAlso: repair

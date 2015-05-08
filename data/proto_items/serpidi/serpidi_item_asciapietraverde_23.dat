@@ -1,0 +1,22 @@
+Code:	serpidi_item_asciapietraverde_23
+Level:	1
+Entitype: ENTITYPE.WEAPON
+MaterialPercentages:	MATERIAL.AGATE	100%
+Name:	Ascia di Pietra Verde 
+Short:	un'ascia di pietra verde 
+Descr: 
+un'ascia di pietra verde lunga e tozza allo stesso tempo da usare obbligatoriamente con due mani.  
+Value:	0
+Weight: 22kg
+BirthDay: 1
+BirthMonth: MONTH.TEN
+WearType:
+    Modes: PART.WIELD
+	Modes: PART.HOLD
+End
+
+WeaponType:
+	Category:	WEAPON.SWORD
+	Damage: 1D6+1
+	Flags:	WEAPONFLAG.TWO_HANDS 
+End

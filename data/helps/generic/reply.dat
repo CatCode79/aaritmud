@@ -1,0 +1,15 @@
+Code: reply
+
+ItalianKeywords: rispondo 
+EnglishKeywords: reply 
+
+Entitype: HELP.CHANNEL
+
+Text:
+Il comando $treply manda un messaggio all'ultimo giocatore che ti ha parlato
+usando il comando $ttell, questo comando si rivela molto utile per rispondere
+a giocatori (o Amministratori) che non puoi vedere, senza rivelarti però
+l'identità di chi ti parla.
+
+
+SeeAlso: tell gtell

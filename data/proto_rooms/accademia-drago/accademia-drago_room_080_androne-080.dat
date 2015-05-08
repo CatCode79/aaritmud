@@ -1,0 +1,113 @@
+Code:	accademia-drago_room_080_androne-080
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	L'Androne [gray]Nero[close]
+Short:	l'androne [gray]nero[close]
+	Descr:
+Giungi in un androne abbastanza ampio, qui tutto è scuro e
+opprimente, a partire dal pavimento fino a risalire alla volta
+del soffito. occhi sembrano scrutarti, rossi come il fuoco, dalle
+pareti. Ad est puoi uscire nel cortile mentre ad ovest una grande
+porta d'ebano conduce verso l'interno.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 0
+Exits:
+	Direction:	DIR.EAST
+	Descr:	il cortile pubblico
+	Comment:	ExitStatus	0 0 010 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	un corridoio
+	Comment:	ExitStatus	1 0 081 -1
+	Door:	ikea_item_porta
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

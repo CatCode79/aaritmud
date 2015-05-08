@@ -1,0 +1,19 @@
+Code: villaggio-zingaro_item_bustina-stracciata
+
+Level:	1
+Entitype: ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.PAPER 100%
+Name:	Una Bustina Stracciata
+Short:	una bustina 
+Long:	$N accartocciata.
+
+Descr:
+Una bustina di carta rettangolare è stata accartocciata dopo l'uso, su di un lato presenta un profondo strappo che la rende inutilizzabile.
+DescrTouch:
+La maneggi ulteriormente conferendole un aspetto ancor più usurato.
+
+Value:	0
+Weight: 3g
+
+

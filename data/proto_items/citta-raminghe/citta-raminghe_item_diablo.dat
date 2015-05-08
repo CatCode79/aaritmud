@@ -1,0 +1,21 @@
+Comment: Uno dei giochi del giocoliere
+
+Code: citta-raminghe_item_diablo
+Level: 3
+Entitype: ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.HARDWOOD	50%
+MaterialPercentages:	MATERIAL.FEATHERS	50%
+Sex: SEX.MALE
+Name: [lightblue]diablo[close]
+Short: un [lightblue]diablo[close] di legno
+ShortNight: un [plum]ciuffo di piume[close] di incerta provenienza
+Long:	$N molto pregiato  
+LongNight: $N emana un pessimo odore
+Descr:
+A forma di clessidra il diablo è  poggiato,  nella parte centrale, quella più 
+ristretta, su un cordino legato all'estremità di due sottili bacchette di legno.
+DescrNight: 
+Piume di varia grandezza appena strappate che rimandano a qualcosa che può essere accaduto da queste parti di recente.  
+  
+Value:	0
+Weight: 350g

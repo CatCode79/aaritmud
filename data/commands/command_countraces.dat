@@ -1,0 +1,5 @@
+FunName:  command_countraces
+Type:     CMDTYPE.ADMIN
+Trust:    TRUST.MASTER
+Position: POSITION.DEAD
+MiniHelp: Elenca il numero di razze delle entità presenti nel gioco o tra i prototipi

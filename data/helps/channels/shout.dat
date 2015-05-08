@@ -1,0 +1,15 @@
+Code: shout
+
+ItalianKeywords: grida gridi grido gridare sbraito sbraita sbraiti sbraitare
+EnglishKeywords: shout
+
+Entitype: HELP.CHANNEL
+
+Text:
+Questo comando è molto simile a $tyell, ma decisamente più forte e permetterà
+a tutti di sentirvi, ma attenzione all'uso che ne farete perché potrebbe
+lasciarvi senza fiato!
+$tshout è un canale GDR.
+
+
+SeeAlso: channels yell

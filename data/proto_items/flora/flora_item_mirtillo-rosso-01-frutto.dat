@@ -1,0 +1,46 @@
+Code: flora_item_mirtillo-rosso-01-frutto
+Level: 1
+Icon:	icons/plant/mirtillo-rosso.png
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.SEED
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.FRUIT	100%
+Name: Un Mirtillo [palevioletred]Rosso[close]
+Short: un [palevioletred]mirtillo[close]
+Long:	c'è $N qui
+
+Descr:
+Un piccolo frutto globoso rosso carminio, dalla parte opposta del picciolo ha una
+coroncina circolare.
+
+DescrTouch:
+È maturo e non conviene pigiare troppo se l'intento è conservarlo integro.
+
+DescrSmell: 
+Poco profumo e quel poco è un indistinto aroma... come astringente... boh...
+
+Value:	0
+Weight: 2g
+
+Extras:
+  Keywords: rosso
+  Descr: oltre che mangiarlo si potrebbe anche provare a seminare.
+End
+
+FoodType:
+	Comment:	cibo
+	Animal:	0
+	Vegetable:	100
+	CookingDamage:	0
+	Hours:	0
+End
+
+SeedType:
+    RpgHours:	120
+    WorseEntity:	flora_item_mirtillo-rosso-02-germoglio
+    NormalEntity:	flora_item_mirtillo-rosso-02-germoglio
+    BetterEntity:	flora_item_mirtillo-rosso-02-germoglio
+    RemainingLife:	10
+End
+
+

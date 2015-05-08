@@ -1,0 +1,904 @@
+Comment: Prova conversione area nebbie in area aarit
+Creators:	Chadyne
+Code: serpidi
+Name: L'Incontro con i Serpidi
+Short: il primo incontro con i serpidi
+Descr: La prima missione dei guerrieri Thepa si svolse in un luogo assurdo molto tempo fa, quando ancora essi si potevano definre più umani che altro...
+Color: COLOR.DARKSEAGREEN
+Level: 1
+RepopTime: 15
+LandfillCode:	serpidi_room_8600_01
+
+RoomResets: 
+	ProtoRoom: serpidi_room_8600_01
+	Destination:	0 0 0 serpidi
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8601_01
+	Destination:	0 1 0 serpidi
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8602_01
+	Destination:	0 2 0 serpidi
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8603_01
+	Destination:	0 3 0 serpidi
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8604_01
+	Destination:	0 4 0 serpidi
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8605_01
+	Destination:	-1 4 0 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_statuamiliziano_00
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8606_01
+	Destination:	1 4 0 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_statuaincappucciato_01
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8607_01
+	Destination:	0 5 0 serpidi
+	EntityResets:
+		Quantity:	5
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_scarafaggio_04
+	End
+	EntityResets:
+		Quantity:	5
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_millepiedi_05
+	End
+	EntityResets:
+		Quantity:	3
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_biscia_06
+	End
+	EntityResets:
+		Quantity:	3
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_scorpione_07
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8608_01
+	Destination:	-1 5 0 serpidi
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8609_01
+	Destination:	-1 6 0 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_statuaserpide_02
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_item_diario_08
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8610_01
+	Destination:	1 5 0 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_statuadraagdim_03
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8611_01
+	Destination:	1 6 0 serpidi
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8612_01
+	Destination:	0 6 0 serpidi
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8613_01
+	Destination:	2 5 0 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_tarantola_08
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_item_mantellonero_00
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8614_01
+	Destination:	2 5 -1 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_serpentenero_09
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8615_01
+	Destination:	2 6 -1 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_serpentenero_09
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8616_01
+	Destination:	3 5 -1 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_serpentenero_09
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8617_01
+	Destination:	2 4 -1 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_serpentenero_09
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8618_01
+	Destination:	1 5 -1 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_serpentenero_09
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8619_01
+	Destination:	3 6 -1 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_serpentenero_09
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8620_01
+	Destination:	4 5 -1 serpidi
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8621_01
+	Destination:	3 4 -1 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_serpentenero_09
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8622_01
+	Destination:	2 3 -1 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_serpentenero_09
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8623_01
+	Destination:	1 4 -1 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_serpentenero_09
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8624_01
+	Destination:	0 5 -1 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_serpentenero_09
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8625_01
+	Destination:	1 6 -1 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_serpentenero_09
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8626_01
+	Destination:	2 7 -1 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_serpentenero_09
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8627_01
+	Destination:	1 3 -1 serpidi
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8628_01
+	Destination:	3 7 -1 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_serpentenero_09
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	serpidi_item_vertebra_03
+			WearMode:	PART.LEFT_EAR		
+		End
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8629_01
+	Destination:	4 4 -1 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_serpentenero_10
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	serpidi_item_vertebra_02
+			WearMode:	PART.LEFT_EAR		
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	serpidi_item_vertebra_05
+			WearMode:	PART.RIGHT_EAR		
+		End
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8630_01
+	Destination:	0 4 -1 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_serpentenero_09
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	serpidi_item_vertebra_01
+			WearMode:	PART.RIGHT_EAR		
+		End
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8631_01
+	Destination:	0 4 -2 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_mummianera_32
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	serpidi_item_chiaveforcina_26
+			WearMode:	PART.RIGHT_EAR		
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_item_sarcofagodecorato_09
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	serpidi_item_corpofasciato_10
+			EntityResets:
+				Quantity:	1
+				Type: 	RESET.PUT
+				ProtoEntity: 	serpidi_item_guantiossidiana_43
+				WearMode:	PART.LEFT_HAND PART.RIGHT_HAND
+			End
+			EntityResets:
+				Quantity:	1
+				Type: 	RESET.PUT
+				ProtoEntity: 	serpidi_item_elmoossidiana_11
+				WearMode:	PART.HEAD
+			End
+			EntityResets:
+				Quantity:	1
+				Type: 	RESET.PUT
+				ProtoEntity: 	serpidi_item_pettoraleossidiana_12
+				WearMode:	PART.TORSO
+			End
+			EntityResets:
+				Quantity:	1
+				Type: 	RESET.PUT
+				ProtoEntity: 	serpidi_item_calzariossidiana_14
+				WearMode:	PART.RIGHT_FOOT PART.LEFT_FOOT
+			End
+			EntityResets:
+				Quantity:	1
+				Type: 	RESET.PUT
+				ProtoEntity: 	serpidi_item_scudoossidiana_13
+				WearMode:	PART.BACK
+			End
+			EntityResets:
+				Quantity:	1
+				Type: 	RESET.PUT
+				ProtoEntity: 	serpidi_item_spadaossidianatchagot_15
+				WearMode:	PART.WIELD
+			End
+		End
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8632_01
+	Destination:	4 4 -2 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_mummiagiovane_12
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_item_sarcofago_16
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	serpidi_item_corpomummiaserpide_17
+			EntityResets:
+				Quantity:	1
+				Type: 	RESET.PUT
+				ProtoEntity: 	serpidi_item_medaglioneserpide_18
+				WearMode:	PART.NECK
+			End
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	serpidi_item_knowm_89
+		End
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8633_01
+	Destination:	6 4 -2 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_mummiavecchia_13
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_item_sarcofagopiramide_19
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	serpidi_item_corpomummia_20
+			EntityResets:
+				Quantity:	1
+				Type: 	RESET.PUT
+				ProtoEntity: 	serpidi_item_mantellotenebre_21
+				WearMode:	PART.BODY
+			End
+			EntityResets:
+				Quantity:	1
+				Type: 	RESET.PUT
+				ProtoEntity: 	serpidi_item_scettronerominore_22
+				WearMode:	PART.HOLD
+			End
+		End
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8634_01
+	Destination:	1 3 -2 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_mummiabambina_11
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		Comment: 	da mettere come RESET.TRAP
+		ProtoEntity: 	serpidi_item_trappolabambolapezza_40
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8635_01
+	Destination:	2 3 -2 serpidi
+	EntityResets:
+		Quantity:	4
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_guardiaserpide_14
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	serpidi_item_pettoralegiada_24
+			WearMode:	PART.TORSO		
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	serpidi_item_gambalipietraverde_25
+			WearMode:	PART.LEFT_LOWER_LIMB		
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	serpidi_item_asciapietraverde_23
+			WearMode:	PART.WIELD		
+		End
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8636_01
+	Destination:	2 4 -2 serpidi
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8637_01
+	Destination:	2 5 -2 serpidi
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8638_01
+	Destination:	2 6 -2 serpidi
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8639_01
+	Destination:	1 1 0 serpidi
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8640_01
+	Destination:	1 0 0 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_contadinoserpide_15
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	serpidi_item_abito_27
+			WearMode:	PART.BODY
+			End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	serpidi_item_forcone_28
+			WearMode:	PART.HOLD
+			End
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_contadinoserpide_15b
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	serpidi_item_abito_27
+			WearMode:	PART.BODY
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	serpidi_item_zappa_29
+			WearMode:	PART.HOLD
+		End
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8641_01
+	Destination:	1 -1 0 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_margheritatartaruga_30
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8642_01
+	Destination:	2 -1 0 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_garofanotopo_31
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8643_01
+	Destination:	3 -1 0 serpidi
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8644_01
+	Destination:	3 0 0 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_tulipanoape_33
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8645_01
+	Destination:	2 0 0 serpidi
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8646_01
+	Destination:	-1 1 0 serpidi
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8647_01
+	Destination:	-1 0 0 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_allevatoreserpide_21
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8648_01
+	Destination:	-1 -1 0 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_ranarossocchia_16
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8649_01
+	Destination:	-2 -1 0 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_lucertolalimoncertola_17
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8650_01
+	Destination:	-3 -1 0 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_cracsoideumanoideporcomaiale_18
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	serpidi_item_scarpecracsoide_36
+			WearMode:	PART.LEFT_FOOT PART.RIGHT_FOOT
+		End
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8651_01
+	Destination:	-3 0 0 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_violuccellouccelloviola_19
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8652_01
+	Destination:	-2 0 0 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_tartarugatartacciaio_20
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	serpidi_item_orecchinotartacciaio_37
+			WearMode:	PART.LEFT_EAR PART.RIGHT_EAR
+		End
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8653_01
+	Destination:	2 7 -2 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		Comment: 	da mettere come RESET.HIDE
+		ProtoEntity: 	serpidi_mob_serpidenero_36
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8654_01
+	Destination:	3 7 -2 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_serpide_23
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	serpidi_item_magliavioluccello_31
+			WearMode:	PART.TORSO
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	serpidi_item_cappellovioluccello_34
+			WearMode:	PART.HEAD
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	serpidi_item_guantivioluccello_33
+			WearMode:	PART.LEFT_HAND PART.RIGHT_HAND
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	serpidi_item_pantalonivioluccello_32
+			WearMode:	PART.LEFT_LOWER_LIMB PART.RIGHT_LOWER_LIMB
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	serpidi_item_frammentoosso_39
+			WearMode:	PART.HOLD
+		End
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8655_01
+	Destination:	4 7 -2 serpidi
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8656_01
+	Destination:	5 7 -2 serpidi
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8657_01
+	Destination:	6 7 -2 serpidi
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8658_01
+	Destination:	7 7 -2 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_vecchioserpide_25
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8659_01
+	Destination:	4 8 -2 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_giovaneserpide_22
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	serpidi_item_magliacotone_35
+			WearMode:	PART.TORSO
+		End
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8660_01
+	Destination:	5 8 -2 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_serpide_23
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	serpidi_item_magliavioluccello_31
+			WearMode:	PART.TORSO
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	serpidi_item_cappellovioluccello_34
+			WearMode:	PART.HEAD
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	serpidi_item_guantivioluccello_33
+			WearMode:	PART.LEFT_HAND PART.RIGHT_HAND
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	serpidi_item_pantalonivioluccello_32
+			WearMode:	PART.LEFT_LOWER_LIMB PART.RIGHT_LOWER_LIMB
+		End
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8661_01
+	Destination:	6 8 -2 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_cuocoserpide_28
+	End
+	EntityResets:
+		Quantity:	3
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_sguatteroserpide_29
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8662_01
+	Destination:	7 8 -2 serpidi
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8663_01
+	Destination:	4 6 -2 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_serpidemadre_26
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_giovaneserpide_22
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	serpidi_item_frammentoosso_39
+			WearMode:	PART.HOLD
+		End
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8664_01
+	Destination:	5 6 -2 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_giovaneserpide_22
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8665_01
+	Destination:	6 6 -2 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_vecchioserpide_25
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	serpidi_item_chiaveserpentello_41
+		End
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8666_01
+	Destination:	7 6 -2 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_vecchioserpide_25
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	serpidi_item_bastoneosso_38
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_statuaserpideYashhissh_34
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8667_01
+	Destination:	1 7 -2 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_serpide_23
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8668_01
+	Destination:	0 7 -2 serpidi
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8669_01
+	Destination:	-1 7 -2 serpidi
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8670_01
+	Destination:	-2 7 -2 serpidi
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8671_01
+	Destination:	-3 7 -2 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_vecchioserpide_24
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8672_01
+	Destination:	0 8 -2 serpidi
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8673_01
+	Destination:	-1 8 -2 serpidi
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8674_01
+	Destination:	-2 8 -2 serpidi
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8675_01
+	Destination:	-3 8 -2 serpidi
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8676_01
+	Destination:	0 6 -2 serpidi
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8677_01
+	Destination:	-1 6 -2 serpidi
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8678_01
+	Destination:	-2 6 -2 serpidi
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8679_01
+	Destination:	-3 6 -2 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_mob_statuaprimoserpide_35
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	serpidi_item_codaserpide_42
+                        WearMode:       PART.WIELD 
+		End
+	End
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8680_01
+	Destination:	2 8 -2 serpidi
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8681_01
+	Destination:	2 9 -2 serpidi
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8682_01
+	Destination:	3 9 -2 serpidi
+End
+RoomResets: 
+	ProtoRoom: serpidi_room_8683_01
+	Destination:	3 10 -2 serpidi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	serpidi_item_ritorno_88
+	End
+End

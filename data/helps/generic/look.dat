@@ -1,0 +1,19 @@
+Code: look
+
+ItalianKeywords: esamina guarda
+EnglishKeywords: examine look
+
+Entitype: HELP.GENERIC
+
+Text:
+Il comando $tlook ti permette di guardare: 
+- la stanza in cui ti trovi, scritto senza nessun argomento
+- un'altro [darkgreen]giocatore[close] per vedere la sua descrizione ed eventualmente anche 
+   l'equipaggiamento se hai configurato l'apposita opzione (vedi $tconfig)
+- un [darkgreen]oggetto[close] per vederne la descrizione
+- in una determinata [darkgreen]direzione[close] per vedere una breve descrizione della 
+   stanza che vi si trova
+- descrizioni di partilcolari di una stanza od un oggetto dando una
+  determianta [darkgreen]parola chiave[close].
+
+Il comando $tlook [darkgreen]in[close] ti permette di guardare dentro un contenitore.

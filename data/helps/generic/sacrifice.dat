@@ -1,0 +1,12 @@
+Code: sacrifice
+
+ItalianKeywords: sacrifica
+EnglishKeywords: sacrifice
+
+Entitype: HELP.ITEM
+
+Text:
+Il comando $tsacrifice ti permette di dare in sacrificio un oggetto agli Dei,
+l'oggetto deve trovarsi in terra per poter essere sacrificato.
+Gli Dei ti ricompenseranno per il sacrificio fatto e la natura della ricompensa
+dipenderà dal tipo di oggetto che donerai in sacrificio.

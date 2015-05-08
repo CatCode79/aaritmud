@@ -1,0 +1,27 @@
+Code: miniere-kezaf_item_cartello-minerario
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Flags:	FLAG.NO_GET
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.WOOD	100%
+Name:	[orange]Il Cartello Minerario[close]
+Short:	un [orange]cartello[close]
+Long:	$N è infisso nel terreno 
+
+Descr:
+L'[darkviolet]accesso[close] alla miniera è [darkviolet]libero[close].
+È consentito scavare e tenere tutto ciò che si riesce a trasportare personalmente.
+In molti di recente hanno praticato nuove gallerie e reperito pietre preziose.
+La direzione declina ogni responsabilità in caso di furti, aggressioni, morti accidentali e calamità.
+Buona Fortuna.
+DescrTouch: 
+Un cartello in legno con le scritte in rilievo.
+DescrSixth:
+La presenza d'un cartello di recente fattura... non è più così abbandonata la miniera dunque.
+Chissà se tutta la zona risulterà scavabile oppure solo alcuni tratti lo saranno.
+DescrTaste:
+Una prelibatezza per i tarli.
+
+Value:	0
+Weight: 510g

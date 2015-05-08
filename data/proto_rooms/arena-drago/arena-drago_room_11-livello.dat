@@ -1,0 +1,68 @@
+Code:	arena-drago_room_11-livello
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il II Livello
+Short:	il II livello
+	Descr:
+Sei all'ingresso del secondo livello dei campi di addestramento,
+quella che sembra in tutto e per tutto una strada cittadina
+procede a est ed ovest circondata dalle mura esterne della
+struttura. Verso la parte interna invece un parapetto ti lascia
+la possibilità di ammirare il primo livello dei campi di
+addestramento e, ancora più in basso, la nuda terra dell'arena
+circondata dagli spalti.
+Qui un incredibile via vai di gente ti coglie di sorpresa, a
+quanto pare questo livello dell'arena è stato adibito a mercato
+per gli abitanti del vicino villaggio.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 1
+Exits:
+	Direction:	DIR.EAST
+	Descr:	il II livello
+	Comment:	ExitStatus	0 0 27712 -1
+	Destination:	9 2 0 arena-drago
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	l'arco del dragone
+	Comment:	ExitStatus	0 0 27710 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	il II livello
+	Comment:	ExitStatus	0 0 27718 -1
+	Destination:	3 2 0 arena-drago
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

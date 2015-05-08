@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_016_camminamenti-016
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	I Camminamenti
+Short:	i camminamenti
+	Descr:
+Muovendoti rapido sul camminamento noti come il paesaggio cambi
+repentinamente lasciandoti intravedere nuovi stralci. Ora che non
+hai più la torre al centro della visuale e riesci a vedere oltre
+noti che dietro ad essa si trova una grande struttura circolare a
+cielo aperto. Ti sembra di intuire si tratti di una costruzione
+complessa ma sei troppo in basso per capire esattamente come sia
+costituita.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 1
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 017 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 014 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

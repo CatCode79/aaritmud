@@ -1,0 +1,35 @@
+Code: flora_item_peperoncino-05-germoglio
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Flags:  FLAG.INTERACTABLE_FROM_OUTSIDE
+Name:	Un [lawngreen]Germoglio[close] di [red]Peperoncino[close]
+Short:	un piccolo [lawngreen]germoglio[close]
+Long:	$N sta spuntando da terra.
+
+Flags:  FLAG.INTERACTABLE_FROM_OUTSIDE
+Descr:
+Un piccolo [green]germoglio[close] si sta facendo strada verso la luce. 
+Presenta la caratteristica forma lanceolata e un  colore verde acceso. Sulla superficie una specie di peluria di colore 
+bianco.
+
+
+DescrTouch:
+Morbida e vellutata la sua superficie.
+
+DescrSmell:
+Avverti una leggera fragranza mordente.
+Value:	0
+Weight: 11g
+
+
+PlantType:
+    RpgHours:	001
+    WorseEntity:	flora_item_peperoncino-06-pianta
+    NormalEntity:	flora_item_peperoncino-06-pianta
+    BetterEntity:	flora_item_peperoncino-06-pianta
+End
+
+

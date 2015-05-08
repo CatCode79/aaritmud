@@ -1,0 +1,6 @@
+FunName:  command_give
+Type:     CMDTYPE.ITEM
+Trust:    TRUST.PLAYER
+Position: POSITION.REST
+Flags:    CMDFLAG.INTERACT CMDFLAG.GDR
+MiniHelp: Serve per dare oggetti ad altre persone.

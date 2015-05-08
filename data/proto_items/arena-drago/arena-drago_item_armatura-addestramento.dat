@@ -1,0 +1,26 @@
+Code:	arena-drago_item_armatura-addestramento
+Level:	06
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.LEATHER 100%
+Sex:	SEX.FEMALE
+Flags:	FLAG.RANDOMIZABLE
+Name:	Un'Armatura da Addestramento
+Short:	un'armatura da addestramento
+
+Value:	0
+Weight: 10g
+
+Descr:
+Una semplice armatura in cuoio leggera e poco ingombrante.
+
+WearType:
+   Modes: PART.BODY
+End
+
+Comment:
+§27728
+
+Dati Obj
+9 4|4096|8192|16384|33554432|67108864|134217728 1|89 9 5 050 5000 0A17 -30A51 5
+
+

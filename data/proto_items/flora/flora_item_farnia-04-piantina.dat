@@ -1,0 +1,30 @@
+Code: flora_item_farnia-04-piantina
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name: Una Giovane [mediumseagreen]Quercetta[close], una[mediumseagreen]Farnia[close] 
+Short: una giovane [mediumseagreen]quercetta[close]
+Descr:
+Una piantina piuttosto piccina dal fusto bruno e con poche foglioline
+
+Value:	0
+Weight: 22g
+
+DescrTouch: 
+Una piantina che tenta pian piano di crescere e divenire autosufficiente.
+
+Extras:
+  Keywords: piantina
+  Descr: difficile dire di che pianta si tratta
+  DescrSixth: una farnia
+End
+
+PlantType:
+    Sectors:	SECTOR.PLAIN SECTOR.HOUSE
+    RpgHours:	01
+    WorseEntity:	flora_item_farnia-05-piantina
+    NormalEntity:	flora_item_farnia-05-piantina
+    BetterEntity:	flora_item_farnia-05-piantina
+End

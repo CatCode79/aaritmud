@@ -1,0 +1,33 @@
+Code: ikea_item_scatola-03
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+MaterialPercentages:	MATERIAL.SOFTWOOD	100
+Sex:	SEX.FEMALE
+Flags:	FLAG.RANDOMIZABLE
+Name:	Una Scatola di [maroon]Compensato[close]
+Short:	una scatola di [maroon]compensato[close]
+Long:	C'è $N con una piccola serratura
+
+Descr:
+Una scatola di compensato di forma quadrata con il coperchietto incernierato da un lato, mentre sul lato opposto c'è una piccola serratura.
+DescrTouch: 
+Una scatola leggera a forma quadrata con il coperchietto incernierato da un lato, mentre sul lato opposto c'è una piccola serratura.
+
+Value:	0
+Weight: 10g
+
+
+ContainerType:
+	EntityOpenMessage:	Apri $N usando ambo le $hands.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N usando ambo le $hands.
+	EntityCloseMessage:	Accompagni $N fino a chiuderla.
+	TargetCloseMessage:	Finalmente $n si è degnat$o di chiuderti.
+	OthersCloseMessage:	$n accompagna $N fino a chiusura.
+	KeyCode:	ikea_item_key-chiavetta-scatola
+	Flags:	CONTAINER.CLOSED CONTAINER.CLOSABLE
+        MaxWeight: 100g
+End
+
+

@@ -1,0 +1,21 @@
+Code:	serpidi_item_trappolabambolapezza_40
+Level:	1
+Entitype: ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.CLOTH	100%
+Name:	Una Bambola di Pezza
+Short:	una bambola di pezza
+Descr: 
+Era una bella bambola fatta di pezzi stoffa ricuciti diverse volte con cui probabilmente giocava la bambina quando era ancora in vita.  
+Extras:
+	Keywords:	bambola 
+	Descr:
+È  una  bella  bambola di pezza tutta colorata. Sul lato esterno destro è ricucita, ma è ancora in buono stato.
+End
+Value:	0
+Weight: 1200g
+BirthDay: 1
+BirthMonth: MONTH.TEN
+
+
+
+

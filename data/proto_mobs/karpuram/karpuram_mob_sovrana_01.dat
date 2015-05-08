@@ -1,0 +1,88 @@
+Code: karpuram_mob_sovrana_01
+Level: 25
+
+Sex:	SEX.FEMALE
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Un'Elfa Sovrana
+Short: la sovrana degli elfi
+Long:	$N gira tra la sua gente con tranquillità
+Race: RACE.WOODELF
+
+Descr:
+Quest'elfa indossa un lungo abito di seta purissima che la ricopre quasi per
+intero, un pregiato mantello le copre le spalle, questo è fermato da un paio
+di lacci di seta. Il suo portamento è fiero ma tranquillo e non si discosta
+troppo dagli altri elfi della zona, ti rendi conto però della sua importanza,
+oltre che per le due guardie che la precedono, per l'anello che porta al dito
+e per una delicata corona posata dolcemente tra i capelli.
+
+
+
+
+Extras:
+	Keywords: sigillo
+	Descr:
+	Montato su una lamina d'argento e oro, risalta un sigillo a forma di scudo.
+End
+
+Extras:
+	Keywords: corona
+	Descr:
+	Una tiara sottile e purissima, formata da due lamine di argento e oro che
+	finiscono con l'intrecciarsi sul davanti formando il simbolo di due mani
+	che si stringono.
+End
+
+
+
+
+
+Behaviour:
+	LookPlayer:	10
+	LookMob:	10
+	LookItem:	10
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	5
+	LookDirection:	5
+	LookExit:	20
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	50
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NORTH DIR.NORTHEAST DIR.EAST DIR.SOUTHEAST DIR.SOUTH DIR.SOUTHWEST DIR.WEST DIR.NORTHWEST DIR.DOWN DIR.UP 
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+Weight: 50kg
+Height: 175cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 90
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

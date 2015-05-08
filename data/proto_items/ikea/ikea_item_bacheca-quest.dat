@@ -1,0 +1,30 @@
+Code: ikea_item_bacheca-quest
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.WOOD	100%
+Name:	La Bacheca
+Short:	la bacheca
+Long:	$N torreggia instancabile
+
+Descr:
+Due pali infissi nel terreno sono connessi fra loro da un assito piuttosto fitto ad ottenere una bacheca.
+Un minimo di tetto a spiovente tenta di proteggere dalle intemperie quel che vi è  affisso.
+Tutto il legno è verniciato di fresco da una vernice a specchio incrinata nei vari punto ove sono stati affissi fogli e foglietti.
+
+DescrTouch: 
+Un bipede di legno profondamente infisso nel terreno è qui a sostenere il desiderio di appiccicarvi fogli e foglietti.
+Il tutto risulta rivestito di una spessa vernice liscia e dura.
+
+DescrSmell: 
+Qualcuno l'ha verniciata abbastanza di recente da poter sentire facilmente un vago sentore di solvente.
+
+DescrSixth:
+Questa è la meta di ogni avventuriero annoiato in cerca di epiche avventure che ne provino il valore senza intaccarne troppo la nomea.
+
+DescrTaste:
+Con indomito impegno ti dedichi dentalmente alla bacheca al fine di provare il tuo valore e di versare una congrua quota dei tuoi averi al cavadenti del villaggio.
+
+Value:	0
+Weight: 153kg

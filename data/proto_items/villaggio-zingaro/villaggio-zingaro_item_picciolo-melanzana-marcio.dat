@@ -1,0 +1,28 @@
+Code: villaggio-zingaro_item_picciolo-melanzana-marcio
+
+Level: 1
+Entitype:	ENTITYPE.FOOD	
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name:
+Un Picciolo di Melanzana Marcio
+Short:
+un picciolo di melanzana
+Long:
+$N è stato gettato qui.
+
+Descr:
+Un verde picciolo di melanzana con tutte la spine ben diritte è appena imputridito sulla parte del taglio.
+DescrTouch: 
+Appena lo tocchi ti pungi con una delle spine.
+DescrSixth:
+Date le condizione in cui si trova potrebbe non essere stato gettato da molto.
+DescrSmell:
+Quello che un tempo era il suo aroma caratteristico è ormai coperto dal puzzo di putridume e letame.
+
+Value:	0
+Weight: 10g
+
+
+
+

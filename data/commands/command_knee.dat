@@ -1,0 +1,6 @@
+FunName:    command_knee
+Type:       CMDTYPE.MOVEMENT
+Trust:      TRUST.PLAYER
+Position:   POSITION.SLEEP
+Flags:      CMDFLAG.INTERACT CMDFLAG.GDR
+MiniHelp:   Serve per far inginocchiare il proprio personaggio.

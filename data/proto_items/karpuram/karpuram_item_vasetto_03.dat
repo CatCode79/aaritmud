@@ -1,0 +1,22 @@
+Code: karpuram_item_vasetto_03
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+MaterialPercentages:	MATERIAL.CLAY	100
+Sex:	SEX.MALE
+Name: Un [olivedrab]Vasetto[close] di terracotta
+Short: un [olivedrab]vasetto[close]
+Long:	$N è poggiato qui a terra
+
+Descr:
+Un vasetto in terracotta di forma quadrangolare.
+
+Value:	0
+Weight: 300g
+
+
+ContainerType:
+        MaxWeight: 1kg
+End
+
+

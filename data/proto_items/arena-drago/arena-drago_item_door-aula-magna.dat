@@ -1,0 +1,56 @@
+Code: arena-drago_item_door-aula-magna
+Level: 1
+Entitype:	ENTITYPE.DOOR
+MaterialPercentages:	MATERIAL.HARDWOOD 90%
+MaterialPercentages:	MATERIAL.IRON 10%
+Sex:	SEX.FEMALE
+Name:	La Porta Massiccia
+Short:	una porta
+Long: $N è stata divelta.	
+
+Descr:
+Una porta in legno massiccio con affisso un cartello.
+
+Value:	0
+Weight: 10kg
+
+Extras:
+	Keywords:	cartello
+	Descr:
+------------------------------
+
+Orari Lezioni:
+
+7:00 - galateo
+8:00 - lettura del magico
+9:00 - storia dei cavalieri
+
+13:00 - anatomia del drago
+15:00 - finanza
+
+------------------------------
+
+Si ricorda a tutti gli studenti
+che le lezioni pratiche e gli
+esami si tengono nelle aule 
+dell'arena.
+
+------------------------------
+
+End
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Apri $N facendo oscillare il cartello.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N facendone oscillare il cartello.
+	EntityCloseMessage:	Richiudi $N.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n chiude sbattendo $N.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE
+End
+
+

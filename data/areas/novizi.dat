@@ -1,0 +1,332 @@
+Comment: area novizi
+Creators:	Sulfrum
+Code: novizi
+Name: Il Cammino del Sapere 
+Short: i dintorni della prima casa
+Descr:
+Il viaggio di ogni avventuriero comincia qui. All'ultimo piano della casa dei Grozzy; una famiglia che ha concesso parte della magione per iniziare gli avventurieri al mondo del nakilen.
+La casa è stata scelta in verità per la vicinanza ad est con la Torre Elementale, snodo e crocevia del mondo in evoluzione.
+Color: COLOR.GRAY
+Level: 5
+Flags: AREA.DONT_LIST
+RepopTime: 20
+LandfillCode:	novizi_room_ingresso-01
+
+RoomResets:
+	Comment: Stanza delle direzioni
+	ProtoRoom: novizi_room_ingresso-01
+	Destination:	0 0 1 novizi
+
+End
+RoomResets:
+	Comment: stanza dei comandi sensoriali
+	ProtoRoom: novizi_room_ingresso-02
+	Destination:	0 0 0 novizi
+End
+RoomResets:
+	Comment: prima stanza
+	ProtoRoom: novizi_room_oggetti
+	Destination:	0 0 -1 novizi
+End
+RoomResets:
+	Comment: stanzina di pop delle coccarde
+	ProtoRoom: novizi_room_souvenir
+	Destination:	1 0 -1 novizi
+End
+RoomResets:
+	ProtoRoom: novizi_room_prove-get-drop
+	Destination:	2 0 -1 novizi
+End
+RoomResets:
+	ProtoRoom: novizi_room_prove-get-drop
+	Hour:	07
+	Minute: 05
+		EntityResets:
+			Messages: *qualcosa rovista e risistema le monete
+			Messages: *qualcuno rovista e risistema le monete
+			Messages: *le monete si riassettano autonomamente
+			Messages: [red]pling... pling...[close]
+			Messages: [yellow]plong... plong...[close]
+			Messages: [orange]plang... plang...[close]
+			Messages: [green]plung... plung...[close]
+			Messages: [blue]pleng... pleng...[close]
+			Messages: [gold]plang... pleng...[close]
+			Messages: [lime]plang... pling...[close]
+			Messages: [olive]plang... plong...[close]
+			Messages: [maroon]plang... plung...[close]
+			Quantity: 2
+			Type: RESET.PUT
+			ProtoEntity: novizi2_item_moneta_01
+		End
+	Destination:	2 0 -1 novizi
+End
+
+RoomResets:
+	ProtoRoom: novizi_room_stanza-segreta
+	Destination:	2 -1 -1 novizi
+End
+
+RoomResets:
+	Comment: prima stanza
+	ProtoRoom: novizi_room_equipaggiamento
+        Hour: 07
+	Destination:	0 0 -2 novizi
+End
+RoomResets:
+	Comment: prima stanza
+	ProtoRoom: novizi_room_equipaggiamento
+	Destination:	0 0 -2 novizi
+End
+RoomResets:
+	ProtoRoom: novizi_room_camerino
+	Destination:	1 0 -2 novizi
+End
+RoomResets:
+	ProtoRoom: novizi_room_camerino
+	Hour: 11
+	Destination:	1 0 -2 novizi
+End
+
+RoomResets:
+	Comment: default dei 4 reset di stagione
+	ProtoRoom: novizi_room_preparativi
+	Destination:	1 0 -20 novizi
+End
+RoomResets:
+	Comment: l'ingresso di casa
+	ProtoRoom: novizi_room_atrio
+	Destination:	0 -1 -2 novizi
+End
+RoomResets:
+	Comment: l'ingresso di casa
+	Hour: 0
+	ProtoRoom: novizi_room_atrio
+	Destination:	0 -1 -2 novizi
+End
+RoomResets:
+	Comment: l'ingresso di casa
+	Hour: 4
+	Messages: [orange]la porta cigola sotto la spinta del vento[close]
+	ProtoRoom: novizi_room_atrio
+	Destination:	0 -1 -2 novizi
+End
+RoomResets:
+	Comment: l'ingresso di casa
+	Hour: 8
+	Messages: [orange]la porta cigola sotto la spinta del vento[close]
+	ProtoRoom: novizi_room_atrio
+	Destination:	0 -1 -2 novizi
+End
+RoomResets:
+	Comment: l'ingresso di casa
+	Hour: 12
+	Messages: [orange]la porta cigola sotto la spinta del vento[close]
+	ProtoRoom: novizi_room_atrio
+	Destination:	0 -1 -2 novizi
+End
+RoomResets:
+	Comment: l'ingresso di casa
+	Hour: 16
+	Messages: [orange]la porta cigola sotto la spinta del vento[close]
+	ProtoRoom: novizi_room_atrio
+	Destination:	0 -1 -2 novizi
+End
+RoomResets:
+	Comment: l'ingresso di casa
+	Hour: 20
+	Messages: [orange]la porta cigola sotto la spinta del vento[close]
+	ProtoRoom: novizi_room_atrio
+	Destination:	0 -1 -2 novizi
+End
+RoomResets:
+	Comment: accesso alla zona privata
+	ProtoRoom: novizi_room_privato_corridoio-01
+	Destination:	-1 -1 -2 novizi
+End
+RoomResets:
+	Comment: accesso alla zona privata
+	ProtoRoom: novizi_room_privato_corridoio-01
+	Messages: [orange]dal rumore del legno pare ci siano i tarli al lavoro[close]
+	Hour: 0
+	Destination:	-1 -1 -2 novizi
+End
+RoomResets:
+	Comment: accesso alla zona privata
+	ProtoRoom: novizi_room_privato_corridoio-01
+	Messages: [orange]dal rumore del legno pare ci siano i tarli al lavoro[close]
+	Hour: 4
+	Destination:	-1 -1 -2 novizi
+End
+RoomResets:
+	Comment: accesso alla zona privata
+	ProtoRoom: novizi_room_privato_corridoio-01
+	Messages: [orange]dal rumore del legno pare ci siano i tarli al lavoro[close]
+	Hour: 8
+	Destination:	-1 -1 -2 novizi
+End
+RoomResets:
+	Comment: accesso alla zona privata
+	ProtoRoom: novizi_room_privato_corridoio-01
+	Messages: [orange]dal rumore del legno pare ci siano i tarli al lavoro[close]
+	Hour: 12
+	Destination:	-1 -1 -2 novizi
+End
+RoomResets:
+	Comment: accesso alla zona privata
+	ProtoRoom: novizi_room_privato_corridoio-01
+	Messages: [orange]dal rumore del legno pare ci siano i tarli al lavoro[close]
+	Hour: 16
+	Destination:	-1 -1 -2 novizi
+End
+RoomResets:
+	Comment: accesso alla zona privata
+	ProtoRoom: novizi_room_privato_corridoio-01
+	Messages: [orange]dal rumore del legno pare ci siano i tarli al lavoro[close]
+	Hour: 20
+	Destination:	-1 -1 -2 novizi
+End
+RoomResets:
+	Comment: accesso alla zona privata
+	ProtoRoom: novizi_room_privato_corridoio-02
+	Destination:	-2 -1 -2 novizi
+End
+RoomResets:
+	Comment: camera da letto
+	ProtoRoom: novizi_room_privato_camera
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: novizi_mob_acaro
+	End
+	Destination:	-1 -2 -2 novizi
+End
+RoomResets:
+	Comment: cucina
+	ProtoRoom: novizi_room_privato_cucina
+	Destination:	-1 -0 -2 novizi
+End
+RoomResets:
+	Comment: zona privata
+	ProtoRoom: novizi_room_privato_studiolo
+	Destination:	-2 0 -2 novizi
+End
+RoomResets:
+	Comment: zona privata - bagno
+	ProtoRoom: novizi_room_privato-bagno
+	Destination:	-3 -1 -2 novizi
+End
+RoomResets:
+	Comment: zona sotterranea (giunzione)
+	ProtoRoom: novizi_room_sotterraneo-accesso
+	Destination:	-3 -1 -3 novizi
+End
+RoomResets:
+	Comment: zona sotterranea (fondo delle scale)
+	ProtoRoom: novizi_room_sotterraneo-pianerottolo
+	Destination:	-3 -1 -4 novizi
+End
+RoomResets:
+	Comment: zona sotterranea (fondo delle scale)
+	ProtoRoom: novizi_room_sotterraneo-cubicolo
+	Destination:	-3 -1 -5 novizi
+
+End
+RoomResets:
+	Comment: zona privata - soggiorno
+	ProtoRoom: novizi_room_privato-soggiorno
+	Destination:	-2 -2 -2 novizi
+End
+RoomResets:
+	Comment: piazzele esterno
+	ProtoRoom: novizi_room_piazzale-esterno-01
+	Destination:	0 -2 -2 novizi
+End
+RoomResets:
+	Comment: palude
+	ProtoRoom: novizi_room_zona-melmosa
+	Destination:	1 -2 -2 novizi
+End
+RoomResets:
+	Comment: sentiero accesso ai giardini e accademia drago
+	ProtoRoom: novizi_room_sentiero-ew
+	Destination:	-1 -3 -2 novizi
+End
+RoomResets:
+	Comment: sentiero accesso ai giardini
+	ProtoRoom: novizi_room_sentiero-ns
+	Destination:	-1 -4 -2 novizi
+End
+RoomResets:
+	Comment: zona dei gardini fai da te
+	ProtoRoom: novizi_room_giardini-a1
+	Destination:	-2 -5 -2 novizi
+End
+RoomResets:
+	Comment: zona dei gardini fai da te
+	ProtoRoom: novizi_room_giardini-a2
+	Destination:	-1 -5 -2 novizi
+End
+RoomResets:
+	Comment: zona dei gardini fai da te
+	ProtoRoom: novizi_room_giardini-a3
+	Destination:	0 -5 -2 novizi
+End
+RoomResets:
+	Comment: zona dei gardini fai da te
+	ProtoRoom: novizi_room_giardini-b1
+	Destination:	-2 -6 -2 novizi
+End
+RoomResets:
+	Comment: zona dei gardini fai da te
+	ProtoRoom: novizi_room_giardini-b2
+	Destination:	-1 -6 -2 novizi
+End
+RoomResets:
+	Comment: zona dei gardini fai da te
+	ProtoRoom: novizi_room_giardini-b3
+	Destination:	0 -6 -2 novizi
+End
+RoomResets:
+	Comment: zona d'accesso a Sauria
+	ProtoRoom: novizi_room_collegamento-02
+	Destination:	-3 -3 -2 novizi
+End
+RoomResets:
+	Comment: zona per il portale di connessione all'accademia-drago
+	ProtoRoom: novizi_room_collegamento-01
+	Destination:	-2 -3 -2 novizi
+End
+
+RoomResets:
+	Comment: piazzele esterno
+	ProtoRoom: novizi_room_piazzale-esterno-02
+	Destination:	0 -3 -2 novizi
+End
+
+RoomResets:
+	Comment: destinazione anello ritorno
+	ProtoRoom: novizi_room_tempio-ritorno
+	Destination:	1 -3 -2 novizi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: novizi_item_altare-ritorno
+	End
+End
+
+RoomResets:
+	Comment: lo stomaco del bovide
+	ProtoRoom: novizi_room_stomaco-bovino
+	Destination:	100 100 100 novizi
+End
+RoomResets:
+	Comment: lo stomaco del bovide
+	ProtoRoom: novizi_room_stomaco-bovino-rumine
+	Destination:	101 099 100 novizi
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: novizi_item_bovino-portale
+	End
+End
+

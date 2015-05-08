@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_038_camminamenti-038
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	I Camminamenti
+Short:	i camminamenti
+	Descr:
+Ti trovi nella parte centrale dei camminamenti a nord, qui vedi
+un pennone sulla cui cima garrisce la bandiera dei cavalieri del
+drago. Le mura proseguono ad est ed ovest.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 1
+Exits:
+	Direction:	DIR.EAST
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 037 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 039 -1
+End
+Extras:
+	Keywords:	bandiera
+		Descr:
+La bandiera dei cavalieri del drago, un artiglio nero impresso su
+di uno scudo bianco fa bella mostra di se sul fondo rosso porpora
+bordato d'oro.
+
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

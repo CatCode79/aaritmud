@@ -1,0 +1,66 @@
+Code:	torreelementi_mob_batu
+Level:	12
+
+Flags:	FLAG.CARNIVOROUS
+Sex:	SEX.FEMALE
+Race:	RACE.HUMAN mutaforma
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Batu Ri
+Short:	una ragazza
+ShortNight:	una voluta di fumo
+Long:	$N danza inquieta e dimentica del mondo.
+LongNight:	$N volteggia nell'aria.
+Descr:
+Una ragazzona di trent'anni circa dal volto nascosto nei folti capelli [maroon]castani[close].
+Di quando in quando un movimento scattoso del capo mostra due occhi che sfolgoran
+di vivace alterigia.
+DescrNight:
+Una nuvola di fumo sottile s'avvolge a sé stessa in volute sottili.
+
+Weight:	80kg
+Height:	180cm
+
+
+Behaviour:
+	LookPlayer:	20
+	LookMob:	20
+	LookItem:	20
+	LookAtRacesFlags:	RACE.NONE
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	150
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+BirthDay:	1
+BirthMonth:	MONTH.ONE
+Age:	30
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

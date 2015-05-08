@@ -1,0 +1,80 @@
+Code: villaggio-zingaro_mob_pesce-grotta
+Level: 1
+MaxGlobalQuantity:	3
+Race:	RACE.FISH
+Sex:	SEX.MALE
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Icon:	icons/mob/pesce-grotta.png
+Name:	Un Pesce Albino 
+Short:	un lungo pesce
+Long:	$N sembra avercela con tutto e tutti.
+
+Descr:
+Un lungo pesce dalla simmetria cilindrica, è completamente sprovvisto di squame e la [wheat]pelle[close] appare viscida e molliccia. Sembra che per spostarsi usi unicamente i movimenti della coda dalla quale, per diversi centimetri, spuntano delle [slategray]membrane rigide[close] e traslucide che ricordano un'ancestrale pinna caudale. Le altre [slategray]pinne[close] sopropositatamente lunghe e svolazzanti scorrono lungo il corpo come prive di volontà.
+La grossa e circolare bocca, quando si apre, mostra una fila di denti aguzzi che corrono lungo tutta la parte interna della labbra.
+DescrTouch: 
+Un lungo e viscido pesce dai denti appuntiti che non vorresti mai sentir conficcati in una $hand.
+DescrSmell: 
+Puzza proprio di pesce marcio!
+DescrSixth:
+Ti ricorda qualcosa di vagamente onirico...
+DescrTaste:
+Non sembra molto invitante ma forse cuocendolo..
+
+Height: 10cm
+Weight: 438g
+BirthDay: 4
+BirthMonth: MONTH.ONE
+
+Behaviour:
+	LookPlayer:	13
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	LookEquipment:	0
+	SmellPlayer:	0
+	ListenMob:	0
+	TouchItem:	0
+	IntuitionAtRacesFlags:	RACE.NONE
+	IntuitionAtRaces:	0
+	TasteAtEntitypesFlags:	ENTITYPE.NONE
+	TasteAtEntitypes:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.EAST DIR.WEST
+	WanderAtExits:	9	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	0
+	RandomDoInputs:	emote boccheggia minaccioso.
+End
+
+Strength:	33
+Endurance:	33
+Agility:	43
+Speed:		43
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:		33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

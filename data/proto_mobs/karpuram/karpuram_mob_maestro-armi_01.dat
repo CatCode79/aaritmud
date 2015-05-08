@@ -1,0 +1,77 @@
+Code: karpuram_mob_maestro-armi_01
+Level: 33
+Sex:	SEX.MALE
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Un Maestro D'Armi
+Short: un maestro combattente
+Long:	$N controlla le truppe
+Race: RACE.WOODELF
+
+Descr:
+Il suo lento ma deciso incedere ti fanno capire di essere al cospetto di una
+personalità importante, un lungo mantello tessuto a mano lo ricopre quasi per
+intero. Indossa un'armatura completa di maglia elfica che copre ogni parte
+del suo possente corpo, un maestro d'armi si aggira fiero per il bosco: la 
+sicurezza data dal suo rango trapela dai suoi lineamenti e dalla sua camminata.
+Ben in vista legati alla cintura di cuoio attorno alla vita vi sono due foderi
+di discrete dimensioni dai quali si notano altrettante spade corte di pregiata
+fattura. I suoi [crimson]occhi[close] t'infiammano l'animo.
+
+
+
+DescrSixth:
+Il tuo intuito ti dice di stare alla larga da quest'elfo.
+
+
+
+
+
+Behaviour:
+	LookPlayer:	10
+	LookMob:	10
+	LookItem:	10
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	5
+	LookDirection:	5
+	LookExit:	20
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	90
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NORTH DIR.NORTHEAST DIR.EAST DIR.SOUTHEAST DIR.SOUTH DIR.SOUTHWEST DIR.WEST DIR.NORTHWEST DIR.DOWN DIR.UP
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+Weight: 85kg
+Height: 200cm
+
+BirthDay: 5
+BirthMonth: MONTH.ONE
+Age: 120
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

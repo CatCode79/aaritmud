@@ -1,0 +1,37 @@
+Code: ikea_item_calzamaglia-colorata
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.WOOL	100%
+Name:	Una [red]Calzamaglia [green]Bicolore[close]
+Short:	una [red]calzamaglia [green]bicolore[close]
+Long:	$N posata qui.
+
+Descr:
+Un paio di buffe [red]calzam[green]aglie[close] che arrivano fino alla vita. Hanno una gamba di colore rosso e una di colore verde.
+DescrTouch: 
+Sono spesse e non molto morbide.
+DescrSixth: 
+Ti sembrano fatte di lana.
+
+Value:	33
+Weight: 57g
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+	Modes:	PART.LEFT_FOOT PART.RIGHT_FOOT PART.LEFT_LOWER_LIMB PART.RIGHT_LOWER_LIMB 
+	EntityWearMessage:	Infili $N ad una gamba per volta.
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	$n infila $N una gamba per volta.
+	EntityRemoveMessage:	Togli $N con una certa difficoltà.
+	TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+	OthersRemoveMessage:	Vedi $n togliersi $n con la malagrazia di un pachiderma.
+End
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

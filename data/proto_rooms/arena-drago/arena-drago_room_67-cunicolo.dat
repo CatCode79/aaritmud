@@ -1,0 +1,66 @@
+Code:	arena-drago_room_67-cunicolo
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Un Cunicolo
+Short:	un cunicolo
+	Descr:
+Prosegui in un cunicolo scavato nella roccia, l'aspetto delle
+pareti ti fa pensare ad una caverna naturale. se non fosse per le
+venature di magma luminescenti diresti che tutto questo sia così
+dall'alba dei tempi, invece la tenue luminosità di queste
+venature ti fa intuire che una potentissima magia ha plasmato
+questi luoghi. A nord intravedi un'apertura allargarsi in modo
+impressionante mentre verso sud il cunicolo prosegue.
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	1|64 0
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	il giardino dei draghi
+	Comment:	ExitStatus	0 0 27768 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	Portale
+	Comment:	ExitStatus	1|16|32|128|512 27722 27766 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

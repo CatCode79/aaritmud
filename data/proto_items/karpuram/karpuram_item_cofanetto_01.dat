@@ -1,0 +1,75 @@
+Code: karpuram_item_cofanetto_01
+MaxGlobalQuantity:	0
+Level: 1
+Entitype:	ENTITYPE.CONTAINER
+MaterialPercentages:	MATERIAL.VEGETABLE	99
+MaterialPercentages:	MATERIAL.UNKNOWN	1
+
+Sex:	SEX.MALE
+Name:
+	Il [darkorchid]Cofanetto[close] Dono di Karpuram
+Short:
+	un [darkorchid]cofanetto[close] vegetale
+Long:
+	C'è $N che sembra stia cercando di attecchire qui
+Descr:
+	Una minuta scatolina [green]verde[close] e [maroon]marrone[close] senza apparenti meccanismi per l'apertura.
+	Ha la forma di una mezzaluna oblunga a ricordare un bacello. É di aspetto setoso come i
+	bacelli di glicine. Da una delle estremità laterali fuoriesce qualcosa dell'aspetto
+	di una gocciolina schiumosa.
+DescrTouch: 
+	Un oggettino setoso da accarezzare rigorosamente nella direzione del pelo.
+DescrSmell: 
+	Nulla di percepibile.
+DescrSixth:
+	Il meccanismo di apertura di sicuro sarà così banale che ti ci vorranno
+	almeno un paio di giorni per trovarlo.
+DescrHearing:
+	Poggiandoci l'orecchio sembra di sentire lo stormire del vento fra le fronde.
+DescrTaste:
+	Dà la stessa sensazione di leccare una coperta di lana con la differenza che pare
+	non perdere pelo.
+
+Value:	0
+Weight: 210g
+
+Extras:
+	Keywords: goccia gocciolina schiuma schiumosa
+	Descr:
+		è qualcosa che pulsa lentamente mutando in modo trascurabile forma e volume
+	DescrSmell:
+		solo avvicinandosi molto si sente un vago odore di clorofilla assieme a qualcosa
+		di vagamente aromatico
+	DescrHearing:
+		senti il leggerissimo scoppiettio di bollicine
+	DescrTouch:
+		a dispetto di quanto t'aspettavi non riesci a modellare così agevolmente la schiuma 
+	DescrTaste:
+		potrebbe non essere salutare come approccio, quantomeno potrebbe non piacere al
+		cofanetto; il sapore è cosi aspro da ricordare bacche molto acerbe
+	DescrSixth:
+		per quanto assurdo, senti che si aprirà se fischierai in modo prolungato
+End
+
+
+Extras:
+	Keywords: glicine setoso seta pelo 
+	Descr: si tratta di minuscoli peli pettinati nella direzione della parte più lunga del cofanetto
+	DescrSmell: però non puzza come pelo di animale
+	DescrHearing: sembra di sentire lo stormire del vento fra le fronde e proviene dall'interno
+	DescrTouch: chissà se dà dipendenza questa piacevolezza
+	DescrTaste: leccare contropelo questa cosa dà la sensazione abrasiva di un gatto che ti lecca 
+	DescrSixth: forse si apre il cofanetto anche solo accarezzando dalla parte giusta
+End
+
+
+ContainerType:
+	EntityOpenMessage:	Carezzi con la $hand $N che lentamente si schiude rivelandoti il suo interno.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n carezza con la $hand  $N che comincia a gonfiarsi lentamente fino a schiudersi.
+	EntityCloseMessage:	pigi con ambo le $hands sui bordi di $N che si lascia accompagnare a chiusura.
+	TargetCloseMessage:	Finalmente $n si è degnat$o di chiuderti.
+	OthersCloseMessage:	$n pigia con le $hands sui bordi di $N che si chiude plasticamente.
+	Flags:	CONTAINER.CLOSED CONTAINER.CLOSABLE CONTAINER.OPEN_ONE_TIME
+        MaxWeight: 10kg
+End

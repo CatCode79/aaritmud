@@ -1,0 +1,97 @@
+Comment:
+Bellatrix è un'anima vagante.Di giorno è una sensazione di paura. Di notte puoi vederne le sembianze.Penso che debba rimanere stanziale nel fosso di Bellatrix. Si potrebbe pensare ad una interazone intensa con il pg sia di notte che di giorno.
+Preparerò un memo con la storia di Bellatrix da mettere come oggetto nella room da qualche parte.
+
+MaxGlobalQuantity:	1
+Code: citta-raminghe_mob_bellatrix
+Level:	5
+Sex:	SEX.FEMALE
+Race:	RACE.HUMAN
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Bellatrix
+
+Short: un'[red]inquietante sensazione di paura[close]
+Long: $N ti afferra all'improvviso 
+
+ShortNight: un'[lightyellow]anima vagante[close]
+LongNight: $N ti osserva con attenzione
+
+Descr:
+Avverti una presenza inquietante che potrebbe essere ovunque intorno a te. Il battito cardiaco potrebbe accelerare e il respiro farsi più superficiale. Le mani diventare umide e la bocca secca per la mancanza di salivazione.
+DescrNight:
+Un'ombra, che a tratti diventa più definita, ti attraversa. Sembra una donna vestita con una lunga tunica di colore bianco. 
+I lunghi capelli corvini contrastano con i suoi abiti luminosi. È scalza, ma non sembra che cammini, si sposta in modo leggero da una parte all'altra. I suoi occhi son vuoti, ma non puoi fissarli a lungo perchè quello sguardo ti cattura la mente provocando in te un brivido improvviso.
+DescrTouch:
+Tocchi la paura con la mente
+DescrTouchNight:
+Ti sembra di poterla toccare, ma ciò che la tua mano percepisce è qualcosa di impalpabile.
+
+DescrSmell:
+Emana l' odore di qualcosa di bruciato che ti potrebbe provocare nausea.
+DescrSmellNight:
+Avverti, quando ti accosti a lei, sensazioni olfattive molto contrastanti, aspre e dolci insieme.
+DescrHearing:
+Uno scalpiccio, un rumore di rami spezzati, il sibilo del vento che non c'è. Ma sei solo, almeno pensi.
+DescrHearingNight:
+Una voce che intona melodie che si ripetono in sequenze sempre uguali.
+
+DescrSixth:
+Una vaga inquietudine, un'ansia improvvisa, ma non sai perchè, non ne comprendi l'origine. 
+Ti volti e guardi alle tue spalle, con la sensazione di essere osservato, a volte seguito da qualcuno che non vedi, ma di 
+cui percepisci la presenza.
+
+DescrSixthNight:
+Perchè vaga? Perchè è inquieta? Chi è quest'anima vagante e qual'è la sua storia?
+
+Weight: 12g
+Height: 100cm
+
+BirthDay:	12
+BirthMonth:	MONTH.EIGHT
+Age: 567
+
+Behaviour:
+     LookPlayer:	100
+     LookMob:	100
+     LookItem:	10
+     LookAtRacesFlags:	RACE.NONE   
+     LookAtRaces:	0
+     LookAtEntitypesFlags:	ENTITYPE.NONE
+     LookAtEntitypes:	0
+     LookSelf:	10
+     LookDirection:	10
+     LookExit:	10
+     LookWall:	0
+     LookClosedDoor: 10
+     LookExtra:	0
+     WanderDirection:	0
+     WanderExit:	0
+     WanderWall:	0
+     WanderClosedDoor:	0
+     WanderAtExitsFlags:	DIR.NONE
+     WanderAtExits:	0
+     WanderArea:	0
+     WanderPortal:	0
+     WanderEnterContainer:	0
+     WanderExitContainer:	0
+     WanderSelf:	10
+     RandomDo:	30
+     RandomDoInputs:	emote riempie di sè questo luogo
+     RandomDoInputs:	emote ti attraversa provocandoti un brivido improvviso
+End
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

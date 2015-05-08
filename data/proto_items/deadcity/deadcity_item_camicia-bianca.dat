@@ -1,0 +1,24 @@
+Code: deadcity_item_camicia-bianca
+Level: 1
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.CLOTH	97%
+MaterialPercentages:	MATERIAL.NACRE	3%
+Name:	Una Camicia Bianca
+Short:	una camicia bianca
+Long:	$N ha il taschino un po' scucito.
+
+Descr:
+Una camicia semplice semplice con un taschino solo e piccoli bottoni in madreperla.
+
+
+Value:	25
+Weight: 190g
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+	Modes: PART.TORSO
+End
+
+MaxLife:	10
+Life:		8

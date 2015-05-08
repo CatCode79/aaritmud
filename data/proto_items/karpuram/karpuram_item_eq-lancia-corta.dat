@@ -1,0 +1,29 @@
+Code:	karpuram_item_eq-lancia-corta
+
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAPON
+MaterialPercentages:	MATERIAL.HARDWOOD 30
+MaterialPercentages:	MATERIAL.IRON 70
+Sex:	SEX.MALE
+Name:	lancia piuttosto corta
+Short:	lancia piuttosto corta
+Long:	Una $N è qui in terra.
+
+Descr:
+Una lancia molto semplice e corta, può essere impugnata a una mano e lanciata
+a una distanza notevole grazie alla sua leggerezza e corretta distribuzione
+dei pesi. Il manico è in legno di faggio, irrobustito da un olio vegetale che
+lo renge ancora più solido. La punta è di semplice ferro battuto a mano.
+
+Value:	0
+Weight:	1kg
+
+WeaponType:
+        Category: WEAPON.SPEAR
+	Damage:	2D4+0
+        Flags: WEAPONFLAG.ONE_HAND 
+End
+WearType:
+   Modes: PART.WIELD
+End

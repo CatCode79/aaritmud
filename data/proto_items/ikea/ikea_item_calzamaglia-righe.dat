@@ -1,0 +1,37 @@
+Code: ikea_item_calzamaglia-righe
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.WOOL	100%
+Name:	Una [blue]C[white]a[blue]l[white]z[blue]a[white]m[red]a[white]g[red]l[white]i[red]a[close] a Righe
+Short:	una [blue]c[white]a[blue]l[white]z[blue]a[white]m[red]a[white]g[red]l[white]i[red]a[close] a righe
+Long:	$N appallottolato qui.
+
+Descr:
+Un paio di sfacciate [blue]c[white]a[blue]l[white]z[blue]a[white]m[red]a[white]g[red]l[white]i[red]a[close] che arrivano fino alla vita. Hanno una gamba a righe blu e bianche e l'altra a righe rosse e bianche
+DescrTouch: 
+Sono spesse e pizzicano appena.
+DescrSixth: 
+Ti sembrano fatte di lana.
+
+Value:	45
+Weight: 57g
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+	Modes:	PART.LEFT_FOOT PART.RIGHT_FOOT PART.LEFT_LOWER_LIMB PART.RIGHT_LOWER_LIMB 
+	EntityWearMessage:	Infili $N ad una gamba per volta.
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	$n infila $N una gamba per volta.
+	EntityRemoveMessage:	Togli $N con una certa difficoltà.
+	TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+	OthersRemoveMessage:	Vedi $n togliersi $n con la malagrazia di un pachiderma.
+End
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

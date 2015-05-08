@@ -1,0 +1,37 @@
+Code: novizi2_item_botola-01
+Level: 1
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.HARDWOOD	100%
+Name:	Una Botola in Legno di Quercia
+Short:	una botola di legno
+Long:	$N scardinata e scassata
+
+Descr:
+La botola è stata intagliata in un grosso tronco d'albero, probabilmente una vecchia quercia.
+Un unico rinforzo metallico l'impernia alle cerniere.
+In opposizione alle cerniere, c'è una serratura in ferro battuto inserita scavando in profondità nel legno.
+DescrTouch: 
+La botola è stata intagliata in un grosso tronco d'albero, probabilmente una vecchia quercia.
+Un unico rinforzo metallico l'impernia alle cerniere.
+In opposizione alle cerniere, c'è una serratura in ferro battuto inserita scavando in profondità nel legno.
+
+Value:	0
+Weight: 93kg
+
+DoorType:
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE DOOR.LOCKED DOOR.EATKEY
+	KeyCode:	novizi2_item_chiave-botola-01
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Con non poca forza sollevi $N aprendo il passaggio.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	Con non poca forza $n solleva $N aprendo il passaggio.
+	EntityCloseMessage:	Accompagni $N con stremata cautela.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n accompagna $N con strematacautela.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+End
+
+

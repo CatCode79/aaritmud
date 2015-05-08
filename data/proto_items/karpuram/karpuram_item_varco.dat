@@ -1,0 +1,55 @@
+Code: karpuram_item_varco
+Level: 1
+MaxGlobalQuantity:	0
+Flags: FLAG.NO_GET
+Entitype:	ENTITYPE.PORTAL
+MaterialPercentages:	MATERIAL.UNKNOWN	100
+Sex:	SEX.MALE
+Name:	un varco
+Short:	un varco
+Long:	$N diafano
+
+Descr:
+Un varco che conduce altrove 
+
+
+Value:	0
+Weight: 100kg
+
+
+Behaviour:
+	LookPlayer:	0
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+
+PortalType:
+	Destination:	9 1 1 karpuram
+	EntityEnterMessage: ti si stappano le orecchie appena attraversi il $N
+	TargetEnterMessage: $n decide d'attraversarti, beato lui che può.
+	OthersEnterMessage: $N s'increspa come acqua avvolgendo $n.
+	EntityExitMessage: Smettono di ronzarti lo orecchie.
+	TargetExitMessage: Ora $n è dall'altra parte, da $T è finito in $t.
+	OthersExitMessage: $n arriva da un'increspatura fluttante dell'aria.
+End
+
+

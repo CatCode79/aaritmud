@@ -1,0 +1,31 @@
+Code: ikea_item_pantaloni
+Level: 1
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+Flags:	FLAG.RANDOMIZABLE
+MaterialPercentages:	MATERIAL.CLOTH	100%
+Name:	Un Paio di Pantaloni
+Short:	un paio di pantaloni
+Long:	$N è piegato con una certa cura qui.
+
+Descr:
+Dei pantaloni lunghi privi di tasche ma almeno con i passanti per una cintura.
+Sembran piuttosto affusolati e per nulla elastici.
+DescrTouch: 
+Dei pantaloni lunghi privi di tasche ma almeno con i passanti per la cintura.
+Le cuciture paiono ben rifinite anche se non danno l'impressione di essere
+particolarmente durevoli.
+
+Value:	30
+Weight: 340g
+
+Extras:
+	Keywords: cuciture
+	Descr:
+	Le cuciture sono fitte e decenti
+	DescrTouch:
+	Le cuciture sembran forti quanto basta
+End
+WearType:
+   Modes: PART.GROIN
+End

@@ -1,0 +1,29 @@
+Code: flora_item_moneta-02-piantina
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name:	Una [goldenrod]Pi[forestgreen]anti[goldenrod]na[close] dell'[goldenrod]Albero[close] delle [goldenrod]Monete[close]
+Short:	una [goldenrod]pi[forestgreen]anti[goldenrod]na[close]
+Long:	$N cresce rigogliosa.
+
+Descr:
+Una giovane [goldenrod]pi[forestgreen]anti[goldenrod]na[close] protente gli esili e sparuti rami veso l'alto; i bordi delle foglie dall'apparenza metallica rifulgono alla luce del sole.
+DescrNight:
+Una giovane piantina con robuti rami protesi verso l'alto, la luna si specchia soave nella foglie dall'apparenza metallica.
+DescrTouch: 
+Toccando la punta di una delle foglie ti pungi.
+DescrSixth:
+Sei incuriosito dalla particolari venature dorate.
+
+
+Value:	112
+Weight: 6g
+
+PlantType:
+    RpgHours:	002
+    WorseEntity:	flora_item_moneta-06-pianta-morta
+    NormalEntity:	flora_item_moneta-03-pianta
+    BetterEntity:	flora_item_moneta-03-pianta
+End

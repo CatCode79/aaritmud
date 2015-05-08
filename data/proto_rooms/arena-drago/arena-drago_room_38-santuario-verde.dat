@@ -1,0 +1,25 @@
+Code:	arena-drago_room_38-santuario-verde
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il Santuario [green]Verde[close]
+Short:	il santuario [green]Verde[close]
+	Descr:
+Giungi in una sala che ha quale unico arredamento una splendida
+statua di giada rappresentante un drago. Sulla parete nord è
+collocata una stele che reca una lunga incisione. Ad est una
+porticina si dirige verso i corridoi.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	4|64 0
+c'era un'uscita con door sola andata ad ovest che ho sostituito con un portale; il vecchio status era:	ExitStatus	1|16|128|256 0 27739 -1
+
+Exits:
+	Direction:	DIR.EAST
+	Descr:	Un corridoio
+	Comment:	ExitStatus	1 0 27734 -1
+	Door:	arena-drago_item_door-porta-santuario-38
+End

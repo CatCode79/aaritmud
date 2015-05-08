@@ -1,0 +1,23 @@
+Code: villaggio-zingaro_item_mortaio-01 
+Level:	1
+Entitype: ENTITYPE.CONTAINER
+Sex:	SEX.MALE
+Icon:	icons/item/mortaio.png
+MaterialPercentages:	MATERIAL.MARBLE 100%	
+Name:	Un Mortaio in Marmo
+Short:	un granitico mortaio
+Long:	$N è qui appoggiato.
+
+Descr:
+Un mortaio in marmo chiaro a base quadrangolare e bordo quadrilobato con una cavità molto profonda e semisferica sul fondo. Segni di usura circolari corrono lungo tutta la metà inferiore dell'incavo. Un grosso filo metallico costeggia tutta la parte esterna del bordo formano, tra due dei quattro lobi, un anello dove riporre il pestello.
+DescrTouch:
+Un grosso mortaio di pietra freddo e liscio sull'esterno, ruvido e segnato dall'usura nella parte interna.
+DescrSixth:
+Dei segni di usura sul fondo indicano che questo mortaio non è nuovo anche se sembra ben tenuto.
+
+Value:	40
+Weight: 2500g
+
+ContainerType:
+       MaxWeight: 1kg
+End

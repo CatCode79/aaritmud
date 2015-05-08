@@ -1,0 +1,6 @@
+FunName:    command_enter
+Type:       CMDTYPE.MOVEMENT
+Trust:      TRUST.PLAYER
+Position:   POSITION.STAND
+Flags:      CMDFLAG.INTERACT CMDFLAG.GDR
+MiniHelp:   Serve per entrare in qualche posto.

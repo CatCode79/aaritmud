@@ -1,0 +1,19 @@
+Code: villaggio-zingaro_item_sacchetto-castagne-02
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.PAPER	100%
+Name:	Un Sacchettino di Carta
+Short:	un sacchettino di carta
+Long:	$N leggermente annerito.
+
+Descr:
+Un sacchettino di carta con il bordo superiore ondulato, gli angoli sono un po' anneriti e bruciacchiati.
+
+Value:	3
+Weight: 10g
+
+ContainerType:
+	MaxWeight:	400g
+End

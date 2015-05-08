@@ -1,0 +1,37 @@
+Code: torreelementi_item_catasta
+Level: 1
+Entitype:	ENTITYPE.PORTAL
+Sex:	SEX.FEMALE
+Flags: FLAG.NO_GET
+MaterialPercentages:	MATERIAL.UNKNOWN	100%
+Name:	La Catasta Mistica
+Short:	una catasta di legna
+Long:	$N troneggia imponente su un leggero avvallamento 
+
+Descr:
+Un'enorme catasta di legna giovane appena tagliata vede tutti i rami disposti in modo
+ossessivamente ordinato. I rami ed il fogliame sono collocati in modo da costituire uno
+stretto passaggio in basso che potrebbe consentire l'ingresso ad un umano.
+DescrTouch: 
+Qualcosa o qualcuno frena i tuoi tentativi di alzare una $hand verso la legna.
+DescrSixth:
+Non è difficile intuire d'essere davanti ad un portale magico. L'aria tutto attorno è fin
+troppo misticamente carica.
+DescrHearing:
+Ti sembra di udire un continuo, fitto e lieve crepitio provenire dalla base.
+
+Value:	0
+Weight: 1000kg
+
+PortalType:
+	TargetCode:	karpuram_item_stagno
+	EntityEnterMessage: Ti chini per varcare $N e tutto sparisce.
+	TargetEnterMessage: $n decide d'attraversarti e l$o anticipi repentinamente.
+	OthersEnterMessage: $n si china per varcare $N sparendo d'improvviso.
+	EntityExitMessage: Ti vedi sbiadire lentamente assieme al resto...
+	TargetExitMessage: Ora $n è sparit$o da $T finendo in $t.
+	OthersExitMessage: Appare dal nulla $n.
+End
+
+
+

@@ -1,0 +1,30 @@
+Code:	arena-drago_item_portal-limbo-39
+Level: 1
+Entitype:	ENTITYPE.PORTAL
+MaterialPercentages:	MATERIAL.UNKNOWN 100%
+Sex:	SEX.FEMALE
+Flags:	FLAG.NO_GET
+Name:	L'immagine di $n
+Short:	una copia di $n
+Long:	$N ti esorta ad entrare nel luogo della prova.
+
+Descr:
+Una copia di te stesso ti si para d'innanzi esortandoti a seguire la via che porta alla
+prova varcando la soglia dell'immagine stessa.
+
+
+
+Value:	0
+Weight: 100kg
+
+PortalType:
+	Destination:	11 7 0 arena-drago
+	EntityEnterMessage: $N si avvicina per stringerti la $hand e portarti al tuo destino.
+	TargetEnterMessage: $n decide d'attraversarti e lo anticipi repentinamente.
+	OthersEnterMessage: $N si volge verso $n conducendolo al suo destino.
+	EntityExitMessage: In un istante $N sparisce e ti trovi altrove.
+	TargetExitMessage: Ora $n è sparit$o da $T finendo in $t.
+	OthersExitMessage: $n giunge dal nulla.
+End
+
+

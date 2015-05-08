@@ -1,0 +1,114 @@
+Code:	accademia-drago_room_064_torre-della-veggenza-064
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	[gray]la[close] [cyan]t[gray]Orre[close] [cyan]d[gray]Ella[close] [cyan]v[gray]Eggenza[close]
+Short:	[gray]la[close] [cyan]t[gray]orre[close] [cyan]d[gray]ella[close] [cyan]v[gray]eggenza[close]
+	Descr:
+Resti senza fiato appena entri in questa stanza, stai come
+camminando nel nulla ed intorno a te è calata una meravigliosa
+notte colma di stelle. la cima di una torre è padrona della
+scena, su di essa un'elfa di divina bellezza scruta le stelle con
+aria attenta. La tunica viola si muove impetuosa al pari dei
+lungi capelli argentei che contrastano nettamente con la sua
+liscia pelle color oro scuro. Sei incantato, il volumetto ti
+dirà chi è questa dama in grado di ipnotizzare anche il più
+grande degli avventurieri.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 0
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	[mediumblue]i cinque picchi[close]
+	Comment:	ExitStatus	0 0 066 -1
+End
+Exits:
+	Direction:	DIR.EAST
+	Destination:	2 -3 0 accademia-drago
+	Descr:	[yellowgreen]la caverna[close]
+	Comment:	ExitStatus	0 0 034 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Destination:	-2 -3 0 accademia-drago
+	Descr:	le mura del generale
+	Comment:	ExitStatus	0 0 042 -1
+End
+Extras:
+	Keywords:	volumetto
+		Descr:
+Ecco la cima della torre della veggenza, luogo sacro per il
+popolo degli elfi delle nuvole. Qui Lady Sahas rimase per tre
+giorni e tre notti a scrutare i cieli mantenendo l'oscurità con
+un potente incantamento per poter leggere nelle stelle le sorti
+della grande battaglia. Quella battaglia a cui si era rifiutata
+di partecipare per timore che il suo popolo, già così
+drasticamente ridotto, venisse spazzato via.
+
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

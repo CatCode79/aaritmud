@@ -1,0 +1,5 @@
+FunName:    command_commands
+Type:       CMDTYPE.INFORMATION
+Trust:      TRUST.PLAYER
+Position:   POSITION.DEAD
+MiniHelp:   Serve per avere la lista completa dei comandi.

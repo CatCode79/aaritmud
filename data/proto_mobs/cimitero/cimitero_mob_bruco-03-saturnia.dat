@@ -1,0 +1,63 @@
+Code:	cimitero_mob_bruco-03-saturnia
+Level:	1
+MaxGlobalQuantity: 3
+Sex:	SEX.MALE
+Race:	RACE.BUTTERFLY
+Name:	Un [gold]B[saddlebrown]ruco [gold]K[limegreen]arpuridae[close]
+Short:	un [saddlebrown]bruco pelosino[close]
+Long:	$N si muove lento su una foglia.
+
+Descr:
+Un [limegreen]bruco[close] ricoperto da ciuffi pelosini di inusitata villosità. L'allegra tricromia del bruco ne viene mimetizzata e solo a ben osservare si vedono i contributi delle screziature di [limegreen]verde[close] con strisce [burlywood]paglierine[close] e  puntinature [saddlebrown]brune[close].
+
+Weight:	8g
+Height:	5cm
+
+BirthDay:	1
+BirthMonth:	MONTH.ONE
+Age:	1
+
+Behaviour:
+	LookPlayer:	0
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	2
+	RandomDoInputs:	emote s'impiglia nel fogliame
+End
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

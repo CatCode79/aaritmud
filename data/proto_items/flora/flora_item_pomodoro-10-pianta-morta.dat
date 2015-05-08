@@ -1,0 +1,36 @@
+Code: flora_item_pomodoro-10-pianta-morta
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Flags:	FLAG.INTERACTABLE_FROM_OUTSIDE 
+Name:	Una Pianta di [red]Pomodoro[close] Deceduta
+Short:	una pianta di pomodoro priva di vita
+Long:	$N rivendica vanamente i suoi diritti.
+
+Descr:
+Quel che resta della pianta presenta una muffa grigiastra sulla pagina inferiore
+e [yellow]macchie[close] gialle su quella superiore delle foglie, che mettono
+in luce un avanzato stato di malattia. I pochi frutti rimasti sono di colore
+bruno, rattrappiti e marcescenti. Lo splendore e la forza nutritiva di questa
+pianta di pomodoro fanno ormai parte del passato.
+
+DescrTouch:
+Le foglie ricurve su loro stesse e i pochi frutti rimasti sono aridi e 
+rinsecchiti. 
+
+DescrSixth:
+Parassiti e muffa si sono impossessati di questa pianta distruggendola.
+
+Value:	0
+Weight: 6kg
+
+PlantType:
+    RpgHours:		2
+    WorseEntity:	flora_item_pomodoro-09-pianta-secca
+    NormalEntity:	flora_item_pomodoro-09-pianta-secca
+    BetterEntity:	flora_item_pomodoro-09-pianta-secca
+End
+
+

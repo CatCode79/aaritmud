@@ -1,0 +1,36 @@
+Code: flora_item_pomodoro-02-seme-sterile
+Level: 1
+MaxGlobalQuantity:	0
+Entitype: ENTITYPE.SEED
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.SEED	100%
+Name: Un Seme di [red]Pomodoro[close]
+Short: un seme rosso spento
+Long:	C'è $N qui in terra
+
+Descr:
+Un seme giallognolo aranciato e piatto di forma grossolanamante circolare.
+
+DescrSixth:
+Un seme di pomodoro si presenta umido e gelatinoso nella parte esterna, al suo
+interno si trovano infatti sostanze antigerminative che consentono al 
+seme di non germogliare. 
+
+DescrTouch:
+Sfuggente e fragile, dev'essere maneggiato con cura per evitare che si rovini.
+
+DescrSixth:
+Facendo particolare attenzione, ti accorgi che l'odore del 
+[yellow]seme[close] presenta una sfumatura piccante.
+
+
+Value:	1
+Weight: 2g
+
+SeedType:
+    Sectors:	SECTOR.PLAIN SECTOR.HOUSE
+    RpgHours:	1
+    WorseEntity:	flora_item_pomodoro-00-seme-marcio
+    NormalEntity:	flora_item_pomodoro-00-seme-marcio
+    BetterEntity:	flora_item_pomodoro-00-seme-marcio
+End

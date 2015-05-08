@@ -1,0 +1,21 @@
+Code: novizi2_item_statua-guerra-discrezione
+Level: 1
+MaxGlobalQuantity:	1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+Flags:	FLAG.NO_GET FLAG.NO_LOOK_LIST
+MaterialPercentages:	MATERIAL.MARBLE	100%
+Name:	La Statua Simbolo della Discrezione
+Short:	la statua della Discrezione
+Long:	$N è qui
+
+Descr:
+Una figura ammantata, in disparte osserva con apparente fuggevole intenzione. Ma appena distogli lo sguardo resta l'impressione d'esser scrutat$o con minuzia.
+DescrTouch: 
+Una figura ammantata, in disparte osserva con apparente fuggevole intenzione. Un fascino discreto avvolge questa figura di cui non si capisce bene neppure la razza.
+
+DescrSixth:
+Il valore della Discrezione è tutto racchiuso in questa scultura, qui come monito per e come ricordo per i molti irruenti e spavaldi che ingombrano le fosse ed i campi di battaglia.
+
+Value:	0
+Weight: 340kg

@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_014_camminamenti-014
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	I Camminamenti
+Short:	i camminamenti
+	Descr:
+Proseguendo sul camminamento ti rilassi e ti godi il panorama,
+verso nord est da quassù vedi molto bene un'alta torre posta a
+circa un centinaio di metri dalla struttura dell'accademia ed ad
+essa collegata da un bellissimo ponte a volta che si staglia
+snello al di sopra di un laghetto che circonda la torre.
+L'accesso al ponte sembra avvenire da dei camminamenti posti
+ancora più in alto di quelli ove ora ti trovi.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 1
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 016 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 012 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

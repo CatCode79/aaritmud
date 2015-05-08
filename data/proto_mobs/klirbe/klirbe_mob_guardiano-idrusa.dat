@@ -1,0 +1,64 @@
+Code:	klirbe_mob_guardiano-idrusa
+Level:	12
+Race:	RACE.DWARF
+Sex:	SEX.FEMALE
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	[turquoise]I[close]drusa
+Short:	un'[turquoise]impetuosa combattente[close]
+Long:	gli occhi inquisitori di $N affondano nei tuoi
+Descr:
+	La femminea espressività barbuta è caratteristica specifica della razza nanica.
+	In particolare nei suoi occhi vedi la fiera sicurezza e la lucida prontezza.
+DescrSixth:
+	Ti mostra sempre il suo fianco sinistro
+DescrSmell:
+	L'inconfondibile untume delle sostanze usate per pulire le lame.	
+
+Behaviour:
+	LookPlayer:	100
+	LookMob:	0
+	LookItem:	5
+	LookAtRacesFlags:	RACE.NONE
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookSelf:	0
+	LookDirection:	4
+	LookExit:	4
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	50
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	50
+	RandomDoInputs: emote si carezza la barba crespa
+End
+
+Weight: 139kg
+Height: 95cm
+
+BirthDay: 22
+BirthMonth: MONTH.FIVE
+Age: 68
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

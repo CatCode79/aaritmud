@@ -1,0 +1,72 @@
+Code:	accademia-drago_mob_immagine-lady-sahas
+Level:	03
+Sex:	SEX.MALE
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT FLAG.NO_GET
+Race:	RACE.SPIRIT
+Name:	Lady Sahas
+Short:	un'elfa di rara bellezza
+Long:	$N osserva le stelle dalla cima della torre.
+
+Descr:
+La  sua  bellezza  mozza  il fiato, il corpo snello e sinuoso, il
+viso angelico, tutto questo contrasta con i suoi occhi, due pozzi
+di  indicibile  saggezza  che  possono  appartenere  solo  ad una
+persona che nella vita ha sofferto molto, forse troppo...
+Weight: 1kg
+Height: 160cm
+
+BirthDay: 22
+BirthMonth: MONTH.TWO
+Age: 9
+
+Behaviour:
+	LookPlayer:	0
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+Comment:
+2|2097152|8388608 8|128|33554432|134217728 0 A 3
+42 -8 -15 150 1d1+10
+-1 0 37 29
+8 8 5 2|32|16384|32768 1024|2048|4096|8192 0
+
+
+
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

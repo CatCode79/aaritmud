@@ -1,0 +1,81 @@
+Code:	villaggio-zingaro_mob_lupo-erboso-01
+Level:	1
+Sex:	SEX.MALE
+Race:	RACE.GOLEM
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Icon:	icons/mob/lupo-erboso.png
+Name:	Un Faolchufar
+Short:	un lupo
+Long:	$N si aggira con fare minaccioso.
+
+Descr:
+Un'elegante creatura dal corpo completamente ricoperto d'erba, muschio ed altri vegetali; piccoli [darkred]occhi[close] brillano nel buio della notte. Grazie al suo manto riesce a mimetizzarsi perfettamente nella vegetazione e, se non fosse per qualche movimento, seppur lento e circospetto, non riusciresti a scorgerlo.
+DescrTouch: 
+Vorresti accarezzarne il manto ma capisci che non potrebbe non essere d'accordo.
+DescrSmell: 
+Lo annusi da lontano ed emana in lieve fetore di foglie marce.
+DescrHearing:
+Ti sembra di sentirlo ringhiare.
+
+Weight: 30kg
+Height: 76cm
+
+BirthDay: 15
+BirthMonth: MONTH.ONE
+Age: 7
+
+Remains: villaggio-zingaro_item_corpse-lupi
+
+Behaviour:
+	LookPlayer:	15
+	LookMob:	15
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	LookEquipment:	0
+	SmellPlayer:	15
+	ListenPlayer:	15
+	TouchItem:	0
+	IntuitionAtRacesFlags:	RACE.NONE
+	IntuitionAtRaces:	0
+	TasteAtEntitypesFlags:	ENTITYPE.NONE
+	TasteAtEntitypes:	0
+	WanderDirection:	0
+	WanderExit:	14
+	WanderWall:	0
+	WanderAtSectors: 	SECTOR.WOOD
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	10
+	RandomDoInputs:	emote annusa l'aria circostante.
+End
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100
+
+Strength:	33
+Endurance:	33
+Agility:	40
+Speed:		50
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:		33

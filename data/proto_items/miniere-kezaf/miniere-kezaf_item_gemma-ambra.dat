@@ -1,0 +1,25 @@
+Comment: qui valutare la possibilità d'includere insetti ed altro e picchiare chi propone di farne un novello Jurassic Park
+Code: miniere-kezaf_item_gemma-ambra
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_amber.png
+Name:	Un'Ambra
+Short:	una piccola pietra arancione irregolare
+Long:	$N sporge in parte dal terreno.
+
+Descr:
+Una pietra dalla forma irregolare leggermente squadrata, non può essere 
+scambiata per una roccia o per una qualche strana gemma, poiché il suo colore
+ambrato con riflessi arancioni non permette alcun dubbio: Un pezzo d'ambra.
+pur se grezzo si presenta molto bene e su un lato appare più chiara
+del resto della superficie, forse se ne può ricavare qualcosa di buono.
+
+Value:	0
+Weight: 100g
+
+
+
+

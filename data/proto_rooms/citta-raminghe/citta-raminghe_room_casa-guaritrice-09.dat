@@ -1,0 +1,34 @@
+Code: citta-raminghe_room_casa-guaritrice-09
+Sector: SECTOR.CITY
+Name: [yellow]La Casa della Guaritrice[close]
+Short: [yellow]la casa della guaritrice[close] 
+
+Descr:
+Sei in un ambiente abbastanza largo ed accogliente illuminato dal sole i cui raggi luminosi penetrano attraverso le due
+ [coral]finestre[close]. Sulla destra noti un comodo [salmon]divano[close] con diversi
+ [deeppink]cuscini di vario colore[close]. 
+Sulla parete di fronte vedi un mobile imponente con numerosi scaffali sui quali sono disposti in fila diversi 
+[yellow]barattoli[close] in vetro di varie dimensioni contenenti [green]estratti di piante[close] 
+ed [lime]erbe medicinali[close].
+DescrNight:
+Sei in un ambiente abbastanza largo ed accogliente illuminato da [red]lampade ad olio[close] appese alla pareti.
+Sulla destra noti un comodo [salmon]divano[close] con diversi [deeppink]cuscini di vario colore[close]. 
+Sulla parete di fronte è un mobile imponente con numerosi scaffali sui quali sono disposti in fila diversi 
+[yellow]barattoli[close] in vetro di varie dimensioni contenenti [green]estratti di piante[close] 
+ed [lime]erbe medicinali[close].
+
+DescrSmell: 
+Percepisci l'odore delle [lime]tisane[close], degli [coral]infusi[close] e dei [yellow]decotti[close].
+DescrSixth:
+Avverti un profondo senso di benessere che ti accompagnerà a lungo.
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	Una stradina
+	Door:	citta-raminghe_item_porta-guaritrice-secret
+End

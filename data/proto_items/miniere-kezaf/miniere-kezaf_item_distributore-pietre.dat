@@ -1,0 +1,40 @@
+Code: miniere-kezaf_item_distributore-pietre
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GLASS	60%
+MaterialPercentages:	MATERIAL.METAL	40%
+Name:	Un distributore di pietre
+Short:	un distributore di pietre
+Long:	$N per il minatore pigro
+
+Descr:
+Uno sferoide trasparente in cui sono ben visibili un sacco di pietruzze
+
+Weight: 1000kg
+
+Shop:
+	Types: SHOP.DISPENSER
+	ProtoLocations:	ikea_room_altroquando-center
+	Buyables: villaggio-zingaro_item_guinzaglio 130% 200
+	Buyables: ikea_item_specchio 150% 200
+	Buyables: ikea_item_pettine 120% 200
+	Buyables: villaggio-zingaro_item_lanterna 110% 200
+	Buyables: ikea_item_padella 110% 200
+	Buyables: ikea_item_pentola 110% 200
+	Buyables: ikea_item_tegame 90% 300
+	Buyables: ikea_item_bussola 120% 300
+	Buyables: villaggio-zingaro_item_asciugamano 100% 300
+	Buyables: villaggio-zingaro_item_bustina-semi-pomodoro 110% 300
+	Buyables: villaggio-zingaro_item_bustina-semi-peperoncino 110% 300
+	Buyables: villaggio-zingaro_item_fascetta-carta-01 80% 300
+	Buyables: villaggio-zingaro_item_fascetta-carta-02 80% 300
+	Buyables: villaggio-zingaro_item_fascetta-carta-03 80% 300
+	Buyables: villaggio-zingaro_item_fischietto 110% 300
+	Buyables: villaggio-zingaro_item_cofanetto-osso 120% 300
+	Buyables: villaggio-zingaro_item_spirale-oro 100% 300
+	Buyables: villaggio-zingaro_item_mortaio-01 70% 300
+	Buyables: villaggio-zingaro_item_mortaio-agata 110% 300
+	Buyables: home-batu_item_candelabri-coppia 90% 300
+End

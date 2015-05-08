@@ -1,0 +1,29 @@
+Code: ikea_item_casseruola
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.METAL	100%
+Name:	Una Casseruola
+Short:	una casseruola
+Long:	$N dal manico lungo
+
+Descr:
+Simile al tegame ma più profonda e con un unico manico lungo.
+DescrTouch: 
+Molto resistente. Un utensile destinato a durare in eterno.
+DescrSmell: 
+Ma.. sa di peperoni! Qualcuno deve avergli dato solo una sciacquata!
+DescrSixth:
+La forma di questo oggetto ti sembra adatta per arrosti, carne e verdure
+DescrTaste:
+I tuoi denti urtano la pentola producendo un tintinnio. 
+DescrHearing:
+no_send
+
+Value:	0
+Weight: 1120g
+
+ContainerType:
+	MaxWeight:	5kg
+End

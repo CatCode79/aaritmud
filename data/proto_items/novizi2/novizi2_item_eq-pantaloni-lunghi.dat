@@ -1,0 +1,25 @@
+Code: novizi2_item_eq-pantaloni-lunghi
+Level: 1
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.CLOTH	100
+Sex:	SEX.MALE
+Name:	Un Paio di Pantaloni Lunghi
+Short:	un paio di pantaloni lunghi
+Long:	C'è $N arrotolato stretto
+
+Descr:
+Un paio di pantaloni scuri un po' stretti di cavallo con quattro bottoni.
+Ai lati una cucitura a vista di colore chiaro.
+
+DescrTouch: 
+Un paio di pantaloni di cotone pettinato con effetto velluto.
+
+	
+Value:	0
+Weight: 285g
+
+WearType:
+   Modes: PART.RIGHT_THIGH PART.LEFT_THIGH PART.LEFT_LOWER_LIMB PART.RIGHT_LOWER_LIMB
+End
+
+

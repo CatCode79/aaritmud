@@ -1,0 +1,37 @@
+Code: villaggio-zingaro_item_telaio
+
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+Icon:	icons/item/telaio.png
+MaterialPercentages:	MATERIAL.WOOD	82%
+MaterialPercentages:	MATERIAL.METAL	3%
+MaterialPercentages:	MATERIAL.CLOTH	15%
+Name:
+Il Telaio di Dilara
+Short:
+uno snello telaio
+Long:
+$N con i fili ben tesi.
+
+Descr:
+Un semplice telaio verticale con tanti rocchetti di filo che pendono dal [yellowgreen]lavoro[close] già cominciato, i fili dell'ordito sono tenuti in tensione da grossi anelli di pietra. Nella parte bassa c'è un [sandybrown]cassetto[close] probabilmente utilizzato per riporre gli attrezzi del mestiere.
+DescrTouch: 
+#looker is RACE.FELAR#Resti impigliat$O tra i fili con gli artigli rischiando di vanificare ore ed ore di lavoro.#Ti conviene evitare di toccare tutto ciò che vedi se non vuoi rischiare di vanificare ore ed ore di lavoro!#
+DescrSixth:
+Ti vien voglia di provare a tessere qualche riga ma intuisci che potresti solo combinare guai.
+
+Extras:
+	Keywords: lavoro
+	Descr:
+	Quasi metà di quello che probabilmente diventerà un tappeto, per quel che puoi vedere sembra ritrarre dei rovi.
+End
+
+
+Value:	0
+Weight: 85g
+
+
+
+

@@ -1,0 +1,68 @@
+Code:	arena-drago_room_36-corridoio
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	La Fine del Corridoio
+Short:	la fine del corridoio
+	Descr:
+Giunto alla fine del corridoio ti trovi faccia a faccia con una
+scultura a forma di drago, nei suoi occhi brillano due pietre
+bianchissime che illuminano la zona mostrandoti due porte, una ad
+est l'altra ad ovest.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	64 0
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	un corridoio
+	Comment:	ExitStatus	0 0 27735 -1
+
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	Un lungo tunnel
+	Comment:	ExitStatus	1 27707 27737 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	Un corridoio illuminato 
+	Comment:	ExitStatus	1 0 27749 -1
+	Door:	arena-drago_item_door-porta-corridoi-36
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+Code: novizi2_item_spezzatino-patata-02
+Level: 1
+Icon:	icons/food/potato-02.png
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.VEGETABLES	100%
+Name: Una Patata al Forno
+Short: una patata al forno
+Long:	$N è caduta dalla padella
+
+Descr:
+Un pezzo di patata cotta e intrisa di sugo rosso bruno.
+DescrTouch: 
+un pezzo di cibo morbido e ricoperto di sugo.
+DescrSmell: 
+Un pezzo di patatina novella con forte aroma di spezzatino.
+DescrTaste:
+Davvero non male, peccato che sia piccina
+
+Value:	0
+Weight: 15g
+
+FoodType:
+	Comment:	cibo
+	Animal:	0
+	Vegetable:	100
+	CookingDamage:	20
+	Hours:	0
+End
+
+

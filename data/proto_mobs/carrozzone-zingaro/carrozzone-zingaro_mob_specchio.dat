@@ -1,0 +1,95 @@
+Code: carrozzone-zingaro_mob_specchio
+
+Comment:
+	-Per il nome anche se probabilmente non verrà fuori nulla al riguardo...ci vorrebbe un nome per lo specchio che richiami..cose doppie...gemellità o simili.
+	-l'ideale qui è mettere vicino un mobiletto di legno tipo scaffale libreria con dentro un quaderno che parla dello specchio.
+	-qui ci starebbe un foglietto strappato con qualche parola che rimandi     ad un possibile futuro 'opuscolo informativo' al riguardo. Non mi piace l'idea di servire la pappa pronta soprattutto per una         oggetto con poteri duplicatori. Questo fogliettino e la DescrSixth che ti dice che non è solo un semplice specchio dovrebbero         suggeriti che potresti trovare ulteriori informazioni al riguardo..però come sempre non me ne intendo molto quindi dimmi         qualcosa.
+
+Level:	1
+Race:	RACE.GOLEM
+Sex:	SEX.MALE
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT FLAG.NO_GET
+Name:	Jurvam lo Specchio
+Short:	uno specchio
+Long:	$N è appoggiato sulle zampe.
+Descr:
+Uno specchio dalla grifonica maestosità sta appoggiato sulle sue zampe artigliate.
+Le [goldenrod]ali[close] conserte celano quasi totalmente la fulgida [azure]superficie[close] riflettente.
+
+DescrTouch:
+Con grande cautela tenti di allungare la mano per sfiorare il vessillo piumato
+ma ti blocca la percezione del suo sguardo.
+
+DescrHearing:
+Non sai ben capire se sia lo specchio ad emettere lo strano stridio che senti di
+quando in quando.
+
+DescrSixth:
+Qualcosa di potente deve aver dato vita all'oggetto conferendo alla sua lucentezza
+metallica elegante sinuosità piumata.
+
+Height: 137cm
+Weight: 4732g
+
+Extras:
+     Keywords: superficie fulgida
+     DescrSixth:
+	Il maestoso e piumato cipiglio dietro il quale è celata la superficie dello specchio
+	impone immensa cautela. Difficile che il suo unico scopo sia quello di consentire alla
+	vecchia zingara di aggiustarsi lo scialle.
+    Descr:
+	Osservi con più attenzione e noti che parte del piumaggio s'immerge nello specchio.
+End
+
+Behaviour:
+	LookPlayer:	0
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor: 0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	7
+	RandomDoInputs: emote emette uno stridio sommesso
+	RandomDoInputs: emote raccorcia la ali in un movimento stizzito
+	RandomDoInputs: emote solleva un artiglio
+	RandomDoInputs: emote pare assopirsi
+	RandomDoInputs: emote aggiusta le piume con il becco
+End
+
+BirthDay:	7
+Age:		7
+BirthMonth:	MONTH.ONE
+
+Strength:	10
+Endurance:	10
+Agility:	10
+Speed:		10
+Intelligence:	10
+Willpower:	10
+Personality:	10
+Luck:		10
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

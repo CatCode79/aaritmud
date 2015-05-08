@@ -1,0 +1,39 @@
+Code: tana-vv_item_sigillo-investigativa
+Level: 2
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAPON
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.HARDWOOD 25%
+MaterialPercentages:	MATERIAL.BRASS 75%
+Name:	Il Sigillo della Squadra Investigativa del Regno di Sendaria
+Short:	un sigillo per ceralacca
+Long:	$N sta qui immoto
+
+Descr:
+Il grosso del volume del sigillo è costituito da un pezzo di legno tornito a pera poco più piccolo di un pugno umano. Nella parte più stretta, rinforzata da un collarino d'ottone, è conficcata una vite dalla testa piatta sulla quale è avvitato un alto disco d'ottone reso opaco dal tempo sulla parte inferiore del quale è inciso, in negativo, uno stemma. Intorno al bordo campeggia la scritta "Sq. Invest. Sendaria".
+DescrTouch: 
+Il pomo è liscio per essersi levigato sui palmi delle mani che l'hanno impugnato.
+La parte metallica, che costituisce il grosso della massa, è fredda ed è dotata di una discreta inerzia termica in modo da far rapprendere rapidamente la ceralacca nella forma di questo inquietante stemma.
+DescrSixth:
+L'impugnatura è fatta per riempire bene il palmo della mano di chi se ne serve e garantire una presa ottimale e la possibilità di esercitare nel suo impiego tutta la forza necessaria.
+Probabilmente veniva usato per siglare i verbali degli interrogatori e le confessioni ma anche per altri impieghi meno ortodossi.
+DescrTaste:
+Ha il sapore metallico del sangue rappreso.
+
+Value:	150
+Weight: 200g
+
+Extras:
+	Keywords: squadra sigillo stemma marchio disegno
+	Descr:
+	Un occhio accollato a due sciabole decussate il tutto sormontato da una branca d'orso.
+	DescrSixth:
+	Sembra voler dire "Ti vedo!" e "Guai a te!" tanto ai nemici esterni che ai cospiratori interni.
+	Solo un esperto di storia e di araldica potrebbe capire i riferimenti all'ormai estinto regno di Sendaria, nel continente di Daresia. Comunque i semplici avventurieri sono dispensati dal dubbio di come abbia fatto a giungere fin qui questo cimelio di un regno che ha avuto il suo splendore in epoche lontane e luoghi esotici e possono cercare un uso più mondano.
+End
+
+WeaponType:
+        Category: WEAPON.MACE
+	Damage:	3D4
+        Flags: WEAPONFLAG.ONE_HAND 
+End

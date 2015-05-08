@@ -1,0 +1,26 @@
+Code: mfdonald_item_anellino_ferro_01
+Level: 1
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.IRON	100%
+Name: L'anello di ferro
+Short: un anellino color argento
+Descr: Un piccolo anellino con un filo ruggine
+Value:	0
+Weight: 10g
+
+
+WearType:
+	Modes:	PART.LEFT_RING_FINGER
+	Modes:	PART.RIGHT_RING_FINGER
+	Modes:	PART.LEFT_MIDDLE_FINGER
+	Modes:	PART.RIGHT_MIDDLE_FINGER
+	Modes:	PART.LEFT_FOREFINGER
+	Modes:	PART.RIGHT_FOREFINGER
+	Modes:	PART.LEFT_THUMB
+	Modes:	PART.RIGHT_THUMB
+	Modes:	PART.LEFT_LITTLE_FINGER
+	Modes:	PART.RIGHT_LITTLE_FINGER
+End
+
+

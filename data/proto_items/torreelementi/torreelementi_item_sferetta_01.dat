@@ -1,0 +1,18 @@
+Code: torreelementi_item_sferetta_01
+Level: 1
+
+Entitype:	ENTITYPE.NONE
+Flags:	FLAG.NO_DROP FLAG.NO_LOOK_LIST
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.UNKNOWN	100%
+Name: Un [red]Quatza[close] di Myrr
+Short: uno [olive]sferoide[close]
+Long:	$N è conficcato nella merlatura
+
+Descr:
+Un frammento dei Quatza della torre, gran brutto segno
+
+Value:	0
+Weight: 761g
+
+

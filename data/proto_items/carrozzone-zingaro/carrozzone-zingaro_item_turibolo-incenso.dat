@@ -1,0 +1,73 @@
+Comment: turibolozzo per incenso zingaro
+       batu il 25/09 ha fatto ridurre il random do da 7 a 4
+Code: carrozzone-zingaro_item_turibolo-incenso
+Level: 1
+Entitype: ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.SILVER	96%
+MaterialPercentages:	MATERIAL.INCENSE	4%
+Name:	Il Turibolo Cerimoniale
+Short:	un turibolo d'ottone
+Long:	$N ciondola mollemente appeso a media altezza
+
+Descr:
+Un turibolo in ottone e argento di medie dimensioni con tre piedini come base d'appoggio.
+Diverse spirali sinuose percorrono la parte inferiore panciuta del turibolo. Le aperture
+rincorrono le spirali ma si perdono nel denso fumo bianco che le confonde.
+
+DescrTouch:
+Il turibolo ha quattro lunghissime catene; tre tenute insieme da un grosso anello per
+farlo oscillare ed appenderlo, e l'altra per alzare il coperchio senza doverlo toccare.
+
+DescrSmell:
+Gli effluvi aromatici ti avvolgono conducendo la tua mente in ameni luoghi remoti.
+
+DescrHearing:
+Il turibolo emette gemiti regolari ad accompagnare la sua lenta oscillazione.
+
+DescrSixth:
+La forma dei fori dai quali il fumo esce appare solo saltuariamente fra le volute di
+fumo suggerendo significati arcaici.   
+
+Value:	0
+Weight: 95g
+
+Extras:
+       Keywords: arcaico arcaici foro fori
+       DescrSixth:
+       Potrebbe provenire dalle antiche lande di Opekus oltre la palude, quella a nord della torre.
+       Descr:
+       Potrebbe trattarsi di un oggetto antico, prezioso e con mistici poteri.
+End 
+
+
+Behaviour:
+	LookPlayer:	0
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	4
+	RandomDoInputs:	emote emette coltri di fumo bianco.
+End
+
+

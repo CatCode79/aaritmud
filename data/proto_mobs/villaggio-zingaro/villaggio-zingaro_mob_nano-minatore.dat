@@ -1,0 +1,81 @@
+Code:	villaggio-zingaro_mob_nano-minatore
+Level:	1
+Sex:	SEX.MALE
+Race:	RACE.DWARF
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Tordak il Nano Minatore
+Short:	un solido nano
+Long:	$N siede al bancone della locanda.
+
+Descr:
+Un'impenetrabile barba, tenuta insieme da qualche treccia disfatta, copre quasi completamente un viso segnato dal lavoro e dalla fatica; quel che puoi vedere non è altro che un grosso naso bitorzoluto e due occhietti scuri ed iracondi.
+DescrTouch:
+#looker is RACE.DWARF#Ti stringe amichevolmente la mano e ne cogli le ruvide callosità#Se fosse sufficientemente affabile da stringere la mano ad un essere che non sia della sua stessa razza potesti coglierne le ruvide callosità#
+DescrSmell: 
+Odora di roccia e polvere.
+DescrSixth:
+Gli abiti sporchi e il piccone fissato alla cinta suggeriscono inequivocabilmente che sia un minatore.
+DescrHearing:
+Ne senti il respiro con un lieve rantolo di fondo.
+
+Weight: 103kg
+Height: 135cm
+
+BirthDay: 4
+BirthMonth: MONTH.TEN
+Age: 57
+
+Behaviour:
+	LookPlayer:	1
+	LookMob:	2
+	LookItem:	9
+	LookAtRacesFlags:	RACE.DWARF
+	LookAtRaces:	10
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	3
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	2
+	LookEquipment:	11
+	SmellPlayer:	0
+	TouchItem:	7
+	IntuitionAtRacesFlags:	RACE.NONE
+	IntuitionAtRaces:	0
+	TasteAtEntitypesFlags:	ENTITYPE.NONE
+	TasteAtEntitypes:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderAtSectors: 	SECTOR.WOOD
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	10
+	RandomDoInputs:	emote tracanna una pinta di idromele.
+	RandomDoInputs:	yell a loca Altro idromele, veloce!
+	RandomDoInputs:	emote mugugna tra sè e sè.
+	RandomDoInputs:	emote affila il piccone.
+End
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100
+
+Strength:	56
+Endurance:	58
+Agility:	36
+Speed:		40
+Intelligence:	14
+Willpower:	50
+Personality:	28
+Luck:		19

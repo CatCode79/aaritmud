@@ -1,0 +1,68 @@
+Code:	arena-drago_room_24-spalti
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Gli Spalti
+Short:	gli spalti
+	Descr:
+Perfettamente puliti i gradoni prosegueno ordinati e silenziosi
+ad ovest e a nord, qualche persona è seduta ad ammirare
+l'abilità dei cavalieri che nei giorni in cui l'arena è libera
+da eventi si allenano sul campo cercando di dare un po' di
+spettacolo per la popolazione.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 1
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	gli spalti
+	Comment:	ExitStatus	0 0 27721 -1
+	Destination:	7 6 0 arena-drago
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	gli spalti
+	Comment:	ExitStatus	0 0 27723 -1
+	Destination:	5 4 0 arena-drago
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_086_camerate-086
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Le Camerate [gray]Nere[close]
+Short:	le camerate [gray]nere[close]
+	Descr:
+Queste sono le camerate degli apprendisti cavalieri, i letti sono
+allineati sulle pareti nord e sud, tutto è in ordine e
+silenzioso, davanti ad ogni branda una cassapanca contiene gli
+averi dei ragazzi che spendono qui la loro giovinezza
+addestrandosi alla guerra ed alla magia.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 0
+Exits:
+	Direction:	DIR.WEST
+	Descr:	un corridoio
+	Comment:	ExitStatus	1 0 083 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

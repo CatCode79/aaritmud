@@ -1,0 +1,716 @@
+Creators:	Valentina
+Code:	citta-raminghe
+Name:	La Città delle Raminghe
+Short:	un'antica città
+Descr:
+Si narra che la fondazione della Città delle Raminghe avvenne per un casuale incontro, un fortuito incrociarsi di strade e di percorsi esterni ed interni, di viaggi fisici e mentali, un combinarsi di anime che attendevano un luogo fertile dove potere mettere dimora. Fondata da Raminghe stanche del loro incessante girovagare,si è popolata in poco tempo di individui di tutte le razze che desideravano abbandonare la loro vita raminga, ma che volevano mantenere integra la loro curiosità di conoscere ed esplorare. È infatti un luogo dove le culture delle varie razze sono riuscite a convivere arricchendosi reciprocamente.
+Color:	COLOR.DEEPPINK la profondità della speranza
+Level:	1
+RepopTime: 20
+LandfillCode:	citta-raminghe_room_strada-s01
+
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_accademia
+	Destination:	8 3 0 citta-raminghe
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	citta-raminghe_mob_scriba
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	citta-raminghe_mob_filosofo
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	citta-raminghe_mob_saggio
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	citta-raminghe_mob_maestra-scherma
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	citta-raminghe_mob_allieva-scherma
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	citta-raminghe_item_cucchiaino
+	End
+
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_biblioteca
+	Destination:	9 3 0 citta-raminghe
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	 citta-raminghe_mob_pentesilea
+		EntityResets:
+			WearMode:  PART.BODY
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	citta-raminghe_item_wear-chitone-01
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			WearMode:  PART.LEFT_WRIST
+			ProtoEntity:	citta-raminghe_item_bracciale-pentesilea
+		End
+	End
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_cinta-muraria-00
+	Destination:	4 4 0 citta-raminghe
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity:	citta-raminghe_mob_bremusa
+		EntityResets:
+			WearMode:  PART.BODY
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	citta-raminghe_item_wear-chitone-01
+		End
+	End
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_cinta-muraria-01
+	Destination:	7 6 0 citta-raminghe
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	citta-raminghe_mob_arciere
+		EntityResets:
+			WearMode:	PART.LEFT_HAND PART.RIGHT_HAND
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-guanti-stoffa
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_FOOT PART.RIGHT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-passeggio
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			WearMode:	PART.BACK
+			ProtoEntity: 	karpuram_item_eq-mantello-semplice
+		End
+		EntityResets:
+			Quantity:	1
+			WearMode:	PART.WIELD
+			Type: 	RESET.PUT
+			ProtoEntity: 	citta-raminghe_item_weapon-arco-01
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_SHOULDER
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	citta-raminghe_item_faretra-01
+			EntityResets:
+				Quantity:	7
+				Type: 	RESET.PUT
+				ProtoEntity: 	citta-raminghe_item_freccia-01
+			End
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	citta-raminghe_mob_evandra
+		EntityResets:
+			WearMode:  PART.BODY
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	citta-raminghe_item_wear-chitone-01
+		End
+	End
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_cinta-muraria-02
+	Destination:	10 6 0 citta-raminghe
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	citta-raminghe_mob_arciere2
+		EntityResets:
+			WearMode:	PART.LEFT_RING_FINGER
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	karpuram_item_anello-legno
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_FOOT PART.RIGHT_FOOT
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	karpuram_item_eq-calzari-passeggio
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			WearMode:	PART.BACK
+			ProtoEntity: 	karpuram_item_eq-mantello-semplice
+		End
+		EntityResets:
+			Quantity:	1
+			WearMode:	PART.WIELD
+			Type: 	RESET.PUT
+			ProtoEntity: 	citta-raminghe_item_weapon-arco-01
+		End
+		EntityResets:
+			WearMode:	PART.LEFT_SHOULDER
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	citta-raminghe_item_faretra-01
+			EntityResets:
+				Quantity:	7
+				Type: 	RESET.PUT
+				ProtoEntity: 	citta-raminghe_item_freccia-01
+			End
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	citta-raminghe_mob_derinoe
+		EntityResets:
+			WearMode:  PART.BODY
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	citta-raminghe_item_wear-chitone-01
+		End
+	End
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_cinta-muraria-03
+	Destination:	6 2 0 citta-raminghe
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	citta-raminghe_mob_clonia
+		EntityResets:
+			WearMode:  PART.BODY
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	citta-raminghe_item_wear-chitone-01
+		End
+	End
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_cinta-muraria-04
+	Destination:	10 2 0 citta-raminghe
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	citta-raminghe_mob_ippotoe
+		EntityResets:
+			WearMode:  PART.BODY
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	citta-raminghe_item_wear-chitone-01
+		End
+	End
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_cinta-muraria-05
+	Destination:	12 4 0 citta-raminghe
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	citta-raminghe_mob_alcibia
+		EntityResets:
+			WearMode:  PART.BODY
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	citta-raminghe_item_wear-chitone-01
+		End
+	End
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_cortile
+	Destination:	10 5 0 citta-raminghe
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	citta-raminghe_mob_antadra
+		EntityResets:
+			WearMode:  PART.BODY
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	citta-raminghe_item_wear-chitone-01
+		End
+	End
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_forno
+	Destination:	11 5 0 citta-raminghe
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	citta-raminghe_mob_fornaio
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	citta-raminghe_item_tavolo-forno
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	citta-raminghe_item_cesto-vimini-pane-01
+		EntityResets:
+			Quantity:	2
+			Type: 	RESET.PUT
+			ProtoEntity: 	citta-raminghe_item_pane-farro
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	citta-raminghe_item_cesto-vimini-pane-02
+		EntityResets:
+			Quantity:	3
+			Type: 	RESET.PUT
+			ProtoEntity: 	citta-raminghe_item_pane-grano-duro
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	citta-raminghe_item_cesto-vimini-pane-03
+		EntityResets:
+			Quantity:	5
+			Type: 	RESET.PUT
+			ProtoEntity: 	citta-raminghe_item_pane-kamut
+		End
+	End
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_fosso-bellatrix
+	Destination:	3 2 0 citta-raminghe
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	citta-raminghe_mob_bellatrix
+	End
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_01-piazzale-alberato
+	Destination:	5 4 0 citta-raminghe
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	citta-raminghe_mob_viandante-elfo
+		End
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	citta-raminghe_mob_viandante-frijen
+		End
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	citta-raminghe_mob_viandante-nano
+		End
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	citta-raminghe_mob_viandante-umano
+		End
+
+
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_02-strada
+	Destination:	6 4 0 citta-raminghe
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_03-salita
+	Destination:	7 4 0 citta-raminghe
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_04-teatro
+	Destination:	8 4 0 citta-raminghe
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	citta-raminghe_mob_spettatore-elfo
+		End
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	citta-raminghe_mob_spettatrice-elfa
+		End
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	citta-raminghe_mob_spettatore-umano
+		End
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	citta-raminghe_mob_spettatrice-nana
+		End
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	citta-raminghe_mob_spettatrice-frijen
+		End
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	citta-raminghe_mob_ragazzino
+		End
+
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_ii-05
+	Destination:	8 5 0 citta-raminghe
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_07-casa-guardiano
+	Destination:	5 3 0 citta-raminghe
+
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	citta-raminghe_mob_oberon-elfo-guardiano
+	End
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	citta-raminghe_item_scrittoio-guardiano
+	End
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	citta-raminghe_item_registro-guardiano
+	End
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_08-casa-amazzoni
+	Destination:	6 3 0 citta-raminghe
+	EntityResets:
+		Quantity:	2
+		Type: 	RESET.PUT
+		ProtoEntity: 	citta-raminghe_item_faretra-01
+		EntityResets:
+			Quantity:	7
+			Type: 	RESET.PUT
+			ProtoEntity: 	citta-raminghe_item_freccia-01
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	citta-raminghe_item_freccia-01
+	End
+	EntityResets:
+		Quantity:	3
+		Type: 	RESET.PUT
+		ProtoEntity: 	citta-raminghe_item_weapon-arco-01
+	End
+	EntityResets:
+		Quantity:	3
+		Type: 	RESET.PUT
+		ProtoEntity: 	citta-raminghe_item_weapon-makhaira-01
+	End
+	EntityResets:
+		Quantity:	3
+		Type: 	RESET.PUT
+		ProtoEntity: 	citta-raminghe_item_wear-chitone-01
+	End
+	EntityResets:
+		Quantity:	3
+		Type: 	RESET.PUT
+		ProtoEntity: 	citta-raminghe_item_armor-pelta-01
+	End
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_casa-guaritrice-09
+	Destination:	7 3 0 citta-raminghe
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_ii-10
+	Destination:	9 4 0 citta-raminghe
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_via-affabulatori
+	Destination:	11 4 0 citta-raminghe
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	citta-raminghe_mob_cantastorie
+	End
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_giardino-spezie-12
+	Destination:	11 3 0 citta-raminghe
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_bottega-spezie-13
+	Destination:	10 3 0 citta-raminghe
+
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	citta-raminghe_mob_venditrice-spezie
+	End
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	citta-raminghe_item_scaffale-spezie
+	End
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	citta-raminghe_item_spezia-curcuma
+	End
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	citta-raminghe_item_spezia-pepenero
+	End
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	citta-raminghe_item_spezia-peperoncino
+	End
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	citta-raminghe_item_spezia-vaniglia
+	End
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	citta-raminghe_item_spezia-zenzero
+	End
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_locanda
+	Destination:	9 5 0 citta-raminghe
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity:	citta-raminghe_mob_locandiera-artemisia
+		EntityResets:
+			Quantity:	1
+			WearMode:  PART.HOLD
+			Type: 	RESET.PUT
+			ProtoEntity: 	citta-raminghe_item_menu-locanda
+			EntityResets:
+				Quantity:	1
+				Type: 	RESET.PUT
+				ProtoEntity: 	citta-raminghe_item_food-tortino-cioccolato
+			End
+			EntityResets:
+				Quantity:	1
+				Type: 	RESET.PUT
+				ProtoEntity: 	citta-raminghe_item_food-bistecca-pepe
+			End
+			EntityResets:
+				Quantity:	1
+				Type: 	RESET.PUT
+				ProtoEntity: 	citta-raminghe_item_food-dolce-vaniglia
+			End
+			EntityResets:
+				Quantity:	1
+				Type: 	RESET.PUT
+				ProtoEntity: 	citta-raminghe_item_food-pollo-stufato
+			End
+			EntityResets:
+				Quantity:	1
+				Type: 	RESET.PUT
+				ProtoEntity: 	citta-raminghe_item_food-spezzatino-prugne-mandorle
+			End
+			EntityResets:
+				Quantity:	1
+				Type: 	RESET.PUT
+				ProtoEntity: 	citta-raminghe_item_food-zuppa-fagioli-peperoncino
+			End
+		End
+	End
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_osservatorio-01
+	Destination:	2 7 1 citta-raminghe
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	citta-raminghe_item_osservatorio-telescopio
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	citta-raminghe_item_diario-astronoma
+	End
+End
+RoomResets:
+	Hour: 07
+	ProtoRoom:	citta-raminghe_room_osservatorio-01
+	Destination:	2 7 1 citta-raminghe
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	citta-raminghe_item_osservatorio-telescopio
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	citta-raminghe_item_diario-astronoma
+	End
+End
+RoomResets:
+        ProtoRoom:      citta-raminghe_room_costellazioni-01
+	Destination:	2 7 10 citta-raminghe
+End
+RoomResets:
+        ProtoRoom:      citta-raminghe_room_costellazioni-02
+	Destination:	3 7 10 citta-raminghe
+End
+
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_osservatorio-02
+	Destination:	2 7 0 citta-raminghe
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	citta-raminghe_mob_astronoma
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	citta-raminghe_item_anello-astronoma
+	End
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_osservatorio-02
+	Hour: 07
+	Destination:	2 7 0 citta-raminghe
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	citta-raminghe_item_anello-astronoma
+	End
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_osservatorio-03
+	Destination:	3 7 0 citta-raminghe
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_piazza
+	Destination:	10 4 0 citta-raminghe
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	citta-raminghe_mob_giocoliere-puck
+		EntityResets:
+			Quantity:	1
+			WearMode:  PART.HOLD
+			Type: 	RESET.PUT
+			ProtoEntity: 	citta-raminghe_item_diablo
+		End
+		EntityResets:
+			Quantity:	1
+			WearMode:  PART.WIELD
+			Type: 	RESET.PUT
+			ProtoEntity: 	citta-raminghe_item_bolas
+		End
+	End
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_piramide-gradoni-02
+	Destination:	13 2 0 citta-raminghe
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_piramide-gradoni-01
+	Destination:	14 2 0 citta-raminghe
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_piramide-gradoni-03
+	Destination:	13 2 1 citta-raminghe
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	citta-raminghe_item_weapon-isilme
+	End
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	citta-raminghe_item_weapon-khanda
+	End
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	citta-raminghe_item_weapon-spada-bastarda
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	citta-raminghe_item_book-elsa
+		End
+	End
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_piramide-gradoni-04
+	Destination:	14 2 2 citta-raminghe
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_piramide-gradoni-05
+	Destination:	13 2 -1 citta-raminghe
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_06-intrighi
+	Destination:	12 2 -1 citta-raminghe
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_sentiero-rovi
+	Destination:	3 3 0 citta-raminghe
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_sentiero-selciato-d
+	Destination:	14 3 0 citta-raminghe
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_sentiero-selciato-s
+	Destination:	3 5 0 citta-raminghe
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_strada-d01
+	Destination:	13 4 0 citta-raminghe
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_strada-d02
+	Destination:	14 4 0 citta-raminghe
+End
+RoomResets:
+	ProtoRoom:	citta-raminghe_room_strada-s01
+	Destination:	3 4 0 citta-raminghe
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	citta-raminghe_mob_artemisia
+		EntityResets:
+			WearMode:  PART.BODY
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	citta-raminghe_item_wear-chitone-01
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	citta-raminghe_item_cartello-lavori
+	End
+End
+
+

@@ -1,0 +1,34 @@
+Code: cimitero_item_door-a01-fermo
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.DOOR
+MaterialPercentages:	MATERIAL.METAL 100%
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+Name:	Un Fermo nella Parete
+Short:	un fermo
+Long:	$N divelto assieme alla pietra che sosteneva
+
+Descr:
+	Quello che sembrava uno dei tanti segni di degrado si rivela essere in verità il fermo di una specie di lapide.
+DescrTouch:
+	La $hand scorre su una sporgenza, un fermo che consente di aprire qui dietro.
+DescrSixth:
+	Evidentemente questo è un fermo che consente di aprire qui dietro.
+
+Value:	0
+Weight: 150kg
+
+DoorType:
+	EntityOpenMessage:	Armeggi un secondo su $N ed infine riesci ad aprire un passaggio.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n armeggia un po' su $N ed infine ne ha la meglio quando si apre un passaggio.
+	EntityCloseMessage:	Trascini la pietra a richiudere e la blocchi con $N.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n trascina la pietra a richiudere l'accesso e lo blocca con $N.
+
+	DestinationOpenMessage:	$N si sposta rivelando un accesso.
+	DestinationCloseMessage:	$N si sposta richiudendo l'accesso.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE DOOR.SECRET DOOR.NO_USE_DIR
+	ResetCloseMessage:	$N cade di botto a richiudere il passaggio.
+End

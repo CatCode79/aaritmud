@@ -1,0 +1,110 @@
+Code:	villaggio-zingaro_mob_emporista-urf-aliyeva
+Level:	1
+Sex:	SEX.MALE
+Race:	RACE.TUAREG
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Urf Aliyeva l'emporista
+Short:	l'emporista
+Long:	$N scruta di continuo a destra e a manca.
+Descr:
+Uno smilzo ometto dall'aria perennemente sospettosa con dei [wheat]lobi[close] decisamente sproporzionati. La bassa statura fa si che debba fare un considerevole risvolto ai pantaloni troppo grandi per non trascinarli sul pavimento. 
+DescrTouch:
+L'idea di sfiorarlo non ti passa neanche per l'anticamera del cervello, sembra pronto a scattare a qualsiasi movimento sospetto.
+DescrSmell:
+Odorando l'aria a distanza di sicurezza cogli una fragranza che certamente non ti saresti mai immaginat$O: violetta.
+DescrSixth:
+Ti chiedi cosa deve aver passato per essere diventato così burbero e diffidente.
+
+Extras: 
+	Keywords: lobi lobo
+	Descr: 
+	Osservando meglio i lobi, senza avvicinarti troppo, ti accorgi che quello destro è stato tagliato o forse strappato.
+End
+
+
+Weight: 68kg
+Height: 167cm
+
+BirthDay: 06
+BirthMonth: MONTH.ONE
+Age: 47
+
+
+Behaviour:
+       LookPlayer:	10
+       LookMob:	0
+       LookItem:	10
+       LookAtRacesFlags:	RACE.NONE
+       LookAtRaces:	0
+       LookAtEntitypesFlags:	ENTITYPE.NONE
+       LookAtEntitypes:	0
+       LookSelf:	0
+       LookDirection:	0
+       LookExit:	6
+       LookWall:	0
+       LookClosedDoor: 0
+       LookExtra:	0
+       TouchItem:	3
+       WanderDirection:	0
+       WanderExit:	0
+       WanderWall:	0
+       WanderClosedDoor:	0
+       WanderAtExitsFlags:	DIR.EAST DIR.WEST
+       WanderAtExits:	0
+       WanderArea:	0
+       WanderPortal:	0
+       WanderEnterContainer:	0
+       WanderExitContainer:	0
+       WanderSelf:	0
+       RandomDo:	15
+       RandomDoInputs:	emote ti scruta torvo.
+       RandomDoInputs:	murmur *borbottando* La merce non si tocca, un giorno di questi taglierò a qualcuna di quelle luride zampacce..
+       RandomDoInputs:	say *scontroso* Che volete!?
+       RandomDoInputs:	emote sbuffa rumorosamente.
+       RandomDoInputs:	emote rassetta il bancone.
+End
+
+Shop:
+	Types: SHOP.NORMAL
+        ProtoStorages:	villaggio-zingaro_room_emporio-magazzino
+	ProtoLocations:	villaggio-zingaro_room_emporio 
+	Buyables: ikea_item_pettine 120% 200
+	Buyables: ikea_item_padella 110% 200
+	Buyables: ikea_item_pentola 110% 200
+	Buyables: villaggio-zingaro_item_mortaio-01 70% 300
+	Buyables: villaggio-zingaro_item_mortaio-agata 110% 300
+	Buyables: ikea_item_tegame 90% 300
+	Buyables: villaggio-zingaro_item_bustina-semi-pomodoro 110% 300
+	Buyables: villaggio-zingaro_item_bustina-semi-peperoncino 110% 300
+	Buyables: villaggio-zingaro_item_fascetta-carta-01 80% 300
+	Buyables: villaggio-zingaro_item_fascetta-carta-02 80% 300
+	Buyables: villaggio-zingaro_item_fascetta-carta-03 80% 300
+	Buyables: villaggio-zingaro_item_cofanetto-osso 120% 300
+	Buyables: ikea_item_bussola 120% 300
+	Buyables: villaggio-zingaro_item_fischietto 110% 300
+	Buyables: villaggio-zingaro_item_lanterna 110% 200
+	Buyables: villaggio-zingaro_item_asciugamano 100% 300
+	Buyables: villaggio-zingaro_item_guinzaglio 130% 200
+	Buyables: villaggio-zingaro_item_spirale-oro 100% 300
+	Buyables: home-batu_item_candelabri-coppia 90% 300
+	Buyables: villaggio-zingaro_item_mascherina-notte 105% 300
+	Buyables: ikea_item_specchio 150% 200
+	Buyables: villaggio-zingaro_item_multipipa 110% 300
+	Sellables: ENTITYPE.NONE 70% 200%
+End
+
+MaxLife:	650
+Life:		650
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100
+
+Strength:	100
+Endurance:	15
+Agility:	100
+Speed:		50
+Intelligence:	50
+Willpower:	10
+Personality:	50
+Luck:		100

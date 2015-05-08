@@ -1,0 +1,19 @@
+Code: villaggio-zingaro_item_candela
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.WAX 100%
+Name:	Una [white]Candela[close]
+Short:	una [white]candela[close]
+
+Descr:
+Una [white]candela[close] ben solida e diritta con un lungo stoppino.
+DescrTouch: 
+Passi la $hand su tutta la lunghezza che ti resta sporca di cera.
+DescrSmell: 
+Aroma di cera.
+
+Value:	3
+Weight: 76g
+

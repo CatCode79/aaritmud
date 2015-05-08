@@ -1,0 +1,24 @@
+Code: karpuram_item_sughera_piantina_04
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+MaterialPercentages:	MATERIAL.VEGETABLE	100
+Sex:	SEX.FEMALE
+Name: Una Giovane [lawngreen]Quercietta[close] da [lawngreen]Sughero[close] 
+Short: una giovane [lawngreen]piantina[close]
+Descr:
+Una piantina piuttosto piccina con il fusticino butterato
+
+Value:	0
+Weight: 22g
+
+DescrTouch: 
+Una piantina che tenta pian piano di crescere e divenire autosufficiente.
+
+Extras:
+  Keywords: piantina
+  Descr: difficile dire se sia malaticcia o se la corteccina è normale
+  DescrSixth: una piccola quercia da sughero
+End
+
+

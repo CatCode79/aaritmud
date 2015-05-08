@@ -1,0 +1,26 @@
+Code: cimitero_item_cipresso-01
+Level: 1
+Flags:	FLAG.NO_GET
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.VEGETABLE 100%
+Sex:	SEX.MALE
+Name:	Un Cipresso Rassicurante
+Short:	un cipresso rassicurante
+Long:	$N emerge dal terreno con la lenta e risoluta forza di chi ha una meta.
+
+Descr:
+Un altissimo albero affusolato e sottile non permette al vento d'arruffarlo nonostante
+l'impeto dei turbini.
+DescrTouch: 
+Un resinoso albero affusolato e sottile t'inzacchera le $hands.
+DescrSixth:
+Un resinoso cipresso, di quelli con potenti abilità inzaccheranti anche senza contatto
+diretto
+DescrHearing:
+Le sue fronde, dal fusto percorrono strette la chioma e non concedono al vento che
+pochi stridii stizziti.
+
+Value:	0
+Weight: 1347kg
+
+

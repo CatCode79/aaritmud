@@ -1,0 +1,16 @@
+Code: torreelementi_item_corda_elfica
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.HEMP	100%
+Name:	Corda Elfica Arrotolata
+Short:	una robusta corda
+Long:	$N è arrotolata qui
+Descr:
+Diversi metri di corda finemente intrecciata sono stati arrotolati con cura,
+con altrettanta cura sono stati disposti a terra.
+
+Value:	0
+Weight: 4700g
+
+

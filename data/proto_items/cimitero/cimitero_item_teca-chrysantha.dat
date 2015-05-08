@@ -1,0 +1,56 @@
+Code: cimitero_item_teca-chrysantha
+Level: 1
+Entitype:	ENTITYPE.CONTAINER
+MaterialPercentages:	MATERIAL.ONYX 50%
+MaterialPercentages:	MATERIAL.OBSIDIAN 50%
+Flags:	FLAG.NO_GET
+Sex:	SEX.FEMALE
+Name:	La Teca di Chrysantha
+Short:	una teca trasparente
+Long:	C'è $N posta su un pesante piedistallo di pietra
+
+Descr:
+La struttura portante è in materiale nero e lucido che ne percorre gli spigoli. Le pareti
+laterali più lunghe sono costituite da lastre trasparenti. Superiormente la copertura
+è imperniata con delle cerniere.
+DescrTouch: 
+La struttura portante lucida che ne percorre gli spigoli. Le pareti laterali più lunghe
+sono rigide e dure. Le tue dita scorrono su leggerissime incisioni che percorrono la copertura superiore.
+DescrSixth:
+La teca sembra esser rimasta lì da tempo immemore, perfettamente sigillata in attesa del tempo dell'apertura.
+
+Value:	0
+Weight: 200kg
+
+Extras:
+	Keywords:	incisioni
+	Descr:
+	incisioni nere su nero; difficili da vedere
+	DescrTouch:
+	L'incisione è suddivisa in più parti sui vari spigoli.
+	אמת ושקר
+	מציאות
+	פילוסופיה
+End
+Extras:
+	Keywords:	אמת ושקר
+	Descr:
+	Dei simboli che non riconosci.
+	DescrTouch:
+	Qualcosa pare che stia cercando di comunicarti qualcosa ma percepisci solo una tristezza ovattata.
+End
+
+
+ContainerType:
+        Comment:	il contenitore è aperto solo per test su script poi sarà chiuso
+	EntityOpenMessage:	Sollevi la copertura superiore di $N.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n solleva la copertura superiore di $N.
+	EntityCloseMessage:	Appoggi la copertura superiore di $N per richiuderl$O.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n riappoggia la copertura superiore di $N per richiuderl$O.
+	Flags:	CONTAINER.LOCKED CONTAINER.CLOSABLE
+        MaxWeight: 500kg
+End
+
+

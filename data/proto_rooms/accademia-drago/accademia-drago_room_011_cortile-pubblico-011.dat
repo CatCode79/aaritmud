@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_011_cortile-pubblico-011
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il Cortile Pubblico
+Short:	il cortile pubblico
+	Descr:
+Arrivi nella zona sud-ovest del cortile pubblico, qui gli
+schiamazzi la fanno da padrone, bambini corrono come forsennati
+rincorrendosi, genitori sbraitano nel tentativo di tenerli a
+bada, ti stupisci del macello che trovi in questo posto quando il
+resto del cortile ti era sembrato tranquillo e rilassato.
+Guardandoti intorno alzi gli occhi e noti un'insegna che sovrasta
+un grande portone in legno di quercia.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 2
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	il cortile pubblico
+	Comment:	ExitStatus	0 0 010 -1
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	il cortile pubblico
+	Comment:	ExitStatus	0 0 003 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Destination:	0 -1 0 accademia-drago
+	Descr:	l'accesso al museo
+	Comment:	ExitStatus	0 0 013 -1
+End
+Extras:
+	Keywords:	insegna
+		Comment: qui la scritta grigia sottolineata su sfondo giallo in un riquadro al centro dello schermo(sic.)
+		Descr:
+			<pre class="asciiart">
+			---------------------
+			|[gray]MUSEO [close]|
+			---------------------
+</pre>
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

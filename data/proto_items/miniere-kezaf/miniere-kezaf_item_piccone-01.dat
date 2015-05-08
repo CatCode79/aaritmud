@@ -1,0 +1,32 @@
+Code: miniere-kezaf_item_piccone-01
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAPON
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.WOOD	35%
+MaterialPercentages:	MATERIAL.METAL	65%
+Icon:	icons/item/piccone-01.png
+Name:	Un Piccone
+Short:	un piccone
+Long:	$N logoro
+
+Descr:
+Un piccone a doppia punta, ambedue spuntate per l'uso. Il manico in legno risulta comunque abbastanza solido.
+DescrTouch: 
+Un piccone a doppia punta, ambedue spuntate per l'uso. Il manico in legno risulta comunque abbastanza solido.
+DescrSixth:
+Per quanto risulti usato, conserva una certa sua utilità.
+DescrTaste:
+Legno vecchio che cede il sapore ed il sudore dei suoi antecedenti utilizzatori.
+
+Value:	0
+Weight: 3400g
+
+WeaponType:
+        Category: WEAPON.STAFF
+	Damage:	2D4+1
+        Flags: WEAPONFLAG.TWO_HANDS
+End
+
+MaxLife:	50
+Life:		38

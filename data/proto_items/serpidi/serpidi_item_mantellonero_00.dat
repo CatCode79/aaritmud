@@ -1,0 +1,21 @@
+Code:	serpidi_item_mantellonero_00
+Level:	1
+Entitype: ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.CLOTH	100%
+Name:	Mantello Nero 
+Short:	un mantello nero 
+Descr: 
+un mantello nero, dai riflessi oscuri, sta ammucchiato in un angolo
+WearType:
+	Flags:	WEAR.LAYERABLE
+    Modes: PART.BODY
+    Modes: PART.BELLY
+End
+Value:	0
+Weight: 280g
+BirthDay: 1
+BirthMonth: MONTH.TEN
+
+
+
+

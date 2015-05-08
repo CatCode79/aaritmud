@@ -1,0 +1,6 @@
+FunName:    command_tell
+Type:       CMDTYPE.CHANNEL
+Trust:      TRUST.PLAYER
+Position:   POSITION.DEAD
+Flags:      CMDFLAG.POSSESS CMDFLAG.PRIVATE
+MiniHelp:   Serve per comunicare in maniera privata con un altro giocatore.

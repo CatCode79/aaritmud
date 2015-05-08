@@ -1,0 +1,35 @@
+Code: villaggio-zingaro_item_vetrinetta-bancone
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.FEMALE
+Flags:	FLAG.NO_LOOK_LIST FLAG.NO_GET
+MaterialPercentages:	MATERIAL.WOOD	20%
+MaterialPercentages:	MATERIAL.GLASS	80%
+Name:	Una Vetrinetta
+Short:	una vetrina
+Long:	$N è qui
+
+Descr:
+Una vetrinetta con due ante scorrevoli in vetro costituisce la parte inferiore di un imponente bancone. Una piccola serratura è posta a protezione degli oggetti più preziosi dell'emporio.
+#self is CONTAINER.CLOSED#Attraverso il vetro puoi vedere $i.##
+DescrTouch: 
+Passi una $hand imbrattando tutto il vetro.
+
+Value:	0
+Weight: 300kg
+
+
+ContainerType:
+	KeyCode:	villaggio-zingaro_item_chiave-vetrina
+	EntityOpenMessage:	Apri $N facendo scorrere le ante di vetro.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N facendo scorrere le ante di vetro.
+	EntityCloseMessage:	Richiudi $N facendo vibrare leggermente le lastre di vetro.
+	TargetCloseMessage:	Finalmente $n si è degnat$o di chiuderti.
+	OthersCloseMessage:	$n richiude $N facendo vibrare le lastre di vetro.
+	Flags:	CONTAINER.CLOSED CONTAINER.CLOSABLE CONTAINER.LOCKED
+        MaxWeight: 3kg
+End
+
+

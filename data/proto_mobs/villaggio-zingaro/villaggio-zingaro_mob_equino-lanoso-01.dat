@@ -1,0 +1,92 @@
+Code:	villaggio-zingaro_mob_equino-lanoso-01
+Level:	1
+Sex:	SEX.MALE
+Race:	RACE.HORSE
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Un Equus Hispidus 
+Short:	un singolare cavallo
+Long:	$N passeggia placido.
+
+Descr:
+Un singolare equino dall'occhio languido e l'aria compassata difficilmente vede quello che gli sta intorno data la lunga criniera che pende su parte del muso.
+Il folto [bisque]manto[close] che lo ricopre pare leggermente arricciato, come lanoso.
+DescrTouch:
+Si lascia accarezzare senza problemi; il vello che si porta appresso, meno aggrovigliato rispetto alla lana di pecora, risulta morbido e setoso. 
+Tenti di spezzare un pelo con le $hand ma non ci riesci.
+DescrSmell: 
+Un odore neutro e pulito.
+DescrSixth:
+Un animale del tutto innocuo che dà l'impressione sia sempre sul punto di scusarsi per il disturbo. 
+DescrHearing:
+Ogni tanto lo senti nitrire discretamente.
+
+Weight: 180kg
+Height: 165cm
+
+BirthDay: 4
+BirthMonth: MONTH.TWO
+Age: 4
+
+Behaviour:
+	LookPlayer:	0
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	LookEquipment:	0
+	SmellPlayer:	0
+	ListenMob:	0
+	TouchItem:	0
+	IntuitionAtRacesFlags:	RACE.NONE
+	IntuitionAtRaces:	0
+	TasteAtEntitypesFlags:	ENTITYPE.NONE
+	TasteAtEntitypes:	0
+        WanderAtSectors:	SECTOR.PASTURE SECTOR.HOUSE
+	WanderDirection:	0
+	WanderExit:	30
+	WanderWall:	0
+	WanderClosedDoor:	30
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	0
+	RandomDoInputs:	emote nitrisce senza troppa convinzione.
+	RandomDoInputs:	emote fa oscillare la coda.
+End
+
+MaxLife:	100
+Life:		100
+MaxMana:	10
+Mana:		10
+MaxVigour:	100
+Vigour:		100
+
+Strength:	10
+Endurance:	10
+Agility:	50
+Speed:		50
+Intelligence:	10
+Willpower:	10
+Personality:	10
+Luck:		10
+
+Walker:
+	GoVerbYou:	Ti dirigi
+	GoVerbIt:	si dirige
+	ComeVerbIt:	giunge
+	RunVerbYou:	Galoppi
+	RunVerbIt:	galoppa
+	RunnedVerbIt:	sopraggiunge
+End

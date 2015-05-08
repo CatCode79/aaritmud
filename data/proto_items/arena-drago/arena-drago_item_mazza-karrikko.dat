@@ -1,0 +1,30 @@
+Code:	arena-drago_item_mazza-karrikko
+Level:	06
+Entitype:	ENTITYPE.WEAPON
+MaterialPercentages:	MATERIAL.HARDWOOD 50%
+MaterialPercentages:	MATERIAL.IRON 20%
+MaterialPercentages:	MATERIAL.SOFTWOOD 30%
+Sex:	SEX.MALE
+Name:	La Mazza di [red]k[gray]Arri[red]kK[gray]o[close]
+Short:	l'asse di un carro 
+Long:	$N con ancora una ruota attaccata è abbandonato qui in terra.
+
+Value:	0
+Weight: 95kg
+
+Descr:
+L'intero albero di un carro con la ruota attaccata.
+
+WeaponType:
+        Category: WEAPON.MACE
+	Damage:	3D4+1
+        Flags: WEAPONFLAG.TWO_HANDS 
+End
+
+Comment:
+§27708
+
+Dati Obj
+5 16|128|512|2048|4096|8192|16384|262144|8388608|16777216|33554432|67108864|134217728 1|81920 5 5 660 1000 10000
+
+

@@ -1,0 +1,70 @@
+Code:   villaggio-zingaro_mob_stalliere
+Level:  5
+Sex:    SEX.MALE
+Race:   RACE.TUAREG
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:   Lo Stalliere
+Short:  uno stalliere
+Long:   $N ti osserva dalla testa ai piedi.
+
+Descr:
+Un giovane ragazzo dalla folta capigliatura corvina, si trova qui intento
+a sistemare la stalla e prendersi cura degli animali che la occupano. Indossa una
+camicia a quadroni [white]bianchi[close] e [red]rossi[close], un paio di pantaloni e scarpe da lavoro.
+#ikea_item_guanti-lavoro#Alla cintura ha fermati un paio di guanti di pelle.## I suoi occhi neri ti osservano curiosi.
+DescrTouch:
+Senza farti notare sfiori con la %hand la sua camicia avvertendone la ruvidezza
+della fattura. 
+DescrSmell:
+L'odore del fieno e del sudore degli animali, il cuoio delle briglie e delle selle
+si dipartono dalla figura del giovane stalliere.
+DescrSixth:
+Avverti forte indecisione mista a paura provenire dal ragazzo apparentemente calmo e posatoi.
+
+Weight: 55kg
+Height: 175cm
+
+BirthDay: 1
+BirthMonth: MONTH.THREE
+Age: 22
+
+MaxLife:        200
+Life:           200
+MaxMana:        100
+Mana:           100
+MaxVigour:      150
+Vigour:         150
+
+Strength:       10
+Endurance:      10
+Agility:        12
+Speed:          10
+Intelligence:   10
+Willpower:      10
+Personality:    15
+Luck:           15
+
+Behaviour:
+        LookPlayer:     0
+        LookMob:        0
+        LookItem:       0
+        LookAtRacesFlags:       RACE.TUAREG
+        LookAtRaces:    0
+        LookAtEntitypesFlags:   ENTITYPE.NONE
+        TasteAtEntitypesFlags:  ENTITYPE.NONE
+        WanderDirection:        0
+        WanderExit:     10
+	WanderAtSectors: 	SECTOR.HOUSE SECTOR.PASTURE
+        WanderWall:     0
+        WanderClosedDoor:       0
+        WanderAtExitsFlags:     DIR.NONE
+        WanderAtExits:  0       
+        WanderArea:     0
+        WanderPortal:   0
+        WanderEnterContainer:   0
+        WanderExitContainer:    0
+        WanderSelf:     0
+        RandomDo:       10
+        RandomDoInputs: emote gioca nervosamente con le briglie del cavallo.
+        RandomDoInputs: emote sorride a mezza bocca.
+End

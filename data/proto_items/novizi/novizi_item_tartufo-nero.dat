@@ -1,0 +1,34 @@
+Code: novizi_item_tartufo-nero
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.MUSHROOM	100
+Sex:	SEX.MALE
+Name:	Il Tartufo Nero Nakilensis
+Short:	un tartufo nero
+Long:	hai trovato $N rarissimo! 
+
+Descr:
+Un patatoide nerastro rintorcinato e bitorzoluto.
+DescrTouch: 
+Un escrescenza terrosa bitorzoluta e rintorcinata della consistenza di una patata.
+DescrSmell: 
+Penetrante e persistente come solo i tartufi e le brodaglie alchemiche.
+DescrTaste:
+Urgh.. la forza emotiva di milioni di funghi concentrata in un coso tanto piccolo!
+
+Value:	0
+Weight: 15g
+
+FoodType:
+	Comment:	cibo
+	Animal:	0
+	Vegetable:	100
+	CookingDamage:	0
+	Hours:	0
+	EntityMessage:	Azzardi oltre il buon senso ed ingurgiti $N.
+	TargetMessage:	Ora c'è una sola via d'uscita... $n t'ha mangiato.
+	OthersMessage:	$n incurante del effetto ingurgita $N.
+End
+
+

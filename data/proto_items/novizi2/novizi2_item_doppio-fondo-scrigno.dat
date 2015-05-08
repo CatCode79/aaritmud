@@ -1,0 +1,30 @@
+Code: novizi2_item_doppio-fondo-scrigno
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+Flags:	FLAG.NO_LOOK_LIST FLAG.NO_GET
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.HARDWOOD	100%
+Name:	Il Doppio Fondo
+Short:	il doppio fondo
+Long:	$N dello scrigno
+
+Descr:
+Nascosto alla vista, sul retro dello scrigno c'è uno strano scalino..
+DescrTouch: 
+Nascosto alla vista, sul retro dello scrigno c'è l'apertura di un doppio fondo.
+DescrSmell: 
+no_send
+DescrSixth:
+Nascosto alla vista, sul retro dello scrigno c'è l'apertura di un doppio fondo.
+DescrHearing:
+no_send
+DescrTaste:
+no_send
+
+Weight: 10kg
+
+ContainerType:
+	Flags:	 CONTAINER.SECRET 
+	MaxWeight:	10kg
+End

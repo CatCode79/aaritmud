@@ -1,0 +1,84 @@
+Code:	krablath_mob_pavone-blu
+Level:	1
+Sex:	SEX.MALE
+Race:	RACE.BIRD Pavone
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Icon:	icons/animal/blue-peacock.png
+Name:	Un [mediumblue]Pavone[close] 
+Short:	un [mediumblue]pavone[close]
+Long:	$N ti ignora altezzoso.
+
+Descr:
+Un fiero occhio castano ti scruta da sotto una coroncina di piumette bluaste convinto di non essere visto. Lo sfolgorante [mediumblue]piumaggio[close] del petto rifulge sotto i raggi del sole e la lunga coda che questo [mediumblue]pavone[close] trascina dietro di sé rimane rialza come non la volesse sporcare..
+DescrNight:
+Un fiero occhio castano ti scruta da sotto una coroncina di piumette bluaste convinto di non essere visto. Lo sfolgorante [madiumblue]piumaggio[close] del petto risplende perlaceo al bagliore lunare, la lunga coda che questo [mediumblue]pavone[close] trascina dietro di sé rimane rialza come non la volesse sporcare..
+DescrTouch: 
+Dev'essere incredibilmente soffice ma l'idea che possa mozzarti un dito con una beccata ti mantiene a distanza.
+DescrSmell: 
+Puzza di gallina.
+DescrSixth:
+Con una coda così lunga non può che essere un maschio.
+DescrHearing:
+Poggiandoci
+
+Weight: 46kg
+Height: 111cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 3
+
+
+Behaviour:
+	LookPlayer:	5
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	LookEquipment:	0
+	SmellPlayer:	0
+	ListenMob:	15
+	TouchItem:	0
+	IntuitionAtRacesFlags:	RACE.NONE
+	IntuitionAtRaces:	0
+	TasteAtEntitypesFlags:	ENTITYPE.NONE
+	TasteAtEntitypes:	0
+	WanderDirection:	0
+	WanderExit:	30
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	30
+	RandomDoInputs:	emote si esibisce in una ruota meravigliosa.
+	RandomDoInputs:	emote becchetta qua e là..
+End
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:		33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:		33

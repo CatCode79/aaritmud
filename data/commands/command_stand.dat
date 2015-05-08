@@ -1,0 +1,6 @@
+FunName:    command_stand
+Type:       CMDTYPE.MOVEMENT
+Trust:      TRUST.PLAYER
+Position:   POSITION.SLEEP
+Flags:      CMDFLAG.INTERACT CMDFLAG.GDR
+MiniHelp:   Serve per mettere in piedi il proprio personaggio.

@@ -1,0 +1,66 @@
+Code: cimitero_item_siepe_rose_selvatiche
+Level: 1
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.VEGETABLE 100%
+Sex:	SEX.MALE
+Name:	Un Cespuglio di Rose Selvatiche
+Short:	un cesuglio di rose
+Long:	Qui cresce $N piuttosto rigoglioso
+
+
+Descr:
+Una siepe di rose selvatiche è cresciuta in questo luogo dimenticato e 
+apparentemente privo di vita. La siepe è ben curata e presenta una recente
+potatura che le da una forma quasi tondeggiante, la bellezza unica e selvaggia
+delle rose che vi crescono sopra quasi ti sconvolge. In terra noti un paio di
+forbici e una piccola catasta di foglie e rametti spezzati.
+
+DescrNight:
+Una o due rose riescono ad attirare la tua attenzione, facendoti accorgere
+della presenza di una siepe selvatica che è cresciuta appoggiata al muro di una
+piccola casucola. In terra noti una piccola catasta di rami secchi e foglie.
+
+DescrSmell:
+Un profumo molto intenso proviene dalla siepe, alcune rose sono da poco fiorite
+e stanno spargendo nell'aria il loro polline.
+
+DescrSmellNight:
+Il profumo delle rose selvatiche presenti sulla siepe ti fa quasi svenire per
+la sua forza, buonissimo ti spinge ad avvicinarti sempre di più alla siepe.
+
+DescrTouch:
+Toccando la siepe ti accorgi che oltre alle selvatiche rose ci sono anche grosse
+spine rivolte contro la tua $hand, attent$o a non ferirti!
+
+DescrTouchNight:
+I petali delle rose della siepe sono molto soffici e vellutati, ma devi fare
+attenzione a come sposti le tue $hands, perchè vi sono grosse spine affilate
+pronte a ferirti!
+
+DescrSixth:
+Sei sicur$o che qualcuno si è occupato di questa siepe non molto tempo fa.
+
+Value:	0
+Weight: 12kg
+
+
+Extras:
+	Keywords: forbici
+	Descr
+	Un paio di vecchie forbici da giardino arrugginite, non sembrano nemmeno
+	affilate.
+End
+Extras:
+	Keywords: rosa
+	Descr
+	Una rosa mal cresciuta si trova in terra vicino alla siepe, non sembra
+	essere stata tagliata via, forse è stata strappata da qualcosa.
+End
+Extras:
+	Keywords: rametti foglie
+	Descr
+	Un gruppetto di piccoli rametti e foglie sicuramente provenienti dalla
+	siepe si trova riposto in modo ordinato vicino a un muretto.
+End
+
+

@@ -1,0 +1,16 @@
+Code: pet
+
+ItalianKeywords: mascotte cucciolo cuccioli
+EnglishKeywords: mascotte pet pets
+
+Entitype: HELP.GENERIC
+
+Text:
+In questo mondo ti è possibile comprare un cucciolo che ti faccia compagnia
+nei tuoi viaggi e nelle tue avventure, puoi acquistarlo nei negozi di animali
+che trovi sparsi per il mondo.
+Puoi acquistare un solo cucciolo alla volta, se questo dovesse morire potrai
+acquistarne uno nuovo.
+
+Sei responsabile delle azioni dei tuoi animali, in quanto essi ubbidiscono
+ai tuoi ordini (vedi $torder).

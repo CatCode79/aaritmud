@@ -1,0 +1,35 @@
+Code: carrozzone-zingaro_item_door-telone
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.CLOTH 100%
+Name:	Un Telone 
+Short:	un telone grezzo 
+Long:	$N è finito in terra
+
+Descr:
+Un telone di cotone grezzo e spennellato di pece.
+DescrTouch: 
+Un telone sudicio e vagamente unto.
+
+Value:	0
+Weight: 10kg
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Scosti $N tirandolo di lato.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n scosta $N tirandolo di lato.
+	EntityCloseMessage:	Riaccomodi $N fino a coprire l'accesso.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n riaccomoda $N fino a coprire l'accesso.
+	DestinationOpenMessage: Qualcuno dall'altro lato scosta $N.
+	DestinationCloseMessage: Qualcuno sull'altro lato riaccomoda $N fino a coprire l'accesso.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE
+	ResetCloseMessage: $N si chiude.
+	ResetOpenMessage: $N si apre.
+End
+
+

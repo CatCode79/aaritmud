@@ -1,0 +1,74 @@
+Code: karpuram_mob_botanico_01
+Level: 12
+
+Sex:	SEX.MALE
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Un Elfo Botanico
+Short: un elfo botanico
+Long:	$N è qui a controllare le piante
+Race: RACE.WOODELF
+
+Descr:
+Questo elfo è intento a controllare e analizzare le piante del bosco. I suoi
+vestiti lo mimetizzano molto bene con l'ambiente circostante e ti risulta
+difficile seguirlo nei suoi continui spostamenti. Alla cintura ha una piccola 
+sacca di tela dalla quale ogni tanto tira fuori qualche strano arnese.
+Il suo lento ma costante incedere trasmette una calma tipica della sua razza e
+ti sembra che si muova in simbiosi con le piante e i fiori che lo circondano.
+
+DescrSixth:
+Hai la sensazione di averlo già visto da qualche parte.
+
+
+
+
+
+Behaviour:
+	LookPlayer:	10
+	LookMob:	10
+	LookItem:	10
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	5
+	LookDirection:	5
+	LookExit:	20
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+Weight: 55kg
+Height: 180cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 134
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

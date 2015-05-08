@@ -1,0 +1,17 @@
+Code: karpuram_item_mucchio_argilla
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.EARTH	100
+Sex:	SEX.FEMALE
+Name: Un Mucchio d'Argilla
+Short: un mucchio di [indianred]terra[close]
+Long:	$N depositata in vaga forma di cono
+Descr:
+[indianred]della terra rossa poco compatta e molto friabile[close] 
+
+Value:	0
+Weight: 37000g
+
+DescrTouch: 
+dura friabile, poco nutriente anche per la piantina meno esigente

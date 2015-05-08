@@ -1,0 +1,14 @@
+Code: opekus_item_pietra_001
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.STONE	100%
+Name: una pietra bianca
+Short: una pietra
+Descr:
+una pietra vagamente tondeggiante, magnifica per un lancio.
+
+Value:	0
+Weight: 750g
+
+

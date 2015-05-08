@@ -1,0 +1,31 @@
+Code:   miniere-kezaf_item_gemma-lavorata-script
+Level:  1
+MaxGlobalQuantity:      0
+Entitype: ENTITYPE.NONE
+Sex:    SEX.FEMALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:   icons/gem/crude_gem-01.png
+Name:   Una Pietra Scartata
+Short:  una pietra scartata
+Long:   $N perché sfortunata
+
+Descr:
+Un pezzo di pietra lavorata parzialmente ed incrinata nel centro.
+
+DescrTouch: 
+Un pezzo di pietra lavorata parzialmente ed incrinata nel centro.
+
+DescrSixth:
+Non c'è nulla da fare... è da buttare...
+
+DescrHearing:
+no_send
+
+DescrTaste:
+no_send
+
+DescrSmell:
+no_send
+
+Value:	0
+Weight: 210g

@@ -1,0 +1,33 @@
+Code: antro-drow_room_accesso
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: Un Camino Naturale
+Short: un camino naturale
+
+Descr:
+In tempi remoti due falde rocciose hanno cozzato fra loro originando un passaggio tortuoso che scende nel terreno per metri e metri. Qualcuno o qualcosa molto più recentemente deve aver dato una mano per rendere il passaggio appena più agevole di come doveva essere in origine.
+Superiormente la via è parzialmente coperta da un [slategray]gradino[close].
+DescrTouch: 
+Roccia frastagliata da un lato e il vuoto dalla parte opposta; un passaggio verticale che scende nelle viscere della terra.
+DescrSmell: 
+Esalazioni sufuree appena percettibili salgono di tanto in tanto.
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.UP
+	Descr: All'aperto
+        Door:	antro-drow_item_door-secret-accesso
+	Destination: 9 -2 -1 opekus
+End
+Exits:
+	Direction: DIR.SOUTHWEST
+	Descr: Una breccia
+End
+Exits:
+	Direction: DIR.DOWN
+	Descr: Verso il basso
+End

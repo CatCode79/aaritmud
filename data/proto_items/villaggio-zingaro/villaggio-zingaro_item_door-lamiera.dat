@@ -1,0 +1,39 @@
+Code: villaggio-zingaro_item_door-lamiera
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.STEEL 100%	
+Name:	La Lamiera
+Short:	una lamiera ondulata
+Long:	$N è posata sul terreno.
+
+Descr:
+Un pezzo di lamiera ondulata arrugginita di forma piuttosto irregolare.
+DescrTouch: 
+Passandoci la mano riesci solo a sporcarla tutta di ruggine.
+DescrHearing:
+La percuoti con le $hands producendo un profondo suono vibrante.
+DescrSixth:
+Posta a copertura di...quello che c'è sotto.
+
+Value:	0
+Weight: 200g
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Spostando $N scopri una profonda fossa.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n scopre una profonda fossa spostando $N.
+	EntityCloseMessage:	Ricollochi $N trascinandola sul terreno.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n ricolloca $N trascinandola sul terreno.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE DOOR.NO_USE_DIR
+	ResetCloseMessage: $N si chiude.
+	ResetOpenMessage: $N si apre.
+End
+
+

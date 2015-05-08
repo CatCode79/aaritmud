@@ -1,0 +1,27 @@
+Code: citta-raminghe_item_wear-chitone-01
+Level: 3
+Entitype: ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.LINE 99
+MaterialPercentages:	MATERIAL.SILVER	1
+Name: Un Chitone
+Short: [yellow]una tunica corta di lino[close]
+
+Descr: Una tunica di stoffa molto leggera lievemente drappeggiata. È arricchita con delle fibule d'argento che le danno forma. 
+DescrTouch: Avverti una certa morbidezza
+
+Value:	0
+Weight: 300g
+
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+        Modes: PART.BODY
+        EntityWearMessage:	Ti copri indossando $N %part.
+        TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+        OthersWearMessage:	$n allarga $N e lo indossa %part.
+        EntityRemoveMessage:	Ti sfili $N %part.
+        TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+        OthersRemoveMessage:	$n si sfila $N %part.
+End
+
+

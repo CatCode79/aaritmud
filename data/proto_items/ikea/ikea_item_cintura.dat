@@ -1,0 +1,41 @@
+Code: ikea_item_cintura
+Level: 2
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.FEMALE
+Flags:	FLAG.RANDOMIZABLE
+MaterialPercentages:	MATERIAL.LEATHER	90
+MaterialPercentages:	MATERIAL.BRASS	10
+Name:	Una Cintura in Cuoio
+Short:	una cintura in cuoio
+Long:	$N è arrotolata e posta con cura qui.
+
+Descr:
+Una lunga striscia di pelle con una decina di fori ad un'estremità ed una fibbia metallica.
+DescrTouch: 
+Una lunga striscia dura e flessibile con una decina di fori praticati ad un estremità ed una fredda fibbia.
+DescrSixth:
+Ottimo oggetto utilizzabile anche come arma in mancanza di meglio.
+
+Value:	120
+Weight: 200g
+
+Extras:
+	Keywords: fibbia
+	Descr:
+	Un arco di metallo con una piattina in fondo
+	DescrTouch:
+	un arco in materiale cautamente elastico e una piattina
+End
+WearType:
+	Modes: PART.WAIST
+	EntityWearMessage:	T'infili la cintura nelle asole.
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	$n armeggia con la $N infilandosela nelle asole.
+	EntityRemoveMessage:	Porti la $hands %part e ti sfili $N.
+	TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+	OthersRemoveMessage:	$n porta la $hands %part e si sfila $N.
+End
+WeaponType:
+	Category:	WEAPON.WHIP
+	Flags:	WEAPONFLAG.ONE_HAND 
+End

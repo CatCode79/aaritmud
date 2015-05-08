@@ -1,0 +1,37 @@
+Code: karpuram_item_sandali-corteccia
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.HARDWOOD	100
+Sex:	SEX.MALE
+Name:
+	I [darkolivegreen]Sandali[close] di [darkolivegreen]Corteccia[close] 
+Short:
+	un paio di [darkolivegreen]sandali[close] di corteccia
+Long:
+	$N riposti appaiati
+
+Descr:
+Questi sandali realizzati con una serie di fibre di corteccia intrecciate
+tra di loro, sembrano molto comodi e leggeri. Presentano una sottile suola di
+cuoio di semplice lavorazione e un laccio sempre di cuoio per fermarli
+ai piedi.
+
+DescrSmell:
+L'odore della corteccia con cui sono realizzati è molto intenso e sovrasta
+quello, stranamente, meno forte del cuoio con cui sono stati in parte
+completati.
+
+DescrTouch:
+Al tatto i sandali sono ruvidi e stopposi nella parte formata dalla corteccia, 
+mentre abbastanza levigati e flessuosi nel toccare la suola di cuoio.
+
+
+WearType:
+   Modes: PART.RIGHT_FOOT PART.LEFT_FOOT
+End
+
+Value:	0
+Weight: 335g
+
+

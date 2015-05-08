@@ -1,0 +1,33 @@
+Code: karpuram_item_collare-pelle
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.LEATHER	100
+Sex:	SEX.MALE
+Name:
+	Il [saddlebrown]Collare[close] di Pelle
+Short:
+	un [saddlebrown]collare[close] di pelle
+Long:
+	Sembra che qui ci sia $N arrotolato 
+
+Descr:
+Un semplice collare fatto interamente di pelle, presenta una serie di fori
+lungo tutta la superficie. Questi fori potrebbero essere di tipo ornamentale,
+oppure servire a inserire una sorta di rudimentali accessori in abbinamento.
+
+DescrSmell: 
+Il collare ha un forte odore di pelle e sembra essere stato recentemente
+trattato con una sostanza molto pungente e dall'odore quasi nauseabondo.
+
+DescrTouch:
+Il collare è molto duro e resistente, è ricoperto da una strana patina oleosa
+che lo rende sfuggente al tatto e levigato. Sicuramente questa sostanza serve
+per ammorbidire la pelle.
+
+WearType:
+   Modes: PART.NECK
+End
+
+Value:	0
+Weight: 110g

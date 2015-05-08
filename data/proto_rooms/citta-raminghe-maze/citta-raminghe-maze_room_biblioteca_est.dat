@@ -1,0 +1,19 @@
+Code: citta-raminghe-maze_room_biblioteca_est
+Sector: SECTOR.HOUSE
+Flags:  ROOM.INSIDE
+Name: Stretti Passaggi Intricati
+Short: uno [red]stretto passaggio[close]
+Descr:
+Sei costretto ad inchinarti percorrendo questo basso e stretto passaggio che ti conduce altrove.
+DescrSixth:
+Dove conduce questo passaggio così tortuoso e scomodo? Una domanda dalle mille risposte tanto che molti avventurieri 
+la risposta se la cercano da soli.
+
+Width:  10m
+Depth:  10m
+Height: 100m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: in biblioteca
+End

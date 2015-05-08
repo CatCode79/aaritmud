@@ -1,0 +1,16 @@
+Code: empty
+
+ItalianKeywords: svuota
+EnglishKeywords: empty
+
+Entitype: HELP.ITEM
+
+Text:
+Con il comando $tempty &lt;[darkgreen]contenitore[close]&gt; puoi svuotare un contenitore a terra,
+mentre con $tempty &lt;[darkgreen]contenitore[close]&gt; &lt;[darkgreen]contenitore[close]&gt; potrai passare il
+contenuto da un contenitore all'altro.
+
+Questo comando funziona solamente con contenitori per liquidi.
+
+
+SeeAlso: fill

@@ -1,0 +1,30 @@
+Code: ikea_item_scalpellino
+
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+Flags:	FLAG.RANDOMIZABLE
+MaterialPercentages:	MATERIAL.IRON	70%
+MaterialPercentages:	MATERIAL.WOOD	30%
+Name:	Uno Scalpello
+Short:	un sottile scalpello
+
+Descr: 
+Un sottile scalpello di ferro ha una forma similmente cilindrica e affusolata.
+La parte ferrosa piuttosto consunta presenta diverse abrasioni per tutta la sua
+lunghezza.
+DescrSmell:
+L'odore di ferro e filamenti di rame è molto forte.
+DescrTouch:
+Passi le $hand sulla parte metallica cogliendone le sottili scanalature.
+
+Value:	0
+Weight: 234g
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

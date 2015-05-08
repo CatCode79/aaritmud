@@ -1,0 +1,86 @@
+Code:	accademia-drago_room_002_magica-portineria-002
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	La Magica Portineria
+Short:	la magica portineria
+	Descr:
+Oltrepassato lo specchio ti trovi all'interno di una stanzetta
+buia e spoglia, su una scrivania fanno bella mostra di se alcuni
+libroni rilegati in pelle di vari colori, appoggiata ad una
+parete si trova una libreria piena zeppa degli stessi tomi
+impolverati che sembrano non essere stati toccati per anni. A
+quanto pare di qui non si va da nessuna parte, puoi solo tornare
+sui tuoi passi.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	1|4|8|64|128|1024|32768|16777216 0
+Exits:
+	Direction:	DIR.WEST
+	Descr:	Specchio
+	Comment:	ExitStatus	1|8|16|32|256|512 000 001 -1
+End
+
+Extras:
+	Keywords:	scrivania
+		Descr:
+La scrivania sembra pulita e ben tenuta, un grosso tomo è
+depositato proprio al centro, altri tre sono impilati accanto,
+dietro di loro puoi vedere un quadretto che ritrae due uomini.
+
+End
+Extras:
+	Keywords:	libro
+		Descr:
+Aprendo il libro e sfogliandolo per qualche istante ti rendi
+conto che si tratta di un elenco di interminabile di quelli che
+sono probabilmente gli alunni dell'accademia, file e fili di
+nomi che dicono poco e servono ancora meno. Un indice mostra come
+sono suddivise le camerate...
+
+End
+Extras:
+	Keywords:	indice
+		Descr:
+[yellow]--- Accademia Cavalieri del Drago ---
+
+[red]Cavalieri del Fuoco [white]- Camerata Nord Est
+[mediumblue]Cavalieri dell'Aria [white]- Camerata Nord
+[green]Cavalieri della Terra [white]- Camerata Nord Ovest
+[gray]Cavalieri della Morte [white]- Camerata Sud ovest
+[cyan]Cavalieri del Gelo [white]- Camerata Sud Est[close]
+
+End
+Extras:
+	Keywords:	quadretto
+		Descr:
+Il quadretto ritrae due uomini, ne riconosci uno nel custode cui
+hai tolto le chiavi per arrivare fin qui mentre l'altro è un
+anziano cavaliere dall'aria austera. La figura che non conosci
+indossa una scura armatura verde ed alla cinta porta uno spadone
+da un lato ed un mazzo di chiavi dall'altro...
+
+End
+Extras:
+	Keywords:	libreria
+		Descr:
+Sposti con la mano un po' della polvere millenaria presente sui
+dorsi dei libri, ti rendi conto che si tratta dei tomi che per
+secoli hanno raccolto i nomi degli studenti, ognuno di essi porta
+inciso l'anno di appartenenza in lettere dorate.
+
+End
+Extras:
+	Keywords:	xxvii
+		Descr:
+Scorri per un po' il tomo numerato come XXVII, si tratta di un
+volume molto antico, probabilmente prende polvere nella libreria
+da più di mille anni. Ad un certo punto noti che uno dei nomi è
+stato cancellato, al suo fianco è stato disegnato un piccolo
+fulmine blu accompagnato da una scritta che per te è
+completamente priva di senso... Azkraoth.
+
+End

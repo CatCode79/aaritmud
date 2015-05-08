@@ -1,0 +1,28 @@
+Code: karpuram_item_gambali-frassino
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.HARDWOOD	100
+Sex:	SEX.MALE
+Name:	I [burlywood]Gambali[close] di [burlywood]Frassino[close]
+Short:	un paio di [burlywood]gambali[close] di [burlywood]legno chiaro[close]
+Long:	$N collocati l'uno nell'altro
+
+Descr:
+Due gambali perfettamente identici in ogni loro parte, ricavati da un frassino
+relativamente giovane e forte. Si distingue questo particolare dalla loro
+forma e sostanza. Risultano leggermente più grandi verso la parte finale, che
+va a coprire la caviglia.
+
+DescrTouch:
+Il legno da cui sono stati ricavati questi due gambali non presenta intarsi o
+scalanature, ma è al contempo molto flessibile. Sicuramente la pianta era
+giovane e forte.
+
+Value:	0
+Weight:	350g
+
+WearType:
+   Modes: PART.RIGHT_ANKLE PART.RIGHT_KNEE PART.RIGHT_TIBIA
+   Modes: PART.LEFT_ANKLE PART.LEFT_KNEE PART.LEFT_TIBIA
+End

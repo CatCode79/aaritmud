@@ -1,0 +1,20 @@
+Code: cimitero_item_mucchio-ossa
+Level: 1
+MaxGlobalQuantity:	0
+MaterialPercentages:	MATERIAL.BONE 100%
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+Name:	Un [powderblue]Mucchio[close] d'[powderblue]Ossa[close]
+Short:	un [powderblue]mucchio[close] d'[powderblue]ossa[close]
+Long:	$N sparse
+
+Descr:
+Alcune ossa presumibilmente umanoidi d'un biancore offuscato dal tempo e... l'usura.
+DescrTouch: 
+Alcune ossa presumibilmente umanoidi consunte dal tempo e forse non solo quello...
+DescrSixth:
+Non sono semplicemente state disseppellite, strofinate, consumate, usate per qualcosa che potrebbe non avere alcunché di buono.
+DescrTaste:
+no_send
+
+Weight: 10kg

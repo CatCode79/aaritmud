@@ -1,0 +1,93 @@
+Code: mfdonald_mob_elefante
+Level: 20
+Sex:	SEX.NEUTRAL
+Race:	RACE.MAMMAL elefante
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name: Vanadio Visebio, l'[yellow]Elefante Giallo[close]
+Short: un [yellow]elefante giallo[close]
+Long:	$N infierisce sul [deeppink]modem[close] impugnando un bucciotto fischierino
+
+Descr:
+	Un pachiderma di massiva corporatura, si erge sulle zampe posteriori usando le anteriori
+	per impugnare il bucciotto. Stupore, paura, raccapriccio! Baffi atipici sporgono da
+	sotto le zanne.
+DescrTouch: 
+	Non è consigliabile sfiorare qualcuno intento ad infierire con tanta foga, potresti
+	fare la fine del modem. 
+DescrSmell:
+	Si sente puzza di sudore
+DescrSixth:
+	Un bucciotto sarà anche qualcosa di morbido ma se scagliato con impeto sufficiente
+	rischia di fare male.
+DescrHearing:
+	L'elefante accompagna ogni percossa alla recita delle litanie di tutte le
+	sette congreghe del Nakilen. Solo quando riprende fiato il silenzio è riempito dal
+	fischietto
+
+Weight: 89kg
+Height: 220cm
+
+Extras:
+	Keywords: baffi baffo
+	Descr:
+	Un paio di baffi sbucano da sotto le zanne color ebano. La peculiarità non sta
+	nell'accostamento cromatico quanto nella minuziosa cura con cui i baffi sono incerati
+	a foggia di manubrio.
+End
+Extras:
+	Keywords: bucciotto
+	Descr:
+	Dicesi bucciotto, un fantoccino vestito ordinariamente che serve di trastullo agli
+	infanti. Questo particolare modello dispone di un fastidioso fischietto che entra in
+	funzione solo se è scagliato con forza sufficiente.
+End
+
+Behaviour:
+	LookPlayer:	10
+	LookMob:	60
+	LookItem:	60
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	1
+	LookDirection:	30
+	LookExit:	200
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	30
+	WanderDirection:	1
+	WanderExit:	50
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	30
+	RandomDoInputs: emote spergiura sonoramente e con efficacia sorprendente.
+End
+
+
+BirthDay: 25
+BirthMonth: MONTH.SEVEN
+Age: 33
+
+Strength:	90
+Endurance:	90
+Agility:	90
+Speed:	90
+Intelligence:	90
+Willpower:	90
+Personality:	90
+Luck:	90
+
+MaxLife:	200
+Life:		200
+MaxMana:	200
+Mana:		200
+MaxVigour:	200
+Vigour:		200

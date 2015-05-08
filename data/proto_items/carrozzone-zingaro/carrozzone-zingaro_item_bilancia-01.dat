@@ -1,0 +1,34 @@
+Comment:
+-no idea for DescrSmell, Taste and Hearing...sempre cose metalliche che fan tin tin..mettici pure mano.
+-è possibile...magari anche non per l'apertura dato che è un po'troppo vicina..farla funzionare come bilancia? è ben vero che si può vedere comodamente il peso di ogni item quindi forse è un pochino inutile..
+-nel laboratorio
+
+Code: carrozzone-zingaro_item_bilancia-01
+
+Level:	1
+Entitype: ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.BRASS 100%
+Name:	Una [goldenrod]Bilancia[close]
+Short:	una semplice [goldenrod]bilancina[close]
+Long:	$N sta qui ben tarata.
+
+Descr:
+Una graziosa [goldenrod]bilancia[close] in [goldenrod]ottone[close] a due bracci; i due piattini sono appesi alle estremità tramite sei fini catenelle. Nel basamento ligneo sono deposti, in ordine crescente, svariati [sienna]pesetti[close] cilindrici.
+DescrTouch:
+Con un dito dai un colpetto su uno dei due piattelli facendolo oscillare dolcemente.
+DescrSixth:
+Tanto carina quanto delicata, l'intuito ti suggerisce di non giocarci troppo a meno che tu non voglia vedertela con il proprietario.
+
+Value:	0
+Weight: 120g
+
+Extras:
+   Keywords: pesi pesetti
+Descr:
+Avvicinandoti noti che su ogni cilindretto è inciso a minuscoli caratteri il relativo peso; da 1g a 50g.
+
+End
+
+
+

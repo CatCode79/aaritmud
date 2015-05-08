@@ -1,0 +1,24 @@
+Code: villaggio-zingaro_item_mucchio-carbone
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+MaterialPercentages:	MATERIAL.COAL 100%	
+Name:	Un Mucchio di Carbone Qualsiasi
+Short:	del carbone
+Long:	$N ammassato in un angolo.
+
+Descr:
+Un mucchio di carbone insozza un angolo della stanza, alcuni pezzetti rotolano via di tanto in tanto e in un angolo spunta un manico in legno.
+DescrTouch: 
+Ecco ora ti sei sporcat$o tutte le $hands!!
+
+Value:	0
+Weight: 100kg
+
+Extras:
+	Keywords: manico legno
+	DescrSixth:
+	Intuisci che potrebbe essere una pala.
+End

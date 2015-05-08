@@ -1,0 +1,22 @@
+Code: sky
+
+ItalianKeywords: cielo 
+EnglishKeywords: sky 
+
+Entitype: HELP.GENERIC
+
+Text:
+Quando passeggiando all'aperto in una bella giornata serena, alzerai lo
+sguardo al cielo potresti essere abbagliato dall'astro solare, ma se volgerai
+di notte lo sguardo alla volta celeste potresti ammirare la luna che passa
+maestosa tra milioni di stelle.
+Potresti riconoscere tra quelle stelle alcune delle costellazioni più famose:
+
+[orange]Cigno      [darkcyan]Orsa Minore  [green]Orione   &WDrago   [hotpink]Leo    [darkgreen]Venus   [red]Mars
+[cyan]Cassiopea  &BMercurius    &bUranus   [darkpurple]Corvo   [darkred]Pluto  [yellow]Raptor[close]
+
+Per poter ammirare il cielo il comando da usare è $tsky, ma ricorda che devi
+trovarti in un luogo all'aperto e che non ci devono essere nuvole in cielo.
+
+
+SeeAlso: weather

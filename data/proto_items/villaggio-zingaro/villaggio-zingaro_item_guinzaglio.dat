@@ -1,0 +1,60 @@
+Code: villaggio-zingaro_item_guinzaglio
+
+MaxGlobalQuantity:	0
+Level: 1
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.CLOTH	100%
+Name:
+Un [steelblue]Gui[close][mediumvioletred]nzag[close][steelblue]lio[close] Aggrovigliato
+Short:
+un minuscolo [steelblue]gui[close][mediumvioletred]nzag[close][steelblue]lio[close]
+Long:
+$N è aggrovigliato qui.
+
+Descr:
+Un [steelblue]gui[close][mediumvioletred]nzag[close][steelblue]lio[close] dalle ridicole dimensioni è stato riposto senza troppa 
+cura; la graziosa pettorina è piacevolmente decorata da motivi geometrici con un cartellino appeso.
+DescrTouch: 
+Un delizioso guinzaglio a pettorina con lunghezza regolabile.
+DescrSixth:
+Ti interroghi su quale bestiolina potrebbe entrare in un laccio così piccolo.
+DescrHearing:
+Portando l'orecchio al meccanismo che regola la lunghezza lo senti cigolare sommessamente.
+DescrTaste:
+In modo poco prudente porti alla bocca una delle estremità e ti restano sulla lingua delle scagliette 
+trasparenti a forma ovaleggiante.
+
+Value:	15
+Weight: 210g
+
+Extras:
+	Keywords: scagliette 
+	Descr:
+	Minuscole scagliette trasparenti con finissime venature scure. Assomigliano molto ad alucce di qualche insetto.
+	DescrSixth:
+	Ti anguri che il proprietario abbia un paio d'ali di riserva; mosche al guinzaglio, che idea bizzarra!
+End
+
+Extras:
+	Keywords: cartellino
+	Descr:
+	100% cotone
+	Lavare a secco - Non stirare 
+	Oggetto adatto solo a pixie o esseri di piccole dimensioni.
+	Non si risponde di danni provocati dall'uso improprio dell'oggetto.
+End
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+	Modes: PART.CHEST
+	EntityWearMessage:	Indossi $N regolandolo con cura.
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	$n indossa $N regolandolo con cura.
+	EntityRemoveMessage:	Rimuovi $N sfilandolo dal basso.
+	TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+	OthersRemoveMessage:	$n rimuove $N sfilandolo dal basso.
+End
+
+
+

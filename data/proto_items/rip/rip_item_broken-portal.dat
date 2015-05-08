@@ -1,0 +1,21 @@
+Comment: conveniente negli oggetti rotti l'uso dell'etichetta %material
+Code: rip_item_broken-portal
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.UNKNOWN	100%
+Sex:	SEX.FEMALE
+Name:	Una Piccola [white]Sfera[close] Flebilmente Luminosa
+Short:	una piccola [white]sfera[close] flebilmente luminosa
+
+Long:	$N va via via spegnendosi
+
+Descr:
+Qualcosa di mistico o magico s'è completamente consumato oppure è stato infranto.
+DescrTouch:
+La temperatura è altissima ma al contempo t'irradia una sensazione di freddo.
+DescrSixth:
+Una sensazione impossibile ti pervade subitanea;
+è come se tutto qui si sia espanso a coprire un mistico varco.
+
+Weight: 100g

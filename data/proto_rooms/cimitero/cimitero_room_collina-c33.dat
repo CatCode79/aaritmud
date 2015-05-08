@@ -1,0 +1,45 @@
+Code: cimitero_room_collina-c33
+Sector: SECTOR.HILL
+Name: Sopra la Cascata
+Short: al dirupo
+
+Descr:
+Difficile decidere se è la strada divenuta letto del torrente o se il torrente ti stia semplicemente accompagnando per le tue peregrinazioni. Di certo però poiché il torrente piega a nord e scende un dirupo; sarà difficile seguirlo.
+DescrSmell: 
+La zona collinare è avvolta dagli abbracci languidi dell'odore di spezie e decomposizione.
+Per alcuni tratti si coglie però una scia che rimane la stessa per un certo tratto.
+DescrHearing:
+Il sibilo del vento produce un lugubre suono cupo sostenuto negli effetti lungo le
+lapidi frastagliate.
+
+Extras:
+	Keywords: scia
+	DescrSmell:
+	Lungo il tratto di sentiero che hai appena seguito l'odore più significativo è stato quello di #SMELL.
+End
+
+Extras:
+	Keywords: simboli
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+Width:	6m
+Depth:	6m
+Height: 113m
+
+
+Exits:
+	Direction: DIR.SOUTHEAST
+	Descr: Degli argini bassi accolgono il torrente 
+End

@@ -1,0 +1,35 @@
+Code: opekus_item_porta-sala-armi
+Level: 1
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.METAL	100%
+
+Name:	la porta della sala d'armi
+Short:	una porta metallica
+Long:	$N precariamente poggiata a quel che resta dei cardini
+
+Descr:
+	Una porta in metallo consunta dal tempo e dall'aspetto piuttosto fragile. Quel che
+	resta delle decorazioni sbiadisce sotto la maggiore fantasia usata dalla ruggine
+DescrTouch: 
+	la parte superiore è così compromessa che se ne potrebbero staccare dei pezzi
+	senza grosso sforzo
+Value:	0
+Weight: 57kg
+
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Apri $N usando ambo le $hands.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N usando ambo le $hands.
+	EntityCloseMessage:	Accompagni $N fino a chiuderla.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n accompagna $N fino a chiusura.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE
+End
+
+

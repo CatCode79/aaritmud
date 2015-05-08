@@ -1,0 +1,56 @@
+Code:	accademia-drago_room_083_corridoio-083
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Un Corridoio
+Short:	un corridoio
+	Descr:
+Sei giunto alla fine del corridoio nero, a sud la via è
+chiusa da un muro su cui è posto un arazzo intricatissimo. Ad
+est e Ovest si aprono delle porte.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 0
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	un corridoio
+	Comment:	ExitStatus	0 0 082 -1
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	le camerate [gray]nere[close]
+	Comment:	ExitStatus	1 0 086 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	Ghorm
+	Comment:	ExitStatus	1|8|16|32|256|512 0 088 374
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	le camerate [gray]nere[close]
+	Comment:	ExitStatus	1 0 084 -1
+End
+Extras:
+	Keywords:	arazzo
+		Descr:
+Sembra rappresentare un albero genealogico di draghi neri, sulla
+cima della piramide si trova un certo Ramdfak, probabilmente il
+capostipite di questi possenti animali, scendendo trovi nomi più
+o meno noti, ti stupisci di come si sia riusciti a tenere traccia
+per così tanti anni di una dinastia draghesca.
+
+End
+Extras:
+	Keywords:	ghorm
+		Descr:
+Il piccolo tassello che nell'arazzo rappresenta Ghorm è assai
+lontano dal capostipite, ti rendi conto sempre di più di quanto
+sia antica questa razza. Sembra che questo punto dell'arazzo
+abbia qualcosa di strano... come se dietro vi fosse una leggera
+sporgenza...
+
+End

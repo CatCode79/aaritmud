@@ -1,0 +1,19 @@
+Code: villaggio-zingaro_item_pestello-01
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.MARBLE	100%
+Name:	Un Pestello in Marmo
+Short:	un tozzo pestello
+Long:	$N è qui.
+
+Descr:
+Un corto pestello in marmo con un pomello sull'estremità da impugnare, l'altra è leggermente scalfita ma ben pulita.
+DescrTouch:
+Un pestello in freddo marmo con ruvide scalfitture su una delle estremità.
+DescrSixth:
+Dei segni di usura sul fondo indicano che questo pestello non è nuovo anche se sembra ben tenuto.
+
+Value:	21
+Weight: 500g

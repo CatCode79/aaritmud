@@ -1,0 +1,34 @@
+Code:	karpuram_item_eq-arco-lungo
+
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAPON
+MaterialPercentages:	MATERIAL.WOOD	100
+Sex:	SEX.MALE
+Name:	Un Arco Lungo Ligneo
+Short:	un arco di legno
+Long:	$N usato per la caccia
+
+Descr:
+La sua lunghezza non deve spaventare, un arco maneggevole e preciso come questo
+non teme rivali in campo aperto e può scoccare una freccia a distanza con la
+stessa precisione del suo fratello minore. L'arco è formato da un unico pezzo
+di legno ricavato sicuramente da un tronco raro, presenta due simboli incisi 
+in prossimità dell'aggancio della corda a significare forza e velocità.
+
+
+
+Value:	0
+Weight:	2kg
+
+WeaponType:
+        Category: WEAPON.LONGBOW
+	Damage:	1D5+0
+        Flags: WEAPONFLAG.ONE_HAND 
+End
+
+WearType:
+   Modes: PART.WIELD
+End
+
+

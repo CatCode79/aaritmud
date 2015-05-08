@@ -1,0 +1,16 @@
+Comment: Questa è l'area che gestisce tutta la wilderness, cioè il mondo di Nakilen
+Creators:	Sulfrum
+Code: nakilen
+Name: Il Mondo di Nakilen
+Short: il mondo di Nakilen
+Flags: AREA.DONT_LIST
+Descr:
+Il dominio originatosi da ogni stilla senziente di colui che ha il pelo eternamente arruffato. 
+Color: COLOR.FORESTGREEN
+Level: 5
+RepopTime: 1440
+
+Wild:
+	Height: 512
+	Width: 1024
+End

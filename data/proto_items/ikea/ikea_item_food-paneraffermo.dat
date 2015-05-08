@@ -1,0 +1,65 @@
+Code: ikea_item_food-paneraffermo
+Level: 1
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.FEMALE
+Flags:	FLAG.RANDOMIZABLE
+MaterialPercentages:	MATERIAL.BREAD	100%
+Value:	12
+Name:	Un Forma di Pane Raffermo
+Short:	una forma pane di medie dimensioni
+Long:	Qui giace $N 
+
+Descr:
+Una pagnotta tonda e alta di colore bruno e lievemente spolverata di farina.
+DescrTouch: 
+Se non è pane da guerra nanico (letale se impugnato da un fornaio guerriero esperto) questo pane è vecchio di giorni ed è completamente raffermo.
+DescrSmell:
+Facendo attenzione si nota un lieve sentore di muffa incipiente.
+DescrTaste:
+Nessunissimo: hai assaggiato spugne più saporite. Almeno non sa di muffa.
+
+Weight: 200g
+
+FoodType:
+	Comment:	cibo
+	Animal:	5
+	Vegetable:	95
+	CookingDamage:	5
+	Hours:	1
+	EntityMessage:	Per riuscire a mangiare $N metti a dura prova i tuoi denti.
+	TargetMessage:	Sei stato mangiato da $n: neppure la muffa ti ha salvato.
+	OthersMessage:	$n fa una gran fatica a mangiare $N da quanto è duro.
+End
+
+Behaviour:
+	LookPlayer:	0
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+        RandomDo:	1
+	RandomDoInputs:	emote scricchiola in modo inquietante
+        RandomDoInputs: emote emana un lieve sentore di muffa
+        RandomDoInputs: emote da grande voleva diventare un valoroso pane da guerra nanico
+End
+
+

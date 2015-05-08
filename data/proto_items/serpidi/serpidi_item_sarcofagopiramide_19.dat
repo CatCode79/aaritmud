@@ -1,0 +1,31 @@
+Code:	serpidi_item_sarcofagopiramide_19
+Level:	1
+Entitype: ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.MARBLE	100%
+Name:	Un Sarcofago Piramidale 
+Short:	un sarcofago piramidale 
+Descr: 
+Una piccola piramide.  
+Extras:
+	Keywords:	 simbolo 
+	Descr:
+ \  /  
+  \/  
+  /\ 
+ /  \
+(    ) 
+ \  /  
+  \/ 
+End
+Extras:
+	Keywords:	 sarcofago 
+	Descr:
+Il sarcofago assomiglia ad una piramide in miniatura.La parte superiore può essere sollevata, forse è il coperchio.Su tutti i lati c'è inciso un strano simbolo. 
+End
+Value:	0
+Weight: 80g
+BirthDay: 1
+BirthMonth: MONTH.TEN
+
+
+

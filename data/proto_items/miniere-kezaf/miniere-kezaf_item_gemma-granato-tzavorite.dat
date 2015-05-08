@@ -1,0 +1,24 @@
+Code: miniere-kezaf_item_gemma-granato-tzavorite
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_garnettsavorite.png
+Name:	Un Granato Verde Marcato
+Short:	il [mediumseagreen]verde[close] brillante di una gemma grezza
+Long:	$N affiora dal terreno.
+
+Descr:
+Una gemma di brillante vivacità dagli intensi riflessi verdi pare quasi che brilli di luce propria.
+
+DescrSixth:
+Questa gemma fa parte di una famiglia di pietre molto simili tra loro e che si
+distinguono unicamente per le diverse tonalità di colore: i granati.
+Lavorati opportunamente e con non poca fortuna si riescono ad ottenere gemme
+molto ricercate.
+
+Value:	0
+Weight: 110g
+
+

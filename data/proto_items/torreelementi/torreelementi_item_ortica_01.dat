@@ -1,0 +1,16 @@
+Code: torreelementi_item_ortica_01
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name: Un'[limegreen]Ortica[close]
+Short: un'[limegreen]ortica[close]
+Long:	$N è cresciuta qui
+
+Descr: Una pianticella d'ortica in fiore che oscilla incerta ad ogni movimento d'aria
+DescrTouch: Ahi! Dovevi stare più attent$o!
+DescrSixth: Dal fiore sai che si tratta di un esemplare femminile
+Value:	0
+Weight: 20g
+
+

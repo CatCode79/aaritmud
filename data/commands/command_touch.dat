@@ -1,0 +1,6 @@
+FunName:   command_touch
+Type:      CMDTYPE.INFORMATION
+Trust:     TRUST.PLAYER
+Position:  POSITION.REST
+Flags:     CMDFLAG.GDR CMDFLAG.INTERACT
+MiniHelp:  Permette di sentire col tatto e toccare qualcosa in particolare.

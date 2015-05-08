@@ -1,0 +1,50 @@
+Code:	karpuram_item_eq-arco-ferreo
+
+Level:	3
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAPON
+MaterialPercentages:	MATERIAL.IRON	100
+Sex:	SEX.MALE
+Name:	Un Arco Ferreo
+Short:	uno strano oggetto
+Long:	$N di colore scuro è poggiato qui.
+
+Descr:
+Uno strano oggetto molto simile ad un arco, di fattura pregiata e dal colore
+nero opaco. Presenta un'impugnatura di metallo leggermente più chiara che si
+distingue con facilità dal resto. Il materiale con cui è stato forgiato
+questo arco è di puro ferro. Una serie di strane incisioni si riescono a notare
+in tre punti distinti: una al centro dell'impugnatura e due simmetriche in
+prossimità dei due punti di attacco della stranissima corda che completa questo
+unico oggetto. La corda è tesissima e pur sembrando anch'essa di metallo, appare
+molto flessibile ed elastica.
+
+DescrTouch:
+Al tocco questo arco è gelido e molto solido, la speciale corda che lo
+completa risulta essere molto elastica e leggermente meno fredda.
+
+DescrSixth:
+Ti rendi conto di trovarti difronte ad un oggetto dal potere oscuro e allo
+stesso tempo straordinario. La chiave per poterlo utilizzare risiede nelle
+strane incisioni su di esso.
+
+Extras:
+	Keywords: incisione ghiaccio
+	Descr:
+	Pronunciando e anche solamente pensando alla parola "ghiaccio" l'arco emette
+	un timido suono come di risveglio rilasciando una lieve onda congelante che
+	s'irradia per tutta la sua superficie.
+End
+
+Value:	0
+Weight:	5kg
+
+WeaponType:
+        Category: WEAPON.BOW
+	Damage:	1D4+0
+        Flags: WEAPONFLAG.ONE_HAND 
+End
+
+WearType:
+   Modes: PART.WIELD
+End

@@ -1,0 +1,39 @@
+Code: opekus_item_stele-hint-accesso-cattedrale
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Flags:	FLAG.NO_GET
+MaterialPercentages:	MATERIAL.STONE	100%
+Sex:	SEX.MALE
+Name:	La Stele Decorata
+Short:	una [brown]p[close]ietra [brown]i[close]ncisa
+Long:	C'è $N piantata nel terreno
+
+Descr:
+Una sorta di lapide rozzamente lavorata e scolpita lavorando un masso preesistente.
+
+DescrTouch: 
+Una sorta di rilievo roccioso lavorato rozzamente in cui sono scolpite delle immagini oscure.
+DescrSixth:
+Una pietra infissa nel terreno con delle immagini oscure scolpite. Toccandole probabilmente si ha una
+maggiore possibilità di discernere il loro significato.
+
+Value:	0
+Weight: 436g
+
+Extras:
+	Keywords: immagini oscure immagine oscura oscuro rilievo significato
+	Descr:
+	Diverse scene mostrano in una sequenza degli esseri bipedi che scendono in una fossa accanto ad un lago.
+        Scena dopo scena si vede il livello dell'acqua scendere...
+        Le successive son troppo rovinate.
+	DescrTouch:
+	Diverse scene illustrano in una sequenza degli esseri bipedi che scendono in una fossa accanto ad un lago.
+        Scena dopo scena, il livello dell'acqua è rappresentato sempre più basso come scendesse...
+        Le successive son troppo rovinate.
+	DescrSixth:
+	Diverse scene mostrano in una sequenza degli esseri bipedi che scendono in una fossa accanto ad un lago.
+        Scena dopo scena di vede il livello dell'acqua scendere e rivelare un accesso.
+End
+
+

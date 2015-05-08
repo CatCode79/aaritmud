@@ -1,0 +1,25 @@
+Code: flora_item_mirtillo-rosso-06-pianta_morta
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name: Una Pianta Disseccata
+Short:	una pianta disseccata
+Long:	$N è miseramente china su sé stessa
+
+Descr:
+Un piantina disseccata da tempo.
+
+DescrTouch:
+Una piantina puntuta fragile morta ormai da tempo
+
+
+Value:	0
+Weight: 1kg
+
+ExtractTimeout:
+	Minutes: 10080
+	EntityMessage: Cenere alla cenere, polvere alla povere
+        OthersMessage: Cenere alla cenere, polvere alla povere
+End

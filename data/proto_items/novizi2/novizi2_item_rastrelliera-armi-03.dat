@@ -1,0 +1,28 @@
+Code: novizi2_item_rastrelliera-armi-03
+Level: 1
+MaxGlobalQuantity:	1
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.FEMALE
+Flags:	FLAG.NO_GET FLAG.NO_LOOK_LIST
+MaterialPercentages:	MATERIAL.WOOD	100%
+Name:	La Rastrelliera per Armi Usate
+Short:	la rastrelliera per armi usate
+Long:	$N è qui
+KeywordsShort: rastrelliera usata usate terza
+KeywordsName: rastrelliera usata usate terza
+
+Descr:
+Una rastrelliera... ok un mobilaccio a scaffali, pensato per tutt'altra roba ed usato per le armi.
+
+DescrTouch: 
+Una rastrelliera... ok un mobilaccio a scaffali, pensato per tutt'altra roba ed usato per le armi.
+
+DescrSixth:
+Una rastrelliera... ok un mobilaccio a scaffali, probabile sian finiti i soldi dopo la realizzazione di quella in metallo.
+
+Value:	0
+Weight: 40kg
+
+ContainerType:
+	MaxWeight:	400kg
+End

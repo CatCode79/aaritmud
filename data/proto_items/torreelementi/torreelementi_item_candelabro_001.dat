@@ -1,0 +1,16 @@
+Code: torreelementi_item_candelabro_001
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.METAL	100%
+Name: Un Candelabro a tre bracci
+Short: un candelabro ammaccato
+Long:	$N è posto qui in posizione verticale
+Descr:
+Un candelabro metallico a tre bracci privo di candele, piuttosto pesante
+con impugnatura ergonomica. Tenere lontano dalla portata dei bambini.
+
+Value:	0
+Weight: 1550g
+
+

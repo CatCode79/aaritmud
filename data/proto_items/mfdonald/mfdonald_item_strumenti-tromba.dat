@@ -1,0 +1,33 @@
+Comment: STRUMENTO.AEROFONO
+Code: mfdonald_item_strumenti-tromba
+Level: 1
+Entitype:	ENTITYPE.INSTRUMENT
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.BRASS	100%
+Icon:	icons/instrument/tromba.png
+Name:	Una [darkgoldenrod]Tromba[close] da Studio in [darkgoldenrod]Ottone[close]
+Short:	una [darkgoldenrod]tromba[close]
+Long:	$N è stata posta verticalmente poggiata sulla sua campana
+
+Descr:
+	La classica tromba con i tre pistoncini centrali ben in vista, la campana all'estremità
+	ed un bocchino argentato dall'altra
+DescrTouch: 
+	Ogni tocco è una ditata che resta visibile sullo strumento lucido.
+DescrTaste:
+	La impugni saldamente come fosse una mazza ferrata, la porti alle labbra e ci soffi
+	dentro ottenendo solo uno sbuffo d'aria ma nessun suono.
+
+Value:	0
+Weight: 10g
+
+Extras:
+	Keywords: pistone pistoncino pistoni pistoncini
+	Descr:
+	Tre buffi pulsantoni argentati disposti centralmente al corpo della tromba
+	DescrTouch:
+	Pigiare pistoncini non dà ancora quel senso di onnipotenza che è accompagnato dal
+	suono squillante.
+End
+
+

@@ -1,0 +1,80 @@
+Code:	citta-raminghe_mob_fantasma-le-gemelle
+Level:	3
+Sex:	SEX.FEMALE
+Race:	RACE.HUMAN
+Flags:	FLAG.NO_GET FLAG.NO_REPOP
+Name:	Una Coppia di Gemelle Fantasma
+Short:	una coppia di [yellow]gemelle[close] effimere
+Long:	$N ti attraversa
+
+Descr:
+Due gemelle incorporee, due anime vaganti indistinguibili l'una all'altra, arrivate chissà da dove. 
+Fluttuano nell'aria muovendosi a poca distanza dal suolo. Il loro incedere crea come dei vortici 
+al loro passaggio sollevando ciò che sta loro intorno.
+Le due figure esili indossano entrambe una lunga tunica bianca di stoffa molto leggera e inconsistente. 
+Lunghi capelli [red]fulvi[close] e ricci incorniciano i loro volti pallidi e
+inespressivi. Non indossano calzature e i loro piedi nudi sembrano sfiorare il suolo in modo 
+leggero e silenzioso. 
+
+DescrSmell:
+Avverti un odore molto dolce e leggermente speziato che ti sembra di non aver mai sentito.
+DescrTouch:
+La loro incorporeità rende questo gesto poco significativo e in qualche modo frustrante.
+
+DescrSixth:
+Mentre le osservi muoversi all'unisono intuisci che debbano avere una storia singolare e inquietante, 
+ma in un'altra dimensione che non è questa. Sembra siano alla ricerca di qualcosa che possa riportarle indietro nel tempo,
+in un tempo in cui le cose avrebbero potuto avere una diversa evoluzione.
+
+Remains:	citta-raminghe_mob_le-gemelle
+RemainsNight:	citta-raminghe_mob_le-gemelle
+Weight:	80kg
+Height:	170cm
+
+BirthDay:	1
+BirthMonth:	MONTH.ONE
+Age:	30
+
+MaxLife:	150
+Life:	150
+MaxMana:	100
+Mana:	100
+MaxVigour:	150
+Vigour:	150
+
+Strength:	33
+Endurance:	33
+Agility:	20
+Speed:	15
+Intelligence:	66
+Willpower:	50
+Personality:	50
+Luck:	50
+
+Behaviour:
+	LookPlayer:	20
+	LookMob:	10
+	LookItem:	20
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	TasteAtEntitypesFlags:	ENTITYPE.NONE
+	SmellItem:	5
+	WanderAtSectors: 	SECTOR.HOUSE
+	WanderDirection:	0
+	WanderExit:	30
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	10
+	RandomDoInputs:	emote ti attraversano lasciando in te una sensazione di freddo.
+	RandomDoInputs:	say Ssssssssss...
+	RandomDoInputs:	say C'era un tempo in cui...ma ora è passato.
+	RandomDoInputs:	emote ti passano accanto, ma è come un vento che ti sfiora la pelle del volto.
+End

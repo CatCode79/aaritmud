@@ -1,0 +1,7 @@
+FunName:    command_usedexits
+Type:       CMDTYPE.ADMIN
+Trust:      TRUST.BUILDER
+Position:   POSITION.DEAD
+MiniHelp:   Serve ai Builder principalmente per elencare le stanze che non hanno
+            nessuna uscita, così da scovare qualche stanza dimenticata, anche
+            chiamta stanza-zombie.

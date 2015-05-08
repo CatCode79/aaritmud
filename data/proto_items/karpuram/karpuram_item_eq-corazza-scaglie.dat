@@ -1,0 +1,31 @@
+Code:	karpuram_item_eq-corazza-scaglie
+
+Level:	3
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.IRON	40
+MaterialPercentages:	MATERIAL.BRONZE	40
+MaterialPercentages:	MATERIAL.CLOTH	20
+Sex:	SEX.FEMALE
+Name:	Una Corazza di Scaglie
+Short:	una strana armatura di metallo
+Long:	$N è stata lasciata qui in terra.
+
+Descr:
+Pesante e leggermente arrugginita, non sembra appartenere al popolo di questa
+zona. Presenta un simbolo a forma di stemma nella parte superiore destra che
+non hai ancora mai visto qui. Lo stemma raffigura un volto arcigno di un
+umanoide con orecchie a punta e faccia da cinghiale. La corazza non ha lacci di
+precisione al suo interno e può essere indossata solo da persone corpulente
+e di grossa taglia. Mal rifinita al suo interno manca di alcune scaglie di
+metallo nella parte posteriore sinistra e destra. La protezione da parte di
+questo oggetto non è garantita.
+
+Value:	0
+Weight:	5kg
+
+WearType:
+   Modes: PART.BODY
+End
+
+

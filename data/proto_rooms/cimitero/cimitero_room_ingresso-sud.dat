@@ -1,0 +1,33 @@
+Code: cimitero_room_ingresso-sud
+Sector: SECTOR.RUIN
+Name: L'Ingresso Principale
+Short: l'ingresso
+
+Descr:
+	Due pareti laterali in pietra antica sono state edificate a protezione della leggera
+	scalinata ove ti trovi. Lo scalino più in alto è percorso da grosse crepe originatesi
+	a causa della soprastante cancellata nera; grossi perni in metallo trapassano la pietra
+	da parte a parte proseguendo certo per diverse lunghezze fin nel terreno.
+DescrTouch: 
+	La pietra cede al contatto della tua $hand lasciandoti addosso miseri resti e cupi presagi.
+DescrSmell: 
+	Il vento porta con se l'odore della terra smossa di fresco e qualcosa di marcescente
+DescrSixth:
+	Giacché sei qui potrebbe essere un'idea andare a vedere quale è il posto migliore per
+	farsi seppellire, anche solo per evitare la ressa di quando il fenomeno diverrà modaiolo.
+DescrHearing:
+	Saltuariamente senti i morbidi suoni che accompagnano le vampe dei fuochi fatui.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Verso l'interno
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Via lontano da qui
+  Destination: 8 -1 0 opekus
+End

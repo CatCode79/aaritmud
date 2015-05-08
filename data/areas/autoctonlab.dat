@@ -1,0 +1,28 @@
+Comment:
+	Questo è solo un file temporaneo per avere up il prima possibile la room del laboratorio.
+	Ogni modifica che tu voglia fare è in tua piena libertà
+Creators:	Alessio
+Code: autoctonlab
+Name: Laboratorio di Autocton
+Short: laboratorio di autocton
+Descr:
+	Il laboratorio creativo di Autocton. La fucina con le sue idee; una piccola galassia in espansione
+Color: COLOR.DODGERBLUE blu di stelle fredde e lontane
+Level: 1
+Flags: AREA.DONT_LIST
+RepopTime: 20
+LandfillCode:	autoctonlab_room_laboratorio-01
+
+RoomResets:
+  ProtoRoom:	autoctonlab_room_laboratorio-01
+	Destination:	0 0 0 autoctonlab
+End
+RoomResets:
+  ProtoRoom:	autoctonlab_room_laboratorio-lanterna-01
+	Destination:	0 0 1 autoctonlab
+End
+RoomResets:
+  ProtoRoom:	autoctonlab_room_laboratorio-cunicolo-01
+	Destination:	0 -1 0 autoctonlab
+End
+

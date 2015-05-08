@@ -1,0 +1,50 @@
+Comment:
+-forse sto usando un po' troppo la parola 'narici'.
+-DescrSixth 'che ti fan' è pessimo...urge alternativa.
+-nel laboratorio, nel mobile.
+
+Code: carrozzone-zingaro_item_vasetto-01
+
+Level:	1
+Entitype: ENTITYPE.CONTAINER
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GLASS 94%
+MaterialPercentages:	MATERIAL.CORK 6%
+Name:	Un Vasetto
+Short:	un vasetto trasparente
+Long:	rischi di far cadere $N.
+
+Descr:
+Un anonimo vasetto #self is CONTAINER.CLOSED#chiuso da un tappo di sughero tagliato a misura.#con un tappo di sughero che penzola appeso ad un cordino.#
+Attraverso il vetro vedi $I.
+DescrTouch:
+Toccare a mani nude i vasetti in questi posti...pessima idea, almeno non mettere le dita in bocca poi!
+DescrSmell:
+Un'intensa fragranza di sughero ti permea le narici.
+DescrTaste:
+A chi mai potrebbe venir in mente di leccare un vasetto toccato da non si sa quali luride mani.
+DescrSixth:
+Noti delle piccole imperfezioni sul fondo che ti fan credere sia un prodotto artigianale; forse realizzato dal proprietario stesso.
+
+Value:	0
+Weight: 190g
+
+Extras:
+   Keywords: sughero tappo tagliato
+  DescrSixth:
+  Chi avrà perso il tappo originale?
+End
+
+ContainerType:
+       EntityOpenMessage:	Stappi $N emettendo un piccolo... Bop!
+       TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+       OthersOpenMessage:	$n stappa $N emettendo un piccolo... Bop!
+       EntityCloseMessage:	Faticando non poco riesci a tappare $N.
+       TargetCloseMessage:	Finalmente $n si è degnat$o di chiuderti.
+       OthersCloseMessage:	$n con grande fatica riesce a tappare $N.
+       Flags:	CONTAINER.CLOSED CONTAINER.CLOSABLE
+       MaxWeight: 130g
+End
+
+
+

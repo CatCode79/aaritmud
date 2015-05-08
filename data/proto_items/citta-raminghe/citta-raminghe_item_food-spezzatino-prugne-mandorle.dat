@@ -1,0 +1,26 @@
+Code: citta-raminghe_item_food-spezzatino-prugne-mandorle
+Level: 2
+Entitype: ENTITYPE.FOOD
+MaterialPercentages:	MATERIAL.MEAT	90%
+MaterialPercentages:	MATERIAL.PULP	10%
+Name: Spezzatino alle Prugne e Mandorle
+Short: uno spezzatino alle prugne e mandorle
+Descr: 
+Succulentissima pietanza a base di pollo che viene cotto lentamente insieme alle [magenta]prugne[close].
+DescrTaste: 
+Il sapore è tipicamente agrodolce. E se non bastasse è aromatizzata con [khaki]cannella[close], [orange]zafferano[close] e 
+[yellow]zenzero[close]. 
+DescrSixth: 
+Vigore e forza senza fine.
+
+Value:	0
+Weight: 858g
+
+FoodType:
+	Comment:	cibo
+	Animal:	80
+	Vegetable:	20
+	CookingDamage:	20
+	Hours:	0
+End
+

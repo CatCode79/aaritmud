@@ -1,0 +1,992 @@
+Comment: Cello Phane
+Creators:	Cellogt
+Code: accademia-drago
+Name: Accademia del Drago
+Short: accademia del drago
+Descr:
+	L'accademia del drago possente
+Color: COLOR.DODGERBLUE blu di stelle fredde e lontane
+LandfillCode:	accademia-drago_room_ciarpame
+Level: 1
+RepopTime: 20
+
+RoomResets:
+	ProtoRoom:	accademia-drago_room_000_stanza-raccordo-000
+	Destination:	0 0 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_001_androne-ingresso-001
+	Destination:	5 2 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_002_magica-portineria-002
+	EntityResets:
+		ProtoEntity:	accademia-drago_item_cassetto
+		EntityResets:
+			ProtoEntity:	accademia-drago_item_mazzo-chiavi
+		End
+	End
+	Destination:	6 2 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_003_cortile-pubblico-003
+	Destination:	5 3 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_004_cortile-pubblico-004
+	Destination:	6 3 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_005_cortile-pubblico-005
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cavaliere-apprendista-verde-02
+		EntityResets:
+			WearMode:	 PART.BODY
+			ProtoEntity:	accademia-drago_item_farsetto-cuoio-rinforzato-verde
+		End
+	End
+	EntityResets:
+		ProtoEntity:	accademia-drago_item_spada-ordinanza
+	End
+	Destination:	6 4 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_006_cortile-pubblico-006
+	Destination:	6 5 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_007_cortile-pubblico-007
+	Destination:	5 5 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_008_fontana-008
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cavaliere-apprendista-rosso-02
+		EntityResets:
+			WearMode:	PART.BODY
+			ProtoEntity:	accademia-drago_item_farsetto-cuoio-rinforzato-rosso
+		End
+	End
+
+	EntityResets:
+		ProtoEntity:	accademia-drago_item_spada-ordinanza
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_werr
+	End
+	EntityResets:
+		ProtoEntity:	accademia-drago_item_straccio
+	End
+	Destination:	5 4 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_009_gazebo-009
+	Destination:	4 5 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_010_cortile-pubblico-010
+	Destination:	4 4 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_011_cortile-pubblico-011
+	EntityResets:
+		Type: RESET.PUT
+		ProtoEntity: novizi_item_portale-accademia-drago-ritorno
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_famigliola
+	End
+	Destination:	4 3 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_012_camminamenti-012
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_gargoyle-01
+	End
+	Destination:	6 2 1 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_013_accesso-museo-013
+	Destination:	0 -1 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_014_camminamenti-014
+	Destination:	6 3 1 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_015_alcova-fondatore-015
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_immagine-merisio
+	End
+	Destination:	-2 -1 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_016_camminamenti-016
+	Destination:	6 4 1 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_017_camminamenti-017
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_gargoyle-01
+	End
+	Destination:	6 5 1 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_018_camminamenti-018
+	Destination:	5 5 1 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_019_camminamenti-019
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_immagine-bokrog
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cavaliere-apprendista-nero-01
+		EntityResets:
+			WearMode:	PART.BODY
+			ProtoEntity:	accademia-drago_item_farsetto-cuoio-rinforzato-nero
+		End
+	End
+
+	EntityResets:
+		ProtoEntity:	accademia-drago_item_spada-ordinanza
+	End
+	Destination:	4 5 1 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_020_camminamenti-020
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_immagine-lady-sahas
+	End
+	Destination:	3 5 1 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_021_camminamenti-021
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_gargoyle-01
+	End
+	Destination:	2 5 1 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_022_camminamenti-022
+	Destination:	2 4 1 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_023_laboratorio-oscuro-023
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_immagine-arialko
+	End
+	Destination:	2 -1 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_024_camminamenti-024
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cavaliere-apprendista-verde-01
+		EntityResets:
+			WearMode:	PART.BODY
+			ProtoEntity:	accademia-drago_item_farsetto-cuoio-rinforzato-verde
+		End
+	End
+
+	EntityResets:
+		ProtoEntity:	accademia-drago_item_spada-ordinanza
+	End
+	Destination:	2 3 1 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_025_camminamenti-025
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_gargoyle-01
+	End
+	Destination:	2 1 1 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_026_camminamenti-026
+	Destination:	3 2 1 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_027_camminamenti-027
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cavaliere-apprendista-bianco-01
+		EntityResets:
+			WearMode:	PART.BODY
+			ProtoEntity:	accademia-drago_item_farsetto-cuoio-rinforzato-bianco
+		End
+	End
+
+	EntityResets:
+		ProtoEntity:	accademia-drago_item_spada-ordinanza
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_guardiano
+	End
+	EntityResets:
+		ProtoEntity:	accademia-drago_item_stendardo-cavalieri-drago
+	End
+	Destination:	4 2 1 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_028_camminamenti-028
+	Destination:	5 2 1 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_029_vortice-029
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cavaliere-apprendista-nero-02
+		EntityResets:
+			WearMode:	PART.BODY
+			ProtoEntity:	accademia-drago_item_farsetto-cuoio-rinforzato-nero
+		End
+	End
+
+	EntityResets:
+		ProtoEntity:	accademia-drago_item_spada-ordinanza
+	End
+	Destination:	4 6 1 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_030_camminamenti-030
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cavaliere-apprendista-verde-02
+		EntityResets:
+			WearMode:	PART.BODY
+			ProtoEntity:	accademia-drago_item_farsetto-cuoio-rinforzato-verde
+		End
+	End
+
+	EntityResets:
+		ProtoEntity:	accademia-drago_item_spada-ordinanza
+	End
+	Destination:	4 7 1 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_031_camminamenti-031
+	Destination:	5 7 1 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_032_camminamenti-032
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_gargoyle-01
+	End
+	Destination:	6 7 1 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_033_camminamenti-033
+	Destination:	6 8 1 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_034_caverna-034
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_immagine-grark
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_ragazza
+	End
+	Destination:	2 -3 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_035_camminamenti-035
+	Destination:	6 9 1 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_036_camminamenti-036
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_gargoyle-01
+	End
+	Destination:	6 10 1 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_037_camminamenti-037
+	Destination:	5 10 1 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_038_camminamenti-038
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_guardia-onore-nero
+		EntityResets:
+			WearMode:	PART.BODY
+			ProtoEntity:	accademia-drago_item_farsetto-cuoio-rinforzato-nero
+		End
+	End
+
+	EntityResets:
+		ProtoEntity:	accademia-drago_item_spada-ordinanza
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cavaliere-apprendista-blu-01
+		EntityResets:
+			WearMode:	PART.BODY
+			ProtoEntity:	accademia-drago_item_farsetto-cuoio-rinforzato-blu
+		End
+	End
+
+	EntityResets:
+		ProtoEntity:	accademia-drago_item_spada-ordinanza
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_guardia-onore-rosso
+		EntityResets:
+			WearMode:	PART.BODY
+			ProtoEntity:	accademia-drago_item_farsetto-cuoio-rinforzato-rosso
+		End
+	End
+
+	EntityResets:
+		ProtoEntity:	accademia-drago_item_spada-ordinanza
+	End
+	Destination:	4 10 1 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_039_camminamenti-039
+	Destination:	3 10 1 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_040_camminamenti-040
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_gargoyle-01
+	End
+	Destination:	2 10 1 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_041_camminamenti-041
+	Destination:	2 9 1 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_042_generale-042
+	Destination:	-2 -3 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_043_camminamenti-043
+	Destination:	2 8 1 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_044_camminamenti-044
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_gargoyle-01
+	End
+	Destination:	2 7 1 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_045_camminamenti-045
+	Destination:	3 7 1 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_046_piazza-046
+	Destination:	5 7 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_047_piazza-047
+	Destination:	6 7 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_048_piazza-048
+	Destination:	6 8 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_049_piazza-049
+	Destination:	6 9 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_050_piazza-050
+	Destination:	5 9 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_051_piazza-051
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cavaliere-apprendista-bianco-03
+	End
+	EntityResets:
+		ProtoEntity:	accademia-drago_item_farsetto-cuoio-rinforzato-bianco
+	End
+	EntityResets:
+		ProtoEntity:	accademia-drago_item_spada-ordinanza
+	End
+	Destination:	4 9 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_052_piazza-052
+	Destination:	4 8 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_053_piazza-053
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cavaliere-apprendista-blu-02
+		EntityResets:
+			WearMode:	PART.BODY
+			ProtoEntity:	accademia-drago_item_farsetto-cuoio-rinforzato-blu
+		End
+	End
+
+	EntityResets:
+		ProtoEntity:	accademia-drago_item_spada-ordinanza
+	End
+	Destination:	4 7 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_054_piazza-054
+	Destination:	5 8 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_055_androne-bianco-055
+	Destination:	7 4 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_056_corridoio-056
+	Destination:	8 4 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_057_corridoio-057
+	Destination:	8 3 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_058_ballatoio-058
+	Destination:	3 10 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_059_corridoio-059
+	Destination:	8 2 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_060_camerate-bianche-060
+	Destination:	7 2 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_061_camerate-bianche-061
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cavaliere-apprendista-blu-03
+	End
+	Destination:	7 3 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_062_camerate-bianche-062
+	Destination:	9 3 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_063_camerate-bianche-063
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cavaliere-apprendista-bianco-03
+	End
+	EntityResets:
+		ProtoEntity:	accademia-drago_item_calzino
+		EntityResets:
+			ProtoEntity:	accademia-drago_item_runa-bianca
+		End
+	End
+
+	Destination:	9 2 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_064_torre-della-veggenza-064
+	Destination:	0 -3 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_065_cadendo-065
+	Destination:	5 6 1 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_066_cinque-picchi-066
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_immagine-storm
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_immagine-meghok
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_immagine-seamer
+	End
+	Destination:	0 -2 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_067_androne-passaggio-067
+	Destination:	5 6 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_068_mensa-068
+	Destination:	6 6 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_069_cucine-069
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cuoco
+		EntityResets:
+			ProtoEntity:	accademia-drago_item_chiave-sudicia
+		End
+	End
+
+	Destination:	7 6 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_070_magazzino-070
+	Destination:	7 7 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_071_corridoio-071
+	Destination:	7 8 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_072_corridoio-072
+	Destination:	8 8 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_073_corridoio-073
+	Destination:	9 8 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_074_camerate-rosse-074
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cavaliere-apprendista-rosso-03
+	End
+	Destination:	8 9 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_075_camerate-rosse-075
+	Destination:	9 9 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_076_camerate-rosse-076
+	Destination:	8 7 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_077_Camerate-Rosse-077
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cavaliere-apprendista-rosso-03
+	End
+	Destination:	9 7 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_078_paludi-morte-078
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_immagine-ghorm
+	End
+	Destination:	1 -2 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_079_vulcano-079
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_immagine-lamreloc
+	End
+	Destination:	-1 -2 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_080_androne-080
+	Destination:	3 4 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_081_corridoio-081
+	Destination:	2 4 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_082_corridoio-082
+	Destination:	2 3 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_083_corridoio-083
+	Destination:	2 2 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_084_camerate-084
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cavaliere-apprendista-nero-03
+	End
+	Destination:	1 2 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_085_camerate-085
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cavaliere-apprendista-nero-03
+	End
+	Destination:	3 3 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_086_camerate-086
+	Destination:	3 2 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_087_camerate-087
+	Destination:	1 3 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_088_prigione-guardiano-088
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_scherzo-natura
+		EntityResets:
+			ProtoEntity:	accademia-drago_item_runa-nera
+		End
+	End
+
+	Destination:	2 1 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_089_corridoio-089
+	Destination:	3 8 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_090_corridoio-090
+	Destination:	2 8 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_091_corridoio-091
+	Destination:	1 8 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_092_camerate-verdi-092
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cavaliere-apprendista-verde-03
+	End
+	Destination:	2 7 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_093_camerate-verdi-093
+	Destination:	2 9 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_094_camerate-verdi-094
+	Destination:	1 7 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_095_camerate-verdi-095
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cavaliere-apprendista-verde-03
+	End
+	Destination:	1 9 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_096_androne-096
+	Destination:	5 10 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_00-camerate
+	Destination:	5 12 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_097_corridoio-097
+	Destination:	5 11 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_01-camerate
+	Destination:	4 12 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_098_corridoio-098
+	Destination:	4 11 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	arena-drago_room_02-camerate
+	Destination:	4 10 0 accademia-drago
+End
+RoomResets:
+	ProtoRoom:	accademia-drago_room_099_camerate-099
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cavaliere-apprendista-blu-03
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cavaliere-apprendista-blu-03
+	End
+	Destination:	6 11 0 accademia-drago
+End
+
+RoomResets:
+ 	ProtoRoom: accademia-drago_room_ciarpame
+	Destination:	42 43 42 accademia-drago
+	EntityResets:
+		ProtoEntity:	accademia-drago_item_armatura-pelle-drago
+	End
+
+	EntityResets:
+		ProtoEntity:	accademia-drago_item_calzino
+	End
+
+	EntityResets:
+		ProtoEntity:	accademia-drago_item_cassetto
+	End
+
+	EntityResets:
+		ProtoEntity:	accademia-drago_item_chiave-sudicia
+	End
+
+	EntityResets:
+		ProtoEntity:	accademia-drago_item_farsetto-cuoio-rinforzato-bianco
+	End
+
+	EntityResets:
+		ProtoEntity:	accademia-drago_item_farsetto-cuoio-rinforzato-blu
+	End
+
+	EntityResets:
+		ProtoEntity:	accademia-drago_item_farsetto-cuoio-rinforzato-nero
+	End
+
+	EntityResets:
+		ProtoEntity:	accademia-drago_item_farsetto-cuoio-rinforzato-rosso
+	End
+
+	EntityResets:
+		ProtoEntity:	accademia-drago_item_farsetto-cuoio-rinforzato-verde
+	End
+
+	EntityResets:
+		ProtoEntity:	accademia-drago_item_maniche-drago-rosso
+	End
+
+	EntityResets:
+		ProtoEntity:	accademia-drago_item_maniche-drago-verde
+	End
+
+	EntityResets:
+		ProtoEntity:	accademia-drago_item_mazzo-chiavi
+	End
+
+	EntityResets:
+		ProtoEntity:	accademia-drago_item_runa-bianca
+	End
+
+	EntityResets:
+		ProtoEntity:	accademia-drago_item_runa-nera
+	End
+
+	EntityResets:
+		ProtoEntity:	accademia-drago_item_spada-ordinanza
+	End
+
+	EntityResets:
+		ProtoEntity:	accademia-drago_item_stendardo-cavalieri-drago
+	End
+
+	EntityResets:
+		ProtoEntity:	accademia-drago_item_straccio
+	End
+End
+RoomResets:
+ 	ProtoRoom: accademia-drago_room_zoo
+	Destination:	42 42 42 accademia-drago
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cavaliere-apprendista-bianco-01
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cavaliere-apprendista-bianco-02
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cavaliere-apprendista-bianco-03
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cavaliere-apprendista-blu-01
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cavaliere-apprendista-blu-02
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cavaliere-apprendista-blu-03
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cavaliere-apprendista-nero-01
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cavaliere-apprendista-nero-02
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cavaliere-apprendista-nero-03
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cavaliere-apprendista-rosso-01
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cavaliere-apprendista-rosso-02
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cavaliere-apprendista-rosso-03
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cavaliere-apprendista-verde-01
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cavaliere-apprendista-verde-02
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cavaliere-apprendista-verde-03
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_cuoco
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_famigliola
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_gargoyle-01
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_gargoyle-02
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_gargoyle-03
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_gargoyle-04
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_gargoyle-05
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_gargoyle-06
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_gargoyle-07
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_gargoyle-08
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_guardia-cavaliere-apprendista-bianco
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_guardia-cavaliere-apprendista-blu
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_guardia-cavaliere-apprendista-nero
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_guardia-cavaliere-apprendista-rosso
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_guardia-cavaliere-apprendista-verde
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_guardiano
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_guardia-onore-nero
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_guardia-onore-rosso
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_immagine-arialko
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_immagine-bokrog
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_immagine-ghorm
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_immagine-grark
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_immagine-lady-sahas
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_immagine-lamreloc
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_immagine-meghok
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_immagine-merisio
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_immagine-seamer
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_immagine-storm
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_ragazza
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_scherzo-natura
+	End
+	EntityResets:
+		Quantity:	1
+		ProtoEntity:	accademia-drago_mob_werr
+	End
+End

@@ -1,0 +1,444 @@
+Comment: città fantasma
+Creators:	Sulfrum
+Code: deadcity
+Name: La Città Fantasma
+Short: una città morta
+Descr:
+Diversi anni fa era un'anonima cittadina con anonimi abitanti finché qualcosa o qualcuno li fece sparire tutti nel giro di tre giorni, nessuno sa cosa sia accaduto di preciso. Dopo anni di inutile attesa, ora alcuni commercianti, con l'aiuto di un mago hanno collocato in città alcuni negozi protetti da incantesimi che possono sparire in caso di pericolo tornando nella loro terra d'origine.
+L'accesso alla cittadina si effettua tramite un portale di fiamma che si trova sul perimetro della Torre Elementale.
+Color: COLOR.GRAY
+Level: 5
+RepopTime: 20
+LandfillCode:	deadcity_room_strada-ew
+
+RoomResets:
+	Comment: Piazza centro della città
+	ProtoRoom: deadcity_room_piazza-centrale
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	deadcity_item_sigillo-fluttuante-centro
+	End
+	Destination:	0 0 0 deadcity
+End
+
+RoomResets:
+	Comment: Inizio del RAMO EST della città
+	ProtoRoom: deadcity_room_strada-ew
+	Destination:	1 0 0 deadcity
+End
+RoomResets:
+	Comment: Qui è linkato il NEGOZIO di torrelementi
+	ProtoRoom: deadcity_room_strada-ew_01
+	Destination:	2 0 0 deadcity
+End
+RoomResets:
+	ProtoRoom: deadcity_room_strada-ew
+	Destination:	3 0 0 deadcity
+End
+RoomResets:
+	ProtoRoom: deadcity_room_strada-ew
+	Destination:	4 0 0 deadcity
+End
+RoomResets:
+	ProtoRoom: deadcity_room_strada-ew
+	Destination:	5 0 0 deadcity
+End
+RoomResets:
+	Comment: accesso alla wild lato est
+	ProtoRoom: deadcity_room_strada-e-wild
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: deadcity_item_sigillo-fluttuante-est
+	End
+
+	Destination:	6 0 0 deadcity
+End
+
+
+RoomResets:
+	Comment: Inizio del RAMO OVEST della città
+	ProtoRoom: deadcity_room_strada-ew
+	Destination:	-1 0 0 deadcity
+End
+RoomResets:
+	ProtoRoom: deadcity_room_strada-ew
+	Destination:	-2 0 0 deadcity
+End
+RoomResets:
+	ProtoRoom: deadcity_room_strada-ew
+	Destination:	-3 0 0 deadcity
+End
+RoomResets:
+	ProtoRoom: deadcity_room_strada-ew_02
+	Destination:	-4 0 0 deadcity
+End
+RoomResets:
+	Comment: stradina per la cisterna e il negozio di musica
+	ProtoRoom: deadcity_room_strada-interna_01
+	Destination:	-4 1 0 deadcity
+End
+RoomResets:
+	ProtoRoom: deadcity_room_cisterna
+	Destination:	-4 1 1 deadcity
+End
+RoomResets:
+	ProtoRoom: deadcity_room_negozio-musica
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: deadcity_mob_ur-zij
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: mfdonald_item_strumenti-armonica
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: mfdonald_item_strumenti-ocarina
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: mfdonald_item_strumenti-arpa
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: mfdonald_item_strumenti-tamburo-cornice
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: mfdonald_item_strumenti-siringa
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: mfdonald_item_strumenti-violino
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: mfdonald_item_strumenti-violino-archetto
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: mfdonald_item_strumenti-tromba
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: mfdonald_item_strumenti-pianoforte
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: mfdonald_item_strumenti-liuto
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: mfdonald_item_strumenti-cembalo
+	End
+	EntityResets:
+		Quantity: 2
+		Type: RESET.PUT
+		ProtoEntity: mfdonald_item_strumenti-cembalo-bacchetta
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: mfdonald_item_musica-spartiti
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: mfdonald_item_strumenti-piffero
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: mfdonald_item_strumenti-koto
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: mfdonald_item_strumenti-koto-kototsume
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: mfdonald_item_strumenti-sitar
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: mfdonald_item_strumenti-cornamusa
+	End
+	Destination:	-4 2 0 deadcity
+End
+RoomResets:
+	ProtoRoom: deadcity_room_strada-ew
+	Destination:	-5 0 0 deadcity
+End
+RoomResets:
+	Comment: accesso alla wild lato ovest
+	ProtoRoom: deadcity_room_strada-w-wild
+	Destination:	-6 0 0 deadcity
+End
+
+RoomResets:
+	Comment: RAMO NORD della città
+	ProtoRoom: deadcity_room_strada-ns
+	Destination:	0 1 0 deadcity
+End
+RoomResets:
+	Comment: Qui è linkato il negozio di Karpuram
+	ProtoRoom: deadcity_room_strada-ns_01
+	Destination:	0 2 0 deadcity
+End
+RoomResets:
+	Comment: Qui il negozio abbandonato linkato da (0 2 0)
+	ProtoRoom: deadcity_room_edificio-abbandonato
+	Destination:	1 2 0 deadcity
+End
+RoomResets:
+	ProtoRoom: deadcity_room_strada-ns-curva_01
+	Destination:	0 3 0 deadcity
+End
+RoomResets:
+	ProtoRoom: deadcity_room_strada-ns-curva_00
+	Destination:	1 4 0 deadcity
+End
+RoomResets:
+	ProtoRoom: deadcity_room_cortile_01
+	Destination:	0 4 0 deadcity
+End
+RoomResets:
+	Comment:	negozio vestiario
+	ProtoRoom: deadcity_room_cortile-negozio
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	deadcity_mob_negoziante-druklamar
+		EntityResets:
+			Quantity:	5
+			Type:		RESET.PUT
+			ProtoEntity:	deadcity_item_camicia-bianca
+		End
+		EntityResets:
+			Quantity:	5
+			Type:		RESET.PUT
+			ProtoEntity:	deadcity_item_maglietta-cotone
+		End
+		EntityResets:
+			Quantity:	5
+			Type:		RESET.PUT
+			ProtoEntity:	deadcity_item_mantello-bruno
+		End
+		EntityResets:
+			Quantity:	5
+			Type:		RESET.PUT
+			ProtoEntity:	deadcity_item_nastro-raso
+		End
+		EntityResets:
+			Quantity:	5
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_cappuccio
+		End
+		EntityResets:
+			Quantity:	5
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_cintura
+		End
+		EntityResets:
+			Quantity:	5
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_gonna
+		End
+		EntityResets:
+			Quantity:	5
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_guanti
+		End
+		EntityResets:
+			Quantity:	5
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_pantaloni
+		End
+		EntityResets:
+			Quantity:	5
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_calzamaglia-colorata
+		End
+		EntityResets:
+			Quantity:	5
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_calzamaglia-righe
+		End
+		EntityResets:
+			Quantity:	5
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_calze-lama
+		End
+		EntityResets:
+			Quantity:	5
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_calze-lana
+		End
+		EntityResets:
+			Quantity:	5
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_calze-pelle
+		End
+		EntityResets:
+			Quantity:	5
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_calze-ratto
+		End
+		EntityResets:
+			Quantity:	5
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_calze-seta
+		End
+		EntityResets:
+			Quantity:	5
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_calzino
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	deadcity_item_bancone-negozio-vestiti
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity:	deadcity_item_camicia-bianca
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	deadcity_item_maglietta-cotone
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity:	ikea_item_gonna
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity:	deadcity_item_nastro-raso
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity:	deadcity_item_camicia-bianca
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	deadcity_item_maglietta-cotone
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	deadcity_item_mantello-bruno
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	ikea_item_cappuccio
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity:	ikea_item_cintura
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	ikea_item_guanti
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	ikea_item_pantaloni
+	End
+
+	Destination:	-1 5 0 deadcity
+End
+
+RoomResets:
+	ProtoRoom: deadcity_room_strada-ns-curva_02
+	Destination:	0 5 0 deadcity
+End
+RoomResets:
+	Comment: Zona di accesso nord alla wild
+	ProtoRoom: deadcity_room_strada-n-wild
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: deadcity_item_sigillo-fluttuante-nord
+	End
+	Destination:	0 6 0 deadcity
+End
+
+RoomResets:
+	Comment: Ramo sud della città
+	ProtoRoom: deadcity_room_strada-ns
+	Destination:	0 -1 0 deadcity
+End
+RoomResets:
+	ProtoRoom: deadcity_room_ns-trivio-macelleria
+	Destination:	0 -2 0 deadcity
+	EntityResets:
+		Quantity:	202
+		Type: 	RESET.PUT
+		ProtoEntity: 	ikea_item_food-risotto-vino-cardi
+	End
+End
+RoomResets:
+	ProtoRoom: deadcity_room_negozio-macelleria
+	EntityResets:
+		Quantity:	5
+		Type: 	RESET.PUT
+		ProtoEntity: 	ikea_item_food-risotto-vino-cardi
+	End
+
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	deadcity_mob_negoziante-eufidia
+		EntityResets:
+			Quantity:	5
+			Type: 	RESET.PUT
+			ProtoEntity: 	ikea_item_bistecca
+		End
+	End
+	Destination:	1 -2 0 deadcity
+End
+RoomResets:
+	ProtoRoom: deadcity_room_strada-ns
+	Destination:	0 -3 0 deadcity
+End
+RoomResets:
+	ProtoRoom: deadcity_room_strada-ns
+	Destination:	0 -4 0 deadcity
+End
+RoomResets:
+	ProtoRoom: deadcity_room_strada-ns
+	Destination:	0 -5 0 deadcity
+End
+RoomResets:
+	Comment: Zona di accesso nord alla wild
+	ProtoRoom: deadcity_room_strada-s-wild
+	Destination:	0 -6 0 deadcity
+End

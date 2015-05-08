@@ -1,0 +1,58 @@
+Code: citta-raminghe_item_book-elsa
+Level: 1
+MaxGlobalQuantity:      1
+Entitype:	ENTITYPE.READABLE
+MaterialPercentages:	MATERIAL.LEATHER	10%
+MaterialPercentages:	MATERIAL.PARCHMENT	90%
+Sex:	SEX.MALE
+Name:	Un Manoscritto
+Short:	un piccolo [red]manoscritto[close]
+Long:	$N rovinato dal tempo
+
+Descr:
+Un manoscritto dalle dimensioni minime che le scritte puoi leggerle appena. Che sia antico lo intuisci dalla
+qualità della pergamena e dai segni che il tempo e l'uso vi hanno lasciato.
+DescrTouch:
+Le pagine hanno una superficie ruvida al tatto che non ti infastidisce affatto.
+Value:	0
+Weight: 100g
+
+ReadableType:
+   Title:       Una Spada dal Cuore Tenebroso
+   Author:      Angerfort
+   Summary:
+     La storia di un'arma misteriosa.
+   Language:    LANGUAGE.COMMON
+   Flags:       READABLE.NUMBERS
+   NumberDecorationLeft:        ~-><-~
+   NumberDecorationRight:       ~-><-~
+   VisualWidth: 250px
+   VisualHeight:        350px
+   Padding:     15px
+   BorderTop:   3px outset silver
+   BorderRight: 3px outset silver
+   BorderBottom:        3px outset silver
+   BorderLeft:  3px outset silver
+   BorderInside:        1px solid silver
+   Pages:
+      ***Cuore Tenebroso***
+   Pages:
+      Prode avventuriero se sei giunto sin qui e ti sei potuto accostare a questa spada allora posso dirti dei
+      suoi arcani segreti.
+   Pages:
+       Una spada antica forgiata in tempi remotissimi da un cuore tenebroso di cui  contiene le tracce.
+       Appartenuta a guerrieri valorosi e coraggiosi di nobili origini e creata per farne un uso onorevole.
+       E cosi è stato sempre con il passare dei secoli sino a che giunse un giorno in mani
+       che ne hanno mutato il destino.
+   Pages:
+       Giunto al termine della mia vita di avventuriero, mentre declino canuto insieme al mondo, mi accingo adesso
+       a lasciare su una pergamena conservata in un luogo sacro in testimonianza degli eventi mirabili
+       e tremendi a cui mi accadde di assistere in gioventù, a causa di questa spada dai poteri misteriosi e indicibili.
+   Pages:
+      Che gli dei mi concedano  la grazia di essere testimone trasparente e cronista fedele di quanto
+      allora avvenne in un luogo remoto di cui è pietoso e saggio tacere anche il nome.
+   Pages:
+
+             ***  ***
+               ***
+End

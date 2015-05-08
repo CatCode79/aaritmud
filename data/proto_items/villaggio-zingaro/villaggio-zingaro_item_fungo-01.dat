@@ -1,0 +1,36 @@
+Comment: piccolo cerchiolino di funghi che cresce proprio sotto al pietruzzone..probabilamente aiutato dallo sgocciolamento notturno. L'idea qui è Come quella delle matasse o del cumulo di stracci. Tu raccogli i funghetti dal cerchio te li pappi e muori :P no dai scherzo.
+Questo va nella room 0 del faggeto...all'interno della cupola.
+
+Code: villaggio-zingaro_item_fungo-01
+Icon:	icons/item/imbutella.png
+
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.MUSHROOM 100%	
+Name:
+Una Daedanilea Purpurea
+Short:
+un'imbutella mora
+Long:
+$N è stata raccolta e posata qui.
+
+Descr:
+Un piccolo [gold]f[close][darkmagenta]ung[close][gold]o[close] dall'improbabile colore. Dalla piccola cappella a forma di imbuto, tra le lamelle, spunta un gambo corto e tozzo leggermente sporco di terra all'estremità inferiore. 
+DescrTouch: 
+Ti impiastricci le $hands toccando viscida cappella ricoperta da [gold]escrescenze[close] tondeggianti. 
+DescrSmell: 
+Uhm..l'odore emanato è estremamente insolito per dei funghi, agrumato e resinoso. 
+DescrSixth:
+Intuisci che potrebbe avere delle proprietà benefiche, o più facilmente venefiche.
+DescrHearing:
+Ti pare di sentirlo borbottare, ma probabilmente è solo un'impressione.
+DescrTaste:
+In natura, solitamente, i colori vivaci sono indice di velenosità e pericolo..sei proprio sicur$O di voler rischiare? 
+
+Value:	0
+Weight: 35g
+
+
+
+

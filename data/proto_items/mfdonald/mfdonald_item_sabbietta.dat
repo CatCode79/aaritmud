@@ -1,0 +1,29 @@
+Code: mfdonald_item_sabbietta
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.UNKNOWN	30%
+MaterialPercentages:	MATERIAL.SAND	60%
+MaterialPercentages:	MATERIAL.SLIME	10%
+Name: L$O Famos$O Sabbietta pei Bisognini di Entropy dice che sei stato  cattiv$o
+Short: l$O famos$O sabbietta pei bisognini di Entropy dice che sei stato cattiv$o
+Long:	$N ma intanto se sta buon$O in un angolo tu sei più tranquill$o
+
+Flags: FLAG.NO_GET
+
+Descr:
+Una terribile monticciol$O di escrementi copert$O poco e male con troppa poca sabbietta.
+DescrTouch: 
+Omioddio non lo fare!
+DescrSmell: 
+Beh? Che credevi? Muschio e Menta Piperita? È proprio cacca!
+DescrSixth:
+Il tuo sesto senso ti dice che lo Zio è onnivoro e che dovrebbe evitare il latte al mattino.
+DescrHearing:
+Appoggi l'orecchio per punirlo.
+DescrTaste:
+Qui c'è una telecamera nascosta, il video ti verrà inviato in copia unitamente alla
+richiesta di denaro per non farne divulgare il contenuto.
+
+Value:	0
+Weight: 30g

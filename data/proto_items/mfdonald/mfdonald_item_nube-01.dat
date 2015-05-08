@@ -1,0 +1,54 @@
+Code: mfdonald_item_nube-01
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.DUST	33%
+MaterialPercentages:	MATERIAL.ASH	33%
+MaterialPercentages:	MATERIAL.WATER	34%
+Name:	La Nube Volitiva
+Short:	una nera nube fuligginosa
+Long:	$N aleggia minacciosa
+
+Descr:
+Un turbine di pulviscolo nerastro ti si avvicina con l'intenzione di lasciare il segno.
+DescrTouch: 
+Non è consigliabile toccare una nube fuligginosa.
+DescrSmell: 
+Errhk...
+DescrSixth:
+L'intenzione di lasciare il segno ha grosse probabilità di verificarsi.
+DescrHearing:
+È accompagnata da turbini fischianti e da sibili poco rassicuranti. 
+
+Value:	0
+Weight: 10g
+
+
+Behaviour:
+	LookPlayer:	0
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	10
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+

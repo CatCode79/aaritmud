@@ -1,0 +1,28 @@
+Code:	rip_item_corpse-kensai-female
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CORPSE
+Sex:	SEX.FEMALE
+Race:	RACE.KENSAI
+MaterialPercentages:	MATERIAL.FLESH	100%
+Name:	Una tua Simile Mort$O 
+Short:	un'umana kensai mort$O
+Long:	$N afflosciato qui definitivamente 
+
+Descr:
+I resti mortali e corruttibili di #looker is RACE.KENSAI#una tua simile.#una kensai.#
+
+DescrTouch:
+Il cadavere di #looker is RACE.KENSAI#una tuo simile presenta diverse cicatrici sulla pelle di natura precedente, non legate alla sua attuale morte.##
+
+DescrSixth:
+#looker is RACE.KENSAI#Il corpo di quest'umana dev'essere stato sottoposto a prove durissime.##
+
+DescrSmell:
+#looker is RACE.KENSAI#Avverti un odore salino trasudare dagli abiti e dalla pelle di questo corpo.##
+
+DescrTaste:
+#looker is RACE.KENSAI#Il corpo di quest'uomana è robusto e muscoloso, presenta due cicatrici sul petto molto simili ad un tatuaggio.##
+
+Value:	0
+Weight:	70kg

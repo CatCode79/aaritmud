@@ -1,0 +1,22 @@
+Comment:
+	crisalide viva da ciclo vitale semplice. Qui sarebbe da sostituire random
+	al x% con una crisalide morta per simulare la mortalità tramite muta.
+Code: cimitero_item_crisalide-viva
+Level: 1
+MaxGlobalQuantity: 3
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.BLOOD 60%
+MaterialPercentages:	MATERIAL.ENERGY 20%
+MaterialPercentages:	MATERIAL.UNKNOWN 20%
+Sex:	SEX.FEMALE
+Name:	La [tan]Crisalide[close] di una [tan]Karpuridae[close]
+Short:	una [tan]Crisalide[close] tozza
+Long:	$N attaccata ad un ramo d'albero.
+
+Descr: 
+Un ciuffo peloso di sottilissimo filo bianco nasconde un bozzolotto giallo in cui sta mutando in farfalla un bruco di karpuridae.
+
+Value:	0
+Weight: 10g
+
+

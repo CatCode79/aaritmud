@@ -1,0 +1,43 @@
+Comment: STRUMENTO.CORDOFONO.PIZZICATO
+    - 13 corde
+    - ognuna il suo nome, praticamente i numeri, 1 è quella più lontana
+    - Paulownia Tomentosa-kiri
+    - accordato muovendo i ponticelli, le corde essendo tutte dello stesso spessore ed essendo egualmente teste produrranno note diverse a   seconda della        	posizione dei ponticelli. A seconda di come son disposti i ponticelli l'accordatura prende un nome diverso. Gli "spartiti" che vengono utilizzati     	infatti riposrano i nomi delle corde e non delle note, è quindi indispensabile conoscere il tipo di accordatura.
+    - per suonarlo servono i Kototsume
+    - facciamo qualcosa di prezioso? corde in seta e Ji in avorio? Ji=ponticelli/o non so se sing. o plu.
+
+Code: mfdonald_item_strumenti-koto
+Level: 1
+Entitype:	ENTITYPE.INSTRUMENT
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.TROPICALWOOD	82%
+MaterialPercentages:	MATERIAL.SILK	8%
+MaterialPercentages:	MATERIAL.BONE	10%
+Icon:	icons/instrument/koto.png
+Name:	Un Koto
+Short:	un koto
+Long:	$N è appoggiato su quattro piedini.  
+
+Descr:
+	Un insolito strumento rettangolare in legno chiaro. Le volute cremisi che lo
+	attraversano da parte a parte sembrano voler sostenere i ponticelli sui quali
+	sono tese tredici seriche corde. 
+DescrTouch:
+	Sfiori con una mano la lunga e levigattissima cassa armonica e toccando i ponticelli
+	ti accorgi che possono essere spostati. Complimenti ora toccherà riaccordarlo!
+DescrHearing:
+	Le corde gemono sotto il tocco sgraziato delle tua $hand.
+DescrSixth:
+	Ti rendi conto che suonare a mani nude potrebbe essere piuttosto doloroso a lungo andare. 
+
+Value:	0
+Weight: 800g
+
+Extras:
+	Keywords: ponticelli ponticello riaccordare riaccordarlo 
+	DescrSixth:
+		Il tuo istinto di conservazione suggerisce di non farti notare mentre armeggi con i
+		ponticelli mandando in fumo l'accordatura.
+End
+
+

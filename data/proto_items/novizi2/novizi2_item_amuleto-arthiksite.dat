@@ -1,0 +1,35 @@
+Comment:	amuleto che cambia colore con il tempo atmosferico mettere un miml quando lo avremo...
+Code: novizi2_item_amuleto-arthiksite
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.STONE	100%
+Name:	Un [steelblue]Amuleto[close] di Arthiksite
+Short:	un [steelblue]amuleto[close] con una roccetta 
+Long:	$N infilata in una catenella.
+
+Descr:
+Un [steelblue]sassetto[close] semilavorato in modo da risultare più o meno sferico, è stato forato da parte a parte senza troppa perizia in modo da poter essere infilato.
+DescrTouch: 
+Un sassetto tondeggiante, liscio e levigato su un lato, ruvido e puntuto sull'altro.
+DescrSmell: 
+Ti ricorda vagamente l'odore di una giornata piovosa.
+DescrSixth:
+L'Arthiksite è una pietra nota per i cambiamenti di colore a seconda del tempo atmosferico; blu se il tempo è sereno, vira leggermente sul viola in caso di pioggia, si dice che possa addirittura annerirsi in caso di tempeste particolarmente violente.
+DescrHearing:
+lo scrosciare della pioggia e l'ululare del vento.
+
+Value:	90
+Weight: 10g
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+	Modes:	PART.NECK
+	EntityWearMessage:	Agganci con accortezza $N.
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	$n mette $N al collo.
+	EntityRemoveMessage:	Porti le $hands %part sfili $N.
+	TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+	OthersRemoveMessage:	$n si leva $N sfilandolo.
+End

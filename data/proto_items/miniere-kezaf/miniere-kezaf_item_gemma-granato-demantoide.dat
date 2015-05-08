@@ -1,0 +1,27 @@
+Code: miniere-kezaf_item_gemma-granato-demantoide
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_garnetdemantoid.png
+Name:	Un Granato Demantoide
+Short:	il verde giallino di una gemma grezza 	
+Long:	$N sta qui
+
+Descr:
+La pietra presenta una colorazione verde flebile rivolta al giallo ma la superficie grezza
+ne deprezza particolarmente il colore impedendone il riconoscimento.
+
+DescrSixth:
+Questa gemma fa parte di una famiglia di pietre molto simili tra loro e che si
+distinguono unicamente per le diverse tonalità di colore: i granati.
+Lavorati opportunamente e con non poca fortuna si riescono ad ottenere gemme
+molto ricercate.
+
+Value:	0
+Weight: 200g
+
+
+
+

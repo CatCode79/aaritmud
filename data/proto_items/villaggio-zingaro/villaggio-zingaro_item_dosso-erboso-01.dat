@@ -1,0 +1,29 @@
+Comment: Trasformazione diurna dei lupi...piccoli dossi erbosi. Papà lupo.
+
+Code:	villaggio-zingaro_item_dosso-erboso-01
+
+Level:	1
+Sex:	SEX.MALE
+Flags:	FLAG.REPOP_ONLY_ON_EXTRACT
+MaterialPercentages:	MATERIAL.EARTH	86%
+MaterialPercentages:	MATERIAL.VEGETABLE	14%
+Name:	Un Faolchufar
+Short:	un dosso erboso
+Long:	$N verdeggia radioso.
+
+Descr:
+Sottili fili d'erba ondeggiano sospinti da una leggera brezza; a causa di questo continuo movimento oscillatorio, il dosso sul quale sono spuntati pare fluttuare a pochi centimetri da terra. Un piccolo cespuglietto sulla sommità vanta tondeggianti [darkred]bacche mature[close].
+DescrTouch:
+Passi la $hand tastando il muschio umido cresciuto sulla superficie.
+DescrSmell:
+Puzza, dev'essere appena stato concimato, ma perché poi!?
+
+Value:	0
+Weight: 30kg
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

@@ -1,0 +1,20 @@
+Code: miniere-kezaf_item_gemma-tormalina-gialla
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_tourmalineyellow.png
+Name:	Una [yellow]Tormalina Gialla[close] 
+Short:	una [yellow]gemma[close] grezza
+Long:	$N sta qui
+
+Descr:
+Una scheggia fortemente strutturata e di una trasparenza cristallina bagna di riflessi gialli l'infausta roccia che con scarso successo cerca di contenerla.
+
+Value:	0
+Weight: 170g
+
+
+
+

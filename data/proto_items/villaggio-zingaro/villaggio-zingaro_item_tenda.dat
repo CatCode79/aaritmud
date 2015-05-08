@@ -1,0 +1,39 @@
+Code: villaggio-zingaro_item_tenda
+Level: 1
+MaxGlobalQuantity:	0
+Flags:	FLAG.NO_LOOK_LIST
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.SATIN	100%
+Name:	Una Tenda in Raso
+Short:	una tenda
+Long:	$N drappeggia sinuosa. 
+
+Descr:
+Un'ampia [firebrick]tenda[close] in raso ha perso la sua naturale lucentezza e presenta qualche buco qua e là. Tutto il bordo inferiore e bordato di [gold]nappine[close] spelacchiate che dondolano ad ogni movimento.
+DescrTouch: 
+Passi una $hand sul liscio raso infilando ogni tanto un dito nei buchi che incontri. 
+DescrSmell: 
+Qualcuno deve aver fumato qui vicino dato l'odore.
+DescrSixth:
+Sembra sia stato un oggetto di gran pregio quando era ancora al massimo dello splendore.
+DescrHearing:
+La scuoti producendo un leggero fruscio.
+DescrTaste:
+La tocchi con la punta della lingua che ritrai piena di pelucchi.
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+        Modes: PART.BODY
+        EntityWearMessage:	Avvolgi $N attorno %part e la annodi sopra una spalla a mo' di toga. Ti senti ti senti subito importante ma forse sei solo ridicol$o.
+        TargetWearMessage:	Attento $N, $n ti allaccia sopra la sua spalla.
+        OthersWearMessage:	$n avvolge $N attorno %part allacciandola sopra la spalla e assumendo un aspetto ridicol$o.
+        EntityRemoveMessage:	Slacci $N e la togli.
+        TargetRemoveMessage:	Attento $N, $n ti ha tolto %s.
+        OthersRemoveMessage:	$n slaccia $N e la toglie.
+End
+
+Value:	0
+Weight: 70g
+
+

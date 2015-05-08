@@ -1,0 +1,72 @@
+Code:	arena-drago_mob_gigante
+Level:	03
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Race:	RACE.HUMANOID
+Name:	Un Enorme Gigante
+Short:	un enorme gigante
+Long:	$N ti fissa un solo istante prima di attaccare.
+
+Weight:	200kg
+Height:	100cm
+BirthDay:	29
+BirthMonth:	MONTH.TWO
+Age:	30
+Descr:
+Un enorme gigante
+
+Behaviour:
+	LookPlayer:	0
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+Comment:
+#27701
+2|32|32768|262144|4194304 0 0 A 3
+50 -13 -15 300 1d3+20
+-1 0 25 54
+8 8 4 64 1|2|4|8|32|128|256|512|1024|2048|4096|8192|16384|32768|65536|131072 16
+
+
+
+
+
+
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

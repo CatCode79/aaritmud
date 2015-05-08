@@ -1,0 +1,75 @@
+Code:	arena-drago_mob_karrikko
+Level:	03
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Race:	RACE.TROLL
+Name:	[red]K[gray]arri[red]KK[gray]o[close]
+Short:	un enorme troll
+Long:	$N ti invita ad accettare la sfida dell'arena.
+
+Weight:	1888888880kg
+Height:	100cm
+BirthDay:	29
+BirthMonth:	MONTH.TWO
+Age:	30
+Descr:
+Un  enorme  troll  che sbava e grugnisce... non sembra diverso da
+tutti  quelli  che  hai visto fino ad ora.. proprio per questo ti
+preoccupa  il  fatto che stia brandendo un'enorme mazza mentre ti
+invita ad attaccarlo...
+
+Behaviour:
+	LookPlayer:	0
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+Comment:
+#27702
+2|4|134217728 32768 0 L 3
+51 -14 -15 600 1d3+30
+-1 50000 29 31
+8 8 3 1|2|16|64|131072 4|8|128|256|512|1024|2048|4096|8192|16384|32768|65536 0
+[red]K[close]arri[red]KK[close]o schiaccia te!!! [red]K[close]arri[red]KK[close]o vinceeeeeeee!!
+~
+[red]K[close]arri[red]KK[close]o aspetta! Nessuno a coraggio di sfidare [red]K[close]arri[red]KK[close]o???~
+
+
+
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

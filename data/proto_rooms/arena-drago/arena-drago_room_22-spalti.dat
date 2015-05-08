@@ -1,0 +1,68 @@
+Code:	arena-drago_room_22-spalti
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Gli Spalti
+Short:	gli spalti
+	Descr:
+Camminando sugli spalti vuoti puoi solo immaginare quale sia
+l'effetto che possono avere quando, durante un grosso torneo,
+sono ricolmi di folla urlante pronta ad incitare i suoi eroi, a
+soffrire con loro ed a gioire per le loro vittorie. La vita del
+combattende d'arena è dura e pericolosa, ma il bagno di folla
+ripaga mille volte ogni rischio corso.
+Gli spalti prosegueno ad est e sud.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 1
+Exits:
+	Direction:	DIR.EAST
+	Descr:	gli spalti
+	Comment:	ExitStatus	0 0 27721 -1
+	Destination:	7 6 0 arena-drago
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	gli spalti
+	Comment:	ExitStatus	0 0 27723 -1
+	Destination:	5 4 0 arena-drago
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

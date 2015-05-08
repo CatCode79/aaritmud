@@ -1,0 +1,30 @@
+Comment:	Qui si suggerisce uno specchio che permetta di scorgere ciò che è invisibile.
+
+Code: ikea_item_specchio
+
+Level:	1
+MaxGlobalQuantity: 0
+Entitype: ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.EGG	100
+Sex:	SEX.MALE
+Flags:	FLAG.RANDOMIZABLE
+Name: Uno Specchietto Decorato
+Short:	un grazioso specchietto
+Long:	$N ti invita a specchiarti.
+
+Descr: 
+Uno specchio in metallo composto da tre parti fissate tra loro in modo così preciso da sembrare un
+unico pezzo. La prima parte è composta dal manico, decorato con incisioni elicoidali, seconda ovale, piuttosto semplice son solo un pomellino.
+ad un estremità che sostiene una lucida lastra di vetro.
+DescrTouch:
+Pigi un dito sul vetro lasciandoci un'impronta.
+
+Value:	111
+Weight: 163g
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

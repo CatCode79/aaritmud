@@ -1,0 +1,29 @@
+Code: torreelementi_item_fungo_gabbia_02
+Level: 1
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLES	100%
+Name: Un Cuore di Strega in Bozzo
+Short: un pallottino bianco
+Long:	$N sbuca puntuto
+Descr:
+un fungo ovoidale bianco privo di particolare significatività.
+
+weight: 500g
+
+DescrTouch: 
+morbido ed elastico come un uovo sodo.
+DescrTaste:
+nulla di che tutto sommato.
+DescrSixth:
+hai il vago desiderio di non non voler vedere che cosa farà giunto a maturazione.
+
+FoodType:
+	Comment:	cibo
+	Animal:	80
+	Vegetable:	20
+	CookingDamage:	20
+	Hours:	0
+End
+
+

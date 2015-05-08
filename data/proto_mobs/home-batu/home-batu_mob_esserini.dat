@@ -1,0 +1,101 @@
+Comment: 
+Beh non so se qui voglio commentare..diciamo che puoi pensare questi quando ogni tanto mi vedi sghignazzare tra me e me senza motivo. soprattutto all'esterno..sono degli esserini che si movono in gruppo piccola pallottine spelucchiose tipo i soffioni con 2 esili gambine. Corrono sempre e quando devono andare in discesa ritirano le zampette prendono la forma di un seme di girasole e scivolano. La luce del sole li "alimenta" e li può far svolazzare per un po' se hanno preso abbastanza velocità dopo una discesa. Non si sa da dove vengano ne dove vadano, assomigliano un pochino ai makkurokurosuke ma non sono neri e non hanno occhi visibili e son decisamente più piccoli. Possono correre anche in verticale o a testa in giù, ma non si muovono mai in spazi aperti ma sempre e solo a pochi centimetri dai bordi degli oggetti. Hai presente gli sporangi del muschio? Ecco si mimetizzano così.
+Vabbè, diciamo che ci giocavo da piccola (6-7), li vedevo sempre quando ero da mia nonna poi hanno cominciato a prendere una forma sempre più definita ecaratteristiche particolari e sono riuscita a trasportarli anche altrove. Nel prato della malga sembra che abbiano trovato il loro ambiente ideale.
+Code:	home-batu_mob_esserini
+Level:	1
+Sex:	SEX.MALE
+Race:	RACE.MONSTER
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Un Branco di Esserini Senza Nome
+Short:	un flusso di esserini senza nome
+Long:	$N scaturito da una mente malata.
+
+Descr:
+Una moltitudine di esserini corre lungo le pareti senza sosta. Due esili e 
+sproporzionate gambine fuoriescono dal corpo ricoperto da qualcosa di molto simile ai pelucchi 
+di tarassaco. Alcuni, lambiti da un [gold]raggio[close] di [gold]sole[close] 
+sembrano accelerare e librarsi in aria per qualche secondo.
+DescrNight:
+Un lento movimento, come lo scorrere placido di un fiume, attira il tuo 
+sguardo ma non c'è abbastanza luce per capire esattamente di che si tratti.
+DescrTouch:
+Allunghi le $hands per acciuffarne qualcuno ma appena ti avvicini scompaiono nel nulla.
+DescrTouchNight:
+Allunghi una $hand come per immergerla in questo flusso indistinto ma appena ti avvicini si dissolve.
+DescrSmell:
+Mughetto, carta, fanghiglia, gigantesco lecca-lecca colorato; ogni volta 
+che tenti di annusarli, l'odore cambia repentinamente. 
+DescrTaste:
+Ti servirebbe come minimo una lingua da camaleonte per riuscire anche solo ad assaggiarne uno.
+DescrTasteNight:
+Srotoli una lingua da far invidia a qualsiasi petulante unicorno rosa...
+o azzurro; grazie alla scarsa visibilità però riesci solo ripulire una considerevole 
+parte del pavimento che evidentemente non vedeva una scopa da tempo.
+DescrHearing:
+Un acuto mormorio di leva di tanto in tanto per poi scomparire come un'onda che si ritira sul bagnasciuga.
+DescrSixth:
+Sembrano non finire mai, come ci fosse una fonte inesauribile che li genera.
+
+Weight: 1g
+Height: 2cm
+
+Extras:
+       Keywords: sole raggio 
+       Descr: Appena vengono colpite dalla luce del sole queste creaturine ritraggono 
+       le zampe e assumendo una forma aerodinamica e sfrecciano veloci superando i compagni in ombra. 
+       DescrSixth:
+       Sei incredibilmente incuriosito dal modo un cui reagiscono alla luce, o forse al calore, 
+       sembra quasi che si accenda un motorino al loro interno. 
+End
+
+BirthDay: 9
+BirthMonth: MONTH.SIX
+Age: 251
+
+
+Behaviour:
+       LookPlayer:	0
+       LookMob:	0
+       LookItem:	0
+       LookAtRacesFlags:	RACE.NONE
+       LookAtRaces:	0
+       LookAtEntitypesFlags:	ENTITYPE.NONE
+       LookAtEntitypes:	0
+       LookSelf:	0
+       LookDirection:	0
+       LookExit:	0
+       LookWall:	0
+       LookClosedDoor: 0
+       LookExtra:	0
+       WanderDirection:	0
+       WanderExit:	0
+       WanderWall:	0
+       WanderClosedDoor:	0
+       WanderAtExitsFlags:	DIR.NONE
+       WanderAtExits:	0
+       WanderArea:	0
+       WanderPortal:	0
+       WanderEnterContainer:	0
+       WanderExitContainer:	0
+       WanderSelf:	0
+       RandomDo:	10
+       RandomDoInputs:	say bigri bigri bigri
+       RandomDoInputs:	emote permea l'ambiente espandendosi con ritmiche oscillazioni.
+       RandomDoInputs:	emote si ritrae di scatto come un'anemone appena sfiorata. 	
+End
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

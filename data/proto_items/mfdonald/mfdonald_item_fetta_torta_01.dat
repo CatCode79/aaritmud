@@ -1,0 +1,25 @@
+Code: mfdonald_item_fetta_torta_01
+Level: 1
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.FLOUR	67%
+MaterialPercentages:	MATERIAL.SEED	3%
+MaterialPercentages:	MATERIAL.BUTTER	10%
+MaterialPercentages:	MATERIAL.SUGAR	10%
+MaterialPercentages:	MATERIAL.EGG	10%
+Name: Una Fetta di Mohnkuchen 
+Short: una fettina di torta con semini
+Descr: Un piccola e molto calorica fetta di torta con semi di papavero
+Value:	0
+Weight: 130g
+
+
+FoodType:
+	Comment:	cibo
+	Animal:	80
+	Vegetable:	20
+	CookingDamage:	20
+	Hours:	0
+End
+
+

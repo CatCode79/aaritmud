@@ -1,0 +1,40 @@
+Code: cimitero_room_collina-a06
+Sector: SECTOR.HILL
+Name: La Collina dei Decaduti
+Short: un trivio nel sentiero
+
+Descr:
+Uno scomodo e stretto sentiero lungo la collina; verso est si scende a ridosso
+del versante orientale passando al di sotto di alcuni edifici diroccati. Ad ovest si
+apre una strettoia che s'insinua nella frattura di un muricciolo ed a sud si gira
+attorno ad un alto spuntone di roccia. 
+DescrSmell: 
+La zona collinare è avvolta dagli abbracci languidi dell'odore di spezie e decomposizione.
+Per alcuni tratti si coglie però una scia che rimane la stessa per un certo tratto.
+DescrHearing:
+Il sibilo del vento produce un lugubre suono cupo sostenuto negli effetti lungo le
+lapidi frastagliate.
+
+Extras:
+	Keywords: scia
+	DescrSmell:
+	Lungo il tratto di sentiero che hai appena seguito aleggia l'odore di aglio selvatico.
+End
+
+Width:	6m
+Depth:	6m
+Height: 113m
+
+
+Exits:
+	Direction: DIR.SOUTH
+	Descr: Uno spuntone di roccia nera
+End
+Exits:
+	Direction: DIR.EAST
+	Descr: Discesa lungo il versante est
+End
+Exits:
+	Direction: DIR.NORTHWEST
+	Descr: Oltre una frattura del muricciolo
+End

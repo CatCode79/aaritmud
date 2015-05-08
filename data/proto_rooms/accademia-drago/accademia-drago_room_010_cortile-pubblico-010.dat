@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_010_cortile-pubblico-010
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il Cortile Pubblico
+Short:	il cortile pubblico
+	Descr:
+Passeggi per il cortile dell'accademia guardandoti intorno, le
+aiuole ti mettono addosso un senso di pace e tranquillità, da
+dove ti trovi ora lasci spaziare lo sguardo a destra e a manca e
+puoi osservare a nord-ovest una struttura che si eleva sopra il
+livello delle altre, a prima vista sembrerebbe una roccaforte. A
+nord-ovest vedi invece una torre che si innalza dietro la
+struttura dell'accademia mentre dietro di essa scorgi una grossa
+sagoma di mura basse... non hai idea di cosa possa essere...
+Più vicino a te, verso ovest, un arco si apre nella struttura
+che circonda il cortile e si addentra in un piccolo androne.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 2
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	il gazebo
+	Comment:	ExitStatus	0 0 009 -1
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	la fontana
+	Comment:	ExitStatus	0 0 008 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	il cortile pubblico
+	Comment:	ExitStatus	0 0 011 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	l'androne [gray]nero[close]
+	Comment:	ExitStatus	0 0 080 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

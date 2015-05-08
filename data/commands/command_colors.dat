@@ -1,0 +1,5 @@
+FunName:     command_colors
+Type:        CMDTYPE.INFORMATION
+Trust:       TRUST.PLAYER
+Position:    POSITION.DEAD
+MiniHelp:    Serve per aprire la pagina con la lista dei colori disponibili.

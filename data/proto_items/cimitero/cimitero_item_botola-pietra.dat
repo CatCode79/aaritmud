@@ -1,0 +1,54 @@
+Code: cimitero_item_botola-pietra
+Level: 1
+Entitype:	ENTITYPE.DOOR
+MaterialPercentages:	MATERIAL.QUARTZ 100%
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+Name:	Il Sacro Sigillo
+Short:	un pietrone 
+Long:	$N enorme e pesante
+
+Descr:
+	Un enorme pietrone tondeggiante dalla sommità piatta reca incisi a spirale simboli
+	arcani che s'intrecciano vicendevoli.
+DescrTouch: 
+	I simboli incisi sulla nuda pietra sono incavati e riempiti dalla polvere.
+DescrSixth:
+	Anche senza conoscere la simbologia arcana non risulta un invito a sollevare la pietra
+	ed entrare in esplorazione.
+DescrHearing:
+	Nessun rumore proviene dalla pietra.
+
+Value:	0
+Weight: 150kg
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Sollevi $N usando tutta la forza di cui disponi.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n con tutta la sua forza solleva $N rivelando un passaggio.
+	EntityCloseMessage:	Accompagni $N facendo attenzione a non rimetterci una $hand.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n accompagna $N in posizione orizzontale a richiudere l'accesso.
+	DestinationOpenMessage:	$N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto senza che nessuno ci rimetta le dita.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE
+End
+
+Extras:
+	Keywords: simboli
+	Descr:
+		Questi sono i simboli che riesci a distinguere:
+		<pre class="asciiart">
+                                                                  
+.                                                                 |
+|     '          '  _ _  '      ,'      .',      ,' |_ _   '     |
+| (~) | |~)  |~) | |_)_) |  |~)  | \/ \/  |   ---  | |_)_)_ | (~) |
+|  /    |    |     |        |      (, (,      (_,              /  |
+.                                                                 |
+		</pre>
+		Gli altri non sai dire se sono decorazioni o altro.
+End
+
+

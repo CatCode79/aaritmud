@@ -1,0 +1,6 @@
+FunName:    command_list
+Type:       CMDTYPE.ITEM
+Trust:      TRUST.PLAYER
+Position:   POSITION.REST
+Flags:      CMDFLAG.INTERACT CMDFLAG.GDR
+MiniHelp:   Mostra gli oggetti che il venditore ti puo vendere.

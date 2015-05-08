@@ -1,0 +1,18 @@
+Code: repair
+
+ItalianKeywords: ripara
+EnglishKeywords: repair
+
+Entitype: HELP.ITEM
+
+Text:
+Il comando $trepair ti consente di riparare l'equipaggiamento e le armi andando
+da un fabbro, o di ricaricare bastoni e bacchette negli empori magici.
+L'oggetto da riparare deve trovarsi nel tuo inventario.
+Se scrivi $trepair [darkgreen]tutto[close] proverai a far riparare tutti gli oggetti che si
+trovano nel tuo inventario.
+
+C'e' una sovratassa del 10% per l'uso di $trepair [darkgreen]tutto[close].
+
+
+SeeAlso: buy sell list

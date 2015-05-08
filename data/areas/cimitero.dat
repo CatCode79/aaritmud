@@ -1,0 +1,731 @@
+Comment:
+	Questa vorrebbe essere un'area cangiante più delle altre. In senso strettamente classico è animata di giorno da cose tenerose e rompipalle come potrebbero essere i rugmet. Poi di notte diviene paurosa e pericolosa in cui i rugmet notturni sono più stronzi forti ed aggressivi
+Creators:	Sulfrum
+Code: cimitero
+Name: Il Cimitero
+Short: un vecchio cimitero
+Descr:
+Il cimitero è collocato a nordest della Torre Elementale ed è il luogo in cui si rinnova periodicamente il lutto dell'estinta famiglia Akelay. Pietosi avventurieri in cerca di redenzione si aggirano per il cimitero nel tentativo di lenire le ferite aperte degli Akelay.
+Color: COLOR.DODGERBLUE blu di stelle fredde e lontane
+Level: 1
+RepopTime: 20
+LandfillCode:	cimitero_room_tempietto-inside-01
+
+
+RoomResets:
+	Comment: accesso principale
+	ProtoRoom: cimitero_room_ingresso-sud
+	Destination:	0 0 0 cimitero
+End
+RoomResets:
+	Comment: tempietto e dintorni
+	ProtoRoom: cimitero_room_tempietto-outside-s
+	Destination:	0 1 0 cimitero
+End
+RoomResets:
+	Comment: tempietto e dintorni
+	ProtoRoom: cimitero_room_tempietto-outside-n
+	Destination:	0 3 0 cimitero
+End
+RoomResets:
+	Comment: tempietto e dintorni
+	ProtoRoom: cimitero_room_tempietto-outside-e
+	Destination:	1 2 0 cimitero
+End
+RoomResets:
+	Comment: tempietto e dintorni
+	ProtoRoom: cimitero_room_tempietto-outside-w
+	Destination:	-1 2 0 cimitero
+End
+RoomResets:
+	Comment: (la botola è sull'uscita down)
+	ProtoRoom: cimitero_room_tempietto-inside-00
+	Destination:	0 2 0 cimitero
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	cimitero_item_menhir-vita
+	End
+End
+
+RoomResets:
+	Comment: (accesso alla zona conflitti by Sophie)
+	ProtoRoom: cimitero_room_tempietto-inside-01-accesso-caverna
+	Destination:	0 1 -1 cimitero
+End
+
+RoomResets:
+	Comment: tempietto e dintorni
+	ProtoRoom: cimitero_room_tempietto-outside-ne
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: cimitero_item_cipresso-01
+	End
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	cimitero_mob_zombie-01
+	End
+	Destination:	1 3 0 cimitero
+End
+RoomResets:
+	Comment: tempietto e dintorni
+	ProtoRoom: cimitero_room_tempietto-outside-nw
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: cimitero_item_cipresso-01
+	End
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	cimitero_mob_zombie-01
+	End
+	Destination:	-1 3 0 cimitero
+End
+RoomResets:
+	Comment: tempietto e dintorni
+	ProtoRoom: cimitero_room_tempietto-outside-se
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: cimitero_item_cipresso-01
+	End
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	cimitero_mob_zombie-01
+	End
+	Destination:	1 1 0 cimitero
+End
+RoomResets:
+	Comment: tempietto e dintorni
+	ProtoRoom: cimitero_room_tempietto-outside-sw
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: cimitero_item_cipresso-01
+	End
+	Destination:	-1 1 0 cimitero
+End
+
+RoomResets:
+	Comment: l'ossario (incrocio)
+	ProtoRoom: cimitero_room_tempietto-inside-01
+	Destination:	0 2 -1 cimitero
+End
+RoomResets:
+	Comment: l'ossario (ingresso)
+	ProtoRoom: cimitero_room_tempietto-inside-01-frana
+	Destination:	0 3 -1 cimitero
+End
+
+
+RoomResets:
+	Comment: LA COLLINA (parte est del cimitero)
+	ProtoRoom: cimitero_room_collina-a01
+	Destination:	2 2 0 cimitero
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: cimitero_item_cespuglio-rotolante-fake
+	End
+End
+RoomResets:
+	Comment: collina sentiero aaa
+	ProtoRoom: cimitero_room_collina-a02
+	Destination:	2 1 0 cimitero
+End
+RoomResets:
+	Comment: collina sentiero aaa
+	ProtoRoom: cimitero_room_collina-a03
+	Destination:	3 0 0 cimitero
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	cimitero_mob_scheletro-human-01
+	End
+End
+RoomResets:
+	Comment: collina tomba ingresso
+	ProtoRoom: cimitero_room_collina-tomba-urkim-a01
+	Destination:	3 0 -1 cimitero
+End
+RoomResets:
+	Comment: collina tomba urkim
+	ProtoRoom: cimitero_room_collina-tomba-urkim-a02
+	Destination:	4 0 -1 cimitero
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:		cimitero_mob_demone-urkim
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:		cimitero_item_chiave-urna-urkim
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:		cimitero_item_urna-urkim
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	cimitero_item_ceneri-urkim
+		End
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	cimitero_item_sigillo-urkim
+		End
+	End
+End
+RoomResets:
+	Comment: collina tomba ingresso
+	ProtoRoom: cimitero_room_collina-tomba-urkim-a03
+	Destination:	3 -1 -1 cimitero
+End
+RoomResets:
+	Comment: collina tomba ingresso
+	ProtoRoom: cimitero_room_collina-tomba-urkim-a04
+	Destination:	3 -2 -1 cimitero
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	cimitero_item_chiave-sarcofago-mirna
+	End
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	cimitero_item_sarcofago-mirna
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	cimitero_mob_demone-mirna
+		End
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	cimitero_item_scheletro-mirna
+			EntityResets:
+				Quantity:	1
+				WearMode:	PART.LEFT_WRIST
+				Type:		RESET.PUT
+				ProtoEntity:	cimitero_item_bracciale-mirna
+			End
+		End
+	End
+End
+RoomResets:
+	Comment: collina sentiero aaa
+	ProtoRoom: cimitero_room_collina-a04
+	Destination:	4 -1 0 cimitero
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	cimitero_item_mazzolino-carta
+	End
+End
+RoomResets:
+	Comment: collina sentiero aaa
+	ProtoRoom: cimitero_room_collina-a05
+	Destination:	5 -1 0 cimitero
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: cimitero_item_lapide-levigata-01
+	End
+End
+RoomResets:
+	Comment: collina sentiero aaa
+	ProtoRoom: cimitero_room_collina-a06
+	Destination:	6 -2 0 cimitero
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: cimitero_item_cespuglio-rotolante-genuine
+	End
+End
+RoomResets:
+	Comment: collina sentiero aaa
+	ProtoRoom: cimitero_room_collina-a07
+	Destination:	6 -3 0 cimitero
+End
+RoomResets:
+	Comment: collina sentiero aaa
+	ProtoRoom: cimitero_room_collina-a08
+	Destination:	5 -4 0 cimitero
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: cimitero_item_lapide_nera
+	End
+End
+RoomResets:
+	Comment: collina sentiero aaa
+	ProtoRoom: cimitero_room_collina-a09
+	Destination:	4 -4 0 cimitero
+End
+RoomResets:
+	Comment: collina sentiero aaa
+	ProtoRoom: cimitero_room_collina-a10
+	Destination:	3 -3 0 cimitero
+End
+RoomResets:
+	Comment: collina sentiero aaa
+	ProtoRoom: cimitero_room_collina-a11
+	Destination:	3 -2 0 cimitero
+End
+RoomResets:
+	Comment: collina sentiero aaa
+	ProtoRoom: cimitero_room_collina-a12
+	Destination:	4 -2 0 cimitero
+End
+RoomResets:
+	Comment: collina sentiero aaa
+	ProtoRoom: cimitero_room_collina-a13
+	Destination:	5 -3 0 cimitero
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: cimitero_item_teca-chrysantha
+		EntityResets:
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity: cimitero_item_cadavere-chrysantha
+		End
+		EntityResets:
+			Quantity: 5
+			Type: RESET.PUT
+			ProtoEntity: cimitero_item_polvere-chrysantha
+		End
+		EntityResets:
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity: cimitero_item_crisalide-chrysantha
+		End
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: cimitero_item_crisalide-chrysantha
+	End
+End
+
+
+
+RoomResets:
+	Comment: collina sentiero della zona bbb ove ci dovrebbe essere il cofanetto
+	ProtoRoom: cimitero_room_collina-b14
+	Destination:	3 3 0 cimitero
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	cimitero_mob_scheletro-human-01
+	End
+End
+
+RoomResets:
+	Comment: collina sentiero - zona cofanetto
+	ProtoRoom: cimitero_room_collina-b15
+	Destination:	4 4 0 cimitero
+End
+RoomResets:
+	Comment: collina sentiero - zona cofanetto
+	ProtoRoom: cimitero_room_collina-b16
+	Destination:	5 4 0 cimitero
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: cimitero_item_lapide_muffa
+	End
+End
+RoomResets:
+	Comment: collina sentiero - zona cofanetto
+	ProtoRoom: cimitero_room_collina-b17
+	Destination:	6 3 0 cimitero
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	cimitero_mob_scheletro-human-01
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: cimitero_item_lapide_levigata
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: cimitero_item_cespuglio-rotolante-genuine
+	End
+End
+RoomResets:
+	Comment: collina sentiero - zona cofanetto
+	ProtoRoom: cimitero_room_collina-b18
+	Destination:	7 2 0 cimitero
+End
+RoomResets:
+	Comment: collina sentiero - zona cofanetto
+	ProtoRoom: cimitero_room_collina-b19
+	Destination:	7 1 0 cimitero
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: cimitero_item_cespuglio-rotolante-fake
+	End
+End
+RoomResets:
+	Comment: collina sentiero - zona cofanetto
+	ProtoRoom: cimitero_room_collina-b20
+	Destination:	6 0 0 cimitero
+End
+RoomResets:
+	Comment: collina sentiero - zona cofanetto
+	ProtoRoom: cimitero_room_collina-b21
+	Destination:	5 0 0 cimitero
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: cimitero_item_lapide_orizzontale
+	End
+End
+RoomResets:
+	Comment: collina sentiero - zona cofanetto
+	ProtoRoom: cimitero_room_collina-b22
+	Destination:	4 1 0 cimitero
+End
+RoomResets:
+	Comment: collina sentiero - zona cofanetto
+	ProtoRoom: cimitero_room_collina-b23
+	Destination:	4 2 0 cimitero
+End
+RoomResets:
+	Comment: collina sentiero - zona cofanetto
+	ProtoRoom: cimitero_room_collina-b24
+	Destination:	5 2 0 cimitero
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	cimitero_mob_scheletro-elven-01
+	End
+End
+
+RoomResets:
+	Comment: Collina - Zona ccc - corso del fiume da deviare (room default)
+	ProtoRoom: cimitero_room_collina-c25
+	Destination:	7 -2 0 cimitero
+End
+
+RoomResets:
+	Comment: collina sentiero ccc
+	ProtoRoom: cimitero_room_collina-c26
+	Destination:	8 -1 0 cimitero
+End
+RoomResets:
+	Comment: collina sentiero ccc
+	ProtoRoom: cimitero_room_collina-c-interno-palazzo
+	Destination:	9 -1 0 cimitero
+End
+RoomResets:
+	Comment: collina sentiero ccc
+	ProtoRoom: cimitero_room_collina-c27
+	Destination:	8 0 0 cimitero
+End
+RoomResets:
+	Comment: collina sentiero ccc
+	ProtoRoom: cimitero_room_collina-c28
+	Destination:	9 1 0 cimitero
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: cimitero_item_lapide_rotta
+	End
+End
+RoomResets:
+	Comment: collina sentiero ccc
+	ProtoRoom: cimitero_room_collina-c29
+	Destination:	9 2 0 cimitero
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: cimitero_item_cespuglio-rotolante-fake
+	End
+End
+RoomResets:
+	Comment: collina sentiero ccc
+	ProtoRoom: cimitero_room_collina-c30
+	Destination:	8 3 0 cimitero
+End
+
+RoomResets:
+	Comment: trivio del torrente
+	ProtoRoom: cimitero_room_collina-c31
+	Destination:	8 4 0 cimitero
+End
+RoomResets:
+	Comment: corso nuovo torrente
+	ProtoRoom: cimitero_room_collina-c32
+	Destination:	7 4 0 cimitero
+End
+RoomResets:
+	Comment: corso nuovo torrente
+	ProtoRoom: cimitero_room_collina-c33
+	Destination:	6 5 0 cimitero
+End
+
+RoomResets:
+	Comment: antico corso torrente
+	ProtoRoom: cimitero_room_collina-c35
+	Destination:	9 5 0 cimitero
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: cimitero_item_fontana_vuota
+	End
+End
+RoomResets:
+	Comment: antico corso torrente
+	ProtoRoom: cimitero_room_collina-c36
+	Destination:	9 4 0 cimitero
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: cimitero_item_cespuglio-rotolante-genuine
+	End
+End
+RoomResets:
+	Comment: antico corso torrente
+	ProtoRoom: cimitero_room_collina-c37
+	Destination:	10 3 0 cimitero
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	cimitero_mob_scheletro-elven-01
+	End
+End
+RoomResets:
+	Comment: antico corso torrente
+	ProtoRoom: cimitero_room_collina-c38
+	Destination:	11 3 0 cimitero
+End
+
+
+RoomResets:
+	Hour:	1
+	Comment: Collina - Zona ccc - corso del fiume da deviare (room reset ore 1 prequest)
+	ProtoRoom: cimitero_room_collina-c31
+	Destination:	8 4 0 cimitero
+End
+RoomResets:
+	Hour:	1
+	Comment: corso nuovo torrente
+	ProtoRoom: cimitero_room_collina-c32
+	Destination:	7 4 0 cimitero
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	cimitero_mob_scheletro-dwarf-01
+	End
+End
+RoomResets:
+	Hour:	1
+	Comment: corso nuovo torrente
+	ProtoRoom: cimitero_room_collina-c33
+	Destination:	6 5 0 cimitero
+End
+
+RoomResets:
+	Hour:	1
+	Comment: antico corso torrente
+	ProtoRoom: cimitero_room_collina-c35
+	Destination:	9 5 0 cimitero
+	EntityResets:
+		Quantity: 1
+		Type: RESET.REMOVE
+		ProtoEntity: cimitero_item_fontana_attiva
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: cimitero_item_fontana_vuota
+	End
+End
+RoomResets:
+	Hour:	1
+	Comment: antico corso torrente
+	ProtoRoom: cimitero_room_collina-c36
+	Destination:	9 4 0 cimitero
+End
+RoomResets:
+	Hour:	1
+	Comment: antico corso torrente
+	ProtoRoom: cimitero_room_collina-c37
+	Destination:	10 3 0 cimitero
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	cimitero_mob_scheletro-elven-01
+	End
+End
+RoomResets:
+	Hour:	1
+	Comment: antico corso torrente
+	ProtoRoom: cimitero_room_collina-c38
+	Destination:	11 3 0 cimitero
+End
+
+RoomResets:
+	Hour:	13
+	Comment: Collina - Zona ccc - corso del fiume da deviare (room reset ore 1 postquest)
+	ProtoRoom: cimitero_room_collina-c31-solved
+	Destination:	8 4 0 cimitero
+End
+RoomResets:
+	Hour:	13
+	Comment: corso nuovo torrente
+	ProtoRoom: cimitero_room_collina-c32-solved
+	Destination:	7 4 0 cimitero
+End
+RoomResets:
+	Hour:	13
+	Comment: corso nuovo torrente
+	ProtoRoom: cimitero_room_collina-c33-solved
+	Destination:	6 5 0 cimitero
+End
+RoomResets:
+	Comment: room accessibile solo dopo devizione 
+	ProtoRoom: cimitero_room_collina-c34-solved
+	Destination:	5 5 0 cimitero
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: cimitero_item_coppia-altari
+	End
+End
+RoomResets:
+	Hour:	13
+	Comment: antico corso torrente
+	ProtoRoom: cimitero_room_collina-c35-solved
+	Destination:	9 5 0 cimitero
+	EntityResets:
+		Quantity: 1
+		Type: RESET.REMOVE
+		ProtoEntity: cimitero_item_fontana_vuota
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: cimitero_item_fontana_attiva
+	End
+End
+RoomResets:
+	Hour:	13
+	Comment: antico corso torrente
+	ProtoRoom: cimitero_room_collina-c36-solved
+	Destination:	9 4 0 cimitero
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	cimitero_mob_scheletro-dwarf-01
+	End
+End
+RoomResets:
+	Hour:	13
+	Comment: antico corso torrente
+	ProtoRoom: cimitero_room_collina-c37-solved
+	Destination:	10 3 0 cimitero
+End
+RoomResets:
+	Hour:	13
+	Comment: antico corso torrente
+	ProtoRoom: cimitero_room_collina-c38-solved
+	Destination:	11 3 0 cimitero
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	cimitero_mob_scheletro-dwarf-01
+	End
+End
+
+
+
+RoomResets:
+	Comment: Inizio zona bachi da seta ddd
+	ProtoRoom: cimitero_room_collina-d35
+	Destination:	3 5 0 cimitero
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	cimitero_mob_scheletro-human-01
+	End
+End
+RoomResets:
+	Comment: zona bachi da seta ddd
+	ProtoRoom: cimitero_room_collina-d36
+	Destination:	3 6 0 cimitero
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	cimitero_mob_scheletro-elven-01
+	End
+End
+RoomResets:
+	Comment: zona bachi da seta ddd
+	ProtoRoom: cimitero_room_collina-d37
+	Destination:	4 7 0 cimitero
+End
+RoomResets:
+	Comment: zona bachi da seta ddd
+	ProtoRoom: cimitero_room_collina-d38
+	Destination:	5 7 0 cimitero
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	cimitero_mob_scheletro-dwarf-01
+	End
+End
+RoomResets:
+	Comment: zona bachi da seta ddd
+	ProtoRoom: cimitero_room_collina-d39
+	Destination:	6 6 0 cimitero
+End
+RoomResets:
+	Comment: zona bachi da seta ddd
+	ProtoRoom: cimitero_room_collina-d40
+	Destination:	7 6 0 cimitero
+End
+RoomResets:
+	Comment: zona bachi da seta ddd
+	ProtoRoom: cimitero_room_collina-d41
+	Destination:	7 5 0 cimitero
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	cimitero_mob_scheletro-dwarf-01
+	End
+End
+RoomResets:
+	Comment: zona bachi da seta ddd
+	ProtoRoom: cimitero_room_collina-d42
+	Destination:	8 5 0 cimitero
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: cimitero_mob_farfalla-01-saturnia
+	End
+End
+RoomResets:
+	Comment: zona bachi da seta ddd
+	ProtoRoom: cimitero_room_collina-d43
+	Destination:	9 6 0 cimitero
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: cimitero_item_crisalide-morta
+	End
+End
+EchoesNoon Una campana risuona lontano
+EchoesNoon Un suono basso e lugubre eccheggia tutto attorno

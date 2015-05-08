@@ -1,0 +1,20 @@
+Code: afk
+
+ItalianKeywords: ldt
+EnglishKeywords: afk
+
+Entitype: HELP.GENERIC
+
+Text:
+Il comando $tafk ti consentirà di segnalare agli altri giocatori che al momento
+sei assorto nei tuoi pensieri, sei impegnato in altre faccende e non puoi
+rispondere, gli altri giocatori si renderanno conto di questo tuo momentaneo
+smarrimento guardandoti, controllando nelle informazioni relative al gruppo
+oppure visualizzando nel $twho potranno vedere vicino al tuo nome la sigla
+LDT o AFK.
+
+Per togliere la flag puoi inserire di nuovo il comando $tafk oppure inserire
+un qualsiasi comando.
+
+LDT significa: lontano dalla tastiera
+AFK è il medesimo acronimo in inglese: away from keyboard

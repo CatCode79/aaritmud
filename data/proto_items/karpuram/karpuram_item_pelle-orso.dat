@@ -1,0 +1,38 @@
+Code: karpuram_item_pelle-orso
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.FUR	100
+Sex:	SEX.FEMALE
+
+Name:
+	La [sienna]Pelle d'Orso[close]
+Short:
+	una [sienna]pelliccia[close] d'un grosso animale
+Long:
+	$N sembra stia cercando di attecchire qui
+
+Descr:
+Una grossa pelle d'orso, è stata realizzata in modo molto semplice e veloce.
+Il colore è [brown]marrone[close] con alcune sporadiche macchie giallastre.
+Forse queste macchie non erano presenti sulla pelliccia dell'animale e sono
+comparse dopo, nel corso del tempo, a causa di un utilizzo spesso errato
+di chi la possedeva.
+
+DescrSmell:
+La pelliccia ha un odore molto forte di selvatico, un tipico odore animalesco
+che dev'essere stato lasciato appositamente per accentuare il camuffamento
+della persona che la volesse indossare. 
+
+DescrTouch:
+Nella parte interna la pelle è liscia, curata e decisamente morbida.
+Al contrario la parte esterna è composta da una fitta pelliccia, dura e irta.
+
+WearType:
+   Modes: PART.BODY
+End
+
+Value:	0
+Weight: 210g
+
+

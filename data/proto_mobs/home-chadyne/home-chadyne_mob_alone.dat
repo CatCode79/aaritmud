@@ -1,0 +1,72 @@
+Code:	home-chadyne_mob_alone
+Level:	1
+Sex:	SEX.NEUTRAL
+Race:	RACE.HUMAN
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Alone di Chadyne
+Short:	l'alone di un uomo
+Long:	$N sta pensando
+
+Descr:
+ti trovi di fronte a una poltrona in pelle, guardando meglio ti sembra di vedere un uomo sedutoci sopra. L'uomo in effetti non c'è, però c'è rimasto il suo alone dal quale riesci anche a capire le fattezze e i lineamenti del viso di chi c'era stato seduto fino a poco fa.
+DescrTouch: 
+ci passi attraverso ma senza toccarlo.
+
+Weight: 20g
+Height: 183cm
+
+Extras:
+	Keywords: alone
+	Descr:
+		Una specie di ombra brillante che segue il suo padrone.
+End
+
+BirthDay: 1
+BirthMonth: MONTH.TEN
+Age: 1
+
+Behaviour:
+	LookPlayer:	300
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	10
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NORTHEAST DIR.SOUTHEAST DIR.NORTHWEST DIR.SOUTHWEST DIR.NORTH DIR.SOUTH DIR.WEST DIR.EAST
+	WanderAtExits:	50	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	50
+	RandomDoInputs:	emote sparisce per un attimo.
+	RandomDoInputs:	say vai via di quì, non è il tuo posto!
+End
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

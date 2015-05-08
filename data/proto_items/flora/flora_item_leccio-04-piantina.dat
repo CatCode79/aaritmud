@@ -1,0 +1,33 @@
+Code: flora_item_leccio-04-piantina
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name: Una Giovane [mediumseagreen]Piantina[close] di [mediumseagreen]Leccio[close] 
+Short: una giovane [mediumseagreen]piantina[close]
+Descr:
+Una piantina piuttosto piccina dal fusto bruno e con poche foglioline
+
+Value:	0
+Weight: 22g
+
+DescrTouch: 
+Una piantina che tenta pian piano di crescere e divenire autosufficiente.
+
+Extras:
+  Keywords: piantina
+  Descr: difficile dire di che pianta si tratta
+  DescrSixth: un piantina di leccio
+End
+
+
+PlantType:
+    Sectors:	SECTOR.PLAIN SECTOR.HOUSE
+    RpgHours:	200
+    WorseEntity:	flora_item_leccio-05-cespuglio
+    NormalEntity:	flora_item_leccio-05-cespuglio
+    BetterEntity:	flora_item_leccio-05-cespuglio
+End
+
+

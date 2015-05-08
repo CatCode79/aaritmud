@@ -1,0 +1,115 @@
+Code:	accademia-drago_room_013_accesso-museo-013
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	L'Accesso al Museo
+Short:	l'accesso al museo
+	Descr:
+Sei giunto in una grande sala di forma esagonale, il soffitto a
+guglia è sostenuto da sei colonne e sulla cima di ognuna di esse
+è posta una statua, cinque rappresentato i grandi draghi
+cromatici cavalcati dai cavalieri mentre la sesta mostra Merisio,
+il padre fondatore dell'ordine del drago che strinse il patto di
+amicizia con Lamreloc. Ad est ed ovest si aprono due corridoi
+mentre sulla parete di fronte a te noti una grossa stele in
+pietra con delle incisioni.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 0
+Exits:
+	Direction:	DIR.NORTH
+	Destination:	4 3 0 accademia-drago
+	Descr:	il cortile pubblico
+	Comment:	ExitStatus	0 0 011 -1
+End
+Exits:
+	Direction:	DIR.EAST
+	Destination:	2 -1 0 accademia-drago
+	Descr:	[gray]il[close] [gray]laboratorio oscuro[close]
+	Comment:	ExitStatus	0 0 023 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	[white]l'alcova del fondatore[close]
+	Comment:	ExitStatus	0 0 015 -1
+	Destination:	-2 -1 0 accademia-drago
+End
+Extras:
+	Keywords:	stele
+		Descr:
+Gentile visitatore, in questo museo potrai ammirare i grandi eroi
+ed i draghi che hanno contribuito con le loro opere a forgiare il
+destino dell'ordine dei Cavalieri del Drago, ogni riproduzione è
+stata creata con la magia in modo da essere pacifica e non
+pericolosa nonostante la maestosità, siete comunque pregati di
+non stuzzicare le creature, i Cavalieri non si assumono alcuna
+responsabilità sulle eventuali conseguenze.
+
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

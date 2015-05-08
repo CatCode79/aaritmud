@@ -1,0 +1,25 @@
+Code: eat
+
+ItalianKeywords: mangia
+EnglishKeywords: eat
+
+Entitype: HELP.ITEM
+
+Text:
+Per mangiare usa il comando $teat &lt;[darkgreen]cibo[close]&gt;, puoi anche usare il comando
+$teat &lt;[darkgreen]cibo&W&gt; &lt;[darkgreen]contenitore[close]&gt; per mangiare il cibo direttamente dal
+contenitore in cui si trova.
+
+Se stai troppo tempo senza mangiare o bere il tuo fisico inizierà a soffrirne
+e le te capacità di recupero caleranno, farai fatica a guarire dalle ferite e
+avrai bisogno di fermarti più spesso durante i tuoi viaggi, anche le capacità
+di richiamare le forze magiche ne risentiranno.
+Se lo stato di fame e sete si prolungherà per molto anche le tue capacità di
+combattimento e la tua coordinazione di movimenti ne risentiranno, potresti
+arrivare ad avere allucinazione e depressione.
+
+Per risolvere il problema dovrai mangiare e/o bere, e avrai bisogno di un po'
+di riposo.
+
+
+SeeAlso: drink

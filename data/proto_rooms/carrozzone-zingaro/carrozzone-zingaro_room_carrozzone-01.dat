@@ -1,0 +1,34 @@
+Code: carrozzone-zingaro_room_carrozzone-01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: L'Interno del Carrozzone Gitano
+Short: il carrozzone zingaro
+
+Descr:
+L'interno del carrozzone non è così angusto come si potrebbe supporre da fuori. Non è
+una reggia ma almeno ci si riesce a muovere. Inoltre, la scarsa considerazione che i
+proprietari hanno per i concetti estetici più semplici, mette in ultimo piano il problema
+dello spazio.
+DescrSmell: 
+La fragranza decisa che permea l'ambiente deve essere certamente lo strato appiccicoso di
+non-vuoi-sapere-cosa che riveste il pianale ove cammini.
+DescrSixth:
+La furbizia suggerisce di muoversi il meno possibile per evitare di calpestare possibili
+oggetti in vendita che potresti non riuscire a pagare.
+DescrHearing:
+Saltuariamente si colgono i pigri ansiti dei due cavalli.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.NORTH
+	Descr: Il centro del carrozzone
+	Door: carrozzone-zingaro_item_door-telone
+End
+Exits:
+	Direction: DIR.SOUTH
+	Descr: L'esterno
+        Destination: 0 0 0 carrozzone-zingaro 
+End

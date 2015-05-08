@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_008_fontana-008
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	La Fontana
+Short:	la fontana
+	Descr:
+Sei giunto nell'esatto centro del cortile, qui una maestosa
+fontana crea nell'aria una stupenda danza di acqua che
+,rifrangendo ogni fonte di luce, disegna migliaia di arcobaleni
+tutto intorno a se. Il vialetto gira intorno alla fontana e poi
+si snoda verso ogni direzione per portarti nelle altre zone del
+cortile. Intorno alla vasca della fontana sono sistemate varie
+panche di pietra dove è possibile rilassarsi godendosi gli
+spettacolari giochi d'acqua
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 2
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	il cortile pubblico
+	Comment:	ExitStatus	0 0 007 -1
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	il cortile pubblico
+	Comment:	ExitStatus	0 0 005 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	il cortile pubblico
+	Comment:	ExitStatus	0 0 003 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	il cortile pubblico
+	Comment:	ExitStatus	0 0 010 -1
+End
+Extras:
+	Keywords:	fontana
+		Descr:
+La fontana è una struttura tanto maestosa quanto bizzarra, tutti
+gli elementi sembrano unirsi in questa opera d'arte dove un'onda
+di roccia è attorniata da spirali di fuoco. L'acqua sgorga da
+innumerevoli zone della scultura anche se non ti spieghi
+esattamente da dove visto che la fontana sembra un blocco
+perfettamente sigillato di marmo.
+
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

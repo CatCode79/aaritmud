@@ -1,0 +1,32 @@
+Code: novizi2_item_amuleto-fhargun
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.TOOTH	100%
+Name:	Un [indianred]Amuleto[close] di Fhargun
+Short:	un [indianred]amuleto[close] di serpente
+Long:	$N incute un certo rispetto
+
+Descr:
+Un dente di [indianred]serpente[close] in cui la cordicella passa all'interno del dente e sbuca quasi sulla punta.
+DescrTouch: 
+Un solido dente puntuto con una cordicella per il collo che sbuca quasi in punta.
+DescrSixth:
+Un dente di Fhargun, serpente velenoso non mortale. La cordicella passa attraverso l'incavo del dente preposto all'iniezione del veleno. C'è da sperare che non vi sia rimasto del veleno dentro. Non è ceto un bel passatempo dover sempre dire la verità...
+DescrTaste:
+Solo dopo qualche secondo, sul primo sentore di ceralacca, si fa più marcato un ché di pipì di gatto.
+
+Value:	60
+Weight: 10g
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+	Modes:	PART.NECK
+	EntityWearMessage:	Indossi $N %part facendo attenzione ad avere la punta verso l'esterno.
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	Con gesti misurati $n indossa$N %part.
+	EntityRemoveMessage:	Ti togli $N.
+	TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+	OthersRemoveMessage:	$n si toglie $N.
+End

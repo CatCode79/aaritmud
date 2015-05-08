@@ -1,0 +1,38 @@
+Code: villaggio-zingaro_item_bozzolo
+Level: 1
+MaxGlobalQuantity:	1
+Icon:	icons/item/cocoon.png
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.SILK 100%
+Name:	Un Bozzolo di Tegenaria
+Short:	un bozzolo
+Long:	serici fili formano $N ovaleggiante. 
+
+Descr:
+#self is CONTAINER.CLOSED#Un bozzolo ellissoidale formato da sottilissima fibra arrotolata su se stessa, o forse attorno a qualcos'altro.#Un bozzolo squarciato da cui pende un groviglio si sottilissimi fili.#	
+DescrTouch: 
+Sottilissimi serici fili.
+DescrSmell:
+Annusando quasi inali uno dei fili volanti.
+DescrSixth:
+#self is CONTAINER.CLOSED#Alcuni bozzi laterali ti fanno pensare che qualcosa sia intrappolato all'interno.#Di certo ora non si potrà più tessere squarciato com'è.#
+DescrTaste:
+Mettendolo in bocca rischi di sputare fili per ore. 
+
+Value:	0
+Weight: 15g
+
+ContainerType:
+	EntityOpenMessage:	In qualche modo districhi i fili che compongono $N rivelandone il contenuto.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N armeggiando goffamente.
+	Flags:	 CONTAINER.CLOSED CONTAINER.CLOSABLE CONTAINER.SECRET CONTAINER.OPEN_ONE_TIME
+        MaxWeight: 200g
+End
+
+Walker:
+	FollowEntityGoMessage:	%verb %direction seguendo $N
+	FollowOthersGoMessage:	$N si trascina %direction $n
+	FollowOthersComeMessage:	$n viene trascinato da $N
+End

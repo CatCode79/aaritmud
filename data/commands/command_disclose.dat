@@ -1,0 +1,6 @@
+FunName:     command_disclose
+Type:        CMDTYPE.ITEM
+Trust:       TRUST.PLAYER
+Position:    POSITION.REST
+Flags:       CMDFLAG.INTERACT CMDFLAG.GDR
+MiniHelp:    Serve per aprire contenitori come casse, zaini e altro...

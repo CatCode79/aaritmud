@@ -1,0 +1,36 @@
+Code: miniere-kezaf_item_gemma-smeraldo
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_emerald.png
+Name:	Uno Smeraldo da Lavorare
+Short:	una pietra verdastra
+Long:	$N spunta fuori dal terreno.
+
+Descr:
+È certamente uno smeraldo, un prezioso e raro smeraldo grezzo da lavorare.
+
+DescrSixth:
+È una delle pietre più nobili in natura. Prediletto dai popoli elfici che sono
+soliti acquistarne in grandi quantità, raro e costoso, è famoso in tutto il
+mondo conosciuto. È una splendida qualità di berillo. Per il suo colore è 
+sempre stato il simbolo della serenità, della speranza e dell'inesauribilità 
+della natura. 
+
+
+Extras:
+	Keywords: chiave
+	DescrSixth:
+	Il suo grado di durezza è molto elevato e dev'essere maneggiato con cura e
+	professionalità per renderlo unico e perfetto.
+
+End
+
+Value:	0
+Weight: 190g
+
+
+
+

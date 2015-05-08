@@ -1,0 +1,40 @@
+Code: ikea_item_razione
+Level: 1
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.FEMALE
+Flags:	FLAG.RANDOMIZABLE
+MaterialPercentages:	MATERIAL.FLOUR	70%
+MaterialPercentages:	MATERIAL.PULP	20%
+MaterialPercentages:	MATERIAL.WATER	10%
+Name:	Una Razione di cibo
+Short:	una razione di cibo
+Long:	$N secca e asciutta è posta qui.
+
+Descr:
+Una razione commestibile di colore bruno e compatta fatta di qualche farina impastata con frutta e cotta in forno.
+DescrTouch: 
+Una razione di cibo pesante e friabile.
+DescrSmell:
+Una razione di cibo cotto farcito di frutta secca e con qualche farinaceo.
+
+Value:	0
+Weight: 150g
+
+Extras:
+	Keywords: frutta
+	Descr:
+	Si vedono i semini di fico
+End
+
+FoodType:
+	Comment:	cibo
+	Animal:	0
+	Vegetable:	100
+	CookingDamage:	10
+	Hours:	0
+	EntityMessage:	Prendi $N fra le $hands e l$O sgranocchi.	
+	TargetMessage:	Ora c'è una sola via d'uscita... $n t'ha mangiato.
+	OthersMessage:	$n prende fra le $hands $N sgranocchiandol$O
+End
+
+

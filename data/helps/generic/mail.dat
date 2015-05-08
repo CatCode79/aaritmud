@@ -1,0 +1,20 @@
+Code: mail
+
+ItalianKeywords: lettera
+EnglishKeywords: mail
+
+Entitype: HELP.GENERIC
+
+Text:
+Il comando $tmail è molto simile al comando $tnote. Per scrivere una lettera,
+come con le note, devi avere un foglio bianco tra le mani e una penna o
+matita nel tuo inventario. La mail può essere solo inviata a giocatori
+esistenti o a tutti con [darkgreen]all[close]. C'è un costo per leggere e prendere le
+mail.
+
+Per inviare una mail a più di una persona scrivi $tmail [green]to[close] &lt;[cyan]nome[close]&gt; &lt;[hotpink]nome[close]&gt;...
+Nota che ognuno dei giocatori può rimuovere la lettera prima che gli altri
+abbiano la possibilità di leggerla.
+
+
+SeeAlso: note

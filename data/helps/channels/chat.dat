@@ -1,0 +1,15 @@
+Code: chat
+
+ItalianKeywords: chatto
+EnglishKeywords: chat
+
+Entitype: HELP.CHANNEL
+
+Text:
+Potremo parlare liberamente con tutti i giocatori presenti su Aarit senza
+dover tener conto delle restrizioni sull'interpretazione GDR (gioco di ruolo).
+
+Esempio: $tchat buonasera a tutti :)
+
+
+SeeAlso: channels

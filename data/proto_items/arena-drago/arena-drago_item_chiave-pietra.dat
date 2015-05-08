@@ -1,0 +1,22 @@
+Code:	arena-drago_item_chiave-pietra
+Level:	06
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.STONE 100%
+Sex:	SEX.FEMALE
+Name:	Una Grossa Chiave di Pietra
+Short:	una grossa chiave di pietra
+
+Value:	0
+Weight: 10kg
+
+Descr:
+Una grossa chiave di pietra dall'aspetto molto pesante.
+DescrTouch:
+Un'enorme chiave di pietra, avrai la forza per sollevarla?
+Comment:
+§27706
+
+Dati Obj
+18 262144 1|163841 0 0 01 0 -1
+
+

@@ -1,0 +1,34 @@
+Code: flora_item_farnia-03-germoglio
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name: Un Timido [lightgreen]Germoglio[close] d'una [lightgreen]Farnia[close] 
+Short: un timido [lightgreen]germoglio[close]
+Descr:
+Un germoglio verde tutto pelosino con due fogline a guardar in alto.
+
+Value:	0
+Weight: 010g
+
+DescrTouch: 
+Una fragile germoglio dal fusto lungo e peloso, con un paio di foglie dalle venature
+in evidenza.
+
+Extras:
+  Keywords: pianticella
+  Descr: difficile dire di che pianta si tratta
+  DescrSixth: un germoglio d'una qualche quercia
+End
+
+PlantType:
+    Sectors:	SECTOR.PLAIN SECTOR.HOUSE
+    RpgHours:	01
+    WorseEntity:	flora_item_farnia-04-piantina
+    NormalEntity:	flora_item_farnia-04-piantina
+    BetterEntity:	flora_item_farnia-04-piantina
+End
+
+
+

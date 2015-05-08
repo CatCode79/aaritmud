@@ -1,0 +1,53 @@
+Code: cimitero_room_collina-b22
+Sector: SECTOR.HILL
+Name: Il Tempio di #NOME
+Short: un antico colonnato 
+
+Descr:
+Una vasta lingua di pietra oblungo si eleva sopra il terreno circostante compiendo un
+semicerchio. Ai lati antiche colonne all'epoca dovevano dare l'impressione di imponenza.
+Quello che resta ora delle colonne è in pezzi sparso un poco ovunque. Sul limitare, a
+sud, la pietra termina bruscamente come spezzata da mani potenti per fare posto ad una
+bassa costruzione caduta in rovina anche lei con il tempo.
+DescrSmell: 
+La zona collinare è avvolta dagli abbracci languidi dell'odore di spezie e decomposizione.
+Per alcuni tratti si coglie però una scia che rimane la stessa per un certo tratto.
+DescrHearing:
+Il sibilo del vento produce un lugubre suono cupo sostenuto negli effetti lungo le
+lapidi frastagliate.
+
+Extras:
+	Keywords: scia
+	DescrSmell:
+	Lungo il tratto di sentiero che hai appena seguito l'odore più significativo è stato quello di #SMELL.
+End
+
+Extras:
+	Keywords: simboli
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+Width:	6m
+Depth:	6m
+Height: 113m
+
+
+Exits:
+	Direction: DIR.SOUTHEAST
+	Descr: L'ingresso del cimitero
+End
+Exits:
+	Direction: DIR.NORTH
+	Descr: Il circolo
+End

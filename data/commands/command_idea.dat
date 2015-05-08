@@ -1,0 +1,5 @@
+FunName:  command_idea
+Type:     CMDTYPE.CHANNEL
+Trust:    TRUST.PLAYER
+Position: POSITION.DEAD
+MiniHelp: Serve per proporre un'idea agli amministratori.

@@ -1,0 +1,49 @@
+Code: home-batu_item_pallotta-pelo
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.FUR	100%
+Name:	Una [crimson]Pallotta[close] di [crimson]Pelo[close]
+Short:	una [crimson]pallotta[close] di [crimson]pelo[close] piena di nodi
+Long:	$N si aggira rotolando.
+
+Descr:
+Una [crimson]rossastra pallotta[close] di [crimson]pelo[close] si fa sospingere qua e là da ogni spiffero che incontra. Dei [crimson]peli[close] fuggitivi le conferiscono un aspetto arruffato
+DescrNight:
+Uno strano oggetto a forma sferica piuttosto irrregolare rotola per la stanza senza troppi complimenti facendoti sobbalzare di quando in quando. 
+DescrTouch: 
+Soffice e serica, giochi a farla rotolare finché non si allontana troppo per la tua pigrizia.
+DescrTouchNight:
+Soffice e serica, giochi a farla rotolare finché la lanci troppo lontano per riuscire a ritrovarla.
+DescrSmell: 
+Un aroma di te verde appena confezionato che di certo non ti aspettavi!
+DescrSmellNight:
+Un acuto ed inconfondibile olezzo di saliva felina.
+DescrHearing:
+Dei mormorii cosi flebili che vengon quasi coperti dal rumore del tuo respiro; che sia una società segreta di pulci?
+DescrHearingNight:
+Non è possibile, qualcuno sta russando qui dentro.
+DescrTaste:
+Puha! Ti senti molto gatto dopo averla sputata per aver rischiato di soffocarti.
+DescrSixth:
+Intuisci che questo posto dev'essere certamente abitato da un felino dal pelo fulvo, come se non bastasse hai l'impressione che questa palletta ti scruti appena gli giri le spalle per conto del proprietario.
+
+Value:	0
+Weight: 10g
+
+Extras:
+	Keywords: peli 
+	Descr: 
+	Seguendo uno dei peli sporgenti ti accorgi che è decisamente lungo, forse un po' troppo lungo per i tuoi gusti.
+        DescrTouch:
+	Seguendo uno dei peli sporgenti ti è parso di sentire un formicolio misterioso.
+End
+
+
+Behaviour:
+	RandomDo:	10
+	RandomDoInputs:	emote effettua un balzo come avesse vita propria.
+End
+
+

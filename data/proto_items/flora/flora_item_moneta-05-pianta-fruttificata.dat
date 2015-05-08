@@ -1,0 +1,26 @@
+Code: flora_item_moneta-05-pianta-fruttificata
+Level: 1
+Entitype:	ENTITYPE.PLANT
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name:	Una [goldenrod]Pianta[close] di [goldenrod]Monete[close] Fruttificata
+Short:	una [goldenrod]pianta[close] ricolma di frutti
+Long:	$N verdeggia qui.
+
+Descr:
+Una slanciata [goldenrod]pianta[close] con un alto fusto e una chioma dalla forma sferica; 
+le [goldenrod]foglie metalliche[close] sono intramezzate da numerose monete lucenti. 
+DescrTouch: 
+Nonostante l'apparente fragilità ti puoi appoggiare al freddo fusto senza rischiare di sradicare la pianta.
+DescrSixth:
+Una pianta di monete, che si potrebbe desiderare di più!
+DescrHearing:
+Le foglie toccandosi l'una con l'altra producono un piacevole armonia metallica.
+
+Value:	10
+Weight: 30kg
+
+PlantType:
+    RpgHours:	004
+    DeadEntity:	flora_item_moneta-06-pianta-morta
+End

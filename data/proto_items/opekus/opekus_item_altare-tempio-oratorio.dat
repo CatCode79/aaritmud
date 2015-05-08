@@ -1,0 +1,18 @@
+Code: opekus_item_altare-tempio-oratorio
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.MARBLE	100%
+Name:	L'Altare
+Short:	l'altare
+Long:	$N al centro del tempio
+
+Descr:
+Da un fiorire di marmi policromi sboccia un altare eburneo. Spicca il suo biancore latteo accostato agli splendidi petali rossi e verdi.
+Il calice è leggermente concavo sul quale sono incise sinuose forme che si toccano centralmente.
+DescrTouch: 
+Da una scultura floreale di pietra sboccia un massiccio e delicato altare.
+Sulla superficie leggermente concava si delinenao sinuose forme che si toccano centralmente; da ogni voluta un viticcio indica ciascuna delle pareti.
+
+Weight: 750kg

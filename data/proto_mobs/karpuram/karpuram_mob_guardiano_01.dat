@@ -1,0 +1,75 @@
+Code: karpuram_mob_guardiano_01
+Level: 22
+
+Sex:	SEX.MALE
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Un Elfo Guardiano
+Short: un elfo accorto
+Long:	$N sta controllando il bosco
+Race: RACE.WOODELF
+
+Descr:
+Si tratta di una figura molto ambita e rispettata tra gli elfi, la sua funzione
+è di protezione nei confronti della foresta. Un elfo guardiano è vestito con
+abiti di tessuto verde misto a foglie, impugna un bastone di scuro legno
+e dal modo in cui lo brandisce ti lascia intendere che non sia un semplice
+oggetto. Oltre alle fattezze tipiche della sua razza, non puoi fare a meno di
+notare la strana colorazione dei suoi [lightsteelblue]occhi[close].
+
+DescrSixth:
+Questo elfo trasmette sicurezza e un potere antico derivante dall'ambiente
+circostante.
+
+
+
+
+
+Behaviour:
+	LookPlayer:	10
+	LookMob:	10
+	LookItem:	10
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	5
+	LookDirection:	5
+	LookExit:	20
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+Weight: 65kg
+Height: 180cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 134
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

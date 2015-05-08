@@ -1,0 +1,35 @@
+Code: villaggio-zingaro_item_maglio-fabbro
+Level: 1
+Entitype: ENTITYPE.NONE
+Flags: FLAG.NO_GET
+Sex:    SEX.MALE
+MaterialPercentages:	MATERIAL.STEEL	70%
+MaterialPercentages:	MATERIAL.HARDWOOD	30%
+Name:   Un Maglio da Fabbro 
+Short:  un maglio da fabbro 
+Long:   $N pesa enormemente
+
+
+Descr: 
+		Strumento grazie al quale si opera la prima e più rudimentale 
+		lavorazione del ferro appena forgiato. La parte superiore del macchinario
+		presenta una struttura a forma di braccio la quale termina con un largo
+		cilindro di ferro, un'asta sempre di ferro è posizionata orizzontalmente
+		al braccio e serve ad azionare il maglio. La parte inferiore dello
+		strumento ha un basamento quadrato abbastanza largo sul quale viene
+		posato l'oggetto da lavorare. 
+
+DescrTouch:
+		La parte riguardante il rivestimento esterno della [steelblue]macchina[close]
+		risulta	fredda al tatto, mentre il [orangered]cilindro[close] e il 
+		[orangered]quadrato[close] che si trovano a modellare le armi risultano 
+		incandescenti e sarebbe meglio evitare di toccarle.
+
+DescrSixth:
+		Avvicinandoti al maglio avverti una forza sovrumana, senti che questo
+		comune oggetto in realtà è stato utilizzato più volte da una presenza
+		divina per forgiare qualcosa di estremamente potente.
+
+
+Value:	0
+Weight: 250kg

@@ -1,0 +1,86 @@
+Code: mfdonald_mob_door-barbamamma
+Level: 1
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.FEMALE
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Race:	RACE.MONSTER
+Name: BarbaMamma
+Short: BarbaMamma
+Long: $N è finalmente libera!
+
+Descr:
+La matrona dei Barbapapà, la terribile BarbaMamma è qui per te!
+DescrTouch: 
+Non si toccano le BarbaMamma!
+DescrSmell: 
+Odora di plastilina scadente.
+DescrSixth:
+Senti e sai che per aver pensato queste cose di lei... morrai... fra atroci sofferenze
+e con un mutuo a tasso fisso e taeg al 22%.
+DescrHearing:
+Sta imprecando a voce bassa.
+
+Weight: 189kg
+Height: 170cm
+
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Sposti $N di peso usando ambo le $hands.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n sposta $N usando ambo le $hands.
+	EntityCloseMessage:	Accompagni $N fino a intasare l'uscita.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n accompagna $N alla porta ma non c'è spazio.
+	DestinationOpenMessage: $N viene spostat$O dal lato opposto.
+	DestinationCloseMessage: $N viene spostat$O dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE
+End
+
+Behaviour:
+	LookPlayer:	200
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 34
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

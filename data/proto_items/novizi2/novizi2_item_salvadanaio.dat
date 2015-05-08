@@ -1,0 +1,36 @@
+Code: novizi2_item_salvadanaio
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+MaterialPercentages:	MATERIAL.POTTERY	100%
+Name:	Un Salvadanaio foggiato a Mindflayer Porcino
+Short:	un porcellino salvadanaio
+Long:	$N è ancorato al pavimento
+
+Descr:
+Un grazioso porcellino di ceramica con dei tentacoli che sporgono dal musetto.
+Ha una Pratica fessura sopra l'unico occhio in cui poter inserire monetine.
+La fessura è così larga che si può vedere all'interno ed anche infilarci una mano.
+DescrTouch: 
+Una graziosa statuetta a forma di porcellino ma con un muso tentacolato.
+In testa ha una grossa apertura in cui passa comodamente una mano.
+DescrSmell: 
+Pecunia non olet... figurarsi se lo fa un portamonete.
+DescrSixth:
+In effetti non è poi così grazioso e non è affatto un porcellino.
+DescrHearing:
+Sarà questo coso a respirare così forte?
+DescrTaste:
+Una bella leccata al musetto della bestia per scoprire che non sei solo l'ultim$o
+ad averlo fatto, ed il penultimo non è poi passato da troppo tempo.
+
+Value:	0
+Weight: 25kg
+
+ContainerType:
+        MaxWeight: 700kg
+End
+
+

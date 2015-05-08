@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_017_camminamenti-017
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	I Camminamenti
+Short:	i camminamenti
+	Descr:
+Il camminamento prosegue, giungi ad una svolta; a nord osservi una
+zona vuota che dà su un crepaccio di cui non riesci neppure ad
+intravedere il fondo. Dopo circa venti metri di vuoto vedi la
+seconda parte della struttura dell'accademia, è più alta di
+quella in cui ti trovi ora e quindi non riesci ad osservarne la
+cima, a occhio diresti comunque che anche su questa seconda
+struttura sono siti dei camminamenti uguali a quelli su cui ti
+muovi attualmente.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 1
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 016 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 018 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

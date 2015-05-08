@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_009_gazebo-009
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il Gazebo
+Short:	il gazebo
+	Descr:
+In questo punto il grande cortile si apre su una vasta zona
+erbosa, un piccolo vialetto in ghiaia si addentra nel verde
+raggiungendo un bel gazebo in legno scolpito. Sotto di esso sono
+collocate panche in legno ed un tavolo per accogliere e donare un
+po' d'ombra a coloro che sono alla ricerca di frescura.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 0
+Exits:
+	Direction:	DIR.EAST
+	Descr:	il cortile pubblico
+	Comment:	ExitStatus	0 0 007 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	il cortile pubblico
+	Comment:	ExitStatus	0 0 010 -1
+End
+Extras:
+	Keywords:	gazebo
+		Descr:
+Il gazebo è una vera e propria opera d'arte, abilmente scolpito
+nel legno crea un fantastico disegno floreale con edere che
+arrampicano su dodici colonne, se non fosse per il colore diresti
+che si tratta di vere piante. Sotto il gazebo anche le panche e
+il tavolo sono scolpite e intarsiate.
+
+End
+Extras:
+	Keywords:	tavolo
+		Descr:
+Si tratta di un grosso tavolo in legno massello, le gambe sono
+scolpite a forma di zampa di drago mentre sul bordo del piano un
+bassorilievo ricco di miniature meravigliosamente
+particolareggiate mostra il racconto dell'esilio di Ghorm.
+
+End
+Extras:
+	Keywords:	panche
+		Descr:
+Le panche sono cinque, ognuna di esse si differenzia dalle altre
+quattro perché lo schienale è scolpito a rappresentare le ali di
+un drago. Ognuna delle panche assume però le sembianze di un'ala
+di drago differente a rappresentare l'unione dei cavalieri che,
+dopo l'esilio di Ghorm, siedono uniti come fratelli e combattono
+fianco a fianco fino alla morte.
+
+Una di queste meravigliose opere d'arte sembra essere stata
+rovinata, un vandalo ha infatti inciso qualcosa nel legno
+probabilmente con un coltello... certa gente è davvero lontana
+anni luce dalla civiltà.
+
+End
+Extras:
+	Keywords:	graffito
+		Descr:
+Avvicinandoti noti che l'incisione che deturpa la panca
+rappresenta un fulmine e reca al suo interno una piccola scritta,
+XXVII. Che vandali...
+
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

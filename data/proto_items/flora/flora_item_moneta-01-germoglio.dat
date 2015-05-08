@@ -1,0 +1,26 @@
+Code: flora_item_moneta-01-germoglio
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name:	Un [goldenrod]G[forestgreen]ermogli[goldenrod]o[close] dell'[goldenrod]Albero[close] delle [goldenrod]Monete[close]
+Short:	un [goldenrod]g[forestgreen]ermogliett[goldenrod]o[close]
+Long:	$N appena spuntato.
+
+Descr:
+Un tenero [goldenrod]g[forestgreen]ermogli[goldenrod]o[close] stiracchia le sue due uniche foglioline verso il cielo.
+DescrTouch: 
+Toccando la punta di una delle foglie ti pungi.
+DescrSixth:
+Sei incuriosito dalla particolari venature dorate.
+
+Value:	56
+Weight: 6g
+
+PlantType:
+    RpgHours:	002
+    WorseEntity:	flora_item_moneta-02-piantina
+    NormalEntity:	flora_item_moneta-02-piantina
+    BetterEntity:	flora_item_moneta-02-piantina
+End

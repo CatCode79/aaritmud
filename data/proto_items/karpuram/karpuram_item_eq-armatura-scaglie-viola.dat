@@ -1,0 +1,53 @@
+Code:	karpuram_item_eq-armatura-scaglie-viola
+
+Level:	11
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.SNAKESKIN	55
+MaterialPercentages:	MATERIAL.CLOTH	15
+MaterialPercentages:	MATERIAL.LINE	15
+MaterialPercentages:	MATERIAL.COTTON	15
+Sex:	SEX.MALE
+Name:	Una [violet]corazza[close] di [violet]scaglie[close] violacee finemente lavorata
+Short:	un'[violet]armatura[close] di [violet]scaglie viola[close]
+Long:	spicca per bellezza $N, adagiata qui con cura.
+
+Descr:
+Rilucente e ben rifinita, quest'armatura è formata da una serie di grosse
+scaglie di serpente dal colore viola intenso. Le scaglie sono sovrapposte in
+modo tale da garantire una protezione a strati di lunga durata. Sia sulla parte
+esterna che interna sono incise due rune di cura molto potenti in grado di
+rigenerare lentamente le scaglie. Due serie di lacci interni presumono la
+possibilità di regolare su misura la corazza a seconda della stazza di chi
+avrà l'onore di indossarla.
+
+DescrNight:
+Persino al buio quest'armatura risplende di una luce violacea sinistramente
+accattivante. Grosse scaglie la ricoprono interamente, due rune di guarigione
+sono incise sulla parte frontale interna ed esterna. Si notano alcuni lacci
+per la regolazione della corazza sul corpo.
+
+DescrHearing:
+Un sinistro sibilo sembra provenire dall'armatura, come se la stessa fosse
+viva e animata. Il sibilo s'interrompe ogni volta che questa viene toccata o
+indossata.
+
+DescrTouch:
+Liscia e morbida in superficie, le scaglie sono stratificate e sottili e non 
+presentano imperfezioni. Le rune sono incise con cura e in leggero rilievo.
+Al tocco la corazza tende a rilasciare alcune gocce di una specie di inchiostro
+naturale di colore viola che viene subito assorbito dalla pelle.
+
+DescrSixth:
+Hai la sensazione che questo pezzo di armatura sia parte integrante di qualcosa
+di più grande e potente, oltre la tua immaginazione
+
+
+Value:	0
+Weight:	4kg
+
+WearType:
+   Modes: PART.TORSO
+End
+
+

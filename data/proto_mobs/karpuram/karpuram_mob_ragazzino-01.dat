@@ -1,0 +1,70 @@
+Code: karpuram_mob_ragazzino-01
+Level: 1
+Sex:	SEX.MALE
+Race:	RACE.WOODELF
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name: Un Ragazzo Elfo
+Short: un ragazzo
+Long:	$N dal viso affilato
+
+Descr:
+Un ragazzo scarmigliato dal viso lungo ed affilato.
+
+DescrSixth:
+Attento ad ogni mutamento e cambiamento attorno a se come avesse gli occhi anche
+sulla schiena.
+
+DescrTouch: 
+Gela al contatto della tua $hand.
+
+Weight: 43kg
+Height: 160cm
+
+Behaviour:
+	LookPlayer:	5
+	LookMob:	4
+	LookItem:	10
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	10
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	6
+	RandomDoInputs:	emote lancia alcuni sassi in aria e li riafferra fulmineo
+End
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 22
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

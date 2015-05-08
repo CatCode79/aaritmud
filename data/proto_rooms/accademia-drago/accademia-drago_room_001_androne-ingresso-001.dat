@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_001_androne-ingresso-001
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	L'Androne di Ingresso
+Short:	l'androne di ingresso
+	Descr:
+Ti trovi sotto il grande androne tramite cui si accede
+all'Accademia dei Cavalieri del Drago, la volta ad arco
+risplende di una soffusa luce azzurra ed al suo interno sembra
+muoversi lentamente acqua limpida lasciando intravedere quello
+che potrebbe essere il fondo di un ruscello. L'effetto visivo ti
+lascia alquanto stordito rendendo strana la concezione di sopra e
+sotto. La pavimentazione è composta da grosse lastre di semplice
+pietra grigia tagliate in forme differenti che sembrano però
+incastrarsi perfettamente tra loro. Al centro della
+pavimentazione noti un mosaico colorato che rappresenta due
+draghi. Le pareti in pietra grigio perla sembrano scolpite da un
+solo mastodontico blocco di roccia, ogni tre metri una lanterna
+brilla di una luce azzurra probabilmente di origine magica. Sulla
+parete est si trova un grosso specchio su cui e sembra essere
+affisso un cartello. A nord molta luce ti fa pensare che
+l'androne si apra su un cortile, a sud puoi recarti verso
+l'esterno della struttura.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	4|8|64|16777216 0
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	il cortile pubblico
+	Comment:	ExitStatus	0 0 003 -1
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	Specchio
+	Comment:	ExitStatus	1|8|16|32|256|512 000 002 -1
+End
+Extras:
+	Keywords:	mosaico
+		Descr:
+Il mosaico ti lascia letteralmente senza fiato, milioni di
+tessere multicolore formano l'immagine di due draghi intrecciati
+in una lotta, un enorme drago rosso sembra aver avuto la meglio e
+sta affondando le zanne nel collo di un altrettanto mastodontico
+drago nero; sullo sfondo il cielo è costellato di migliaia di
+altri draghi che osservano la lotta tra i due titani.
+
+End
+Extras:
+	Keywords:	cartello
+		Descr:
+TORNO SUBITO 
+
+(se non torno mi trovate alla fontana)
+
+Werr, il custode.
+
+End
+Extras:
+	Keywords:	specchio
+		Descr:
+Eccezionale, si tratta di uno specchio grande quanto due uomini
+adulti, sembra non avere la benché minima imperfezione; pare
+inoltre perfettamente incastonato nella pietra della parete. Per
+il resto... beh, ti vedi riflesso, è un bello spettacolo?
+
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

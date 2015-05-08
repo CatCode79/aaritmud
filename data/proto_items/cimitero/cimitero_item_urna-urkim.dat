@@ -1,0 +1,32 @@
+Code: cimitero_item_urna-urkim
+Level: 1
+MaxGlobalQuantity:	1
+Entitype:	ENTITYPE.CONTAINER
+MaterialPercentages:	MATERIAL.SILVER	10%
+MaterialPercentages:	MATERIAL.COPPER	81%
+MaterialPercentages:	MATERIAL.GLASS	6%
+MaterialPercentages:	MATERIAL.LAPISLAZULI	3%
+Sex:	SEX.FEMALE
+Flags:	FLAG.NO_GET FLAG.NO_LOOK_LIST
+Name:	L'urna di Urkim
+Short:	un'urna
+Long:	$N è qui
+
+Descr:
+L'artigiano chiamato a realizzare questo piccolo capolavoro non ha lesinato né sui materiali né sulla tecnica: Una fine cesellatura s'avvolge affusolata a più volute per giungere ad un'infiorescenza di piccole gemme azzurre coronano la parte superiore del coperchio.
+
+DescrTouch: 
+Una fine cesellatura s'avvolge affusolata a più volute lungo il corpo dell'urna per coronare in un esplosione di pietruzze incastonate sulla sommità.
+
+DescrSixth:
+L'artigiano chiamato a realizzare questo piccolo capolavoro non ha lesinato né sui materiali né sulla tecnica.
+Se nessuno è riuscito nel tempo a sottrarre l'urna non può essere certo solo per scaramanzia.
+
+Value:	0
+Weight: 250g
+
+ContainerType:
+	KeyCode:	cimitero_item_chiave-urna-urkim
+	Flags:	 CONTAINER.CLOSED CONTAINER.LOCKED CONTAINER.CLOSABLE CONTAINER.SECRET
+	MaxWeight:	1kg
+End

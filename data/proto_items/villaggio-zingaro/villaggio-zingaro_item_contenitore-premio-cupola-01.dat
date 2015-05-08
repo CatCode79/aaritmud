@@ -1,0 +1,32 @@
+Code: villaggio-zingaro_item_contenitore-premio-cupola-01
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+MaterialPercentages:	MATERIAL.FLOWER	100%
+Name:	Lo [pink]Scrigno[close] del [pink]Bocciolo[close]
+Short:	un meraviglioso [pink]bocciolo[close]
+Long:	$N oscilla dolcemente.
+
+Descr:
+Un [pink]fiore[close], ancora in boccio, dalle considerevoli dimensioni dondola lentamente appeso alla cupola vegetale.
+I petali sono lievemente striati mentre la liana che lo sostiene il bocciolo è leggermente pelosina, sulla parte frontale i petali sono ripiegati a formare un foro a forma di toppa.
+DescrTouch: 
+Se avessi potuto pensare che non fosse veramente un fiore la serica morbidezza del bocciolo ti fa cambiare idea.
+DescrSmell: 
+Ti immergi nella fragranza [orange]agrumata[close] che ti avvolge.
+DescrSixth:
+Sembra un bocciolo... o forse uno [gold]scrigno[close]... magari tutti e due.
+
+Value:	0
+Weight: 231g
+
+ContainerType:
+	EntityOpenMessage:	$N che si dischiude al tuo tocco..
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$N si dischiude non appena viene sfiorato da $n.
+	Flags:	 CONTAINER.CLOSED CONTAINER.LOCKED CONTAINER.EATKEY CONTAINER.CLOSABLE CONTAINER.OPEN_ONE_TIME
+        KeyCode:	villaggio-zingaro_item_chiave-premio-cupola 
+	MaxWeight:	1kg
+End

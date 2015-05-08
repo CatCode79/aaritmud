@@ -1,0 +1,31 @@
+Code: arena-drago_item_door-inferriata-accesso-arena-37-est
+Level: 1
+Entitype:	ENTITYPE.DOOR
+MaterialPercentages:	MATERIAL.METAL 100%
+Sex:	SEX.FEMALE
+Name:	Una pesante inferriata
+Short:	un'inferriata
+Long:	$N è a terra scardinata.
+
+Descr:
+Una pesante inferriata metallica realizzata con grezzi pezzi metallici ed anelli diseguali.
+
+Value:	0
+Weight: 20kg
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Apri $N.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N.
+	EntityCloseMessage:	Richiudi $N.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n chiude $N.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE DOOR.LOCKED
+	KeyCode:	arena-drago_item_mazzo-arena
+End
+
+

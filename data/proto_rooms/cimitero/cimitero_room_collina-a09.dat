@@ -1,0 +1,36 @@
+Code: cimitero_room_collina-a09
+Sector: SECTOR.HILL
+Name: Il Giardino di Villa Akelay
+Short: il giardino pietrificato
+
+Descr:
+Sei al centro di un enorme giardino pietrificato in cui tutti i fiori e le piante sono
+state colte nel momento del più fulgido splendore e congelate in grigiore triste e
+terribile. Dai roseti fino agli alberi del viale d'accesso, tutto è pietra e polvere.
+A nordovest il giardino termina sull'ingresso di un antico palazzo.
+DescrSmell: 
+La zona collinare è avvolta dagli abbracci languidi dell'odore di spezie e decomposizione.
+Per alcuni tratti si coglie però una scia che rimane la stessa per un certo tratto.
+DescrHearing:
+Il sibilo del vento produce un lugubre suono cupo sostenuto negli effetti lungo le
+lapidi frastagliate.
+
+Extras:
+	Keywords: scia
+	DescrSmell:
+	Un flebile odore sottile si confonde e sparisce nei caldi abbracci degli effulvi di decomposizione.
+End
+
+Width:	6m
+Depth:	6m
+Height: 113m
+
+
+Exits:
+	Direction: DIR.EAST
+	Descr: Il sentiero spezzato
+End
+Exits:
+	Direction: DIR.NORTHWEST
+	Descr: All'interno della villa
+End

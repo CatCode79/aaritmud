@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_088_prigione-guardiano-088
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	La Prigione del Guardiano
+Short:	la prigione del guardiano
+	Descr:
+Attraversi l'arazzo e ti infili in una stanza di discrete
+dimensioni, anche qui tutto è nero come la pece ed inoltre
+scompaiono anche le poche venature di colore che caratterizzavano
+il corridoio. Un essere strano ed oscuro è legato alla parete
+sud, ad uno dei suoi due colli vedi penzolare un ciondolo a forma
+di moneta nera.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	1|8|32|16777216|33554432 0
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	un corridoio
+	Comment:	ExitStatus	1|8|16|32|256|512 0 083 374
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

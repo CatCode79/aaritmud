@@ -1,0 +1,33 @@
+Code: novizi2_item_porta-interna
+Level: 1
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.WOOD 100%
+Name:	La Porticina di Legno
+Short:	una porticina
+Long:	$N ha fatto una brutta fine
+
+Descr:
+È una comunissima e minuta porta in legno; l'apparenza fragile è suffragata dalla
+spaccatura che la percorre dalla maniglia fino a terra.
+DescrTouch: 
+Una porta traballante e di fattura estremamente economica.
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Apri $N con circospezione
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n con delicatezza cerca di aprire $N.
+	EntityCloseMessage:	Accompagni $N facendo attenzione a non rompere nulla.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n accompagna $N fino a richiudere l'accesso.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE DOOR.NO_USE_DIR
+End
+
+Value:	0
+Weight: 10kg
+
+

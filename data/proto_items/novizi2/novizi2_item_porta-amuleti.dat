@@ -1,0 +1,36 @@
+Code: novizi2_item_porta-amuleti
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.COTTON	10%
+MaterialPercentages:	MATERIAL.SOFTWOOD	90%
+Name:	Un Vassoietto con tracolla
+Short:	un vassoietto con tracolla
+Long:	La cinghia di cuoio di $N poggia molle di lato 
+
+Descr:
+Un vassoietto di legno al quale è fissata una lunga strisca di cuoio da mettere al collo.
+DescrTouch: 
+Un leggero vassoietto al quale è fissata una lunga strisca morbida da tenere al collo.
+DescrSmell: 
+Odora considerevolmente delle usanze del precedente proprietario.
+DescrSixth:
+Mettendo la striscia al collo, l'espositore resta in posizione ben visibile lasciando le mani libere.
+DescrTaste:
+Addenti la striscia di cuoio  anelando ad una punizione.
+
+Value:	0
+Weight: 450g
+
+
+WearType:
+	Modes:	PART.NECK
+	EntityWearMessage:	Porti al collo la cinghia e poggi il portaoggetti al busto.
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	$n porta al collo la cinghia e poggia il portaoggetti al busto.
+End
+
+ContainerType:
+	MaxWeight:	2kg
+End

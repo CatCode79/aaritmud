@@ -1,0 +1,26 @@
+Comment:
+il peridoto è detto anche olivina e preferisco chiamarlo olivina che mi pare un po' più rpg
+
+Code: miniere-kezaf_item_gemma-peridoto
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_peridot.png
+Name:	Un'Olivina
+Short:	una pietra preziosa grezza
+Long:	$N sta qui
+
+Descr:
+Una gemma verde scura piuttosto pesante ed ancora grezza ma di indubbio valore.
+
+DescrSixth:
+Una gemma nata dal fuoco, di origine vulcanica. Ne esiste solo la varità di questo
+colore che ha la peculiarità di rimanere pressoché immutato anche sul far della sera
+quando la luce è flebile. 
+
+Value:	0
+Weight: 110g
+
+

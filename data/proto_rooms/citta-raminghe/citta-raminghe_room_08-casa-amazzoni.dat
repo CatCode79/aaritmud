@@ -1,0 +1,37 @@
+Comment: Metterei qui le armi delle amazzoni, i vestiti etc. e altri oggeti che via via mi verranno in mente.Si potrebbe far si che ad una data ora si riuniscano, si incontrino qui per un pò, prima di ricominciare a girare per la città.Pensavo che sarebbe divertente se nel momento in cui entra un pg, si attivi un dialogo tra le amazzoni e tra le amazzoni e il pg.
+
+
+Code: citta-raminghe_room_08-casa-amazzoni
+Sector: SECTOR.CITY
+Name: [deeppink]La Casa delle Amazzoni[close]
+Short: [deeppink]la casa delle amazzoni[close]
+
+Descr:
+Un ambiente molto spazioso e confortevole. Qui le guerriere ripongono le loro 
+armi e si incontrano per elaborare strategie e conversare. La grande sala è arredata con
+[salmon]divani comodi e spaziosi[close], rivestiti da stoffe pregiate. Il pavimento è 
+ricoperto quasi completamente da [red]grandi tappeti[close] lavorati con molta cura da mani esperte. Numerosi 
+[red]libri[close] sono sparsi ovunque per la sala; le pareti sono decorate con [lime]affreschi[close] che riproducono 
+scene di combattimento e di vita quotidiana delle amazzoni. 
+
+DescrSmell: 
+Avverti il profumo di incensi speziati
+DescrSixth:
+La forza delle guerriere è quella che riguarda sia la mente che il corpo. 
+Un luogo dove gli oggetti per il combattimento sono accostati a libri e profumi ti da l'idea della complessità delle 
+guerriere amazzoni.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.NORTH
+	Door:	ikea_item_porta
+	Descr: In città
+End
+Exits:
+	Direction: DIR.SOUTH
+	Door:	ikea_item_porta
+	Descr: In città
+End

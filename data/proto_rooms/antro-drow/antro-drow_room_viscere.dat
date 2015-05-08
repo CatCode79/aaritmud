@@ -1,0 +1,22 @@
+Code: antro-drow_room_viscere
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: Nelle Viscere
+Short: nelle viscere
+
+Descr:
+Limitato nei movimenti dalla sempre maggiore anfrattuosità arrivi al punto in cui non si riesce più a scendere anche se l'occhio scorge verso il basso uno spazio libero interminabile. 
+DescrTouch: 
+Roccia frastagliata ed anfratti sempre più ramificati ed impossibili da attraversare si estendono in quasi tutte le direzioni.
+DescrSmell: 
+Esalazioni sulfuree appena percettibili salgono di tanto in tanto.
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.UP
+	Descr: Il camino di roccia
+End

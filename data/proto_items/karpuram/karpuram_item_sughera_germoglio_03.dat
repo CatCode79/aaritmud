@@ -1,0 +1,25 @@
+Code: karpuram_item_sughera_germoglio_03
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+MaterialPercentages:	MATERIAL.VEGETABLE	100
+Sex:	SEX.MALE
+Name: Il [springgreen]Germoglio[close] d'una Quercia da [springgreen]Sughero[close] 
+Short: un timido [springgreen]germoglio[close]
+Descr:
+Un germoglio verde scuro tutto pelosino con due fogline che guardano in su. 
+
+Value:	0
+Weight: 10g
+
+DescrTouch: 
+Una fragile germoglio dal fusto lungo e peloso, con un paio di foglie dalle venature
+in evidenza.
+
+Extras:
+  Keywords: pianticella
+  Descr: difficile dire di che pianta si tratta
+  DescrSixth: un germoglio d'una quercia da sughero
+End
+
+

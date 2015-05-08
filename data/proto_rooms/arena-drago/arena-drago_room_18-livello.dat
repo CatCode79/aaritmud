@@ -1,0 +1,68 @@
+Code:	arena-drago_room_18-livello
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il II Livello
+Short:	il II livello
+	Descr:
+La strada segue dolcemente la curva della struttura proseguendo
+verso nord ed est, l'ambiente accogliente e caldo ti mette
+perfettamente a tuo agio, credi proprio che nulla potrebbe
+importunarti in questo luogo.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 1
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	il II livello
+	Comment:	ExitStatus	0 0 27717 -1
+	Destination:	3 5 0 arena-drago
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	il II livello
+	Comment:	ExitStatus	0 0 27711 -1
+	Destination:	6 2 0 arena-drago
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

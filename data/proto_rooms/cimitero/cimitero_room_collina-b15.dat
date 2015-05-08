@@ -1,0 +1,56 @@
+Code: cimitero_room_collina-b15
+Sector: SECTOR.HILL
+Name: L'Antico Pozzo
+Short: un affossamento centrale
+
+Descr:
+Alcuni sentieri si congiungono su questo affossamento collocato quasi al centro della
+collina. I sentieri si avvolgono l'uno all'altro in una sorta di piazzetta pavimentata
+in pietra. Al centro c'è quel che resta di un pozzo, parzialmente ostruito da massi e
+un'inferriata tutta rintorcinata e semidivelta.
+DescrSmell: 
+La zona collinare è avvolta dagli abbracci languidi dell'odore di spezie e decomposizione.
+Per alcuni tratti si coglie però una scia che rimane la stessa per un certo tratto.
+DescrHearing:
+Il sibilo del vento produce un lugubre suono cupo sostenuto negli effetti lungo le
+lapidi frastagliate.
+
+Extras:
+	Keywords: scia
+	DescrSmell:
+	Lungo il tratto di sentiero che hai appena seguito l'odore più significativo è stato quello di #SMELL.
+End
+
+Extras:
+	Keywords: simboli
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+Width:	6m
+Depth:	6m
+Height: 113m
+
+
+Exits:
+	Direction: DIR.SOUTHWEST
+	Descr: Un altro trivio di sentieri
+End
+Exits:
+	Direction: DIR.NORTHWEST
+	Descr: Scendendo dal versante nord
+End
+Exits:
+	Direction: DIR.EAST
+	Descr: L'erto pendio
+End

@@ -1,0 +1,29 @@
+Code: ikea_item_weapon-daga
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAPON
+MaterialPercentages:	MATERIAL.IRON	90
+MaterialPercentages:	MATERIAL.CLOTH	10
+Sex:	SEX.MALE
+Name:	Una Daga
+Short:	una daga
+Long:	$N di semplice fattura
+
+Descr:
+Una daga forgiata in un pezzo unico, il manico è reso meno scomodo da un doppio avvolgimento di corda.
+DescrTouch: 
+Una daga non perfettamente bilanciata forgiata in un pezzo unico.
+Il manico è stato rivestito da un doppio strato di corda per rendere meno evidente il difetto di bilanciamento... almeno agli occhi.
+DescrSixth:
+Una daga con un pregio di sicuro: se una volta lanciata non la si riuscisse a recuperare non sarebbe una grave perdita.
+
+Value:	0
+Weight: 400g
+
+WeaponType:
+	Category:	WEAPON.DAGGER
+	Flags:	WEAPONFLAG.ONE_HAND 
+End
+WearType:
+   Modes: PART.WIELD
+End

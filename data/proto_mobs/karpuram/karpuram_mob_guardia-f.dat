@@ -1,0 +1,70 @@
+Code: karpuram_mob_guardia-f
+Level: 1
+Sex:	SEX.FEMALE
+Race:	RACE.WOODELF
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name: Una Sentinella 
+Short: un'elfa agguerrita
+Long:	$N è qui di guardia
+
+Descr:
+Un'elfa alta quanto il suo sfuggevole sguardo di consapevole superiorità;
+il sorriso benevolo fatica non poco a mascherarne l'atteggiamento.
+DescrSmell:
+Miele o forse nettare o forse ancora centinaia di fiori che si alternano con
+la volontà consapevole di non interferire fra loro
+
+DescrSixth:
+La serena tranquillità della guardia sembra solo apparente
+
+Weight: 80kg
+Height: 190cm
+
+Behaviour:
+	LookPlayer:	10
+	LookMob:	10
+	LookItem:	5
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	10
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	5
+	RandomDoInputs:	emote sparisce come gazzella per riapparire pochi metri poco oltre 
+End
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 34
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

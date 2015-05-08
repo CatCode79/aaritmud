@@ -1,0 +1,45 @@
+Comment: la famiglia è quella delle gnatte dei funghi che è una traduzione da quella lingua barbara che è l'inglese
+Code: novizi2_item_amuleto-titiwai
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.SILK	100%
+Name:	Un [cyan]Amuleto[close] di Seta Titiwai 
+Short:	un [slategray]amuleto[close] di seta
+ShortNight:	un [cyan]amuleto[close] di seta
+Long:	$N grigiastra
+LongNight:	$N rifulge di [cyan]luce[close] diafana
+
+Descr:
+Un [slategray]bozzolo[close] serico grigiastro con un [deepskyblue]collarino[close] azzurro dal quale si diparte un cordoncino della stessa tinta. 
+DescrNight:
+Un [cyan]bozzolo[close] serico luminoso con un [deepskyblue]collarino[close] azzurro dal quale si diparte un cordoncino della stessa tinta. 
+DescrTouch: 
+Un morbido [slategray]bozzolo[close] leggero con un [deepskyblue]collarino[close] stretto al centro dal quale partono due fili di cordoncino.
+DescrTouchNight: 
+Un morbido [cyan]bozzolo[close] leggero con un [deepskyblue]collarino[close] stretto al centro dal quale partono due fili di cordoncino.
+DescrSmell: 
+Una certa fragranza fungina ti fa sospettare che l'ospite del bozzolo sia ormai defunto.
+DescrSixth:
+Riconosci nonostante sia spento, un bozzolo di titiwai; una sorta di moscerino gigante con esemplari lunghi fino a tre dita.
+sia le larve che gli adulti brillano al buio; opportunamente trattato anche il bozzolo può essere reso luminoso, ma a discapito dell'ospite.
+DescrSixthNight:
+Riconosci un luminoso [cyan]bozzolo[close] di titiwai; una sorta di moscerino gigante con esemplari lunghi fino a tre dita.
+sia le larve che gli adulti brillano al buio; opportunamente trattato anche il bozzolo può essere reso luminoso, ma a discapito dell'ospite.
+DescrHearing:
+Ogni tanto par di sentire dall'interno come dei movimenti.
+
+Value:	95
+Weight: 10g
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+	Modes:	PART.NECK
+	EntityWearMessage:	Allacci i fili penduli di $N dietro %part.
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	$n allaccia i fili pneduli di $N dietro %part.
+	EntityRemoveMessage:	Ti slacci $N.
+	TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+	OthersRemoveMessage:	$n si slaccia $N
+End

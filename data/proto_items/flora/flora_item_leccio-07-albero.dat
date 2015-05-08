@@ -1,0 +1,39 @@
+Code: flora_item_leccio-07-albero
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Flags: FLAG.NO_GET
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name: Un Bel [saddlebrown]Leccio[close] Adulto
+Short: un [saddlebrown]leccio[close] adulto
+
+Descr:
+Un leccio dalla chioma ovaleggiante e con il fusto che pare cresciuto indeciso tanto
+da non trovare un tratto che sia dritto per più di un palmo.
+I rami sono neri e ricoperti di foglie lucide puntute e robuste; anche la corteccia
+è nera e percorsa da screpolature irregolari che la fanno sembrare un mosaico di
+quadrettini tutti della stessa misura.
+
+DescrTouch: 
+Un leccio adulto, dal fusto percorso da crepette regolari come se uno spiritello l'avesse
+quadrettato per noia.
+
+Value:	0
+Weight: 150kg
+
+Extras:
+  Keywords: corteccia quadretto quadretti screpolature screpolatura
+  Descr: tutto ricoperto da piccole placche persistenti di forma approssimativamente quadrata
+  DescrTouch: tutto ricoperto da placche persistenti che proprio non si voglion staccare
+End
+
+PlantType:
+    Sectors:	SECTOR.PLAIN SECTOR.HOUSE
+    RpgHours:	190
+    WorseEntity:	flora_item_leccio-08-fiorito
+    NormalEntity:	flora_item_leccio-08-fiorito
+    BetterEntity:	flora_item_leccio-08-fiorito
+End
+
+

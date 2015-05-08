@@ -1,0 +1,13 @@
+Code: rap
+
+ItalianKeywords: bussa
+EnglishKeywords: rap
+
+Entitype: HELP.GENERIC
+
+Text:
+Questo comando ti permette di bussare su un passaggio chiuso e tutti
+dall'altro lato lo sentiranno.
+
+
+SeeAlso: open close

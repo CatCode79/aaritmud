@@ -1,0 +1,25 @@
+Code: ikea_item_cucchiaio-dolce
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+Flags:	FLAG.RANDOMIZABLE
+MaterialPercentages:	MATERIAL.STEEL	100%
+Name:	Un Cucchiaio da Dolce
+Short:	un cucchiaio
+Long:	$N non è al suo posto.
+
+Descr:
+Un cucchiaio ovale più grande di un cucchiaino da té ma più piccolo di un cucchiaio da minestra. Il manico si allarga verso la fine opposta ed è stondato. Chiaramente si tratta un cucchiaio da dessert.
+DescrTouch: 
+È piuttosto massivo pur non essendo molto grande. L'acciaio con cui è fatto è liscio e freddo.
+DescrSmell: 
+Perfettamente pulito non manda alcun odore percettibile.
+DescrTaste:
+Non ha nessun sapore ma causa un po' di fastidio quando tocca i denti.
+DescrSixth:
+Finalmente non ci sarà più l'imbarazzo di usare il cucchiaio sbagliato per i dessert.
+
+Value:	0
+Weight: 50g
+
+

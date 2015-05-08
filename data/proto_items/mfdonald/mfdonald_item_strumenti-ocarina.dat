@@ -1,0 +1,24 @@
+Comment: STRUMENTO.AEROFONO
+Code: mfdonald_item_strumenti-ocarina
+Level: 1
+Entitype:	ENTITYPE.INSTRUMENT
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.CLAY 100%
+Icon:	icons/instrument/ocarina.png
+Name:	Un'[maroon]Ocarina[close] di terracotta
+Short:	un'ocarina
+Long:	C'è $N ovale qui.
+
+Descr:
+Uno strumento di terracotta con un beccuccio sporgente ed una mezza dozzina di fori nella
+parte superiore.
+DescrTouch: 
+Uno strumento di materiale pesante e ruvido con un beccuccio sporgente ed una mezza
+dozzina di fori nella parte superiore.
+DescrTaste:
+La porti alle labbra sentendoti asciugare fin anco la lingua.
+
+Value:	0
+Weight: 213g
+
+

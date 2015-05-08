@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_091_corridoio-091
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Un Corridoio
+Short:	un corridoio
+	Descr:
+Qui il corridoio finisce così come era iniziato, con la
+sobrietà di un semplice muro completamente spoglio... A nord e
+sud si aprono due porte verdi mentre ad est il corridoio torna
+verso l'uscita.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 0
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	le camerate [green]verdi[close]
+	Comment:	ExitStatus	1 0 095 -1
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	un corridoio
+	Comment:	ExitStatus	0 0 090 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	le camerate [green]verdi[close]
+	Comment:	ExitStatus	1 0 094 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

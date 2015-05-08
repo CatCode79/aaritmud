@@ -1,0 +1,37 @@
+Code: villaggio-zingaro_item_cintura-fodero
+Level:	1
+Entitype: ENTITYPE.WEAR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.LEATHER 95%
+MaterialPercentages:	MATERIAL.BRASS 5%
+Icon:	icons/equipment/cintura.png
+Name:	Un Cintura con Fodero
+Short:	una cintura
+Long:	$N piuttosto modesta.
+
+Descr:
+Una lunga cintura in pelle alla quale è applicato un fodero per pugnale rigido, leggermente ricurvo e completamente disadorno; termina con un modesta fibbia metallica rettangolare.
+DescrTouch:
+Scorrendo lungo la cintura puoi apprezzare l'ottima pelle con cui è stata realizzata.
+DescrSixth:
+Intuisci che questo oggetto viene utilizzato più per necessità che per vanità.
+
+Value:	0
+Weight: 320g
+
+ContainerType:
+       MaxWeight: 200g
+End
+
+
+WearType:
+	Modes: PART.WAIST
+	EntityWearMessage:	Allacci $N.
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	$n allaccia $N.
+	EntityRemoveMessage:	Slacci $N.
+	TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+	OthersRemoveMessage:	$n slaccia $N.
+End
+
+

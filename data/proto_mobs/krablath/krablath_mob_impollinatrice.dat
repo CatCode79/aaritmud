@@ -1,0 +1,105 @@
+Code:	krablath_mob_impollinatrice
+Level:	1
+Sex:	SEX.MALE
+Race:	RACE.TROLL
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Impollinatrice Marianna Astrid
+Short:	[teal]impollinatrice Marianna Astrid[close]
+Long:	$N s'arrabatta
+
+Descr:
+Un
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Weight: 89kg
+Height: 170cm
+
+Extras:
+	Keywords: chiave
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 34
+
+
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100
+
+Strength:	10
+Endurance:	10
+Agility:	10
+Speed:		10
+Intelligence:	10
+Willpower:	10
+Personality:	10
+Luck:		10
+
+
+Behaviour:
+	LookPlayer:	0
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	LookEquipment:	0
+	SmellPlayer:	0
+	ListenMob:	0
+	TouchItem:	0
+	IntuitionAtRacesFlags:	RACE.NONE
+	IntuitionAtRaces:	0
+	TasteAtEntitypesFlags:	ENTITYPE.NONE
+	TasteAtEntitypes:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	0
+	RandomDoInputs:	#contained_by is SECTOR.PLAIN#emote rassetta il plain#emote non si trova in plain#
+	RandomDoInputs:	#contained_by is SECTOR.TERRACE#emote qui è terrace ma altrimenti niente##
+	RandomDoInputs:	#contained_by is SECTOR.HOUSE#emote casa dolce casa#emote fuori casa è male#
+	RandomDoInputs:	#contained_by is SECTOR.HEATH#emote terra fungosa#emote senza funghi non si mangia#
+	RandomDoInputs:	#contained_by is SECTOR.UNDERGROUND#emote sottoterra#emote rugby senza terra#
+	RandomDoInputs:	emote si gratta.
+End

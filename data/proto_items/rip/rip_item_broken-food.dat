@@ -1,0 +1,24 @@
+Comment: L'etichetta materials non viene realmente utilizzata ma serve per non avere errori
+Comment: conveniente negli oggetti rotti l'uso dell'etichetta %material
+Code: rip_item_broken-food
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Sex:	SEX.MALE
+Name:	Una pietanza a Base di %material Spalmata o Schiacciata
+Short:	una pietanza a base di %material spalmata o schiacciata
+
+Long:	C'è $N con foga
+
+Descr:
+Era un piatto di cibo o una pietanza in origine, ora i resti più riconoscibili son quelli di %material.
+DescrTouch: 
+Qualcosa di commestibile e che ha ricevuto più critiche del necessario. Ci è rimasto proprio male.
+DescrSmell:
+Un aroma distinto, come di stivali sporchi e cuoio.
+DescrSixth:
+Una volta si diceva che il cibo non va sprecato neppure nell'abbondanza.
+Deve essere un nuovo cambio di paradigma.
+
+Weight: 10g

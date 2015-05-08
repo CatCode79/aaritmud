@@ -1,0 +1,35 @@
+Code: torreelementi_item_guscio-essere
+Level: 1
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.SHELL	100%
+Name: Il Guscio della Mutazione
+Short: quel che resta di qualcosa
+Long:	$N è qui senza vita
+
+Descr:
+È come se un crostaceo enorme fosse esploso dall'interno lasciando solo i resti del
+suo esoscheletro chitinoso.
+DescrTouch: 
+Estremamente corazzato e leggero con alcune giunture ancora funzionanti.
+DescrSixth:
+Più che un esplosione pare abbia subito una muta.
+
+Value:	0
+Weight: 7kg
+
+Extras:
+	Keywords: esoscheletro chitinoso
+	Descr:
+	Qualunque bestia sia uscita da questo coso è da sperare non sia aggressiva
+End
+
+WearType:
+	Modes: PART.RIGHT_SHOULDER PART.RIGHT_FOREARM PART.RIGHT_ELBOW
+	EntityWearMessage:	Ti rivesti parzialmente con $N.
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	$n indossa $N a parziale copertura del corpo.
+	EntityRemoveMessage:	Armeggi un po' con $N prima di riuscire a sfilartelo.
+	TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+	OthersRemoveMessage:	$n armeggia un po' con $N prima di riuscire a sfilarselo.
+End

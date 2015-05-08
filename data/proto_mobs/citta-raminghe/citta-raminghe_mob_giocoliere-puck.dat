@@ -1,0 +1,95 @@
+Comment: Un giocoliere che sta nella piazza principale della città delle raminghe. Di giorno esibisce le sue abilità nella giocoleria, 
+di notte si trasforma in gatto.
+
+
+MaxGlobalQuantity:	1
+Code: citta-raminghe_mob_giocoliere-puck
+Level:	5
+Sex:	SEX.MALE
+Race:	RACE.PIXIE
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Puck
+Short: un [lightgreen]giocoliere[close]
+ShortNight: un [orange]gatto dalla lunga e folta coda[close]
+Long: $N lancia oggetti per aria davanti ad un pubblico divertito
+LongNight: $N vaga per la città con l'aria di cercare qualcosa
+
+Descr:
+Un pixie giocoliere minuto e dispettoso intrattiene il pubblico nella piazza. I  giochi sono eseguiti con una destrezza senza pari. Sembra vestito in modo estremamente accurato e porta un enorme fiocco verde al collo.
+
+DescrNight:
+Un felino dall'aria dispettosa.
+DescrTouch:
+Ti ritrovi sommerso da oggetti di giocoleria se tenti di avvicinarti
+DescrTouchNight:
+Non sembra opportuno avvicinarsi poichè si tratta di felino permaloso
+
+DescrSmell:
+Odora di zucchero filato.
+DescrSmellNight:
+Odore di gatto selvatico.
+DescrHearing:
+Suoni che non sai decifrare. 
+DescrHearingNight:
+Miagolii notturni
+
+DescrSixth:
+Un pixie che con agilità maneggia oggetti è uno spettacolo da non perdere. Ma non chiedergli mai la strada poichè le sue indicazioni sono fuorvianti. Vuoi diventare un pixie-led? Allora prova...
+
+DescrSixthNight:
+Che ci fa un gatto qui e cosa cerca? Forse se si conoscesse la sua storia potresti averne un'idea...
+
+Height: 30cm
+Weight: 15kg
+
+BirthDay:	3
+BirthMonth:	MONTH.FOUR 
+Age: 126
+
+Behaviour:
+     LookPlayer:	50
+     LookMob:	50
+     LookItem:	50
+     LookAtRacesFlags:	RACE.NONE   
+     LookAtRaces:	0
+     LookAtEntitypesFlags:	ENTITYPE.NONE
+     LookAtEntitypes:	0
+     LookSelf:	10
+     LookDirection:	10
+     LookExit:	10
+     LookWall:	0
+     LookClosedDoor: 10
+     LookExtra:	0
+     WanderDirection:	0
+     WanderExit:	0
+     WanderWall:	0
+     WanderClosedDoor:	0
+     WanderAtExitsFlags:	DIR.NONE
+     WanderAtExits:	0
+     WanderArea:	0
+     WanderPortal:	0
+     WanderEnterContainer:	0
+     WanderExitContainer:	0
+     WanderSelf:	10
+     RandomDo:	30
+     RandomDoInputs:	emote esprime con i suoi occhi fessurati intenzioni profondamente ironiche
+     RandomDoInputs:	emote pensa a qualcosa che non ti è consentito sapere
+End
+
+
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100
+
+Strength:	10
+Endurance:	10
+Agility:	10
+Speed:		10
+Intelligence:	10
+Willpower:	10
+Personality:	10
+Luck:		10

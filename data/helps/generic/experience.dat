@@ -1,0 +1,34 @@
+Code: experience
+
+ItalianKeywords: esperienza livello px
+EnglishKeywords: experience level xp
+
+Entitype: HELP.INFO
+
+Text:
+Il tuo personaggio avanza in potenza guadagnando esperienza. 
+
+Puoi guadagnare esperienza:
+- infliggendo danni ad un avversario
+- facendo parte di un gruppo che uccide un avversario
+- riuscendo ad imparare un'abilità o incantesimo attraverso l'uso
+
+Puoi perdere esperienza:
+- scappando da un combattimento
+- essendo evocato fuori da un combattimento
+- se vieni colpito da certi incantesimi (energy drain, ecc.)
+- morendo
+
+L'esperienza che guadagnerai da un'uccisione dipende da molte cose: quanti
+giocatori sono nel tuo gruppo, il tuo livello rispetto al livello del mostro,
+il tuo allineamento rispetto all'allineamento del mostro ed altre variabili
+casuali.
+
+Le tue ultime 20 uccisioni sono registrate. Ogni volta che uccidi una creatura
+che è stata una di queste 20 riceverai sempre meno esperienza da lei.
+La creatura inoltre imparerà dalla sua esperienza con te ogni volta; se la
+sua intelligenza è più alta della tua inizierà ad avere sempre più
+vantaggio su di te in combattimento.
+
+
+SeeAlso: kill

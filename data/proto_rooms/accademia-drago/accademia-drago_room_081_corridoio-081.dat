@@ -1,0 +1,113 @@
+Code:	accademia-drago_room_081_corridoio-081
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Un Corridoio
+Short:	un corridoio
+	Descr:
+Un corridoio completamente nero: mura, pavimento e soffitto...
+Uniche note di colore sono alcune venature grigio-azzurre
+che corrono nelle pietre; sembrano quasi spostarsi e luccicano
+come vene minerarie. Ad est una porta conduce esternamente mentre
+il corridoio prosegue verso sud.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 0
+Exits:
+	Direction:	DIR.EAST
+	Descr:	l'androne [gray]nero[close]
+	Comment:	ExitStatus	1 0 080 -1
+	Door:	ikea_item_porta
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	un corridoio
+	Comment:	ExitStatus	0 0 082 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

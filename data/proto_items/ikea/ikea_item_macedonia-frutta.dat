@@ -1,0 +1,26 @@
+Code: ikea_item_macedonia-frutta
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.PULP	90%
+MaterialPercentages:	MATERIAL.SUGAR	10%
+Name:	Una Macedonia Di Frutta
+Short:	una macedonia di frutta
+Long:	$N è qui
+
+Descr:
+Una coppetta colma di frutta fresca, tagliata a dadini e spolverizzata con un abbonante cucchiaio di zucchero
+DescrTouch: 
+Noti frutta di diversa consistenza
+DescrSmell: 
+Percepisci i diversi profumi dei vari frutti.L'intensità della fragola, la delicatezza della pesca..
+DescrSixth:
+Chi ha creato questo piatto a buon occhio! La frutta è tagliata a dadini della stessa grandezza
+DescrTaste:
+Il succo di limone esalta i gusti di ogni cubetto e rende il piatto dolce e rinfrescante
+DescrHearing:
+no_send
+
+Value:	0
+Weight: 120g

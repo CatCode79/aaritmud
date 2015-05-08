@@ -1,0 +1,14 @@
+Code: findnote
+
+ItalianKeywords: trovanota
+EnglishKeywords: findnote
+
+Entitype: HELP.GENERIC
+
+Text:
+Questo comando cerca nelle note che hai con te. Troverà la nota e la
+piazzerà tra le tue mani. La &lt;[darkgreen]parola chiave[close]&gt; deve essere composta di
+parole prese dall'oggetto della nota che stai cercando.
+
+
+SeeAlso: note

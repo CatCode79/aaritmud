@@ -1,0 +1,45 @@
+Code: flora_item_peperoncino-04-frutto
+Level: 1
+Icon:	icons/food/peperoncino.png
+MaxGlobalQuantity:	100
+Entitype: ENTITYPE.FRUIT
+Flags:  FLAG.INTERACTABLE_FROM_OUTSIDE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.FRUIT	100%
+Name: Un [red]Peperoncino[close]
+Short: un bel [red]peperoncino[close] maturo
+Long:	$N si trova qui.
+
+Descr:
+Un frutto di peperoncino è una bacca che mostra una intensa colorazione rosso-arancio. La sua forma è affusolata e presenta
+un picciolo di un verde molto intenso.
+
+DescrTouch:
+Al tatto si presenta piuttosto  compatto e leggermente morbido alla pressione.
+
+DescrTaste:
+Coraggiosamente lo assaggi. Inizialmente non provi alcuna sensazione, ma con il procedere del tempo, nell'arco di 
+qualche secondo, comincia a sprigionarsi sulle tue papille gustative una piccantezza che aumenta progressivamente e non ti 
+lascia scampo.
+
+Value:	0
+Weight: 50g
+
+FoodType:
+	Comment:	cibo
+	Animal:	0
+	Vegetable:	100
+	CookingDamage:	0
+	Hours:	0
+End
+
+ContainerType:
+	EntityOpenMessage:	In qualche modo strappi ed allarghi $N per prenderne i semi.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n allarga $N per prenderne i semi.
+	Flags:	 CONTAINER.CLOSED CONTAINER.CLOSABLE CONTAINER.SECRET CONTAINER.OPEN_ONE_TIME
+        MaxWeight: 10g
+End
+
+MaxLife:	10
+Life:		10

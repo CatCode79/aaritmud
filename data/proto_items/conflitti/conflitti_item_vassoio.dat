@@ -1,0 +1,30 @@
+Code: conflitti_item_vassoio
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+MaterialPercentages:	MATERIAL.MANA	1
+MaterialPercentages:	MATERIAL.SOFTWOOD	99
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+Name:	Il Vassoio Fluttuante
+Short:	un vassoio
+Long:	Colmo di prelibatezze $N è qui a mezzaria inamovibile
+
+Descr:
+Di forma ovoidale abbastanza grande di dimensioni sembra realizzato con un metallo luccicante e riflettente.
+Contiene un pane agli aromi ed un dolce speziato.
+DescrTouch:
+La superficie è liscia. Ma a che ti serve toccare un vassoio?
+DescrSmell:
+Non è opportuno annusare un vassoio.
+DescrSixth:
+Utile la sua funzione di contenere cibi. 
+DescrTaste:
+Ma che fai?
+
+Value:	0
+Weight: 200g
+
+ContainerType:
+        MaxWeight: 4kg
+End

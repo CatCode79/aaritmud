@@ -1,0 +1,21 @@
+Code: villaggio-zingaro_item_pestello-agata
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.AGATE	100%
+Name:	Un [seagreen]Pestello[close] d'[seagreen]Agata[close]
+Short:	un [seagreen]pestello[close] affusolato
+Long:	$N è qui
+
+Descr:
+Uno slanciato pestello in [seagreen]pietra dura[close] traslucida, lucente e con un 
+pomellino ad una delle estremità.
+DescrTouch: 
+Un liscissimo pestello in pietra dura.
+DescrSixth:
+Pare nuovo.
+
+Value:	77
+Weight: 10g
+

@@ -1,0 +1,20 @@
+Code: antro-drow_room_grotta-04
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: Una Grotta Naturale
+Short: una grotta naturale
+
+Descr:
+La propaggine estremale di una grotta di apparente origine naturale guarda verso ovest. Cupo e nero come la pece, un [slategray]piedistallo[close] squadrato collocato sulla pavimentazione, mette in mostra una statua acefala.
+DescrHearing:
+Un brusio sommesso si origina qui da qualche parte.
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.EAST
+	Descr: La grotta prosegue
+End

@@ -1,0 +1,21 @@
+Code:	accademia-drago_item_chiave-sudicia
+Level:	06
+Entitype:	ENTITYPE.KEY
+MaterialPercentages:	MATERIAL.IRON 100%
+Sex:	SEX.FEMALE
+Name:	Una sudicia chiavetta
+Short:	una sudicia chiavetta
+Long:	$N è abbandonata qui.
+
+Value:	0
+Weight:	100g
+
+Descr:
+una chiavetta arruginita e piena di grasso.
+
+Comment:
+§27617
+
+Dati Obj
+A40 2
+18 262144 10 0 0 01 0 -1

@@ -1,0 +1,68 @@
+Code:	arena-drago_room_16-livello
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il II Livello
+Short:	il II livello
+	Descr:
+Ti muovi a tuo agio in questo largo camminamento che funge da
+vera e propria strada cittadina, di tanto in tanto un mercante ti
+ferma per mostrarti qualche ninnolo a sua detta proveniente da un
+remoto e fantastico regno... l'aria bonaria e il sorriso
+contagioso della gente di qui ti fanno sentire in pace con te
+stesso...
+La via procede ad est e sud.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 1
+Exits:
+	Direction:	DIR.EAST
+	Descr:	il II livello
+	Comment:	ExitStatus	0 0 27715 -1
+	Destination:	6 8 0 arena-drago
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	il II livello
+	Comment:	ExitStatus	0 0 27717 -1
+	Destination:	3 5 0 arena-drago
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

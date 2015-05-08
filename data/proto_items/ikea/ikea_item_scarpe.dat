@@ -1,0 +1,23 @@
+Code: ikea_item_scarpe
+Level: 1
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.LEATHER	80
+MaterialPercentages:	MATERIAL.CLOTH	20
+Sex:	SEX.MALE
+Flags:	FLAG.RANDOMIZABLE
+Name:	Un Paio di Scarpe
+Short:	un paio di scarpe
+Long:	$N è poggiato qui.
+
+Descr:
+Un paio di scarpe di cuoio stanche e spaiate con la sinistra un po' più grande della destra.
+Le stringhe paion di spago grezzo e poco duraturo.
+DescrTouch: 
+Un paio di scarpe morbide ed anche troppo stanche; son anche spaiate con la sinistra più
+grande della destra. Le stringhe paion poco durature.
+
+Value:	40
+Weight: 1040g
+WearType:
+   Modes: PART.LEFT_FOOT PART.RIGHT_FOOT
+End

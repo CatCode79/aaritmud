@@ -1,0 +1,21 @@
+Comment: conveniente negli oggetti rotti l'uso dell'etichetta %material
+Code: rip_item_broken-instrument
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.BRASS	100%
+Sex:	SEX.MALE
+Name:	Un Brandello di %material
+Short:	un brandello di %material
+
+Long:	Il pezzo più grosso rimasto è $N
+
+
+Descr:
+Probabilmente i resti di qualche strumento musicale.
+DescrTouch:
+Probabilmente i resti di qualche strumento musicale.
+DescrSixth:
+Non a tutti piace la musica e sarebbe curioso sapere se il musicista ha fatto una fine diversa.
+
+Weight: 100g

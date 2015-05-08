@@ -1,0 +1,66 @@
+Code:	arena-drago_room_76-arena-sotterranea
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	[gray]L'Arena Sotterranea[close]
+Short:	[gray]L'arena sotterranea[close]
+	Descr:
+Giungi in una gigantesca caverna dall'altissima volta, il colpo
+d'occhio è quello di un'arena da combattimento rinchiusa da un
+soffitto di roccia completamente scolpito con figure di draghi e
+cavalieri. Alle pareti sono appese armi e corazze di ogni genere
+e tipo, dalle più comuni fino ad esotici attrezzi che sembrano
+più adatti a lavorare la terra che a combattere. Qui nell'arena
+le pareti non sono ricoperte del magma luminoso come nel resto
+dei cunicoli, a dar luce alla cavità sono grosse lanterne alle
+pareti in cui brucia un bianco fuoco freddo. A est e ovest si
+aprono due grossi cunicoli.
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	1|64 0
+Exits:
+	Direction:	DIR.EAST
+	Descr:	un cunicolo
+	Comment:	ExitStatus	0 0 27775 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	un cunicolo
+	Comment:	ExitStatus	0 0 27777 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

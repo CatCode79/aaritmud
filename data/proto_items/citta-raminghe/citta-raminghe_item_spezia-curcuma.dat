@@ -1,0 +1,43 @@
+Code: citta-raminghe_item_spezia-curcuma
+Level: 1
+Icon:	icons/food/curcuma.png
+
+Entitype: ENTITYPE.FOOD
+MaterialPercentages:	MATERIAL.ROOT	100
+Sex:	SEX.FEMALE
+Name:  [gold]Curcuma[close]
+Short:  [gold]curcuma[close] 
+Long:	un barattolo di $N 
+
+Descr:
+Polvere di curcuma di colore giallo intenso ricavata dai rizomi della pianta essiccati e macinati.
+DescrTaste:
+Sapore piutttosto amaro.
+DescrSixth:
+Va usato delicatamente poichè, dotato di personalità decisa, può sovrastare gli altri sapori.
+DescrSmell:
+Profuma di luoghi esotici.
+
+Value:	0
+Weight: 250g
+
+Behaviour:
+	LookPlayer:  25
+	TastePlayer: 25
+	SmellPlayer: 25
+	TouchPlayer: 25
+End
+
+FoodType:
+	Comment:	cibo
+	Animal:	0
+	Vegetable:	100
+	CookingDamage:	0
+	Hours:	0
+End
+
+ContainerType:
+        MaxWeight: 10g
+End
+
+

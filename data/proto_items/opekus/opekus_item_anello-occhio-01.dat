@@ -1,0 +1,76 @@
+Code: opekus_item_anello-occhio-01
+Level: 5
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.STONE	60%
+MaterialPercentages:	MATERIAL.MARBLE	30%
+MaterialPercentages:	MATERIAL.ENAMEL	10%
+Name:	L'Occhio di [mediumorchid]Vishzu[close] 
+Short:	un [mediumorchid]anello[close] 
+ShortNight:	l'[mediumorchid]occhio[close] di pietra
+Long:	$N 
+LongNight:	$N ti osserva
+
+DescrNight:
+	Un occhio di pietra incastonato da palpebre lucenti. Il bulbo è bianco, iniettato di
+	piccole [red]venature rosse[close]; la pupilla circolare è incorniciata da un'iride [mediumorchid]viola brillante[close].
+	È un anello ben lavorato e molto robusto.
+Descr:
+	Un occhio di pietra incastonato da palpebre lucenti. Il bulbo è bianco, iniettato di
+	piccole [red]venature rosse[close]; la pupilla a fessura è incorniciata da un'iride [mediumorchid]viola brillante[close].
+	È un anello ben lavorato e molto robusto.
+DescrTouch: 
+	Non appena tenti di sfiorarne la pietra, le palpebre metalliche si richiudono a proteggendola.
+DescrSixth:
+	Ti senti scrutato fin dentro l'anima dalla sua pupilla inquieta ed indagatrice.
+
+Value:	1000
+Weight: 10g
+
+Behaviour:
+	LookPlayer:	5
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+Extras:
+	Keywords: Vishzu
+	Descr:
+	La più alta divinità Thepa. Colui dal quale tutti sono nati.
+End
+
+WearType:
+	Modes:	PART.LEFT_RING_FINGER
+	Modes:	PART.RIGHT_RING_FINGER
+	Modes:	PART.LEFT_MIDDLE_FINGER
+	Modes:	PART.RIGHT_MIDDLE_FINGER
+	Modes:	PART.LEFT_FOREFINGER
+	Modes:	PART.RIGHT_FOREFINGER
+	Modes:	PART.LEFT_THUMB
+	Modes:	PART.RIGHT_THUMB
+	Modes:	PART.LEFT_LITTLE_FINGER
+	Modes:	PART.RIGHT_LITTLE_FINGER
+End
+
+

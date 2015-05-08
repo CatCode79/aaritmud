@@ -1,0 +1,14 @@
+Code: cook
+
+ItalianKeywords: cucina
+EnglishKeywords: cook
+
+Entitype: HELP.SKILL
+
+Text:
+Cucinare richiede alcuni tipi di cibo ed un fuoco. Cucinare il cibo
+permette di conservarlo più a lungo e rimuoverà molti veleni.
+Tuttavia cucinare troppo un cibo può carbonizzarlo.
+
+
+SeeAlso: help

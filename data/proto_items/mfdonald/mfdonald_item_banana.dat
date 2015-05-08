@@ -1,0 +1,41 @@
+Code: mfdonald_item_banana
+Level: 1
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.FRUIT	100%
+Icon:	icons/food/banana.png
+Name:	La Banana Otoxia Silentifera
+Short:	una banana
+Long:	$N è [yellow]gialla[close] e pronta a tutto! 
+
+Descr:
+Si tratta di una varietà estranea al Nakilen che viene importata dai mindflayer.
+DescrTouch: 
+Questa cosa molliccia attende da un po' troppo tempo d'essere mangiata.
+DescrSmell: 
+L'odore lascia presagire che qualcosa la stia già consumando
+DescrTaste:
+Non è poi così male
+
+Value:	0
+Weight: 100g
+
+Extras:
+	Keywords: importare importata estranea varietà
+	Descr:
+	Una varietà piuttosto farinosa che solitamente si usa per ottenerne farina per cibi impastellati e fritti.
+End
+
+
+FoodType:
+	Comment:	cibo
+	Animal:	0
+	Vegetable:	100
+	CookingDamage:	0
+	Hours:	0
+	EntityMessage:	Sbucci $N senza tanti complimenti e la consumi sul posto.
+	TargetMessage:	Ora c'è una sola via d'uscita... $n t'ha mangiato.
+	OthersMessage:	$n sbuccia $N con le mosse degne di un ninja e la giustizia sul posto.
+End
+
+

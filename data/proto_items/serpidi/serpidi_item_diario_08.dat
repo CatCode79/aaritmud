@@ -1,0 +1,54 @@
+Code:	serpidi_item_diario_08
+Level:	1
+Entitype: ENTITYPE.READABLE
+MaterialPercentages:	MATERIAL.PAPER	100%
+Name:	Un Diario Ammuffito 
+Short:	un diario ammuffito 
+
+Descr: 
+Ci sono sei pezzi di pergamena ammuffiti e resi fragili dal tempo.  
+
+DescrSixth:
+Risale sicuramente a molto tempo fa. È diviso in cinque capitoli. 
+
+Value:	0
+Weight: 233g
+BirthDay: 1
+BirthMonth: MONTH.TEN
+
+
+ReadableType:
+   Title: Resoconto di guerra
+   Author: Vulniit
+   Summary:
+	Risale sicuramente a molto tempo fa. È diviso in cinque capitoli.
+   Flags: READABLE.NUMBERS
+   NumberDecorationLeft: --
+   NumberDecorationRight: --
+   VisualWidth: 280px
+   VisualHeight: 250px
+   Padding: 15px
+   BorderTop: 3px outset silver
+   BorderRight: 3px outset silver
+   BorderBottom: 3px outset silver
+   BorderLeft: 3px outset silver
+   BorderInside: 1px solid silver
+   Pages:
+       saepius ventis agitatur ingens
+pinus et celsae graviore casu
+decidunt turres feriuntque summos
+fulgura montis.
+   Pages:
+Il  primo  capitolo  narra  della spedizione di un battaglione di soldati,  truppe  scelte dell'Imperatore dei Thepa, presso i Pitti. Questi ebbero  facilmente  ragione degli abitanti della regione. Vengono  minuziosamente descritte le battaglie e le manovre della spedizione.  Le  truppe  evidentemente  erano  formate da soldati valorosi.  
+   Pages:
+Questo capitolo narra del periodo di permanenza della legione tra i Pitti  dopo la conquista. Vengono descritte le edificazioni di fortezze,  gli  usi  e  i  costumi  di  quel  popolo e i rapporti economici.  Il capo annotava con precisione entrate ed uscite. Si doveva trattare di un buon cittadino, ligio al dovere.
+   Pages:
+Questo  capitolo è scritto con calligrafia leggermente peggiore. Dopo diversi mesi  di  permanenza  alcuni  soldati  rimasero affascinati  dagli  strani  culti  dei Pitti e iniziarono anche a parteciparvi.  Il comandante descrive questi culti e le cerimonie religiose  dei  Pitti,  quasi  sempre  accompagnate  da sacrifici umani.  Nella  parte  finale ci sono alcune annotazioni sulla sua intenzione di proibire i riti più sanguinari.
+   Pages:
+Nel  quarto  capitolo il tono del diario cambia completamente. Il comandante  inneggia  agli  Dei Pitti, ed in particolare al culto del    serpente.  La  calligrafia  è  scomposta  e  il  racconto frammentario.  Ci  sono  alcuni  accenni  a  strani esseri che il comandante della legione sembra adorare come suoi superiori.
+   Pages:
+L'ultimo  capitolo  sembra scritto da un pazzo o da un delirante. La  calligrafia  è  quasi illegibile e solo poche frasi hanno un qualche  significato, seppur illogico. Qua e la compaiono schizzi di  umanoidi dalle lunghe zanne e dagli artigli possenti, ripresi sempre  in  azioni  abominevoli.  Alla  fine del capitolo c'è un appunto più recente in una calligrafia leggera e svolazzante.
+   Pages:
+Dopo  aver distrutto questi esseri immondi lascio quest'appunto a monito  per  futuri eploratori, curiosi e viaggiatori. Fate molta attenzione  questi  esseri  se  dovessero rinascere distruggeteli immediatamente  prima che vi coinvolgano nei loro sporchi giochi.
+[red]C[close]hadyne [yellow]l'apprendista[close].
+End

@@ -1,0 +1,14 @@
+Code: inventory
+
+ItalianKeywords: inventario
+EnglishKeywords: inventory
+
+Entitype: HELP.GENERIC
+
+Text:
+Con il comando $tinventory vedrai tutto quello che stai trasportando.
+Non puoi vedere con il comando $tinventory quello che trasportano gli altri
+giocatori.
+
+
+SeeAlso: equipment

@@ -1,0 +1,25 @@
+Code: opekus_item_scudo-bronzo
+Level: 1
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.BRONZE	100%
+Name:	Uno [olivedrab]Scudo[close] di [olivedrab]Bronzo[close]
+Short:	uno [olivedrab]scudo metallico[close]
+Long:	a terra $N memoria di un'antica guerra
+
+Descr:
+Uno scudo oblungo in bronzo, dimenticato da tempo ed unica memoria di un'antica guerra.
+DescrTouch: 
+Uno scudo oblungo in metallo, dimenticato da tempo ed unica memoria di un'antica guerra.
+DescrSixth:
+Lo scudo porta con sé i segni non tanto delle battaglie quanto delle strisciate consunte
+come si trattasse di uno scudo rituale più che da guerra.
+
+Value:	0
+Weight: 10kg
+
+WearType:
+        Modes: PART.HOLD
+End
+
+

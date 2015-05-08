@@ -1,0 +1,83 @@
+Code: karpuram_mob_astrologa_01
+Level: 11
+
+Sex:	SEX.FEMALE
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Un'Elfa Astrologa
+Short: un'elfa astrologa
+Long:	$N è intenta a guardare una strana sfera.
+Race: RACE.WOODELF
+
+Descr:
+Indossa una lunga [darkblue]veste[close] di colore blu scuro come la notte, con 
+una serie di piccoli puntini bianchi e gialli che ti fanno pensare al cielo 
+stellato. Alla cintura ha fermata una piccola sacca di tela dalla quale 
+fuoriesce ogni tanto della polverina chiara, sembrerebbe sabbia. Con la mano
+destra impugna una piccola sfera di cristallo e con l'altra sembra come intenta
+a sfiorarla lentamente. Ha un'aria completamente assorta, dev'essere molto
+concentrata.
+
+Extras:
+	Keywords: sfera di cristallo
+	Descr:
+	Una piccola sfera di purissimo cristallo risplende dolcemente, sembra molto
+	solida nonostante tutto ed osservandola con maggiore attenzione ti sembra
+	d'intravedere delle forme al suo interno...
+
+End
+
+
+
+
+
+
+
+Behaviour:
+	LookPlayer:	10
+	LookMob:	10
+	LookItem:	10
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	5
+	LookDirection:	5
+	LookExit:	20
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NORTH DIR.NORTHEAST DIR.EAST DIR.SOUTHEAST DIR.SOUTH DIR.SOUTHWEST DIR.WEST DIR.NORTHWEST DIR.DOWN DIR.UP 
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+Weight: 50kg
+Height: 170cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 90
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

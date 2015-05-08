@@ -1,0 +1,34 @@
+Code: ikea_item_food-pesce-bistecca
+Level: 1
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.FISH	100%
+Flags:	FLAG.RANDOMIZABLE
+Value:	100
+Name:	Una Bistecca di Tonno
+Short:	una bistecca di pesce
+Long:	arrotolata e fermata da uno stuzzicadenti vi è $N.
+
+Descr:
+Un rotolo di carne ottenuto da un'unica fettina di pesce.
+
+DescrTouch: 
+Un morbido e caldo rotolo di cibo fermato con uno stuzzicadenti.
+
+DescrSmell:
+Una leggero aroma di pesce cotto emana da qui.
+
+Weight: 150g
+
+FoodType:
+	Comment:	cibo
+	Animal:	99
+	Vegetable:	1
+	CookingDamage:	20
+	Hours:	1
+	EntityMessage:	Prendi $N e l$O sbrani con garbo.	
+	TargetMessage:	Ora c'è una sola via d'uscita... $n t'ha mangiato.
+	OthersMessage:	$n sbrana $N con ben poco garbo.
+End
+
+

@@ -1,0 +1,20 @@
+Comment: È una porta
+Code: limbo_item_porta
+Level: 1
+MaterialPercentages:	MATERIAL.WOOD	 100%
+
+Name: La porta
+Short: una porta
+Descr:
+Una porta, né più né meno.
+
+Long:	$N mezza distrutta
+
+Value:	0
+Weight: 1g
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 1
+
+

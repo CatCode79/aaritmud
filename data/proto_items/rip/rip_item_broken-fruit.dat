@@ -1,0 +1,21 @@
+Comment: conveniente negli oggetti rotti l'uso dell'etichetta %material
+Code: rip_item_broken-fruit
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Sex:	SEX.MALE
+Name:	Un Frutto Spappolato
+Short:	un frutto spappolato
+Long:	Qui a terra c'è $N
+
+Descr:
+Quel che resta di un frutto forse caduto da una pianta troppo alta.
+DescrTouch: 
+Bleach... è un frutto spappolato.
+DescrSmell:
+Odora di tutto tranne che da qualcosa di organico.
+DescrSixth:
+Deve trattarsi del famoso frutto della violenza.
+
+Weight: 10g

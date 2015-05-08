@@ -1,0 +1,19 @@
+Code: kill
+
+ItalianKeywords: uccidi assassina
+EnglishKeywords: kill murder
+
+Entitype: HELP.COMBAT
+
+Text:
+Il comando $tkill serve per iniziare un combattimento contro un mob.
+
+Il comando $tmurder serve per ingaggiare combattimenti con altri giocatori, 
+ma per poter utilizzare questo comando devi perdere il tuo stato di giocatore
+&WInesperto[close].
+Non puoi uccidere altri giocatori quando ti trovi in città o in zone [darkgreen]non-pkill[close].
+(ATTENZIONE: guarda le leggi sul pkill per le restrizioni sull'attaccare
+altri giocatori).
+
+
+SeeAlso: killer murder

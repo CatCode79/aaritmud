@@ -1,0 +1,23 @@
+Code: give
+
+ItalianKeywords: dai 
+EnglishKeywords: give 
+
+Entitype: HELP.GENERIC
+
+Text:
+Per passare oggetti o monete ad altri giocatori usa il comando $tgive.
+
+Esempi:
+- $tgive [darkgreen]zaino[close] "nome giocatore"
+- $tgive 10 monete "nome giocatore"
+
+Se vuoi prendere/mettere/posare tutti gli oggetti presenti usa [darkgreen]tutto[close], se
+invece ti interessano tutti gli oggetti di un determinato tipo usa
+[darkgreen]tutto.oggetto[close].
+
+Esempi: 
+- $tgive [darkgreen]tutto[close] "giocatore"
+
+
+SeeAlso: get put drop

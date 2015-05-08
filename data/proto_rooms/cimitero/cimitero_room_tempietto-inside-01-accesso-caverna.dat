@@ -1,0 +1,36 @@
+Code: cimitero_room_tempietto-inside-01-accesso-caverna
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Giunzione
+Short: la via
+
+
+Descr:	
+        Lo stretto anfratto di pietra si sviluppa in lunghezza circondato da pareti
+	edificate rozzamente con massi disomogenei. La pavimentazione tassellata di
+	pietre piatte lascia ampi spazi riempiti dalla terra argillosa e umida.
+DescrSmell:
+        L'odore d'umido permea l'ambiente come un vento sottile.
+
+DescrHearing:
+        Ascolti il rumore dei tuoi passi, il battito del tuo cuore e il fluire del
+	sangue che ti scorre nelle vene.
+
+DescrSixth:
+        Attraversare un anfratto così stretto ti provoca un senso di oppressione,
+	residuo di antiche esperienze, ma che sai come controllare.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Un incrocio
+End
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Una caverna naturale
+  Destination: 0 1 0 conflitti 
+End

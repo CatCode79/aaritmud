@@ -1,0 +1,27 @@
+Code: novizi2_item_coccarda_07
+Icon:	icons/item/coccarda-teal.png
+Level: 1
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.SILK	100%
+Name: La [teal]Coccarda[close] di [teal]Benvenuto [red]A[gold]aritiana[close] 
+Short: una [teal]coccarda[close] di [teal]benvenuto[close]
+Long:	$N fluttua gentile e silenziosa nell'aria
+
+Descr:
+Una coccarda di velluto con il colore delle [teal]foglie di tè[close] per ricordo.
+DescrTouch: 
+Una morbidissima coccarda in velluto liscio.
+DescrSmell: 
+La coccarda profuma vagamente di [green]bergamotto[close].
+DescrSixth:
+È un oggettino ricordo di pochissimo valore intrinseco.
+
+Value:	0
+Weight: 10g
+
+WearType:
+   Modes: PART.LEFT_LITTLE_FINGER
+End
+
+

@@ -1,0 +1,25 @@
+Code: villaggio-zingaro_item_falce-01
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAPON
+Sex:	SEX.FEMALE
+Icon:	icons/item/falce.png
+MaterialPercentages:	MATERIAL.WOOD 46%	
+MaterialPercentages:	MATERIAL.STEEL 54%	
+Name:	Una Falce
+Short:	una falce
+Long:	$N affilata
+
+Descr:
+Una falce di tipo classico, bel lunga e dall'apparenza affilata.
+DescrTouch: 
+Una falce oblunga snella ed agile che si presta bene a ridurre a ragione anche lo stelo d'erba disadattato e restio.
+
+Value:	0
+Weight: 2kg
+
+WeaponType:
+        Category: WEAPON.SICKLE
+	Damage:	1D5+3
+        Flags: WEAPONFLAG.TWO_HANDS 
+End

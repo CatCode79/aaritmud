@@ -1,0 +1,35 @@
+Code:	ikea_item_weapon-spada-semplice
+
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAPON
+MaterialPercentages:	MATERIAL.IRON	100
+Sex:	SEX.FEMALE
+Name:	Una Spada Semplice
+Short:	una semplice spada di ferro
+Long:	$N è stata lasciata qui.
+
+Descr:
+Realizzata con scarti di ferro fusi parzialmente e saldati tra loro.
+L'elsa è costituita da due sagome di legno fermate da alcuni lacci di stoffa avvolti stretti.
+DescrTouch:
+Realizzata con scarti di ferro fusi parzialmente e saldati tra loro.
+L'elsa è costituita da due sagome di legno fermate da alcuni lacci di stoffa avvolti stretti.
+La ruvida lama è seghettata su di un lato e rozzamente affilata sull'altro.
+
+DescrSixth:
+Una spada che ha già visto passare i suoi anni migliori.
+una decorazione di legno dalla forma ovale, 
+
+
+Value:	0
+Weight:	1kg
+
+WeaponType:
+        Category: WEAPON.SWORD
+        Flags: WEAPONFLAG.ONE_HAND 
+End
+
+WearType:
+   Modes: PART.WIELD
+End

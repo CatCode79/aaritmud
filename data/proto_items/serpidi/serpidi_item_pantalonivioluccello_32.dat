@@ -1,0 +1,20 @@
+Code:	serpidi_item_pantalonivioluccello_32
+Level:	1
+Entitype: ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.FEATHERS	100%
+Name:	Pantaloni di Violuccello 
+Short:	dei pantaloni di violuccello 
+Descr: 
+È un soffice paio di pantaloni viola.  
+Value:	0
+Weight: 80g
+BirthDay: 1
+BirthMonth: MONTH.TEN
+WearType:
+        Modes: PART.LEFT_THIGH
+        Modes: PART.RIGHT_THIGH
+End
+
+
+
+

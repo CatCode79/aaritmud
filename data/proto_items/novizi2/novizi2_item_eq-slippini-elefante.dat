@@ -1,0 +1,29 @@
+Code: novizi2_item_eq-slippini-elefante
+Level: 1
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.CLOTH	100
+Sex:	SEX.MALE
+Name:	Uno Slippino con Elefante
+Short:	un buffo slippino
+Long:	qualche buontempone ha messo qui $N.
+
+Descr:
+Si tratta di un paio di slippini tipo tanga di colore blu elettrico.
+Sulla parte anteriore è posta una proboscide incorniciata fra occhi porcini e due
+orecchie pendule a padiglione.
+
+DescrTouch: 
+Un oggetto di stoffa elastica con protuberanze sporgenti.
+
+DescrSixth:
+Un oggetto sfuggito alla lunga mano dei censori che potrebbe divenire un pezzo raro.
+	
+Value:	0
+Weight: 10g
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+   Modes: PART.GROIN
+End
+
+

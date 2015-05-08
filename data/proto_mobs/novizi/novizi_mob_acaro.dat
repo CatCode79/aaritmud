@@ -1,0 +1,50 @@
+Comment: pur non essendo un insetto è la classe che più gli si avvicina
+Code: novizi_mob_acaro
+Level: 3
+Sex:	SEX.MALE
+Race:	RACE.INSECT aracnide
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name: Lucrezio l'Acaro
+Short: un acaro maschio
+Long:	$N sonnecchia pigramente
+
+Descr:
+Un acaro di ragguardevoli dimensioni sta impigrendo non visto. Non ti sfugge la consueta
+posa da pigritudine pigra che consiste in quattro zampe conserte e le altre quattro a
+guisa di sostegno.
+
+Weight: 3g
+Height: 1cm
+
+Extras:
+	Keywords: zampe
+	DescrSmell:
+	Otto zampe? Mi puzza un po'.
+	DescrSixth:
+	Otto zampe! Ma è un maledetto aracnide!
+End
+Extras:
+	Keywords: ragguardevoli ragguardevole
+	Descr:
+	In effetti... ve ne staranno si e no mezza dozzina sull'unghia del mignolo!
+End
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 1
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

@@ -1,0 +1,18 @@
+Code: speed
+
+ItalianKeywords: velocità
+EnglishKeywords: speed
+
+Entitype: HELP.STAT
+
+Text:
+L'attributo velocità indica il tempo impiegato per compiere azioni immediate
+che riguardano accadimenti materialmente vicini al personaggio,
+intervenendo ad esempio con l'abilità soccorrere nei confronti di un 
+avventuriero amico durante uno scontro.
+
+Unita alla resistenza può aumentare il recupero dei punti movimento
+
+
+
+SeeAlso: attributes, skills

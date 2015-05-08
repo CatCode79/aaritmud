@@ -1,0 +1,69 @@
+Code: cimitero_item_fontana_vuota
+Level: 1
+Flags:	FLAG.NO_GET
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.STONE 100%
+Sex:	SEX.FEMALE
+Name:	L'Antica Fontana Secca
+Short:	una fontana asciutta
+Long:	$N domina tutto l'ambiente.
+
+
+Descr: 
+Una grande fontana di pietra presenta tre diverse vasche posizionate 
+a triangolo attorno al basamento centrale. Le vasche sono situate a tre altezze
+distinte per poter essere utilizzate da animali di piccola e media taglia e
+persone contemporaneamente. Purtroppo non vi è nemmeno lontanamente la presenza
+di acqua in nessuna delle tre vasche, ragnatele, foglie secche e polvere sono
+le uniche cose che riempiono questa fontana un tempo attiva. Sul bordo di
+una delle vasche noti una sorta di scritta.
+
+DescrNight:
+Maestosa e dominante si staglia difronte a te una grande fontana di pietra.
+Tre vasche poste ad altezze diverse la rendono particolare e curiosa, ma l'usura
+del tempo e lo stato di forte abbandono quasi ti rattristano. La fontana invece
+di essere piena d'acqua è ricolma di foglie secche e ragnatele.
+
+DescrHearingNight: 
+Ti sembra di sentire un rumore di acqua provenire dalla fontana, ma non riesci
+a vedere nulla.
+
+DescrSmell: odori
+Avverti un forte odore di foglie rinsecchite e polvere provenire dalle tre 
+vasche della fontana.
+
+DescrTouch: 
+La fontana è molto impolverata e presenta alcune crepe all'interno di una
+delle vasche, la più bassa e grande delle tre. Le foglie secche si sbriciolano
+facilmente toccandole.
+
+DescrSixthNight:
+Percepisci che qualcosa di molto grosso e pesante sta bloccando il solito
+flusso d'acqua della fontana.
+
+Value:	0
+Weight: 1400kg
+
+
+Extras:
+	Keywords: scritta
+	Descr:
+	la prima scritta sta sulla prima vasca, così per la seconda ed a seguire per la terza.
+End
+Extras:
+	Keywords: scritta_1 prima primo
+	Descr:
+	"servirò chi dall'alto arriverà"
+End
+Extras:
+	Keywords: scritta_2 seconda secondo
+	Descr:
+	"servirò chi nel giusto sarà"
+End
+Extras:
+	Keywords: scritta_3 terza seconda
+	Descr:
+	"servirò chi nel torto dimorerà"
+End
+
+

@@ -1,0 +1,41 @@
+Code: flora_item_pomodoro-08-fruttificato
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Flags:	FLAG.INTERACTABLE_FROM_OUTSIDE 
+Name:	Una pianta di [red]pomodoro[close] ricca di frutti
+Short:	una pianta di pomodoro colma di frutti
+Long:	$N cresce qui in terra.
+
+Descr:
+La tipica colorazione rossastra dei frutti di questa pianta di pomodoro lascia
+intendere che sia giunta al massimo stadio produttivo. I grappoli contenenti i
+frutti sono riconoscibili sulla parte centrale del fusto, mentre quelli 
+secondari laterali risultano sterili.
+
+DescrTouch:
+La parte del gambo più a ridosso del terreno è forte e legnosa, tipica ormai di
+un piccolo arbusto, le foglie anch'esse grandi e sviluppate sono molto
+resistenti.
+
+DescrSmell:
+I frutti emanano un profumo fresco e intenso che ti stimola l'appetito.
+
+DescrSixth:
+I frutti di questa pianta sono delizioni.
+
+Value:	0
+Weight: 12kg
+
+
+
+PlantType:
+    RpgHours:	1
+    WorseEntity:	flora_item_pomodoro-09-pianta-secca
+    NormalEntity:	flora_item_pomodoro-09-pianta-secca
+    BetterEntity:	flora_item_pomodoro-09-pianta-secca
+End
+
+

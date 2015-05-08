@@ -1,0 +1,114 @@
+Code:	accademia-drago_room_072_corridoio-072
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Un Corridoio
+Short:	un corridoio
+	Descr:
+Il corridoio prosegue immutato, ora però, seminascoste dai
+drappi rossi, puoi vedere delle porte aprirsi in direzione nord e
+sud.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 0
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	le camerate [red]rosse[close]
+	Comment:	ExitStatus	1 0 074 -1
+	Door:	ikea_item_porta
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	un corridoio
+	Comment:	ExitStatus	0 0 073 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	le camerate [red]rosse[close]
+	Comment:	ExitStatus	1 0 076 -1
+	Door:	ikea_item_porta
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	un corridoio
+	Comment:	ExitStatus	0 0 071 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

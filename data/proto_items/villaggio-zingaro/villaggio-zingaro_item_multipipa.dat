@@ -1,0 +1,26 @@
+Code: villaggio-zingaro_item_multipipa
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.WOOD 100%	
+Name:	Una Multipipa
+Short:	una strana pipa
+Long:	$N appoggiata su un fianco.
+
+Descr:
+Una lunga pipa ricurva in legno levigato, dal corpo dell'oggetto fuoriescono cinque prolungamenti cilindrici con un'apertura nella parte alta. I fori, come tante coppette, sono disposti in ordine crescente dal primo, nel quale si riesce ad infilare a malapena una lenticchia, al più grande, che potrebbe accogliere comodamente l'uovo di un merlo. 
+DescrTouch: 
+Una bizzarra pipa ben levigata con cinque aperture disposte in ordine crescente.
+DescrSmell: 
+Inspiri a piene narici a piena narici cogliendo un tripudio di aromi che si discostano anche di molto dal tabacco. Sembra che ogni cavità abbia una propria fragranza caratteristica, probabilmente dovuta a quello che vi è stato inserito. 
+DescrSixth:
+Hai l'impressione che questo particolare oggetto possa essere utilizzato con più sostanze, potrebbe essere utile forse per aromatizzare il tabacco.
+DescrTaste:
+Imbocchi la pipa e simuli il gesto di fumarla con aria saccente.
+
+Value:	215
+Weight: 105g
+
+
+

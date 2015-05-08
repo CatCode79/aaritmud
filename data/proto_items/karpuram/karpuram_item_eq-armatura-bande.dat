@@ -1,0 +1,28 @@
+Code:	karpuram_item_eq-armatura-bande
+
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.HEMP	33
+MaterialPercentages:	MATERIAL.LINE	34
+MaterialPercentages:	MATERIAL.SILK	33
+Sex:	SEX.MALE
+Name:	Una Snella Armatura a Bande Larghe
+Short:	una snella armatura
+Long:	$N è riposta con cura qui in terra.
+
+Descr:
+Una preziosa armatura non sembra appartenere alle creature di questa zona, ma
+pare sia stata costruita appositamente per un elfo. Oltre al colore verde
+scuro della base e quello leggermente più chiaro delle bande che la completano, 
+questa corazza è leggera e resistente al tempo stesso. Il materiale con cui è
+realizzata è simile al cuoio e ne mantiene le sue particolari caratteristiche
+di durevolezza, ma risulta invece formata da un tessuto naturale composto da
+molti strati uniti tra loro come fossero un unico pezzo.
+
+Value:	0
+Weight:	3kg
+
+WearType:
+   Modes: PART.TORSO
+End

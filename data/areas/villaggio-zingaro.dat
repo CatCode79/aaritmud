@@ -1,0 +1,1557 @@
+Comment:
+prosecuzione naturale del carrozzone zingaro che aveva nostalgia di casa
+
+Creators:	Batu
+Code: villaggio-zingaro
+Name: Il Villaggio Zingaro
+Short: un villaggio accogliente
+Descr:
+Un villaggio artigiano, stanziale da un po' di tempo a questa parte in cui la gente è accogliente e bendisposta.
+è localizzato a sud, oltre la Torre degli Elementi. Gli abitanti pare si stiano arricchendo grazie ad una miniera di pietre preziose.
+Color: COLOR.GOLD oro che fa luccicare gli occhi dei gitani
+Level: 1
+RepopTime: 10
+LandfillCode:	villaggio-zingaro_room_grotta-03
+
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_cupola-00-centro
+	Destination:	0 1 0 villaggio-zingaro
+End
+RoomResets:
+  Comment:	Reset della porta per la quest
+  ProtoRoom:	villaggio-zingaro_room_cupola-00-centro
+  Minute:	00
+	Destination:	0 1 0 villaggio-zingaro
+End
+
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_cupola-01-primavera
+  Comment:	default
+	Destination:	-1 0 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_cupola-01-primavera
+  Comment:	Primavera
+  Month:	MONTH.TWO
+	Destination:	-1 0 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_cupola-01-estate
+  Comment:	Estate
+  Month:	MONTH.FIVE
+	Destination:	-1 0 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_cupola-01-autunno
+  Comment:	Autunno
+  Month:	MONTH.SEVEN
+	Destination:	-1 0 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_cupola-01-inverno
+  Comment:	Inverno
+  Month:	MONTH.TEN
+	Destination:	-1 0 0 villaggio-zingaro
+End
+
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_cupola-02-primavera-estate
+  Comment:	default
+	Destination:	0 0 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_cupola-02-primavera-estate
+  Comment:	primavera
+  Month:	MONTH.TWO
+	Destination:	0 0 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_cupola-02-autunno
+  Comment:	autunno
+  Month:	MONTH.SEVEN
+	Destination:	0 0 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_cupola-02-inverno
+  Comment:	inverno
+  Month:	MONTH.TEN
+	Destination:	0 0 0 villaggio-zingaro
+End
+
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_cupola-03-primavera-estate
+  Comment:	default
+	Destination:	1 1 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_cupola-03-primavera-estate
+  Comment:	primavera
+  Month:	MONTH.TWO
+	Destination:	1 1 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_cupola-03-autunno
+  Comment:	autunno	
+  Month:	MONTH.SEVEN
+	Destination:	1 1 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_cupola-03-inverno
+  Comment:	inverno
+  Month:	MONTH.TEN
+	Destination:	1 1 0 villaggio-zingaro
+End
+
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_cupola-04-primavera
+  Comment:	default
+	Destination:	1 2 0 villaggio-zingaro
+	EntityResets:
+		Comment:	mob di inizio quest della tessi
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	villaggio-zingaro_mob_test-tessi
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+                        WearMode:  PART.NECK
+			ProtoEntity: 	villaggio-zingaro_item_medaglione
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_telaio
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_telaio-cassetto
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	villaggio-zingaro_item_telaio-forbice
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	villaggio-zingaro_item_telaio-pettine
+		End
+	End
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_cupola-04-primavera
+  Comment:	primavera
+  Month:	MONTH.TWO
+	Destination:	1 2 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_cupola-04-estate
+  Comment:	estate
+  Month:	MONTH.FIVE
+	Destination:	1 2 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_cupola-04-autunno
+  Comment:	autunno
+  Month:	MONTH.SEVEN
+	Destination:	1 2 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_cupola-04-inverno
+  Comment:	inverno
+  Month:	MONTH.TEN
+	Destination:	1 2 0 villaggio-zingaro
+End
+
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_cupola-05-primavera-estate
+  Comment:	default
+	Destination:	0 2 0 villaggio-zingaro
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_mob_lupo-erboso-01
+	End
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_cupola-05-primavera-estate
+  Comment:	primavera
+  Month:	MONTH.TWO
+	Destination:	0 2 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_cupola-05-autunno
+  Comment:	autunno
+  Month:	MONTH.SEVEN
+	Destination:	0 2 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_cupola-05-inverno
+  Comment:	inverno
+  Month:	MONTH.TEN
+	Destination:	0 2 0 villaggio-zingaro
+End
+
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_cupola-06-primavera-estate
+  Comment:	default
+	Destination:	-1 1 0 villaggio-zingaro
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_mob_lupo-erboso-03
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_mob_lupo-erboso-02
+	End
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_cupola-06-primavera-estate
+  Comment:	primavera
+  Month:	MONTH.TWO
+	Destination:	-1 1 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_cupola-06-autunno
+  Comment:	autunno
+  Month:	MONTH.SEVEN
+	Destination:	-1 1 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_cupola-06-inverno
+  Comment:	inverno
+  Month:	MONTH.TEN
+	Destination:	-1 1 0 villaggio-zingaro
+End
+
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_villaggio-01
+	Destination:	-4 3 0 villaggio-zingaro
+
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_villaggio-02
+	Destination:	-4 2 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_villaggio-03
+	Destination:	-3 2 0 villaggio-zingaro
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_mob_gattaccio-grizabella
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_mob_giullare
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	villaggio-zingaro_item_cappello-giullare
+		End
+	End
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_locanda
+	Destination:	-2 2 0 villaggio-zingaro
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_mob_locandiera-dumitra-hangiu
+		EntityResets:
+			Quantity:	15
+			Type:		RESET.PUT
+			ProtoEntity:	villaggio-zingaro_item_zuppa
+		End
+		EntityResets:
+			Quantity:	15
+			Type:		RESET.PUT
+			ProtoEntity:	villaggio-zingaro_item_polpette
+		End
+		EntityResets:
+			Quantity:	15
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_filetto-alla-griglia
+		End
+		EntityResets:
+			Quantity:	15
+			Type:		RESET.PUT
+			ProtoEntity:	villaggio-zingaro_item_sformato
+		End
+		EntityResets:
+			Quantity:	15
+			Type:		RESET.PUT
+			ProtoEntity:	villaggio-zingaro_item_budino
+		End
+		EntityResets:
+			Quantity:	15
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_bicchiere-rosso
+			EntityResets:
+				Quantity:	1
+				Type:		RESET.PUT
+				ProtoEntity:	ikea_item_liquid-vino-rosso
+			End
+		End
+		EntityResets:
+			Quantity:	15
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_bicchiere-bianco
+			EntityResets:
+				Quantity:	1
+				Type:		RESET.PUT
+				ProtoEntity:	ikea_item_liquid-vino-bianco
+			End
+		End
+		EntityResets:
+			Quantity:	15
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_bicchiere-rosato
+			EntityResets:
+				Quantity:	1
+				Type:		RESET.PUT
+				ProtoEntity:	ikea_item_liquid-vino-rosato
+			End
+		End
+		EntityResets:
+			Quantity:	15
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_bicchiere-liquori
+			EntityResets:
+				Quantity:	1
+				Type:		RESET.PUT
+				ProtoEntity:	ikea_item_liquid-liquore
+			End
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_mob_nano-minatore
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_tenda
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_bancone-locanda
+	End
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_villaggio-05
+	Destination:	-2 3 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_villaggio-05-a
+	Destination:	-1 3 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_villaggio-06
+	Destination:	0 3 0 villaggio-zingaro
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_bidone-castagne
+		EntityResets:
+			Quantity:	4
+			Type: 	RESET.PUT
+			ProtoEntity: 	villaggio-zingaro_item_castagna-abbrustolita
+		End
+		EntityResets:
+			Quantity:	2
+			Type: 	RESET.PUT
+			ProtoEntity: 	villaggio-zingaro_item_castagna
+		End
+		EntityResets:
+			Quantity:	2
+			Type: 	RESET.PUT
+			ProtoEntity: 	villaggio-zingaro_item_buccia-castagna-marcia
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type:	RESET.PUT
+		ProtoEntity:	villaggio-zingaro_mob_caldarrostaio-maro-prajita
+		Month:	MONTH.SEVEN
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	villaggio-zingaro_item_sacchetto-castagne-03
+		End
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	villaggio-zingaro_item_sacchetto-castagne-02
+		End
+		EntityResets:
+			Quantity:	2
+			Type:		RESET.PUT
+			ProtoEntity:	villaggio-zingaro_item_sacchetto-castagne-02
+			EntityResets:
+				Quantity:	16
+				Type:		RESET.PUT
+				ProtoEntity:	villaggio-zingaro_item_castagna-abbrustolita
+			End
+		End
+		EntityResets:
+			Quantity:	8
+			Type:		RESET.PUT
+			ProtoEntity:	villaggio-zingaro_item_sacchetto-castagne
+			EntityResets:
+				Quantity:	16
+				Type:		RESET.PUT
+				ProtoEntity:	villaggio-zingaro_item_castagna-abbrustolita
+				Probability:	80%
+			End
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_mob_fioraia-margareta
+  		Month: MONTH.TWO
+		EntityResets:
+			Quantity:	5
+			Type:		RESET.PUT
+			ProtoEntity:	mfdonald_item_rosa_01
+		End
+		EntityResets:
+			Quantity:	5
+			Type:		RESET.PUT
+			ProtoEntity:	mfdonald_item_rosa_19
+		End
+		EntityResets:
+			Quantity:	5
+			Type:		RESET.PUT
+			ProtoEntity:	mfdonald_item_rosa_03
+		End
+		EntityResets:
+			Quantity:	5
+			Type:		RESET.PUT
+			ProtoEntity:	mfdonald_item_rosa_17
+		End
+		EntityResets:
+			Quantity:	5
+			Type:		RESET.PUT
+			ProtoEntity:	mfdonald_item_rosa_05
+		End
+		EntityResets:
+			Quantity:	5
+			Type:		RESET.PUT
+			ProtoEntity:	mfdonald_item_rosa_15
+		End
+		EntityResets:
+			Quantity:	5
+			Type:		RESET.PUT
+			ProtoEntity:	mfdonald_item_rosa_07
+		End
+		EntityResets:
+			Quantity:	5
+			Type:		RESET.PUT
+			ProtoEntity:	mfdonald_item_rosa_13
+		End
+		EntityResets:
+			Quantity:	5
+			Type:		RESET.PUT
+			ProtoEntity:	mfdonald_item_rosa_09
+		End
+		EntityResets:
+			Quantity:	5
+			Type:		RESET.PUT
+			ProtoEntity:	mfdonald_item_rosa_10
+		End
+	End
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_villaggio-07
+	Destination:	1 3 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_villaggio-07-a
+	Destination:	2 3 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_tagliapietre
+	Destination:	1 4 0 villaggio-zingaro
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_mob_tagliapietre-cutit-ascutit
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_mob_apprendista-tp-vizor-incheia
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	ikea_item_tavolo-lavoro
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_laser-tagliapietre
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_tagliapietre-cassetto
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	ikea_item_martelletto
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	ikea_item_piccozza
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	ikea_item_scalpellino
+		End
+	End
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_villaggio-08
+	Destination:	3 3 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_accesso-miniera
+	Destination:	4 3 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_villaggio-09
+	Destination:	3 2 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_fucina
+	Destination:	2 2 0 villaggio-zingaro
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity:	villaggio-zingaro_mob_fabbro-bardhylus
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			WearMode:	PART.WIELD
+			ProtoEntity:	villaggio-zingaro_item_martello-fabbro
+		End
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			WearMode:	PART.HOLD
+			ProtoEntity:	villaggio-zingaro_item_pinza-fabbro
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	villaggio-zingaro_item_scalpello-fabbro
+	End
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	villaggio-zingaro_item_maglio-fabbro
+	End
+
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	ikea_item_incudine
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_rastrelliera
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	villaggio-zingaro_item_spadino-fabbro
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_fornace-fucina
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_mucchio-carbone
+	End
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_villaggio-10
+	Destination:	3 1 0 villaggio-zingaro
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	villaggio-zingaro_item_distributore-palline	
+		EntityResets:
+			Quantity:	100
+			Type:		RESET.PUT
+			ProtoEntity:	villaggio-zingaro_item_pallina
+		End
+	End
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_emporio
+	Destination:	4 1 0 villaggio-zingaro
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_mob_emporista-urf-aliyeva
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			WearMode:  PART.LEFT_EAR
+			ProtoEntity: 	villaggio-zingaro_item_orecchino-cerchio
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			WearMode:  PART.WAIST
+			ProtoEntity: 	villaggio-zingaro_item_cintura-fodero
+			EntityResets:
+				Quantity:	1
+				Type: 	RESET.PUT
+				ProtoEntity: 	villaggio-zingaro_item_pugnale-01
+			End
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	villaggio-zingaro_item_chiave-vetrina
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_pendola
+	End
+
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_scaffale-01
+		EntityResets:
+			Quantity:	3
+			Type: 	RESET.PUT
+			ProtoEntity: 	villaggio-zingaro_item_guinzaglio
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	ikea_item_specchio
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	ikea_item_pettine
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	villaggio-zingaro_item_lanterna
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	ikea_item_padella
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity:	ikea_item_pentola
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_scaffale-02
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	ikea_item_tegame
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	villaggio-zingaro_item_cartello-01
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	villaggio-zingaro_item_asciugamano
+		End
+		EntityResets:
+			Quantity:	4
+			Type: 	RESET.PUT
+			ProtoEntity: 	villaggio-zingaro_item_bustina-semi-pomodoro
+			EntityResets:
+				Quantity:	12
+				Type:		RESET.PUT
+				ProtoEntity:	flora_item_pomodoro-01-seme
+		                Probability:	80%
+			End
+			EntityResets:
+				Quantity:	5
+				Type:		RESET.PUT
+				ProtoEntity:	flora_item_pomodoro-02-seme-sterile
+		                Probability:	60%
+			End
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	villaggio-zingaro_item_fascetta-carta-02
+			EntityResets:
+				Quantity:	7
+				Type:		RESET.PUT
+				ProtoEntity:	villaggio-zingaro_item_candela-anice
+		                Probability:	90%
+			End
+		End
+		EntityResets:
+			Quantity:	4
+			Type: 	RESET.PUT
+			ProtoEntity: 	villaggio-zingaro_item_bustina-semi-peperoncino
+			EntityResets:
+				Quantity:	10
+				Type:		RESET.PUT
+				ProtoEntity:	flora_item_peperoncino-01-seme
+		                Probability:	70%
+			End
+			EntityResets:
+				Quantity:	5
+				Type:		RESET.PUT
+				ProtoEntity:	flora_item_peperoncino-02-seme-sterile
+		                Probability:	40%
+			End
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_scaffale-03
+
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	home-batu_item_candelabri-coppia
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	villaggio-zingaro_item_fischietto
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	villaggio-zingaro_item_mortaio-01
+			EntityResets:
+				Quantity:	1
+				Type:		RESET.PUT
+				ProtoEntity:	villaggio-zingaro_item_pestello-01
+			End
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	villaggio-zingaro_item_fascetta-carta-01
+			EntityResets:
+				Quantity:	8
+				Type:		RESET.PUT
+				ProtoEntity:	villaggio-zingaro_item_candela
+		                Probability:	90%
+			End
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	villaggio-zingaro_item_fascetta-carta-03
+			EntityResets:
+				Quantity:	7
+				Type:		RESET.PUT
+				ProtoEntity:	villaggio-zingaro_item_candela-limone
+		                Probability:	90%
+			End
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_vetrinetta-bancone
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	villaggio-zingaro_item_cofanetto-osso
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	villaggio-zingaro_item_spirale-oro
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	villaggio-zingaro_item_mortaio-agata
+			EntityResets:
+				Quantity:	1
+				Type:		RESET.PUT
+				ProtoEntity:	villaggio-zingaro_item_pestello-agata
+			End
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_bancone-emporio
+	End
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_emporio-magazzino
+	Destination:	5 1 0 villaggio-zingaro
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_fili-01
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_scopa
+	End
+	EntityResets:
+		Quantity:	2
+		Type:		RESET.PUT
+		ProtoEntity:	ikea_item_pettine
+	End
+	EntityResets:
+		Quantity:	7
+		Type:		RESET.PUT
+		ProtoEntity:	ikea_item_padella
+	End
+	EntityResets:
+		Quantity:	8
+		Type:		RESET.PUT
+		ProtoEntity:	ikea_item_pentola
+	End
+	EntityResets:
+		Quantity:	5
+		Type:		RESET.PUT
+		ProtoEntity:	villaggio-zingaro_item_mortaio-01
+			EntityResets:
+				Quantity:	1
+				Type:		RESET.PUT
+				ProtoEntity:	villaggio-zingaro_item_pestello-01
+			End
+	End
+	EntityResets:
+		Quantity:	3
+		Type:		RESET.PUT
+		ProtoEntity:	villaggio-zingaro_item_mortaio-agata
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	villaggio-zingaro_item_pestello-agata
+		End
+	End
+	EntityResets:
+		Quantity:	9
+		Type:		RESET.PUT
+		ProtoEntity:	ikea_item_tegame
+	End
+	EntityResets:
+		Quantity:	20
+		Type:		RESET.PUT
+		ProtoEntity:	villaggio-zingaro_item_bustina-semi-pomodoro
+		EntityResets:
+			Quantity:	12
+			Type:		RESET.PUT
+			ProtoEntity:	flora_item_pomodoro-01-seme
+	                Probability:	80%
+		End
+		EntityResets:
+			Quantity:	5
+			Type:		RESET.PUT
+			ProtoEntity:	flora_item_pomodoro-02-seme-sterile
+	                Probability:	60%
+		End
+	End
+	EntityResets:
+		Quantity:	20
+		Type:		RESET.PUT
+		ProtoEntity:	villaggio-zingaro_item_bustina-semi-peperoncino
+		EntityResets:
+			Quantity:	10
+			Type:		RESET.PUT
+			ProtoEntity:	flora_item_peperoncino-01-seme
+	                Probability:	70%
+		End
+		EntityResets:
+			Quantity:	5
+			Type:		RESET.PUT
+			ProtoEntity:	flora_item_peperoncino-02-seme-sterile
+	                Probability:	40%
+		End
+	End
+	EntityResets:
+		Quantity:	16
+		Type:		RESET.PUT
+		ProtoEntity:	villaggio-zingaro_item_fascetta-carta-01
+		EntityResets:
+			Quantity:	8
+			Type:		RESET.PUT
+			ProtoEntity:	villaggio-zingaro_item_candela
+	                Probability:	90%
+		End
+	End
+	EntityResets:
+		Quantity:	9
+		Type:		RESET.PUT
+		ProtoEntity:	villaggio-zingaro_item_fascetta-carta-02
+			EntityResets:
+				Quantity:	7
+				Type:		RESET.PUT
+				ProtoEntity:	villaggio-zingaro_item_candela-anice
+		                Probability:	90%
+			End
+	End
+	EntityResets:
+		Quantity:	11
+		Type:		RESET.PUT
+		ProtoEntity:	villaggio-zingaro_item_fascetta-carta-03
+			EntityResets:
+				Quantity:	7
+				Type:		RESET.PUT
+				ProtoEntity:	villaggio-zingaro_item_candela-limone
+		                Probability:	90%
+			End
+	End
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	villaggio-zingaro_item_cofanetto-osso
+	End
+	EntityResets:
+		Quantity:	2
+		Type:		RESET.PUT
+		ProtoEntity:	ikea_item_bussola
+	End
+	EntityResets:
+		Quantity:	6
+		Type:		RESET.PUT
+		ProtoEntity:	villaggio-zingaro_item_fischietto
+	End
+	EntityResets:
+		Quantity:	4
+		Type:		RESET.PUT
+		ProtoEntity:	villaggio-zingaro_item_lanterna
+	End
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	villaggio-zingaro_item_asciugamano
+	End
+	EntityResets:
+		Quantity:	3
+		Type:		RESET.PUT
+		ProtoEntity:	villaggio-zingaro_item_guinzaglio
+	End
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	villaggio-zingaro_item_spirale-oro
+	End
+	EntityResets:
+		Quantity:	2
+		Type:		RESET.PUT
+		ProtoEntity:	home-batu_item_candelabri-coppia
+	End
+	EntityResets:
+		Quantity:	4
+		Type:		RESET.PUT
+		ProtoEntity:	villaggio-zingaro_item_mascherina-notte
+	End
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	ikea_item_specchio
+	End
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	villaggio-zingaro_item_multipipa
+	End
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_villaggio-11
+	Destination:	3 0 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_villaggio-11-a
+	Destination:	2 0 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_villaggio-12
+	Destination:	1 0 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_stalla-01
+	Destination:	1 -1 0 villaggio-zingaro
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	villaggio-zingaro_mob_stalliere
+	End
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_fienile
+	Destination:	1 -1 1 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_pascolo
+	Destination:	0 -1 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_stalla-02
+	Destination:	1 -2 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_box-01
+	Destination:	0 -2 0 villaggio-zingaro
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_mob_pony-fluffy
+	End
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_box-02
+	Destination:	2 -2 0 villaggio-zingaro
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity:	villaggio-zingaro_mob_equino-lanoso-01
+	End
+End
+
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_stalla-03
+	Destination:	1 -3 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_box-03
+	Destination:	0 -3 0 villaggio-zingaro
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity:	villaggio-zingaro_mob_equino-lanoso-02
+	End
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_box-04
+	Destination:	2 -3 0 villaggio-zingaro
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity:	villaggio-zingaro_mob_equino-lanoso-03
+	End
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_box-05
+	Destination:	1 -4 0 villaggio-zingaro
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_mob_unicorno
+	End
+End
+
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_villaggio-13
+	Destination:	-3 1 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_villaggio-13
+  Minute: 42	
+	Destination:	-3 1 0 villaggio-zingaro
+End
+RoomResets:
+  Comment: carica la zona senza doppia porta per negozio
+  ProtoRoom: villaggio-zingaro_room_villaggio-14
+	Destination:	-3 0 0 villaggio-zingaro
+End
+RoomResets:
+  Comment: carica la zona senza doppia porta per negozio
+  Hour: 07
+  ProtoRoom: villaggio-zingaro_room_villaggio-14
+	Destination:	-3 0 0 villaggio-zingaro
+End
+RoomResets:
+  Comment: carica la doppia porta locked per negozio
+  Hour: 14
+  ProtoRoom: villaggio-zingaro_room_villaggio-14-night
+	Destination:	-3 0 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_oreficeria-01
+	Destination:	-4 0 0 villaggio-zingaro
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_espositore-oreficeria-01
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:		ikea_item_bracciale
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_espositore-oreficeria-02
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:		ikea_item_fermaglio
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_espositore-oreficeria-03
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:		ikea_item_spilla
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_espositore-oreficeria-04
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:		ikea_item_pendente
+		End
+	End
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_oreficeria-02
+	Destination:	-5 0 0 villaggio-zingaro
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_mob_orefice-dinnilos-luvvo
+		EntityResets:
+			Quantity:	2
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_bracciale
+		End
+		EntityResets:
+			Quantity:	2
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_fermaglio
+		End
+		EntityResets:
+			Quantity:	4
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_spilla
+		End
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_pendente
+		End
+		EntityResets:
+			Quantity:	3
+			Type:		RESET.PUT
+			ProtoEntity:	villaggio-zingaro_item_anello-irlandese
+		End
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	villaggio-zingaro_item_anello-serpi
+		End
+		EntityResets:
+			Quantity:	5
+			Type:		RESET.PUT
+			ProtoEntity:	villaggio-zingaro_item_orecchino-cerchio
+		End
+		EntityResets:
+			Quantity:	2
+			Type:		RESET.PUT
+			ProtoEntity:	villaggio-zingaro_item_unghie-rinforzo
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_bancone-orefice
+
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_bancone-orefice-cassetto-01a
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity:	villaggio-zingaro_item_cono-per-anelli
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_bancone-orefice-cassetto-02a
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	villaggio-zingaro_item_filo-di-ferro
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_bancone-orefice-cassetto-01b
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity:	villaggio-zingaro_item_lingotto-oro-consumato
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity:	villaggio-zingaro_item_lingotto-argento-consumato
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_bancone-orefice-cassetto-02b
+	End
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_villaggio-15
+	Destination:	-2 -1 0 villaggio-zingaro
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_portale-pozzo
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_secchio
+	End
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_villaggio-16
+	Destination:	4 2 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_villaggio-17
+	Destination:	2 1 0 villaggio-zingaro
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_book-indizi-cupola
+	End
+End
+RoomResets:
+  Comment: deafult-room
+  ProtoRoom: villaggio-zingaro_room_orto-01-primavera
+	Destination:	-2 -2 0 villaggio-zingaro
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_falce-01
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_rastrello-small-01
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_rastrello-01
+	End
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_orto-01-primavera
+  Month: MONTH.TWO
+	Destination:	-2 -2 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_orto-01-estate
+  Month: MONTH.FIVE
+	Destination:	-2 -2 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_orto-01-autunno
+  Month: MONTH.SEVEN
+	Destination:	-2 -2 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_orto-01-autunno-serra
+  Month: MONTH.SEVEN
+  Day:	20
+	Destination:	-2 -2 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_orto-01-inverno
+  Month: MONTH.TEN
+	Destination:	-2 -2 0 villaggio-zingaro
+End
+
+
+
+RoomResets:
+  Comment: deafult-room
+  ProtoRoom: villaggio-zingaro_room_orto-02-primavera
+	Destination:	-1 -2 0 villaggio-zingaro
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_mob_millepiedi-ciambella
+	End
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_orto-02-primavera
+  Month: MONTH.TWO
+	Destination:	-1 -2 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_orto-02-estate
+  Month: MONTH.FIVE
+	Destination:	-1 -2 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_orto-02-autunno
+  Month: MONTH.SEVEN
+	Destination:	-1 -2 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_orto-02-autunno-serra
+  Month: MONTH.SEVEN
+  Day:	20
+	Destination:	-1 -2 0 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_orto-02-inverno
+  Month: MONTH.TEN
+	Destination:	-1 -2 0 villaggio-zingaro
+End
+
+RoomResets:
+  Comment:	default
+  ProtoRoom: villaggio-zingaro_room_orto-fossa-biologica-primavera
+	Destination:	-1 -2 -1 villaggio-zingaro
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_mob_rana-allucinogena-01
+	End
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_orto-fossa-biologica-primavera
+  Month: MONTH.TWO
+	Destination:	-1 -2 -1 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_orto-fossa-biologica-estate
+  Month: MONTH.FIVE
+	Destination:	-1 -2 -1 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_orto-fossa-biologica-autunno
+  Month: MONTH.SEVEN
+	Destination:	-1 -2 -1 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_orto-fossa-biologica-inverno
+  Month: MONTH.TEN
+	Destination:	-1 -2 -1 villaggio-zingaro
+End
+
+
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_cunicolo-sub-01
+	Destination:	-4 0 -1 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_cunicolo-sub-02
+	Destination:	-1 -0 -1 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_cunicolo-sub-03
+	Destination:	0 -1 -1 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_cunicolo-sub-04
+	Destination:	1 -1 -1 villaggio-zingaro
+End
+
+RoomResets:
+  Comment:	stanza dove poppano esserini e poi escono poco fuori cupola
+  ProtoRoom:	villaggio-zingaro_room_generatore-esserini
+	Destination:	42 42 42 villaggio-zingaro
+End
+
+RoomResets:
+  Comment:	stanza dove poppano esserini e poi escono poco fuori cupola
+  ProtoRoom:	villaggio-zingaro_room_generatore-esserini
+  Minute: 01
+	Destination:	42 42 42 villaggio-zingaro
+	EntityResets:
+		Quantity:	2
+		Type: 	RESET.PUT
+		Inputs:	emote fa capolino dalla parete di rovi
+		ProtoEntity: 	villaggio-zingaro_mob_esserini
+	End
+End
+
+
+RoomResets:
+  Comment: caduta dal pozzo
+  ProtoRoom: villaggio-zingaro_room_grotta-pozzo-01
+	Destination:	-2 -1 -2 villaggio-zingaro
+End
+RoomResets:
+  Comment: caduta dal pozzo
+  ProtoRoom: villaggio-zingaro_room_grotta-pozzo-02
+	Destination:	-2 -1 -3 villaggio-zingaro
+End
+RoomResets:
+  Comment: zona immersa
+  ProtoRoom: villaggio-zingaro_room_grotta-01
+	Destination:	-2 -1 -4 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_grotta-02
+	Destination:	-1 -1 -4 villaggio-zingaro
+
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_mob_pesce-grotta
+	End
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_grotta-03
+	Destination:	0 -1 -4 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_grotta-04
+	Destination:	0 0 -4 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_grotta-05
+	Destination:	1 -2 -4 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_grotta-06
+	Destination:	2 -2 -4 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_grotta-07
+	Destination:	3 -2 -4 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_grotta-nicchia
+	Destination:	4 -1 -4 villaggio-zingaro
+
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_item_cadavere-grotta
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	villaggio-zingaro_item_multipipa
+		End
+	End
+
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_grotta-08
+	Destination:	5 0 -4 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_grotta-09
+	Destination:	6 1 -1 villaggio-zingaro
+End
+
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_grotta-colonne-01
+	Destination:	3 -3 -4 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_grotta-colonne-02
+	Destination:	3 -4 -4 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_grotta-colonne-03
+	Destination:	4 -5 -4 villaggio-zingaro
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	villaggio-zingaro_mob_spiritello-triste
+	End
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_grotta-colonne-04
+	Destination:	5 -4 -4 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_grotta-colonne-05
+	Destination:	5 -3 -4 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_grotta-promontorio
+	Destination:	4 -2 -3 villaggio-zingaro
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity:	villaggio-zingaro_item_altare-accesso
+	End
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_grotta-colonne-06
+	Destination:	6 -3 -4 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_grotta-colonne-07
+	Destination:	7 -4 -4 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_grotta-anfratti-01
+	Destination:	7 -4 -3 villaggio-zingaro
+
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_grotta-anfratti-02
+	Destination:	7 -3 -3 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_grotta-anfratti-03
+	Destination:	8 -3 -3 villaggio-zingaro
+End
+RoomResets:
+  ProtoRoom: villaggio-zingaro_room_grotta-anfratti-04
+	Destination:	8 -4 -3 villaggio-zingaro
+End

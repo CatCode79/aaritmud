@@ -1,0 +1,28 @@
+Code: villaggio-zingaro_item_foglia-verza-marcia
+
+Level: 1
+Entitype:	ENTITYPE.FOOD	
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.VEGETABLES 100%	
+Name:
+Una Foglia di Verza Marcia
+Short:
+una foglia ricurva
+Long:
+$N sta marcendo qui.
+
+Descr:
+Una foglia semisferica ricoperta di venature è in evidente stato di putrefazione.  
+DescrTouch: 
+Ha perso la sua naturale turgidità ed è ricoperta da uno velo di poltiglia viscido
+DescrTaste:
+Non è proprio il caso di mangiarla, a meno che non si voglia andare incontro a gravi problemi intestinali!
+DescrSmell:
+Quello che un tempo era il suo aroma caratteristico è ormai coperto dal puzzo di putridume e letame.
+
+Value:	0
+Weight: 10g
+
+
+
+

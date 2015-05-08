@@ -1,0 +1,32 @@
+Code: ikea_item_food-carota
+Icon:	icons/food/carrot.png
+Level: 1
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.FEMALE
+Flags:	FLAG.RANDOMIZABLE
+Value:	10
+MaterialPercentages:	MATERIAL.VEGETABLES	100%
+Name:	Una [orange]Carota[close]
+Short:	una [orange]carota[close]
+Long:	c'è lì $N matura già pulita e lavata. 
+
+Descr:
+La più nota delle [orange]radici[close] commestibili. 
+DescrTouch:
+Una radice dura e di buona qualità privata della parte aerea.
+DescrSmell:
+È persino profumata, non deve essere stata sfilata da troppo tempo.
+DescrTaste:
+Il gusto c'è tutto anche se non è certo come le carote di una volta.
+
+Weight: 205g
+
+FoodType:
+	Comment:	cibo
+	Animal:	0
+	Vegetable:	100
+	CookingDamage:	0
+	Hours:	48
+End
+
+

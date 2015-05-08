@@ -1,0 +1,26 @@
+Code: karpuram_item_torba-manciata
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.SLIME	100
+Sex:	SEX.FEMALE
+Name: Una manciata di Torba
+Short: una manciata di [lightslategray]terra[close]
+Long:	$N fradicia
+
+KeywordsName: manciata
+KeywordsShort: manciata
+
+Descr:
+[lightslategray]della terraccia molle e dal colore improbabile.[close] 
+DescrSixth:
+	Torba fradicia ottima come concime.
+DescrTouch: 
+	Consistenza molliccia.
+
+Value:	0
+Weight: 350g
+
+
+
+

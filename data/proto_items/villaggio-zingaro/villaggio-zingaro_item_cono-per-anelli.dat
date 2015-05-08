@@ -1,0 +1,21 @@
+Code: villaggio-zingaro_item_cono-per-anelli
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.METAL 100%
+Name:	Un Misuratore per Anelli
+Short:	un cono metallico stretto e lungo
+Long:	$N con numerosi cerchi incisi
+
+Descr:
+Uno strumento per la misura interna degli anelli; riporta infatti almeno una trentina di misure ed altrettanti cerchi incisi. 
+DescrTouch: 
+Una barra metallica conica con incisioni in tutta la sua lunghezza alternate da cerchi coassiali.
+DescrSixth:
+Uno strumento tanto prezioso ma solo per l'artigiano che lo usa, completamente inutile per chiunque altro.
+
+Value:	0
+Weight: 210g
+
+

@@ -1,0 +1,22 @@
+Code: villaggio-zingaro_item_fornace-fucina
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+Flags:	FLAG.NO_LOOK_LIST
+MaterialPercentages:	MATERIAL.STONE 100%
+Name:	La Fornace della Fucina
+Short:	la fornace
+Long:	$N sputa virtuose lingue di fuoco.
+
+Descr:
+Una vasta apertura ad arco nel muro della fucina offre la vista sulle lingue di fuoco guizzanti all'interno della fornace; il muro in laterizio circostante è annerito dalla fiamme che di tanto in tanto fuoriescono. Un mantice meccanico mantiene vivo il fuoco ed è collegato ad una serie di ingranaggi e aste che penetrano nel muro sfuggendo alla tua vista.
+DescrTouch: 
+Avvicini le $hands ma il calore è insopportabile.
+DescrSixth:
+Intuisci che il mantice potrebbe essere tenuto in movimento dallo scorrere dell'acqua o forse da un animale.
+DescrHearing:
+Il crepitio delle fiamme e lo stantuffare del mantice non ti abbandonano mai.
+
+Value:	0
+Weight: 100000kg

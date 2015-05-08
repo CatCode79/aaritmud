@@ -1,0 +1,26 @@
+Code: novizi2_item_sozzume-piatti
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+MaterialPercentages:	MATERIAL.UNKNOWN	100%
+Name:	Immondo Sozzume
+Short:	immondo sozzume
+Long:	$N senza speranza di salvezza
+
+Descr:
+Un immondo sozzume precluso a qualsivoglia speranza di redenzione.
+DescrTouch: 
+Un immondo suzzume ti preclude ora qualsivoglia speranza di salvezza.
+DescrSmell: 
+L'ingresso per le mistiche visioni di generazioni e generazioni di sciamani.
+DescrSixth:
+In muta contemplazione dell'entropia e dei suoi nefasti effetti ti abbandoni allo scorrere del tempo.
+DescrTaste:
+Un vago sentore di morte e pestilenza irrora le tue papille con inusitato vigore.
+
+Value:	0
+Weight: 10kg
+
+

@@ -1,0 +1,36 @@
+Code: citta-raminghe_item_door-cinta-nord
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.DOOR
+MaterialPercentages:	MATERIAL.SOFTWOOD	100%
+Sex:	SEX.FEMALE
+Icon:	icons/item/door-golden.png
+Name:	La Porta
+Short:	una porta
+Long:	$N è a terra divelta 
+
+Descr:
+Un semplice porta in legno
+DescrTouch: 
+Un ruvida e semplice porta
+
+Value:	0
+Weight: 7kg
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Apri $N usando ambo le $hands.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N usando ambo le $hands.
+	EntityCloseMessage:	Accompagni $N fino a chiuderla.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n accompagna $N fino a chiusura.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE
+	ResetCloseMessage: $N si chiude.
+	ResetOpenMessage: $N si apre.
+End
+
+

@@ -1,0 +1,59 @@
+Code: karpuram_item_anello-legno
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.HARDWOOD	100
+Sex:	SEX.MALE
+Name:	L'Anello di Noce Nero
+Short:	un anello di legno
+Long:	$N è seminascosto qui.
+
+Descr:
+Questo anello si presenta ad un occhio poco attento come un normale anello
+di legno, di semplice fattura e di scarso valore. Ad una più attenta
+indagine presenta alcuni simboli nella parte interna, leggeri e apparentemente
+non incisi sul legno dell'anello ma affrancati con una diversa tecnica.
+
+DescrNight:
+Un semplice anello di legno dalla forma circolare quasi perfetta, non presenta
+rifiniture esterne e sembra essere di scarso valore. Nella parte interna dello
+stesso noti uno strano simbolo forse inciso sul legno in un secondo momento.
+
+DescrTouch:
+Al tocco appare solido e pregiato, levigato con cura da mani esperte, anche
+se nella parte interna si avverte subito una leggera resistenza dovuta a due
+strani piccoli simboli inseriti al suo interno.
+
+DescrTouchNight:
+L'anello è decisamente di pregio, levigato con attenzione e da mani molto
+esperte. Toccando la parte esterna noti una solida freddezza, accentuata in 
+parte dal calore che senti provenire dalla parte interna dell'anello, in modo
+particolare infilandolo.
+
+DescrSixthNight:
+I due strani simboli presenti nella parte interna dell'anello sembrano 
+surriscaldarsi di notte.
+
+Value:	0
+Weight: 21g
+
+Extras:
+	Keywords: simbolo, simboli
+	Descr:
+	Sono due piccole rune raffiguranti due simboli molto noti ai più. Un sole
+	e una luna posti uno accanto all'altra.
+End
+
+
+WearType:
+	Modes:	PART.LEFT_RING_FINGER
+	Modes:	PART.RIGHT_RING_FINGER
+	Modes:	PART.LEFT_MIDDLE_FINGER
+	Modes:	PART.RIGHT_MIDDLE_FINGER
+	Modes:	PART.LEFT_FOREFINGER
+	Modes:	PART.RIGHT_FOREFINGER
+	Modes:	PART.LEFT_THUMB
+	Modes:	PART.RIGHT_THUMB
+	Modes:	PART.LEFT_LITTLE_FINGER
+	Modes:	PART.RIGHT_LITTLE_FINGER
+End

@@ -1,0 +1,33 @@
+Code:	serpidi_item_sarcofagodecorato_09
+Level:	1
+Entitype: ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.STONE	50%
+MaterialPercentages:	MATERIAL.MARBLE	50%
+Name:	Un Grande Sarcofago Decorato 
+Short:	un grande sarcofago decorato 
+Descr: 
+Noti un sarcofago incastrato nella roccia.  
+Extras:
+	Keywords:	 simbolo 
+	Descr:
+ \  /  
+  \/  
+  /\ 
+ /  \
+(    ) 
+ \  /  
+  \/ 
+End
+Extras:
+	Keywords:	 sarcofago 
+	Descr:
+La parte inferiore del sarcofago è in realtà scolpita direttamentenella roccia, mentre il coperchio è rimovibile.La scultura del coperchio rappresenta un guerriero, molto simile a quellodella statua nel tempio superiore.Sullo scudo del guerriero è inciso un simbolo. A17 -5A25 -1
+End
+Value:	0
+Weight: 80g
+BirthDay: 1
+BirthMonth: MONTH.TEN
+
+
+
+

@@ -1,0 +1,25 @@
+Code: ikea_item_weapon-tridente
+Level: 10
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAPON
+MaterialPercentages:	MATERIAL.BRONZE	100
+Sex:	SEX.MALE
+Name:	Un Tridente
+Short:	un tridente
+Long:	$N massiccio
+
+Descr:
+Una sbarra metallica brunita che si triforca. Ogni dente termina acuminato e leggermente ricurvo.
+DescrTouch: 
+Un tridente a tre rebbi appuntiti e leggermente incurvati.
+
+Value:	0
+Weight: 1400g
+
+WeaponType:
+	Category:	WEAPON.SPEAR
+	Flags:	WEAPONFLAG.TWO_HANDS 
+End
+WearType:
+   Modes: PART.WIELD
+End

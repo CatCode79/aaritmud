@@ -1,0 +1,29 @@
+Code: citta-raminghe-maze_room_biblioteca_3no-est
+Sector: SECTOR.HOUSE
+Flags:  ROOM.INSIDE
+Name: La Sala degli Avventurieri
+Short: una [red]sala circolare[close]
+Descr:
+La sua forma è circolare tanto che, guardandosi intorno,  sembra che tutto giri come se ci si trovasse all'interno 
+di una sfera. Persino la volta è a cupola e il pavimento ha dei disegni che ti regalano un effetto ottico che lo fa sembrare concavo. 
+
+DescrSixth:
+Perdersi è desiderabile, ritrovarsi auspicabile.
+
+Width:  10m
+Depth:  10m
+Height: 100m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: in biblioteca
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: in biblioteca
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: nella biblioteca
+End
+

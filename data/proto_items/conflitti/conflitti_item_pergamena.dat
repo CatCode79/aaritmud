@@ -1,0 +1,33 @@
+Code: conflitti_item_pergamena
+Level: 1
+Entitype: ENTITYPE.READABLE
+MaterialPercentages:	MATERIAL.PARCHMENT	100
+Sex:	SEX.MALE
+Name:	Un Foglio di Pergamena
+Short:	un foglio di pergamena
+Long:	su $N noti delle scritte
+
+Descr:
+Sul foglio di pergamena una scritta “Non ti è consentito passare oltre, né cercare vie d'uscita sempre che ce ne siano…l'unica possibilità che hai di sopravvivenza è che tu mi dica un enunciato che sia vero. Se sarà falso comincerai a perdere energie mentali poco alla volta e tutto qui si nutrirà di te…”
+
+DescrSixth:
+Una pergamena che è anche una potentissima runa misteriosa e segreta che sprigiona energie positive e ti incoraggia a trovare la strada per proseguire il tuo viaggio.
+ 
+DescrSmell:
+Avverti un intenso odore  di inchiostro e di erba macerata.
+
+DescrHearing:
+Pensi davvero che una pergamena possa emettere un suono, un rumore o qualsiasi cosa possa sollecitare il tuo organo uditivo? In realtà sì, lo avvicini all'orecchio e, come le conchiglie con il mare, senti dei sussurri appena accennati.Non sai a chi appartengano. Forse a chi prima di te è entrato in questa stanza e non ne è mai uscito, forse a qualcosa o a qualcuno che vuole suggerirti la soluzione, quella giusta o forse quella che ti intrappolerà qui...non lo sai. O forse è il sussurro di antiche rune misteriose e segrete che ti indicano qualcosa che devi intepretare...
+
+DescrTaste:
+Nutrirti di una potentisima runa può farti acquisire potere, ma rischi di capovolgere i ruoli e di essere tu il suo cibo e decidi saggiamente di evitare.
+
+Value:	0
+Weight: 21g
+
+
+WearType:
+   Modes: PART.HOLD
+End
+
+

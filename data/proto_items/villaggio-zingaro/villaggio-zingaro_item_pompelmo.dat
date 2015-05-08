@@ -1,0 +1,33 @@
+Code: villaggio-zingaro_item_pompelmo
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.FRUIT	100%
+Name:	Un [yellow]Pompelmo[close]
+Short:	un [yellow]pompelmo[close]
+Long:	$N tondeggia qui.
+
+Descr:
+Un grosso [yellow]pomplemo[close] con ancora un rametto di foglie attaccato.
+DescrTouch: 
+Tasti il morbido pompelmo, pare maturo.
+DescrSmell: 
+Un aroma acido e dolce allo stesso tempo.
+DescrHearing:
+no_send
+DescrTaste:
+Lecchi la buccia amarognola.
+
+Value:	0
+Weight: 100g
+
+FoodType:
+	Comment:	cibo
+	Vegetable:	100
+	CookingDamage:	0
+	Hours:	0
+	EntityMessage:	Prendi $N fra le $hands e lo addenti senza ritegno.	
+	TargetMessage:	Ora c'è una sola via d'uscita... $n t'ha mangiato.
+	OthersMessage:	$n prende fra le $hands $N e lo addenta con foga.
+End

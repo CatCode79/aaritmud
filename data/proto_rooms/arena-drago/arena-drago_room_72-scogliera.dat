@@ -1,0 +1,66 @@
+Code:	arena-drago_room_72-scogliera
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	La Scogliera
+Short:	la scogliera
+	Descr:
+Cammini ancora per circa mezz'ora, ad ogni passo il vento fresco
+aumenta e cominci a sentire l'odore della salsedine e il rumore
+delle onde. Infine la luce naturale prende il sopravvento su
+quella rossa del magna freddo e in pochi minuti ti trovi ad
+affacciarti da una gigantesca apertura, la roccia dell'isola dei
+draghi corre a strapiombo sia sotto che sopra di te andandosi a
+tuffare nel mare e sfiorando il cielo. Ora capisci da dove i
+draghi accedono a questo luogo. Purtroppo tu non sei un drago,
+l'unica cosa che ti resta da fare è tornare sui tuoi passi verso
+il cunicolo.
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	1|64 0
+Exits:
+	Direction:	DIR.WEST
+	Descr:	l'enorme cunicolo
+	Comment:	ExitStatus	0 0 27771 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

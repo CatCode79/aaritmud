@@ -1,0 +1,18 @@
+Comment: STRUMENTO.AUSILIARIO
+Code: mfdonald_item_strumenti-violino-archetto
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.WOOD	45%
+MaterialPercentages:	MATERIAL.HAIR	55%
+Name:	Un Archetto per Violino
+Short:	dello spago legato ad un'asticella 
+Long:	$N tutto sporco di polvere bianca
+
+Descr:
+	Un archetto per violino allentato e con tutti i crini arruffati
+
+Value:	0
+Weight: 80g
+
+

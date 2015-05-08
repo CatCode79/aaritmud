@@ -1,0 +1,29 @@
+Code: ikea_item_millefoglie
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.FLOUR	50%
+MaterialPercentages:	MATERIAL.BUTTER	20%
+MaterialPercentages:	MATERIAL.MILK	10%
+MaterialPercentages:	MATERIAL.EGG	10%
+MaterialPercentages:	MATERIAL.SUGAR	10%
+Name:	Una Millefoglie
+Short:	una millefoglie
+Long:	$N è qui
+
+Descr:
+Una torta composta da tre stati di pasta sfoglia, alternati da una morbida e profumata crema pasticcera. L'intero dolce è ricoperto da una glassa bianca
+DescrTouch: 
+La sfoglia dà quel tocco di croccantezza che viene accompagnato dalla morbidezza della crema
+DescrSmell: 
+I profumi si miscelano con equilibrio unendo ad una nota agrumata un leggero profumo di mandorla
+DescrSixth:
+Se i dolci avessero titoli nobiliari, questa meriterebbe senza dubbio quello di regina 
+DescrTaste:
+La crema all'interno ha un gustoso sentore agrumato  
+DescrHearing:
+Impieghi poco a comprendere quanto la sfoglia sia friabile
+
+Value:	0
+Weight: 120g

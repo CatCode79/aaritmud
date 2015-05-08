@@ -1,0 +1,79 @@
+Comment: 
+Rana in futuro allucinogena...te la mangi o la lecchi e hai una variazione di qualche tipo dell'intuition o qualcosa del genere.
+MaxGlobalQuantity:	3
+Code:	villaggio-zingaro_mob_rana-allucinogena-01
+Level:	1
+Sex:	SEX.FEMALE
+Race:	RACE.FROG
+Name:	Una Rana Allucinogena
+Short:	una rana
+Long:	$N dai vivaci colori.
+
+Descr:
+Una piccola rana dai grandi [darkorange]occhi[close] occhi sporgenti. Il [lime]corpo[close], di un bel verde brillante, è percorso sul dorso da due strisce nere mentre sul ventre spicca una grossa [yellow]macchia[close] gialla. Le dita delle zampe sono munite di piccole palline sulle estremità che assomigliano a delle ventose.  
+DescrTouch:
+La sfiori con un dito la pelle viscida e fredda.
+DescrTaste:
+Assaggiare una rana? Perché no?!
+DescrSixth:
+Un ricordo che non sai da dove provenga di permea la mente..rane allucinogene.
+
+Weight: 30g
+Height: 2cm
+
+BirthDay: 03
+BirthMonth: MONTH.TEN
+Age: 1
+
+Behaviour:
+	LookPlayer:	0
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	LookEquipment:	0
+	SmellPlayer:	0
+	ListenMob:	0
+	TouchItem:	0
+	IntuitionAtRacesFlags:	RACE.NONE
+	IntuitionAtRaces:	0
+	TasteAtEntitypesFlags:	ENTITYPE.NONE
+	TasteAtEntitypes:	0
+	WanderDirection:	40
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	13
+	RandomDoInputs:	emote saltella qua e là.
+	End
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

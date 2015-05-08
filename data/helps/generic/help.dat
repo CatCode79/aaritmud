@@ -1,0 +1,66 @@
+Code: help
+
+ItalianKeywords: aiuto
+EnglishKeywords: help
+
+Entitype: HELP.GENERIC
+
+Text:
+Durante la tua permanenza in questo mondo avrai spesso bisogno di
+aiuto e cercherai una spiegazione a quello che sta accadendo a te stesso
+oppure intorno a te, questo elenco di comandi può essere un punto 
+d'inizio per aiutarti a comprendere le nozioni base e accompagnarti
+nel cammino.
+_________________________________________________________________________
+PRIMI PASSI:
+$tcommands, $tsave, $tdeath, $texperience $tlook, $tmove, 
+$tobjects, $tpassword $tpractices, $tpositions, $tprompt
+$tremains, $tquit, $trules, $twimpy, $tsave
+
+
+INTERAZIONE CON PERSONAGGI/MOSTRI:
+$tafk, $tattack, $tclan, $tcombat, $tconsider
+$tdrag, $tdrop, $tget, $tgive, $tput, $tfollow
+$tgroup, $tkill, $tlanguages, $tnote, $tmail, $torder
+$tshove, $tsocials
+
+
+SPOSTAMENTI:
+$tdirections, $trun, $texits, $tenter
+
+
+COMUNICAZIONE:
+$tsay, $ttell, $treply, $tgtell, $tmurmur, $twhisper
+$tsing, $tshout
+
+
+INTERAZIONE CON OGGETTI:
+$tapply, $tboard, $tcompare, $tcontainer $tcook, $texamine, 
+$tempty, $tfill, $tremove $thold, $twield, $twear, $tlight, 
+$topen, $tclose $tlock, $tunlock, $tbolt, $tunbolt, $tput
+$tpush, $tpull, $trap
+
+
+
+AZIONI:
+$tbuy, $tsell, $tbrandish, $teat, $tdrink $tlook, $teditor, 
+$tflee, $trest, $tsit, $tsleep $twake, $tstand
+
+
+
+INFORMAZIONI:
+$taffected, $tareas, $tlist, $tbank, $tbio $tdescription, 
+$tcalendar, $tweather, $tdamroll $tequipment, $tinventory, 
+$teqdamage, $tfindnote $tgroup, $thitroll, $tmoney, $tmentalstate
+$tscore
+
+
+
+VARIE ED EVENTUALI:
+alias, $tblinded, $tchannels, $tcolor $tconfig, $tdeathtrap, 
+$tglory $tbug, $ttypo, $tideas, $tloyal, $tmana $tpause, 
+$tpet, $tpetsave, $trepair $ttitle, $tsacrifice, $tsky, $tsplit
+
+
+
+Per ottenere aiuto su una parola specifica, scrivi $thelp &lt;parola&gt;.

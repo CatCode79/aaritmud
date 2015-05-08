@@ -1,0 +1,6 @@
+FunName:    command_yell
+Type:       CMDTYPE.CHANNEL
+Trust:      TRUST.PLAYER
+Position:   POSITION.REST
+Flags:      CMDFLAG.GDR
+MiniHelp:   Serve per urlare.

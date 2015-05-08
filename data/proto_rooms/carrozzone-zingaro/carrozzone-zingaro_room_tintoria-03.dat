@@ -1,0 +1,48 @@
+Code: carrozzone-zingaro_room_tintoria-03
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: Il Laboratorio
+Short: un laboratorio
+
+Descr:
+Uno stanzone quadrangolare allestito a laboratorio in cui polveri misteriose riempiono sacchetti delle fogge più disparate. Qua e là sono appesi mazzi di fiori ed erbe mentre su un lungo bancone ci sono strumenti senza nome.
+DescrTaste:
+Assaggiare una di queste accattivanti polverine potrebbe non essere esattamente un ottima idea!
+DescrTouch:
+Ovunque porti le dita sembra di sentire prurito in anticipo.
+DescrSmell:
+L'aria è satura dei nefidi odori provenienti dall'esterno e frammista alle fragranze dolciastre dovute a tutti i vegetali secchi e le misteriose polveri.
+DescrHearing:
+Di quando in quando ti arrivano gli ansiti pigri dei cavalli che trainano il carrozzone
+DescrSixth:
+Ti spremi le meningi ma non intuisci proprio nulla; anonime, indecifrabili polverine, se solo avessero etichettato i sacchetti!
+
+Width:	3m
+Depth:	5m
+Height: 220cm
+
+Extras:
+     Keywords: strumenti bancone
+     Descr:
+     Riconosci cucchiai, un tagliere e delle provette piene di liquidi colorati ma ti riesce difficile trovare un nome al resto
+     degli oggettini sparsi ovunque.
+End
+
+Extras:
+     Keywords: vegetali secchi fiori mazzi erbe
+     Descr:
+     Mazzi di fiori ed erbe pendono ondeggianti da ogni dove; ve ne sono di tutte le
+     dimensioni, forme e colori. Dev'essere stato un allegro pourt pourri prima
+     di seccarsi così.  
+End
+
+Exits:
+ Direction: DIR.WEST
+ Descr: Un passaggio stretto
+ EntityMessage: Calpesti inavvertitamente qualcosa uscendo da $a.
+ OthersInMessage: $n calpesta qualcosa uscendo.
+End
+Exits:
+ Direction: DIR.SOUTHWEST
+ Descr: Verso il fondo del carrozzone
+End

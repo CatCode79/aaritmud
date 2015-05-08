@@ -1,0 +1,17 @@
+Code: villaggio-zingaro_item_scopa
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.WOOD	100%
+Name:	Una Scopa
+Short:	una scopa 
+Long:	$N è appoggiata qui.
+
+Descr:
+Una una scopa con un lungo manico in legno e una folta chioma in saggina, tra le setole sono incastrati grumi di polvere, pezzetti di carta..più all'interno hai l'impressione di scorgere una caramella già assaggiata e chissà cos'altro.
+DescrTouch: 
+Impugnatura comoda anche se non particolarmente ergonomica.
+
+Value:	0
+Weight: 243g

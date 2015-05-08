@@ -1,0 +1,19 @@
+Comment: conveniente negli oggetti rotti l'uso dell'etichetta %material
+Code: rip_item_broken-seed
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Sex:	SEX.MALE
+Name:	Un Seme Defunto
+Short:	un seme defunto
+Long:	$N ancor prima di nascere
+
+Descr:
+Un seme di una qualche pianta reso irriconoscibile ma soprattutto sterile.
+DescrTouch: 
+Un seme di una qualche pianta reso irriconoscibile ma soprattutto sterile.
+DescrSixth:
+Si voleva esser certo che non potesse germinare a discapito di qualunque altra possibilità.
+
+Weight: 10g

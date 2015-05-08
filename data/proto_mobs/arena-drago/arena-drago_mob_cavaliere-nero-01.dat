@@ -1,0 +1,73 @@
+Code:	arena-drago_mob_cavaliere-nero-01
+Level:	03
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Un Cavaliere dei Draghi
+Short:	un cavaliere
+Long:	$N sorveglia l'arco di accesso all'arena.
+
+Race:	RACE.HUMAN
+Weight:	100kg
+Height:	100cm
+BirthDay:	29
+BirthMonth:	MONTH.TWO
+Age:	17
+Descr:
+Sembra  giovane ed inesperto, questo non vuol dire che non sia un
+valido avversario.
+
+Behaviour:
+	LookPlayer:	0
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+Comment:
+#27708
+1048576|4194304|8388608|16777216 16777216|33554432 0 A 3
+43 -8 -12 400 1d3+20
+-1 2000 26 1
+8 8 3 16384|32768|65536 8192 0
+
+
+
+
+
+
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

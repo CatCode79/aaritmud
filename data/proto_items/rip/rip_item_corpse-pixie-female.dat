@@ -1,0 +1,29 @@
+Code:	rip_item_corpse-pixie-female
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CORPSE
+Sex:	SEX.FEMALE
+Race:	RACE.PIXIE
+MaterialPercentages:	MATERIAL.FLESH	100%
+Name:	Una tua Simile Mort$O 
+Short:	una pixie mort$O
+Long:	$N afflosciato qui definitivamente 
+
+Descr:
+I resti mortali e corruttibili di #looker is RACE.PIXIE#una tua simile.#un appartenente alla razza pixie.#
+
+DescrTouch:
+Il cadavere di #looker is RACE.PIXIE#una tua simile si muove leggermente al tuo tocco, come se una parte
+vitale di questo esserino si trovi ancora intrappolata al suo interno.#
+
+DescrSixth:
+#looker is RACE.PIXIE#Le piccole alette poste sul dorso del cadavere brillano ancora intensamente.#
+
+DescrSmell:
+#looker is RACE.PIXIE#Il piccolo corpinico ti trasmette odori floreali, è ancora impregnato di polline.#
+
+DescrTaste:
+#looker is RACE.PIXIE#Ti sembra di assaggiare un fiore, petali, polline e sentori di piante.#
+
+Value:	0
+Weight:	35kg

@@ -1,0 +1,16 @@
+Code: config
+
+ItalianKeywords: configuro configura
+EnglishKeywords: config
+
+Entitype: HELP.INFO
+
+Text:
+Questo comando configura alcune opzioni e comportamenti del tuo
+personaggio.
+
+Scrivendo $tconfig solamente vedi la tua configurazione attuale.
+Con un segno più o meno e un'opzione puoi attivare o disattivare quell'opzione.
+
+
+SeeAlso: prompt colors

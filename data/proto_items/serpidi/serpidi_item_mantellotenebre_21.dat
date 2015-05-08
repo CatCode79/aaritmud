@@ -1,0 +1,21 @@
+Code:	serpidi_item_mantellotenebre_21
+Level:	1
+Entitype: ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.CLOTH	100%
+Name:	il Mantello delle Tenebre 
+Short:	il Mantello delle Tenebre 
+Descr: 
+Un riverbero di luce nera.  
+Value:	0
+Weight: 80g
+BirthDay: 1
+BirthMonth: MONTH.TEN
+WearType:
+	Flags:	WEAR.LAYERABLE
+        Modes: PART.BODY
+End
+
+
+
+
+

@@ -1,0 +1,73 @@
+Code: mfdonald_mob_cucciolo-rugmet-12
+Level: 1
+Sex:	SEX.MALE
+Race:	RACE.MONSTER
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name: Il Cucciolo di Rugmet
+Short: un [red]p[yellow]iccolo[close] botolo [red]p[yellow]eloso[close]
+Long:	$N si muove ubriaco verso l'alto
+
+Descr:
+Si tratta di un'orribile pallotta di pelo crespo con zampe posteriori palmate e zampe
+anteriori adunche. Presumibilmente si tratta di qualcosa di vivo.
+DescrTouch: 
+Provi a vedere se il cosino qui ti mozza una $hand. No, per fortuna non lo fa!
+DescrSmell: 
+L'olezzo non è dei migliori ma se è la cosa peggiore che ci si può spettare...
+DescrSixth:
+Non è dato sapere se la creatura sia senziente o meno, potrebbe essere preferibile che
+non lo sia.
+DescrHearing:
+Passa tutto il tempo a masticare oppure va a motore.
+
+Weight: 9kg
+Height: 60cm
+
+Behaviour:
+	LookPlayer:	0
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.HUMAN
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.UP
+	WanderAtExits:	100
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	1
+	RandomDoInputs: cough
+End
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 34
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

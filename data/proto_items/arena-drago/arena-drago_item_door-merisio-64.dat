@@ -1,0 +1,30 @@
+Code: arena-drago_item_door-merisio-64
+Level: 1
+Entitype:	ENTITYPE.DOOR
+MaterialPercentages:	MATERIAL.UNKNOWN 100%
+Sex:	SEX.FEMALE
+Name:	La Strada della Memoria 
+Short:	la strada della memoria
+Long:	$N non può essere infranta.
+KeywordsName: merisio
+KeywordsShort: merisio
+
+Descr:
+La roccia t'impedisce di proseguire.
+
+Value:	0
+Weight: 79kg
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Riveli $N.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n rivela $N.
+	EntityCloseMessage:	Ciò che era svanisce lungo $N.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n vede svanire dinnanzi a sé $N.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE DOOR.SECRET DOOR.NO_USE_DIR
+End

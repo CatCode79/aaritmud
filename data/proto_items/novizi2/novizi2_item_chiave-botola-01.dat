@@ -1,0 +1,19 @@
+Comment:	chave della botola in area novizi sotto alla secret del bagno
+Code: novizi2_item_chiave-botola-01
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.KEY
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.BRASS	100%
+Name:	Una Chiave d'Ottone
+Short:	una chiave metallica
+Long:	C'è qui $N grande quanto un braccio
+
+Descr:
+Una pesante chiave metallica dai denti massicci ad un capo ed un pesante disco pieno dall'altro.
+DescrTouch: 
+Una pesante chiave metallica dai denti massicci ad un capo ed un pesante disco pieno dall'altro.
+
+Value:	0
+Weight: 2kg
+

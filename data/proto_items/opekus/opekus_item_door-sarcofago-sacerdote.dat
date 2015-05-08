@@ -1,0 +1,43 @@
+Code: opekus_item_door-sarcofago-sacerdote
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.MARBLE	100%
+Name:	Il Sarcofago del Vicario
+Short:	il sarcofago del vicario
+Long:	$N strappato dalla sua sede
+
+Descr:
+La pesante lastra di pietra nera lavorate per renderla a specchio fa da copertura di un sarcofago scavato nella nuda roccia.
+Qualcosa di grave deve essere accaduto perché ci si siano accaniti così tanto da cancellarne per sempre ogni iscriziono o decoro.
+DescrTouch: 
+I margini della copertura littoria estremamente lisci cedono il passo al vandalismo che s'è accanito su tutta la faccia superiore;
+profondi sfregi, inusualmente fitti hanno rimosso qualunque segno antecedente.
+DescrSmell: 
+no_send
+DescrSixth:
+Solo forte e duraturo odio instillato nel tempo possono aver dato l'abnegazione necessaraia per un così lungo lavoro di cancellazione della memoria.
+DescrHearing:
+no_send
+DescrTaste:
+no_send
+
+Weight: 3700kg
+
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Afferri l'asta spingendola di lato ed il meccanismo nascoso apre il sarcofago.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n spinge sicur$o l'asta ed il meccanismo nascosto alza la grossa pietra nera.
+	EntityCloseMessage:	Con una brusca spinta sblocchi il meccanismo facendo chiudere il sarcofago con un tonfo.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n con una brusca spinta sblocca il meccanismo chiudendo il sarcofago con un tonfo sordo.
+	DestinationOpenMessage:	Il sarcofago viene apert$O dal lato opposto.
+	DestinationCloseMessage:	il sarcofago viene chius$O dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.NO_USE_DIR DOOR.SECRET DOOR.CLOSABLE
+	ResetCloseMessage:	Il sarcofago si chiude.
+	ResetOpenMessage:	il sarcofago si apre.
+End

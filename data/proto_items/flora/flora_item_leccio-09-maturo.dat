@@ -1,0 +1,38 @@
+Code: flora_item_leccio-09-maturo
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Flags: FLAG.NO_GET
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name: Un Bel [saddlebrown]Leccio[close] Adulto Carico di[maroon]Ghiande[close]
+Short: un [saddlebrown]leccio[close] con [maroon]ghiande mature[close]
+Long:	C'è qui $N
+
+Descr:
+Un leccio dalla chioma ovaleggiante e con il fusto che pare cresciuto indeciso tanto
+da non trovare un tratto che sia dritto per più di un palmo.
+La folta chioma lascia intravvedere diversi frutti maturi che attendono solo di cadere.
+DescrTouch: 
+Un leccio adulto, dal fusto percorso da asperità regolari come se uno spiritello l'avesse
+quadrettato per noia.
+
+Value:	0
+Weight: 150kg
+
+Extras:
+  Keywords: corteccia quadretto quadretti screpolature screpolatura
+  Descr: tutto ricoperto da piccole placche persistenti di forma approssimativamente quadrata
+  DescrTouch: tutto ricoperto da placche persistenti che proprio non si voglion staccare
+End
+
+
+PlantType:
+    Sectors:	SECTOR.PLAIN SECTOR.HOUSE
+    RpgHours:	120
+    WorseEntity:	flora_item_leccio-10-morto
+    NormalEntity:	flora_item_leccio-07-albero
+    BetterEntity:	flora_item_leccio-07-albero
+End
+
+

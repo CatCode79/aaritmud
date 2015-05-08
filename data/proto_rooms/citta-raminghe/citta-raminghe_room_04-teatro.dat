@@ -1,0 +1,28 @@
+Code: citta-raminghe_room_04-teatro
+Sector: SECTOR.CITY
+Name: [gold]Il teatro[close]
+Short: [gold]un teatro a semicerchio[close]
+
+Descr:
+Il [gold]teatro della città[close] con la sua forma a semicerchio. È costruito sopra un colle. La cavea è composta da sessantasette ordini di gradini scavati nella roccia divisi in settori da scalinate. A metà altezza un
+ [salmon]corridoio circolare[close] la divide in due parti. Vi sono incisi i nomi di molte divinità.
+ 
+
+DescrSixth:
+Un luogo della mente e del cuore. Vi si rappresenta la vita e la morte, gioie e sofferenze umane, si ride e si piange nello stesso tempo. 
+DescrHearing:
+Senti i cori cantare e recitare [red]ditirambi[close].
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.NORTH
+	Descr: In città
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: [lightsalmon]Una stretta via in salita[close]
+End

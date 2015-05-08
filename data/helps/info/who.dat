@@ -1,0 +1,14 @@
+Code: who
+
+ItalianKeywords: chi
+EnglishKeywords: who
+
+Entitype: HELP.INFO
+
+Text:
+Il comando $twho mostra tutti i giocatori presenti sul Mud.
+
+Con il comando $tgwho vedrai tutti i giocatori che al momento sono
+membri di un gruppo.
+
+SeeAlso; help gwho

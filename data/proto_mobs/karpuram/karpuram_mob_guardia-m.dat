@@ -1,0 +1,72 @@
+Code: karpuram_mob_guardia-m
+Level: 1
+Sex:	SEX.MALE
+Race:	RACE.WOODELF
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name: Una Sentinella 
+Short: un elfo sorridente
+Long:	anche $N è qui di guardia
+
+Descr:
+Un personaggio sorridente ed all'apparenza gaio quanto meticoloso ed elegante nei gesti.
+Il corpo flessuoso ed aggraziato ben si coniugano con i suoi occhi felini.
+Pare non sia sua abitudine dare le spalle né ai nemici ma neppure ad altri.
+
+DescrHearing:
+Instancabile fin nel suo respirare sembra di percepire la musicalità propria degli elfi.
+
+DescrSixth:
+Il suo sorriso non maschera la scrupolosa attenzione con cui ti sa osservare
+senza mettere a disagio.
+
+Weight: 80kg
+Height: 190cm
+
+Behaviour:
+	LookPlayer:	10
+	LookMob:	10
+	LookItem:	5
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	10
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	5
+	RandomDoInputs:	emote carezza una brezza invisibile
+End
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 34
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

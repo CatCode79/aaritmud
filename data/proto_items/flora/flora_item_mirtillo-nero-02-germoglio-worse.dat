@@ -1,0 +1,45 @@
+Code: flora_item_mirtillo-nero-02-germoglio-worse
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name: Uno stentato [springgreen]Germoglio[close] di [springgreen]Mirtillo[close]
+Short:	uno stentato [springgreen]germoglio[close]
+Long:	$N è riuscito ad attecchire
+
+Descr:
+Un germoglio piccolo e stenterello con lo stelo un po' rintorcinato e poche foglie afflosciate.
+
+DescrTouch:
+Uno stelo tozzo e morente, a questo stadio non ci vuol nulla a sfilarlo
+dal terreno. 
+
+DescrTaste:
+Le foglioline tenere e piccine hanno un senso d'amaro astringente inusitato.
+
+DescrSixth:
+Le foglie sono un ingrediente importante per unguenti per mantenere elastiche le pelli dopo conciatura.
+
+Value:	0
+Weight: 11g
+
+Extras:
+  Keywords: foglie foglia fogliolina foglioline
+  Descr:	verdi foglioline alternate molto sciupate
+  DescrTouch:	foglioline alternate dallo scarso turgose
+  DescrTaste:	un forte amaro astringente
+  DescrSixth:	spezzettate e macerate posson mantenere elastica la pelle delle mani 
+End
+
+
+
+PlantType:
+    Sectors:	SECTOR.PLAIN SECTOR.HOUSE
+    RpgHours:	120
+    WorseEntity:	flora_item_mirtillo-nero-03-pianta-worse
+    NormalEntity:	flora_item_mirtillo-nero-03-pianta
+    BetterEntity:	flora_item_mirtillo-nero-03-pianta-better
+End
+
+

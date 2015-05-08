@@ -1,0 +1,63 @@
+Code: flora_item_mirtillo-rosso-04-fiore
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name: Un [springgreen]Cespuglio[close] di [springgreen]Mirtillo[close] in Fiore
+Short:	un basso [springgreen]cespuglio[close] in fiore
+Long:	$N cresce qui
+
+Descr:
+Un folto cespuglio nano puntinato di [pink]capolini rosati[close]. Le infiorescenze 
+sono particolarmente rigogliose da contribuire in modo significativo al colore di tutto il cespuglio.
+L'ampia superficie che occupa rende più agevole calpestarlo che girarci attorno.
+
+DescrTouch:
+Un folto cespuglio nano fortemente radicato e fitto di foglioline coperte dall'esuberanza di fiori a campanula.
+L'ampia superficie che occupa rende più agevole calpestarlo che girarci attorno.
+
+DescrTaste:
+Duro e stoppaccioso con un marcato gusto di clorofilla.
+
+DescrSmell:
+Profumo sottile e dolce dei fiori di mirtillo.
+
+DescrSixth:
+Un rigoglioso cespuglio in fiore di mirtilli rossi.
+
+Value:	0
+Weight: 13kg
+
+Extras:
+  Keywords: foglie foglia fogliolina foglioline
+  Descr:	verdi foglioline alternate
+  DescrTouch:	lucide foglioline alternate
+  DescrTaste:	un vago amarognolo misto clorofilla
+End
+
+Extras:
+  Keywords: fusto stelo steli lignificato legno legni
+  Descr:	il fusto intricato e lignificato si intravvede appena nell'elegante abito di fiori che ne tentano l'oblio
+  DescrTouch:	per quanto intricato e legnoso il fusto mantiene una grande elasticità
+  DescrTaste:	un insipido sapore stoppaccioso vagamente intriso dell'asprigno della clorofilla
+End
+
+Extras:
+  Keywords: fiore fiori infiorescenza infiorescenze capolino capolini
+  Descr:	i [red]rosati capolini[close] a forma di campanella spuntano dritti aperti nei loro pochi petali rinsaldati sulla base.
+  DescrTouch:	piccoli capolini rosati e molto carnosi 
+  DescrTaste:	carnosi fiori insipidi e poco nutrienti
+  DescrSmell:	sottile profumo dolce ma di prolungata persistenza.
+End
+
+PlantType:
+    RpgHours:	120
+    WorseEntity:	flora_item_mirtillo-rosso-05-fruttificato
+    NormalEntity:	flora_item_mirtillo-rosso-05-fruttificato
+    BetterEntity:	flora_item_mirtillo-rosso-05-fruttificato
+    Contents:	 flora_item_mirtillo-rosso-01-frutto 4
+    Contents:	 flora_item_mirtillo-rosso-00-frutto-sterile 4
+End
+
+

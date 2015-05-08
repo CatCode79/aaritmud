@@ -1,0 +1,24 @@
+Code: cimitero_item_scheletro-mirna
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CORPSE
+MaterialPercentages:	MATERIAL.CLOTH 20%
+MaterialPercentages:	MATERIAL.FLESH 70%
+MaterialPercentages:	MATERIAL.DUST 10%
+Sex:	SEX.MALE
+Name:	Il Cadavere di Mirna
+Short:	un cadavere
+Long:	$N mummificato
+
+Descr:
+Il cadavere mummificato di una femmina #RACE con i lunghi capelli grigi che le arrivano fin quasi al bacino.
+Le braccia sono conserte ed i palmi aperti.
+DescrTouch: 
+Il fragilissimo cadavere è ora costituito solo da ossa e pelle dura. I lunghi capelli che lo incorniciano raccolti in numerose trecce.
+I palmi aperti delle braccia conserte rivelano l'assenza di due dita sulla mano sinistra
+DescrSixth:
+Quel che incuriosisce sono le due dita mancanti della mano sinistra.
+A giudicare dallo stato di conservazione della mano pare che le abbiano spezzate quando il cadavere era già mummificato.
+
+Value:	0
+Weight: 11kg

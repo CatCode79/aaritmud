@@ -1,0 +1,20 @@
+Code:	serpidi_item_vertebra_02
+Level:	1
+Entitype: ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.BONE	100%
+Name:	una vertebra di serpente 
+Short:	una vertebra di serpente 
+Descr: 
+C'è un cerchietto di osso nero come la notte.  
+WearType:
+    Modes: PART.LEFT_EAR
+    Modes: PART.RIGHT_EAR
+End
+Value:	0
+Weight: 80g
+BirthDay: 1
+BirthMonth: MONTH.TEN
+
+
+
+

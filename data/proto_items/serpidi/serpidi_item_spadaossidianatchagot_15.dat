@@ -1,0 +1,31 @@
+Code:	serpidi_item_spadaossidianatchagot_15
+Level:	1
+Entitype: ENTITYPE.WEAPON
+MaterialPercentages:	MATERIAL.OBSIDIAN	100%
+Name:	una spada di ossidiana 
+Short:	una spada di ossidiana 
+Descr: 
+È una bella spada di pietra nera lucida. Lungo la lama sono incise alcune rune.  
+Extras:
+	Keywords:	rune 
+	Descr:
+È un simbolismo molto arcaico, ma potrebbe essere il nome
+della spada, traducibile più o meno con: Tchagot
+End
+Value:	0
+Weight: 80g
+BirthDay: 1
+BirthMonth: MONTH.TEN
+
+WearType:
+        Modes: PART.WIELD
+End
+
+
+WeaponType:
+	Category: WEAPON.SWORD
+	Damage:	2D5+2
+	Flags: WEAPONFLAG.ONE_HAND 
+End
+
+

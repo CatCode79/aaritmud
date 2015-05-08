@@ -1,0 +1,40 @@
+Code: villaggio-zingaro_item_castagna
+
+Level:	1
+Entitype: ENTITYPE.FOOD
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.FRUIT 100%
+Icon:	icons/food/castagna.png
+Name:	Una Castagna
+Short:	una castagna
+Long:	$N di stagione.
+KeywordsShort: castagna castagne abbrustolita abbrustolite caldarrosta caldarroste
+KeywordsName: castagna castagne abbrustolita abbrustolite caldarrosta caldarroste
+
+Descr:
+Una castagna dalla caratteristica forma e dal ciuffino pelosotto.
+DescrTouch:
+Passi la castagna tra le $hands.
+DescrTaste:
+Dai un morso alla castagna a conferma che è ancora cruda.
+DescrSixth:
+Cuocerla o seminarla?
+
+Value:	1
+Weight: 20g
+
+
+FoodType:
+	Comment:	cibo
+	Animal:	0
+	Vegetable:	100
+	CookingDamage:	10
+	Hours:	0
+	EntityMessage:	Prendi $N e la sbucci prima di mangiarla.	
+	TargetMessage:	Ora c'è una sola via d'uscita... $n t'ha mangiato.
+	OthersMessage:	$n prende $N e la sbuccia prima di mangiarla.
+End
+
+ 
+
+

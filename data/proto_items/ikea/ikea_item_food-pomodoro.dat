@@ -1,0 +1,35 @@
+Code: ikea_item_food-pomodoro
+Icon:	icons/food/tomato.png
+Level: 1
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.MALE
+Flags:	FLAG.RANDOMIZABLE
+Value:	20
+MaterialPercentages:	MATERIAL.VEGETABLES	100%
+Name:	Un [red]Pomodoro[close] Cuor di Bue
+Short:	un pomodoro
+Long:	C'è qui $N maturo 
+
+Descr:
+Un tipico esemplare di pomodoro cuore di bue con le sue tipiche costolature.
+Grosso quanto basta per farci un insalatona.
+DescrTouch:
+Un turgido affare periforme tutto pieno di costolature. Pigia che ti ripigia,
+si apre... 
+DescrSmell:
+L'odore acre del pomodoro resta sempe più sulle $hands che sul pomodoro stesso.
+Innegabile, profuma di pomodoro.
+DescrTaste:
+C'è da dire che ve ne sono di maggiormente saporiti.
+
+Weight: 305g
+
+FoodType:
+	Comment:	cibo
+	Animal:	0
+	Vegetable:	100
+	CookingDamage:	0
+	Hours:	48
+End
+
+

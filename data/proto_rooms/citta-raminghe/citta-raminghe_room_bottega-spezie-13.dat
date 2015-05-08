@@ -1,0 +1,54 @@
+Comment: Ad est si accede al giardino delle spezie. Pensavo di mettere qui una porticina ad arco che per passare sia
+necessario chinarsi.
+In questa room andranno alcuni mob. Oltre la maga delle spezie anche mob-odori: Odore-pungente, Odore-sferzante,
+ Odore- avvolgente in linea di massima. Da definire le interazioni tra mob-odori e pg e tra maga delle spezie e pg.
+Andranno disposti anche vari oggetti cominciando dai contenitori delle spezie. Anche le spezie saranno item animati e
+interagenti.
+
+Code: citta-raminghe_room_bottega-spezie-13
+Sector: SECTOR.CITY
+Name: [yellow]La Bottega delle Spezie[close]
+Short: una [yellow]bottega delle spezie[close]
+
+Descr:
+Entri in un grande ambiente dalle pareti completamente ricoperte da scaffali.
+Disposte su ciascuno di questi,  con un ordine quasi ossessivo, [seashell]piccole anfore[close],
+[turquoise]vasi colorati[close], [linen]ampolle di vetro[close],contenitori  di varie dimensioni dai colori variopinti
+e, dentro ciascuno di essi, [red]le Spezie[close].
+Guardando verso l'alto noti un  soffitto a volta posto ad un'altezza maggiore del consueto, più di quanto hai potuto
+percepire guardando la bottega dall'esterno. A metà parete  un soppalco in legno  divide per una parte in due la stanza in
+altezza. Vi si accede tramite una scala stretta e molto ripida anch'essa in legno.
+Volgendo lo sguardo sulla destra noti un'apertura ad arco chiusa da una [lightgreen]porticina[close] di colore verde e
+decorata alla sua sommità con motivi floreali.
+
+DescrSmell:
+Entrando ti avvolge immediatamente un odore forte e intenso, a volte molto piacevole, altre volte invece ti colpisce come
+una sferzata inaspettata. I profumi che avverti sembrano essere dotati di dinamicità. Infatti mutano ad ogni tuo movimento,
+ad ogni tuo stato d'animo e, spesso, dipendono dal tipo di disposizione con la quale ti accosti a questo luogo: che sia
+ostile o amichevole  o neutrale...mutano gli odori e insieme muta l'atmosfera olfattiva con la quale sei accolto.
+DescrSixth:
+Ti chiedi dove tu sia giunto, che luogo sia mai questo. Intuisci di essere in una Bottega delle Spezie, ma è [red]viva[close]tanto che ti sembra di percepirne quasi il respiro. Lei avverte il tuo stato d'animo e reagisce ad esso, prevede le tue
+intenzioni che siano esse amichevoli oppure ostili.
+Sei dentro qualcosa di vivo che può essere accogliente e ospitale, ma anche pericoloso e mortale... e dipende solo da te.
+DescrHearing:
+Un suono, uno stridìo,  una melodia, una porta che cigola, un respiro affannoso, il suono del silenzio, un grido acuto e
+straziante...tutto questo è quello che puoi percepire qui dentro...
+
+
+Width:  6m
+Depth:  6m
+Height: 2m
+
+Exits:
+        Direction: DIR.EAST
+	Comment: la door si trova sull'altra room
+        Descr: Un Giardino
+	EntityMessage:  Vai verso $A abbassandoti per passare sotto al basso stipite.
+	OthersInMessage: $n esce da $a abbassandosi per passare sotto al basso stipite.
+	OthersOutMessage: $n entra da $a abbassandosi per passare sotto al basso stipite.
+End
+Exits:
+        Direction: DIR.NORTH
+        Descr: Una piazza
+End
+

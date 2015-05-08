@@ -1,0 +1,23 @@
+Code: citta-raminghe-maze_room_biblioteca_nord-sud
+Sector: SECTOR.HOUSE
+Flags:  ROOM.INSIDE
+Name: Dentro un Inconsueto Groviglio di Cumuli di Libri
+Short: grovigli di corridoi invasi da [red]cumuli di libri[close]
+Descr:
+Che sia $season non puoi percepirlo qui dentro. Immers$o in un groviglio di corridoi temi di inciampare in uno dei tanti
+cumuli di libri  ammassati ovunque in attesa che qualcuno si degni di dar loro una sistemazione adeguata. 
+
+DescrSixth:
+Non è poi così male perdersi tra mille parole.
+Width:  10m
+Depth:  10m
+Height: 100m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: in biblioteca
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: in biblioteca
+End

@@ -1,0 +1,49 @@
+Code: cimitero_room_collina-c29
+Sector: SECTOR.HILL
+Name: Il Versante Est
+Short: sul fianco della collina
+
+Descr:
+Un lunghissimo tratto di sentiero procede serpeggiando per l'ampio versante della collina. La sola striscia risparmiata è quella che si trova procedendo all'estremo sud in cui la strada prende a salire in modo impegnativo.
+DescrSmell: 
+La zona collinare è avvolta dagli abbracci languidi dell'odore di spezie e decomposizione.
+Per alcuni tratti si coglie però una scia che rimane la stessa per un certo tratto.
+DescrHearing:
+Il sibilo del vento produce un lugubre suono cupo sostenuto negli effetti lungo le
+lapidi frastagliate.
+
+Extras:
+	Keywords: scia
+	DescrSmell:
+	Lungo il tratto di sentiero che hai appena seguito l'odore più significativo è stato quello di #SMELL.
+End
+
+Extras:
+	Keywords: simboli
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+Width:	6m
+Depth:	6m
+Height: 113m
+
+
+Exits:
+	Direction: DIR.SOUTH
+	Descr: Verso uno spntone isolato
+End
+Exits:
+	Direction: DIR.NORTHWEST
+	Descr: Una sorgente d'acqua
+End

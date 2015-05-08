@@ -1,0 +1,52 @@
+Comment: colori diversi nelle short per i vari volnatini
+
+Code: novizi_item_volantino-villaggio
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.PAPER	100
+Sex:	SEX.MALE
+Name:	La Brochures del Villaggio Zingaro
+Short:	un volnatino turistico
+Long:	$N è qui
+
+Descr:
+Un volantino diviso in tre parti dove sul frontespizio è rappresentata un'immagine di un villaggio in vivaci colori. Un titolo capeggia una scritta che dice "VILLAGGIO ZINGARO".
+All'interno si leggono altre cose.
+Intramezzate all'interno ad immagini di particolari suggestivi si legge:
+(cosa offre che attrattive offre)
+- artigiani orefici emporio sempre fornite
+la tipioca ospitapiltà gitana nella locanda della madama (signora) linda [oppure il nome della locanda].
+Ma anche mistero ed avventura calandoti nelle miniere ed infilandoti nella oscura faggeta misteriosa.
+(tagliatore di pietre)
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Value:	0
+Weight: 10g
+
+Extras:
+	Keywords: chiave
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+

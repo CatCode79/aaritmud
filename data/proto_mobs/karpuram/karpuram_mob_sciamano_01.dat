@@ -1,0 +1,81 @@
+Code: karpuram_mob_sciamano_01
+Level: 15
+
+Sex:	SEX.MALE
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Un Elfo Sciamano
+Short: un elfo sciamano
+Long:	$N sta recitando arcane parole.
+Race: RACE.WOODELF
+
+Descr:
+La sua veste cangiante denota subito qualcosa di diverso e unico rispetto agli
+elfi che popolano questi boschi. Le sue fattezze sono tipiche della sua razza,
+ma oltre al lungo [darkred]abito[close] di colore rosso scuro, alla cintura ha 
+legato una sacca di cuoio e un piccolo bastone di legno. Al collo indossa un 
+ciondolo di rame legato con un semplice laccio di cuoio, quest'oggetto però non 
+ti sembra per nulla comune.
+
+Extras:
+	Keywords: ciondolo
+	Descr:
+	Un ciondolo tondeggiante di semplice rame, fermato da un legaccio di cuoio,
+	ha impresso a fuoco una figura di un falco che spiega le ali per volare.
+
+End
+
+
+
+
+
+
+
+Behaviour:
+	LookPlayer:	10
+	LookMob:	10
+	LookItem:	10
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	5
+	LookDirection:	5
+	LookExit:	20
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NORTH DIR.NORTHEAST DIR.EAST DIR.SOUTHEAST DIR.SOUTH DIR.SOUTHWEST DIR.WEST DIR.NORTHWEST DIR.DOWN DIR.UP 
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+Weight: 50kg
+Height: 175cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 90
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

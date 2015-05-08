@@ -1,0 +1,31 @@
+Code: krablath_item_libreria
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.HARDWOOD	80%
+MaterialPercentages:	MATERIAL.GLASS	20%
+Name:	Una [saddlebrown]Massiccia Libreria[close]
+Short:	una [saddlebrown]libreria[close]
+Long:	$N addossata alla parete.
+
+Descr:
+Una [saddlebrown]libreria[close] alta e stretta con un'antina in vetro; all'interno sono posizionati, in ordine apparentemente casuale molti volumi di svariata natura.#krablath_item_librone# Uno fra tutti spicca per le dimensioni e il dorso composto da scaglie di corteccia.# Noti tra i vari libri uno spazio vuoto, come se un libro fosse stato rimosso da poco.#
+DescrTouch: 
+Piacevolmente rugosa al tatto, con la $hand segui le venature del legno dal basso verso l'alto.
+DescrSmell: 
+Sprigiona un intenso profumo di carta.
+
+Value:	0
+Weight: 139g
+
+ContainerType:
+	EntityOpenMessage:	Apri $N usando ambo le $hands.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N usando ambo le $hands.
+	EntityCloseMessage:	Accompagni $N fino a chiuderla.
+	TargetCloseMessage:	Finalmente $n si è degnat$o di chiuderti.
+	OthersCloseMessage:	$n accompagna $N fino a chiusura.
+	Flags:	 CONTAINER.CLOSED CONTAINER.CLOSABLE
+	MaxWeight:	120g
+End

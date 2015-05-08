@@ -1,0 +1,79 @@
+Code: cimitero_item_cancello_brunito
+Level: 1
+Entitype:	ENTITYPE.DOOR
+MaterialPercentages:	MATERIAL.BRONZE 100%
+Sex:	SEX.MALE
+Name:	Un Cancello Brunito
+Short:	un cancello di metallo
+Long:	$N ha ceduto sotto la spinta del tempo
+
+Descr:
+Un grande cancello di ferro brunito battuto a mano con cura e dedizione, si
+notano le piccole irregolarità di una forgiatura antica osservando attentamente
+le aste appuntite che formano la parte principale dello stesso. Molta ruggine
+e qualche arbusto lo rendono ancora più affascinante seppur inutile. Aperto
+da sempre. Uno stemma anch'esso di ferro si trova nella parte centrale, fermato
+da quattro borchie di un ferro leggermente più recente. Il cancello presenta
+due ante aperte, ma quella di sinistra risulta bloccata.
+
+DescrNight:
+Imponente anche di notte, un grosso cancello di ferro si staglia davanti ai tuoi
+$feet provando a bloccarti il transito. Una delle due ante aperte risulta 
+bloccata. Molta la ruggine presente che lo rende ancora più di classe e 
+sorprendente. Uno stemma è situato nella parte centrale, bloccato da quattro
+borchie anch'esse in ferro ma di più recente fattura.
+
+DescrHearingNight:
+Il rumore del vento muove leggermente l'anta di destra facendola cigolare
+sui vecchi cardini che la sorreggono, a volte con forza e altre volte con
+dolcezza provocando uno stridio di ferro e arbusti.
+
+DescrSmell:
+Avverti un intenso odore di ruggine provenire da questo cancello, antica e
+predominante persino su altri odori di arbusti selvatici che crescono alla
+base.
+
+DescrTouch: 
+Toccando il cancello provochi un leggero stridio dei cardini, al tatto risulta
+consumato dalla ruggine ma ancora abbastanza solido. Le lunghe aste a punta sono
+ancora taglienti e ti conviene fare attenzione nel toccarle, potresti pentirtene.
+
+DescrSixth:
+Sei sicur$o che lo stemma è stato inserito sul cancello molto tempo dopo la
+sua creazione.
+
+
+Value:	0
+Weight: 120kg
+
+Extras:
+	Keywords: stemma
+	Descr
+	Rispetto al cancello è molto meno rovinato e risulta fissato ad esso da
+	quattro borchie di ferro che però non hanno nulla a che vedere con 
+	l'antica maestosità di questo cancello.
+End
+Extras:
+	Keywords: borchia borchie
+	Descr
+	Sono state fissate al cancello con forza e determinazione e non sembra
+	che si possano rimuovere in alcun modo.
+End
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Apri $N che cigola terribilmente sotto la spinta delle tue $hands.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N che cigola terribilmente sotto la sua spinta.
+	EntityCloseMessage:	Un gracchiante cigolio accompagna la chiusura di $N.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	Un gracchiante cigolio accompagna la chiusura di $N.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE
+	ResetCloseMessage: $N si chiude.
+	ResetOpenMessage: $N si apre.
+End
+
+

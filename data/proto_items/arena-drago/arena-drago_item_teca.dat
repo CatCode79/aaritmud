@@ -1,0 +1,28 @@
+Code:	arena-drago_item_teca
+Level:	06
+Entitype:	ENTITYPE.CONTAINER
+MaterialPercentages:	MATERIAL.CRISTAL 90%
+MaterialPercentages:	MATERIAL.SILVER 10%
+Sex:	SEX.FEMALE
+Name:	Una Teca
+Short:	teca
+Long:	Una stupenda $N in cristallo finissimo è qui.
+Value:	0
+Weight: 70kg
+
+Descr:
+Una stupenda teca in cristallo finissimo.
+
+
+ContainerType:
+	Flags:	CONTAINER.CLOSED CONTAINER.CLOSABLE
+        MaxWeight: 10kg
+End
+
+Comment:
+§27702
+
+Dati Obj
+15 262144 01000 1 -1 01 0 0
+
+

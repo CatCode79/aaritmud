@@ -1,0 +1,37 @@
+Code: ikea_item_calze-lana
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.WOOL	100%
+Name:	Un Paio di Calzini di Lana
+Short:	un paio di calzini
+Long:	$N appallottolati.
+
+Descr:
+Un paio di comuni calzini bianchi e spessi. Intravedi anche qualche piccolo buco, che ti fa capire la scarsa qualità. 
+DescrTouch: 
+Sono morbide al tatto.
+DescrSmell: 
+Puzzano di sudore e non emanano un odore gradevole
+
+Value:	38
+Weight: 57g
+
+WearType:
+	Modes:	PART.LEFT_FOOT PART.RIGHT_FOOT
+        Flags:	WEAR.LAYERABLE
+	EntityWearMessage:	Srotoli $N e li infili %part con un gesto deciso.
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	$n srotola $N e li infila %part con un gesto deciso..
+	EntityRemoveMessage:	Sfili $N tirandoli dalla punta.
+	TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+	OthersRemoveMessage:	$n armaggia un po' con $N fino a sfilarli.
+End
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

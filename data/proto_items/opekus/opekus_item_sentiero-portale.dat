@@ -1,0 +1,35 @@
+Code: opekus_item_sentiero-portale
+Level: 1
+Entitype:	ENTITYPE.PORTAL
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.UNKNOWN	100%
+Flags:	FLAG.NO_GET
+Name:	Il Sentiero del Fondovalle
+Short:	Verso il fondovalle
+Long:	$N ma in modo inusuale
+
+Descr:
+Il panorama che vedi è come fosse dipinto sopra un telo fluttuante a metà fra la
+realtà e l'immagine. Come Fai per avvicinarti anche tu inizi a fluttuare e sai di
+poterci [red]entrare[close].
+DescrSmell: 
+Qualunque ne sia la natura l'odore è quello del pesce.
+DescrSixth:
+Un portale per altri lidi...
+DescrHearing:
+Anche i rumori giungono fluttuanti e instabili.
+
+Value:	0
+Weight: 1000kg
+
+PortalType:
+	Destination:	-1 -3 1 klirbe
+	EntityEnterMessage: Non fai in tempo ad entrare che sei già $N.
+	TargetEnterMessage: $n decide d'attraversarti e lo anticipi repentinamente.
+	OthersEnterMessage: $N si vede la figra di $n che sparisce via via camminando.
+	EntityExitMessage: La stanchezza del cammino quasi ti sopraffà e ti fermi qui.
+	TargetExitMessage: Ora $n è sparit$o da $T finendo in $t.
+	OthersExitMessage: $N si vede arrivare $n.
+End
+
+

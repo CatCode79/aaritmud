@@ -1,0 +1,23 @@
+Code: ikea_item_incudine
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.METAL	100%
+Name:	Un'Incudine
+Short:	una massiccia incudine
+Long:	$N è collocata al centro della stanza.
+
+Descr:
+Un'incudine di dimensioni ragguardevoli con due punte laterali, una conica e l'altra piramidale. Il piano di lavoro e sporco e leggermente consunto; su di un lato puoi osservare due fori.
+DescrTouch: 
+È ancora tiepida.
+
+Value:	0
+Weight: 243kg
+
+Extras:
+	Keywords:	foro fori
+	Descr:
+	Un foro quadrato ed uno rotondo.	
+End

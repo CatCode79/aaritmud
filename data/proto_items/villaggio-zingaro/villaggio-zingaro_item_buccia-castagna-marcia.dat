@@ -1,0 +1,26 @@
+Code: villaggio-zingaro_item_buccia-castagna-marcia
+
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.VEGETABLE 100%
+Name:
+Una Buccia di Castagna Marcia
+Short:
+una buccia rigida
+Long:
+$N sta ammuffendo qui.
+
+Descr:
+Una scorza di castagna ridotta a brandelli presenta qualche piccolo ciuffetto di muffa sulla superficie.
+DescrTouch: 
+Nonostante tutto è rimasta rigida anche se bordi si sono notevolmente afflosciati.
+DescrSmell:
+Quello che un tempo era il suo aroma caratteristico è ormai coperto dal puzzo di putridume e letame.
+
+Value:	0
+Weight: 10g
+
+
+
+

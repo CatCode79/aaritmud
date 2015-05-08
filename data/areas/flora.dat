@@ -1,0 +1,13 @@
+Comment:
+Per ora è un posto ove si mettono piante e fiori
+Creators:	Sulfrum
+Code: flora
+Name: Flora
+Short: flora
+Descr:
+	Zona di raccolta per tutto ciò che è flora
+Color: COLOR.GREEN verde delle sterminate pianure di Luug
+Level: 1
+Flags: AREA.DONT_LIST
+RepopTime: 15
+LandfillCode:	elementi_room_lotta

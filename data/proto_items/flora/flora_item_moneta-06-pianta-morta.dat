@@ -1,0 +1,23 @@
+Code: flora_item_moneta-06-pianta-morta
+Level: 1
+Entitype:	ENTITYPE.PLANT
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name:	Una [sienna]Pianta[close] di [sienna]Monete[close] Morta
+Short:	una [sienna]pianta[close] rinsecchita
+Long:	Si è acasciata qui $N.
+
+Descr:
+Quel che resta di un albero di discrete dimensioni.
+Il tronco divelto, i rami spettati, le foglie ammocchiate qua è là; tutto appare ricoperto da una patina rugginosa.
+DescrTouch: 
+Toccando i resti rischidi ferirti.
+
+Value:	1
+Weight: 3kg
+
+ExtractTimeout:
+	Minutes: 20
+	EntityMessage: Panta rei
+        OthersMessage: Panta rei
+End

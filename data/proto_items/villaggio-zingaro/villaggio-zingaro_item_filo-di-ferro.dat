@@ -1,0 +1,19 @@
+Code: villaggio-zingaro_item_filo-di-ferro
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.IRON 100%	
+Name:	Una Matassa di Filo di Ferro
+Short:	una matassa di filo di ferro
+Long:	$N un po' ingarbugliata
+
+Descr:
+Una matassina di fil di ferro un po' arricciata un po' ingarbugliata.
+DescrTouch: 
+Una matassa metallica rintorcinata e aggrovigliata.
+
+Value:	0
+Weight: 100g
+
+

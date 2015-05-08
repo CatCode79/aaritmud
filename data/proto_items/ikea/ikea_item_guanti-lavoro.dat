@@ -1,0 +1,32 @@
+Code: ikea_item_guanti-lavoro
+Level: 1
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+Flags:	FLAG.RANDOMIZABLE
+MaterialPercentages:	MATERIAL.LEATHER	100%
+Name:	Un Paio di Guanti
+Short:	un paio di guanti
+Long:	C'è qui $N da lavoro
+
+Descr:
+Si tratta di un paio di guanti da lavoro realizzati in pelle.
+Sono usati, molto usati.
+DescrTouch: 
+Si tratta di un paio di morbidi guanti da lavoro realizzati in pelle.
+Sono usati e consumati a livello di polpastrelli.
+
+Value:	0
+Weight: 214g
+
+Extras:
+	Keywords: pelle
+	Descr:
+	La pelle è stata tenuta ben nutrita di grasso, rischano di essere piuttosto duraturi.
+End
+
+
+WearType:
+   Modes: PART.RIGHT_HAND PART.LEFT_HAND
+End
+
+

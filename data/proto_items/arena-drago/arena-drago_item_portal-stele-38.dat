@@ -1,0 +1,45 @@
+Code:	arena-drago_item_portal-stele-38
+Level: 1
+Entitype:	ENTITYPE.PORTAL
+MaterialPercentages:	MATERIAL.UNKNOWN 100%
+Sex:	SEX.FEMALE
+Flags:	FLAG.NO_GET
+Name:	La Stele
+Short:	una pietra incisa
+Long:	Sopra $N fluttua uno squarcio mistico
+
+Descr:
+Una lunga incisione scorre per tutta la lunghezza della stele e recita:
+
+Cavaliere che servi il possente [green]Meghok[close], sei giunto ora alla tua prova
+di  iniziazione, attraversa il portale ma ricorda, solo la forza  della guerra potrà
+aiutarti in questa lotta, solo il vero combattente sopravvive.
+
+DescrTouch: 
+Una lunga incisione scorre per tutta la lunghezza della stele e recita:
+
+Cavaliere che servi il possente [green]Meghok[close], sei giunto ora alla tua prova
+di  iniziazione, attraversa il portale ma ricorda, solo la forza  della guerra potrà
+aiutarti in questa lotta, solo il vero combattente sopravvive.
+
+DescrSixth:
+Percepisci un pensiero non tuo provenire da un lato della stanza:
+
+Cavaliere che servi il possente [green]Meghok[close], sei giunto ora alla tua prova
+di  iniziazione, attraversa il portale ma ricorda, solo la forza  della guerra potrà
+aiutarti in questa lotta, solo il vero combattente sopravvive.
+
+Value:	0
+Weight: 100kg
+
+PortalType:
+	Destination:	12 7 0 arena-drago
+	EntityEnterMessage: Protendi una $hand allo squarcio e $N ti assorbe.
+	TargetEnterMessage: $n decide d'attraversarti e lo anticipi repentinamente.
+	OthersEnterMessage: Da $N un biancore latteo si estroflette avvolgendo $n.
+	EntityExitMessage: La luce s'attenua e ti trovi altrove.
+	TargetExitMessage: Ora $n è sparit$o da $T finendo in $t.
+	OthersExitMessage: $n appare con una $hand protesa in avanti come congelato innaturalmente.
+End
+
+

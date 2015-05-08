@@ -1,0 +1,20 @@
+Code:	serpidi_item_pettoralegiada_24
+Level:	1
+Entitype: ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.JADE	100%
+Name:	Un Pettorale di Giada 
+Short:	un pettorale di giada 
+Long: $N giace qui a terra
+Descr: 
+Uno splendido pettorale di giada.  
+Value:	0
+Weight: 80g
+BirthDay: 1
+BirthMonth: MONTH.TEN
+WearType:
+        Modes: PART.CHEST
+End
+
+
+
+

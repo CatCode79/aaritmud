@@ -1,0 +1,31 @@
+Code: flora_item_peperoncino-02-seme-sterile
+Level: 1
+MaxGlobalQuantity:	100
+Entitype: ENTITYPE.SEED
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.SEED	100%
+Flags:  FLAG.INTERACTABLE_FROM_OUTSIDE
+Name: Un Seme di [red]Peperoncino[close]
+Short: un [yellow]seme[close] giallo intenso
+Long:	C'è $N qui in terra
+
+Descr:
+Un seme giallo luminoso di forma ovoidale leggemente piatto.
+
+DescrTouch:
+La sua superficie è liscia e potrebbe lasciare sulla tua pelle essenze mordenti.
+
+DescrSixth:
+Facendo particolare attenzione, ti accorgi che l'odore del 
+[yellow]seme[close] presenta una sfumatura acidula.
+
+
+Value:	1
+Weight: 2g
+
+SeedType:
+    RpgHours:	001
+    WorseEntity:	flora_item_peperoncino-00-seme-marcio
+    NormalEntity:	flora_item_peperoncino-00-seme-marcio
+    BetterEntity:	flora_item_peperoncino-00-seme-marcio
+End

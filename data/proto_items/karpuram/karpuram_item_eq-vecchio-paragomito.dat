@@ -1,0 +1,33 @@
+Code:	karpuram_item_eq-vecchio-paragomito
+
+Level:	4
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.LEATHER	90
+MaterialPercentages:	MATERIAL.IRON	10
+Sex:	SEX.MALE
+Name:	Un Vecchio Paragomito di Cuoio
+
+Short:	un vecchio paragomito di cuoio
+
+Long:	$N rovinato è stato abbandonato qui.
+
+Descr:
+Un singolo paragomito di cuoio molto rovinato e sudicio, presenta una serie di
+lacci interni che permettono di stringere, per quanto possibile, l'oggetto
+al $arm. Una seconda e diversa serie di lacci esterni, usati sicuramente a scopo
+decorativo presentano anche altrettanti piccoli anelli ai quali sono attaccati
+degli uncini di ferro.
+
+DescrSixth:
+L'usura di quest'oggetto non deve trarre in inganno, la
+pericolosità degli uncini unita alla protezione che questo vecchio paragomito
+offre, fanno di questo oggetto un prezioso coompagno d'avventure.
+
+Value:	0
+Weight:	500g
+
+WearType:
+   Modes: PART.LEFT_ELBOW
+   Modes: PART.RIGHT_ELBOW
+End

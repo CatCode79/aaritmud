@@ -1,0 +1,34 @@
+Code: torreelementi_item_frutteto-ciliegia
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.FRUIT	100%
+Name:	Una Ciliegia Scarlatta
+Short:	una ciliegia
+Long:	$N liscia, matura e succosa è finita qui in terra.
+
+Descr:
+Una ciliegia in versione singolare con picciolo messo apposta per facilitarne la
+maneggiabilità.
+DescrTouch: 
+Pigiando anche di poco si sente che la ciliegia voglia uscire tutta di lì.
+DescrSmell: 
+L'odore arriva con vivida immagine ma ti sfugge il nome.
+DescrSixth:
+Un profondo desiderio d'essere mangiato trasuda fin dal picciolo.
+DescrTaste:
+Solo un assaggio non basta.
+
+Value:	0
+Weight: 9g
+
+FoodType:
+	Comment:	cibo
+	Animal:	0
+	Vegetable:	100
+	CookingDamage:	20
+	Hours:	0
+End
+
+

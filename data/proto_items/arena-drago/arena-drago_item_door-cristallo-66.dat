@@ -1,0 +1,40 @@
+Code: arena-drago_item_door-cristallo-66
+Level: 1
+Entitype:	ENTITYPE.DOOR
+MaterialPercentages:	MATERIAL.CRISTAL 100%
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+Name:	Il Muro di Cristallo
+Short:	un muro di cristallo
+Long:	$N è a terra in frantumi.
+KeywordsName: cristallo
+KeywordsShort: cristallo
+
+Descr:
+Un muro di cristallo perfetto e trasparente.
+
+DescrTouch: 
+Appena entri in contatto con la ferdda superficie, una voce risuona cavernosa nella
+tua mente "solo colui che i draghi chiamano [cyan]amico[close], avrà accesso alle loro dimore".
+
+Value:	0
+Weight: 179kg
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Apri $N.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N.
+	EntityCloseMessage:	Richiudi $N.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n chiude $N.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE DOOR.SECRET DOOR.LOCKED
+	KeyCode:	arena-drago_item_statuetta-cristallo
+End
+
+
+
+

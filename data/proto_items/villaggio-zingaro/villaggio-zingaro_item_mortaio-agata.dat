@@ -1,0 +1,38 @@
+Code: villaggio-zingaro_item_mortaio-agata
+Level: 1
+MaxGlobalQuantity:      0
+Entitype: ENTITYPE.CONTAINER
+Sex:    SEX.MALE
+MaterialPercentages:	MATERIAL.AGATE	100%
+Name:   Un [seagreen]Mortaio[close] d'[seagreen]Agata[close]
+Short:  un [seagreen]mortaio[close] d'[seagreen]agata[close]
+Long:   $N finemente lavorato.
+
+Descr:
+Un blocco d'[seagreen]agata[close] ben levigato e appena concavo costituisce il corpo del principale di un mortaio; sui lati esterni puoi osservar delle minuziose lavorazioni raffiguranti fiori e bacche. Il pestello anch'esso dello stesso materiale è corto e tozzo con intriganti [honeydew]venature biancastre[close] che ricordano volute di fumo.
+DescrTouch: 
+Prendi il pestello e mimi il gesto di triturare qualcosa.
+DescrSmell:  
+Annusi a fondo tutto l'oggetto ma non coglio proprio nessun odore.
+DescrSixth:
+Intuisci che questo genere di pestello si atto a preparare rimedi composti da ingredienti vegetali.
+
+Value:	219
+Weight: 210g    
+
+Extras:         
+        Keywords: fiori bacche
+        Descr:  
+        I fiori e le bacche ti ricordano quelli di piante medicinali che non ricordi dove puoi aver visto.
+End
+        
+MaxLife:        100
+Life:           100
+MaxMana:        100
+Mana:           100
+MaxVigour:      100
+Vigour:         100
+
+ContainerType:
+       MaxWeight: 140g
+End

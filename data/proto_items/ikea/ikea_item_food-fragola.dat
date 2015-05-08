@@ -1,0 +1,33 @@
+Code: ikea_item_food-fragola
+Icon:	icons/plant/fragola.png
+Level: 1
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.FEMALE
+Flags:	FLAG.RANDOMIZABLE
+MaterialPercentages:	MATERIAL.FRUIT	100%
+Value:	7
+Name:	Una [darkred]fragola[close] Coltivata
+Short:	una [darkred]fragola[close] coltivata
+Long:	$N grossa ed imperiosa spicca radiosa 
+
+Descr:
+Una comune fragola da coltivazione piuttosto grossa e dalle forme esuberanti.
+Decine di semini dorati ne impreziosiscono il colore.
+DescrTouch:
+Un frutto morbido e butterato in tutta la superficlie con ancora il picciolo saldamente attaccato.
+DescrSmell:
+Il profumo delle fragole non è cosa che possa esprimere una cultivar come questa.
+DescrTaste:
+Dolcissima e abbastanza saporita da giustifiare un prezzo medio alto.
+
+Weight: 21g
+
+FoodType:
+	Comment:	cibo
+	Animal:	0
+	Vegetable:	100
+	CookingDamage:	0
+	Hours:	48
+End
+
+

@@ -1,0 +1,15 @@
+Code: apply
+
+ItalianKeywords: spalma unguento pomata
+EnglishKeywords: apply salve
+
+Entitype: HELP.ITEM
+
+Text:
+Durante i tuoi viaggi potresti incontrare mercanti, negozianti, alchimisti o
+erboristi che vendano oli, creme, preparati a base di erbe, fanghi, unguenti e
+altri oggetti simili.
+Per poterli usare usa il comando $tapply &lt;[darkgreen]oggetto[close]&gt; per spalmare un po' del
+prodotto sulla tua pelle.
+Puoi anche spalmare i vari prodotti su un'altro giocatore, per farlo devi
+scrivere $tapply &lt;[darkgreen]oggetto[close]&gt; &lt;[darkgreen]giocatore[close]&gt;.

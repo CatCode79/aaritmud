@@ -1,0 +1,27 @@
+Code: miniere-kezaf_item_gemma-test
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Name:	Un [COLOR][NAME][close]
+Short:	un [COLOR][NAME][close]
+Long:	$N brilla colpita dai raggi del sole.
+LongNight:	Scorgi appena $N. 
+
+Descr:
+Un [COLOR][NAME][CLOSE] di forma/taglio [SHAPE] blabla bla bla [QUALITY]
+DescrTouch: 
+Liscia al tatto, con i polpastrelli ne coglie tutte le sfaccettature.
+DescrSixth:
+[PERFECTION PHRASE]
+
+Value:	0
+Weight: 10g
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

@@ -1,0 +1,25 @@
+Code: mage
+
+ItalianKeywords: mago maghi maga maghe stregone stregoni strega streghe
+EnglishKeywords: mage mages warlock warlocks witch witches
+
+Entitype: HELP.KIT
+
+Text:
+I maghi godono spesso di una cattiva reputazione:
+La capacità di poter piegare materia ed energia ai propri comandi, infatti,
+spesso influisce negativamente sull'ego degli individui che si dedicano allo
+studio delle arti magiche, il quale è tutt'altro che semplice o di breve durata.
+
+Un Mago deve passare intere giornate allenandosi per praticare incanti o
+memorizzare antiche formule reperite leggendo libri, pergamene o rune e
+lottare contro i pregiudizi e le paure della popolazione.
+
+Il potere degli incantesimi del Mago è opposto alla sua forza fisica e
+riceve un incremento costante in base all'esperienza dello stesso.
+
+A ciò si aggiunga il vasto repertorio di incantesimi ed illusioni che il Mago
+usa per mascherare i suoi intenti o piegare la volontà dei suoi avversari.
+
+
+SeeAlso: classes, spells

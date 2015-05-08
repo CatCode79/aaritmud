@@ -1,0 +1,25 @@
+Code: lock
+
+ItalianKeywords: blocca 
+EnglishKeywords: lock 
+
+Entitype: HELP.ITEM
+
+Text:
+Durante la tua vita in queste terre ti troverai molte porte davanti, potranno
+essere aperte o chiuse od anche sbarrate.
+
+Non sempre potrai semplicemente aprire e chiudere una porta, a volte
+ti potrai trovare davanti a porte sbarrate e per poterle aprire avrai bisogno
+dela chiave giusta.
+Una volta che avrai trovato la chiave non dovrai fare altro che scrivere
+$tunlock (avendo cura di tenere la chiave nell'inventario) e la serratura si
+sbloccherà permettendoti di aprire la porta, se invece vuoi chiudere a chiave
+la porta della tua cassaforte il comando da usare è $tlock.
+Ovviamente ci sono anche altre abilità che ti possono permettere di forzare una
+porta senza bisogno della chiave, vedi ad esempio $thelp '[darkgreen]pick lock[close],
+$thelp $tbash, ma non tutti hanno tali capacità e quindi dovranno cercare la
+chiave.
+
+
+SeeAlso: unlock bash open

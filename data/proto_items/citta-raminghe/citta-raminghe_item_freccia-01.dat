@@ -1,0 +1,14 @@
+Code: citta-raminghe_item_freccia-01
+Level: 3
+Entitype: ENTITYPE.WEAPON  
+MaterialPercentages:	MATERIAL.BRONZE	10
+MaterialPercentages:	MATERIAL.HARDWOOD	90
+Name: [crimson]Una Freccia[close]
+Short: [crimson]una freccia molto appuntita[close] 
+
+Descr: Una freccia con la cuspide in metallo dai margini taglienti.
+
+Value:	0
+Weight: 178g
+
+

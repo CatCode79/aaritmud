@@ -1,0 +1,17 @@
+Code: opekus_item_ciottoli_01
+Level: 1
+Entitype:	ENTITYPE.NONE
+Flags: FLAG.NO_GET
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.STONE	100%
+Name: Ciottoli
+Short: ciottoli
+Long:	vi son $N ovunque
+
+Descr:
+sassi, sassetti, ciottoli... qualcuno dovrebbe fare qualcosa per questo sterrato
+
+Value:	0
+Weight: 750g
+
+

@@ -1,0 +1,19 @@
+Code: citta-raminghe_item_tavolo-forno
+Level: 3
+Entitype: ENTITYPE.CONTAINER
+MaterialPercentages:	MATERIAL.OAK	100
+Flags:	FLAG.NO_GET
+Name: Un Antico [sandybrown]Tavolo[close] in legno massello
+Short: un antico [sandybrown]tavolo in legno massello[close] 
+Long: c'è $N al centro della stanza
+
+Descr: Un grande tavolo rettangolare
+
+Value:	0
+Weight: 55kg
+
+ContainerType:
+        MaxWeight: 10kg
+End
+
+

@@ -1,0 +1,56 @@
+Code: citta-raminghe_item_weapon-spada-bastarda
+Level: 1
+Entitype: ENTITYPE.WEAPON
+MaterialPercentages:	MATERIAL.STEEL 90
+MaterialPercentages:	MATERIAL.COPPER 10
+Sex: SEX.FEMALE
+MaxGlobalQuantity: 1
+Name: La Spada Bastarda
+Short: [yellow]una spada bastarda[close]
+Long: $N arrogante
+
+Descr:
+Una lunga e pesante spada bastarda, dalla lama piatta ed esagonale, sulla quale vedi incisa una [red]iscrizione[close].
+L'[violet]elsa[close], sontuosamente decorata, ti lascia intuire che si tratta di un'arma appartenuta ad un  guerriero
+di nobili origini. La sua forma spessa e arrotondata sembra celare più di quello che uno sguardo distratto possa percepire.
+La lama è segnata da numerose piccole scheggiature lasciate da un uso sanguinoso e
+arrogante e  dal passare inesorabile del tempo.
+
+DescrSixth:
+Quali segreti custodisce? Quanti nemici ha combattuto e quanti amici ha salvato da morte certa?
+A quale nobile guerriero è appartenuta? Forse custodisce e conserva qualcosa di sacro la cui natura non è immediatamente
+intuibile.
+
+Extras:
+	Keywords: iscrizione
+	Flags: EXTRA.READABLE
+	Descr:
+	Non estrarmi senza motivo e non inguainarmi senza onore
+
+End
+
+ContainerType:
+       EntityOpenMessage:      Ruoti il pomolo dell'elsa aprendola.
+       TargetOpenMessage:      $n ti fa girare il pomolo aprendoti l'elsa.
+       OthersOpenMessage:      $n con un gesto impaziente sblocca ed apre l'elsa a $N.
+       EntityCloseMessage:     Ricomponi l'elsa di $N per riportarla al suo consueto uso
+       TargetCloseMessage:     Finalmente $n si è degnat$o di chiuderti.
+       OthersCloseMessage:     $n ruota il pomolo  della $N bloccandolo fino a chiusura completa dell'elsa.
+       Flags:  CONTAINER.CLOSED  CONTAINER.CLOSABLE
+       MaxWeight: 150g
+End
+
+
+
+
+Value:	0
+Weight: 3540g
+
+WearType:
+        Modes: PART.WIELD
+End
+WeaponType:
+        Category: WEAPON.SWORD
+        Damage: 6D2+2
+        Flags: WEAPONFLAG.ONE_HAND
+End

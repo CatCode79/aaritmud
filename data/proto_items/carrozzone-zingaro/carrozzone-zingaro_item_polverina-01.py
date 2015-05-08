@@ -1,0 +1,62 @@
+# -*- coding: utf-8 -*-
+
+#= DESCRIZIONE =================================================================
+
+# Il consueto script di generazione oggetti quando si getta l'entità
+
+
+#= IMPORT ======================================================================
+
+import random
+
+from src.database  import database
+from src.enums     import TO
+from src.interpret import send_input
+from src.item      import Item
+from src.log       import log
+
+from src.commands.command_get import command_get
+
+
+#= FUNZIONI =====================================================================
+
+def before_smelled(entity, target, descr, detail, behavioured):
+    if random.randint(0, 5) == 0:
+        first_keyword = target.get_numbered_keyword(looker=entity)
+        send_input(entity, "sniff " + first_keyword)
+    else:
+        send_input(entity, "sniff")
+    return True
+#- Fine Funzione -
+
+
+def before_try_to_get(entity, target, location, behavioured):
+    # Crea e inserisce il pizzico di polverina nella locazione da cui prenderlo
+    pizzico = Item("carrozzone-zingaro_item_polverina-pizzico")
+    pizzico.inject(location)
+
+    entity.act("Infili le dita dentro $N.", TO.ENTITY, target)
+    entity.act("$n allunga due dita dentro $N.", TO.OTHERS, target)
+    entity.act("Ti senti un po' deprezzata ogni volta che $n ti indaga!", TO.TARGET, target)
+
+    # Bisogna utilizzare la get_numbered_keyword perché non si sa se entity in quel
+    # momento stia guardando la short diurna, notturna o il nome
+    first_keyword = pizzico.get_numbered_keyword(looker=entity)
+    if location.IS_ROOM:
+        argument = first_keyword
+    else:
+        argument = "%s %s " % (first_keyword, location.get_numbered_keyword(looker=entity))
+    execution_result = command_get(entity, argument)
+
+    # Questo è meglio farlo solo se il get è andato a buon fine, cioè quando
+    # execution_result ha valore di verità positiva
+    if execution_result:
+        if target.weight < pizzico.weight:
+            target.act("Quello era l'ultimo, ora sei vuot$o.", TO.ENTITY)
+            target.act("Una volta c'era $n, ma ora è vuot$o.", TO.OTHERS)
+            target.extract(1)
+        else:
+            target.weight = target.weight - pizzico.weight
+
+    return execution_result
+#- Fine Funzione

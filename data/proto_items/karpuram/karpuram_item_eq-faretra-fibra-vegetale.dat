@@ -1,0 +1,35 @@
+Comment: una faretra a che parte del corpo si attacca?
+Code:	karpuram_item_eq-faretra-fibra-vegetale
+
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.LINE	70
+MaterialPercentages:	MATERIAL.CLOTH	30
+Sex:	SEX.FEMALE
+Name:	Una Faretra Usata
+Short:	una faretra rifinita
+Long:	c'è $N con ricami di rinforzo sul fondo.
+
+Descr:
+Un tubolare cilindrico di stoffa vegetale grezza e spessa. Il fondo si stringe terminando con una cinghia rinforzata a spallaccio che si infila nella parte superiore. 
+
+DescrTouch:
+Un tubolare cilindrico di grezzo tessuto ruvido e spesso. Il fondo si stringe terminando con una cinghia rinforzata a spallaccio che si infila nella parte superiore. 
+
+DescrSmell:
+Materiale vegetale filato e trattato per durare nel tempo.
+
+
+
+Value:	0
+Weight:	95g
+
+WearType:
+	Modes: PART.RIGHT_SHOULDER
+	Modes: PART.LEFT_SHOULDER
+End
+
+ContainerType:
+	MaxWeight: 500g
+End

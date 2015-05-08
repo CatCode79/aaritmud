@@ -1,0 +1,66 @@
+Code:	arena-drago_room_46-arena
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	[yellowgreen]L'Arena[close]
+Short:	[yellowgreen]L'arena[close]
+	Descr:
+Appena accedi all'enorme spazio che è l'arena ti senti
+intimidito, gli spalti ti circondano ed anche da vuoti sono uno
+spettacolo che ti fa sentire piccolo ed insignificante. Il suolo
+è ricoperto di finissima sabbia bianca e tutto il perimetro è
+irto di punte accuminate per impedire la fuga ai gladiatori e
+rendere più avvincente lo spettacolo di morte che si consuma in
+questo luogo. L'unica uscita a disposizione è il tunnel a ovest.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	64|16777216|33554432 1
+Exits:
+	Direction:	DIR.WEST
+	Descr:	Un tunnel
+	Comment:	ExitStatus	1|16|32|512 27707 27737 373
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+Code: villaggio-zingaro_item_foglia-radicchio-marcia
+
+Level: 1
+Entitype:	ENTITYPE.FOOD	
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.VEGETABLES 100%	
+Name:
+Una Foglia di Radicchio Marcia
+Short:
+una foglia violacea
+Long:
+$N sta marcendo qui.
+
+Descr:
+Riconosci a malapena quella che sembra essere una foglia di radicchio.
+DescrTouch: 
+Ha perso la sua naturale turgidità ed è ricoperta da uno velo di poltiglia viscido
+DescrSmell:
+Quello che un tempo era il suo aroma caratteristico è ormai coperto dal puzzo di putridume e letame.
+
+Value:	0
+Weight: 10g
+
+
+
+

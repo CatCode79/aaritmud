@@ -1,0 +1,56 @@
+Code: conflitti_item_dolce-speziato
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.FOOD
+MaterialPercentages:	MATERIAL.BREAD	85
+MaterialPercentages:	MATERIAL.SEED	5
+MaterialPercentages:	MATERIAL.HERB	5
+MaterialPercentages:	MATERIAL.FRUIT	5
+Sex:	SEX.MALE
+Name:	Un Dolce Speziato
+Short:	un dolce speziato
+Long:	$N attende che tu gli renda giustizia
+
+Descr:
+Un dolce speziato dalla morbida crosta dorata. Si intravedono i semi delle spezie: anice, zenzero, cardamomo e vaniglia che danno un aspetto vagamente punteggiato.
+DescrTouch:
+Un morbido panetto.
+DescrSmell:
+Molte spezie s'uniscono in un'ebbrezza culinaria.
+DescrSixth:
+Più prezioso del dolce stesso è la ricetta per replicarlo.
+DescrTaste:
+Percepisci la perfezione armonica dei sapori miscelati sapientemente.
+
+Value:	0
+Weight: 250g
+
+
+Extras: 
+        Keywords: vaniglia
+        Descr:
+        vaniglia? forse...
+        DescrSmell:
+        Impossibile non sentirla
+End
+
+Extras: 
+        Keywords: anice zenzero cardamomo
+        Descr:
+        Si vedono proprio i semini
+        DescrSmell:
+        Impossibile non sentirlo
+End
+
+FoodType:
+	Comment:	cibo
+	Animal:	0
+	Vegetable:	100
+	CookingDamage:	5
+	Hours:	0
+	EntityMessage:	Prendi $N fra le $hands e l$O consumi centellinandol$o.	
+	TargetMessage:	Ora c'è una sola via d'uscita... $n t'ha mangiato.
+	OthersMessage:	$n prende fra le $hands $N e l$O consuma centellinandol$O.
+End
+
+

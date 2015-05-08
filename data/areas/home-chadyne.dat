@@ -1,0 +1,33 @@
+Comment:
+	Questo è solo un file temporaneo per avere up il prima possibile la room del bagno.
+Creators:	Chadyne
+Code: home-chadyne
+Name: Dove lavora Chadyne
+Short: dove lavora Chadyne
+Descr:
+	Dove venne relagato Chadyne da piccolo con tutti i suoi giocattoli.
+	Color: COLOR.DARKSEAGREEN
+Level: 1
+Flags: AREA.DONT_LIST
+RepopTime: 15
+LandfillCode:	home-chadyne_room_cantina-01
+
+RoomResets:
+	ProtoRoom:	home-chadyne_room_bagno-01
+	Destination:	1 1 0 home-chadyne
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	home-chadyne_item_water_rosso
+	End
+End
+RoomResets:
+	ProtoRoom:	home-chadyne_room_cantina-01
+	Destination:	0 0 0 home-chadyne
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	home-chadyne_mob_alone
+	End
+End
+

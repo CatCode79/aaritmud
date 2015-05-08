@@ -1,0 +1,22 @@
+Code: board
+
+ItalianKeywords: bacheca bacheche
+EnglishKeywords: board boards
+
+Entitype: HELP.GENERIC
+
+Text:
+Le bacheche si potranno trovare un po' ovunque nel mondo, dove potrete postare
+o leggere delle note riguardanti vari argomenti.
+
+Usare $tnote [darkgreen]list[close] per vedere quali note sono state postata sulla bacheca.
+Scrivere $thelp $tnote per avere maggiori informazioni riguardo l'uso delle
+note.
+
+Un ufficio postale in genere è situato vicino i luoghi di maggiore affluenza, come
+piazze o parchi e anche nei pressi di edifici importanti.
+
+Scrivere $thelp $tmail per avere dettagliate informazioni sul funzionamento
+dell'ufficio postale.
+
+SeeAlso: mail

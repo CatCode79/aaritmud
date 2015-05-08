@@ -1,0 +1,24 @@
+Code: antro-drow_item_piedistallo-statua
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.STONE 100%
+Sex:	SEX.MALE
+Flags:	FLAG.NO_LOOK_LIST FLAG.NO_GET
+Name:	Un Piedistallo Nero
+Short:	un piedistallo nero
+Long:	$N è qui
+
+Descr:
+Un piedistallo nero squadrato e parzialmente integrato nel terreno. Posta superiormente c'è una [slategray]statua[close].
+DescrTouch: 
+Un piedistallo in pietra fredda, di ragguardevoli dimensioni e inamovibile. Sopra è collocata una statua.
+
+Value:	0
+Weight: 1000kg
+
+ContainerType:
+        MaxWeight: 10kg
+End
+
+

@@ -1,0 +1,29 @@
+Code: citta-raminghe_item_weapon-makhaira-01
+Level: 5
+Entitype: ENTITYPE.WEAPON
+MaterialPercentages:	MATERIAL.ENERGY	1
+MaterialPercentages:	MATERIAL.STEEL	39
+MaterialPercentages:	MATERIAL.BRONZE	20
+MaterialPercentages:	MATERIAL.BRASS	25
+MaterialPercentages:	MATERIAL.SILVER	10
+MaterialPercentages:	MATERIAL.GOLD	5
+Name: [lightcoral]Una makhaira[close]
+Short: [lightcoral]un'antica spada[close]
+
+Descr: Una spada antica. La sua lama è ricurva ed affilata, adatta a tutti i tipi di combattimento.
+DescrSixth: Si tratta di una spada molto difficile da maneggiare. Solo un 
+guerriero molto esperto è in grado di usarla. Richiede una profonda disciplina 
+ed un lungo addestramento al quale non tutti sono in grado di accedere.
+
+
+WearType:
+        Modes: PART.WIELD
+End
+
+WeaponType:
+        Category: WEAPON.SWORD
+	Damage:	1D6+1
+        Flags: WEAPONFLAG.ONE_HAND 
+End
+Value:	0
+Weight: 4kg

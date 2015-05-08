@@ -1,0 +1,82 @@
+Code:	villaggio-zingaro_mob_lupo-erboso-03
+Level:	1
+Sex:	SEX.MALE
+Race:	RACE.GOLEM
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Icon:	icons/mob/lupo-erboso.png
+Name:	Un Faolchufar
+Short:	un lupacchiotto
+Long:	$N trotterella attorno alla madre.
+
+Descr:
+Un piccolo lupetto dal manto verdeggiate, gli [darkred]occhietti[close] brillano nel buio della notte. Grazie al suo manto riesce a mimetizzarsi perfettamente nella vegetazione e, se non fosse così esuberante non riusciresti a scorgerlo.
+DescrTouch: 
+Vorresti accarezzarne  il manto ma capisci che potrebbe non essere d'accordo.
+DescrSmell: 
+Lo annusi da lontano ed emana in lieve fetore di foglie marce.
+DescrHearing:
+Lo senti guaire se la madre si allontana troppo.
+
+Weight: 15kg
+Height: 40cm
+
+BirthDay: 21
+BirthMonth: MONTH.FIVE
+Age: 1
+
+Remains: villaggio-zingaro_item_corpse-lupi
+
+Behaviour:
+	LookPlayer:	15
+	LookMob:	15
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	LookEquipment:	0
+	SmellPlayer:	15
+	ListenPlayer:	15
+	TouchItem:	0
+	IntuitionAtRaces:	0
+	TasteAtEntitypesFlags:	ENTITYPE.NONE
+	WanderExit:	0
+	WanderWall:	0
+	WanderAtSectors: 	SECTOR.WOOD
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	10
+	RandomDoInputs:	emote scodinzola felice.
+	RandomDoInputs: emote mordicchia un orecchio alla madre.
+	RandomDoInputs: emote inciampa e cade rovinosamente.
+End
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100
+
+Strength:	17
+Endurance:	17
+Agility:	22
+Speed:		22
+Intelligence:	17
+Willpower:	17
+Personality:	17
+Luck:		17
+
+

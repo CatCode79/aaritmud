@@ -1,0 +1,33 @@
+Code: ikea_item_puzza-sudore
+Level: 1
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.ESSENCE	100%
+Name:	Una Gran Puzza di Sudore
+Short:	un puzzo di sudaticcio
+Long:	$N aleggia pericolosamente
+
+Descr:
+Nulla che possa essere visto con gli occhi.
+
+DescrTouch: 
+Toccare cose? Non è esattamente che si possa toccare.
+
+DescrSmell:
+Ricorda il calzino di un orco dopo mille battaglie e con stagionatura
+di qualche giorno al sole in ambienti umidi.
+
+DescrSixth:
+È l'arma finale per debellare ogni rapporto sociale duraturo.
+
+Value:	0
+Weight: 1g
+
+WearType:
+   Modes: PART.FLOATING
+End
+
+
+
+MaxLife:	10
+Life:		10

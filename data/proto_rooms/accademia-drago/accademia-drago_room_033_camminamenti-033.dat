@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_033_camminamenti-033
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	I Camminamenti
+Short:	i camminamenti
+	Descr:
+Sei esattamente davanti all'ingresso del ponte che porta alla
+torre, ora puoi ammirare il repentino cambio di pavimentazione
+che sul ponte diviene una perfetta scacchiera bianca e nera di
+pietra lucida, dove ti trovi c'è il primo arco di accesso, due
+colonne basse sostengono un sesto tondo su cui sono scolpite
+scene di voli di drago. Circa a metà ponte vedi il secondo arco,
+davanti adesso due cavalieri fanno la guardia pronti a bloccare
+gli ospiti indesiderati.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 1
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 035 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 032 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

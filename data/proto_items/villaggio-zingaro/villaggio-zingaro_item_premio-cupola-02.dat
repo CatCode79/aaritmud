@@ -1,0 +1,26 @@
+Code: villaggio-zingaro_item_premio-cupola-02
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAPON
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.THORN	100%
+Name:	Un [maroon]Tirapugni[close] Spinato
+Short:	un [maroon]tirapugni spinato
+Long:	$N poggia ad aculei all'insù
+
+Descr:
+Un oggetto di spine legnose ed acuminate avvolte su loro stesse in un fitto intreccio.
+Quattro fori consentono di utilizzarlo infilandoci le dita.
+DescrTouch: 
+Un tirapugni pericolosamente acuminato irto di spine.
+DescrSixth:
+Chi è riuscito ad intrecciare così precisamente questo piccolo intrico deve aver trovato
+pronta collaborazione di qualche vegetale.
+
+Value:	0
+Weight: 175g
+
+WeaponType:
+	Category:	WEAPON.KNUCKLE_DUSTER
+	Flags:	WEAPONFLAG.ONE_HAND 
+End

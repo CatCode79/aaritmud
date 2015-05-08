@@ -1,0 +1,18 @@
+Comment: STRUMENTO.AUSILIARIO
+Code: mfdonald_item_strumenti-cembalo-bacchetta
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.WOOD	100%
+Name:	Una Bacchetta del Cembalo
+Short:	un'asticella pelosa
+Long:	$N è riposta con cura qui
+
+Descr:
+	Una bacchetta lunga e flessibile con impugnatura in pelle e l'estremità opposta
+	pelosa e bianca.
+
+Value:	0
+Weight: 86g
+
+

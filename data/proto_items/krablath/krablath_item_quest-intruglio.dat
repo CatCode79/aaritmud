@@ -1,0 +1,23 @@
+Code: krablath_item_quest-intruglio
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.POTTERY	100%
+Name:	Un [olive]Vasetto[close] con Estratto d'Ortica
+Short:	un [olive]vasetto[close]	
+Long:	$N è posato qui.
+
+Descr:
+Un panciuto [olive]vasetto[close] in ceramica con il tappo in sughero; un etichetta riporta una scritta in caratteri chiari e lineari.
+DescrTouch: 
+Saggi la curvatura del vasetto con $hand
+
+Value:	0
+Weight: 57g
+
+Extras:
+	Keywords: etichetta
+	Descr:
+	ESTRATTO D'ORTICA
+End

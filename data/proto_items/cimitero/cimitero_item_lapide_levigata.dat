@@ -1,0 +1,84 @@
+Code: cimitero_item_lapide_levigata
+Level: 1
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.STONE 100%
+Sex:	SEX.FEMALE
+Flags:	FLAG.NO_GET
+Name: Una Lapide Levigata
+Short: una lapide
+Long:	$N è infissa nel terreno.
+
+Descr:
+Levigata e precisa con scanalature pregiate e lettere in argento incastonate con 
+cura nella parte frontale della pietra, questa lapide riesce ancora a 
+distinguersi tra le altre decisamente malridotte da secoli di degrado e 
+abbandono.
+
+DescrNight:
+Una lapide si distingue dalle altre per la sua nobile fattura, evidentemente è 
+stata posata da poco nel terreno. Avvicinandoti per guardare meglio ti accorgi 
+che la parte destra della stessa presenta una diversa fattura, come se fosse 
+stata ritoccata in un secondo periodo.
+
+DescrHearing:
+Non riesci a percepire molto oltre il rumore del vento che va a interrompersi 
+contro la lapide, frazionandosi a volte contro il tuo volto.
+
+DescrHearingNight:
+Il rumore del vento che passa sopra la lapide senza trovare grandi impedimenti, 
+ogni tanto passando sopra il marmo della lastra si rifrange e muove alcune 
+foglie di un albero vicino.
+
+DescrSmell:
+La lapide odora ancora di nuovo, come fosse stata posata da poco e realizzata 
+con materiale pregiato. Avverti anche l'odore ferroso rilasciato dalle lettere 
+che compongono il nome del defunto.
+
+DescrTouch:
+La fredda pietra viene scaldata lievemente dal tocco delle tue dita.
+Il segno delle dita rimane per qualche secondo prima di scomparire e lasciare
+il posto al semplice marmo.
+
+DescrTouchNight:
+Al tocco risulta fredda e tristemente dura, nella penombra della notte ti rendi 
+conto solo toccando la lastra che riporta una scanalatura sul lato destro che 
+prima non avevi notato.
+
+DescrTaste:
+La lapide è ricoperta da un leggero strato di sale, sedimentatosi nel tempo e 
+facente oramai parte integrante della struttura di marmo. Questa patina salina 
+si trova però unicamente sulla parte superiore della lastra di marmo.
+
+DescrTasteNight:
+Il marmo con cui è stata realizzata la lapide durante la sera tende ad assumere 
+una colorazione argentea, si attribuisce questo ad uno strato di sale 
+sedimentato sulla parte superiore della lapide.
+
+DescrSixth:
+Avverti uno strano riflesso provenire dalla pietra. Spostandoti anche di poco 
+ti rendi conto che il riflesso appare solamente se ci si posiziona mantenendosi 
+a sud-est rispetto alla lapide.
+
+
+Value:	0
+Weight: 150kg
+
+Extras:
+	Keywords: lettere argento
+	Descr
+	Osservando le lettere con attenzione noti che una di esse è leggermente 
+	storta rispetto alle altre.
+End
+Extras:
+	Keywords: scanalatura
+	Descr 
+	Una lieve scanalatura percorre tutto il lato destro della lapide, terminando
+	con uno strano sigillo.
+End	
+Extras:
+	Keywords: sigillo
+	Descr
+	Un sigillo di ferro a forma di lettera M.
+End
+
+

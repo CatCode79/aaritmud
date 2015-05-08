@@ -1,0 +1,24 @@
+Code: flora_item_rename-01-seme-vivo
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.SEED
+MaterialPercentages:	MATERIAL.SEED	100%
+Sex:	SEX.MALE
+Name: Un [white]Seme[close] di [white]rosa[close] 
+Short: un [white]semino[close]
+Long:	$N insignificante
+
+Descr:
+Un piccolo semino bianco giallastro
+
+SeedType:
+    Sectors:	SECTOR.PLAIN SECTOR.HOUSE
+    RpgHours:	001
+    WorseEntity:	flora_item_rename-03-germoglio
+    NormalEntity:	flora_item_rename-03-germoglio
+    BetterEntity:	flora_item_rename-03-germoglio
+    RemainingLife:	003
+End
+
+Value:	0
+Weight: 6g

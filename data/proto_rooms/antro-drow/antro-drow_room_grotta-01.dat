@@ -1,0 +1,23 @@
+Code: antro-drow_room_grotta-01
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: La Frattura nella Parete Rocciosa
+Short: una frattura nella roccia
+
+Descr:
+All'interno di una frattura rocciosa più ampia di altre, un cammino si muove sinuoso ed orizzontale collegando il camino ad est con la grotta naturale che s'intravvede qui ad est. La mano di qualche creatura senziente ha certo aiutato nella creazione di questa frattura poiché il terreno qui dà una vaga impressione di pavimentazione in selce.
+DescrTouch: 
+Una crepa ampia che si estende per oltre tutta la tua statura si apre a connessione fra due ambienti molto distinti fra loro.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.NORTHEAST
+	Descr: Il camino di risalita
+End
+Exits:
+	Direction: DIR.SOUTH
+	Descr: Una grotta naturale
+End

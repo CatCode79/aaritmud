@@ -1,0 +1,43 @@
+Code: villaggio-zingaro_item_door-porta-tagliapietre
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.WOOD 92%	
+MaterialPercentages:	MATERIAL.IRON 8%	
+Name:	La Porta della Bottega del Tagliapietre
+Short:	la porta della bottega del tagliapietre
+Long:	$N è stata divelta.
+
+Descr:
+Una porticina piccola e tondeggiante in legno; un pomello e una serratura in ferro battuto sono posti circa a metà del lato lungo.
+DescrTouch: 
+Liscia e ben levigata.
+DescrSmell: 
+Odora ancora di vernice.
+
+Value:	0
+Weight: 80g
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Apri $N usando ambo le $hands.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N usando ambo le $hands.
+	EntityCloseMessage:	Accompagni $N fino a chiuderla.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n accompagna $N fino a chiusura.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE
+	ResetCloseMessage: $N si chiude timidamente.
+	ResetOpenMessage: $N si apre.
+End
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

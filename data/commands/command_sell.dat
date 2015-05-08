@@ -1,0 +1,6 @@
+FunName:    command_sell
+Type:       CMDTYPE.ITEM
+Trust:      TRUST.PLAYER
+Position:   POSITION.REST
+Flags:      CMDFLAG.INTERACT CMDFLAG.GDR
+MiniHelp:   Serve a vendere un oggetto ad un negoziante.

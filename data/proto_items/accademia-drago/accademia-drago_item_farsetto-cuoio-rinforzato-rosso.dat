@@ -1,0 +1,30 @@
+Code:	accademia-drago_item_farsetto-cuoio-rinforzato-rosso
+Level:	06
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.LEATHER 100%
+Sex:	SEX.MALE
+Name:	Farsetto di [red]Cuoio[close]
+Short:	farsetto di [red]cuoio[close]
+Long:	$N è abbandonato qui.
+
+Value:	0
+Weight:	100g
+
+Descr:
+Un semplice farsetto di cuoio [red]rosso[close].
+
+WearType:
+   Modes: PART.BODY
+End
+
+Comment:
+§27606
+
+Dati Obj
+A17 -30A51 10
+9 1|16|64|1024|16384|4194304|8388608|16777216|33554432|67108864|134217728 1|89 9 0 030 15000 2000
+Extras:
+	Keywords:	farsetto
+	Descr:
+		Quello  che  da  lontano poteva sembrare un rarissimo farsetto inpelle  di [red]drago rosso[close] risulta, una volta analizzato da vicino, unsemplice  farsetto  in  cuoio  tinto  in  colore  [red]rosso[close] con molta maestria. 
+End

@@ -1,0 +1,25 @@
+Code: put
+
+ItalianKeywords: metti
+EnglishKeywords: put
+
+Entitype: HELP.ITEM
+
+Text:
+Per poter prendere un oggetto o qualche moneta da terra, mentre se l'oggetto
+lo vuoi riporre in un contenitore qualsiasi il comando da usare è $tput.
+
+Esempi:
+- $tput pozione borsa
+- $tget/$tput 10 pergamena zainetto
+
+Se vuoi prendere/mettere/posare tutti gli oggetti presenti usa [darkgreen]tutto[close], se
+invece ti interessano tutti gli oggetti di un determinato tipo usa
+[darkgreen]tutto.oggetto[close].
+
+Esempi: 
+- $tget/$tput [darkgreen]tutto[close] [darkgreen]sacca[close]
+- $tget/$tput [darkgreen]tutto[close].[darkgreen]pergamena[close] [darkgreen]sacca[close]
+
+
+SeeAlso: get give drop

@@ -1,0 +1,46 @@
+Code: elizor_item_orecchino-mosca
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.SILVER	100%
+Name:	Un Piccolo [lightgray]Orecchino[close] a Mosca
+Short:	un piccolo [lightgray]orecchino[close] a mosca
+Long:	$N è appuntato qui.
+
+Descr:
+Una particolareggiata [lightgray]moschina[close] d'argento a cui è saldato, nella parte posteriore, un corto spillo spuntato così da poterla indossare come orecchino.
+DescrTouch: 
+Conti con un dito il numero di zampe; sei! 
+Sì, è un insetto.
+DescrSmell: 
+Nessun odore di escrementi come per quelle vere, fortunatamente.
+DescrSixth:
+La cura nei dettagli ti fa pensare che l'argento sia stato colato su di una mosca vera..
+DescrHearing:
+Uhm, era forse un ronzio quello?
+DescrTaste:
+no_send
+
+Weight: 3g
+Value:	89
+
+Extras:
+	Keywords: particolareggiata moschina mosca particolari
+	Descr:
+	Sei zampine, le due anteriori sfregano tra loro, venature sulle ali, occhi sfaccettati, una corta proboscide con ventosina, numerosi pelucchi su torace e addome.
+	DescrNight:
+  	È troppo buio per poterne cogliere tutti i particolari.
+End
+
+WearType:
+	Modes:	PART.LEFT_EAR
+        Modes:	PART.RIGHT_EAR
+	Flags:	WEAR.LAYERABLE
+	EntityWearMessage:	Sollevi con ambo le $hands $N e te l$O porti %part.
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	$n solleva $N con ambo le $hands e se l$O porta %part.
+	EntityRemoveMessage:	Porti le $hands %part e togli $N.
+	TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+	OthersRemoveMessage:	$n porta le $hands %part e si leva $N
+End

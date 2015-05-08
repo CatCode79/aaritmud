@@ -1,0 +1,28 @@
+Code:	rip_item_corpse-celt-female
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CORPSE
+Sex:	SEX.FEMALE
+Race:	RACE.CELT
+MaterialPercentages:	MATERIAL.FLESH	100%
+Name:	Un tuo Simile Mort$O 
+Short:	una celta mort$O
+Long:	$N e afflosciato qui definitivamente 
+
+Descr:
+I resti mortali e corruttibili di #looker is RACE.CELT#un tuo simile.#un appartenente alla razza celta.#
+
+DescrTouch:
+Il cadavere di #looker is RACE.CELT#un tuo simile dalla cui bocca non usciranno più nuvole d'aria.#una celta che non calpesterà mai più le fredde terre del Nord.#
+
+DescrSixth:
+#looker is RACE.CELT#Più gelido del luogo in cui risiedeva, un ultimo respiro e poi il silenzio.#Forse solo la gelida morte riuscirà a scuotere l'anima di questa poveretta.#
+
+DescrSmell:
+#looker is RACE.CELT#L'abitudine al gelo e al freddo delle terre del nord, rende questo corpo inodore.#Odore di morte.#
+
+DescrTaste:
+#looker is RACE.CELT#Baci un'ultima volta la fronte della malcapitata e ti rendi conto di quanto sia gelida!#L$O azzanni per accertarti che sia davvero mort$O#
+
+Value:	0
+Weight:	65kg

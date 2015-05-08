@@ -1,0 +1,45 @@
+Code: villaggio-zingaro_item_bidone-castagne
+
+Level: 1
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET FLAG.REPOP_ONLY_ON_EXTRACT
+MaterialPercentages:	MATERIAL.METAL 100%
+Name:
+Il Bidone per le Castagne
+Short:
+un bidone ammaccato
+Long:
+$N emette un fumo denso.
+
+Descr:
+Un bidone cilindrico munito di due rotelle, una piccola canna fumaria e dei manici per essere trasportato. Uno sportellino sul retro permette di ravvivare il fuoco di tanto intanto o di aggiungere legna. La parte superiore è leggermente concava e ricolma di castagne, su di un lato si possono appendere gli attrezzi del mestiere grazie ad un piccolo gancio.
+DescrTouch: 
+Ahi! Ti scotti una $hand toccando il ferro rovente.
+DescrSixth:
+Nonostante l'aspetto vissuto sembra funzionare alla perfezione. 
+DescrSmell:
+Il fumo acre fuoriuscendo dalla canna fumaria ti raschia la gola.
+DescrHearing:
+Il crepitio delle fiamme accompagna il cigolio delle ruote.
+
+Extras:
+	Keywords: sportellino sportello
+	Descr:
+	Una piccola anta quadrata tenuta bloccata da un gancio e con una maniglia sporgente per poterla aprire. 
+End
+
+Value:	0
+Weight: 7kg
+
+ContainerType:
+        MaxWeight: 5kg
+End
+
+Walker:
+	FollowEntityGoMessage:	%verb %direction seguendo $N
+	FollowOthersGoMessage:	$n %verb %direction trascinato da $N
+	FollowOthersComeMessage:	$n giunge %direction trascinato da $N
+End
+
+

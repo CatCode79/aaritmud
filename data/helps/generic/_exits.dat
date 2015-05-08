@@ -1,0 +1,16 @@
+Code: exits
+
+ItalianKeywords: uscite
+EnglishKeywords: exits
+
+Entitype: HELP.GENERIC
+
+Text:
+Ti dice le uscite visibili della stanza nella quale ti trovi. Non tutte le 
+uscite sono visibili. Puoi usare la tecnica "[red]sbatti[close]" per trovare le uscite 
+nascoste (Cioè provare a camminare in una certa direzione per vedere se vai a
+"sbattere" su una porta o un passaggio segreto), oppure la tecnica [darkgreen]bussa[close]
+(vedi $trap) che è meno dolorosa.
+
+
+SeeAlso: directions

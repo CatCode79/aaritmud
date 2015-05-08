@@ -1,0 +1,35 @@
+Code:	serpidi_item_knowm_89
+Level:	1
+Entitype: ENTITYPE.READABLE
+MaterialPercentages:	MATERIAL.PARCHMENT	100%
+Name:	La Pergamena della Conoscenza
+Short:	una pergamena ricamata con fili d'oro 
+Long:	$N è stata accuratamente ripiegata e appoggiata a terra.
+
+Descr: 
+Caspita!! Qualcuno starà ancora piangendo per aver perso questa pergamena.  
+
+Value:	0
+Weight: 23g
+BirthDay: 1
+BirthMonth: MONTH.TEN
+
+ReadableType:
+   Title: Pergamena
+   Author: Chadyne
+   Summary:
+	Ti senti non fortunato ma molto di più ad aver trovato una pergamena che non ha eguali in tutto il Nakilen.  
+   Flags: READABLE.NUMBERS
+   NumberDecorationLeft: --
+   NumberDecorationRight: --
+   VisualWidth: 2px
+   VisualHeight: 2px
+   Padding: 0px
+   BorderTop: 0px outset silver
+   BorderRight: 0px outset silver
+   BorderBottom: 0px outset silver
+   BorderLeft: 0px outset silver
+   BorderInside: 0px solid silver
+   Pages:
+   Garven Deh
+End

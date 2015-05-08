@@ -1,0 +1,144 @@
+Comment: area con il intrico (solo di nome ma non di fatto)
+Creators:	Sulfrum
+Code: siepi
+Name: Le Siepi di Derwijes
+Short: il parco del palazzo
+Descr:
+Il parco antistante la villa dei Derwijes; un enorme appezzamento di terreno in cui il ricco ed eccentrico proprietario ha fatto costruire alte siepi intricate.
+È collocato ad ovest della Torre Elementale.
+Color: COLOR.FORESTGREEN
+Level: 6
+RepopTime: 30
+LandfillCode:	siepi_room_centro
+
+RoomResets:
+  ProtoRoom: siepi_room_zero
+	Destination:	42 42 42 siepi
+End
+RoomResets:
+  ProtoRoom: siepi_room_zerozero
+	Destination:	43 42 42 siepi
+End
+
+
+RoomResets:
+  ProtoRoom: siepi_room_centro
+	Destination:	0 0 0 siepi
+End
+RoomResets:
+  ProtoRoom: siepi_room_intrico_nn
+	Destination:	0 1 0 siepi
+  EntityResets:
+    ProtoEntity: siepi_item_lichene_01
+    Quantity: 7
+  End
+End
+RoomResets:
+  ProtoRoom: siepi_room_intrico_ne
+	Destination:	1 1 0 siepi
+End
+RoomResets:
+  ProtoRoom: siepi_room_intrico_ee
+	Destination:	1 0 0 siepi
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: siepi_item_foglia-gialla
+	End
+End
+RoomResets:
+  ProtoRoom: siepi_room_intrico_se
+	Destination:	1 -1 0 siepi
+End
+RoomResets:
+  ProtoRoom: siepi_room_intrico_ss
+	Destination:	0 -1 0 siepi
+End
+RoomResets:
+  Comment: stanza default (-1 -1 0)
+  ProtoRoom: siepi_room_intrico_sw_01
+	Destination:	-1 -1 0 siepi
+End
+RoomResets:
+  Comment: primo reset (-1 -1 0)
+  Hour: 6
+  ProtoRoom: siepi_room_intrico_sw_02
+	Destination:	-1 -1 0 siepi
+End
+RoomResets:
+  Comment: secondo reset (-1 -1 0)
+  Hour: 10
+  ProtoRoom: siepi_room_intrico_sw_01
+	Destination:	-1 -1 0 siepi
+End
+
+RoomResets:
+  ProtoRoom: siepi_room_intrico_ww
+	Destination:	-1 0 0 siepi
+End
+RoomResets:
+  ProtoRoom: siepi_room_intrico_nw
+	Destination:	-1 1 0 siepi
+  EntityResets:
+    ProtoEntity: siepi_item_quadrifoglio
+    Quantity: 1
+  End
+End
+RoomResets:
+  ProtoRoom: siepi_room_intrico_sese
+	Destination:	2 -2 0 siepi
+  EntityResets:
+    ProtoEntity: siepi_item_timo_01
+    Quantity: 2
+  End
+End
+RoomResets:
+  ProtoRoom: siepi_room_intrico_uu
+	Destination:	0 0 1 siepi
+End
+RoomResets:
+  ProtoRoom: siepi_room_intrico_dd
+	Destination:	0 0 -1 siepi
+  EntityResets:
+    ProtoEntity: siepi_item_ghianda_01
+    Quantity: 1
+  End
+End
+RoomResets:
+  ProtoRoom: siepi_room_intrico_under_01
+	Destination:	0 0 -2 siepi
+End
+RoomResets:
+  ProtoRoom: siepi_room_intrico_under_02
+	Destination:	1 0 -2 siepi
+End
+RoomResets:
+  ProtoRoom: siepi_room_intrico_under_02
+	Destination:	2 0 -2 siepi
+End
+RoomResets:
+  ProtoRoom: siepi_room_intrico_under_02
+	Destination:	3 0 -2 siepi
+End
+RoomResets:
+  ProtoRoom: siepi_room_intrico_under_03
+	Destination:	4 0 -2 siepi
+End
+
+RoomResets:
+  ProtoRoom: siepi_room_giardini_00
+	Destination:	-2 0 0 siepi
+  EntityResets:
+    ProtoEntity: siepi_item_lanterna_01
+    Quantity: 1
+  End
+End
+
+RoomResets:
+  ProtoRoom: siepi_room_giardini_01
+	Destination:	-3 0 0 siepi
+End
+RoomResets:
+  ProtoRoom: siepi_room_giardini_01
+	Destination:	-4 0 0 siepi
+End

@@ -1,0 +1,31 @@
+Code: ikea_item_gem-aquamarine
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_aquamarine.png
+Name:	Un'Acquamarina Fuori del Comune
+Short:	un acquamarina azzurra
+Long:	$N tagliata con un disegno un po naif.
+
+Descr:
+Dal celeste più chiaro al blu intenso del mare, l'acquamarina mostra tutte le sfumature di una gamma straordinariamente bella di consueti azzurri. È una pietra davvero affascinante. Le donne di tutto il mondo la prediligono per il suo splendido colore blu, che si adatta quasi alla perfezione a qualsiasi carnagione o colore d'occhi, e gli artisti creatori di gemme traggono ispirazione per nuovi tagli più spesso dall'acquamarina che dalle altre pietre.
+Un
+DescrTouch: 
+Un sasso
+DescrSmell: 
+Non Odora
+DescrSixth:
+Costa un sacco
+DescrHearing:
+Non ha nulla da dire, basta a se stessa.
+DescrTaste:
+Uhm... berillio?
+
+
+
+Value:	0
+Weight: 10g
+
+

@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_019_camminamenti-019
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	I Camminamenti
+Short:	i camminamenti
+	Descr:
+Ti volti, ti giri e ti rigiri, due rapidi calcoli e ti rendi
+conto di essere più o meno sulla linea mediana del camminamento.
+Questo non sarebbe nulla di strano, prima o poi si arriva sempre
+a metà strada, la cosa veramente strana è che a nord, subito
+oltre il parapetto del camminamento, noti una sorta di tunnel
+fatto d'aria, da l'impressione di essere un vortice e sembra
+procedere in salita verso i camminamenti della seconda parte
+dell'accademia. Viene da chiederselo... sarà sicuro con quel
+baratro che là sotto sembra aspettarti a braccia aperte?
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 1
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	il vortice
+	Comment:	ExitStatus	0 0 029 -1
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 018 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 020 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

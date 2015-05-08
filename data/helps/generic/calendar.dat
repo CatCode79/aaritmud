@@ -1,0 +1,16 @@
+Code: calendar
+
+ItalianKeywords: calendario tempo
+EnglishKeywords: calendar weather
+
+Entitype: HELP.GENERIC
+
+Text:
+Il comando $tcalendar mostra l'ora e la data del mondo ed è molto utile per
+sapere a che ora aprirà un venditore o un negozio.
+
+Il comando $tweather mostra le condizioni atmosferiche, devi però essere in
+una locazione all'aperto per poter vedere che tempo fa.
+
+
+SeeAlso: $tweather

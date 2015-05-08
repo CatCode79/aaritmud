@@ -1,0 +1,32 @@
+Code: villaggio-zingaro_item_tagliapietre-cassetto
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET FLAG.NO_LOOK_LIST
+MaterialPercentages:	MATERIAL.WOOD	97%
+MaterialPercentages:	MATERIAL.METAL	3%
+Name:	Il Cassetto del Tavolo
+Short:	il cassetto del tavolo
+
+Descr:
+Un cassettino in legno grezzo con una semplice maniglia metallica.
+DescrTouch: 
+Un cassettino in legno ruvido che balla un po' nella sua guida.
+
+Value:	0
+Weight: 2kg
+
+
+ContainerType:
+	EntityOpenMessage:	Trascini $N verso l'esterno per aprirlo.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n trascia $N verso l'esterno per aprirlo.
+	EntityCloseMessage:	Richiudi $N.
+	TargetCloseMessage:	Finalmente $n si è degnat$o di chiuderti.
+	OthersCloseMessage:	$n chiude $N.
+	Flags:	CONTAINER.CLOSED CONTAINER.CLOSABLE
+        MaxWeight: 10kg
+End
+
+

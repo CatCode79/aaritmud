@@ -1,0 +1,42 @@
+Code: villaggio-zingaro_item_polpette
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.MEAT	90%
+MaterialPercentages:	MATERIAL.VEGETABLES	8%
+MaterialPercentages:	MATERIAL.OIL	2%
+Name:	Un Piatto di Polpette in Umido
+Short:	un piatto di polpette in umido
+Long:	$N è stato posato qui.
+
+Descr:
+Un piatto colmo di una brodaglia marrone; si intravedono galleggiare quelle che dovrebbero essere polpette di carne, pezzi di patata e carota. Il tutto è accompagnato da due fettone di pane senza sale. 
+DescrTouch: 
+Posi le $hands sul piatto che scotta ancora.
+DescrSmell: 
+Un'invitante fragranza di paprica ti stuzzica l'appetito.
+DescrSixth:
+Ti chiedi quale possa essere la provenienza della carne ma forse preferisci non indagare troppo in vista di un eventuale pasto.
+DescrTaste:
+Intingi la punta di un dito e lo porti alla bocca..non sembra poi tanto male.
+
+Value:	35
+Weight: 150g
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100
+
+FoodType:
+	Animal:	60
+	Vegetable:	40	
+	CookingDamage:	15
+	Hours:	0
+	EntityMessage:	Mangi tutto voracemente liberandoti del piatto.	
+	TargetMessage:	Ora c'è una sola via d'uscita... $n t'ha mangiato.
+	OthersMessage:	$n Ripulisce $N come se non mangiasse da mesi.
+End

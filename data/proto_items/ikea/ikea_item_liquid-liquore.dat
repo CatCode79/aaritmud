@@ -1,0 +1,25 @@
+Code: ikea_item_liquid-liquore
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.MALE
+MaterialPercentages: MATERIAL.WATER 45%
+MaterialPercentages: MATERIAL.ALCOHOL 55%
+Name:	[sandybrown]Liquore[close]
+Short:	[sandybrown]liquore[close]
+
+Descr:
+Una certa quantità di [sandybrown]liquore ambrato[close].
+DescrTouch: 
+Immergi un dito nel liquido fresco.
+DescrSmell: 
+Ha un odore che ricorda quello delle erbe di campo.
+DescrSixth:
+E' un liquore che accompagna bene tutta la pasticceria, specie quella secca.
+DescrTaste:
+Ha un sapore mandorlato, morbido e vellutato, piacevolmente dolce.
+DescrHearing:
+no_send
+
+Value:	16
+Weight: 120g

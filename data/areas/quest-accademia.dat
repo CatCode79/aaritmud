@@ -1,0 +1,29 @@
+Comment: Cello Phane
+Creators:	Cellogt
+Code: quest-accademia
+Name: Accademia del Drago - Zona della Quest
+Short: accademia del drago - zona della quest
+Descr:
+	Parte terza dell'accademia (un timido abbozzo)
+Color: COLOR.DODGERBLUE blu di stelle fredde e lontane
+Level: 1
+RepopTime: 15
+Flags: AREA.DONT_LIST
+LandfillCode:	quest-accademia_room_003_arco-fluttuante
+
+RoomResets:
+	ProtoRoom:	quest-accademia_room_000_stanza-raccordo
+	Destination:	0 0 1 quest-accademia
+End
+RoomResets:
+	ProtoRoom:	quest-accademia_room_001_verso-la-torre
+	Destination:	0 0 0 quest-accademia
+End
+RoomResets:
+	ProtoRoom:	quest-accademia_room_002_ponte-draghi
+	Destination:	1 0 0 quest-accademia
+End
+RoomResets:
+	ProtoRoom:	quest-accademia_room_003_arco-fluttuante
+	Destination:	2 0 0 quest-accademia
+End

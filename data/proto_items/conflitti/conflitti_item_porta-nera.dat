@@ -1,0 +1,38 @@
+Code: conflitti_item_porta-nera
+Level: 1
+Entitype:	ENTITYPE.DOOR
+MaterialPercentages:	MATERIAL.EBONY	100
+Sex:	SEX.FEMALE
+Name:	Una Porta Nera
+Short:	una porta nera
+Long:	$N è qui
+
+Descr:
+Una porta di legno massiccio…
+è nera, di un nero profondo ed intenso come se il colore potesse darle una maggiore...
+profondità...
+DescrSixth:
+Una porta di nero profondissimo, intenso come nulla di materiale...
+
+Value:	0
+Weight: 10g
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Spingi lievemente $N che si apre con facilità inaspettata.
+[gray]Bisogna avere una certa diffidenza se le cose si presentano con una facilità inconsueta?[close]
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n spinge lievemente $N che si apre con inconsueta condiscendenza
+	EntityCloseMessage:	Accompagni $N fino a chiuderla.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n accompagna $N fino a chiusura.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE
+	ResetCloseMessage: Un rumore forte alle tue spalle, ti volti; $N si è chiusa all'improvviso.
+	ResetOpenMessage: $N si apre.
+End
+
+
+

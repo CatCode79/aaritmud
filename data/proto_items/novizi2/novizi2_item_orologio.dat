@@ -1,0 +1,39 @@
+Code: novizi2_item_orologio
+Icon:	icons/item/water_clock.png
+Level: 1
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.WATER	80
+MaterialPercentages:	MATERIAL.METAL	10
+MaterialPercentages:	MATERIAL.GLASS	10
+Sex:	SEX.MALE
+Name: Un Orologio ad Acqua
+Short: un [deepskyblue]orologio[close] ad [deepskyblue]acqua[close]
+Long:	$N segna le ore [blue]$hour[close] e [blue]$minute[close] minuti
+Flags: FLAG.NO_GET
+
+Descr:
+Un marchingegno fitto fitto di vasi comunicanti, piattini, tubi, tubetti con rivoli
+d'acqua che lo percorrono e gocciolii continui.
+È troppo voluminoso e sembra troppo costoso per essere parte dei souvenir gratis.
+In compenso con il comando $tDATE potrai ugualmente avere anche più informazioni di quelle
+che potrà darti questo orologio.
+DescrTouch: 
+No, non è proprio il caso di toccarlo. Se poi s'inceppa rischi di doverlo ripagare.
+DescrSixth:
+È forte l'impressione che le lancette indicanti l'ora e i minuti siano in realtà
+collegate a tutt'altro e tutti i tubicini con l'acqua siano qui in bella mostra
+unicamente a scopo estetico.
+DescrHearing:
+Plic, plic, plic, plic... divertente vero?
+
+Value:	0
+Weight: 3550g
+
+
+Extras:
+	Keywords: acqua
+	DescrTouch:
+	Ploch ploch
+	DescrSixth:
+	Probabilmente bagnata
+End

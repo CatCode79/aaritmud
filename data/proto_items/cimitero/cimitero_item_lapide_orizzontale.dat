@@ -1,0 +1,59 @@
+Code: cimitero_item_lapide_orizzontale
+Level: 1
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.STONE 100%
+Sex:	SEX.FEMALE
+Flags:	FLAG.NO_GET
+Name: Una Lapide Incisa
+Short: una lapide
+Long:	$N poggia sul terreno.
+
+Descr:
+Questa lapide sembra essere stata costruita appositamente per essere posizionata
+in modo orizzontale sul terreno. In posizione centrale vi sono due nomi scritti
+con lettere di semplice ma delicato ferro rosso. Una frase molto sentita e 
+poetica segue subito dopo. Una piccola croce è incastonata perpendicolarmente
+rispetto alla lapide, nella parte posteriore della stessa.
+
+DescrNight:
+Una semplice lapide, tenuta con cura, presenta due piccoli lumi posizionati alle
+estremità sinistra e destra del basamento. La lapide è in posizione
+orizzontale rispetto al terreno e presenta due nomi e una breve descrizione
+dei defunti sulla parte centrale.
+
+DescrSmell:
+Due lumi posizionati ai due lati della lapide trasmettono ancora l'odore 
+delle candele  come se fossero state spente da poco.
+
+DescrSmellNight:
+L'odore pungente delle candele presenti all'interno dei due lumi, posizionati
+ai due lati della lapide ti trasmette una strana sensazione di pace.
+
+DescrTouch:
+La lapide è tiepida al tocco e molto solida, non presenta dislivelli e sembra
+provenire da un unico blocco di granito
+
+DescrTouchNight:
+La lapide è molto calda al tocco e decisamente solida, non presenta scanalature
+o difetti di alcun tipo.
+
+DescrSixthNight:
+Avverti una strana sensazione stando nei pressi di questa lapide, una sensazione
+di pace e di amore che non pensavi potesse esistere in un luogo come questo.
+
+Value:	0
+Weight: 150kg
+
+Extras:
+	Keywords: frase descrizione
+	Descr
+	Insieme nella vita, per sempre nella morte.
+End
+Extras:
+	Keywords: candela
+	Descr
+	Questa candela non sembra essere consumata dalla fiamma che ogni notte
+	viene accesa sulla sua sommità.
+End
+
+

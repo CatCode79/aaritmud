@@ -1,0 +1,16 @@
+Code: siepi_item_quadrifoglio
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name: Un Quadrifoglio
+Short: noti un quadrifoglio nell'erba
+Descr:
+Secondo antiche tradizioni, ogni foglia ha un suo significato:
+speranza, fede, amore ed ovviamente fortuna.
+Come volevasi dimostrare la quarta foglia di questo è tutta mangiucchiata...
+
+Value:	0
+Weight: 1g
+
+

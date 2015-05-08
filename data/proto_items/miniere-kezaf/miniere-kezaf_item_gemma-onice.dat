@@ -1,0 +1,29 @@
+Comment: adatta per incisione di rune 
+Code: miniere-kezaf_item_gemma-onice
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_onyx.png
+Name:	Onice Grezza
+Short:	dura pietra di colore nero
+Long:	Una modesta $N sta qui
+
+Descr:
+Un pezzo di roccia liscio, lucido e nero in alcuni punti che a tratti conserva
+però la frammentata ruvida superficie che lo rende più grigiastro e meno interessante.
+
+DescrSixth:
+L'onice è una pietra di colore nero con un buon grado di durezza, può essere
+utilizzata per incidervi rune o per realizzare amuleti di pregiata fattura.
+La sua grana sottile ed il bel colore nero la rendono particolarmente adatta 
+alla magia runica.
+
+Value:	0
+Weight: 200g
+
+
+
+
+

@@ -1,0 +1,29 @@
+Code: get
+
+ItalianKeywords: prendi 
+EnglishKeywords: get 
+
+Entitype: HELP.ITEM
+
+Text:
+Per poter prendere un oggetto o qualche moneta da terra, da un contenitore o
+da un cadavere usa il comando $tget
+
+Esempi:
+- $tget [darkgreen]zaino[close]
+- $tget coniglio sacca
+- $tget/$tdrop 10 fungo
+- $tget/$tput 10 pergamena zainetto
+
+Se vuoi prendere/mettere/posare tutti gli oggetti presenti usa [darkgreen]tutto[close], se
+invece ti interessano tutti gli oggetti di un determinato tipo usa
+[darkgreen]tutto.oggetto[close].
+
+Esempi: 
+- $tget/$tdrop [darkgreen]tutto[close]
+- $tget/$tdrop [darkgreen]tutto[close].[darkgreen]mappa[close]
+- $tget/$tput [darkgreen]tutto[close] [darkgreen]sacca[close]
+- $tget/$tput [darkgreen]tutto[close].[darkgreen]pergamena[close] [darkgreen]sacca[close]
+
+
+SeeAlso: give put drop

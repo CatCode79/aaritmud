@@ -1,0 +1,28 @@
+Code: villaggio-zingaro_item_rastrello-01
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAPON
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.WOOD	55%
+MaterialPercentages:	MATERIAL.METAL	45%
+Icon:	icons/item/rastrello-01.png
+Name:	Un Vecchio Rastrello
+Short:	un vecchio rastrello
+Long:	$N senza lode né infamia.
+
+Descr:
+Un classico rastrello per l'orto.
+DescrTouch: 
+Un classico rastrello per l'orto: pratico, comodo, maneggevole.
+
+Value:	0
+Weight: 2kg
+
+WeaponType:
+        Category: WEAPON.STAFF
+	Damage:	1D4+4
+        Flags: WEAPONFLAG.ONE_HAND 
+End
+
+MaxLife:	35
+Life:		21

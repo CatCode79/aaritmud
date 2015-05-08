@@ -1,0 +1,11 @@
+Code: light
+
+ItalianKeywords: accendi
+EnglishKeywords: light
+
+Entitype: HELP.ITEM
+
+Text:
+Questo comando ti permette di accendere una fonte di luce o una pipa o altro
+oggetto combustibile, una volta acceso continuerà a bruciare fino 
+a che non si esaurisce o finchè non lo spegni.

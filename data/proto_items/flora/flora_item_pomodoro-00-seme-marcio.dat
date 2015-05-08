@@ -1,0 +1,29 @@
+Code: flora_item_pomodoro-00-seme-marcio
+Level: 1
+MaxGlobalQuantity:	0
+Entitype: ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.SEED	100%
+Name: Un Seme Ammuffito di [red]Pomodoro[close]
+Short: un seme giallo-brunastro
+Long:	C'è $N qui in terra
+
+Descr:
+Un seme ammuffito di forma tondegginate leggermente piatto.
+
+DescrSixth:
+Un seme ammuffito di pomodoro.
+
+DescrTouch:
+La sua superficie è fittamente ricoperta dalla sottile puliria conferitagli dalla muffa.
+
+
+Value:	0
+Weight: 2g
+
+ExtractTimeout: 
+        Minutes: 0049
+        EntityMessage: ti disfi
+        OthersMessage: si disfa
+End 
+

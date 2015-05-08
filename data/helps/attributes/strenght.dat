@@ -1,0 +1,20 @@
+Code: strenght
+
+ItalianKeywords: forza
+EnglishKeywords: strenght
+
+Entitype: HELP.STAT
+
+Text:
+L'attributo relativo alla forza rappresenta la potenza muscolare
+del personaggio e la sua preparazione atletica.
+
+Scegliendo di aumentare questa caratteristica si potranno impugnare 
+armi pesanti, sollevare e portare con sé un maggior numero di oggetti, 
+aumentare il danno inferto agli avversari e la capacità di colpire.
+
+Alcune abilità di combattimento e in piccola parte i punti vita 
+del personaggio potrebbero esserne influenzati. 
+
+
+SeeAlso: attributes, skills

@@ -1,0 +1,25 @@
+Code: ikea_item_liquid-vino-rosato
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.MALE
+MaterialPercentages: MATERIAL.WATER 90%
+MaterialPercentages: MATERIAL.ALCOHOL 10%
+Name:	[sandybrown]Vino Rosato[close]
+Short:	[sandybrown]vino rosato[close]
+
+Descr:
+Una certa quantità di [mistyrose]vino rosato[close].
+DescrTouch: 
+Il tuo dito si immerge nel liquido al suo interno, lasciandone strabordare un po' dai bordi
+DescrSmell: 
+E' netto, fragrante, preciso, con sentori lievi e delicati di piccoli fiori bianchi e ortica, albicocca acerba e mandorla
+DescrSixth:
+Adatto agli antipasti di salumi, minestre asciutte con salse rilevate, risotti
+DescrTaste:
+Ha un sapore generoso, armonico e vellutato
+DescrHearing:
+no_send
+
+Value:	16
+Weight: 120g

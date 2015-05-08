@@ -1,0 +1,50 @@
+Code: ikea_item_coin-human-gold
+Level: 1
+MaxGlobalQuantity:	0
+Icon: icons/money/human-gold.png
+Entitype:	ENTITYPE.MONEY
+Sex:	SEX.FEMALE
+Flags:	FLAG.RANDOMIZABLE
+MaterialPercentages:	MATERIAL.GOLD	100%
+Name:	Una Moneta d'[gold]Oro[close]
+Short:	una moneta d'[gold]oro[close]
+Long:	$N 
+
+Descr:
+Una moneta d'[gold]oro[close] di fattura umana.
+DescrTouch: 
+Un piccolo dischetto sottile con figure sulle due facce e piuttosto pesante.
+DescrSmell: 
+Pecunia non olet, diceva qualcuno.
+DescrSixth:
+Ci si riesce a togliere qualche sfizio con questa monetina,
+Ti sfugge l'occhio su dei [gold]numeri[close] riportati sulla moneta.
+DescrHearing:
+Suono metallico quando la fai volare in aria con uno scatto delle dita, ma senza farla volare troppo lontano che sennò non torna.
+DescrTaste:
+L'addenti per essere sicuro che sia oro vero e senti che il dente vince e che questo è oro.
+
+Value:	0
+Weight: 5g
+
+Extras:
+	Keywords:	data numeri
+        Comment: 1.0.3 è la rella che ha visto introdotta l'entitype money.
+	Descr:
+	uno zero tre 3009
+	DescrTouch:
+	È in rilievo in basso.
+	DescrSixth:
+	3009 è certo la data, uno zero tre invece...
+End
+Extras:
+	Keywords: iscrizione scritta motto
+	Descr:
+	[gold]Sii tu, esecranda brama di ricchezze a regger l’appetito di noi mortali![close]
+	DescrTouch:
+	Scritte in rilievo ma troppo piccine per essere lette al tatto.
+End
+
+MoneyType:
+	CopperValue: 100
+End

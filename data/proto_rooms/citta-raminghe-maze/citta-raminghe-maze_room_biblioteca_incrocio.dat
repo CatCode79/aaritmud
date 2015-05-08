@@ -1,0 +1,32 @@
+Code: citta-raminghe-maze_room_biblioteca_incrocio
+Sector: SECTOR.HOUSE
+Flags:  ROOM.INSIDE
+Name: Al Centro di Tutti i Saperi
+Short: il [red]centro pulsante della biblioteca[close]
+Descr:
+Sei giunt$o in un luogo dove ti si aprono numerose possibilità, ma in una dimensione in cui il tempo e lo spazio sono sospesi in attesa di qualcosa che dia senso e ti possa orienare nella scelta. Ogni direzione è possibile e ciascuna 
+ti condurrà  verso una possibile uscita o verso un girovagare lungo e interminabile.
+
+DescrSixth:
+Un luogo sospeso tra il passato, il presente e il futuro dove il fluire del tempo diventa circolare e 
+lo spazio si fa  liquido come un ruscello che non ha forma.
+Width:  10m
+Depth:  10m
+Height: 100m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: in biblioteca
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: in biblioteca
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: in biblioteca
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: in biblioteca
+End

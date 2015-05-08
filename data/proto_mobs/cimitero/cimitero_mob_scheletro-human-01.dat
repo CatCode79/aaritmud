@@ -1,0 +1,60 @@
+Code:	cimitero_mob_scheletro-human-01
+MaxGlobalQuantity: 5
+Level:	1
+Sex:	SEX.MALE
+Race:	RACE.SKELETON
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Uno [white]Scheletro[close] Umano
+Short:	uno [white]scheletro[close]
+Long:	$N si muove lentissimo
+
+Descr:
+I resti di qualcosa di vivente. Doveva essere un vivente umanoide di grandezza poco sotto la media. Le ossa sono avvolte da un lucido biancore latteo.
+Il cranio ha un grosso squarcio sulla zona temporale destra.
+DescrTouch: 
+Inequivocabilmente reale e stranamente liscio e come se fosse stato spolpato e lucidato.
+DescrSmell: 
+Orripilante l'olezzo che rimanda a tutta una serie di ricordi di carni putrescenti.
+DescrSixth:
+Qualcosa o qualcuno lo ha riportato in uno stato di semivita.
+DescrHearing:
+Cigolii continui ne rendo abbastanza facile la percezione anche senza doverlo vedere.
+
+Remains: cimitero_item_mucchio-ossa
+RemainsNight: cimitero_item_mucchio-ossa
+Weight: 49kg
+Height: 170cm
+
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 134
+
+
+
+MaxLife:	50
+Life:		50
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100
+
+Strength:	5
+Endurance:	5
+Agility:	3
+Speed:		5
+Intelligence:	1
+Willpower:	10
+Personality:	1
+Luck:		10
+
+Behaviour:
+	WanderExit:	10
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	10
+	RandomDoInputs:	emote si abbassa in un gesto privo di senso.
+End

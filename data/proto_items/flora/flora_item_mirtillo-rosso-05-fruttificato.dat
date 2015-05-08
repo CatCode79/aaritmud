@@ -1,0 +1,59 @@
+Code: flora_item_mirtillo-rosso-05-fruttificato
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name: Un [springgreen]Cespuglio[close] di [springgreen]Mirtilli[close] [palevioletred]Rossi[close]
+Short:	un [springgreen]cespuglio[close] di [springgreen]mirtilli[close] [palevioletred]rossi[close]
+Long:	$N è cresciuto qui
+
+Descr:
+Un cespuglio nano a chiazze rosse per via dei suoi [palevioletred]frutti maturi[close] disposti a grappolini.
+L'ampia superficie che occupa rende più agevole calpestarlo che girarci attorno.
+
+DescrTouch:
+Un cespuglio nano costellato di bacche. per via dei suoi [palevioletred]frutti maturi[close] disposti a grappolini.
+L'ampia superficie che occupa rende più agevole calpestarlo che girarci attorno.
+
+DescrTaste:
+Duro e stoppaccioso poiché fortemente lignificato nonostante le bacche.
+
+DescrSmell:
+Vaghe parvenze e sentori sottili di fragranza fruttata che giungono solo a sprazzi.
+
+Value:	0
+Weight: 13kg
+
+Extras:
+  Keywords: foglie foglia fogliolina foglioline
+  Descr:	verdi foglioline alternate
+  DescrTouch:	lucide foglioline alternate
+  DescrTaste:	gusto insipido per foglie stoppacciose
+End
+
+Extras:
+  Keywords: fusto stelo steli lignificato legno legni
+  Descr:	il fusto intricato e lignificato molto fitto e rivestito da foglioline verde chiaro.
+  DescrTouch:	per quanto intricato e legnoso il fusto mantiene una grande elasticità
+  DescrTaste:	un insipido sapore stoppaccioso
+End
+
+Extras:
+  Keywords: frutto frutti bacca bacche
+  Descr:	mirtilli rossi maturi a grappolini dall'apparenza carnosa
+  DescrTouch:	bacche turgide di piccola dimensione ben attaccate alla piana da un picciolo deciso.
+  DescrTaste:	un mirtillo asprigno, carnoso con retrogusto pieno e rotondo
+  DescrSixth:	rendono certo meglio usati in qualche preparazione piuttoto che consumati da soli
+  DescrSmell:	gentile profumo fruttato poco persistente
+End
+
+PlantType:
+    RpgHours:	120
+    WorseEntity:	flora_item_mirtillo-rosso-03-pianta
+    NormalEntity:	flora_item_mirtillo-rosso-03-pianta
+    BetterEntity:	flora_item_mirtillo-rosso-03-pianta
+    DeadEntity:	flora_item_mirtillo-rosso-06-pianta-morta
+End
+
+

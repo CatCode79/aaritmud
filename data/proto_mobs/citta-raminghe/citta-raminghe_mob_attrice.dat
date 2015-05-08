@@ -1,0 +1,67 @@
+Code:   citta-raminghe_mob_attrice
+Level:  2
+Sex:    SEX.FEMALE
+Race:   RACE.HUMAN
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:   Un'Attrice Teatrale
+Short:  una brava attrice
+Long:   $N sta recitando sul palco.
+
+Descr:
+Una giovane e bell'attrice sta recitando con attenzione la sua parte rivolgendosi ad
+un'altra figura posizionata proprio davanti a lei, girandosi ogni tanto verso il pubblico
+presente sembra quasi che ti stia indicando. Indossa una [blue]veste[close] blu molto lunga
+che le arriva alle caviglie e le copre quasi per intero.
+DescrHear:
+Un forte vociare, tante parole in rima per un'attrice navigata ed esperta.
+DescrSixth:
+Non credi possa essere possibile ma hai la sensazione che l'attrice ce l'abbia proprio con te.
+
+Weight: 55kg
+Height: 170cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 25
+
+MaxLife:        150
+Life:           150
+MaxMana:        100
+Mana:           100
+MaxVigour:      100
+Vigour:         100
+
+Strength:       10
+Endurance:      12
+Agility:        15
+Speed:          10
+Intelligence:   16
+Willpower:      10
+Personality:    18
+Luck:           12
+
+Behaviour:
+        LookPlayer:     20
+        LookMob:        0
+        LookItem:       0
+        LookAtRacesFlags:       RACE.NONE
+        LookAtRaces:    0
+        LookAtEntitypesFlags:   ENTITYPE.NONE
+        TasteAtEntitypesFlags:  ENTITYPE.NONE
+        WanderDirection:        0
+        WanderExit:     0
+        WanderWall:     0
+        WanderClosedDoor:       0
+        WanderAtExitsFlags:     DIR.NONE
+        WanderAtExits:  0       
+        WanderArea:     0
+        WanderPortal:   0
+        WanderEnterContainer:   0
+        WanderExitContainer:    0
+        WanderSelf:     0
+        RandomDo:       10
+        RandomDoInputs: emote a volte sorride altre volte sembra seria.
+        RandomDoInputs: say Io ho sempre ragione e tu per ovvi motivi hai torto!
+        RandomDoInputs: say Penso che sia importante rimanere calmi e discuterne assieme.
+        RandomDoInputs: emote si muove avanti e indietro sul palco.
+End

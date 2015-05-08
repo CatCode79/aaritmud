@@ -1,0 +1,113 @@
+Code:	accademia-drago_room_012_camminamenti-012
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	I Camminamenti
+Short:	i camminamenti
+	Descr:
+Giungi sulla parte superiore dell'accademia, il vento ti
+scompiglia i capelli procurandoti un piacevole solletico al
+collo. Sotto di te ora vedi stendersi il cortile pubblico in
+tutta la sua maestosità, persino da quassù la fontana risplende
+di mille arcobaleni. Il camminamento costruito sopra l'accademia
+è ampio quasi quindici metri, sulla parte sterna si trovano
+merlatura di circa un metro mentre affacciandoti all'interno vedi
+una piccola tettoia spiovente. Ti trovi a circa otto metri
+d'altezza, il pavimento è lastricato in un porfido rude e
+spartano di color grigio ghiaccio, ad intervalli regolari noti
+noti delle sporgenze di forma semicircolare che danno verso
+l'esterno nelle quali sono collocate delle statue.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 1
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 014 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 028 -1
+End
+Exits:
+	Direction:	DIR.DOWN
+	Descr:	il cortile pubblico
+	Comment:	ExitStatus	0 0 004 -1
+	Destination:	6 3 0 accademia-drago
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

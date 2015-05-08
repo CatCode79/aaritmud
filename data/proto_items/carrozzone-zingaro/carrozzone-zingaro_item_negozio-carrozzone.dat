@@ -1,0 +1,62 @@
+Code: carrozzone-zingaro_item_negozio-carrozzone
+Level: 1
+Entitype: ENTITYPE.NONE
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT FLAG.NO_GET
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.WOOD 100%
+Name:	Il Carrozzone dei Gitani
+Short:	un carrozzone zingaro
+Long:	$N procede lento
+
+Descr:
+Il Carrozzone telonato è trainato da una coppia di ronzini di stanche generazioni tanto
+che procede più lento di uno zoppo anziano.
+La parte posteriore è costituita da una scaletta che consente di entrare in quello che
+il cartello poco sopra annuncia come: [yellow]La miniera delle occasioni[close].
+Poco sotto, le scritte:
+[red]Non si fa credito[close], e [yellow]La merce restituita verrà ripagata la metà[close].
+
+DescrTouch:
+Un carrozzone che per la sua lentezza pare fatto di piombo e pietra. Il telone superiore,
+che pareva ricco di decorazioni si rivela un trionfo di rammendi raffazzonati.
+DescrSmell:
+L'odore dei cavalli è piuttosto noto, ed anche quello dello stallatico. Qualcos'altro
+qui contribuisce in modo fin troppo deciso al connubio di odori.
+DescrSixth:
+Gli zingari sono molto ricchi e portan con sé molti preziosi ed hanno coltelli affilati
+e brama e cupidigia e... tutti luoghi comuni... forse...
+DescrHearing:
+Lo scalpiccìo fiacco dei cavalli è accompangato dall'estenuante cigolare
+delle ruote consunte.
+
+Value:	0
+Weight: 4560kg
+
+Behaviour:
+       WanderDirection:	0
+       WanderExit:	30
+       WanderWall:	0
+       WanderClosedDoor:	0
+       WanderAtExitsFlags:	DIR.NONE
+       WanderAtExits:	0
+       WanderArea:	400
+       WanderPortal:	0
+       WanderEnterContainer:	0
+       WanderExitContainer:	0
+       WanderSelf:	0
+       RandomDo:	10
+       RandomDoInputs:	emote cigola in modo stancamente atroce.
+       RandomDoInputs:	emote emana un fetore poco discreto.
+End
+
+PortalType:
+       Destination: 0 0 0 carrozzone-zingaro
+       EntityEnterMessage: Issandoti sulle scalette posteriori decidi di vedere dall'interno  $N.
+       OthersEnterMessage: $n si issa sulle scalette posteriori sparendo dentro $N.
+       TargetEnterMessage: accogli $n.
+       EntityExitMessage: Il telone che hai scostato salendo si richiude dietro te in modo repentino.
+       TargetExitMessage: Ora $n è sparit$o da $T finendo in $t.
+       OthersExitMessage: Da dietro il telone d'accesso sale $n.
+End
+
+

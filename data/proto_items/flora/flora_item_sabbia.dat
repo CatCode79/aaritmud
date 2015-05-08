@@ -1,0 +1,21 @@
+Code: flora_item_sabbia
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.GROUND
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.SAND	100%
+Name:	Un Po' di [darkkhaki]Sabbia[close]
+Short:	un po' si [darkkhaki]sabbia[close]
+Long:	C'è $N raccolta qui
+
+Descr:
+[darkkhaki]Della sabbia fine ed omogenea[close].
+DescrTouch: 
+Non così sottile da essere impalpabile.
+DescrSixth:
+Ottimo drenante.
+DescrTaste:
+Ottima scelta simulare gli effetti di una tempesta di sabbia.
+
+Value:	0
+Weight: 1g

@@ -1,0 +1,29 @@
+Code: deadcity_item_sigillo-fluttuante-centro
+Level: 1
+Entitype:	ENTITYPE.PORTAL
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+MaterialPercentages:	MATERIAL.UNKNOWN	100%
+Name:	Il Sigillo della Codardia
+Short:	una via di fuga
+Long:	$N aleggia a mezz'aria
+
+Descr:
+La foggia che sa assumere una via di fuga trascende i viventi. Trasuda unicamente desiderio di ritorno a casa.
+DescrTouch: 
+Più avvicini le $hands e meno hai percezione tattile
+DescrSixth:
+Entrando qui tutto si aggiusterà
+
+Value:	0
+Weight: 1g
+
+PortalType:
+	Destination:	1 2 -3 torreelementi
+	EntityEnterMessage: Mentre ti rassegni un groppo in gola ti stringe anche l'anima.
+	TargetEnterMessage: $n decide d'attraversarti e lo anticipi repentinamente.
+	OthersEnterMessage: $n entra e non si volge neppure indietro.
+	EntityExitMessage: Tutto è sparito e resta solo il nodo.
+	TargetExitMessage: Ora $n è sparit$o da $p finendo in $l.
+	OthersExitMessage: $n appare fra bagliori di fiamma bluastra.
+End

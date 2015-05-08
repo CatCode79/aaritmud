@@ -1,0 +1,30 @@
+Code: ikea_item_tiramisu
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.FOOD
+MaterialPercentages:	MATERIAL.EGG	20
+MaterialPercentages:	MATERIAL.MILK	22
+MaterialPercentages:	MATERIAL.FLOUR	22
+MaterialPercentages:	MATERIAL.CACAO	12
+MaterialPercentages:	MATERIAL.SUGAR	12
+MaterialPercentages:	MATERIAL.BUTTER	12
+Sex:	SEX.MALE
+Name:	Un Tiramisù
+Short:	un tiramisù
+Long:	$N è qui
+
+Descr:
+Una base di soffice pan di spagna imbevuto di caffè e sommerso di una dolcissima crema allo zabaione
+DescrTouch: 
+Le dita sprofondano nella crema sporcandoti le dita
+DescrSmell: 
+Un pò di polvere di cacao ti entra nel naso.. Etcì!
+DescrSixth:
+Qualcosa ti dà la sensazione che il caffè con cui è stato bagnato il dolce fosse corretto
+DescrTaste:
+Delle gocce di cioccolato donano alla crema una nota coccante
+DescrHearing:
+no_send
+
+Value:	0
+Weight: 120g

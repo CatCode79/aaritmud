@@ -1,0 +1,42 @@
+Code: karpuram_item_scudo-quercia
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.OAK	100
+Sex:	SEX.MALE
+Name:
+	Lo [maroon]Scudo[close] delle [maroon]Fazioni[close]
+Short:
+	un piccolo [maroon]scudo[close] di legno
+Long:
+	$N è qui
+
+Descr:
+Un solido scudo rotondo, realizzato interamente a mano e da un unico ed
+evidentemente grande, albero di quercia. Questo oggetto presenta nella parte
+frontale uno strano simbolo formato da cinque linee incise nel legno con 
+grande cura e prestigio. Nella parte posteriore, vi sono due lacci di cuoio
+che presentano una rudimentale fibbia per stringere al braccio lo scudo, 
+a seconda della persona che potrebbe indossarlo.
+
+DescrTouch:
+Al tocco lo scudo è solido ed essendo finemente lavorato non presenta
+scalfitture o imperfezioni. Gli stessi simboli presenti sulla facciata sembrano
+essere parte integrante della lavorazione e non hanno scanalature di alcun
+tipo.
+
+DescrSixth:
+Ti sembra di aver già visto da qualche altra parte un simbolo come quello
+rappresentato su questo scudo.
+
+Extras:
+	Keywords: simbolo
+	Descr:
+	Il simbolo raffigurato con precisione e cura e inciso nel legno da mani
+	esperte è una stella a sette punte.
+End
+
+Value:	0
+Weight:	1960g
+
+

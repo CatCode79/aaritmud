@@ -1,0 +1,54 @@
+Code: prompt
+
+ItalianKeywords: prompt
+EnglishKeywords: prompt
+
+Entitype: HELP.GENERIC
+
+Text:
+Il gioco imposta automaticamente il tuo prompt quando viene creato il 
+personaggio, ma puoi sostituirlo usando il comando $tprompt come preferisci.
+Se come [darkgreen]stringa[close] usi la parola [darkgreen]default[close] il tuo prompt tornerà a quello
+predefinito, hai inoltre a tua disposizione alcuni prompt già definiti, e
+puoi inserirli scrivendo $tprompt &lt;[darkgreen]nome[close]&gt;, per avere l'elenco scrivi $tprompt.
+Il comando $tfprompt serve invece per definire il prompt che appare durante
+i combattimenti, segue lo stesso formato del normale prompt.
+
+Il tuo prompt può essere formato da una qualsiasi stringa che desideri, hai
+a tua disposizione dei caratteri e dei simboli speciali, da inserire nella
+stringa, che aggiungeranno delle informazioni specifiche.
+
+Il primo carattere speciale è: %
+Combinazioni per %:
+ %l - percentuale vita attuale           %m - percentuale mana attuale
+ %v - percentuale movimento attuale      %o - anima attuale
+ %g - monete possedute
+ %c - stringa di salute del combattente  %C - stringa di salute del combattuto
+ %n - nome del giocatore                 %N - nome di chi si sta combattendo
+ %A - indicatore di invisibilità         %S - stile di combattimento
+ %k - flag di ldt                        %T - Ora nel luogo
+
+Gli altri caratteri speciali sono:
+ &&  - Colore del testo                  ^^  - Colore di sfondo
+
+Esempio (assumendo le caratteristiche: punti ferita 43%, mana 23% e movimento 100%):
+Prompt %l%m%v       =   43%23%120%
+Prompt &lt;%l|%m|%v&gt;&gt;&gt; =   &lt;43%|23%|100&gt;&gt;&gt;
+Prompt %l %m %v     =   43% 23% 100%
+
+Vedere $thelp [darkgreen]colore[close] per una lista dei colori disponibili..
+
+AdminText:
+In addition to the normal prompt tokens, the following are available for
+immortal use only:
+
+ %h - punti ferita attuali               %m - mana attuale
+ %H - punti ferita massimi               %M - mana massimo
+ %v - movimento attuale
+ %V - movimento massimo                  %O - anima massima
+ %x - current experience                 %X - experience needed to next level
+ %a - il tuo allineamento                %F - Flag della stanza
+ %r - 'vnum' of current room             %i - '(Invis Lv) ' wizinvis
+ %R - '&lt;#vnum&gt; ' of current room         %I - 'Lv' wizinvis
+        (with config +vnum set)
+ %u - numero descrittore                 %U - Picco massimo pg

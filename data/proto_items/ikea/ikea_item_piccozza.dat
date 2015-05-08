@@ -1,0 +1,30 @@
+Code: ikea_item_piccozza
+
+Level:	1
+Entitype: ENTITYPE.NONE
+MaxGlobalQuantity:	0
+Sex:	SEX.FEMALE
+Flags:	FLAG.RANDOMIZABLE
+MaterialPercentages:	MATERIAL.METAL	60%
+MaterialPercentages:	MATERIAL.WOOD	40%
+Name:	Una Piccozza
+Short:	una piccozza
+
+Descr: 
+Un'asta di ferro controbilancia un affilata mezzaluna dello stesso materiale; date le minute dimensioni ti pare più adatta a lavori su piccole dimensioni 
+che per lavori in miniera.
+DescrSmell:
+Un forte odore di rame, ferro e cuoio.
+DescrTouch:
+Ruvida e rovinata nella parte estrema della mezzaluna, presenta un'impugnatura
+di cuoio consunta ma ancora utile per evitare di ferirsi le mani.
+
+Value:	0
+Weight: 128g
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

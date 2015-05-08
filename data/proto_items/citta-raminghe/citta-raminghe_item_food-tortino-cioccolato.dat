@@ -1,0 +1,24 @@
+Code: citta-raminghe_item_food-tortino-cioccolato
+Level: 2
+Entitype: ENTITYPE.FOOD
+MaterialPercentages:	MATERIAL.FLOUR	20
+MaterialPercentages:	MATERIAL.CACAO	30
+MaterialPercentages:	MATERIAL.SUGAR	30
+MaterialPercentages:	MATERIAL.BUTTER	20
+Name: [sandybrown]Un Tortino di Cioccolato dal Cuore Fondente[close]
+Short: un [sandybrown]tortino di cioccolato[close] dal cuore fondente
+Descr: 
+Un dolce morbido al suo interno dove il [sandybrown]cioccolato fondente[close] si concentra in una crema dalla consistenza 
+morbida.
+DescrTaste:
+L'estasi gustativa non ha limiti. Il gusto del [sandybrown]cioccolato[close]  si accompagna a sentori di pregiata
+ [gold]vaniglia[close]. Il sapore intenso e inebriante del cioccolato fondente  sollecita in te esperienze 
+meditative inaspettate.
+DescrSixth:
+Un'esperienza gustativa che  conduce verso le strade del pensiero aumenta la forza della tua concentrazione ed è una
+ [gold]ricompensa per la tua abilità[close].
+
+Value:	0
+Weight: 123g
+
+

@@ -1,0 +1,16 @@
+Code: remove
+
+ItalianKeywords: rimuovi
+EnglishKeywords: remove
+
+Entitype: HELP.ITEM
+
+Text:
+Se vuoi togliere un oggetto equipaggiato devi usare il comando
+$tremove &lt;[darkgreen]oggetto[close]&gt;
+che sposterà l'oggetto nel tuo inventario, mentre con
+$tremove [darkgreen]tutto[close]
+toglierai tutti gli oggetti che hai equipaggiato.
+
+
+SeeAlso: wield wear hold

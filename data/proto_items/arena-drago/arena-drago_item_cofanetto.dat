@@ -1,0 +1,36 @@
+Code:	arena-drago_item_cofanetto
+Level:	06
+Entitype:	ENTITYPE.CONTAINER
+MaterialPercentages:	MATERIAL.WOOD 30%
+MaterialPercentages:	MATERIAL.IRON 60%
+MaterialPercentages:	MATERIAL.COPPER 10%
+
+Sex:	SEX.MALE
+Name:	Un Cofanetto Pieno di Gemme
+Short:	un cofanetto pieno di gemme
+
+Value:	0
+Weight: 5kg
+
+Descr:
+Un cofanetto stracolmo di gemme ed altri preziosi.
+
+
+ContainerType:
+	EntityOpenMessage:	Apri $N con $hand circospetta.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N con $hand accorta.
+	EntityCloseMessage:	riabbassi il coperchio di $N fino a chiuderl$O.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n riabbassa il coperchio di $N fino a chiusura.
+	Flags:	CONTAINER.CLOSED CONTAINER.CLOSABLE
+        MaxWeight: 10kg
+End
+
+Comment:
+§27727
+
+Dati Obj
+20 0 1100000 0 0 01 0 0
+
+

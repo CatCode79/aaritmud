@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_031_camminamenti-031
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	I Camminamenti
+Short:	i camminamenti
+	Descr:
+Questi sono i camminamenti che sovrastano il secondo cortile
+dell'accademia, si tratta di un giardino privato a cui hanno
+accesso solo gli studenti e gli appartenenti all'ordine dei
+cavalieri, a dimostrazione di questo puoi constatare di persona
+un minor sfarzo che cede il posto alla funzionalità rendendo il
+cortile una vera e propria piazza d'armi.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 1
+Exits:
+	Direction:	DIR.EAST
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 032 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 030 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

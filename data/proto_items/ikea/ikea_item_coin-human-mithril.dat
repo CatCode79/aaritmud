@@ -1,0 +1,50 @@
+Code: ikea_item_coin-human-mithril
+Level: 1
+Icon: icons/money/human-mithril.png
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.MONEY
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.MITHRIL	100%
+Flags:	FLAG.RANDOMIZABLE
+Name:	Una Moneta di [gold]M[white]ithril[close]
+Short:	una moneta di [gold]m[white]ithril[close]
+Long:	$N è qui ma ci resterà per poco
+
+Descr:
+Una moneta di [mithril]mithril[close] lucente.
+DescrTouch: 
+Un piccolo disco sottile con figure sulle due facce e una zigrinatura fitta ai lati.
+DescrSmell: 
+Pecunia non olet, diceva qualcuno.
+DescrSixth:
+Molto preziosa.
+Ti sfugge l'occhio su dei [white]numeri[close] riportati sulla moneta.
+DescrHearing:
+Suono metallico quando la fai volare in aria con uno scatto delle dita. 
+DescrTaste:
+Così poco sapore per un oggetto così prezioso, è un ingiustizia.
+
+Value:	0
+Weight: 1g
+
+Extras:
+	Keywords:	numeri data
+        Comment: 1.0.3 è la rella che ha visto introdotta l'entitype money.
+	Descr:
+	uno zero tre 3009
+	DescrTouch:
+	È in rilievo in basso.
+	DescrSixth:
+	3009 è certo la data, uno zero tre invece...
+End
+Extras:
+	Keywords: iscrizione scritta motto
+	Descr:
+	[gold]Sii tu, esecranda brama di ricchezze a regger l’appetito di noi mortali![close]
+	DescrTouch:
+	Scritte in rilievo ma troppo piccine per essere lette al tatto.
+End
+
+MoneyType:
+	CopperValue: 1000
+End

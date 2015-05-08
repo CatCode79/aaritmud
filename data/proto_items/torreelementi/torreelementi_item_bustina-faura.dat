@@ -1,0 +1,29 @@
+Code: torreelementi_item_bustina-faura
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.PAPER	80%
+MaterialPercentages:	MATERIAL.COTTON	20%
+Name:	Una preziosa bustina per le spore
+Short:	una bustina di carta
+Long:	C'è qui $N ripiegat$o
+
+Descr:
+Una sottile bustina di carta triplo strato con parte interna in cotone.
+DescrTouch: 
+Una busta di carta aperta
+DescrSmell: 
+Vago odore di muffa
+DescrSixth:
+Potrebbero essere semi di muffa...
+DescrTaste:
+Sei sicur$o che ti farà certo malissimo!
+
+Value:	0
+Weight: 1g
+
+ContainerType:
+        MaxWeight: 50g
+End
+
+

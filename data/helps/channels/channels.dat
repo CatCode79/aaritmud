@@ -1,0 +1,78 @@
+Code: channels
+
+ItalianKeywords: canali
+EnglishKeywords: channels
+
+Entitype: HELP.CHANNEL
+
+Text:
+Esistono moltissimi modi di comunicare e di esprimere ciò che si pensa.
+
+Il modo più semplice e diretto è quello d'utilizzare la parola attraverso
+i seguenti comandi:
+
+$tchat:			potremo parlare liberamente con tutti i giocatori presenti 
+				su Aarit senza dover tener conto delle restrizioni 
+				del GDR (gioco di ruolo). (nogdr)
+				esempio: chat buonasera a tutti :)
+
+$tsay: 			cerchiamo di parlare seguendo il nostro modo di essere, il nostro
+				profilo e la nostra storia, giocando di ruolo. (gdr) 
+				esempio: hissing al gruppo ciao gente!
+
+$tsing:			cantare non è mai stato così liberatorio, provare per credere. (gdr)
+
+$ttell:			parlare con le persone che si trovano nella nostra 
+				stessa stanza o locazione non è mai stato così semplice. (nogdr)			
+
+$tgtell:		il canale maggiormente utilizzato durante ogni singola avventura,
+				parlando in gruppo ricordiamoci sempre di non essere davanti a
+				uno specchio e di rispettare principalmente gli altri. (nogdr)
+
+$tyell:			se vogliamo imporre la nostra voce sulle altre...oppure se abbiamo
+				davvero bisogno di "AIUTO!!!". Va ricordato però che la distanza
+				tra voi e gli altri giocatori ne determinerà la comprensione.(gdr)
+				esempio: yell a Jaroddd ciao!
+
+$tshout:		questo comando è molto simile a $tyell, ma decisamente
+				più forte e permetterà a tutti di sentirvi, ma attenzione
+				all'uso che ne farete perchè potrebbe lasciarvi senza fiato!
+
+$twhisper:		magari non vogliamo farci sentire da tutti, ma sicuramente
+				tutti sapranno che stiamo parlando sottovoce. (gdr)
+
+$tmurmur:		mormoriamo parole o brevissime frasi senza farci accorgere, se non
+				da chi ci sta ascoltando con molto attenzione, concentrandosi su ogni
+				suono.(gdr)
+
+$thissing:		possiamo usare questo tipo di comando per inviare un messaggio
+				in modo particolarmente insidioso, durante un combattimento
+				potrebbe addirittura infastidire l'avversario e servire
+				come diversivo per alcune azioni. (gdr)
+				esempio: hissing al gruppo ciao!
+
+$tthundering:	quando vogliamo fare in modo che una nostra frase venga
+				ascoltata in modo marcato e netto magari facendoci sentire
+				sopra le grida di altri, adottando un timbro di voce
+				particolare, durante uno scontro potrebbe essere utile
+				per spaventare il nemico e indurlo a fuggire. (gdr)
+
+$temote:		possiamo utilizzare dei comandi particolari che spesso permettono di
+				rappresentare le nostre emozioni e pensieri senza dover parlare,
+				oppure inserendo dei suoni particolari.
+				esempio: say *con voce rauca* eccomi qui finalmente..
+
+Per i comandi $tsay, $twhisper e $murmur bisogna trovarsi nella stessa stanza
+o locazione del destinatario delle nostre parole altrimenti non sarà possibile
+la comunicazione.
+
+Per i comandi $tyell e $tchat non è necessario trovarsi per forza di cose uno
+di fronte all'altro e ci sentiranno tutti, per questo vanno seguite le regole
+del buonsenso tenendo sempre presente che non siamo soli.
+
+I comandi GDR sono comandi speciali che devono essere usati con attenzione
+nel rispetto del ruolo che ogni giocatore ha scelto di interpretare e sono
+obbligatori durante le Quest.
+
+
+SeeAlso: rules chat say tell 

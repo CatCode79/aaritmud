@@ -1,0 +1,72 @@
+Code: karpuram_mob_panettiere_01
+Level: 12
+
+Sex:	SEX.MALE
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Un Elfo Panettiere
+Short: un elfo panettiere
+Long:	$N lavora alacremente
+Race: RACE.WOODELF
+
+Descr:
+Questo elfo è molto preso dal suo lavoro e vi si dedica con passione. Ogni
+sua creazione è semplicemente perfetta e gustosa. I suoi movimenti sono precisi
+e niente viene lasciato al caso, si sposta con grazia e velocità come se stesse
+danzando. Dita lunghe e affusolate, sottili orecchie a punta ed occhi di un
+verde intenso confermano il suo lignaggio.
+
+DescrSmell:
+I suoi indumenti profumano di pane appena sfornato e farina
+
+
+
+
+Behaviour:
+	LookPlayer:	10
+	LookMob:	10
+	LookItem:	10
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	5
+	LookDirection:	5
+	LookExit:	20
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+Weight: 55kg
+Height: 180cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 134
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

@@ -1,0 +1,23 @@
+Code: flora_item_rename-07-cespuglio-semi
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name: Un Fitto [white]cespuglio[close] di [white]Rose[close] [white]Sfiorite[close]
+Short: un fitto [white]cespuglio[close] di [white]rose[close] [white]sfiorite[close]
+Long: $N tutto irto di spine
+
+Descr:
+Una cespuglio spinoso piccino dai rametti verdi ed irti di spine.
+DescrTouch: 
+Una rigoglio di spine s'irradiano sicure lungo tutto il cespuglio.
+
+Value:	0
+Weight: 22g
+
+ExtractTimeout:
+        Minutes: 180
+        EntityMessage: ti sfaldi e torni alla polvere
+        OthersMessage: si sfalda e torna alla polvere
+End

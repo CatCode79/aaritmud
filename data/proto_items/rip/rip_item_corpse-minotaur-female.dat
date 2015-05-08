@@ -1,0 +1,30 @@
+Code:	rip_item_corpse-minotaur-female
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CORPSE
+Sex:	SEX.FEMALE
+Race:	RACE.MINOTAUR
+MaterialPercentages:	MATERIAL.FLESH	100%
+Name:	Un tuo Simile Mort$O 
+Short:	un minotauro femmina mort$O
+Long:	$N afflosciato qui definitivamente 
+
+Descr:
+I resti mortali e corruttibili di #looker is RACE.MINOTAUR#un tuo simile.#un'appartenente alla razza minotauro.#
+
+DescrTouch:
+Il cadavere di #looker is RACE.MINOTAUR#una tua simile è enormemente grossa e muscolosa, pur essendo morta mantiene
+un aspetto poderoso.# Le corna sono ancora solide e appuntite.#
+
+DescrSixth:
+#looker is RACE.MINOTAUR#Il suo aspetto t'incute un reverenziale timore anche da morta.#Una strana aura rossastra
+sta cominciando a corrodere il corpo dall'interno.#
+
+DescrSmell:
+#looker is RACE.MINOTAUR#Lo stato di decomposizione di questa creatura sembra essere molto veloce, avverti un forte fetore.#
+
+DescrTaste:
+#looker is RACE.MINOTAUR#Il cadavere sta lentamente perdendo tonicità e si sta dissolvendo nel terreno.#
+
+Value:	0
+Weight:	200kg

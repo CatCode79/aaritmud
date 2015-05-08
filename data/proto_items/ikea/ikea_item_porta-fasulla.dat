@@ -1,0 +1,28 @@
+Code: ikea_item_porta-fasulla
+Level: 1
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.WOOD	100%
+Icon:	icons/item/door-golden.png
+Name:	Una Porta
+Short:	una porta
+Long:	$N è qui a terra
+
+Descr:
+Un semplice porta in legno
+DescrTouch: 
+Un ruvida e semplice porta
+
+Value:	0
+Weight: 7kg
+
+Extras:
+	Keywords: maniglia
+	Descr:
+	Una semplice maniglia in metallo
+	DescrTouch:
+	Una semplice maniglia fredda al tatto
+End
+
+DoorType:
+End

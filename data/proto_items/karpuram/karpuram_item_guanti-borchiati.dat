@@ -1,0 +1,52 @@
+Code: karpuram_item_guanti-borchiati
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.BRONZE	5
+MaterialPercentages:	MATERIAL.LEATHER	95
+Sex:	SEX.MALE
+Name:
+	I [darkolivegreen]Guanti Borchiati[close]
+Short:
+	un paio di [darkolivegreen]guanti[close] con borchie
+Long:
+	$N sono riposti allacciati fra loro
+
+Descr:
+Questo paio di guanti di dura pelle, rifiniti in modo abbastanza grezzo,  
+presentano una serie di cuciture esterne che tendono a mettere in risalto il 
+desiderio di praticità che sicuramente il loro creatore ha voluto imprimere.
+La particolarità maggiore è dovuta ad una serie di borchie molto ben visibili, 
+presenti sulla parte superiore degli stessi volte a proteggere le nocche di
+chi li dovrà indossare.
+
+DescrNight:
+Un paio di guanti senza troppe rifiniture, presentano una serie di cuciture
+esterne e delle particolari borchie di ferro ben visibili anche di notte.
+Volte sicuramente a protezione delle nocche di chi avrà il piacere di
+indossarli.
+
+DescrSmell:
+Un modesto odore di pelle lavorata giunge alle tue narici ed avverti anche un
+insolito odore di ferro molto pungente e intenso provenire sicuramente
+dalle molte borchie presenti su questi strani guanti.
+
+DescrTouch:
+Sulla superficie esterna i guanti presentano una inconsueta morbidezza, che si
+ritrova anche al loro interno, dimostrando di essere ben più comodi di come
+si possano presentare osservandoli. Le borchie al contrario sono fermamente
+fissate al cuoio, poco levigate e decisamente solide.
+
+DescrSixth:
+Non riesci a far a meno di pensare a quanto questo paio di guanti borchiati
+possano rivelarsi un'arma molto potente se indossati dalla persona giusta.
+
+
+WearType:
+   Modes: PART.LEFT_HAND PART.RIGHT_HAND
+End
+
+Value:	0
+Weight: 210g
+
+

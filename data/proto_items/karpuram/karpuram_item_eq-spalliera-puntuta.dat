@@ -1,0 +1,35 @@
+Code:	karpuram_item_eq-spalliera-puntuta
+
+Level:	5
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.HORN	90
+MaterialPercentages:	MATERIAL.COTTON	10
+Sex:	SEX.MALE
+Name:	Una Spalliera Puntuta
+
+Short:	una singola spalliera contorniata da strane punte ossee
+
+Long:	spessa ed insolita $N sembra sia stata buttata qui in terra.
+
+Descr:
+Un singolare pezzo di armatura in grado di proteggere una sola spalla per volta,
+è formato da una solida base costituita da un guscio di tartaruga modellato
+per proteggere con precisione la spalla e parte di una delle due $arms. La parte
+superiore è piena di spuntoni di materiale [white]osseo[close] distribuiti alla rinfusa
+sull'intera superficie, alcuni di questi sono spuntati e risultano rovinati e 
+sporchi. La parte interna è rivestita da una rozza stoffa di colore scuro, due
+serie di lacci di cuoio posizionati ai due estremi interni permettono di legare
+saldamente questa spalliera al corpo.
+
+
+DescrSixth:
+Hai la sensazione che questo pezzo di armatura sia stato creato appositamente
+per qualcosa o qualcuno che ti risulta si trovi da qualche parte in questo luogo
+
+Value:	0
+Weight:	2kg
+
+WearType:
+   Modes: PART.RIGHT_SHOULDER
+End

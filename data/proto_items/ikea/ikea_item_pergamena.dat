@@ -1,0 +1,24 @@
+Code: ikea_item_pergamena
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.PARCHMENT	100%
+Name:	Una Pergamena
+Short:	una consunta pergamena
+Long:	$N è qui arrotolata.
+
+Descr:
+Una pergamena giallastra e bruciacchiata in più punti; arrotolata e fermata con un cordino non fa una gran bella figura ridotta com'è.
+DescrTouch: 
+Una ruvida pergamena irregolare.
+DescrSmell: 
+Odore di fumo.
+DescrSixth:
+Pare che nessuno vi abbia scritto ma le condizioni in cui si trova ti fanno intuire che ne sia stato fatto largo uso.
+DescrHearing:
+La senti scricchiolare come dovesse cedere sotto il leggero tocco delle tue dita.
+
+Value:	0
+Weight: 5g
+

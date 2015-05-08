@@ -1,0 +1,27 @@
+Code: positions
+
+ItalianKeywords: posizioni
+EnglishKeywords: positions
+
+Entitype: HELP.INFO
+
+Text:
+Ci sono 16 "posizioni" nel gioco, e queste sono messe in un ordine speciale.
+Se la posizione B è sotto la posizione A nella lista, questo indica che mentre
+siete in pozione B spenderete una maggiore energia fisica o mentale qualunque
+cosa facciate, che usiate un commando, un incantesimo o un'abilità.
+
+Per esempio, avrete una maggiore abilità nel fare le cose se siete in piedi,
+che non mentre siete seduti. Mentre combatti con uno stile evasivo avrai
+molte più opzioni che non mentre combatti con uno stile aggressivo.
+
+La lista delle posizioni è come segue, da sinistra a destra, dall'alto verso
+il basso:
+[darkgray]Morto          [darkred]Ferito grave       &BIncapacitato
+[darkcyan]Stordito       [cyan]Dormo              [red]Comb berserk
+[darkgreen]Riposo         [red]Comb [yellow]aggress       [green]Seduto
+[red]Combattendo    [red]Comb [green]difensivo     [red]Comb [cyan]evasivo
+[close]Alzato         [orange]Cavalco            [orange]Spingo
+[orange]Trascino[close]
+
+SeeAlso: style

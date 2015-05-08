@@ -1,0 +1,66 @@
+Code:	arena-drago_room_48-alcova-segreta
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	L'Alcova Segreta
+Short:	l'alcova segreta
+	Descr:
+Sei entrato in una piccola alcova, a differenza del santuario qui
+le pareti sono in pietra nerissima, la stanza è solo di un metro
+per uno e comincia a darti un senso di soffocamento.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	1|64|128|256|1024|16777216|33554432 0 1
+Exits:
+	Direction:	DIR.EAST
+	Descr:	Azkraoth
+	Comment:	ExitStatus	1|8|16|32|256|512 0 27747 372
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

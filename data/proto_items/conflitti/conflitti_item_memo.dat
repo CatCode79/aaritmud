@@ -1,0 +1,36 @@
+Code: conflitti_item_memo
+Level: 1
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.VOID	100
+Sex:	SEX.MALE
+Name:	il Memo di Sophie
+Short:	il memo di Sophie
+Long:	$N aleggia nella tua mente
+
+Descr:
+Una porta di legno massiccio... è nera, di un nero profondo ed intenso come se il
+colore potesse darle una maggiore profondità. È chiusa, ma spingendola lievemente
+si apre con una facilità che non ti saresti aspettato. Bisogna avere una certa
+diffidenza se le cose si presentano con una facilità inconsueta? Sei dentro. La stanza
+è buia, ma una luce fioca è come se attraversasse le pareti conferendo all'ambiente
+una luminosità lieve, di color rosso. Avverti qualcosa di sinistro nell'aria, non sai
+cosa, pensi che ti stia lasciando suggestionare da alcune caratteristiche sensoriali.
+Ma un brivido ti percorre la mente e il corpo. Ti arriva immediatamente un odore forte
+di formalina che ti provoca una nausea intensa. Vorresti vomitare, ma resisti. Un rumore
+forte alle tue spalle, ti volti. La porta si è chiusa all'improvviso..tenti di riaprirla,
+ma non è possibile, sei dentro, ma non sai neanche dentro cosa sei. Potrebbe essere una
+stanza, o anche qualcosa di vivo..o ancora dentro una parte della tua mente che ti ha
+catturato e adesso non ti lascia andare più via, come quei pensieri che ti arrivano
+all'improvviso, e non sai come cacciarli, anzi più tenti di cacciarli più si aggrappano
+alla tua anima lacerandola in mille brandelli.
+
+Value:	0
+Weight: 10g
+
+Extras:
+	Keywords: Sophie
+	Descr:
+	il fatto che sia di Sophie implica che non tutti lo possano prendere no?
+End
+
+

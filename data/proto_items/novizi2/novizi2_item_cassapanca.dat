@@ -1,0 +1,33 @@
+Code: novizi2_item_cassapanca
+Level: 1
+Entitype:	ENTITYPE.CONTAINER
+MaterialPercentages:	MATERIAL.EBONY	100
+Sex:	SEX.FEMALE
+Name: La Cassapanca Misteriosa
+Short: una cassapanca
+Long:	$N sta guardinga in un angolo
+Flags: FLAG.NO_GET
+Descr:
+	Uno splendore di cassapanca sta muovendo leggermente il proprio coperchio.
+DescrTouch: 
+	Nonostante sia poco raccomandabile, allunghi la $hand verso la cassapanca accarezzandone
+	il coperchio.
+DescrHearing:
+	Pare proprio che questa cosa stia masticando rumorosamente il suo contenuto. 
+	
+
+Value:	0
+Weight: 7kg
+
+Extras:
+	Keywords: coperchio
+	Descr:
+	ha il bordo decorato a pennellate bordeaux.
+	DescrSixth:
+	forse tappandone il naso si apre
+End
+
+ContainerType:
+	MaxWeight:	100kg
+        Flags: CONTAINER.CLOSED CONTAINER.CLOSABLE
+End

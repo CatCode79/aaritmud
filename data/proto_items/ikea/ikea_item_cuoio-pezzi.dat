@@ -1,0 +1,23 @@
+Code: ikea_item_cuoio-pezzi
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.LEATHER	100%
+Name:	Degli Scampoli di Cuoio
+Short:	dei pezzi di cuoio
+Long:	$N ammassati qui.
+
+Descr:
+Divesi scapoli in cuoio di varie tonalità di marrona formano una piccola montagnola; alcuni cuciti tra loro in maniera apparentamente casuale.
+Qua e là riconosci alcuni pezzi..una manica, una suola, forse la tesa di un cappello.
+DescrTouch: 
+Anche al tatto sembrano non avere nulla a che fare l'uno con l'altro.
+DescrSmell: 
+L'aroma di cuoio è ancora intenso.
+DescrSixth:
+pare che una pelletteria abbia lanciato qui i suoi scarti.
+
+Value:	0
+Weight: 320g
+

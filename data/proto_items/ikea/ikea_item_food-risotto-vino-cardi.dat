@@ -1,0 +1,41 @@
+Code: ikea_item_food-risotto-vino-cardi
+Level: 1
+MaxGlobalQuantity:	401
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.RICE	74%
+MaterialPercentages:	MATERIAL.VEGETABLE	20%
+MaterialPercentages:	MATERIAL.BREAD	1%
+MaterialPercentages:	MATERIAL.BUTTER	5%
+Sex:	SEX.MALE
+Name:	Un Risotto ai Cardi
+Short:	un risotto ai cardi
+Value:	72
+Long:	$N e vino rosso
+
+Descr:
+Un risotto presentato con l'amore per la decorazione e l'abilità per consentirlo.
+La colorazione dà percettibilmente sul rosa contrastando con i verdi pezzi dell'anima di cardo.
+Tutto amalgamato con sapiente maestria e cosparso di un leggero strato di pan grattato abbrustolito.
+DescrTouch: 
+Un abbondante razione di risotto caldo con aggiunta qualcos'altro tagliato a pezzetti.
+DescrSmell: 
+Il fragrante aroma del burro risale le narici accompagnato dalla sfumatura del vino rosso.
+L'accompagnamento di un nuovo odore fresco e caratteristico del cardo.
+DescrSixth:
+Quale che sia il prezzo del piatto, molto di più vale la ricetta;
+ma se non v'è chi la sappia preparare è meglio allora dedicarsi al solo piatto.
+DescrTaste:
+Il sapore amarognolo del cardo s'amalgama divinamente con il sentore di vino e la pienezza del burro.
+
+Weight: 10g
+
+FoodType:
+	Comment:	cibo
+	Animal:	00
+	Vegetable:	100
+	CookingDamage:	5
+	Hours:	2
+	EntityMessage:	Forchettata dopo forchettata consumi $N
+	TargetMessage:	Ora c'è una sola via d'uscita... $n t'ha mangiato.
+	OthersMessage:	Forchettata dopo forchettata $n consuma $N
+End

@@ -1,0 +1,33 @@
+Code: flora_item_peperoncino-06-pianta
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Flags:  FLAG.INTERACTABLE_FROM_OUTSIDE
+Name: Una Pianta di [red]Peperoncino[close]
+Short:	una [lawngreen]piantina[close]
+Long:	$N sta crescendo qui in terra.
+
+Descr:
+Una piantina di [red]peperoncino[close] sta crescendo a terra, ramificandosi lentamente.
+Presenta una serie di diramazioni secondarie con germogli.
+
+DescrTouch:
+Sia il gambo che le foglie sono molto resistenti, solide e ricoperte quasi
+totalmente da una [white]peluria[close] bianca setosa.
+
+DescrSixth:
+Avverti il suo potenziale mordente.
+
+Value:	0
+Weight: 3kg
+
+
+PlantType:
+    RpgHours:	001
+    WorseEntity:	flora_item_peperoncino-07-pianta-fiorita
+    NormalEntity:	flora_item_peperoncino-07-pianta-fiorita
+    BetterEntity:	flora_item_peperoncino-07-pianta-fiorita
+    Contents:	 flora_item_peperoncino-11-fiore-01 4
+End

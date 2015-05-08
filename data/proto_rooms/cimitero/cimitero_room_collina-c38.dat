@@ -1,0 +1,45 @@
+Code: cimitero_room_collina-c38
+Sector: SECTOR.HILL
+Name: Il Suggello del Custode
+Short: l'edera sofferente
+
+Descr:
+Salito l'accesso a spirale che conduce alla cima della costruzione di pietra si entra in un ambiente coperto. L'enorme rampicante che avvinghia la costruzione è parte integrante dell'edificio; dalle radici fino alla sommità tiene connesse fra loro le pietre dell'edificio. Gli anni d'incuria e la siccità ne hanno compromesso la struttura che però ancora regge.
+
+DescrSmell: 
+La zona collinare è avvolta dagli abbracci languidi dell'odore di spezie e decomposizione.
+Per alcuni tratti si coglie però una scia che rimane la stessa per un certo tratto.
+DescrHearing:
+Il sibilo del vento produce un lugubre suono cupo sostenuto negli effetti lungo le
+lapidi frastagliate.
+
+Extras:
+	Keywords: scia
+	DescrSmell:
+	Lungo il tratto di sentiero che hai appena seguito l'odore più significativo è stato quello di #SMELL.
+End
+
+Extras:
+	Keywords: simboli
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+Width:	6m
+Depth:	6m
+Height: 113m
+
+Exits:
+	Direction: DIR.WEST
+	Descr: La risalita in collina
+End

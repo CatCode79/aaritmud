@@ -1,0 +1,67 @@
+Code:	arena-drago_room_64-vicolo-cieco
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Un Vicolo Cieco
+Short:	un vicolo cieco
+	Descr:
+A quanto pare qui termina la tua esplorazione, un budello di
+roccia chiuso ti si pare davanti impedendoti di proseguire. [cyan]"Non
+ti resta che tornare sui tuoi passi fratello"[close], ti dice una voce
+nella mente.
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	1|64 0
+Exits:
+	Direction:	DIR.EAST
+	Descr:	un cunicolo
+	Comment:	ExitStatus	0 0 27763 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	Un anfratto nascosto nella roccia
+	Door:	arena-drago_item_door-merisio-64
+	Comment:	ExitStatus	1|8|16|32|128|256|512 0 27765 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

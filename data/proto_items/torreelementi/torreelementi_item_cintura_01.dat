@@ -1,0 +1,37 @@
+Code: torreelementi_item_cintura_01
+Level: 1
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.LEATHER	80%
+MaterialPercentages:	MATERIAL.METAL	20%
+Name:	Una Cintura di Cuoio
+Short:	una cintura in pelle
+Long:	$N è arrotolata con cura qui in terra
+
+Descr:
+Una cintura di pelle nera con un'infinità di buchi ed una fibbia metallica
+sproporzionatamente grossa.
+DescrTouch: 
+Una cintura di materiale abbastanza elastico con all'estremità una fibbia molto
+pesante e... contundente.
+DescrSmell: 
+Uhm... mucca?
+DescrSixth:
+Alla bisogna potrebbe essere una comoda arma
+
+Value:	0
+Weight: 500g
+
+Extras:
+	Keywords: fibbia
+	Descr:
+	Una piattina metallica romboidale sulla quale è stata fissata una borchia
+	cilindrica sporgente
+End
+
+
+WearType:
+   Modes: PART.WAIST
+End
+
+

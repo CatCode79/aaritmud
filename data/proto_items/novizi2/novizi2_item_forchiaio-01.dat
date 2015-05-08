@@ -1,0 +1,55 @@
+Code: novizi2_item_forchiaio-01
+Level: 1
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.ALUMINIUM	100
+Sex:	SEX.MALE
+Name:	Il Forchiaio degli Adepti
+Short:	un [red]f[close]orchiaio
+Long:	$N guadagna l'uscita in preda al senso di colpa
+
+Descr:
+	L'oggetto metallico figlio dell'alchimia più proibita; coniuga in sé la potenza
+	della forchetta alla voluttà del cucchiaio. 
+DescrTouch: 
+	Vieni colto da spasmi della mente quando le tue dita toccano l'oggetto proibito; nella
+	tua mente sono in lotta furiosa le forze del puro spirito e nessuna accenna minimamente
+	alla resa.
+DescrSixth:
+	Ha la certezza che se tratterrai per te l'artefatto diventerà parte di te anche l'oscena
+	colpa figlia del proibito che ne ha permesso la nascita.
+DescrTaste:
+	Contemporanemanete a questo tuo desiderio si espande nell'animo tuo un senso di colpa
+	profondo che t'impedice di portare a termine il gesto.
+
+Value:	0
+Weight: 10g
+
+Behaviour:
+	LookPlayer:	0
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	100
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+
+

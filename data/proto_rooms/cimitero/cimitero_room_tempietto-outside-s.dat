@@ -1,0 +1,39 @@
+Code: cimitero_room_tempietto-outside-s
+Sector: SECTOR.RUIN
+Name: Il Perimetro del Tempietto
+Short: al margine di una piccola costruzione
+
+Descr:
+	Il vialetto selciato ove ti trovi collega i cancelli d'ingresso ad una piccola
+	costruzione più a nord. Un piccolo tempio privo di tetto e con diversi ingressi laterali.
+DescrTouch: 
+	Le pietre del selciato sono disposte a lisca di pesce tranne che per un doppio solco centrale.
+DescrSmell: 
+	Il vento porta con se l'odore della terra smossa di fresco e qualcosa di marcescente
+DescrSixth:
+	Giacché sei qui potrebbe essere un'idea andare a vedere quale è il posto migliore per
+	farsi seppellire, anche solo per evitare la ressa di quando il fenomeno diverrà modaiolo.
+DescrHearing:
+	Saltuariamente senti i morbidi suoni che accompagnano le vampe dei fuochi fatui.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: All'interno del tempietto
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Alla cancellata d'uscita
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Ai lati del tempietto
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: Ai lati del tempietto
+End
+

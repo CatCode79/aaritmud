@@ -1,0 +1,63 @@
+Code: flora_item_moneta-00-seme
+Level: 1
+MaxGlobalQuantity:	0
+Icon: icons/money/human-silver.png
+Entitype:	ENTITYPE.SEED
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.SILVER	100%
+Flags:	FLAG.RANDOMIZABLE
+Name:	Una Moneta d'[white]Argento[close]
+Short:	una moneta d'[white]argento[close]
+Long:	$N è qui facile preda dei più lesti
+
+Descr:
+Una moneta d'[white]argento[close] tondo e sottile dal colore metallico.
+DescrTouch: 
+Un piccolo disco sottile con figure sulle due facce.
+DescrSmell: 
+Pecunia non olet, diceva qualcuno.
+DescrSixth:
+Scarso il valore intrinseco, scarso quello estrinseco... ma meglio di nulla.
+Ti sfugge l'occhio su dei [white]numeri[close] riportati sulla moneta e su delle strane radichette che spuntano su di un lato.
+DescrHearing:
+Suono metallico quando la fai volare in aria con uno scatto delle dita. 
+DescrTaste:
+L'addenti per essere sicuro di... di.. prenderti qualche brutta malattia...
+
+Value:	10
+Weight: 1g
+
+Extras:
+	Keywords:	numeri data
+        Comment: 1.0.3 è la rella che ha visto introdotta l'entitype money.
+	Descr:
+	uno zero tre 3009
+	DescrTouch:
+	È in rilievo in basso.
+	DescrSixth:
+	3009 è certo la data, uno zero tre invece...
+End
+Extras:
+	Keywords: iscrizione scritta motto
+	Descr:
+	[white]Se la moneta consente la sicurezza dell'andare, ancor più alto è il valore d'un consiglio.[close]
+	DescrTouch:
+	Scritte in rilievo ma troppo piccine per essere lette al tatto.
+End
+Extras:
+	Keywords:	radichette
+	Descr:
+	Si, paiono proprio delle piccole radici.
+	DescrSixth:
+	Magari seminandola, chissà..
+End
+MoneyType:
+	CopperValue: 10
+End
+SeedType:
+	RpgHours:	002
+	RemainingLife:	1
+	WorseEntity:	villaggio-zingaro_item_soldo-bucato
+	NormalEntity:	flora_item_moneta-01-germoglio
+	BetterEntity:	flora_item_moneta-01-germoglio
+End

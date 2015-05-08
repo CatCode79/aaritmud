@@ -1,0 +1,90 @@
+Comment: 
+Idee per le professioni future dei prossimi componenti del villaggio /carrozzone
+Targu Jiu. calderai, stagnini e incisori d'oro, come allevatori di cavalli e muli, artigiani del metallo, ammaestratori d'orsi, venditori di stoffe, artigiani di vimini e legno, acrobati, prestigiatori, danzatori e musicisti.
+Code:	villaggio-zingaro_mob_orefice-dinnilos-luvvo
+Level:	1
+Sex:	SEX.MALE
+Race:	RACE.TUAREG
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Dinnilos Luvvo l'Orefice
+Short:	l'orefice
+Long:	$N curvo per l'età immerso nei suoi pensieri
+
+Descr:
+Un alto magrissimo anziano gitano, dinoccolato. Il viso scavato dagli anni e i pochi denti rimasti non ne fanno certo una figura temibile.
+Traspare comunque un alone di profonda dignità e sicurezza.
+
+DescrTouch:
+Eviti di toccare l'orefice per timore che possa cadere a terra anche solo per una pacca amichevole.
+DescrSmell:
+L'acre odore di fumo lo circonda nascondendo eventuali odori gitani.
+DescrSixth:
+Buffo come anche il più abile artigiano consegni al mondo opere durature ed immutabili ma non sappia regalarsi un solo granello di tanta prolungata magnificenza.
+
+Weight: 75kg
+Height: 181cm
+
+BirthDay: 4
+BirthMonth: MONTH.FIVE
+Age: 98
+
+
+Behaviour:
+       LookPlayer:	0
+       LookMob:	0
+       LookItem:	4
+       LookAtRacesFlags:	RACE.NONE
+       LookAtRaces:	0
+       LookAtEntitypesFlags:	ENTITYPE.NONE
+       LookAtEntitypes:	0
+       LookSelf:	0
+       LookDirection:	0
+       LookExit:	3
+       LookWall:	0
+       LookClosedDoor: 0
+       LookExtra:	0
+       WanderDirection:	0
+       WanderExit:	0
+       WanderWall:	0
+       WanderClosedDoor:	0
+       WanderAtExitsFlags:	DIR.NONE
+       WanderAtExits:	0
+       WanderArea:	0
+       WanderPortal:	0
+       WanderEnterContainer:	0
+       WanderExitContainer:	0
+       WanderSelf:	0
+       RandomDo:	6
+       RandomDoInputs:	emote mastica e sputacchia del tabacco
+       RandomDoInputs:	cough
+       RandomDoInputs:	sing uhmmm uuuhhhh, uhhh ummmm...
+End
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:		33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:		33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100
+
+Shop:
+	Types:	SHOP.NORMAL
+	ProtoLocations:	villaggio-zingaro_room_oreficeria-02
+	Buyables:	ikea_item_bracciale 100% 200
+	Buyables:	ikea_item_fermaglio 100% 200
+	Buyables:	ikea_item_spilla 100% 200
+	Buyables:	ikea_item_pendente 120% 200
+	Buyables:	villaggio-zingaro_item_anello-irlandese 110% 200
+	Buyables:	villaggio-zingaro_item_anello-serpi 130% 200
+	Buyables:	villaggio-zingaro_item_orecchino-cerchio 110% 200
+	Buyables:	villaggio-zingaro_item_unghie-rinforzo 110% 200
+End

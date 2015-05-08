@@ -1,0 +1,28 @@
+Code: ikea_item_ciambella-zebrata
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.FLOUR	50%
+MaterialPercentages:	MATERIAL.MILK	30%
+MaterialPercentages:	MATERIAL.EGG	10%
+MaterialPercentages:	MATERIAL.SUGAR	10%
+Name:	Una Ciambella Zebrata
+Short:	una ciambella zebrata
+Long:	$N è qui
+
+Descr:
+Una soffice ciambella composta da strati diversi di pasta che si alternano nei colori formando delle striscie bianche e nere
+DescrTouch: 
+La pasta della ciambella è soffice e voluminosa
+DescrSmell: 
+Percepisci il profumo della cioccolato e un qualcosa di speziato
+DescrSixth:
+La consistenza della ciambella la rende perfetta come accompagnamento ad un buon bicchiere di latte 
+DescrTaste:
+L'aggiunta di qualche nocciola rende questo dolce molto sfizioso  
+DescrHearing:
+no_send
+
+Value:	0
+Weight: 120g

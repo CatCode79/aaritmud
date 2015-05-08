@@ -1,0 +1,22 @@
+Code: citta-raminghe-maze_room_biblioteca_sud
+Sector: SECTOR.HOUSE
+Flags:  ROOM.INSIDE
+Name: La Sala dei Libri delle Antiche Ricette
+Short: una sala luminosa 
+Descr:
+Una bella sala pulita e ben illuminata dai colori vivaci e allegri. I ripiani di legno chiaro contengono 
+libri voluminosi le cui immagini  sulla copertina ti fanno intuire che si tratta di libri di ricette.
+
+DescrSixth:
+Ti vien voglia di provare una delle ricette, ma portare via uno dei voluminosi libri non ti è consentito e non è 
+opportuno provarci. 
+
+
+Width:  10m
+Depth:  10m
+Height: 100m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: in biblioteca
+End

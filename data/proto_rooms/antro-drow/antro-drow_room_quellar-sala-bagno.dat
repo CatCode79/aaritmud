@@ -1,0 +1,43 @@
+Code: antro-drow_room_quellar-sala-bagno
+Sector: SECTOR.UNDERGROUND
+Flags:	ROOM.INSIDE
+Name: quellar-sala-bagno
+Short: quellar-sala-bagno
+
+Descr:
+Sei 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Extras:
+	Keywords: chiave
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.NORTH
+	Descr: In strada
+End

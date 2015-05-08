@@ -1,0 +1,67 @@
+Code:	arena-drago_room_30-corridoio
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	La Fine del Corridoio
+Short:	la fine del corridoio
+	Descr:
+Sei giunto alla fine del corridoio, a sud vedi una porta con una
+targhetta mentre ad ovest puoi ripercorrere il tuo tragitto.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	64 0
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	Porta
+	Comment:	ExitStatus	1 0 27732 -1
+	Door:	arena-drago_item_door-porta-corridoi-30
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	i corridoi dell'arena
+	Comment:	ExitStatus	0 0 27729 -1
+End
+Extras:
+	Keywords:	targhetta
+		Descr:
+-------------
+Lord Lusianos
+-------------
+
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

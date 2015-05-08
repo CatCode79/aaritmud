@@ -1,0 +1,6 @@
+FunName:     command_wield
+Type:        CMDTYPE.ITEM
+Trust:       TRUST.PLAYER
+Position:    POSITION.SIT
+Flags:       CMDFLAG.INTERACT CMDFLAG.GDR
+MiniHelp:    Serve per impugnare delle armi.

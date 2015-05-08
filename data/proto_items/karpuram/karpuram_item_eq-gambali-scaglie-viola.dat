@@ -1,0 +1,53 @@
+Code:	karpuram_item_eq-gambali-scaglie-viola
+
+Level:	8
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.SNAKESKIN	55
+MaterialPercentages:	MATERIAL.CLOTH	15
+MaterialPercentages:	MATERIAL.LINE	15
+MaterialPercentages:	MATERIAL.COTTON	15
+Sex:	SEX.MALE
+Name:	[violet]Gambali[close] di [violet]Scaglie Viola[close]
+Short:	[violet]gambali[close] di [violet]scaglie violacee[close]
+Long:	una coppia di $N  ben riposti qui da un lato.
+
+Descr:
+Rilucente e ben rifiniti, questi due gambali sono formati da una serie di grosse
+scaglie di serpente dal colore viola intenso. Le scaglie sono sovrapposte in
+modo tale da garantire una protezione a strati di lunga durata. Sia sulla parte
+esterna che interna sono incise due rune di fuoco molto potenti in grado di
+proteggere dal fuoco chi sarà in grado d'indossarli. Due serie di lacci interni 
+presumono la possibilità di regolare su misura i gambali a seconda della 
+corporatura di chi avrà l'onore di usarli.
+
+DescrNight:
+Persino al buio i due gambali risplendono di una luce violacea sinistramente
+accattivante. Grosse scaglie li ricoprono interamente, due rune di protezione
+dal fuoco sono incise sulla parte frontale interna ed esterna. Si notano alcuni 
+lacci per la regolazione dei gambali sul corpo.
+
+DescrHearing:
+Un sinistro sibilo sembra provenire dai due oggetti, come se fossero animati. 
+Il sibilo s'interrompe ogni volta che vengono indossati.
+
+DescrTouch:
+Lisci e morbidi in superficie, le scaglie sono stratificate e sottili e non 
+presentano imperfezioni. Le rune sono incise con cura e in leggero rilievo.
+Al tocco i due gambali tendono a rilasciare alcune gocce di una specie di 
+inchiostro naturale di colore viola e rosso che viene subito assorbito 
+dalla pelle.
+
+DescrSixth:
+Hai la sensazione che questi due pezzi di armatura siano parte integrante di 
+qualcosa di più grande e potente, oltre la tua immaginazione.
+
+
+Value:	0
+Weight:	800g
+
+WearType:
+   Modes: PART.RIGHT_LOWER_LIMB PART.LEFT_LOWER_LIMB
+End
+
+

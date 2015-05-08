@@ -1,0 +1,135 @@
+Comment: Un cantastorie che sta nella via degli Affabulatori. 
+
+MaxGlobalQuantity:	1
+Code:	citta-raminghe_mob_cantastorie
+Level:  5
+Sex:    SEX.MALE
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Race:   RACE.HUMAN
+Name:  Un [red]Cantastorie[close] 
+Short: un [red]cantastorie[close] 
+ShortNight: un [red]cantastorie[close] dall'aria sinistra
+Long: $N suona la fisarmonica.
+LongNight: $N è seduto per terra.
+
+Descr:
+Figura magra e longilinea. Ha le guance scavate e la voce forte e tonante che contrasta con il suo aspetto fisico e  la sua 
+corporatura. Indossa un gilè di colore verde che un tempo doveva essere di buona fattura, adesso i segni del tempo e diverse toppe lasciano solo intuire l'antica eleganza. Indossa pantaloni di velluto  di colore nero tenuto su da una cinta 
+anch'essa di colore nero ben stretta in vita che segnala l'eccessiva magrezza di quest'uomo.
+Ma il suo sguardo penetrante cattura il tuo e la sua voce  magnetizza la tua attenzione con il racconto di storie 
+fantastiche e inverosimili dai risvolti inattesi. 
+Accompagna le sue storie con la fisarmonica che suona in modo eccellente. Accanto noti un cartellone dove sono
+rappresentate le storie che sta per raccontare ed un baule in legno scuro di cui adesso non riesci ad intuire il contenuto.
+
+DescrNight:
+E' notte. Ma il cantastorie è qui sempre circondato da un gruppo di appassionati ascoltatori. Puoi sostare anche tu ad 
+ascoltarlo. La sua cadenza affabulatoria è cambiata. Il tono è più sommesso, una lampada ad olio poggiata per terra illumina il suo viso con un gioco di luci ed ombre che gli conferisce un'espressione dura e spigolosa. La fisarmonica, muta, è
+poggiata su di uno sgabello di legno.
+Lui è seduto per terra a gambe incrociate così come tutti quelli che lo stanno ascoltando in silenzio. 
+
+DescrSmell:
+Profuma di [brown]tabacco[close] di qualità eccellente regalatogli da avventurieri e viaggiatori come ricompensa per le sue 
+storie.
+
+DescrHearing:
+La sua voce tonante risuona per tutta la strada e sembra sovrastare quella degli altri.
+
+DescrHearingNight:
+La notte ha un pò svuotato la strada e molti degli avventurieri e dei viaggiatori di passaggio sono andati via. Ma alcuni, 
+come te, son rimasti qui ad ascoltare la sua voce  che acquista un tono sempre più sommesso e profondo. Sembra vibrare 
+intensamente quando il racconto, la storia, sono giunti ad un punto cruciale di notevole pathos.
+
+DescrSixth:
+Come un antico aedo o rapsodo è il depositario delle storie della comunità. In lui i miti e le leggende acquistano colore, siarricchiscono di versioni sempre diverse e sempre più complesse. Mentre racconta le storie è come se si astraesse da ciò
+che gli sta intorno, cieco e insensibile, concentrato sul suo mondo interno, voce delle 
+divinità che ispirano i suoi racconti.
+
+Height: 178cm
+Weight: 68kg
+
+BirthDay:	3
+BirthMonth:	MONTH.FOUR 
+Age: 35
+
+Behaviour:
+	LookPlayer: 25
+	LookMob:     10
+	LookItem:   20
+	LookSelf:   5
+	LookAtEntitypesFlags: ENTITYPE.NONE
+	LookDirection: 10
+	LookExit:       10
+	LookWall:       10
+	LookClosedDoor:  10
+	LookExtra:       50
+	LookEquipment:   10
+	ListenPlayer:    50
+	ListenMob:       10
+	ListenItem:      10
+	ListenSelf:      100
+	ListenAtEntitypes:   10
+	ListenAtEntitypesFlags: ENTITYPE.NONE
+	ListenDirection:    50
+	ListenExtra:         50
+	IntuitionPlayer:     50
+	IntuitionMob: 50
+	IntuitionItem: 50
+	IntuitionSelf: 50
+	IntuitionAtRaces: 50
+	IntuitionAtRacesFlags: RACE.NONE
+	IntuitionAtEntitypes: 50
+	IntuitionAtEntitypesFlags: ENTITYPE.NONE
+	IntuitionDirection: 50
+	IntuitionExit:      50
+
+	WanderDirection: 0
+	WanderExit:      0
+	WanderWall:      0
+	WanderClosedDoor: 0
+	WanderArea:       0
+	WanderAtExits:    0
+	WanderAtExitsFlags: DIR.NONE
+	WanderPortal:    0
+	WanderEnterContainer: 0
+	WanderExitContainer:  0
+	WanderSelf:  0
+
+	RandomDo:    6
+	RandomDoInputs: say Vi racconto come tutto ebbe inizio... Si narra che la fondazione della Città delle Raminghe sia avvenuta per un casuale incontro, un fortuito incrociarsi di strade e di destini, un intersecarsi di trame imprevedibili, un incontro di anime che attendevano un luogo fertile dove fissare la loro dimora...
+
+	RandomDoInputs: say ...lei era stremata per la fatica e per la fame dopo aver camminato per tutta la giornata senza
+concedersi un momento di riposo. Era anche una guerriera, abituata al dolore della fatica, ma non solo. Inoltre tra un pò
+sarebbero giunte le tenebre della notte e trovare un rifugio dove ripararsi sarebbe stato più difficile...
+
+	RandomDoInputs: say  Si era inoltrata in un bosco molto fitto e non sarebbe stato facile trovare un riparo.
+Decise di fermarsi sotto una grande quercia proprio vicina ad una radura dove potere
+accendere un fuoco per riscaldarsi, per cuocere qualcosa , ma soprattutto per tenere lontani gli animali predatori...
+
+	RandomDoInputs: say Tenere acceso il fuoco tutta la notte, da sola, non era cosa da poco, ma lei aveva imparato a dormire
+solo per un pò così da potere tenerlo acceso il più possibile. In realtà un fuoco  acceso attira delle bestie forse più
+feroci dei predatori, ma aveva deciso di fare in questo modo dopo una sanguinosa lotta con una tigre che le aveva quasi
+lacerato i muscoli del braccio sinistro, una notte che, a causa della pioggia insistente, il fuoco si era spento troppo in
+fretta...
+
+	RandomDoInputs: say Un calpestio di rami secchi alle sue spalle la mise immediatamente in guardia. Estrasse il lungo coltello e  si riparò dietro il tronco della quercia. Quello che vide non lo dimenticò mai più, per tutta la sua vita, e non lo
+ raccontò mai a nessuno tale era l'orrore dell'immagine che si presentò davanti ai suoi occhi. Ripose il coltello nella sua
+guaina e si avvicinò. Una giovane elfa si reggeva a malapena sulle gambe, indossava ciò che rimaneva di una lunga tunica che doveva essere color magenta. I lunghi capelli biondi erano incrostati di sangue rappreso e di fango...
+
+End
+
+MaxLife:        100
+Life:           100
+MaxMana:        100
+Mana:           100
+MaxVigour:      100
+Vigour:         100
+
+Strength:       33
+Endurance:      50
+Agility:        33
+Speed:          33
+Intelligence:   33
+Willpower:      33
+Personality:    80
+Luck:           60
+

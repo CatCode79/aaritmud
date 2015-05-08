@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_030_camminamenti-030
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	I Camminamenti
+Short:	i camminamenti
+	Descr:
+Ti trovi esattamente nella zona centrale dei camminamenti, questa
+parte di struttura, più alta di quella che sovrasta il cortile
+pubblico, ti da una buona visibilità su tutto ciò che ti
+circonda. In questo preciso istante però il tuo sguardo è
+attratto da un incredibile vortice d'aria che, assumendo
+l'aspetto di un tubo, sembra poterti trasportare da dove ti trovi
+ora sui camminamenti più in basso... ci sarà da fidarsi???
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 1
+Exits:
+	Direction:	DIR.EAST
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 031 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	il vortice
+	Comment:	ExitStatus	0 0 029 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 045 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

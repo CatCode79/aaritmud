@@ -1,0 +1,30 @@
+Code:	rip_item_corpse-highelf-female
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CORPSE
+Sex:	SEX.FEMALE
+Race:	RACE.HIGHELF
+MaterialPercentages:	MATERIAL.FLESH	100%
+Name:	Una tua Simile Morta
+Short:	un'elf$O mort$O
+Long:	$N riposa qui definitivamente 
+
+Descr:
+I resti mortali e corruttibili di #looker is RACE.HIGHELF#una tua simile.#una appartenente alla razza degli elfi alti.#
+
+DescrTouch:
+Il cadavere di #looker is RACE.HIGHELF#una tuo simile che cerchi di ricomporre in posizione più rispettosa.#un'elf$O alt$O, svuotato della sua anima immortale risponde mollemente al tuo tocco.#
+
+DescrSixth:
+#looker is RACE.HIGHELF#L'anima immortale che vi risiedeva si è ricongiunta alfine con il tutto.#La morte s'è portata via qualcosa di più che il suo respiro di vita.#
+
+DescrSmell:
+#looker is RACE.HIGHELF#Chissà poi perché ma pare che l'odore della morte non copra gli altri odori ed a sua volta non sia coperto da altri.#Odore di morte.#
+
+DescrTaste:
+#looker is RACE.HIGHELF#Porti le labbra sul volto del cadavere per porgergli l'estremo saluto.#L$O azzanni per accertarti che sia davvero mort$O#
+
+Value:	0
+Weight:	40kg
+
+

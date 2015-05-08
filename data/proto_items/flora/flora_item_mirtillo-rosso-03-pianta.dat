@@ -1,0 +1,46 @@
+Code: flora_item_mirtillo-rosso-03-pianta
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name: Un Basso [springgreen]Cespuglio[close] di [springgreen]Mirtillo[close]
+Short:	un basso [springgreen]cespuglio[close]
+Long:	$N cresce qui
+
+Descr:
+Un folto cespuglio alto poco meno d'un palmo e fortemente lignificato dalle foglioline verdi scuro e lucide.
+L'ampia superficie che occupa rende più agevole calpestarlo che girarci attorno.
+
+DescrTouch:
+Un folto cespuglio alto poco meno d'un palmo e fortemente lignificato dalle foglioline puntute lucide.
+L'ampia superficie che occupa rende più agevole calpestarlo che girarci attorno.
+
+DescrTaste:
+Duro stoppaccioso poiché fortemente lignificato ma sostanzialmente privo di sapore.
+
+Value:	0
+Weight: 7kg
+
+Extras:
+  Keywords: foglie foglia fogliolina foglioline
+  Descr:	verdi foglioline alternate
+  DescrTouch:	lucide foglioline alternate
+  DescrTaste:	nessun sapore apprezzabile
+End
+
+Extras:
+  Keywords: fusto stelo steli lignificato legno legni
+  Descr:	il fusto intricato e lignificato molto fitto e rivestito da foglioline verde chiaro.
+  DescrTouch:	per quanto sottile, l'intricata legnosità stopposa conferisce una grande forza ed elasticità ai singoli tralci.
+  DescrTaste:	un insipido sapore stoppaccioso vagamente clorofillato
+End
+
+PlantType:
+    RpgHours:	120
+    WorseEntity:	flora_item_mirtillo-rosso-04-fiore
+    NormalEntity:	flora_item_mirtillo-rosso-04-fiore
+    BetterEntity:	flora_item_mirtillo-rosso-04-fiore
+End
+
+

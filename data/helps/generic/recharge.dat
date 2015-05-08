@@ -1,0 +1,13 @@
+Code: recharge
+ItalianKeywords: ricarica
+EnglishKeywords: recharge
+Entitype:           HELP.SPELL
+
+Text:
+È un incantesimo che permette di trasferire parte del flusso magico dello
+stregone in un oggetto di tipo bastone o bacchetta, in maniera tale da 
+ricaricare i suoi poteri.
+Esiste tuttavia la possibilità di danneggiare irreparabilmente l'oggetto anche
+se in rari casi è addirittura successo di incrementarne la capacità massima.
+
+SeeAlso: brandish zap

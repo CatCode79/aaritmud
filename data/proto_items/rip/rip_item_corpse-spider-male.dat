@@ -1,0 +1,30 @@
+Code:	rip_item_corpse-spider-male
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CORPSE
+Sex:	SEX.MALE
+Race:	RACE.SPIDER
+MaterialPercentages:	MATERIAL.FLESH	100%
+Name:	Un Ragno Mort$O
+Short:	un ragno mort$O
+Long:	$N immobile ed accartocciato
+
+Descr:
+I miseri resti mortali e corruttibili di #looker is RACE.SPIDER#un tuo simile.#un ragno.#
+
+DescrTouch:
+Dalla $SKIN si direbbe il cadavere di #looker is RACE.SPIDER#un tuo simile immobile e  accartocciato.#un ragno rigido ed accartocciato.#
+
+DescrSixth:
+#looker is RACE.SPIDER#L'anima immortale delle sue innumerevoli vite tesse ora altrove.#La morte s'è portata via qualcosa di più che il suo respiro di vita.#
+
+DescrSmell:
+#looker is RACE.SPIDER#Chissà poi perché ma pare che l'odore della morte non copra gli altri odori ed a sua volta non sia coperto da altri.#Odore di morte.#
+
+DescrTaste:
+no_send
+
+Value:	0
+Weight:	500g
+
+

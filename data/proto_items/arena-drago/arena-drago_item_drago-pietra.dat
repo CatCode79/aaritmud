@@ -1,0 +1,26 @@
+Code:	arena-drago_item_drago-pietra
+Level:	06
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.STONE 100%
+Sex:	SEX.MALE
+Name:	Il Ciondolo dei Draghi
+Short:	un ciondolo di pietra
+
+Value:	0
+Weight: 10g
+
+Descr:
+Un sasso foggiato rozzamente a mo di drago
+
+WearType:
+   Flags:	WEAR.LAYERABLE
+   Modes: 	PART.NECK
+End
+
+Comment:
+§27712
+
+Dati Obj
+18 262144 1|163840 0 0 01 0 -1
+
+

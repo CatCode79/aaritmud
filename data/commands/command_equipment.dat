@@ -1,0 +1,6 @@
+FunName:    command_equipment
+Type:       CMDTYPE.INFORMATION
+Trust:      TRUST.PLAYER
+Position:   POSITION.REST
+Flags:      CMDFLAG.GDR
+MiniHelp:   Serve per vedere il proprio equipaggiamento indossato.

@@ -1,0 +1,66 @@
+Code:	arena-drago_room_42-spogliatoi
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Gli Spogliatoi
+Short:	gli spogliatoi
+	Descr:
+Tante panche, tantissimi armadi di piccole dimensioni, alcune
+rastrelliere per armi. A quanto pare questo è il luogo dove i
+gladiatori si preparano prima di accedere all'arena. Lasala è
+molto ampia e nella zona est noti che il pavimento degrada
+tramite una serie di quattro scalini e forma così una sorta di
+bagno termale che i combattenti usano per rilassarsi dopo gli
+scontri. Nella parete sud si apre un grosso arco mentre nella
+zona nord della stanza vedi una scala che scende verso il basso.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	64 0
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	l'accesso all'arena
+	Comment:	ExitStatus	0 0 27737 -1
+End
+Exits:
+	Direction:	DIR.DOWN
+	Descr:	la base delle scale
+	Comment:	ExitStatus	0 0 27743 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

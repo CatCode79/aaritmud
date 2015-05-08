@@ -1,0 +1,35 @@
+Code: novizi2_item_amuleto-cyproreus
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.SHELL 100%
+Name:	Un [mocassin]Am[burlywood]u[mocassin]le[burlywood]t[mocassin]o[close] con una Conchiglia di Cyproreus
+Short:	un [mocassin]am[burlywood]u[mocassin]le[burlywood]t[mocassin]o[close] con una conchiglia
+Long:	$N pende da un nastrino. 
+
+Descr:
+Un [powderblue]nastrino[close] azzurro è intrecciato a formare una piccola nicchia nella quale è appena una [mocassin]co[burlywood]n[mocassin]ch[burlywood]i[mocassin]gl[burlywood]i[mocassin]a[close] tondeggiante e dalla superficie costellata di puntini marroni.
+DescrTouch: 
+Passando la liscissima conchiglia tra le mani scopri che nella parte sul retro c'è una piccola fessura dove è rimasto incastrato qualcosa di molto simile a della sabbia.
+DescrSmell: 
+Odora di mare.
+DescrSixth:
+Esemplari di Cyproreus sono stati ritrovati nel deserto, un posto forse alquanto insolito per una conchiglia.
+Si dice che abbia poteri da rabdomante e che segnali l'acqua a chilometri di distanza.
+DescrHearing:
+Le onde del mare.
+
+Value:	31
+Weight: 10g
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+	Modes:	PART.NECK
+	EntityWearMessage:	Sollevi $N e lo porti %part..
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	$n solleva $N e lo porta %part.
+	EntityRemoveMessage:	Sfili $N da %part..
+	TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+	OthersRemoveMessage:	$n si leva $N.
+End

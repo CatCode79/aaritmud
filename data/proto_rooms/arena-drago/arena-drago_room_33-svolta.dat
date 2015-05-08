@@ -1,0 +1,66 @@
+Code:	arena-drago_room_33-svolta
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Una Svolta
+Short:	una svolta
+	Descr:
+Sei giunto ad una svolta nel corridoio, continuano a mancare
+finestre e l'aria sembra farsi sempre più opprimente, quinoti
+che alcuni candelabri sono spenti. puoi proseguire ad est dove
+vedi un passaggio ben illuminato o a sud dove la luce sembra
+affievolirsi lentamente.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	64 0
+Exits:
+	Direction:	DIR.EAST
+	Descr:	i corridoi dell'arena
+	Comment:	ExitStatus	0 0 27728 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	un corridoio
+	Comment:	ExitStatus	0 0 27734 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

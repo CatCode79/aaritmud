@@ -1,0 +1,21 @@
+Comment: È l'oggetto prototipo per tutti gli oggetti casuali
+Code: limbo_item_random2
+Level: 1
+
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.UNKNOWN	100%
+Name: Un Oggetto Casuale 2
+Short: un oggetto casuale 2
+Descr:
+Un oggetto casuale 2
+
+Long:	$N appoggiato per terra con garbo
+
+Value:	0
+Weight: 1g
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 1
+
+

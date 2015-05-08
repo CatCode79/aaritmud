@@ -1,0 +1,24 @@
+Code: ikea_item_gonna
+Level: 1
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.FEMALE
+Flags:	FLAG.RANDOMIZABLE
+MaterialPercentages:	MATERIAL.CLOTH	100%
+Name:	Una [white]Gonna Bianco Panna[close]
+Short:	una gonna [white]bianco panna[close] 
+Long:	Han ripiegato con cura $N.
+
+Descr:
+Una [white]gonna[close] di cotone e piuttosto ampia. Il bordo inferiore ha le cuciture
+a vista di colore nero.
+DescrTouch: 
+Il tessuto è di qualità e le robuste cuciture sono ben nascoste nella parte interna. 
+
+Value:	22
+Weight: 310g
+
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+	Modes:	PART.LEFT_HIP PART.RIGHT_HIP
+End

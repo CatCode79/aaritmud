@@ -1,0 +1,25 @@
+Code: ikea_item_liquid-vino-bianco
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.MALE
+MaterialPercentages: MATERIAL.WATER 88%
+MaterialPercentages: MATERIAL.ALCOHOL 12%
+Name:	[sandybrown]Vino Bianco[close]
+Short:	[sandybrown]vino bianco[close]
+
+Descr:
+Una certa quantità di [khaki]vino[close] dal colore giallo paglierino.
+DescrTouch: 
+Immergi un dito nel liquido, ha una temperatura più fresca rispetto all'ambiente circostante
+DescrSmell: 
+Un impatto olfattivo fortemente aromatico che sposa la purezza dell'uva a note floreali.
+DescrSixth:
+Eccellente vino indicato per pesci salsati e il pollame arrostito.
+DescrTaste:
+Fresco al palato regala ventate di frutta speziata. 
+DescrHearing:
+no_send
+
+Value:	16
+Weight: 120g

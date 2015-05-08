@@ -1,0 +1,29 @@
+Code: ikea_item_padella
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.METAL	100%
+Name:	Una Padella
+Short:	una padella
+Long:	$N è qui
+
+Descr:
+Stai guardando una padella, un tipo di pentola usato in cucina e caratterizzato dalle basse pareti e dal fondo ampio, con un lungo manico per mantenerne la presa.
+DescrTouch: 
+Noti che il manico non è ben fissato all'utensile. Meglio far attenzione!
+DescrSmell: 
+Ha un gradevole profumo di pulito
+DescrSixth:
+La forma di questo oggetto sembra ideale per saltare e friggere.
+DescrTaste:
+no_send
+DescrHearing:
+no_send
+
+Value:	35
+Weight: 1000g
+
+ContainerType:
+	MaxWeight:	5kg
+End

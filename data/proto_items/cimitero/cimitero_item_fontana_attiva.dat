@@ -1,0 +1,64 @@
+Code: cimitero_item_fontana_attiva
+Level: 1
+Flags:	FLAG.NO_GET
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.STONE 100%
+Sex:	SEX.FEMALE
+Name:	La Fontana Maestosa
+Short:	una fontana maestosa
+Long:	$N domina tutto l'ambiente.
+
+
+Descr: 
+Una grande fontana di pietra presenta tre diverse vasche posizionate 
+a triangolo attorno al basamento centrale. Le vasche sono situate a tre altezze
+diverse per poter essere utilizzate da animali di piccola e media taglia e
+persone contemporaneamente. Distinti sia per potenza che per direzione i tre
+getti d'acqua riescono a stupire per la loro unicità e bellezza. Sui bordi di
+ogni singola vasca riesci a leggere tre diverse scritte incise nella pietra.
+
+DescrNight:
+Maestosa e dominante si staglia difronte a te una grande fontana di pietra.
+Tre vasche poste ad altezze diverse la rendono particolare e curiosa, quasi
+come i tre getti d'acqua che fuoriescono in modo diverso da ognuna.
+
+DescrHearing:
+Il rumore dell'acqua che fuoriesce dalla fontana e si riversa nelle tre vasche, 
+coinvolge completamente il tuo udito non permettendoti di sentire null'altro.
+
+DescrSmell:
+vi è un forte odore della pietra umida che viene continuamente bagnata in alcuni
+punti delle vasche dal getto d'acqua della fontana.
+
+DescrTouchNight:
+La grande massa di acqua che viene continuamente spostata all'interno e riversata
+fuori sulle vasche della fontana ha provocato delle crepe nella pietra, in
+modo particolare all'interno di quella più bassa. Toccando la fontana risulta
+anche molto umida e fredda.
+
+Value:	0
+Weight: 1400kg
+
+
+Extras:
+	Keywords: scritta
+	Descr:
+	la prima scritta sta sulla prima vasca, così per la seconda ed a seguire per la terza.
+End
+Extras:
+	Keywords: scritta_1 prima primo
+	Descr:
+	"servirò chi dall'alto arriverà"
+End
+Extras:
+	Keywords: scritta_2 seconda secondo
+	Descr:
+	"servirò chi nel giusto sarà"
+End
+Extras:
+	Keywords: scritta_3 terza seconda
+	Descr:
+	"servirò chi nel torto dimorerà"
+End
+
+

@@ -1,0 +1,31 @@
+Code: villaggio-zingaro_item_lanterna
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.ALUMINIUM 61%	
+MaterialPercentages:	MATERIAL.GLASS 39%	
+Name:	Una [gray]Lanterna[close]
+Short:	una [gray]lanterna[close]
+Long:	$N è posata qui.
+
+Descr:
+Una [gray]lanterna[close] di latta con le pareti in vetro, una manopolina permette di aprire uno dei lati.#self.inventory_qty < 1##All'interno noti $i.#
+DescrTouch: 
+Una fredda lanterna di latta con uno sportellino in vetro.
+DescrSixth:
+Ha bisogno di una candela per funzionare.
+
+Value:	0
+Weight: 76g
+
+ContainerType:
+	EntityOpenMessage:	Apri lo sportellino di $N.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre lo sportellino di $N.
+	EntityCloseMessage:	Chiudi lo sportellino di $N.
+	TargetCloseMessage:	Finalmente $n si è degnat$o di chiuderti.
+	OthersCloseMessage:	$n chiude lo sportellino di $N.
+	Flags:	 CONTAINER.CLOSED CONTAINER.CLOSABLE
+	MaxWeight:	200g
+End

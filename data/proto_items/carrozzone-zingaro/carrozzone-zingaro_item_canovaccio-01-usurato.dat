@@ -1,0 +1,29 @@
+Comment:
+-terribile nella Short-Long usurato-piegato
+
+Code: carrozzone-zingaro_item_canovaccio-01-usurato	
+
+Level: 1
+Entitype: ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.CLOTH 100%
+Name:	Un [lemonchiffon]Canovaccio[close]
+Short: un [lemonchiffon]canovaccio[close] piuttosto usurato
+Long:	$N è qui piegato.
+
+Descr:
+Un logoro [lemonchiffon]canovaccio[close] ripiegato in modo impeccabile.
+DescrTouch:
+La tua $hand scorre sulla ruvida trama, fitta ma non troppo.
+DescrSmell:
+Il profumo è fresco e pulito, come appena lavato.
+DescrSixth:
+I piccoli forellini sparsi qua e là potrebbero esse dovuti all'usura ma anche a qualche tarma un po' troppo vorace.
+
+Value:	0
+Weight: 75g
+
+
+
+
+

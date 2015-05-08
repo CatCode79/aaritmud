@@ -1,0 +1,37 @@
+Code: ikea_item_polpetta-vecchia
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.MEAT	100%
+Name:	Una Polpetta
+Short:	una polpetta
+Long:	$N vecchia dai colori preoccupanti
+
+Descr:
+Una polpetta di carne che ha visto giorni migliori.
+Tali giorni migliori risalgono almeno al mese scorso.
+DescrTouch: 
+La consistenza molliccia fa temere avvelenamenti da contatto.
+DescrSmell: 
+Un'arma, deve trattarsi di un'arma potentissima.
+DescrSixth:
+Si tratta di un biglietto di sola anadata per una destinazione inconsueta e generalmente indesiderata.
+DescrHearing:
+Inquilini rumorosi la abitano in gioiosa comunità
+DescrTaste:
+Nausea e giramento di testa ti colgono all'atto dell'insano gesto
+
+Weight: 10g
+
+
+FoodType:
+	Comment:	cibo
+	Animal:	90
+	Vegetable:	0
+	CookingDamage:	5
+	Hours:	0
+	EntityMessage:	Agguanti $N fra le $hands e stoicamente tenti il suicidio.
+	TargetMessage:	Ora ci sono almeno due vie d'uscita e per il bene di $n è il caso che sia la bocca.
+	OthersMessage:	$n agguanta con le $hands $N nauseabonda e tenta il suicidio per via orale.
+End

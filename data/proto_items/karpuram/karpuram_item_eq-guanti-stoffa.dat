@@ -1,0 +1,26 @@
+Code:	karpuram_item_eq-guanti-stoffa
+
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.CLOTH	100
+Sex:	SEX.MALE
+Name:	Guanti di Stoffa
+Short:	di pezzi di stoffa foggiati a guanti
+Long:	Un semplice paio di $N 
+
+Descr:
+Sono due pezzi di stoffa che possono essere anche indossati sulle $hands per
+proteggersi dalle intemperie, sono lacerati e consunti. Hanno fori sui lati
+e sono strappati in diversi punti. Forse potrebbero anche essere riparati, ma
+se legati attorno alle nocche garantiscono una protezione modesta ma buona.
+
+Value:	0
+Weight:	300g
+
+WearType:
+        Flags:	WEAR.LAYERABLE
+   Modes: PART.RIGHT_HAND PART.LEFT_HAND
+End
+
+

@@ -1,0 +1,6 @@
+FunName:    command_rest
+Type:       CMDTYPE.MOVEMENT
+Trust:      TRUST.PLAYER
+Position:   POSITION.SLEEP
+Flags:      CMDFLAG.INTERACT CMDFLAG.GDR
+MiniHelp:   Serve per far riposare il proprio personaggio per terra.

@@ -1,0 +1,21 @@
+Code:	mfdonald_item_gatto-morto
+Level:	1
+Entitype:	ENTITYPE.WEAPON
+Sex:	SEX.MALE
+MaxGlobalQuantity:	1
+MaterialPercentages:	MATERIAL.FLESH	100%
+Name:	Il Gatto Figo Morto
+Short:	il cadavere di un gatto nero
+Descr:	Un alone verdastro ferale circonda il cadavere della povera bestia.
+DescrTouch:	Un grande potere promana dalla rigida cadaverica bestia.
+DescrSixth:	Una grande forza di nersa sfortuna accompagna chi usa il cadavere.
+ 
+Value:	10000000
+Weight:	191340g
+
+
+WeaponType:
+	Category:	WEAPON.MACE
+	Damage:	12D8+12
+	Flags:	WEAPONFLAG.ONE_HAND 
+End

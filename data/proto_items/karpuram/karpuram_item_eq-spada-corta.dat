@@ -1,0 +1,36 @@
+Code:	karpuram_item_eq-spada-corta
+
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAPON
+MaterialPercentages:	MATERIAL.BRASS	15
+MaterialPercentages:	MATERIAL.IRON	80
+MaterialPercentages:	MATERIAL.CLOTH	5
+Sex:	SEX.MALE
+Name:	Una Spada Corta
+
+Short:	una corta spada
+
+Long:	$N dalla punta tonda si trova qui.
+
+Descr:
+Questa piccola spada presenta un manico con un pomello quadrato in bronzo,
+l'impugnatura è di grezzo ferro come il resto della spada ed è leggermente
+rovinata ai bordi. La lama è particolarmente sottile in prossimità dell'elsa
+e tende ad allargarsi verso la punta che risulta tonda e quasi per niente
+affilata.
+
+Value:	0
+Weight:	500g
+
+WearType:
+   Modes: PART.WIELD
+End
+
+WeaponType:
+        Category: WEAPON.SWORD
+	Damage:	2D4+0
+        Flags: WEAPONFLAG.ONE_HAND 
+End
+
+

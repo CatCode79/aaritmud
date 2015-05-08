@@ -1,0 +1,48 @@
+Code: antro-drow_room_quellar-atrio
+Sector: SECTOR.UNDERGROUND
+Flags:	ROOM.INSIDE
+Name: quellar-atrio
+Short: quellar-atrio
+
+Descr:
+Sei 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Extras:
+	Keywords: chiave
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.NORTHEAST
+	Descr: In strada
+End
+Exits:
+	Direction: DIR.SOUTH
+	Descr: In strada
+End
+

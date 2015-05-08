@@ -1,0 +1,53 @@
+Code: home-chadyne_item_water_rosso
+Level: 1
+Entitype:	ENTITYPE.PORTAL
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+MaterialPercentages:	MATERIAL.POTTERY	100%
+Name:	Il Water [red]Rosso[close]
+Short:	un [red]water[close]
+Long:	$N è appoggiato alla parete.
+
+Descr:
+Un comune water appena più grande di quelli standard che conosciamo, il colore è un pò strano per un water.
+
+Value:	0
+Weight: 7kg
+
+PortalType:
+	Comment:	per andare di qua o di là
+	Destination: 0 0 0 home-chadyne
+	EntityEnterMessage:	$N si apre e ti inghiotte in un attimo.
+	TargetEnterMessage:	$n è risucchiato all'interno.
+End
+
+Behaviour:
+	LookPlayer:	0
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+        RandomDo:	1
+	RandomDoInputs:	emote si allarga e si stringe in un movimento continuo.
+End
+
+

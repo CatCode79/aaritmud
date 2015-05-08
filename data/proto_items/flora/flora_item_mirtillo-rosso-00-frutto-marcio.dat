@@ -1,0 +1,29 @@
+Comment: questo non è seminabile perché marcio lui e tutti i suoi semi
+Code: flora_item_mirtillo-rosso-00-frutto-marcio
+Level: 1
+Icon:	icons/plant/mirtillo-rosso.png
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name: Un Mirtillo [palevioletred]Rosso[close]
+Short: un [palevioletred]mirtillo[close]
+Long:	c'è qui $N marcescente.
+Descr:
+Un piccolo frutto globoso rosso scuro appare andato un po' troppo oltre con la maturazione.
+
+Value:	0
+Weight: 2g
+
+DescrTouch:
+È marcito completamente assieme ai suoi stessi semi.
+
+FoodType:
+	Comment:	cibo
+	Animal:	0
+	Vegetable:	100
+	CookingDamage:	0
+	Hours:	0
+End
+
+

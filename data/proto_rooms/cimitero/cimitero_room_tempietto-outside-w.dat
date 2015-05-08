@@ -1,0 +1,41 @@
+Code: cimitero_room_tempietto-outside-w
+Sector: SECTOR.RUIN
+Name: Il Perimetro del Tempietto
+Short: al margine di una piccola costruzione
+
+Descr:
+	Su questo lato del tempietto la strada si fa più ampia come raccogliesse tutte le strade
+	alle pietre tombali che scorgi in direzione ovest. L'accesso al tempietto si trova
+	proprio dalla parte opposta come a fare da guardia alla distesa lapidea.
+DescrTouch: 
+	Le pietre del selciato sono interrotte da numerosi solchi che si dipartono a raggera
+	dal tempietto per giungere alla distesa lapidea.
+DescrSmell: 
+	Il vento porta con sé l'odore della terra smossa di fresco e qualcosa di marcescente
+DescrSixth:
+	Giacché sei qui potrebbe essere un'idea andare a vedere quale è il posto migliore per
+	farsi seppellire, anche solo per evitare la ressa di quando il fenomeno diverrà modaiolo.
+DescrHearing:
+	Saltuariamente senti i morbidi suoni che accompagnano le vampe dei fuochi fatui.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.EAST
+  Descr: All'interno del tempietto
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Fra le tombe
+End
+Exits:
+  Direction: DIR.NORTH
+  Descr: Ai lati del tempietto
+End
+Exits:
+  Direction: DIR.SOUTH
+  Descr: Ai lati del tempietto
+End
+

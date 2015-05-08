@@ -1,0 +1,92 @@
+Code:	villaggio-zingaro_mob_giullare
+Level:	1
+Sex:	SEX.MALE
+Race:	RACE.PIXIE
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Il Giullare
+Short:	un giullare
+Long:	$N pende come inanimato.
+
+Descr:
+Un giullare dalla variopinta [mediumvioletred]v[darkturquoise]e[gold]s[darkturquoise]t[mediumvioletred]e[close] e lo sguardo folle, i suoi arti pendono in maniera scomposta come fosse attaccato a dei fili.
+DescrTouch: 
+Tocchicci un braccio e pare proprio in carne ed ossa.
+DescrSmell: 
+Odora di marmellata di more.
+DescrHearing:
+#villaggio-zingaro_item_cappello-giullare#Tintinna allegramente.#Cigola.#
+
+Weight: 20kg
+Height: 50cm
+
+Extras:
+	Keywords: fili filo
+	Descr:
+	La tua prima impressione era esatta, ha dei sottilissimi fili semi trasparenti applicati alle varie parti del corpo. Anche tentando di seguirli con lo sguardo non riesci a vederne l'origine, o il burattinaio.
+End
+
+Extras:
+	Keywords: marmellata more
+	Descr:
+	Effettivamente osservando meglio le $hands alcune dita sono impiaistricciate di una sostanza scusa ed appiccicosa.
+End
+
+BirthDay: 22
+BirthMonth: MONTH.ONE
+Age: 57
+
+Behaviour:
+	LookPlayer:	8
+	LookMob:	3
+	LookItem:	1
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	LookEquipment:	0
+	SmellPlayer:	0
+	ListenMob:	0
+	TouchItem:	0
+	IntuitionAtRacesFlags:	RACE.NONE
+	IntuitionAtRaces:	0
+	TasteAtEntitypesFlags:	ENTITYPE.NONE
+	TasteAtEntitypes:	0
+	WanderDirection:	0
+	WanderExit:	30
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	30
+	RandomDoInputs:	emote sembra oscillare.
+	RandomDoInputs:	emote scoppia in un'acuta risata.
+	RandomDoInputs:	emote si muove scompostamente.
+	RandomDoInputs:	emote si prodiga in un profondo inchino.
+End
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100
+
+Strength:	10
+Endurance:	10
+Agility:	10
+Speed:		10
+Intelligence:	10
+Willpower:	10
+Personality:	10
+Luck:		10

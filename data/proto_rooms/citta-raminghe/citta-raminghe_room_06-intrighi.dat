@@ -1,0 +1,31 @@
+Code: citta-raminghe_room_06-intrighi
+Sector: SECTOR.CITY
+Name: [red]Degli Intrighi e Degli Inganni[close]
+Short: [red]Il luogo degli Intrighi e degli Inganni[close]
+
+Descr:
+Una stanza dalla forma vagamente circolare le cui pareti sono ricoperte da [yellow]specchi deformanti[close].
+
+DescrSmell: 
+Un odore acre e nauseante
+DescrSixth:
+È questo il luogo dove i destini si intrecciano con [yellow]inganni[close] e [violet]menzogne[close]. La vittoria non è dei muscoli, ma della mente arguta che con astuzia e furbizia tesse complicate strategie e inestricabili trame.
+DescrHearing:
+Una litania ondeggia nell'aria.
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.EAST
+	Descr: Altrove
+End
+
+Exits:
+	Direction: DIR.DOWN
+        Flags: EXIT.NO_MOB EXIT.NO_ITEM
+	Descr: Altrove
+        Destination: 0 0 0 conflitti
+End

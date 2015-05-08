@@ -1,0 +1,51 @@
+Code: villaggio-zingaro_item_martello-fabbro 
+Level: 1
+Entitype: ENTITYPE.WEAPON
+Sex:    SEX.MALE
+MaterialPercentages:	MATERIAL.HARDWOOD 31%	
+MaterialPercentages:	MATERIAL.IRON 69%	
+Name:   Un Martello da Fabbro 
+Short:  un martello da fabbro 
+Long:   $N dall'impugnatura pronunciata
+
+
+Descr: 
+		Quest'arma viene utilizzata saltuariamente dal fabbro per perfezionare
+		la parte terminale della lavorazione degli oggetti. Il finale del 
+		martello è cubico e in ferro scuro, sulle due facce usate per lavorare
+		vi sono evidenti [silver]segni[close] di utilizzo che hanno asportato 
+		parte del rivestimento mostrando una colorazione quasi argentea. 
+		L'impugnatura è formata da un legaccio a spirale di [saddlebrown]cuoio[close] 
+		che la ricopre per intero.
+
+DescrTouch:
+		L'impugnatura è in duro cuoio, leggermente rovinato nella parte centrale
+		dove l'arma viene principalmente maneggiata. La parte cubica che rende
+		unico l'oggetto è fredda al tatto.
+
+DescrSmell:
+		Il calore del ferro ancora caldo e il sudore che trapela ancora vivo
+		dall'impugnatura del martello, sono odori che arrivano forti al tuo
+		naso.
+
+DescrSixth:
+		Hai una sensazione di smarrimento, per qualche secondo ti vedi di fronte
+		alla fornace nell'atto di forgiatura di un'arma e senti un forte calore
+		provenire dalla tua $hand, prima che la visione sparisca ti vedi 
+		impugnare un martello.
+
+
+Value:	0
+Weight: 5kg
+
+
+WearType:
+       Modes: PART.WIELD 
+End
+
+WeaponType:
+       Category: WEAPON.HAMMER
+       Damage: 3D6
+       Flags: WEAPONFLAG.ONE_HAND
+End
+

@@ -1,0 +1,23 @@
+Code:	accademia-drago_item_maniche-drago-verde
+Level:	06
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.DRAGONSCALE 100%
+Sex:	SEX.MALE
+Name:	Maniche in pelle di [lightgreen]Drago[close]
+Short:	maniche in pelle di [lightgreen]drago[close]
+
+Value:	0
+Weight:	100g
+
+Descr:
+Dei parabraccia in [lightgreen]pelle verde[close], probabilmente provengono da un drago. Incise a fuoco su tutta la superficie ci sono una moltitudine di rune che non comprendi.
+
+WearType:
+   Modes: PART.RIGHT_SHOULDER PART.RIGHT_FOREARM PART.LEFT_SHOULDER PART.LEFT_FOREARM
+End
+
+Comment:
+§27602
+
+Dati Obj
+9 16|4096|8192|131072|16777216|33554432|134217728|2147483648 1|256|81928 8 0 01 10000 0A51 5A19 2

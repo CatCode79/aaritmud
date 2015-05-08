@@ -1,0 +1,27 @@
+Code: carrozzone-zingaro_item_matassa-arruffata-rossa
+Level: 1
+MaxGlobalQuantity:	0
+Icon:	icons/item/gomitolo-rosso.png
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.WOOL 100%
+Name:	Una [red]Matassa[close] di [red]Lana[close] 
+Short: una [red]matassa[close] di [red]filo[close] colorato
+Long:	$N è qui
+
+KeywordsName: matassa
+KeywordsShort: matassa
+
+Descr:
+Una matassina arruffata di [red]lana[close] filata e tinta di un bel [red]rosso[close].
+DescrTouch: 
+Una matassina arruffata e umidiccia di morbida lana. Media misura, buona consistenza.
+DescrSmell: 
+Un vago odore di origine quasi sicuramente vegetale.
+DescrSixth:
+Un pregevole campione di lana di buona qualità tinto di un colore rosso di natura vegetale
+
+Value:	0
+Weight: 150g
+
+

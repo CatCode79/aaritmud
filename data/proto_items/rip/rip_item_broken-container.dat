@@ -1,0 +1,19 @@
+Comment: conveniente negli oggetti rotti l'uso dell'etichetta %material
+Code: rip_item_broken-container
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.WOOD	100%
+Sex:	SEX.MALE
+Name:	Un Contenitore Ridotto ad un Mucchio di Pezzi di %material
+Short:	un contenitore ridotto ad un mucchio di pezzi di %material
+Long:	c'è $N sparpagliati
+
+Descr:
+Era un contenitore ed è stato aperto nel modo meno efficace ed a senso unico.
+DescrTouch: 
+Piccoli pezzi comodamente impilabili.
+DescrSixth:
+Non si potrebbe riparare neppure con l'ausilio di dettagliate istruzioni.
+
+Weight: 100g

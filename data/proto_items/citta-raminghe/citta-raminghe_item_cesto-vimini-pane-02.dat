@@ -1,0 +1,19 @@
+Comment: Tre cesti di vimini sul tavolo ciascuno contenente pagnotte differenti 
+
+Code: citta-raminghe_item_cesto-vimini-pane-02
+Level: 3
+Entitype: ENTITYPE.CONTAINER
+MaterialPercentages:	MATERIAL.WICKERS	100%
+Name: [salmon]Cesto rettangolare di vimini[close]
+Short: un grande [salmon]cesto di vimini[close] di forma rettangolare
+Long:	$N emana un profumo che ti fa venir fame
+Descr: Un cesto di vimini di forma rettangolare abbastanza profondo
+
+Value:	0
+Weight: 2kg
+
+ContainerType:
+        MaxWeight: 10kg
+End
+
+

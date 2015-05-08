@@ -1,0 +1,66 @@
+Code:	arena-drago_room_35-corridoio
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Un Corridoio
+Short:	un corridoio
+	Descr:
+Qui il corridoio è praticamente avvolto dalle tenebre, devi
+tastare le pareti per capire dove stai andando, a tentoni ti
+accorgi che ad ovest c'è una porticina, su di essa c'è una
+sorta di incisione. Puoi oltrepassare la porta oppure dirigerti a
+nord o sud.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	1|64 0
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	un corridoio
+	Comment:	ExitStatus	0 0 27734 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	la fine del corridoio
+	Comment:	ExitStatus	0 0 27736 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	Scintillio di luci
+	Comment:	ExitStatus	1 0 27747 -1
+End
+Extras:
+	Keywords:	incisione
+		Descr:
+Tocchi lìincisione, ne segui i contorni e lentamente nella tua
+mente si disegna un fulmine. Chissa che vorrà dire.
+
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+Code: follow
+
+ItalianKeywords: segui
+EnglishKeywords: follow
+
+Entitype: HELP.GROUP
+
+Text:
+Il comando $tfollow ti permette di seguire un altro giocatore, puoi farlo sia
+per essere accompagnato in qualche luogo o al fine di entrare a far parte del
+suo gruppo per affrontare qualche avventura.
+Se in qualsiasi momento volessi smettere di seguire quel giocatore devi
+semplicemente scrivere $tfollow &lt;[darkgreen]tuo nome[close]&gt; e tornerai a seguire te stesso.
+
+
+SeeAlso: group

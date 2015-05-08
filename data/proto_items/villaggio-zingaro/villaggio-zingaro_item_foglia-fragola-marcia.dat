@@ -1,0 +1,28 @@
+Code: villaggio-zingaro_item_foglia-fragola-marcia
+
+Level: 1
+Entitype:	ENTITYPE.FOOD	
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.FRUIT 100%	
+Name:
+Una Fragola Marcia
+Short:
+una fragola
+Long:
+$N sta marcendo qui.
+
+Descr:
+Una modesta fragola in evidente stato di putrefazione ha perso tutto il suo vivace colore.
+DescrTouch: 
+Ha perso la sua naturale turgidità ed è ricoperta da uno velo di poltiglia viscido
+DescrTaste:
+Non è proprio il caso di mangiarla, a meno che non si voglia andare incontro a gravi problemi intestinali!
+DescrSmell:
+Quello che un tempo era il suo aroma caratteristico è ormai coperto dal puzzo di putridume e letame.
+
+Value:	0
+Weight: 10g
+
+
+
+

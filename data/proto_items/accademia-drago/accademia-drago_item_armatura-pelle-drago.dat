@@ -1,0 +1,23 @@
+Code:	accademia-drago_item_armatura-pelle-drago
+Level:	06
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.DRAGONSCALE 100%
+Name:	Armatura in Pelle di [gray]Drago[close]
+Short:	armatura in pelle di [gray]drago[close]
+
+Value:	10
+Weight:	100g
+
+Descr:
+	Un armatura in pelle di drago
+
+WearType:
+   Modes: PART.BODY
+End
+
+Comment:
+§27603
+
+Dati Obj
+9 1|16|64|256|4096|8192|16384|131072|33554432|67108864|134217728|2147483648 1|8|81928 8 0 01 0 0A51 5A26 96A28 512A17 -40A13 15

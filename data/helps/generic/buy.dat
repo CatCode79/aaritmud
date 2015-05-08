@@ -1,0 +1,20 @@
+Code: buy
+
+ItalianKeywords: compra 
+EnglishKeywords: buy 
+
+Entitype: HELP.GENERIC
+
+Text:
+Il comando $tbuy ti permette di comprare un oggetto da un venditore oppure
+in un negozio.
+
+Il comando $tlist ti mostra gli oggetti che il venditore può darti, mentre
+$tlist &lt;[darkgreen]oggetto[close]&gt; ti mostra solo gli oggetti con quel nome.
+
+Il comando $tsell &lt;[darkgreen]oggetto[close]&gt; vende un oggetto ad un negoziante, ma se prima 
+vuoi sapere quanto può valere tale oggetto usa il comando $tvalue &lt;[darkgreen]oggetto[close]&gt;
+per farti dire dal negoziante quanto sarebbe disposto a pagartelo.
+
+
+SeeAlso: list sell

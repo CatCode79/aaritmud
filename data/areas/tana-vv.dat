@@ -1,0 +1,18 @@
+Comment:
+Area delle cose di vv
+
+Creators:	Valerio
+Code: tana-vv
+Name: La Tana di VV
+Short: la tana di VV
+Descr:
+Nascondiglio di tutte le nefandezze di VV, lasciate ogne speranza, voi ch'intrate.
+Color: COLOR.PALEGREEN perché piace a VV
+Level: 1
+RepopTime: 10
+LandfillCode:	tana-vv_room_tana
+
+RoomResets:
+  ProtoRoom: tana-vv_room_tana
+	Destination:	0 0 0 tana-vv
+End

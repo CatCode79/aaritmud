@@ -1,0 +1,70 @@
+Code:   citta-raminghe_mob_filosofo
+Level:  3
+Sex:    SEX.MALE
+Race:   RACE.HUMAN
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:   Un Filosofo
+Short:  un filosofo
+Long:   $N cammina per la stanza parlando a voce alta.
+
+Descr:
+Un ometto altezzoso e irriverente si pavoneggia con se stesso girando per l'accademia.
+Indossa un abito di tessuto nero molto curato e di pregiata fattura, un [red]gilet[close] 
+dall'acceso colore rosso spunta da sotto, un paio di pantaloni e delle scarpe con
+tacco completano la figura. Con entrambe le mani tiene ben aperta una pergamena e
+di tanto in tanto legge qualche frase commentandola ad alta voce.
+
+DescrSmell:
+Avverti un'aria di superiorità, una puzza di snobismo molto forte.
+
+DescrSixth:
+Potrebbe essere pericoloso soffermarsi troppo ad ascoltarlo.
+
+Weight: 65kg
+Height: 180cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 45
+
+MaxLife:        300
+Life:           300
+MaxMana:        200
+Mana:           200
+MaxVigour:      300
+Vigour:         300
+
+Strength:       15
+Endurance:      13
+Agility:        13
+Speed:          12
+Intelligence:   19
+Willpower:      19
+Personality:    18
+Luck:           12
+
+Behaviour:
+        LookPlayer:     0
+        LookMob:        0
+        LookItem:       0
+        LookAtRacesFlags:       RACE.NONE
+        LookAtRaces:    0
+        LookAtEntitypesFlags:   ENTITYPE.NONE
+        TasteAtEntitypesFlags:  ENTITYPE.NONE
+        WanderDirection:        0
+        WanderExit:     0
+        WanderWall:     0
+        WanderClosedDoor:       0
+        WanderAtExitsFlags:     DIR.NONE
+        WanderAtExits:  0       
+        WanderArea:     0
+        WanderPortal:   0
+        WanderEnterContainer:   0
+        WanderExitContainer:    0
+        WanderSelf:     0
+        RandomDo:       10
+        RandomDoInputs: emote cammina completamente assorto dalle sue parole.
+        RandomDoInputs: say Il sapere è una forma d'arte che dev'essere tramandata.
+        RandomDoInputs: say Sono d'accordo ma bisogna saper scegliere bene.
+        RandomDoInputs: emote è molto preso dal suo ego e dai suoi discorsi.
+End

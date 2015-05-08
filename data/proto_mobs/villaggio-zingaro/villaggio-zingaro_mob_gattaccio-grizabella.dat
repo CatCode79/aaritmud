@@ -1,0 +1,91 @@
+Code:   villaggio-zingaro_mob_gattaccio-grizabella
+Level:  1
+Sex:    SEX.MALE
+Race:   RACE.CAT
+Flags:	FLAG.REPOP_ONLY_ON_EXTRACT
+Name:   La Gatta Grizabella
+Short:  un [teal]gattaccio[close]
+Long:   $N vaga mollemente.
+
+Descr:
+Un [teal]pulcioso felino[close] e dall'incedere poco convinto, zoppica vistosamente e il pelo irsuto ed annodato manca su gran parte del posteriore e della coda.
+L'aspetto trasandato e malaticcio non gli impediscono comunque di guardare chiunque con fare altezzoso.
+DescrTouch: 
+Non ti avvicini nemmeno, non vorresti prendere qualche brutta malattia.
+DescrSmell: 
+Puzza di pesce. 
+DescrSixth:
+Oh, è una femmina.
+DescrHearing:
+Respira a fatica e sembra sul punto di vomitare.
+
+Weight: 15kg    
+Height: 30cm    
+
+BirthDay: 13    
+BirthMonth: MONTH.SEVEN
+Age: 10
+        
+Behaviour:
+        LookPlayer:     0
+        LookMob:        0
+        LookItem:       0
+        LookAtRacesFlags:       RACE.NONE
+        LookAtRaces:    0
+        LookAtEntitypesFlags:   ENTITYPE.NONE
+        LookAtEntitypes:        0
+        LookSelf:       0
+        LookDirection:  0
+        LookExit:       0
+        LookWall:       0
+        LookClosedDoor: 0
+        LookExtra:      0
+        LookEquipment:  0
+        SmellPlayer:    0
+        ListenMob:      0
+        TouchItem:      0
+        IntuitionAtRacesFlags:  RACE.NONE
+        IntuitionAtRaces:       0
+        TasteAtEntitypesFlags:  ENTITYPE.NONE
+        TasteAtEntitypes:       0
+        WanderDirection:        0
+        WanderExit:     30
+        WanderWall:     0
+	WanderAtSectors:	SECTOR.PATH SECTOR.ROAD
+        WanderClosedDoor:       0
+        WanderAtExitsFlags:      DIR.NONE
+        WanderAtExits:   0       
+        WanderArea:     0
+        WanderPortal:   0
+        WanderEnterContainer:   5
+        WanderExitContainer:    9
+        WanderSelf:     0
+        RandomDo:       30
+        RandomDoInputs: emote ti scruta con arroganza.
+        RandomDoInputs: emote si gratta ripetutamente dietro ad un orecchio.
+End
+
+MaxLife:        90
+Life:           90
+MaxMana:        100
+Mana:           100
+MaxVigour:      100
+Vigour:         100
+
+Strength:       20
+Endurance:      20
+Agility:        40
+Speed:          40
+Intelligence:   33
+Willpower:      33
+Personality:    33
+Luck:           30
+
+Walker:
+        GoVerbYou:      Ti trascini
+        GoVerbIt:       si trascina
+        ComeVerbIt:     arriva zoppicando
+        RunVerbYou:     Trotterelli scoordinato
+        RunVerbIt:      trotterella scoordinato
+	RunnedVerbIt:	arriva trotterellando scoordinato
+End

@@ -1,0 +1,47 @@
+Code:	novizi2_mob_swoomy
+Level:	1
+Sex:	SEX.MALE
+Race:	RACE.HALFLING
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Swoomy
+Short:	un vecchietto canuto e bianco
+Long:	$N ti sorride in modo scherzoso
+
+Descr:
+Un vecchierello di antico pelo ed innumerevoli inverni.
+Le rughe lo scavano profonde e sul volto gli piegano i lineamenti a conferire un involontario sorriso beffardo.
+DescrTouch: 
+no_send
+DescrSmell: 
+La dedizione all'alcol vince su quella alla pulizia di un buon 3 a 0.
+DescrSixth:
+Non v'è chi non percepisca un certo senso d'incompiuto malessere nello stargli accanto.
+DescrHearing:
+no_send
+DescrTaste:
+no_send
+
+Weight: 69kg
+Height: 120cm
+Value:	60
+
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 94
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100
+
+Strength:	10
+Endurance:	10
+Agility:	30
+Speed:		10
+Intelligence:	10
+Willpower:	10
+Personality:	10
+Luck:		30

@@ -1,0 +1,33 @@
+Code: practice
+
+ItalianKeywords: talento talenti pratica pratiche
+EnglishKeywords: talent talents practice practices
+
+Entitype: HELP.GENERIC
+
+Text:
+Ogni giocatore può apprendere nel corso della sua vita in queste terre una
+serie di [darkgreen]abilità[close], [darkgreen]incantesimi[close] e [darkgreen]armi[close] a seconda del tipo di vita che
+ha scelto di seguire.
+
+Per sapere quali abilità, incantesimi o armi puoi imparare, hai già imparato
+e quanto le conosci, devi usare il comando $tpractice che ti mostrerà un elenco.
+Puoi consultare questo elenco in qualunque momento e ovunque ti trovi.
+In fondo all'elenco delle abilità e incantesimi puoi vedere quante sessioni 
+di pratica hai a tua disposizione per imparare nuove abilità (1 sessione 
+corrisponde a 1 lezione), le sessioni non utilizzate ti resteranno fino a 
+che non sceglierai di usarle.
+
+Se invece vuoi imparare una determinata abilità devi recarti da un Maestro,
+e quando sei davanti a lui usare il comando $tpractice [darkgreen]nome abilità[close] (per
+sapere cosa fa un incantesimo o un abilità scrivi $thelp [darkgreen]abilità[close]).
+La percentuale di apprendimento di un abilità parte da 0% (non imparata),
+potrai apprenderla dal maestro fino ad un certo livello di conoscenza dopo il
+quale dovrai continuare a migliorarne la conoscenza con l'uso portandola 
+al massimo (che non è necessariamente il 100%).
+
+Tutti i giocatori possono andare dal Maestro dell'Accademia per imparare nuove
+abilità oppure dal Maestro della propria Gilda.
+
+
+SeeAlso: skills spells

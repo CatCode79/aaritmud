@@ -1,0 +1,83 @@
+Code:	novizi2_mob_venditore-amuleti
+Level:	1
+Sex:	SEX.MALE
+Race:	RACE.TUAREG
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	[crimson]Tendine[close] il Venditore di Amuleti
+Short:	un [crimson]venditore[close] ambulante di amuleti
+Long:	$N dagli occhi tristi
+
+Descr:
+#looker is RACE.TUAREG#Uno della tua razza senza più anima ne orgoglio, dalla schiena un po' curva.#Un individuo alto e molto magro, dalla schiena un po' curva.#
+La sua [crimson]pelle[close] tinta di rosso scarlatto.
+La Capigliatura scarmigliata vede decine di [crimson]ciuffi[close] costretti da altrettante cordicelle decorate da bianche palline d'osso.
+DescrTouch: 
+#looker is RACE.TUAREG#Uno della tua razza#Un individuo alto e# molto magro dai [crimson]capelli[close] crespi e raccolti in ciuffi sparati in tutte le direzioni.
+Di certo non oppone molta resistenza al tuo tocco anche se non pare condiscendente.
+DescrSmell: 
+Lento si fa strada più nel tuo cervello che nelle tue narici l'odore di sangue secco.
+DescrSixth:
+Un individuo alto e molto magro curvo sul suo mestiere che non lo porta da nessuna parte nonostante sia un ambulante.
+DescrHearing:
+Il suo respiro emette un fischio strozzato di tanto.
+DescrTaste:
+no_send
+
+Weight: 79kg
+Height: 210cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 34
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100
+
+Strength:	10
+Endurance:	10
+Agility:	33
+Speed:		30
+Intelligence:	10
+Willpower:	10
+Personality:	10
+Luck:		66
+
+Behaviour:
+	LookPlayer:	20
+	LookMob:	10
+	LookItem:	50
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	20
+	RandomDoInputs:	emote mette in mostra i talismani che porta al collo.
+	RandomDoInputs:	emote si accomoda i larghi pantaloni.
+	RandomDoInputs:	emote fa come per sedersi ma poi cambia idea.
+End
+
+Shop:
+	Types: SHOP.NORMAL
+        ProtoStorages:	novizi2_item_porta-amuleti
+	Buyables:	novizi2_item_amuleto-arthiksite	100%	4000
+	Buyables:	novizi2_item_amuleto-baknar	100%	1500
+	Buyables:	novizi2_item_amuleto-bottiglietta-setaria	100%	750
+	Buyables:	novizi2_item_amuleto-condylura	100%	500
+	Buyables:	novizi2_item_amuleto-cyproreus	100%	500
+	Buyables:	novizi2_item_amuleto-fhargun	100%	500
+	Buyables:	novizi2_item_amuleto-ogmjos	100%	500
+	Buyables:	novizi2_item_amuleto-titiwai	100%	500
+	Buyables:	novizi2_item_amuleto-vasuki	100%	500	(25% 5)
+End
+

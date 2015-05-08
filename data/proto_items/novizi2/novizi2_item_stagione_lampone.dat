@@ -1,0 +1,42 @@
+Code: novizi2_item_stagione_lampone
+Level: 1
+Entitype:	ENTITYPE.FOOD
+MaterialPercentages:	MATERIAL.VEGETABLE	100
+Sex:	SEX.MALE
+Name: Il [maroon]R[red]osso [maroon]L[red]ampone [close]del [maroon]R[red]istoro[close]
+Short: un [red]lampone rosso[close]
+Long:	$N spicca per grossezza e colore
+
+Descr:
+Un enorme lampone pare sia in procinto di rotolare verso te con il classico cipiglio
+aggressivo di chi non ammette repliche. O ti scansi oppure è rissa! Oh forse... si
+mangia e morta là!
+DescrTouch: 
+Toccare un lampone così grosso sodo e maturo per primi è segno d'aggressività!
+DescrSmell: 
+Profuma di lampone, tanto tanto tanto!
+DescrSixth:
+La sua giusta nemesi sei tu! Mangialo!
+DescrTaste:
+Ecco un buon inizio; è gustosissimo
+
+Value:	0
+Weight: 8g
+
+Extras:
+	Keywords: lampone
+	Descr:
+	Spontaneo sorge l'interrogativo sulla tipologia di concimi usati
+	DescrSixth:
+	Un mago potrebbe forse pagare qualcosa per avere un così ipertrofico ingrediente
+End
+
+FoodType:
+	Comment:	cibo
+	Animal:	0
+	Vegetable:	100
+	CookingDamage:	0
+	Hours:	0
+End
+
+

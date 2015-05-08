@@ -1,0 +1,25 @@
+Code:	arena-drago_item_cassetto
+Level:	06
+Entitype:	ENTITYPE.CONTAINER
+MaterialPercentages:	MATERIAL.WOOD 100%
+Sex:	SEX.MALE
+Name:	Un Cassetto
+Short:	un cassetto
+
+Value:	0
+Weight: 310g
+
+Descr:
+Un cassetto in legno.
+
+ContainerType:
+        MaxWeight: 10kg
+End
+
+Comment:
+§27701
+
+Dati Obj
+15 262144 01000 1 -1 01 0 0
+
+

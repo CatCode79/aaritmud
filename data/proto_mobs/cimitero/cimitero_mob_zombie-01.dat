@@ -1,0 +1,73 @@
+Code: cimitero_mob_zombie-01
+MaxGlobalQuantity: 5
+Level: 02
+
+Sex:	SEX.MALE
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:  Uno [darkolivegreen]Zombie[close]
+Short: un [darkolivegreen]cadavere[close]
+Long:	$N si trascina lento
+Race: RACE.UNDEAD
+
+Descr:
+Un essere dalle fattezze umane, si sta muovendo lentamente  verso di te. Ha pochi vestiti logori e strappati,
+la faccia è spenta e pallida. I suoi occhi hanno una patina bianca che non ti permette di vederne l'esatta colorazione.
+Noti che arranca con difficoltà a causa di un piede completamente storto e rotto, questo però non lo rende meno pericoloso.
+DescrTouch:
+Cerchi di toccarlo ed affondi mollemente nella carni indolenti.
+DescrSmell:
+Un effluvio nauseante frutto della decomposizione protratta lungamente nel tempo ti stordisce.
+DescrSixth:
+Non si può uccidere ciò che è già morto!
+Ma forse si può ridurre ad uno stadio privo della possibilità di nuocere.
+
+
+Behaviour:
+	LookPlayer:	5
+	LookMob:	5
+	LookItem:	2
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	5
+	LookExit:	20
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	20
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+Weight: 60kg
+Height: 170cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 190
+
+
+
+MaxLife:	80
+Life:		80
+MaxMana:	0
+Mana:		0
+MaxVigour:	50
+Vigour:		50
+
+Strength:	8
+Endurance:	8
+Agility:	8
+Speed:		5
+Intelligence:	1
+Willpower:	1
+Personality:	1
+Luck:		10

@@ -1,0 +1,38 @@
+Code: ikea_item_fermaglio
+Level:	1
+MaxGlobalQuantity: 0
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GOLD	100%
+Name:	[goldenrod]Un Prezioso Fermaglio[close]
+Short:	[goldenrod]un antico fermaglio[close]
+
+Descr: 
+Un fermaglio dall'aria antica, è formato da due parti fuse tra di loro da abili mani; 
+la prima risulta piuttosto vistosa e raffigura una [goldenrod]farfalla[close] dorata in volo con le ali spiegate, 
+la seconda invece è di forma [darkgoldenrod]oblunga[close] e [darkgoldenrod]cilindrica[close] e serve per bloccare l'oggetto tra i capelli. 
+
+DescrTouch:
+Levigata e appuntita la parte inferiore presenta una semplice lavorazione, mentre
+l'immagine della parte superiore è ruvida nelle parti descrittive delle ali.
+
+Value:	243
+Weight: 17g
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100
+
+WearType:
+        Modes: PART.HAIR
+	Flags:	WEAR.LAYERABLE
+        EntityWearMessage:      Appunti $N %s.
+        TargetWearMessage:      Attento $N, $n ti ha indossato %s.
+        OthersWearMessage:      $n appunta $N %s.
+        EntityRemoveMessage:    Sciogli i capelli sfilando $N.
+        TargetRemoveMessage:    Attento $N, $n ti ha tolto %s.
+        OthersRemoveMessage:    $n scioglie i capelli sfilando $N.
+End

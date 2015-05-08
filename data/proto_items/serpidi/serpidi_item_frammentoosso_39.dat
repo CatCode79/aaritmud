@@ -1,0 +1,27 @@
+Code:	serpidi_item_frammentoosso_39
+Level:	1
+Entitype: ENTITYPE.KEY
+MaterialPercentages:	MATERIAL.BONE	100%
+Name:	Frammento d'Osso Graffiato 
+Short:	un frammento d'osso graffiato 
+Descr: 
+Un pezzetto di osso bianco.  
+Extras:
+	Keywords:	graffio graffi 
+	Descr:
+Lo sgraffio:	
+  _ 
+ / \  
+/   \
+\   / 
+ \ /
+  -
+End
+Value:	0
+Weight: 80g
+BirthDay: 1
+BirthMonth: MONTH.TEN
+
+
+
+

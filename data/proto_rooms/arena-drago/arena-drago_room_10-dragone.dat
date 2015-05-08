@@ -1,0 +1,32 @@
+Code:	arena-drago_room_10-dragone
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	L'Arco del Dragone
+Short:	l'arco del dragone
+	Descr:
+Ti fermi senza fiato sotto l'enorme arco, ammirarlo ti fa sentire
+piccolo ed insignificante, tutta l'arcata non è altro che una
+gigantesca scultura rappresentante due draghi che si congiungono
+in un morso letale venti metri sopra la tua testa...
+Due guardie sorvegliano l'accesso e controllano i lasciapassare
+di chi va e chi viene, sembra che dopo l'arco ci si addentri in
+un mondo diverso da quello visto fino ad ora, un via vai di gente
+ti fa capire che l'arena non è chiusa al pubblico...
+Ad ovest si apre la strada rialzata mentre ad nord ci si addentra
+nei campi di addestramento.
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	4 1
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	il II livello
+	Comment:	ExitStatus	0 0 27711 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	Una strada sopraelevata
+	Comment:	ExitStatus	0 0 27709 -1
+End

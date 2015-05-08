@@ -1,0 +1,33 @@
+Code: karpuram_item_fossile_trilobite
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.STONE	100
+Sex:	SEX.MALE
+Name: Un [gray]Fossile[close] di [springgreen]Trilobite[close] 
+Short: un pietrone dagli strani rilievi
+KeywordsName: sasso sasso1
+KeywordsShort: sasso sasso2
+KeywordsShortNight: sasso sasso3
+
+Descr:
+Una pietra piatta con in rilievo la forma di un grosso crostaceo
+DescrTouch: 
+Una pietra piatta con in rilievo la forma dettagliata di crostaceo 
+
+Value:	0
+Weight: 75000g
+
+Extras:
+  Keywords: trilobite
+  Descr: Wow come hai scoperto il nome?
+  DescrSixth: he he
+End
+Extras:
+  Keywords: pietra
+  Descr:
+	riconosci senza esitazione (Nooo! Non grazie al fatto che è scritto qui) un TRILOBITE
+  DescrSixth: 
+	intuisci anche che il builder ha plasmato questo pregevole oggetto miliardi di anni fa
+	prendendo un germoglio di leccio
+End

@@ -1,0 +1,39 @@
+Code: villaggio-zingaro_item_quest-fake-fermacapelli
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GOLD	90%
+MaterialPercentages:	MATERIAL.GEM	10%
+Name:	Un Vecchio Fermaglio
+Short:	un vecchio [chocolate]fermaglio[close]
+Long:	$N sta arrugginendo qui.
+
+Descr:
+Una [chocolate]barretta metallica[close] tripartita, nella parte centrale è incastonata una [firebrick]pietra[close] sfaccettata e incorniciata da volute e trecce che si estendono fino alle estremità avviluppandosi in forme sinuose. Sul retro due spilloni paralleli si infilano in una chiusura che permette di bloccarli.
+Il tempo è stato inclemente nei confronti di quest'oggetto che risolta in più parti ossidato e scalfito.
+DescrTouch: 
+Passi la $hand lungo tutti i decori non più così lisci e sinuosi.  
+DescrSixth:
+Ti accorgi, tuo malgrado, che la gemma che ad una prima occhiata pare tanto preziosa non è altro che un fondo di bottiglia; l'intera struttura invece nonostante gli acciacchi sembra essere d'oro vero.
+È possibile che la pietra originaria sia stata sostituita dal proprietario per coprire qualche periodo di difficoltà economica.
+
+
+Value:	0
+Weight: 75g
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+        Modes: PART.HAIR
+        EntityWearMessage:	Appunti $N %part con un po' difficoltà
+        TargetWearMessage:	Attento $N, $n ti ha indossato %s.
+        OthersWearMessage:	$n appunta $N %part.
+        EntityRemoveMessage:	Rimuovi $N sfilandolo %part dove si era impigliato.
+        TargetRemoveMessage:	Attento $N, $n ti ha tolto %s.
+        OthersRemoveMessage:	$n rimuove $N sfilandolo %part.
+End
+
+Behaviour:
+	RandomDo:	10
+	RandomDoInputs:	qualcosa qui in basso emette un luccicore effimero.
+End

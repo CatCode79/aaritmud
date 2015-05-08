@@ -1,0 +1,13 @@
+Code: hitroll
+
+ItalianKeywords: hitroll hr
+EnglishKeywords: hitroll hr
+
+Entitype: HELP.INFO
+
+Text:
+Rappresenta la possibilità che hai di colpire il tuo avversario. 
+Più alto è il valore e meglio è.
+
+
+SeeAlso: damroll

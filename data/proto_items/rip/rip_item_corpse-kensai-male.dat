@@ -1,0 +1,28 @@
+Code:	rip_item_corpse-kensai-male
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CORPSE
+Sex:	SEX.MALE
+Race:	RACE.KENSAI
+MaterialPercentages:	MATERIAL.FLESH	100%
+Name:	Un tuo Simile Mort$O 
+Short:	un umano kensai mort$O
+Long:	$N afflosciato qui definitivamente 
+
+Descr:
+I resti mortali e corruttibili di #looker is RACE.KENSAI#un tuo simile.#un appartenente alla razza kensai.##
+
+DescrTouch:
+Il cadavere di #looker is RACE.KENSAI#un tuo simile presenta diverse cicatrici sulla pelle di natura precedente, non legate alla sua attuale morte.##
+
+DescrSixth:
+#looker is RACE.KENSAI#Il corpo di questo umano dev'essere stato sottoposto a prove durissime.##
+
+DescrSmell:
+#looker is RACE.KENSAI#Avverti un odore salino trasudare dagli abiti e dalla pelle di questo corpo.##
+
+DescrTaste:
+#looker is RACE.KENSAI#Il corpo di quest'uomo è robusto e muscoloso, presenta due cicatrici sul petto molto simili ad un tatuaggio.##
+
+Value:	0
+Weight:	75kg

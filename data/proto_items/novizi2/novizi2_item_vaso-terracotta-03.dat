@@ -1,0 +1,24 @@
+Code: novizi2_item_vaso-terracotta-03
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.CLAY	100%
+Name:	Un Vaso di Terracotta
+Short:	un vaso di terracotta
+Long:	$N posto a terra.
+
+Descr:
+Un vaso tondo di terracotta panciuto e dal collo stretto privo di decori.
+DescrTouch: 
+Un vaso tondo di terracotta piuttosto ruvido con il collo stretto.
+Dall'apertura passa a malapena la tua $hand. 
+
+Value:	0
+Weight: 5kg
+
+ContainerType:
+        MaxWeight: 15kg
+End
+
+

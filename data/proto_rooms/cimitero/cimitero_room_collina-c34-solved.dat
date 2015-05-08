@@ -1,0 +1,57 @@
+Code: cimitero_room_collina-c34-solved
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: La Zona delle Custodi
+Short: la camera in rovina 
+
+Descr:
+Lo spazio in cui ti trovi è una camera ottagonale scavata nella roccia invasa dall'acqua.
+Piccole alcove molto alte sono scavate negli otto lati e sormontate da decori incassati nella roccia. A fior d'acqua, a ridosso delle pareti, due altari di forma identica. Sopra gli altari un limo appicicoso.
+DescrSmell: 
+Profonda umidità carica dell'odore d'alghe.
+DescrHearing:
+La camera risuona dell'incessante gocciolio e del rimbalzare della sua eco.
+DescrSixth:
+Evidentemente all'epoca si trattava di un luogo piuttosto importante.
+L'antico disegno risalta oltre le alghe e le muffe nonostante l'incessante lavoro del tempo.
+
+Extras:
+	Keywords: antico disegno alghe muffe tempo
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+Extras:
+	Keywords: alcove alcova otto lati
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+Width:	6m
+Depth:	6m
+Height: 113m
+
+
+Exits:
+	Direction: DIR.EAST
+	Descr: La strada invasa dall'acqua
+End

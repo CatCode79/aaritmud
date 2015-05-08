@@ -1,0 +1,23 @@
+Code: villaggio-zingaro_item_corpse-lupi
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CORPSE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.EARTH	86%
+MaterialPercentages:	MATERIAL.VEGETABLE	14%
+Name:	Il Cadavere di un Faolchufar
+Short:	un mucchietto di terra ed erba
+Long:	$N scomposto.
+
+Descr:
+Delle zolle di terra abbandonate a formare un approssimativo dossetto.
+DescrTouch: 
+Matti le $hand nelle zolle umide che si disfano al tuo tocco.
+DescrSmell: 
+Puzzano terribilimente.
+DescrSixth:
+Qualcosa ti dice che fino a poco fa era qualcosa di diverso.
+DescrTaste:
+Terra..che ti aspettavi?!
+
+Weight: 20kg

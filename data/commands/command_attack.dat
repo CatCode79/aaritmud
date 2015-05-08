@@ -1,0 +1,6 @@
+FunName:   command_attack
+Type:      CMDTYPE.COMBAT
+Trust:     TRUST.PLAYER
+Position:  POSITION.REST
+Flags:     CMDFLAG.GDR
+MiniHelp:  Serve per attaccare una creatura o un giocatore.

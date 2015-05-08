@@ -1,0 +1,16 @@
+Code:	serpidi_item_magliacotone_35
+Level:	1
+Entitype: ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.CLOTH	100%
+Name:	Una Maglia di Cotone 
+Short:	una maglia di cotone 
+Descr: 
+È una maglia di cotone leggero accuratamente stirata.  
+Value:	0
+Weight: 250g
+BirthDay: 1
+BirthMonth: MONTH.TEN
+WearType:
+	Flags:	WEAR.LAYERABLE
+        Modes: PART.TORSO
+End

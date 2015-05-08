@@ -1,0 +1,39 @@
+Code: novizi_item_bovino-portale
+Level: 1
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.UNKNOWN	100
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+Name:	L'Unica Via d'Uscita
+Short:	l'unica via d'[maroon]uscita[close]
+Long:	$N è alla fine del tunnel
+
+Descr:
+L'unica via d'uscita è uno dei posti peggiori attraverso i quali passare.
+DescrTouch: 
+...e fortuna che è principalmente erbivoro.
+DescrSmell: 
+Un deciso olezzo di letame bovino, presso alcune culture è festeggiato come sintomo
+di ricchezza... e di colpo ti senti davvero MOLTO ricco.
+DescrSixth:
+Presso talune culture contemporanee, l'espressione "che culo!" sta ad indicare una
+situazione in cui un insperata fortuna ha fatto il suo ingresso. Qui la questione è
+davvero molto meno simbolica e più reale.
+DescrTaste:
+È probabile che non ti siano completamente chiare le implicazioni del tuo insano gesto.
+
+Value:	0
+Weight: 100g
+
+PortalType:
+	TargetCode:	novizi_mob_bovino_mannaro_01
+	Comment: oldDestination_: 0 0 1 novizi
+	EntityEnterMessage: Essendo $N non fai l$o schizzinos$o, ti tappi il naso ed esci...
+	TargetEnterMessage: $n decide d'attraversarti e lo anticipi repentinamente.
+	OthersEnterMessage: Con estrema mestizia $n s'infila nel$N con gli occhi che rimpiangono una morte indolore.
+	EntityExitMessage: Vivida più della luce è l'idea che non lo vorrai riprovare!
+	TargetExitMessage: Ora $n è sparit$o da $T finendo in $t.
+	OthersExitMessage: Una folata d'olezzo deciso anticipa l'arrivo di $n.
+End
+
+

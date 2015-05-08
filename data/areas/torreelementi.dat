@@ -1,0 +1,475 @@
+Code: torreelementi
+Creators: Sulfrum
+Name: La Torre degli Elementi
+Short: l'alta torre
+Descr:
+La costruzione edifcata da sempre è stata la scintilla che ha consentito l'evoluzione di tutto il Nakilen. Da lei si dipartono le vie per tutte le civiltà ed i luoghi esistenti e non solo.
+Nei sotterranei della torre è in via di realizzazione un pazzo progetto ad opera di un mercante nano che ha trovato il coraggio e le risorse per scavare sotto le fondamenta.
+
+Color: COLOR.RED
+Level: 1
+RepopTime: 15
+LandfillCode:	torreelementi_room_torre_terrazza_ne
+
+RoomResets:
+   ProtoRoom: torreelementi_room_link
+	Destination:	0 0 0 torreelementi
+End
+RoomResets:
+   ProtoRoom: torreelementi_room_cunicoli_1
+	Destination:	0 0 -1 torreelementi
+End
+RoomResets:
+  ProtoRoom: torreelementi_room_portale
+	Destination:	1 2 -3 torreelementi
+	EntityResets:
+		ProtoEntity: torreelementi_item_fiamma
+		Type: 	RESET.PUT
+		Quantity: 1
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	ikea_item_cartello-indicatore-fiamma
+	End
+	EntityResets:
+		ProtoEntity: torreelementi_item_occhiali_001
+		Type: 	RESET.PUT
+		Quantity: 1
+	End
+	EntityResets:
+		ProtoEntity: torreelementi_item_corda_elfica
+		Type: 	RESET.PUT
+		Quantity: 1
+	End
+
+End
+RoomResets:
+  ProtoRoom: torreelementi_room_giardino_s
+	Destination:	1 3 -3 torreelementi
+End
+RoomResets:
+  ProtoRoom: torreelementi_room_giardino_sw
+	Destination:	0 3 -3 torreelementi
+End
+RoomResets:
+  ProtoRoom: torreelementi_room_giardino_se
+	Destination:	2 3 -3 torreelementi
+End
+RoomResets:
+  ProtoRoom: torreelementi_room_giardino_w
+	Destination:	0 4 -3 torreelementi
+  EntityResets:
+	ProtoEntity: torreelementi_item_fontana_01
+  End
+End
+RoomResets:
+  ProtoRoom: torreelementi_room_giardino_e
+	Destination:	2 4 -3 torreelementi
+End
+RoomResets:
+  ProtoRoom: torreelementi_room_giardino_e_1
+	Destination:	3 4 -3 torreelementi
+  EntityResets:
+  	ProtoEntity: torreelementi_mob_elementale-acqua_01
+  End
+End
+
+RoomResets:
+  Comment: frutteto in alternanza di fruttificazione con le inclusioni dinamiche degli obj nel testo
+  ProtoRoom: torreelementi_room_frutteto-ew
+	Destination:	4 4 -3 torreelementi
+End
+RoomResets:
+  Comment: campo a nord -default
+  ProtoRoom: torreelementi_room_frutteto-vuoto-n1
+	Destination:	4 5 -3 torreelementi
+End
+RoomResets:
+  Comment: campo a nord ciliegie
+  Month:	MONTH.TWO
+  ProtoRoom: torreelementi_room_frutteto-carico-n1
+	Destination:	4 5 -3 torreelementi
+	EntityResets:
+		Quantity:	5
+		Type: 	RESET.ADD
+		ProtoEntity: 	torreelementi_item_frutteto-ciliegia
+	End
+End
+RoomResets:
+  Comment: campo a nord
+  ProtoRoom: torreelementi_room_frutteto-vuoto-n1
+  Month:	MONTH.FOUR
+	Destination:	4 5 -3 torreelementi
+	EntityResets:
+		Quantity:	5
+		Type: 	RESET.REMOVE
+		ProtoEntity: 	torreelementi_item_frutteto-ciliegia
+	End
+End
+
+RoomResets:
+  Comment: campo a sud - default
+  ProtoRoom: torreelementi_room_frutteto-vuoto-s1
+	Destination:	4 3 -3 torreelementi
+End
+RoomResets:
+  Comment: campo a sud albicocche
+  Month:	MONTH.THREE
+  ProtoRoom: torreelementi_room_frutteto-carico-s1
+	Destination:	4 3 -3 torreelementi
+	EntityResets:
+		Quantity:	4
+		Type: 	RESET.ADD
+		ProtoEntity:	torreelementi_item_frutteto-albicocca
+	End
+End
+RoomResets:
+  Comment: campo a sud
+  Month:	MONTH.FIVE
+  ProtoRoom: torreelementi_room_frutteto-vuoto-s1
+	Destination:	4 3 -3 torreelementi
+	EntityResets:
+		Quantity:	4
+		Type: 	RESET.REMOVE
+		ProtoEntity:	torreelementi_item_frutteto-albicocca
+	End
+End
+
+RoomResets:
+  ProtoRoom: torreelementi_room_giardino_e_2
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: torreelementi_item_catasta
+	End
+	Destination:	5 4 -3 torreelementi
+End
+RoomResets:
+  ProtoRoom: torreelementi_room_giardino_nw
+	Destination:	0 5 -3 torreelementi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	carrozzone-zingaro_item_negozio-carrozzone
+	End
+End
+RoomResets:
+  ProtoRoom: torreelementi_room_giardino_ne
+	Destination:	2 5 -3 torreelementi
+End
+RoomResets:
+  ProtoRoom: torreelementi_room_giardino_n
+	Destination:	1 5 -3 torreelementi
+  EntityResets:
+	ProtoEntity: torreelementi_mob_coccinella_01
+  End
+End
+
+RoomResets:
+  ProtoRoom: torreelementi_room_strada_n
+	Destination:	1 6 -3 torreelementi
+End
+RoomResets:
+  ProtoRoom: torreelementi_room_monoliti_1
+	Destination:	-1 4 -3 torreelementi
+End
+RoomResets:
+  ProtoRoom: torreelementi_room_monoliti_2
+	Destination:	-2 4 -3 torreelementi
+  EntityResets:
+	ProtoEntity: torreelementi_item_stele
+	Quantity: 1
+  End
+
+End
+RoomResets:
+  ProtoRoom: torreelementi_room_torre_0
+	Destination:	1 4 -4 torreelementi
+End
+RoomResets:
+  ProtoRoom: torreelementi_room_torre_1
+	Destination:	1 4 -3 torreelementi
+  EntityResets:
+	ProtoEntity: torreelementi_item_vasca_01
+	Quantity: 1
+  End
+  EntityResets:
+	ProtoEntity: torreelementi_item_ortica_01
+	Quantity: 1
+  End
+End
+RoomResets:
+  ProtoRoom: torreelementi_room_torre_2
+	Destination:	1 4 -2 torreelementi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	torreelementi_item_grappolo-glicine-01
+	End
+End
+RoomResets:
+  ProtoRoom: torreelementi_room_torre_3
+	Destination:	1 4 -1 torreelementi
+	EntityResets:
+		ProtoEntity: torreelementi_item_chiave_portale_torre_01
+		Quantity: 1
+	End
+	EntityResets:
+		ProtoEntity: torreelementi_item_catena_portale_torre_01
+		Quantity: 1
+  End
+End
+RoomResets:
+  ProtoRoom: torreelementi_room_torre_terrazza_ne
+	Destination:	2 5 -1 torreelementi
+  EntityResets:
+	ProtoEntity: torreelementi_item_sferetta_01
+  End
+End
+RoomResets:
+  ProtoRoom: torreelementi_room_torre_terrazza_nw
+	Destination:	0 5 -1 torreelementi
+End
+RoomResets:
+  ProtoRoom: torreelementi_room_torre_terrazza_se
+	Destination:	2 3 -1 torreelementi
+End
+RoomResets:
+  ProtoRoom: torreelementi_room_torre_terrazza_sw
+	Destination:	0 3 -1 torreelementi
+End
+
+RoomResets:
+  ProtoRoom: torreelementi_room_torre_terrazza_ns
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: torreelementi_item_cintura_01
+	End
+	Destination:	1 5 -1 torreelementi
+End
+RoomResets:
+  ProtoRoom: torreelementi_room_torre_terrazza_ns
+	Destination:	1 3 -1 torreelementi
+End
+RoomResets:
+  ProtoRoom: torreelementi_room_torre_terrazza_ew
+	Destination:	0 4 -1 torreelementi
+End
+RoomResets:
+  ProtoRoom: torreelementi_room_torre_terrazza_ew
+	Destination:	2 4 -1 torreelementi
+End
+RoomResets:
+  ProtoRoom: torreelementi_room_torre_4
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: torreelementi_mob_batu
+	End
+	Destination:	1 4 0 torreelementi
+End
+RoomResets:
+  ProtoRoom: torreelementi_room_torre_5
+	Destination:	1 4 1 torreelementi
+  EntityResets:
+	ProtoEntity: torreelementi_item_sughero_001
+  End
+End
+
+
+
+
+
+RoomResets:
+  ProtoRoom: torreelementi_room_sotto_1
+	Destination:	0 4 -4 torreelementi
+End
+RoomResets:
+  ProtoRoom: torreelementi_room_sotto_2
+	Destination:	-1 4 -4 torreelementi
+End
+RoomResets:
+  ProtoRoom: torreelementi_room_sotto_3
+	Destination:	-1 3 -4 torreelementi
+End
+RoomResets:
+  ProtoRoom: torreelementi_room_sotto_4
+	Destination:	-2 4 -4 torreelementi
+End
+RoomResets:
+  ProtoRoom: torreelementi_room_sotto_5
+	Destination:	-1 5 -4 torreelementi
+End
+RoomResets:
+  Comment: qui inizia la via che scende con il pozzo (pozzo_01)
+  ProtoRoom: torreelementi_room_sotto_6
+	Destination:	2 4 -4 torreelementi
+End
+RoomResets:
+  ProtoRoom: torreelementi_room_sotto_7
+	Destination:	0 5 -4 torreelementi
+End
+RoomResets:
+  ProtoRoom: torreelementi_room_sotto_8
+	Destination:	1 5 -4 torreelementi
+End
+ RoomResets:
+  ProtoRoom: torreelementi_room_sotto_9
+	Destination:	2 5 -4 torreelementi
+End
+ RoomResets:
+  ProtoRoom: torreelementi_room_pozzo_01
+	Destination:	2 4 -5 torreelementi
+End
+ RoomResets:
+  ProtoRoom: torreelementi_room_pozzo_02
+	Destination:	2 4 -6 torreelementi
+End
+ RoomResets:
+  ProtoRoom: torreelementi_room_pozzo_03
+	Destination:	3 5 -6 torreelementi
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	torreelementi_mob_temolo-01
+	End
+End
+ RoomResets:
+  ProtoRoom: torreelementi_room_pozzo_04
+	EntityResets:
+		ProtoEntity: torreelementi_item_guscio-essere
+	End
+	Destination:	3 6 -6 torreelementi
+End
+ RoomResets:
+  ProtoRoom: torreelementi_room_fungheria_01
+	Destination:	4 5 -4 torreelementi
+End
+ RoomResets:
+  ProtoRoom: torreelementi_room_fungheria-magazzino-nascosto-02
+	Destination:	4 5 -5 torreelementi
+End
+ RoomResets:
+  ProtoRoom: torreelementi_room_fungheria-magazzino-nascosto-01
+	Destination:	4 4 -5 torreelementi
+End
+
+ RoomResets:
+  ProtoRoom: torreelementi_room_fungheria_02
+	Destination:	3 6 -4 torreelementi
+ End
+ RoomResets:
+  ProtoRoom: torreelementi_room_fungheria_03
+	Destination:	3 4 -4 torreelementi
+ End
+ RoomResets:
+  ProtoRoom: torreelementi_room_fungheria_04
+	Destination:	4 4 -4 torreelementi
+ End
+ RoomResets:
+  ProtoRoom: torreelementi_room_fungheria_11
+	Destination:	4 3 -4 torreelementi
+  EntityResets:
+	ProtoEntity: torreelementi_mob_faura_01
+	Quantity: 9
+  End
+ End
+ RoomResets:
+  ProtoRoom: torreelementi_room_fungheria_05
+	Destination:	5 4 -4 torreelementi
+ End
+ RoomResets:
+  ProtoRoom: torreelementi_room_fungheria_06
+	Destination:	5 5 -4 torreelementi
+ End
+ RoomResets:
+  ProtoRoom: torreelementi_room_fungheria_07
+	Destination:	5 6 -4 torreelementi
+ End
+ RoomResets:
+  Comment: negozio
+  ProtoRoom: torreelementi_room_fungheria_10
+	Destination:	6 7 -4 torreelementi
+  EntityResets:
+	ProtoEntity: torreelementi_mob_negoziante_01
+	EntityResets:
+		Quantity: 2
+		Type: RESET.PUT
+		ProtoEntity: torreelementi_item_bustina-faura
+			EntityResets:
+				Quantity:	1
+				Type: 	RESET.PUT
+				ProtoEntity: 	torreelementi_item_foglietto-illustrativo-faura
+			End
+			EntityResets:
+				Quantity: 3
+				Type: RESET.PUT
+				ProtoEntity: torreelementi_item_spore-faura
+			End
+	End
+  End
+  EntityResets:
+	ProtoEntity: torreelementi_item_book_001
+  End
+  EntityResets:
+	ProtoEntity: torreelementi_item_book_001
+  End
+  EntityResets:
+	ProtoEntity: torreelementi_item_book_002
+  End
+  EntityResets:
+	ProtoEntity: torreelementi_item_candelabro_001
+  End
+  EntityResets:
+	ProtoEntity: torreelementi_item_candelabro_002
+  End
+  EntityResets:
+	ProtoEntity: torreelementi_item_botte_rovere_01
+  End
+  EntityResets:
+	ProtoEntity: torreelementi_item_bauletto_01
+	EntityResets:
+		Quantity: 10
+		Type: RESET.PUT
+		ProtoEntity: torreelementi_item_bustina-faura
+			EntityResets:
+				Quantity:	1
+				Type: 	RESET.PUT
+				ProtoEntity: 	torreelementi_item_foglietto-illustrativo-faura
+			End
+			EntityResets:
+				Quantity: 3
+				Type: RESET.PUT
+				ProtoEntity: torreelementi_item_spore-faura
+			End
+	End
+  End
+ End
+ RoomResets:
+  ProtoRoom: torreelementi_room_fungheria_08
+	Destination:	4 6 -4 torreelementi
+ End
+ RoomResets:
+  ProtoRoom: torreelementi_room_fungheria_09
+	Destination:	4 7 -4 torreelementi
+  EntityResets:
+	ProtoEntity: torreelementi_item_fungo_gabbia_01
+        Quantity: 3
+  End
+  EntityResets:
+	ProtoEntity: torreelementi_item_fungo_gabbia_02
+        Quantity: 25
+  End
+ End
+ RoomResets:
+  ProtoRoom: torreelementi_room_fungheria_12
+	Destination:	7 5 -4 torreelementi
+ End
+ RoomResets:
+  ProtoRoom: torreelementi_room_fungheria_13
+	Destination:	6 5 -4 torreelementi
+ End
+
+

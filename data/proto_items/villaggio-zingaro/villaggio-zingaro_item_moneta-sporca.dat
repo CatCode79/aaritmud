@@ -1,0 +1,28 @@
+Code: villaggio-zingaro_item_moneta-sporca
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.SILVER 100%	
+Icon:	icons/item/moneta-sporca.png
+Name:	Una Moneta Sporca
+Short:	una moneta sudicia
+Long:	$N 
+
+Descr:
+Una moneta ricoperta da un sottile strato di sporcizia sotto il quale si intravedono delle figure.
+DescrTouch: 
+Una moneta ricoperta da un sottile strato di sporcizia con il bordo leggermente ondulato.
+
+Extras:
+	Keywords: figure figura
+	Descr:
+	Osservando meglio ti sembra di intravedere un numero: 10.
+	Sull'altro lato invece scorgi quello che sembra essere un uccello.
+End
+
+Value:	0
+Weight: 4g
+
+
+

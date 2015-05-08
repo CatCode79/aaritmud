@@ -1,0 +1,16 @@
+Code: torreelementi_item_sorgenti_001
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.PAPER	100%
+Name: I sorgenti [cyan]C#[close] del [green]gatto[close]
+Short: dei fogli con scritte mistiche
+Long:	$N son sparsi qui senza cura
+Descr:
+A discapito di tutto quello che puoi pensare, qui ci sono i sorgenti di Aarit...
+È scritto in C#. Noooooo! Voglio Morire!
+
+Value:	0
+Weight: 750g
+
+

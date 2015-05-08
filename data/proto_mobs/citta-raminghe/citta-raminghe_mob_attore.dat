@@ -1,0 +1,67 @@
+Code:   citta-raminghe_mob_attore
+Level:  2
+Sex:    SEX.MALE
+Race:   RACE.HUMAN
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:   Un Attore Teatrale
+Short:  un bravo attore
+Long:   $N sta recitando sul palco.
+
+Descr:
+Un fiero attore sta recitando con attenzione la sua parte rivolgendosi ad
+un'altra figura posizionata proprio davanti a lui, girandosi ogni tanto verso il pubblico
+presente sembra quasi che ti stia indicando. Indossa una [orange]veste[close] arancione molto lunga
+che gli arriva alle caviglie e le copre quasi per intero.
+DescrHearing:
+Un forte vociare, tante parole in rima per un attore navigato ed esperto.
+DescrSixth:
+Non credi possa essere possibile ma hai la sensazione che l'attore ce l'abbia proprio con te.
+
+Weight: 65kg
+Height: 180cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 25
+
+MaxLife:        200
+Life:           200
+MaxMana:        100
+Mana:           100
+MaxVigour:      200
+Vigour:         200
+
+Strength:       14
+Endurance:      15
+Agility:        12
+Speed:          12
+Intelligence:   16
+Willpower:      12
+Personality:    18
+Luck:           12
+
+Behaviour:
+        LookPlayer:     20
+        LookMob:        0
+        LookItem:       0
+        LookAtRacesFlags:       RACE.NONE
+        LookAtRaces:    0
+        LookAtEntitypesFlags:   ENTITYPE.NONE
+        TasteAtEntitypesFlags:  ENTITYPE.NONE
+        WanderDirection:        0
+        WanderExit:     0
+        WanderWall:     0
+        WanderClosedDoor:       0
+        WanderAtExitsFlags:     DIR.NONE
+        WanderAtExits:  0       
+        WanderArea:     0
+        WanderPortal:   0
+        WanderEnterContainer:   0
+        WanderExitContainer:    0
+        WanderSelf:     0
+        RandomDo:       10
+        RandomDoInputs: emote a volte sorride altre volte sembra serio.
+        RandomDoInputs: say Hai ragione, fintanto che non avrò dimostrato che hai torto!
+        RandomDoInputs: say E come credi di poter risolvere quella questione?
+        RandomDoInputs: emote si muove avanti e indietro sul palco.
+End

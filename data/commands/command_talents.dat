@@ -1,0 +1,5 @@
+FunName:    command_talents
+Type:       CMDTYPE.INFORMATION
+Trust:      TRUST.PLAYER
+Position:   POSITION.DEAD
+MiniHelp:   Serve per aprire l'interfaccia di distribuzione degli eventuali talenti.

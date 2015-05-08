@@ -1,0 +1,63 @@
+Code: antro-drow_room_quellar-camera
+Sector: SECTOR.UNDERGROUND
+Flags:	ROOM.INSIDE
+Name: La Camera Privata della Sacerdotessa
+Short: un'enorme camera
+
+Descr:
+Ti trovi in un'immensa semisfera scavata nel marmo nero. Davanti a te, è posto un imponente [yellow]letto[close] a baldacchino; alla tua destra un grande [yellow]paravento[close] copre parzialmente una nicchia, che sembra contenere un [yellow]gioiello[close]. Nel lato opposto è stato ricavato dalla roccia un grande [yellow]camino[close].
+
+DescrTouch:
+#looker is RACE.DROW#Appoggi il palmo della mano e la guancia alla parete: è liscia e sorprendentemente calda. Aderisci completamente col corpo per immergerti in quel calore, quasi in modo perverso.#Appoggi il palmo della mano alla parete e ti avvicini lentamente con la guancia: è liscia e inaspettatamente calda; ti ritrai immediatamente. Quel calore... un senso di paura e di desiderio ti pervade.#
+
+
+DescrSmell:
+#looker is RACE.DROW#Respiri profondamente, ti riempi i polmoni: l'aria è intrisa di un profumo vagamente dolce e denso, ti sembra di poterlo assaporare con la lingua. Ti senti appagato fisicamente e mentalmente.#Cerchi di fare dei profondi respiri, ma l'aria è troppo pensante e opprimente. Ingoi a fatica e senti che l'odore troppo dolciastro e penetrante ti è arrivato in gola, quasi a soffocarti.#
+
+DescrSixth:
+#looker is RACE.DROW#Il potere, misto di oscurità e lussuria, ti pervade come un fiume in piena. Ti crogioli in questa fonte di godimento che la stanza emana come eco del suo passato.#L'ambiente è colmo di oscurità e lussuria; ti pervadono come un fiume in piena... senti il tuo corpo fremere, un misto di piacere e terrore.#
+
+DescrHearing: 
+Ti sembra di poter sentire i gemiti e le urla di piacere che una volta riempivano questa stanza.
+
+DescrTaste:
+#looker is RACE.DROW#Avvicini delicatamente le labbra e assapori il calore; lecchi la parete con movimenti lunghi e lenti, per assorbire il gusto di piacere ed estasi.#Avvicini delicatamente le labbra e senti che bruciano. Ti allontani, col rammarico, irrazionale, di non poter godere di quel calore, così lontano dal tuo essere.#
+
+
+Extras:
+	Keywords: camino
+	Descr:
+	Un caminetto ampio tanto da poter contenere un bovino vivo ma sorprendentemente è chiuso nella parte superiore.
+End
+Extras:
+	Keywords: gioiello
+	Descr:
+	È una decorazione della parete e rappresenta un diadema oscuro
+End
+Extras:
+	Keywords: paravento
+	Descr:
+	Un paravento di materiale nero composto di cinque pannelli incernierati fra loro
+End
+Extras:
+	Keywords: letto
+	Descr:
+	Un letto a baldacchino maestoso ed imponente
+End
+
+Width:	20m
+Depth:	20m
+Height: 7m
+
+Exits:
+	Direction: DIR.NORTHWEST
+	Descr: Un lungo corridoio
+End
+Exits:
+	Direction: DIR.SOUTH
+	Descr: Una stanza più contenuta
+End
+Exits:
+	Direction: DIR.EAST
+	Descr: Verso la sala
+End

@@ -1,0 +1,23 @@
+Code:	accademia-drago_item_maniche-drago-rosso
+Level:	06
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.DRAGONSCALE 100%
+Sex:	SEX.MALE
+Name:	Maniche in pelle di [red]Drago[close]
+Short:	maniche in pelle di [red]drago[close]
+
+Value:	0
+Weight:	100g
+
+Descr:
+Dei parabraccia in [red]pelle rossa[close], probabilmente provengono da un drago. Incise a fuoco su tutta la superficie ci sono una moltitudine di rune che non comprendi.
+
+WearType:
+   Modes: PART.RIGHT_SHOULDER PART.RIGHT_FOREARM PART.LEFT_SHOULDER PART.LEFT_FOREARM
+End
+
+Comment:
+§27601
+
+Dati Obj
+9 64|16384|32768|131072|4194304|67108864 1|2568 8 0 01 10000 0A41 -10A50 5

@@ -1,0 +1,62 @@
+Code: ikea_item_foglio-quest-01
+Level: 1
+MaxGlobalQuantity:	0
+Sex: SEX.MALE
+Entitype: ENTITYPE.READABLE
+MaterialPercentages:	MATERIAL.CLOTH	100%
+Name: Un Foglio di Ingaggio
+Short: un drappo di tessuto inchiostrato
+Long: $N con calligrafia insicura
+
+Descr:
+Un foglio ricavato tagliando un panno di cotone dal colore paglierino.
+Ai cinque vertici (l'impressione però è che si volesse fare un rettangolo) ci sono i quattro fori per l'affissione.
+Il vertice libero è accartocciato in segno di mesto lamento per il trattamento ineguale.
+
+DescrTouch:
+Un drappo di cotone grezzo ricavato tagliando con grande imperizia da un pezzo più grande.
+Diversi buchi ai presunti vertici sono congiunti con estro spiegazzato e sbarazzino.
+
+Value:	0
+Weight: 120g
+
+ReadableType:
+	Title: Il Foglio d'Ingaggio
+	Author: Onussen
+	Summary: Importante oggetto da restituire per ottenere quanto pattuito
+	Language: LANGUAGE.COMMON
+	Flags: READABLE.NUMBERS
+	NumberDecorationLeft:  *><*
+	NumberDecorationRight: *><*
+	VisualWidth:          300px
+	VisualHeight:         400px
+	Padding:              15px
+	BorderTop: 3px outset silver
+	BorderRight: 3px outset silver
+	BorderBottom: 3px outset silver
+	BorderLeft: 3px outset silver
+	BorderInside: 1px solid silver
+        Pages: 
+<pre class="asciiart">
+.
+.              .-.'  '.-.
+.           .-(   \  /   )-.
+.          /   '..oOOo..'   \
+.  ,       \.--.oOOOOOOo.--./
+.  |\  ,   (   :oOOOOOOo:   )
+. _\.\/|   /'--'oOOOOOOo'--'\
+. '-.. ;/| \   .''oOOo''.   /
+. .--`'. :/|'-(   /  \   )-'
+.  '--. `. / //'-'.__.'-;
+.    `'-,_';//      ,  /|
+.         '((       |\/./_
+.           \\  . |\; ..-'
+.            \\ |\: .'`--.
+.             \\, .' .--'
+.              ))'_,-'`
+.             //-'
+.            // 
+.           //
+.          |/
+</pre>
+End

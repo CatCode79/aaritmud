@@ -1,0 +1,40 @@
+Comment: STRUMENTO.MEMBRANOFONO
+i baknar di Kalte sono le bestie puzzose di "negli abissi di kaltenland" di lupo solitario.
+Preferisco tenere i nomi in originale piuttosto della traduzione italiana di Lupo Solitario
+http://www.projectaon.org/en/xhtml/lw/03tcok/sect160.htm
+
+Code: mfdonald_item_strumenti-tamburo-cornice
+Level: 1
+Entitype:	ENTITYPE.INSTRUMENT
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.WOOD	60%
+MaterialPercentages:	MATERIAL.LEATHER	37%
+MaterialPercentages:	MATERIAL.HEMP	3%
+Icon:	icons/instrument/tamburo.png
+Name:	Un [maroon]Tamburo[close] a Cornice
+Short:	un [brown]tamburello[close] portatile
+Long:	$N poggiato malamente sulla sua membrana
+
+Descr:
+	Un largo disco di legno basso presenta su un lato una pelle d'animale ben tesa. La pelle
+	è fermata sul lato opposto da [darkcyan]perline[close] cucite tenute assieme da [darkcyan]spago colorato[close].
+DescrTouch: 
+	Fai scorrere rapidamente le $hands sulla membrana improvvisando un ritmo che con
+	maggiore impegno potrebbe risultare persino gradevole.
+DescrSmell: 
+	Puzza tanto che probabilmente è realizzato con la pelle dei baknar di Kalte
+
+Value:	0
+Weight: 600g
+
+Extras:
+	Keywords: baknar
+	Descr: Un enorme carnivoro poco socevole che vive in posti freddi
+		
+	DescrSixth:
+		Un enorme carnivoro poco socevole costantemente affamato; vive sul litorale delle
+		terre di Kalte. Ha un olfatto molto sviluppato, quindi non si comprende come possa
+		sopportare la sua propria puzza.
+End
+
+

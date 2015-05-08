@@ -1,0 +1,28 @@
+Code: citta-raminghe-maze_room_biblioteca_sud-est
+Sector: SECTOR.HOUSE
+Flags:  ROOM.INSIDE
+Name: La Sala dei Destini Incrociati
+Short: una [red]sala esagonale[close]
+Descr:
+Una sala di forma esagonale è veramente inconsueta a questo punto. Ma in una biblioteca, un luogo di siffatta specie, 
+avrà un suo motivo per esistere. Su ciascuno dei lati, tranne quelli su cui si aprono le uscite, noti delle nicchie rivestite di legno dentro le quali son disposti libri alla rinfusa. Avvicinandsi ancora di più puoi leggerne i [yellow]titoli[close]. 
+Sembra si tratti di storie terribili, fatti accaduti all'interno di queste stanze, avvenimenti che una mano solerte 
+ha voluto fissare su delle pagine di pergamena a futura memoria.
+
+DescrSixth:
+Una biblioteca è un luogo fantastico in cui perdersi se si ha il buon senso di ritrovarsi.
+DescrHearing:
+Rumori di passi, ma non sai percepirne la provenienza.
+
+Width:  10m
+Depth:  10m
+Height: 100m
+
+Exits:
+  Direction: DIR.SOUTH
+  Descr: in biblioteca
+End
+Exits:
+  Direction: DIR.EAST
+  Descr: in biblioteca
+End

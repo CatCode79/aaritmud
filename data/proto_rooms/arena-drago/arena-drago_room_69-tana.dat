@@ -1,0 +1,66 @@
+Code:	arena-drago_room_69-tana
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	La Tana
+Short:	la tana
+	Descr:
+Ti addentri nell'alcova da cui proveniva un sordo rumore
+sommesso, quando la caverna si apre ti rendi conto che forse non
+è stata una grande idea venire a disturbare.... Fortunatamente
+in questo luogo dimorano draghi abituati al contatto con le altre
+razze e questo scongiura l'immediato pericolo. forse però
+sarebbe meglio tornare sui propri passi senza voltarsi indietro...
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	1|64 0
+Exits:
+	Direction:	DIR.EAST
+	Descr:	il giardino dei draghi
+	Comment:	ExitStatus	0 0 27768 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

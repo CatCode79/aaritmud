@@ -1,0 +1,14 @@
+Code: fill
+
+ItalianKeywords: riempi
+EnglishKeywords: fill
+
+Entitype: HELP.ITEM
+
+Text:
+Il comando $tfill può essere usato per riempire contenitori di liquidi.
+ - per riempire un contenitore di liquidi vai ad una fontana e scrivi
+   $tfill &lt;[darkgreen]contenitore[close]&gt;
+
+
+SeeAlso: empty

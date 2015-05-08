@@ -1,0 +1,25 @@
+Code: miniere-kezaf_item_gemma-opale-di-fuoco
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_opalfire.png
+Name:	Un Opale di Fuoco
+Short:	una pietra dalle venature rosso fuoco
+Long:	$N sta qui
+
+Descr:
+Una rossa gemma grezza che dà già uno spaccato della sua preziosità. Giochi di luce di
+tutto lo spettro sono diffusi nonostante le imperfezioni e le impurezze.
+
+DescrSixth:
+Unica fra le gemme, ha un eccezionale gioco di colori: in una sola gemma possono
+apparire il rosso, il giallo, il verde, il blu, il celeste e il viola.
+
+Value:	0
+Weight: 210g
+
+
+
+

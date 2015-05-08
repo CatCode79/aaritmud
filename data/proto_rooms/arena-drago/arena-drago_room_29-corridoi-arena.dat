@@ -1,0 +1,67 @@
+Code:	arena-drago_room_29-corridoi-arena
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	I Corridoi Dell'Arena
+Short:	i corridoi dell'arena
+	Descr:
+Il corridoio prosegue, le candele che si susseguono a distanza
+regolare traballano ad ogni alito di vento causato dal tuo
+passaggio gettando ombre in movimento sulle pareti di grigia
+pietra levigata. A sud si apre una porta con una targhetta, il
+corridoio continua ad est e ovest.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	64 0
+Exits:
+	Direction:	DIR.EAST
+	Descr:	la fine del corridoio
+	Comment:	ExitStatus	0 0 27730 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	Porta
+	Comment:	ExitStatus	1 0 27731 -1
+	Door:	arena-drago_item_door-porta-corridoi-29
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	i corridoi dell'arena
+	Comment:	ExitStatus	0 0 27728 -1
+End
+Extras:
+	Keywords:	targhetta
+		Descr:
+---------------
+Aula delle Lame
+---------------
+
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

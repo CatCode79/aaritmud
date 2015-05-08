@@ -1,0 +1,35 @@
+Code: novizi2_item_amuleto-baknar
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.FUR	100%
+Name:	Un [white]Amuleto[close] con Ciuffi di [white]Baknar[close]
+Short:	un [white]amuleto[close] di pelo [white]bianco[close]
+Long:	$N stretto da un [orange]cordoncino[close] rosso
+
+Descr:
+Un amuleto costituito da un ciuffo di candido [white]pelo[close] bianco stretto all'estremità da un [orange]cordoncino[close] intrecciato in fibra rossa
+DescrTouch: 
+Un amuleto costituito da un ciuffo di ispido [white]pelo[close] stretto all'estremità da un [orange]cordoncino[close] intrecciato di fibra grezza.
+DescrSmell: 
+Un amuleto in [white]peli[close] d'animale particolarmente puzzolente, come di pesce grasso marcito al sole.
+DescrSixth:
+Un amuleto di peli di baknar, possenti animali carnivori dei climi più freddi. Rinomatissimo e prezioso è il loro puzzolentissimo olio.
+DescrTaste:
+Se le sue virtù sono trasmesse dal cattivo sapore c'è da sperare te le abbia trasferite tutte in una volta...
+
+Value:	50
+Weight: 10g
+
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+	Modes:	PART.NECK
+	EntityWearMessage:	Allarghi il cordino di $N e te l$O porti %part.
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	$n allarga il cordino di $N e se l$O porta %part.
+	EntityRemoveMessage:	Ti sfili $N.
+	TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+	OthersRemoveMessage:	$n si sfila $N
+End

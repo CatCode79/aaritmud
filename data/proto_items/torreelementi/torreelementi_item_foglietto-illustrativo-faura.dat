@@ -1,0 +1,67 @@
+Code: torreelementi_item_foglietto-illustrativo-faura
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.PAPER	100%
+Name:	Le Istruzioni per l'Uso
+Short:	un foglietto
+Long:	una pallotta di carta fatta con $N 
+
+Descr:
+[red]Bustina di Spore[close] - [gold]Faura Malevolo[close]
+
+---------- ----------
+
+Foglietto illustrativo da accompagnarsi ad una bustina
+cartacea con spore libere di Faura Malevolo.
+
+Conservare la bustina fuori dalla portata di chi non
+ne conosce l'utilizzo.
+
+Utilizzabile unicamente sul tipo di terreno riportato
+in calce alla confezione madre.
+
+Non vendibile singolarmente.
+
+---------- ----------
+
+[violet]I[close]struzioni [violet]P[close]er l'[violet]U[close]so
+
+Prelevare un pizzico di spore di Faura Malevolo,
+depositarle con cautela sul terreno adatto,
+attendere.
+
+- non seminare
+- non ingerire
+- non esporre le spore alla radiazione dei Quatza
+
+---------- ----------
+  
+In caso di reclamo, il latore dello stesso sarà accusato di
+manomissione volontaria fraudolenta atta a ingiuriare il
+produttore.
+Saranno pertanto prese contromisure ad assoluto titolo
+discrezionale.
+
+
+---------- ----------
+Prodotto per la:
+Umbrella Corp. Inc.
+Presso lo stabilimento de
+La Torre Elementale
+
+
+DescrTouch: 
+Un fogliettino originariamente ripiegato più e più volte. Qualcuno ha tentato vanamente di ripiegarlo nuovamente allo stesso modo con esiti clamorosamente risibili; poi deve aver perduto la pazienza.
+DescrSmell: 
+Nulla di che, è solo un po' polveroso.
+DescrSixth:
+Ecco finalmente un'azienda che non ha timore di rispondere personalmente agli interessati.
+DescrTaste:
+Un po' piccantino... forse l'operatore addetto alla piega si gratta spesso...
+
+Value:	0
+Weight: 1g
+
+

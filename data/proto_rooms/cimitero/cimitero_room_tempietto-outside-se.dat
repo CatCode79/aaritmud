@@ -1,0 +1,27 @@
+Code: cimitero_room_tempietto-outside-se
+Sector: SECTOR.RUIN
+Name: Intorno al Tempio 
+Short: attorno ad una costruzione
+
+Descr:
+La via s'allarga procedendo in direzione nord mentre diviene piuttosto castigato
+nell'altra direzione in cui s'avvolge al tempietto. Questo lato del tempietto mostra
+solo una parte muraria priva di decori. La parte superiore è priva di copertura. Al
+bordo esterno trovi dei cippi che non si comprende se anche loro voglian sembrare
+delle lapidi.
+DescrSmell: 
+Vago odore di terra smossa e putrefazione si mescolano assieme per arrivare ad un
+miscuglio discutibile
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Attorno all'edificio
+End
+Exits:
+  Direction: DIR.WEST
+  Descr: Attorno all'edificio
+End

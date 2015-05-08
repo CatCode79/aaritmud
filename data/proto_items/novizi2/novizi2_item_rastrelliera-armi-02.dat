@@ -1,0 +1,32 @@
+Code: novizi2_item_rastrelliera-armi-02
+Level: 1
+MaxGlobalQuantity:	1
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.FEMALE
+Flags:	FLAG.NO_GET FLAG.NO_LOOK_LIST
+MaterialPercentages:	MATERIAL.METAL 100%
+Name:	La Rastrelliera per Armi Lunghe
+Short:	la rastrelliera per armi lunghe
+Long:	$N è qui
+KeywordsShort: rastrelliera lunga lunghe seconda
+KeywordsName: rastrelliera lunga lunghe seconda
+
+
+Descr:
+Una rastrelliera metallica costituita da una lunga paletteria che scende dal soffitto e s'incunea a terra.
+Orizzontalmente sono fermate a distanza irregolare diverse mensole.
+Qui trovano posto le armi lunghe.
+DescrTouch: 
+Una rastrelliera costituita da una lunga paletteria che scende dal soffitto e s'incunea a terra.
+Orizzontalmente sono fermate a distanza irregolare diverse mensole.
+Qui trovano posto le armi lunghe.
+DescrSixth:
+Un manufatto recente accanto alle colonne d'ingresso... un pugno in un occhio.
+
+Value:	0
+Weight: 40kg
+
+ContainerType:
+	MaxWeight:	400kg
+        Flags:	CONTAINER.SECRET
+End

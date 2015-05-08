@@ -1,0 +1,6 @@
+FunName:    command_emote
+Type:       CMDTYPE.CHANNEL
+Trust:      TRUST.PLAYER
+Position:   POSITION.REST
+Flags:      CMDFLAG.INTERACT CMDFLAG.GDR
+MiniHelp:   E' usato per esprimere emozioni o azioni.

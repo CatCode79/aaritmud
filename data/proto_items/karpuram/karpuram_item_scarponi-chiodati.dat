@@ -1,0 +1,35 @@
+Code: karpuram_item_scarponi-chiodati
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.LEATHER	90
+MaterialPercentages:	MATERIAL.IRON	3
+MaterialPercentages:	MATERIAL.CLOTH	7
+Sex:	SEX.MALE
+Name:
+	Gli Scarponi Chiodati
+Short:
+	un paio di [darkorchid]scarponi[close] da montagna
+Long:
+	$N malamente riposti qui
+
+Descr:
+Sono davvero un semplice e anonimo paio di scarponi, che vengono usati per
+percorrere distanze considerevoli e permettono di affrontare ogni sorta di
+terreno. Presentano una serie di spuntoni chiodati sulla punta dello stivale e
+sicuramente possono essere usati per inerpicarsi su pareti scoscese o per 
+assestare qualche colpo a possibili nemici.
+
+DescrTouch:
+Toccando questi scarponi capisci subito che il cuoio utilizzato è di scarto e 
+non di prima scelta, i chiodi che lo distinguono sono molto consumati e pieni
+di ruggine, ma sembrano ancora saldamente fermati alla punta dello scarpone.
+
+WearType:
+   Modes: PART.RIGHT_FOOT PART.LEFT_FOOT
+End
+
+Value:	0
+Weight: 335g
+
+

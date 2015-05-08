@@ -1,0 +1,40 @@
+Code: flora_item_peperoncino-03-frutto-marcio
+Level: 1
+MaxGlobalQuantity:	100
+Icon:	icons/food/peperoncino.png
+Entitype: ENTITYPE.FRUIT
+Flags:  FLAG.INTERACTABLE_FROM_OUTSIDE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name: Un [red]Peperoncino[close] Ormai Marcio
+Short: un [red]peperoncino[close]
+Long:	$N sta marcendo qui in terra. 
+
+Descr:
+Un peperoncino di un [red]rosso[close] intenso che adesso lascia intravedere delle striature giallognole segnali
+inequivocabili di uno stato di marcescenza avanzata.Anche le piccole foglie all'estremità del picciolo, sono scure e 
+rinsecchite. Noti che il frutto è aperto in senso longitudinale e, trattandosi di una bacca, lascia intravedere al suo 
+interno dei semini di colore giallo luminoso, abbastanza piatti.
+
+DescrTouch:
+Il peperoncino ha perso la sua consistenza e si sfalda facilmente al tocco.
+
+DescrSmell: 
+Un odore acre di marcio e decomposizione aleggia insinuandosi nella tua sfera olfattiva.
+
+DescrSixth:
+Il buon senso ti dice che non è più il caso di utlizzarlo.
+
+Value:	0
+Weight: 40g
+
+FoodType:
+	Comment:	cibo
+	Animal:	0
+	Vegetable:	100
+	CookingDamage:	0
+	Hours:	0
+End
+
+MaxLife:	10
+Life:		3

@@ -1,0 +1,68 @@
+Code:	arena-drago_room_47-santuario
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il Santuario [mediumblue]Blu[close]
+Short:	il santuario [mediumblue]Blu[close]
+Descr:
+	Un incredibile scintillare di luci ti avvolge appena metti piede
+	in questo luogo, la stanza di forma circolare ha una piattaforma
+	centrale attorno a cui si trova un canale d'acqua in continuo
+	ricircolo grazie a una moltitudine di cascatelle che fuoriescono
+	dalle pareti; il fondo di queste vasche, le pareti, il pavimento
+	e persino la volta sono tinti in un blu acceso che crea stupendi
+	giochi di luci azzurre in tutta la sala. Al centro della
+	piattaforma si trova un altare di zaffiro che reca inciso un
+	fulmine. L'unica via d'uscita è la porta ad est da cui sei
+	entrato.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	64 0
+Exits:
+	Direction:	DIR.EAST
+	Descr:	Un corridoio
+	Comment:	ExitStatus	1 0 27735 -1
+	Door:	arena-drago_item_door-porta-santuario-47
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	Una tetra alcova
+	Comment:	ExitStatus	1|8|16|32|256|512 0 27748 372
+	Door:	arena-drago_item_door-altare-santuario-47
+End
+Extras:
+	Keywords:	zaffiro fulmine
+	Descr:
+		Un'incredibile esempio di scultura delle pietre dure, un enorme
+		zaffiro probabilmente creato con mezzi magici è stato poi
+		scolpito a forma di un bellissimo altare. Completamente bordato
+		da immagini di draghi porta al centro il simbolo del fulmine.
+
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+Code: maze_item_certificato-uscita
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.PARCHMENT	100%
+Name:	Il Certificato di Traguardo del Labirinto
+Short:	il certificato di traguardo del labirinto
+Long:	Arrotolato in un angolo c'è $N rilasciato a $n
+
+Descr:
+Certificato redatto in carta semplice dal quale si evince che $n è giunto al termine del labirinto.
+
+DescrTouch: 
+Un involto cartaceo che non contiene altro che sé stesso; arrotolato con non troppa cura.
+DescrSmell: 
+Un tremendo odore di menzogna promana dal certificato che solo la firma di un notaio
+potrebbe coprire.
+DescrSixth:
+Un certificato fasullo
+DescrTaste:
+Uhh.. il vecchio inchiostro di quercia ricavato dalle galle!
+
+Value:	0
+Weight: 19g
+
+

@@ -1,0 +1,41 @@
+Code: miniere-kezaf_item_gemma-grezza-andalusite
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Name:	Una Gemma di [yellow]Andalusite[close] Grezza
+Short:	una [yellow]pietra[close] con grossi prismi quadrati di un giallo affumicato
+Long:	$N è qui
+
+Descr:
+Un pezzo di [yellow]roccia[close] dal quale sporgono cristalli prismatici quadrati dal colore giallo fumè.
+DescrTouch: 
+Un pezzo di [yellow]roccia[close] dalla quale sporgono irregolari cristalli prismatici a taglio quadrato.
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Value:	0
+Weight: 10g
+
+Extras:
+	Keywords: chiave
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End

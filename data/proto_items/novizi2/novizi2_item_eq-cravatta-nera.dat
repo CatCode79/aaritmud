@@ -1,0 +1,27 @@
+Code: novizi2_item_eq-cravatta-nera
+Level: 1
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.COTTON	100%
+Name:	Una Cravatta Perfetta
+Short:	una cravatta perfetta
+Long:	c'è $N con nodo già fatto
+
+Descr:
+Una cravatta nera di raso con il nodo cucito.
+
+DescrTouch: 
+Una striscia di tessuto di raso con un nodo da cravatta.
+
+DescrSixth:
+Una cerniera consente di allargare la cravatta senza dover scioliere il nodo.
+	
+Value:	0
+Weight: 45g
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+   Modes: PART.NECK
+End
+
+

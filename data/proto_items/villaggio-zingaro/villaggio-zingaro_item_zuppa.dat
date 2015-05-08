@@ -1,0 +1,42 @@
+Code: villaggio-zingaro_item_zuppa
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLES	98%
+MaterialPercentages:	MATERIAL.OIL	2%
+Icon:	icons/food/soup.png
+Name:	Un Piatto di Zuppa Bianca
+Short:	un piatto di zuppa 
+Long:	$N è stato messo qui.
+
+Descr:
+Un piatto piano fino all'orlo di zuppa bianca, solo degli sporadici puntini neri non ben identificati rompono la monotonia del colore.
+DescrTouch: 
+Prendi il piatto tra le $hands facendo attenzione a non rovesciarla.
+DescrSmell: 
+Il miscuglio di odori non ti permette di coglierne qualcuno in particolare.
+DescrSixth:
+Cominci a pensare a tutti gli ortaggi bianchi che ti vengono in mente: cavolfiori, porri, rape..
+DescrTaste:
+Ne assaggi un sorso ma ti scotti la lingua.
+
+Value:	25
+Weight: 100g
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100
+
+FoodType:
+	Animal:	0
+	Vegetable:	100
+	CookingDamage:	0
+	Hours:	0
+	EntityMessage:	Sorseggi la zuppa fino a finirla e poi ti liberi del piatto.	
+	TargetMessage:	Ora c'è una sola via d'uscita... $n t'ha mangiato.
+	OthersMessage:	$n sorseggia la zuppa fino a finirla.
+End

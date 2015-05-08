@@ -1,0 +1,26 @@
+Comment: STRUMENTO.CORDOFONO.PIZZICATO
+Code: mfdonald_item_strumenti-liuto
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.WOOD	96%
+MaterialPercentages:	MATERIAL.HAIR	4%
+Icon:	icons/instrument/liuto.png
+Name:	Un [sienna]Liuto Barocco[close] 
+Short:	un liuto
+Long:	$N tutto decorato fa bella mostra di sé qui.
+
+Descr:
+	Uno strumento a corda con una cassa armonica spropositata di forma ovoidale e sgraziata
+	con un manico largo nero a poche corde. Strani disegni son traforati al centro della
+	cassa armonica sotto le corde.
+DescrTouch: 
+	il legno con cui è realizzato è molto duro e leggero; la maggior parte delle
+	decorazioni sono ad intaglio.
+DescrSixth:
+	Son quasi una dozzina di corde, probabilmente imparare a suonarlo è più una condanna
+Value:	0
+Weight: 1800g
+
+
+

@@ -1,0 +1,72 @@
+Code:   citta-raminghe_mob_viandante-frijen
+Level:  2
+Sex:    SEX.FEMALE
+Race:   RACE.FRIJEN
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:   Una Viandante Frijen
+Short:  una viandante di razza frijen
+Long:   $N sta riposando su di una panchina.
+
+Descr:
+Una giovane dagli [lightblue]occhi[close] di ghiaccio sta seduta qui ed è molto 
+presa ad osservare i passanti. Ha i [white]capelli[close] raccolti in una lunga e ben
+ordinata coda, sono molto chiari. La pelle è slavata, noti subito la sua appartenenza 
+alla razza dei frijen ma non dal modo di vestire che sembra voler celare proprio il suo essere. 
+Ha i lineamenti molto femminili ed aggraziati, indossa una [gray]casacca[close] grigia e un 
+mantello anche questo scuro che coprono per intero la sua figura. Una sacca da viaggio
+le pende leggermente da una spalla arrivandole fino in terra. Si appoggia ad un'asta da
+viaggio lunga e nera, molto semplice e senza incisioni, il materiale sembra molto raro.
+
+DescrSmell:
+Odore di neve secca, fibre di ferro e polvere
+DescrSixth:
+Non riesci a non accusare disagio quando questo strano essere ti fissa con i suoi occhi!
+
+Weight: 50kg
+Height: 170cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 25
+
+MaxLife:        200
+Life:           200
+MaxMana:        100
+Mana:           100
+MaxVigour:      200
+Vigour:         200
+
+Strength:       15
+Endurance:      18
+Agility:        15
+Speed:          12
+Intelligence:   12
+Willpower:      12
+Personality:    18
+Luck:           15
+
+Behaviour:
+        LookPlayer:     20
+        LookMob:        0
+        LookItem:       0
+        LookAtRacesFlags:       RACE.NONE
+        LookAtRaces:    0
+        LookAtEntitypesFlags:   ENTITYPE.NONE
+        TasteAtEntitypesFlags:  ENTITYPE.NONE
+        WanderDirection:        0
+        WanderExit:     0
+        WanderWall:     0
+        WanderClosedDoor:       0
+        WanderAtExitsFlags:     DIR.NONE
+        WanderAtExits:  0       
+        WanderArea:     0
+        WanderPortal:   0
+        WanderEnterContainer:   0
+        WanderExitContainer:    0
+        WanderSelf:     0
+        RandomDo:       10
+        RandomDoInputs: emote sta in disparte, non vuole attirare l'attenzione.
+        RandomDoInputs: say Le parole a volte sono superflue.
+        RandomDoInputs: say Alla fine è sempre più facile partire che restare.
+        RandomDoInputs: emote ti osserva ma abbassa subito lo sguardo evitandoti.
+End

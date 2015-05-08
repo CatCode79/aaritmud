@@ -1,0 +1,19 @@
+Code: torreelementi_item_catena_portale_torre_01
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.UNKNOWN	100%
+Name:	Il Sigillo di [aqua]Narum[close]
+Short:	un pesante [aqua]scudo[close]
+Long:	$N rovinato da anni di battaglie è finito qui in malomodo
+
+Descr:
+	uno scudo possente usabile unicamente da guerrieri di stazza considerevole.
+DescrTouch: 
+	Ogni graffio ed ogni incisione sono segni di antiche battaglie
+
+
+Value:	0
+Weight: 20kg
+
+

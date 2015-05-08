@@ -1,0 +1,18 @@
+Code: flora_item_moneta-04b-fiore
+Level: 1
+Entitype:	ENTITYPE.FLOWER
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.FLOWER	100%
+Name:	Un [lightgray]Fiore[close] di [goldenrod]Albero[close] delle [goldenrod]Monete[close]
+Short:	un minuto [lightgray]fiorellino[close]
+Long:	$N caduto dalla sua pianta.
+
+Descr:
+Fitti [lightgray]petali[close] allungati formano la corolla di questo piccolo fiore; nella parte centrale altri [lightslategray]petalini[close], questa volta più tozzi, concorrono a formare una seconda coroncina riempitiva. 
+DescrTouch: 
+Nonostante l'apparenza delicata quando lo prendi in mano non dà segno di volersi piegare sotto la spinta delle tue dita..
+DescrSixth:
+Pare veramente fatto di metallo.
+
+Value:	13
+Weight: 1g

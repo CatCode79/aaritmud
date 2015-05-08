@@ -1,0 +1,36 @@
+Comment: STRUMENTO.CORDOFONO.PERCOSSO
+conteiner nel senso della portellina che rivela i tasti (TD -)
+Att.ne al peso che qui rischia di dover essere fatta qualche modifca (500kg l'ordine di grandezza di uno vero a coda e un 135 min per un verticale) 
+
+Code: mfdonald_item_strumenti-pianoforte
+Level: 1
+Entitype:	ENTITYPE.INSTRUMENT
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.FLOWER	80%
+MaterialPercentages:	MATERIAL.HAIR	10%
+MaterialPercentages:	MATERIAL.METAL	10%
+Icon:	icons/instrument/piano-bianco.png
+Name:	Un Pianoforte a Coda
+Short:	un ampio pianoforte 
+Long:	$N è qui ad occupare fin troppo spazio
+
+Descr:
+	Un ingombrante strumento musicale che ha fatto suo il concetto di musica-sedentaria.
+	Si tratta di una versione molto spartana in termini di decori e di design. Il colore
+	nero lo fa sembrare un po' più piccino di quanto non sia in realtà.
+DescrTouch: 
+	Batti le nocche sulla parte della coda del pianoforte ottenendo un suono che già di
+	suo potrebbe bastare ad un percussionista.
+
+Value:	0
+Weight: 500kg
+
+Extras:
+	Keywords: coda
+	Descr:
+	La parte posteriore dello strumento possiede lineamenti molto morbidi, lungo tutto il
+	perimetro è intarsiata una scritta o forse si tratta unicamente di un decoro geometrico
+
+End
+
+

@@ -1,0 +1,37 @@
+Code: home-sophie_item_fiamma-acqua
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.WATER	20
+MaterialPercentages:	MATERIAL.ENERGY	80
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+Name:	La Fiamma d'Acqua di Sophie
+Short:	la fiamma d'acqua di Sophie
+Long:	$N crepita con schizzi di luce
+
+Descr:
+Una grande fiamma in materiale acquoso si muove come battuta da venti contrari in lotta fra loro.
+DescrTouch: 
+Allungando la $hand, la fiamma si allarga rivelando un varco attraversabile.
+DescrSmell: 
+Ad ogni refolo di vento un profumo speziato nuovo si sprigiona dall'acquosa fiamma.
+DescrHearing:
+Il crepitio della fiamma è sordo ed accompagnato come da uno sciabordio d'onde.
+DescrTaste:
+Come avvicini la testa, la fiamma si apre impedendoti d'assaggiarne.
+
+Value:	0
+Weight: 10g
+
+PortalType:
+	Destination: 0 0 1 novizi
+	EntityEnterMessage: $N si gonfia in un bozzolo azzurro e ti avvolge!
+	TargetEnterMessage: $n decide d'attraversarti e l$o anticipi repentinamente.
+	OthersEnterMessage: $N si gonfia in un bozzolo azzurro avvolgendo $n.
+	EntityExitMessage: In uno schiocco gentile, la realtà ti si palesa ora diversa.
+	TargetExitMessage: Ora $n è sparit$o da $T finendo in $t.
+	OthersExitMessage: $n appare in un bagliore azzurro avvolt$o da un bozzolo acqueo che svanisce subitaneo.
+End
+
+

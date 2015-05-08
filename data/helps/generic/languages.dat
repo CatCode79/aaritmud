@@ -1,0 +1,17 @@
+Code: languages
+
+ItalianKeywords: linguaggi lingua
+EnglishKeywords: languages
+
+Entitype: HELP.GENERIC
+
+Text:
+Il comando $tlanguages mostra le lingue che conosci e quanto le conosci, e ti
+mostra un elenco delle lingue che potresti imparare.
+Per poter imparare una nuova lingua, o migliorare la conoscenza di una lingua
+che gia conosci, devi andare da un maestro di linguaggi e usare il comando
+$tlanguages [darkgreen]impara[darkgreen] &lt;[darkgreen]nome lingua[close]&gt;.
+
+Se qualcuno sta parlando in una lingua che tu conosci capirai cosa stanno
+dicendo, se tu volessi rispondere nella stessa lingua devi usare il comando
+$tlanguages per cambiare la lingua in cui stai parlando.

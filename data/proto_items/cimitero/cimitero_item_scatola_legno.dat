@@ -1,0 +1,63 @@
+Code: cimitero_item_scatola_legno
+Level: 1
+Entitype:	ENTITYPE.CONTAINER
+MaterialPercentages:	MATERIAL.HARDWOOD 100%
+Sex:	SEX.FEMALE
+Name:	Una Scatolina in Noce
+Short:	una scatolina di legno
+Long:	C'è qui $N.
+
+
+Descr:
+Una scatola di legno, semplice e senza decorazioni particolari. Formata da sei
+pareti in legno di noce, presenta due borchie di ferro nero nella parte
+superiore e una serratura molto piccola di rame sulla parte frontale.
+
+DescrNight: 
+Una semplice scatola di legno presenta due piccole borchie di ferro sulla parte
+superiore, queste sono disposte centralmente a una distanza di pochi centimetri
+tra loro. Nella parte frontale noti una piccola serratura.
+
+DescrSmell:
+La scatola ha un marcato odore di legno e di un'altra sostanza che sicuramente
+serve per mantenere il legno in buone condizioni, una sorta di cera.
+
+DescrSmellNight:
+Un marcato odore di legno misto a cera proviene dalla scatola di legno.
+
+DescrTouch:
+La superficie della scatola risulta quasi perfetta al tocco, se non fosse per
+le due borchie di ferro presenti sulla parte superiore della stessa e per la
+serratura nella parte frontale.
+
+DescrSixth:
+Sei molto sicur$o che le due borchie presenti sulla scatola servano ad aprire
+la scatola
+
+Value:	0
+Weight: 65g
+
+
+Extras:
+	Keywords: borchia ferro
+	Descr:
+	Una borchia di ferro è molto semplice ma perfettamente modellata, serve
+	sicuramente ad azionare un meccanismo.
+End
+Extras:
+	Keywords: serratura rame
+	Descr:
+	La serratura in rame è di pregiata fattura, ma per il resto può essere
+	considerata di comune natura.
+End
+
+ContainerType:
+	EntityOpenMessage:	Dischiudi $N pigiando le due borchie.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n armeggia con le borchie di $N fino ad aprirl$O.
+	EntityCloseMessage:	Riabbassi il coperchio di $N richiudendol$O.
+	Flags:	CONTAINER.CLOSED CONTAINER.CLOSABLE
+        MaxWeight: 200g
+End
+
+

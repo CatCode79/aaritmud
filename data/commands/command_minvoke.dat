@@ -1,0 +1,5 @@
+FunName:    command_minvoke
+Type:       CMDTYPE.ADMIN
+Trust:      TRUST.MASTER
+Position:   POSITION.DEAD
+MiniHelp:   Serve agli Admin per invocare un'istanza di mob già in gioco

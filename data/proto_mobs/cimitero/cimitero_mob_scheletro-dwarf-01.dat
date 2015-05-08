@@ -1,0 +1,61 @@
+Code:	cimitero_mob_scheletro-dwarf-01
+MaxGlobalQuantity: 5
+Level:	1
+Sex:	SEX.MALE
+Race:	RACE.SKELETON
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Uno [maroon]Scheletro[close] Nanico
+Short:	uno tozzo [maroon]scheletro[close]
+Long:	$N avanza inesorabile
+
+Descr:
+Un nano morto da diverse decine d'anni risvegliato in forma scheletrica.
+Massiccio l'incedere lento e aggressivo.
+DescrTouch: 
+Inequivocabilmente reale e dannatamente massiccio.
+DescrSmell: 
+Dà l'impressione che vi sian ancora brandelli di carne entro queste vestigia.
+DescrSixth:
+Paradossale quanto si vuole ma si narra che il maggiore tormento per i non morti nanici sia la perdita della barba più della vita stessa.
+DescrHearing:
+Cigolii continui ne rendo abbastanza facile la percezione anche senza doverlo vedere.
+
+Remains: cimitero_item_mucchio-ossa
+RemainsNight: cimitero_item_mucchio-ossa
+Weight: 79kg
+Height: 90cm
+
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 764
+
+
+
+MaxLife:	150
+Life:		150
+MaxMana:	10
+Mana:		10
+MaxVigour:	10
+Vigour:		10
+
+Strength:	12
+Endurance:	5
+Agility:	3
+Speed:		5
+Intelligence:	1
+Willpower:	10
+Personality:	1
+Luck:		10
+
+Behaviour:
+	WanderExit:	10
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	10
+	RandomDoInputs:	emote incede senza sosta.
+	RandomDoInputs:	emote porta le mani al volto in cerca di qualcosa.
+End

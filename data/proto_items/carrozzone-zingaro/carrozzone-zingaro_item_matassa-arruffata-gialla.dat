@@ -1,0 +1,27 @@
+Code: carrozzone-zingaro_item_matassa-arruffata-gialla
+Level: 1
+MaxGlobalQuantity:	0
+Icon:	icons/item/gomitolo-giallo.png
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.WOOL 100%
+Name:	Una [yellow]Matassa[close] di [yellow]Lana[close] 
+Short: una [yellow]matassa[close] di [yellow]filo[close] colorato
+Long:	$N è qui
+
+KeywordsName: matassa
+KeywordsShort: matassa
+
+Descr:
+Una matassina arruffata di [yellow]lana[close] filata e tinta di un [yellow]giallo innaturale[close].
+DescrTouch: 
+Una matassina arruffata e umidiccia di morbida lana. Media misura, buona consistenza.
+DescrSmell: 
+Un vago odore di origine quasi sicuramente vegetale.
+DescrSixth:
+Un pregevole campione di lana di buona qualità tinto di un colore [yellow]giallo[close] di natura sconosciuta.
+
+Value:	0
+Weight: 150g
+
+

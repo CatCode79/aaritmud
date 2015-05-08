@@ -1,0 +1,36 @@
+Code: villaggio-zingaro_item_spirale-oro
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.GOLD	100%
+Name:	Una Lamina d'Oro Elicoidale
+Short:	una lamina d'oro
+Long:	$N si avvolge ordinatamente.
+
+Descr:
+Una lucente lamina d'oro elicoidale che si restringe verso la punta formando una specie di cono. La superficie esterna è leggermente bombata e percorsa da numerose linee oblique ed equidistanti. 
+DescrTouch: 
+Fai scorrere il dito lungo tutta l'elica cogliendone le leggere incisioni.
+DescrSixth:
+Non capisci se sia stato foggiato appositamente come ornamento o se abbia mai avuto qualche altra funzione in precedenza.
+DescrHearing:
+Odi un lieve bisbiglio del quale non riesci a distinguere le parole.
+
+Value:	299
+Weight: 10g 
+
+WearType:
+        Modes: PART.HORN
+        Modes: PART.HAIR
+        EntityWearMessage:	Fai scorrere delicatamente $N %part.
+        TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+        OthersWearMessage:	$n fa scorrere $N %part.
+        EntityRemoveMessage:	Sfili $N con un lento movimento spiraleggiante.
+        TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+        OthersRemoveMessage:	Sfila $N con un lento movimento spiraleggiante.
+End
+
+
+
+

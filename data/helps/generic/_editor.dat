@@ -1,0 +1,33 @@
+Code: editor
+
+ItalianKeywords: editor
+EnglishKeywords: editor
+
+Entitype: HELP.GENERIC
+
+Text:
+I comandi nell'editor sono (questi comandi
+sono mostrati con uno spazio tra / e la lettera del comando, non mettere
+questo spazio quando usi i comandi nei tuoi testi):
+
+/ ?                    Mostra l'help dell'editor.
+/ l                    Mostra quello che hai scritto fino a quel momento nella 
+                       nota.
+/ c                    Cancella completamente la nota.
+/ d [linea]            Cancella una linea. Se non c'è il numero viene 
+                       cancellata l'ultima linea scritta.
+/ g &lt;linea&gt;            Va alla linea. Questo è utile per inserire linee, 
+                       cancellare e sistemare le linee ecc...
+/ i &lt;linea&gt;            Inserisce una linea. Inserisce una linea vuota dove 
+                       specificato.
+/ r &lt;vecchia&gt; &lt;nuova&gt;  Per sostituire la vecchia parola con la nuova. Devi
+                       fare '/g' alla prima linea che vuoi sostituire o non ci
+                       saranno corrispondenze.
+/ a                    Abortisce la scrittura. Ti fa uscire dall'editor senza
+                       però salvare quello che hai scritto o i cambiamenti
+                       che hai fatto.
+/ ! &lt;comando&gt;          Esegue un comando del Mud. '/! sorridi' esegue il 
+                       comando sorridi senza uscire dall'editor.
+/ s                    Salva il buffer ed esce dall'editor.
+
+SeeAlso: write

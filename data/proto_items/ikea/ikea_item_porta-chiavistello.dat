@@ -1,0 +1,52 @@
+Code: ikea_item_porta-chiavistello
+Level: 1
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.FEMALE
+Icon:	icons/item/door-golden.png
+MaterialPercentages:	MATERIAL.WOOD	90%
+MaterialPercentages:	MATERIAL.METAL	10%
+Name:	Una Porta
+Short:	una porta
+Long:	$N è qui a terra
+
+Descr:
+Un semplice porta in legno munita di chiavistello
+DescrTouch: 
+Un ruvida e semplice porta munita di chiavistello
+
+Value:	0
+Weight: 7kg
+
+Extras:
+	Keywords: chiavistello
+	Descr:
+	una sbarra metallica scorre orizzontalmente sul lato interno della porta.
+	DescrTouch:
+	una fredda sbarra massiccia scorre orizzontalmente sul lato interno della porta.
+End
+
+Extras:
+	Keywords: maniglia
+	Descr:
+	Una semplice maniglia in metallo
+	DescrTouch:
+	Una semplice maniglia fredda al tatto
+End
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Apri $N usando ambo le $hands.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N usando ambo le $hands.
+	EntityCloseMessage:	Accompagni $N fino a chiuderla.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n accompagna $N fino a chiusura.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE DOOR.NO_USE_DIR DOOR.BOLTABLE
+	ResetCloseMessage: $N si chiude.
+	ResetOpenMessage: $N si apre.
+End
+
+

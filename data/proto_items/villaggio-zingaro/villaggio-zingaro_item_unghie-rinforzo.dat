@@ -1,0 +1,43 @@
+Code: villaggio-zingaro_item_unghie-rinforzo
+Level: 1
+MaxGlobalQuantity:      0
+Entitype: ENTITYPE.WEAPON
+Sex:    SEX.FEMALE
+MaterialPercentages:	MATERIAL.STEEL	100%
+Name:   [gray]Delle Unghie di Rinforzo[close]
+Short:  [gray]delle unghie di drago[close]
+Long:   $N appoggiate scompostamente.
+
+Descr:
+Cinque acuminati coni ricamati in filigrana metallica ciondolano all'estremità di altrettante catenelle che confluiscono ad un anello del medesimo materiale.
+Il tutto è completato da un'ulteriore filo metallico che permette di fissarle alla mano.
+DescrTouch: 
+Al tatto sembrano piuttosto robuste contrariamente all'impressione che dà il materiale del quale sono costituite.
+DescrSixth:
+Inizialmente ti appaiono solo come una decorazione ma intuisci che possono facilmente fungere da arma.
+
+Value:	365
+Weight: 97g
+
+MaxLife:        100
+Life:           100
+MaxMana:        100
+Mana:           100
+MaxVigour:      100
+Vigour:         100
+
+WearType:       
+        Modes: PART.LEFT_HAND PART.RIGHT_HAND
+        EntityWearMessage:      Infili con precisione $N alle $hands.
+        TargetWearMessage:      Attento $N, $n ti ha indossato %part.
+        OthersWearMessage:      $n infila $N con grande accuratezza.
+        EntityRemoveMessage:    Con un rapido gesto sfili $N.
+        TargetRemoveMessage:    Attento $N, $n ti ha tolto %part.
+        OthersRemoveMessage:    $n sfila $N senza perdere troppo tempo.
+End
+
+WeaponType:
+	Category:	WEAPON.KNUCKLE_DUSTER
+	Damage:	2D4+2
+	Flags:	WEAPONFLAG.ONE_HAND 
+End

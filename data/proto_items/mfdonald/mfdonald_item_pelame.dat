@@ -1,0 +1,25 @@
+Code: mfdonald_item_pelame
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages: MATERIAL.FUR 100%
+Flags:	FLAG.NO_LOOK_LIST
+Name:	Un [sandybrown]Pelame[close]
+Short:	un [sandybrown]pelame[close] primario
+
+Descr:
+Qualcosa impelucca tutto quanto.
+DescrTouch: 
+Qualcosa impelucca tutto quanto.
+DescrSmell: 
+Una fastidiosa senso di prurito in gola.
+DescrSixth:
+Questa non è solo pelaccio ma distillato di fastidio.
+DescrTaste:
+Ptuh.. Ptuh.. Sput..
+DescrHearing:
+no_send
+
+Value:	16
+Weight: 120g

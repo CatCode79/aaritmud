@@ -1,0 +1,28 @@
+Code:	karpuram_item_eq-calzari-fico
+
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.LEAF	80
+MaterialPercentages:	MATERIAL.SOFTWOOD	20
+Sex:	SEX.MALE
+Name:	Calzari di [green]Foglie[close] di [green]Fico[close]
+Short:	calzari di [green]foglie[close]
+Long:	Un paio di $N sono qui in terra.
+
+Descr:
+Questi calzari sono formati da un'originale trama di foglie di fico, molto ben
+rifiniti e di fattura discreta. Le foglie sono legate tra loro da alcune corde
+sottili provenienti da una sorta di liana molto lunga e flessibile. Le scarpe
+sono chiuse nella parte frontale e plantare ma non arrivano a coprire sopra la
+caviglia.
+
+
+Value:	0
+Weight:	200g
+
+WearType:
+   Modes: PART.RIGHT_FOOT PART.LEFT_FOOT
+End
+
+

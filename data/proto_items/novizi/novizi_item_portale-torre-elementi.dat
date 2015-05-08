@@ -1,0 +1,41 @@
+Code: novizi_item_portale-torre-elementi
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PORTAL
+MaterialPercentages:	MATERIAL.UNKNOWN	100
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+Name:	Il Portale per la Torre Elementale
+Short:	il portale per la torre degli elementi
+Long:	$N aspetta il tuo ingresso.
+
+Descr:
+Un portale che sofficemente galleggia nell'aria e consente l'accesso alla zona della
+Torre Elementale.
+
+DescrTouch: 
+Un portale impalpabile che galleggia nell'aria e consente l'accesso alla zona della
+Torre Elementale.
+
+DescrSmell: 
+Un portale odoroso si spande nell'aria e ti comunica che la direzione è la Torre
+Elementale.
+
+DescrSixth:
+Un premuroso portale che ti condurrà alla Torre Elementale.
+
+DescrHearing:
+Una vocina stridula ti comunica che il portale ti condurrà alla Torre Elementale.
+
+DescrTaste:
+Uno degli arcinoti e rinomati portali al gusto polvere e terra si pregerà di condurti
+alla Torre Elementale.
+
+Value:	0
+Weight: 1g
+
+PortalType:
+	TargetCode:	novizi_item_portale-torre-elementi-ritorno
+End
+
+

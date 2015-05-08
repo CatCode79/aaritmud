@@ -1,0 +1,71 @@
+Comment: Arcieri da inserire nelle rooms cinta muraria. Dovrebbero circolare solo li, non so se sia possibile. L'arco e le frecce già le abbiamo sono quelle delle amazzoni.
+
+
+Code: citta-raminghe_mob_arciere
+Level:	5
+Sex:	SEX.MALE
+Race:	RACE.HIGHELF
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Cuthalion
+Short:	[red]un arciere[close] [yellow]dalla folta e lunga capigliatura[close]
+Long:	$N è pronto a scoccare la sua freccia.
+
+Descr:
+Un [lightgreen]elfo con arco e frecce[close]. Osserva dall'alto chi si avvicina alla città. La sua vista è acuta e il suo 
+arco potente. Sempre in movimento e all'erta. Il suo fisico è snello, ma muscoloso e scattante. Dotato di riflessi che gli 
+consentono di notare qualsiasi movimento inconsueto e di armare il suo arco in pochissimo tempo.
+
+
+Weight: 62kg
+Height: 180cm
+
+BirthDay:	8
+BirthMonth:	MONTH.EIGHT
+Age: 123
+
+Behaviour:
+     LookPlayer:	30
+     LookMob:	10
+     LookItem:	10
+     LookAtRacesFlags:	RACE.NONE   
+     LookAtRaces:	0
+     LookAtEntitypesFlags:	ENTITYPE.NONE
+     LookAtEntitypes:	0
+     LookSelf:	10
+     LookDirection:	10
+     LookExit:	10
+     LookWall:	0
+     LookClosedDoor: 10
+     LookExtra:	0
+     WanderDirection:	0
+     WanderExit:	40
+     WanderWall:	0
+     WanderClosedDoor:	70
+     WanderAtExitsFlags:	DIR.NONE
+     WanderAtExits:	0
+     WanderAtSectors:	SECTOR.WALL
+     WanderArea:	0
+     WanderPortal:	0
+     WanderEnterContainer:	0
+     WanderExitContainer:	0
+     WanderSelf:	0
+     RandomDo:	10
+     RandomDoInputs:	emote osserva chiunque cerchi di entrare nella città
+     RandomDoInputs:	emote si muove lungo la cinta muraria con una certa rapidità
+End
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

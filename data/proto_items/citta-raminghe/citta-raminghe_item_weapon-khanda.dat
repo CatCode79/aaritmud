@@ -1,0 +1,37 @@
+Code:	citta-raminghe_item_weapon-khanda
+Level:	2
+Entitype:	ENTITYPE.WEAPON 
+MaterialPercentages:	MATERIAL.ENERGY	1
+MaterialPercentages:	MATERIAL.STEEL	39
+MaterialPercentages:	MATERIAL.BRONZE	20
+MaterialPercentages:	MATERIAL.BRASS	25
+MaterialPercentages:	MATERIAL.SILVER	10
+MaterialPercentages:	MATERIAL.GOLD	5
+Icon:	icons/weapon/weapon-khanda.png
+Sex:	SEX.FEMALE
+MaxGlobalQuantity:	1
+Name:	Khanda La Spada Divina
+Short:	[yellow]un'arma sacra[close]
+Long:	$N molto tagliente
+
+Descr:
+Una lunga lama dritta e affilata da entrambi i lati su cui il tempo non sembra aver lasciato segni. La punta è piatta e non adatta a colpire. L' impugnatura ricurva sembra logorata da un uso non proprio amichevole. 
+I raggi di luce siano essi provenienti dal sole, dal fuoco o dalla luna, vi si riflettono rendendola scintillante, quasi abbagliante.
+
+DescrTouch:
+È l'arma di una divinità e devi accostarti ad essa con un certo rispetto. Il metallo freddo della sua lama sembra in contrasto con la sensazione calda di potenza che il toccarla ti provoca.
+Impugnarla la rende quasi una parte di te, il prolungamento della tua mente e della tua anima oltre che della tua forza fisica.
+DescrSixth:
+Nessun uso è possibile se non quello di un guerriero che combatte con onore. È l'arma sacra,
+l'arma della divnità, tramandata da secoli a caste di guerrieri invincibili.
+
+Value:	0
+Weight:	3250g
+
+WearType:
+	Modes:	PART.WIELD
+End
+WeaponType:
+	Category:	WEAPON.SWORD
+	Flags:	WEAPONFLAG.ONE_HAND 
+End

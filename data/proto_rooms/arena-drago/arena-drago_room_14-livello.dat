@@ -1,0 +1,68 @@
+Code:	arena-drago_room_14-livello
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il II Livello
+Short:	il II livello
+	Descr:
+Segui tranquillo la fiumana di gente che si sposta lungo la
+strada lastricata. Devi ammettere che l'ambiente è caldo e
+piacevole, volti sorridenti ti accolgono ad ogni passo, anche il
+più umile dei passanti sembra avere ciò di cui vivere. A quanto
+pare i cavalieri hanno svolto un buon lavoro facendo si che la
+popolazione dell'isola potesse vivere in un dignitoso benessere.
+La strada su questo livello procede a sud e ad ovest.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 1
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	il II livello
+	Comment:	ExitStatus	0 0 27713 -1
+	Destination:	9 5 0 arena-drago
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	il II livello
+	Comment:	ExitStatus	0 0 27715 -1
+	Destination:	6 8 0 arena-drago
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

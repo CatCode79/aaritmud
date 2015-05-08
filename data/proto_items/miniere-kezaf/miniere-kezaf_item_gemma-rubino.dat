@@ -1,0 +1,25 @@
+Code: miniere-kezaf_item_gemma-rubino
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_ruby.png
+Name:	Un [red]Rubino[close] Grezzo
+Short:	un pietrozzo dal colore rosso intenso
+Long:	$N si nota distintamente qui in terra.
+
+Descr:
+Una pietra dalla colorazione rossa accesa che tenta d'emergere dall'aspetto grezzo e pieno di graffi.
+
+DescrSixth:
+Una delle pietre più difficili da tagliare, rimane però tra le gemme più belle
+e difficili da trovare in natura. La sua lucentezza e trasparenza si abbina
+con fierezza all'abbigliamento più ricco di alcune razze nordiche.
+
+Value:	0
+Weight: 210g
+
+
+
+

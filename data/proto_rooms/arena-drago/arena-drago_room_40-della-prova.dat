@@ -1,0 +1,67 @@
+Code:	arena-drago_room_40-della-prova
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	La Sala della Prova
+Short:	la sala della prova
+	Descr:
+Di colpo la realtà riprende forma di fronte a te, vieni
+catapultato in una grossa stanza circolare ben illuminata. le
+pareti sono di pietra grezza ed un sottile grugnito che sembra
+quasi umano ti fa intuire di non essere da solo. Sulla parete
+ovest si trova un portone sbarrato.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	1|64|128|1024|32768|16777216 0
+Exits:
+	Direction:	DIR.WEST
+	Descr:	Portone
+	Comment:	ExitStatus	1|128 27706 27741 -1
+	Door:	arena-drago_item_door-portone-prova-40
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

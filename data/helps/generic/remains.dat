@@ -1,0 +1,19 @@
+Code: remains
+
+ItalianKeywords: resti 
+EnglishKeywords: remains
+
+Entitype: HELP.INFO
+
+Text:
+Se, o meglio, quando vi capiterà di morire potrete usare questo comando per
+poter recuperare il vostro cadavere nel caso in cui questo si trovasse in
+un luogo che non sapete raggiungere o in un luogo troppo pericoloso.
+Per poter recuperare il corpo dovrete andare da Fosstoh il becchino che vive
+nel cimitero vicino a Darkhaven, portando con voi un po' di soldi (un 
+consiglio: depositate di tanto in tanto un po' di soldi in banca per ogni 
+evenienza) e usare il comando $tremains, così facendo il becchino recupererà 
+per voi il corpo e ve lo restituirà.
+
+
+SeeAlso: death

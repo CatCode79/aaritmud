@@ -1,0 +1,24 @@
+Code: karpuram_item_torba-mucchio
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.SLIME	100
+Sex:	SEX.FEMALE
+Name: Uno Strato di Torba
+Short: uno strato di [lightslategray]terra[close]
+Long:	$N mollemente spaccata in pezzi
+
+
+Descr:
+[lightslategray]della terraccia molle e dal colore improbabile.[close] 
+DescrSixth:
+	Torba fradicia ottima come concime.
+DescrTouch: 
+	Al tocco stranamente non sporca le mani nonostante la consistenza fradicia.
+
+Value:	0
+Weight: 280kg
+
+
+
+

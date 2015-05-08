@@ -1,0 +1,30 @@
+Code:	serpidi_mob_serpidemadre_26
+Level:	1
+Race:	RACE.HUMAN
+Sex:	SEX.NEUTRAL
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Una Madre Serpide 
+Short:	una madre serpide 
+Descr: 
+È  molto  più grande dei maschi della sua razza ed ha il ventre rigonfio dei piccoli serpidi pronti alla nascita.   
+Height: 170cm
+Weight: 105kg
+BirthDay: 1
+BirthMonth: MONTH.TEN
+
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

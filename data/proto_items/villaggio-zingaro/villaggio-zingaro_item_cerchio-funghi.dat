@@ -1,0 +1,39 @@
+Comment: piccolo cerchiolino di funghi che cresce proprio sotto al pietruzzone..propabilamente aiutato dallo sgocciolamento notturno. L'idea qui è Come quella delle matasse o del cumulo di stracci. Tu raccogli i funghetti dal cerchio te li pappi e muori :P no dai scherzo.
+Questo va nella room 0 del faggeto...all'interno della cupola.
+
+Code: villaggio-zingaro_item_cerchio-funghi
+
+
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.MUSHROOM 100%
+Name:
+Il Cerchio Funghifero
+Short:
+un cerchio di funghi
+Long:
+Stai attent$o a non calpestare $N.
+
+KeywordsName: cerchio funghi fungo
+KeywordsShort: cerchio funghi fungo
+
+Descr:
+Numerosi funghetti variopinti sono cresciuti formando un cerchio sotto l'enorme gemma.
+DescrTouch: 
+Allunghi la $hand per toccarli ma alcuni si ritirano di scatto sotto terra.
+DescrSmell: 
+Uhm..l'odore emanato è estremamente insolito per dei funghi, agrumato e resinoso. 
+DescrSixth:
+Sono proprio dove i rami pendenti della cupola lasciano cadere gocce di condensa, intuisci che questo deve aver donato i funghi una qualche misteriosa proprietà che gli permette di ritrarsi quando vengono avvicinati.
+DescrHearing:
+Ascoltando con attenzione ti par quasi di sentirli crescere.
+DescrTaste:
+Per assaggiarli devi prima riuscire a prenderli!
+
+Value:	0
+Weight: 800g
+
+
+
+

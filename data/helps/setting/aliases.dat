@@ -1,0 +1,11 @@
+Code: aliases
+
+ItalianKeywords: alias
+EnglishKeywords: aliases alias
+
+Entitype: HELP.SETTING
+
+Text:
+Il comando $talias serve ad aprire <a href="/aliases.html", target="aliases"&gt;questa pagina</a&gt; ove aggiungere o modificare
+gli alias, cioè dei comandi brevi personalizzati che richiamano altri comandi
+più estesi che sarebbero scomodi da digitare.

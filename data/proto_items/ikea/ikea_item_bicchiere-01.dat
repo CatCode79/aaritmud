@@ -1,0 +1,29 @@
+Code: ikea_item_bicchiere-01
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.WOOD	100%
+Name:	Un Bicchiere
+Short:	un bicchiere
+Long:	$N con $I
+
+Descr:
+E' un semplice contenitore in legno, di piccole dimensioni, colmo di liquore.
+DescrTouch: 
+Il liquido al suo interno lascia sulle dita una macchia rosso porpora
+DescrSmell: 
+Ha un odore che ricorda quello delle more e delle viole
+DescrSixth:
+E' un liquore che accompagna bene tutta la pasticceria, specie quella secca. Si puo' bere come vino corroborante e da meditazione.
+DescrTaste:
+Ha un sapore fruttato, morbido e vellutato, piacevolmente dolce.
+DescrHearing:
+no_send
+
+Value:	5
+Weight: 120g
+
+ContainerType:
+	MaxWeight:	200g
+End

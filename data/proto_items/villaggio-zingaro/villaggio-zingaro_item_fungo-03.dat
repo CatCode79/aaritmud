@@ -1,0 +1,36 @@
+Comment: piccolo cerchiolino di funghi che cresce proprio sotto al pietruzzone... propabilamente aiutato dallo sgocciolamento notturno. L'idea qui è Come quella delle matasse o del cumulo di stracci. Tu raccogli i funghetti dal cerchio te li pappi e muori :P no dai scherzo.
+Questo va nella room 0 del faggeto...all'interno della cupola.
+
+Code: villaggio-zingaro_item_fungo-03
+Icon:	icons/item/guepina.png
+
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.MUSHROOM 100%	
+Name:
+Una Flantula Tryophila
+Short:
+una guepina verde 
+Long:
+$N è stata raccolta e posata qui.
+
+Descr:
+Un [darkorange]f[close][lawngreen]ung[close][darkorange]o[close] dall'improbabile colore. Dalla cappella informe, tra le lamelle, spunta un gambo lungo e fino leggermente sporco di terra all'estremità inferiore. In svariati punti è evidentemente smangiucchiato da qualche ospite di passaggio.
+DescrTouch: 
+Ti impiastricci le $hands toccando viscida cappella ricoperta da [darkorange]escrescenze[close] tondeggianti. 
+DescrSmell: 
+Uhm..l'odore emanato è estremamente insolito per dei funghi, agrumato e resinoso. 
+DescrSixth:
+Intuisci che potrebbe avere delle proprietà benefiche, o più facilmente venefiche.
+DescrHearing:
+Ti pare di sentirlo borbottare, ma probabilmente è solo un'impressione.
+DescrTaste:
+In natura, solitamente, i colori vivaci sono indice di velenosità e pericolo..sei proprio sicur$O di voler rischiare? 
+
+Value:	0
+Weight: 85g
+
+
+
+

@@ -1,0 +1,32 @@
+Code: container
+
+ItalianKeywords: contenitore contenitori
+EnglishKeywords: container
+
+Entitype: HELP.ITEM
+
+Text:
+I contenitori sono una necessità nel Mud. Sono usati per trasportare oggetti,
+cibi e liquidi. Ti aiutano ad ordinare le cose usando due o più tipi di
+contenitori alla volta. I corpi si usano con gli stessi comandi dei
+contenitori.
+
+°Fexamine &lt;[darkgreen]contenitore[close]&gt; o $tlook [darkgreen]in[close] &lt;[darkgreen]contenitore[close]&gt; ti permettono
+di vedere cosa contiene.
+
+°Fget &lt;[darkgreen]oggetto[close]&gt; &lt;[darkgreen]contenitore[close]&gt; ti fa prendere un oggetto da un 
+contenitore.
+°Fget [darkgreen]tutto[close] &lt;[darkgreen]contenitore[close]&gt; ti fa prendere tutto da un contenitore.
+°Fget [darkgreen]tutto[close].&lt;[darkgreen]oggetto[close]&gt; &lt;[darkgreen]contenitore[close]&gt; ti fa prendere tutti gli oggetti
+di quel tipo.
+
+°Fput &lt;[darkgreen]oggetto[close]&gt; &lt;[darkgreen]contenitore[close]&gt; mette un oggetto nel contenitore.
+°Fput [darkgreen]tutto[close] &lt;[darkgreen]contenitore[close]&gt; mette tutto quello che hai in inventario nel 
+contenitore finché non è pieno.
+°Fput [darkgreen]tutto[close].&lt;[darkgreen]oggetto[close]&gt; &lt;[darkgreen]contenitore[close]&gt; metterà tutti gli oggetti di quel
+tipo nel contenitore finché non è pieno.
+
+°Fempty &lt;[darkgreen]contenitore[close]&gt; prenderà tutti gli oggetti nel contenitore e li metterà
+a terra.
+°Fempty &lt;[darkgreen]contenitore1[close]&gt; &lt;[darkgreen]contenitore2[close]&gt; trasferirà il contenuto del primo
+contenitore nel secondo.

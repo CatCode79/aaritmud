@@ -1,0 +1,43 @@
+Code: villaggio-zingaro_item_door-interna-cupola
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name:	La Tomentosità
+Short:	un'abbondante tomentosità
+Long:	$N aggrovigliata su se stessa.
+KeywordsShort:	tomentosità rami liane barriera
+
+Descr:
+I rami e le liane hanno qui formato una barriera che blocca il passaggio.
+DescrTouch: 
+Tutto è ricoperto da peletti microscopici che le conferiscono un aspetto vellutato.
+DescrSixth:
+L'aspetto questa volta potrebbe non essere ingannevole e quindi permetterti di passare senza troppe difficoltà.
+DescrHearing:
+Poggiandoci l'orecchio avverti le fronde contorcersi e strisciare l'una sull'altra.
+DescrTaste:
+La fitta peluria i solletica la lingua.
+
+
+Value:	0
+Weight: 10g
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Allunghi una $hand verso $N e i rami si districano aprendo un varco prima che tu la possa toccare.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n allunga una $hand verso $N e i rami si districano aprendo un varco prima che la possa toccare.
+	EntityCloseMessage:	Sfiori appena $N che si chiude con abbondanti fruscii.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n sfiora appena $N che si chiude frusciando vistosamente.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE DOOR.NO_USE_DIR
+	ResetCloseMessage: $N si chiude.
+	ResetOpenMessage: $N si apre.
+End
+
+

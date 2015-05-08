@@ -1,0 +1,34 @@
+Comment: STRUMENTO.AEROFONO
+Code: mfdonald_item_strumenti-siringa
+Level: 1
+Entitype:	ENTITYPE.INSTRUMENT
+Sex:	SEX.MALE
+Icon:	icons/instrument/siringa.png
+MaterialPercentages:	MATERIAL.WICKERS	100%
+Name:	Un Flauto di Canne
+Short:	un flauto di canne
+Long:	$N in legno 
+
+Descr:
+Una doppia fila di piccole cannule in legno ordinate per lunghezza, tenute assieme da
+intrecci di vimini. Lo percorrono a tondo alcune decorazioni raffiguranti danzatori
+stilizzati.
+DescrTouch: 
+Dà l'impressione di essere alquanto flessibile e fragile.
+DescrTaste:
+Poggiandoci le labbra, ci soffi inutilmente.
+
+Value:	0
+Weight: 75g
+
+Extras:
+	Keywords: cannule
+	Descr:
+	uh, oh.. le cannule son tutte tappate in fondo
+	DescrTouch:
+	Ahi! Una canna era scheggiata e ti si è conficcata una spina nel dito
+	DescrTaste:
+	Poggiando le labbra e soffiando di sghimbescio ottieni il suono tipico dello strumento
+End
+
+

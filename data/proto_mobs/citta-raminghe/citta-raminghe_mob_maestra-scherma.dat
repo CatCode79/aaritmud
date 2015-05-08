@@ -1,0 +1,74 @@
+Code:   citta-raminghe_mob_maestra-scherma
+Level:  5
+Sex:    SEX.FEMALE
+Race:   RACE.HUMAN
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:   Una Maestra Di Scherma
+Short:  una maestra di scherma
+Long:   $N si sta esercitando con la sua allieva.
+
+Descr:
+Una figura atletica e professionale sta impartendo comandi alla sua giovane allieva.
+Visibilmente una bella donna, porta i capelli biondi legati con una treccia che le
+spuntano appena dall'elmo di acciaio che indossa fiera in testa, un'armatura anch'essa
+splendente le ricopre appena il busto, mentre alle gambe indossa dei pantaloni di
+cuoio su cui ha ben legati un paio di gambaletti di bronzo. Brandisce con fierezza
+e agilità una sottile scimitarra che presenta però un'originale elsa a cupola tipica
+della scherma.
+
+DescrSmell:
+Odore di metallo, cuoio e bronzo si confondono quasi subito con un netto profumo di rose.
+
+DescrSixth:
+Hai l'impressione di percepire una sorta di linguaggio non verbale insito nei fendenti
+che questa maestra traccia nell'aria.
+
+
+Weight: 50kg
+Height: 170cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 25
+
+MaxLife:        500
+Life:           500
+MaxMana:        300
+Mana:           300
+MaxVigour:      300
+Vigour:         300
+
+Strength:       18
+Endurance:      15
+Agility:        18
+Speed:          18
+Intelligence:   14
+Willpower:      14
+Personality:    15
+Luck:           18
+
+Behaviour:
+        LookPlayer:     0
+        LookMob:        0
+        LookItem:       0
+        LookAtRacesFlags:       RACE.NONE
+        LookAtRaces:    0
+        LookAtEntitypesFlags:   ENTITYPE.NONE
+        TasteAtEntitypesFlags:  ENTITYPE.NONE
+        WanderDirection:        0
+        WanderExit:     0
+        WanderWall:     0
+        WanderClosedDoor:       0
+        WanderAtExitsFlags:     DIR.NONE
+        WanderAtExits:  0       
+        WanderArea:     0
+        WanderPortal:   0
+        WanderEnterContainer:   0
+        WanderExitContainer:    0
+        WanderSelf:     0
+        RandomDo:       10
+        RandomDoInputs: emote alza lo sguardo solo per osservare il testo che sta copiando.
+        RandomDoInputs: say Fate silenzio, per favore.
+        RandomDoInputs: say L'accademia è un luogo di cultura...
+        RandomDoInputs: emote è molto preso dal suo lavoro e non si cura di nessuno.
+End

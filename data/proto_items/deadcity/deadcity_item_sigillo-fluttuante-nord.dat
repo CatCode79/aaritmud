@@ -1,0 +1,38 @@
+Code: deadcity_item_sigillo-fluttuante-nord
+Level: 1
+Entitype:	ENTITYPE.PORTAL
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+MaterialPercentages:	MATERIAL.MITHRIL	30%
+MaterialPercentages:	MATERIAL.GEM	30%
+MaterialPercentages:	MATERIAL.GOLD	40%
+Name:	Il Sigillo della Cupidigia
+Short:	un forziere 
+Long:	$N spalancato e colmo di tesori
+
+Descr:
+Uno stranissimo forziere dall'apparente consistenza eterea, sembra stracolmo fino
+all'ultimo di preziosi e monete. Oltre l'immagine evanescente dei tesori vedi però
+un paesaggio chiuso da una siepe. 
+
+DescrTouch: 
+Non fai in tempo ad avvicinare la $hand che una forza invisibile cerca di tenerti
+alla larga.
+
+DescrSixth:
+Un portale d'accesso per chissà dove
+
+Value:	0
+Weight: 90kg
+
+PortalType:
+	Destination:	1 0 0 siepi
+	EntityEnterMessage: porti le $hands oltre i tesori attraversandoli e scivolando dentro il forziere.
+	TargetEnterMessage: $n decide d'attraversarti e l$o anticipi repentinamente.
+	OthersEnterMessage: $n si volge come a raccogliere i preziosi e scivola invece dentro al forziere.
+	EntityExitMessage: Tutto sparisce e finisci altrove.
+	TargetExitMessage: Ora $n è sparit$o da $p finendo in $l.
+	OthersExitMessage: $n appare dal nulla sbigottit$o.
+End
+
+

@@ -1,0 +1,42 @@
+Code: cimitero_room_collina-tomba-urkim-a03
+Sector: SECTOR.HILL
+Name: La Falsa Tomba
+Short: una tomba più piccina
+
+Descr:
+Un piccolo sito oblungo realizzato a guisa di camera sepolcrale;
+come la zona d'accesso, anche questa piccola tomba è stata devastata e depredata.
+Quasi più nulla resta delle decorazioni alle pareti ed anche il piccolo altare non ha resistito alla furia distruttiva.
+
+DescrTouch:
+Un piccolo ambiente oblungo, quasi un corridoio. Come gli ambienti d'accesso anche questo ha subito la furia vandalica che non si è fermata neppure dinnanzi all'altarino. I miseri resti sono ora addossati alla parete sud.
+
+DescrSmell: 
+Un sentore stantio stratificato nel tempo, rischia di farti venir meno.
+
+DescrSixth:
+L'ambiente stretto e lungo, quasi un corridoio, fa pensare a chi riposa qui come ad un sottoposto o un servo sepolto assieme al suo padrone.
+
+Extras:
+	Keywords:	altare altarino miseri resti parete sud south
+	Descr:
+	i miseri resti di un piccolo altare, edificato a ridosso della parete sud. Contro di esso si sono accaniti armati d'inusitata ferocia e di un oggetto massiccio.
+	DescrSixth:
+	Fa riflettere che la lapide sulla quale è edificato l'altarino non abbia riportato neppure una scalfittura.
+End
+
+Width:	6m
+Depth:	6m
+Height: 6m
+
+
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	Il Płđ FaŦ
+        DescrSixth:	Il σαρκοϕάγος
+End
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	La tomba
+End
+

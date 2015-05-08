@@ -1,0 +1,6 @@
+FunName:   command_smell
+Type:      CMDTYPE.INFORMATION
+Trust:     TRUST.PLAYER
+Position:  POSITION.REST
+Flags:     CMDFLAG.GDR
+MiniHelp:  Permette di annusare la stanza o qualcosa in particolare.

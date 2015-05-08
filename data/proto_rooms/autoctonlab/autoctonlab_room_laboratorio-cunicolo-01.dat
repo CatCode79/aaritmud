@@ -1,0 +1,46 @@
+
+Code: autoctonlab_room_laboratorio-cunicolo-01
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: laboratorio-cunicolo-01
+Short: laboratorio-cunicolo-01
+
+Descr:
+Sei 
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Extras:
+	Keywords: graffi
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+  Direction: DIR.NORTH
+  Descr: Al laboratorio
+End
+
+

@@ -1,0 +1,823 @@
+Comment: area novizi
+Creators:	Sulfrum
+Code: novizi2
+Name: Il Cammino del Sapere 
+Short: i dintorni della prima casa
+Descr:
+Il viaggio di ogni avventuriero comincia qui. All'ultimo piano della casa dei Grozzy; una famiglia che ha concesso parte della magione per iniziare gli avventurieri al mondo del nakilen.
+La casa è stata scelta in verità per la vicinanza ad est con la Torre Elementale, snodo e crocevia del mondo in evoluzione.
+Color: COLOR.GRAY
+Level: 5
+RepopTime: 20
+LandfillCode:	novizi2_room_12d-soffitta
+
+RoomResets:
+	ProtoRoom: novizi2_room_00-benvenuto
+	Destination:	0 0 0 novizi2
+
+
+
+
+End
+RoomResets:
+	ProtoRoom: novizi2_room_01-sensoriali
+	Destination:	0 -1 0 novizi2
+End
+RoomResets:
+	ProtoRoom: novizi2_room_02-get-drop
+	Destination:	-1 -1 0 novizi2
+
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	novizi2_item_salvadanaio
+	End
+	EntityResets:
+		Quantity:	3
+		Type:	RESET.PUT
+		ProtoEntity:	novizi2_item_moneta_01
+	End
+End
+RoomResets:
+	ProtoRoom: novizi2_room_03-corridoio
+	Destination:	-2 -2 0 novizi2
+		EntityResets:
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity: novizi2_item_cesto-vimini
+			EntityResets:
+				ProtoEntity: novizi2_item_coccarda_02
+				Quantity: 1
+				Type: RESET.PUT
+			End
+			EntityResets:
+				ProtoEntity: novizi2_item_coccarda_03
+				Quantity: 1
+				Type: RESET.PUT
+			End
+			EntityResets:
+				ProtoEntity: novizi2_item_coccarda_04
+				Quantity: 1
+				Type: RESET.PUT
+			End
+			EntityResets:
+				ProtoEntity: novizi2_item_coccarda_05
+				Quantity: 1
+				Type: RESET.PUT
+			End
+			EntityResets:
+				ProtoEntity: novizi2_item_coccarda_06
+				Quantity: 1
+				Type: RESET.PUT
+			End
+			EntityResets:
+				ProtoEntity: novizi2_item_coccarda_07
+				Quantity: 1
+				Type: RESET.PUT
+			End
+			EntityResets:
+				ProtoEntity: novizi2_item_coccarda_08
+				Quantity: 1
+				Type: RESET.PUT
+			End
+			EntityResets:
+				ProtoEntity: novizi2_item_coccarda_09
+				Quantity: 1
+				Type: RESET.PUT
+			End
+			EntityResets:
+				ProtoEntity: novizi2_item_coccarda_10
+				Quantity: 1
+				Type: RESET.PUT
+			End
+		End
+End
+RoomResets:
+	ProtoRoom: novizi2_room_12a-soffitta
+	Destination:	-2 -2 1 novizi2
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	novizi2_item_chiave-scrigno
+	End
+
+End
+RoomResets:
+	ProtoRoom: novizi2_room_04-lock
+	Destination:	-3 -3 0 novizi2
+	EntityResets:
+		Quantity:	1
+		Type:	RESET.PUT
+		ProtoEntity: novizi2_item_orologio
+	End
+End
+RoomResets:
+	ProtoRoom: novizi2_room_04a-sgabuzzino
+	Destination:	-4 -3 0 novizi2
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	novizi2_item_barattolo
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	novizi2_item_coltello-tavola
+		End
+	End
+End
+
+RoomResets:
+	ProtoRoom: novizi2_room_05-eat
+	Destination:	-3 -4 0 novizi2
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	novizi2_item_tavolo
+	End
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	ikea_item_food-torta-semi
+	End
+	EntityResets:
+		ProtoEntity: novizi2_item_spezzatino
+		EntityResets:
+			Quantity: 5
+			Type: RESET.PUT
+			ProtoEntity: novizi2_item_spezzatino-patata
+		End
+		EntityResets:
+			Quantity: 5
+			Type: RESET.PUT
+			ProtoEntity: novizi2_item_spezzatino-patata-02
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	ikea_item_food-pomodoro
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	ikea_item_food-carota
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	novizi2_mob_inserviente-silente
+	End
+End
+RoomResets:
+	ProtoRoom: novizi2_room_05a-cucina
+	Destination:	-4 -4 0 novizi2
+	EntityResets:
+		Quantity:	2
+		Type: 	RESET.PUT
+		ProtoEntity: 	ikea_item_food-pomodoro
+	End
+	EntityResets:
+		Quantity:	2
+		Type: 	RESET.PUT
+		ProtoEntity: 	ikea_item_food-salsiccia-finocchio
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	novizi2_item_lavello
+			EntityResets:
+				Quantity:	4
+				Type:		RESET.PUT
+				ProtoEntity:	ikea_item_polpetta-vecchia
+			End
+			EntityResets:
+				Quantity: 4
+				Type: RESET.PUT
+				ProtoEntity: novizi2_item_cetriolo
+			End
+			EntityResets:
+				Quantity: 1
+				Type: RESET.PUT
+				ProtoEntity: novizi2_item_sozzume-piatti
+			End
+	End
+
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: novizi2_item_credenza-01
+			EntityResets:
+				Quantity: 10
+				Type: RESET.PUT
+				ProtoEntity: ikea_item_food-paneraffermo
+			End
+	End
+End
+RoomResets:
+	ProtoRoom: novizi2_room_05b-dispensa
+	Destination:	-4 -5 0 novizi2
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	novizi2_item_scaffalatura
+		EntityResets:
+			Quantity:	6
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_food-torta-semi
+		End
+		EntityResets:
+			Quantity:	5
+			Type: 	RESET.PUT
+			ProtoEntity: 	ikea_item_food-pomodoro
+		End
+		EntityResets:
+			Quantity:	3
+			Type: 	RESET.PUT
+			ProtoEntity: 	ikea_item_food-carota
+		End
+		EntityResets:
+			Quantity:	5
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_food-paneraffermo
+		End
+		EntityResets:
+			Quantity:	3
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_food-pesce-bistecca
+		End
+		EntityResets:
+			Quantity:	5
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_food-salsiccia-finocchio
+		End
+		EntityResets:
+			Quantity:	2
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_pandolce-confezione
+			EntityResets:
+				Quantity:	6
+				Type:		RESET.PUT
+				ProtoEntity:	ikea_item_food-vv01-pandolce
+			End
+		EntityResets:
+			Quantity:	3
+			Type:		RESET.PUT
+			ProtoEntity:	citta-raminghe_item_food-tortino-cioccolato
+		End
+		End
+	End
+End
+
+RoomResets:
+	ProtoRoom: novizi2_room_06-corridoio
+	Destination:	-2 -5 0 novizi2
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	novizi2_item_cassapanca
+		End
+		EntityResets:
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity: mfdonald_item_nube-01
+		End
+End
+RoomResets:
+	ProtoRoom: novizi2_room_12b-soffitta
+	Destination:	-2 -5 1 novizi2
+End
+RoomResets:
+	ProtoRoom: novizi2_room_07-wear
+	Destination:	-1 -6 0 novizi2
+		EntityResets:
+			ProtoEntity: novizi2_item_vetrinetta
+			EntityResets:
+				Quantity:	9
+				Type: 	RESET.PUT
+				ProtoEntity: 	novizi2_item_memorandum
+			End
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	novizi2_item_cassa-vestiario
+				EntityResets:
+					Quantity:	1
+					Type: 	RESET.PUT
+					ProtoEntity: 	ikea_item_camicia
+				End
+				EntityResets:
+					Quantity:	1
+					Type: 	RESET.PUT
+					ProtoEntity: 	ikea_item_pantalavoro
+				End
+				EntityResets:
+					Quantity:	1
+					Type: 	RESET.PUT
+					ProtoEntity:	ikea_item_guanti
+				End
+				EntityResets:
+					Quantity:	1
+					Type: 	RESET.PUT
+					ProtoEntity:	ikea_item_pantaloni
+				End
+				EntityResets:
+					Quantity:	1
+					Type: 	RESET.PUT
+					ProtoEntity:	ikea_item_guanti-lavoro
+				End
+				EntityResets:
+					Quantity:	1
+					Type: 	RESET.PUT
+					ProtoEntity:	ikea_item_stivali
+				End
+				EntityResets:
+					Quantity:	1
+					Type: 	RESET.PUT
+					ProtoEntity:	ikea_item_cappuccio
+				End
+				EntityResets:
+					Quantity:	1
+					Type: 	RESET.PUT
+					ProtoEntity:	ikea_item_mantella
+				End
+				EntityResets:
+					Quantity:	1
+					Type: 	RESET.PUT
+					ProtoEntity:	ikea_item_cintura
+				End
+				EntityResets:
+					Quantity:	1
+					Type: 	RESET.PUT
+					ProtoEntity:	ikea_item_gonna
+				End
+				EntityResets:
+					Quantity:	1
+					Type: 	RESET.PUT
+					ProtoEntity:	ikea_item_mantello
+				End
+				EntityResets:
+					Quantity:	1
+					Type: 	RESET.PUT
+					ProtoEntity:	ikea_item_scarpe
+				End
+				EntityResets:
+					Quantity:	3
+					Type: 	RESET.PUT
+					ProtoEntity:	ikea_item_calzino
+				End
+				EntityResets:
+					Quantity:	1
+					Type: 	RESET.PUT
+					ProtoEntity:	novizi2_item_eq-brache
+				End
+				EntityResets:
+					Quantity:	1
+					Type: 	RESET.PUT
+					ProtoEntity:	novizi2_item_eq-cravatta-nera
+				End
+				EntityResets:
+					Quantity:	1
+					Type: 	RESET.PUT
+					ProtoEntity:	novizi2_item_eq-gilet-scacchi
+				End
+	
+				EntityResets:
+					Quantity:	1
+					Type: 	RESET.PUT
+					ProtoEntity:	novizi2_item_eq-mocassino-dx
+				End
+				EntityResets:
+					Quantity:	1
+					Type: 	RESET.PUT
+					ProtoEntity:	novizi2_item_eq-mocassino-sx
+				End
+				EntityResets:
+					Quantity:	1
+					Type: 	RESET.PUT
+					ProtoEntity:	novizi2_item_eq-pantaloni-lunghi
+				End
+				EntityResets:
+					Quantity:	1
+					Type: 	RESET.PUT
+					ProtoEntity:	novizi2_item_eq-polsiera
+				End
+				EntityResets:
+					Quantity:	1
+					Type: 	RESET.PUT
+					ProtoEntity:	novizi2_item_eq-slippini-elefante
+				End
+	        	End
+End
+RoomResets:
+	ProtoRoom:	novizi2_room_07a-camera
+	Destination:	-1 -7 0 novizi2
+		EntityResets:
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity: novizi2_mob_acaro
+		End
+End
+RoomResets:
+	ProtoRoom:	novizi2_room_07b-bagno 
+	Destination:	-2 -7 0 novizi2
+End
+
+
+RoomResets:
+	Comment: zona sotterranea (giunzione)
+	ProtoRoom: novizi2_room_sotterraneo-accesso
+	Destination:	-2 -7 -1 novizi
+End
+RoomResets:
+	Comment: zona sotterranea (fondo delle scale)
+	ProtoRoom: novizi2_room_sotterraneo-pianerottolo
+	Destination:	-2 -7 -2 novizi
+		EntityResets:
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity: novizi2_item_chiave-botola-01
+		End
+		EntityResets:
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity: novizi2_item_vaso-terracotta-01
+		End
+		EntityResets:
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity: novizi2_item_vaso-terracotta-02
+			EntityResets:
+				Quantity: 1
+				Type: RESET.PUT
+				ProtoEntity: novizi2_item_book-indizio-bovino
+			End
+		End
+		EntityResets:
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity: novizi2_item_vaso-terracotta-03
+			EntityResets:
+				Quantity: 1
+				Type: RESET.PUT
+				ProtoEntity: novizi2_item_dado-1d6
+			End
+		End
+End
+RoomResets:
+	Comment: zona sotterranea (fondo delle scale)
+	ProtoRoom: novizi2_room_sotterraneo-cubicolo
+	Destination:	-2 -7 -3 novizi
+		EntityResets:
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity: novizi2_item_chiave-botola-01
+		End
+End
+
+
+RoomResets:
+	ProtoRoom:	novizi2_room_07b-camerino
+	Destination:	-1 -8 0 novizi2
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_puzza-sudore
+		End
+End
+RoomResets:
+	ProtoRoom: novizi2_room_08-palestra
+	Destination:	0 -6 0 novizi2
+End
+RoomResets:
+	ProtoRoom: novizi2_room_08a-armeria
+	Destination:	1 -7 0 novizi2
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+                Comment:	economiche
+		ProtoEntity:	novizi2_item_rastrelliera-armi-01
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_weapon-pugnale
+		End
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_weapon-spada
+		End
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_weapon-bottiglia-rotta
+		End
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_weapon-daga
+		End
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_weapon-ascia-battaglia
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+                Comment:	lunghe
+		ProtoEntity:	novizi2_item_rastrelliera-armi-02
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_weapon-quarterstaff
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+                Comment:	usate
+		ProtoEntity:	novizi2_item_rastrelliera-armi-03
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_weapon-spada-semplice
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+                Comment:	decenti
+		ProtoEntity:	novizi2_item_rastrelliera-armi-04
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_weapon-spada-bastarda
+		End
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_weapon-frusta
+		End
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_weapon-tridente
+		End
+	End
+End
+RoomResets:
+	ProtoRoom: novizi2_room_08b-hold
+	Destination:	2 -8 0 novizi2
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	novizi2_item_scatolone-01
+		EntityResets:
+			Quantity:	3
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_bussola
+		End
+		EntityResets:
+			Quantity:	3
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_lanterna
+		End
+	End
+End
+RoomResets:
+	ProtoRoom: novizi2_room_09-corridoio
+	Destination:	1 -5 0 novizi2
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	novizi2_mob_venditore-amuleti
+		EntityResets:
+			WearMode:	PART.NECK
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	novizi2_item_porta-amuleti
+			EntityResets:
+				Quantity:	1
+				Type:		RESET.PUT
+				ProtoEntity:	novizi2_item_amuleto-arthiksite
+			End
+			EntityResets:
+				Quantity:	2
+				Type:		RESET.PUT
+				ProtoEntity:	novizi2_item_amuleto-baknar
+			End
+			EntityResets:
+				Quantity:	3
+				Type:		RESET.PUT
+				ProtoEntity:	novizi2_item_amuleto-bottiglietta-setaria
+			End
+			EntityResets:
+				Quantity:	4
+				Type:		RESET.PUT
+				ProtoEntity:	novizi2_item_amuleto-condylura
+			End
+			EntityResets:
+				Quantity:	5
+				Type:		RESET.PUT
+				ProtoEntity:	novizi2_item_amuleto-cyproreus
+			End
+			EntityResets:
+				Quantity:	6
+				Type:		RESET.PUT
+				ProtoEntity:	novizi2_item_amuleto-fhargun
+			End
+			EntityResets:
+				Quantity:	7
+				Type:		RESET.PUT
+				ProtoEntity:	novizi2_item_amuleto-ogmjos
+			End
+			EntityResets:
+				Quantity:	8
+				Type:		RESET.PUT
+				ProtoEntity:	novizi2_item_amuleto-titiwai
+			End
+			EntityResets:
+				Quantity:	9
+				Type:		RESET.PUT
+				ProtoEntity:	novizi2_item_amuleto-vasuki
+			End
+		End
+	End
+End
+RoomResets:
+	ProtoRoom: novizi2_room_12c-soffitta
+	Destination:	1 -5 1 novizi2
+End
+RoomResets:
+	ProtoRoom: novizi2_room_12d-soffitta
+	Destination:	1 -4 1 novizi2
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	novizi2_item_scrigno
+		EntityResets:
+			Quantity:	4
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_coin-human-copper
+		End
+	End
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	novizi2_item_doppio-fondo-scrigno
+		EntityResets:
+			Quantity:	15
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_coin-human-silver
+		End
+	End
+End
+RoomResets:
+	ProtoRoom: novizi2_room_10-fight
+	Destination:	2 -4 0 novizi2
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	novizi2_mob_swoomy
+	End
+End
+RoomResets:
+	ProtoRoom: novizi2_room_10a-arena
+	Destination:	3 -5 0 novizi2
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	novizi2_mob_apprendista-zwig
+	End
+End
+RoomResets:
+	ProtoRoom: novizi2_room_10a-arena-altare-agricoltura
+	Destination:	4 -5 0 novizi2
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	novizi2_item_altare-agricoltura
+	End
+End
+RoomResets:
+	ProtoRoom: novizi2_room_10a-arena-infermeria
+	Destination:	3 -4 0 novizi2
+End
+RoomResets:
+	ProtoRoom: novizi2_room_10a-arena-laboratorio-alchimia
+	Destination:	3 -6 0 novizi2
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	novizi2_mob_alchimista-khumatos
+		EntityResets:
+			WearMode:	PART.RIGHT_EYE PART.LEFT_EYE
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_eq-occhiali-protettivi
+		End
+		EntityResets:
+			WearMode:	PART.TORSO PART.LEFT_LOWER_LIMB PART.RIGHT_LOWER_LIMB
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_eq-grembiule-cerato
+		End
+	End
+End
+RoomResets:
+	ProtoRoom: novizi2_room_10a-arena-altare-guerra
+	Destination:	2 -5 0 novizi2
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	novizi2_item_statua-guerra-conoscenza
+	End
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	novizi2_item_statua-guerra-fortuna
+	End
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	novizi2_item_statua-guerra-discrezione
+	End
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	novizi2_item_statua-guerra-strategia
+	End
+End
+RoomResets:
+	ProtoRoom: novizi2_room_11-corridoio
+	Destination:	2 -3 0 novizi2
+End
+RoomResets:
+	ProtoRoom: novizi2_room_11-viale
+	Destination:	1 -3 0 novizi2
+End
+RoomResets:
+	ProtoRoom: novizi2_room_11a-seed
+	Destination:	-1 -3 0 novizi2
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	novizi2_item_cassetta-legno
+			EntityResets:
+				Quantity:	1
+				Type: 	RESET.PUT
+				ProtoEntity: 	novizi2_item_semi-frutta
+			End
+
+		End
+End
+RoomResets:
+	ProtoRoom: novizi2_room_11b-seed
+	Destination:	-1 -4 0 novizi2
+End
+RoomResets:
+	ProtoRoom: novizi2_room_11-seed-vaso
+	Destination:	0 -4 0 novizi2
+			EntityResets:
+				Quantity:	1
+				Type: 	RESET.PUT
+				ProtoEntity:	flora_item_sabbia
+			End
+			EntityResets:
+				Quantity:	1
+				Type: 	RESET.PUT
+				ProtoEntity:	flora_item_torba
+			End
+			EntityResets:
+				Quantity:	1
+				Type: 	RESET.PUT
+				ProtoEntity:	flora_item_argilla
+			End
+			EntityResets:
+				Quantity:	1
+				Type: 	RESET.PUT
+				ProtoEntity:	karpuram_item_vasetto_01
+			End
+			EntityResets:
+				Quantity:	1
+				Type: 	RESET.PUT
+				ProtoEntity:	karpuram_item_vasetto_02
+			End
+			EntityResets:
+				Quantity:	1
+				Type: 	RESET.PUT
+				ProtoEntity:	karpuram_item_vasetto_03
+			End
+
+End
+RoomResets:
+	ProtoRoom: novizi2_room_piazzale
+	Destination:	3 -2 0 novizi2
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	novizi2_mob_bovino_mannaro_01
+	End
+End

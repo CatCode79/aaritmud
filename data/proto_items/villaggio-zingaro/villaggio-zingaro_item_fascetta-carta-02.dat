@@ -1,0 +1,21 @@
+Code: villaggio-zingaro_item_fascetta-carta-02
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.PAPER 100%	
+Name:	Una [sandybrown]Fascetta[close] di Carta
+Short:	una [sandybrown]fascetta[close] di carta
+Long:	$N avvolge $i
+
+Descr:
+Una [sandybrown]fascetta[close] di carta chiusa con un punto metallico, per tutta la lunghezza sono rappresentate delle delle [steelblue]stelle bluastre[close].
+DescrTouch: 
+Una fascetta di carta ruvida.
+
+Value:	0
+Weight: 1g
+
+ContainerType:
+	MaxWeight:	500g
+End

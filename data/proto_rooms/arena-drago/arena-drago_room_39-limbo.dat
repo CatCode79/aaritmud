@@ -1,0 +1,66 @@
+Code:	arena-drago_room_39-limbo
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il Limbo
+Short:	il limbo
+	Descr:
+Oltrepassi il portale e ti trovi sospeso nel buio più
+assoluto,una voce ti sussurra nella mente "non temere cavaliere,
+segui la via di Meghok, protettore dei guerrieri, e supererai la
+temibile prova.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	4|64|256|32768|16777216 -1 60 27740 0 0 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

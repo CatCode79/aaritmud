@@ -1,0 +1,34 @@
+Code: novizi2_item_cetriolo
+Level: 2
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name:	Un Sontuoso Cetriolo
+Short:	un cetriolo di rara grandezza
+Long:	$N ti sfida ad un rapido spuntino
+
+Descr:
+Un sano cetriolo di grandezza insperata e di un verde particolarmente intenso.
+DescrTouch: 
+Un turgido cetriolo di dimensioni tutt'altro che modeste.
+DescrSmell: 
+Come molti della sua specie non sa di molto.
+DescrSixth:
+Neppure un'etichetta ad indicarne la provenienza...
+DescrTaste:
+Fresco e croccante dal sapore astringente ed amaro come mai sentito prima.
+
+Value:	10
+Weight: 190g
+
+FoodType:
+	Comment:	cibo
+	Animal:	0
+	Vegetable:	100
+	CookingDamage:	0
+	Hours:	0
+	EntityMessage:	Sgranocchi $N senza pelarlo.
+	TargetMessage:	Ora c'è una sola via d'uscita... $n t'ha mangiato.
+	OthersMessage:	$n sgranocchia $N senza prendersi la briga di pelarlo.
+End

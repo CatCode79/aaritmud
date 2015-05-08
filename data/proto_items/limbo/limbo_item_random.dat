@@ -1,0 +1,19 @@
+Code: limbo_item_random
+Level: 1
+
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.UNKNOWN	100%
+Name: Un Numero Casuale
+Short: un numero casuale
+Descr:
+Qui ti trovi di fronte al terribile 0!
+
+Long:	$N per terra come se fosse stato calciato
+
+Value:	10
+Weight: 1kg
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 1
+

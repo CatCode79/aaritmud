@@ -1,0 +1,312 @@
+Comment:
+Revisione integrale senza pietà di idee tratte da
+Le Cronache del Bordo
+di
+Paul Stewart e Chris Riddell
+
+Creators:	Batu Sulfrum
+Code:	elizor 
+Name:	Il Regno Fluttuante di Elizor
+Short:	il regno fluttuante di Elizor
+Descr:
+La storia della comunità segna i suoi giorni con quelli dei poderosi massi fluttuanti sui quali sorserse per primo il monastero. Il principio è fuori della memoria anche degli archivisti più antichi.
+Oggi conservano la potenza economica e la sapienza misteriosa dei monaci sempre venata da un acido commento in bocca alla popolazione più impoverita.
+
+Color: COLOR.RED cinabro c'avvelena i meno scaltri artisti
+Level: 1
+RepopTime: 150
+LandfillCode:	elizor_room_piazza-fontana
+
+RoomResets:
+	ProtoRoom:	elizor_room_piazza-fontana 
+	Destination:	0 0 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_piazza-est
+	Destination:	1 0 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_piazza-nord
+	Destination:	0 1 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_piazza-nord-est
+	Destination:	1 1 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_shop-profumeria
+	Destination:	1 2 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_shop-friggitoria
+	Destination:	2 1 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_piazza-nord-ovest
+	Destination:	-1 1 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_shop-pelletteria
+	Destination:	-1 2 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_shop-01
+	Destination:	-2 1 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_piazza-ovest
+	Destination:	-1 0 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_piazza-sud
+	Destination:	0 -1 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_piazza-sud-est
+	Destination:	1 -1 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_shop-02
+	Destination:	-2 -1 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_shop-03
+	Destination:	-1 -2 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_piazza-sud-ovest
+	Destination:	-1 -1 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_shop-04
+	Destination:	1 -2 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_shop-05
+	Destination:	2 -1 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_strada-ovest-01
+	Destination:	-2 0 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_strada-ovest-02
+	Destination:	-3 0 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_strada-ovest-03
+	Destination:	-4 0 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_strada-ovest-04
+	Destination:	-5 0 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_strada-ovest-05
+	Destination:	-6 1 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_strada-ovest-06
+	Destination:	-7 2 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_boschetto-01
+	Destination:	-7 1 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_boschetto-02
+	Destination:	-7 0 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_boschetto-03
+	Destination:	-8 0 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_boschetto-04
+	Destination:	-7 -1 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_boschetto-05
+	Destination:	-8 3 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_strada-ovest-07
+	Destination:	-8 2 0 elizor	
+End
+RoomResets:
+	ProtoRoom:	elizor_room_strada-ovest-08
+	Destination:	-9 1 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_strada-ovest-09
+	Destination:	-9 0 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_strada-ovest-10
+	Destination:	-8 -1 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_strada-ovest-11
+	Destination:	-8 -2 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_strada-ovest-12
+	Destination:	-8 -3 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_strada-ovest-13
+	Destination:	-9 -3 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_strada-ovest-14
+	Destination:	-10 -3 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_guarnigione-ovest-01
+	Destination:	-9 -2 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_guarnigione-ovest-02
+	Destination:	-9 -4 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_guarnigione-ovest-03
+	Destination:	-10 -4 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_strada-sud-01
+	Destination:	0 -2 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_strada-sud-02
+	Destination:	0 -3 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_strada-sud-03
+	Destination:	1 -4 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_strada-sud-04
+	Destination:	2 -5 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_strada-sud-05
+	Destination:	2 -6 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_strada-sud-06
+	Destination:	2 -7 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_guarnigione-sud-antica
+	Destination:	3 -7 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_strada-sud-07
+	Destination:	3 -5 0 elizor	
+End
+RoomResets:
+	ProtoRoom:	elizor_room_strada-sud-08
+	Destination:	4 -5 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_strada-sud-09
+	Destination:	5 -6 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_strada-sud-10
+	Destination:	5 -7 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_strada-sud-11
+	Destination:	5 -8 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_guarnigione-sud-01
+	Destination:	4 -8 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_guarnigione-sud-02
+	Destination:	6 -8 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_guarnigione-sud-03
+	Destination:	6 -9 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_strada-nord-01
+	Destination:	0 2 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_strada-nord-02
+	Destination:	0 3 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_strada-nord-03
+	Destination:	-1 4 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_albergo-01
+	Destination:	-2 4 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_strada-nord-04
+	Destination:	1 4 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_strada-est-01
+	Destination:	2 0 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_strada-est-02
+	Destination:	3 0 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_shop-sarta
+	Destination:	3 -1 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_strada-est-03
+	Destination:	4 1 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_strada-est-04
+	Destination:	5 1 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_strada-est-05
+	Destination:	6 2 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_strada-est-06
+	Destination:	7 2 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_chiesetta-01
+	Destination:	8 2 0 elizor
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	elizor_item_pezzo-mosaico-01
+	End
+End
+RoomResets:
+	ProtoRoom:	elizor_room_chiesetta-02
+	Destination:	9 2 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_sagrato-01
+	Destination:	7 1 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_sagrato-02
+	Destination:	8 1 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_nel-vuoto
+	Destination:	9 3 0 elizor
+End
+RoomResets:
+	ProtoRoom:	elizor_room_impalcature
+	Destination:	9 2 -1 elizor
+End

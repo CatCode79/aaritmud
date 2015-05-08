@@ -1,0 +1,19 @@
+Code:	serpidi_item_abito_27
+Level:	1
+Entitype: ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.CLOTH	100%
+Name:	Robusto Abito da Lavoro 
+Short:	un robusto abito da lavoro 
+Descr: 
+C'è un abito da lavoro di materiale robusto abbandonato a terra.  
+Value:	0
+Weight: 3200g
+BirthDay: 1
+BirthMonth: MONTH.TEN
+WearType:
+    Modes: PART.BODY
+End
+
+
+
+

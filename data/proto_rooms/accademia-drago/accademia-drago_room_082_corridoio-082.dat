@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_082_corridoio-082
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Un Corridoio
+Short:	un corridoio
+	Descr:
+Questo corridoio è completamente nero; pareti, pavimento e
+soffitto... le uniche note di colore sono alcune venature
+grigio-azzurre che corrono nelle pietre, sembrano quasi spostarsi
+e luccicano come vene minerali. Il corridoio prosegue a nord e
+sud mentre nelle pareti est ed ovest si aprono due piccole porte
+d'ebano nero.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 0
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	un corridoio
+	Comment:	ExitStatus	0 0 081 -1
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	le camerate [gray]nere[close]
+	Comment:	ExitStatus	1 0 085 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	un corridoio
+	Comment:	ExitStatus	0 0 083 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	le camerate [gray]nere[close]
+	Comment:	ExitStatus	1 0 087 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+Code:	accademia-drago_item_calzino
+Level:	06
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.WOOL 100%
+Flags:	FLAG.NO_LOOK_LIST
+Name:	un calzino
+Short:	un calzino
+
+Value:	0
+Weight:	100g
+
+Descr:
+	Un calzino
+
+WearType:
+   Flags:	WEAR.LAYERABLE
+   Modes:	PART.LEFT_FOOT
+   Modes:	PART.RIGHT_FOOT
+End
+
+ContainerType:
+        MaxWeight: 5kg
+End
+Comment:
+§27615
+
+Dati Obj
+15 262144 010 4 -1 01 0 

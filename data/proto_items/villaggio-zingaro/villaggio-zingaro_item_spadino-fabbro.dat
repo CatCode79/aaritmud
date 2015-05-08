@@ -1,0 +1,45 @@
+Code: villaggio-zingaro_item_spadino-fabbro
+Level: 1
+Entitype: ENTITYPE.WEAPON
+Sex:    SEX.MALE
+MaterialPercentages:	MATERIAL.METAL	100%
+Name:   Un Piccolo Spadino
+Short:  un piccolo spadino 
+Long:   $N fa capolino tra gli utensili
+
+
+Descr: 
+		Una semplice spada dalle dimensioni ridotte, ha un [dimgray]manico[close] in ferro chiaro,
+		l'[darkslategray]elsa[close] è di colore leggermente più intenso e la lama presenta due 
+		colorazioni distinte. Questo spadino sembra sia stato creato appositamente
+		come arma campione per evidenziare le diverse lavorazioni del fabbro.
+		La capacità offensiva dell'arma è in forte contrasto con la sua grande
+		maneggevolezza e unicità.
+
+DescrTouch:
+		Fredda al tatto, si notano subito le imperfezioni della lama formata da
+		due diverse leghe ferrose e lo stesso manico è corto e tozzo.
+
+DescrSmell:
+		Distingui diverse qualità di ferro raggiungere le tue narici, anche se
+		non riesci a capire con esattezza di quali si tratti.
+
+DescrSixth:
+		Potrebbe essere scambiata per una spada d'addestramento, ma la sua
+		conformazione tradisce questo utilizzo e ti porta a pensare che serva
+		come prova per il fabbro.
+
+
+Value:	0
+Weight: 4kg
+
+
+WearType:
+       Modes: PART.WIELD 
+End
+
+WeaponType:
+       Category: WEAPON.SWORD
+       Damage: 1D6
+       Flags: WEAPONFLAG.ONE_HAND
+End

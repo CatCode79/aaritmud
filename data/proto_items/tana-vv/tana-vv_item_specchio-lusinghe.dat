@@ -1,0 +1,105 @@
+Comment: Sì, si sono stato influenzato da qualcosa di vagamente simile ne "La stella degli Elfi" ma non viene descritto, non così almeno.
+Code: tana-vv_item_specchio-lusinghe
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.METAL	60%
+MaterialPercentages:	MATERIAL.GLASS	40%
+Name:	Uno Specchio Fatato della Vanità
+Short:	un alto specchio da pavimento
+Long:	$N riflette ciò che gli passa davanti
+
+Descr:
+Una specchiera alta quasi due metri e basculante. Lo specchio è formato da un'unica lastra ovale d'argento levigato e lucidato all'inverosimile mentre la struttura è di un metallo ancora più chiaro ma opaco. 
+La base è un rettangolo sotto al quale sporgono delle semisfere a fare da piedi e da cui partono due colonne che sostengono dei perni sui quali bascula la cornice ellittica dello specchio vero e proprio. I perni terminano con dei pomi a forma di sfera schiacciata. La cornice è semplice e la superficie riflettente è così perfetta da sembrare la porta verso un altro mondo dalla quale la tua immagine riflessa sta guardando in questo.
+Dalla base sporge una piccola targa con una scritta.
+DescrTouch: 
+La superficie riflettente è estremamente liscia e scorrevole ed è decisamente solida. Il telaio è molto più pesante di quanto non sarebbe se fosse in ferro battuto ed è zigrinato.
+DescrSixth:
+Ti sfiora il pensiero di poter approfittare dello specchio per darti una sistemata. La cosa inquietante è che il pensiero ti ha raggiunto come se ti fosse stato suggerito da qualcun altro.
+
+Value:	1000
+Weight: 40000g
+
+Extras:
+	Keywords: immagine riflessa riflesso
+	Descr:
+	Riconosci il brutto muso che ti si para davanti: è proprio il tuo... anche se, devi ammettere, non è poi così brutto.
+	DescrSixth:
+	Seriamente qualche piccolo intervento sulla tua persona potrebbe fare enormi differenze. Magari se resti qui a specchiarti abbastanza a lungo potrebbe venirti qualche idea.
+End
+
+Extras:
+	Keywords: base targa scritta
+        Flags: EXTRA.READABLE
+	Descr:
+	È incisa in bei caratteri ornati su un rettangolo che sporge leggermente dalla base la scirtta<br />"Specchio di Bellezza<br /> Laboratorio di Incantesimi ed Oggetti Magici di mastro Attilius"
+	DescrTouch:
+	La targa sembra sporgere e la scritta sembra profondamente incisa ma al tatto nulla interrompe l'omogenea rugosità della base.
+	DescrSixth:
+	La targa ti comunica telepaticamente "Non servirsi dello Specchio di Bellezza per lunghi periodi di tempo. L'esposizione prolungata può causare arrossamenti, inappetenza, stipsi, follia e morte. Si declina qualsiasi responsabilità per eventuali conseguenze dannose dirette od indirette causate dall'uso improprio dello Specchio di Bellezza. Grazie per la preferenza accordataci!"
+End
+
+Extras:
+	Keywords: superficie
+	Descr:
+	Perfettamente piana e lucida e priva di difetti; restituisce un'immagine completamente priva di deformazioni. Mentre osservi la superficie l'occhio ti continua a cadere sulla tua immagine riflessa.
+	DescrTouch:
+	È quasi impossibile percepire attrito. Dopo poco inizi a sentire una sensazione di freddo attraversare la tua $HAND mentre tocchi la superficie d'argento.
+	DescrSixth:
+	È sospetto che l'argento della superficie non sia macchiato o sciupato in qualche modo. Qualcuno deve costantemente lucidare questo oggetto oppure deve esserci della magia in atto. Comunque perché non stai guardando la tua immagine riflessa: gli specchi esistono per quello!
+End
+
+
+Extras:
+	Keywords: pomo pomi sfere
+	Descr:
+	I pomi ai lati sono fatti dello stesso metallo chiaro ed opaco del resto della struttura. La forma è di sfera schiacciata ai poli e rigonfia all'equatore. Hanno delle coste che li divide in spicchi. Il perno che dovrebbe attraversarli è completamente invisibile.
+	DescrHearing:
+	Azionando i perni lo specchio si muove senza fare assolutamente alcun rumore.
+	DescrTouch:
+	Rugosi al tatto, hanno una forma tale da garantire una buona presa.
+	DescrSixth:
+	I perni passati, invece che accuratamente nascosti, potrebbero anche non esistere ed i pomi essere magicamente collegati all'inclinazione della lastra.
+	Manovrando i pomi è possibile cambiare l'inclinazione dello specchio anche se è talmente alto e grande che è quasi impossibile non specchiarsi interamente. A tal proposito: perché non lo stai facendo?!
+End
+
+Behaviour:
+	LookPlayer:	10
+	LookMob:	5
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+        RandomDo:	20
+	RandomDoInputs:	say Avvicinati, tesoro, così da poter vedere meglio.
+        RandomDoInputs: say Fai un passo indietro per avere una visione d'insieme.
+        RandomDoInputs: say Sei una favola!
+        RandomDoInputs: say Non dimenticare di dedicare il giusto tempo alla cura delle $hands
+        RandomDoInputs: say Qualsiasi acconciatura ti dona: il fascino irradia da dentro di te.
+        RandomDoInputs: say Il sonno è tuo alleato, lascia che il riposo faccia fiorire la tua naturale bellezza.
+        RandomDoInputs: sigh
+        RandomDoInputs: say Se ti piace lo Specchio di Bellezza prova il nostro Pettine del Fascino!
+        RandomDoInputs: say Fai sport?! Il tuo fisico sembra ogni giorno più tonico!
+        RandomDoInputs: say Non dimenticare mai di lavare i denti con regolarità.
+        RandomDoInputs: say Rinnova spesso il tuo guardaroba o sfigurerai nell'Alta Società. Ci sono cose che nessuno dice ma tutti pensano...
+        RandomDoInputs: emote si fa opaco e poi mostra l'immagine di un pixie che picchia contro la superficie come fosse prigioniero all'interno. Non ti raggiunge alcun suono ma ti sembra le labbra scandiscano le parole AIUTO e LIBERATEMI. Dopo pochi secondi tutto torna alla normalità.
+End

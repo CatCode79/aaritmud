@@ -1,0 +1,20 @@
+Code:	accademia-drago_item_runa-bianca
+Level:	06
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.METAL 100%
+Sex:	SEX.MALE
+Name:	Una Runa [white]Bianca[close]
+Short:	una runa [white]bianca[close]
+Long:	$N è abbandonata qui come se fosse un qualcosa di nessun valore...
+
+Value:	0
+Weight:	100g
+
+Descr:
+una piccola runa in metallo [white]bianco[close].
+Comment:
+§27612
+
+Dati Obj
+A17 -20A18 1
+8 262144 10 0 0 01 0 -1

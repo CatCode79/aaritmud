@@ -1,0 +1,34 @@
+Code: mfdonald_item_spremuta
+Level: 1
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.VEGETABLES	20%
+MaterialPercentages:	MATERIAL.WATER	80%
+Name:	Una Spremuta
+Short:	un liquido giallo che sembra spremuta
+Long:	$N assume la forma di bicchiere anche senza un bicchiere
+
+DrinkType:
+	Comment:	spremuta arancia
+	Animal:	0
+	Vegetable:	100
+	CookingDamage:	0
+	Hours:	0
+	EntityMessage:	Prendi $N fra le $hands e te la bevi.	
+	TargetMessage:	Ora c'è una sola via d'uscita... $n t'ha bevut$O.
+	OthersMessage:	$n prende fra le mani $N e se la beve.
+End
+
+Descr:
+Un cilindro liquido che si sostiene da solo; arancione.
+DescrTouch: 
+È proprio liquid$O.
+DescrSmell: 
+Profuma di arancia.
+DescrTaste:
+Gusto arancia.
+
+Value:	0
+Weight: 10g
+
+

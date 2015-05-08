@@ -1,0 +1,45 @@
+Code: villaggio-zingaro_item_portale-pozzo
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Flags:	FLAG.NO_GET
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.STONE	82%
+MaterialPercentages:	MATERIAL.WOOD	18%
+Name:	Vecchio Pozzo
+Short:	vecchio pozzo
+Long:	uno sconnesso e $N di pietra
+
+Descr:
+Stanco e chino su sé stesso come in posizione di raccoglimento o stanchezza. Un vecchio pozzo di pietre non abbastanza nere, non abbastanza grigie. Su di un lato alcune pietre sono disposte a formare di [dimgray]scalini.[close]
+DescrTouch: 
+Un cumulo di pietre a guisa di pozzo che forse un tempo apparivano più disciplinate ed in posizione più organica.
+DescrSmell: 
+Odora d'umido, segno che il suo mestiere lo sa ancora fare.
+DescrSixth:
+Appena oltre la bocca si mostrano degli [dimgray]appoggi[close] e degli [dimgray]appigli[close] che digradano verso il basso.
+DescrHearing:
+Si sente il mare oppure è solo brusio.
+
+Extras:
+	Keywords:	scalini appoggi appigli
+	Descr:
+	Degli scalini e rientranze che possono essere utili volendo entrare nel pozzo.
+	DescrSixth:
+	Uhm, sembrano un chiaro invito ad entrare.
+End
+
+Value:	0
+Weight: 900kg
+
+PortalType:
+	Destination: -2 -1 -2 villaggio-zingaro
+	EntityEnterMessage: Ti giri di schiena per scendere circospetto ma il $N è più scivoloso di quanto appare...
+	OthersEnterMessage: $n si gira di schiena e inizia a scendere nel $N ma perde l'appiglio sin troppo in fretta volando giù...
+	TargetEnterMessage: $n si piega per scendere dentro te ma scivola...
+	EntityExitMessage: no_send
+	TargetExitMessage: Ora $n è sparit$o da $T finendo in $t.
+	OthersExitMessage: $n vola giù dall'alto fin qui e sfreccia scomposto verso il basso!
+End
+
+

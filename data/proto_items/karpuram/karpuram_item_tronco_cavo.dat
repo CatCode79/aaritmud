@@ -1,0 +1,39 @@
+Code: karpuram_item_tronco_cavo
+Level: 1
+Entitype:	ENTITYPE.CONTAINER
+MaterialPercentages:	MATERIAL.HARDWOOD	100
+Flags: FLAG.NO_GET
+
+Sex:	SEX.MALE
+Name: Un Tronco Cavo
+Short: un tronco spezzato
+Long:	$N semisradicato è qui a ridosso del sentiero
+Descr:
+	È tutto quello che resta di un vecchio albero spezzato dall'età e da eventi naturali.
+	Seminascosta da un moncone di radice si nota una cavità al suo interno. 
+DescrTouch: 
+	Un rammollito e marcescente, questo è tutto quel che resta di un albero morto almeno
+	un paio d'inverni fa.
+DescrSmell: 
+	Blando odore di funghi e muffa emanano dal ceppo marcescente.
+
+Value:	0
+Weight: 10kg
+
+Extras:
+	Keywords: radice radici cavità
+	Descr:
+	Ci passa comodamente tutto un braccio e con un po' di fortuna potrebbe persino
+	uscirne indenne
+	DescrTouch:
+	Infili la $hand1 nella cavità per il gusto di insozzartela
+	DescrSixth:
+	Vuoi davvero infilare una $hand nella cavità?
+End
+
+
+ContainerType:
+        MaxWeight: 10kg
+End
+
+

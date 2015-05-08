@@ -1,0 +1,62 @@
+Code: cimitero_item_lapide_nera
+Level: 1
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.STONE 100%
+Sex:	SEX.FEMALE
+Flags:	FLAG.NO_GET
+Name: Una Lapide Oscura
+Short: una lapide nera
+Long:	$N emerge dal terreno.
+
+Descr:
+Una lapide completamente nera attira la tua attenzione, avvicinandoti
+maggiormente ti rendi conto che presenta un piccolo basamento anch'esso 
+completamente nero. Non vi sono scritte di nessun tipo e solo nella parte
+posteriore vi è presente un simbolo a forma di mezza luna, un'incisione
+molto lieve che quasi non avevi notato.
+
+DescrNight: 
+Una lapide nera si trova quasi al centro del cimitero, se non fosse per la sua 
+posizione decisamente dominante rispetto alle altre lapidi non l'avresti mai
+notata. Il marmo non presenta nessun tipo di scritta e solo nella parte 
+posteriore della stessa vi è una lieve incisione.
+
+DescrHearing:
+Un silenzio innaturale circonda quest'oggetto, ogni suono circostante sembra
+essere scomparso.
+
+DescrHearingNight: 
+Pur trovandoti in un cimitero nel cuore della notte, ti sembra strano non 
+riuscire a percepire alcun tipo di suono nelle vicinanze di questa lapide.
+
+DescrSmellNight: 
+Un forte odore d'incenso scaturisce dalla base della lapide, fino ad arrivare
+alle tue narici risultando molto persistente nell'aria.
+
+DescrTouch:
+La lapide è freddissima in ogni suo punto e quasi ti provoca dolore toccandola.
+Un freddo talmente intenso da lasciarti senza parole.
+
+DescrTouchNight:
+La lapide non presenta alcuna traccia dell'umidità pressante della zona, ma 
+risulta decisamente fredda al tocco.
+
+DescrSixth: 
+Sei sicur$o che questa lapide non si trovi in una posizione così centrale per
+puro caso e che nasconda qualcosa di sinistro.
+
+DescrSixthNight:
+Avverti una serie di sinistre emozioni stando vicino a questa nera e tetra
+lapide.
+
+Value:	0
+Weight: 150kg
+
+Extras:
+	Keywords: simbolo incisione
+	Descr
+	Una mezza luna è incisa nella parte posteriore di questa lapide, sembra
+	rientrare leggermente nel marmo nero.
+End
+
+

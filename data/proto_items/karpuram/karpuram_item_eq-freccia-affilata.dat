@@ -1,0 +1,27 @@
+Code:	karpuram_item_eq-freccia-affilata
+
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.OAK	90
+MaterialPercentages:	MATERIAL.FLINT	9
+MaterialPercentages:	MATERIAL.FEATHERS	1
+Sex:	SEX.FEMALE
+Name:	Una Freccia Lignea Ben Affilata
+Short:	una freccia affilata
+Long:	$N è posata sul terreno.
+
+Descr:
+Un'asta sottile e simmetrica realizzata interamente con un legno duro, la punta
+a forma di stella presenta cinque piccole lame che compongono il disegno. 
+Quest'ultime sono affilate come rasoi e molto pericolose. La parte finale
+della freccia ha due piume di colore verdognolo leggermente arcuate verso
+l'interno dell'asta che le permettono di filare velocemente e con precisione
+verso il bersaglio.
+
+Value:	10
+Weight:	30g
+
+WearType:
+   Modes: PART.HOLD
+End

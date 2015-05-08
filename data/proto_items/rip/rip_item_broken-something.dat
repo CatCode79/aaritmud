@@ -1,0 +1,24 @@
+Comment: conveniente negli oggetti rotti l'uso dell'etichetta %material
+Code: rip_item_broken-something
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.WOOD	100%
+Sex:	SEX.MALE
+Name:	Un Oggetto Mandato in Frantumi
+Short:	un oggetto mandato in frantumi
+
+Long:	da $N sporgono pezzi di %material
+
+Descr:
+Qualcuno o qualcosa ha demolito qualcosa riducendolo in pezzi.
+Un peccato.
+DescrTouch: 
+Qualcuno o qualcosa ha demolito qualcosa riducendolo in pezzi.
+Un peccato.
+DescrSmell: 
+Odora di rabbia repressa...
+DescrSixth:
+Impossibile ripristinarl$o.
+
+Weight: 100g

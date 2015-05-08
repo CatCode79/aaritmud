@@ -1,0 +1,73 @@
+Code:	citta-raminghe_mob_bremusa
+Level:	1
+Sex:	SEX.FEMALE
+Race:	RACE.HUMAN
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	[lime]B[close]remusa La Coraggiosa
+Short:	[lime]una guerriera amazzone che si muove sicura e decisa[close] 
+Long:	$N sfidando la paura e guardandola negli occhi.
+
+Descr:
+Una delle amazzoni. Guerriera tra le più coraggiose, valorosa e forte. 
+DescrTouch:
+Non ti è consentito a meno che non vuoi ritrovarti disteso per terra dolorante senza nemmeno capire come sia successo.
+
+DescrSmell:
+Senti l'odore della forza e della potenza
+
+DescrSixth:
+Combatte insieme alle altre amazzoni contro le ingiustizie. Paladina dei deboli contro i forti prepotenti e malvagi.
+
+Weight: 57kg
+Height: 178cm
+
+BirthDay:	7
+BirthMonth:	MONTH.EIGHT
+Age: 254
+
+Behaviour:
+     LookPlayer:	30
+     LookMob:	10
+     LookItem:	10
+     LookAtRacesFlags:	RACE.NONE   
+     LookAtRaces:	0
+     LookAtEntitypesFlags:	ENTITYPE.NONE
+     LookAtEntitypes:	0
+     LookSelf:	10
+     LookDirection:	10
+     LookExit:	10
+     LookWall:	0
+     LookClosedDoor: 10
+     LookExtra:	0
+     WanderDirection:	0
+     WanderExit:	40
+     WanderWall:	0
+     WanderClosedDoor:	70
+     WanderAtExitsFlags:	DIR.NONE
+     WanderAtExits:	0
+     WanderArea:	0
+     WanderPortal:	100
+     WanderEnterContainer:	0
+     WanderExitContainer:	0
+     WanderSelf:	0
+     RandomDo:	10
+     RandomDoInputs:	emote ti sfida con il solo sguardo.
+     RandomDoInputs:	emote si guarda in giro per trovare qualcuno con cui valga la pena confrontarsi nella lotta, ma non vede nessuno che possa avere questo privilegio.
+End
+
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	150
+Life:		150
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

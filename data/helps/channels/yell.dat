@@ -1,0 +1,18 @@
+Code: yell
+
+ItalianKeywords: urlo urla urli urlare
+EnglishKeywords: yell
+
+Entitype: HELP.CHANNEL
+
+Text:
+Da utilizzare quando vogliamo imporre la nostra voce sulle altre oppure quando
+abbiamo davvero bisogno di "AIUTO!!!".
+Va ricordato però che la distanza tra voi e gli altri giocatori ne determinerà
+la comprensione.
+$tYell è un canale GDR.
+
+Esempio: $tyell a Jaroddd ciao!
+
+
+SeeAlso: channels shout

@@ -1,0 +1,20 @@
+Code: villaggio-zingaro_item_lingotto-argento-consumato
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+Icon:	icons/item/ingot-silver.png
+MaterialPercentages:	MATERIAL.SILVER 100%	
+Name:	Un Lingotto d'Argento
+Short:	un lingotto argenteo
+Long:	$N parzialmente fuso e deformato
+
+Descr:
+Un lingottino d'argento sul quale qualcuno si è accanito fondendone e staccandone pezzi qui e là..
+DescrTouch: 
+Un lingotto sul quale qualcuno s'è accanito staccandone pezzi per fusione.
+
+Value:	0
+Weight: 793g
+
+

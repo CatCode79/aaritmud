@@ -1,0 +1,44 @@
+Code: ikea_item_food-torta-semi
+Icon:	icons/item/fetta_torta.png
+Level: 1
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.FEMALE
+Flags:	FLAG.RANDOMIZABLE
+MaterialPercentages:	MATERIAL.FLOUR	60%
+MaterialPercentages:	MATERIAL.SUGAR	17%
+MaterialPercentages:	MATERIAL.BUTTER	10%
+MaterialPercentages:	MATERIAL.EGG	10%
+MaterialPercentages:	MATERIAL.SEED	3%
+Value:	23
+Name:	Una Fettona di Torta
+Short:	una fettona di torta
+Long:	In un tovagliolino c'è $N
+
+Descr:
+Un'abbondante fettona di torta con semi di girasole e papavero.
+DescrTouch: 
+Una morbida e massiva fetta di torta friabile ed ancora tiepida.
+DescrSmell:
+L'impareggiabile profumo di grassi saturi e zuccheri provengon certo da una torta.
+DescrSixth:
+Una fetta di torta appena fatta non può e non deve rimanere a seccare qui senza che
+nessuno la valorizzi!
+DescrHearing:
+Appoggi quasi l'orecchio sulla fetta di torta ma lei non ti degna di una parola.
+DescrTaste:
+Una delizia per l'avventore stremato dalla fatica di infinite esplorazioni.
+
+Weight: 350g
+
+FoodType:
+	Comment:	cibo
+	Animal:	34
+	Vegetable:	66
+	CookingDamage:	05
+	Hours:	36
+	EntityMessage:	Prendi $N e l$O mangi sbriciolando ovunque.	
+	TargetMessage:	Ora c'è una sola via d'uscita... $n t'ha mangiato.
+	OthersMessage:	$n gusta $N e la finisce in pochi bocconi.
+End
+
+

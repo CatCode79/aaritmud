@@ -1,0 +1,23 @@
+Code: miniere-kezaf_item_gemma-diamante
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_diamond.png
+Name:	Un Diamante Grezzo
+Short:	un pietrozzo semitrasparente
+Long:	$N sta qui
+
+Descr:
+Una pietra semitrasparente scheggiata e non perfettamente chiara e limpida.
+DescrSixth:
+La pietra può essere ripulita e resa perfetta con accurate lavorazioni
+ed una buona dose di fortuna.
+Il colore non è perfettamente chiaro e limpido a causa di alcune
+piccole imperfezioni interne.
+
+Value:	0
+Weight: 30g
+
+

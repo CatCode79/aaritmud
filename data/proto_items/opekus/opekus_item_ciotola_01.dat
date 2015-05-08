@@ -1,0 +1,32 @@
+Code: opekus_item_ciotola_01
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.UNKNOWN	100%
+Name: La Ciotolina del Gatto
+Short: una piccola ciotola
+Descr:
+Una piccola ciotolina [green]verde[close] con un'etichettina [yellow]gialla[close].
+
+Value:	0
+Weight: 125g
+
+DescrTouch: 
+Che schifo... è tutta sbavata!
+DescrSmell: 
+Puzza di croccantini per gatto, strano vero?
+DescrTaste:
+Provaci e ti nuko il pg!
+DescrSixth:
+È buffo come più i gatti apprezzano i loro croccantini e più questi devono avere un
+genuino odore di vomito. A me piacciono i gatti, ma piuttosto che condividere questo
+tipo di cibo preferisco la condivisione della lettiera...
+
+Extras:
+  Keywords: etichetta etichettina
+  Descr: The [purple]Gatto[close]!
+  DescrSixth: Ora sai con certezza che qui passerà [yellow]el terible gato diablo[close]!
+End
+
+
+

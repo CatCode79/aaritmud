@@ -1,0 +1,20 @@
+Code: deadcity_item_mantello-bruno
+Level: 1
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.CLOTH	100%
+Name:	Un Mantello Protettivo
+Short:	un mantello color terra
+Long:	qualcuno ha appallottolato $N 
+
+Descr:
+Un mantello di materiale morbido e impermeabile, di fattura pregiata e colore
+mimetico bruno.
+
+Value:	55
+Weight: 1kg
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+	Modes: PART.BACK
+End

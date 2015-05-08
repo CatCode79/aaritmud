@@ -1,0 +1,113 @@
+Code:	accademia-drago_room_040_camminamenti-040
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	I Camminamenti
+Short:	i camminamenti
+	Descr:
+Sei giunto all'angolo nord ovest dei camminamenti, puoi dirigerti
+a est o a sud, una scala scende verso il basso dirigendosi su
+quella che pare essere una piattaforma intermedia.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 1
+Exits:
+	Direction:	DIR.EAST
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 039 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 041 -1
+End
+Exits:
+	Direction:	DIR.DOWN
+	Destination:	3 10 0 accademia-drago
+	Descr:	il ballatoio
+	Comment:	ExitStatus	0 0 058 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

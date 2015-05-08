@@ -1,0 +1,20 @@
+Code: flora_item_argilla
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.GROUND
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.CLAY	100%
+Name:	Un Po' di [firebrick]Argilla[close]
+Short:	un po' di [firebrick]polvere rossa[close]
+Long:	C'è $N depositata qui
+
+Descr:
+[firebrick]Della polvere d'argilla impalpabile[close].
+DescrSixth:
+	Un coadiuvante del ristagno... ottimo per peggiorare i reumatismi.
+DescrTouch: 
+	Sporca di rosso anche solo a guardarla.
+
+Value:	0
+Weight: 1g
+

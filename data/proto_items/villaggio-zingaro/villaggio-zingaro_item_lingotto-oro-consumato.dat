@@ -1,0 +1,22 @@
+Code: villaggio-zingaro_item_lingotto-oro-consumato
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+Icon:	icons/item/ingot-gold.png
+MaterialPercentages:	MATERIAL.GOLD 100%	
+Name:	Un Lingotto d'Oro
+Short:	un lingotto dorato
+Long:	$N è tutto deformato e parzialmente fuso ad un'estremità
+
+Descr:
+Un lingottino d'oro a cui manca un pezzo che deve essere stato tolto via tramite fusione.
+DescrTouch: 
+Un lingotto molto pesante per la sua dimensione; ad un'estremità è consumato e deformato.
+DescrTaste:
+Lo mordi lasciandoci il segno di un dente.
+
+Value:	0
+Weight: 1793g
+
+

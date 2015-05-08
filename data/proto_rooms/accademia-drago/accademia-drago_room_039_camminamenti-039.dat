@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_039_camminamenti-039
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	I Camminamenti
+Short:	i camminamenti
+	Descr:
+I camminamenti proseguono invariati con i loro gargoyle posti a
+guardia delle mura, da dove ti trovi ora puoi osservare la
+cittadella fortificata a sud ovest, continui a non capire come si
+possa entrare nella struttura o come la si possa raggiungere, a
+meno di attraversare la prateria che la separa dal corpo
+dell'accademia dove ti trovi ora...
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 1
+Exits:
+	Direction:	DIR.EAST
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 038 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 040 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

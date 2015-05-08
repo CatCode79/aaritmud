@@ -1,0 +1,15 @@
+Code: torreelementi_item_sughero_001
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.CORK	100%
+Name: un pezzo di sughero
+Short: un pezzo di legno
+Long:	$N seminascosto è qui ai tuoi piedi
+Descr:
+Un pezzo di corteccia piuttosto fragile ed estremamente leggero.
+
+Value:	0
+Weight: 50g
+
+

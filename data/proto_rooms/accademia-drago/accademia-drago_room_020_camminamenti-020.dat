@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_020_camminamenti-020
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	I Camminamenti
+Short:	i camminamenti
+	Descr:
+Dopo tanto camminare ti rendi conto che questi camminamenti sono
+veramente enormi, il cortile da qui ti sembra altrettanto
+spazioso, ma quando eri laggiù era tutta un'altra cosa, qui il
+paesaggio è superiore, ma il giardino mostrava mille meraviglie
+che invece statue e pavimentazione di quassù non riescono ad
+eguagliare rendendo noioso il cammino.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 1
+Exits:
+	Direction:	DIR.EAST
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 019 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 021 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,113 @@
+Code:	accademia-drago_room_051_piazza-051
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	La Piazza d'Armi
+Short:	la piazza d'armi
+	Descr:
+In questo punto della piazza la perfetta simmetria del luogo è
+spezzata da una scalinata in pietra che sale verso un
+terrazzamento posto circa a metà struttura, ti sembra di
+intravedere un arco ed una scala che continua a salire verso la
+cima.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 2
+Exits:
+	Direction:	DIR.EAST
+	Descr:	la piazza d'armi
+	Comment:	ExitStatus	0 0 050 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	la piazza d'armi
+	Comment:	ExitStatus	0 0 052 -1
+End
+Exits:
+	Direction:	DIR.UP
+	Destination:	3 10 0 accademia-drago
+	Descr:	il ballatoio
+	Comment:	ExitStatus	0 0 058 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

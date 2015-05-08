@@ -1,0 +1,89 @@
+Code:	mfdonald_mob_tofano
+Level:	1
+Sex:	SEX.MALE
+Race:	RACE.HUMAN
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Tofano Roberto
+Short:	un tofano
+Long:	$N strafatto di caramelle gommose
+
+Descr:
+Un tofano come ce ne sono tanti ai margini delle strade. Gli occhi lucidi ed inespressivi
+tradiscono la dose massiccia di caramelle gommose che gli hanno portato la glicemia
+a mille.
+DescrTouch: 
+Allunghi la mano per dargli una monetina.
+DescrSmell: 
+Profuma di orsetti indiscutibilmente gialli.
+DescrSixth:
+Il suo pusher gli deve aver dato della roba molto buona e monocromatica.
+DescrHearing:
+Il respiro lento e vagamente ansioso.
+DescrTaste:
+Gli lecchi una mano, ha sapore di orsetto gommoso giallo.
+
+Weight: 89kg
+Height: 170cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 34
+
+Behaviour:
+	LookPlayer:	200
+	LookMob:	200
+	LookItem:	200
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	200
+	LookDirection:	200
+	LookExit:	200
+	LookWall:	200
+	LookClosedDoor:	200
+	LookExtra:	200
+	SmellPlayer:	200
+	SmellMob:	200
+	SmellItem:	200
+	SmellAtRacesFlags:	RACE.NONE
+	SmellAtRaces:	0
+	SmellAtEntitypesFlags:	ENTITYPE.NONE
+	SmellAtEntitypes:	0
+	SmellSelf:	200
+	SmellDirection:	200
+	SmellExit:	200
+	SmellWall:	200
+	SmellClosedDoor:	200
+	SmellExtra:	200
+	WanderDirection:	200
+	WanderExit:	200
+	WanderWall:	200
+	WanderClosedDoor:	200
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	200
+	WanderPortal:	200
+	WanderEnterContainer:	200
+	WanderExitContainer:	200
+	WanderSelf:	200
+	RandomDo:	200
+	RandomDoInputs:	emote sembra oscillare.
+	RandomDoInputs:	emote luccica di giallo.
+End
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

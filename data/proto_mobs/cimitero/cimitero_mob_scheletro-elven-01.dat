@@ -1,0 +1,62 @@
+Code:	cimitero_mob_scheletro-elven-01
+MaxGlobalQuantity: 5
+Level:	1
+Sex:	SEX.MALE
+Race:	RACE.SKELETON
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Uno [white]Scheletro[close] Elfico
+Short:	uno [white]scheletro[close] sottile
+Long:	$N si muove lento
+
+Descr:
+Una creatura d'ossa sottili ed oblunghe, l'apparenza fragile è compensata dal movimento fluido.
+
+DescrTouch: 
+Sottilissime le ossa eppure d'una consistenza inusualmente solida.
+DescrSmell: 
+Nessun odore pare provenire da questo essere non vivo e non morto.
+DescrSixth:
+Qualcosa o qualcuno lo ha riportato in uno stato di semivita.
+Una sensazione di ovattata tristezza trasuda e fluisce da questo corpo senza pace.
+DescrHearing:
+Cigolii continui ne rendo abbastanza facile la percezione anche senza doverlo vedere.
+
+Remains: cimitero_item_mucchio-ossa
+RemainsNight: cimitero_item_mucchio-ossa
+Weight: 39kg
+Height: 200cm
+
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 334
+
+
+
+MaxLife:	50
+Life:		50
+MaxMana:	100
+Mana:		100
+MaxVigour:	150
+Vigour:		150
+
+Strength:	5
+Endurance:	5
+Agility:	10
+Speed:		10
+Intelligence:	1
+Willpower:	10
+Personality:	1
+Luck:		10
+
+
+Behaviour:
+	WanderExit:	10
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	10
+	RandomDoInputs:	emote si ferma un istante.
+End

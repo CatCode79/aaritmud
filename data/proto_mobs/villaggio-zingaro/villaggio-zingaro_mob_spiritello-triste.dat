@@ -1,0 +1,82 @@
+Code:	villaggio-zingaro_mob_spiritello-triste
+Level:	1
+Sex:	SEX.MALE
+Race:	RACE.MAGICAL
+Flags:	FLAG.REPOP_ONLY_ON_EXTRACT FLAG.NO_REMAINS
+Name:	Riuth lo [palegoldenrod]Spiritello[close]
+Short:	uno [palegoldenrod]spiritello[close]
+Long:	$N triste e sconsolato.
+
+Descr:
+Uno sconclusionato [palegoldenrod]spiritello[close] d'acqua che gesticola in modo sconnesso.
+DescrTouch: 
+Ogni volta che lo tocchi si comporta come se fosse punzecchiato con uno spillo e si ritrae.
+DescrSmell: 
+Alghe... o è pesce?
+DescrHearing:
+Un instancabile piagnucolio accompagna ogni suo gesto e movimento.
+
+Weight: 89kg
+Height: 170cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 734
+
+
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100
+
+Strength:	10
+Endurance:	10
+Agility:	10
+Speed:		10
+Intelligence:	10
+Willpower:	10
+Personality:	10
+Luck:		10
+
+
+Behaviour:
+	LookPlayer:	5
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	LookEquipment:	0
+	SmellPlayer:	0
+	ListenMob:	0
+	TouchItem:	0
+	IntuitionAtRacesFlags:	RACE.NONE
+	IntuitionAtRaces:	0
+	TasteAtEntitypesFlags:	ENTITYPE.NONE
+	TasteAtEntitypes:	0
+	WanderDirection:	0
+	WanderExit:	40
+	WanderWall:	0
+	WanderAtSectors: 	SECTOR.CAVERN
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	40
+	RandomDoInputs:	emote singhiozza.
+	RandomDoInputs:	sigh
+End

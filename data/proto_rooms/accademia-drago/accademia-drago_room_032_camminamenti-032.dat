@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_032_camminamenti-032
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	I Camminamenti
+Short:	i camminamenti
+	Descr:
+Sei giunto all'angolo sud est della parte alta dei camminamenti,
+sporgendoti ad est osservi il lago di origine probabilmente
+magica che circonda l'alta torre visibile in pratica da ogni
+punto dei camminamenti, sia quelli dove ti trovi ora che quelli
+posti più in basso. Poco più a nord vedi l'inizio del ponte che
+collega queste mura alla torre, a guardia dell'accesso ti sembra
+di intravedere due cavalieri posti a metà ponte.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 1
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 033 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 031 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+Code:	karpuram_item_eq-spadino
+
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAPON
+MaterialPercentages:	MATERIAL.BRONZE	95
+MaterialPercentages:	MATERIAL.COTTON	5
+Sex:	SEX.MALE
+Name:	Uno Spadino di Metallo
+
+Short:	un sottile spadino
+
+Long:	$N è qui in terra.
+
+Descr:
+L'impugnatura di questa sottile lama risulta appena visibile, si direbbe che
+questa non sia un'arma utilizzata per combattere ma serva principalmente per
+allenarsi. La lama non è da taglio e può ferire lievemente se usata di punta.
+
+Value:	0
+Weight:	700g
+
+
+WeaponType:
+        Category: WEAPON.SHORTSWORD
+	Damage:	1D2+0
+        Flags: WEAPONFLAG.ONE_HAND 
+End
+
+WearType:
+   Modes: PART.HOLD
+End

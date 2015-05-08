@@ -1,0 +1,29 @@
+Code:	rip_item_corpse-orc-male
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CORPSE
+Sex:	SEX.MALE
+Race:	RACE.ORC
+MaterialPercentages:	MATERIAL.FLESH	100%
+Name:	Un tuo Simile Mort$O 
+Short:	un orco mort$O
+Long:	$N afflosciato qui definitivamente 
+
+Descr:
+I resti mortali e corruttibili di #looker is RACE.ORC#un tuo simile.#un appartenente alla razza orco.#
+
+DescrTouch:
+Il cadavere di #looker is RACE.ORC#un tuo simile è grosso e sporco, la sua pelle è piena di protuberanze e piaghe.#
+
+DescrSixth:
+#looker is RACE.ORC#Rimane davvero poco da percepire da questo cadavere, sicuramente guardando il ventre gonfio
+deve aver fatto un ultimo lauto pasto!#
+
+DescrSmell:
+#looker is RACE.ORC#Un fortissimo fetore di lurido, lerciume di varia natura e fango raggiunge le tue narici.#
+
+DescrTaste:
+#looker is RACE.ORC#Sudore, sangue raggrumato e fango ti fanno quasi vomitare.#
+
+Value:	0
+Weight:	135kg

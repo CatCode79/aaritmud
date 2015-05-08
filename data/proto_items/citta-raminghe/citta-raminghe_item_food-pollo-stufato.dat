@@ -1,0 +1,27 @@
+Code: citta-raminghe_item_food-pollo-stufato
+Level: 2
+Entitype: ENTITYPE.FOOD
+MaterialPercentages:	MATERIAL.MEAT	80%
+MaterialPercentages:	MATERIAL.FLOUR	10%
+MaterialPercentages:	MATERIAL.OIL	10%
+Name: Stufato di Pollo alle Spezie
+Short: uno stufato di pollo alle spezie
+Descr:
+Una pietanza dall'aspetto indiscutibilmente invitante arricchito da [coral]essenze speziate[close] dai colori variegati.
+DescrTaste:
+Un sapore leggermente piccante che avverti sul palato dopo qualche momento.
+DescrSixth: 
+Molta potenza ed energia ti provengono dall'avere assaggiato questo cibo dai [yellow]profumi speziati[close] e dal 
+[red]sapore intenso[close]. 
+
+Value:	0
+Weight: 438g
+
+FoodType:
+	Comment:	cibo
+	Animal:	80
+	Vegetable:	20
+	CookingDamage:	20
+	Hours:	0
+End
+

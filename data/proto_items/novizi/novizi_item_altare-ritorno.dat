@@ -1,0 +1,33 @@
+Code: novizi_item_altare-ritorno
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.RUBY	1
+MaterialPercentages:	MATERIAL.MARBLE	99
+Sex:	SEX.MALE
+Name:	L'altare Runato del Ritorno
+Short:	l'altare del ritorno
+Long:	$N è il punto di arrivo degli avventurieri dell'anello.
+
+Descr:
+Un'altare di pietra rossa privo di decori e con la sola incisione di una [royalblue]runa lucente[close].
+DescrTouch: 
+Percepisci al tatto i residui d'insoddisfazione per centinaia di avventurieri che hanno varcato la via del ritorno giungendo all'altare.
+DescrSixth:
+Percepisci il tormento e l'insoddisfazione di centinaia di avventurieri che hanno varcato la via del ritorno giungendo all'altare.
+DescrTaste:
+Percepisci il sapore di centinaia di avventurieri sudati ed affaticati che sono giunti qui.
+
+Value:	0
+Weight: 1000kg
+
+Extras:
+	Keywords: runa lucente
+	Descr:
+	Una runa del ritorno
+	DescrTouch:
+	La runa del ritorno
+	DescrSixth:
+	La runa utilizzata come destinazione dai viaggiatori con l'anello del ritorno.
+End
+

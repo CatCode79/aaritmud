@@ -1,0 +1,113 @@
+Code:	accademia-drago_room_048_piazza-048
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	La Piazza d'Armi
+Short:	la piazza d'armi
+	Descr:
+La piazza d'armi prosegue, qui le reclute sembrano più composte
+e disciplinate rispetto a come le hai potute osservare nel
+cortile pubblico, effettivamente ora noti anche ragazzi meno
+giovani, e persino qualche istruttore che passeggia qua e la con
+lo sguardo severo di chi è pronto a punire tutti e tutto. Ad
+est un piccolo arco chiuso da una porta conduce all'intero della
+struttura.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 2
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	la piazza d'armi
+	Comment:	ExitStatus	0 0 049 -1
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	un corridoio
+	Comment:	ExitStatus	1 0 071 -1
+	Door:	ikea_item_porta
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	la piazza d'armi
+	Comment:	ExitStatus	0 0 047 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	la piazza d'armi
+	Comment:	ExitStatus	0 0 054 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

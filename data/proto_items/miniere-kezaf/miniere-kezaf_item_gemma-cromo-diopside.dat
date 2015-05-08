@@ -1,0 +1,27 @@
+Comment: 
+sostituito cromo con ormoc, forse bisogna decidere che sarà il materiale ormoc.
+Code: miniere-kezaf_item_gemma-cromo-diopside
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_diopside.png
+Name:	Una gemma di [green]ormoc[close] diopside 
+Short:	una pietra dall'intenso colore verde
+Long:	$N sta qui
+
+Descr:
+Una pietra dura verde intenso, ruvida e fratturata ad un'estremità.
+
+DescrSixth:
+Si tratta di una gemma verde che appartiene al diopside e deve la sua 
+colorazione alle tracce di ormoc presenti nel reticolo con un bel colore verde 
+pieno. La pietra in questione essendo ancora grezza presenta colorazione più intensa. 
+
+Value:	0
+Weight: 180g
+
+
+
+

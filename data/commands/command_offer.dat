@@ -1,0 +1,6 @@
+FunName:    command_offer
+Type:       CMDTYPE.ITEM
+Trust:      TRUST.PLAYER
+Position:   POSITION.REST
+Flags:      CMDFLAG.INTERACT CMDFLAG.GDR
+MiniHelp:   Serve per conoscere quanto ti pagherebbe un mercante per una determinata mercanzia da te offerta.

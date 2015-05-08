@@ -1,0 +1,6 @@
+FunName:   command_speak
+Type:      CMDTYPE.CHANNEL
+Trust:     TRUST.PLAYER
+Position:  POSITION.REST
+Flags:     CMDFLAG.GDR
+MiniHelp:  Serve per cominciare una conversazione con qualcuno che può o vuole parlare con te, solitamente non funziona tra giocatori ma solo tra giocatore e creatura.

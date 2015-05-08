@@ -1,0 +1,19 @@
+Code: cimitero_item_post-it-01
+Level: 1
+Flags:	FLAG.NO_GET
+MaterialPercentages:	MATERIAL.PAPER 100%
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+Name:	Un Post-it-01 
+Short:	un post-it [yellow]giallo[close]
+Long:	$N è qui a ricordare che il [red]cadavere[close] e la [red]polvere[close] son dentro la teca.
+
+Descr:
+basta un get cadavere teca
+basta un get polvere teca
+
+Value:	0
+Weight: 10g
+
+
+

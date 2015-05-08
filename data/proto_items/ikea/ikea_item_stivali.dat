@@ -1,0 +1,32 @@
+Code: ikea_item_stivali
+Level: 1
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.LEATHER	100
+Sex:	SEX.MALE
+Flags:	FLAG.RANDOMIZABLE
+Name:	Un Paio di Stivali
+Short:	un paio di stivali
+Long:	$N è poggiato qui.
+
+Descr:
+Un paio di semplici stivali bassi in cuoio bollito; basso il tacco e la suola è cucita
+a vista con punti diseguali per quanto fitti.
+DescrTouch: 
+Un paio di semplici stivali bassi in cuoio resistente; basso il tacco e la suola è cucita
+a vista con numerosi punti grossolani.
+
+Value:	0
+Weight: 340g
+
+Extras:
+	Keywords: tacco
+	Descr:
+	Basso largo e duro, quasi nuovo.
+	DescrTouch:
+	Basso largo e duro; alla base è ancora liscio come pochissimo o mai usato.
+End
+WearType:
+   Modes: PART.RIGHT_FOOT PART.LEFT_FOOT
+End
+
+

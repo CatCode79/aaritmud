@@ -1,0 +1,27 @@
+Code: novizi2_item_coccarda_08
+Level: 1
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.SILK	100%
+Icon:	icons/item/coccarda-verdina.png
+Name: La [yellowgreen]Coccarda[close] di [yellowgreen]Benvenuto [red]A[gold]aritiana[close] 
+Short: una [yellowgreen]coccarda[close] di [yellowgreen]benvenuto[close]
+Long:	$N fluttua gentile e silenziosa nell'aria
+
+Descr:
+Una coccarda di velluto [yellowgreen]giallo verdastra[close] per ricordo.
+DescrTouch: 
+Una morbidissima coccarda in velluto liscio.
+DescrSmell: 
+La coccarda odora vagamente di [maroon]pelo[close] bagnato.
+DescrSixth:
+È un oggettino ricordo di pochissimo valore intrinseco.
+
+Value:	0
+Weight: 10g
+
+WearType:
+   Modes: PART.LEFT_LITTLE_FINGER
+End
+
+

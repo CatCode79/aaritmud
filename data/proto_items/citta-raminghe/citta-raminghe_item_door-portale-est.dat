@@ -1,0 +1,44 @@
+Code: citta-raminghe_item_door-portale-est
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.DOOR
+MaterialPercentages:	MATERIAL.SOFTWOOD	100%
+Sex:	SEX.FEMALE
+Icon:	icons/item/door-golden.png
+Name:	Il Portale della Città
+Short:	il portale della città
+Long:	$N è a terra scardinato ed in frnatumi
+
+Descr:
+Un immenso portale di legno con anelli metallici-
+DescrTouch: 
+Un ampio robusto ed impenetrabile portale.
+
+Value:	0
+Weight: 170kg
+
+Extras:
+	Keywords: anello
+	Descr:
+	Uno degli anelli per far passare le sbarre.
+	DescrTouch:
+	Uno degli anelli metallici per consentire di bloccare il portale con dei travi.
+End
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Apri $N usando ambo le $hands.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N usando ambo le $hands.
+	EntityCloseMessage:	Accompagni $N fino a chiuderla.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n accompagna $N fino a chiusura.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE
+	ResetCloseMessage: $N si chiude.
+	ResetOpenMessage: $N si apre.
+End
+
+

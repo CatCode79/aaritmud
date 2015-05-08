@@ -1,0 +1,5 @@
+FunName:    command_skills
+Type:       CMDTYPE.INFORMATION
+Trust:      TRUST.PLAYER
+Position:   POSITION.DEAD
+MiniHelp:   Concede di vedere le abilità che si hanno e quelle che si acquisiscono nei prossimi livelli.

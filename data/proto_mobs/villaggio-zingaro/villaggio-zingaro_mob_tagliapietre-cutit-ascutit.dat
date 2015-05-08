@@ -1,0 +1,82 @@
+Comment: Il l'abilissimo e anonimo tagliapietre con problemi di respirazione..ti accorgi della sua presenza solo perch ti sembra di stare con Dart Veder. Detentore del segreto della pietra della cupola che nessuno conoscerebbe mai se non fosse per quell'impiccione del suo apprendista!  
+Code:	villaggio-zingaro_mob_tagliapietre-cutit-ascutit
+Level:	1
+Sex:	SEX.MALE
+Race:	RACE.TUAREG
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Il Tagliapietre Cutit Ascutit
+Short:	il tagliapietre
+Long:	$N respira malamente.
+
+Descr:
+Un anonimo individuo dall'aria mediocre, nessun particolare attira il tuo sguardo o può farti intuire qualcosa sul suo carattere. I movimenti, lentissimi e ridotti al minimo, sembrano calibrati per non smuovere lo strato di polvere grigiastra ne ricopre la pelle ed i vestiti.
+DescrTouch: 
+Se potessi toccarlo intorno a lui si produrrebbe una nuvola di polvere.
+DescrSmell: 
+Appena lo annusi della polvere ti entra nel naso e ti fa starnutire.
+DescrSixth:
+Non dev'essere un toccasana per la salute fare questo lavoro senza le adeguate protezioni.
+DescrHearing:
+Lo senti bisbigliare qualcosa tra se e se.
+
+Weight: 78kg
+Height: 172cm
+
+BirthDay: 11
+BirthMonth: MONTH.TWO
+Age: 64
+
+Behaviour:
+	LookPlayer:	0
+	LookMob:	0
+	LookItem:	7
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	LookEquipment:	0
+	SmellPlayer:	0
+	ListenMob:	0
+	TouchItem:	0
+	IntuitionAtRacesFlags:	RACE.NONE
+	IntuitionAtRaces:	0
+	TasteAtEntitypesFlags:	ENTITYPE.NONE
+	TasteAtEntitypes:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	0
+	RandomDoInputs: emote respira a fatica.
+	RandomDoInputs:	emote guarda lontano aggrottando le sopracciglia.
+End
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100
+
+Strength:	10
+Endurance:	10
+Agility:	10
+Speed:		10
+Intelligence:	10
+Willpower:	10
+Personality:	10
+Luck:		10
+

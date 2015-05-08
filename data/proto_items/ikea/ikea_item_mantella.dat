@@ -1,0 +1,26 @@
+Code: ikea_item_mantella
+Level: 1
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.FEMALE
+Flags:	FLAG.RANDOMIZABLE
+MaterialPercentages:	MATERIAL.WOOL	100%
+Name:	Una Mantellina
+Short:	una mantellina
+Long:	$N è stata piegata ed accuratamente riposta.
+
+Descr:
+Una mantellina di colore nero in lanetta economica tanto che è più un piacere per gli
+occhi che l'occorrente per i climi freddi.
+DescrTouch: 
+Una mantellina morbida in tessuto sottile tanto che è più utile per nascondersi che
+l'occorrente per i climi freddi.
+
+Value:	0
+Weight: 370g
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+	Modes: PART.BACK
+End
+
+

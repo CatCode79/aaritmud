@@ -1,0 +1,66 @@
+Code:	arena-drago_room_53-santuario-Rosso
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il Santuario [red]Rosso[close]
+Short:	il santuario [red]Rosso[close]
+	Descr:
+La vampata di caldo che ricevi non appena metti piede nella
+stanza ti mozza il fiato, tutto intorno a te è di un rosso
+talmente cupo da avvicinarsi al colore del sangue. Al centro
+della stanza un foro nel pavimento di circa due metri di diametro
+erutta fiamme alte sino al soffitto che formano una suggestiva
+colonna di fuoco. Dietro queste, delle scale salgono sino a
+creare una sorta di altare su cui è poggiata una bellissima
+statua in rubino rappresentante Lamreloc.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	64|16777216 0
+Exits:
+	Direction:	DIR.WEST
+	Descr:	Porta
+	Comment:	ExitStatus	1 0 27752 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

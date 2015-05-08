@@ -1,0 +1,23 @@
+Code: ikea_item_key-chiavetta-scatola
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.KEY
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.METAL	100%
+Name:	Una Chiavettina
+Short:	una chiavetta
+Long:	C'è qui $N tanto piccina ed arrugginita
+
+Descr:
+Una chiavettina senza pretese: un cilindretto metallico con un piccolo dente ed un po' di ruggine nell'impugnatura.
+DescrTouch: 
+Una chiavettina senza pretese: un cilindretto metallico con un piccolo dente ed un po' consunta nella parte dell'impugnatura.
+
+Value:	0
+Weight: 5g
+
+WearType:
+        Modes: PART.NECK
+End
+
+

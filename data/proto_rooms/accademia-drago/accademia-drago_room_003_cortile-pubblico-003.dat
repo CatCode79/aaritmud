@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_003_cortile-pubblico-003
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il Cortile Pubblico
+Short:	il cortile pubblico
+	Descr:
+Sei giunto nella parte più a sud di un grande cortile, la
+struttura quadrata della zona è delimitata dalle ali
+dell'accademia, sopra di esse ti pare di intravedere un
+camminamento. Il cortile è attraversato da un sentiero in
+porfido grigio che curva girando intorno ad una grande fontana
+centrale. Le aiuole sono ben tenute ed il verde luminoso
+dell'erba contrasta in modo delizioso con il grigiume marziale di
+tutta la struttura. Il vialetto è attrezzato con alcune panchine
+probabilmente per consentire agli allievi lo studio o il riposo
+all'aria aperta.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 2
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	la fontana
+	Comment:	ExitStatus	0 0 008 -1
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	il cortile pubblico
+	Comment:	ExitStatus	0 0 004 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	l'androne di ingresso
+	Comment:	ExitStatus	0 0 001 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	il cortile pubblico
+	Comment:	ExitStatus	0 0 011 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

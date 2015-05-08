@@ -1,0 +1,92 @@
+Comment: questo piccolo equino va nel box 05
+Code:	villaggio-zingaro_mob_unicorno
+Level:	1
+Sex:	SEX.NEUTRAL 
+Race:	RACE.HORSE
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Inorog
+Short:	un unicorno
+Long:	$N dall'aria vissuta.
+
+Descr:
+Un unicorno dal luminoso manto bianco costellato, sul dorso, da una miriade di [tomato]macchioline[close] fulve che divengono mano a mano sempre più piccole verso gli arti e la testa. Una sottile cicatrice attraversa il muso dall'[goldenrod]occhio[close] sinistro fino alla narice; il lungo corno appuntito che ha nel centro della fonte è percorso da una modanatura elicoidale.
+DescrTouch:
+Desideri accarezzarlo ma ogni volta che avvicini la $hand qualcosa ti impedisce di portare a termine il gesto. 
+DescrSmell:
+Annusi ripetutamente l'aria circostante ma non riesci a cogliere alcun aroma caratteristico.
+DescrHearing:
+Hai l'impressione che stia ringhiando ma forse è solo qualche cane nelle vicinanze.
+DescrSixth:
+Non ha assolutamente l'aria di un dolce unicorno fiabesco, anzi, l'idea che potrebbe essere carnivoro non ti sembra neanche troppo assurda..per quanto tu non sia sicuro di volerlo verificare a tue spese.
+
+Extras:
+	Keywords: cicatrice occhio
+	Descr:
+	Una sottilissima e lunga cicatrice, il pelo non è riuscito a ricrescere tutto intorno lasciando qualche millimetro di pelle scoperto.
+	DescrSixth:
+	Cicatrizzata ormai da tempo sembra sia stata provocata da qualcosa di incredibilmente appuntito, forse dal corno di un altro unicorno.. forse dalla punta di una lama..
+End
+
+Extras:
+	Keywords: modanatura elicoidale corno
+	Descr:
+	Guardando meglio hai l'impressione che questa giuda elicoidale abbia ospitato qualcosa in passato.  
+End
+
+Extras:
+	Keywords: macchioline
+	Descr:
+	Guardando con più attenzione e da vicino ti accorgi che le macchioline non son altro che piccoli arcobaleni fulvi.
+End
+Weight: 370kg
+Height: 168cm
+
+BirthDay: 03
+BirthMonth: MONTH.FIVE
+Age: 54
+
+
+Behaviour:
+       LookPlayer:	3
+       LookMob:	0
+       LookItem:	0
+       LookAtRacesFlags:	RACE.NONE
+       LookAtRaces:	0
+       LookAtEntitypesFlags:	ENTITYPE.NONE
+       LookAtEntitypes:	0
+       LookSelf:	0
+       LookDirection:	0
+       LookExit:	0
+       LookWall:	0
+       LookClosedDoor: 0
+       LookExtra:	0
+       WanderDirection:	0
+       WanderExit:	0
+       WanderWall:	0
+       WanderClosedDoor:	0
+       WanderArea:	0
+       WanderPortal:	0
+       WanderEnterContainer:	0
+       WanderExitContainer:	0
+       WanderSelf:	0
+       RandomDo:	15
+       RandomDoInputs: 	emote scalpita impaziente.
+       RandomDoInputs:	emote scrolla la testa con nervosismo.
+       RandomDoInputs:	emote ti fissa minaccioso.
+End
+
+Strength:	50
+Endurance:	33
+Agility:	35
+Speed:	50
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	200
+Mana:		200
+MaxVigour:	100
+Vigour:		100

@@ -1,0 +1,47 @@
+Code: opekus_item_door-portale-cattedrale
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.EBONY	40%
+MaterialPercentages:	MATERIAL.MARBLE	50%
+MaterialPercentages:	MATERIAL.METAL	10%
+Name:	Il Portale Principale
+Short:	il portale principale
+Long:	$N scardinato
+
+Descr:
+La porta è costituita da venti pietre quadrate, le quali sono fissate da cornici di legno alla struttura principale.
+Ciascuna cornice è fissata con rosette metalliche foggiate con snelli motivi geometrici.
+Il gusto bicolore delle pietre [white]bianca[close] e [maroon]bruna[close] dava risalto un tempo al legno pregiato di un portale ora tarlato ed ingrigito.
+Purtuttavia permane maestoso e segno di una gloria passata.
+
+DescrTouch: 
+La $hand scorre di pietra in pietra; la sensazione di freddo della pietra alternata al legno lucido non si attenua per tutta l'ampiezza dell'entrata.
+
+DescrSmell: 
+no_send
+DescrSixth:
+Delle venti pietre se ne distingue una in particolare decorata con il simbolo di un artiglio sormontato da una coda.
+DescrHearing:
+no_send
+DescrTaste:
+no_send
+
+Weight: 750kg
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Uno stridente cigolio accompagna il tuo gesto fino a guadagnare l'apertura del portale.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	Un lugubre cigolio si protrae mentre $n apre $N.
+	EntityCloseMessage:	Riconduci i battenti riconducendo tutto ad un pietoso silenzio.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n riconduce i battenti accompagnato da un lugubre stridio
+	DestinationOpenMessage:	$N viene apert$O dal lato opposto con uno stridio lugubre.
+	DestinationCloseMessage:	$N viene chius$O dal lato opposto con un lugubre stridio.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE 
+	ResetCloseMessage:	$N si chiude in un protratto stridio.
+	ResetOpenMessage:	$N si apre in un protratto stridio.
+End

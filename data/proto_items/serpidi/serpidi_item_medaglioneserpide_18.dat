@@ -1,0 +1,29 @@
+Code:	serpidi_item_medaglioneserpide_18
+Level:	1
+Entitype: ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.GOLD	10%
+MaterialPercentages:	MATERIAL.IRON	80%
+MaterialPercentages:	MATERIAL.RUBY	10%
+Name:	Il Medaglione del Serpide 
+Short:	il medaglione del serpide 
+Descr: 
+Alcuni serpenti intrecciati fra loro si muovono lentamente.  
+Extras:
+	Keywords:	 medaglione 
+	Descr:
+	È  un  bellissimo medaglione formato da serpenti intrecciati fra loro intorno ad una grossa pietra rossa.  
+	Comment: A28 256A50 7
+End
+Value:	180
+Weight: 80g
+BirthDay: 1
+BirthMonth: MONTH.TEN
+WearType:
+        Modes: PART.NECK
+        Modes: PART.FOREHEAD
+End
+
+
+
+
+

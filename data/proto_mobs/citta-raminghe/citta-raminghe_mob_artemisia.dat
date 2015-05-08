@@ -1,0 +1,74 @@
+Code: citta-raminghe_mob_artemisia
+MaxGlobalQuantity:	1
+Level: 5
+Race:	RACE.FRIJEN
+Sex:	SEX.FEMALE
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name: Artemisia
+Short: [red]una frijen guerriera[close]
+Long: $N [red]si prepara al combattimento[close]
+LongNight: $N [red]ti scruta attraverso l'oscurià[close] 
+
+Descr: Una Frijen dall'aspetto apparentemente tranquillo che cela una forza fisica e mentale che non immagineresti solo a guardarla. Indossa una casacca tenuta alla vita da una cintura di colore nero e degli stivali leggeri. Al collo una lunga collana di pietre dai colori brillanti che si alternano a [silver]piccole sfere d'argento[close]. I suoi capelli sono di un nero corvino lunghi ed incredibilmente mossi, i suoi [green]occhi[close] di un verde intenso e posseggono una profondità che lascia intravedere l'inquietudine dietro la loro fredda glacialità
+
+DescrHearing: Non c'è nulla da ascoltare poiché concede la sua voce solo a pochi eletti
+
+DescrSmell: Avverti l'odore della forza e della potenza
+
+DescrTouch: Non provarci neanche, non avresti nemmeno il tempo di pentirtene
+
+DescrTaste: Non provarci neanche, non avresti nemmeno il tempo di pentirtene
+
+DescrSixth: Dura, determinata, è di una glacialità e freddezza senza pari. Scopri che è arrabbiata quando ormai è troppo tardi per tornare indietro. Cerca e colpisce senza pietà tutti quelli che infieriscono vigliaccamente contro chi è fisicamente più debole di loro. Non si sottrae mai a questo compito e dirige tutta la sua potenza fisica e mentale contro coloro che si macchiano di questa terribile infamia a qualsiasi razza appartengano, siano essi troll o nani, thepa o drow, orchi o umani. Allora, una volta individuati, con freddezza, infierisce senza pietà
+
+Weight: 56kg
+BirthDay: 26
+Height: 178cm
+BirthMonth: MONTH.ONE
+Age: 258
+
+Behaviour:
+     LookPlayer:	30
+     LookMob:	10
+     LookItem:	10
+     LookAtRacesFlags:	RACE.NONE   
+     LookAtRaces:	0
+     LookAtEntitypesFlags:	ENTITYPE.NONE
+     LookAtEntitypes:	0
+     LookSelf:	10
+     LookDirection:	10
+     LookExit:	10
+     LookWall:	0
+     LookClosedDoor: 10
+     LookExtra:	0
+     WanderDirection:	0
+     WanderExit:	40
+     WanderWall:	0
+     WanderClosedDoor:	70
+     WanderAtExitsFlags:	DIR.NONE
+     WanderAtExits:	0
+     WanderArea:	0
+     WanderPortal:	100
+     WanderEnterContainer:	0
+     WanderExitContainer:	0
+     WanderSelf:	0
+     RandomDo:	10
+     RandomDoInputs:	emote ti scruta con una glacialità che ti sorprende
+     RandomDoInputs:	emote ti esorta con la sua freddezza e la durezza del suo sguardo a non indugiare a lungo da queste parti se non hai intenzioni più che ottime
+End
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

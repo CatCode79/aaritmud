@@ -1,0 +1,24 @@
+Code: flora_item_romil-10-rosa
+Level: 1
+Entitype:	ENTITYPE.FLOWER
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.FLOWER	80%
+MaterialPercentages:	MATERIAL.VEGETABLE	20%
+Name: [red]@[green])}--^----[close] 
+Short: [red]@[green])}--^----[close]
+Long:	$N [green]-[close]
+KeywordsName: rosa
+KeywordsShort: rosa
+
+
+Descr:
+Una rosa rossa recisa.
+DescrTouch: 
+Una $hand attenta ha privato la rosa di quasi tutti i suoi aculei
+DescrSmell: 
+Debole fragranza di rosa.
+DescrSixth:
+Potrebbe avere una sua certa utilità cercare di cavarne i semi una volta che è appassita.
+
+Value:	8
+Weight: 50g

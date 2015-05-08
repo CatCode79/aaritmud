@@ -1,0 +1,66 @@
+Code:	arena-drago_room_71-enorme-cunicolo
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	L'Enorme Cunicolo
+Short:	l'enorme cunicolo
+	Descr:
+Ti addentri in una caverna di dimensioni impressionanti, dopo
+aver camminato per una mezz'ora ti rendi conto che si tratta di
+un gigantesco tunnel. Da est in lontananza ti giunge un leggero
+soffio d'aria, a ovest il cunicolo porta verso il giardino dei
+draghi.
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	1|64 0
+Exits:
+	Direction:	DIR.EAST
+	Descr:	la scogliera
+	Comment:	ExitStatus	0 0 27772 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	[white]L'obelisco[close]
+	Comment:	ExitStatus	0 0 27770 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

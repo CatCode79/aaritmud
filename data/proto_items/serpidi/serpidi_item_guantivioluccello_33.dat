@@ -1,0 +1,20 @@
+Code:	serpidi_item_guantivioluccello_33
+Level:	1
+Entitype: ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.FEATHERS	100%
+Name:	Guanti di Violuccello 
+Short:	dei guanti di violuccello 
+Descr: 
+È un soffice paio di guanti viola.  
+Value:	0
+Weight: 80g
+BirthDay: 1
+BirthMonth: MONTH.TEN
+WearType:
+        Modes: PART.LEFT_HAND
+        Modes: PART.RIGHT_HAND
+End
+
+
+
+

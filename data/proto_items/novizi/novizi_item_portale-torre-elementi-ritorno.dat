@@ -1,0 +1,38 @@
+Code: novizi_item_portale-torre-elementi-ritorno
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PORTAL
+MaterialPercentages:	MATERIAL.UNKNOWN	100
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+Name:	Il Portale per Tornare a Casa
+Short:	il portale per casa
+Long:	$N aspetta il tuo ingresso.
+
+Descr:
+Un portale che sofficemente galleggia nell'aria e consente di tornare a casa.
+
+DescrTouch: 
+Un portale impalpabile che galleggia nell'aria e consente il ritorno a casa.
+
+DescrSmell: 
+Un portale odoroso si spande nell'aria e ti comunica che la direzione è verso casa.
+
+DescrSixth:
+Un premuroso portale che ti ricondurrà a casa.
+
+DescrHearing:
+Una vocina stridula ti comunica che il portale ti condurrà a casa.
+
+DescrTaste:
+Uno degli arcinoti e rinomati portali al gusto polvere e terra si pregerà di condurti
+a casa.
+
+Value:	0
+Weight: 1g
+
+PortalType:
+	TargetCode:	novizi_item_portale-torre-elementi
+End
+
+

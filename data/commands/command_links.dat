@@ -1,0 +1,5 @@
+FunName:    command_links
+Type:       CMDTYPE.ADMIN
+Trust:      TRUST.MASTER
+Position:   POSITION.DEAD
+MiniHelp:   Crea una lista dei collegamenti tra le differenti aree.

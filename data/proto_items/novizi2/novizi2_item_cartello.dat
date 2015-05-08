@@ -1,0 +1,51 @@
+Code: novizi2_item_cartello
+Level: 1
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.OAK	100
+Sex:	SEX.MALE
+Name: Un Cartello
+Short: un cartello
+Long:	un'enorme scritta capeggia su $N
+Flags: FLAG.NO_GET
+
+Descr:
+È un cartello che riporta una scritta intellegibile, per vedere la [green]scritta[close] ti basta un
+$tLOOK scritta cartello.
+DescrTouch: 
+È un cartello in legno massiccio inutilmente costoso e per toccare la [green]scritta[close] ti basta
+un $tTOUCH [green]cartello scritta[close].
+
+Value:	0
+Weight: 1kg
+
+Extras:
+	Keywords: scritta
+	Descr:
+La scritta dice:
+<pre class="asciiart">
+------------------------------------------------
+|[green]    _____                 _ _             _   [close]|
+|[green]   / ____|               (_) |           (_)  [close]|
+|[green]  | (___   ___ _ ____   ___| |_ _____   ___   [close]|
+|[green]   \___ \ / _ \ '__\ \ / / | __/ _ \ \ / / |  [close]|
+|[green]   ____) |  __/ |   \ V /| | ||  __/\ V /| |  [close]|
+|[green]  |_____/ \___|_|    \_/ |_|\__\___| \_/ |_|  [close]|
+|[green]                                              [close]|
+|[green]          _____                    _          [close]|
+|[green]         |  __ \                  | |         [close]|
+|[green]         | |__) |   _ _ __ ___    | |         [close]|
+|[green]         |  ___/ | | | '__/ _ \   | |         [close]|
+|[green]         | |   | |_| | | |  __/   |_|         [close]|
+|[green]         |_|    \__,_|_|  \___|   (_)         [close]|
+|[green]                                              [close]|
+------------------------------------------------
+</pre>
+Beh, più esplicito di così!
+	DescrTouch:
+	i caratteri sono fatti di legno ad intarsio e sporgono all'esterno di alcuni millimetri
+	DescrSixth:
+	probabilmente non era intenzionale che sporgesse così tanto l'intarsio; non ci son più
+	gli artigiani di una volta...
+End
+
+

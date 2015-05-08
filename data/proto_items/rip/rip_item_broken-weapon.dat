@@ -1,0 +1,20 @@
+Comment: conveniente negli oggetti rotti l'uso dell'etichetta %material
+Code: rip_item_broken-weapon
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.METAL	100%
+Sex:	SEX.MALE
+Name:	Un'Arma Inservibile
+Short:	un'arma inservibile
+Long:	C'è chi ha infranto e reso $N asportando persino pezzi di %material 
+
+Descr:
+Un'arma spezzata e ridotta a pezzi per renderla inutilizzabile se non come fermacarte.
+DescrTouch: 
+Un'arma spezzata e ridotta a pezzi per renderla inutilizzabile se non come fermacarte.
+DescrSixth:
+È usanza consolidata presso varie popolazioni quella di distruggere oltre il necessario l'arma del nemico.
+Un segno di supremazia volta ad umiliare la vittima.
+
+Weight: 10g

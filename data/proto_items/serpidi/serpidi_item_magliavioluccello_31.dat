@@ -1,0 +1,19 @@
+Code:	serpidi_item_magliavioluccello_31
+Level:	1
+Entitype: ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.FEATHERS	100%
+Name:	Una Maglia di Violuccello 
+Short:	una maglia di violuccello 
+Descr: 
+È una soffice maglia viola.  
+Value:	0
+Weight: 80g
+BirthDay: 1
+BirthMonth: MONTH.TEN
+WearType:
+        Modes: PART.TORSO
+End
+
+
+
+

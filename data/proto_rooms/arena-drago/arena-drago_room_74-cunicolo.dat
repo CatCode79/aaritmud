@@ -1,0 +1,66 @@
+Code:	arena-drago_room_74-cunicolo
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Un Cunicolo
+Short:	un cunicolo
+	Descr:
+Prosegui in un cunicolo scavato nella roccia, l'aspetto delle
+pareti ti fa pensare ad una caverna naturale. se non fosse per le
+venature di magma luminescenti diresti che tutto questo sia così
+dall'alba dei tempi, invece la tenue luminosità di queste
+venature ti fa intuire che una potentissima magia ha plasmato
+questi luoghi. Ad est intravedi un incrocio mentre ad ovest il
+cunicolo prosegue nella penombra.
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	1|64 0
+Exits:
+	Direction:	DIR.EAST
+	Descr:	un incrocio sotterraneo
+	Comment:	ExitStatus	0 0 27759 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	un cunicolo
+	Comment:	ExitStatus	0 0 27775 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

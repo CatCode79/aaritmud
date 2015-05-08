@@ -1,0 +1,34 @@
+Code:	karpuram_item_eq-bracciale-nero
+
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.BONE	100
+Sex:	SEX.MALE
+Name:	Un Bracciale Nero
+Short:	un cerchietto nero
+Long:	$N di forma circolare e semplice è qui.
+
+Descr:
+Realizzato con semplicità sembra faccia parte di un gruppo di oggetti 
+ornamentali dello stesso materiale d'osso. Levigato con cura, questo 
+braccialetto non presenta impurità o imperfezioni, ma neanche iscrizioni o rune
+di alcun tipo, segni tangibili della magia. L'oggetto è così piccolo che 
+può essere indossato solo da un bambino.
+
+DescrNight:
+Il materiale d'osso che compone questo minuto braccialetto sembra accendersi
+durante la notte, è levigato con cura e non presenta iscrizioni di alcun tipo.
+Tuttavia per quanto piccolo e singolare è in grado di emanare attorno a sè
+un cono d'ombra molto intenso.
+
+
+Value:	0
+Weight:	100g
+
+WearType:
+   Modes: PART.RIGHT_WRIST
+   Modes: PART.LEFT_WRIST
+End
+
+

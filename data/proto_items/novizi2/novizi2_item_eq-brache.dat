@@ -1,0 +1,24 @@
+Code: novizi2_item_eq-brache
+Level: 1
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.CLOTH	100
+Sex:	SEX.MALE
+Name:	Un Paio di Brache
+Short:	un paio di brache
+Long:	Ci sono qui $N stese 
+
+Descr:
+Un paio di brache vecchio tipo; ampi in zona fianchi.
+Arrivano fino al ginocchio.
+
+DescrTouch: 
+Un paio di ampie brache rinforzate in zona glutei che arrivano fino al ginocchio.
+
+Value:	0
+Weight: 200g
+
+WearType:
+   Modes: PART.RIGHT_THIGH PART.LEFT_THIGH
+End
+
+

@@ -1,0 +1,62 @@
+Code:	cimitero_mob_bruco-generico-quest
+Level:	1
+MaxGlobalQuantity: 0
+Sex:	SEX.MALE
+Race:	RACE.BUTTERFLY
+Name:	Un [firebrick]Bruco Karpuridae[close]
+Short:	un [firebrick]bruco[close] cangiante
+Long:	$N appare tutto torpido.
+
+Descr:
+Un bruco più grosso degli altri, man mano che lo osservi vedi i colori e le sfumature tendere tutte ad un [firebrick]rossastro[close].
+
+Weight:	8g
+Height:	5cm
+
+BirthDay:	1
+BirthMonth:	MONTH.ONE
+Age:	1
+
+Behaviour:
+	LookPlayer:	0
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	100
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+        WanderAtSectors:	SECTOR.SHRUB
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+Strength:	5
+Endurance:	33
+Agility:	7
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	10
+Life:		10
+MaxMana:	10
+Mana:		10
+MaxVigour:	10
+Vigour:		10

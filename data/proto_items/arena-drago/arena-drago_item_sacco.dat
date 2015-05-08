@@ -1,0 +1,32 @@
+Code:	arena-drago_item_sacco
+Level:	06
+Entitype:	ENTITYPE.MONEY
+MaterialPercentages:	MATERIAL.CLOTH 10%
+MaterialPercentages:	MATERIAL.COPPER 80%
+MaterialPercentages:	MATERIAL.SILVER 7%
+MaterialPercentages:	MATERIAL.MITHRIL 3%
+Sex:	SEX.MALE
+Flags:	FLAG.RANDOMIZABLE
+Name:	Un Grosso Sacco di Monete
+Short:	un grosso sacco di monete
+
+Value:	0
+Weight: 200g
+
+Descr:
+Un grosso sacco di monete decisamente invitante.
+
+ContainerType:
+        MaxWeight: 10kg
+End
+
+Comment:
+§27726
+
+Dati Obj
+20 0 150000 0 0 01 0 0
+
+MoneyType:
+	CopperValue: 10000
+	Races: RACE.HUMAN
+End

@@ -1,0 +1,71 @@
+Code:	accademia-drago_mob_immagine-seamer
+Level:	03
+Sex:	SEX.MALE
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT FLAG.NO_GET
+Race:	RACE.SPIRIT
+Name:	Seamer il [mediumblue]Drago Blu[close]
+Short:	un possente [mediumblue]drago blu[close]
+Long:	$N è posato su uno dei picchi.
+
+Descr:
+Le scaglie blu che ricoprono il corpo di questo animale luccicano
+come  tanti  specchi,  un'incredibile  potere sembra sprigionarsi
+nell'aria intorno a lui... 
+Weight: 189kg
+Height: 160cm
+
+BirthDay: 22
+BirthMonth: MONTH.TWO
+Age: 9
+
+Behaviour:
+	LookPlayer:	5
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+Comment:
+2|4194304 128 0 A 3
+42 -8 -11 400 1d3+15
+-1 0 50 29
+8 8 5 32|32768|65536 4|256|512|1024|2048|4096|8192|16384 0
+
+
+
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

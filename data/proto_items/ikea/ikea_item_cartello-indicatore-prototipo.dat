@@ -1,0 +1,52 @@
+Comment: Carattere utilizzato: Threepoint (figletfont) con sostituzione della ~ (tilde) con _ (underscore)
+Colori da utilizzare: N [teal]teal[close], NE [lightgreen]lightgreen[close], E [yellow]yellow[close], SE [lightblue]lightblue[close], [white]S[close], SW [blue]blue[close], W [red]red[close], NW [darkgreen]darkgreen[close], D [brown]brown[close], U [cyan]cyan[close].
+Il colore della destinazione a piacere.
+I punti davanti al secondo cartello sono necessari a non far scomparire il spazio ad inizio riga.
+Da inserire all'inizio <pre class="asciiart">
+Da inserire alla fine </pre>
+
+Code: ikea_item_cartello-indicatore-prototipo
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Flags:	FLAG.NO_GET
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.WOOD	100%
+Name:	Un Cartello Indicatore
+Short:	un cartello indicatore
+Long:	$N ben piantato a terra.
+
+Descr:
+<pre class="asciiart">
+*-----------*-----------------------------------------\
+|  _        |                       _                  \
+| (     _|  | \  /.|| _  _  _ . _    /. _  _  _  _ _    \
+| _)|_|(_|  |  \/ |||(_|(_|(_||(_)  /_|| |(_|(_|| (_)   / 
+|           |            _| _|             _|          /   
+*-----------*-----------------------------------------/ 
+.                                                  
+.
+.  /=-=-=-=-=-*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*
+. /  _        |                       _                  | 
+./  (     _|  | \  /.|| _  _  _ . _    /. _  _  _  _ _   |  
+.\  _)|_|(_|  |  \/ |||(_|(_|(_||(_)  /_|| |(_|(_|| (_)  |  
+. \           |            _| _|             _|          |  
+.  \=-=-=-=-=-*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*
+</pre>
+
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Value:	0
+Weight: 10kg
+      
+
+

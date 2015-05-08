@@ -1,0 +1,36 @@
+Code:	serpidi_item_ritorno_88
+Level:	1
+Entitype: ENTITYPE.READABLE
+MaterialPercentages:	MATERIAL.PARCHMENT	100%
+Name:	Pergamena 
+Short:	un pezzo di pergamena accattorciata 
+Long:	$N è stata buttata in un angolo.
+
+Descr: 
+Come al solito qualche maleducato ha lasciato in giro questo pezzo di pergamena.  
+
+Value:	0
+Weight: 23g
+BirthDay: 1
+BirthMonth: MONTH.TEN
+
+
+ReadableType:
+   Title: Pergamena
+   Author: Chadyne
+   Summary:
+	Ti senti quasi in imbarazzo a tenere in mano un pezzo di pergamena di così tanto valore.  
+   Flags: READABLE.NUMBERS
+   NumberDecorationLeft: --
+   NumberDecorationRight: --
+   VisualWidth: 96px
+   VisualHeight: 24px
+   Padding: 0px
+   BorderTop: 0px outset silver
+   BorderRight: 0px outset silver
+   BorderBottom: 0px outset silver
+   BorderLeft: 0px outset silver
+   BorderInside: 0px solid silver
+   Pages:
+	 Bye Bye
+End

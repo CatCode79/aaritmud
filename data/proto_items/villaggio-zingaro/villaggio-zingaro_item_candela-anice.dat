@@ -1,0 +1,20 @@
+Code: villaggio-zingaro_item_candela-anice
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.WAX 98%
+MaterialPercentages:	MATERIAL.ESSENCE 2%
+Name:	Una [mediumturquoise]Candela[close]
+Short:	una [mediumturquoise]candela[close]
+
+Descr:
+Una [mediumturquoise]candela[close] ben solida e diritta con un lungo stoppino.
+DescrTouch: 
+Passi la $hand su tutta la lunghezza che ti resta sporca di cera.
+DescrSmell: 
+Aroma di anice.
+
+Value:	4
+Weight: 76g
+

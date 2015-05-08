@@ -1,0 +1,27 @@
+Code: novizi_item_portale-accademia-drago
+Level: 1
+Entitype:	ENTITYPE.PORTAL
+MaterialPercentages:	MATERIAL.UNKNOWN	100
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+Name:	Il Portale per l'Accademia
+Short:	un portale mistico
+Long:	$N splende di luce [white]bianca[close]
+
+Descr:
+Uno splendido portale di pura luce oscilla e splende maestoso.
+Un'insegna capeggia maestosa con l'indicazione luminosa:
+[yellow]Accademia[close] del [yellow]Drago[close].
+
+DescrSixth:
+Percepisci distintamente d'essere davanti ad un portale per altri lidi.
+
+Value:	0
+Weight: 10g
+
+
+PortalType:
+	TargetCode:	novizi_item_portale-accademia-drago-ritorno
+End
+
+

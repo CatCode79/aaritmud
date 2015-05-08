@@ -1,0 +1,114 @@
+Code:	accademia-drago_room_068_mensa-068
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Sala Mensa
+Short:	sala mensa
+	Descr:
+Sei giunto in un enorme salone, file e file di tavoloni riempiono
+tutto lo spazio disponibile, alcuni sono occupati da giovani
+cavalieri che mangiano in silenzio ma la maggior parte sono
+vuoti, l'ambiente è freddo e spartano, le mura bianche così
+come il soffitto, l'unica nota di colore sono le travi a vista
+che corrono su tutta la parte alta del salone. Alle estremità
+ovest ed est si aprono due porte.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 0
+Exits:
+	Direction:	DIR.EAST
+	Descr:	le cucine
+	Comment:	ExitStatus	1 0 069 -1
+	Door:	ikea_item_porta
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	l'androne di passaggio
+	Comment:	ExitStatus	1 0 067 -1
+	Door:	ikea_item_porta
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

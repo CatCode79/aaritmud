@@ -1,0 +1,63 @@
+Code: novizi2_item_eq-maglietta-ap-4
+Level: 1
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.COTTON	100
+Sex:	SEX.FEMALE
+Icon:	icons/equipment/shirt-green.png
+Name:	La [lightgreen]Maglietta[close] Ricordo
+Short:	la [lightgreen]maglietta[close] ricordo
+Long:	$N per la [yellow]IV[close] apertura
+
+Descr:
+Una [lightgreen]magliettina [close]color [lightgreen]verde[close] a maniche corte in cotone.
+Un logo misterioso spicca con inusitata foga.
+Stampato sul retro è scritto:
+Quarta apertura - Ardito Avventuriero
+C'è un'etichetta luccicante con delle scritte attaccata in basso sulla cucitura laterale.
+
+DescrTouch: 
+Maglietta in cotone di ottima qualità. In rilievo sulla parte superiore un simbolo misterioso.
+Un'etichetta larga e sproporzionata è attaccata alla cucitura in basso.
+
+DescrSixth:
+Il tuo sesto senso ti induce a collezionarle tutte!
+
+Extras:
+	Keywords:	logo
+	Descr:	Una tigre ed un dragone che si fronteggiano
+End
+
+
+Extras:
+	Keywords: etichetta
+	Descr:
+		la maglietta è anche un portale, tenetela stretta perché in caso di bisogno
+		potrà riportarvi dove avete iniziato.
+		Per utilizzarla come portale basta entrarvi.
+		100% cotone delle piane di Mirva.
+		Lavare a mano.
+		Durante i primi lavaggi potrebbe perdere del colore; si raccomanda pertanto di
+		lavarla separatamente da altri indumenti.
+		Il portale teme le temperature elevate.
+
+End
+
+Value:	0
+Weight: 80g
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+   Modes: PART.TORSO
+End
+
+PortalType:
+	Destination: 0 0 1 novizi
+	EntityEnterMessage: Carezzi con la mano il bordo del portale cucito sul retro de $N e d'istinto lo varchi.
+	TargetEnterMessage: $n decide d'attraversarti e l$o anticipi repentinamente.
+	OthersEnterMessage: $n infila una $hand dentro $N e viene avvolt$o in una nuvola di fumo.
+	EntityExitMessage: Perdi quasi il senso dell'equilibrio mentre si delineano contorni nuovi del mondo esterno..
+	TargetExitMessage: Ora $n è sparit$o da $T finendo in $t.
+	OthersExitMessage: $n appare in una nuvola di fumo.
+End
+
+

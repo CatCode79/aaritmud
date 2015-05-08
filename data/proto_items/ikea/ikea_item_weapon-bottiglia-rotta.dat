@@ -1,0 +1,33 @@
+Code:	ikea_item_weapon-bottiglia-rotta
+
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAPON
+MaterialPercentages:	MATERIAL.GLASS	100
+Sex:	SEX.FEMALE
+Name:	Una Bottiglia Rotta
+Short:	una bottiglia rotta
+Long:	$N tagliente e pericolosa
+
+Descr:
+La parte superiore di una bottiglia in vetro bruno.
+Comoda impugnatura con ancora infilato il tappo e munita di uno straccetto annodato al collo.
+DescrTouch:
+La parte superiore di una bottiglia in vetro bruno che eviti di toccare con troppa foga nelle parti taglienti.
+Comoda impugnatura con ancora infilato il tappo e munita di uno straccetto annodato al collo.
+DescrSixth:
+Qualcuno privo di senso drammatico ha negato all'eventuale acquirente il gesto stizzito e carismatico di chi spezza la bottiglia sul bancone per brandirla.
+Quello che resta è un oggetto di sicuro interesse antropologico ma di dubbia efficienza.
+
+Value:	0
+Weight:	890g
+
+WeaponType:
+        Category:	WEAPON.KNIFE
+        Flags:	WEAPONFLAG.ONE_HAND 
+        Damage:	1D2+1
+End
+
+WearType:
+   Modes: PART.WIELD
+End

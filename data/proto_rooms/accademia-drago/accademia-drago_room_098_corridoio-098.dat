@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_098_corridoio-098
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Un Corridoio
+Short:	un corridoio
+	Descr:
+Una volta giunto alla fine del corridoio ti trovi di fonte a
+quella che probabilmente è la fonte dei fulmini che illuminano
+corridoi e androne di questa camerata, una gemma grigio ghiaccio
+è incastonata nella parete di fondo del corridoio, dalla placca
+in cui è inserita partono diverse "barre" del metallo blu che
+hai visto scintillare nelle altre stanze. Verso nord e sud si
+aprono due porte mentre il corridoio si dirige a est.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 0
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	l'androne di ingresso
+	Comment:	ExitStatus	1 0 001 -1
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	un corridoio
+	Comment:	ExitStatus	0 0 097 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	la magica portineria
+	Comment:	ExitStatus	1 0 27702 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

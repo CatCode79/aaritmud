@@ -1,0 +1,54 @@
+Code: limbo_item_book
+Level: 1
+
+Sex:	SEX.MALE
+Name: Un Libro
+Short: un libro
+MaterialPercentages:	MATERIAL.PAPER	 90%
+MaterialPercentages:	MATERIAL.LEATHER	10%
+Descr:
+Un libro libroso
+
+Long:	$N per terra
+
+Value:	0
+Weight: 1Kg
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 1
+
+ReadableType
+    Title: L'avventura di gatto
+    Author: Gatto
+    Summary:
+        Cemo chi legge
+    Language: LANGUAGE.ELVEN
+    Flags: READABLE.NUMBERS READABLE.CENTER
+    NumberDecorationLeft: --
+    NumberDecorationRight: --
+    VisualWidth: 100px
+    VisualHeight: 150px
+    Padding: 15px
+    BorderTop: 3px outset silver
+    BorderRight: 3px outset silver
+    BorderBottom: 3px outset silver
+    BorderLeft: 3px outset silver
+    BorderInside: 1px solid silver
+    Pages:
+        bla bla bla copertina
+        bla bla bla copertina
+    Pages: &nbsp;
+    Pages:
+        bla bla bla 2
+        bla bla bla 2
+    Pages:
+        bla bla bla 3
+        bla bla bla 3
+    Pages:
+        bla bla bla 4
+        bla bla bla 4
+    Pages:
+        bla bla bla retrocopertina
+        bla bla bla retrocopertina
+End

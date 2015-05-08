@@ -1,0 +1,17 @@
+Code: gtell
+
+ItalianKeywords: gdico
+EnglishKeywords: gtell
+
+Entitype: HELP.CHANNEL
+
+Text:
+E' il canale maggiormente utilizzato durante ogni avventura in gruppo, parlando
+con gli altri ricordiamoci sempre di non essere davanti a uno specchio e di
+rispettare principalmente gli altri.
+$tgtell non è un canale GDR, per parlare al gruppo in maniera GDR utilizza un
+qualsiasi canale GDR seguito dalla scritta "al gruppo" e poi da quello che si
+vuole dire.
+
+
+SeeAlso: channels tell

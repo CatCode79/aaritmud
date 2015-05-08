@@ -1,0 +1,56 @@
+Code: citta-raminghe_room_accademia
+Sector: SECTOR.CITY
+Name: Accademia delle Raminghe
+Short: [gold]accademia[close]
+
+Descr:
+Entri in una corte molto spaziosa. Un giro ininterrotto di imponenti [salmon]colonne[close] delimitano uno spazio circolare nel quale si aprono [lime]stanze[close] adibite a vari usi accademici. Le porte delle stanze sono dipinte di diverso colore:
+alcune di [red]rosso[close], altre di [lightblue]blu[close], altre ancora di [yellow]giallo[close]. Vi si può accedere con 
+una certa facilità.
+Al centro vi è uno spazio aperto e circoscritto dal colonnato. Viene usato per conversazioni filosofiche,
+vi si riunisce per discutere, per tenere delle conferenze, ma è anche un luogo dove ci si allena nella 
+[deePPink]lotta[close] e nel [gold]combattimento[close].
+
+DescrSixth:
+Questo è il luogo dove chiunque abbia voglia di coltivare conoscenze e saperi  è accolto con calore  e interesse. 
+DescrHearing:
+Puoi sentire concitate conversazioni e dibattiti accesi, ma anche, durante gli allenamenti, il rumore di  vigorosi 
+combattimenti.
+
+Extras:
+     Keywords: apri porta rossa
+     Descr:
+     Una stanza di dimensioni contenute adibita a luogo di studio. Arredata con librerie e alcuni tavoli e sedie.
+End
+Extras:
+     Keywords: apri porta gialla
+     Descr:
+     Una stanza i cui pavimenti sono ricoperti da tappeti pregiati. Tre piccoli tavoli ottagonali sono disposti lateralmente. Vi sono poggiate tazze e vassoi usati per i momenti di ristoro. Un [silver]cofanetto d'argento[close] chiuso è posto 
+     sopra uno dei tavoli. 
+     
+End
+Extras:
+     Keywords: apri porta blu
+     Descr:
+     Una stanza molto ampia usata per le lezioni dell'accademia. Vedi numerose sedie disposte in cerchio. 
+End
+
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.SOUTH
+	Descr: Cinta muraria
+	Destination: 10 2 0 citta-raminghe
+End
+Exits:
+	Direction: DIR.EAST
+	Descr: Biblioteca
+End
+Exits:
+	Direction: DIR.NORTHWEST
+	Descr: Una porta chiusa
+End

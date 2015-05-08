@@ -1,0 +1,73 @@
+Code: ikea_item_food-vv01-pandolce
+Level: 1
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.MALE
+Flags:	FLAG.RANDOMIZABLE
+Value:	3
+
+MaterialPercentages:	MATERIAL.BUTTER	10%
+MaterialPercentages:	MATERIAL.FLOUR	50%
+MaterialPercentages:	MATERIAL.PULP	20%
+MaterialPercentages:	MATERIAL.MILK	5%
+MaterialPercentages:	MATERIAL.EGG	5%
+MaterialPercentages:	MATERIAL.SUGAR	10%
+Name:	Un Pasticcino di Pandolce
+Short:	un pasticcino
+Long:	$N dall'aspetto invitante è stato lasciato qui
+
+Descr:
+Un dolcetto tondo dall'aspetto irregolare poco più piccolo di una $hand. Incastonati nel dolcetto ci sono uvetta e pinoli in abbondanza.
+DescrTouch: 
+È asciutto ma non secco. È abbastanza friabile.
+DescrSmell:
+Profuma di vaniglia ed uvetta.
+DescrTaste:
+L'impasto non è particolarmente dolce. Forse l'effetto è accentuato da contrasto con l'uvetta, estremamente zuccherina e presente in abbondanza. Comunque il pasticcino nel suo complesso risulta bilanciato.
+DescrSixth:
+Anche se non è particolarmente secco è abbastanza asciutto da far venire sete e, per quanto piccolo, è abbastanza grande da rovinare l'appetito.
+
+Weight: 30g
+
+FoodType:
+	Comment:	cibo
+	Animal:	5
+	Vegetable:	95
+	CookingDamage:	1
+	Hours:	1
+	EntityMessage:	$N è finito in pochi bocconi.
+	TargetMessage:	$n ha ceduto alla tentazione di mangiarti.
+	OthersMessage:	$n mangia $N in pochi bocconi.
+End
+
+Behaviour:
+	LookPlayer:	0
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+        RandomDo:	1
+	RandomDoInputs:	emote cerca di farti gola.
+        RandomDoInputs: emote se ne sta lì, appetitoso e pronto ad essere mangiato.
+        RandomDoInputs: emote manda un profumo di vaniglia ed uvetta.
+End
+
+

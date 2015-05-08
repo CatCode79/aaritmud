@@ -1,0 +1,41 @@
+Code: novizi2_item_yendorian-copper-card
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.COPPER	100%
+Name:	La Yendorian Card di Rame
+Short:	una tesserina color rame
+Long:	$N smarrita da qualcuno
+
+Descr:
+Una tessera intonsa non ancora assegata con i campi vuoti e non firmata.
+La  gioia di ogni falsario.
+DescrTouch: 
+Un
+DescrSmell: 
+Non
+DescrSixth:
+Il
+DescrHearing:
+Poggiandoci
+DescrTaste:
+Un
+
+Weight: 10g
+
+Extras:
+	Keywords: chiave
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End

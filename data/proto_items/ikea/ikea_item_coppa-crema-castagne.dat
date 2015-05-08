@@ -1,0 +1,26 @@
+Code: ikea_item_coppa-crema-castagne
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.PULP	90%
+MaterialPercentages:	MATERIAL.MILK	10%
+Name:	Della Crema Di Castagne In Una Coppa
+Short:	della crema di castagne in una coppa
+Long:	$N è qui
+
+Descr:
+Una coppetta colma di una crema scura e decorata con un ciuffo di panna montata e una ciliegia
+DescrTouch: 
+La crema è densa e corposa
+DescrSmell: 
+L'odore di castagna ti riporta alla mente l'odore di legna bruciata nei mesi freddi
+DescrSixth:
+Le castagne devono essere lavorate molto per risultare così cremose
+DescrTaste:
+ Sembra di mangiare mangiate di marroni glassati resi delicati dalla crema di latte
+DescrHearing:
+no_send
+
+Value:	0
+Weight: 120g

@@ -1,0 +1,30 @@
+Code:	arena-drago_item_lancia-drago
+Level:	06
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.STEEL 70%
+MaterialPercentages:	MATERIAL.CLOTH 20%
+MaterialPercentages:	MATERIAL.WOOD 10%
+Sex:	SEX.MALE
+Name:	La Lancia dei Draghi
+Short:	la lancia dei draghi
+
+Value:	0
+Weight: 10g
+
+Descr:
+	Una lancia
+
+
+WeaponType:
+        Category: WEAPON.SPEAR
+	Damage:	2D4+5
+        Flags: WEAPONFLAG.ONE_HAND 
+End
+
+Comment:
+§27729
+
+Dati Obj
+5 4|64|4194304|8388608|16777216|33554432|67108864|134217728|2147483648 1|8192|327680 5 3 1130 15000 2000A40 3
+
+

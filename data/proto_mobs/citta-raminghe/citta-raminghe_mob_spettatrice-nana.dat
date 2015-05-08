@@ -1,0 +1,65 @@
+Code:   citta-raminghe_mob_spettatrice-nana
+Level:  2
+Sex:    SEX.FEMALE
+Race:   RACE.DWARF
+Name:   Una Spettatrice Nana
+Short:  una spettatrice di razza nana
+Long:   $N applaude divertita
+
+Descr:
+Tiene un boccale di [yellow]birra[close]  tra le piccole mani. Lunghi capelli neri intrecciati le arrivano fino a terra. Ha
+il volto paffuto e leggermente barbuto. Indossa una maglia di lana rossa e una gonnellina
+di stoffa ruvida.
+DescrSmell:
+Odore forte di luppolo ed alcol si espande verso di te avvolgendoti in una sensazione di lieve stordimento
+DescrSixth:
+Il fatto che sia piccola e apparentemente indifesa non ti tranquillizza affatto.
+
+Weight: 70kg
+Height: 110cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 60
+
+MaxLife:        150
+Life:           150
+MaxMana:        100
+Mana:           100
+MaxVigour:      150
+Vigour:         150
+
+Strength:       15
+Endurance:      15
+Agility:        10
+Speed:          10
+Intelligence:   10
+Willpower:      15
+Personality:    15
+Luck:           16
+
+Behaviour:
+        LookPlayer:     0
+        LookMob:        0
+        LookItem:       0
+        LookAtRacesFlags:       RACE.WOODELF
+        LookAtRaces:    30
+        LookAtEntitypesFlags:   ENTITYPE.NONE
+        TasteAtEntitypesFlags:  ENTITYPE.NONE
+        WanderDirection:        0
+        WanderExit:     0
+        WanderWall:     0
+        WanderClosedDoor:       0
+        WanderAtExitsFlags:     DIR.NONE
+        WanderAtExits:  0       
+        WanderArea:     0
+        WanderPortal:   0
+        WanderEnterContainer:   0
+        WanderExitContainer:    0
+        WanderSelf:     0
+        RandomDo:       5
+        RandomDoInputs: emote applaude, sorride e beve birra con gusto!
+        RandomDoInputs: say Se state così in piedi...non vedo nulla!
+        RandomDoInputs: say Bravi! Bravi!
+        RandomDoInputs: emote appare molto allegra e divertita.
+End

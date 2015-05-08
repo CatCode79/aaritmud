@@ -1,0 +1,29 @@
+Code: ikea_item_certificato-morte-gallina
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.PARCHMENT	100%
+Name:	Il Certificato di Morte di una Gallina dell'Ikea
+Short:	il certificato di morte di una gallina
+Long:	arrotolato in un angolo c'è $N rilasciato da un notaio
+
+Descr:
+Certificato redatto in carta semplice dal quale si evince che qui è morta una gallina;
+la morte è sopraggiunta per cause naturali e dall'esame autoptico non vi è riscontro
+né di sevizie, né di malnutrizione e neppure di scarso spazio a disposizione dell'animale.
+
+DescrTouch: 
+Un involto cartaceo che non contiene altro che sé stesso; arrotolato con non troppa cura.
+DescrSmell: 
+Un tremendo odore di menzogna promana dal certificato che solo la firma di un notaio
+potrebbe coprire.
+DescrSixth:
+Un certificato fasullo
+DescrTaste:
+Uhh.. il vecchio inchiostro di quercia ricavato dalle galle!
+
+Value:	0
+Weight: 10g
+
+

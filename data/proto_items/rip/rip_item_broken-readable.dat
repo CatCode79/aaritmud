@@ -1,0 +1,19 @@
+Comment: conveniente negli oggetti rotti l'uso dell'etichetta %material
+Code: rip_item_broken-readable
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.PAPER	100%
+Sex:	SEX.MALE
+Name:	Un Monticciolo di %material a Pezzi Strappati e Lacerati
+Short:	un monticciolo di %material a pezzi strappati e lacerati
+Long:	c'è qui $N
+
+Descr:
+Pagine ridotte in piccoli pezzettini e scritte ormai illeggibili ed impossibile da ricomporre.
+DescrTouch: 
+Piccoli pezzi comodamente impilabili.
+DescrSixth:
+Un offesa alla cultura o un tentativo di proteggere la cultura da attacchi indiscriminati?
+
+Weight: 100g

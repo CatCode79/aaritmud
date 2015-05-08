@@ -1,0 +1,6 @@
+FunName:   command_exclaim
+Type:      CMDTYPE.CHANNEL
+Trust:     TRUST.PLAYER
+Position:  POSITION.REST
+Flags:     CMDFLAG.GDR
+MiniHelp:  Serve per esclamare qualcosa, quello che viene detto è sentito da tutti coloro nella stanza.

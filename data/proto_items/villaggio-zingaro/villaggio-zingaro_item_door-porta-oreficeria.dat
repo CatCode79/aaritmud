@@ -1,0 +1,36 @@
+Code: villaggio-zingaro_item_door-porta-oreficeria
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.HARDWOOD 89%	
+MaterialPercentages:	MATERIAL.IRON 11%	
+Name:	La Porta dell'Oreficeria
+Short:	la porta dell'oreficeria
+Long:	$N è stata divelta
+
+Descr:
+Una porta metallica a fasce di monumentale fattura con un unico battente ad anello. Pochi i decori ed i fronzoli; solo una piccola raffigurazione stilizzata di un artigiano al lavoro.
+DescrTouch: 
+Una porta metallica a fasce di fattura monumentale con un unico pesante battente. Tutto il bordo superiore è bugnato a quadri, quello inferiore è rinforzato con una lastra unica.
+
+Value:	0
+Weight: 350kg
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Apri $N che pesa in modo indicibile.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N usando tutta la sua forza.
+	EntityCloseMessage:	Trascini $N fino a richiuderla.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n trascina $N fino a chiusura.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE
+	ResetCloseMessage: $N si chiude.
+	ResetOpenMessage: $N si apre.
+End
+
+

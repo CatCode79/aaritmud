@@ -1,0 +1,26 @@
+Code: antro-drow_room_grotta-03
+Sector: SECTOR.CAVERN
+Flags:	ROOM.INSIDE
+Name: Una Grotta Naturale
+Short: una grotta naturale
+
+Descr:
+Una grotta di apparente origine naturale si estende in lungi arzigogoli e bruschi cambi di direzione ma sempre con andamente orizzontale.
+La pavimentazione in selce di origine lontana presenta qualche buca e qualche crepa.
+DescrTouch:
+Un filo di aria ti investe lieve proseguendo poi in direzione ovest.
+DescrSixth:
+La pavimentazione di origine ormai lontana, con le sue buche e qualche crepa denota antichi fasti ora in via di declino.
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+	Direction: DIR.SOUTH
+	Descr: La grotta prosegue
+End
+Exits:
+	Direction: DIR.WEST
+	Descr: La grotta prosegue
+End

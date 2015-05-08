@@ -1,0 +1,28 @@
+Code: torreelementi_item_vasca_01
+Level: 1
+Entitype:	ENTITYPE.NONE
+Flags: FLAG.NO_GET
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.MARBLE	100%
+Name: La Vasca di Raccolta 
+Short: una vasca
+Long:	$N al centro è colma d'acqua
+Descr:
+Una vasca molto ampia interrata nel pavimento, colma d'acqua limpida e calma.
+Ogni tanto una gocciolina scende dall'alto increspando la superficie
+DescrHearing: Ogni tanto una gocciolina scende dall'alto riempiendo il silenzio
+
+
+Value:	0
+Weight: 1000kg
+
+DescrTouch: 
+Ti sei bagnat$o la $hand
+DescrSmell: 
+Non pare stantia
+DescrSixth:
+Potrebbe essere potabile
+DescrTaste:
+Ottima dissetante e priva di retrogusti strani
+
+

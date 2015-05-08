@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_089_corridoio-089
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Un Corridoio
+Short:	un corridoio
+	Descr:
+Il corridoio è semplice e scarno, pietra grigia ovunque, nessun
+fronzolo e ancor meno sfarzo. alle pareti però sono appesi
+diversi esemplari di armi, dai più comuni ai più particolari.
+Ad est una porta da sulla piazza d'armi mentre ad ovest il
+corridoio prosegue.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 0
+Exits:
+	Direction:	DIR.EAST
+	Descr:	la piazza d'armi
+	Comment:	ExitStatus	1 0 052 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	un corridoio
+	Comment:	ExitStatus	0 0 090 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

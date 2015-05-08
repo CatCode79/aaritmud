@@ -1,0 +1,31 @@
+Code: arena-drago_item_door-portone-spalti-15
+Level: 1
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.HARDWOOD 100%
+Sex:	SEX.MALE
+Name:	Un portone
+Short:	un portone
+Long:	$N è a terra in frantumi.
+
+Descr:
+Una grossa porta in legno
+
+Value:	0
+Weight: 40g
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Apri $N spingendo con forza.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N spingendo con forza.
+	EntityCloseMessage:	Richiudi $N.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n chiude $N.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+	Flags:	DOOR.LOCKED DOOR.CLOSED DOOR.CLOSABLE
+	KeyCode:	accademia-drago_item_mazzo-chiavi
+End
+
+

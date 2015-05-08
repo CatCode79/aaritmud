@@ -1,0 +1,32 @@
+Code:	karpuram_item_eq-mantello-seta
+
+Level:	3
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.SILK	100
+Sex:	SEX.MALE
+Name:	Mantello di Seta
+
+Short:	drappo di seta
+
+Long:	Un purissimo $N lavorato a mano è ripiegato con cura qui in terra.
+
+Descr:
+Un accessorio d'abbigliamento pregiato e di nobili origini, realizzato per
+essere portato durante grandi occasioni o cerimonie, questo mantello di seta
+munito anche di cappuccio presenta una parte esterna di colore nero molto
+resistente e a prova di pioggia e una sezione interna sempre in seta, più 
+morbida e raffinata di colorazione grigio perla ricamata.
+
+DescrTouch:
+Pregiatissimo al tatto, raffinata e morbida la trama della seta interna e 
+soffice e delicata quella esterna.
+
+
+Value:	0
+Weight:	400g
+
+WearType:
+        Flags:	WEAR.LAYERABLE
+   Modes: PART.BACK
+End

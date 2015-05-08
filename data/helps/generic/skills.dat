@@ -1,0 +1,14 @@
+Code: skills
+
+ItalianKeywords: abilità 
+EnglishKeywords: skills
+
+Entitype: HELP.INFO
+
+Text:
+Ogni giocatore ha diverse [darkgreen]abilità[close] ed [darkgreen]incantesimi[close] che può apprendere,
+usando il comando $tskill ti sarà mostrato un elenco delle abilità che puoi 
+apprendere, ed un elenco delle Abilità e Incantesimi che potrai apprendere
+prossimamente.
+
+SeeAlso: spells practices

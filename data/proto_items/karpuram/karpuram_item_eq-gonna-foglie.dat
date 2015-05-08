@@ -1,0 +1,25 @@
+Code:	karpuram_item_eq-gonna-foglie
+
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.LEAF	75
+MaterialPercentages:	MATERIAL.FLOWER	25
+Sex:	SEX.FEMALE
+Name:	Gonna di Foglie
+Short:	lunga gonna ornata con fiori e foglie
+Long:	una pregiata e raffinata $N è posata qui in terra.
+
+Descr:
+Una lunga gonna di panno morbido, ornata da molte foglie sempreverdi e alcuni
+fiori rosa e arancio. Quattro bottoni laterali permettono alle piccole piantine
+di rimanere saldamente legate alla gonna, formando una sorta di cinta naturale
+e modellandosi assieme andando a formare un capo pregiato e unico.
+
+Value:	0
+Weight:	1kg
+
+WearType:
+        Flags:	WEAR.LAYERABLE
+   Modes: PART.RIGHT_LOWER_LIMB PART.LEFT_LOWER_LIMB
+End

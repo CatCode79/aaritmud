@@ -1,0 +1,41 @@
+Code: novizi_item_patatine
+Level: 1
+Entitype:	ENTITYPE.FOOD
+MaterialPercentages:	MATERIAL.VEGETABLES	100
+Sex:	SEX.FEMALE
+Name: Una Scodella di Patatine
+Short: delle patatine in una scodella
+Long:	$N semivuota
+
+Descr:
+Una scodella di patatine in cui si son serviti a piene $hands e con malagrazia
+DescrTouch: 
+Le patatine sono ancora croccanti, poche ma croccanti
+DescrSmell: 
+Profumano dell'odore di fritto che dispiace sentire al mattino appena alzati
+DescrTaste:
+Urgh! Salatissime...
+
+Value:	0
+Weight: 10g
+
+Extras:
+	Keywords: patatine scodella
+	Descr:
+	La scodella è vecchia e sbeccata
+	DescrTouch:
+	Pare ci sia anche più sale che scodella
+	DescrTaste:
+	Uh! La scodella è fatta di sale!
+End
+
+
+FoodType:
+	Comment:	cibo
+	Animal:	0
+	Vegetable:	100
+	CookingDamage:	50
+	Hours:	0
+End
+
+

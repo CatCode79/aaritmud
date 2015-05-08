@@ -1,0 +1,20 @@
+Code:	arena-drago_item_runa-rossa
+Level:	06
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.METAL 100%
+Sex:	SEX.FEMALE
+Name:	Una Runa [red]Rossa[close]
+Short:	una runa [red]rossa[close]
+Long:	$N è abbandonata qui come se fosse qualcosa di nessun valore...
+
+Value:	0
+Weight: 150g
+
+Descr:
+Una piccola runa [red]rossa[close] di metallo.
+§27725
+
+Dati Obj
+8 262144 10 0 0 01 0 -1
+
+

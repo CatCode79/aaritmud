@@ -1,0 +1,6 @@
+FunName:  command_seed
+Type:     CMDTYPE.ITEM
+Trust:    TRUST.PLAYER
+Position: POSITION.REST
+Flags:    CMDFLAG.INTERACT CMDFLAG.GDR
+MiniHelp: Serve per seminare un terreno fertile con qualcosa.

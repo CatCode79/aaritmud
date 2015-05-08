@@ -1,0 +1,16 @@
+Code: shove
+
+ItalianKeywords: urta 
+EnglishKeywords: shove
+
+Entitype: HELP.COMBAT
+
+Text:
+Il comando $tshove serve per spingere un mob od un altro giocatore in una
+direzione specificata, il bersaglio deve essere in piedi.
+
+I giocatori che si trovano in una stanza pacifica non possono essere spinti o
+tirati fuori da quella stanza finchè non escono di loro iniziativa.
+
+
+SeeAlso: bash

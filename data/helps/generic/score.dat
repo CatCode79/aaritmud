@@ -1,0 +1,11 @@
+Code: score
+
+ItalianKeywords: stato
+EnglishKeywords: score
+
+Entitype: HELP.INFO
+
+Text:
+Il comando $tscore mostra una scheda dove trovi tutte le caratteristiche del
+tuo personaggio.
+Quando scrivi $tscore solo tu puoi vedere la scheda.

@@ -1,0 +1,45 @@
+Code: novizi2_item_vetrinetta
+Level: 1
+Icon:	icons/container/vetrina.png
+Entitype:	ENTITYPE.CONTAINER
+MaterialPercentages:	MATERIAL.SOFTWOOD	90
+MaterialPercentages:	MATERIAL.GLASS	10
+Sex:	SEX.FEMALE
+Name: La Vetrinetta Espositiva
+Short: una vetrinetta
+Long:	$N posta a margine con materiale divulgativo
+Flags: FLAG.NO_GET
+Descr:
+	Si tratta di un mobiletto semplice e privo di decorazioni. Nella parte inferiore vi
+	son due sportellini ciascuno con il suo bel pomellino; nella parte superiore vi sono
+	due vetri scorrevoli a guisa di teca.
+DescrTouch: 
+	Si tratta di un mobiletto semplice e privo di decorazioni. Nella parte inferiore vi
+	son due sportellini ciascuno con il suo bel pomellino; nella parte superiore vi sono
+	due lamine scorrevoli a protezione del contenuto.
+DescrSmell: 
+	La colla da falegname è usata in abbondanza su questo oggetto.
+
+Value:	0
+Weight: 10kg
+
+Extras:
+	Keywords: sportellini
+	Descr:
+	Dannazione, sono chiusi dall'interno!
+	DescrSixth:
+	Probabilmente i due sportellini sono finti, sono solo disegnati
+End
+
+ContainerType:
+	EntityOpenMessage:	Apri $N usando ambo le $hands.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N usando ambo le $hands.
+	EntityCloseMessage:	Accompagni $N fino a chiuderl$O.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n accompagna $N fino a chiusura.
+	Flags:	CONTAINER.CLOSED CONTAINER.CLOSABLE
+        MaxWeight: 50kg
+End
+
+

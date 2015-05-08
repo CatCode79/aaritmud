@@ -1,0 +1,15 @@
+Code: split
+
+ItalianKeywords: dividi
+EnglishKeywords: split
+
+Entitype: HELP.GROUP
+
+Text:
+Il comando $tsplit ti consente di dividere una certa somma di monete con tutti
+i membri del tuo gruppo che sono nella tua stessa stanza. 
+Puoi anche dividere automaticamente le monete raccolte dopo un'uccisione con
+il tuo gruppo se attivi la configurazione apposita (vedi $tconfig).
+
+
+SeeAlso: money group

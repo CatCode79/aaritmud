@@ -1,0 +1,25 @@
+Code: ikea_item_liquid-vino-rosso
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.FOOD
+Sex:	SEX.MALE
+MaterialPercentages: MATERIAL.WATER 87%
+MaterialPercentages: MATERIAL.ALCOHOL 13%
+Name:	[darkred]Vino Rosso[close]
+Short:	[darkred]vino rosso[close]
+
+Descr:
+Una certa quantità di [darkred]vino rosso rubino[close].
+DescrTouch: 
+Immergi un dito nel liquido lascia sulle dita una macchia le tue dita, evidente  risultato del prolungato invecchiamento
+DescrSmell: 
+Profumo ampio di grande ricchezza ed eleganza, manifestazioni odorose dai frutti di bosco fino al sentore che ricorca la noce moscata.
+DescrSixth:
+E' un buon vino da tutto pasto, particolarmente indicato con le carni bianche e rosse arrostite o in umidi leggeri.
+DescrTaste:
+Sapore corposo ed avvolgente con gradevole tono acidulo che ne esalta la piacevolezza.
+DescrHearing:
+no_send
+
+Value:	16
+Weight: 120g

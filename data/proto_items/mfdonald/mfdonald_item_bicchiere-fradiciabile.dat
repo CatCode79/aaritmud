@@ -1,0 +1,22 @@
+Code: mfdonald_item_bicchiere-fradiciabile
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.STONE	100%
+Name:	Un Bicchiere da Vino Bianco
+Short:	un bicchiere di pietra infradiciabile
+Long:	$N con $I
+
+Descr:
+Un bicchiere in vetro #self.inventory_qty < 1#con qualche alone giallastro sul fondo.#colmo di $i.#
+DescrHearing:
+L$o fai tinitinnare.
+
+Value:	34
+Weight: 100g
+
+ContainerType:
+	Flags:	CONTAINER.CLOSABLE
+	MaxWeight:	200g
+End

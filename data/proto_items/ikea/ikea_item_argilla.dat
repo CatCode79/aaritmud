@@ -1,0 +1,24 @@
+Code: ikea_item_argilla
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.CLAY	100%
+Name:	Un Blocco di Argilla
+Short:	un blocco di argilla
+Long:	$N è qui irremovibile.
+
+Descr:
+Un grosso blocco di argilla s'e seccato ormai da parecchio tempo; apparentemente informe cerchi di immaginare cosa avrebbero potuto rappresentare forme sinuose che vi sono impresse.
+DescrTouch: 
+Per potre essere modellata avrebbe bisogno di parecchia acqua.
+
+
+Value:	0
+Weight: 10g
+
+Extras:
+	Keywords: forme sinuose
+	Descr:
+	Uhm, quella pare una natica!
+End

@@ -1,0 +1,27 @@
+Code: novizi2_item_coccarda_02
+Icon:	icons/item/coccarda-oro.png
+Level: 1
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.SILK	100%
+Name: La [gold]Coccarda[close] di [gold]Benvenuto [red]A[gold]aritiana[close] 
+Short: una [gold]coccarda[close] di [gold]benvenuto[close]
+Long:	$N fluttua gentile e silenziosa nell'aria
+
+Descr:
+Una coccarda di velluto [gold]dorato[close] per ricordo.
+DescrTouch: 
+Una morbidissima coccarda in velluto liscio.
+DescrSmell: 
+La coccarda profuma vagamente di [lightgreen]menta[close] selvatica.
+DescrSixth:
+È un oggettino ricordo di pochissimo valore intrinseco.
+
+Value:	0
+Weight: 10g
+
+WearType:
+   Modes: PART.LEFT_LITTLE_FINGER
+End
+
+

@@ -1,0 +1,61 @@
+Code: karpuram_item_braccialetto-onice
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.ONYX	100
+Sex:	SEX.MALE
+Name:
+	Il [slategray]Bracciale d'Onice[close]
+Short:
+	un [slategray]Bracciale[close] di [slategray]Pietra[close]
+Long:
+	$N è rotolato fin qui
+
+Descr:
+Una pietra dura e nera, sono le prime due cose che attirano l'attenzione
+guardando questo braccialetto di onice. La sua creazione dev'essere stata
+affidata a un esperto tagliatore di pietre, perché la sua fattura è molto
+curata e decisa. La forma è perfettamente tonda e la pietra presenta una serie
+di sfumature biancastre nella parte interna e in quella esterna.
+L'oggetto è stranamente leggero e può essere indossato con agilità.
+
+DescrNight:
+Duro e nero come la stessa notte, questo braccialetto di onice dev'essere stato
+creato da una persona esperta con alte conoscenze nel campo delle pietre.
+Di pregiata fattura, la sua forma è tonda e presenta una serie di sfumature
+biancastre sia interne che esterne, queste sembrano brillare nella notte.
+
+DescrTouch:
+Al tocco il braccialetto è duro e freddo e non presenta imperfezioni di alcun
+genere e anche al suo interno è molto levigato e nel complesso molto leggero.
+
+DescrTouchNight:
+Il braccialetto è molto leggero, levigato sia all'interno che all'esterno e
+di pregiata fattura. Passando le %finger sulle sfumature biancastre ti
+sembra che la pietra tenda a scaldarsi.
+
+DescrSixthNight:
+Percepisci che questo semplice braccialetto potrebbe celare un segreto.
+
+Extras:
+	Keywords: sfumatura, sfumature
+	Descr:
+	Sono parte della pietra che forma questo braccialetto, ma sfregandole ti
+	accorgi che la pietra scaldandosi fa affiorare alcune strane scritte.
+End
+Extras:
+	Keywords: scritte
+	Descr:
+	Sono antiche rune magiche e possono essere notate solamente sfregando
+	la pietra. 
+End
+
+Value:	0
+Weight:	20g
+
+WearType:
+   Modes: PART.LEFT_WRIST
+   Modes: PART.RIGHT_WRIST
+End
+
+

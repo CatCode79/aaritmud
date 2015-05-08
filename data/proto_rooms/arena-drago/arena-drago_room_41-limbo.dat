@@ -1,0 +1,66 @@
+Code:	arena-drago_room_41-limbo
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il Limbo
+Short:	il limbo
+	Descr:
+Una volta attraversato il portone ti trovi di nuovo nel nulla e
+di nuovo la voce calma e confortante entra nella tua
+testa,stavolta per congratularsi "i miei complimenti cavaliere,
+hai superato la tua prova e ricevuto il tuo premio, ora avrai
+accesso alle [green]verdi[close] stanze della torre.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	4|64|32768|16777216 -1 5 27738 0 0
+direi che è un teleport alla 27738
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+Code: miniere-kezaf_item_gemma-diaspro-comune
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_jasper.png
+Name:	Un Diaspro Comune 
+Short:	un semplice quarzo
+Long:	$N sta qui
+
+Descr:
+Un quarzo chiaro e livido; ha delle venature color rosso su una base vagamente avorio.
+
+DescrSixth:
+Questa pietra deriva direttamente dal quarzo ma non presenta una colorazione
+marcata a causa della sua notevole friabilità e porosità. La pietra è ancora
+ad uno stadio iniziale ed è pronta ad assorbire eventuali impurezze per
+divenire verde, ambrata, sanguigna. Può essere facilmente lavorata e tagliata.
+
+DescrTouch:
+Una pietra porosa e friabile.
+
+Value:	0
+Weight: 140g
+
+

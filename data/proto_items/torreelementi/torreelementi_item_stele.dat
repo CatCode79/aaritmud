@@ -1,0 +1,33 @@
+Code: torreelementi_item_stele
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.STONE	100%
+Name: La [mediumturquoise]stele azzurra[close]
+Short: una [mediumturquoise]pietra[close] 
+Long:	$N infissa a terra
+
+Flags: FLAG.NO_GET
+
+Descr:
+La massiccia pietra di colore azzurro è disadorna e riporta un unico simbolo.
+Non è il caso di osservarla da più vicino.
+
+DescrTouch: 
+La massiccia pietra che riporta un unico simbolo scavato su di un lato.
+
+Value:	0
+Weight: 500kg
+
+Extras:
+  Keywords: simbolo
+  Descr: Sembra più una crepa che un simbolo
+  DescrSixth: La runa Yor
+End
+Extras:
+  Keywords: runa
+  Descr: non sembra davvero una runa, quanto piuttosto una crepa
+  DescrSixth:
+  È una runa protettiva, ad indicare che la stele ha un qualche valore sacro
+  per chi l'ha incisa 
+End

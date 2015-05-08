@@ -1,0 +1,18 @@
+Code: mfdonald_item_voi-siete-qui
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.UNKNOWN	100%
+Name: Voi-Siete-Qui
+Short: $t
+Long:	$N ma è solo un'impressione
+
+Descr:
+Un "voi siete qui" perfettamente inutile
+DescrTouch: 
+morbido
+
+Value:	0
+Weight: 10g
+
+

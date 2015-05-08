@@ -1,0 +1,114 @@
+Code:	accademia-drago_room_073_corridoio-073
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Un Corridoio
+Short:	un corridoio
+	Descr:
+Sei arrivato in fondo, i tendaggi rossi sono posti anche sul muro
+ad est, anche in questa porzione di corridoio vedi una porta che
+conduce a nord ed una che conduce a sud.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 0
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	le camerate [red]rosse[close]
+	Comment:	ExitStatus	1 0 075 -1
+	Door:	ikea_item_porta
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	Le Camerate [red]Rosse[close]
+	Comment:	ExitStatus	1 0 077 -1
+	Door:	ikea_item_porta
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	un corridoio
+	Comment:	ExitStatus	0 0 072 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

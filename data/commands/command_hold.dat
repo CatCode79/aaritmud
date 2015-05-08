@@ -1,0 +1,6 @@
+FunName:     command_hold
+Type:        CMDTYPE.ITEM
+Trust:       TRUST.PLAYER
+Position:    POSITION.SIT
+Flags:       CMDFLAG.INTERACT CMDFLAG.GDR
+MiniHelp:    Serve per tenere in mano degli oggetti.

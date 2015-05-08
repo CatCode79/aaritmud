@@ -1,0 +1,71 @@
+Code:	villaggio-zingaro_mob_fabbro-bardhylus
+Level:	1
+Sex:	SEX.MALE
+Race:	RACE.CENTAUR
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Bardhylus il Fabbro Centauro
+Short:	un centauro massiccio e muscoloso
+Long:	$N ti osserva malinconico
+
+Descr:
+Un centauro di taglia ragguardevole con i muscoli delle braccia possenti quanto quelli di un fabbro.
+Forse è davvero un fabbro.
+DescrTouch: 
+Ti prendi la libertà di carezzare la coda del centauro.
+DescrSmell: 
+Misterioso misto esotico e di stallatico.
+DescrSixth:
+Entrare in conflitto con un bestione del genere non è fra i gesti d'intelligenza più elevata.
+DescrHearing:
+Il respiro di quando in quando si fa più veloce e imponente.
+
+Weight: 130kg
+Height: 170cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 34
+
+MaxLife:	300
+Life:		300
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100
+
+Strength:	60
+Endurance:	60
+Agility:	20
+Speed:		20
+Intelligence:	20
+Willpower:	10
+Personality:	10
+Luck:		10
+
+Behaviour:
+	LookPlayer:	0
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	TasteAtEntitypesFlags:	ENTITYPE.NONE
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	10
+	RandomDoInputs:	emote scalcia stizzito.
+	RandomDoInputs:	say serve la riparazione di un'arma?
+	RandomDoInputs:	say se può interessare, solo per questo periodo riparo armi gratuitamente!
+	RandomDoInputs:	emote gira su se stesso per sgranchire gli zoccoli.
+End
+
+

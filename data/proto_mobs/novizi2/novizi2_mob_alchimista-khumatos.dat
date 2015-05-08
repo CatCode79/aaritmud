@@ -1,0 +1,81 @@
+Code:	novizi2_mob_alchimista-khumatos
+Level:	1
+Sex:	SEX.MALE
+Race:	RACE.GNOME
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Khumatos l'Alchimista
+Short:	l'alchimista
+Long:	$N di servizio
+
+Descr:
+Uno gnomo tutto d'un pezzo, dalla barba bruciacchiata, senza sopracciglia e con una lunga cicatrice che dal collo copre una buona porzione della guancia sinistra.
+DescrSmell: 
+Se l'abbigliamento non suggerisse la sua professione, lo farebbe senz'altro il suo olezzo deciso.
+DescrSixth:
+Il metodo migliore per far desistere un giovane dall'apprendere la via dell'alchimia: un alchimista mezzo martire per professione qui a disposizione dei novizi.
+DescrHearing:
+IL respiro mozzo fischierino la dice lunga sulla salubrità del suo lavoro.
+
+Weight: 60kg
+Height: 120cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 91
+
+MaxLife:	50
+Life:		50
+MaxMana:	100
+Mana:		100
+MaxVigour:	300
+Vigour:		300
+
+Strength:	10
+Endurance:	10
+Agility:	10
+Speed:		10
+Intelligence:	33
+Willpower:	10
+Personality:	10
+Luck:		33
+
+Behaviour:
+	LookPlayer:	5
+	LookMob:	5
+	LookItem:	1
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	1
+	SmellSelf:	3
+	LookDirection:	0
+	LookExit:	3
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	LookEquipment:	3
+	SmellPlayer:	0
+	ListenMob:	0
+	TouchItem:	10
+	IntuitionAtRacesFlags:	RACE.NONE
+	IntuitionAtRaces:	0
+	TasteAtEntitypesFlags:	ENTITYPE.NONE
+	TasteAtEntitypes:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderAtSectors: 	SECTOR.WOOD
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	7
+	RandomDoInputs:	emote allontana da sé un nefando refolo di fumo
+	RandomDoInputs:	emote si fruga in tasca impensierito
+	RandomDoInputs:	emote si passa le mani sul grembiule
+End

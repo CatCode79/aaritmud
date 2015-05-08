@@ -1,0 +1,37 @@
+Comment: STRUMENTO.CORDOFONO.PERCOSSO
+
+Code: mfdonald_item_strumenti-cembalo
+Level: 1
+Entitype:	ENTITYPE.INSTRUMENT
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.WOOD	95%
+MaterialPercentages:	MATERIAL.HAIR	5%
+Name:	Un Cembalo del Nakilen
+Short:	uno strumento musicale a corde
+Long:	$N è coperto da un sottile tessuto trasparente
+
+Descr:
+	Si tratta di un pannello in [maroon]legno[close] e [darkblue]metallo[close] di forma trapezioidale sul quale
+	sono tese decine di corde di lunghezze diverse e spessori difformi. Sul lato sinistro
+	vi è un piccolo sportellino damascato [red]rosso[close].
+DescrTouch: 
+	Fatichi a resistere e poni la $hand1 sulle corde cavandone un suono metallico
+
+Value:	0
+Weight: 99kg
+
+
+ContainerType:
+	EntityOpenMessage:	Apri un piccolo sportellino laterale di $N.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre un piccolo sportellino laterale di $N.
+	EntityCloseMessage:	Richiudi un piccolo sportellino laterale di $N.
+	TargetCloseMessage:	Finalmente $n si è degnat$o di chiuderti.
+	OthersCloseMessage:	$n richiude un piccolo sportellino laterale di $N.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+	Flags:	CONTAINER.CLOSED CONTAINER.CLOSABLE
+        MaxWeight: 1kg
+End
+
+

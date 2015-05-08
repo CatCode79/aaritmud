@@ -1,0 +1,64 @@
+Code: novizi2_item_eq-anello-runa-ritorno
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.GOLD	40
+MaterialPercentages:	MATERIAL.SILVER	30
+MaterialPercentages:	MATERIAL.MITHRIL	5
+MaterialPercentages:	MATERIAL.STEEL	25
+Sex:	SEX.MALE
+Icon:	icons/equipment/ring_rune_of_return.png
+Name:	L'Anello Runico del Ritorno
+Short:	l'[gold]anello runico[close] del ritorno
+Long:	Qualcuno ha smarrito $N, il ricordo della [red]V[close] apertura.
+
+Descr:
+Un semplice anello d'[gold]oro[close]. Potente artefatto e ricordo della [gold]V[close] apertura.
+DescrTouch: 
+Passando con le dita sulla superficie dell'anello riesci a comprendere il significato di un'[red]iscrizione[close].
+DescrSixth:
+Il portale del ritorno incastonato in un anello tramite una runa.
+DescrHearing:
+Una voce lieve ti richiama verso casa suggerendoti di varcare l'anello.
+DescrTaste:
+Ti fa il solletico alle labbra.
+
+Value:	0
+Weight: 10g
+
+Extras:
+	Keywords: iscrizione
+	Descr:
+	Riesci a vederla ma non riesci a leggerla, solo toccandola si può capire cosa dice...
+	DescrTouch:
+	L'iscrizione è lunghissima e pare impossibile sia tutta incisa sull'anello:
+	"[white]Questo potente anello vede incisa una runa del ritorno;
+	consente di essere utilizzato per tornare a casa.
+	A dispetto delle dimensioni basta [red]entrare[white] nell'anello
+	per ritrovarsi a casa sani e salvi.[close]"
+End
+
+
+PortalType:
+	TargetCode:	novizi2_item_altare-ritorno
+	EntityEnterMessage: Sconforto, noia, panico? Usi $N per tornare.
+	TargetEnterMessage: $n decide d'attraversarti e ciò ti dà una noia tremenda.
+	OthersEnterMessage: $n usa $N per tornare a casa. Di botto sparisce.
+	EntityExitMessage: Il richiamo dell'altare runico vince e ti riporta a casa.
+	TargetExitMessage: Ora $n è sparit$o da $T finendo in $t.
+	OthersExitMessage: Una nube di lucine accoglie il ritorno a casa di $n.
+End
+
+WearType:
+	Modes:	PART.LEFT_RING_FINGER
+	Modes:	PART.RIGHT_RING_FINGER
+	EntityWearMessage:	Fai abilmente volare in aria $N per fartel$O ricadere giusto %part.
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	$n fa volteggiare in aria $N e l$O lascia ricadere %part.
+	EntityRemoveMessage:	Mentre sfili $N, ti ricordi che è anche un portale.
+	TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+	OthersRemoveMessage:	$n sfila $N
+End
+
+
+

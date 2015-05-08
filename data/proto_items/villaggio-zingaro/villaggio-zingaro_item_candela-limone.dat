@@ -1,0 +1,20 @@
+Code: villaggio-zingaro_item_candela-limone
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.WAX 98%
+MaterialPercentages:	MATERIAL.ESSENCE 2%
+Name:	Una [khaki]Candela[close]
+Short:	una [khaki]candela[close]
+
+Descr:
+Una [khaki]candela[close] ben solida e diritta con un lungo stoppino.
+DescrTouch: 
+Passi la $hand su tutta la lunghezza che ti resta sporca di cera.
+DescrSmell: 
+Aroma di limone.
+
+Value:	4
+Weight: 76g
+

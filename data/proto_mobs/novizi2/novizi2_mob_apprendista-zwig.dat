@@ -1,0 +1,78 @@
+Code:	novizi2_mob_apprendista-zwig
+Level:	1
+Sex:	SEX.MALE
+Race:	RACE.HUMAN
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Zwig l'Apprendista
+Short:	l'apprendista
+Long:	$N alchimista
+
+Descr:
+Un ragazzotto umano dal volto non proprio sveglissimo con le orecchie a sventola ed un mare di lentiggini in viso.
+
+DescrSixth:
+Ci si aspetterebbe un barlume d'intelletto vispo e tagliete da un alchimista ma forse questo ragazzo ha qualche dote nascosta.
+
+Weight: 85kg
+Height: 197cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 16
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	300
+Vigour:		300
+
+Strength:	10
+Endurance:	10
+Agility:	10
+Speed:		10
+Intelligence:	33
+Willpower:	10
+Personality:	10
+Luck:		33
+
+Behaviour:
+	LookPlayer:	5
+	LookMob:	5
+	LookItem:	1
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	SmellSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	LookEquipment:	0
+	SmellPlayer:	0
+	ListenMob:	0
+	TouchItem:	10
+	IntuitionAtRacesFlags:	RACE.NONE
+	IntuitionAtRaces:	0
+	TasteAtEntitypesFlags:	ENTITYPE.NONE
+	TasteAtEntitypes:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderAtSectors: 	SECTOR.WOOD
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+	RandomDo:	7
+	RandomDoInputs:	emote si dondola sui talloni
+	RandomDoInputs:	emote chiude gli occhi assorto
+	RandomDoInputs:	emote si gratta la nuca indeciso
+End

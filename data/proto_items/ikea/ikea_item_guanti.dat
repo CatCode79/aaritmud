@@ -1,0 +1,30 @@
+Code: ikea_item_guanti
+Level: 1
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+Flags:	FLAG.RANDOMIZABLE
+MaterialPercentages:	MATERIAL.LEATHER	100%
+Name:	Un Paio di Guanti
+Short:	un paio di guanti
+Long:	$N è poggiato qui.
+
+Descr:
+Un paio di guanti in pelle di modesta fattura, foggia assai lineare e cuciture a vista.
+DescrTouch: 
+Un paio di guanti abbastanza robusti e spartani.
+
+Value:	40
+Weight: 230g
+
+Extras:
+	Keywords: cuciture
+	Descr:
+	Le cuciture sono fitte e decenti
+	DescrTouch:
+	Le cuciture sembran forti quanto basta
+End
+
+
+WearType:
+   Modes: PART.LEFT_HAND PART.RIGHT_HAND
+End

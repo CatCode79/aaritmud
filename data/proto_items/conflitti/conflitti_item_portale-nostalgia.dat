@@ -1,0 +1,59 @@
+Code: conflitti_item_portale-nostalgia
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.VOID	80
+MaterialPercentages:	MATERIAL.ENERGY	20
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+Name:	Un Sentore di Nostalgia
+Short:	un sentore di nostalgia
+Long:	Ti senti nell'anima $N e vorresti entrarvi per uscirne
+
+KeywordsName: nostalgia
+KeywordsShort: nostalgia
+
+Descr:
+Un vago sentore di nostalgia s'insinua nell'animo. La lontananza da ciò che è conosciuto e familiare comincia a pesarti un po' e desideri con una certa intensità ritrovare luoghi che ti diano certezze e sicurezze antiche. Scegli  strade che ti portano verso luoghi consueti e conosciuti, strade battute da tempo che non ti destano preoccupazioni, ma nelle quali ritrovi tranquillità e serenità.
+DescrTouch:
+La memoria di morbidi ricordi comincia ad occupare sottilmente la tua mente.
+DescrSmell:
+Il profumo di ciò che è familiare ti avvolge all'improvviso e ti riporta con la mente a situazioni vissute in tempi remoti.
+DescrSixth:
+La nostalgia dei luoghi familiari ti fa abbandonare il desiderio della scoperta, facendoti preferire la consuetudine all'inatteso. Ma a volte la consuetudine non è come una bella [red]fortezza[close] che ti protegge, ma anche imprigiona?
+DescrHearing:
+Ti sembra di percepire suoni della tua infanzia.
+DescrTaste:
+Assaggi il desiderio del focolare domestico.
+
+Value:	0
+Weight: 10g
+
+Extras: 
+        Keywords: fortezza
+        Descr:
+        Mura altissime, inaccessibili, impediscono qualsiasi possibilità di entrata all'interno dell'area delimitata. Il camminamento che sovrasta le mura è percorso da innumerevoli individui armati. Un fossato attorno le mura rende l'accesso ancora più improbabile. Un ponte levatoio in pietra è l'unica possibilità di accesso.
+        DescrSmell:
+            Avverti un inconfondibile odore di diffidenza.
+        
+        DescrHearing:
+            Nessun rumore intorno, se non quello dell'inquietudine che ti spinge verso un desiderio di fuga.
+        
+        DescrTouch:
+             Le mura sono ruvide e dure al tatto.
+       
+         DescrTaste:
+              Vorresti assaggiare il gusto della libertà.
+End
+
+PortalType:
+	Destination: 0 0 0 novizi
+	EntityEnterMessage: Non fai in tempo a decider d'entrare che $N decide per te!
+	TargetEnterMessage: $n decide d'attraversarti e lo anticipi repentinamente.
+	OthersEnterMessage: $N si piega avvolgendo $n che sparisce consumat$o in una vampata.
+	EntityExitMessage: La vampa lucente sparisce e ti trovi catapultat$o altrove.
+	TargetExitMessage: Ora $n è sparit$o da $T finendo in $t.
+	OthersExitMessage: In una vampa di luce azzurra appare $n.
+End
+
+

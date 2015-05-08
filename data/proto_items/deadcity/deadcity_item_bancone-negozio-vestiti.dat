@@ -1,0 +1,24 @@
+Code: deadcity_item_bancone-negozio-vestiti
+Level: 1
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+MaterialPercentages:	MATERIAL.HARDWOOD	100%
+Name:	Il Bancone
+Short:	un bancone in legno
+Long:	$N anche questo rivestito di velluto rosso
+
+Descr:
+Un largo bancone su cui tutta la marea di vestiario riesce disordinatamante a dare
+eccellente esempio di rissa con esplosione.
+Anche la scaffalatura che lo percorre sul lato anteriore è colma di vestiario.
+
+Value:	0
+Weight: 1000kg
+
+
+ContainerType:
+        MaxWeight: 100kg
+End
+
+

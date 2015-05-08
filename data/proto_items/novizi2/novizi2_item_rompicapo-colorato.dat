@@ -1,0 +1,71 @@
+Code: novizi2_item_rompicapo-colorato
+Level: 1
+MaxGlobalQuantity:	0
+Icon:	icons/item/rompicapo.png
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.RUBBER	9
+MaterialPercentages:	MATERIAL.SILVER	10
+MaterialPercentages:	MATERIAL.UNKNOWN	50
+MaterialPercentages:	MATERIAL.MANA	1
+MaterialPercentages:	MATERIAL.OBSIDIAN	10
+MaterialPercentages:	MATERIAL.JADE	10
+MaterialPercentages:	MATERIAL.MITHRIL	5
+MaterialPercentages:	MATERIAL.GOLD	5
+Sex:	SEX.MALE
+Name:	Il [darkviolet]Rompicapo[close] della [gold]VI apertura[close]
+Short:	un [darkviolet]rompicapo [yellow]colorato[close]
+Long:	$N t'invita a cimentarti
+
+Descr:
+Vedi che basta solo toccarlo e tenerlo osservato per poter giocare a ricombinarlo.
+DescrTouch: 
+L'effetto complessivo stona un po' ma ci son troppe combinazioni perché sia fattibile in poco tempo.
+DescrSmell: 
+Il sudore delle decine di appassionati che hanno provato a risolverlo.
+DescrSixth:
+Per cambiare la combinazione dei colori è sufficiente [red]toccare[close] il rompicapo e poi [red]guardare[close] il risultato.
+DescrTaste:
+Assaggi il sudore delle decine di appassionati che hanno provato a risolverlo.
+
+Value:	0
+Weight: 58g
+
+
+Extras:
+	Keywords: posizione
+	Descr:
+	Devi decidere quale posizione toccare
+	Ve ne sono diverse: Prima, Seconda, Terza, Quarta, Quinta
+	DescrTouch:
+	Tocchicci pensieros$o le cinque posizioni indeciso su quale mutare.
+        La Prima? Seconda? Terza? Quarta? Quinta? 
+	DescrSixth:
+	Toccando una delle cinque posizioni cambieranno solo un paio di colori.
+        È più semplice da risolvere così...
+End
+Extras:
+	Keywords: prima
+	DescrTouch:
+	Provi a cambiare solo il colore in prima posizione ma cambia anche il successivo.
+End
+Extras:
+	Keywords: seconda
+	DescrTouch:
+	Provi a cambiare solo il colore in seconda posizione ma cambia anche il successivo.
+End
+Extras:
+	Keywords: terza
+	DescrTouch:
+	Provi a cambiare solo il colore in terza posizione ma cambia anche il successivo.
+End
+Extras:
+	Keywords: quarta
+	DescrTouch:
+	Provi a cambiare solo il colore in quarta posizione ma cambia anche il successivo.
+End
+Extras:
+	Keywords: quinta
+	DescrTouch:
+	Provi a cambiare solo il colore in quinta posizione ma cambia anche il successivo.
+End
+

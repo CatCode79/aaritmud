@@ -1,0 +1,114 @@
+Code:	accademia-drago_room_042_generale-042
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Le Mura del Generale
+Short:	le mura del generale
+	Descr:
+Come in tutto il museo anche qui ti trovi di fronte ad una
+ricostruzione storica, un nano dalla lunga barba, completamente
+abbigliato per la battaglia, cammina in modo concitato sulle mura
+di una città sbraitando ordini a destra e a manca. Non può
+mancare il solito volumetto posto sul leggio...
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 0
+Exits:
+	Direction:	DIR.NORTH
+	Destination:	-2 -1 0 accademia-drago
+	Descr:	[white]l'alcova del fondatore[close]
+	Comment:	ExitStatus	0 0 015 -1
+End
+Exits:
+	Direction:	DIR.EAST
+	Destination:	0 -3 0 accademia-drago
+	Descr:	[gray]la[close] [cyan]t[gray]orre[close] [cyan]d[gray]ella[close] [cyan]v[gray]eggenza[close]
+	Comment:	ExitStatus	0 0 064 -1
+End
+Extras:
+	Keywords:	volumetto
+		Descr:
+Ecco il Generale Bokrog ritratto in uno dei momenti più
+importanti della sua storia, la difesa delle mura di Traklin
+dall'assalto dei troll durante la guerra dei draghi.
+
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

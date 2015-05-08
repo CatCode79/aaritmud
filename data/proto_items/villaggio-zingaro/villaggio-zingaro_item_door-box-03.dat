@@ -1,0 +1,36 @@
+Comment: porte solo abbozzate dalla 2 alla 3 da modificare man mano che si abbinano i beschioli al box.
+
+Code: villaggio-zingaro_item_door-box-03
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.WOOD 100%	
+Name:	La Porta del Box
+Short:	la porta del box
+
+Descr:
+Una bassa anta di legno imperniata a mezza altezza e di modesta qualità. Nella parte centrale è fissata una targhetta metallica con una scritta.
+DescrTouch: 
+Una modesta porta in legno rifinita quanto basta a non rimetterci una $hand ad ogni apertura o chiusura.
+
+Value:	0
+Weight: 6kg
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Apri $N facendola cigolare dolorosamente.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N facendola cigolare dolorosamente.
+	EntityCloseMessage:	Chiudi $N facendola sbattere sui cardini.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n chiude $N facendola sbattere sui cardini.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE 
+	ResetCloseMessage: $N si chiude di colpo..
+	ResetOpenMessage: $N si apre emettendo lamentosi cigolii.
+End
+
+

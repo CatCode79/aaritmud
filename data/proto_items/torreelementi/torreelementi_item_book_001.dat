@@ -1,0 +1,19 @@
+Code: torreelementi_item_book_001
+Level: 1
+Entitype:	ENTITYPE.READABLE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.PAPER	95%
+MaterialPercentages:	MATERIAL.LEATHER	5%
+Name: Il [green]libro[close] delle rune
+Short: un libraccio [green]consunto[close]
+Long:	$N fa bella mostra di sé qui
+Descr:
+Questo librone doveva essere nero un tempo, ora si vedono soprattutto i segni del
+tempo e dell'utilizzo massiccio che ne è stato fatto. Toccarlo potrebbe voler dire
+farlo per l'ultima volta. Diversi fogli sono parzialmente staccati e la copertina
+brucia dal desiderio di poter stare da sola per un po'. 
+
+Value:	0
+Weight: 500g
+
+

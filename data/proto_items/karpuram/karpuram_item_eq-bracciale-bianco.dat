@@ -1,0 +1,31 @@
+Code:	karpuram_item_eq-bracciale-bianco
+
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.BONE	100
+Sex:	SEX.MALE
+Name:	Un Bracciale Bianco
+Short:	un cerchietto bianco
+Long:	Semplicissimo e lineare, $N riluce di un tenue biancore
+
+Descr:
+Realizzato con semplicità sembra faccia parte di un gruppo di oggetti 
+ornamentali dello stesso materiale d'osso. Levigato con cura, questo 
+[white]braccialetto[close] non presenta impurità o imperfezioni, ma neanche 
+iscrizioni o rune di alcun tipo, segni tangibili della magia. L'oggetto è così 
+piccolo che può essere indossato solo da un bambino.
+
+DescrNight:
+Il materiale d'osso che compone questo minuto braccialetto sembra illuminarsi
+durante la notte, è levigato con cura e non presenta iscrizioni di alcun tipo.
+Tuttavia per quanto piccolo e singolare, la sua tenue luce emana del calore.
+
+Value:	0
+Weight:	30g
+
+WearType:
+        Flags:	WEAR.LAYERABLE
+   Modes: PART.LEFT_WRIST
+   Modes: PART.RIGHT_WRIST
+End

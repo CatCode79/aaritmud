@@ -1,0 +1,23 @@
+Code: ikea_item_armatura
+Level: 1
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.FEMALE
+Flags:	FLAG.RANDOMIZABLE
+MaterialPercentages:	MATERIAL.CLOTH	100%	
+Name:	Un'Armatura
+Short:	un'armatura
+Long:	$N s'è afflosciata a terra
+
+Descr:
+Una gloriosa armatura è quanto vorresti...
+invece c'è questo residuato di risibili battaglie.
+DescrTouch: 
+Una gloriosa armatura è quanto vorresti...
+invece c'è questo campionario di fori e squarci.
+
+Value:	0
+Weight: 3300g
+
+WearType:
+   Modes: PART.BODY
+End

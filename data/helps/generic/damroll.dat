@@ -1,0 +1,12 @@
+Code: damroll
+
+ItalianKeywords: damroll
+EnglishKeywords: damroll
+
+Entitype: HELP.GENERIC
+
+Text:
+Rappresenta la quantità di danno che infliggi ad un avversario.
+Più il valore è alto, meglio è.
+
+SeeAlso: hitroll

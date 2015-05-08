@@ -1,0 +1,26 @@
+Code: opekus_item_door-decorazione-interna
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+MaterialPercentages:	MATERIAL.STONE	90%
+MaterialPercentages:	MATERIAL.ENAMEL	10%
+Name:	L'Accesso Segreto
+Short:  l'accesso segreto
+Long:	$N scardinato e distrutto
+
+Descr:
+La diafana immagine periferica di Zejlotus Fayratur.
+DescrTouch: 
+L'impalpabile Zejlotus Fayratur.
+DescrSixth:
+Il volto di Zejlotus Fayratur.
+
+Weight: 2kg
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	Flags:	DOOR.CLOSED DOOR.NO_USE_DIR DOOR.CLOSABLE 
+End

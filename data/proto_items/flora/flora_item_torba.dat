@@ -1,0 +1,20 @@
+Code: flora_item_torba
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.GROUND
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.EARTH	100%
+Name:	Un Po' di [lightslategray]Torba[close]
+Short:	un po' di [lightslategray]terra[close]
+Long:	C'è $N mollemente adagiata
+
+Descr:
+[lightslategray]Della terraccia molle e dal colore improbabile[close].
+DescrSixth:
+	Torba fradicia ottima come concime.
+DescrTouch: 
+	Al tocco stranamente non sporca le mani nonostante la consistenza fradicia.
+
+Value:	0
+Weight: 1g
+

@@ -1,0 +1,54 @@
+Comment: il vestiti ammassati e macchiati sopra l'attaccapanni (che sono macchiati si vede negli extras) sono collegati a quello che viene dopo cioè la titoria..è pensato per appenderci grambiuli, stracci sporchi ecc
+Varierei forse la DescrSmell, giusto perchè non sia proprio uguale a quella qui sopra che è la stanza subito prima.
+
+Code: carrozzone-zingaro_room_carrozzone-02
+Sector: SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name: L'Interno del Carrozzone Gitano
+Short: il carrozzone zingaro
+
+Descr:
+L'interno del carrozzone prosegue innaturalmente lungo. Un attaccapanni traboccante di
+indumenti è appoggiato alla parete sinistra mentre il lato opposto è completamente spoglio.
+Solo grazie alla precaria luce di un candelabro sul soffitto riesci a scorgere i tre
+accessi che si aprono sul fondo della stanza.
+DescrSmell:
+La fragranza decisa che permea l'ambiente deve essere certamente lo strato appiccicoso di
+non-vuoi-sapere-cosa che riveste il pianale ove cammini.
+DescrHearing:
+Saltuariamente si colgono i pigri ansiti dei due cavalli.
+
+
+Extras:
+       Keywords: attaccapanni
+       Descr:
+       Un alto attaccapanni traballa sotto il peso di in ingente quantità di indumenti macchiati di svariati colori.
+       DescrTouch:
+       L'attaccapanni è scheggiato in più punti, ha visto giorni migliori.
+       DescrSmell:
+       L'olezzo, emanato dalla massa informe ammucchiata sull'attaccapanni, è tanto
+       penetrante da tenere a distanza anche i più incoscienti.
+End
+
+
+
+Width:	6m
+Depth:	6m
+Height: 2m
+
+Exits:
+       Direction: DIR.SOUTH
+       Descr: In fondo al carrozzone
+End
+Exits:
+       Direction: DIR.NORTHWEST
+       Descr: L'interessante scorcio d'un laboratorio
+End
+Exits:
+       Direction: DIR.NORTH
+       Descr: Un passaggio in cui è appeso un po' di tutto.
+End
+Exits:
+       Direction: DIR.NORTHEAST
+       Descr: Un disordine senza pari degno di un'esplosione
+End

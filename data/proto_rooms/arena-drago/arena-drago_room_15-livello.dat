@@ -1,0 +1,69 @@
+Code:	arena-drago_room_15-livello
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il II Livello degli spalti
+Short:	il II livello
+	Descr:
+La strada ricavata sul secondo livello di spalti prosegue sempre
+affollata e vociante, qui una porta si apre nella parete nord,
+sembra robusta e decisamente poco incline a lasciarsi aprire...
+La strada prosegue a est e ovest.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 1
+Exits:
+	Direction:	DIR.NORTH
+	Door:	arena-drago_item_door-portone-spalti-15
+	Descr:	Portale
+	Comment:	ExitStatus	1|16|32|128|512 27619 27726 -1
+End
+Exits:
+	Direction:	DIR.EAST
+	Descr:	il II livello
+	Comment:	ExitStatus	0 0 27714 -1
+	Destination:	9 8 0 arena-drago
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	il II livello
+	Comment:	ExitStatus	0 0 27716 -1
+	Destination:	3 8 0 arena-drago
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+Code: miniere-kezaf_item_gemma-andalusite
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_andalusite.png
+Name:	Un'Andalusite
+Short:	una pietra nera di grosse dimensioni
+Long:	$N affiora da sotto terra
+
+Descr:
+La pietra è tagliata al naturale e presenta una figura esagonale quasi perfetta.
+Da quattro dei sei angoli si dipartono venature di colore nero che si portano
+verso il centro della gemma fino a formare una figura simile a una croce
+quadrata. La parte rimanente è di colore marrone chiaro.
+
+
+Value:	0
+Weight: 370g
+
+

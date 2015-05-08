@@ -1,0 +1,116 @@
+Code:	accademia-drago_room_058_ballatoio-058
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il Ballatoio
+Short:	il ballatoio
+	Descr:
+Sei giunto su una piattaforma posta a circa metà strada tra i
+camminamenti e la piazza d'armi, le scale procedono verso l'alto
+e il basso mentre una porta a nord conduce all'interno della
+struttura.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	4 1
+Exits:
+	Direction:	DIR.NORTH
+	Destination:	0 1 0 arena-drago
+	Descr:	l'edificio
+	Comment:	ExitStatus	1 0 27703 -1
+	Door:		ikea_item_porta
+End
+Exits:
+	Direction:	DIR.UP
+	Destination:	2 10 1 accademia-drago
+	Descr:	i camminamenti
+	Comment:	ExitStatus	0 0 040 -1
+End
+Exits:
+	Direction:	DIR.DOWN
+	Destination:	4 9 0 accademia-drago
+	Descr:	la piazza d'armi
+	Comment:	ExitStatus	0 0 051 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

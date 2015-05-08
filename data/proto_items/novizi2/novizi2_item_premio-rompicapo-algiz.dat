@@ -1,0 +1,50 @@
+Code: novizi2_item_premio-rompicapo-algiz
+Level: 1
+MaxGlobalQuantity:	0
+Icon:	icons/rune/algiz.png
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.MITHRIL	100
+Sex:	SEX.MALE
+Name:	Il [gold]Quatza[close] del Rompicapo
+Short:	il [gold]premio[close] del rompicapo
+Long:	$N
+
+Descr:
+
+<pre class="asciiart">
+
+[red]*[orange]----------------[red]*
+[orange]|[yellow]  -- Algiz --   [orange]|
+[red]*[orange]----------------[red]*
+[orange]|[yellow] [green]I     II[yellow]     [green]I[yellow] [orange]|
+|[yellow] [green] I    II [yellow]   [green]I[yellow]  [orange]|
+|[yellow]   [green]I   II [yellow]  [green]I[yellow]   [orange]|
+|[yellow]   [green] I  II[yellow]  [green]I[yellow]    [orange]|
+|[yellow]    [green] I II[yellow] [green]I[yellow]     [orange]|
+|[yellow]     [green] IIII[yellow]      [orange]|
+|[yellow]      [green] II [yellow]      [orange]|
+|[yellow]      [green] II   [yellow]    [orange]|
+|[yellow]       [green]II   [yellow]    [orange]|
+|[yellow]      [green] II    [yellow]   [orange]|
+|[yellow]      [green] II     [yellow]  [orange]|
+|[yellow]      [green] II      [yellow] [orange]|
+[red]*[orange]----------------[red]*[yellow]
+
+</pre>
+
+DescrTouch: 
+Una piattina di metallo con un disegno inciso. Anche al tatto dà l'impressione d'essere un oggetto importante.
+DescrSixth:
+Un Quatza, uno dei quatza della torre elementale.
+DescrHearing:
+Un cupo ronzio riempie l'aria quando lo porti all'orecchio
+
+Value:	0
+Weight: 50g
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

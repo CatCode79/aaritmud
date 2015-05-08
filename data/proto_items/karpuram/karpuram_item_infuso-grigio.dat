@@ -1,0 +1,43 @@
+Code: karpuram_item_infuso-grigio
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.GLASS 10
+MaterialPercentages:	MATERIAL.WATER 89
+MaterialPercentages:	MATERIAL.UNKNOWN	1
+Sex:	SEX.MALE
+Name:
+	L'[gray]Infuso Grigio[close]
+Short:
+	un [gray]liquido fosco[close]
+Long:
+	$N in una fiala di vetro
+
+Descr:
+In una piccola fiala di vetro trasparente, si trova uno strano infuso di
+colore [gray]grigio[close], che potrebbe servire a qualche alchimista o mago 
+per le sue pozioni. All'estremità della fiala un semplice tappo di sughero non 
+permette al liquido di versarsi. Una semplice scritta è presente su un pezzo di
+carta posto sopra la fiala.
+
+DescrSmell:
+Rimuovendo il tappo di sughero dalla fiala e annusandone il contenuto, avverti
+un pungente odore di sabbia e pietre.
+
+DescrTaste:
+Ti sei arrischiato a bere parte dell'infuso contenuto in questa fiala!
+Il liquido ha un sapore forte di terriccio.
+
+DescrSixth:
+Forse non dovresti berlo senza prima consultare un alchimista.
+
+Extras:
+Keywords: scritta
+	Descr:
+	La scritta dice "Pietra"
+End
+
+Value:	0
+Weight:	200g
+
+

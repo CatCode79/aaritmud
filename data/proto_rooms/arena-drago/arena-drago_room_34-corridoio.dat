@@ -1,0 +1,66 @@
+Code:	arena-drago_room_34-corridoio
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Un Corridoio
+Short:	un corridoio
+	Descr:
+Il corridoio prosegue a nord e sud, le poche candele accese ti
+consentono di notare una porticina che si apre nella parete
+ovest.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	64 0
+Exits:
+	Direction:	DIR.NORTH
+	Descr:	una svolta
+	Comment:	ExitStatus	0 0 27733 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	un corridoio
+	Comment:	ExitStatus	0 0 27735 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	Porta
+	Comment:	ExitStatus	1 0 27738 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

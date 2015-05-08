@@ -1,0 +1,37 @@
+Code: karpuram_item_liana-intrecciata
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.VEGETABLE	100
+Sex:	SEX.FEMALE
+Name:
+	Una [burlywood]Liana Intrecciata[close]
+Short:
+	una [burlywood]liana[close] intrecciata
+Long:
+	un groviglio nasconde $N
+
+Descr:
+Questo curioso oggetto è formato da una lunga liana intrecciata e può
+essere usato sia come collana che come bracciale a seconda delle necessità
+o dei costumi di chi avrà la possibilità di utilizzarla. È molto semplice
+nella sua forma e dal colore scuro, non è stata essiccata o trattata per 
+consentirne una migliore maneggevolezza.
+
+DescrTouch:
+La composizione di questa liana è semplice e non presenta alterazioni di
+alcun genere.
+
+DescrSixth:
+Hai il sospetto che quest'oggetto possa essere utilizzato anche come arma,
+per bloccare un avversario o addirittura ucciderlo.
+
+WearType:
+   Modes: PART.WAIST
+   Modes: PART.NECK
+   Modes: PART.LEFT_WRIST
+   Modes: PART.RIGHT_WRIST
+End
+
+Value:	0
+Weight:	230g

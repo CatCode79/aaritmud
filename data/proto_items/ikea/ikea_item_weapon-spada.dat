@@ -1,0 +1,29 @@
+Code:	ikea_item_weapon-spada
+
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAPON
+MaterialPercentages:	MATERIAL.ALLOY	100
+Sex:	SEX.FEMALE
+Name:	Una Spada Anonima
+Short:	una spada
+Long:	$N è stata lasciata qui.
+
+Descr:
+Una spada senza infamia e senza lode, tutta in metallo con dello spago grezzo a rivestire l'elsa.
+DescrTouch:
+Una spada senza infamia e senza lode, tutta in freddo metallo con dello spago avvolto all'elsa.
+DescrSixth:
+Una spada senza infamia e senza lode
+
+Value:	0
+Weight:	890g
+
+WeaponType:
+        Category: WEAPON.SWORD
+        Flags: WEAPONFLAG.ONE_HAND 
+End
+
+WearType:
+   Modes: PART.WIELD
+End

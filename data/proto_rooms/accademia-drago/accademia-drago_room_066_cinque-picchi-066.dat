@@ -1,0 +1,112 @@
+Code:	accademia-drago_room_066_cinque-picchi-066
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	[mediumblue]i Cinque Picchi[close]
+Short:	[mediumblue]i cinque picchi[close]
+	Descr:
+Se non sentissi una solida superficie sotto i tuoi piedi diresti
+che stai precipitando nel vuoto, guardando verso il basso vedi in
+lontananza il fondo di una gola rocciosa posta al centro di
+un'enorme catena montuosa. Di fronte a te si alzano cinque picchi
+di roccia, tre di essi sono occupati da altrettanti draghi, uno
+bianco, uno blu ed uno verde. Gli ultimi due picchi sono
+deserti... Forse il solito volumetto potrà darti qualche
+informazione a riguardo...
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 0
+Exits:
+	Direction:	DIR.EAST
+	Descr:	[gray]le paludi morte[close]
+	Comment:	ExitStatus	0 0 078 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	[gray]la[close] [cyan]t[gray]orre[close] [cyan]d[gray]ella[close] [cyan]v[gray]eggenza[close]
+	Comment:	ExitStatus	0 0 064 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	[red]il vulcano[close]
+	Comment:	ExitStatus	0 0 079 -1
+End
+Extras:
+	Keywords:	volumetto
+		Descr:
+Caro visitatore, sei giunto in uno dei luoghi più sacri per i
+draghi e i loro cavalieri, i cinque picchi, su questi monti si
+riuniva il consiglio dei draghi, [red]Lamreloc[close] il rosso, [gray]Ghorm[close] il
+nero, [mediumblue]Seamer[close] il blu, [green]Meghok[close] il verde e [white]Storm[close] il bianco. La
+rappresentazione che stai osservando risale al periodo della
+guerra dei draghi, quando Lamreloc e Ghorm non partecipavano al
+consiglio a causa della disputa mentre i tre anziani
+rappresentanti le altre "etnie" decidevano di non schierarsi per
+una parte e per l'altra.
+
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

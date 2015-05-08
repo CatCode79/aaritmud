@@ -1,0 +1,50 @@
+Code:	karpuram_item_eq-guanti-scaglie-viola
+
+Level:	7
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.SNAKESKIN	55
+MaterialPercentages:	MATERIAL.CLOTH	15
+MaterialPercentages:	MATERIAL.LINE	15
+MaterialPercentages:	MATERIAL.COTTON	15
+Sex:	SEX.MALE
+Name:	Guanti di [violet]Scaglie Viola[close]
+Short:	[violet]guanti[close] di scaglie
+Long:	Un pregiato e rifinito paio di $N sono qui in terra.
+
+Descr:
+Rilucente e ben rifinito, questo paio di guanti sono formati da una serie di 
+scaglie di serpente dal colore viola intenso. Le scaglie sono sovrapposte in
+modo tale da garantire una protezione a strati di lunga durata. Sia sulla parte
+esterna che interna sono incisi due simboli. Due serie di lacci 
+esterni permettono di regolare i guanti a seconda della grandezza delle $hands
+di chi avrà l'onore di indossarli.
+
+DescrNight:
+Persino al buio questo paio di guanti risplende di una luce violacea 
+sinistramente accattivante. Grosse scaglie la ricoprono interamente, due simboli 
+sono incisi sulla parte interna ed esterna. Due serie di lacci
+permettono di regolare i guanti a seconda delle $hands di chi li indossa.
+
+DescrHearing:
+Un sinistro sibilo sembra provenire dai guanti, come se fossero vivi e animati.
+Il sibilo s'interrompe ogni volta che questi vengono indossati.
+
+DescrTouch:
+Lisci e morbidi in superficie, le scaglie sono stratificate e sottili e non 
+presentano imperfezioni. I simboli sono incisi in leggero rilievo.
+Al tocco i guanti tendono a rilasciare alcune gocce di una specie di inchiostro
+naturale di colore viola che viene subito assorbito dalla pelle.
+
+DescrSixth:
+Hai la sensazione che questo pezzo di armatura sia parte integrante di qualcosa
+di più grande e potente, oltre la tua immaginazione.
+
+Value:	0
+Weight:	700g
+
+WearType:
+   Modes: PART.RIGHT_HAND PART.LEFT_HAND
+End
+
+

@@ -1,0 +1,22 @@
+Code: ikea_item_carne-scarti
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.FLESH	100%
+Name:	Dei Brandelli di Carne
+Short:	dei pezzi di carne
+Long:	$N gettati qui senza troppa cura.
+
+Descr:
+Pezzi di carne apparentemente non ancora putrescenti; perlopiù ritagli e scarti ma forse troppo sporchi per essere recuperati.
+DescrTouch: 
+Tocchicci i pezzi di carne molliccia.
+DescrSmell: 
+L'odore è ancora buono ma non di certo invitante.
+DescrSixth:
+È ti chiedi perché sia stata gettata così, di certo avrebbe fatto felice qualche gatto.
+
+Value:	0
+Weight: 1kg
+

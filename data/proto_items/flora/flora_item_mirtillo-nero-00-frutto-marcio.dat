@@ -1,0 +1,31 @@
+Code: flora_item_mirtillo-nero-00-frutto-marcio
+Level: 1
+MaxGlobalQuantity:	0
+Entitype: ENTITYPE.FOOD
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name: Un [darkslateblau]Mirtillo[close] Marcio
+Short: un coso marcio
+Long:	c'è $N tutto molliccio
+
+Descr:
+Una piccola cosa decomposta.
+
+DescrTouch:
+Un piccolo coso marcescente che sporca le dita.
+
+DescrSmell: 
+Il soave olezzo dei campi concimati.
+
+Value:	0
+Weight: 2g
+
+FoodType:
+	Comment:	cibo
+	Animal:	0
+	Vegetable:	100
+	CookingDamage:	0
+	Hours:	0
+End
+
+

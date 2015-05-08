@@ -1,0 +1,67 @@
+Code:	arena-drago_room_26-stanzetta
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Una Stanzetta
+Short:	una stanzetta
+	Descr:
+Ti trovi in una stanzetta buia, piccola e con una forte puzza di
+chiuso, sembra che questo posto venga usato assai di rado... un
+grosso portone che da l'impressione di essere assai solido si
+apre verso sud mentre una scaletta a chiocciola scende verso il
+basso...
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	1|4|64|128|16384|32768|16777216 0
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	Portale
+	Comment:	ExitStatus	1|16|32|128|512 27619 27715 -1
+End
+Exits:
+	Direction:	DIR.DOWN
+	Descr:	un vicolo cieco
+	Comment:	ExitStatus	0 0 27727 -1
+	Destination:	15 9 0 arena-drago
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

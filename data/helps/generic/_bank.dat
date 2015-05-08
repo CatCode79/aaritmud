@@ -1,0 +1,40 @@
+Code: bank
+
+ItalianKeywords: banca 
+EnglishKeywords: bank
+
+Entitype: HELP.GENERIC
+
+Text:
+Al proprio arrivo in queste terre viene generosamente concesso a tutti un
+conto bancario aperto in tutte le banche esistenti (ovviamente non ci sono
+monete sul conto, generosi si ma fino ad un certo punto :P), dove potrete
+depositare i vostri capitali.
+
+Con il comando $tbank bilancio vi verrà mostrata l'attuale situazione
+del vostro conto, se la vostra borsa dell'oro fosse diventata troppo pesante,
+col  comando $tbank [darkgreen]deposita #[close] potrete depositare una somma di monete sul 
+vostro conto, mentre se avete bisogno di un po' di soldi con il comando 
+$tbank [darkgreen]preleva #[close] potrete attingere al vostro capitale.
+Inoltre, col comando $tbank [darkgreen]trasferisci #[close] [red]nome[close] potrete trasferire
+una somma di monete dal vostro conto al conto di chi desiderate.
+
+Nelle banche del regno è anche possibile acquistare delle azioni, azioni che
+con il loro andamento influenzeranno tutte quelle trattative economiche in
+cui potrete incorrere, per esempio se il loro valore fosse alto potreste
+ottenre sconti su merci, riparazioni e quant'altro, ma è anche possibile che,
+se il  loro valore scendesse, potrebbe essere più caro il costo della vita.
+
+Per poter acquistare azioni il comando è $tbank [darkgreen]compra #[close], mentre per
+poterle rivendere il comando è $tbank [darkgreen]vendi #[close].
+Con il comando $tbank [darkgreen]azioni[close] potrete sapere quale sia il valore attuale
+delle azioni.
+
+Le banche del regno pongono un  limite al numero di monete che si possono 
+depositare pari a un 1.000.000, mentre per le azioni il numero massimo 
+acquisibile è di 2.500, ma col passare del tempo, la crescita della propria 
+esperienza e della propria fama non è detto che questi limiti non possano 
+essere ampliati.
+
+
+SeeAlso: money

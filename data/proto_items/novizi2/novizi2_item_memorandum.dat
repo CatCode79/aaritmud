@@ -1,0 +1,92 @@
+Code: novizi2_item_memorandum
+Level: 1
+Icon:	icons/book/book-red.png
+Entitype:	ENTITYPE.READABLE
+MaterialPercentages:	MATERIAL.PAPER	40
+MaterialPercentages:	MATERIAL.PARCHMENT	46
+MaterialPercentages:	MATERIAL.SOFTWOOD	14
+Sex:	SEX.MALE
+Name: Un Taccuino
+Short: un taccuino
+Long:	$N chiuso con un elastico
+
+Descr:
+Un taccuino con riportate alcune delle principali caratteristiche da memorizzare in
+termini di esplorazione:<br>
+- [gold]M[red]uoversi[close]<br>
+- [gold]I[red]ndagare[close]<br>
+- [gold]T[red]empo (cronologico)[close]<br>
+- [gold]S[red]cavare[close]<br>
+- [gold]A[red]ltro[close]<br>
+DescrTouch: 
+Un taccuino sgualcito chiuso da un elastico ben teso
+DescrSmell: 
+C'è il sudore di chi lo ha compilato, che atroce...
+DescrSixth:
+È aggiornato ma non definitivo, per saperne di più:
+$tLOOK muoversi taccuino
+$tLOOK indagare taccuino
+...
+Value:	0
+Weight: 100g
+
+Extras:
+	Keywords: muoversi
+	Descr:
+		Per muoversi negli sconfinati spazi di questo mondo, vi sono molte possibilità.
+		------<br>
+		Le normali direzioni cui tutti siam abituati:<br>
+		----<br>
+		[red]up[close] - [red]alto<br>
+		down[close] - [red]basso<br>
+		north[close] - [red]nord<br>
+		east[close] - [red]est<br>
+		south[close] - [red]sud<br>
+		west[close] - [red]ovest<br>
+		northeast[close] - [red]nordest<br>
+		northwest[close] - [red]nordovest<br>
+		southeast[close] - [red]sudest<br>
+		southwest[close] - [red]sudovest[close]<br>
+<br>
+		---<br>
+		I portali<br>
+                ---<br>
+                Misteriosi e mutevoli tanto che qualunque oggetto, entità, impressione, compagno di viaggio potrebbero rivelarsi passaggi per destinazioni ignote.
+                [red] enter[close] - [red]entra[close]
+End
+Extras:
+	Keywords: indagare
+	Descr:
+		Pressoché tutto quello che avrai modo di incontrare in questo mondo potrebbe rivelare
+		inaspettate caratteristiche a seconda di come lo si indaga:<br>
+		------<br>
+		[red]look[close] - [red]guarda[close]<br>
+		[red]touch[close] - [red]tocca[close]<br>
+		[red]smell[close] - [red]annusa[close]<br>
+		[red]taste[close] - [red]assaggia[close]<br>
+		[red]listen[close] - [red]ascolta[close]<br>
+		[red]intuition[close] - [red]intuisci[close]<br>
+End
+Extras:
+	Keywords: tempo
+	Descr:
+		Il [gold]tempo[close] che scorre lascia dietro di sé mutamenti che possono avere risvolti fondamentali.
+		Non solo l'alternarsi del giorno e della notte possono mostrare facce diverse della stessa
+		medaglia, ma anche il passare delle stagioni potrà rivelare mutamenti interessanti.
+		Un ottimo modo per essere aggiornati è tenere d'occhio la clessidra portatile con
+		[red]date[close] - [red]data[close].
+End
+Extras:
+	Keywords: scavare
+	Descr:
+		A mani nude scavare attraverso una parete, un pavimento od un soffitto potrebe rivelarsi sconfortante; talvolta invece si scovano passaggi segretati da tempo.
+                ------<br>
+                [red]dig[close] - [red]scava[close]<br>
+End
+Extras:
+	Keywords: altro
+	Descr:
+		altro verrà direttamente dalla volontà dei custodi		
+End
+
+

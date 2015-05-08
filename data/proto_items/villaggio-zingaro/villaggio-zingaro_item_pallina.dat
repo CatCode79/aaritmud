@@ -1,0 +1,30 @@
+Code: villaggio-zingaro_item_pallina
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.CONTAINER
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.UNKNOWN	100%
+Name:	Una [aliceblue]Pallina[close] Trasparente
+Short:	una [aliceblue]pallina[close] trasparente
+Long:	$N è rotolata fin qui.
+
+Descr:
+Una rigida [aliceblue]pallina[close] delle dimensioni di un mandarino formata da due semisfere.
+Essendo tra sparente puo vederci attraverso $i.
+DescrTouch: 
+Passi il dito sulla giuntura delle due semisfere.
+DescrHearing:
+La scuoti e ascolti il contenuto battere sulle pareti.
+DescrTaste:
+no_send
+
+Weight: 7g
+Value:	25
+
+ContainerType:
+	EntityOpenMessage:	Impugni le due semisfere con le $hands e apri $N.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N con entrambe le $hands.
+	Flags:	 CONTAINER.CLOSED CONTAINER.CLOSABLE CONTAINER.OPEN_ONE_TIME
+	MaxWeight:	100g
+End

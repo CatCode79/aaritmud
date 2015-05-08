@@ -1,0 +1,24 @@
+Code: mentalstate
+
+ItalianKeywords: 'stato mentale'
+EnglishKeywords: mentalstate mentalstates 'mental state' 'mental states'
+
+Entitype: HELP.INFO
+
+Text:
+Lo [darkgreen]stato mentale[close] è la tua attuale disposizione d'animo, e quanto chiaramente
+e realisticamente vedi ciò che ti circonda. Prolungati combattimenti, fame, 
+sete e avvelenamento possono alterarlo se ne sei colpito per periododi tempo 
+più o meno lunghi, inizierà a deteriorarsi e non sarai più in grado di 
+distinguere correttamente ciò che ti circonda. Inizierai ad avere allucinazioni, 
+o sarai troppo letargico per agire, e le tue abilità ne risentiranno.
+In casi estremi potresti arrivare a collassare perchè troppo esausto o entrare
+in un coma delirante.
+
+Per ripristinare il tuo [darkgreen]stato mentale[close] dovrai riposare (il riposo o un buon
+sonno accellereranno il recupero), mangiare, bere, curare l'avvelenamento di
+cui sei vittima.
+Se però sei malnutrito il tuo stato NON migliorerà nemmeno con il sonno, fino
+a che non ti sarai sfamato e/o dissetato.
+
+Puoi vedere il tuo [darkgreen]stato mentale[close] nello $tscore o nel '$tgroup [darkgreen]display[close]'.

@@ -1,0 +1,26 @@
+Code: flora_item_farnia-10-morta
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+Flags: FLAG.NO_GET
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.VEGETABLE	100%
+Name: Una [saddlebrown]Farnia[close] Morta
+Short: una [saddlebrown]farnia[close] morta
+Long: la sagoma spoglia di $N
+Descr:
+Le vestigia sterili di un'imponente quercia pluricentenaria stanno divenendo
+nido e rifugio di tutto cio che la riporterà a divenire terra; la terra dalla
+quale è nata.
+
+DescrTouch: 
+Tenti vanamente l'abbraccio dell'ampio fusto di quercia tutto rovinato dal tempo.
+
+ExtractTimeout:
+	Minutes: 10080
+	EntityMessage: Cenere alla cenere, polvere alla povere
+        OthersMessage: Cenere alla cenere, polvere alla povere
+End
+
+Value:	0
+Weight: 190kg

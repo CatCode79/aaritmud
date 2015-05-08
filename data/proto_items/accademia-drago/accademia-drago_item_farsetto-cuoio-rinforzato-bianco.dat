@@ -1,0 +1,31 @@
+Code:	accademia-drago_item_farsetto-cuoio-rinforzato-bianco
+Level:	06
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.LEATHER 100%
+Name:	Farsetto di [white]Cuoio[close]
+Short:	farsetto di [white]cuoio[close]
+Long:	$N è abbandonato qui.
+
+Value:	0
+Weight:	100g
+
+Descr:
+Un semplice farsetto di cuoio [white]bianco[close].
+
+
+WearType:
+   Modes: PART.BODY
+End
+
+Comment:
+§27608
+
+Dati Obj
+A17 -20A41 -5
+9 16|8192|16384|131072|4194304|8388608|16777216|33554432|67108864|134217728|2147483648 1|89 9 0 01 15000 2000
+Extras:
+	Keywords:	farsetto
+	Descr:
+		Quello  che  da  lontano poteva sembrare un rarissimo farsetto inpelle  di [white]drago bianco[close] risulta, una volta analizzato da vicino, unsemplice  farsetto  in  cuoio  tinto  in  colore  [white]bianco[close] con molta maestria. 
+End

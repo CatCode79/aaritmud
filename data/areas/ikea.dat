@@ -1,0 +1,677 @@
+Comment: Questa è un'area magazzino in cui sono posti tutti gli oggetti generici e ad altro ancora usabili in senso generale
+
+Creators:	Sulfrum
+Code: ikea
+Name: Ikea
+Short: Ikea
+Descr:
+Solo 19.9 Euro!
+
+Color: COLOR.WHITE
+Level: 1
+Flags: AREA.DONT_LIST
+
+RepopTime: 1440
+LandfillCode:	ikea_room_store-000
+
+
+RoomResets:
+  ProtoRoom: ikea_room_store-000
+	Destination:	0 0 0 ikea
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: ikea_item_porta
+	End
+End
+RoomResets:
+  Hour:	18
+  ProtoRoom: ikea_room_store-000
+	Destination:	0 0 0 ikea
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: ikea_item_porta
+	End
+End
+RoomResets:
+  ProtoRoom: ikea_room_store-eq-001
+	Destination:	0 -1 0 ikea
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: ikea_item_schinieri
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: ikea_item_scarpe
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: ikea_item_stivali
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: ikea_item_gonna
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: ikea_item_pantaloni
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: ikea_item_cappuccio
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	ikea_item_pantalavoro
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	ikea_item_camicia
+	End
+
+End
+RoomResets:
+  ProtoRoom: ikea_room_store-eq-002
+	Destination:	0 -2 0 ikea
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: ikea_item_guanti-lavoro
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: ikea_item_guanti
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: ikea_item_cintura
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: ikea_item_mantello
+	End
+End
+RoomResets:
+  ProtoRoom: ikea_room_store-eq-003
+	Destination:	0 -3 0 ikea
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: ikea_item_zaino
+	End
+End
+RoomResets:
+  ProtoRoom: ikea_room_store-food-001
+	Destination:	-1 0 0 ikea
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	ikea_item_food-torta-semi
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	ikea_item_cucchiaio-dolce
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	ikea_item_food-pomodoro
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	ikea_item_food-carota
+	End
+	EntityResets:
+		Quantity: 	4
+		Type: RESET.PUT
+		ProtoEntity: novizi2_item_spezzatino-patata
+	End
+	EntityResets:
+		Quantity: 4
+		Type: RESET.PUT
+		ProtoEntity: novizi2_item_spezzatino-patata-02
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: ikea_item_razione
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: ikea_item_bistecca
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	ikea_item_food-salsiccia-finocchio
+	End
+	EntityResets:
+                Comment:	oggetto che carica da sé il contenuto (7 biscotti) via personalreset
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	ikea_item_biscotti-confezione
+		EntityResets:
+			Quantity:	8
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_biscotto
+		End
+	End
+End
+RoomResets:
+  ProtoRoom: ikea_room_store-food-002
+	Destination:	-2 0 0 ikea
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: ikea_item_food-pesce-bistecca
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	ikea_item_pandolce-confezione
+	End
+End
+RoomResets:
+  ProtoRoom: ikea_room_store-arredamento-001
+	Destination:	0 0 -1 ikea
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	novizi2_item_rompicapo-colorato
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: ikea_item_scrigno
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	ikea_item_key-chiavetta-scatola
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	ikea_item_scatola-02
+	End
+	EntityResets:
+		Quantity:	10
+		Type: 	RESET.PUT
+		ProtoEntity: 	ikea_item_scatola-03
+	End
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	ikea_item_scatola-01
+	End
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	ikea_item_carillon	
+	End
+End
+
+RoomResets:
+  ProtoRoom: ikea_room_altroquando
+	Destination:	-2 2 1 ikea
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	 ikea_item_gem-aquamarine
+	End
+End
+RoomResets:
+  ProtoRoom: ikea_room_altroquando
+	Destination:	-1 2 1 ikea
+End
+RoomResets:
+  ProtoRoom: ikea_room_altroquando
+	Destination:	0 2 1 ikea
+End
+RoomResets:
+  ProtoRoom: ikea_room_altroquando
+	Destination:	1 2 1 ikea
+End
+RoomResets:
+  ProtoRoom: ikea_room_altroquando
+	Destination:	2 2 1 ikea
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	flora_item_rename-01-seme-vivo
+	End
+End
+RoomResets:
+  ProtoRoom: ikea_room_altroquando
+	Destination:	-2 1 1 ikea
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	torreelementi_mob_elementale-terra-01
+	End
+End
+RoomResets:
+  ProtoRoom: ikea_room_altroquando
+	Destination:	-1 1 1 ikea
+End
+RoomResets:
+  ProtoRoom: ikea_room_altroquando
+	Destination:	0 1 1 ikea
+End
+RoomResets:
+  ProtoRoom: ikea_room_altroquando-01
+	Destination:	1 1 1 ikea
+End
+RoomResets:
+  ProtoRoom: ikea_room_altroquando-01
+	Destination:	1 1 1 ikea
+  Hour: 01
+	EntityResets:
+		Quantity:	4
+		Type: 	RESET.PUT
+		Messages:	crit crit (per ogni uovo -a)
+		Messages:	crit crit (per ogni uovo -b)
+		Messages:	crit crit (per ogni uovo -c)
+		Messages:	crit crit (per ogni uovo -a)
+		Messages:	*starred crit (per uno solo -a)
+		Messages:	*starred crit (per uno solo -b)
+		Messages:	*starred crit (per uno solo -c)
+		ProtoEntity: 	ikea_item_uovo-finto
+		Inputs:	say sono finto!
+		Inputs:	say sono finto!
+		Inputs:	say sono finto!
+	End
+End
+RoomResets:
+  ProtoRoom: ikea_room_altroquando
+	Destination:	2 1 1 ikea
+End
+RoomResets:
+  ProtoRoom: ikea_room_altroquando
+	Destination:	-2 0 1 ikea
+End
+RoomResets:
+  ProtoRoom: ikea_room_altroquando
+	Destination:	-1 0 1 ikea
+End
+RoomResets:
+  ProtoRoom: ikea_room_altroquando
+	Destination:	1 0 1 ikea
+End
+RoomResets:
+  ProtoRoom: ikea_room_altroquando
+	Destination:	2 0 1 ikea
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	ikea_mob_insignificante
+	End
+End
+RoomResets:
+  ProtoRoom: ikea_room_altroquando
+	Destination:	-2 -1 1 ikea
+End
+RoomResets:
+  ProtoRoom: ikea_room_altroquando
+	Destination:	-1 -1 1 ikea
+End
+RoomResets:
+  ProtoRoom: ikea_room_altroquando
+	Destination:	0 -1 1 ikea
+End
+RoomResets:
+  ProtoRoom: ikea_room_altroquando-chiavistello
+	Destination:	1 -1 1 ikea
+End
+RoomResets:
+  ProtoRoom: ikea_room_altroquando
+	Destination:	2 -1 1 ikea
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	ikea_mob_arturo-spazzino
+	End
+End
+RoomResets:
+  ProtoRoom: ikea_room_altroquando
+	Destination:	-2 -2 1 ikea
+End
+RoomResets:
+  ProtoRoom: ikea_room_altroquando
+	Destination:	-1 -2 1 ikea
+End
+RoomResets:
+  ProtoRoom: ikea_room_altroquando
+	Destination:	0 -2 1 ikea
+End
+RoomResets:
+  ProtoRoom: ikea_room_altroquando
+	Destination:	1 -2 1 ikea
+End
+RoomResets:
+  ProtoRoom: ikea_room_altroquando
+	Destination:	2 -2 1 ikea
+End
+
+RoomResets:
+  Comment: parte giardinaggio
+  ProtoRoom: ikea_room_store-plants-001
+	Destination:	0 1 0 ikea
+	EntityResets:
+		Quantity:	1
+		Type:	RESET.PUT
+		ProtoEntity:	flora_item_pomodoro-01-seme
+	End
+	EntityResets:
+		Quantity:	1
+		Type:	RESET.PUT
+		ProtoEntity:	flora_item_pomodoro-02-seme-sterile
+	End
+	EntityResets:
+		Quantity:	1
+		Type:	RESET.PUT
+		ProtoEntity:	flora_item_pomodoro-03-frutto-marcio
+	End
+	EntityResets:
+		Quantity:	1
+		Type:	RESET.PUT
+		ProtoEntity:	flora_item_pomodoro-04-frutto
+	End
+	EntityResets:
+		Quantity:	1
+		Type:	RESET.PUT
+		ProtoEntity:	flora_item_pomodoro-05-germoglio
+	End
+	EntityResets:
+		Quantity:	1
+		Type:	RESET.PUT
+		ProtoEntity:	flora_item_pomodoro-06-pianta
+	End
+	EntityResets:
+		Quantity:	1
+		Type:	RESET.PUT
+		ProtoEntity:	flora_item_pomodoro-07-pianta-fiorita
+	End
+	EntityResets:
+		Quantity:	1
+		Type:	RESET.PUT
+		ProtoEntity:	flora_item_pomodoro-08-fruttificato
+	End
+	EntityResets:
+		Quantity:	1
+		Type:	RESET.PUT
+		ProtoEntity:	flora_item_pomodoro-09-pianta-secca
+	End
+	EntityResets:
+		Quantity:	1
+		Type:	RESET.PUT
+		ProtoEntity:	flora_item_pomodoro-10-pianta-morta
+	End
+
+End
+
+
+RoomResets:
+  ProtoRoom: ikea_room_store-coins-001
+	Destination:	1 0 0 ikea
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: ikea_item_coin-human-copper
+	End
+End
+RoomResets:
+  ProtoRoom: ikea_room_store-coins-002
+	Destination:	2 0 0 ikea
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: ikea_item_coin-human-silver
+	End
+End
+RoomResets:
+  ProtoRoom: ikea_room_store-coins-003
+	Destination:	3 0 0 ikea
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: ikea_item_coin-human-gold
+	End
+End
+RoomResets:
+  ProtoRoom: ikea_room_store-coins-003
+	Destination:	4 0 0 ikea
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: ikea_item_coin-human-mithril
+	End
+End
+
+
+RoomResets:
+  Comment: parte centrale area tediosa
+  ProtoRoom: ikea_room_altroquando-center
+	Destination:	0 0 1 ikea
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity:	ikea_mob_mucca
+	End
+	EntityResets:
+		Quantity:	1
+		Type:		RESET.PUT
+		ProtoEntity:	miniere-kezaf_item_distributore-pietre
+
+
+
+
+		EntityResets:
+			Quantity:	3
+			Type:		RESET.PUT
+			ProtoEntity:	villaggio-zingaro_item_guinzaglio
+		End
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_specchio
+		End
+		EntityResets:
+			Quantity:	2
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_pettine
+		End
+		EntityResets:
+			Quantity:	4
+			Type:		RESET.PUT
+			ProtoEntity:	villaggio-zingaro_item_lanterna
+		End
+		EntityResets:
+			Quantity:	7
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_padella
+		End
+		EntityResets:
+			Quantity:	8
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_pentola
+		End
+		EntityResets:
+			Quantity:	9
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_tegame
+		End
+		EntityResets:
+			Quantity:	2
+			Type:		RESET.PUT
+			ProtoEntity:	ikea_item_bussola
+		End
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	villaggio-zingaro_item_asciugamano
+		End
+		EntityResets:
+			Quantity:	20
+			Type:		RESET.PUT
+			ProtoEntity:	villaggio-zingaro_item_bustina-semi-pomodoro
+			EntityResets:
+				Quantity:	12
+				Type:		RESET.PUT
+				ProtoEntity:	flora_item_pomodoro-01-seme
+		                Probability:	80%
+			End
+			EntityResets:
+				Quantity:	5
+				Type:		RESET.PUT
+				ProtoEntity:	flora_item_pomodoro-02-seme-sterile
+		                Probability:	60%
+			End
+		End
+		EntityResets:
+			Quantity:	20
+			Type:		RESET.PUT
+			ProtoEntity:	villaggio-zingaro_item_bustina-semi-peperoncino
+			EntityResets:
+				Quantity:	10
+				Type:		RESET.PUT
+				ProtoEntity:	flora_item_peperoncino-01-seme
+		                Probability:	70%
+			End
+			EntityResets:
+				Quantity:	5
+				Type:		RESET.PUT
+				ProtoEntity:	flora_item_peperoncino-02-seme-sterile
+		                Probability:	40%
+			End
+		End
+		EntityResets:
+			Quantity:	16
+			Type:		RESET.PUT
+			ProtoEntity:	villaggio-zingaro_item_fascetta-carta-01
+			EntityResets:
+				Quantity:	8
+				Type:		RESET.PUT
+				ProtoEntity:	villaggio-zingaro_item_candela
+		                Probability:	90%
+			End
+		End
+		EntityResets:
+			Quantity:	9
+			Type:		RESET.PUT
+			ProtoEntity:	villaggio-zingaro_item_fascetta-carta-02
+			EntityResets:
+				Quantity:	7
+				Type:		RESET.PUT
+				ProtoEntity:	villaggio-zingaro_item_candela-anice
+		                Probability:	90%
+			End
+		End
+		EntityResets:
+			Quantity:	11
+			Type:		RESET.PUT
+			ProtoEntity:	villaggio-zingaro_item_fascetta-carta-03
+			EntityResets:
+				Quantity:	7
+				Type:		RESET.PUT
+				ProtoEntity:	villaggio-zingaro_item_candela-limone
+		                Probability:	90%
+			End
+		End
+		EntityResets:
+			Quantity:	6
+			Type:		RESET.PUT
+			ProtoEntity:	villaggio-zingaro_item_fischietto
+		End
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	villaggio-zingaro_item_cofanetto-osso
+		End
+		EntityResets:
+			Quantity:	1
+			Type:		RESET.PUT
+			ProtoEntity:	villaggio-zingaro_item_spirale-oro
+		End
+		EntityResets:
+			Quantity:	5
+			Type:		RESET.PUT
+			ProtoEntity:	villaggio-zingaro_item_mortaio-01
+			EntityResets:
+				Quantity:	1
+				Type:		RESET.PUT
+				ProtoEntity:	villaggio-zingaro_item_pestello-01
+			End
+		End
+		EntityResets:
+			Quantity:	3
+			Type:		RESET.PUT
+			ProtoEntity:	villaggio-zingaro_item_mortaio-agata
+			EntityResets:
+				Quantity:	1
+				Type:		RESET.PUT
+				ProtoEntity:	villaggio-zingaro_item_pestello-agata
+			End
+		End
+		EntityResets:
+			Quantity:	2
+			Type:		RESET.PUT
+			ProtoEntity:	home-batu_item_candelabri-coppia
+		End
+	End
+End
+RoomResets:
+  Comment: reset per far aprire la grata
+  Hour: 07
+  ProtoRoom: ikea_room_altroquando-center
+	Destination:	0 0 1 ikea
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity: 	ikea_mob_gallina
+		Inputs:	say the room ask me to say that I'm coming from nowhere!
+	End
+
+End
+
+EchoesNoon	1-Tasslehoff Burrfoot è desiderato al reparto ferramenta!
+EchoesNoon	2-Galadriel ai trucchi, Gladriel ai trucchi!
+EchoesNoon	3-Si avvisa le gentile clientela che le door sono buggate.
+EchoesNoon	4-Lo sapevate? Aarit sente tutto quello che dite!
+EchoesNoon	5-Lo sapevate? Tanto va il gatto al Python se non l'hai nel sacco.
+
+EchoesDawn	1-Lo sapevate? Aarit sente tutto quello che dite!
+EchoesDawn	2-There are only two kinds of men -- the dead and the deadly
+
+EchoesDawnNoSun	1-Lo sapevate? Tanto va il gatto al Python se non l'hai nel sacco.
+EchoesDawnNoSun	2-I'm going to raise an issue and stick it in your ear.
+
+EchoesSunrise	1-I stick my neck out for nobody
+EchoesSunrise	2-Hey, waiter!  I want a NEW SHIRT and a PONY TAIL with lemon sauce!
+
+EchoesSunriseNoSun	Hodie natus est radici frater
+EchoesNoon	I am firm.  You are obstinate.  He is a pig-headed fool
+EchoesNoonNoSun	Conformity is the refuge of the unimaginative
+EchoesSunset	Look afar and see the end from the beginning
+EchoesSunsetNoSun	Gotcha, you snot-necked weenies!
+EchoesDusk	Your temporary financial embarrassment will be relieved in a surprising manner
+EchoesDuskNoMoon	You're using a keyboard!  How quaint!
+EchoesDuskFullMoon	Never buy from a rich salesman
+EchoesMidnight	Alter.net seems to have replaced one of its router with a zucchini
+EchoesMidnightNoMoon	Immortality consists largely of boredom
+EchoesMidnightFullMoon	Bus error -- driver executed

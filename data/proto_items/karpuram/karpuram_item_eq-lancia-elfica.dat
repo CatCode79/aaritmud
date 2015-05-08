@@ -1,0 +1,33 @@
+Code:	karpuram_item_eq-lancia-elfica
+
+Level:	2
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAPON
+MaterialPercentages:	MATERIAL.SILVER	5
+MaterialPercentages:	MATERIAL.IRON	70
+MaterialPercentages:	MATERIAL.LEATHER	25
+Sex:	SEX.FEMALE
+Name:	Una Lancia Elfica
+Short:	una lancia molto affilata e dalle discrete dimensioni
+Long:	$N è conficcata qui nel terreno.
+
+Descr:
+Questa lancia presenta un'asta non troppo lunga di [silver]metallo[close]
+argenteo, ha una doppia impugnatura formata da fascette di cuoio legate tra loro
+che permettono di impugnarla con una o due mani e di lanciarla senza problemi.
+La lama è spessa e molto prominente, si distribuisce per un terzo della sua
+lunghezza totale. La forma ricorda parte di una foglia di cedro divisa in due. 
+L'attaccatura della lama sull'asta è più larga e spessa, mentre verso la punta 
+il metallo tende a restringersi e appiattirsi aumentando precisione e filatura. 
+
+Value:	0
+Weight:	2kg
+
+WeaponType:
+        Category: WEAPON.SPEAR
+	Damage:	2D4+1
+        Flags: WEAPONFLAG.ONE_HAND 
+End
+WearType:
+   Modes: PART.WIELD
+End

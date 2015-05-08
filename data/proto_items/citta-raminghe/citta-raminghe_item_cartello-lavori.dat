@@ -1,0 +1,38 @@
+Code: citta-raminghe_item_cartello-lavori
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.SOFTWOOD	100%
+Sex:	SEX.MALE
+Name:	Il Cartello d'Accesso
+Short:	un cartello d'accesso
+Long:	$N è conficcato nel terreno
+
+Descr:
+<pre class="asciiart">
+[chocolate]*-----------*------------------------------------------*[close]
+[chocolate]|[close][yellow]    *  *  [close][chocolate] | [close][purple]  _              _                       [close][chocolate]|[close]
+[chocolate]|[close][yellow]    ***   [close][chocolate] | [close][purple] / `._|__|_ _`  |_) _  _ _ . _  _ |_  _  [close][chocolate]|[close]
+[chocolate]|[close][yellow]   **  *  [close][chocolate] | [close][purple] \_,| |  | (_|  | \(_|| | ||| |(_|| |(/_ [close][chocolate]|[close]
+[chocolate]|[close][yellow] ** *   * [close][chocolate] | [close][purple]                                _|       [close][chocolate]|[close]
+[chocolate]*-----------*------------------------------------------*[close] 
+.                (area in allestimento)
+</pre>
+DescrTouch: 
+<pre class="asciiart">
+[chocolate]*-----------*------------------------------------------*[close]
+[chocolate]|[close][yellow]    *  *  [close][chocolate] | [close][purple]  _              _                       [close][chocolate]|[close]
+[chocolate]|[close][yellow]    ***   [close][chocolate] | [close][purple] / `._|__|_ _`  |_) _  _ _ . _  _ |_  _  [close][chocolate]|[close]
+[chocolate]|[close][yellow]   **  *  [close][chocolate] | [close][purple] \_,| |  | (_|  | \(_|| | ||| |(_|| |(/_ [close][chocolate]|[close]
+[chocolate]|[close][yellow] ** *   * [close][chocolate] | [close][purple]                                _|       [close][chocolate]|[close]
+[chocolate]*-----------*------------------------------------------*[close] 
+.                (area in allestimento)
+</pre>
+
+
+Value:	0
+Weight: 10g
+
+
+
+

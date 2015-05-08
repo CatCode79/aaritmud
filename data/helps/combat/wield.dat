@@ -1,0 +1,19 @@
+Code: wield
+
+ItalianKeywords: impugna 
+EnglishKeywords: wield 
+
+Entitype: HELP.COMBAT
+
+Text:
+
+Il comando $twield ti permette di impugnare qualsiasi tipo di arma.
+
+Potresti non essere in grado di [cyan]impugnare[close], [cyan]afferrare[close], [cyan]indossare[close]
+un oggetto se:
+- il suo allineamento non coincide con il tuo
+- è troppo pesante per te
+- se non hai sufficente esperienza per poter usare quell'oggetto
+
+
+SeeAlso: remove wear hold

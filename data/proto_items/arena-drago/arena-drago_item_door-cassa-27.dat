@@ -1,0 +1,30 @@
+Code: arena-drago_item_door-cassa-27
+Level: 1
+Entitype:	ENTITYPE.DOOR
+MaterialPercentages:	MATERIAL.WOOD 100%
+Sex:	SEX.FEMALE
+Name:	Una Cassa
+Short:	una cassa
+Long:	$N malridotta.
+
+Descr:
+Una cassa malridotta
+
+Value:	0
+Weight: 20kg
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Spingi $N di lato rivelando un passaggio.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n spinge di lato $N rivelando un passaggio.
+	EntityCloseMessage:	Rimetti $N a chiudere il passaggio.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n posiziona $N a nascondere l'uscita.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE DOOR.NO_USE_DIR
+End
+
+

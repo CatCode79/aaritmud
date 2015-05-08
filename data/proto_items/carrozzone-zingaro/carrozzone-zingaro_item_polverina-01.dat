@@ -1,0 +1,33 @@
+Comment:
+-anche questa si prende a pizzichi?
+- qui si possono fare facilmente delle copie di colori diversi...
+-se è pizzicabile dovrei fare degli item che rappresentano i vari pizzichi vero...e idem per i pezzetti di allume sotto...mmmmmm beh magari intanto si può mettere così senza pizzicamento poi si farà, oppure buttaci tu dentro qualcosa di veloce se vuoi ma non perderei tempo in questo dato che mi par di capire che tu abbia ben altro da fare.
+-ci ho dato dentro con le onometopee nello smell...forse un po' troppo
+-questo è cremortartaro
+-nella scatoletta1
+
+Code: carrozzone-zingaro_item_polverina-01
+
+Level:	1
+Entitype: ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.DUST 100%
+Name:	Un [white]Mucchietto[close] di [white]Polverina[close]
+Short:	un [white]candido mucchietto[close]
+Long:	$N è riposto qui.
+
+Descr:
+Un [white]cumuletto[close] di impalpabile [white]polverina bianca[close] viene percorso ad ogni vibrazione da rivoli di granelli frenetici.
+DescrTouch:
+Infili un dito nella montagnola estraendolo completamente ricoperto da questa sostanza non identificata.
+DescrSmell:
+Sniff sniff...eeh...eeeh...Ehchoo!
+DescrTaste:
+Intingi appena la punta della lingua ma non noti nulla di particolare, sembra quasi borotalco.
+DescrSixth:
+Il tuo intuito non ti viene in aiuto, non riesci proprio a capire cosa possa essere questa leggerissima ed inconsistente sostanza.
+
+Value:	0
+Weight: 45g
+
+

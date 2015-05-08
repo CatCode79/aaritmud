@@ -1,0 +1,21 @@
+Code:	serpidi_item_corpofasciato_10
+Level:	1
+Entitype: ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.FLESH	100%
+Name:	un Corpo Fasciato
+Short:	un corpo fasciato 
+Descr: 
+In terra c'è un corpo fasciato.  
+Extras:
+	Keywords:	corpo mummia 
+	Descr:
+È certamente il corpo di uno dei guerrieri Thepa, forse di uno dei più importanti visto l'onore con cui è stato sepolto
+End
+Value:	0
+Weight: 80g
+BirthDay: 1
+BirthMonth: MONTH.TEN
+
+
+
+

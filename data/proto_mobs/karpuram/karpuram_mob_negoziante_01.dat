@@ -1,0 +1,79 @@
+Code: karpuram_mob_negoziante_01
+Level: 12
+
+Sex:	SEX.MALE
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name: [red]B[close]arliman [red]B[close]utterbur
+Short: un umano placidissimo
+Long:	$N passeggia imperturbabile
+Race: RACE.HUMAN
+
+Descr:
+Un umano placido e sorridente; emana un'aura di pace tale che non ti stupirebbe vederlo ammansire un orco furibondo.
+DescrSixth:
+Certo pare un po' fuori posto. Sarebbe molto efficace già solo la sua presenza come diplomatico in territori di guerra piuttosto che qui a vendere zucchine agli avventori.
+
+
+Shop:
+	Types:	SHOP.NORMAL
+	ProtoLocations:	karpuram_room_negozio_02
+	Buyables:	ikea_item_biscotti-confezione	200%	200
+	Buyables:	ikea_item_food-carota		200%	200
+	Buyables:	ikea_item_food-fragola		200%	200
+	Buyables:	ikea_item_food-paneraffermo	200%	200
+	Buyables:	ikea_item_food-pomodoro		200%	200
+	Buyables:	ikea_item_food-salsiccia-finocchio	200%	200
+	Buyables:	ikea_item_food-torta-semi	200%	200
+	Buyables:	ikea_item_food-vv01-pandolce	200%	200
+	Sellables:	ENTITYPE.FOOD	30%	160%
+End
+
+Behaviour:
+	LookPlayer:	10
+	LookMob:	10
+	LookItem:	10
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	5
+	LookDirection:	5
+	LookExit:	20
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+Weight: 89kg
+Height: 170cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 134
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

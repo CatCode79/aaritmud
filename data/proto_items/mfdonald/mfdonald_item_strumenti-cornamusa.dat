@@ -1,0 +1,30 @@
+Comment: STRUMENTO.AEROFONO
+   
+Code: mfdonald_item_strumenti-cornamusa
+Level: 1
+Entitype:	ENTITYPE.INSTRUMENT
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.LEATHER	60%
+MaterialPercentages:	MATERIAL.WOOD	40%
+Icon:	icons/instrument/cornamusa.png
+Name:	Una Cornamusa
+Short:	una cornamusa
+Long:	$N è afflosciata qui  
+
+Descr:
+Su una grossa e consunta sacca di pelle sono innestate cinque canne di dimensioni diverse.
+Le rozze cuciture a vista conferiscono allo strumento un aspetto rustico e stanco.
+DescrTouch:
+Posizioni la cornamusa sotto l'ascella e impugni la canna diteggiabile;
+saresti quasi comod$o se non ci fossero tutte queste canne penzolanti.
+DescrHearing:
+Porti alle labbra la canna provvista di bocchino e soffi ma l'unico risultato
+che ottieni è quello di gonfiare la camera.
+DescrSixth:
+Ci si deve allenare non poco per aver fiato sufficiente a suonarla!
+
+Value:	0
+Weight: 320g
+
+
+

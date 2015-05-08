@@ -1,0 +1,33 @@
+Comment: STRUMENTO.CORDOFONO.STROFINATO
+Code: mfdonald_item_strumenti-violino
+Level: 1
+Entitype:	ENTITYPE.INSTRUMENT
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.WOOD	94%
+MaterialPercentages:	MATERIAL.HAIR	6%
+Icon:	icons/instrument/violino.png
+Name:	Un Violino Stonato
+Short:	un violino
+Long:	$N con le corde pronte a scattare
+
+Descr:
+	Un violino nuovo fiammante: nella cassa armonica sono praticati dei trafori con forme
+	inusuali. Il manico termina con il consueto intaglio a forma di ricciolo.
+DescrTouch: 
+	Il corpo è molto leggero. Le corde son tese più di quelle d'una balestra; al pizzico
+	si leva per l'aria un suono rotondo e pieno. 
+DescrSixth:
+	Ha solo quattro corde; non deve poi essere così difficile imparare a suonarlo
+
+Value:	0
+Weight: 800g
+
+Extras:
+	Keywords: trafori forme
+	Descr:
+		Si tratta di una doppia riga arcuata, come un artiglio stilizzato
+	DescrTouch:
+		È una doppia serie di sottili aperture come branchie di pesce
+End
+
+

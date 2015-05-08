@@ -1,0 +1,30 @@
+Code: flora_item_peperoncino-01-seme
+Level: 1
+MaxGlobalQuantity:	100
+Entitype: ENTITYPE.SEED
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.SEED	100%
+Name: Un Seme di [red]Peperoncino[close]
+Short: un [yellow]seme[close] giallo intenso
+Long:	C'è $N qui in terra
+
+Descr:
+Un seme giallo luminoso di forma ovoidale leggermente piatto.
+
+DescrSixth:
+Un seme di peperoncino racchiude in sé il potenziale mordente che sprigionerà inseguito.
+
+DescrTouch:
+La sua superficie è liscia e potrebbe lasciare sulla tua pelle essenze mordenti.
+
+
+Value:	1
+Weight: 2g
+
+SeedType:
+    RpgHours:	001
+    RemainingLife:	12
+    WorseEntity:	flora_item_peperoncino-05-germoglio
+    NormalEntity:	flora_item_peperoncino-05-germoglio
+    BetterEntity:	flora_item_peperoncino-05-germoglio
+End

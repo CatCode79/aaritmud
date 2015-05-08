@@ -1,0 +1,46 @@
+Code: villaggio-zingaro_item_anello-irlandese
+Level: 1
+MaxGlobalQuantity:      0
+Entitype: ENTITYPE.WEAR
+Sex:    SEX.MALE
+MaterialPercentages:	MATERIAL.GOLD 100%
+Name:   Un Claddagh Ring
+Short:  un antico [gainsboro]anello[close]
+Long:   $N è in bella mostra qui.
+
+Descr:
+Un [gainsboro]anello[close] in oro bianco rappresenta due mani che sorreggono un cuore incoronato; d'ottima fattura e curato nei minimi particolari, all'interno si legge appena una scritta. 
+DescrTouch:
+Passi un dito sull'anello cogliendo le decorazioni in rilievo della corono e delle dita delle mani.
+DescrSixth:
+La forma ti incuriosisce molto e ti chiedi quale sia la sua storia.
+DescrHearing:
+Hai l'impressione di sentire delle pulsazioni provenienti dal cuore.
+
+Value:	230
+Weight: 10g
+
+MaxLife:        100
+Life:           98
+MaxMana:        100
+Mana:           100
+MaxVigour:      100
+Vigour:         100
+
+Extras:
+	Keywords:	scritta
+	Descr:
+	Gwa..a..l
+	DescrSixth:
+	Il fatto che contenga una scritta semi-cancellata, forse un nome, ti fa pensare che sia stato impegnato da qualcuno in un momento di difficoltà.
+End
+
+WearType:
+        Modes: PART.LEFT_MIDDLE_FINGER
+        EntityWearMessage:      Infili delicatamente $N %part.
+        TargetWearMessage:      Attento $N, $n ti ha indossato %part.
+        OthersWearMessage:      $n s'infila $N al dito.
+        EntityRemoveMessage:    Sfili $N senza problemi.
+        TargetRemoveMessage:    Attento $N, $n ti ha tolto %part.
+        OthersRemoveMessage:    $n si sfila $N fluentemente.
+End

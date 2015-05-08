@@ -1,0 +1,25 @@
+Code:	karpuram_item_eq-maniche-scaglie
+
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.IRON	70
+MaterialPercentages:	MATERIAL.LEATHER	30
+Sex:	SEX.MALE
+Name:	Maniche in Scaglie di Ferro 
+Short:	maniche di scaglie
+Long:	un paio di $N si trovano qui.
+
+Descr:
+Un paio di maniche di scaglie di semplice ferro, leggermente arrugginite sui
+bordi esterni dove presentano due gruppi di lacci di cuoio che permettono di
+stringere le maniche o fissarle ad ogni sorta di armatura sia essa di cuoio o
+di altro materiale. Sono piuttosto leggere e sembrano ancora ben oliate. Offrono
+una discreta protezione.
+
+Value:	0
+Weight:	800g
+
+WearType:
+   Modes: PART.RIGHT_UPPER_LIMB PART.LEFT_UPPER_LIMB
+End

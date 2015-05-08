@@ -1,0 +1,115 @@
+Code:	accademia-drago_room_029_vortice-029
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Il Vortice
+Short:	il vortice
+	Descr:
+[red]WOOOOOOOOOOOOOOOAAAAAAAAAAAAAAAAA!!!!!!!!!!!!
+[lightgreen]WOOOOOOOOOOOOOOOAAAAAAAAAAAAAAAAA!!!!!!!!!!!![yellow]
+WOOOOOOOOOOOOOOOAAAAAAAAAAAAAAAAA!!!!!!!!!!!!
+[red]WOOOOOOOOOOOOOOOAAAAAAAAAAAAAAAAA!!!!!!!!!!!!
+[lightgreen]WOOOOOOOOOOOOOOOAAAAAAAAAAAAAAAAA!!!!!!!!!!!![yellow]
+[close]WOOOOOOOOOOOOOOOAAAAAAAAAAAAAAAAA!!!!!!!!!!!!
+[red]WOOOOOOOOOOOOOOOAAAAAAAAAAAAAAAAA!!!!!!!!!!!!
+[lightgreen]WOOOOOOOOOOOOOOOAAAAAAAAAAAAAAAAA!!!!!!!!!!!![yellow]
+[close]WOOOOOOOOOOOOOOOAAAAAAAAAAAAAAAAA!!!!!!!!!!!!
+
+Cribbio, qui dentro gira tutto... stai per vomitare, sopra e
+sotto si confondono, non capisci più nulla e ti ritrovi in balia
+della corrente... sarà il caso di trovare una soluzione prima
+di rivedere l'ultimo cenone della festa del drago...
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	4|33554432 1
+Exits:
+	Direction:	DIR.NORTH
+	Destination:	4 5 1 accademia-drago
+	Descr:	Corrente
+	Comment:	ExitStatus	1|8|256 0 019 372
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Destination:	4 7 1 accademia-drago
+	Descr:	Corrente
+	Comment:	ExitStatus	1|8|256 0 030 372
+End
+Exits:
+	Direction:	DIR.DOWN
+	Destination:	4 7 1 accademia-drago
+	Descr:	Corrente
+	Comment:	ExitStatus	1|8|256 0 000 373
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

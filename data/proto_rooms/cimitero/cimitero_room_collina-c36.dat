@@ -1,0 +1,50 @@
+Code: cimitero_room_collina-c36
+Sector: SECTOR.HILL
+Name: La Distesa Sofferente
+Short: la distesa brulla
+
+Descr:
+L'antico corso del torrente percorreva anticamente questa ampia vastità di spazio, abbeverando nel suo zigzagare una sterminata distesa. Ora è una pianura brulla colma di sterpi. Nella zona più ad est, il corso era incanalato a scendere in picchiata da centinaia di metri formando una cascata.
+Sollevata di pochi palmi dal terreno, una costruzione di roccia accompagna delle condutture provenienti da nord, in leggero declivio verso sud. 
+DescrSmell: 
+La zona collinare è avvolta dagli abbracci languidi dell'odore di spezie e decomposizione.
+Per alcuni tratti si coglie però una scia che rimane la stessa per un certo tratto.
+DescrHearing:
+Il sibilo del vento produce un lugubre suono cupo sostenuto negli effetti lungo le
+lapidi frastagliate.
+
+Extras:
+	Keywords: scia
+	DescrSmell:
+	Lungo il tratto di sentiero che hai appena seguito l'odore più significativo è stato quello di #SMELL.
+End
+
+Extras:
+	Keywords: simboli
+	Descr:
+	Un
+	DescrSmell:
+	Un
+	DescrHearing:
+	Un
+	DescrTouch:
+	Un
+	DescrTaste:
+	Un
+	DescrSixth:
+	Un
+End
+
+Width:	6m
+Depth:	6m
+Height: 113m
+
+
+Exits:
+	Direction: DIR.NORTH
+	Descr: L'inizio delle condotte
+End
+Exits:
+	Direction: DIR.SOUTHEAST
+	Descr: Il rialzo desolato
+End

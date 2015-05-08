@@ -1,0 +1,20 @@
+Code: miniere-kezaf_item_gemma-tormalina-multicolore
+Level: 1
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.GEM	100%
+Icon:	icons/gem/stones_tourmalinemulti.png
+Name:	Una [violet]Tormalina Viola[close] 
+Short:	una [violet]gemma[close] dalle molteplici [violet]sfumature[close]
+Long:	$N sta qui
+
+Descr:
+Multiformi piccole schegge di cristallo viola scuro emergono in composizione geometrica perfetta perforando la pietra dozzinale che la circonda parzialmente.
+
+Value:	0
+Weight: 190g
+
+
+
+

@@ -1,0 +1,67 @@
+Code:	arena-drago_room_49-corridoio
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Un Corridoio
+Short:	un corridoio
+	Descr:
+Ti trovi nell'ennesimo corridoio illuminato dai candelabri, delle
+porte si aprono verso sud ed est, il corridoio procede ad ovest.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	64 0
+Exits:
+	Direction:	DIR.EAST
+	Descr:	Al termine del corridoio
+	Comment:	ExitStatus	1 0 27736 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	Una sala confortevole
+	Comment:	ExitStatus	1 0 27750 -1
+	Door:	arena-drago_item_door-porta-custode-49
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	un corridoio
+	Comment:	ExitStatus	0 0 27751 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

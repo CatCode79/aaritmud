@@ -1,0 +1,30 @@
+Code: ikea_item_calzino
+Level: 1
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+Flags:	FLAG.RANDOMIZABLE
+MaterialPercentages:	MATERIAL.WOOL	50%
+MaterialPercentages:	MATERIAL.COTTON	50%
+Name:	[gold]Un[close] [red]C[orange]a[yellow]l[green]z[blue]i[indigo]n[violet]o[close] [red]Ar[orange]c[yellow]o[green]ba[blue]l[indigo]en[violet]o[close] 
+Short:	[gold]un[close] [red]c[orange]a[yellow]l[green]z[blue]i[indigo]n[violet]o[close]
+Long:	in terra c'è $N fatto pallotta.
+Descr:
+Un [red]C[orange]a[yellow]l[green]z[blue]i[indigo]n[violet]o[close] decisamente appariscente per via della colorazione [red]Ar[orange]c[yellow]o[green]ba[blue]l[indigo]en[violet]o[close].
+
+DescrTouch: 
+Morbida lanetta fuori e cotone dentro!
+
+Value:	12
+Weight: 10g
+WearType:
+        Flags:	WEAR.LAYERABLE
+   Modes: PART.LEFT_FOOT
+   Modes: PART.RIGHT_FOOT
+End
+
+
+ContainerType:
+        MaxWeight: 1kg
+End
+
+

@@ -1,0 +1,24 @@
+Code: karpuram_item_sughera_alberello_05
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.PLANT
+MaterialPercentages:	MATERIAL.VEGETABLE	100
+Sex:	SEX.FEMALE
+Name: Una Giovane [lawngreen]Quercia[close] da [lawngreen]Sughero[close] 
+Short: una [lawngreen]pianta[close] rigogliosa 
+Descr:
+Un giovane quercetta dal fusto butterato e irregolare.
+
+Value:	0
+Weight: 5kg
+
+DescrTouch: 
+Una quercia dalle foglie lucide e resistenti con una corteccia grossolana ed irregolare.
+
+Extras:
+  Keywords: quercia
+  Descr: è una quercia certamente, ma che quercia?
+  DescrSixth: una giovane quercia da sughero
+End
+
+

@@ -1,0 +1,6 @@
+FunName:   command_intuition
+Type:      CMDTYPE.INFORMATION
+Trust:     TRUST.PLAYER
+Position:  POSITION.REST
+Flags:     CMDFLAG.GDR
+MiniHelp:  Permette di affidarsi al sesto senso e carpire informazioni altrimenti segrete agli altri sensi.

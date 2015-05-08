@@ -1,0 +1,97 @@
+Comment:
+per gli strumenti musicali mi sono regolato come segue prendendo dalla pagina di wikipedia:
+*	Aerofoni (siringa[flauto di pan]/armonica a  bocca/tromba),
+*	Cordofoni
+		strofinate (violino[+archetto come obj separato])
+		pizzicate (liuto/arpa)
+		percosse  (pianoforte/cembalo)
+*	Membranofoni (tamburo a cornice)
+*	Idiofoni (manca e credo non metterò nulla a meno che non prevediamo che uno si possa laureare in triangolo o maracas)
+
+Code: mfdonald_item_musica-spartiti
+Level: 1
+Entitype:	ENTITYPE.NONE
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.PAPER	90%
+MaterialPercentages:	MATERIAL.LEATHER	10%
+Name:	Il Grande Libro degli Spartiti
+Short:	un grosso volume consunto
+Long:	$N ha degli strumenti musicali disegnati in copertina
+
+Descr:
+Un volumone ampio grosso e pesante; sul risvolto è ricamato in oro un simbolo somigliante ad una spirale confusa. I fogli sono ingialliti e rovinati.
+DescrTouch: 
+Nonostante l'età e l'uso massiccio che evidentemente ne è stato fatto, il velluto della copertina è ancora morbido e carezzevole.
+
+Value:	0
+Weight: 2730g
+
+Extras:
+	Keywords: spirale confusa
+	Descr:
+<pre class="asciiart">                                                     
+[lime]*[firebrick]-----------------------------------------------------------------[lime]*[close]
+[firebrick]|[close]                                      @@                         [firebrick]|[close]
+[firebrick]|[close]                                     @@@@                        [firebrick]|[close]
+[firebrick]|[close]                                   @@@@@@@                       [firebrick]|[close]
+[firebrick]|[close]                                @@@@@@@@@@@@                     [firebrick]|[close]
+[firebrick]|[close]                               @@@@@@     @@                     [firebrick]|[close]
+[firebrick]|[close]                               @@@@        @@                    [firebrick]|[close]
+[firebrick]|[close]                              @@@         @@@                    [firebrick]|[close]
+[firebrick]|[close]                              @@@         @@@                    [firebrick]|[close]
+[firebrick]|[close]                              @@         @@@@                    [firebrick]|[close]
+[firebrick]|[close]                              @@         @@@@                    [firebrick]|[close]
+[firebrick]|[close]                              @@        @@@@@                    [firebrick]|[close]
+[firebrick]|[close]                              @@      @@@@@@                     [firebrick]|[close]
+[firebrick]|[close]                              @@     @@@@@@@                     [firebrick]|[close]
+[firebrick]|[close]                              @@    @@@@@@@                      [firebrick]|[close]
+[firebrick]|[close]                              @@   @@@@@@@                       [firebrick]|[close]
+[firebrick]|[close]                               @  @@@@@@                         [firebrick]|[close]
+[firebrick]|[close]                               @ @@@@@@                          [firebrick]|[close]
+[firebrick]|[close]                             @@@@@@@@                            [firebrick]|[close]
+[firebrick]|[close]                         @@@@@@@@@                               [firebrick]|[close]
+[firebrick]|[close]                       @@@@@@@@@ @                               [firebrick]|[close]
+[firebrick]|[close]                     @@@@@@@@@@  @                               [firebrick]|[close]
+[firebrick]|[close]                   @@@@@@@@@@    @                               [firebrick]|[close]
+[firebrick]|[close]                  @@@@@@@@@@     @                               [firebrick]|[close]
+[firebrick]|[close]                 @@@@@@@@@@      @@                              [firebrick]|[close]
+[firebrick]|[close]                @@@@@@@@@        @@                              [firebrick]|[close]
+[firebrick]|[close]                @@@@@@@@          @                              [firebrick]|[close]
+[firebrick]|[close]               @@@@@@@@           @                              [firebrick]|[close]
+[firebrick]|[close]               @@@@@@@            @                              [firebrick]|[close]
+[firebrick]|[close]              @@@@@@@          @@@@@@@@@@@@@                     [firebrick]|[close]
+[firebrick]|[close]              @@@@@@        @@@@@@@@@@@@@@@@@@@                  [firebrick]|[close]
+[firebrick]|[close]             @@@@@@        @@@@@@@@@@@@@@@@@@@@@                 [firebrick]|[close]
+[firebrick]|[close]             @@@@        @@@@@@    @@     @@@@@@@                [firebrick]|[close]
+[firebrick]|[close]             @@@@        @@@@@      @       @@@@@@               [firebrick]|[close]
+[firebrick]|[close]             @@@@        @@@@       @       @@@@@@               [firebrick]|[close]
+[firebrick]|[close]              @@@       @@@@@       @        @@@@@               [firebrick]|[close]
+[firebrick]|[close]              @@@        @@@        @        @@@@@               [firebrick]|[close]
+[firebrick]|[close]              @@@        @@@        @@        @@@@               [firebrick]|[close]
+[firebrick]|[close]               @@@        @@         @        @@@@               [firebrick]|[close]
+[firebrick]|[close]                @@@        @@        @        @@@@               [firebrick]|[close]
+[firebrick]|[close]                 @@@         @@      @@       @@@                [firebrick]|[close]
+[firebrick]|[close]                   @@@                @      @@@                 [firebrick]|[close]
+[firebrick]|[close]                     @@@              @    @@@                   [firebrick]|[close]
+[firebrick]|[close]                      @@@@            @@  @@@                    [firebrick]|[close]
+[firebrick]|[close]                        @@@@          @@@@@                      [firebrick]|[close]
+[firebrick]|[close]                          @@@@@@@@@@@@@@@@                       [firebrick]|[close]
+[firebrick]|[close]                                       @                         [firebrick]|[close]
+[firebrick]|[close]                                       @@                        [firebrick]|[close]
+[firebrick]|[close]                                       @@                        [firebrick]|[close]
+[firebrick]|[close]                                        @                        [firebrick]|[close]
+[firebrick]|[close]                         @@@            @                        [firebrick]|[close]
+[firebrick]|[close]                       @@@@@@@          @@                       [firebrick]|[close]
+[firebrick]|[close]                     @@@@@@@@@@         @@                       [firebrick]|[close]
+[firebrick]|[close]                    @@@@@@@@@@@         @                        [firebrick]|[close]
+[firebrick]|[close]                     @@@@@@@@          @@                        [firebrick]|[close]
+[firebrick]|[close]                     @@@@@@@          @@                         [firebrick]|[close]
+[firebrick]|[close]                      @@@@           @@                          [firebrick]|[close]
+[firebrick]|[close]                        @@@        @@@                           [firebrick]|[close]
+[firebrick]|[close]                          @@@@@@@@@@                             [firebrick]|[close]
+[firebrick]|[close]                             @@@@                                [firebrick]|[close]
+[lime]*[firebrick]-----------------------------------------------------------------[lime]*[close]
+</pre>
+End                                                                 
+
+

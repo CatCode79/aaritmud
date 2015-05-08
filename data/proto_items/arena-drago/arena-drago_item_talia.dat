@@ -1,0 +1,38 @@
+Code:	arena-drago_item_talia
+Level:	06
+MaxGlobalQuantity:	5
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.OAK 40%
+MaterialPercentages:	MATERIAL.EBONY 10%
+MaterialPercentages:	MATERIAL.STEEL 50%
+Sex:	SEX.MALE
+Name:	[lightgreen]Talia [close]la Lama Elfica
+Short:	[lightgreen]una lama elfica[close]
+
+Value:	0
+Weight: 500g
+
+Descr:
+	Si  tratta  di un superbo esemplare di forgiatura elfica, la lama
+	in  acciaio  finissimo  sarebbe  in grado di tagliare un capello,
+	l'elsa in argento mostra un motivo ornamentale cesellato a foggia
+	floreale.
+
+
+WeaponType:
+        Category: WEAPON.SWORD
+	Damage:	3D2+3
+        Flags: WEAPONFLAG.ONE_HAND 
+End
+
+WearType:
+   Modes: PART.WIELD
+End
+
+Comment:
+§27703
+
+Dati Obj
+5 1|2|4|64|1024|2048|4096|8192|16384|131072|4194304|16777216|33554432|67108864|134217728|1073741824|2147483648 1|81920 3 5 31 25000 7500
+
+

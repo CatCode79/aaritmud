@@ -1,0 +1,33 @@
+Code: novizi2_item_porta-combattimento
+Level: 1
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.MALE
+Flags:	FLAG.NO_GET
+MaterialPercentages:	MATERIAL.BRASS	100%
+Name:	Uno Scudo da Battaglia
+Short:	uno scudo da battaglia
+Long:	$N ha strappato i cardini ai quali era imperniato
+
+Descr:
+Uno scudo bronzeo di spropositate dimensioni diviso in due per la lunghezza è collocato a guisa di portale.
+DescrTouch: 
+Uno scudo metallico di spropositate dimensioni diviso in due per la lunghezza è collocato a guisa di portale.
+
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Manovri con una certa fatica lo scudo per aprire uno spiraglio d'accesso
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre con un certa lentezza lo scudo per aprire uno spiraglio d'accesso
+
+	EntityCloseMessage:	Cerchi di trattenere uno scudo che s'avvia a chiusura a velocità preoccupante..
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n richiude lo scudo con uno schianto metallico.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE
+End
+
+Value:	0
+Weight: 500kg

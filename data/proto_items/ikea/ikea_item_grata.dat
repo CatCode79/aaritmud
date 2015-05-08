@@ -1,0 +1,44 @@
+Code: ikea_item_grata
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.METAL	100%
+Name:	La Grata del Sistema d'Areazione
+Short:	la classica grata dei condotti d'areazione 
+Long:	$N ti riporta con la mente ai vecchi B-movie
+
+Descr:
+Ovviemente si apre facilmente e ti porterà verso mille emozionanti avventure a
+lieto fine. L'ho fatta un po' pesante per dare un certo senso [red]epico[close] alla fase di
+apertura.
+
+Value:	0
+Weight: 10kg
+
+Extras:
+	Keywords: epico
+	Descr:
+	Sarebbe da aprire con tutti i muscoli lucidi rivolti verso la telecamera.
+	DescrSixth:
+	Intuisci che un bravo eroe deve sempre avere con se dell'olio per mantenere
+	brillante la muscolatura.
+End
+
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	Alzi $N esaltando il gesto atletico.
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n apre $N con innaturale senso drammatico.
+	EntityCloseMessage:	Riabbassi $N simulando forza erculea.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n riabbassa $N chiudendo in modo inutilmente cerimonioso.
+	DestinationOpenMessage: $N viene sollevata dal lato opposto.
+	DestinationCloseMessage: $N viene riabbassata dal lato opposto.
+	ResetCloseMessage: $N si chiude.
+	ResetOpenMessage: $N si apre.
+End
+
+

@@ -1,0 +1,122 @@
+Comment:
+
+Ispirazione tecnica Wumpus (http://www.atariarchives.org/bcc1/showpage.php?page=247)
+ridefinizione della geometria non potendo preservare i punti cardinali n/e/s/w su una geometria pseudosferica
+ci si rifà al solito toroide ma in modo meno banale del solito (si spera)
+
+Ispirazione per i nomi da "mezzanotte e cinque a Bophal" Dominique Lapierre e Javier Moro
+(cercherò di suggerire questa lettura in qualche modo il più rpg possibile)
+
+Creators: Sulfrum
+Code: wumpus
+Name: Il Ratto e il Muswup
+Short: il ratto e il Muswup
+Descr:
+        L'antro, con i suoi cunicoli, gallerie, anfratti e biforcazioni è al contempo il depositario di una richiesta di pacificazione, tempio alla memoria e ratto del ricordo. L'origine di un così desueto connubio si forma in tempi recenti.
+Accadde infatti pochi anni fa che la volitiva Padmini ardita eroina della propria quotidianità divenne la vittima designata per un rito inconsueto.  Fu privata dei suoi ricordi di fanciulla per l'intervento di un non convenzionale visitatore. Inaspettatamente però l'evento indispose uno dei Sevin che avevano ordito il rito e che ne volle mitigare le conseguenze.
+Prima ancora che Padmini si risvegliasse avvedendosi del furto, sprazzi della sua memoria cominciavano ad essere restituiti in minuscoli frammenti che ancora divampano in questi anfratti. Periodicamente l'antro si punteggia di scintille e periodicamente Padmini s'immerge paziente nelle profondità riconquistare quel che riesce.
+Sfortunatamente, lei non è la sola ad anelare i frammenti poiché l'antro è dimora di una famelica creatura: il Muswup.
+In questo gioco dal gusto amaro, valenti e volenterosi avventurieri si cimentano nell'avvicinamento all'indisponente creatura che, satolla, sonnecchia in attesa dei prossimi ricordi.
+L'unica possibilità per il recupero deriva da un artefatto vivente, il Simbionte Psionico... ma per saperne di più è necessario raggiungere Padmini ed ascoltare la sua storia.
+
+Color: COLOR.MAROON
+Level: 1
+RepopTime: 100
+LandfillCode:	mfdonald_room_casa
+
+RoomResets:
+	ProtoRoom:	wumpus_room_argilla-east
+	Destination:	 6 2 0 wumpus
+End
+RoomResets:
+	ProtoRoom:	wumpus_room_argilla-north
+	Destination:	 5 3 0 wumpus
+End
+RoomResets:
+	ProtoRoom:	wumpus_room_argilla-south
+	Destination:	 5 1 0 wumpus
+End
+RoomResets:
+	ProtoRoom:	wumpus_room_argilla-west
+	Destination:	 4 2 0 wumpus
+End
+RoomResets:
+	ProtoRoom:	wumpus_room_cristallo-east
+	Destination:	 6 5 0 wumpus
+End
+RoomResets:
+	ProtoRoom:	wumpus_room_cristallo-north
+	Destination:	 5 6 0 wumpus
+End
+RoomResets:
+	ProtoRoom:	wumpus_room_cristallo-south
+	Destination:	 5 4 0 wumpus
+End
+RoomResets:
+	ProtoRoom:	wumpus_room_cristallo-west
+	Destination:	 4 5 0 wumpus
+End
+RoomResets:
+	ProtoRoom:	wumpus_room_muscosa-east
+	Destination:	 6 8 0 wumpus
+End
+RoomResets:
+	ProtoRoom:	wumpus_room_muscosa-north
+	Destination:	 5 9 0 wumpus
+End
+RoomResets:
+	ProtoRoom:	wumpus_room_muscosa-south
+	Destination:	 5 7 0 wumpus
+End
+RoomResets:
+	ProtoRoom:	wumpus_room_muscosa-west
+	Destination:	 4 8 0 wumpus
+End
+RoomResets:
+	ProtoRoom:	wumpus_room_ruderi-east
+	Destination:	 3 5 0 wumpus
+End
+RoomResets:
+	ProtoRoom:	wumpus_room_ruderi-north
+	Destination:	 2 6 0 wumpus
+End
+RoomResets:
+	ProtoRoom:	wumpus_room_ruderi-south
+	Destination:	 2 4 0 wumpus
+End
+RoomResets:
+	ProtoRoom:	wumpus_room_ruderi-west
+	Destination:	 1 5 0 wumpus
+End
+RoomResets:
+	ProtoRoom:	wumpus_room_lava-east
+	Destination:	 9 5 0 wumpus
+End
+RoomResets:
+	ProtoRoom:	wumpus_room_lava-north
+	Destination:	 8 6 0 wumpus
+End
+RoomResets:
+	ProtoRoom:	wumpus_room_lava-south
+	Destination:	 8 4 0 wumpus
+End
+RoomResets:
+	ProtoRoom:	wumpus_room_lava-west
+	Destination:	 7 5 0 wumpus
+End
+RoomResets:
+	ProtoRoom:	wumpus_room_ragnatela-northeast
+	Destination:	 8 8 0 wumpus
+End
+RoomResets:
+	ProtoRoom:	wumpus_room_ragnatela-northwest
+	Destination:	 2 8 0 wumpus
+End
+RoomResets:
+	ProtoRoom:	wumpus_room_ragnatela-southwest
+	Destination:	 2 2 0 wumpus
+End
+RoomResets:
+	ProtoRoom:	wumpus_room_ragnatela-southeast
+	Destination:	 8 2 0 wumpus
+End

@@ -1,0 +1,32 @@
+Code: deadcity_item_maglietta-cotone
+Level: 1
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.MALE
+MaterialPercentages:	MATERIAL.CLOTH	100%
+Name:	Una Maglietta Stampata 
+Short:	una maglietta stampata
+Long:	$N di cotone
+
+Descr:
+Una maglietta di cotone color bianco sporco.
+Sul davanti è stampato il disegno di tanti bambini che edificano un arcobaleno portando ciascuno un arco colorato. 
+Una grande scritta sul petto. 
+
+DescrSixth:
+Plausibilmente questa maglietta proviene da una qualche manifestazione misteriosa.
+
+
+Extras:
+	Keywords:	scritta
+        Flags: EXTRA.READABLE
+	Descr:
+	Scoprire la Cooperazione
+End
+
+Value:	19
+Weight: 190g
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+	Modes: PART.TORSO
+End

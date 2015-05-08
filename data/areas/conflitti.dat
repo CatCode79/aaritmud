@@ -1,0 +1,104 @@
+Comment:
+Area in prova e in divenire; realizzazione da spunti di Sophie
+Creators:	Valentina
+Code: conflitti
+Name: Conflitti della Personalità
+Short: conflitti della personalità
+Descr:
+Il più cupo mistero ammanta questo remoto luogo ove si anela al superamento di sé per tornare artefici del proprio destino.
+Pochi anche fra i superni sono coloro che conoscono come giungervi, una solamente potrà guidarvi. 
+Color: COLOR.MAROON della terra alla quale tutti torneremo
+Level: 1
+
+RepopTime: 15
+LandfillCode:	conflitti_room_grotta-sauna
+
+RoomResets:
+  Comment:	collegamento con la zona del cimitero in fondo alla botola sotto il tempietto
+  Messages: (stanza resettata al minuto 35)
+  Minute:	35
+  ProtoRoom: conflitti_room_collegamento
+	Destination:	0 1 0 conflitti
+End
+RoomResets:
+  Comment:	collegamento con la zona del cimitero in fondo alla botola sotto il tempietto
+  ProtoRoom: conflitti_room_collegamento
+	Destination:	0 1 0 conflitti
+End
+RoomResets:
+  ProtoRoom: conflitti_room_accesso-01
+	Destination:	0 0 0 conflitti
+End
+RoomResets:
+  Messages: (stanza resettata al minuto 35)
+  Minute:	35
+  ProtoRoom: conflitti_room_accesso-01
+	Destination:	0 0 0 conflitti
+End
+
+RoomResets:
+  ProtoRoom: conflitti_room_interno-01
+	Destination:	0 0 -1 conflitti
+End
+RoomResets:
+  ProtoRoom: conflitti_room_aristotele-platone
+	Destination:	1 0 -1 conflitti
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: conflitti_item_libro
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: conflitti_mob_golem
+		EntityResets:
+			WearMode:	PART.HOLD
+			Quantity:	1
+			Type:	RESET.PUT
+			ProtoEntity:	conflitti_item_pergamena
+		End
+	End
+End
+RoomResets:
+  ProtoRoom: conflitti_room_dt-01
+	Destination:	10 10 10 conflitti
+End
+RoomResets:
+  ProtoRoom: conflitti_room_stanza-scirocco
+	Destination:	2 0 -1 conflitti
+	EntityResets:
+		Quantity:	1
+		Type: 	RESET.PUT
+		ProtoEntity:	conflitti_item_vassoio
+		EntityResets:
+			Quantity: 2
+			Type: RESET.PUT
+			ProtoEntity: conflitti_item_dolce-speziato
+		End
+		EntityResets:
+			Quantity: 1
+			Type: RESET.PUT
+			ProtoEntity: conflitti_item_pane-aromi
+		End
+		EntityResets:
+			Quantity:	1
+			Type: 	RESET.PUT
+			ProtoEntity: 	ikea_item_cucchiaio-dolce
+		End
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: conflitti_item_portale-nostalgia
+	End
+	EntityResets:
+		Quantity: 1
+		Type: RESET.PUT
+		ProtoEntity: conflitti_item_portale-scoperta
+	End
+End
+RoomResets:
+  ProtoRoom: conflitti_room_grotta-sauna
+	Destination:	2 0 -2 conflitti
+End

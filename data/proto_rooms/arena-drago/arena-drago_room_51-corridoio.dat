@@ -1,0 +1,67 @@
+Code:	arena-drago_room_51-corridoio
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	Un Corridoio
+Short:	un corridoio
+	Descr:
+Sei nell'ennesimo corridoio che qui prosegue verso sud, la buona
+illuminazione ti permette di notare una scala che scende verso il
+basso nella zona nord.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	64 0
+Exits:
+	Direction:	DIR.EAST
+	Descr:	un corridoio
+	Comment:	ExitStatus	0 0 27749 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Descr:	le tre porte
+	Comment:	ExitStatus	0 0 27752 -1
+	Destination:	12 3 0 arena-drago
+End
+Exits:
+	Direction:	DIR.DOWN
+	Descr:	il cunicolo
+	Comment:	ExitStatus	0 0 27757 -1
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

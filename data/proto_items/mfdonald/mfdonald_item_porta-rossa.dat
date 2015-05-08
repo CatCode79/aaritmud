@@ -1,0 +1,50 @@
+Code:	mfdonald_item_porta-rossa
+Level:	1
+Entitype:	ENTITYPE.DOOR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.UNKNOWN	100%
+Name:	La Porticina [red]Rossa[close]
+Short:	una [red]rossa porta[close]
+Long:	$N ha fatto una brutta fine
+
+Descr:
+	È una porta in un polimero [red]rosso[close]; Vi sono disegnate le venature del legno ma in
+	modo un po naif.
+DescrTouch: 
+	Una porta liscia con delle scritte in [yellow]braille[close].
+
+DoorType:
+	PassDoorDifficulty:	1
+	BashDifficulty:		1
+	EntityOpenMessage:	apri $N con circospezione
+	TargetOpenMessage:	Attent$O, $n ti ha apert$O.
+	OthersOpenMessage:	$n con delicatezza cerca di aprire $N.
+	EntityCloseMessage:	Accompagni $N facendo attenzione a non rompere nulla.
+	TargetCloseMessage:	Finalmente $n si è degnato di chiuderti.
+	OthersCloseMessage:	$n accompagna $N fino a richiudere l'accesso.
+	DestinationOpenMessage: $N viene apert$O dal lato opposto.
+	DestinationCloseMessage: $N viene chius$O dal lato opposto.
+	Flags:	DOOR.CLOSED DOOR.CLOSABLE
+End
+
+
+Behaviour:
+	LookPlayer:	20
+	LookMob:	0
+	LookItem:	0
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	0
+	LookDirection:	0
+	LookExit:	0
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+End
+
+Value:	0
+Weight: 4kg
+
+

@@ -1,0 +1,23 @@
+Code:	karpuram_item_eq-puzza-sudore
+
+Level:	1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.UNKNOWN	100
+Sex:	SEX.MALE
+Name:	Il Puzzo di Sudore
+Short:	il fetore impregna l'aria
+Long:	strano e maleodorante $N
+
+Descr:
+Un fetore che quasi ti stordisce e non ti permette di muoverti per qualche 
+secondo, ti rendi conto di quanto potrebbe essere pericoloso creare un oggetto
+o un'arma unendo magicamente questa puzza con qualche altro materiale da
+poter riutilizzare.
+
+Value:	0
+Weight:	2g
+
+WearType:
+   Modes: PART.FLOATING
+End

@@ -1,0 +1,18 @@
+Comment: Tre cesti di vimini sul tavolo ciascuno contenente pagnotte differenti 
+
+Code: citta-raminghe_item_cesto-vimini-pane-01
+Level: 3
+Entitype: ENTITYPE.CONTAINER
+MaterialPercentages:	MATERIAL.WICKERS	100%
+Name: [yellow]Cesto rotondo di vimini[close]
+Short: un grande e rotondo [yellow]cesto di vimini[close]
+Long:	$N attira la tua attenzione olfattiva
+Descr: Un cesto di vimini di forma rotonda abbastanza profondo
+Value:	0
+Weight: 2kg
+
+ContainerType:
+        MaxWeight: 10kg
+End
+
+

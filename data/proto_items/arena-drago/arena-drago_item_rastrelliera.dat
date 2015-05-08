@@ -1,0 +1,27 @@
+Code:	arena-drago_item_rastrelliera
+Level:	06
+Flags:	FLAG.NO_GET
+Entitype:	ENTITYPE.CONTAINER
+MaterialPercentages:	MATERIAL.WOOD 70%
+MaterialPercentages:	MATERIAL.IRON 30%
+Sex:	SEX.FEMALE
+Name:	Una Rastrelliera
+Short:	una rastrelliera
+Long:	$N per armi è inchiodata al suolo
+Value:	0
+Weight: 100kg
+
+Descr:
+Una rastrelliera per armi con i segni di un uso frequente.
+
+ContainerType:
+        MaxWeight: 500kg
+End
+
+Comment:
+§27700
+
+Dati Obj
+15 262144 01000 1 -1 01 0 0
+
+

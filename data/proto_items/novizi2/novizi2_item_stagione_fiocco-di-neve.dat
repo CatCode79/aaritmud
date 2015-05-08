@@ -1,0 +1,35 @@
+Code: novizi2_item_stagione_fiocco-di-neve
+Level: 1
+Entitype:	ENTITYPE.NONE
+MaterialPercentages:	MATERIAL.WATER	100
+Sex:	SEX.MALE
+Name: Un Fiocco di Neve Adiabatico
+Short: un [aqua]fiocco[close] di [aqua]neve[close]
+Long:	$N resiste bellamente a qualunque interazione 
+
+Descr:
+Un misterioso fiocco di neve simbolo dell'inverno galleggia e rimane a metà senza
+voler scendere o salire.
+DescrTouch: 
+Anche al tocco il fiocco non si fonde e non si rompe
+DescrSmell: 
+Niente, assolutamente nulla
+DescrSixth:
+Probabilmente è finto
+DescrHearing:
+Pare non abbia nulla da dire
+DescrTaste:
+Questo non è il suo sapore ma il sapore di chi lo ha calpestato:
+un cane.. bagnato...
+
+Value:	0
+Weight: 2g
+
+Extras:
+	Keywords: fiocco
+	Descr:
+		ha la forma estroversa puntuta di un grosso fiocco
+
+End
+
+

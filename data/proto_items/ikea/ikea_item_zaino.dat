@@ -1,0 +1,35 @@
+Code: ikea_item_zaino
+Level: 1
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.LEATHER	90
+MaterialPercentages:	MATERIAL.BRASS	10
+Sex:	SEX.MALE
+Flags:	FLAG.RANDOMIZABLE
+Name:	Uno Zaino di Pelle
+Short:	uno zaino 
+Long:	C'è $N poggiato di lato.
+
+Descr:
+Uno zainaccio grossolano di pelle spessa e con un paio di spallacci scomodi.
+DescrTouch: 
+Uno zainaccio rigido di pelle dura e con un paio di spallacci scomodi.
+
+Value:	0
+Weight: 1kg
+
+Extras:
+	Keywords: spallacci
+	Descr:
+	privi di imbottitura ma piuttosto larghi e non regolabili
+	DescrTouch:
+	privi di imbottitura ma piuttosto larghi e non regolabili
+End
+
+WearType:
+	Flags:	WEAR.LAYERABLE
+	Modes: PART.BACK
+End
+
+ContainerType:
+        MaxWeight: 10kg
+End

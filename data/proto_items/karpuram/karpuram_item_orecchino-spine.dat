@@ -1,0 +1,68 @@
+Code: karpuram_item_orecchino-spine
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.THORN	100
+Sex:	SEX.MALE
+Name:
+	L'[darkorchid]Orecchino Spinato[close]
+Short:
+	un [darkorchid]orecchino[close] di spine
+Long:
+	$N luccica come di luce propria
+
+Descr:
+Questo orecchino presenta un sistema relativamente semplice che permette a
+chiunque di indossarlo, ruotando una catenina attorno all'orecchio e quindi 
+fermandola di rimando all'orecchino. Una serie di spine di vetro scuro ruotano 
+tutte attorno a una piccola [blue]gemma[close] bluastra posta al centro come 
+nucleo centrale volta a sostenerle.
+
+DescrNight:
+Uno strano orecchino presenta una semplice chiusura che permette a chiunque di
+indossarlo, ruotando una catenina attorno all'orecchio e fermandola alla parte
+superiore dell'orecchino. Una [blue]gemma[close] bluastra attira la tua 
+attenzione, situata in posizione centrale è interamente ricoperta da una 
+moltitudine di spine di vetro di colore scuro.
+
+DescrHearing:
+Le molteplici spine di vetro presenti su quest'oggetto creano uno strano suono
+ritmato a seconda del movimento dell'orecchino.
+
+DescrTouch:
+Facendo molta attenzione alle spine di vetro che circondano la pietra posta
+esattamente nel centro, ti sembra quasi che questa si scaldi al tocco.
+
+DescrTouchNight:
+Le molte spine di vetro scuro sembrano animarsi con il calare della notte, 
+e tenendo l'oggetto in mano ti accorgi che tendono ad assumere una posizione
+di difesa rispetto alla strana pietra posta sotto di loro.
+
+DescrSixthNight:
+Ti sembra di sentire uno strano calore provenire dalla parte centrale di questo
+orecchino, focalizzi questa tua sensazione nella gemma bluastra.
+
+Value:	0
+Weight: 10g
+
+WearType:
+   Modes: PART.LEFT_EAR
+   Modes: PART.RIGHT_EAR
+End
+
+Extras:
+	Keywords: gemma blu, gemma
+	Descr:
+	Decisamente strana come forma e colore, questa gemma ha una forma
+	leggermente allungata verso un'estremità. Forse è solo una tua impressione
+	ma ti sembra che al suo interno vi sia una specie di fluido.
+End
+Extras:
+	Keywords: spine, spine vetro
+	Descr:
+	Sono una vera moltitidine e non riesci chiaramente a contarne la quantità.
+	L'estremità esterna è molto appuntita e devi fare molta attenzione
+	nel maneggiare l'oggetto o potresti ferirti.
+End
+
+

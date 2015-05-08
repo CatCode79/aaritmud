@@ -1,0 +1,16 @@
+Code:	serpidi_item_elmoossidiana_11
+Level:	1
+Entitype: ENTITYPE.WEAR
+MaterialPercentages:	MATERIAL.OBSIDIAN	100%
+Name:	Elmo di Ossidiana 
+Short:	un elmo di ossidiana 
+Descr: un elmo in pietra nera lucida
+Value:	0
+Weight: 800g
+BirthDay: 1
+BirthMonth: MONTH.TEN
+WearType:
+        Modes: PART.HEAD
+End
+
+

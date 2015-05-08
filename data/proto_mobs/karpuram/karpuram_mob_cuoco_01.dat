@@ -1,0 +1,73 @@
+Code: karpuram_mob_cuoco_01
+Level: 12
+
+Sex:	SEX.MALE
+Flags:  FLAG.REPOP_ONLY_ON_EXTRACT
+Name:	Un Elfo Cuoco
+Short: un elfo cuoco
+Long:	$N è qui ai fornelli
+Race: RACE.WOODELF
+
+Descr:
+Vestito di tutto punto, con abiti adeguati a mettere in risalto la sua 
+professione, questo cuoco elfo si sposta con maestria all'interno della cucina.
+L'elfo è snello e presenta i tratti somatici caratteristici della razza, 
+le orecchie allungate e sottili fanno capolino da sotto il [snow]cappello[close].
+
+DescrSmell:
+Ti sta venendo fame solo a guardarlo!
+
+
+
+
+
+
+Behaviour:
+	LookPlayer:	10
+	LookMob:	10
+	LookItem:	10
+	LookAtRacesFlags:	RACE.NONE
+	LookAtRaces:	0
+	LookAtEntitypesFlags:	ENTITYPE.NONE
+	LookAtEntitypes:	0
+	LookSelf:	5
+	LookDirection:	5
+	LookExit:	20
+	LookWall:	0
+	LookClosedDoor:	0
+	LookExtra:	0
+	WanderDirection:	0
+	WanderExit:	0
+	WanderWall:	0
+	WanderClosedDoor:	0
+	WanderAtExitsFlags:	DIR.NONE
+	WanderAtExits:	0	
+	WanderArea:	0
+	WanderPortal:	0
+	WanderEnterContainer:	0
+	WanderExitContainer:	0
+	WanderSelf:	0
+End
+
+Weight: 55kg
+Height: 180cm
+
+BirthDay: 1
+BirthMonth: MONTH.ONE
+Age: 134
+
+Strength:	33
+Endurance:	33
+Agility:	33
+Speed:	33
+Intelligence:	33
+Willpower:	33
+Personality:	33
+Luck:	33
+
+MaxLife:	100
+Life:		100
+MaxMana:	100
+Mana:		100
+MaxVigour:	100
+Vigour:		100

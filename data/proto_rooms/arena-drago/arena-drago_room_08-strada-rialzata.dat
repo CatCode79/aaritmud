@@ -1,0 +1,28 @@
+Code:	arena-drago_room_08-strada-rialzata
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	La Strada Rialzata
+Short:	la strada rialzata
+	Descr:
+L'incredibile opera che è questa strada rialzata sembra non
+finire mai, cammini ormai da più di un'ora e ancora non hai
+raggiunto la tua meta. Di tanto in tanto un manipolo di cavalieri
+ti passa accanto a cavallo mentre svolge diligentemente il suo
+compito di ronda. La strada rialzata prosegue ad est e ovest.
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 1
+Exits:
+	Direction:	DIR.EAST
+	Descr:	la strada rialzata
+	Comment:	ExitStatus	0 0 27709 -1
+End
+Exits:
+	Direction:	DIR.WEST
+	Descr:	La strada prosegue ancora
+	Comment:	ExitStatus	0 0 27707 -1
+End

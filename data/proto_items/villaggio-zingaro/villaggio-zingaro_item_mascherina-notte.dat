@@ -1,0 +1,33 @@
+Comment:	Nethack blindfold, la mascherina di Ilario per gli amici
+
+Code: villaggio-zingaro_item_mascherina-notte
+Level: 1
+MaxGlobalQuantity:	0
+Entitype:	ENTITYPE.WEAR
+Sex:	SEX.FEMALE
+MaterialPercentages:	MATERIAL.CLOTH	100%
+Name:	Una [yellowgreen]Mascherina[close] da Notte a Ranocchia
+Short:	una [yellowgreen]mascherina[close] da notte
+Long:	$N appallottolata qui.
+
+Descr:
+Una simpatica [yellowgreen]mascherina[close] da notte su cui  rappresentato il muso di una ranocchia. Ai lati è legato un elastico per poterla indossare.
+DescrTouch: 
+Una mascherina in morbida ciniglia, occhi, naso e bocca della ranocchia sono ricamati e leggermente in rilievo.
+DescrSmell: 
+Odora ancora di nuovo..strano dato che ti saresti aspettato puzza di palude.
+DescrSixth:
+Ottima per chi ha problemi di sonno a causa delle troppa luce, non male però anche in caso di luci abbaglianti diurne.
+
+Value:	52
+Weight: 78g
+
+WearType:
+	Modes:	PART.LEFT_EYE PART.RIGHT_EYE
+	EntityWearMessage:	Infili $N e la sistemi davanti agli occhi.
+	TargetWearMessage:	Attento $N, $n ti ha indossato %part.
+	OthersWearMessage:	Sistema $N davanti agli occhi.
+	EntityRemoveMessage:	Svili delicatamente $N.
+	TargetRemoveMessage:	Attento $N, $n ti ha tolto %part.
+	OthersRemoveMessage:	Leva $N.
+End

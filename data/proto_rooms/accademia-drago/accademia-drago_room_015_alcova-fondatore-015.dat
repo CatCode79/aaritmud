@@ -1,0 +1,114 @@
+Code:	accademia-drago_room_015_alcova-fondatore-015
+Sector:	SECTOR.HOUSE
+Flags:	ROOM.INSIDE
+Name:	[white]l'Alcova del Fondatore[close]
+Short:	[white]l'alcova del fondatore[close]
+	Descr:
+Ti trovi in una stanza in cui, dietro un cordone rosso, è stato
+ricostruito un bellissimo studio, tutto il mobilio è in noce
+massello, un grosso tavolo ricoperto di carte e tomi, due
+librerie ricolme fino a scoppiare ed un plastico che rappresenta
+vasti territori che stenti a riconoscere. Davanti al cordone si
+trova un leggio su cui è posto un volumetto. Alla scrivania un
+uomo siede tra le carte, di tanto in tanto si alza, passeggia ed
+abbozza persino qualche colpo di scherma...
+
+
+Width:	6m
+Depth:	6m
+Height:	2m
+
+Comment:	ROOMSTATUS	0 0
+Exits:
+	Direction:	DIR.EAST
+	Destination:	0 -1 0 accademia-drago
+	Descr:	l'accesso al museo
+	Comment:	ExitStatus	0 0 013 -1
+End
+Exits:
+	Direction:	DIR.SOUTH
+	Destination:	-2 -3 0 accademia-drago
+	Descr:	le mura del generale
+	Comment:	ExitStatus	0 0 042 -1
+End
+Extras:
+	Keywords:	volumetto
+		Descr:
+State ammirando la ricostruzione dello Studio di Merisio, il
+fondatore dell'ordine dei cavalieri dei draghi che in un'epoca
+ormai remota, strinse con Lamreloc un patto di eterna alleanza.
+
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
